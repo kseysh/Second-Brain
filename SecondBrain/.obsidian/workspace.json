@@ -1,0 +1,209 @@
+{
+  "main": {
+    "id": "03bd112d52573c22",
+    "type": "split",
+    "children": [
+      {
+        "id": "5b786355301e30fa",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "dad201c7170938c3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "JAVA/자바의 정석/다형성.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "8570f29d9d05bc71",
+    "type": "split",
+    "children": [
+      {
+        "id": "006c58a0bbdf3d7b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "77e0b92a051c28ac",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "byCreatedTime"
+              }
+            }
+          },
+          {
+            "id": "98b99bcebe54855a",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "f07e7ba24cb058c2",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200
+  },
+  "right": {
+    "id": "feabab388e8825fc",
+    "type": "split",
+    "children": [
+      {
+        "id": "87792f4983c44499",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "510fb2314caaf6f8",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "JAVA/자바의 정석/다형성.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "d2e89fc8847412f6",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "JAVA/자바의 정석/다형성.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "a8c88c7ab9137d83",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "05e35cc17400584f",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "JAVA/자바의 정석/다형성.md"
+              }
+            }
+          },
+          {
+            "id": "8bdcc9afcd9b877c",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 4
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:퀵 스위처 열기": false,
+      "graph:그래프 뷰 열기": false,
+      "canvas:새 캔버스 만들기": false,
+      "daily-notes:오늘의 데일리 노트 열기": false,
+      "templates:템플릿 삽입": false,
+      "command-palette:명령어 팔레트 열기": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false
+    }
+  },
+  "active": "dad201c7170938c3",
+  "lastOpenFiles": [
+    "JAVA/자바의 정석/제어자.md",
+    "JAVA/자바의 정석/다형성.md",
+    "JAVA/자바의 정석/조상의 생성자 - super().md",
+    "JAVA/자바의 정석/오버로딩 vs 오버라이딩.md",
+    "JAVA/자바의 정석",
+    "네트워크/HTTP/프론트와 백엔드의 쿠키 공유.md",
+    "JAVA/자바의 정석/모든 클래스의 최고조상 - Object 클래스.md",
+    "JAVA/자바의 정석/클래스간의 관계결정하기 - 상속 vs 포함.md",
+    "JAVA/자바의 정석/초기화 블록.md",
+    "JAVA/자바의 정석/생성자에서 다른 생성자 호출하기 - this().md",
+    "Django/RESTful 한 API란.md",
+    "Django/Session이란.md",
+    "Django/null = True와 blank = True의 차이.md",
+    "Django/Model/Fields 종류.md",
+    "Django/Model/Fields option.md",
+    "Django/AUTH/JWT를 이용한 회원가입 및 로그인.md",
+    "Django/AUTH/django 카카오 소셜 로그인.md",
+    "spring/spring에서 Test코드 작성시의 주의사항.md",
+    "spring/IOC와 DI.md",
+    "spring/객체 지향의 5대 설계 원칙 (SOLID).md",
+    "네트워크/HTTP/JWT란.md",
+    "네트워크/HTTP/CORS란.md",
+    "네트워크/HTTP/서버 인증의 종류.md",
+    "JAVA/JAVA의 동작원리.md",
+    "JAVA/자바의 정석/클래스메서드와 인스턴스메서드.md",
+    "Obsidian/이미지 사이즈 변경하는 방법.md",
+    "Obsidian/간단한 기호들.md",
+    "Attached files/Pasted image 20230831153917.png",
+    "Attached files/Pasted image 20230829160228.png",
+    "Attached files/Pasted image 20230829154536.png",
+    "Attached files/Pasted image 20230829151436.png",
+    "DB",
+    "Attached files/Pasted image 20230824151536.png",
+    "Attached files/Pasted image 20230815144734.png",
+    "Attached files/Pasted image 20230815144653.png",
+    "Attached files/Pasted image 20230815144641.png",
+    "Attached files/Pasted image 20230815144625.png",
+    "Attached files/a2226b951ca989affeab32c7eca7b1492e999631.png",
+    "Django/AUTH",
+    "네트워크/HTTP",
+    "네트워크",
+    "JAVA",
+    "ERROR_Diary/docker",
+    "Django/배포",
+    "IDEA/아이디에이션 방법",
+    "IDEA",
+    "무제 파일.canvas"
+  ]
+}
