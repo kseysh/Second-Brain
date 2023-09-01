@@ -1,8 +1,8 @@
 {
   "commitMessage": "feat: 옵시디언 데이터 업데이트 : {{date}}",
   "commitDateFormat": "YYYY-MM-DD HH:mm:ss",
-  "autoSaveInterval": 1,
-  "autoPushInterval": 2,
+  "autoSaveInterval": 10,
+  "autoPushInterval": 60,
   "autoPullInterval": 0,
   "autoPullOnBoot": false,
   "disablePush": false,
