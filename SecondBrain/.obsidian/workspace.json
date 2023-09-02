@@ -18,8 +18,19 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "381edf9a229e0497",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.4.5"
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -156,7 +167,7 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "dad201c7170938c3",
+  "active": "381edf9a229e0497",
   "lastOpenFiles": [
     "2023-09-01.md",
     "JAVA/자바의 정석/다형성.md",
