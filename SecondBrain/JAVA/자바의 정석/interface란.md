@@ -49,7 +49,25 @@
 ex)
 ![[Pasted image 20230902161954.png]]
 
+## 디폴트 메서드
+- 인터페이스에 새로운 메서드를 추가한다면 이 인터페이스를 구현한 기존의 모든 클래스가 이 메서드를 구현해야한다.
+- 이 문제를 해결하기 위해 디폴트 메서드라는 것이 생김.
+- 디폴트 메서드는 추상 메서드의 기본 구현을 제공한다. 그래서 몸통{ }을 가지고 있으며, 앞에 'default'를 붙이고 항상 public이다.(생략 가능)
 
+```
+interface MyInterface{
+	void method();
+	void newMethod(); // 추상 메서드
+}
+
+------------ ↓ -------------
+
+interface MyInterface{
+	void method();
+	default void newMethod(){} // 추상 메서드
+}
+
+```
 
 
 
