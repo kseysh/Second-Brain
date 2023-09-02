@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "JAVA/자바의 정석/interface란.md",
+                "file": "JAVA/자바의 정석/inner class란.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "JAVA/자바의 정석/interface란.md",
+                "file": "JAVA/자바의 정석/inner class란.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "JAVA/자바의 정석/interface란.md",
+                "file": "JAVA/자바의 정석/inner class란.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "JAVA/자바의 정석/interface란.md"
+                "file": "JAVA/자바의 정석/inner class란.md"
               }
             }
           },
@@ -158,9 +158,10 @@
   },
   "active": "dad201c7170938c3",
   "lastOpenFiles": [
+    "JAVA/자바의 정석/interface란.md",
+    "JAVA/자바의 정석/inner class란.md",
     "JAVA/자바의 정석/abstract 란.md",
     "JAVA/자바의 정석/여러 종류의 객체를 하나의 배열로 다루기.md",
-    "JAVA/자바의 정석/interface란.md",
     "Attached files/Pasted image 20230902161954.png",
     "JAVA/자바의 정석/참조변수의 형변환.md",
     "JAVA/자바의 정석/모든 클래스의 최고조상 - Object 클래스.md",
