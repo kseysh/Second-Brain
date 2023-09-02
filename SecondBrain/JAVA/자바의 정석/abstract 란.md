@@ -58,7 +58,7 @@ abstract class Unit{
 
 class Marine extends Unit {
 	int x, y;
-	void move(int x, int y) { 이동하는 코드 } // 추상메서드가 호출되는 것이 아니라 각 자손들에 실제로 구현된 move 함수가 호출된다.
+	void move(int x, int y) { 이동하는 코드 } // 추상메서드가 호출되는 것이 아니라 각 자손들에 실제로 구현된 move 함가 호출된다.
 	void stimPack() { 스팀팩 사용 }
 }
 
@@ -69,3 +69,5 @@ class Tank extends Unit {
 }
 
 ```
+
+[[다형성]]
