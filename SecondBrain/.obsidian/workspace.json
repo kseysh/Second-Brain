@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "JAVA/자바의 정석/여러 종류의 객체를 하나의 배열로 다루기.md",
+                "file": "JAVA/자바의 정석/추상클래스란.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "JAVA/자바의 정석/여러 종류의 객체를 하나의 배열로 다루기.md",
+                "file": "JAVA/자바의 정석/추상클래스란.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "JAVA/자바의 정석/여러 종류의 객체를 하나의 배열로 다루기.md",
+                "file": "JAVA/자바의 정석/추상클래스란.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "JAVA/자바의 정석/여러 종류의 객체를 하나의 배열로 다루기.md"
+                "file": "JAVA/자바의 정석/추상클래스란.md"
               }
             }
           },
@@ -158,10 +158,11 @@
   },
   "active": "dad201c7170938c3",
   "lastOpenFiles": [
+    "JAVA/자바의 정석/여러 종류의 객체를 하나의 배열로 다루기.md",
+    "JAVA/자바의 정석/추상클래스란.md",
     "JAVA/자바의 정석/참조변수의 형변환.md",
     "JAVA/자바의 정석/모든 클래스의 최고조상 - Object 클래스.md",
     "Obsidian/간단한 기호들.md",
-    "JAVA/자바의 정석/여러 종류의 객체를 하나의 배열로 다루기.md",
     "JAVA/자바의 정석/생성자에서 다른 생성자 호출하기 - this().md",
     "JAVA/자바의 정석/다형성.md",
     "2023-09-01.md",
@@ -184,7 +185,6 @@
     "spring/객체 지향의 5대 설계 원칙 (SOLID).md",
     "네트워크/HTTP/JWT란.md",
     "네트워크/HTTP/CORS란.md",
-    "네트워크/HTTP/서버 인증의 종류.md",
     "Attached files/Pasted image 20230831153917.png",
     "Attached files/Pasted image 20230829160228.png",
     "Attached files/Pasted image 20230829154536.png",
