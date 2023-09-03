@@ -9,3 +9,11 @@ of() 메소드나 ofNullable() 메소드를 사용하여 Optional 객체를 생
 of() 메소드는 null이 아닌 명시된 값을 가지는 Optional 객체를 반환합니다.
 만약 of() 메소드를 통해 생성된 Optional 객체에 null이 저장되면 NullPointerException 예외가 발생합니다.
 따라서 만약 참조 변수의 값이 만에 하나 null이 될 가능성이 있다면, ofNullable() 메소드를 사용하여 Optional 객체를 생성하는 것이 좋습니다.
+
+# Optional 객체에 접근
+
+get() 메소드를 사용하면 Optional 객체에 저장된 값에 접근할 수 있습니다.
+
+만약 Optional 객체에 저장된 값이 null이면, NoSuchElementException 예외가 발생합니다.
+
+따라서 get() 메소드를 호출하기 전에 isPresent() 메소드를 사용하여 Optional 객체에 저장된 값이 null인지 아닌지를 먼저 확인한 후 호출하는 것이 좋습니다.
