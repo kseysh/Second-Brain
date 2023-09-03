@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "JAVA/자바의 정석/클래스메서드와 인스턴스메서드.md",
+                "file": "Spring/Intellij 단축키 정리.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "JAVA/자바의 정석/클래스메서드와 인스턴스메서드.md",
+                "file": "Spring/Intellij 단축키 정리.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "JAVA/자바의 정석/클래스메서드와 인스턴스메서드.md",
+                "file": "Spring/Intellij 단축키 정리.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "JAVA/자바의 정석/클래스메서드와 인스턴스메서드.md"
+                "file": "Spring/Intellij 단축키 정리.md"
               }
             }
           },
@@ -158,8 +158,8 @@
   },
   "active": "dad201c7170938c3",
   "lastOpenFiles": [
-    "JAVA/자바의 정석/생성자에서 다른 생성자 호출하기 - this().md",
     "JAVA/자바의 정석/클래스메서드와 인스턴스메서드.md",
+    "JAVA/자바의 정석/생성자에서 다른 생성자 호출하기 - this().md",
     "JAVA/Collection의 종류.md",
     "JAVA/ArrayList를 사용한 배열.md",
     "Obsidian/간단한 기호들.md",
