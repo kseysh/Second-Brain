@@ -47,12 +47,19 @@ List names = new ArrayList();
 List ages = new ArrayList();
 List weights = new ArrayList();
 List trueOrFalse = new ArrayList();
+-------------↓---------------
+List names<String> = new ArrayList();
+List ages<Integer> = new ArrayList();
+List weights<Double> = new ArrayList();
+List trueOrFalse<Boolean> = new ArrayList();
 ```
 
 ### ✅ 이렇게도 쓰지 말자 2
 
 ```java
-List<String> names = new ArrayList<**String**>();
+List<String> names = new ArrayList<String>();
+-------------↓---------------
+List<String> names = new ArrayList<>();
 ```
 
 `=`(등호)의 오른쪽에 있는 부분의 제네릭의 타입은 생략할 수 있다. 그러니 쓰지 않도록 하자.
