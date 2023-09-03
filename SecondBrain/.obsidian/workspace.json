@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "JAVA/Collection의 종류.md",
+                "file": "JAVA/자바의 정석/클래스메서드와 인스턴스메서드.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "JAVA/Collection의 종류.md",
+                "file": "JAVA/자바의 정석/클래스메서드와 인스턴스메서드.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "JAVA/Collection의 종류.md",
+                "file": "JAVA/자바의 정석/클래스메서드와 인스턴스메서드.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "JAVA/Collection의 종류.md"
+                "file": "JAVA/자바의 정석/클래스메서드와 인스턴스메서드.md"
               }
             }
           },
@@ -158,8 +158,10 @@
   },
   "active": "dad201c7170938c3",
   "lastOpenFiles": [
-    "JAVA/ArrayList를 사용한 배열.md",
+    "JAVA/자바의 정석/생성자에서 다른 생성자 호출하기 - this().md",
+    "JAVA/자바의 정석/클래스메서드와 인스턴스메서드.md",
     "JAVA/Collection의 종류.md",
+    "JAVA/ArrayList를 사용한 배열.md",
     "Obsidian/간단한 기호들.md",
     "Spring/스프링 웹 애플리케이션 계층 구조.md",
     "Spring/spring에서 Test코드 작성시의 주의사항.md",
@@ -171,7 +173,6 @@
     "Spring/인터페이스와 구현체.md",
     "JAVA/자바의 정석/inner class란.md",
     "Django.md",
-    "JAVA/자바의 정석/클래스메서드와 인스턴스메서드.md",
     "JAVA/JAVA의 동작원리.md",
     "ERROR_Diary/django model 변경 오류.md",
     "ERROR_Diary/nginx 502 error.md",
@@ -183,7 +184,6 @@
     "Attached files/Pasted image 20230902161954.png",
     "JAVA/자바의 정석/참조변수의 형변환.md",
     "JAVA/자바의 정석/모든 클래스의 최고조상 - Object 클래스.md",
-    "JAVA/자바의 정석/생성자에서 다른 생성자 호출하기 - this().md",
     "JAVA/자바의 정석/다형성.md",
     "JAVA/자바의 정석",
     "Attached files/Pasted image 20230831153917.png",
