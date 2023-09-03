@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Spring/테스트 케이스를 작성하는 방법.md",
+                "file": "IDEA/아이디어 폴더/서비스 아이디어.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Spring/테스트 케이스를 작성하는 방법.md",
+                "file": "IDEA/아이디어 폴더/서비스 아이디어.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Spring/테스트 케이스를 작성하는 방법.md",
+                "file": "IDEA/아이디어 폴더/서비스 아이디어.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Spring/테스트 케이스를 작성하는 방법.md"
+                "file": "IDEA/아이디어 폴더/서비스 아이디어.md"
               }
             }
           },
@@ -158,8 +158,10 @@
   },
   "active": "dad201c7170938c3",
   "lastOpenFiles": [
-    "Develop/개발 원칙/객체 지향 프로그래밍/객체 지향 프로그래밍의 4가지 특징.md",
+    "JAVA/자바의 정석/클래스메서드와 인스턴스메서드.md",
+    "JAVA/자바의 정석/생성자에서 다른 생성자 호출하기 - this().md",
     "Spring/테스트 케이스를 작성하는 방법.md",
+    "Develop/개발 원칙/객체 지향 프로그래밍/객체 지향 프로그래밍의 4가지 특징.md",
     "Develop/개발 원칙/객체 지향 프로그래밍/객체 지향의 5대 설계 원칙 (SOLID).md",
     "블로깅을 하는 방법.md",
     "IDEA/아이디어 폴더/카페 아이디어.md",
@@ -180,8 +182,6 @@
     "Attached files/객체-지향-프로그래밍-인터페이스.webp",
     "Develop/개발 원칙/객체 지향 프로그래밍",
     "Spring/Intellij 단축키 정리.md",
-    "JAVA/자바의 정석/클래스메서드와 인스턴스메서드.md",
-    "JAVA/자바의 정석/생성자에서 다른 생성자 호출하기 - this().md",
     "JAVA/Collection의 종류.md",
     "JAVA/ArrayList를 사용한 배열.md",
     "Obsidian/간단한 기호들.md",
