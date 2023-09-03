@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Develop/개발 원칙/객체 지향 프로그래밍/객체 지향 프로그래밍의 4가지 특징.md",
+                "file": "Spring/테스트 케이스를 작성하는 방법.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Develop/개발 원칙/객체 지향 프로그래밍/객체 지향 프로그래밍의 4가지 특징.md",
+                "file": "Spring/테스트 케이스를 작성하는 방법.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Develop/개발 원칙/객체 지향 프로그래밍/객체 지향 프로그래밍의 4가지 특징.md",
+                "file": "Spring/테스트 케이스를 작성하는 방법.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Develop/개발 원칙/객체 지향 프로그래밍/객체 지향 프로그래밍의 4가지 특징.md"
+                "file": "Spring/테스트 케이스를 작성하는 방법.md"
               }
             }
           },
@@ -158,8 +158,9 @@
   },
   "active": "dad201c7170938c3",
   "lastOpenFiles": [
-    "Develop/개발 원칙/객체 지향 프로그래밍/객체 지향의 5대 설계 원칙 (SOLID).md",
     "Develop/개발 원칙/객체 지향 프로그래밍/객체 지향 프로그래밍의 4가지 특징.md",
+    "Spring/테스트 케이스를 작성하는 방법.md",
+    "Develop/개발 원칙/객체 지향 프로그래밍/객체 지향의 5대 설계 원칙 (SOLID).md",
     "블로깅을 하는 방법.md",
     "IDEA/아이디어 폴더/카페 아이디어.md",
     "IDEA/아이디어 폴더/서비스 아이디어.md",
@@ -190,7 +191,6 @@
     "Spring/스프링 빈이란.md",
     "JAVA/Obtional 객체.md",
     "Spring/인터페이스와 구현체.md",
-    "JAVA/자바의 정석/inner class란.md",
     "Attached files/Pasted image 20230902161954.png",
     "JAVA/자바의 정석",
     "Attached files/Pasted image 20230831153917.png",
