@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Spring/스프링 웹 애플리케이션 계층 구조.md",
+                "file": "JAVA/자바의 정석/클래스메서드와 인스턴스메서드.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Spring/스프링 웹 애플리케이션 계층 구조.md",
+                "file": "JAVA/자바의 정석/클래스메서드와 인스턴스메서드.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Spring/스프링 웹 애플리케이션 계층 구조.md",
+                "file": "JAVA/자바의 정석/클래스메서드와 인스턴스메서드.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Spring/스프링 웹 애플리케이션 계층 구조.md"
+                "file": "JAVA/자바의 정석/클래스메서드와 인스턴스메서드.md"
               }
             }
           },
@@ -158,10 +158,15 @@
   },
   "active": "dad201c7170938c3",
   "lastOpenFiles": [
+    "JAVA/자바의 정석/생성자에서 다른 생성자 호출하기 - this().md",
+    "JAVA/자바의 정석/초기화 블록.md",
+    "JAVA/자바의 정석/클래스간의 관계결정하기 - 상속 vs 포함.md",
+    "JAVA/자바의 정석/모든 클래스의 최고조상 - Object 클래스.md",
+    "JAVA/자바의 정석/여러 종류의 객체를 하나의 배열로 다루기.md",
+    "Spring/스프링 웹 애플리케이션 계층 구조.md",
     "나중에 더 공부할 내용.md",
     "IDEA/아이디어 폴더/서비스 아이디어.md",
     "JAVA/자바의 정석/클래스메서드와 인스턴스메서드.md",
-    "JAVA/자바의 정석/생성자에서 다른 생성자 호출하기 - this().md",
     "Spring/테스트 케이스를 작성하는 방법.md",
     "Develop/개발 원칙/객체 지향 프로그래밍/객체 지향 프로그래밍의 4가지 특징.md",
     "Develop/개발 원칙/객체 지향 프로그래밍/객체 지향의 5대 설계 원칙 (SOLID).md",
@@ -185,12 +190,7 @@
     "JAVA/Collection의 종류.md",
     "JAVA/ArrayList를 사용한 배열.md",
     "Obsidian/간단한 기호들.md",
-    "Spring/스프링 웹 애플리케이션 계층 구조.md",
     "Spring/spring에서 Test코드 작성시의 주의사항.md",
-    "Spring/IOC와 DI.md",
-    "Spring/스프링 빈이란.md",
-    "JAVA/Obtional 객체.md",
-    "Spring/인터페이스와 구현체.md",
     "Attached files/Pasted image 20230902161954.png",
     "JAVA/자바의 정석",
     "Attached files/Pasted image 20230831153917.png",
