@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "IDEA/아이디어 폴더/서비스 아이디어.md",
+                "file": "나중에 더 공부할 내용.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "IDEA/아이디어 폴더/서비스 아이디어.md",
+                "file": "나중에 더 공부할 내용.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "IDEA/아이디어 폴더/서비스 아이디어.md",
+                "file": "나중에 더 공부할 내용.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "IDEA/아이디어 폴더/서비스 아이디어.md"
+                "file": "나중에 더 공부할 내용.md"
               }
             }
           },
@@ -158,6 +158,7 @@
   },
   "active": "dad201c7170938c3",
   "lastOpenFiles": [
+    "IDEA/아이디어 폴더/서비스 아이디어.md",
     "JAVA/자바의 정석/클래스메서드와 인스턴스메서드.md",
     "JAVA/자바의 정석/생성자에서 다른 생성자 호출하기 - this().md",
     "Spring/테스트 케이스를 작성하는 방법.md",
@@ -165,7 +166,6 @@
     "Develop/개발 원칙/객체 지향 프로그래밍/객체 지향의 5대 설계 원칙 (SOLID).md",
     "블로깅을 하는 방법.md",
     "IDEA/아이디어 폴더/카페 아이디어.md",
-    "IDEA/아이디어 폴더/서비스 아이디어.md",
     "IDEA/아이디에이션 방법/유저 찾기.md",
     "IDEA/아이디에이션 방법/5 whys.md",
     "IDEA/아이디에이션 방법/가장 작은 단위로 아이디어 전개.md",
