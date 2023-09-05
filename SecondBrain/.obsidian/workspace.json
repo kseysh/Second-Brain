@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "JAVA/자바의 정석/클래스메서드와 인스턴스메서드.md",
+                "file": "Django/배포/EC2 인스턴스 SSH로 접속하기.md",
                 "mode": "source",
                 "source": false
               }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "ec2",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -65,7 +65,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -85,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "JAVA/자바의 정석/클래스메서드와 인스턴스메서드.md",
+                "file": "Django/배포/EC2 인스턴스 SSH로 접속하기.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "JAVA/자바의 정석/클래스메서드와 인스턴스메서드.md",
+                "file": "Django/배포/EC2 인스턴스 SSH로 접속하기.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "JAVA/자바의 정석/클래스메서드와 인스턴스메서드.md"
+                "file": "Django/배포/EC2 인스턴스 SSH로 접속하기.md"
               }
             }
           },
@@ -158,6 +159,8 @@
   },
   "active": "dad201c7170938c3",
   "lastOpenFiles": [
+    "Django/RESTful 한 API란.md",
+    "JAVA/자바의 정석/클래스메서드와 인스턴스메서드.md",
     "JAVA/자바의 정석/생성자에서 다른 생성자 호출하기 - this().md",
     "JAVA/자바의 정석/초기화 블록.md",
     "JAVA/자바의 정석/클래스간의 관계결정하기 - 상속 vs 포함.md",
@@ -166,7 +169,6 @@
     "Spring/스프링 웹 애플리케이션 계층 구조.md",
     "나중에 더 공부할 내용.md",
     "IDEA/아이디어 폴더/서비스 아이디어.md",
-    "JAVA/자바의 정석/클래스메서드와 인스턴스메서드.md",
     "Spring/테스트 케이스를 작성하는 방법.md",
     "Develop/개발 원칙/객체 지향 프로그래밍/객체 지향 프로그래밍의 4가지 특징.md",
     "Develop/개발 원칙/객체 지향 프로그래밍/객체 지향의 5대 설계 원칙 (SOLID).md",
@@ -190,7 +192,6 @@
     "JAVA/Collection의 종류.md",
     "JAVA/ArrayList를 사용한 배열.md",
     "Obsidian/간단한 기호들.md",
-    "Spring/spring에서 Test코드 작성시의 주의사항.md",
     "Attached files/Pasted image 20230902161954.png",
     "JAVA/자바의 정석",
     "Attached files/Pasted image 20230831153917.png",
