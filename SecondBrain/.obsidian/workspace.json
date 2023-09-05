@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Django/배포/EC2 인스턴스 SSH로 접속하기.md",
+                "file": "Spring/스프링을 사용하는 이유.md",
                 "mode": "source",
                 "source": false
               }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "ec2",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -65,8 +65,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -86,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Django/배포/EC2 인스턴스 SSH로 접속하기.md",
+                "file": "Spring/스프링을 사용하는 이유.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Django/배포/EC2 인스턴스 SSH로 접속하기.md",
+                "file": "Spring/스프링을 사용하는 이유.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Django/배포/EC2 인스턴스 SSH로 접속하기.md"
+                "file": "Spring/스프링을 사용하는 이유.md"
               }
             }
           },
@@ -159,6 +158,11 @@
   },
   "active": "dad201c7170938c3",
   "lastOpenFiles": [
+    "Spring/AOP.md",
+    "Spring/스프링을 사용하는 이유.md",
+    "Spring/DI.md",
+    "Spring/IOC.md",
+    "Django/배포/EC2 인스턴스 SSH로 접속하기.md",
     "Django/RESTful 한 API란.md",
     "JAVA/자바의 정석/클래스메서드와 인스턴스메서드.md",
     "JAVA/자바의 정석/생성자에서 다른 생성자 호출하기 - this().md",
@@ -181,17 +185,12 @@
     "해커톤 관련.md",
     "Git",
     "Develop/개발 원칙/객체 지향 프로그래밍/객체 지향 프로그래밍을 사용하는 이유.md",
-    "Develop/개발 원칙/객체 지향 프로그래밍/객체란 (미완).md",
     "Attached files/객체-지향-프로그래밍-특징-4.webp",
     "Attached files/객체-지향-프로그래밍-드라이버-클래스-예시.webp",
     "Attached files/객체-지향-프로그래밍-오토바이-클래스.webp",
     "Attached files/객체-지향-프로그래밍-자동차-클래스.webp",
     "Attached files/객체-지향-프로그래밍-인터페이스.webp",
     "Develop/개발 원칙/객체 지향 프로그래밍",
-    "Spring/Intellij 단축키 정리.md",
-    "JAVA/Collection의 종류.md",
-    "JAVA/ArrayList를 사용한 배열.md",
-    "Obsidian/간단한 기호들.md",
     "Attached files/Pasted image 20230902161954.png",
     "JAVA/자바의 정석",
     "Attached files/Pasted image 20230831153917.png",
