@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Spring/스프링을 사용하는 이유.md",
+                "file": "IDEA/아이디어 폴더/서비스 아이디어.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Spring/스프링을 사용하는 이유.md",
+                "file": "IDEA/아이디어 폴더/서비스 아이디어.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Spring/스프링을 사용하는 이유.md",
+                "file": "IDEA/아이디어 폴더/서비스 아이디어.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Spring/스프링을 사용하는 이유.md"
+                "file": "IDEA/아이디어 폴더/서비스 아이디어.md"
               }
             }
           },
@@ -158,8 +158,9 @@
   },
   "active": "dad201c7170938c3",
   "lastOpenFiles": [
-    "Spring/AOP.md",
+    "IDEA/아이디어 폴더/카페 아이디어.md",
     "Spring/스프링을 사용하는 이유.md",
+    "Spring/AOP.md",
     "Spring/DI.md",
     "Spring/IOC.md",
     "Django/배포/EC2 인스턴스 SSH로 접속하기.md",
@@ -177,7 +178,6 @@
     "Develop/개발 원칙/객체 지향 프로그래밍/객체 지향 프로그래밍의 4가지 특징.md",
     "Develop/개발 원칙/객체 지향 프로그래밍/객체 지향의 5대 설계 원칙 (SOLID).md",
     "블로깅을 하는 방법.md",
-    "IDEA/아이디어 폴더/카페 아이디어.md",
     "IDEA/아이디에이션 방법/유저 찾기.md",
     "IDEA/아이디에이션 방법/5 whys.md",
     "IDEA/아이디에이션 방법/가장 작은 단위로 아이디어 전개.md",
