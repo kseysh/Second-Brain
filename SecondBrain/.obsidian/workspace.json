@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "IDEA/아이디어 폴더/서비스 아이디어.md",
+                "file": "Develop/개발 원칙/객체 지향 프로그래밍/객체 지향 프로그래밍의 4가지 특징.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "IDEA/아이디어 폴더/서비스 아이디어.md",
+                "file": "Develop/개발 원칙/객체 지향 프로그래밍/객체 지향 프로그래밍의 4가지 특징.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "IDEA/아이디어 폴더/서비스 아이디어.md",
+                "file": "Develop/개발 원칙/객체 지향 프로그래밍/객체 지향 프로그래밍의 4가지 특징.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "IDEA/아이디어 폴더/서비스 아이디어.md"
+                "file": "Develop/개발 원칙/객체 지향 프로그래밍/객체 지향 프로그래밍의 4가지 특징.md"
               }
             }
           },
@@ -158,6 +158,9 @@
   },
   "active": "dad201c7170938c3",
   "lastOpenFiles": [
+    "Develop/개발 원칙/객체 지향 프로그래밍/객체 지향 프로그래밍을 사용하는 이유.md",
+    "Develop/개발 원칙/객체 지향 프로그래밍/객체란 (미완).md",
+    "IDEA/아이디어 폴더/서비스 아이디어.md",
     "IDEA/아이디어 폴더/카페 아이디어.md",
     "Spring/스프링을 사용하는 이유.md",
     "Spring/AOP.md",
@@ -173,7 +176,6 @@
     "JAVA/자바의 정석/여러 종류의 객체를 하나의 배열로 다루기.md",
     "Spring/스프링 웹 애플리케이션 계층 구조.md",
     "나중에 더 공부할 내용.md",
-    "IDEA/아이디어 폴더/서비스 아이디어.md",
     "Spring/테스트 케이스를 작성하는 방법.md",
     "Develop/개발 원칙/객체 지향 프로그래밍/객체 지향 프로그래밍의 4가지 특징.md",
     "Develop/개발 원칙/객체 지향 프로그래밍/객체 지향의 5대 설계 원칙 (SOLID).md",
@@ -182,9 +184,7 @@
     "IDEA/아이디에이션 방법/5 whys.md",
     "IDEA/아이디에이션 방법/가장 작은 단위로 아이디어 전개.md",
     "Git/커밋 메시지 작성 방법.md",
-    "해커톤 관련.md",
     "Git",
-    "Develop/개발 원칙/객체 지향 프로그래밍/객체 지향 프로그래밍을 사용하는 이유.md",
     "Attached files/객체-지향-프로그래밍-특징-4.webp",
     "Attached files/객체-지향-프로그래밍-드라이버-클래스-예시.webp",
     "Attached files/객체-지향-프로그래밍-오토바이-클래스.webp",
