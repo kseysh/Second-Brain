@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DataStructure/Directed Graphs.md",
+                "file": "나중에 더 공부할 내용.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DataStructure/Directed Graphs.md",
+                "file": "나중에 더 공부할 내용.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "DataStructure/Directed Graphs.md",
+                "file": "나중에 더 공부할 내용.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DataStructure/Directed Graphs.md"
+                "file": "나중에 더 공부할 내용.md"
               }
             }
           },
@@ -158,6 +158,10 @@
   },
   "active": "dad201c7170938c3",
   "lastOpenFiles": [
+    "블로깅을 하는 방법.md",
+    "Obsidian/옵시디언 사용법.md",
+    "Chatgpt/Chatgpt prompt.md",
+    "DataStructure/Directed Graphs.md",
     "Develop/개발 원칙/객체 지향 프로그래밍/객체 지향 프로그래밍의 4가지 특징.md",
     "Develop/개발 원칙/객체 지향 프로그래밍/객체 지향 프로그래밍을 사용하는 이유.md",
     "Develop/개발 원칙/객체 지향 프로그래밍/객체란 (미완).md",
@@ -179,11 +183,7 @@
     "나중에 더 공부할 내용.md",
     "Spring/테스트 케이스를 작성하는 방법.md",
     "Develop/개발 원칙/객체 지향 프로그래밍/객체 지향의 5대 설계 원칙 (SOLID).md",
-    "블로깅을 하는 방법.md",
     "IDEA/아이디에이션 방법/유저 찾기.md",
-    "IDEA/아이디에이션 방법/5 whys.md",
-    "IDEA/아이디에이션 방법/가장 작은 단위로 아이디어 전개.md",
-    "Git/커밋 메시지 작성 방법.md",
     "Git",
     "Attached files/객체-지향-프로그래밍-특징-4.webp",
     "Attached files/객체-지향-프로그래밍-드라이버-클래스-예시.webp",
