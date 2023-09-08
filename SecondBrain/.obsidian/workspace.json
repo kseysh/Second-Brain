@@ -11,12 +11,8 @@
             "id": "dad201c7170938c3",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Develop/개발 원칙/객체 지향 프로그래밍/객체 지향 프로그래밍의 4가지 특징.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "graph",
+              "state": {}
             }
           }
         ]
@@ -85,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Develop/개발 원칙/객체 지향 프로그래밍/객체 지향 프로그래밍의 4가지 특징.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Develop/개발 원칙/객체 지향 프로그래밍/객체 지향 프로그래밍의 4가지 특징.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Develop/개발 원칙/객체 지향 프로그래밍/객체 지향 프로그래밍의 4가지 특징.md"
-              }
+              "state": {}
             }
           },
           {
@@ -158,6 +150,7 @@
   },
   "active": "dad201c7170938c3",
   "lastOpenFiles": [
+    "Develop/개발 원칙/객체 지향 프로그래밍/객체 지향 프로그래밍의 4가지 특징.md",
     "Develop/개발 원칙/객체 지향 프로그래밍/객체 지향 프로그래밍을 사용하는 이유.md",
     "Develop/개발 원칙/객체 지향 프로그래밍/객체란 (미완).md",
     "IDEA/아이디어 폴더/서비스 아이디어.md",
@@ -177,7 +170,6 @@
     "Spring/스프링 웹 애플리케이션 계층 구조.md",
     "나중에 더 공부할 내용.md",
     "Spring/테스트 케이스를 작성하는 방법.md",
-    "Develop/개발 원칙/객체 지향 프로그래밍/객체 지향 프로그래밍의 4가지 특징.md",
     "Develop/개발 원칙/객체 지향 프로그래밍/객체 지향의 5대 설계 원칙 (SOLID).md",
     "블로깅을 하는 방법.md",
     "IDEA/아이디에이션 방법/유저 찾기.md",
