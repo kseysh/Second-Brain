@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "나중에 더 공부할 내용.md",
+                "file": "Develop/개발 원칙/객체 지향 프로그래밍/객체 지향 프로그래밍의 4가지 특징.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "나중에 더 공부할 내용.md",
+                "file": "Develop/개발 원칙/객체 지향 프로그래밍/객체 지향 프로그래밍의 4가지 특징.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "나중에 더 공부할 내용.md",
+                "file": "Develop/개발 원칙/객체 지향 프로그래밍/객체 지향 프로그래밍의 4가지 특징.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "나중에 더 공부할 내용.md"
+                "file": "Develop/개발 원칙/객체 지향 프로그래밍/객체 지향 프로그래밍의 4가지 특징.md"
               }
             }
           },
@@ -158,32 +158,32 @@
   },
   "active": "dad201c7170938c3",
   "lastOpenFiles": [
-    "블로깅을 하는 방법.md",
-    "Obsidian/옵시디언 사용법.md",
-    "Chatgpt/Chatgpt prompt.md",
-    "DataStructure/Directed Graphs.md",
-    "Develop/개발 원칙/객체 지향 프로그래밍/객체 지향 프로그래밍의 4가지 특징.md",
     "Develop/개발 원칙/객체 지향 프로그래밍/객체 지향 프로그래밍을 사용하는 이유.md",
     "Develop/개발 원칙/객체 지향 프로그래밍/객체란 (미완).md",
-    "IDEA/아이디어 폴더/서비스 아이디어.md",
-    "IDEA/아이디어 폴더/카페 아이디어.md",
-    "Spring/스프링을 사용하는 이유.md",
+    "Develop/개발 원칙/개발자의 글쓰기.md",
+    "Develop/개발 시 유용한 단축키 모음.md",
+    "JAVA/자바의 정석/inner class란.md",
+    "JAVA/자바의 정석/interface란.md",
+    "JAVA/자바의 정석/abstract 란.md",
+    "JAVA/자바의 정석/여러 종류의 객체를 하나의 배열로 다루기.md",
+    "JAVA/자바의 정석/참조변수의 형변환.md",
+    "JAVA/자바의 정석/제어자.md",
+    "Spring/Spring boot 빌드 및 실행.md",
+    "Spring/Spring MVC.md",
+    "Spring/스프링 웹 애플리케이션 계층 구조.md",
+    "Spring/spring에서 Test코드 작성시의 주의사항.md",
+    "Spring/Intellij 단축키 정리.md",
+    "Spring/스프링 빈이란.md",
+    "Spring/테스트 케이스를 작성하는 방법.md",
     "Spring/AOP.md",
-    "Spring/DI.md",
-    "Spring/IOC.md",
-    "Django/배포/EC2 인스턴스 SSH로 접속하기.md",
-    "Django/RESTful 한 API란.md",
+    "JAVA/JAVA의 동작원리.md",
     "JAVA/자바의 정석/클래스메서드와 인스턴스메서드.md",
     "JAVA/자바의 정석/생성자에서 다른 생성자 호출하기 - this().md",
-    "JAVA/자바의 정석/초기화 블록.md",
     "JAVA/자바의 정석/클래스간의 관계결정하기 - 상속 vs 포함.md",
+    "JAVA/자바의 정석/초기화 블록.md",
+    "JAVA/자바의 정석/오버로딩 vs 오버라이딩.md",
     "JAVA/자바의 정석/모든 클래스의 최고조상 - Object 클래스.md",
-    "JAVA/자바의 정석/여러 종류의 객체를 하나의 배열로 다루기.md",
-    "Spring/스프링 웹 애플리케이션 계층 구조.md",
-    "나중에 더 공부할 내용.md",
-    "Spring/테스트 케이스를 작성하는 방법.md",
-    "Develop/개발 원칙/객체 지향 프로그래밍/객체 지향의 5대 설계 원칙 (SOLID).md",
-    "IDEA/아이디에이션 방법/유저 찾기.md",
+    "JAVA/자바의 정석/조상의 생성자 - super().md",
     "Git",
     "Attached files/객체-지향-프로그래밍-특징-4.webp",
     "Attached files/객체-지향-프로그래밍-드라이버-클래스-예시.webp",
