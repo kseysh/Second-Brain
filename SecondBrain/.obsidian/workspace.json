@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Develop/개발 원칙/객체 지향 프로그래밍/객체 지향 프로그래밍의 4가지 특징.md",
+                "file": "IDEA/아이디어 폴더/서비스 아이디어.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Develop/개발 원칙/객체 지향 프로그래밍/객체 지향 프로그래밍의 4가지 특징.md",
+                "file": "IDEA/아이디어 폴더/서비스 아이디어.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Develop/개발 원칙/객체 지향 프로그래밍/객체 지향 프로그래밍의 4가지 특징.md",
+                "file": "IDEA/아이디어 폴더/서비스 아이디어.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Develop/개발 원칙/객체 지향 프로그래밍/객체 지향 프로그래밍의 4가지 특징.md"
+                "file": "IDEA/아이디어 폴더/서비스 아이디어.md"
               }
             }
           },
@@ -158,6 +158,7 @@
   },
   "active": "dad201c7170938c3",
   "lastOpenFiles": [
+    "Develop/개발 원칙/객체 지향 프로그래밍/객체 지향 프로그래밍의 4가지 특징.md",
     "Develop/개발 원칙/객체 지향 프로그래밍/객체 지향 프로그래밍을 사용하는 이유.md",
     "Develop/개발 원칙/객체 지향 프로그래밍/객체란 (미완).md",
     "Develop/개발 원칙/개발자의 글쓰기.md",
@@ -183,7 +184,6 @@
     "JAVA/자바의 정석/초기화 블록.md",
     "JAVA/자바의 정석/오버로딩 vs 오버라이딩.md",
     "JAVA/자바의 정석/모든 클래스의 최고조상 - Object 클래스.md",
-    "JAVA/자바의 정석/조상의 생성자 - super().md",
     "Git",
     "Attached files/객체-지향-프로그래밍-특징-4.webp",
     "Attached files/객체-지향-프로그래밍-드라이버-클래스-예시.webp",
