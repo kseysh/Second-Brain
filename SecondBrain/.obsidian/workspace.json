@@ -13,13 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "IDEA/아이디어 폴더/서비스 아이디어.md",
+                "file": "Develop/개발 원칙/객체 지향 프로그래밍/객체 지향 프로그래밍.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "ededc02ff28e09ac",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Develop/개발 원칙/객체 지향 프로그래밍/객체 (미완).md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "IDEA/아이디어 폴더/서비스 아이디어.md",
+                "file": "Develop/개발 원칙/객체 지향 프로그래밍/객체 (미완).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "IDEA/아이디어 폴더/서비스 아이디어.md",
+                "file": "Develop/개발 원칙/객체 지향 프로그래밍/객체 (미완).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "IDEA/아이디어 폴더/서비스 아이디어.md"
+                "file": "Develop/개발 원칙/객체 지향 프로그래밍/객체 (미완).md"
               }
             }
           },
@@ -156,12 +169,18 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "dad201c7170938c3",
+  "active": "ededc02ff28e09ac",
   "lastOpenFiles": [
-    "Develop/개발 원칙/객체 지향 프로그래밍/객체 지향 프로그래밍의 4가지 특징.md",
-    "Develop/개발 원칙/객체 지향 프로그래밍/객체 지향 프로그래밍을 사용하는 이유.md",
-    "Develop/개발 원칙/객체 지향 프로그래밍/객체란 (미완).md",
+    "Develop/개발 원칙/객체 지향 프로그래밍/객체 지향 프로그래밍.md",
+    "Develop/개발 원칙/객체 지향 프로그래밍/객체 지향의 5대 설계 원칙 (SOLID).md",
     "Develop/개발 원칙/개발자의 글쓰기.md",
+    "Develop/개발 원칙/객체 지향 프로그래밍/상속.md",
+    "Develop/개발 원칙/객체 지향 프로그래밍/추상화.md",
+    "Develop/개발 원칙/객체 지향 프로그래밍/다형성.md",
+    "Develop/개발 원칙/객체 지향 프로그래밍/캡슐화.md",
+    "Develop/개발 원칙/객체 지향 프로그래밍/객체 (미완).md",
+    "Develop/개발 원칙/객체 지향 프로그래밍/객체 지향 프로그래밍을 사용하는 이유.md",
+    "IDEA/아이디어 폴더/서비스 아이디어.md",
     "Develop/개발 시 유용한 단축키 모음.md",
     "JAVA/자바의 정석/inner class란.md",
     "JAVA/자바의 정석/interface란.md",
@@ -178,12 +197,6 @@
     "Spring/테스트 케이스를 작성하는 방법.md",
     "Spring/AOP.md",
     "JAVA/JAVA의 동작원리.md",
-    "JAVA/자바의 정석/클래스메서드와 인스턴스메서드.md",
-    "JAVA/자바의 정석/생성자에서 다른 생성자 호출하기 - this().md",
-    "JAVA/자바의 정석/클래스간의 관계결정하기 - 상속 vs 포함.md",
-    "JAVA/자바의 정석/초기화 블록.md",
-    "JAVA/자바의 정석/오버로딩 vs 오버라이딩.md",
-    "JAVA/자바의 정석/모든 클래스의 최고조상 - Object 클래스.md",
     "Git",
     "Attached files/객체-지향-프로그래밍-특징-4.webp",
     "Attached files/객체-지향-프로그래밍-드라이버-클래스-예시.webp",
