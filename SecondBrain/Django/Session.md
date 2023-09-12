@@ -6,4 +6,3 @@ session은 웹 서버와 클라이언트 사이에서 사용자의 상태 정보
 
 ex) login시 session_id를 저장해서 계속 로그인이 유지되게 하고 logout시 session_id를 삭제한다.
 
-[[Django]]

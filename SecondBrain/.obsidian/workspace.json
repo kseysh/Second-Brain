@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DB/데이터 무결성이란.md",
+                "file": "JAVA/자바의 정석/super().md",
                 "mode": "source",
                 "source": false
               }
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DB/데이터 무결성이란.md",
+                "file": "JAVA/자바의 정석/super().md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "DB/데이터 무결성이란.md",
+                "file": "JAVA/자바의 정석/super().md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DB/데이터 무결성이란.md"
+                "file": "JAVA/자바의 정석/super().md"
               }
             }
           },
@@ -183,34 +183,34 @@
   },
   "active": "ededc02ff28e09ac",
   "lastOpenFiles": [
-    "네트워크/HTTP/서버 인증의 종류.md",
-    "네트워크/HTTP/인증 과정에서 쿠키를 사용하는 이유.md",
-    "네트워크/HTTP/프론트와 백엔드의 쿠키 공유.md",
-    "네트워크/HTTP/JWT.md",
-    "네트워크/HTTP/CORS.md",
-    "네트워크/HTTP/CSRF.md",
-    "독서록/개발 관련 도서/개발자의 글쓰기.md",
+    "JAVA/자바의 정석/제어자.md",
+    "JAVA/자바의 정석/참조변수의 형변환.md",
+    "JAVA/자바의 정석/여러 종류의 객체를 하나의 배열로 다루기.md",
+    "JAVA/자바의 정석/abstract.md",
+    "JAVA/자바의 정석/interface.md",
+    "JAVA/자바의 정석/inner class.md",
+    "IDEA/아이디에이션 방법/가장 작은 단위로 아이디어 전개.md",
+    "Git/커밋 메시지 작성 방법.md",
+    "ERROR_Diary/django model 변경 오류.md",
+    "ERROR_Diary/nginx 502 error.md",
+    "ERROR_Diary/docker/Docker file exited.md",
+    "ERROR_Diary/docker/denied - requested access to the resource is denied.md",
+    "Django/url의 상대경로와 절대경로.md",
+    "Django/null = True와 blank = True의 차이.md",
+    "Django/Session.md",
+    "Django/RESTful 한 API.md",
+    "Django/Foreign Key와 참조와 역참조.md",
+    "Django/request의 의미와 기능.md",
+    "Django/역참조.md",
+    "Django/참조.md",
+    "Django/Foreign Key.md",
+    "Django/Model/Fields 종류.md",
+    "Django/Model/기초적인 models.py 작성 방법.md",
+    "Django/Model/Fields option.md",
+    "Django/Model/순환 참조 오류.md",
+    "Django/AUTH/django 카카오 소셜 로그인.md",
     "독서록/자기 계발",
     "독서록/개발 관련 도서",
-    "Develop/개발 원칙/객체 지향 프로그래밍/의존성 역전의 원칙.md",
-    "Develop/개발 원칙/객체 지향 프로그래밍/인터페이스 분리 원칙.md",
-    "Develop/개발 원칙/객체 지향 프로그래밍/개방 폐쇄의 원칙.md",
-    "Develop/개발 원칙/객체 지향 프로그래밍/단일 책임의 원칙.md",
-    "Develop/개발 원칙/객체 지향 프로그래밍/추상화.md",
-    "Develop/개발 원칙/객체 지향 프로그래밍/객체 (미완).md",
-    "Develop/개발 원칙/객체 지향 프로그래밍/객체 지향 프로그래밍.md",
-    "Develop/개발 원칙/객체 지향 프로그래밍/객체 지향의 5대 설계 원칙 (SOLID).md",
-    "Develop/개발 원칙/객체 지향 프로그래밍/리스코브 치환의 원칙.md",
-    "Develop/개발 원칙/객체 지향 프로그래밍/상속.md",
-    "Develop/개발 원칙/객체 지향 프로그래밍/다형성.md",
-    "Develop/개발 원칙/객체 지향 프로그래밍/캡슐화.md",
-    "Develop/개발 원칙/객체 지향 프로그래밍/객체 지향 프로그래밍을 사용하는 이유.md",
-    "IDEA/아이디어 폴더/서비스 아이디어.md",
-    "Develop/개발 시 유용한 단축키 모음.md",
-    "JAVA/자바의 정석/inner class란.md",
-    "JAVA/자바의 정석/interface란.md",
-    "JAVA/자바의 정석/abstract 란.md",
-    "JAVA/자바의 정석/여러 종류의 객체를 하나의 배열로 다루기.md",
     "Git",
     "Attached files/객체-지향-프로그래밍-특징-4.webp",
     "Attached files/객체-지향-프로그래밍-드라이버-클래스-예시.webp",
