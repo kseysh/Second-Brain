@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "JAVA/자바의 정석/interface.md",
+                "file": "네트워크/HTTP/인증 과정에서 쿠키를 사용하는 이유.md",
                 "mode": "source",
                 "source": false
               }
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "JAVA/자바의 정석/interface.md",
+                "file": "네트워크/HTTP/인증 과정에서 쿠키를 사용하는 이유.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "JAVA/자바의 정석/interface.md",
+                "file": "네트워크/HTTP/인증 과정에서 쿠키를 사용하는 이유.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "JAVA/자바의 정석/interface.md"
+                "file": "네트워크/HTTP/인증 과정에서 쿠키를 사용하는 이유.md"
               }
             }
           },
@@ -193,32 +193,32 @@
   },
   "active": "ededc02ff28e09ac",
   "lastOpenFiles": [
+    "네트워크/HTTP/CSRF.md",
+    "네트워크/HTTP/서버 인증의 종류.md",
+    "나중에 더 공부할 내용.md",
+    "블로깅을 하는 방법.md",
+    "Spring/스프링을 사용하는 이유.md",
+    "Spring/AOP.md",
+    "Python/파이썬의 인자 전달 방식.md",
+    "Python/리스트의 얕은 복사와 깊은 복사.md",
+    "Obsidian/옵시디언 사용법.md",
+    "Obsidian/마크다운 사용법.md",
+    "Obsidian/이미지 사이즈 변경하는 방법.md",
+    "Obsidian/간단한 기호들.md",
+    "Obsidian/플러그인 리스트.md",
+    "JAVA/자바의 정석/interface.md",
     "IDEA/아이디에이션 방법/가장 작은 단위로 아이디어 전개.md",
     "IDEA/아이디에이션 방법/5 whys.md",
     "IDEA/아이디에이션 방법/유저 찾기.md",
     "독서록/자기 계발/1만 시간의 재발견.md",
     "Develop/개발 원칙/객체 지향 프로그래밍/추상화.md",
     "IDEA/아이디어 폴더/서비스 아이디어.md",
-    "Obsidian/플러그인 리스트.md",
-    "나중에 더 공부할 내용.md",
-    "블로깅을 하는 방법.md",
     "Spring/Spring boot 빌드 및 실행.md",
     "Spring/Spring MVC.md",
     "Spring/스프링 웹 애플리케이션 계층 구조.md",
     "Spring/spring에서 Test코드 작성시의 주의사항.md",
     "Spring/Intellij 단축키 정리.md",
     "Spring/IOC.md",
-    "Spring/스프링 빈.md",
-    "Spring/테스트 케이스를 작성하는 방법.md",
-    "Spring/스프링을 사용하는 이유.md",
-    "Spring/POJO.md",
-    "Spring/DI.md",
-    "Spring/AOP.md",
-    "Python/파이썬의 인자 전달 방식.md",
-    "Python/python 공부 파일.md",
-    "Python/리스트의 얕은 복사와 깊은 복사.md",
-    "Obsidian/마크다운 사용법.md",
-    "Obsidian/옵시디언 사용법.md",
     "독서록/자기 계발",
     "독서록/개발 관련 도서",
     "Git",
