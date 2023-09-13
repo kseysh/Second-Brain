@@ -32,16 +32,6 @@
             }
           },
           {
-            "id": "4476a008b6ca7e01",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.4.11"
-              }
-            }
-          },
-          {
             "id": "b6053a07fee66d46",
             "type": "leaf",
             "state": {
@@ -54,7 +44,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -201,7 +191,7 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "4476a008b6ca7e01",
+  "active": "ededc02ff28e09ac",
   "lastOpenFiles": [
     "Develop/개발 원칙/객체 지향 프로그래밍/추상화.md",
     "독서록/자기 계발/1만 시간의 재발견.md",
