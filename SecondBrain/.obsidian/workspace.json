@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Spring/스프링을 사용하는 이유.md",
+                "file": "Django/배포/nginx.md",
                 "mode": "source",
                 "source": false
               }
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Spring/스프링을 사용하는 이유.md",
+                "file": "Django/배포/nginx.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Spring/스프링을 사용하는 이유.md",
+                "file": "Django/배포/nginx.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Spring/스프링을 사용하는 이유.md"
+                "file": "Django/배포/nginx.md"
               }
             }
           },
@@ -193,32 +193,32 @@
   },
   "active": "ededc02ff28e09ac",
   "lastOpenFiles": [
+    "Django/배포/Django Web Service 구성.md",
+    "Django/배포/Proxy Server와 로드밸런싱.md",
+    "Django/배포/캐싱.md",
+    "Django/배포/EC2 인스턴스 SSH로 접속하기.md",
+    "Django/배포/Docker를 이용해 Django 배포하기.md",
+    "Django/배포/WS.md",
+    "Django/배포/WAS.md",
+    "Django/배포/로드밸런싱.md",
+    "Django/배포/Proxy Server.md",
+    "Django/배포/SSH.md",
+    "Django/배포/apt와 apt-get의 차이.md",
+    "Django/배포/nginx.md",
+    "Django/배포/Django Swagger.md",
+    "Django/배포/장고 배포시 유의해야 할 점.md",
+    "Django/배포/aws 배포.md",
+    "Django/배포/WS와 WAS의 차이.md",
+    "Django/배포/Swagger 문서 작성방법.md",
+    "Django/배포/업스트림 서버.md",
+    "Django/배포/nginx 디렉터리 의미.md",
+    "Django/배포/EC2.md",
+    "Spring/스프링을 사용하는 이유.md",
     "Spring/프레임 워크.md",
     "Spring/횡단 관심사.md",
-    "Spring/스프링을 사용하는 이유.md",
     "Spring/IOC.md",
     "Spring/AOP.md",
     "네트워크/HTTP/인증 과정에서 쿠키를 사용하는 이유.md",
-    "네트워크/HTTP/CSRF.md",
-    "네트워크/HTTP/서버 인증의 종류.md",
-    "나중에 더 공부할 내용.md",
-    "블로깅을 하는 방법.md",
-    "Python/파이썬의 인자 전달 방식.md",
-    "Python/리스트의 얕은 복사와 깊은 복사.md",
-    "Obsidian/옵시디언 사용법.md",
-    "Obsidian/마크다운 사용법.md",
-    "Obsidian/이미지 사이즈 변경하는 방법.md",
-    "Obsidian/간단한 기호들.md",
-    "Obsidian/플러그인 리스트.md",
-    "JAVA/자바의 정석/interface.md",
-    "IDEA/아이디에이션 방법/가장 작은 단위로 아이디어 전개.md",
-    "IDEA/아이디에이션 방법/5 whys.md",
-    "IDEA/아이디에이션 방법/유저 찾기.md",
-    "독서록/자기 계발/1만 시간의 재발견.md",
-    "Develop/개발 원칙/객체 지향 프로그래밍/추상화.md",
-    "IDEA/아이디어 폴더/서비스 아이디어.md",
-    "Spring/Spring boot 빌드 및 실행.md",
-    "Spring/Spring MVC.md",
     "독서록/자기 계발",
     "독서록/개발 관련 도서",
     "Git",
