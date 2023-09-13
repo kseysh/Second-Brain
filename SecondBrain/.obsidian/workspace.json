@@ -23,12 +23,8 @@
             "id": "ededc02ff28e09ac",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Python/파이썬의 인자 전달 방식.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "graph",
+              "state": {}
             }
           },
           {
@@ -110,7 +106,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Python/파이썬의 인자 전달 방식.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +122,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Python/파이썬의 인자 전달 방식.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -149,9 +143,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Python/파이썬의 인자 전달 방식.md"
-              }
+              "state": {}
             }
           },
           {
@@ -193,6 +185,10 @@
   },
   "active": "ededc02ff28e09ac",
   "lastOpenFiles": [
+    "Python/Pass By Assignment.md",
+    "Python/Call by reference.md",
+    "Python/Call by value.md",
+    "Python/리스트의 얕은 복사와 깊은 복사.md",
     "Django/배포/WAS.md",
     "Django/배포/WS.md",
     "Django/배포/장고 배포시 유의해야 할 점.md",
@@ -215,10 +211,6 @@
     "Django/배포/EC2.md",
     "Spring/스프링을 사용하는 이유.md",
     "Spring/프레임 워크.md",
-    "Spring/횡단 관심사.md",
-    "Spring/IOC.md",
-    "Spring/AOP.md",
-    "네트워크/HTTP/인증 과정에서 쿠키를 사용하는 이유.md",
     "독서록/자기 계발",
     "독서록/개발 관련 도서",
     "Git",

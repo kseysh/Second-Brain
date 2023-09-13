@@ -1,6 +1,6 @@
 인자 전달 방식에는 대표적으로 
-* pass by value
-* pass by reference
+* [[Call by value]]
+* [[Call by reference]]
 방식이 있다.
 
 그렇다면 과연 파이썬은 어떤 인자 전달 방식을 사용할까?
