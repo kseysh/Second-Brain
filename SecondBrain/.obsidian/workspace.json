@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "독서록/자기 계발/1만 시간의 재발견.md",
+                "file": "JAVA/자바의 정석/interface.md",
                 "mode": "source",
                 "source": false
               }
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "독서록/자기 계발/1만 시간의 재발견.md",
+                "file": "JAVA/자바의 정석/interface.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "독서록/자기 계발/1만 시간의 재발견.md",
+                "file": "JAVA/자바의 정석/interface.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "독서록/자기 계발/1만 시간의 재발견.md"
+                "file": "JAVA/자바의 정석/interface.md"
               }
             }
           },
@@ -193,8 +193,11 @@
   },
   "active": "ededc02ff28e09ac",
   "lastOpenFiles": [
-    "Develop/개발 원칙/객체 지향 프로그래밍/추상화.md",
+    "IDEA/아이디에이션 방법/가장 작은 단위로 아이디어 전개.md",
+    "IDEA/아이디에이션 방법/5 whys.md",
+    "IDEA/아이디에이션 방법/유저 찾기.md",
     "독서록/자기 계발/1만 시간의 재발견.md",
+    "Develop/개발 원칙/객체 지향 프로그래밍/추상화.md",
     "IDEA/아이디어 폴더/서비스 아이디어.md",
     "Obsidian/플러그인 리스트.md",
     "나중에 더 공부할 내용.md",
@@ -216,9 +219,6 @@
     "Python/리스트의 얕은 복사와 깊은 복사.md",
     "Obsidian/마크다운 사용법.md",
     "Obsidian/옵시디언 사용법.md",
-    "Obsidian/이미지 사이즈 변경하는 방법.md",
-    "Obsidian/간단한 기호들.md",
-    "JAVA/JAVA의 동작원리.md",
     "독서록/자기 계발",
     "독서록/개발 관련 도서",
     "Git",
