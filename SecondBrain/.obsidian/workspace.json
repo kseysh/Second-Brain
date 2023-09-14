@@ -31,8 +31,12 @@
             "id": "b6053a07fee66d46",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Develop/개발 원칙/객체 지향 프로그래밍/다형성.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ],
@@ -102,6 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Develop/개발 원칙/객체 지향 프로그래밍/다형성.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,6 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Develop/개발 원칙/객체 지향 프로그래밍/다형성.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +145,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Develop/개발 원칙/객체 지향 프로그래밍/다형성.md"
+              }
             }
           },
           {
