@@ -33,7 +33,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DB/NOSQL.md",
+                "file": "DB/SQL.md",
                 "mode": "source",
                 "source": false
               }
@@ -106,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DB/NOSQL.md",
+                "file": "DB/SQL.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "DB/NOSQL.md",
+                "file": "DB/SQL.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DB/NOSQL.md"
+                "file": "DB/SQL.md"
               }
             }
           },
@@ -189,8 +189,8 @@
   },
   "active": "b6053a07fee66d46",
   "lastOpenFiles": [
-    "DB/SQL.md",
     "DB/NOSQL.md",
+    "DB/SQL.md",
     "DB/SQL vs NOSQL.md",
     "네트워크/HTTP/JWT.md",
     "Django/AUTH/JWT를 이용한 회원가입 및 로그인.md",
