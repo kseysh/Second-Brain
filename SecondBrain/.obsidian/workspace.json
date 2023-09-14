@@ -33,7 +33,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Develop/개발 원칙/객체 지향 프로그래밍/다형성.md",
+                "file": "네트워크/HTTP/JWT.md",
                 "mode": "source",
                 "source": false
               }
@@ -106,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Develop/개발 원칙/객체 지향 프로그래밍/다형성.md",
+                "file": "네트워크/HTTP/JWT.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Develop/개발 원칙/객체 지향 프로그래밍/다형성.md",
+                "file": "네트워크/HTTP/JWT.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Develop/개발 원칙/객체 지향 프로그래밍/다형성.md"
+                "file": "네트워크/HTTP/JWT.md"
               }
             }
           },
@@ -189,6 +189,13 @@
   },
   "active": "b6053a07fee66d46",
   "lastOpenFiles": [
+    "Django/AUTH/JWT를 이용한 회원가입 및 로그인.md",
+    "Django/Session.md",
+    "Django/배포/apt와 apt-get의 차이.md",
+    "Django/배포/Docker를 이용해 Django 배포하기.md",
+    "Django/배포/EC2 인스턴스 SSH로 접속하기.md",
+    "Django/배포/aws 배포.md",
+    "Django/배포/EC2.md",
     "Develop/개발 원칙/객체 지향 프로그래밍/다형성.md",
     "Develop/개발 원칙/객체 지향 프로그래밍/캡슐화.md",
     "Develop/개발 원칙/객체 지향 프로그래밍/상속.md",
@@ -206,15 +213,8 @@
     "Django/배포/WAS.md",
     "Django/배포/WS.md",
     "Django/배포/장고 배포시 유의해야 할 점.md",
-    "Django/배포/aws 배포.md",
     "Django/배포/Django Swagger.md",
     "Django/배포/WS와 WAS의 차이.md",
-    "Django/배포/nginx.md",
-    "Django/배포/Django Web Service 구성.md",
-    "Django/배포/Proxy Server와 로드밸런싱.md",
-    "Django/배포/캐싱.md",
-    "Django/배포/EC2 인스턴스 SSH로 접속하기.md",
-    "Django/배포/Docker를 이용해 Django 배포하기.md",
     "독서록/자기 계발",
     "독서록/개발 관련 도서",
     "Git",
