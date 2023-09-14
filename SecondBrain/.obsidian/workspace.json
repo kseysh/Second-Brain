@@ -33,7 +33,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "독서록/자기 계발/1만 시간의 재발견.md",
+                "file": "Develop/개발 원칙/객체 지향 프로그래밍/다형성.md",
                 "mode": "source",
                 "source": false
               }
@@ -106,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "독서록/자기 계발/1만 시간의 재발견.md",
+                "file": "Develop/개발 원칙/객체 지향 프로그래밍/다형성.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "독서록/자기 계발/1만 시간의 재발견.md",
+                "file": "Develop/개발 원칙/객체 지향 프로그래밍/다형성.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "독서록/자기 계발/1만 시간의 재발견.md"
+                "file": "Develop/개발 원칙/객체 지향 프로그래밍/다형성.md"
               }
             }
           },
@@ -189,6 +189,11 @@
   },
   "active": "b6053a07fee66d46",
   "lastOpenFiles": [
+    "Develop/개발 원칙/객체 지향 프로그래밍/캡슐화.md",
+    "Develop/개발 원칙/객체 지향 프로그래밍/상속.md",
+    "Develop/개발 원칙/객체 지향 프로그래밍/추상화.md",
+    "Develop/개발 원칙/객체 지향 프로그래밍/다형성.md",
+    "독서록/자기 계발/1만 시간의 재발견.md",
     "JAVA/자바의 정석/struct.md",
     "블로깅을 하는 방법.md",
     "나중에 더 공부할 내용.md",
@@ -210,11 +215,6 @@
     "Django/배포/캐싱.md",
     "Django/배포/EC2 인스턴스 SSH로 접속하기.md",
     "Django/배포/Docker를 이용해 Django 배포하기.md",
-    "Django/배포/로드밸런싱.md",
-    "Django/배포/Proxy Server.md",
-    "Django/배포/SSH.md",
-    "Django/배포/apt와 apt-get의 차이.md",
-    "Django/배포/Swagger 문서 작성방법.md",
     "독서록/자기 계발",
     "독서록/개발 관련 도서",
     "Git",
