@@ -33,7 +33,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "JAVA/자바의 정석/struct.md",
+                "file": "독서록/자기 계발/1만 시간의 재발견.md",
                 "mode": "source",
                 "source": false
               }
@@ -106,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "JAVA/자바의 정석/struct.md",
+                "file": "독서록/자기 계발/1만 시간의 재발견.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "JAVA/자바의 정석/struct.md",
+                "file": "독서록/자기 계발/1만 시간의 재발견.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "JAVA/자바의 정석/struct.md"
+                "file": "독서록/자기 계발/1만 시간의 재발견.md"
               }
             }
           },
@@ -189,8 +189,8 @@
   },
   "active": "b6053a07fee66d46",
   "lastOpenFiles": [
-    "블로깅을 하는 방법.md",
     "JAVA/자바의 정석/struct.md",
+    "블로깅을 하는 방법.md",
     "나중에 더 공부할 내용.md",
     "Develop/개발 원칙/객체 지향 프로그래밍/단일 책임의 원칙.md",
     "Develop/개발 원칙/객체 지향 프로그래밍/객체 지향 프로그래밍.md",
