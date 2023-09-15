@@ -28,7 +28,7 @@ put 또는 patch method를 사용한다.
 
 > 이것을 사용하는 이유?
 > => restful하게 코드를 작성하려면 url이 같아야하기 때문!
-> [[RESTful 한 API]]
+> [[RESTful API]]
 
 ### ListCreateAPIView
 
