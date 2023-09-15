@@ -45,7 +45,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "네트워크/HTTP/CSRF.md",
+                "file": "네트워크/HTTP/CORS.md",
                 "mode": "source",
                 "source": false
               }
@@ -103,7 +103,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "feabab388e8825fc",
@@ -119,7 +120,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "네트워크/HTTP/CSRF.md",
+                "file": "네트워크/HTTP/CORS.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -136,7 +137,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "네트워크/HTTP/CSRF.md",
+                "file": "네트워크/HTTP/CORS.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -159,7 +160,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "네트워크/HTTP/CSRF.md"
+                "file": "네트워크/HTTP/CORS.md"
               }
             }
           },
@@ -202,6 +203,7 @@
   },
   "active": "682c4371d6b258df",
   "lastOpenFiles": [
+    "네트워크/HTTP/CSRF.md",
     "네트워크/HTTP/인증 과정에서 쿠키를 사용하는 이유.md",
     "Django/배포/WS.md",
     "Django/배포/WAS.md",
@@ -227,7 +229,6 @@
     "나중에 더 공부할 내용.md",
     "Develop/개발 원칙/객체 지향 프로그래밍/단일 책임의 원칙.md",
     "Develop/개발 원칙/객체 지향 프로그래밍/객체 지향 프로그래밍.md",
-    "Python/Pass By Assignment.md",
     "독서록/자기 계발",
     "독서록/개발 관련 도서",
     "Git",
