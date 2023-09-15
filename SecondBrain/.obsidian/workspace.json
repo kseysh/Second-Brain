@@ -33,14 +33,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Django/RESTful API.md",
+                "file": "네트워크/HTTP/인증 과정에서 쿠키를 사용하는 이유.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "682c4371d6b258df",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "네트워크/HTTP/CSRF.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -69,7 +81,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "uri",
+                "query": "csrf",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -107,7 +119,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Django/RESTful API.md",
+                "file": "네트워크/HTTP/CSRF.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -124,7 +136,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Django/RESTful API.md",
+                "file": "네트워크/HTTP/CSRF.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -147,7 +159,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Django/RESTful API.md"
+                "file": "네트워크/HTTP/CSRF.md"
               }
             }
           },
@@ -188,8 +200,12 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "98b99bcebe54855a",
+  "active": "682c4371d6b258df",
   "lastOpenFiles": [
+    "네트워크/HTTP/인증 과정에서 쿠키를 사용하는 이유.md",
+    "Django/배포/WS.md",
+    "Django/배포/WAS.md",
+    "Django/RESTful API.md",
     "DB/SQL.md",
     "DB/NOSQL.md",
     "DB/SQL vs NOSQL.md",
@@ -212,10 +228,6 @@
     "Develop/개발 원칙/객체 지향 프로그래밍/단일 책임의 원칙.md",
     "Develop/개발 원칙/객체 지향 프로그래밍/객체 지향 프로그래밍.md",
     "Python/Pass By Assignment.md",
-    "Python/Call by reference.md",
-    "Python/Call by value.md",
-    "Python/리스트의 얕은 복사와 깊은 복사.md",
-    "Django/배포/WAS.md",
     "독서록/자기 계발",
     "독서록/개발 관련 도서",
     "Git",
