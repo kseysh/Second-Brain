@@ -27,6 +27,7 @@ ex)
 클라이언트가 서버로 직접 호출할 때는 클라이언트의 IP주소, 장비 정보, OS 정보등을 그대로 서버에게 전달하지만 Forward Proxy를 사용한다면, 클라이언트가 요청했지만 마치 Forward Proxy가 요청을 한 것 처럼 서버에게 Forward Proxy의 정보들을 전달할 수 있다.
 
 ## Reverse Proxy
+![[Pasted image 20230916133111.png]]
 Reverse Proxy는 Forward Proxy와 유사하나, Forward Proxy와 달리 인터넷 - 서버 사이에 위치한다는 점이 다르다
 Forward Proxy : 클라이언트 -> Forward Proxy -> 인터넷 -> 서버
 Reverse Proxy : 클라이언트 -> 인터넷 -> Reverse Proxy -> 서버
