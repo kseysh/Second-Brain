@@ -45,7 +45,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Django/배포/Proxy Server와 로드밸런싱.md",
+                "file": "독서록/자기 계발/1만 시간의 재발견.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,8 +98,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -120,7 +119,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Django/배포/Proxy Server와 로드밸런싱.md",
+                "file": "독서록/자기 계발/1만 시간의 재발견.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -137,7 +136,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Django/배포/Proxy Server와 로드밸런싱.md",
+                "file": "독서록/자기 계발/1만 시간의 재발견.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -160,7 +159,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Django/배포/Proxy Server와 로드밸런싱.md"
+                "file": "독서록/자기 계발/1만 시간의 재발견.md"
               }
             }
           },
@@ -201,8 +200,9 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "682c4371d6b258df",
+  "active": "77e0b92a051c28ac",
   "lastOpenFiles": [
+    "Django/배포/Proxy Server와 로드밸런싱.md",
     "Attached files/Pasted image 20230916133111.png",
     "Django/배포/Proxy Server.md",
     "Django/AUTH/django 카카오 소셜 로그인.md",
@@ -243,7 +243,6 @@
     "Attached files/Pasted image 20230831153917.png",
     "Attached files/Pasted image 20230829160228.png",
     "Attached files/Pasted image 20230829154536.png",
-    "Attached files/Pasted image 20230829151436.png",
     "DB",
     "Django/AUTH",
     "네트워크/HTTP",
