@@ -45,7 +45,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Django/RESTful API.md",
+                "file": "IDEA/아이디어 폴더/서비스 아이디어.md",
                 "mode": "source",
                 "source": false
               }
@@ -102,8 +102,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "feabab388e8825fc",
@@ -119,7 +118,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Django/RESTful API.md",
+                "file": "IDEA/아이디어 폴더/서비스 아이디어.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -136,7 +135,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Django/RESTful API.md",
+                "file": "IDEA/아이디어 폴더/서비스 아이디어.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -159,7 +158,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Django/RESTful API.md"
+                "file": "IDEA/아이디어 폴더/서비스 아이디어.md"
               }
             }
           },
@@ -202,6 +201,7 @@
   },
   "active": "682c4371d6b258df",
   "lastOpenFiles": [
+    "Django/RESTful API.md",
     "독서록/자기 계발/1만 시간의 재발견.md",
     "Django/배포/Proxy Server와 로드밸런싱.md",
     "Attached files/Pasted image 20230916133111.png",
@@ -213,7 +213,6 @@
     "네트워크/HTTP/인증 과정에서 쿠키를 사용하는 이유.md",
     "Django/배포/WS.md",
     "Django/배포/WAS.md",
-    "Django/RESTful API.md",
     "DB/SQL.md",
     "DB/NOSQL.md",
     "DB/SQL vs NOSQL.md",
