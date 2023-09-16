@@ -45,7 +45,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "IDEA/아이디어 폴더/서비스 아이디어.md",
+                "file": "Spring/IOC.md",
                 "mode": "source",
                 "source": false
               }
@@ -118,7 +118,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "IDEA/아이디어 폴더/서비스 아이디어.md",
+                "file": "Spring/IOC.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -135,7 +135,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "IDEA/아이디어 폴더/서비스 아이디어.md",
+                "file": "Spring/IOC.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -158,7 +158,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "IDEA/아이디어 폴더/서비스 아이디어.md"
+                "file": "Spring/IOC.md"
               }
             }
           },
@@ -201,6 +201,10 @@
   },
   "active": "682c4371d6b258df",
   "lastOpenFiles": [
+    "Spring/AOP.md",
+    "Spring/DI.md",
+    "Spring/POJO.md",
+    "IDEA/아이디어 폴더/서비스 아이디어.md",
     "Django/RESTful API.md",
     "독서록/자기 계발/1만 시간의 재발견.md",
     "Django/배포/Proxy Server와 로드밸런싱.md",
@@ -224,10 +228,6 @@
     "Django/배포/EC2 인스턴스 SSH로 접속하기.md",
     "Django/배포/aws 배포.md",
     "Django/배포/EC2.md",
-    "Develop/개발 원칙/객체 지향 프로그래밍/다형성.md",
-    "Develop/개발 원칙/객체 지향 프로그래밍/캡슐화.md",
-    "Develop/개발 원칙/객체 지향 프로그래밍/상속.md",
-    "Develop/개발 원칙/객체 지향 프로그래밍/추상화.md",
     "독서록/자기 계발",
     "독서록/개발 관련 도서",
     "Git",
