@@ -57,7 +57,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "네트워크/HTTP/프론트와 백엔드의 쿠키 공유.md",
+                "file": "JAVA/자바의 정석/exception handling.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "얕",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -130,7 +130,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "네트워크/HTTP/프론트와 백엔드의 쿠키 공유.md",
+                "file": "JAVA/자바의 정석/exception handling.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -147,7 +147,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "네트워크/HTTP/프론트와 백엔드의 쿠키 공유.md",
+                "file": "JAVA/자바의 정석/exception handling.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -170,7 +170,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "네트워크/HTTP/프론트와 백엔드의 쿠키 공유.md"
+                "file": "JAVA/자바의 정석/exception handling.md"
               }
             }
           },
@@ -213,6 +213,9 @@
   },
   "active": "a7fa0cb1bf8a633d",
   "lastOpenFiles": [
+    "JAVA/자바의 정석/inner class.md",
+    "JAVA/자바의 정석/exception handling.md",
+    "네트워크/HTTP/프론트와 백엔드의 쿠키 공유.md",
     "Python/리스트의 얕은 복사와 깊은 복사.md",
     "Spring/AOP.md",
     "Spring/DI.md",
@@ -224,7 +227,6 @@
     "Attached files/Pasted image 20230916133111.png",
     "Django/배포/Proxy Server.md",
     "Django/AUTH/django 카카오 소셜 로그인.md",
-    "네트워크/HTTP/프론트와 백엔드의 쿠키 공유.md",
     "네트워크/HTTP/CORS.md",
     "네트워크/HTTP/CSRF.md",
     "네트워크/HTTP/인증 과정에서 쿠키를 사용하는 이유.md",
@@ -238,8 +240,6 @@
     "Django/Session.md",
     "Django/배포/apt와 apt-get의 차이.md",
     "Django/배포/Docker를 이용해 Django 배포하기.md",
-    "Django/배포/EC2 인스턴스 SSH로 접속하기.md",
-    "Django/배포/aws 배포.md",
     "독서록/자기 계발",
     "독서록/개발 관련 도서",
     "Git",
