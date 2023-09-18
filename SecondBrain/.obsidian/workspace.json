@@ -55,9 +55,11 @@
             "id": "a7fa0cb1bf8a633d",
             "type": "leaf",
             "state": {
-              "type": "release-notes",
+              "type": "markdown",
               "state": {
-                "currentVersion": "1.4.13"
+                "file": "Python/리스트의 얕은 복사와 깊은 복사.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -91,7 +93,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "얕",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -129,7 +131,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Spring/IOC.md",
+                "file": "Python/리스트의 얕은 복사와 깊은 복사.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -146,7 +148,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Spring/IOC.md",
+                "file": "Python/리스트의 얕은 복사와 깊은 복사.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -169,7 +171,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Spring/IOC.md"
+                "file": "Python/리스트의 얕은 복사와 깊은 복사.md"
               }
             }
           },
@@ -210,7 +212,7 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "98b99bcebe54855a",
+  "active": "a7fa0cb1bf8a633d",
   "lastOpenFiles": [
     "Spring/AOP.md",
     "Spring/DI.md",
