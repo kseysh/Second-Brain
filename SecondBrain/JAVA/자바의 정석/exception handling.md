@@ -10,4 +10,18 @@
 실행시에 의도와 다르게 동장하는 에러
 
 
+## 예외 처리 구문 - try-catch
+```java
+try{
+	//예외가 발생할 가능성이 있는 문장을 넣는다.
+} catch(Exception1 e1){
+	//Exception1이 발생할 경우, 이를 처리하기 위한 문장을 적는다. 
+}
+```
+
+## 예외 발생시키기
+1. 연산자 new를 이용하여 발생시키려는 예외 클래스의 객체를 만든다.
+	`Exception e = new Exception("message");`
+2. 키워드 throw를 이용해서 예외 발생
+	`throw e;`
 
