@@ -57,7 +57,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Python/리스트의 얕은 복사와 깊은 복사.md",
+                "file": "네트워크/HTTP/프론트와 백엔드의 쿠키 공유.md",
                 "mode": "source",
                 "source": false
               }
@@ -110,8 +110,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -131,7 +130,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Python/리스트의 얕은 복사와 깊은 복사.md",
+                "file": "네트워크/HTTP/프론트와 백엔드의 쿠키 공유.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -148,7 +147,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Python/리스트의 얕은 복사와 깊은 복사.md",
+                "file": "네트워크/HTTP/프론트와 백엔드의 쿠키 공유.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -171,7 +170,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Python/리스트의 얕은 복사와 깊은 복사.md"
+                "file": "네트워크/HTTP/프론트와 백엔드의 쿠키 공유.md"
               }
             }
           },
@@ -214,6 +213,7 @@
   },
   "active": "a7fa0cb1bf8a633d",
   "lastOpenFiles": [
+    "Python/리스트의 얕은 복사와 깊은 복사.md",
     "Spring/AOP.md",
     "Spring/DI.md",
     "Spring/POJO.md",
@@ -240,7 +240,6 @@
     "Django/배포/Docker를 이용해 Django 배포하기.md",
     "Django/배포/EC2 인스턴스 SSH로 접속하기.md",
     "Django/배포/aws 배포.md",
-    "Django/배포/EC2.md",
     "독서록/자기 계발",
     "독서록/개발 관련 도서",
     "Git",
