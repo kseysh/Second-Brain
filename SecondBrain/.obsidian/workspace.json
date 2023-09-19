@@ -57,7 +57,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "JAVA/자바의 정석/exception handling.md",
+                "file": "Develop/개발 원칙/객체 지향 프로그래밍/개방 폐쇄의 원칙.md",
                 "mode": "source",
                 "source": false
               }
@@ -130,7 +130,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "JAVA/자바의 정석/exception handling.md",
+                "file": "Develop/개발 원칙/객체 지향 프로그래밍/개방 폐쇄의 원칙.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -147,7 +147,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "JAVA/자바의 정석/exception handling.md",
+                "file": "Develop/개발 원칙/객체 지향 프로그래밍/개방 폐쇄의 원칙.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -170,7 +170,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "JAVA/자바의 정석/exception handling.md"
+                "file": "Develop/개발 원칙/객체 지향 프로그래밍/개방 폐쇄의 원칙.md"
               }
             }
           },
@@ -213,10 +213,11 @@
   },
   "active": "a7fa0cb1bf8a633d",
   "lastOpenFiles": [
+    "Develop/개발 원칙/객체 지향 프로그래밍/객체 지향의 5대 설계 원칙 (SOLID).md",
+    "JAVA/자바의 정석/exception handling.md",
     "Attached files/Pasted image 20230918192310.png",
     "Attached files/Pasted image 20230918191231.png",
     "JAVA/자바의 정석/inner class.md",
-    "JAVA/자바의 정석/exception handling.md",
     "네트워크/HTTP/프론트와 백엔드의 쿠키 공유.md",
     "Python/리스트의 얕은 복사와 깊은 복사.md",
     "Spring/AOP.md",
@@ -253,7 +254,6 @@
     "Attached files/Pasted image 20230902161954.png",
     "JAVA/자바의 정석",
     "Attached files/Pasted image 20230831153917.png",
-    "Attached files/Pasted image 20230829160228.png",
     "DB",
     "Django/AUTH",
     "네트워크/HTTP",
