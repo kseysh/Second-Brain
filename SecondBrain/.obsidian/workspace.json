@@ -52,12 +52,12 @@
             }
           },
           {
-            "id": "a7fa0cb1bf8a633d",
+            "id": "0465b59f2c8a5ad7",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Develop/개발 원칙/객체 지향 프로그래밍/개방 폐쇄의 원칙.md",
+                "file": "Spring/@Autowired.md",
                 "mode": "source",
                 "source": false
               }
@@ -130,7 +130,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Develop/개발 원칙/객체 지향 프로그래밍/개방 폐쇄의 원칙.md",
+                "file": "Spring/@Autowired.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -147,7 +147,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Develop/개발 원칙/객체 지향 프로그래밍/개방 폐쇄의 원칙.md",
+                "file": "Spring/@Autowired.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -170,7 +170,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Develop/개발 원칙/객체 지향 프로그래밍/개방 폐쇄의 원칙.md"
+                "file": "Spring/@Autowired.md"
               }
             }
           },
@@ -211,37 +211,37 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "a7fa0cb1bf8a633d",
+  "active": "0465b59f2c8a5ad7",
   "lastOpenFiles": [
+    "Spring/스프링을 사용하는 이유.md",
+    "Spring/@Autowired.md",
+    "Spring/프레임 워크.md",
+    "Spring/POJO.md",
+    "Spring/AOP.md",
+    "Spring/횡단 관심사.md",
+    "Spring/DI.md",
+    "Spring/테스트 케이스를 작성하는 방법.md",
+    "Spring/스프링 빈.md",
+    "Spring/IOC.md",
+    "Spring/Intellij 단축키 정리.md",
+    "Spring/Spring MVC.md",
+    "Spring/스프링 웹 애플리케이션 계층 구조.md",
+    "Spring/spring에서 Test코드 작성시의 주의사항.md",
+    "Develop/개발 원칙/객체 지향 프로그래밍/개방 폐쇄의 원칙.md",
     "Develop/개발 원칙/객체 지향 프로그래밍/객체 지향의 5대 설계 원칙 (SOLID).md",
+    "Develop/개발 원칙/객체 지향 프로그래밍/객체 지향 프로그래밍.md",
+    "Develop/개발 원칙/객체 지향 프로그래밍/다형성.md",
     "JAVA/자바의 정석/exception handling.md",
     "Attached files/Pasted image 20230918192310.png",
     "Attached files/Pasted image 20230918191231.png",
     "JAVA/자바의 정석/inner class.md",
     "네트워크/HTTP/프론트와 백엔드의 쿠키 공유.md",
     "Python/리스트의 얕은 복사와 깊은 복사.md",
-    "Spring/AOP.md",
-    "Spring/DI.md",
-    "Spring/POJO.md",
     "IDEA/아이디어 폴더/서비스 아이디어.md",
     "Django/RESTful API.md",
     "독서록/자기 계발/1만 시간의 재발견.md",
     "Django/배포/Proxy Server와 로드밸런싱.md",
     "Attached files/Pasted image 20230916133111.png",
-    "Django/배포/Proxy Server.md",
-    "Django/AUTH/django 카카오 소셜 로그인.md",
-    "네트워크/HTTP/CORS.md",
-    "네트워크/HTTP/CSRF.md",
-    "네트워크/HTTP/인증 과정에서 쿠키를 사용하는 이유.md",
-    "Django/배포/WS.md",
-    "Django/배포/WAS.md",
-    "DB/SQL.md",
-    "DB/NOSQL.md",
-    "DB/SQL vs NOSQL.md",
-    "네트워크/HTTP/JWT.md",
-    "Django/AUTH/JWT를 이용한 회원가입 및 로그인.md",
-    "Django/Session.md",
-    "Django/배포/apt와 apt-get의 차이.md",
     "독서록/자기 계발",
     "독서록/개발 관련 도서",
     "Git",
