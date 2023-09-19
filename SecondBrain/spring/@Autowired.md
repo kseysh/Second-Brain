@@ -13,7 +13,7 @@ public class MyService {
     @Autowired
     public MyService(MyRepository repository) {
         this.repository = repository;
-    }
+    }// repository를 DI를 통해 주입해준 것
 
     // ...
 }

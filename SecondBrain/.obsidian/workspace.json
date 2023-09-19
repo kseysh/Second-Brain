@@ -57,7 +57,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Spring/@Autowired.md",
+                "file": "Spring/@SpringBootTest.md",
                 "mode": "source",
                 "source": false
               }
@@ -130,7 +130,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Spring/@Autowired.md",
+                "file": "Spring/@SpringBootTest.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -147,7 +147,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Spring/@Autowired.md",
+                "file": "Spring/@SpringBootTest.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -170,7 +170,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Spring/@Autowired.md"
+                "file": "Spring/@SpringBootTest.md"
               }
             }
           },
@@ -213,8 +213,10 @@
   },
   "active": "0465b59f2c8a5ad7",
   "lastOpenFiles": [
-    "Spring/스프링을 사용하는 이유.md",
+    "Spring/@Transactional.md",
+    "Spring/@SpringBootTest.md",
     "Spring/@Autowired.md",
+    "Spring/스프링을 사용하는 이유.md",
     "Spring/프레임 워크.md",
     "Spring/POJO.md",
     "Spring/AOP.md",
@@ -239,8 +241,6 @@
     "Python/리스트의 얕은 복사와 깊은 복사.md",
     "IDEA/아이디어 폴더/서비스 아이디어.md",
     "Django/RESTful API.md",
-    "독서록/자기 계발/1만 시간의 재발견.md",
-    "Django/배포/Proxy Server와 로드밸런싱.md",
     "Attached files/Pasted image 20230916133111.png",
     "독서록/자기 계발",
     "독서록/개발 관련 도서",
