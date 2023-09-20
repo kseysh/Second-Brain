@@ -35,7 +35,17 @@ git에서 저장소를 관리하기 위해 사용하는 세 가지 공간
 ![[Pasted image 20230921014546.png]]
 
 ## Git 명령어
-`git status` : 저장소 상태 확
+`git status` : 저장소 상태 확인
+`git log` : 버전 이력 확인 가능
+- 가장 위쪽에 commit hash가 나옴
+- HEAD -> master라는 표시는 최신 버전임을 의미함
+- commit을 누가 언제 했는지와 commit 메시지가 출력됨
+`git diff` : 최신 버전과 현재 working tree 내의 차이점들을 요약하여 확인 가능
+`git reset HEAD <파일명>` : stage에 추가된 파일을 다시 stage에서 제거하고 싶은 경우 `git restore --staged <파일명>`도 동일한 명령어
+`git checkout--<파일명>` : working tree에 수정한 파일을 저장소에 있던 버전으로 다시 덮어쓰는 명령
+`git reset HEAD^` : commit된 파일의 내용을 이전 버전으로 되돌리고 싶은 ㄱ
+
+
 
 
 
