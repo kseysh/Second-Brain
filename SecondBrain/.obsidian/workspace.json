@@ -57,7 +57,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "전공 공부/이산구조/이산수학 기호.md",
+                "file": "전공 공부/이산구조/2. Basic Structures.md",
                 "mode": "source",
                 "source": false
               }
@@ -130,7 +130,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "전공 공부/이산구조/이산수학 기호.md",
+                "file": "전공 공부/이산구조/2. Basic Structures.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -147,7 +147,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "전공 공부/이산구조/이산수학 기호.md",
+                "file": "전공 공부/이산구조/2. Basic Structures.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -170,7 +170,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "전공 공부/이산구조/이산수학 기호.md"
+                "file": "전공 공부/이산구조/2. Basic Structures.md"
               }
             }
           },
@@ -211,18 +211,19 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "0465b59f2c8a5ad7",
+  "active": "77e0b92a051c28ac",
   "lastOpenFiles": [
+    "전공 공부/오픈소스응용프로그래밍",
+    "전공 공부/이산구조/이산수학 기호.md",
     "전공 공부/이산구조/2. Basic Structures.md",
+    "Obsidian/마크다운 사용법.md",
+    "Obsidian/간단한 기호들.md",
+    "전공 공부/이산구조/1. Logic and Proofs.md",
     "Attached files/Pasted image 20230920201239.png",
     "Attached files/Pasted image 20230920200410.png",
     "Attached files/Pasted image 20230920200251.png",
-    "전공 공부/이산구조/이산수학 기호.md",
-    "Obsidian/간단한 기호들.md",
-    "전공 공부/이산구조/1. Logic and Proofs.md",
     "Obsidian/플러그인 리스트.md",
     "Obsidian/옵시디언 사용법.md",
-    "Obsidian/마크다운 사용법.md",
     "Obsidian/이미지 사이즈 변경하는 방법.md",
     "Spring/JPA.md",
     "전공 공부/이산구조",
