@@ -13,7 +13,7 @@
 `ls` : 현재 디렉터리 내 파일 리스트 출력
 -l (long) 옵션은 상세 정보 출력, -a (all) 옵션은 숨겨진 파일 및 디렉터리까지 출력
 `mkdir <디렉터리명>` : 디렉터리 생성
-`rm <파일/디렉터리명>` : 파일/디렉터리 삭제 (디렉터리의 경우 -r 옵션으로 삭제 가능)
+`rm <파일/디렉터리명>` : 파일/디렉터리 삭제 (디렉터리의 경우 -r (recursive) 옵션으로 삭제 가능)
 `vim <파일명>` : VIM 에디터로 새로운 파일 생성
 `cat <파일명>` : 파일내용 출력
 `git init` : .git 디렉터리 생성
@@ -43,9 +43,14 @@ git에서 저장소를 관리하기 위해 사용하는 세 가지 공간
 `git diff` : 최신 버전과 현재 working tree 내의 차이점들을 요약하여 확인 가능
 `git reset HEAD <파일명>` : stage에 추가된 파일을 다시 stage에서 제거하고 싶은 경우 `git restore --staged <파일명>`도 동일한 명령어
 `git checkout--<파일명>` : working tree에 수정한 파일을 저장소에 있던 버전으로 다시 덮어쓰는 명령
+- 만약 수정된 파일이 stage에 포함되어 있었다면 stage에서도 제거되고 working tree에서의 파일을 원본으로 되돌리는 것
+
 `git reset HEAD^` : commit된 파일의 내용을 이전 버전으로 되돌리고 싶은 경우
 `git reset --hard <commit hash>` : commit된 파일의 내용을 특 버전으로 되돌리고 싶은 경우
 `git reflog` : reset을 통해 커밋 내용을 되돌릴 때 확인 및 복구하는 명령어
+`git branch <브랜치이름>` : 새로운 브랜치 생성시의 명령어
+`git branch` : 모든 브랜치 리스트 및 현재 브랜치 출력
+`git merge <>`
 
 ## stage 공간의 필요성
 수정된 부분 중 일부분만 commit 가능하다.
