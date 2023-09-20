@@ -52,4 +52,4 @@ ex ) Some student in this class has taken a course in Java
 `¬∃xS(x) ≡ ∀x¬S(x)`
 
 # Nested Quantifiers
-r->
+r->((ㄱqvp)ㅅr)
