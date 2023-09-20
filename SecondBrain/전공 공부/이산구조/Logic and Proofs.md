@@ -48,4 +48,7 @@ ex ) Every student in this class has taken a course in Java
 ex ) Some student in this class has taken a course in Java
 
 ## 한정자의 부정
-¬∀xS(x) ≡ ¬∀xS(x)
+`¬∀xS(x) ≡ ∃x¬S(x)`
+`¬∃xS(x) ≡ ∀x¬S(x)`
+
+# Nested Quantifiers
