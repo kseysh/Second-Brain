@@ -28,3 +28,10 @@ p, q 중 하나만 True일 때  True
 `p ↔ q ≡ ( p → q ) ∧ ( q → p ) ≡ ( p ∧ q ) ∨ ( ¬ p ∧ ¬ q )` 
 
 
+# Predicate Logic
+
+변수 : x, y, z
+명제 : P(x), M(x)
+한정자 
+이 세 특징을 가진다.
+
