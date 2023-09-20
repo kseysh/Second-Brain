@@ -43,9 +43,14 @@ git에서 저장소를 관리하기 위해 사용하는 세 가지 공간
 `git diff` : 최신 버전과 현재 working tree 내의 차이점들을 요약하여 확인 가능
 `git reset HEAD <파일명>` : stage에 추가된 파일을 다시 stage에서 제거하고 싶은 경우 `git restore --staged <파일명>`도 동일한 명령어
 `git checkout--<파일명>` : working tree에 수정한 파일을 저장소에 있던 버전으로 다시 덮어쓰는 명령
-`git reset HEAD^` : commit된 파일의 내용을 이전 버전으로 되돌리고 싶은 ㄱ
+`git reset HEAD^` : commit된 파일의 내용을 이전 버전으로 되돌리고 싶은 경우
+`git reset --hard <commit hash>` : commit된 파일의 내용을 특 버전으로 되돌리고 싶은 경우
+`git reflog` : reset을 통해 커밋 내용을 되돌릴 때 확인 및 복구하는 명령어
 
-
+## stage 공간의 필요성
+수정된 부분 중 일부분만 commit 가능하다.
+특정 파일만 골라서 commit 가능하다.
+commit 전 코드 리뷰 및 테스트 용
 
 
 
