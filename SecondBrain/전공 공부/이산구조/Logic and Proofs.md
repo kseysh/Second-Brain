@@ -32,6 +32,20 @@ p, q 중 하나만 True일 때  True
 
 변수 : x, y, z
 명제 : P(x), M(x)
-한정자 
+한정자 ∀, ∃
 이 세 특징을 가진다.
 
+> R(x, 3, z)처럼 변수가 들어간 표현은 명제가 아니며, 따라서 truth value를 갖지 않는다.
+
+## 영어를 Logic으로 바꾸기
+Example 많이 풀어보기
+
+## 한정자에 따른 명제
+
+∀는 `∀x(S(x)→J(x))`
+ex ) Every student in this class has taken a course in Java
+∃는 `∃x(S(x)∧J(x))`
+ex ) Some student in this class has taken a course in Java
+
+## 한정자의 부정
+¬∀xS(x) ≡ ¬∀xS(x)
