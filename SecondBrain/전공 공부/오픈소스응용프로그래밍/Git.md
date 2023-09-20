@@ -40,6 +40,7 @@ git에서 저장소를 관리하기 위해 사용하는 세 가지 공간
 - 가장 위쪽에 commit hash가 나옴
 - HEAD -> master라는 표시는 최신 버전임을 의미함
 - commit을 누가 언제 했는지와 commit 메시지가 출력됨
+- `git log --graph --all` 명령으로 분기된 지점을 포함하여 전체 이력 출력
 `git diff` : 최신 버전과 현재 working tree 내의 차이점들을 요약하여 확인 가능
 `git reset HEAD <파일명>` : stage에 추가된 파일을 다시 stage에서 제거하고 싶은 경우 `git restore --staged <파일명>`도 동일한 명령어
 `git checkout--<파일명>` : working tree에 수정한 파일을 저장소에 있던 버전으로 다시 덮어쓰는 명령
@@ -50,7 +51,20 @@ git에서 저장소를 관리하기 위해 사용하는 세 가지 공간
 `git reflog` : reset을 통해 커밋 내용을 되돌릴 때 확인 및 복구하는 명령어
 `git branch <브랜치이름>` : 새로운 브랜치 생성시의 명령어
 `git branch` : 모든 브랜치 리스트 및 현재 브랜치 출력
-`git merge <>`
+`git merge <브랜치 이름>` : 현재 선택된 브랜치의 HEAD로 merge 명령 뒤에 입력한 브랜치가 병합됨
+- main에 issue 브랜치를 병합하기 위해서는 main 브랜치로 현재 브랜치 전환 후 merge를 수행하여야 함
+`git checkout <브랜치 명>`  : 특정 브랜치로 이동
+`git branch -d <브랜치 이름>` :  브랜치 삭제
+`git remote add origin <원격 저장소 주소>` : 원격 저장소 연결
+- origin이란 기본값으로 지정된 원격 저장소 명
+`git remote` : 현재 추가된 원격 저장소 확인
+- -v 옵션을 통해 더 자세한 정보 확인 가능
+`git push <원격 저장소> <로컬 브랜치>` : 로컬 브랜치의 내용을 원격으로 연결되어 있는 저장소에 백업 및 반영 가능
+- -u 옵션을 이용하면 처음에만 원격 저장소명 및 로컬 브랜치 명을 써주면, 이후에는 git push 명령만으로 간편하게 동일 대상에 대해 push 수행 가능
+
+
+
+
 
 ## stage 공간의 필요성
 수정된 부분 중 일부분만 commit 가능하다.
