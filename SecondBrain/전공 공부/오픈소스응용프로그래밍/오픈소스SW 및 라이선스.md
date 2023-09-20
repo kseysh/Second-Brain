@@ -67,3 +67,33 @@ Copyleft와 다르게 재배포 시 어떤 라이선스를 부여할 것인지�
 #### BSD 라이선스
 #### MIT 라이선스
 #### Apache 라이선스
+
+### Shareware
+평가판은 무료로 사용하고 이후 비용이 드는 소프트웨어
+### Freeware
+무료로 사용할 수 있는 소프트웨어
+### FOSS (Free and Open Source Software)
+자유 소프트웨어 및 오픈소스 소프트웨어를 모두 포괄한 개념
+사용 비용이 FOSS냐 아니냐를 구분짓지 않음
+소스 코드의 공개 여부, 그리고 공개된 소스 코드의 수정 및 재배포 허용이 중요하다.
+
+## 라이선스 카테고리
+### 공개 도메인 소프트웨어
+저작권 보호 대상이 아닌 소프트웨어를 의미
+오픈소스 및 독점 소프트웨어 모두 저작권 보호 대상
+
+## Open Source Foundations
+- Apache Software Foundation
+- Linux Foundation
+- Mozilla Foundation
+- Eclipse Foundation
+- OpenJS Foundation
+
+## FOSS의 장점
+- 소프트웨어 사용 비용 절감
+- 소프트웨어 개발 시간 및 비용 절감
+- 신뢰성
+- 외부 지원
+- 특정 소프트웨어 제작사에 대한 락인(lock-in) 완화
+
+## FOSS의 장점
