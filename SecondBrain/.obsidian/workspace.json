@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Develop/개발 원칙/객체 지향 프로그래밍/객체 지향의 5대 설계 원칙 (SOLID).md",
+                "file": "Develop/개발 원칙/객체 지향 프로그래밍/개방 폐쇄의 원칙.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Develop/개발 원칙/객체 지향 프로그래밍/객체 지향의 5대 설계 원칙 (SOLID).md",
+                "file": "Develop/개발 원칙/객체 지향 프로그래밍/개방 폐쇄의 원칙.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Develop/개발 원칙/객체 지향 프로그래밍/객체 지향의 5대 설계 원칙 (SOLID).md",
+                "file": "Develop/개발 원칙/객체 지향 프로그래밍/개방 폐쇄의 원칙.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Develop/개발 원칙/객체 지향 프로그래밍/객체 지향의 5대 설계 원칙 (SOLID).md"
+                "file": "Develop/개발 원칙/객체 지향 프로그래밍/개방 폐쇄의 원칙.md"
               }
             }
           },
@@ -169,6 +169,8 @@
   },
   "active": "0465b59f2c8a5ad7",
   "lastOpenFiles": [
+    "Develop/개발 원칙/객체 지향 프로그래밍/객체 지향의 5대 설계 원칙 (SOLID).md",
+    "Develop/개발 원칙/객체 지향 프로그래밍/단일 책임의 원칙.md",
     "Develop/개발 원칙/객체 지향 프로그래밍/다형성.md",
     "Develop/개발 원칙/객체 지향 프로그래밍/객체 지향 프로그래밍.md",
     "Spring/스프링을 사용하는 이유.md",
@@ -204,8 +206,6 @@
     "Attached files/Pasted image 20230921014546.png",
     "Attached files/Pasted image 20230921013114.png",
     "전공 공부/오픈소스응용프로그래밍",
-    "전공 공부/이산구조/이산수학 기호.md",
-    "Obsidian/마크다운 사용법.md",
     "Attached files/Pasted image 20230920201239.png",
     "Attached files/Pasted image 20230920200410.png",
     "전공 공부/이산구조",
