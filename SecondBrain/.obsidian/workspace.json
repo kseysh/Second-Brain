@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Spring/AOP.md",
+                "file": "JAVA/자바의 정석/exception handling.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Spring/AOP.md",
+                "file": "JAVA/자바의 정석/exception handling.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Spring/AOP.md",
+                "file": "JAVA/자바의 정석/exception handling.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Spring/AOP.md"
+                "file": "JAVA/자바의 정석/exception handling.md"
               }
             }
           },
@@ -168,9 +168,10 @@
   },
   "active": "0465b59f2c8a5ad7",
   "lastOpenFiles": [
-    "Spring/@Around.md",
-    "Spring/AOP.md",
+    "Spring/프레임 워크.md",
     "ERROR_Diary/Spring/Intellij/Unsupported class file major version 64.md",
+    "Spring/AOP.md",
+    "Spring/@Around.md",
     "ERROR_Diary/nginx 502 error.md",
     "ERROR_Diary/django model 변경 오류.md",
     "ERROR_Diary/Spring/Intellij",
@@ -208,7 +209,6 @@
     "Spring/JPA.md",
     "전공 공부/이산구조",
     "전공 공부",
-    "Spring/@Autowired.md",
     "독서록/자기 계발",
     "독서록/개발 관련 도서",
     "Git",
