@@ -8,63 +8,18 @@
         "type": "tabs",
         "children": [
           {
-            "id": "dad201c7170938c3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Develop/개발 원칙/객체 지향 프로그래밍/객체 지향 프로그래밍.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "ededc02ff28e09ac",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {}
-            }
-          },
-          {
-            "id": "b6053a07fee66d46",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "네트워크/HTTP/인증 과정에서 쿠키를 사용하는 이유.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "682c4371d6b258df",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Spring/IOC.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "0465b59f2c8a5ad7",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "전공 공부/오픈소스응용프로그래밍/도커 아키텍처와 이미지 명령어.md",
+                "file": "전공 공부/오픈소스응용프로그래밍/도커 파일과 깃허브를 이용한 파일 공유.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "vertical"
@@ -130,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "전공 공부/오픈소스응용프로그래밍/도커 아키텍처와 이미지 명령어.md",
+                "file": "전공 공부/오픈소스응용프로그래밍/도커 파일과 깃허브를 이용한 파일 공유.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -147,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "전공 공부/오픈소스응용프로그래밍/도커 아키텍처와 이미지 명령어.md",
+                "file": "전공 공부/오픈소스응용프로그래밍/도커 파일과 깃허브를 이용한 파일 공유.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -170,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "전공 공부/오픈소스응용프로그래밍/도커 아키텍처와 이미지 명령어.md"
+                "file": "전공 공부/오픈소스응용프로그래밍/도커 파일과 깃허브를 이용한 파일 공유.md"
               }
             }
           },
@@ -213,10 +168,10 @@
   },
   "active": "0465b59f2c8a5ad7",
   "lastOpenFiles": [
+    "전공 공부/오픈소스응용프로그래밍/도커 아키텍처와 이미지 명령어.md",
     "전공 공부/오픈소스응용프로그래밍/도커 컨테이너 명령어와 볼륨.md",
     "전공 공부/오픈소스응용프로그래밍/도커 파일과 깃허브를 이용한 파일 공유.md",
     "전공 공부/오픈소스응용프로그래밍/도커와 이미지, 컨테이너.md",
-    "전공 공부/오픈소스응용프로그래밍/도커 아키텍처와 이미지 명령어.md",
     "전공 공부/오픈소스응용프로그래밍/오픈소스SW 및 라이선스.md",
     "전공 공부/오픈소스응용프로그래밍/Git.md",
     "Spring/스프링 웹 애플리케이션 계층 구조.md",
