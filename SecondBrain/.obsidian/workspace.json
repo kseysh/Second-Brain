@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Spring/스프링을 사용하는 이유.md",
+                "file": "Develop/개발 원칙/객체 지향 프로그래밍/객체 지향 프로그래밍.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Spring/스프링을 사용하는 이유.md",
+                "file": "Develop/개발 원칙/객체 지향 프로그래밍/객체 지향 프로그래밍.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Spring/스프링을 사용하는 이유.md",
+                "file": "Develop/개발 원칙/객체 지향 프로그래밍/객체 지향 프로그래밍.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Spring/스프링을 사용하는 이유.md"
+                "file": "Develop/개발 원칙/객체 지향 프로그래밍/객체 지향 프로그래밍.md"
               }
             }
           },
@@ -167,8 +167,11 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "98b99bcebe54855a",
+  "active": "0465b59f2c8a5ad7",
   "lastOpenFiles": [
+    "Develop/개발 원칙/객체 지향 프로그래밍/다형성.md",
+    "Develop/개발 원칙/객체 지향 프로그래밍/객체 지향 프로그래밍.md",
+    "Spring/스프링을 사용하는 이유.md",
     "Spring/스프링 부트의 장점.md",
     "JAVA/자바의 정석/exception handling.md",
     "Spring/@Around.md",
@@ -203,11 +206,8 @@
     "전공 공부/오픈소스응용프로그래밍",
     "전공 공부/이산구조/이산수학 기호.md",
     "Obsidian/마크다운 사용법.md",
-    "Obsidian/간단한 기호들.md",
     "Attached files/Pasted image 20230920201239.png",
     "Attached files/Pasted image 20230920200410.png",
-    "Obsidian/플러그인 리스트.md",
-    "Obsidian/옵시디언 사용법.md",
     "전공 공부/이산구조",
     "전공 공부",
     "독서록/자기 계발",
