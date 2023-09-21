@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "aop",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -65,8 +65,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -169,6 +168,7 @@
   },
   "active": "0465b59f2c8a5ad7",
   "lastOpenFiles": [
+    "Attached files/Pasted image 20230921173013.png",
     "JAVA/자바의 정석/생성자에서 다른 생성자 호출하기 - this().md",
     "전공 공부/오픈소스응용프로그래밍/오픈소스SW 및 라이선스.md",
     "전공 공부/오픈소스응용프로그래밍/도커 파일과 깃허브를 이용한 파일 공유.md",
@@ -206,7 +206,6 @@
     "Spring/@SpringBootTest.md",
     "Spring/스프링을 사용하는 이유.md",
     "Spring/프레임 워크.md",
-    "Spring/POJO.md",
     "Attached files/Pasted image 20230918192310.png",
     "독서록/자기 계발",
     "독서록/개발 관련 도서",
