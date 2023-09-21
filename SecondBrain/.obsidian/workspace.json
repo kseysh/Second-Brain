@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "JAVA/자바의 정석/exception handling.md",
+                "file": "Spring/스프링 부트의 장점.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "feabab388e8825fc",
@@ -85,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "JAVA/자바의 정석/exception handling.md",
+                "file": "Spring/스프링 부트의 장점.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "JAVA/자바의 정석/exception handling.md",
+                "file": "Spring/스프링 부트의 장점.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "JAVA/자바의 정석/exception handling.md"
+                "file": "Spring/스프링 부트의 장점.md"
               }
             }
           },
@@ -168,10 +169,12 @@
   },
   "active": "0465b59f2c8a5ad7",
   "lastOpenFiles": [
+    "JAVA/자바의 정석/exception handling.md",
+    "Spring/스프링 부트의 장점.md",
+    "Spring/@Around.md",
     "Spring/프레임 워크.md",
     "ERROR_Diary/Spring/Intellij/Unsupported class file major version 64.md",
     "Spring/AOP.md",
-    "Spring/@Around.md",
     "ERROR_Diary/nginx 502 error.md",
     "ERROR_Diary/django model 변경 오류.md",
     "ERROR_Diary/Spring/Intellij",
@@ -205,8 +208,6 @@
     "Attached files/Pasted image 20230920200410.png",
     "Obsidian/플러그인 리스트.md",
     "Obsidian/옵시디언 사용법.md",
-    "Obsidian/이미지 사이즈 변경하는 방법.md",
-    "Spring/JPA.md",
     "전공 공부/이산구조",
     "전공 공부",
     "독서록/자기 계발",
