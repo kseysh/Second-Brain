@@ -65,7 +65,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -166,11 +167,12 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "0465b59f2c8a5ad7",
+  "active": "98b99bcebe54855a",
   "lastOpenFiles": [
     "전공 공부/오픈소스응용프로그래밍/도커 아키텍처와 이미지 명령어.md",
-    "전공 공부/오픈소스응용프로그래밍/도커 컨테이너 명령어와 볼륨.md",
     "전공 공부/오픈소스응용프로그래밍/도커 파일과 깃허브를 이용한 파일 공유.md",
+    "ERROR_Diary/docker/Unit docker.service could not be found.md",
+    "전공 공부/오픈소스응용프로그래밍/도커 컨테이너 명령어와 볼륨.md",
     "전공 공부/오픈소스응용프로그래밍/도커와 이미지, 컨테이너.md",
     "전공 공부/오픈소스응용프로그래밍/오픈소스SW 및 라이선스.md",
     "전공 공부/오픈소스응용프로그래밍/Git.md",
@@ -205,7 +207,6 @@
     "Spring/프레임 워크.md",
     "Spring/POJO.md",
     "Spring/AOP.md",
-    "Spring/횡단 관심사.md",
     "Attached files/Pasted image 20230918192310.png",
     "독서록/자기 계발",
     "독서록/개발 관련 도서",
