@@ -13,7 +13,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Develop/개발 원칙/객체 지향 프로그래밍/객체 지향의 5대 설계 원칙 (SOLID).md",
+                "file": "Develop/개발 원칙/객체 지향 프로그래밍/객체 지향 프로그래밍.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "a67e0968abaf619f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Develop/개발 원칙/객체 지향 프로그래밍/추상화.md",
                 "mode": "source",
                 "source": false
               }
@@ -61,7 +73,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "sol",
+                "query": "추상",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -83,7 +95,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "feabab388e8825fc",
@@ -99,7 +112,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Develop/개발 원칙/객체 지향 프로그래밍/객체 지향 프로그래밍.md",
+                "file": "Develop/개발 원칙/객체 지향 프로그래밍/추상화.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +129,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Develop/개발 원칙/객체 지향 프로그래밍/객체 지향 프로그래밍.md",
+                "file": "Develop/개발 원칙/객체 지향 프로그래밍/추상화.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +152,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Develop/개발 원칙/객체 지향 프로그래밍/객체 지향 프로그래밍.md"
+                "file": "Develop/개발 원칙/객체 지향 프로그래밍/추상화.md"
               }
             }
           },
@@ -180,8 +193,9 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "62ad516af7072e6e",
+  "active": "a67e0968abaf619f",
   "lastOpenFiles": [
+    "Develop/개발 원칙/객체 지향 프로그래밍/객체 지향 프로그래밍.md",
     "Develop/개발 원칙/객체 지향 프로그래밍/객체 지향의 5대 설계 원칙 (SOLID).md",
     "Develop/개발 원칙/객체 지향 프로그래밍/의존성 역전의 원칙.md",
     "Develop/개발 원칙/객체 지향 프로그래밍/인터페이스 분리 원칙.md",
@@ -189,7 +203,6 @@
     "Develop/개발 원칙/객체 지향 프로그래밍/개방 폐쇄의 원칙.md",
     "Develop/개발 원칙/객체 지향 프로그래밍/단일 책임의 원칙.md",
     "Develop/개발 원칙/객체 지향 프로그래밍/다형성.md",
-    "Develop/개발 원칙/객체 지향 프로그래밍/객체 지향 프로그래밍.md",
     "Spring/스프링을 사용하는 이유.md",
     "Spring/스프링 부트의 장점.md",
     "JAVA/자바의 정석/exception handling.md",
