@@ -1,5 +1,6 @@
 # 객체 지향의 설계의 기본
 **결합도는 낮게 응집도는 높게**
+[[객체 지향 프로그래밍]]
 
 # 객체 지향의 5대 설계 원칙 (SOLID)
 SRP ([[단일 책임의 원칙]]: Single Responsibility Principle) 
