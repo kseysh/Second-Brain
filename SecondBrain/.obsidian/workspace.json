@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ERROR_Diary/Spring/Intellij/Unsupported class file major version 64.md",
+                "file": "Spring/AOP.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ERROR_Diary/Spring/Intellij/Unsupported class file major version 64.md",
+                "file": "Spring/AOP.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ERROR_Diary/Spring/Intellij/Unsupported class file major version 64.md",
+                "file": "Spring/AOP.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ERROR_Diary/Spring/Intellij/Unsupported class file major version 64.md"
+                "file": "Spring/AOP.md"
               }
             }
           },
@@ -168,9 +168,10 @@
   },
   "active": "0465b59f2c8a5ad7",
   "lastOpenFiles": [
-    "ERROR_Diary/nginx 502 error.md",
-    "ERROR_Diary/Spring/Intellij/Unsupported class file major version 64.md",
+    "Spring/@Around.md",
     "Spring/AOP.md",
+    "ERROR_Diary/Spring/Intellij/Unsupported class file major version 64.md",
+    "ERROR_Diary/nginx 502 error.md",
     "ERROR_Diary/django model 변경 오류.md",
     "ERROR_Diary/Spring/Intellij",
     "ERROR_Diary/Spring",
@@ -208,7 +209,6 @@
     "전공 공부/이산구조",
     "전공 공부",
     "Spring/@Autowired.md",
-    "Spring/DataSource.md",
     "독서록/자기 계발",
     "독서록/개발 관련 도서",
     "Git",
