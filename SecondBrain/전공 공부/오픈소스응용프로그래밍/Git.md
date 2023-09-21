@@ -47,7 +47,7 @@ git에서 저장소를 관리하기 위해 사용하는 세 가지 공간
 - 만약 수정된 파일이 stage에 포함되어 있었다면 stage에서도 제거되고 working tree에서의 파일을 원본으로 되돌리는 것
 
 `git reset HEAD^` : commit된 파일의 내용을 이전 버전으로 되돌리고 싶은 경우
-`git reset --hard <commit hash>` : commit된 파일의 내용을 특 버전으로 되돌리고 싶은 경우
+`git reset --hard <commit hash>` : commit된 파일의 내용을 특정 버전으로 되돌리고 싶은 경우
 `git reflog` : reset을 통해 커밋 내용을 되돌릴 때 확인 및 복구하는 명령어
 `git branch <브랜치이름>` : 새로운 브랜치 생성시의 명령어
 `git branch` : 모든 브랜치 리스트 및 현재 브랜치 출력
