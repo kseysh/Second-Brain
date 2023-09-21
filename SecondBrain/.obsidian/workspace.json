@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "전공 공부/오픈소스응용프로그래밍/도커 파일과 깃허브를 이용한 파일 공유.md",
+                "file": "전공 공부/오픈소스응용프로그래밍/오픈소스SW 및 라이선스.md",
                 "mode": "source",
                 "source": false
               }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "this",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "전공 공부/오픈소스응용프로그래밍/도커 파일과 깃허브를 이용한 파일 공유.md",
+                "file": "전공 공부/오픈소스응용프로그래밍/오픈소스SW 및 라이선스.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "전공 공부/오픈소스응용프로그래밍/도커 파일과 깃허브를 이용한 파일 공유.md",
+                "file": "전공 공부/오픈소스응용프로그래밍/오픈소스SW 및 라이선스.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "전공 공부/오픈소스응용프로그래밍/도커 파일과 깃허브를 이용한 파일 공유.md"
+                "file": "전공 공부/오픈소스응용프로그래밍/오픈소스SW 및 라이선스.md"
               }
             }
           },
@@ -169,8 +169,8 @@
   },
   "active": "98b99bcebe54855a",
   "lastOpenFiles": [
-    "전공 공부/오픈소스응용프로그래밍/도커 아키텍처와 이미지 명령어.md",
     "전공 공부/오픈소스응용프로그래밍/도커 파일과 깃허브를 이용한 파일 공유.md",
+    "전공 공부/오픈소스응용프로그래밍/도커 아키텍처와 이미지 명령어.md",
     "ERROR_Diary/docker/Unit docker.service could not be found.md",
     "전공 공부/오픈소스응용프로그래밍/도커 컨테이너 명령어와 볼륨.md",
     "전공 공부/오픈소스응용프로그래밍/도커와 이미지, 컨테이너.md",
