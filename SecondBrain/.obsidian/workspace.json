@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Spring/AOP.md",
+                "file": "ERROR_Diary/Spring/Intellij/Unsupported class file major version 64.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Spring/AOP.md",
+                "file": "ERROR_Diary/Spring/Intellij/Unsupported class file major version 64.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Spring/AOP.md",
+                "file": "ERROR_Diary/Spring/Intellij/Unsupported class file major version 64.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Spring/AOP.md"
+                "file": "ERROR_Diary/Spring/Intellij/Unsupported class file major version 64.md"
               }
             }
           },
@@ -168,6 +168,13 @@
   },
   "active": "0465b59f2c8a5ad7",
   "lastOpenFiles": [
+    "ERROR_Diary/nginx 502 error.md",
+    "ERROR_Diary/Spring/Intellij/Unsupported class file major version 64.md",
+    "Spring/AOP.md",
+    "ERROR_Diary/django model 변경 오류.md",
+    "ERROR_Diary/Spring/Intellij",
+    "ERROR_Diary/Spring",
+    "ERROR_Diary/무제 파일.md",
     "Attached files/Pasted image 20230921173748.png",
     "Attached files/Pasted image 20230921173013.png",
     "JAVA/자바의 정석/생성자에서 다른 생성자 호출하기 - this().md",
@@ -194,7 +201,6 @@
     "Obsidian/간단한 기호들.md",
     "Attached files/Pasted image 20230920201239.png",
     "Attached files/Pasted image 20230920200410.png",
-    "Attached files/Pasted image 20230920200251.png",
     "Obsidian/플러그인 리스트.md",
     "Obsidian/옵시디언 사용법.md",
     "Obsidian/이미지 사이즈 변경하는 방법.md",
@@ -203,17 +209,11 @@
     "전공 공부",
     "Spring/@Autowired.md",
     "Spring/DataSource.md",
-    "Spring/@Transactional.md",
-    "Spring/@SpringBootTest.md",
-    "Spring/스프링을 사용하는 이유.md",
-    "Spring/프레임 워크.md",
     "독서록/자기 계발",
     "독서록/개발 관련 도서",
     "Git",
     "Develop/개발 원칙/객체 지향 프로그래밍",
     "JAVA/자바의 정석",
-    "DB",
-    "Django/AUTH",
     "무제 파일.canvas"
   ]
 }
