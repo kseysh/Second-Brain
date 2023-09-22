@@ -12,13 +12,21 @@ ex) int** i; 라면 i 앞에 \*이 있으므로 i에는 int\*를 저장하고 �
 ### Reference &
 이 변수가 가지고 있는 주소를 보겠다.
 
-# Call by Value vs. Call by Reference
+## Call by Value vs. Call by Reference
 [[Call by value]]
 [[Call by reference]]
 > C는 Call by value 언어이다.
 
 
+## Pointer Arithmetic
+포인터는 계산시에 변수의 크기에 맞게 연산된다.
+![[Pasted image 20230922222810.png]]
+int는 4byte
+char는 1byte
+주소는 8byte
 
-
-
-
+## Function Pointer
+C에서, 함수도 포인터로 저장되어 있는 값이며, 주소로 접근할 수 있다.
+## Struct
+서로 다른 자료형을 연속된 공간에 묶어놓은 것
+같은 자료형을 연속된 공간에 묶어놓고 싶다면, array를 사용하면 된다.
