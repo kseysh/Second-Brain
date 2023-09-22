@@ -13,4 +13,5 @@ a, a+d, a+2d......
 빈 string은 λ로 적는다.
 abcde는 5인 length를 지닌다.
 
-## Recurrence Relations (재귀 관)
+## Recurrence Relations (재귀 관계)
+
