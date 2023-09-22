@@ -1,0 +1,1 @@
+sequences란 정수의 subset 함
