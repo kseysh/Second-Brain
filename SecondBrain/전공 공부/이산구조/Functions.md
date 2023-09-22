@@ -22,10 +22,10 @@ f{a,b} = {y,z}
 거꾸로도 함수가 될 수 있는 함수, 그럴려면 one-to-one이어야 한다.
 같은 이미지가 있으면 안된다.
 
-## Surjections (전사관계)
+## Surjections (전사 함수)
 정의역이 치역을 전부 사용하는 관계
 
-# Bijections (일대일 대응함수)
+# Bijections (일대일 대응함수, 양사 함수)
 one-to-one의 관계
 
 Bijections이려면 , Injections여야 하며, Surjectijons여야 한다.
