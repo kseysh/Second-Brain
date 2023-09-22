@@ -94,8 +94,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "feabab388e8825fc",
@@ -194,8 +193,9 @@
   },
   "active": "a67e0968abaf619f",
   "lastOpenFiles": [
-    "전공 공부/이산구조/2. Basic Structures.md",
+    "Obsidian/간단한 기호들.md",
     "전공 공부/이산구조/Sequences.md",
+    "전공 공부/이산구조/2. Basic Structures.md",
     "전공 공부/이산구조/Functions.md",
     "전공 공부/이산구조/Sets.md",
     "Develop/개발 원칙/객체 지향 프로그래밍/추상화.md",
@@ -223,7 +223,6 @@
     "Attached files/Pasted image 20230921173013.png",
     "JAVA/자바의 정석/생성자에서 다른 생성자 호출하기 - this().md",
     "전공 공부/오픈소스응용프로그래밍/오픈소스SW 및 라이선스.md",
-    "전공 공부/오픈소스응용프로그래밍/도커 파일과 깃허브를 이용한 파일 공유.md",
     "Attached files/Pasted image 20230921033238.png",
     "Attached files/Pasted image 20230921032951.png",
     "Attached files/Pasted image 20230921025929.png",
