@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "전공 공부/이산구조/Matrix.md",
+                "file": "IDEA/아이디어 폴더/서비스 아이디어.md",
                 "mode": "source",
                 "source": false
               }
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "전공 공부/이산구조/Matrix.md",
+                "file": "IDEA/아이디어 폴더/서비스 아이디어.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "전공 공부/이산구조/Matrix.md",
+                "file": "IDEA/아이디어 폴더/서비스 아이디어.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "전공 공부/이산구조/Matrix.md"
+                "file": "IDEA/아이디어 폴더/서비스 아이디어.md"
               }
             }
           },
@@ -193,11 +193,11 @@
   },
   "active": "a67e0968abaf619f",
   "lastOpenFiles": [
+    "전공 공부/이산구조/Matrix.md",
     "Attached files/Pasted image 20230922122807.png",
     "Attached files/Pasted image 20230922122726.png",
     "Attached files/Pasted image 20230922122316.png",
     "전공 공부/이산구조/Functions.md",
-    "전공 공부/이산구조/Matrix.md",
     "Obsidian/이미지 사이즈 변경하는 방법.md",
     "Obsidian/간단한 기호들.md",
     "전공 공부/이산구조/Cardinality of Sets.md",
@@ -230,7 +230,6 @@
     "Attached files/Pasted image 20230921173013.png",
     "Attached files/Pasted image 20230921033238.png",
     "Attached files/Pasted image 20230921032951.png",
-    "Attached files/Pasted image 20230921025929.png",
     "전공 공부/오픈소스응용프로그래밍",
     "전공 공부/이산구조",
     "전공 공부",
