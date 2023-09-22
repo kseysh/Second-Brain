@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "전공 공부/시스템 프로그래밍/시스템 프로그래밍 들어가기 전.md",
+                "file": "전공 공부/시스템 프로그래밍/C Basics.md",
                 "mode": "source",
                 "source": false
               }
@@ -94,8 +94,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "feabab388e8825fc",
@@ -111,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "전공 공부/시스템 프로그래밍/시스템 프로그래밍 들어가기 전.md",
+                "file": "전공 공부/시스템 프로그래밍/C Basics.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -128,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "전공 공부/시스템 프로그래밍/시스템 프로그래밍 들어가기 전.md",
+                "file": "전공 공부/시스템 프로그래밍/C Basics.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -151,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "전공 공부/시스템 프로그래밍/시스템 프로그래밍 들어가기 전.md"
+                "file": "전공 공부/시스템 프로그래밍/C Basics.md"
               }
             }
           },
@@ -194,10 +193,11 @@
   },
   "active": "a67e0968abaf619f",
   "lastOpenFiles": [
+    "전공 공부/시스템 프로그래밍/시스템 프로그래밍 들어가기 전.md",
+    "전공 공부/시스템 프로그래밍/C Basics.md",
     "Attached files/Pasted image 20230922171104.png",
     "전공 공부/시스템 프로그래밍",
     "전공 공부/이산구조/Matrix.md",
-    "전공 공부/시스템 프로그래밍/시스템 프로그래밍 들어가기 전.md",
     "Attached files/Pasted image 20230922164341.png",
     "Attached files/Pasted image 20230922164315.png",
     "Attached files/Pasted image 20230922164027.png",
@@ -210,7 +210,6 @@
     "IDEA/아이디어 폴더/서비스 아이디어.md",
     "Attached files/Pasted image 20230922122807.png",
     "Attached files/Pasted image 20230922122726.png",
-    "Attached files/Pasted image 20230922122316.png",
     "전공 공부/이산구조/Functions.md",
     "Obsidian/이미지 사이즈 변경하는 방법.md",
     "전공 공부/이산구조/Cardinality of Sets.md",
