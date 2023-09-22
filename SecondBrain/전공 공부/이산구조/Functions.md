@@ -26,7 +26,7 @@ f{a,b} = {y,z}
 정의역이 치역을 전부 사용하는 관계
 ![[Pasted image 20230922120351.png]]
 # Bijections (일대일 대응함수, 양사/전단 함수)
-one-to-one 
+one-to-one ≠ 일대일 대응함수
 
 Bijections이려면 , Injections여야 하며, Surjections여야 한다.
 ![[Pasted image 20230922120415.png]]

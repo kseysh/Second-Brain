@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "전공 공부/이산구조/Functions.md",
+                "file": "전공 공부/이산구조/Matrix.md",
                 "mode": "source",
                 "source": false
               }
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "전공 공부/이산구조/Functions.md",
+                "file": "전공 공부/이산구조/Matrix.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "전공 공부/이산구조/Functions.md",
+                "file": "전공 공부/이산구조/Matrix.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "전공 공부/이산구조/Functions.md"
+                "file": "전공 공부/이산구조/Matrix.md"
               }
             }
           },
@@ -193,9 +193,11 @@
   },
   "active": "a67e0968abaf619f",
   "lastOpenFiles": [
+    "Attached files/Pasted image 20230922122316.png",
+    "전공 공부/이산구조/Functions.md",
+    "전공 공부/이산구조/Matrix.md",
     "Obsidian/이미지 사이즈 변경하는 방법.md",
     "Obsidian/간단한 기호들.md",
-    "전공 공부/이산구조/Functions.md",
     "전공 공부/이산구조/Cardinality of Sets.md",
     "전공 공부/이산구조/Sets.md",
     "Attached files/Pasted image 20230922120415.png",
@@ -220,10 +222,8 @@
     "ERROR_Diary/Spring/Intellij/Unsupported class file major version 64.md",
     "Spring/AOP.md",
     "ERROR_Diary/nginx 502 error.md",
-    "ERROR_Diary/django model 변경 오류.md",
     "ERROR_Diary/Spring/Intellij",
     "ERROR_Diary/Spring",
-    "ERROR_Diary/무제 파일.md",
     "Attached files/Pasted image 20230921173748.png",
     "Attached files/Pasted image 20230921173013.png",
     "Attached files/Pasted image 20230921033238.png",
