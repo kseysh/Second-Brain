@@ -33,3 +33,16 @@ a<sub>ij</sub> ∧ b<sub>ij</sub> , meet of A and B는 A ∧ B 와 같다.
 
 ex)
 ![[Pasted image 20230922163520.png]]
+
+### Boolean Product
+Boolean product of A and B는 A ⊙ B이다.
+
+ex)
+![[Pasted image 20230922164011.png]]
+
+![[Pasted image 20230922164027.png]]
+
+![[Pasted image 20230922164315.png]]
+
+ex)
+![[Pasted image 20230922164341.png]]
