@@ -18,15 +18,15 @@ z의 preimage는 {a,c,d}
 f{a,c,d} = {z}
 f{a,b} = {y,z}
 
-## Injections(단사 함수)
-f(x) -> f(y)
+## Injections, One to One(단사 함수)
+정의역 중 f(x) ≠ f(y)인 함수
 같은 이미지가 있으면 안된다.
 ![[Pasted image 20230922120403.png]]
-## Surjections (전사 함수)
+## Surjections, Onto (전사 함수)
 정의역이 치역을 전부 사용하는 관계
 ![[Pasted image 20230922120351.png]]
-# Bijections (일대일 대응함수, 양사 함수)
-one-to-one의 관계
+# Bijections (일대일 대응함수, 양사/전단 함수)
+one-to-one 
 
 Bijections이려면 , Injections여야 하며, Surjections여야 한다.
 ![[Pasted image 20230922120415.png]]
