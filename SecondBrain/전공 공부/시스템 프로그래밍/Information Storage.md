@@ -84,9 +84,11 @@ Unsigned 값은 뒤에 U가 붙는다.
 ![[Pasted image 20230924131017.png]]
 Unsigned로 해석하던 것을 Signed로 해석하겠다라는 의미
 
-### 
+### Signed와 Unsigned의 계산
+signed 값과 unsigned 값을 계산하기 위해서는 signed값이 unsigned 값으로 임시적 캐스팅이 된다.
 
-
+ex) 
+![[Pasted image 20230924132203.png]]
 
 
 
