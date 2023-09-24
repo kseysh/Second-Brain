@@ -69,6 +69,10 @@ ex)
 ![[Pasted image 20230924125134.png]]
 
 
+## Unsigned & Signed Value
+![[Pasted image 20230924125539.png]]
+Two's complement에서는 최상위 bit를 -를 붙여서 계산하고, 나머지는 +로 더해줘서 절댓값을 낮추는 방식으로 계산을 한다.
+
 
 
 
