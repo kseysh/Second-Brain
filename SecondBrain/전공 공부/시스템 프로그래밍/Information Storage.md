@@ -70,12 +70,21 @@ ex)
 
 
 ## Unsigned & Signed Value
-![[Pasted image 20230924125539.png]]
-Two's complement에서는 최상위 bit를 -를 붙여서 계산하고, 나머지는 +로 더해줘서 절댓값을 낮추는 방식으로 계산을 한다.
+![[Pasted image 20230924130548.png]]
+- Two's complement에서는 최상위 bit를 -를 붙여서 계산하고, 나머지는 +로 더해줘서 절댓값을 낮추는 방식으로 계산을 한다.
+- +에서 -로 넘어가는 부분에서만 값이 한 번 감소하고, 그 이외에는 단계가 지날 수록 계속 값이 증가하는 형태이다.
 
+## Constant
+기본적으로, signed integers로 고려된다.
+Unsigned 값은 뒤에 U가 붙는다.
+![[Pasted image 20230924131254.png]]
 
+## Casting
 
+![[Pasted image 20230924131017.png]]
+Unsigned로 해석하던 것을 Signed로 해석하겠다라는 의미
 
+### 
 
 
 
