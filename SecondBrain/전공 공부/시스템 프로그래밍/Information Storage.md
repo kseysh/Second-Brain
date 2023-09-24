@@ -38,3 +38,30 @@ EX)
 ex) 
 ![[Pasted image 20230924123338.png]]
 ![[Pasted image 20230924123258.png]]
+
+#### Undefined behavior
+0보다 작은 값을 shift하거나 word size보다 같거나 큰 값만큼 shift하는 것은 오류가 발생한다.
+
+
+## Encoding Integers
+
+### Unsigned
+양의 정수만 있는 int (그냥 이진수 해석하듯이 해석하면 된다.)
+### Signed ( Two's complement )
+음의 정수와 양의 정수 모두 표현하는 int
+해석 시 unsigned와 같지만, 최상위 bit를 +/- 로 취급한다는 점이 다르다.
+
+## Unsigned / Signed 의 범위
+
+
+
+
+
+
+
+
+
+
+
+
+
