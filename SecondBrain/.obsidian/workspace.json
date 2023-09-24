@@ -32,6 +32,18 @@
             }
           },
           {
+            "id": "50500ee1b13e166e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "포트폴리오.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "62ad516af7072e6e",
             "type": "leaf",
             "state": {
@@ -44,7 +56,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -94,8 +106,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "feabab388e8825fc",
@@ -111,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "전공 공부/시스템 프로그래밍/Information Storage.md",
+                "file": "포트폴리오.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -128,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "전공 공부/시스템 프로그래밍/Information Storage.md",
+                "file": "포트폴리오.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -151,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "전공 공부/시스템 프로그래밍/Information Storage.md"
+                "file": "포트폴리오.md"
               }
             }
           },
@@ -192,8 +203,10 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "a67e0968abaf619f",
+  "active": "50500ee1b13e166e",
   "lastOpenFiles": [
+    "전공 공부/시스템 프로그래밍/Information Storage.md",
+    "포트폴리오.md",
     "Attached files/Pasted image 20230924132203.png",
     "Attached files/Pasted image 20230924131254.png",
     "Attached files/Pasted image 20230924131017.png",
@@ -204,9 +217,7 @@
     "Attached files/Pasted image 20230924123258.png",
     "Attached files/Pasted image 20230924123248.png",
     "Attached files/Pasted image 20230924122639.png",
-    "Attached files/Pasted image 20230924121956.png",
     "전공 공부/시스템 프로그래밍/시스템 프로그래밍 들어가기 전.md",
-    "전공 공부/시스템 프로그래밍/Information Storage.md",
     "전공 공부/시스템 프로그래밍/C Basics.md",
     "IDEA/아이디어 폴더/서비스 아이디어.md",
     "Obsidian/마크다운 사용법.md",
