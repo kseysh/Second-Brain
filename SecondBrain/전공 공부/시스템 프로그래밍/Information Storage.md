@@ -19,4 +19,22 @@ ex)
 
 ## Logic Operation in C
 && ( AND ), ||( OR ), !( NOT )
+모든 것은 0(False) 또는 1(True)으로 표현된다,
+EX)
+![[Pasted image 20230924122639.png]]
 
+## Shift Operations in C
+
+### Left shift : x << y
+왼쪽으로 shift하게 되면 오른쪽에 빈공간이 생기고, 빈공간에는  0이 채워지게 된다.
+
+### Right shift : x>> y
+
+#### Logical shift
+오른쪽으로 shift하게 되면 왼쪽에 빈공간이 생기고, 빈공간에는 0이 채워진다.
+#### Arithmetic shift
+가장 왼쪽에 있는 bit(최상위 bit)를 복사해서 채워넣는다.
+
+ex) 
+![[Pasted image 20230924123338.png]]
+![[Pasted image 20230924123258.png]]
