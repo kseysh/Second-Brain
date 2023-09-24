@@ -53,8 +53,20 @@ ex)
 
 ## Unsigned / Signed 의 범위
 
+### Unsigned
+UMin = 0
+UMax = 2<sup>w</sup>-1
 
+### Signed (Two's complement)
+TMin = -2<sup>w-1</sup>
+TMax = 2<sup>w-1</sup>-1
 
+\|TMin| = TMax + 1
+UMax = 2 \* TMax + 1 
+> TMin과 TMax의 절댓값이 차이가 난다는 점에 주의!!
+
+ex) 
+![[Pasted image 20230924125134.png]]
 
 
 
