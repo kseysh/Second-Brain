@@ -1,7 +1,7 @@
 # Condition Codes
 - CF Carry Flag (for unsigned) 
 	- Carry가 생겼는가 안 생겼는가
-	- Carry : ?
+	- Carry : 넘어가는 bit가 있는지..?
 - ZF Zero Flag
 	- 결과가 0인가 아닌가
 	- t == 0 인지를 검사함으로써 확인
@@ -32,4 +32,6 @@ CF는 ?
 원본 데이터의 최상위 bit가 1 1인데 값이 0이 나왔으므로 OF 설정
 
 > leaq 연산에서는 Flag가 설정되지 않는다.
+
+## Condition Codes (Explicit Setting: Compare)
 
