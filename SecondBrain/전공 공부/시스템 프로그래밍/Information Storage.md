@@ -91,5 +91,19 @@ ex)
 ![[Pasted image 20230924132203.png]]
 
 > unsigned와 signed의 계산을 할 시, Bit pattern은 유지되며, 해석만 달리한다. 
-> 계산이 잘못되어도 2<sup>w-1</sup>차이가 난다. => 2<sup>w-1</sup> -> -2<sup>w-1</sup>의 차이일 것이므로
+> 계산이 잘못되면 2<sup>w</sup>차이가 난다. => 2<sup>w-1</sup> <-> -2<sup>w-1</sup>의 차이일 것이므로
 
+## Sign Extension
+Sign값을 확장시 최상위 bit를 그대로 복사해서 확장한 왼쪽 공간에 채워넣는다. 
+그러면 숫자가 나타내는 실제 숫자는 완전 동일하다.
+- 앞 숫자가 0일 때
+	- 앞을 0으로 채우므로 전체 숫자는 동일해진다.
+- 앞 숫자가 1일 때
+	- 앞은 1로 채우면 아래처럼 되어 전체 숫자는 동일해진다.
+	- ![[Pasted image 20230925124308.png]]
+ex) 
+![[Pasted image 20230925124506.png]]
+## Unsigned Extension
+앞의 값에 0을 채우면 전체 숫자가 동일해진다.
+
+## Truncating
