@@ -38,4 +38,21 @@ Unsigned와 Signed의 곱셈은 원래 다르게 동작해야 하지만, 작은 
 그림을 보면, bit-level에서는 signed의 곱셈이나, unsigned의 곱셈이나 Truncated를 한다면, 같다.
 원래 bit-level에서의 곱셈은 Unsigned의 곱셈처럼 하는 것이 맞지만 Truncated를 하면 어차피 같은 값이 되므로 Unsigned와 Signed의 곱셈 과정이 같은 것이다.
 
-## 상수의 곱세
+## 상수의 곱셈 / 나눗셈
+multiplication으로 계산하면 오래 걸리기 때문에, Shift 연산을 통해 계산을 수행한다.
+### Signed/Unsigned에서 2를 Shift를 통해 곱셈
+signed와 unsigned 모두 과정이 같다.
+![[Pasted image 20230925161240.png]]
+u << k = u \* 2<sup>k</sup> 
+ex)
+![[Pasted image 20230925161513.png]]
+
+### Unsigned에서 2를 Shift를 통해 나눗셈
+Unsigned에서만 유효하다.
+![[Pasted image 20230925161906.png]]
+2로 나누고 버림을 수행한다.
+
+ex)
+![[Pasted image 20230925161936.png]]
+
+
