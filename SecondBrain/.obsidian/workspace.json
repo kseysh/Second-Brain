@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "전공 공부/시스템 프로그래밍/Integer Arithmetic.md",
+                "file": "독서록/개발 관련 도서/구글 엔지니어는 이렇게 일한다.md",
                 "mode": "source",
                 "source": false
               }
@@ -25,14 +25,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "전공 공부/오픈소스응용프로그래밍/도커 파일과 깃허브를 이용한 파일 공유.md",
+                "file": "독서록/개발 관련 도서/구글 엔지니어는 이렇게 일한다.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -98,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "전공 공부/오픈소스응용프로그래밍/도커 파일과 깃허브를 이용한 파일 공유.md",
+                "file": "독서록/개발 관련 도서/구글 엔지니어는 이렇게 일한다.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "전공 공부/오픈소스응용프로그래밍/도커 파일과 깃허브를 이용한 파일 공유.md",
+                "file": "독서록/개발 관련 도서/구글 엔지니어는 이렇게 일한다.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "전공 공부/오픈소스응용프로그래밍/도커 파일과 깃허브를 이용한 파일 공유.md"
+                "file": "독서록/개발 관련 도서/구글 엔지니어는 이렇게 일한다.md"
               }
             }
           },
@@ -179,13 +178,16 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "e0e70b59f325cc58",
+  "active": "627d6e051ca91712",
   "lastOpenFiles": [
+    "Develop/개발 원칙/객체 지향 프로그래밍/다형성.md",
+    "전공 공부/시스템 프로그래밍/Integer Arithmetic.md",
+    "독서록/개발 관련 도서/구글 엔지니어는 이렇게 일한다.md",
+    "전공 공부/오픈소스응용프로그래밍/도커 파일과 깃허브를 이용한 파일 공유.md",
     "전공 공부/오픈소스응용프로그래밍/소프트웨어 공학의 필요성.md",
     "전공 공부/시스템 프로그래밍/Information Storage.md",
     "전공 공부/시스템 프로그래밍/Condition Codes.md",
     "Attached files/Pasted image 20230925164144.png",
-    "전공 공부/시스템 프로그래밍/Integer Arithmetic.md",
     "Attached files/Pasted image 20230925161936.png",
     "Attached files/Pasted image 20230925161906.png",
     "Attached files/Pasted image 20230925161513.png",
@@ -195,7 +197,6 @@
     "Attached files/Pasted image 20230925155833.png",
     "Attached files/Pasted image 20230925155816.png",
     "Attached files/Pasted image 20230925154730.png",
-    "Develop/개발 원칙/객체 지향 프로그래밍/다형성.md",
     "전공 공부/지난 학기",
     "전공 공부/시스템 프로그래밍/C Basics.md",
     "전공 공부/시스템 프로그래밍/시스템 프로그래밍 들어가기 전.md",
@@ -217,7 +218,6 @@
     "전공 공부/이산구조/Cardinality of Sets.md",
     "전공 공부/이산구조/Sets.md",
     "전공 공부/이산구조/2. Basic Structures.md",
-    "전공 공부/이산구조/Sequences.md",
     "ERROR_Diary/Spring/Intellij",
     "ERROR_Diary/Spring",
     "전공 공부/오픈소스응용프로그래밍",
