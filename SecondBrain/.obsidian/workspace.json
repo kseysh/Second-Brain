@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "전공 공부/시스템 프로그래밍/Integer Arithmetic.md",
+                "file": "전공 공부/시스템 프로그래밍/Condition Codes.md",
                 "mode": "source",
                 "source": false
               }
@@ -82,8 +82,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "feabab388e8825fc",
@@ -99,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "전공 공부/시스템 프로그래밍/Integer Arithmetic.md",
+                "file": "전공 공부/시스템 프로그래밍/Condition Codes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "전공 공부/시스템 프로그래밍/Integer Arithmetic.md",
+                "file": "전공 공부/시스템 프로그래밍/Condition Codes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "전공 공부/시스템 프로그래밍/Integer Arithmetic.md"
+                "file": "전공 공부/시스템 프로그래밍/Condition Codes.md"
               }
             }
           },
@@ -182,6 +181,8 @@
   },
   "active": "e0e70b59f325cc58",
   "lastOpenFiles": [
+    "전공 공부/시스템 프로그래밍/Integer Arithmetic.md",
+    "전공 공부/시스템 프로그래밍/Condition Codes.md",
     "Attached files/Pasted image 20230925161936.png",
     "Attached files/Pasted image 20230925161906.png",
     "Attached files/Pasted image 20230925161513.png",
@@ -193,8 +194,6 @@
     "Attached files/Pasted image 20230925154730.png",
     "Attached files/Pasted image 20230925154627.png",
     "Develop/개발 원칙/객체 지향 프로그래밍/다형성.md",
-    "전공 공부/시스템 프로그래밍/Integer Arithmetic.md",
-    "Attached files/KakaoTalk_20230527_212350920.jpg",
     "전공 공부/지난 학기",
     "전공 공부/시스템 프로그래밍/Information Storage.md",
     "전공 공부/시스템 프로그래밍/C Basics.md",
