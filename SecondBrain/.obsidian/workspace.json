@@ -45,7 +45,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "IDEA/아이디어 폴더/서비스 아이디어.md",
+                "file": "전공 공부/오픈소스응용프로그래밍/소프트웨어 공학의 필요성.md",
                 "mode": "source",
                 "source": false
               }
@@ -114,7 +114,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "feabab388e8825fc",
@@ -130,7 +131,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "IDEA/아이디어 폴더/서비스 아이디어.md",
+                "file": "전공 공부/오픈소스응용프로그래밍/소프트웨어 공학의 필요성.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -147,7 +148,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "IDEA/아이디어 폴더/서비스 아이디어.md",
+                "file": "전공 공부/오픈소스응용프로그래밍/소프트웨어 공학의 필요성.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -170,7 +171,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "IDEA/아이디어 폴더/서비스 아이디어.md"
+                "file": "전공 공부/오픈소스응용프로그래밍/소프트웨어 공학의 필요성.md"
               }
             }
           },
@@ -213,12 +214,13 @@
   },
   "active": "627d6e051ca91712",
   "lastOpenFiles": [
+    "IDEA/아이디어 폴더/서비스 아이디어.md",
+    "전공 공부/오픈소스응용프로그래밍/소프트웨어 공학의 필요성.md",
     "Develop/개발 원칙/객체 지향 프로그래밍/단일 책임의 원칙.md",
     "Develop/개발 원칙/객체 지향 프로그래밍/객체 지향의 5대 설계 원칙 (SOLID).md",
     "Develop/개발 원칙/객체 지향 프로그래밍/인터페이스 분리 원칙.md",
     "Develop/개발 원칙/객체 지향 프로그래밍/의존성 역전의 원칙.md",
     "Develop/개발 원칙/객체 지향 프로그래밍/객체 지향 프로그래밍.md",
-    "IDEA/아이디어 폴더/서비스 아이디어.md",
     "포트폴리오.md",
     "전공 공부/시스템 프로그래밍/Information Storage.md",
     "Attached files/Pasted image 20230924132203.png",
@@ -249,7 +251,6 @@
     "Develop/개발 원칙/객체 지향 프로그래밍/리스코브 치환의 원칙.md",
     "Develop/개발 원칙/객체 지향 프로그래밍/개방 폐쇄의 원칙.md",
     "Develop/개발 원칙/객체 지향 프로그래밍/다형성.md",
-    "Spring/스프링을 사용하는 이유.md",
     "ERROR_Diary/Spring/Intellij",
     "ERROR_Diary/Spring",
     "전공 공부/오픈소스응용프로그래밍",
