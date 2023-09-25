@@ -25,8 +25,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "전공 공부/시스템 프로그래밍/Condition Codes.md",
-                "mode": "source",
+                "file": "전공 공부/시스템 프로그래밍/Information Storage.md",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -99,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "전공 공부/시스템 프로그래밍/Condition Codes.md",
+                "file": "전공 공부/시스템 프로그래밍/Information Storage.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "전공 공부/시스템 프로그래밍/Condition Codes.md",
+                "file": "전공 공부/시스템 프로그래밍/Information Storage.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "전공 공부/시스템 프로그래밍/Condition Codes.md"
+                "file": "전공 공부/시스템 프로그래밍/Information Storage.md"
               }
             }
           },
@@ -182,9 +182,9 @@
   },
   "active": "e0e70b59f325cc58",
   "lastOpenFiles": [
+    "전공 공부/시스템 프로그래밍/Condition Codes.md",
     "Attached files/Pasted image 20230925164144.png",
     "전공 공부/시스템 프로그래밍/Integer Arithmetic.md",
-    "전공 공부/시스템 프로그래밍/Condition Codes.md",
     "Attached files/Pasted image 20230925161936.png",
     "Attached files/Pasted image 20230925161906.png",
     "Attached files/Pasted image 20230925161513.png",
@@ -194,7 +194,6 @@
     "Attached files/Pasted image 20230925155833.png",
     "Attached files/Pasted image 20230925155816.png",
     "Attached files/Pasted image 20230925154730.png",
-    "Attached files/Pasted image 20230925154627.png",
     "Develop/개발 원칙/객체 지향 프로그래밍/다형성.md",
     "전공 공부/지난 학기",
     "전공 공부/시스템 프로그래밍/Information Storage.md",
