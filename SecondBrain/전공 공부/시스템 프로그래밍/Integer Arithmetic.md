@@ -27,6 +27,15 @@ ex)
 UMult<sub>w</sub>(u, v) = (u \* v) mod 2<sup>w</sup>
 overflow를 해결하고 싶으면 두 배의 데이터 타입을 갖는 형태로 캐스팅 해준 후 계산하면 된다.
 
-## Signed Multiplication (TMult)
+## Signed Multiplication (TMult<sub>w</sub>)
+TMult<sub>w</sub>(u, v) = (u \* v) mod 2<sup>w</sup> 
+Unsigned와 Signed의 곱셈은 원래 다르게 동작해야 하지만, 작은 bit에서는 같은 결과를 나타낸다.
+따라서 Unsigned 처럼 곱하고 상위 bit를 지운다.
 
+## Unsigned와 Signed의 곱셈 과정이 같아도 되는 이유
 
+![[Pasted image 20230925160413.png]]
+그림을 보면, bit-level에서는 signed의 곱셈이나, unsigned의 곱셈이나 Truncated를 한다면, 같다.
+원래 bit-level에서의 곱셈은 Unsigned의 곱셈처럼 하는 것이 맞지만 Truncated를 하면 어차피 같은 값이 되므로 Unsigned와 Signed의 곱셈 과정이 같은 것이다.
+
+## 상수의 곱세
