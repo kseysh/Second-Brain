@@ -69,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "feabab388e8825fc",
@@ -168,6 +169,8 @@
   },
   "active": "627d6e051ca91712",
   "lastOpenFiles": [
+    "Attached files/Pasted image 20230925154730.png",
+    "Attached files/Pasted image 20230925154627.png",
     "Develop/개발 원칙/객체 지향 프로그래밍/다형성.md",
     "전공 공부/시스템 프로그래밍/Integer Arithmetic.md",
     "Attached files/KakaoTalk_20230527_212350920.jpg",
@@ -183,7 +186,6 @@
     "전공 공부/시스템 프로그래밍/시스템 프로그래밍 들어가기 전.md",
     "Attached files/Pasted image 20230925124506.png",
     "Attached files/Pasted image 20230925124308.png",
-    "Attached files/Pasted image 20230925124217.png",
     "전공 공부/오픈소스응용프로그래밍/소프트웨어 공학의 필요성.md",
     "IDEA/아이디어 폴더/서비스 아이디어.md",
     "Develop/개발 원칙/객체 지향 프로그래밍/단일 책임의 원칙.md",
