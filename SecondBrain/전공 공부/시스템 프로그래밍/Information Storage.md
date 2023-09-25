@@ -5,10 +5,8 @@
 16진수 : 00 to FF
 ## 16진수
 컴퓨터에서는 보통 앞에 0x를 붙이면 16진수로 인식한다.
-
 ## 8진수
 컴퓨터에서 8진수를 나타내고 싶을 때는 앞에 0을 붙인다.
-
 ## 데이터 타입에 따른 bit
 32-bit에서와 64-bit에서의 long값이 다를 수 있는 것 처럼 사용하는 것에 따라 byte가 달라질 수 있다. 컴퓨터마다 bit 값이 다를 수 있으므로 int32_t, int64_t 같은 고정형 자료형을 쓴다면 범용적인 프로그램을 만들 때 이 것을 쓰는 것이 안전할 수 있다.
 
@@ -43,8 +41,6 @@ ex)
 
 #### Undefined behavior
 0보다 작은 값을 shift하거나 word size보다 같거나 큰 값만큼 shift하는 것은 오류가 발생한다.
-
-
 ## Encoding Integers
 
 ### Unsigned
@@ -52,13 +48,10 @@ ex)
 ### Signed ( Two's complement )
 음의 정수와 양의 정수 모두 표현하는 int
 해석 시 unsigned와 같지만, 최상위 bit를 +/- 로 취급한다는 점이 다르다.
-
 ## Unsigned / Signed 의 범위
-
 ### Unsigned
 UMin = 0
 UMax = 2<sup>w</sup>-1
-
 ### Signed (Two's complement)
 TMin = -2<sup>w-1</sup>
 TMax = 2<sup>w-1</sup>-1
