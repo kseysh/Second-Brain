@@ -1,4 +1,6 @@
 # Addition
+
+![[Pasted image 20230925155816.png]]
 ## Unsigned Addition (UAdd<sub>w</sub>)
 w bit의 unsigned data의 덧셈은 UAdd<sub>w</sub> = ( u + v ) mod 2<sup>w</sup> 로 나타내진다. 2<sup>w</sup>를 넘으면 mod 연산이 된다.
 
@@ -20,5 +22,11 @@ ex)
 
 # Multiplication
 
+![[Pasted image 20230925155833.png]]
+## Unsigned Multiplication (UMult<sub>w</sub>)
+UMult<sub>w</sub>(u, v) = (u \* v) mod 2<sup>w</sup>
+overflow를 해결하고 싶으면 두 배의 데이터 타입을 갖는 형태로 캐스팅 해준 후 계산하면 된다.
 
-## Unsigned Multiplication
+## Signed Multiplication (TMult)
+
+
