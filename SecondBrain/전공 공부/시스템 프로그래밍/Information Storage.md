@@ -9,8 +9,10 @@
 ## 8진수
 컴퓨터에서 8진수를 나타내고 싶을 때는 앞에 0을 붙인다.
 
-## s
+## 데이터 타입에 따른 bit
 32-bit에서와 64-bit에서의 long값이 다를 수 있는 것 처럼 사용하는 것에 따라 byte가 달라질 수 있다. 컴퓨터마다 bit 값이 다를 수 있으므로 int32_t, int64_t 같은 고정형 자료형을 쓴다면 범용적인 프로그램을 만들 때 이 것을 쓰는 것이 안전할 수 있다.
+
+![[Pasted image 20230925125109.png]]
 
 ## Bit-Level Operations in C (Bitwise)
 &( and ), |( or ), ~( not ), ^( Exclusive )
@@ -107,3 +109,8 @@ ex)
 앞의 값에 0을 채우면 전체 숫자가 동일해진다.
 
 ## Truncating
+Unsigned : mod 연산과 비슷하다.
+
+Signed : mod 연산과 비슷하지만, 원래 최상위 bit가 0이었지만, Truncating 이후 최상위 bit가 1이면 값이 달라질 수도 있다 (양수 -> 음수 or 음수 -> 양수).
+
+### Truncating Example
