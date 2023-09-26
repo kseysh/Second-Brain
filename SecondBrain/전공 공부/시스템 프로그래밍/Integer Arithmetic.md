@@ -55,4 +55,8 @@ Unsigned에서만 유효하다.
 ex)
 ![[Pasted image 20230925161936.png]]
 
+### unsigned를 잘못 활용한 경우 + 해결
+i가 어떤 값을 가지던,unsigned의 특성 상 0보다 클 수밖에 없다.
+-1이라고 생각된 값은 한 바퀴를 돌아 UMax로 해석이 될 것이기 때문이다.
+![[Pasted image 20230926095202.png]]
 
