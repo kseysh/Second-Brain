@@ -36,10 +36,12 @@ ex)
 ![[Pasted image 20230926152053.png]]
 
 ### Denormalized Values
+0.xxxxx \* 2<sup>-126</sup> 이렇게 계산할 수 있
 #### normalized values와 구분한 이유
 0이 들어갈 수 없기 때문 ( normalized는 자동으로 frac 1이 들어가기 때문에 ) 
 
-
+#### denormalized values의 특징
++0, -0 둘 다 있다.
 
 
 
