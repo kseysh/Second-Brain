@@ -49,7 +49,19 @@ ex ) movq (%rcx), %rax
 괄호 밖에 상수를 써줌 레지스터의 값에 상수를 더한 것을 주소로 쓰겠다.
 따라서 Memory의 주소가 Register의 값 + D가 된다.
 ex) movq 8(%rbp), %rdx
+### Example
+![[Pasted image 20230927022337.png]]
+ret => return이라는 의미로 함수가 끝났으니 원래 함수가 호출되었던 곳 이후로 돌아가라는 의미 
 
+![[Pasted image 20230927022422.png]]
+understanding swap() 다시 보기
+
+## Complete Memory Addressing Modes
+### General form : D(Rb,Ri,S) -> Mem\[ Reg\[ Rb ] + S\*Reg\[Ri] + D ]
+D : 주소로부터 얼마만큼 떨어져 있는지를 알려주는 값
+Rb : 
+Ri : 
+S : 
 
 
 
