@@ -6,3 +6,20 @@
 주소에 필요한 사이즈
 컴퓨터의 32bit, 64bit가 word size임. 요즘 컴퓨터는 64bits의 word size를 가지고 있음.
 
+![[Pasted image 20230926111230.png]]
+
+## Byte Ordering
+Endian : "끝" 이라는 의미
+### Big Endian
+끝이 큰 수라는 의미
+장점 : 사람이 읽는 순서대로 읽힌다.
+### Little Endian
+끝이 작은 수라는 의미
+장점 : Truncating이나 Expansion이 좀 더 자유롭다.
+casting시 별도의 작업을 해주지 않아도 
+### Byte Ordering Example
+
+16진수이고, 변수 x가 4byte 이므로 01,23,45,67 로 Byte Ordering이 될 것이다. 
+![[Pasted image 20230926111709.png]]
+Big Endian : 큰 주소로 끝내야 하므로, 0x100부터 넣기 시작하여  0x103까지 넣는다.
+Little Endian : 작은 주소로 끝내야 하므로, 0x103부터 넣기 시작하여  0x100까지 넣는다.
