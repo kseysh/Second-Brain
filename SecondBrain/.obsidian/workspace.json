@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "전공 공부/시스템 프로그래밍/Registers, Operands, Move.md",
+                "file": "전공 공부/시스템 프로그래밍/Arithmetic & Logical Operations.md",
                 "mode": "source",
                 "source": false
               }
@@ -81,8 +81,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "feabab388e8825fc",
@@ -98,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "전공 공부/시스템 프로그래밍/Registers, Operands, Move.md",
+                "file": "전공 공부/시스템 프로그래밍/Arithmetic & Logical Operations.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "전공 공부/시스템 프로그래밍/Registers, Operands, Move.md",
+                "file": "전공 공부/시스템 프로그래밍/Arithmetic & Logical Operations.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "전공 공부/시스템 프로그래밍/Registers, Operands, Move.md"
+                "file": "전공 공부/시스템 프로그래밍/Arithmetic & Logical Operations.md"
               }
             }
           },
@@ -181,13 +180,15 @@
   },
   "active": "fa2420a7c4265bbf",
   "lastOpenFiles": [
+    "전공 공부/시스템 프로그래밍/Registers, Operands, Move.md",
+    "전공 공부/시스템 프로그래밍/Arithmetic & Logical Operations.md",
+    "Attached files/Pasted image 20230927025102.png",
     "Attached files/Pasted image 20230927023814.png",
     "Attached files/Pasted image 20230927022422.png",
     "Attached files/Pasted image 20230927022337.png",
     "Attached files/Pasted image 20230927015011.png",
     "전공 공부/시스템 프로그래밍/Information Storage.md",
     "전공 공부/시스템 프로그래밍/C Basics.md",
-    "전공 공부/시스템 프로그래밍/Registers, Operands, Move.md",
     "Attached files/Pasted image 20230926195028.png",
     "전공 공부/시스템 프로그래밍/C, assembly, machince code.md",
     "전공 공부/시스템 프로그래밍/시스템 프로그래밍 들어가기 전.md",
@@ -197,10 +198,8 @@
     "Attached files/Pasted image 20230926185357.png",
     "Attached files/Pasted image 20230926185343.png",
     "Attached files/Pasted image 20230926181049.png",
-    "Attached files/Pasted image 20230926180717.png",
     "Obsidian/간단한 기호들.md",
     "전공 공부/이산구조/이산수학 기호.md",
-    "Attached files/Pasted image 20230926173247.png",
     "전공 공부/시스템 프로그래밍/Representations in memory.md",
     "전공 공부/시스템 프로그래밍/Condition Codes.md",
     "독서록/개발 관련 도서/구글 엔지니어는 이렇게 일한다.md",

@@ -71,4 +71,5 @@ S :  Ri에 곱해지는 상수 ( 반드시 1,2,4,8 중에 하나여야 한다. )
 ### Examples
 ![[Pasted image 20230927023814.png]]
 
+![[Pasted image 20230927025102.png]]
 
