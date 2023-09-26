@@ -81,7 +81,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "feabab388e8825fc",
@@ -178,7 +179,7 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "fa2420a7c4265bbf",
+  "active": "77e0b92a051c28ac",
   "lastOpenFiles": [
     "전공 공부/시스템 프로그래밍/Registers, Operands, Move.md",
     "전공 공부/시스템 프로그래밍/Arithmetic & Logical Operations.md",
