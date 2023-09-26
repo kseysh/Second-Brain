@@ -4,28 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "5b786355301e30fa",
+        "id": "9eb71517dfeabe93",
         "type": "tabs",
         "children": [
           {
-            "id": "627d6e051ca91712",
+            "id": "fa2420a7c4265bbf",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "독서록/개발 관련 도서/구글 엔지니어는 이렇게 일한다.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "e0e70b59f325cc58",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "독서록/개발 관련 도서/구글 엔지니어는 이렇게 일한다.md",
+                "file": "전공 공부/시스템 프로그래밍/Integer Arithmetic.md",
                 "mode": "source",
                 "source": false
               }
@@ -97,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "독서록/개발 관련 도서/구글 엔지니어는 이렇게 일한다.md",
+                "file": "전공 공부/시스템 프로그래밍/Integer Arithmetic.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "독서록/개발 관련 도서/구글 엔지니어는 이렇게 일한다.md",
+                "file": "전공 공부/시스템 프로그래밍/Integer Arithmetic.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "독서록/개발 관련 도서/구글 엔지니어는 이렇게 일한다.md"
+                "file": "전공 공부/시스템 프로그래밍/Integer Arithmetic.md"
               }
             }
           },
@@ -178,15 +166,15 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "627d6e051ca91712",
+  "active": "fa2420a7c4265bbf",
   "lastOpenFiles": [
+    "전공 공부/시스템 프로그래밍/Condition Codes.md",
+    "독서록/개발 관련 도서/구글 엔지니어는 이렇게 일한다.md",
     "Develop/개발 원칙/객체 지향 프로그래밍/다형성.md",
     "전공 공부/시스템 프로그래밍/Integer Arithmetic.md",
-    "독서록/개발 관련 도서/구글 엔지니어는 이렇게 일한다.md",
     "전공 공부/오픈소스응용프로그래밍/도커 파일과 깃허브를 이용한 파일 공유.md",
     "전공 공부/오픈소스응용프로그래밍/소프트웨어 공학의 필요성.md",
     "전공 공부/시스템 프로그래밍/Information Storage.md",
-    "전공 공부/시스템 프로그래밍/Condition Codes.md",
     "Attached files/Pasted image 20230925164144.png",
     "Attached files/Pasted image 20230925161936.png",
     "Attached files/Pasted image 20230925161906.png",
