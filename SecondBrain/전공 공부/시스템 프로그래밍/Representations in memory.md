@@ -12,11 +12,15 @@
 Endian : "끝" 이라는 의미
 ### Big Endian
 끝이 큰 수라는 의미
-장점 : 사람이 읽는 순서대로 읽힌다.
+소형 컴퓨터/임베디드 시스템에서 주로 사용
+장점 : 사람이 읽는 순서대로 읽혀 주소를 직접 바꾸거나 할 때 유리하다.
 ### Little Endian
 끝이 작은 수라는 의미
+보통의 컴퓨터가 Little Endian을 사용
 장점 : Truncating이나 Expansion이 좀 더 자유롭다.
-casting시 별도의 작업을 해주지 않아도 
+=> 주소의 시작부분에 최하위 비트(least significant bit)가 있기 때문에
+=> casting시 별도의 작업을 해주지 않아도 된다.
+
 ### Byte Ordering Example
 
 16진수이고, 변수 x가 4byte 이므로 01,23,45,67 로 Byte Ordering이 될 것이다. 
