@@ -27,15 +27,29 @@ ex) a와 b를 더할 때 a를 memory에서 꺼내고, 더하는 함수 꺼내고
 ## Memory
 이외의 모든 데이터는 Memory에 저장된다.
 Byte단위로 주소가 매겨진 큰 Array라고 할 수 있다.
+# Assembly Data Types
+assembly 안에서는 데이터타입이 그대로 존재하지 않음
+char,short,int,long은 1,2,4,8의 데이터 크기로만 존재한다. (따로 구분 짓지 않음)
+데이터 값과 주소만을 표현한다.
+## Integer data
+1,2,4,8 bytes
+## Floating point data
+4,8,10 bytes
+## Code
+코드 -> 컴파일된 코드 -> 기계어 로 번역되는데, 
+기계어가 byte sequence로 나열된 것이 코드이다.
+
+> 기계어나 어셈블리어에서는 array나 structure의 개념이 존재하지 않는다.
 
 
-## Assembly Cha
+# Assembly Operations
+아래 세 가지 Operation만 존재한다.
+- 산술 연산
 
+- 데이터 이동
 
-
-
-
-
+- Transfer control (PC jump)
+	- ex) for문이나 if문에서 코드의 순서를 점프하는 상황에 사용 
 
 
 
