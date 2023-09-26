@@ -136,7 +136,7 @@ M과 E는 곱셈시에 길어질 수 있다.
 E가 범위를 벗어나면 overflow가 발생한다.
 frac의 정확도를 맞추기 위해 M을 [[#Round-To-Even]]을 사용하여 반올림 해준다.
 
-### Floating Point 연산의 수학적 특성
+### Floating Point 곱셈의 수학적 특성
 - 닫힌 연산이다.
 - 교환법칙이 성립한다
 - 결합법칙이 성립하지 않는다. (overflow의 가능성이 있기 때문)
@@ -145,8 +145,8 @@ frac의 정확도를 맞추기 위해 M을 [[#Round-To-Even]]을 사용하여 �
 ![[Pasted image 20230926172425.png]]
 - 1은 곱했을 때 자기 자신이 나온다. (곱셈의 항등원이다.)
 - 단조성(monotonic)을 만족한다. (int는 overflow가 발생할 수 있어 만족하지 않는다.)
-![[Pasted image 20230926172629.png]]
 	- 대부분 만족하지만, 무한대와 NaN은 단조성을 만족하지 않는다.
+	- ![[Pasted image 20230926172629.png]]
 
 ## Floating Point의 덧셈
 ![[Pasted image 20230926173247.png]]
@@ -157,10 +157,24 @@ ex)
 >1.01 \* 2<sup>-1</sup> 
 >이 둘을 더하면 아래 값을 0.00000101 * 2<sup>5</sup>으로 바꿔서 계산해준다.
 
-1<M<2
+1≤M<2 여야 하므
 만약 M ≥ 2면, M을 오른쪽으로 shift하고, E를 증가시킨다. 
 만약 M < 1이면, M을 k만큼 왼쪽으로 shift하고, k만큼 E를 감소시킨다.
 E가 overflow가 나면 inf나 0으로 맞춰준다.
 frac 정확도를 맞추기 위해 M을 반올림 해준다.
 
+### Floating Point 덧셈의 수학적 특성
+- 닫힌 연산이다. (Floating Point는 항상 닫힌 연산이다. 결과가 Floating Point로 표현되므로)
+> 닫힌 연산 : 모든 값이 Floating Point로 표현될 수 있다.
+- 교환 법칙이 성립한다
+- 결합 법칙은 성립하지 않는다. (overflow가 발생할 수 있기 때문)
+ex) ![[Pasted image 20230926180717.png]]
+- 0은 했을 때 자기 자신이 나온다. ( 0이 덧셈의 항등원이다. )
+- 대부분의 요소가 역원이 존재한다.
+	- 역원 : 더했을 때 0이 나오는 수
+	- 예외 : inf, NaNs
+- 단조성(monotonic)을 만족한다.
+	- 대부분 만족하지만, 무한대와 NaN은 단조성을 만족하지 않는다.
+	- ![[Pasted image 20230926181049.png]]
 
+### C에서의 Floating Point
