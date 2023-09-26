@@ -57,11 +57,20 @@ positive, negative 모두 가능하다.
 Not-a-Number (NaN)
 ex) sqrt(-1) 무한, -무한, 무한 \* 0
 
+ex)
+![[Pasted image 20230926154554.png]]
+exp가 4-bits이므로 bias가 7이다.
 
+![[Pasted image 20230926154742.png]]
+0.111 \* 2<sup>-6</sup>
+에서
+1.000 \* 2<sup>-6</sup>
+로 바뀌는 구간이 존재한다.
 
+### Distribution of values
+큰 수에서는 조금 듬성듬성 값이 있고, 작은 수에서는 촘촘하게 값이 존재한다.
 
-
-
+![[Pasted image 20230926155046.png]]
 
 
 

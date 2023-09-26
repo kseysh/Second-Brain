@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "이산",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -169,6 +169,10 @@
   },
   "active": "fa2420a7c4265bbf",
   "lastOpenFiles": [
+    "Attached files/Pasted image 20230926155046.png",
+    "Attached files/Pasted image 20230926154742.png",
+    "Attached files/Pasted image 20230926154633.png",
+    "Attached files/Pasted image 20230926154554.png",
     "전공 공부/이산구조/이산수학 기호.md",
     "전공 공부/시스템 프로그래밍/Floating point.md",
     "Attached files/Pasted image 20230926152053.png",
@@ -181,9 +185,6 @@
     "전공 공부/시스템 프로그래밍/Integer Arithmetic.md",
     "전공 공부/시스템 프로그래밍/Condition Codes.md",
     "Attached files/Pasted image 20230926113649.png",
-    "Attached files/Pasted image 20230926113318.png",
-    "Attached files/Pasted image 20230926111709.png",
-    "Attached files/Pasted image 20230926111230.png",
     "전공 공부/시스템 프로그래밍/Information Storage.md",
     "전공 공부/시스템 프로그래밍/C Basics.md",
     "독서록/개발 관련 도서/구글 엔지니어는 이렇게 일한다.md",
