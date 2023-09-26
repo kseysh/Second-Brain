@@ -129,3 +129,18 @@ ex)
 
 ## Floating Point의 곱셈
 
+![[Pasted image 20230926171520.png]]
+
+s : XOR 연산
+M과 E는 곱셈시에 길어질 수 있다.
+E가 범위를 벗어나면 overflow가 발생한다.
+frac의 정확도를 맞추기 위해 M을 [[#Round-To-Even]]을 사용하여 반올림 해준다.
+
+### Floating Point 연산의 수학적 특성
+- 닫힌 연산이다.
+- 교환법칙이 성립한다
+- 결합법칙이 성립하지 않는다. (overflow의 가능성이 있기 때)
+![[Pasted image 20230926172138.png]]
+- 
+
+
