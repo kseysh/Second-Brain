@@ -9,7 +9,7 @@ ex)
 # Floating Point
 점이 떠다닌다는 의미
 > IEEE : 전자적 표준 기관
-
+![[Pasted image 20230926144416.png]]
 ### 장점
 overflow, underflow, rounding을 컨트롤하기 매우 편리하다
 ### 단점
