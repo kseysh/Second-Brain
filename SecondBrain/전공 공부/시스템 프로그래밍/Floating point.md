@@ -149,3 +149,6 @@ frac의 정확도를 맞추기 위해 M을 [[#Round-To-Even]]을 사용하여 �
 	- 대부분 만족하지만, 무한대와 NaN은 단조성을 만족하지 않는다.
 
 ## Floating Point의 덧셈
+![[Pasted image 20230926173247.png]]
+
+E는 큰쪽
