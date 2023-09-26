@@ -23,5 +23,24 @@ Src와 Dest를 계산해 Dest에 저장한다.
 
 ## Arithmetic Expression Example
 
+![[Pasted image 20230927033411.png]]
+### 1
+addq를 사용하면 Dest가 덮어씌워지므로 leaq를 사용하여 덧셈을 한다.
+현재 %rax에는 t1이 들어있다.
+### 2
+이 뒤에 z와 t1 모두 안 쓰이므로 덮어씌워져도 상관이 없음 따라서 addq를 사용하여도 무방함. 현재 %rax에는 t2가 들어있다.
+### 3
+y\*48 = 16\*(y + 2y)이므로 3y를 만들어주기 위해 leaq를 사용하는 모습이다.
+### 4
+4만큼 rdx를 left로 shift하므로 16이 곱해진다
+### 5
+
+### 6
+
+
+
+
+
+
 
 
