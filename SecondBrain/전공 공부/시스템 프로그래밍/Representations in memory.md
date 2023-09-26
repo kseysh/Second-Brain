@@ -22,8 +22,22 @@ Endian : "끝" 이라는 의미
 => casting시 별도의 작업을 해주지 않아도 된다.
 
 ### Byte Ordering Example
-
 16진수이고, 변수 x가 4byte 이므로 01,23,45,67 로 Byte Ordering이 될 것이다. 
 ![[Pasted image 20230926111709.png]]
 Big Endian : 큰 주소로 끝내야 하므로, 0x100부터 넣기 시작하여  0x103까지 넣는다.
 Little Endian : 작은 주소로 끝내야 하므로, 0x103부터 넣기 시작하여  0x100까지 넣는다.
+
+## Representing Pointers
+같은 프로그램을 돌리더라도 포인터 값이 다를 수 있다.
+ex)
+![[Pasted image 20230926113318.png]]
+P의 값은 돌릴 때 마다 달라질 수 있다.
+
+## Representing Strings
+String은 Char의 Array이다.
+string은 마지막에 null character인 \\0으로 끝난다.
+String은 Byte Ordering에 관계없다.
+Array는 첫 번째 주소 이후에 차곡차곡 쌓이는 형태이기 때문 (int는 4byte가 하나의 완결형 데이터이므로 상관있는 것)
+String은 내부에 순서가 있는 형태라 상관이 없다.
+![[Pasted image 20230926113649.png]]
+
