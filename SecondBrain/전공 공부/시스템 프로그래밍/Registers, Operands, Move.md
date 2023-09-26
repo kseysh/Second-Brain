@@ -45,5 +45,15 @@ Source, Dest자리에 올 수 있는 것들
 ### Normal : (R) -> Mem\[ Reg\[R] ]
 의미 : Register에 어떤 값이 써져있을텐데, 써있는 것을 주소로 해서 메모리에 가서 값을 가져온다.
 ex ) movq (%rcx), %rax
+### Displacement : D(R) -> Mem\[ Reg\[R] + D ]
+괄호 밖에 상수를 써줌 레지스터의 값에 상수를 더한 것을 주소로 쓰겠다.
+따라서 Memory의 주소가 Register의 값 + D가 된다.
+ex) movq 8(%rbp), %rdx
 
-### Displacement : 
+
+
+
+
+
+
+
