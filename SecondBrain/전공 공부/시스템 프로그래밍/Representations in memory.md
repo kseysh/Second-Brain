@@ -41,3 +41,10 @@ Array는 첫 번째 주소 이후에 차곡차곡 쌓이는 형태이기 때문 
 String은 내부에 순서가 있는 형태라 상관이 없다.
 ![[Pasted image 20230926113649.png]]
 
+ex)
+![[Pasted image 20230926114329.png]]
+ 코드 해석 : 
+ ( index << 3 ) == ( index \* 8 )
+ 따라서 원하는 integer만큼의 4byte를 오른쪽에 붙여놓고, 0xFF를 통해 오른쪽에 붙여져있던 8-bit integer만 가지고 오는 함수
+ 코드에서 잘못된 점 : unsigned의 계산이므로 오른쪽으로 shift를 진행하면 왼쪽에는 0
+ integer가 음수이게 되면 오른쪽에 붙여놨을 때,
