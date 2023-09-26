@@ -37,4 +37,13 @@ Source, Dest자리에 올 수 있는 것들
 
 ## `movq` Operand Combinations
 ![[Pasted image 20230927015011.png]]
+- Immediate는 상수이므로 어떤 값을 상수에 넣겠다는 것은 이상하다. 따라서 Dest에는 상수가 들어가지 않는다.
+- memory에서 memory로 데이터를 직접 이동시키는 것은 불가능하다.
+- memory에서 memory로 데이터를 이동시키고 싶다면, memory에서 register로, register에서 memory로 데이터를 옮겨야 한다.
 
+## Simple Memory Addressing Modes
+### Normal : (R) -> Mem\[ Reg\[R] ]
+의미 : Register에 어떤 값이 써져있을텐데, 써있는 것을 주소로 해서 메모리에 가서 값을 가져온다.
+ex ) movq (%rcx), %rax
+
+### Displacement : 
