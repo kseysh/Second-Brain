@@ -177,4 +177,14 @@ ex) ![[Pasted image 20230926180717.png]]
 	- 대부분 만족하지만, 무한대와 NaN은 단조성을 만족하지 않는다.
 	- ![[Pasted image 20230926181049.png]]
 
-### C에서의 Floating Point
+## C에서의 Floating Point
+### Conversions / Casting
+#### double/float -> int
+int의 표현 범위를 넘어가거나 NaN일 때는 정의되지 않는다. 보통 TMin으로 캐스팅된다.
+소수점을 버린다.
+Round-To-Even으로 반올림한다.
+#### int -> double
+double의 frac이 52-bits이므로 int를 모두 표현할 수 있다.
+#### int -> float
+float의 frac이 23-bits이므로 int를 모두 표현하지 못한다.
+Round-To-Even을 통해 숫자를 버리게 되는 상황이 올 수도 있다.
