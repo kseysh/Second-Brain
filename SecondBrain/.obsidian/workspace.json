@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "다형",
+                "query": "이산",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -65,7 +65,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -168,9 +169,10 @@
   },
   "active": "fa2420a7c4265bbf",
   "lastOpenFiles": [
+    "전공 공부/이산구조/이산수학 기호.md",
+    "전공 공부/시스템 프로그래밍/Integer Arithmetic.md",
     "전공 공부/시스템 프로그래밍/C Basics.md",
     "전공 공부/시스템 프로그래밍/Information Storage.md",
-    "전공 공부/시스템 프로그래밍/Integer Arithmetic.md",
     "Attached files/Pasted image 20230926095719.png",
     "Attached files/Pasted image 20230926095202.png",
     "전공 공부/시스템 프로그래밍/Condition Codes.md",
@@ -200,7 +202,6 @@
     "Obsidian/이미지 사이즈 변경하는 방법.md",
     "전공 공부/시스템 프로그래밍",
     "전공 공부/이산구조/Matrix.md",
-    "전공 공부/이산구조/이산수학 기호.md",
     "Obsidian/간단한 기호들.md",
     "전공 공부/이산구조/Functions.md",
     "전공 공부/이산구조/Cardinality of Sets.md",

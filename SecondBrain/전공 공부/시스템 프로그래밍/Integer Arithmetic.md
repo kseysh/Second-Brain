@@ -63,12 +63,15 @@ i가 어떤 값을 가지던,unsigned의 특성 상 0보다 클 수밖에 없다
 ### Integer C Puzzle
 ![[Pasted image 20230926095719.png]]
 int는 4byte이고, 1byte는 8bits이다. 즉, int는 32bits 이다.
+|| 을 해석할 때, 왼쪽이 거짓일 때, 오른쪽이 항상 참인가를 확인하면 확인이 편하다.
 #### A
 False. x = TMin일 때, x-1을 하면, overflow가 발생해서 만족하지 않는 경우가 있다.
 #### B
-
+True.
+(x & 7) == 7 → x == ....111
+x를 29bit만큼 shift하면 앞이 111이 되므로 음수가 된다.
 #### C
-
+False. x를 제곱해서 overflow가 발생하면 0보다 작아질 수 있다.
 #### D
 
 #### E
