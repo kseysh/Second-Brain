@@ -72,10 +72,14 @@ exp가 4-bits이므로 bias가 7이다.
 
 ![[Pasted image 20230926155046.png]]
 
+## IEEE Encoding (Floating Point)의 장점
 
+0의 bit level value가 int와 똑같다.
+값의 대소 비교가 쉽다.
 
-
-
+## Integer vs Floating Point
+![[Pasted image 20230926161754.png]]
+### 
 
 
 

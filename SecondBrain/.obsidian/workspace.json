@@ -65,12 +65,12 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "feabab388e8825fc",
@@ -169,6 +169,8 @@
   },
   "active": "fa2420a7c4265bbf",
   "lastOpenFiles": [
+    "Attached files/Pasted image 20230926161754.png",
+    "Attached files/Pasted image 20230926161729.png",
     "Attached files/Pasted image 20230926155046.png",
     "Attached files/Pasted image 20230926154742.png",
     "Attached files/Pasted image 20230926154633.png",
@@ -181,10 +183,8 @@
     "Attached files/Pasted image 20230926144416.png",
     "Attached files/Pasted image 20230926144414.png",
     "전공 공부/시스템 프로그래밍/Representations in memory.md",
-    "Attached files/Pasted image 20230926114329.png",
     "전공 공부/시스템 프로그래밍/Integer Arithmetic.md",
     "전공 공부/시스템 프로그래밍/Condition Codes.md",
-    "Attached files/Pasted image 20230926113649.png",
     "전공 공부/시스템 프로그래밍/Information Storage.md",
     "전공 공부/시스템 프로그래밍/C Basics.md",
     "독서록/개발 관련 도서/구글 엔지니어는 이렇게 일한다.md",
