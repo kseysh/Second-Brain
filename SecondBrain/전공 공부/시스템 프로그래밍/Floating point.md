@@ -36,13 +36,26 @@ ex)
 ![[Pasted image 20230926152053.png]]
 
 ### Denormalized Values
-0.xxxxx \* 2<sup>-126</sup> 이렇게 계산할 수 있
+0.xxxxx \* 2<sup>-126</sup> 이렇게 계산할 수 있다
 #### normalized values와 구분한 이유
 0이 들어갈 수 없기 때문 ( normalized는 자동으로 frac 1이 들어가기 때문에 ) 
-
 #### denormalized values의 특징
 +0, -0 둘 다 있다.
 
+##### exp = 111.....1, frac = 000...0
+0을 나타낸다
+##### exp = 111.....1, frac ≠ 000...0
+0.0에 가까운 값
+### Special Values
+#### exp = 111.....1
+##### exp = 111.....1, frac = 000...0
+무한을 나타낸다.
+overflow가 발생할 때의 표현이다.
+positive, negative 모두 가능하다.
+
+##### exp = 111.....1, frac ≠ 000...0
+Not-a-Number (NaN)
+ex) sqrt(-1) 무한, -무한, 무한 \* 0
 
 
 
