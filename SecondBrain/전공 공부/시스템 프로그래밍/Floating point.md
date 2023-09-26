@@ -66,6 +66,7 @@ exp가 4-bits이므로 bias가 7이다.
 에서
 1.000 \* 2<sup>-6</sup>
 로 바뀌는 구간이 존재한다.
+> 224 -> 240으로 넘어가는 구간이 있는 것 처럼 소멸되는 구간도 있다.
 
 ### Distribution of values
 큰 수에서는 조금 듬성듬성 값이 있고, 작은 수에서는 촘촘하게 값이 존재한다.
@@ -79,9 +80,26 @@ exp가 4-bits이므로 bias가 7이다.
 
 ## Integer vs Floating Point
 ![[Pasted image 20230926161754.png]]
-### 
+### case 1
+exp = E  + bias = 21 + 127 = 148이다.
+### case 2
+exp = E  + bias = 30 + 127 = 157이다.
+frac에서 길어서 넣을 수 없는 부분은 날라가게 된다.
 
+# Floating Point Operations
 
+## Floating Point Operations의 기본 아이디어
+정확하게 표현하기는 어려우므로 계산하고 올림을 적용한다.
+![[Pasted image 20230926162252.png]]
 
+앞의 유효숫자끼리 곱하고, 뒤의 유효숫자끼리 곱한다.
+ex)
+![[Pasted image 20230926162409.png]]
+곱셈 시에는 frac부분이나 exp 부분이 길어진다. 
+
+- frac부분이 길어질 때 :
+짤리는 부분도 생기게 되며, 그럴 때에는 반올림을 해준다.
+- exp 부분이 길어질 때 :
+overflow -> infinity or 0으로 처리해준다.
 
 
