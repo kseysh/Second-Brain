@@ -43,8 +43,16 @@ String은 내부에 순서가 있는 형태라 상관이 없다.
 
 ex)
 ![[Pasted image 20230926114329.png]]
- 코드 해석 : 
- ( index << 3 ) == ( index \* 8 )
- 따라서 원하는 integer만큼의 4byte를 오른쪽에 붙여놓고, 0xFF를 통해 오른쪽에 붙여져있던 8-bit integer만 가지고 오는 함수
- 코드에서 잘못된 점 : unsigned의 계산이므로 오른쪽으로 shift를 진행하면 왼쪽에는 0
- integer가 음수이게 되면 오른쪽에 붙여놨을 때,
+*코드 해석* : 8-bit integer를 32-bit integer로 확장하여 추출하고 싶음
+( index << 3 ) == ( index \* 8 )
+따라서 원하는 integer만큼의 4byte를 오른쪽에 붙여놓고, 0xFF를 통해 오른쪽에 붙여져있던 8-bit integer만 가지고 오면, 왼쪽 값이 다 0으로 채워지는 함수.
+ 
+*코드에서 잘못된 점* : unsigned의 계산이므로 (uint32_t) 오른쪽으로 shift를 진행하면 왼쪽에는 무조건 0이 채워지게 된다. 따라서 integer가 음수이게 되면 오른쪽에 붙여놨을 때, 음수여야 하지만, 최상위 bit가 0이므로 양수로 인식된다.
+
+*수정하는 방법* : 왼쪽으로 붙이고, int 타입으로 만들고, 24칸을 shift한다. (int는 signed type이므로 음수일 경우(최상위 bit가 1일 경우)에는 앞에 1로 채워져서 음수와 양수의 구분이 가능해진다.)
+
+``` C++
+int left = word << ((3-index)<<3);
+return (left >> 24);
+```
+ 
