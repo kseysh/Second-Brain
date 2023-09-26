@@ -151,4 +151,10 @@ frac의 정확도를 맞추기 위해 M을 [[#Round-To-Even]]을 사용하여 �
 ## Floating Point의 덧셈
 ![[Pasted image 20230926173247.png]]
 
-E는 큰쪽
+E는 큰 쪽에 맞춘다 (E1)
+만약 M ≥ 2면, M을 오른쪽으로 shift하고, E를 증가시킨다.
+만약 M < 1이면, M을 k만큼 왼쪽으로 shift하고, k만큼 E를 감소시킨다.
+E가 overflow가 나면 inf나 0으로 맞춰준다.
+frac 정확도를 맞추기 위해 M을 반올림 해준다.
+
+
