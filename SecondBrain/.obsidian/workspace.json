@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "전공 공부/시스템 프로그래밍/Integer Arithmetic.md",
+                "file": "전공 공부/시스템 프로그래밍/Representations in memory.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "feabab388e8825fc",
@@ -85,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "전공 공부/시스템 프로그래밍/Integer Arithmetic.md",
+                "file": "전공 공부/시스템 프로그래밍/Representations in memory.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "전공 공부/시스템 프로그래밍/Integer Arithmetic.md",
+                "file": "전공 공부/시스템 프로그래밍/Representations in memory.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "전공 공부/시스템 프로그래밍/Integer Arithmetic.md"
+                "file": "전공 공부/시스템 프로그래밍/Representations in memory.md"
               }
             }
           },
@@ -168,8 +169,9 @@
   },
   "active": "fa2420a7c4265bbf",
   "lastOpenFiles": [
-    "전공 공부/시스템 프로그래밍/Information Storage.md",
     "전공 공부/시스템 프로그래밍/Integer Arithmetic.md",
+    "전공 공부/시스템 프로그래밍/Representations in memory.md",
+    "전공 공부/시스템 프로그래밍/Information Storage.md",
     "전공 공부/이산구조/이산수학 기호.md",
     "전공 공부/시스템 프로그래밍/C Basics.md",
     "Attached files/Pasted image 20230926095719.png",

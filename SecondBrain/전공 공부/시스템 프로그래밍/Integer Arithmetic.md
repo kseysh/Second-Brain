@@ -80,5 +80,8 @@ False. |TMin|이 |TMax|보다 1 더 크므로 양수->음수는 항상 가능하
 True. unsigned와 signed의 비교이므로 unsigned로 해석한다.
 unsigned던, signed던 저장된 값을 같으므로 같다.
 #### G
-
+True. (x \* (-y-1)) + uy \* ux == -x
+uy\*ux == y \* x 와 같다.
+그러므로 True
 > x를 -x로 만들고 싶다면, (~x+1)을 하면 된다.
+
