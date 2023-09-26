@@ -206,9 +206,13 @@ False.
 int/int = int(몫을 반환)
 int/FP = FP(나눗셈한 값을 반환)
 ### Case 7
-overflow가 발생해도 -inf로 되므로 0보다 작다.
+True. overflow가 발생해도 -inf로 되므로 0보다 작다. (단조성이 유지가 되기 때문)
 ### Case 8
-overflow가 발생하면 inf로 되므로 0보다 크다.
+True. -붙으면 그대로 -가 붙으므로 맞다.
+### Case 9
+True. overflow가 발생하면 inf로 되므로 0보다 크다. (단조성이 유지가 되기 때문)
+### Case 10
+False. d가 매우 크고, f가 매우 작은 경우 f의 유효숫자가 날라갈 수 있다.
 
 
 
