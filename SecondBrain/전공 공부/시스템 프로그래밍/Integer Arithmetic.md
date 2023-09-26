@@ -60,3 +60,19 @@ i가 어떤 값을 가지던,unsigned의 특성 상 0보다 클 수밖에 없다
 -1이라고 생각된 값은 한 바퀴를 돌아 UMax로 해석이 될 것이기 때문이다.
 ![[Pasted image 20230926095202.png]]
 
+### Integer C Puzzle
+![[Pasted image 20230926095719.png]]
+int는 4byte이고, 1byte는 8bits이다. 즉, int는 32bits 이다.
+#### A
+False. x = TMin일 때, x-1을 하면, overflow가 발생해서 만족하지 않는 경우가 있다.
+#### B
+
+#### C
+
+#### D
+
+#### E
+
+#### F
+
+#### G
