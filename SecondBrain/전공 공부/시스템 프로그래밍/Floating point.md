@@ -188,3 +188,30 @@ double의 frac이 52-bits이므로 int를 모두 표현할 수 있다.
 #### int -> float
 float의 frac이 23-bits이므로 int를 모두 표현하지 못한다.
 Round-To-Even을 통해 숫자를 버리게 되는 상황이 올 수도 있다.
+
+## Floating Point Example
+![[Pasted image 20230926185357.png]]
+### Case 1
+False. x = TMax일 때 float는 frac이 23bit 밖에 지원하지 않으므로 유효숫자가 날아갈 수 있음
+### Case 2
+True. double의 정밀도가 int보다 크므로 
+### Case 3
+True. double의 정밀도가 float보다 크므로
+### Case 4
+False. float의 정밀도가 double보다 작으므로
+### Case 5
+True. float는 sign bit만 바꾸면 부호가 바뀐다.
+### Case 6
+False.
+int/int = int(몫을 반환)
+int/FP = FP(나눗셈한 값을 반환)
+### Case 7
+overflow가 발생해도 -inf로 되므로 0보다 작다.
+### Case 8
+overflow가 발생하면 inf로 되므로 0보다 크다.
+
+
+
+
+
+
