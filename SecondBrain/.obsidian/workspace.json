@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "전공 공부/시스템 프로그래밍/Condition Codes.md",
+                "file": "IDEA/아이디어 폴더/서비스 아이디어.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "전공 공부/시스템 프로그래밍/Condition Codes.md",
+                "file": "IDEA/아이디어 폴더/서비스 아이디어.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "전공 공부/시스템 프로그래밍/Condition Codes.md",
+                "file": "IDEA/아이디어 폴더/서비스 아이디어.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "전공 공부/시스템 프로그래밍/Condition Codes.md"
+                "file": "IDEA/아이디어 폴더/서비스 아이디어.md"
               }
             }
           },
@@ -181,10 +181,9 @@
   },
   "active": "fa2420a7c4265bbf",
   "lastOpenFiles": [
+    "전공 공부/시스템 프로그래밍/Condition Codes.md",
     "Attached files/Pasted image 20230927193100.png",
     "Attached files/Pasted image 20230927191034.png",
-    "전공 공부/시스템 프로그래밍/Condition Codes.md",
-    "전공 공부/시스템 프로그래밍/Condition Codes.md",
     "전공 공부/시스템 프로그래밍/Arithmetic & Logical Operations.md",
     "Attached files/Pasted image 20230927035618.png",
     "Attached files/Pasted image 20230927033411.png",
@@ -195,7 +194,6 @@
     "Attached files/Pasted image 20230927025102.png",
     "Attached files/Pasted image 20230927023814.png",
     "Attached files/Pasted image 20230927022422.png",
-    "Attached files/Pasted image 20230927022337.png",
     "전공 공부/시스템 프로그래밍/Information Storage.md",
     "전공 공부/시스템 프로그래밍/C Basics.md",
     "전공 공부/시스템 프로그래밍/C, assembly, machince code.md",
