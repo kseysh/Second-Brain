@@ -33,5 +33,10 @@ CF는 Carry가 있으므로 있음
 
 > leaq 연산에서는 Flag가 설정되지 않는다.
 
+![[Pasted image 20230927191034.png]]
+SF. 결과의 최상위 비트가 1이므로
+OF. 양수 + 양수 가 음수가 나왔으므로
+
+
 ## Condition Codes (Explicit Setting: Compare)
 
