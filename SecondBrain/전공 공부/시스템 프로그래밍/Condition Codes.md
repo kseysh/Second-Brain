@@ -1,7 +1,7 @@
 # Condition Codes
 - CF Carry Flag (for unsigned) 
 	- Carry가 생겼는가 안 생겼는가
-	- Carry : 연산을 해서 한 bit가 더 생겼는
+	- Carry : 연산을 해서 한 bit가 더 생겼는지
 - ZF Zero Flag
 	- 결과가 0인가 아닌가
 	- t == 0 인지를 검사함으로써 확인
