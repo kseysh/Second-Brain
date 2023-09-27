@@ -39,4 +39,18 @@ OF. 양수 + 양수 가 음수가 나왔으므로
 
 
 ## Condition Codes (Explicit Setting: Compare)
+## `cmpq Src2, Src1`
+Src1이 Src2보다 크냐, 작냐를 비교하는 Condition Codes
+Src1 - Src2를 해서,
+양수이면 Src1이 크다.
+음수이면 Src2가 크다.
+0이면 같다의 결과를 낼 수 있다.
+뺐을 때 Flag가 어떻게 설정되는지만 궁금한 것
 
+### CF
+
+### ZF
+
+### SF
+
+### OF
