@@ -56,11 +56,22 @@ ex)
 
 ![[Pasted image 20230928032453.png]]
 위 그림에서도 계산을 위해서 가상의 한개의 bit를 만들었지만 Carry라는 것은 원래 bit보다 상위의 한 bit만을 뜻하고, 현재 그 bit는 0이므로 CF가 없다고 볼 수 있다.
-
-
+(-) - (+) = (-)이므로 OF도 없다.
+Unsigned로 계산했을 때는 overflow가 일어난 상태, signed로 해석했을 때는 overflow가 안 일어난 상태이다. 연산 자체는 같지만 해석을 하는데에 있어서 signed와 unsigned에서 어떤 Flag를 지표로 삼느냐에 따라 Unsigned는 CF를 확인하고, Signed는 SF와 OF를 확인한다.
 ### ZF
 값이 0이므로 두 값이 같다라고 판단할 수 있다.
 ### SF
 Sign Flag가 설정되었다는 것은 Src1-Src2가 음수라는 것이며, 따라서 Src2가 더 큰 값을 가진다고 판단할 수 있다.
 ### OF
 양수 + 양수가 결과가 양수이므로 OF는 설정되지 않는다.
+
+## Condition Codes (Explicit Setting: Test)
+## `testq Src2, Src1`
+testq Src2, Src1는 dest 설정하지 않는 컴퓨터의 a&b와 같다.
+
+더하거나 하는 연산이 아니므로 CF와 OF가 생길 수 없다.
+
+### ZF
+a&b == 0 일 때 세팅된다.
+### SF
+a&b < 0 일 때 세팅된다.
