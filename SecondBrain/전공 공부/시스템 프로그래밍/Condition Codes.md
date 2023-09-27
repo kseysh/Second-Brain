@@ -75,3 +75,19 @@ testq Src2, Src1는 dest 설정하지 않는 컴퓨터의 a&b와 같다.
 a&b == 0 일 때 세팅된다.
 ### SF
 a&b < 0 일 때 세팅된다.
+
+## SetX instructions
+`setX Dst`
+
+![[Pasted image 20230928035215.png]]
+e = equal
+n = not
+s = sign
+g = greater than
+l = less than
+ex ) 
+sete는 Flag가 equal인 상태이면 Dst를 1로 만들겠다는 의미
+setg는 Flag가 greater than이면 Dst를 1로 만들겠다는 의미 
+cmpq Src2, Src1
+setg Dst
+이면, Src1이 Src2보다 크면 Dst를 1로 만들겠다는 의미이다.
