@@ -92,3 +92,27 @@ cmpq Src2, Src1
 setg Dst => 위의 있는 연산이 더 크다라는 의미이면 Dst를 1로 만들겠다.
 이면, Src1이 Src2보다 크면 Dst를 1로 만들겠다는 의미이다.
 즉 cmpq Src2, Src1이 ~(SF^OF) | ZF 이면 Dst를 1로 만들겠다는 의미이다.
+
+### setl 
+`cmpq b,a`
+`setl` 일 때,
+signed에서 대소 비교를 위해 사용한다.
+setl일 때 알고 싶은 것 : a<\b인 상황
+CF : signed에서는 Carry가 생기는 것이 overflow에 연관있는 것이 아니므로 신경쓰지 않는다.
+ZF : ZF가 설정되어 있으면 같다라는 의미
+SF : a<\b이려면 SF는 설정되어 있어야 한다.(1이어야 한다.) but OF가 설정되지 않았을 때, SF가 설정되어야 a<\b이다.
+
+### setle
+signed에서 대소 비교를 위해 사용한다.
+
+
+
+
+
+
+
+
+
+
+
+
