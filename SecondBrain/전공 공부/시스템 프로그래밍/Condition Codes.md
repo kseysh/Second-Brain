@@ -121,6 +121,8 @@ setl 에서 ZF의 여부만 추가해준다.
 `cmpq b,a`
 `seta` 일 때,
 unsigned에서의 대소 비교를 위해 사용한다. 
+a-b를 통해 계산하므로 
+CF
 `~CF&~ZF`
 
 
