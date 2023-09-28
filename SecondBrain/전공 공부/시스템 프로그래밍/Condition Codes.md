@@ -78,7 +78,7 @@ a&b < 0 일 때 세팅된다.
 
 ## SetX instructions
 `setX Dst`
-
+Condition을 보고 확인할 수 있다.
 ![[Pasted image 20230928035215.png]]
 e = equal
 n = not
@@ -89,5 +89,6 @@ ex )
 sete는 Flag가 equal인 상태이면 Dst를 1로 만들겠다는 의미
 setg는 Flag가 greater than이면 Dst를 1로 만들겠다는 의미 
 cmpq Src2, Src1
-setg Dst
+setg Dst => 위의 있는 연산이 더 크다라는 의미이면 Dst를 1로 만들겠다.
 이면, Src1이 Src2보다 크면 Dst를 1로 만들겠다는 의미이다.
+즉 cmpq Src2, Src1이 ~(SF^OF)|ZF 이면 Dst를 1로 만들겠다는 의미이다.
