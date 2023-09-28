@@ -91,4 +91,4 @@ setg는 Flag가 greater than이면 Dst를 1로 만들겠다는 의미
 cmpq Src2, Src1
 setg Dst => 위의 있는 연산이 더 크다라는 의미이면 Dst를 1로 만들겠다.
 이면, Src1이 Src2보다 크면 Dst를 1로 만들겠다는 의미이다.
-즉 cmpq Src2, Src1이 ~(SF^OF)|ZF 이면 Dst를 1로 만들겠다는 의미이다.
+즉 cmpq Src2, Src1이 ~(SF^OF) | ZF 이면 Dst를 1로 만들겠다는 의미이다.
