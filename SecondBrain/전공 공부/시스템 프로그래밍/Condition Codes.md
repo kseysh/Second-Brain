@@ -99,16 +99,24 @@ setg Dst => 위의 있는 연산이 더 크다라는 의미이면 Dst를 1로 �
 signed에서 대소 비교를 위해 사용한다.
 setl일 때 알고 싶은 것 : a<\b인 상황
 CF : signed에서는 Carry가 생기는 것이 overflow에 연관있는 것이 아니므로 신경쓰지 않는다.
-ZF : ZF가 설정되어 있으면 같다라는 의미
+ZF : ZF가 설정되어 있으면 같다라는 의미이므로 setl에서는 고려할 필요가 없다.
 SF : a<\b이려면 SF는 설정되어 있어야 한다.(1이어야 한다.) but OF가 설정되지 않았을 때, SF가 설정되어야 a<\b이다.
 #### 중요
-a가 작은 수 (음수) 이고, b가 큰 수 (양수)여서 overflow가 
+a가 작은 수 (음수) 이고, b가 큰 수 (양수)여서 overflow가 일어나게 되면 SF는 0으로 설정되게 되고 OF가 1로 설정되게 된다. 따라서 overflow가 일어나서 SF가 0이 되더라도 OF가 1이면 a<\b이다. 
+따라서 setl 이 1이려면 (a<\b), (SF^OF) SF와 OF 중 하나가 1이어야 한다. 
+> setl 은 Condition이 (SF^OF)여야 한다 이렇게 외울 필요는 없지만, Condition을 보고 왜 이런건지에 대해 이해할 수만 있으면 된다.
+
+즉, `(SF^OF)`
 ### setle
 signed에서 대소 비교를 위해 사용한다.
 
+setl 에서 ZF의 여부만 추가해준다.
+
+즉, `(SF^OF) | ZF`
+### setg
 
 
-
+### setge
 
 
 
