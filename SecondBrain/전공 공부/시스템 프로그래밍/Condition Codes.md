@@ -114,11 +114,14 @@ setl 에서 ZF의 여부만 추가해준다.
 
 즉, `(SF^OF) | ZF`
 ### setg
+~(SF^OF) : SF와 OF가 둘 다 1이어야 한다.
+~ZF : ZF는 0이어야 한다.
+즉, `~(SF^OF) & ~ZF`
+### seta
+`cmpq b,a`
+`seta` 일 때,
 
-
-### setge
-
-
+`~(SF^OF)`
 
 
 
