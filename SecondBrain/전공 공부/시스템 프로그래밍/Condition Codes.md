@@ -120,13 +120,15 @@ setl 에서 ZF의 여부만 추가해준다.
 ### seta
 `cmpq b,a`
 `seta` 일 때,
-unsigned에서의 대소 비교를 위해 사용한다. 
+unsigned에서의 대소 비교(a>b인지)를 위해 사용한다. 
 a-b를 통해 계산하므로 
-CF
-`~CF&~ZF`
-
-
-
+CF가 있다면, 범위를 넘어갔다는 즉, b가 더 크다는 의미이고, ZF라면 둘이 같다는 의미이므로 CF와 ZF가 0이어야 한다.
+SF,OF는 Two's complement라는 것을 가정하기 때문에 SF,OF는 무시한다.
+즉, `~CF&~ZF`
+### setb
+CF가 1이면 ZF가 1이든 0이든 상관없으므로
+(CF가 1일 때 ZF가 1이라는 뜻은 이미 overflow가 발생한 것이기 때)
+즉, `CF`
 
 
 
