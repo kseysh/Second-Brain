@@ -120,8 +120,8 @@ setl 에서 ZF의 여부만 추가해준다.
 ### seta
 `cmpq b,a`
 `seta` 일 때,
-
-`~(SF^OF)`
+unsigned에서의 대소 비교를 위해 사용한다. 
+`~CF&~ZF`
 
 
 
