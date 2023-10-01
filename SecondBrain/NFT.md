@@ -111,8 +111,6 @@ Token History API는 모든 클레이튼 계정에서 이루어지는 토큰 전
 - 프라이빗 체인 데이터를 퍼블릭 블록체인으로 전달하는 작업은 매우 복잡하고 번거롭기에, KAS의 **Anchor API**는 이러한 번거로움 없이 API 호출을 통해서 anchoring transaction을 보낼 수 있게 해준다.
 - KAS를 통해서 anchoring transaction을 보내는 오퍼레이터 계정을 생성하고, 오퍼레이터를 통해서 Anchor API를 호출하여 anchoring transaction을 실행한다.
 
-
-
 ### 대체할 수 있는 전자지갑
 Kaikas
 ## Mysql
