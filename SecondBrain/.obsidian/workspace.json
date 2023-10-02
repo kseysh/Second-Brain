@@ -61,7 +61,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "aop",
+                "query": "AOP",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -83,8 +83,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "feabab388e8825fc",
@@ -181,7 +180,7 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "43aca83e84683fcb",
+  "active": "98b99bcebe54855a",
   "lastOpenFiles": [
     "Spring/AOP.md",
     "NFT.md",
