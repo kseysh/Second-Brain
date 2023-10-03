@@ -127,7 +127,7 @@ SF,OF는 Two's complement라는 것을 가정하기 때문에 SF,OF는 무시한
 즉, `~CF&~ZF`
 ### setb
 CF가 1이면 ZF가 1이든 0이든 상관없으므로
-(CF가 1일 때 ZF가 1이라는 뜻은 이미 overflow가 발생한 것이기 때)
+(CF가 1일 때 ZF가 1이라는 뜻은 이미 overflow가 발생한 것이기 때문)
 즉, `CF`
 
 
