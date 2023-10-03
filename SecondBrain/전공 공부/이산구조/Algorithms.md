@@ -18,7 +18,11 @@
 
 # Greedy Algorithms
 ## Optimization problems
-가능한 input에 대해서 최소나 최대 값을 구하거나
+가능한 input에 대해서 최소나 최대 값을 구하는 문제
+ex) 최단거리 탐색
+
+## 수도코드
+![[Pasted image 20231003201652.png]]
 
 
 
