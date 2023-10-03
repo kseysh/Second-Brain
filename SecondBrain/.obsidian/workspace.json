@@ -99,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "NFT.md",
+                "file": "독서록/개발 관련 도서/구글 엔지니어는 이렇게 일한다.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "NFT.md",
+                "file": "독서록/개발 관련 도서/구글 엔지니어는 이렇게 일한다.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "NFT.md"
+                "file": "독서록/개발 관련 도서/구글 엔지니어는 이렇게 일한다.md"
               }
             }
           },
