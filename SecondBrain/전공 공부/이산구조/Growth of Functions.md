@@ -29,4 +29,15 @@ n<sup>2</sup> ≤ Cn 이면, n ≤ C이고,
 이는 n > k에서 모두 만족할 수 없기 때문에 성립하지 않는다.
 
 > Big-O를 찾는 문제만 나오고 증명문제는 나오지 않음!
-> 
+
+
+## 특이한 Big-O
+n!에 대한 Big-O Notation => O(n<sup>2</sup>)
+![[Pasted image 20231003210332.png]]
+log n! 에 대한 Big-O Notation => n! ≤ n<sup>n</sup> 이고, log(n!) ≤ n\*log(n)
+그러므로, log(n!)은 O(n\*log(n))이다.
+
+## 함수의 성장 속도
+![[Pasted image 20231003210508.png]]
+크기 비교시 사용하므로 알아두기
+
