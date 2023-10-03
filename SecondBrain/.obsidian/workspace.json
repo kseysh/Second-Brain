@@ -81,7 +81,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "feabab388e8825fc",
@@ -180,6 +181,7 @@
   },
   "active": "b57533501267e399",
   "lastOpenFiles": [
+    "Attached files/Pasted image 20231003200334.png",
     "Attached files/Pasted image 20231003195207.png",
     "Attached files/Pasted image 20231003195058.png",
     "Attached files/Pasted image 20231003195044.png",
@@ -203,7 +205,6 @@
     "Attached files/Pasted image 20231001155859.jpg",
     "Attached files/Pasted image 20231001155630.png",
     "Attached files/Pasted image 20231001154725.png",
-    "Attached files/Pasted image 20231001154544.png",
     "무제 폴더",
     "전공 공부/시스템 프로그래밍/Integer Arithmetic.md",
     "전공 공부/시스템 프로그래밍/시스템 프로그래밍 들어가기 전.md",

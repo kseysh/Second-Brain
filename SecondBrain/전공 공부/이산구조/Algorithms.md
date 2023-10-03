@@ -9,9 +9,16 @@
 2는 3과 비교했을 때, 3보다 작으므로 맨 앞에 둔다.
 4는 3과 비교했을 때, 3보다 크므로 그대로 있는다.
 1은 4,3,2와 비교했을 때, 2보다 작으므로 맨 앞에 둔다.
+계속 앞의 수열들을 sorting되게 한다.
 
+## 수도 코드
+![[Pasted image 20231003200334.png]]
+> while a<sub>j</sub> > a<sub>i</sub>
+> i := i + 1 까지가 while절 이다.
 
-
+# Greedy Algorithms
+## Optimization problems
+가능한 input에 대해서 최소나 최대 값을 구하거나
 
 
 
