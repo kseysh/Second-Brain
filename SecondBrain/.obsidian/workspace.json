@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "전공 공부/이산구조/Algorithms.md",
+                "file": "전공 공부/이산구조/Growth of Functions.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "전공 공부/이산구조/Algorithms.md",
+                "file": "전공 공부/이산구조/Growth of Functions.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "전공 공부/이산구조/Algorithms.md",
+                "file": "전공 공부/이산구조/Growth of Functions.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "전공 공부/이산구조/Algorithms.md"
+                "file": "전공 공부/이산구조/Growth of Functions.md"
               }
             }
           },
@@ -181,6 +181,9 @@
   },
   "active": "b57533501267e399",
   "lastOpenFiles": [
+    "Attached files/Pasted image 20231003203723.png",
+    "전공 공부/이산구조/Algorithms.md",
+    "전공 공부/이산구조/Growth of Functions.md",
     "Attached files/Pasted image 20231003201652.png",
     "Attached files/Pasted image 20231003200334.png",
     "Attached files/Pasted image 20231003195207.png",
@@ -190,7 +193,6 @@
     "Attached files/Pasted image 20231003195010.png",
     "Attached files/Pasted image 20231003194849.png",
     "전공 공부/이산구조/Matrix.md",
-    "전공 공부/이산구조/Algorithms.md",
     "전공 공부/시스템 프로그래밍/Data Representation.md",
     "전공 공부/시스템 프로그래밍/Arithmetic & Logical Operations.md",
     "전공 공부/시스템 프로그래밍/Registers, Operands, Move.md",
@@ -204,7 +206,6 @@
     "NFT.md",
     "Spring/AOP.md",
     "Attached files/Pasted image 20231001155859.jpg",
-    "Attached files/Pasted image 20231001155630.png",
     "무제 폴더",
     "전공 공부/시스템 프로그래밍/Integer Arithmetic.md",
     "전공 공부/시스템 프로그래밍/시스템 프로그래밍 들어가기 전.md",
@@ -218,7 +219,6 @@
     "전공 공부/지난 학기",
     "Develop/개발 원칙/객체 지향 프로그래밍/단일 책임의 원칙.md",
     "Develop/개발 원칙/객체 지향 프로그래밍/객체 지향의 5대 설계 원칙 (SOLID).md",
-    "Develop/개발 원칙/객체 지향 프로그래밍/인터페이스 분리 원칙.md",
     "전공 공부/시스템 프로그래밍",
     "ERROR_Diary/Spring/Intellij",
     "ERROR_Diary/Spring",
