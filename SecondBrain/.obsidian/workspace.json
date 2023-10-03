@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "전공 공부/시스템 프로그래밍/Condition Codes.md",
+                "file": "전공 공부/시스템 프로그래밍/Data Representation.md",
                 "mode": "source",
                 "source": false
               }
@@ -81,7 +81,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "feabab388e8825fc",
@@ -97,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "전공 공부/시스템 프로그래밍/Condition Codes.md",
+                "file": "전공 공부/시스템 프로그래밍/Data Representation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "전공 공부/시스템 프로그래밍/Condition Codes.md",
+                "file": "전공 공부/시스템 프로그래밍/Data Representation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "전공 공부/시스템 프로그래밍/Condition Codes.md"
+                "file": "전공 공부/시스템 프로그래밍/Data Representation.md"
               }
             }
           },
@@ -180,6 +181,8 @@
   },
   "active": "b57533501267e399",
   "lastOpenFiles": [
+    "전공 공부/시스템 프로그래밍/Condition Codes.md",
+    "전공 공부/시스템 프로그래밍/Data Representation.md",
     "전공 공부/시스템 프로그래밍/Arithmetic & Logical Operations.md",
     "독서록/개발 관련 도서/구글 엔지니어는 이렇게 일한다.md",
     "Attached files/Pasted image 20231003155900.png",
@@ -190,7 +193,6 @@
     "Attached files/Pasted image 20231001154725.png",
     "Attached files/Pasted image 20231001154544.png",
     "무제 폴더",
-    "전공 공부/시스템 프로그래밍/Condition Codes.md",
     "Attached files/Pasted image 20230928035215.png",
     "Attached files/Pasted image 20230928032453.png",
     "전공 공부/시스템 프로그래밍/Registers, Operands, Move.md",
