@@ -60,7 +60,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "AOP",
+                "query": "기호",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -77,7 +77,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -181,9 +182,11 @@
   },
   "active": "b57533501267e399",
   "lastOpenFiles": [
+    "Attached files/Pasted image 20231003204446.png",
+    "전공 공부/이산구조/이산수학 기호.md",
+    "전공 공부/이산구조/Growth of Functions.md",
     "Attached files/Pasted image 20231003203723.png",
     "전공 공부/이산구조/Algorithms.md",
-    "전공 공부/이산구조/Growth of Functions.md",
     "Attached files/Pasted image 20231003201652.png",
     "Attached files/Pasted image 20231003200334.png",
     "Attached files/Pasted image 20231003195207.png",
@@ -205,13 +208,11 @@
     "Attached files/Pasted image 20231003155900.png",
     "NFT.md",
     "Spring/AOP.md",
-    "Attached files/Pasted image 20231001155859.jpg",
     "무제 폴더",
     "전공 공부/시스템 프로그래밍/Integer Arithmetic.md",
     "전공 공부/시스템 프로그래밍/시스템 프로그래밍 들어가기 전.md",
     "Obsidian/간단한 기호들.md",
     "IDEA/아이디어 폴더/서비스 아이디어.md",
-    "전공 공부/이산구조/이산수학 기호.md",
     "전공 공부/시스템 프로그래밍/Representations in memory.md",
     "Develop/개발 원칙/객체 지향 프로그래밍/다형성.md",
     "전공 공부/오픈소스응용프로그래밍/도커 파일과 깃허브를 이용한 파일 공유.md",
