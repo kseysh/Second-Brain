@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "전공 공부/오픈소스응용프로그래밍/소프트웨어 공학의 필요성.md",
+                "file": "전공 공부/오픈소스응용프로그래밍/소프트웨어 공학 및 개발론 개요.md",
                 "mode": "source",
                 "source": false
               }
@@ -81,7 +81,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "feabab388e8825fc",
@@ -97,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "전공 공부/오픈소스응용프로그래밍/소프트웨어 공학의 필요성.md",
+                "file": "전공 공부/오픈소스응용프로그래밍/소프트웨어 공학 및 개발론 개요.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "전공 공부/오픈소스응용프로그래밍/소프트웨어 공학의 필요성.md",
+                "file": "전공 공부/오픈소스응용프로그래밍/소프트웨어 공학 및 개발론 개요.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "전공 공부/오픈소스응용프로그래밍/소프트웨어 공학의 필요성.md"
+                "file": "전공 공부/오픈소스응용프로그래밍/소프트웨어 공학 및 개발론 개요.md"
               }
             }
           },
@@ -180,6 +181,9 @@
   },
   "active": "b57533501267e399",
   "lastOpenFiles": [
+    "Attached files/Pasted image 20231003212140.png",
+    "전공 공부/오픈소스응용프로그래밍/소프트웨어 공학의 필요성.md",
+    "전공 공부/오픈소스응용프로그래밍/소프트웨어 공학 및 개발론 개요.md",
     "전공 공부/이산구조/Growth of Functions.md",
     "Attached files/Pasted image 20231003210508.png",
     "Attached files/Pasted image 20231003210332.png",
@@ -213,10 +217,8 @@
     "전공 공부/시스템 프로그래밍/Representations in memory.md",
     "Develop/개발 원칙/객체 지향 프로그래밍/다형성.md",
     "전공 공부/오픈소스응용프로그래밍/도커 파일과 깃허브를 이용한 파일 공유.md",
-    "전공 공부/오픈소스응용프로그래밍/소프트웨어 공학의 필요성.md",
     "전공 공부/지난 학기",
     "Develop/개발 원칙/객체 지향 프로그래밍/단일 책임의 원칙.md",
-    "Develop/개발 원칙/객체 지향 프로그래밍/객체 지향의 5대 설계 원칙 (SOLID).md",
     "전공 공부/시스템 프로그래밍",
     "ERROR_Diary/Spring/Intellij",
     "ERROR_Diary/Spring",
