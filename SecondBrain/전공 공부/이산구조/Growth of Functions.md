@@ -78,6 +78,21 @@ Big-O와 Big-Omega가 같을 때 (증가율이 같을 때), 이를 Big-Theta라�
 ![[Pasted image 20231004112928.png]]
 θ(log n)
 ### Bubble Sort의 Worst case
+버블 정렬은 버블이 수면 위를 올라오는 듯 옆에 있는 데이터와 비교하여 더 작은 값을 앞으로 보내는 정렬입니다.
+![[img 1.gif]]
 ![[Pasted image 20231004113455.png]]
-
+θ(n<sup>2</sup>), Worst, Average, Best 동일
+느리고 효율성 떨어
 ### Insertion Sort의 Worst Case
+삽입 정렬은 데이터를 순서대로 뽑아서 적절한 위치를 찾아 삽입함으로써 완성하는 정렬
+![[img.gif]]
+![[Pasted image 20231004114000.png]]
+θ(n<sup>2</sup>), Worst, Average는 동일하고
+이미 정렬되어 있는 Best의 경우  O(n)
+### Matrix Multiplication
+![[Pasted image 20231004114156.png]]
+두개의 n n matrix가 있다면
+product에 n<sup>2</sup>의 entries가 있을 것이고 그 entries는 각각 n개의 곱셈, n-1개의 덧셈이 필요할 것이다 따라서 O(n<sup>3</sup>)
+
+### Boolean Product
+
