@@ -64,4 +64,8 @@ Big-O와 Big-Omega가 같을 때 (증가율이 같을 때), 이를 Big-Theta라�
 ![[Pasted image 20231004105904.png]]
 
 # Time Complexity
-
+Linear Search의 Worst case
+Linear Search의 Average case
+Binary Search의 Worst case
+Bubble Sort의 Worst case
+Insertion Sort의 Worst Case
