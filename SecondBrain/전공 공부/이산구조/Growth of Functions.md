@@ -64,8 +64,20 @@ Big-O와 Big-Omega가 같을 때 (증가율이 같을 때), 이를 Big-Theta라�
 ![[Pasted image 20231004105904.png]]
 
 # Time Complexity
-Linear Search의 Worst case
-Linear Search의 Average case
-Binary Search의 Worst case
-Bubble Sort의 Worst case
-Insertion Sort의 Worst Case
+### Linear Search의 Worst case
+![[Pasted image 20231004112817.png]]
+θ(n)
+### Linear Search의 Average case
+![[Pasted image 20231004112911.png]]
+θ(n)
+### Binary Search의 Worst case
+이진 탐색의 시간 복잡도는 O(logN)으로 배열을 전수 조사하는 O(N)에 비하면 상대적으로 빠른 탐색 알고리즘에 속한다. O(logN)만에 값을 찾을 수 있는 이유는 중간을 기준으로 탐색 대상을 절반씩 줄여나가기 때문이다.
+
+이진 탐색은 내가 찾고자 하는 값이 정렬된 배열의 중간 값보다 크면 중간값을 포함한 하위 값들은 탐색 대상에서 제외된다. 반대로 찾고자 하는 값이 배열의 중간 값보다 작으면 중간 값을 포함한 상위 값들은 탐색에서 제외된다.
+
+![[Pasted image 20231004112928.png]]
+θ(log n)
+### Bubble Sort의 Worst case
+![[Pasted image 20231004113455.png]]
+
+### Insertion Sort의 Worst Case
