@@ -63,4 +63,5 @@ Big-O와 Big-Omega가 같을 때 (증가율이 같을 때), 이를 Big-Theta라�
 ![[Pasted image 20231004105839.png]]
 ![[Pasted image 20231004105904.png]]
 
+# Time Complexity
 
