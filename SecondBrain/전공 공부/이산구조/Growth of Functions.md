@@ -45,6 +45,10 @@ log n! 에 대한 Big-O Notation => n! ≤ n<sup>n</sup> 이고, log(n!) ≤ n\*
 알고리즘을 실행시켰을 때, 최소로 걸릴 수 있는 시간
 x>k일 때, |f(x)| ≥C|g(x)| 인 함수
 
+f(n) = O(g(n)) 참2. f(n) = Ω(g(n)) 참 이 두 가지가 참일 경우에만  
+f(n) = θ(g(n))  을 사용할 수 있다.
+
+
 ### 증명
 f(x) = 8x<sup>3</sup> +5x<sup>2</sup> + 7은 g(x) = x<sup>3</sup> 에서 Ω(g(x))임을 증명하라
 
@@ -52,6 +56,11 @@ f(x) = 8x<sup>3</sup> +5x<sup>2</sup> + 7은 g(x) = x<sup>3</sup> 에서 Ω(g(x)
 f(x) = 8x<sup>3</sup> +5x<sup>2</sup> + 7은 g(x) = x<sup>3</sup> 에서 Ω(g(x))이다.
 
 # Big-Theta Notation
-Big-O와 Big-Omega가 같을 때, 이를 Big-Theta라고 한다.
+Big-O와 Big-Omega가 같을 때 (증가율이 같을 때), 이를 Big-Theta라고 한다.
+
+### 증명
+![[Pasted image 20231004105814.png]]임을 증명하라
+![[Pasted image 20231004105839.png]]
+![[Pasted image 20231004105904.png]]
 
 
