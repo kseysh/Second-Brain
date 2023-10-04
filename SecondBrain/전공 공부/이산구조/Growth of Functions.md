@@ -46,5 +46,12 @@ log n! 에 대한 Big-O Notation => n! ≤ n<sup>n</sup> 이고, log(n!) ≤ n\*
 x>k일 때, |f(x)| ≥C|g(x)| 인 함수
 
 ### 증명
+f(x) = 8x<sup>3</sup> +5x<sup>2</sup> + 7은 g(x) = x<sup>3</sup> 에서 Ω(g(x))임을 증명하라
+
+모든 x에서 f(x) = 8x<sup>3</sup> +5x<sup>2</sup> + 7 ≥ 8x<sup>3</sup> 이므로 
 f(x) = 8x<sup>3</sup> +5x<sup>2</sup> + 7은 g(x) = x<sup>3</sup> 에서 Ω(g(x))이다.
+
+# Big-Theta Notation
+Big-O와 Big-Omega가 같을 때, 이를 Big-Theta라고 한다.
+
 
