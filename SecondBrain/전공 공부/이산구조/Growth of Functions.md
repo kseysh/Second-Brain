@@ -95,4 +95,10 @@ Big-O와 Big-Omega가 같을 때 (증가율이 같을 때), 이를 Big-Theta라�
 product에 n<sup>2</sup>의 entries가 있을 것이고 그 entries는 각각 n개의 곱셈, n-1개의 덧셈이 필요할 것이다 따라서 O(n<sup>3</sup>)
 
 ### Boolean Product
+![[Pasted image 20231004114920.png]]
+O(n<sup>3</sup>)의 시간 복잡도를 지닌다.
+
+## 알고리즘의 시간 복잡도
+Constant Complexity와 Linear complexity만 알아두기?
+![[Pasted image 20231004115301.png]]
 
