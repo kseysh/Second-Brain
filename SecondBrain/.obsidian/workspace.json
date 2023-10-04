@@ -77,7 +77,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -180,6 +181,9 @@
   },
   "active": "b57533501267e399",
   "lastOpenFiles": [
+    "전공 공부/이산구조/이산수학 기호.md",
+    "Obsidian/간단한 기호들.md",
+    "전공 공부/이산구조/Growth of Functions.md",
     "전공 공부/오픈소스응용프로그래밍/스타일 가이드.md",
     "전공 공부/오픈소스응용프로그래밍/소프트웨어 공학 및 개발론 개요.md",
     "Attached files/Pasted image 20231003224700.png",
@@ -187,11 +191,8 @@
     "Attached files/Pasted image 20231003221002.png",
     "Attached files/Pasted image 20231003212140.png",
     "전공 공부/오픈소스응용프로그래밍/소프트웨어 공학의 필요성.md",
-    "전공 공부/이산구조/Growth of Functions.md",
     "Attached files/Pasted image 20231003210508.png",
     "Attached files/Pasted image 20231003210332.png",
-    "전공 공부/이산구조/이산수학 기호.md",
-    "Obsidian/간단한 기호들.md",
     "Attached files/Pasted image 20231003205036.png",
     "Attached files/Pasted image 20231003204915.png",
     "Attached files/Pasted image 20231003204446.png",

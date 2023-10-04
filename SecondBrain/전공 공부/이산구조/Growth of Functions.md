@@ -41,3 +41,9 @@ log n! 에 대한 Big-O Notation => n! ≤ n<sup>n</sup> 이고, log(n!) ≤ n\*
 ![[Pasted image 20231003210508.png]]
 크기 비교시 사용하므로 알아두기
 
+# Big-Omega
+알고리즘을 실행시켰을 때, 최소로 걸릴 수 있는 시간
+x>k일 때, |f(x)| ≥C|g(x)| 인 함수
+
+### 증명
+f(x)
