@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Spring/JPA/JPA의 성능 최적화 기능.md",
+                "file": "Spring/JPA/persistence.xml.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Spring/JPA/JPA의 성능 최적화 기능.md",
+                "file": "Spring/JPA/persistence.xml.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Spring/JPA/JPA의 성능 최적화 기능.md",
+                "file": "Spring/JPA/persistence.xml.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Spring/JPA/JPA의 성능 최적화 기능.md"
+                "file": "Spring/JPA/persistence.xml.md"
               }
             }
           },
@@ -168,12 +168,14 @@
   },
   "active": "43aca83e84683fcb",
   "lastOpenFiles": [
+    "Spring/JPA/데이터베이스 방언.md",
+    "Spring/JPA/persistence.xml.md",
+    "Spring/JPA/JPA의 성능 최적화 기능.md",
     "Spring/JPA/트랜잭션.md",
     "JAVA/SDK.md",
     "JAVA/JDK.md",
     "JAVA/Collection의 종류.md",
     "JAVA/ArrayList를 사용한 배열.md",
-    "Spring/JPA/JPA의 성능 최적화 기능.md",
     "Attached files/Pasted image 20231005212629.png",
     "Attached files/Pasted image 20231005212554.png",
     "Attached files/Pasted image 20231005212324.png",
@@ -203,8 +205,6 @@
     "전공 공부/오픈소스응용프로그래밍/소프트웨어 공학 및 개발론 개요.md",
     "전공 공부/오픈소스응용프로그래밍/소프트웨어 공학의 필요성.md",
     "전공 공부/이산구조/Matrix.md",
-    "전공 공부/시스템 프로그래밍/Registers, Operands, Move.md",
-    "전공 공부/시스템 프로그래밍/C, assembly, machince code.md",
     "전공 공부/지난 학기",
     "전공 공부/시스템 프로그래밍",
     "ERROR_Diary/Spring/Intellij",
