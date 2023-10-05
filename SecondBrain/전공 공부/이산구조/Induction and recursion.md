@@ -1,7 +1,7 @@
 # Mathematical Induction (수학적 귀납법)
 
 ## 수학적 귀납법의 원리
-1. Basis step이 true라는 것을 증명해야 한다.
+1. Basis step ( P(1) )이 true라는 것을 증명해야 한다.
 2. 귀납 단계 : p(k)가 true라고 가정할 때, p(k+1)이 true아면 증명이 된다.
 
 ![[Pasted image 20231005093017.png]]
@@ -39,4 +39,4 @@ recursive step을 만든다.
 ![[Pasted image 20231005100210.png]]
 Subset of Integers S: {3|s ∧ s ∈ z<sup>+</sup>}
 
-Strings까지
+Strings까지 
