@@ -10,3 +10,5 @@
 ## JPA 동작 - 조회
 ![[Pasted image 20231005210420.png]]
 
+## JPA 구동 방식
+![[Pasted image 20231005224414.png]]
