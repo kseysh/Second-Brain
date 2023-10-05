@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "전공 공부/시스템 프로그래밍/Conditional branches.md",
+                "file": "Spring/JPA/JPA.md",
                 "mode": "source",
                 "source": false
               }
@@ -65,8 +65,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -86,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "전공 공부/시스템 프로그래밍/Conditional branches.md",
+                "file": "Spring/JPA/JPA.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "전공 공부/시스템 프로그래밍/Conditional branches.md",
+                "file": "Spring/JPA/JPA.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "전공 공부/시스템 프로그래밍/Conditional branches.md"
+                "file": "Spring/JPA/JPA.md"
               }
             }
           },
@@ -167,8 +166,11 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "98b99bcebe54855a",
+  "active": "77e0b92a051c28ac",
   "lastOpenFiles": [
+    "Spring/JPA",
+    "전공 공부/시스템 프로그래밍/Arithmetic & Logical Operations.md",
+    "전공 공부/시스템 프로그래밍/Conditional branches.md",
     "Attached files/Pasted image 20231005195158.png",
     "Attached files/Pasted image 20231005194446.png",
     "Attached files/Pasted image 20231005193745.png",
@@ -179,10 +181,8 @@
     "Attached files/Pasted image 20231005183249.png",
     "Attached files/Pasted image 20231005182908.png",
     "Attached files/Pasted image 20231005182353.png",
-    "Attached files/Pasted image 20231005182339.png",
     "NFT.md",
     "Obsidian/간단한 기호들.md",
-    "전공 공부/시스템 프로그래밍/Conditional branches.md",
     "전공 공부/오픈소스응용프로그래밍/코드 리뷰.md",
     "전공 공부/이산구조/Induction and recursion.md",
     "전공 공부/이산구조/이산수학 기호.md",
@@ -193,7 +193,6 @@
     "전공 공부/오픈소스응용프로그래밍/소프트웨어 공학 및 개발론 개요.md",
     "전공 공부/오픈소스응용프로그래밍/소프트웨어 공학의 필요성.md",
     "전공 공부/이산구조/Matrix.md",
-    "전공 공부/시스템 프로그래밍/Arithmetic & Logical Operations.md",
     "전공 공부/시스템 프로그래밍/Registers, Operands, Move.md",
     "전공 공부/시스템 프로그래밍/C, assembly, machince code.md",
     "전공 공부/시스템 프로그래밍/C Basics.md",
@@ -202,7 +201,6 @@
     "전공 공부/시스템 프로그래밍/Floating point.md",
     "독서록/개발 관련 도서/구글 엔지니어는 이렇게 일한다.md",
     "Spring/AOP.md",
-    "무제 폴더",
     "전공 공부/시스템 프로그래밍/Integer Arithmetic.md",
     "전공 공부/시스템 프로그래밍/시스템 프로그래밍 들어가기 전.md",
     "IDEA/아이디어 폴더/서비스 아이디어.md",
