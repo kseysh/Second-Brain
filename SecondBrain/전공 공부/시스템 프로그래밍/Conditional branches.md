@@ -58,3 +58,12 @@ ex) `cmove, cmovge`
 ![[Pasted image 20231005182908.png]]
 1의 갯수를 counting하는 함수이다.
 
+![[Pasted image 20231005183249.png]]
+`movl $0, %eax`는 `movq $0, %rax`와 동작이 같다. (알 필요는 x)
+![[Pasted image 20231005183948.png]]
+L2는 컴파일러가 정해준 이름이므로 왜 L2인지 고민할 필요 x
+
+
+
+
+
