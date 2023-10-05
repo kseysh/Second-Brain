@@ -37,4 +37,6 @@ recursive step을 만든다.
 새로운 elements를 만들어서 기존의 set에 추가하여 집합을 키운다.
 
 ![[Pasted image 20231005100210.png]]
-Subset of Integers S: 3|s 
+Subset of Integers S: {3|s ∧ s ∈ z<sup>+</sup>}
+
+Strings까지
