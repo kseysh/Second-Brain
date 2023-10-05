@@ -63,6 +63,9 @@ ex) `cmove, cmovge`
 ![[Pasted image 20231005183948.png]]
 L2는 컴파일러가 정해준 이름이므로 왜 L2인지 고민할 필요 x
 
+## 일반적인 Do-While 번역
+![[Pasted image 20231005184138.png]]
+
 
 
 
