@@ -20,6 +20,6 @@ ex)
 
 ![[Pasted image 20231005094156.png]]
 
-![[Pasted image 20231005094211.png]]
+Number of subsets of a finir
 
 
