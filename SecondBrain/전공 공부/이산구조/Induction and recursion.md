@@ -20,6 +20,21 @@ ex)
 
 ![[Pasted image 20231005094156.png]]
 
-Number of subsets of a finir
+Number of subsets of a finite set은 안나옴
+
+# Recursive Definitions and Structural Induction
+
+## Recursively Defined Functions
+Basis step : 
+Recursive Step : 
+
+![[Pasted image 20231005095619.png]]
 
 
+## 집합을 수학적 귀납법으로 표현
+basis step이 어떻게 되어 있는지 초기 상태를 표현한다.
+recursive step을 만든다.
+새로운 elements를 만들어서 기존의 set에 추가하여 집합을 키운다.
+
+![[Pasted image 20231005100210.png]]
+Subset of Integers S: 3|s 
