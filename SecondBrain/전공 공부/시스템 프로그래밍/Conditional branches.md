@@ -24,6 +24,12 @@ if(b≥a)
 goto label
 ```
 
+## Old Style Conditional Branch Example
 ![[Pasted image 20231005173848.png]]
 option을 주의깊게 볼 필요 x
--fno-if-conversion => if 관련 최적화를 
+-fno-if-conversion => if 관련 최적화를 하지 마라
+.L4 => assembly어에서 사용하는 label => 라인의 주소를 담아둠
+return value가 %rax이므로 movq로 rax를 담아두고 subq로 뺀 값을 넣어준다.
+
+컴파일러가 코드를 바로 변환하지는 못해서 if문을 goto를 이용해 바꿔주는 작업이 필요하다.
+![[Pasted image 20231005174206.png]]
