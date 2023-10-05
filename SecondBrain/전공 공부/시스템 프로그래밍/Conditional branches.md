@@ -37,6 +37,11 @@ return value가 %rax이므로 movq로 rax를 담아두고 subq로 뺀 값을 넣
 하지만 jump instruction은 비용이 비싼 instruction이다
 
 # Conditional Moves
+`cMovX`
+ex) `cmove, cmovge`
+
 ![[Pasted image 20231005180708.png]]
-둘 다 연산을 하고, 리턴 벨류에 어떤 값을 넣을 지 조건에 따라  결정하는 방식을 사용함.
+둘 다 연산을 하고, 리턴 벨류에 어떤 값을 넣을 지 조건에 따라  결정하는 방식을 사용함. (연산을 두 번 하는 것이 jump보다 비용이 적게 들기 때문(연산이 복잡할 시, jump보다 비용이 더 들 수도 있다.))
+
+
 
