@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "전공 공부/이산구조/Induction and recursion.md",
+                "file": "전공 공부/오픈소스응용프로그래밍/코드 리뷰.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "전공 공부/이산구조/Induction and recursion.md",
+                "file": "전공 공부/오픈소스응용프로그래밍/코드 리뷰.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "전공 공부/이산구조/Induction and recursion.md",
+                "file": "전공 공부/오픈소스응용프로그래밍/코드 리뷰.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "전공 공부/이산구조/Induction and recursion.md"
+                "file": "전공 공부/오픈소스응용프로그래밍/코드 리뷰.md"
               }
             }
           },
@@ -181,8 +181,9 @@
   },
   "active": "b57533501267e399",
   "lastOpenFiles": [
-    "전공 공부/이산구조/이산수학 기호.md",
     "전공 공부/이산구조/Induction and recursion.md",
+    "전공 공부/오픈소스응용프로그래밍/코드 리뷰.md",
+    "전공 공부/이산구조/이산수학 기호.md",
     "Attached files/Pasted image 20231005100210.png",
     "Attached files/Pasted image 20231005095619.png",
     "Attached files/Pasted image 20231005094211.png",
