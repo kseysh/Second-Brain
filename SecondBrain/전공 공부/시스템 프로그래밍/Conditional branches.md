@@ -37,3 +37,6 @@ return value가 %rax이므로 movq로 rax를 담아두고 subq로 뺀 값을 넣
 하지만 jump instruction은 비용이 비싼 instruction이다
 
 # Conditional Moves
+![[Pasted image 20231005180708.png]]
+둘 다 연산을 하고, 리턴 벨류에 어떤 값을 넣을 지 조건에 따라  결정하는 방식을 사용함.
+
