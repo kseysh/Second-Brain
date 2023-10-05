@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "전공 공부/오픈소스응용프로그래밍/코드 리뷰.md",
+                "file": "전공 공부/시스템 프로그래밍/Data Representation.md",
                 "mode": "source",
                 "source": false
               }
@@ -81,8 +81,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "feabab388e8825fc",
@@ -98,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "전공 공부/오픈소스응용프로그래밍/코드 리뷰.md",
+                "file": "전공 공부/시스템 프로그래밍/Data Representation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "전공 공부/오픈소스응용프로그래밍/코드 리뷰.md",
+                "file": "전공 공부/시스템 프로그래밍/Data Representation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "전공 공부/오픈소스응용프로그래밍/코드 리뷰.md"
+                "file": "전공 공부/시스템 프로그래밍/Data Representation.md"
               }
             }
           },
@@ -181,10 +180,10 @@
   },
   "active": "b57533501267e399",
   "lastOpenFiles": [
+    "전공 공부/오픈소스응용프로그래밍/코드 리뷰.md",
     "Attached files/Pasted image 20231005112158.png",
     "Attached files/Pasted image 20231005112145.png",
     "전공 공부/이산구조/Induction and recursion.md",
-    "전공 공부/오픈소스응용프로그래밍/코드 리뷰.md",
     "전공 공부/이산구조/이산수학 기호.md",
     "Attached files/Pasted image 20231005100210.png",
     "Attached files/Pasted image 20231005095619.png",
@@ -194,7 +193,6 @@
     "Attached files/Pasted image 20231005094041.png",
     "Attached files/Pasted image 20231005093833.png",
     "Attached files/Pasted image 20231005093052.png",
-    "Attached files/Pasted image 20231005093017.png",
     "전공 공부/이산구조/Growth of Functions.md",
     "전공 공부/이산구조/Number Theory and Cryprography.md",
     "전공 공부/오픈소스응용프로그래밍/스타일 가이드.md",
