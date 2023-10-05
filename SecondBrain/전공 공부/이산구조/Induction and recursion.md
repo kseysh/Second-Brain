@@ -2,7 +2,7 @@
 
 ## 수학적 귀납법의 원리
 1. Basis step ( P(1) )이 true라는 것을 증명해야 한다.
-2. 귀납 단계 : p(k)가 true라고 가정할 때, p(k+1)이 true아면 증명이 된다.
+2. 귀납 단계 : p(k)가 true라고 가정할 때, p(k+1)이 true면 증명이 된다.
 
 ![[Pasted image 20231005093017.png]]
 
@@ -13,11 +13,13 @@ ex)
  
  ![[Pasted image 20231005093833.png]]
 
+### Proving Inequalities
 ![[Pasted image 20231005094041.png]]
 
 ![[Pasted image 20231005094114.png]]
-4로 시작하므로 p(4)가 true라고 가정해야 함
+4로 시작하므로 p(4)가 true라고 가정해야 함 (항상 P(1)에서 시작하지는 않음)
 
+### Proving Divisibility Results 
 ![[Pasted image 20231005094156.png]]
 
 Number of subsets of a finite set은 안나옴
@@ -25,8 +27,8 @@ Number of subsets of a finite set은 안나옴
 # Recursive Definitions and Structural Induction
 
 ## Recursively Defined Functions
-Basis step : 
-Recursive Step : 
+Basis step : f(0)의 값을 구한다.
+Recursive Step : 규칙ㅇ
 
 ![[Pasted image 20231005095619.png]]
 
