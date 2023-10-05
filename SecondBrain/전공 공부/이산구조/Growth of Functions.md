@@ -102,3 +102,4 @@ O(n<sup>3</sup>)의 시간 복잡도를 지닌다.
 Constant Complexity와 Linear complexity만 알아두기?
 ![[Pasted image 20231004115301.png]]
 
+p44 45 중요
