@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Spring/JPA/JPA.md",
+                "file": "Spring/JPA/SQL 중심적인 개발의 문제점.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Spring/JPA/JPA.md",
+                "file": "Spring/JPA/SQL 중심적인 개발의 문제점.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Spring/JPA/JPA.md",
+                "file": "Spring/JPA/SQL 중심적인 개발의 문제점.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Spring/JPA/JPA.md"
+                "file": "Spring/JPA/SQL 중심적인 개발의 문제점.md"
               }
             }
           },
@@ -166,8 +166,10 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "77e0b92a051c28ac",
+  "active": "43aca83e84683fcb",
   "lastOpenFiles": [
+    "Spring/JPA/JPA.md",
+    "Spring/JPA/SQL 중심적인 개발의 문제점.md",
     "Spring/JPA",
     "전공 공부/시스템 프로그래밍/Arithmetic & Logical Operations.md",
     "전공 공부/시스템 프로그래밍/Conditional branches.md",
@@ -203,7 +205,6 @@
     "Spring/AOP.md",
     "전공 공부/시스템 프로그래밍/Integer Arithmetic.md",
     "전공 공부/시스템 프로그래밍/시스템 프로그래밍 들어가기 전.md",
-    "IDEA/아이디어 폴더/서비스 아이디어.md",
     "전공 공부/지난 학기",
     "전공 공부/시스템 프로그래밍",
     "ERROR_Diary/Spring/Intellij",
