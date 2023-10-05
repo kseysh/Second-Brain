@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "testq",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -65,12 +65,12 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "feabab388e8825fc",
@@ -167,7 +167,7 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "43aca83e84683fcb",
+  "active": "98b99bcebe54855a",
   "lastOpenFiles": [
     "Attached files/Pasted image 20231005195158.png",
     "Attached files/Pasted image 20231005194446.png",
