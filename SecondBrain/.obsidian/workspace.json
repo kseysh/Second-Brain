@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Spring/JPA/JPA.md",
+                "file": "Spring/Intellij 단축키 정리.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Spring/JPA/JPA.md",
+                "file": "Spring/Intellij 단축키 정리.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Spring/JPA/JPA.md",
+                "file": "Spring/Intellij 단축키 정리.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Spring/JPA/JPA.md"
+                "file": "Spring/Intellij 단축키 정리.md"
               }
             }
           },
@@ -168,10 +168,12 @@
   },
   "active": "43aca83e84683fcb",
   "lastOpenFiles": [
+    "Spring/JPA/데이터베이스 방언.md",
+    "Spring/JPA/JPA.md",
+    "Spring/Intellij 단축키 정리.md",
     "Attached files/Pasted image 20231005224414.png",
     "Spring/JPA/Entity.md",
     "Spring/JPA/persistence.xml.md",
-    "Spring/JPA/데이터베이스 방언.md",
     "Spring/JPA/JPA의 성능 최적화 기능.md",
     "Spring/JPA/트랜잭션.md",
     "JAVA/SDK.md",
@@ -182,7 +184,6 @@
     "Attached files/Pasted image 20231005212554.png",
     "Attached files/Pasted image 20231005212324.png",
     "Attached files/Pasted image 20231005212129.png",
-    "Spring/JPA/JPA.md",
     "Attached files/Pasted image 20231005210420.png",
     "Attached files/Pasted image 20231005210342.png",
     "Spring/JPA/ORM.md",
@@ -193,7 +194,6 @@
     "Attached files/Pasted image 20231005195158.png",
     "Attached files/Pasted image 20231005194446.png",
     "Attached files/Pasted image 20231005193745.png",
-    "Attached files/Pasted image 20231005193644.png",
     "NFT.md",
     "Obsidian/간단한 기호들.md",
     "전공 공부/오픈소스응용프로그래밍/코드 리뷰.md",
