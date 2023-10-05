@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Spring/JPA/SQL 중심적인 개발의 문제점.md",
+                "file": "Spring/JPA/JPA.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Spring/JPA/SQL 중심적인 개발의 문제점.md",
+                "file": "Spring/JPA/JPA.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Spring/JPA/SQL 중심적인 개발의 문제점.md",
+                "file": "Spring/JPA/JPA.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Spring/JPA/SQL 중심적인 개발의 문제점.md"
+                "file": "Spring/JPA/JPA.md"
               }
             }
           },
@@ -168,6 +168,7 @@
   },
   "active": "43aca83e84683fcb",
   "lastOpenFiles": [
+    "Spring/JPA/ORM.md",
     "Spring/JPA/JPA.md",
     "Spring/JPA/SQL 중심적인 개발의 문제점.md",
     "Spring/JPA",
@@ -204,7 +205,6 @@
     "독서록/개발 관련 도서/구글 엔지니어는 이렇게 일한다.md",
     "Spring/AOP.md",
     "전공 공부/시스템 프로그래밍/Integer Arithmetic.md",
-    "전공 공부/시스템 프로그래밍/시스템 프로그래밍 들어가기 전.md",
     "전공 공부/지난 학기",
     "전공 공부/시스템 프로그래밍",
     "ERROR_Diary/Spring/Intellij",

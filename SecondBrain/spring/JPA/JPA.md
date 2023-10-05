@@ -1,4 +1,4 @@
-# JPA란?
+# JPA( Java Persistence API)란?
 데이터 베이스에 쿼리를 날리고 하는 일들을 대신 처리해주는 기술
 
 ## JPA를 사용하는 이유
