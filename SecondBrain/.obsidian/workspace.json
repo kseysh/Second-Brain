@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Spring/JPA/JPA의 성능 최적화 기능.md",
+                "file": "전공 공부/전자상거래/스마트 시대의 비즈니스와 모바일 상거래.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Spring/JPA/JPA의 성능 최적화 기능.md",
+                "file": "전공 공부/전자상거래/스마트 시대의 비즈니스와 모바일 상거래.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Spring/JPA/JPA의 성능 최적화 기능.md",
+                "file": "전공 공부/전자상거래/스마트 시대의 비즈니스와 모바일 상거래.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Spring/JPA/JPA의 성능 최적화 기능.md"
+                "file": "전공 공부/전자상거래/스마트 시대의 비즈니스와 모바일 상거래.md"
               }
             }
           },
@@ -181,10 +181,15 @@
   },
   "active": "2566e1104ea37062",
   "lastOpenFiles": [
+    "전공 공부/전자상거래/조직간 전자상거래.md",
+    "전공 공부/전자상거래/스마트 시대의 비즈니스와 모바일 상거래.md",
+    "전공 공부/전자상거래/소비자 전자상거래.md",
+    "전공 공부/전자상거래/전자상거래 입문.md",
+    "Spring/JPA/JPA의 성능 최적화 기능.md",
+    "전공 공부/전자상거래",
     "Spring/JPA/JPA.md",
     "Spring/JPA/ORM.md",
     "Spring/JPA/엔티티.md",
-    "Spring/JPA/JPA의 성능 최적화 기능.md",
     "Spring/JPA/트랜잭션.md",
     "Spring/JPA/persistence.xml.md",
     "Spring/JPA/데이터베이스 방언.md",
@@ -207,7 +212,6 @@
     "Attached files/Pasted image 20231006194452.png",
     "Attached files/Pasted image 20231006194416.png",
     "Attached files/Pasted image 20231006194139.png",
-    "Spring/SQL/SQL 문제/무제 파일.md",
     "Attached files/1_av8Om3HpG1MC7YTLKvyftg.webp",
     "Attached files/1_DM6l8zfqL1gv4HxkO8Eq4Q.webp",
     "Attached files/Pasted image 20231006185839.png",
@@ -215,18 +219,14 @@
     "Spring/SQL/SQL 문제/2단계",
     "Spring/SQL/SQL 문제/1단계",
     "Spring/SQL/SQL 문제",
-    "전공 공부/시스템 프로그래밍/Floating point.md",
     "Spring/SQL",
     "Attached files/Pasted image 20231006124643.png",
     "Attached files/Pasted image 20231006124320.png",
     "Attached files/Pasted image 20231006124307.png",
-    "엔티티.md",
-    "Spring/Intellij 단축키 정리.md",
     "Spring/JPA",
     "전공 공부/지난 학기",
     "전공 공부/시스템 프로그래밍",
     "ERROR_Diary/Spring/Intellij",
-    "ERROR_Diary/Spring",
     "무제 파일.canvas"
   ]
 }
