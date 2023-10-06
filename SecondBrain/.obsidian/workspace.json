@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "전공 공부/전자상거래/스마트 시대의 비즈니스와 모바일 상거래.md",
+                "file": "전공 공부/전자상거래/소비자 전자상거래.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "전공 공부/전자상거래/스마트 시대의 비즈니스와 모바일 상거래.md",
+                "file": "전공 공부/전자상거래/소비자 전자상거래.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "전공 공부/전자상거래/스마트 시대의 비즈니스와 모바일 상거래.md",
+                "file": "전공 공부/전자상거래/소비자 전자상거래.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "전공 공부/전자상거래/스마트 시대의 비즈니스와 모바일 상거래.md"
+                "file": "전공 공부/전자상거래/소비자 전자상거래.md"
               }
             }
           },
@@ -181,6 +181,7 @@
   },
   "active": "2566e1104ea37062",
   "lastOpenFiles": [
+    "Attached files/Pasted image 20231007013944.png",
     "전공 공부/전자상거래/조직간 전자상거래.md",
     "전공 공부/전자상거래/스마트 시대의 비즈니스와 모바일 상거래.md",
     "전공 공부/전자상거래/소비자 전자상거래.md",
@@ -207,7 +208,6 @@
     "Spring/SQL/UNION.md",
     "Spring/SQL/SQL 문제/3단계/조회수가 가장 많은 중고거래 게시판의 첨부파일 조회하기.md",
     "Spring/SQL/SQL 문제/2단계/조건에 부합하는 중고거래 상태 조회하기.md",
-    "Spring/SQL/SQL 문제/1단계/조건에 부합하는 중고거래 댓글 조회하기.md",
     "Attached files/Pasted image 20231006194549.png",
     "Attached files/Pasted image 20231006194452.png",
     "Attached files/Pasted image 20231006194416.png",
