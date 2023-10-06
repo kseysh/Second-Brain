@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Spring/JPA/JPQL.md",
+                "file": "Spring/JPA/영속성 컨텍스트.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Spring/JPA/JPQL.md",
+                "file": "Spring/JPA/영속성 컨텍스트.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Spring/JPA/JPQL.md",
+                "file": "Spring/JPA/영속성 컨텍스트.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Spring/JPA/JPQL.md"
+                "file": "Spring/JPA/영속성 컨텍스트.md"
               }
             }
           },
@@ -166,14 +166,16 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "77e0b92a051c28ac",
+  "active": "43aca83e84683fcb",
   "lastOpenFiles": [
+    "Spring/JPA/Entity.md",
+    "Spring/JPA/영속성 컨텍스트.md",
+    "Attached files/Pasted image 20231006111430.png",
+    "Spring/JPA/persistence.xml.md",
     "Spring/JPA/데이터베이스 방언.md",
     "Spring/JPA/JPQL.md",
     "엔티티.md",
-    "Spring/JPA/Entity.md",
     "Spring/JPA/트랜잭션.md",
-    "Spring/JPA/persistence.xml.md",
     "Spring/Intellij 단축키 정리.md",
     "Spring/JPA/JPA.md",
     "Attached files/Pasted image 20231005224414.png",
@@ -195,7 +197,6 @@
     "전공 공부/시스템 프로그래밍/Conditional branches.md",
     "Attached files/Pasted image 20231005195158.png",
     "Attached files/Pasted image 20231005194446.png",
-    "Attached files/Pasted image 20231005193745.png",
     "NFT.md",
     "Obsidian/간단한 기호들.md",
     "전공 공부/오픈소스응용프로그래밍/코드 리뷰.md",
@@ -203,8 +204,6 @@
     "전공 공부/이산구조/이산수학 기호.md",
     "전공 공부/이산구조/Growth of Functions.md",
     "전공 공부/이산구조/Number Theory and Cryprography.md",
-    "전공 공부/오픈소스응용프로그래밍/스타일 가이드.md",
-    "전공 공부/이산구조/Algorithms.md",
     "전공 공부/지난 학기",
     "전공 공부/시스템 프로그래밍",
     "ERROR_Diary/Spring/Intellij",
