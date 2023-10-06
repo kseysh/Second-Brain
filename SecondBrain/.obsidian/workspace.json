@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Spring/SQL/JOIN.md",
+                "file": "Spring/SQL/MAX, MIN.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Spring/SQL/JOIN.md",
+                "file": "Spring/SQL/MAX, MIN.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Spring/SQL/JOIN.md",
+                "file": "Spring/SQL/MAX, MIN.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Spring/SQL/JOIN.md"
+                "file": "Spring/SQL/MAX, MIN.md"
               }
             }
           },
@@ -166,12 +166,12 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "43aca83e84683fcb",
+  "active": "77e0b92a051c28ac",
   "lastOpenFiles": [
-    "Spring/SQL/SQL문.md",
-    "Spring/SQL/JOIN.md",
-    "Spring/SQL/CASE WHEN.md",
     "Spring/SQL/CONCAT.md",
+    "Spring/SQL/JOIN.md",
+    "Spring/SQL/SQL문.md",
+    "Spring/SQL/CASE WHEN.md",
     "Spring/SQL/UNION.md",
     "Spring/SQL/MAX, MIN.md",
     "Spring/SQL/SQL 문제/3단계/조회수가 가장 많은 중고거래 게시판의 첨부파일 조회하기.md",
