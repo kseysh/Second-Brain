@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Spring/JPA/데이터베이스 스키마 자동 생성.md",
+                "file": "전공 공부/시스템 프로그래밍/Floating point.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Spring/JPA/데이터베이스 스키마 자동 생성.md",
+                "file": "전공 공부/시스템 프로그래밍/Floating point.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Spring/JPA/데이터베이스 스키마 자동 생성.md",
+                "file": "전공 공부/시스템 프로그래밍/Floating point.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Spring/JPA/데이터베이스 스키마 자동 생성.md"
+                "file": "전공 공부/시스템 프로그래밍/Floating point.md"
               }
             }
           },
@@ -168,11 +168,11 @@
   },
   "active": "43aca83e84683fcb",
   "lastOpenFiles": [
+    "Spring/JPA/데이터베이스 스키마 자동 생성.md",
     "Attached files/Pasted image 20231006124643.png",
     "Attached files/Pasted image 20231006124320.png",
     "Attached files/Pasted image 20231006124307.png",
     "Spring/JPA/DDL.md",
-    "Spring/JPA/데이터베이스 스키마 자동 생성.md",
     "Spring/JPA/엔티티 매핑.md",
     "Attached files/Pasted image 20231006121904.png",
     "Spring/JPA/엔티티.md",
@@ -184,7 +184,6 @@
     "Attached files/Pasted image 20231006114013.png",
     "Attached files/Pasted image 20231006113228.png",
     "Attached files/Pasted image 20231006112536.png",
-    "Attached files/Pasted image 20231006112147.png",
     "Spring/JPA/persistence.xml.md",
     "Spring/JPA/데이터베이스 방언.md",
     "Spring/JPA/JPQL.md",
