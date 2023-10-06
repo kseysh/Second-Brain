@@ -69,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "feabab388e8825fc",
@@ -169,8 +168,11 @@
   },
   "active": "43aca83e84683fcb",
   "lastOpenFiles": [
-    "Attached files/Pasted image 20231006114013.png",
+    "Attached files/Pasted image 20231006115558.png",
+    "Spring/JPA/플러시.md",
     "Spring/JPA/영속성 컨텍스트.md",
+    "Attached files/Pasted image 20231006115040.png",
+    "Attached files/Pasted image 20231006114013.png",
     "Attached files/Pasted image 20231006113228.png",
     "Attached files/Pasted image 20231006112536.png",
     "Attached files/Pasted image 20231006112147.png",
@@ -192,8 +194,6 @@
     "JAVA/JDK.md",
     "JAVA/Collection의 종류.md",
     "JAVA/ArrayList를 사용한 배열.md",
-    "Attached files/Pasted image 20231005212629.png",
-    "Attached files/Pasted image 20231005212554.png",
     "Spring/JPA/ORM.md",
     "Spring/JPA/SQL 중심적인 개발의 문제점.md",
     "Spring/JPA",
@@ -205,7 +205,6 @@
     "전공 공부/이산구조/Induction and recursion.md",
     "전공 공부/이산구조/이산수학 기호.md",
     "전공 공부/이산구조/Growth of Functions.md",
-    "전공 공부/이산구조/Number Theory and Cryprography.md",
     "전공 공부/지난 학기",
     "전공 공부/시스템 프로그래밍",
     "ERROR_Diary/Spring/Intellij",
