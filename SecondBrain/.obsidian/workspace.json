@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Spring/SQL/MAX, MIN.md",
+                "file": "Spring/SQL/UNION.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Spring/SQL/MAX, MIN.md",
+                "file": "Spring/SQL/UNION.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Spring/SQL/MAX, MIN.md",
+                "file": "Spring/SQL/UNION.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Spring/SQL/MAX, MIN.md"
+                "file": "Spring/SQL/UNION.md"
               }
             }
           },
@@ -168,17 +168,19 @@
   },
   "active": "43aca83e84683fcb",
   "lastOpenFiles": [
-    "Attached files/Pasted image 20231006194452.png",
-    "Attached files/Pasted image 20231006194416.png",
+    "Spring/SQL/SQL 문제/1단계/조건에 부합하는 중고거래 댓글 조회하기.md",
+    "Spring/SQL/UNION.md",
     "Spring/SQL/SQL 문제/3단계/조회수가 가장 많은 중고거래 게시판의 첨부파일 조회하기.md",
     "Spring/SQL/MAX, MIN.md",
+    "Attached files/Pasted image 20231006194549.png",
+    "Attached files/Pasted image 20231006194452.png",
+    "Attached files/Pasted image 20231006194416.png",
     "Spring/SQL/SQL 문제/2단계/조건에 부합하는 중고거래 상태 조회하기.md",
     "Spring/SQL/CONCAT.md",
     "Attached files/Pasted image 20231006194139.png",
     "Spring/SQL/SQL 문제/무제 파일.md",
     "Spring/SQL/CASE WHEN.md",
     "Spring/SQL/SQL문.md",
-    "Spring/SQL/SQL 문제/1단계/조건에 부합하는 중고거래 댓글 조회하기.md",
     "Spring/SQL/JOIN.md",
     "Attached files/1_av8Om3HpG1MC7YTLKvyftg.webp",
     "Attached files/1_DM6l8zfqL1gv4HxkO8Eq4Q.webp",
@@ -195,11 +197,9 @@
     "Attached files/Pasted image 20231006124307.png",
     "Spring/JPA/DDL.md",
     "Spring/JPA/엔티티 매핑.md",
-    "Attached files/Pasted image 20231006121904.png",
     "Spring/JPA/엔티티.md",
     "Spring/JPA/영속성 컨텍스트.md",
     "Spring/JPA/플러시.md",
-    "Attached files/Pasted image 20231006115919.png",
     "Spring/JPA/persistence.xml.md",
     "Spring/JPA/데이터베이스 방언.md",
     "Spring/JPA/JPQL.md",

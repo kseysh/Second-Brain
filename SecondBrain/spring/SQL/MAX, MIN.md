@@ -11,3 +11,9 @@
 `SELECT MAX(price) AS max_price FROM products;`
 ### 결과
 ![[Pasted image 20231006194452.png]]
+
+### 정렬 마지막 상품명 가져오기
+`SELECT MAX(name) AS max_name FROM products;`
+
+### 결과
+![[Pasted image 20231006194549.png]]
