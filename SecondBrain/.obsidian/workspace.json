@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Spring/SQL/CASE WHEN.md",
+                "file": "Spring/SQL/MAX, MIN.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Spring/SQL/CASE WHEN.md",
+                "file": "Spring/SQL/MAX, MIN.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Spring/SQL/CASE WHEN.md",
+                "file": "Spring/SQL/MAX, MIN.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Spring/SQL/CASE WHEN.md"
+                "file": "Spring/SQL/MAX, MIN.md"
               }
             }
           },
@@ -168,9 +168,16 @@
   },
   "active": "43aca83e84683fcb",
   "lastOpenFiles": [
-    "Spring/SQL/SQL문.md",
-    "Spring/SQL/CASE WHEN.md",
+    "Attached files/Pasted image 20231006194452.png",
+    "Attached files/Pasted image 20231006194416.png",
+    "Spring/SQL/SQL 문제/3단계/조회수가 가장 많은 중고거래 게시판의 첨부파일 조회하기.md",
+    "Spring/SQL/MAX, MIN.md",
     "Spring/SQL/SQL 문제/2단계/조건에 부합하는 중고거래 상태 조회하기.md",
+    "Spring/SQL/CONCAT.md",
+    "Attached files/Pasted image 20231006194139.png",
+    "Spring/SQL/SQL 문제/무제 파일.md",
+    "Spring/SQL/CASE WHEN.md",
+    "Spring/SQL/SQL문.md",
     "Spring/SQL/SQL 문제/1단계/조건에 부합하는 중고거래 댓글 조회하기.md",
     "Spring/SQL/JOIN.md",
     "Attached files/1_av8Om3HpG1MC7YTLKvyftg.webp",
@@ -193,8 +200,6 @@
     "Spring/JPA/영속성 컨텍스트.md",
     "Spring/JPA/플러시.md",
     "Attached files/Pasted image 20231006115919.png",
-    "Attached files/Pasted image 20231006115558.png",
-    "Attached files/Pasted image 20231006115040.png",
     "Spring/JPA/persistence.xml.md",
     "Spring/JPA/데이터베이스 방언.md",
     "Spring/JPA/JPQL.md",
@@ -204,11 +209,6 @@
     "Spring/JPA/JPA.md",
     "Spring/JPA/JPA의 성능 최적화 기능.md",
     "JAVA/SDK.md",
-    "JAVA/JDK.md",
-    "JAVA/Collection의 종류.md",
-    "JAVA/ArrayList를 사용한 배열.md",
-    "Spring/JPA/ORM.md",
-    "Spring/JPA/SQL 중심적인 개발의 문제점.md",
     "Spring/JPA",
     "전공 공부/지난 학기",
     "전공 공부/시스템 프로그래밍",
