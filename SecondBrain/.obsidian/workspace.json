@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Spring/Intellij 단축키 정리.md",
+                "file": "Spring/JPA/트랜잭션.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Spring/Intellij 단축키 정리.md",
+                "file": "Spring/JPA/트랜잭션.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Spring/Intellij 단축키 정리.md",
+                "file": "Spring/JPA/트랜잭션.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Spring/Intellij 단축키 정리.md"
+                "file": "Spring/JPA/트랜잭션.md"
               }
             }
           },
@@ -168,12 +168,12 @@
   },
   "active": "43aca83e84683fcb",
   "lastOpenFiles": [
+    "Spring/JPA/persistence.xml.md",
     "Spring/JPA/데이터베이스 방언.md",
-    "Spring/JPA/JPA.md",
     "Spring/Intellij 단축키 정리.md",
+    "Spring/JPA/JPA.md",
     "Attached files/Pasted image 20231005224414.png",
     "Spring/JPA/Entity.md",
-    "Spring/JPA/persistence.xml.md",
     "Spring/JPA/JPA의 성능 최적화 기능.md",
     "Spring/JPA/트랜잭션.md",
     "JAVA/SDK.md",
