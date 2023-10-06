@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Spring/SQL/SQL 문제/2단계/무제 파일.md",
+                "file": "Spring/SQL/CASE WHEN.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Spring/SQL/SQL 문제/2단계/무제 파일.md",
+                "file": "Spring/SQL/CASE WHEN.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Spring/SQL/SQL 문제/2단계/무제 파일.md",
+                "file": "Spring/SQL/CASE WHEN.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Spring/SQL/SQL 문제/2단계/무제 파일.md"
+                "file": "Spring/SQL/CASE WHEN.md"
               }
             }
           },
@@ -168,9 +168,10 @@
   },
   "active": "43aca83e84683fcb",
   "lastOpenFiles": [
-    "Spring/SQL/SQL 문제/1단계/조건에 부합하는 중고거래 댓글 조회하기.md",
-    "Spring/SQL/SQL 문제/2단계/무제 파일.md",
     "Spring/SQL/SQL문.md",
+    "Spring/SQL/CASE WHEN.md",
+    "Spring/SQL/SQL 문제/2단계/조건에 부합하는 중고거래 상태 조회하기.md",
+    "Spring/SQL/SQL 문제/1단계/조건에 부합하는 중고거래 댓글 조회하기.md",
     "Spring/SQL/JOIN.md",
     "Attached files/1_av8Om3HpG1MC7YTLKvyftg.webp",
     "Attached files/1_DM6l8zfqL1gv4HxkO8Eq4Q.webp",
@@ -209,7 +210,6 @@
     "Spring/JPA/ORM.md",
     "Spring/JPA/SQL 중심적인 개발의 문제점.md",
     "Spring/JPA",
-    "전공 공부/시스템 프로그래밍/Arithmetic & Logical Operations.md",
     "전공 공부/지난 학기",
     "전공 공부/시스템 프로그래밍",
     "ERROR_Diary/Spring/Intellij",
