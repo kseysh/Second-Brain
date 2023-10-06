@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Spring/JPA/영속성 컨텍스트.md",
+                "file": "Spring/JPA/플러시.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "feabab388e8825fc",
@@ -85,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Spring/JPA/영속성 컨텍스트.md",
+                "file": "Spring/JPA/플러시.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Spring/JPA/영속성 컨텍스트.md",
+                "file": "Spring/JPA/플러시.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Spring/JPA/영속성 컨텍스트.md"
+                "file": "Spring/JPA/플러시.md"
               }
             }
           },
@@ -168,9 +169,10 @@
   },
   "active": "43aca83e84683fcb",
   "lastOpenFiles": [
+    "Spring/JPA/영속성 컨텍스트.md",
+    "Attached files/Pasted image 20231006115919.png",
     "Attached files/Pasted image 20231006115558.png",
     "Spring/JPA/플러시.md",
-    "Spring/JPA/영속성 컨텍스트.md",
     "Attached files/Pasted image 20231006115040.png",
     "Attached files/Pasted image 20231006114013.png",
     "Attached files/Pasted image 20231006113228.png",
@@ -180,7 +182,6 @@
     "Attached files/Pasted image 20231006112028.png",
     "Attached files/Pasted image 20231006112007.png",
     "Spring/JPA/Entity.md",
-    "Attached files/Pasted image 20231006111430.png",
     "Spring/JPA/persistence.xml.md",
     "Spring/JPA/데이터베이스 방언.md",
     "Spring/JPA/JPQL.md",
@@ -188,7 +189,6 @@
     "Spring/JPA/트랜잭션.md",
     "Spring/Intellij 단축키 정리.md",
     "Spring/JPA/JPA.md",
-    "Attached files/Pasted image 20231005224414.png",
     "Spring/JPA/JPA의 성능 최적화 기능.md",
     "JAVA/SDK.md",
     "JAVA/JDK.md",
