@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Spring/JPA/플러시.md",
+                "file": "Spring/JPA/영속성 컨텍스트.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "feabab388e8825fc",
@@ -86,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Spring/JPA/플러시.md",
+                "file": "Spring/JPA/영속성 컨텍스트.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Spring/JPA/플러시.md",
+                "file": "Spring/JPA/영속성 컨텍스트.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Spring/JPA/플러시.md"
+                "file": "Spring/JPA/영속성 컨텍스트.md"
               }
             }
           },
@@ -169,10 +168,10 @@
   },
   "active": "43aca83e84683fcb",
   "lastOpenFiles": [
+    "Spring/JPA/플러시.md",
     "Spring/JPA/영속성 컨텍스트.md",
     "Attached files/Pasted image 20231006115919.png",
     "Attached files/Pasted image 20231006115558.png",
-    "Spring/JPA/플러시.md",
     "Attached files/Pasted image 20231006115040.png",
     "Attached files/Pasted image 20231006114013.png",
     "Attached files/Pasted image 20231006113228.png",
