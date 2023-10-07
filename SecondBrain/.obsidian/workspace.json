@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "JAVA/ArrayList를 사용한 배열.md",
+                "file": "네트워크/HTTP/서버 인증의 종류.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "JAVA/ArrayList를 사용한 배열.md",
+                "file": "네트워크/HTTP/서버 인증의 종류.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "JAVA/ArrayList를 사용한 배열.md",
+                "file": "네트워크/HTTP/서버 인증의 종류.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "JAVA/ArrayList를 사용한 배열.md"
+                "file": "네트워크/HTTP/서버 인증의 종류.md"
               }
             }
           },
@@ -166,8 +166,17 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "a1970b9862db5319",
+  "active": "77e0b92a051c28ac",
   "lastOpenFiles": [
+    "블로깅을 하는 방법.md",
+    "나중에 더 공부할 내용.md",
+    "포트폴리오.md",
+    "네트워크/HTTP/프론트와 백엔드의 쿠키 공유.md",
+    "네트워크/HTTP/CORS.md",
+    "네트워크/HTTP/CSRF.md",
+    "네트워크/HTTP/인증 과정에서 쿠키를 사용하는 이유.md",
+    "네트워크/HTTP/서버 인증의 종류.md",
+    "JAVA/ArrayList를 사용한 배열.md",
     "JAVA/SDK.md",
     "JAVA/JDK.md",
     "JAVA/Wrapper class.md",
@@ -187,15 +196,6 @@
     "전공 공부/전자상거래",
     "Spring/JPA/JPA.md",
     "Spring/JPA/ORM.md",
-    "Spring/JPA/엔티티.md",
-    "Spring/JPA/트랜잭션.md",
-    "Spring/JPA/persistence.xml.md",
-    "Spring/JPA/데이터베이스 방언.md",
-    "Spring/JPA/JPQL.md",
-    "Spring/JPA/영속성 컨텍스트.md",
-    "Spring/JPA/플러시.md",
-    "Spring/JPA/엔티티 매핑.md",
-    "Spring/JPA/DDL.md",
     "Attached files/Pasted image 20231006194549.png",
     "Attached files/Pasted image 20231006194452.png",
     "Attached files/Pasted image 20231006194416.png",
