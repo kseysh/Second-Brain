@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Develop/개발 원칙/객체 지향 프로그래밍/캡슐화.md",
+                "file": "Develop/개발 원칙/객체 지향 프로그래밍/다형성.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Develop/개발 원칙/객체 지향 프로그래밍/캡슐화.md",
+                "file": "Develop/개발 원칙/객체 지향 프로그래밍/다형성.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Develop/개발 원칙/객체 지향 프로그래밍/캡슐화.md",
+                "file": "Develop/개발 원칙/객체 지향 프로그래밍/다형성.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Develop/개발 원칙/객체 지향 프로그래밍/캡슐화.md"
+                "file": "Develop/개발 원칙/객체 지향 프로그래밍/다형성.md"
               }
             }
           },
@@ -168,6 +168,8 @@
   },
   "active": "a1970b9862db5319",
   "lastOpenFiles": [
+    "Develop/개발 원칙/객체 지향 프로그래밍/추상화.md",
+    "Develop/개발 원칙/객체 지향 프로그래밍/캡슐화.md",
     "Develop/개발 원칙/객체 지향 프로그래밍/상속.md",
     "JAVA/JAVA의 동작원리.md",
     "Spring/JPA/데이터베이스 스키마 자동 생성.md",
@@ -194,8 +196,6 @@
     "Spring/SQL/CONCAT.md",
     "Spring/SQL/JOIN.md",
     "Spring/SQL/SQL문.md",
-    "Spring/SQL/CASE WHEN.md",
-    "Spring/SQL/UNION.md",
     "Attached files/Pasted image 20231006194549.png",
     "Attached files/Pasted image 20231006194452.png",
     "Attached files/Pasted image 20231006194416.png",
