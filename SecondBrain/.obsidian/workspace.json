@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Develop/개발 원칙/객체 지향 프로그래밍/다형성.md",
+                "file": "JAVA/ArrayList를 사용한 배열.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Develop/개발 원칙/객체 지향 프로그래밍/다형성.md",
+                "file": "JAVA/ArrayList를 사용한 배열.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Develop/개발 원칙/객체 지향 프로그래밍/다형성.md",
+                "file": "JAVA/ArrayList를 사용한 배열.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Develop/개발 원칙/객체 지향 프로그래밍/다형성.md"
+                "file": "JAVA/ArrayList를 사용한 배열.md"
               }
             }
           },
@@ -168,6 +168,10 @@
   },
   "active": "a1970b9862db5319",
   "lastOpenFiles": [
+    "JAVA/SDK.md",
+    "JAVA/JDK.md",
+    "JAVA/Wrapper class.md",
+    "Develop/개발 원칙/객체 지향 프로그래밍/다형성.md",
     "Develop/개발 원칙/객체 지향 프로그래밍/추상화.md",
     "Develop/개발 원칙/객체 지향 프로그래밍/캡슐화.md",
     "Develop/개발 원칙/객체 지향 프로그래밍/상속.md",
@@ -192,10 +196,6 @@
     "Spring/JPA/플러시.md",
     "Spring/JPA/엔티티 매핑.md",
     "Spring/JPA/DDL.md",
-    "Spring/SQL/MAX, MIN.md",
-    "Spring/SQL/CONCAT.md",
-    "Spring/SQL/JOIN.md",
-    "Spring/SQL/SQL문.md",
     "Attached files/Pasted image 20231006194549.png",
     "Attached files/Pasted image 20231006194452.png",
     "Attached files/Pasted image 20231006194416.png",
