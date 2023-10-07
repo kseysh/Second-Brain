@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "JAVA/JAVA의 동작원리.md",
+                "file": "Develop/개발 원칙/객체 지향 프로그래밍/캡슐화.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "JAVA/JAVA의 동작원리.md",
+                "file": "Develop/개발 원칙/객체 지향 프로그래밍/캡슐화.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "JAVA/JAVA의 동작원리.md",
+                "file": "Develop/개발 원칙/객체 지향 프로그래밍/캡슐화.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "JAVA/JAVA의 동작원리.md"
+                "file": "Develop/개발 원칙/객체 지향 프로그래밍/캡슐화.md"
               }
             }
           },
@@ -168,6 +168,8 @@
   },
   "active": "a1970b9862db5319",
   "lastOpenFiles": [
+    "Develop/개발 원칙/객체 지향 프로그래밍/상속.md",
+    "JAVA/JAVA의 동작원리.md",
     "Spring/JPA/데이터베이스 스키마 자동 생성.md",
     "Spring/IOC.md",
     "전공 공부/전자상거래/소비자 전자상거래.md",
@@ -194,8 +196,6 @@
     "Spring/SQL/SQL문.md",
     "Spring/SQL/CASE WHEN.md",
     "Spring/SQL/UNION.md",
-    "Spring/SQL/SQL 문제/3단계/조회수가 가장 많은 중고거래 게시판의 첨부파일 조회하기.md",
-    "Spring/SQL/SQL 문제/2단계/조건에 부합하는 중고거래 상태 조회하기.md",
     "Attached files/Pasted image 20231006194549.png",
     "Attached files/Pasted image 20231006194452.png",
     "Attached files/Pasted image 20231006194416.png",
