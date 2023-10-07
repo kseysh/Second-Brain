@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Spring/@Autowired.md",
+                "file": "전공 공부/시스템 프로그래밍/Floating point.md",
                 "mode": "source",
                 "source": false
               }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "@A",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -65,8 +65,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -86,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Spring/@Autowired.md",
+                "file": "전공 공부/시스템 프로그래밍/Floating point.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Spring/@Autowired.md",
+                "file": "전공 공부/시스템 프로그래밍/Floating point.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Spring/@Autowired.md"
+                "file": "전공 공부/시스템 프로그래밍/Floating point.md"
               }
             }
           },
@@ -169,6 +168,8 @@
   },
   "active": "c93482f2eb7af1ab",
   "lastOpenFiles": [
+    "Spring/AOP.md",
+    "Spring/@Autowired.md",
     "Develop/개발 원칙/객체 지향 프로그래밍/다형성.md",
     "Spring/DI.md",
     "Spring/IOC.md",
@@ -194,8 +195,6 @@
     "Spring/JPA/데이터베이스 스키마 자동 생성.md",
     "전공 공부/전자상거래/소비자 전자상거래.md",
     "Attached files/Pasted image 20231007013944.png",
-    "전공 공부/전자상거래/조직간 전자상거래.md",
-    "전공 공부/전자상거래/스마트 시대의 비즈니스와 모바일 상거래.md",
     "전공 공부/전자상거래",
     "Attached files/Pasted image 20231006194549.png",
     "Attached files/Pasted image 20231006194452.png",
