@@ -4,35 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "beccdecb7bd4e3ec",
+        "id": "37935c8e739be1e4",
         "type": "tabs",
         "children": [
           {
-            "id": "43aca83e84683fcb",
+            "id": "a1970b9862db5319",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Spring/JPA/데이터베이스 스키마 자동 생성.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "2566e1104ea37062",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Spring/IOC.md",
+                "file": "JAVA/JAVA의 동작원리.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -78,13 +65,11 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "feabab388e8825fc",
@@ -100,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Spring/IOC.md",
+                "file": "JAVA/JAVA의 동작원리.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Spring/IOC.md",
+                "file": "JAVA/JAVA의 동작원리.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -140,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Spring/IOC.md"
+                "file": "JAVA/JAVA의 동작원리.md"
               }
             }
           },
@@ -181,8 +166,10 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "2566e1104ea37062",
+  "active": "a1970b9862db5319",
   "lastOpenFiles": [
+    "Spring/JPA/데이터베이스 스키마 자동 생성.md",
+    "Spring/IOC.md",
     "전공 공부/전자상거래/소비자 전자상거래.md",
     "Attached files/Pasted image 20231007013944.png",
     "전공 공부/전자상거래/조직간 전자상거래.md",
@@ -201,7 +188,6 @@
     "Spring/JPA/플러시.md",
     "Spring/JPA/엔티티 매핑.md",
     "Spring/JPA/DDL.md",
-    "Spring/JPA/데이터베이스 스키마 자동 생성.md",
     "Spring/SQL/MAX, MIN.md",
     "Spring/SQL/CONCAT.md",
     "Spring/SQL/JOIN.md",
