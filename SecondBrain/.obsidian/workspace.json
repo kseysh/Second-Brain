@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "네트워크/HTTP/서버 인증의 종류.md",
+                "file": "NFT.md",
                 "mode": "source",
                 "source": false
               }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "제어의",
+                "query": "spring",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -65,7 +65,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -85,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "네트워크/HTTP/서버 인증의 종류.md",
+                "file": "NFT.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "네트워크/HTTP/서버 인증의 종류.md",
+                "file": "NFT.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "네트워크/HTTP/서버 인증의 종류.md"
+                "file": "NFT.md"
               }
             }
           },
@@ -166,8 +167,10 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "77e0b92a051c28ac",
+  "active": "a1970b9862db5319",
   "lastOpenFiles": [
+    "Django/RESTful API.md",
+    "네트워크/HTTP/서버 인증의 종류.md",
     "블로깅을 하는 방법.md",
     "나중에 더 공부할 내용.md",
     "포트폴리오.md",
@@ -175,7 +178,6 @@
     "네트워크/HTTP/CORS.md",
     "네트워크/HTTP/CSRF.md",
     "네트워크/HTTP/인증 과정에서 쿠키를 사용하는 이유.md",
-    "네트워크/HTTP/서버 인증의 종류.md",
     "JAVA/ArrayList를 사용한 배열.md",
     "JAVA/SDK.md",
     "JAVA/JDK.md",
@@ -195,7 +197,6 @@
     "Spring/JPA/JPA의 성능 최적화 기능.md",
     "전공 공부/전자상거래",
     "Spring/JPA/JPA.md",
-    "Spring/JPA/ORM.md",
     "Attached files/Pasted image 20231006194549.png",
     "Attached files/Pasted image 20231006194452.png",
     "Attached files/Pasted image 20231006194416.png",
