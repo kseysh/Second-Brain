@@ -1,5 +1,5 @@
 ## Fractional Binary Numbers
-ex)
+ex)f
 1011.101 => 8+2+1+1/2+1/8
 
 ### 한계
