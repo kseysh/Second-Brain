@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "전공 공부/시스템 프로그래밍/Arithmetic & Logical Operations.md",
+                "file": "전공 공부/자바기반응용프로그래밍/2주차.md",
                 "mode": "source",
                 "source": false
               }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "기호",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -65,7 +65,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -85,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "전공 공부/시스템 프로그래밍/Arithmetic & Logical Operations.md",
+                "file": "전공 공부/자바기반응용프로그래밍/2주차.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "전공 공부/시스템 프로그래밍/Arithmetic & Logical Operations.md",
+                "file": "전공 공부/자바기반응용프로그래밍/2주차.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "전공 공부/시스템 프로그래밍/Arithmetic & Logical Operations.md"
+                "file": "전공 공부/자바기반응용프로그래밍/2주차.md"
               }
             }
           },
@@ -166,12 +167,16 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "77e0b92a051c28ac",
+  "active": "c93482f2eb7af1ab",
   "lastOpenFiles": [
+    "Attached files/Pasted image 20231009144106.png",
+    "Attached files/Pasted image 20231009144004.png",
+    "Obsidian/간단한 기호들.md",
+    "전공 공부/자바기반응용프로그래밍/2주차.md",
+    "전공 공부/시스템 프로그래밍/Arithmetic & Logical Operations.md",
     "전공 공부/자바기반응용프로그래밍",
     "전공 공부/시스템 프로그래밍/Registers, Operands, Move.md",
     "전공 공부/시스템 프로그래밍/Conditional branches.md",
-    "전공 공부/시스템 프로그래밍/Arithmetic & Logical Operations.md",
     "전공 공부/시스템 프로그래밍/Floating point.md",
     "Spring/AOP.md",
     "Spring/@Autowired.md",
@@ -192,8 +197,6 @@
     "JAVA/ArrayList를 사용한 배열.md",
     "JAVA/SDK.md",
     "JAVA/JDK.md",
-    "JAVA/Wrapper class.md",
-    "Develop/개발 원칙/객체 지향 프로그래밍/추상화.md",
     "Attached files/Pasted image 20231007013944.png",
     "전공 공부/전자상거래",
     "Attached files/Pasted image 20231006194549.png",
@@ -209,11 +212,9 @@
     "Spring/SQL/SQL 문제",
     "Spring/SQL",
     "Attached files/Pasted image 20231006124643.png",
-    "Attached files/Pasted image 20231006124320.png",
     "Spring/JPA",
     "전공 공부/지난 학기",
     "전공 공부/시스템 프로그래밍",
-    "ERROR_Diary/Spring/Intellij",
     "무제 파일.canvas"
   ]
 }
