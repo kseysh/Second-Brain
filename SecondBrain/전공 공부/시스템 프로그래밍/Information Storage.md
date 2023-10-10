@@ -104,3 +104,5 @@ Unsigned : mod 연산과 비슷하다.
 
 Signed : mod 연산과 비슷하지만, 원래 최상위 bit가 0이었지만, Truncating 이후 최상위 bit가 1이면 값이 달라질 수도 있다 (양수 -> 음수 or 음수 -> 양수).
 ### Truncating Example
+![[Pasted image 20231010161458.png]]
+-112
