@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "전공 공부/자바기반응용프로그래밍/7주차.md",
-                "mode": "source",
+                "file": "전공 공부/자바기반응용프로그래밍/2주차.md",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "전공 공부/자바기반응용프로그래밍/7주차.md",
+                "file": "전공 공부/자바기반응용프로그래밍/2주차.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "전공 공부/자바기반응용프로그래밍/7주차.md",
+                "file": "전공 공부/자바기반응용프로그래밍/2주차.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "전공 공부/자바기반응용프로그래밍/7주차.md"
+                "file": "전공 공부/자바기반응용프로그래밍/2주차.md"
               }
             }
           },
@@ -168,19 +168,18 @@
   },
   "active": "c93482f2eb7af1ab",
   "lastOpenFiles": [
-    "Attached files/Pasted image 20231010134016.png",
-    "Attached files/Pasted image 20231010133730.png",
-    "Attached files/Pasted image 20231010133708.png",
-    "Attached files/Pasted image 20231010133700.png",
-    "Attached files/Pasted image 20231010133546.png",
-    "Attached files/Pasted image 20231010133333.png",
-    "Attached files/Pasted image 20231010133322.png",
-    "Attached files/Pasted image 20231010133251.png",
     "전공 공부/자바기반응용프로그래밍/7주차.md",
-    "Attached files/Pasted image 20231010132912.png",
+    "Attached files/Pasted image 20231010134959.png",
+    "Attached files/Pasted image 20231010134908.png",
+    "Attached files/Pasted image 20231010134650.png",
+    "Attached files/Pasted image 20231010134634.png",
+    "Attached files/Pasted image 20231010134545.png",
+    "Attached files/Pasted image 20231010134526.png",
+    "Attached files/Pasted image 20231010134507.png",
+    "Attached files/Pasted image 20231010134447.png",
+    "Attached files/Pasted image 20231010134432.png",
+    "Attached files/Pasted image 20231010134016.png",
     "전공 공부/자바기반응용프로그래밍/6주차.md",
-    "Attached files/Pasted image 20231009232036.png",
-    "Attached files/Pasted image 20231009230822.png",
     "전공 공부/자바기반응용프로그래밍/5주차.md",
     "전공 공부/자바기반응용프로그래밍/4주차.md",
     "전공 공부/자바기반응용프로그래밍/3주차.md",
