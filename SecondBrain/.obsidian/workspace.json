@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "전공 공부/자바기반응용프로그래밍/6주차.md",
+                "file": "전공 공부/자바기반응용프로그래밍/7주차.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "feabab388e8825fc",
@@ -86,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "전공 공부/자바기반응용프로그래밍/6주차.md",
+                "file": "전공 공부/자바기반응용프로그래밍/7주차.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "전공 공부/자바기반응용프로그래밍/6주차.md",
+                "file": "전공 공부/자바기반응용프로그래밍/7주차.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "전공 공부/자바기반응용프로그래밍/6주차.md"
+                "file": "전공 공부/자바기반응용프로그래밍/7주차.md"
               }
             }
           },
@@ -167,8 +166,11 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "77e0b92a051c28ac",
+  "active": "c93482f2eb7af1ab",
   "lastOpenFiles": [
+    "Attached files/Pasted image 20231010132912.png",
+    "전공 공부/자바기반응용프로그래밍/7주차.md",
+    "전공 공부/자바기반응용프로그래밍/6주차.md",
     "Attached files/Pasted image 20231009232036.png",
     "Attached files/Pasted image 20231009230822.png",
     "Attached files/Pasted image 20231009230759.png",
@@ -178,10 +180,7 @@
     "Attached files/Pasted image 20231009230402.png",
     "Attached files/Pasted image 20231009230248.png",
     "Attached files/Pasted image 20231009224004.png",
-    "Attached files/Pasted image 20231009223656.png",
-    "Attached files/Pasted image 20231009223611.png",
     "전공 공부/자바기반응용프로그래밍/5주차.md",
-    "전공 공부/자바기반응용프로그래밍/6주차.md",
     "전공 공부/자바기반응용프로그래밍/4주차.md",
     "전공 공부/자바기반응용프로그래밍/3주차.md",
     "전공 공부/자바기반응용프로그래밍/2주차.md",
@@ -205,7 +204,6 @@
     "포트폴리오.md",
     "네트워크/HTTP/프론트와 백엔드의 쿠키 공유.md",
     "네트워크/HTTP/CORS.md",
-    "네트워크/HTTP/CSRF.md",
     "전공 공부/전자상거래",
     "Spring/SQL/SQL 문제/3단계",
     "Spring/SQL/SQL 문제/2단계",
