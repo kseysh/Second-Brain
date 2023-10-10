@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "전공 공부/자바기반응용프로그래밍/7주차.md",
+                "file": "전공 공부/시스템 프로그래밍/Information Storage.md",
                 "mode": "source",
                 "source": false
               }
@@ -22,16 +22,16 @@
         ]
       },
       {
-        "id": "430063b50692c314",
+        "id": "7252390d6b045696",
         "type": "tabs",
         "children": [
           {
-            "id": "35786de9ab94f1e5",
+            "id": "6868480e39804634",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "전공 공부/자바기반응용프로그래밍/공부.md",
+                "file": "전공 공부/시스템 프로그래밍/시프 공부.md",
                 "mode": "source",
                 "source": false
               }
@@ -103,7 +103,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "전공 공부/자바기반응용프로그래밍/7주차.md",
+                "file": "전공 공부/시스템 프로그래밍/Information Storage.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -120,7 +120,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "전공 공부/자바기반응용프로그래밍/7주차.md",
+                "file": "전공 공부/시스템 프로그래밍/Information Storage.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -143,7 +143,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "전공 공부/자바기반응용프로그래밍/7주차.md"
+                "file": "전공 공부/시스템 프로그래밍/Information Storage.md"
               }
             }
           },
@@ -186,8 +186,12 @@
   },
   "active": "c93482f2eb7af1ab",
   "lastOpenFiles": [
-    "전공 공부/자바기반응용프로그래밍/공부.md",
+    "전공 공부/시스템 프로그래밍/시프 공부.md",
+    "전공 공부/시스템 프로그래밍/Information Storage.md",
+    "전공 공부/시스템 프로그래밍/시스템 프로그래밍 들어가기 전.md",
+    "전공 공부/시스템 프로그래밍/C Basics.md",
     "전공 공부/자바기반응용프로그래밍/7주차.md",
+    "전공 공부/자바기반응용프로그래밍/공부.md",
     "전공 공부/자바기반응용프로그래밍/6주차.md",
     "전공 공부/자바기반응용프로그래밍/5주차.md",
     "전공 공부/자바기반응용프로그래밍/2주차.md",
@@ -219,9 +223,6 @@
     "Django/RESTful API.md",
     "네트워크/HTTP/서버 인증의 종류.md",
     "블로깅을 하는 방법.md",
-    "나중에 더 공부할 내용.md",
-    "포트폴리오.md",
-    "네트워크/HTTP/프론트와 백엔드의 쿠키 공유.md",
     "전공 공부/전자상거래",
     "Spring/SQL/SQL 문제/3단계",
     "Spring/SQL/SQL 문제/2단계",

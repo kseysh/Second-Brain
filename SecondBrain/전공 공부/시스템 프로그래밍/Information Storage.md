@@ -27,7 +27,6 @@ EX)
 
 ### Left shift : x << y
 왼쪽으로 shift하게 되면 오른쪽에 빈공간이 생기고, 빈공간에는  0이 채워지게 된다.
-
 ### Right shift : x>> y
 
 #### Logical shift
