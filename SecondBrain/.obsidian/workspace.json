@@ -14,7 +14,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "전공 공부/시스템 프로그래밍/Integer Arithmetic.md",
+                "file": "전공 공부/시스템 프로그래밍/Condition Codes.md",
                 "mode": "source",
                 "source": false
               }
@@ -89,8 +89,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "feabab388e8825fc",
@@ -106,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "전공 공부/시스템 프로그래밍/Integer Arithmetic.md",
+                "file": "전공 공부/시스템 프로그래밍/시프 공부.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "전공 공부/시스템 프로그래밍/Integer Arithmetic.md",
+                "file": "전공 공부/시스템 프로그래밍/시프 공부.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +145,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "전공 공부/시스템 프로그래밍/Integer Arithmetic.md"
+                "file": "전공 공부/시스템 프로그래밍/시프 공부.md"
               }
             }
           },
@@ -187,9 +186,11 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "c93482f2eb7af1ab",
+  "active": "6868480e39804634",
   "lastOpenFiles": [
+    "전공 공부/시스템 프로그래밍/Representations in memory.md",
     "전공 공부/시스템 프로그래밍/시프 공부.md",
+    "전공 공부/시스템 프로그래밍/Condition Codes.md",
     "전공 공부/시스템 프로그래밍/Integer Arithmetic.md",
     "전공 공부/시스템 프로그래밍/Information Storage.md",
     "Attached files/Pasted image 20231010161458.png",
@@ -224,8 +225,6 @@
     "Spring/IOC.md",
     "Spring/POJO.md",
     "NFT.md",
-    "Django/RESTful API.md",
-    "네트워크/HTTP/서버 인증의 종류.md",
     "전공 공부/전자상거래",
     "Spring/SQL/SQL 문제/3단계",
     "Spring/SQL/SQL 문제/2단계",
