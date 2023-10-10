@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "전공 공부/시스템 프로그래밍/6. Integer Arithmetic.md",
+                "file": "전공 공부/시스템 프로그래밍/5. Floating point.md",
                 "mode": "source",
                 "source": false
               }
@@ -87,8 +87,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "feabab388e8825fc",
@@ -104,7 +103,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "전공 공부/시스템 프로그래밍/6. Integer Arithmetic.md",
+                "file": "전공 공부/시스템 프로그래밍/5. Floating point.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -121,7 +120,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "전공 공부/시스템 프로그래밍/6. Integer Arithmetic.md",
+                "file": "전공 공부/시스템 프로그래밍/5. Floating point.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -144,7 +143,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "전공 공부/시스템 프로그래밍/6. Integer Arithmetic.md"
+                "file": "전공 공부/시스템 프로그래밍/5. Floating point.md"
               }
             }
           },
@@ -187,8 +186,8 @@
   },
   "active": "c93482f2eb7af1ab",
   "lastOpenFiles": [
-    "전공 공부/시스템 프로그래밍/5. Floating point.md",
     "전공 공부/시스템 프로그래밍/6. Integer Arithmetic.md",
+    "전공 공부/시스템 프로그래밍/5. Floating point.md",
     "전공 공부/시스템 프로그래밍/시프 공부.md",
     "전공 공부/시스템 프로그래밍/4. Arithmetic & Logical Operations.md",
     "전공 공부/시스템 프로그래밍/3. Registers, Operands, Move.md",
