@@ -31,9 +31,10 @@ EX)
 
 #### Logical shift
 오른쪽으로 shift하게 되면 왼쪽에 빈공간이 생기고, 빈공간에는 0이 채워진다.
+부호 없는 정수 연산에서 사용
 #### Arithmetic shift
 가장 왼쪽에 있는 bit(최상위 bit)를 복사해서 채워넣는다.
-
+부호있는 정수 연산에서 주로 사용
 ex) 
 ![[Pasted image 20230924123338.png]]
 ![[Pasted image 20230924123258.png]]
@@ -80,8 +81,7 @@ Unsigned로 해석하던 것을 Signed로 해석하겠다라는 의미
 
 ### Signed와 Unsigned의 계산
 signed 값과 unsigned 값을 계산하기 위해서는 signed값이 unsigned 값으로 임시적 캐스팅이 된다.
-
-ex) 
+ex)
 ![[Pasted image 20230924132203.png]]
 
 > unsigned와 signed의 계산을 할 시, Bit pattern은 유지되며, 해석만 달리한다. 
@@ -99,10 +99,8 @@ ex)
 ![[Pasted image 20230925124506.png]]
 ## Unsigned Extension
 앞의 값에 0을 채우면 전체 숫자가 동일해진다.
-
 ## Truncating
 Unsigned : mod 연산과 비슷하다.
 
 Signed : mod 연산과 비슷하지만, 원래 최상위 bit가 0이었지만, Truncating 이후 최상위 bit가 1이면 값이 달라질 수도 있다 (양수 -> 음수 or 음수 -> 양수).
-
 ### Truncating Example
