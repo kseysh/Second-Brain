@@ -106,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "전공 공부/시스템 프로그래밍/시프 공부.md",
+                "file": "전공 공부/시스템 프로그래밍/Integer Arithmetic.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "전공 공부/시스템 프로그래밍/시프 공부.md",
+                "file": "전공 공부/시스템 프로그래밍/Integer Arithmetic.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "전공 공부/시스템 프로그래밍/시프 공부.md"
+                "file": "전공 공부/시스템 프로그래밍/Integer Arithmetic.md"
               }
             }
           },
@@ -187,10 +187,10 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "6868480e39804634",
+  "active": "c93482f2eb7af1ab",
   "lastOpenFiles": [
-    "전공 공부/시스템 프로그래밍/Integer Arithmetic.md",
     "전공 공부/시스템 프로그래밍/시프 공부.md",
+    "전공 공부/시스템 프로그래밍/Integer Arithmetic.md",
     "전공 공부/시스템 프로그래밍/Information Storage.md",
     "Attached files/Pasted image 20231010161458.png",
     "전공 공부/시스템 프로그래밍/시스템 프로그래밍 들어가기 전.md",
