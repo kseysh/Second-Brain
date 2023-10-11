@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "전공 공부/오픈소스응용프로그래밍/도커 파일과 깃허브를 이용한 파일 공유.md",
+                "file": "전공 공부/오픈소스응용프로그래밍/소프트웨어 공학의 필요성.md",
                 "mode": "source",
                 "source": false
               }
@@ -104,7 +104,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "전공 공부/오픈소스응용프로그래밍/오픈소스응용공부.md",
+                "file": "전공 공부/오픈소스응용프로그래밍/소프트웨어 공학의 필요성.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -121,7 +121,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "전공 공부/오픈소스응용프로그래밍/오픈소스응용공부.md",
+                "file": "전공 공부/오픈소스응용프로그래밍/소프트웨어 공학의 필요성.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -144,7 +144,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "전공 공부/오픈소스응용프로그래밍/오픈소스응용공부.md"
+                "file": "전공 공부/오픈소스응용프로그래밍/소프트웨어 공학의 필요성.md"
               }
             }
           },
@@ -185,10 +185,11 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "63bc1677de8ae66d",
+  "active": "d3af4b7fed28f04c",
   "lastOpenFiles": [
-    "전공 공부/오픈소스응용프로그래밍/도커 파일과 깃허브를 이용한 파일 공유.md",
     "전공 공부/오픈소스응용프로그래밍/오픈소스응용공부.md",
+    "전공 공부/오픈소스응용프로그래밍/소프트웨어 공학의 필요성.md",
+    "전공 공부/오픈소스응용프로그래밍/도커 파일과 깃허브를 이용한 파일 공유.md",
     "전공 공부/오픈소스응용프로그래밍/도커 컨테이너 명령어와 볼륨.md",
     "전공 공부/오픈소스응용프로그래밍/도커 아키텍처와 이미지 명령어.md",
     "전공 공부/오픈소스응용프로그래밍/도커와 이미지, 컨테이너.md",
@@ -215,7 +216,6 @@
     "전공 공부/자바기반응용프로그래밍/6주차.md",
     "전공 공부/자바기반응용프로그래밍/5주차.md",
     "전공 공부/자바기반응용프로그래밍/2주차.md",
-    "전공 공부/자바기반응용프로그래밍/4주차.md",
     "Attached files/Pasted image 20231010135534.png",
     "Attached files/Pasted image 20231010134959.png",
     "Attached files/Pasted image 20231010134908.png",
