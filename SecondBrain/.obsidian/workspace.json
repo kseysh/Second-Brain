@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "전공 공부/오픈소스응용프로그래밍/C++ 스타일 가이드.md",
+                "file": "전공 공부/오픈소스응용프로그래밍/디자인 패턴 개요, 객체지향개발 특성, 객체지향설계 원칙.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "feabab388e8825fc",
@@ -86,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "전공 공부/오픈소스응용프로그래밍/C++ 스타일 가이드.md",
+                "file": "전공 공부/오픈소스응용프로그래밍/디자인 패턴 개요, 객체지향개발 특성, 객체지향설계 원칙.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "전공 공부/오픈소스응용프로그래밍/C++ 스타일 가이드.md",
+                "file": "전공 공부/오픈소스응용프로그래밍/디자인 패턴 개요, 객체지향개발 특성, 객체지향설계 원칙.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "전공 공부/오픈소스응용프로그래밍/C++ 스타일 가이드.md"
+                "file": "전공 공부/오픈소스응용프로그래밍/디자인 패턴 개요, 객체지향개발 특성, 객체지향설계 원칙.md"
               }
             }
           },
@@ -169,8 +168,8 @@
   },
   "active": "d3af4b7fed28f04c",
   "lastOpenFiles": [
-    "전공 공부/오픈소스응용프로그래밍/디자인 패턴 개요, 객체지향개발 특성, 객체지향설계 원칙.md",
     "전공 공부/오픈소스응용프로그래밍/C++ 스타일 가이드.md",
+    "전공 공부/오픈소스응용프로그래밍/디자인 패턴 개요, 객체지향개발 특성, 객체지향설계 원칙.md",
     "Attached files/Pasted image 20231011192916.png",
     "Attached files/Pasted image 20231011192856.png",
     "Attached files/Pasted image 20231011192805.png",
