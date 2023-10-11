@@ -69,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "feabab388e8825fc",
@@ -168,8 +169,9 @@
   },
   "active": "d3af4b7fed28f04c",
   "lastOpenFiles": [
-    "전공 공부/오픈소스응용프로그래밍/C++ 스타일 가이드.md",
+    "전공 공부/오픈소스응용프로그래밍/오픈소스응용공부.md",
     "전공 공부/오픈소스응용프로그래밍/디자인 패턴 개요, 객체지향개발 특성, 객체지향설계 원칙.md",
+    "전공 공부/오픈소스응용프로그래밍/C++ 스타일 가이드.md",
     "Attached files/Pasted image 20231011192916.png",
     "Attached files/Pasted image 20231011192856.png",
     "Attached files/Pasted image 20231011192805.png",
@@ -185,7 +187,6 @@
     "Attached files/Pasted image 20231011150508.png",
     "Attached files/Pasted image 20231011150300.png",
     "전공 공부/오픈소스응용프로그래밍/코드 리뷰.md",
-    "전공 공부/오픈소스응용프로그래밍/오픈소스응용공부.md",
     "전공 공부/오픈소스응용프로그래밍/스타일 가이드.md",
     "전공 공부/오픈소스응용프로그래밍/소프트웨어 공학 및 개발론 개요.md",
     "전공 공부/오픈소스응용프로그래밍/소프트웨어 공학의 필요성.md",
