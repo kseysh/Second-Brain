@@ -13,7 +13,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "전공 공부/오픈소스응용프로그래밍/디자인 패턴 개요, 객체지향개발 특성, 객체지향설계 원칙.md",
+                "file": "전공 공부/오픈소스응용프로그래밍/객체지향개발 특성.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "f084b9ff56caf777",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Develop/개발 원칙/객체 지향 프로그래밍/추상화.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "전공 공부/오픈소스응용프로그래밍/디자인 패턴 개요, 객체지향개발 특성, 객체지향설계 원칙.md",
+                "file": "전공 공부/오픈소스응용프로그래밍/객체지향개발 특성.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "전공 공부/오픈소스응용프로그래밍/디자인 패턴 개요, 객체지향개발 특성, 객체지향설계 원칙.md",
+                "file": "전공 공부/오픈소스응용프로그래밍/객체지향개발 특성.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "전공 공부/오픈소스응용프로그래밍/디자인 패턴 개요, 객체지향개발 특성, 객체지향설계 원칙.md"
+                "file": "전공 공부/오픈소스응용프로그래밍/객체지향개발 특성.md"
               }
             }
           },
@@ -169,8 +181,11 @@
   },
   "active": "d3af4b7fed28f04c",
   "lastOpenFiles": [
+    "Develop/개발 원칙/객체 지향 프로그래밍/추상화.md",
+    "전공 공부/오픈소스응용프로그래밍/객체지향개발 특성.md",
+    "전공 공부/오픈소스응용프로그래밍/객체지향설계 원칙.md",
+    "전공 공부/오픈소스응용프로그래밍/디자인 패턴 개요.md",
     "전공 공부/오픈소스응용프로그래밍/오픈소스응용공부.md",
-    "전공 공부/오픈소스응용프로그래밍/디자인 패턴 개요, 객체지향개발 특성, 객체지향설계 원칙.md",
     "전공 공부/오픈소스응용프로그래밍/C++ 스타일 가이드.md",
     "Attached files/Pasted image 20231011192916.png",
     "Attached files/Pasted image 20231011192856.png",
@@ -202,9 +217,6 @@
     "전공 공부/시스템 프로그래밍/6. Integer Arithmetic.md",
     "전공 공부/시스템 프로그래밍/5. Floating point.md",
     "전공 공부/시스템 프로그래밍/4. Arithmetic & Logical Operations.md",
-    "전공 공부/시스템 프로그래밍/3. Registers, Operands, Move.md",
-    "전공 공부/시스템 프로그래밍/7. Representations in memory.md",
-    "전공 공부/시스템 프로그래밍/1. Information Storage.md",
     "전공 공부/자바기반응용프로그래밍",
     "전공 공부/전자상거래",
     "Spring/SQL/SQL 문제/3단계",
