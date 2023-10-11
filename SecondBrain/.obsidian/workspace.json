@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "전공 공부/시스템 프로그래밍/Calling Conventions- Passing Control.md",
+                "file": "전공 공부/오픈소스응용프로그래밍/C++ 스타일 가이드.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "feabab388e8825fc",
@@ -85,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "전공 공부/시스템 프로그래밍/Calling Conventions- Passing Control.md",
+                "file": "전공 공부/오픈소스응용프로그래밍/C++ 스타일 가이드.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "전공 공부/시스템 프로그래밍/Calling Conventions- Passing Control.md",
+                "file": "전공 공부/오픈소스응용프로그래밍/C++ 스타일 가이드.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "전공 공부/시스템 프로그래밍/Calling Conventions- Passing Control.md"
+                "file": "전공 공부/오픈소스응용프로그래밍/C++ 스타일 가이드.md"
               }
             }
           },
@@ -168,8 +169,8 @@
   },
   "active": "d3af4b7fed28f04c",
   "lastOpenFiles": [
-    "전공 공부/시스템 프로그래밍/Machine-Level Programming - Procedures.md",
     "전공 공부/시스템 프로그래밍/Calling Conventions- Passing Control.md",
+    "전공 공부/시스템 프로그래밍/Machine-Level Programming - Procedures.md",
     "전공 공부/시스템 프로그래밍/9. Conditional branches.md",
     "전공 공부/시스템 프로그래밍/무제 파일.md",
     "전공 공부/오픈소스응용프로그래밍/C++ 스타일 가이드.md",
