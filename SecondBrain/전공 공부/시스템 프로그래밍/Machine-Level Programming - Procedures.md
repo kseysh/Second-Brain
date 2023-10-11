@@ -10,3 +10,11 @@ return 전에 할당된 배열을 취소 해주어야 한다.
 # Stack Structure
 stack의 top이 낮은 주소, stack의 Bottom이 높은 주소를 갖는다.
 top의 주소를 항상 %rsp라는 곳에 저장한다.
+
+## push Src
+source에 있는 값을 stack에 넣는다.
+%rsp에 있는 값을 8 감소시킨다 (stack의 주소가 낮아져야 하기 때문)
+
+## popq Dest
+%rsp에 있는 값을 읽는다.
+%rsp가 8 증가한다.
