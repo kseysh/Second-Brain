@@ -40,4 +40,4 @@ ex)
 ![[Pasted image 20231011150516.png]]
 
 ## 접근 제어
-private, get,set
+private, get,set 
