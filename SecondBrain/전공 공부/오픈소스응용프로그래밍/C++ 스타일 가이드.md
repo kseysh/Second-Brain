@@ -32,3 +32,12 @@ ex ) google-awesome-project/src/base/logging.h 는 이와 같이 \#include 되�
 # 생성자
 생성자에서 복잡한 초기화 작업을 하는 것을 피하라.
 생성자에서의 초기화는 initializer list를 활용
+![[Pasted image 20231011150300.png]]
+
+만약 클래스가 사용자 정의 소멸자, 사용자 정의 복사 생성자 또는 사용자 정의 대입 연산자 중 하나를 필요로 한다면, 거의 확실히 이 세 가지 모두를 필요로 할 것이다. 따라서, 셋 중 하나가 필요한 경우 나머지 둘도 작성해라. 만약 이 상황에서 사용자 정의 복사 생성자와 사용자 정의 대입 연산자가 필요 없다면 DISALLOW_COPY_AND_ASSIGN 로 그들을 쓸 수 없게 하라
+ex)
+![[Pasted image 20231011150508.png]]
+![[Pasted image 20231011150516.png]]
+
+## 접근 제어
+private, get,set
