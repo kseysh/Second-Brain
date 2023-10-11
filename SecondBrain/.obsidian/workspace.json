@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "전공 공부/오픈소스응용프로그래밍/객체지향개발 특성.md",
+                "file": "전공 공부/오픈소스응용프로그래밍/C++ 스타일 가이드.md",
                 "mode": "source",
                 "source": false
               }
@@ -81,8 +81,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "feabab388e8825fc",
@@ -98,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "전공 공부/오픈소스응용프로그래밍/객체지향개발 특성.md",
+                "file": "전공 공부/오픈소스응용프로그래밍/C++ 스타일 가이드.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "전공 공부/오픈소스응용프로그래밍/객체지향개발 특성.md",
+                "file": "전공 공부/오픈소스응용프로그래밍/C++ 스타일 가이드.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "전공 공부/오픈소스응용프로그래밍/객체지향개발 특성.md"
+                "file": "전공 공부/오픈소스응용프로그래밍/C++ 스타일 가이드.md"
               }
             }
           },
@@ -181,8 +180,9 @@
   },
   "active": "d3af4b7fed28f04c",
   "lastOpenFiles": [
-    "Develop/개발 원칙/객체 지향 프로그래밍/추상화.md",
     "전공 공부/오픈소스응용프로그래밍/객체지향개발 특성.md",
+    "Develop/개발 원칙/객체 지향 프로그래밍/캡슐화.md",
+    "Develop/개발 원칙/객체 지향 프로그래밍/추상화.md",
     "전공 공부/오픈소스응용프로그래밍/객체지향설계 원칙.md",
     "전공 공부/오픈소스응용프로그래밍/디자인 패턴 개요.md",
     "전공 공부/오픈소스응용프로그래밍/오픈소스응용공부.md",
@@ -216,7 +216,6 @@
     "전공 공부/시스템 프로그래밍/2. C, assembly, machince code.md",
     "전공 공부/시스템 프로그래밍/6. Integer Arithmetic.md",
     "전공 공부/시스템 프로그래밍/5. Floating point.md",
-    "전공 공부/시스템 프로그래밍/4. Arithmetic & Logical Operations.md",
     "전공 공부/자바기반응용프로그래밍",
     "전공 공부/전자상거래",
     "Spring/SQL/SQL 문제/3단계",
