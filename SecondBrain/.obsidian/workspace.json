@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "전공 공부/오픈소스응용프로그래밍/도커 아키텍처와 이미지 명령어.md",
+                "file": "전공 공부/오픈소스응용프로그래밍/도커 컨테이너 명령어와 볼륨.md",
                 "mode": "source",
                 "source": false
               }
@@ -103,7 +103,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "전공 공부/오픈소스응용프로그래밍/도커 아키텍처와 이미지 명령어.md",
+                "file": "전공 공부/오픈소스응용프로그래밍/도커 컨테이너 명령어와 볼륨.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -120,7 +120,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "전공 공부/오픈소스응용프로그래밍/도커 아키텍처와 이미지 명령어.md",
+                "file": "전공 공부/오픈소스응용프로그래밍/도커 컨테이너 명령어와 볼륨.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -143,7 +143,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "전공 공부/오픈소스응용프로그래밍/도커 아키텍처와 이미지 명령어.md"
+                "file": "전공 공부/오픈소스응용프로그래밍/도커 컨테이너 명령어와 볼륨.md"
               }
             }
           },
@@ -187,6 +187,7 @@
   "active": "d3af4b7fed28f04c",
   "lastOpenFiles": [
     "전공 공부/오픈소스응용프로그래밍/오픈소스응용공부.md",
+    "전공 공부/오픈소스응용프로그래밍/도커 컨테이너 명령어와 볼륨.md",
     "전공 공부/오픈소스응용프로그래밍/도커 아키텍처와 이미지 명령어.md",
     "전공 공부/오픈소스응용프로그래밍/도커와 이미지, 컨테이너.md",
     "전공 공부/오픈소스응용프로그래밍/Git.md",
@@ -221,7 +222,6 @@
     "Attached files/Pasted image 20231010134634.png",
     "Attached files/Pasted image 20231010134545.png",
     "Attached files/Pasted image 20231010134526.png",
-    "Obsidian/간단한 기호들.md",
     "전공 공부/자바기반응용프로그래밍",
     "전공 공부/전자상거래",
     "Spring/SQL/SQL 문제/3단계",
