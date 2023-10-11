@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "전공 공부/시스템 프로그래밍/9. Conditional branches.md",
+                "file": "전공 공부/시스템 프로그래밍/Machine-Level Programming - Procedures.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "전공 공부/시스템 프로그래밍/9. Conditional branches.md",
+                "file": "전공 공부/시스템 프로그래밍/Machine-Level Programming - Procedures.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "전공 공부/시스템 프로그래밍/9. Conditional branches.md",
+                "file": "전공 공부/시스템 프로그래밍/Machine-Level Programming - Procedures.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "전공 공부/시스템 프로그래밍/9. Conditional branches.md"
+                "file": "전공 공부/시스템 프로그래밍/Machine-Level Programming - Procedures.md"
               }
             }
           },
@@ -168,6 +168,8 @@
   },
   "active": "d3af4b7fed28f04c",
   "lastOpenFiles": [
+    "전공 공부/시스템 프로그래밍/9. Conditional branches.md",
+    "전공 공부/시스템 프로그래밍/Machine-Level Programming - Procedures.md",
     "전공 공부/시스템 프로그래밍/무제 파일.md",
     "전공 공부/오픈소스응용프로그래밍/C++ 스타일 가이드.md",
     "Attached files/Pasted image 20231011150516.png",
@@ -188,7 +190,6 @@
     "전공 공부/오픈소스응용프로그래밍/도커와 이미지, 컨테이너.md",
     "전공 공부/오픈소스응용프로그래밍/Git.md",
     "전공 공부/오픈소스응용프로그래밍/오픈소스SW 및 라이선스.md",
-    "전공 공부/시스템 프로그래밍/9. Conditional branches.md",
     "전공 공부/시스템 프로그래밍/8. Condition Codes.md",
     "Attached files/Pasted image 20231005182908.png",
     "전공 공부/시스템 프로그래밍/시프 공부.md",
@@ -203,7 +204,6 @@
     "전공 공부/시스템 프로그래밍/C Basics.md",
     "Attached files/Pasted image 20231010161458.png",
     "전공 공부/시스템 프로그래밍/시스템 프로그래밍 들어가기 전.md",
-    "전공 공부/자바기반응용프로그래밍/7주차.md",
     "전공 공부/자바기반응용프로그래밍",
     "전공 공부/전자상거래",
     "Spring/SQL/SQL 문제/3단계",

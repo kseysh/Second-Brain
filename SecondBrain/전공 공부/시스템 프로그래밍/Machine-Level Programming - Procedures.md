@@ -1,0 +1,12 @@
+# Mechanisms in Procedures
+## Passing control
+함수가 return 되면, 함수를 호출했던 줄의 다음줄로 이동해야함
+## Passing data
+argument을 넣어주고, value를 return 한다.
+## Memory management
+실행 중 필요한 메모리를 할당한다.
+return 전에 할당된 배열을 취소 해주어야 한다.
+
+# Stack Structure
+stack의 top이 낮은 주소, stack의 Bottom이 높은 주소를 갖는다.
+top의 주소를 항상 %rsp라는 곳에 저장한다.
