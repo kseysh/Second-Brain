@@ -66,7 +66,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "~",
+                "query": "testq",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -83,7 +83,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -184,7 +185,7 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "c93482f2eb7af1ab",
+  "active": "98b99bcebe54855a",
   "lastOpenFiles": [
     "전공 공부/시스템 프로그래밍/8. Condition Codes.md",
     "전공 공부/시스템 프로그래밍/9. Conditional branches.md",
