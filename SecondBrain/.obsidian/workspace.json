@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Spring/DI.md",
+                "file": "SOPT 1주차 과제.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,8 +93,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "feabab388e8825fc",
@@ -110,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Spring/DI.md",
+                "file": "SOPT 1주차 과제.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +126,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Spring/DI.md",
+                "file": "SOPT 1주차 과제.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +149,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Spring/DI.md"
+                "file": "SOPT 1주차 과제.md"
               }
             }
           },
@@ -193,8 +192,11 @@
   },
   "active": "d3af4b7fed28f04c",
   "lastOpenFiles": [
-    "Spring/Spring의 각각의 의존성 주입 방법 특징 및 생성자 주입 방식의 장점.md",
+    "Spring/JAR vs WAR.md",
+    "Attached files/Pasted image 20231012151407.png",
     "SOPT 1주차 과제.md",
+    "Spring/DI.md",
+    "Spring/Spring의 각각의 의존성 주입 방법 특징 및 생성자 주입 방식의 장점.md",
     "JAVA/Generic.md",
     "Spring/싱글톤.md",
     "JAVA/자바의 정석/abstract.md",
@@ -220,15 +222,11 @@
     "Attached files/Pasted image 20231012111132.png",
     "Attached files/Pasted image 20231012111117.png",
     "Attached files/Pasted image 20231012105013.png",
-    "전공 공부/오픈소스응용프로그래밍/객체지향개발 특성.md",
-    "전공 공부/오픈소스응용프로그래밍/C++ 스타일 가이드.md",
-    "전공 공부/오픈소스응용프로그래밍/객체지향설계 원칙.md",
     "Attached files/Pasted image 20231012004502.png",
     "Attached files/Pasted image 20231012002436.png",
     "Attached files/Pasted image 20231012002217.png",
     "Attached files/Pasted image 20231012001913.png",
     "Attached files/Pasted image 20231012001756.png",
-    "Attached files/Pasted image 20231012000944.png",
     "전공 공부/자바기반응용프로그래밍",
     "전공 공부/전자상거래",
     "Spring/SQL/SQL 문제/3단계",
