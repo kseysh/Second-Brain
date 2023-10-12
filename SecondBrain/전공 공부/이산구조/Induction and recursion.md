@@ -39,4 +39,13 @@ recursive step을 만든다.
 ![[Pasted image 20231005100210.png]]
 Subset of Integers S: {3|s ∧ s ∈ z<sup>+</sup>}
 
-Strings까지 
+## Strings
+정의
+![[Pasted image 20231012222911.png]]
+
+만약, Σ = {a,b}이면, aab가 Σ\*안에 있는 것을 증명하라
+
+λ ∈ Σ* 이기 때문에 a ∈ Σ, a∈ Σ*
+a ∈ Σ* 이기 때문에 a ∈ Σ, aa∈ Σ*
+aa ∈ Σ* 이기 때문에 b ∈ Σ, aab ∈ Σ*
+이다.
