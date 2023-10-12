@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "전공 공부/오픈소스응용프로그래밍/객체지향개발 특성.md",
+                "file": "전공 공부/오픈소스응용프로그래밍/오픈소스응용공부.md",
                 "mode": "source",
                 "source": false
               }
@@ -26,6 +26,24 @@
               "type": "markdown",
               "state": {
                 "file": "Develop/개발 원칙/객체 지향 프로그래밍/추상화.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "a8eef21ba18148ec",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "801099b901167d08",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "전공 공부/오픈소스응용프로그래밍/객체지향개발 특성.md",
                 "mode": "source",
                 "source": false
               }
@@ -81,8 +99,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "feabab388e8825fc",
@@ -98,7 +115,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "전공 공부/오픈소스응용프로그래밍/객체지향개발 특성.md",
+                "file": "전공 공부/오픈소스응용프로그래밍/오픈소스응용공부.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +132,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "전공 공부/오픈소스응용프로그래밍/객체지향개발 특성.md",
+                "file": "전공 공부/오픈소스응용프로그래밍/오픈소스응용공부.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +155,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "전공 공부/오픈소스응용프로그래밍/객체지향개발 특성.md"
+                "file": "전공 공부/오픈소스응용프로그래밍/오픈소스응용공부.md"
               }
             }
           },
@@ -181,6 +198,11 @@
   },
   "active": "d3af4b7fed28f04c",
   "lastOpenFiles": [
+    "전공 공부/오픈소스응용프로그래밍/객체지향개발 특성.md",
+    "전공 공부/오픈소스응용프로그래밍/객체지향설계 원칙.md",
+    "전공 공부/오픈소스응용프로그래밍/디자인 패턴 개요.md",
+    "전공 공부/오픈소스응용프로그래밍/오픈소스응용공부.md",
+    "Attached files/Pasted image 20231012004502.png",
     "Attached files/Pasted image 20231012002436.png",
     "Attached files/Pasted image 20231012002217.png",
     "Attached files/Pasted image 20231012001913.png",
@@ -188,18 +210,12 @@
     "Attached files/Pasted image 20231012000944.png",
     "Attached files/Pasted image 20231012000929.png",
     "전공 공부/자바기반응용프로그래밍/공부.md",
-    "전공 공부/오픈소스응용프로그래밍/객체지향개발 특성.md",
     "전공 공부/오픈소스응용프로그래밍/C++ 스타일 가이드.md",
     "Develop/개발 원칙/객체 지향 프로그래밍/캡슐화.md",
     "Develop/개발 원칙/객체 지향 프로그래밍/추상화.md",
-    "전공 공부/오픈소스응용프로그래밍/객체지향설계 원칙.md",
-    "전공 공부/오픈소스응용프로그래밍/디자인 패턴 개요.md",
-    "전공 공부/오픈소스응용프로그래밍/오픈소스응용공부.md",
     "Attached files/Pasted image 20231011192916.png",
     "Attached files/Pasted image 20231011192856.png",
     "Attached files/Pasted image 20231011192805.png",
-    "Attached files/Pasted image 20231011192745.png",
-    "Attached files/Pasted image 20231011192728.png",
     "전공 공부/시스템 프로그래밍/Calling Conventions- Passing Control.md",
     "전공 공부/시스템 프로그래밍/Machine-Level Programming - Procedures.md",
     "전공 공부/시스템 프로그래밍/9. Conditional branches.md",
