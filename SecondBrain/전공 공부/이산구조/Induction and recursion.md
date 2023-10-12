@@ -49,3 +49,4 @@ Subset of Integers S: {3|s ∧ s ∈ z<sup>+</sup>}
 a ∈ Σ* 이기 때문에 a ∈ Σ, aa∈ Σ*
 aa ∈ Σ* 이기 때문에 b ∈ Σ, aab ∈ Σ*
 이다.
+
