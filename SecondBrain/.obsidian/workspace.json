@@ -32,24 +32,6 @@
             }
           }
         ]
-      },
-      {
-        "id": "a8eef21ba18148ec",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "801099b901167d08",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "전공 공부/오픈소스응용프로그래밍/객체지향개발 특성.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          }
-        ]
       }
     ],
     "direction": "vertical"
