@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Spring/JPA/기본 키 매핑.md",
+                "file": "Spring/JPA/데이터 중심 설계의 문제점.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,8 +93,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "feabab388e8825fc",
@@ -110,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Spring/JPA/기본 키 매핑.md",
+                "file": "Spring/JPA/데이터 중심 설계의 문제점.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +126,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Spring/JPA/기본 키 매핑.md",
+                "file": "Spring/JPA/데이터 중심 설계의 문제점.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +149,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Spring/JPA/기본 키 매핑.md"
+                "file": "Spring/JPA/데이터 중심 설계의 문제점.md"
               }
             }
           },
@@ -193,6 +192,11 @@
   },
   "active": "d3af4b7fed28f04c",
   "lastOpenFiles": [
+    "Spring/JPA/기본 키 매핑.md",
+    "Spring/dto.md",
+    "Spring/JPA/필드와 컬럼 매핑.md",
+    "Spring/JPA/데이터 중심 설계의 문제점.md",
+    "Attached files/Pasted image 20231012205050.png",
     "Attached files/Pasted image 20231012202455.png",
     "Attached files/Pasted image 20231012202156.png",
     "Attached files/Pasted image 20231012202024.png",
@@ -202,11 +206,6 @@
     "Attached files/Pasted image 20231012201646.png",
     "Attached files/Pasted image 20231012201316.png",
     "Attached files/Pasted image 20231012201239.png",
-    "Spring/JPA/필드와 컬럼 매핑.md",
-    "Spring/JPA/기본 키 매핑.md",
-    "Attached files/Pasted image 20231012200843.png",
-    "Attached files/Pasted image 20231012200828.png",
-    "Spring/dto.md",
     "SOPT 1주차 과제.md",
     "Spring/JAR vs WAR.md",
     "Spring/DI.md",
@@ -228,7 +227,6 @@
     "전공 공부/오픈소스응용프로그래밍/오픈소스응용공부.md",
     "전공 공부/오픈소스응용프로그래밍/오픈소스SW 및 라이선스.md",
     "전공 공부/오픈소스응용프로그래밍/Git.md",
-    "전공 공부/오픈소스응용프로그래밍/코드 리뷰.md",
     "전공 공부/자바기반응용프로그래밍",
     "전공 공부/전자상거래",
     "Spring/SQL/SQL 문제/3단계",
