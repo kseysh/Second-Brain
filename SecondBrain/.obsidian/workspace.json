@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Spring/JPA/데이터 중심 설계의 문제점.md",
+                "file": "DB 스터디 2주차 과제.md",
                 "mode": "source",
                 "source": false
               }
@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Spring/dto.md",
+                "file": "Spring/JPA/기본 키 매핑.md",
                 "mode": "source",
                 "source": false
               }
@@ -97,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Spring/JPA/데이터 중심 설계의 문제점.md",
+                "file": "DB 스터디 2주차 과제.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Spring/JPA/데이터 중심 설계의 문제점.md",
+                "file": "DB 스터디 2주차 과제.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Spring/JPA/데이터 중심 설계의 문제점.md"
+                "file": "DB 스터디 2주차 과제.md"
               }
             }
           },
@@ -180,11 +180,14 @@
   },
   "active": "d3af4b7fed28f04c",
   "lastOpenFiles": [
-    "Spring/dto.md",
+    "Spring/JPA/기본 키 매핑.md",
     "DB 스터디 2주차 과제.md",
     "Spring/JPA/데이터 중심 설계의 문제점.md",
-    "Spring/JPA/기본 키 매핑.md",
     "Spring/JPA/필드와 컬럼 매핑.md",
+    "Spring/JPA/데이터베이스 스키마 자동 생성.md",
+    "Spring/JPA/DDL.md",
+    "Spring/dto.md",
+    "Spring/JAR vs WAR.md",
     "Attached files/Pasted image 20231012205050.png",
     "Attached files/Pasted image 20231012202455.png",
     "Attached files/Pasted image 20231012202156.png",
@@ -196,7 +199,6 @@
     "Attached files/Pasted image 20231012201316.png",
     "Attached files/Pasted image 20231012201239.png",
     "SOPT 1주차 과제.md",
-    "Spring/JAR vs WAR.md",
     "Spring/DI.md",
     "Spring/Spring의 각각의 의존성 주입 방법 특징 및 생성자 주입 방식의 장점.md",
     "JAVA/Generic.md",
@@ -214,8 +216,6 @@
     "전공 공부/자바기반응용프로그래밍/5주차.md",
     "전공 공부/오픈소스응용프로그래밍/디자인패턴 종류.md",
     "전공 공부/오픈소스응용프로그래밍/오픈소스응용공부.md",
-    "전공 공부/오픈소스응용프로그래밍/오픈소스SW 및 라이선스.md",
-    "전공 공부/오픈소스응용프로그래밍/Git.md",
     "전공 공부/자바기반응용프로그래밍",
     "전공 공부/전자상거래",
     "Spring/SQL/SQL 문제/3단계",
