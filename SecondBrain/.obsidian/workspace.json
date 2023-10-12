@@ -20,24 +20,12 @@
             }
           },
           {
-            "id": "310cdd54971c5cb7",
+            "id": "d70e86f1b5ff58f8",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "JAVA/자바의 정석/abstract.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "f084b9ff56caf777",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Develop/개발 원칙/객체 지향 프로그래밍/추상화.md",
+                "file": "Spring/dto.md",
                 "mode": "source",
                 "source": false
               }
@@ -192,10 +180,11 @@
   },
   "active": "d3af4b7fed28f04c",
   "lastOpenFiles": [
-    "Spring/JPA/기본 키 매핑.md",
     "Spring/dto.md",
-    "Spring/JPA/필드와 컬럼 매핑.md",
+    "DB 스터디 2주차 과제.md",
     "Spring/JPA/데이터 중심 설계의 문제점.md",
+    "Spring/JPA/기본 키 매핑.md",
+    "Spring/JPA/필드와 컬럼 매핑.md",
     "Attached files/Pasted image 20231012205050.png",
     "Attached files/Pasted image 20231012202455.png",
     "Attached files/Pasted image 20231012202156.png",
