@@ -13,7 +13,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SOPT 1주차 과제.md",
+                "file": "Spring/싱글톤.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "310cdd54971c5cb7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "JAVA/자바의 정석/abstract.md",
                 "mode": "source",
                 "source": false
               }
@@ -97,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SOPT 1주차 과제.md",
+                "file": "Spring/싱글톤.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +126,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SOPT 1주차 과제.md",
+                "file": "Spring/싱글톤.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +149,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SOPT 1주차 과제.md"
+                "file": "Spring/싱글톤.md"
               }
             }
           },
@@ -180,6 +192,9 @@
   },
   "active": "d3af4b7fed28f04c",
   "lastOpenFiles": [
+    "SOPT 1주차 과제.md",
+    "Spring/싱글톤.md",
+    "JAVA/자바의 정석/abstract.md",
     "JAVA/자바의 정석/제어자.md",
     "전공 공부/이산구조/1. Logic and Proofs.md",
     "전공 공부/자바기반응용프로그래밍/4주차.md",
@@ -213,9 +228,6 @@
     "Attached files/Pasted image 20231012001756.png",
     "Attached files/Pasted image 20231012000944.png",
     "Develop/개발 원칙/객체 지향 프로그래밍/추상화.md",
-    "전공 공부/시스템 프로그래밍/Calling Conventions- Passing Control.md",
-    "전공 공부/시스템 프로그래밍/Machine-Level Programming - Procedures.md",
-    "전공 공부/시스템 프로그래밍/9. Conditional branches.md",
     "전공 공부/자바기반응용프로그래밍",
     "전공 공부/전자상거래",
     "Spring/SQL/SQL 문제/3단계",
