@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Spring/싱글톤.md",
+                "file": "JAVA/Generic.md",
                 "mode": "source",
                 "source": false
               }
@@ -72,7 +72,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "캡슐",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -109,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Spring/싱글톤.md",
+                "file": "JAVA/Generic.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,7 +126,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Spring/싱글톤.md",
+                "file": "JAVA/Generic.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -149,7 +149,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Spring/싱글톤.md"
+                "file": "JAVA/Generic.md"
               }
             }
           },
@@ -193,6 +193,7 @@
   "active": "d3af4b7fed28f04c",
   "lastOpenFiles": [
     "SOPT 1주차 과제.md",
+    "JAVA/Generic.md",
     "Spring/싱글톤.md",
     "JAVA/자바의 정석/abstract.md",
     "JAVA/자바의 정석/제어자.md",
@@ -227,7 +228,6 @@
     "Attached files/Pasted image 20231012001913.png",
     "Attached files/Pasted image 20231012001756.png",
     "Attached files/Pasted image 20231012000944.png",
-    "Develop/개발 원칙/객체 지향 프로그래밍/추상화.md",
     "전공 공부/자바기반응용프로그래밍",
     "전공 공부/전자상거래",
     "Spring/SQL/SQL 문제/3단계",
