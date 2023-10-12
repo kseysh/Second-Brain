@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Spring/JPA/필드와 컬럼 매핑.md",
+                "file": "Spring/JPA/기본 키 매핑.md",
                 "mode": "source",
                 "source": false
               }
@@ -109,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Spring/JPA/필드와 컬럼 매핑.md",
+                "file": "Spring/JPA/기본 키 매핑.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,7 +126,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Spring/JPA/필드와 컬럼 매핑.md",
+                "file": "Spring/JPA/기본 키 매핑.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -149,7 +149,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Spring/JPA/필드와 컬럼 매핑.md"
+                "file": "Spring/JPA/기본 키 매핑.md"
               }
             }
           },
@@ -192,10 +192,15 @@
   },
   "active": "d3af4b7fed28f04c",
   "lastOpenFiles": [
+    "Attached files/Pasted image 20231012201316.png",
+    "Attached files/Pasted image 20231012201239.png",
+    "Spring/JPA/필드와 컬럼 매핑.md",
+    "Spring/JPA/기본 키 매핑.md",
+    "Attached files/Pasted image 20231012200843.png",
+    "Attached files/Pasted image 20231012200828.png",
     "Attached files/Pasted image 20231012200320.png",
     "Attached files/Pasted image 20231012200107.png",
     "Spring/dto.md",
-    "Spring/JPA/필드와 컬럼 매핑.md",
     "SOPT 1주차 과제.md",
     "Spring/JAR vs WAR.md",
     "Attached files/Pasted image 20231012151407.png",
@@ -219,15 +224,10 @@
     "전공 공부/오픈소스응용프로그래밍/오픈소스SW 및 라이선스.md",
     "전공 공부/오픈소스응용프로그래밍/Git.md",
     "전공 공부/오픈소스응용프로그래밍/코드 리뷰.md",
-    "전공 공부/오픈소스응용프로그래밍/스타일 가이드.md",
     "Attached files/Pasted image 20231012111156.png",
     "Attached files/Pasted image 20231012111132.png",
     "Attached files/Pasted image 20231012111117.png",
     "Attached files/Pasted image 20231012105013.png",
-    "Attached files/Pasted image 20231012004502.png",
-    "Attached files/Pasted image 20231012002436.png",
-    "Attached files/Pasted image 20231012002217.png",
-    "Attached files/Pasted image 20231012001913.png",
     "전공 공부/자바기반응용프로그래밍",
     "전공 공부/전자상거래",
     "Spring/SQL/SQL 문제/3단계",
