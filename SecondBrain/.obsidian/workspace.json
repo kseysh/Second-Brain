@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DB 스터디 2주차 과제.md",
+                "file": "전공 공부/이산구조/Induction and recursion.md",
                 "mode": "source",
                 "source": false
               }
@@ -81,7 +81,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "feabab388e8825fc",
@@ -97,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DB 스터디 2주차 과제.md",
+                "file": "전공 공부/이산구조/Induction and recursion.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "DB 스터디 2주차 과제.md",
+                "file": "전공 공부/이산구조/Induction and recursion.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DB 스터디 2주차 과제.md"
+                "file": "전공 공부/이산구조/Induction and recursion.md"
               }
             }
           },
@@ -180,8 +181,9 @@
   },
   "active": "d3af4b7fed28f04c",
   "lastOpenFiles": [
-    "Spring/JPA/기본 키 매핑.md",
+    "전공 공부/이산구조/The Basics of Counting.md",
     "DB 스터디 2주차 과제.md",
+    "Spring/JPA/기본 키 매핑.md",
     "Spring/JPA/데이터 중심 설계의 문제점.md",
     "Spring/JPA/필드와 컬럼 매핑.md",
     "Spring/JPA/데이터베이스 스키마 자동 생성.md",
@@ -215,7 +217,6 @@
     "전공 공부/자바기반응용프로그래밍/공부.md",
     "전공 공부/자바기반응용프로그래밍/5주차.md",
     "전공 공부/오픈소스응용프로그래밍/디자인패턴 종류.md",
-    "전공 공부/오픈소스응용프로그래밍/오픈소스응용공부.md",
     "전공 공부/자바기반응용프로그래밍",
     "전공 공부/전자상거래",
     "Spring/SQL/SQL 문제/3단계",
