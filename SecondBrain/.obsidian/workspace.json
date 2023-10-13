@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "전공 공부/자바기반응용프로그래밍/6주차.md",
+                "file": "전공 공부/자바기반응용프로그래밍/7주차.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "feabab388e8825fc",
@@ -86,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "전공 공부/자바기반응용프로그래밍/6주차.md",
+                "file": "전공 공부/자바기반응용프로그래밍/7주차.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "전공 공부/자바기반응용프로그래밍/6주차.md",
+                "file": "전공 공부/자바기반응용프로그래밍/7주차.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "전공 공부/자바기반응용프로그래밍/6주차.md"
+                "file": "전공 공부/자바기반응용프로그래밍/7주차.md"
               }
             }
           },
@@ -169,8 +168,8 @@
   },
   "active": "d70e86f1b5ff58f8",
   "lastOpenFiles": [
-    "IDEA/아이디어 폴더/서비스 아이디어.md",
     "전공 공부/자바기반응용프로그래밍/6주차.md",
+    "IDEA/아이디어 폴더/서비스 아이디어.md",
     "ERROR_Diary/GIT/미해결 - there isn’t anything to compare.md",
     "Attached files/Pasted image 20231013111747.png",
     "ERROR_Diary/GIT",
