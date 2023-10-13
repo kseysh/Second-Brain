@@ -69,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "feabab388e8825fc",
@@ -169,6 +168,10 @@
   },
   "active": "d70e86f1b5ff58f8",
   "lastOpenFiles": [
+    "ERROR_Diary/GIT/미해결 - there isn’t anything to compare.md",
+    "Attached files/Pasted image 20231013111747.png",
+    "전공 공부/자바기반응용프로그래밍/6주차.md",
+    "ERROR_Diary/GIT",
     "전공 공부/자바기반응용프로그래밍/5주차.md",
     "전공 공부/자바기반응용프로그래밍/4주차.md",
     "전공 공부/자바기반응용프로그래밍/3주차.md",
@@ -193,7 +196,6 @@
     "Attached files/Pasted image 20231012223837.png",
     "Attached files/Pasted image 20231012223828.png",
     "Attached files/Pasted image 20231012223743.png",
-    "Attached files/Pasted image 20231012223605.png",
     "Obsidian/간단한 기호들.md",
     "DB 스터디 2주차 과제.md",
     "Spring/JPA/데이터 중심 설계의 문제점.md",
@@ -202,9 +204,6 @@
     "Spring/JPA/DDL.md",
     "Spring/dto.md",
     "Spring/JAR vs WAR.md",
-    "SOPT 1주차 과제.md",
-    "Spring/DI.md",
-    "Spring/Spring의 각각의 의존성 주입 방법 특징 및 생성자 주입 방식의 장점.md",
     "전공 공부/자바기반응용프로그래밍",
     "전공 공부/전자상거래",
     "Spring/SQL/SQL 문제/3단계",
@@ -214,7 +213,6 @@
     "Spring/SQL",
     "Spring/JPA",
     "전공 공부/지난 학기",
-    "전공 공부/시스템 프로그래밍",
     "무제 파일.canvas"
   ]
 }
