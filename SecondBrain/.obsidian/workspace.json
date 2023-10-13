@@ -69,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "feabab388e8825fc",
@@ -194,11 +195,11 @@
           }
         ],
         "direction": "vertical",
-        "x": 444,
-        "y": 20,
-        "width": 648,
+        "x": -953,
+        "y": 146,
+        "width": 646,
         "height": 776,
-        "maximize": false,
+        "maximize": true,
         "zoom": 0
       }
     ]
@@ -206,8 +207,8 @@
   "active": "f858ad948d9a7b81",
   "lastOpenFiles": [
     "전공 공부/자바기반응용프로그래밍/6주차.md",
-    "전공 공부/자바기반응용프로그래밍/5주차.md",
     "전공 공부/자바기반응용프로그래밍/공부.md",
+    "전공 공부/자바기반응용프로그래밍/5주차.md",
     "전공 공부/자바기반응용프로그래밍/4주차.md",
     "전공 공부/자바기반응용프로그래밍/3주차.md",
     "전공 공부/자바기반응용프로그래밍/2주차.md",
