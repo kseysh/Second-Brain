@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "전공 공부/이산구조/Growth of Functions.md",
+                "file": "전공 공부/이산구조/Induction and recursion.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "전공 공부/이산구조/Growth of Functions.md",
+                "file": "전공 공부/이산구조/Induction and recursion.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "전공 공부/이산구조/Growth of Functions.md",
+                "file": "전공 공부/이산구조/Induction and recursion.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "전공 공부/이산구조/Growth of Functions.md"
+                "file": "전공 공부/이산구조/Induction and recursion.md"
               }
             }
           },
@@ -168,8 +168,8 @@
   },
   "active": "d70e86f1b5ff58f8",
   "lastOpenFiles": [
-    "전공 공부/이산구조/Induction and recursion.md",
     "전공 공부/이산구조/Growth of Functions.md",
+    "전공 공부/이산구조/Induction and recursion.md",
     "전공 공부/이산구조/Algorithms.md",
     "전공 공부/이산구조/Matrix.md",
     "전공 공부/이산구조/Cardinality of Sets.md",
