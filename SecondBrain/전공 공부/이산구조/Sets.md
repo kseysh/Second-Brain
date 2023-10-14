@@ -3,13 +3,13 @@
 중복이 의미가 없음
 
 ## Some Important Sets
-N = 자연수
-Z = 정수
+N = 자연수 natural
+Z = 정수 zungsu
 Z⁺ = 양의 정수
-R = 실수
+R = 실수 real
 R⁺ = 양의 실수
 C = 복소수
-Q = 유리
+Q = 유리수
 
 ## 구간 표기법
 \[a,b] = {x | a≤x≤b} : 폐구간
