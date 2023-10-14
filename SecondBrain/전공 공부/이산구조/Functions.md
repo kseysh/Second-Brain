@@ -1,6 +1,6 @@
 # Functions
 
-A의 각 원소가 B의 각 하나의 원소만을 대응해야한다.
+**A의 각 원소가 B의 각 하나의 원소만을 대응해야한다**.
 
 f(a) = b 이면,
 b는 f 안에서 a의 image라고 불린다.
@@ -18,14 +18,14 @@ z의 preimage는 {a,c,d}
 f{a,c,d} = {z}
 f{a,b} = {y,z}
 
-## Injections, One to One(단사 함수)
+## Injections, **One to One(단사 함수)**
 정의역 중 f(x) ≠ f(y)인 함수
 같은 이미지가 있으면 안된다.
 ![[Pasted image 20230922120403.png]]
-## Surjections, Onto (전사 함수)
+## Surjections, **Onto (전사 함수)**
 정의역이 치역을 전부 사용하는 관계
 ![[Pasted image 20230922120351.png]]
-# Bijections (일대일 대응함수, 양사/전단 함수)
+# Bijections (일대일 대응함수, 양사/전단사 함수)
 one-to-one ≠ 일대일 대응함수
 
 Bijections이려면 , Injections여야 하며, Surjections여야 한다.
