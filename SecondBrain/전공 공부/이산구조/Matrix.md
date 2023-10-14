@@ -20,7 +20,7 @@ ex)
 ### symmetric (대칭)
 ![[Pasted image 20230922162416.png]]
 
-## Zero-One Matrices
+## **Zero-One Matrices**
 모든 원소가 0이거나 1인 행렬
 
 ### join
@@ -34,7 +34,7 @@ a<sub>ij</sub> ∧ b<sub>ij</sub> , meet of A and B는 A ∧ B 와 같다.
 ex)
 ![[Pasted image 20230922163520.png]]
 
-### Boolean Product
+### **Boolean Product**
 Boolean product of A and B는 A ⊙ B이다.
 
 ex)
@@ -44,5 +44,5 @@ ex)
 
 ![[Pasted image 20230922164315.png]]
 
-ex)
+ex) **\***
 ![[Pasted image 20230922164341.png]]
