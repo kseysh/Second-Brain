@@ -25,14 +25,14 @@ f{a,b} = {y,z}
 ## Surjections, **Onto (전사 함수)**
 정의역이 치역을 전부 사용하는 관계
 ![[Pasted image 20230922120351.png]]
-# Bijections (일대일 대응함수, 양사/전단사 함수)
+# Bijections (**일대일 대응함수, 양사/전단사 함수**)
 one-to-one ≠ 일대일 대응함수
 
 Bijections이려면 , Injections여야 하며, Surjections여야 한다.
 ![[Pasted image 20230922120415.png]]
 ## Inverse Functions (역함수)
 f를A->B인 bijection이라고 할 때 B->A인 함수
-
+전단사함수여야한다.
 ## Composition (합성 함수)
 f : B->C, g : A->B 일 때, fㆍg = f(g(x))
 
