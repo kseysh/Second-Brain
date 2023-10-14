@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "전공 공부/이산구조/Cardinality of Sets.md",
+                "file": "전공 공부/이산구조/Matrix.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "전공 공부/이산구조/Cardinality of Sets.md",
+                "file": "전공 공부/이산구조/Matrix.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "전공 공부/이산구조/Cardinality of Sets.md",
+                "file": "전공 공부/이산구조/Matrix.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "전공 공부/이산구조/Cardinality of Sets.md"
+                "file": "전공 공부/이산구조/Matrix.md"
               }
             }
           },
@@ -166,8 +166,9 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "d70e86f1b5ff58f8",
+  "active": "77e0b92a051c28ac",
   "lastOpenFiles": [
+    "전공 공부/이산구조/Cardinality of Sets.md",
     "전공 공부/이산구조/Sequences.md",
     "전공 공부/이산구조/Functions.md",
     "전공 공부/이산구조/Sets.md",
@@ -189,7 +190,6 @@
     "ERROR_Diary/GIT/미해결 - there isn’t anything to compare.md",
     "Attached files/Pasted image 20231013111747.png",
     "ERROR_Diary/GIT",
-    "전공 공부/이산구조/Cardinality of Sets.md",
     "전공 공부/이산구조/Recursive Algorithms.md",
     "전공 공부/이산구조/The Basics of Counting.md",
     "Attached files/Pasted image 20231012232515.png",
