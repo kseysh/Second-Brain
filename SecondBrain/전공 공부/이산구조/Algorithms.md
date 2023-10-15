@@ -1,5 +1,11 @@
 # Search Algorithm?
 
+# **Finding the Maximum Element in a Finite Sequence**
+![[Pasted image 20231015212314.png]]
+
+# **Linear Search**
+![[Pasted image 20231015212423.png]]
+
 # **Bubble sort**
 ![[Pasted image 20231003194849.png]]
 둘 둘 씩 비교해서 sorting 기준에 의해 위치를 정확한 위치로 이동시켜준다.
