@@ -1,7 +1,7 @@
 
 # Recursive
 
-## 팩토리
+## 팩토리얼
 ![[Pasted image 20231012223424.png]]
 
 ## 지수화

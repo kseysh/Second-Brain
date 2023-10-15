@@ -37,7 +37,7 @@ A⊆B이지만, A≠B인 집합
 
 ## **Power Sets**
 집합 A의 모든 subset, `P(A)`라고도 부른다.
-n개의 원소가 있을 때, power set의 cardinality는 2ⁿ개이다.
+n개의 원소가 있을 때, power set의 cardinality는 2ⁿ개이다. 
 P(A) = { ∅ , {a} , {b} , {a,b} }
 
 ## Tuples
