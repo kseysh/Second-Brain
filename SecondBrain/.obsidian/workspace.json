@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "전공 공부/이산구조/1. Logic and Proofs.md",
+                "file": "전공 공부/이산구조/이산구조 문제.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "전공 공부/이산구조/1. Logic and Proofs.md",
+                "file": "전공 공부/이산구조/이산구조 문제.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "전공 공부/이산구조/1. Logic and Proofs.md",
+                "file": "전공 공부/이산구조/이산구조 문제.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "전공 공부/이산구조/1. Logic and Proofs.md"
+                "file": "전공 공부/이산구조/이산구조 문제.md"
               }
             }
           },
@@ -168,6 +168,16 @@
   },
   "active": "d70e86f1b5ff58f8",
   "lastOpenFiles": [
+    "Attached files/Pasted image 20231015145240.png",
+    "Attached files/Pasted image 20231015145223.png",
+    "Attached files/Pasted image 20231015145151.png",
+    "Attached files/Pasted image 20231015145142.png",
+    "Attached files/Pasted image 20231015145124.png",
+    "Attached files/Pasted image 20231015145108.png",
+    "Attached files/Pasted image 20231015145049.png",
+    "Attached files/Pasted image 20231015145019.png",
+    "전공 공부/이산구조/1. Logic and Proofs.md",
+    "전공 공부/이산구조/이산구조 문제.md",
     "전공 공부/이산구조/Recursive Algorithms.md",
     "전공 공부/이산구조/The Basics of Counting.md",
     "전공 공부/이산구조/Induction and recursion.md",
@@ -179,7 +189,6 @@
     "전공 공부/이산구조/Functions.md",
     "전공 공부/이산구조/Sets.md",
     "전공 공부/이산구조/2. Basic Structures.md",
-    "전공 공부/이산구조/1. Logic and Proofs.md",
     "전공 공부/이산구조/이산수학 기호.md",
     "전공 공부/시스템 프로그래밍/2. C, assembly, machince code.md",
     "전공 공부/시스템 프로그래밍/3. Registers, Operands, Move.md",
@@ -192,19 +201,10 @@
     "전공 공부/자바기반응용프로그래밍/5주차.md",
     "전공 공부/자바기반응용프로그래밍/3주차.md",
     "전공 공부/자바기반응용프로그래밍/2주차.md",
-    "IDEA/아이디어 폴더/서비스 아이디어.md",
-    "ERROR_Diary/GIT/미해결 - there isn’t anything to compare.md",
     "Attached files/Pasted image 20231013111747.png",
     "ERROR_Diary/GIT",
     "Attached files/Pasted image 20231012232515.png",
     "Attached files/Pasted image 20231012232424.png",
-    "Attached files/Pasted image 20231012231553.png",
-    "Attached files/Pasted image 20231012230816.png",
-    "Attached files/Pasted image 20231012223935.png",
-    "Attached files/Pasted image 20231012223925.png",
-    "Attached files/Pasted image 20231012223837.png",
-    "Attached files/Pasted image 20231012223828.png",
-    "Attached files/Pasted image 20231012223743.png",
     "전공 공부/자바기반응용프로그래밍",
     "전공 공부/전자상거래",
     "Spring/SQL/SQL 문제/3단계",
