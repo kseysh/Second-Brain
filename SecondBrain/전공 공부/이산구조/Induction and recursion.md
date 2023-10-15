@@ -17,7 +17,7 @@ ex)
 ![[Pasted image 20231005094041.png]]
 
 ![[Pasted image 20231005094114.png]]
-4로 시작하므로 p(4)가 true라고 가정해야 함 (항상 P(1)에서 시작하지는 않음)
+4로 시작하므로 p(4)가 true라고 가정해야 함 (**항상 P(1)에서 시작하지는 않음**) => Basis 시작점 잘 파악하기
 
 ### Proving Divisibility Results 
 ![[Pasted image 20231005094156.png]]
