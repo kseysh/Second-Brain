@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "전공 공부/이산구조/Recursive Algorithms.md",
+                "file": "전공 공부/이산구조/The Basics of Counting.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "전공 공부/이산구조/Recursive Algorithms.md",
+                "file": "전공 공부/이산구조/The Basics of Counting.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "전공 공부/이산구조/Recursive Algorithms.md",
+                "file": "전공 공부/이산구조/The Basics of Counting.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "전공 공부/이산구조/Recursive Algorithms.md"
+                "file": "전공 공부/이산구조/The Basics of Counting.md"
               }
             }
           },
@@ -168,6 +168,7 @@
   },
   "active": "d70e86f1b5ff58f8",
   "lastOpenFiles": [
+    "전공 공부/이산구조/Recursive Algorithms.md",
     "전공 공부/이산구조/The Basics of Counting.md",
     "전공 공부/이산구조/Induction and recursion.md",
     "전공 공부/이산구조/Growth of Functions.md",
@@ -195,7 +196,6 @@
     "ERROR_Diary/GIT/미해결 - there isn’t anything to compare.md",
     "Attached files/Pasted image 20231013111747.png",
     "ERROR_Diary/GIT",
-    "전공 공부/이산구조/Recursive Algorithms.md",
     "Attached files/Pasted image 20231012232515.png",
     "Attached files/Pasted image 20231012232424.png",
     "Attached files/Pasted image 20231012231553.png",

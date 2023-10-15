@@ -13,11 +13,11 @@
 ## Binary Search
 ![[Pasted image 20231012223743.png]]
 
-## Merge Sort
+## **Merge Sort**
 ![[Pasted image 20231012223828.png]]
 ![[Pasted image 20231012223837.png]]
 
-### 머지 소트 과정
+### **머지 소트 과정**
 ![[Pasted image 20231012223935.png]]
 ![[Pasted image 20231012223925.png]]
 
