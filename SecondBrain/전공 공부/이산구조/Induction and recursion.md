@@ -28,7 +28,7 @@ Number of subsets of a finite set은 안나옴
 
 ## Recursively Defined Functions
 Basis step : f(0)의 값을 구한다.
-Recursive Step : 더 작은 정수의 값에서 정수의 값을 찾는 규칙을 지정한한다.
+Recursive Step : 더 작은 정수의 값에서 정수의 값을 찾는 규칙을 지정한다.
 
 ![[Pasted image 20231005095619.png]]
 ## 집합을 수학적 귀납법으로 표현
