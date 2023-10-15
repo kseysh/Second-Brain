@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "전공 공부/이산구조/Functions.md",
+                "file": "전공 공부/이산구조/Sequences.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "전공 공부/이산구조/Functions.md",
+                "file": "전공 공부/이산구조/Sequences.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "전공 공부/이산구조/Functions.md",
+                "file": "전공 공부/이산구조/Sequences.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "전공 공부/이산구조/Functions.md"
+                "file": "전공 공부/이산구조/Sequences.md"
               }
             }
           },
@@ -168,8 +168,8 @@
   },
   "active": "d70e86f1b5ff58f8",
   "lastOpenFiles": [
-    "전공 공부/이산구조/이산구조 문제.md",
     "전공 공부/이산구조/Functions.md",
+    "전공 공부/이산구조/이산구조 문제.md",
     "전공 공부/이산구조/Sets.md",
     "Attached files/Pasted image 20231015203615.png",
     "Attached files/Pasted image 20231015203156.png",
