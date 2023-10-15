@@ -7,7 +7,7 @@
 ## 지수화
 ![[Pasted image 20231012223522.png]]
 
-## 최대공약수
+## **최대공약수**
 ![[Pasted image 20231012223605.png]]
 
 ## Binary Search
