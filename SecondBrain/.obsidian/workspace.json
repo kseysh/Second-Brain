@@ -14,7 +14,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "전공 공부/이산구조/Algorithms.md",
+                "file": "전공 공부/이산구조/Growth of Functions.md",
                 "mode": "source",
                 "source": false
               }
@@ -130,7 +130,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "공부용.md",
+                "file": "전공 공부/이산구조/Growth of Functions.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -147,7 +147,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "공부용.md",
+                "file": "전공 공부/이산구조/Growth of Functions.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -170,7 +170,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "공부용.md"
+                "file": "전공 공부/이산구조/Growth of Functions.md"
               }
             }
           },
@@ -211,20 +211,20 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "fe55d732df14e8c9",
+  "active": "d70e86f1b5ff58f8",
   "lastOpenFiles": [
-    "전공 공부/이산구조/Algorithms.md",
     "공부용.md",
     "전공 공부/이산구조/Growth of Functions.md",
+    "전공 공부/이산구조/Algorithms.md",
+    "전공 공부/이산구조/Induction and recursion.md",
+    "전공 공부/이산구조/The Basics of Counting.md",
+    "전공 공부/이산구조/Recursive Algorithms.md",
     "전공 공부/이산구조/Matrix.md",
     "전공 공부/이산구조/Sequences.md",
     "전공 공부/이산구조/이산구조 질문.md",
     "전공 공부/이산구조/이산구조 문제.md",
-    "전공 공부/이산구조/Recursive Algorithms.md",
     "전공 공부/이산구조/1. Logic and Proofs.md",
     "전공 공부/이산구조/이산수학 기호.md",
-    "전공 공부/이산구조/The Basics of Counting.md",
-    "전공 공부/이산구조/Induction and recursion.md",
     "전공 공부/이산구조/Cardinality of Sets.md",
     "전공 공부/이산구조/Functions.md",
     "전공 공부/이산구조/Sets.md",
