@@ -14,7 +14,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "전공 공부/이산구조/Matrix.md",
+                "file": "전공 공부/이산구조/Growth of Functions.md",
                 "mode": "source",
                 "source": false
               }
@@ -23,23 +23,48 @@
         ]
       },
       {
-        "id": "92f9ed7ac5b08ed6",
-        "type": "tabs",
+        "id": "2ad13eee1cd6de95",
+        "type": "split",
         "dimension": 50.92879256965944,
         "children": [
           {
-            "id": "7b3191893cb1a143",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "전공 공부/이산구조/이산구조 질문.md",
-                "mode": "source",
-                "source": false
+            "id": "92f9ed7ac5b08ed6",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "7b3191893cb1a143",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "전공 공부/이산구조/이산구조 질문.md",
+                    "mode": "source",
+                    "source": false
+                  }
+                }
               }
-            }
+            ]
+          },
+          {
+            "id": "ec2c2da2a0a3abd4",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "fe55d732df14e8c9",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "공부용.md",
+                    "mode": "source",
+                    "source": false
+                  }
+                }
+              }
+            ]
           }
-        ]
+        ],
+        "direction": "horizontal"
       }
     ],
     "direction": "vertical"
@@ -188,9 +213,12 @@
   },
   "active": "7b3191893cb1a143",
   "lastOpenFiles": [
+    "전공 공부/이산구조/Growth of Functions.md",
+    "전공 공부/이산구조/이산구조 질문.md",
+    "전공 공부/이산구조/Algorithms.md",
+    "공부용.md",
     "전공 공부/이산구조/Matrix.md",
     "전공 공부/이산구조/Cardinality of Sets.md",
-    "전공 공부/이산구조/이산구조 질문.md",
     "전공 공부/이산구조/Sequences.md",
     "전공 공부/이산구조/Functions.md",
     "전공 공부/이산구조/Sets.md",
@@ -199,9 +227,7 @@
     "전공 공부/이산구조/Recursive Algorithms.md",
     "전공 공부/이산구조/The Basics of Counting.md",
     "전공 공부/이산구조/Induction and recursion.md",
-    "전공 공부/이산구조/Growth of Functions.md",
     "전공 공부/이산구조/이산구조 문제.md",
-    "전공 공부/이산구조/Algorithms.md",
     "전공 공부/이산구조/이산수학 기호.md",
     "Attached files/Pasted image 20231015212423.png",
     "Attached files/Pasted image 20231015212314.png",
@@ -223,7 +249,6 @@
     "전공 공부/자바기반응용프로그래밍/7주차.md",
     "전공 공부/자바기반응용프로그래밍/공부.md",
     "전공 공부/자바기반응용프로그래밍/4주차.md",
-    "전공 공부/자바기반응용프로그래밍/6주차.md",
     "ERROR_Diary/GIT",
     "전공 공부/자바기반응용프로그래밍",
     "전공 공부/전자상거래",
