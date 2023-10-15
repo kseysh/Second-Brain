@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "전공 공부/이산구조/Sets.md",
+                "file": "전공 공부/이산구조/Functions.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "전공 공부/이산구조/Sets.md",
+                "file": "전공 공부/이산구조/Functions.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "전공 공부/이산구조/Sets.md",
+                "file": "전공 공부/이산구조/Functions.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "전공 공부/이산구조/Sets.md"
+                "file": "전공 공부/이산구조/Functions.md"
               }
             }
           },
@@ -168,23 +168,23 @@
   },
   "active": "d70e86f1b5ff58f8",
   "lastOpenFiles": [
+    "전공 공부/이산구조/이산구조 문제.md",
+    "전공 공부/이산구조/Functions.md",
+    "전공 공부/이산구조/Sets.md",
     "Attached files/Pasted image 20231015203615.png",
     "Attached files/Pasted image 20231015203156.png",
     "Attached files/Pasted image 20231015203106.png",
-    "전공 공부/이산구조/이산구조 문제.md",
     "전공 공부/이산구조/1. Logic and Proofs.md",
     "전공 공부/이산구조/이산수학 기호.md",
     "Attached files/Pasted image 20231015200242.png",
     "Attached files/Pasted image 20231015200102.png",
     "Attached files/Pasted image 20231015200039.png",
     "전공 공부/이산구조/2. Basic Structures.md",
-    "전공 공부/이산구조/Sets.md",
     "Attached files/Pasted image 20231015170602.png",
     "Attached files/Pasted image 20231015170551.png",
     "Attached files/Pasted image 20231015170536.png",
     "Obsidian/간단한 기호들.md",
     "Attached files/Pasted image 20231015170002.png",
-    "Attached files/Pasted image 20231015165946.png",
     "전공 공부/이산구조/The Basics of Counting.md",
     "전공 공부/이산구조/Induction and recursion.md",
     "전공 공부/이산구조/Recursive Algorithms.md",
@@ -193,7 +193,6 @@
     "전공 공부/이산구조/Matrix.md",
     "전공 공부/이산구조/Cardinality of Sets.md",
     "전공 공부/이산구조/Sequences.md",
-    "전공 공부/이산구조/Functions.md",
     "전공 공부/시스템 프로그래밍/2. C, assembly, machince code.md",
     "전공 공부/시스템 프로그래밍/3. Registers, Operands, Move.md",
     "전공 공부/시스템 프로그래밍/5. Floating point.md",
