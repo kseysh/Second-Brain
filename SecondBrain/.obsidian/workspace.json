@@ -68,7 +68,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "기호",
+                "query": "^",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -85,11 +85,13 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "feabab388e8825fc",
@@ -105,7 +107,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "전공 공부/시스템 프로그래밍/8. Condition Codes.md",
+                "file": "전공 공부/시스템 프로그래밍/시프 공부.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +124,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "전공 공부/시스템 프로그래밍/8. Condition Codes.md",
+                "file": "전공 공부/시스템 프로그래밍/시프 공부.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -145,7 +147,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "전공 공부/시스템 프로그래밍/8. Condition Codes.md"
+                "file": "전공 공부/시스템 프로그래밍/시프 공부.md"
               }
             }
           },
@@ -186,17 +188,19 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "1725d29e5dcfac37",
+  "active": "843446bcb38e802f",
   "lastOpenFiles": [
-    "전공 공부/시스템 프로그래밍/시프 공부.md",
     "전공 공부/시스템 프로그래밍/8. Condition Codes.md",
     "전공 공부/시스템 프로그래밍/7. Representations in memory.md",
-    "전공 공부/시스템 프로그래밍/6. Integer Arithmetic.md",
-    "전공 공부/시스템 프로그래밍/1. Information Storage.md",
-    "전공 공부/시스템 프로그래밍/5. Floating point.md",
-    "전공 공부/시스템 프로그래밍/4. Arithmetic & Logical Operations.md",
-    "전공 공부/시스템 프로그래밍/3. Registers, Operands, Move.md",
     "전공 공부/시스템 프로그래밍/2. C, assembly, machince code.md",
+    "전공 공부/시스템 프로그래밍/3. Registers, Operands, Move.md",
+    "전공 공부/시스템 프로그래밍/5. Floating point.md",
+    "전공 공부/시스템 프로그래밍/1. Information Storage.md",
+    "전공 공부/시스템 프로그래밍/시스템 프로그래밍 들어가기 전.md",
+    "전공 공부/시스템 프로그래밍/C Basics.md",
+    "전공 공부/시스템 프로그래밍/6. Integer Arithmetic.md",
+    "전공 공부/시스템 프로그래밍/시프 공부.md",
+    "전공 공부/시스템 프로그래밍/4. Arithmetic & Logical Operations.md",
     "전공 공부/오픈소스응용프로그래밍/오픈소스응용공부.md",
     "전공 공부/오픈소스응용프로그래밍/코드 리뷰.md",
     "전공 공부/오픈소스응용프로그래밍/C++ 스타일 가이드.md",
@@ -221,8 +225,6 @@
     "무제 파일.md",
     "독서록/개발 관련 도서/무제 파일.md",
     "독서록/개발 관련 도서/테스트주도개발시작하기",
-    "전공 공부/시스템 프로그래밍/C Basics.md",
-    "전공 공부/시스템 프로그래밍/시스템 프로그래밍 들어가기 전.md",
     "전공 공부/이산구조/Recursive Algorithms.md",
     "전공 공부/이산구조/이산구조 질문.md",
     "ERROR_Diary/GIT",
