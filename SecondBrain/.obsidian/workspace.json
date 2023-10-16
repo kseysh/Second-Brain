@@ -31,7 +31,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "전공 공부/시스템 프로그래밍/2. C, assembly, machince code.md",
+                "file": "전공 공부/시스템 프로그래밍/3. Registers, Operands, Move.md",
                 "mode": "source",
                 "source": false
               }
@@ -103,7 +103,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "전공 공부/시스템 프로그래밍/2. C, assembly, machince code.md",
+                "file": "전공 공부/시스템 프로그래밍/3. Registers, Operands, Move.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -120,7 +120,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "전공 공부/시스템 프로그래밍/2. C, assembly, machince code.md",
+                "file": "전공 공부/시스템 프로그래밍/3. Registers, Operands, Move.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -143,7 +143,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "전공 공부/시스템 프로그래밍/2. C, assembly, machince code.md"
+                "file": "전공 공부/시스템 프로그래밍/3. Registers, Operands, Move.md"
               }
             }
           },
@@ -186,9 +186,9 @@
   },
   "active": "1725d29e5dcfac37",
   "lastOpenFiles": [
+    "전공 공부/시스템 프로그래밍/2. C, assembly, machince code.md",
     "전공 공부/시스템 프로그래밍/3. Registers, Operands, Move.md",
     "전공 공부/시스템 프로그래밍/시프 공부.md",
-    "전공 공부/시스템 프로그래밍/2. C, assembly, machince code.md",
     "전공 공부/시스템 프로그래밍/1. Information Storage.md",
     "독서록/개발 관련 도서/테스트주도개발시작하기/TDD 시작.md",
     "Attached files/Pasted image 20231016113818.png",
