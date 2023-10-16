@@ -105,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "전공 공부/시스템 프로그래밍/시프 공부.md",
+                "file": "전공 공부/시스템 프로그래밍/8. Condition Codes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "전공 공부/시스템 프로그래밍/시프 공부.md",
+                "file": "전공 공부/시스템 프로그래밍/8. Condition Codes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -145,7 +145,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "전공 공부/시스템 프로그래밍/시프 공부.md"
+                "file": "전공 공부/시스템 프로그래밍/8. Condition Codes.md"
               }
             }
           },
@@ -186,11 +186,11 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "02d1d777d1b2c609",
+  "active": "cb4e8b6ed28074d4",
   "lastOpenFiles": [
+    "전공 공부/시스템 프로그래밍/시프 공부.md",
     "전공 공부/시스템 프로그래밍/8. Condition Codes.md",
     "전공 공부/시스템 프로그래밍/7. Arithmetic & Logical Operations.md",
-    "전공 공부/시스템 프로그래밍/시프 공부.md",
     "전공 공부/시스템 프로그래밍/6. Registers, Operands, Move.md",
     "전공 공부/시스템 프로그래밍/5. C, assembly, machince code.md",
     "전공 공부/시스템 프로그래밍/4. Floating point.md",
