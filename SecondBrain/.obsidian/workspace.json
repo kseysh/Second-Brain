@@ -4,28 +4,8 @@
     "type": "split",
     "children": [
       {
-        "id": "24686afedd932a15",
-        "type": "tabs",
-        "dimension": 39.39628482972136,
-        "children": [
-          {
-            "id": "843446bcb38e802f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "전공 공부/시스템 프로그래밍/시프 공부.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          }
-        ]
-      },
-      {
         "id": "f76f0105182537ee",
         "type": "tabs",
-        "dimension": 60.60371517027864,
         "children": [
           {
             "id": "1725d29e5dcfac37",
