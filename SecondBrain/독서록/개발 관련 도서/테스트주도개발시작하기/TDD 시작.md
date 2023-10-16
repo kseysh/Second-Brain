@@ -159,6 +159,14 @@ null을 입력할 경우 ![[Pasted image 20231016112732.png]]
 ![[Pasted image 20231016113605.png]]
 
 #### 테스트 실패와 수정
-원하는 결과는 WEAK인데, 실제 결과는 STR
+원하는 결과는 WEAK인데, 실제 결과는 STRONG으로 나오는 문제 발생
+![[Pasted image 20231016113706.png]]
+![[Pasted image 20231016113712.png]]
 
+첫 번째 방식을 사용하여 구현
+![[Pasted image 20231016113724.png]]
+
+#### 코드 정리
+![[Pasted image 20231016113810.png]]
+![[Pasted image 20231016113818.png]]
 

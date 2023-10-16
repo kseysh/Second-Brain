@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "358634ae97531f8d",
+        "id": "24686afedd932a15",
         "type": "tabs",
         "children": [
           {
-            "id": "7196034e2e580332",
+            "id": "843446bcb38e802f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "독서록/개발 관련 도서/테스트주도개발시작하기/TDD 시작.md",
+                "file": "전공 공부/시스템 프로그래밍/1. Information Storage.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "독서록/개발 관련 도서/테스트주도개발시작하기/TDD 시작.md",
+                "file": "전공 공부/시스템 프로그래밍/1. Information Storage.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "독서록/개발 관련 도서/테스트주도개발시작하기/TDD 시작.md",
+                "file": "전공 공부/시스템 프로그래밍/1. Information Storage.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "독서록/개발 관련 도서/테스트주도개발시작하기/TDD 시작.md"
+                "file": "전공 공부/시스템 프로그래밍/1. Information Storage.md"
               }
             }
           },
@@ -167,20 +167,19 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "7196034e2e580332",
+  "active": "843446bcb38e802f",
   "lastOpenFiles": [
+    "독서록/개발 관련 도서/테스트주도개발시작하기/TDD 시작.md",
+    "Attached files/Pasted image 20231016113818.png",
+    "Attached files/Pasted image 20231016113810.png",
+    "Attached files/Pasted image 20231016113724.png",
+    "Attached files/Pasted image 20231016113712.png",
+    "Attached files/Pasted image 20231016113706.png",
     "Attached files/Pasted image 20231016113605.png",
     "Attached files/Pasted image 20231016113536.png",
     "Attached files/Pasted image 20231016113519.png",
     "Attached files/Pasted image 20231016113501.png",
     "Attached files/Pasted image 20231016113446.png",
-    "Attached files/Pasted image 20231016113415.png",
-    "Attached files/Pasted image 20231016113359.png",
-    "Attached files/Pasted image 20231016113333.png",
-    "Attached files/Pasted image 20231016113322.png",
-    "Attached files/Pasted image 20231016113250.png",
-    "Attached files/Pasted image 20231016113234.png",
-    "독서록/개발 관련 도서/테스트주도개발시작하기/TDD 시작.md",
     "무제 파일.md",
     "독서록/개발 관련 도서/무제 파일.md",
     "독서록/개발 관련 도서/테스트주도개발시작하기",
