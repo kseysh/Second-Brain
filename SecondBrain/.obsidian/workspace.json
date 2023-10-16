@@ -69,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "feabab388e8825fc",
@@ -168,17 +169,17 @@
   },
   "active": "7196034e2e580332",
   "lastOpenFiles": [
-    "Attached files/Pasted image 20231016112654.png",
-    "Attached files/Pasted image 20231016112643.png",
-    "Attached files/Pasted image 20231016112627.png",
-    "Attached files/Pasted image 20231016112324.png",
-    "Attached files/Pasted image 20231016112317.png",
-    "Attached files/Pasted image 20231016112250.png",
-    "Attached files/Pasted image 20231016112241.png",
-    "Attached files/Pasted image 20231016112128.png",
-    "Attached files/Pasted image 20231016112109.png",
-    "Attached files/Pasted image 20231016112017.png",
-    "Attached files/Pasted image 20231016112014.png",
+    "Attached files/Pasted image 20231016113605.png",
+    "Attached files/Pasted image 20231016113536.png",
+    "Attached files/Pasted image 20231016113519.png",
+    "Attached files/Pasted image 20231016113501.png",
+    "Attached files/Pasted image 20231016113446.png",
+    "Attached files/Pasted image 20231016113415.png",
+    "Attached files/Pasted image 20231016113359.png",
+    "Attached files/Pasted image 20231016113333.png",
+    "Attached files/Pasted image 20231016113322.png",
+    "Attached files/Pasted image 20231016113250.png",
+    "Attached files/Pasted image 20231016113234.png",
     "독서록/개발 관련 도서/테스트주도개발시작하기/TDD 시작.md",
     "무제 파일.md",
     "독서록/개발 관련 도서/무제 파일.md",
