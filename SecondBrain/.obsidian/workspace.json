@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "전공 공부/시스템 프로그래밍/1. Information Storage.md",
+                "file": "전공 공부/시스템 프로그래밍/2. C, assembly, machince code.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "전공 공부/시스템 프로그래밍/1. Information Storage.md",
+                "file": "전공 공부/시스템 프로그래밍/2. C, assembly, machince code.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "전공 공부/시스템 프로그래밍/1. Information Storage.md",
+                "file": "전공 공부/시스템 프로그래밍/2. C, assembly, machince code.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "전공 공부/시스템 프로그래밍/1. Information Storage.md"
+                "file": "전공 공부/시스템 프로그래밍/2. C, assembly, machince code.md"
               }
             }
           },
@@ -169,6 +169,7 @@
   },
   "active": "843446bcb38e802f",
   "lastOpenFiles": [
+    "전공 공부/시스템 프로그래밍/1. Information Storage.md",
     "독서록/개발 관련 도서/테스트주도개발시작하기/TDD 시작.md",
     "Attached files/Pasted image 20231016113818.png",
     "Attached files/Pasted image 20231016113810.png",
@@ -184,7 +185,6 @@
     "독서록/개발 관련 도서/무제 파일.md",
     "독서록/개발 관련 도서/테스트주도개발시작하기",
     "전공 공부/시스템 프로그래밍/시프 공부.md",
-    "전공 공부/시스템 프로그래밍/1. Information Storage.md",
     "전공 공부/시스템 프로그래밍/C Basics.md",
     "전공 공부/시스템 프로그래밍/시스템 프로그래밍 들어가기 전.md",
     "전공 공부/이산구조/Recursive Algorithms.md",
