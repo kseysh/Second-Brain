@@ -6,6 +6,7 @@
       {
         "id": "24686afedd932a15",
         "type": "tabs",
+        "dimension": 39.39628482972136,
         "children": [
           {
             "id": "843446bcb38e802f",
@@ -24,6 +25,7 @@
       {
         "id": "f76f0105182537ee",
         "type": "tabs",
+        "dimension": 60.60371517027864,
         "children": [
           {
             "id": "1725d29e5dcfac37",
@@ -31,7 +33,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "전공 공부/시스템 프로그래밍/3. Registers, Operands, Move.md",
+                "file": "전공 공부/시스템 프로그래밍/2. C, assembly, machince code.md",
                 "mode": "source",
                 "source": false
               }
@@ -87,7 +89,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "feabab388e8825fc",
@@ -103,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "전공 공부/시스템 프로그래밍/3. Registers, Operands, Move.md",
+                "file": "전공 공부/시스템 프로그래밍/2. C, assembly, machince code.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -120,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "전공 공부/시스템 프로그래밍/3. Registers, Operands, Move.md",
+                "file": "전공 공부/시스템 프로그래밍/2. C, assembly, machince code.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -143,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "전공 공부/시스템 프로그래밍/3. Registers, Operands, Move.md"
+                "file": "전공 공부/시스템 프로그래밍/2. C, assembly, machince code.md"
               }
             }
           },
@@ -186,10 +189,25 @@
   },
   "active": "1725d29e5dcfac37",
   "lastOpenFiles": [
+    "전공 공부/시스템 프로그래밍/1. Information Storage.md",
     "전공 공부/시스템 프로그래밍/시프 공부.md",
     "전공 공부/시스템 프로그래밍/3. Registers, Operands, Move.md",
     "전공 공부/시스템 프로그래밍/2. C, assembly, machince code.md",
-    "전공 공부/시스템 프로그래밍/1. Information Storage.md",
+    "전공 공부/시스템 프로그래밍/4. Arithmetic & Logical Operations.md",
+    "전공 공부/시스템 프로그래밍/6. Integer Arithmetic.md",
+    "전공 공부/오픈소스응용프로그래밍/오픈소스응용공부.md",
+    "전공 공부/오픈소스응용프로그래밍/코드 리뷰.md",
+    "전공 공부/오픈소스응용프로그래밍/C++ 스타일 가이드.md",
+    "전공 공부/오픈소스응용프로그래밍/디자인 패턴 개요.md",
+    "전공 공부/오픈소스응용프로그래밍/객체지향개발 특성.md",
+    "전공 공부/오픈소스응용프로그래밍/디자인패턴 종류.md",
+    "전공 공부/오픈소스응용프로그래밍/오픈소스SW 및 라이선스.md",
+    "전공 공부/오픈소스응용프로그래밍/Git.md",
+    "전공 공부/오픈소스응용프로그래밍/도커 아키텍처와 이미지 명령어.md",
+    "전공 공부/시스템 프로그래밍/8. Condition Codes.md",
+    "전공 공부/시스템 프로그래밍/7. Representations in memory.md",
+    "전공 공부/시스템 프로그래밍/5. Floating point.md",
+    "전공 공부/시스템 프로그래밍/9. Conditional branches.md",
     "독서록/개발 관련 도서/테스트주도개발시작하기/TDD 시작.md",
     "Attached files/Pasted image 20231016113818.png",
     "Attached files/Pasted image 20231016113810.png",
@@ -208,21 +226,6 @@
     "전공 공부/시스템 프로그래밍/시스템 프로그래밍 들어가기 전.md",
     "전공 공부/이산구조/Recursive Algorithms.md",
     "전공 공부/이산구조/이산구조 질문.md",
-    "전공 공부/이산구조/The Basics of Counting.md",
-    "전공 공부/이산구조/Induction and recursion.md",
-    "전공 공부/이산구조/Growth of Functions.md",
-    "전공 공부/이산구조/Algorithms.md",
-    "전공 공부/이산구조/이산구조 문제.md",
-    "공부용.md",
-    "전공 공부/이산구조/Matrix.md",
-    "전공 공부/이산구조/Sequences.md",
-    "전공 공부/이산구조/1. Logic and Proofs.md",
-    "전공 공부/이산구조/이산수학 기호.md",
-    "전공 공부/이산구조/Cardinality of Sets.md",
-    "전공 공부/이산구조/Functions.md",
-    "전공 공부/이산구조/Sets.md",
-    "전공 공부/이산구조/2. Basic Structures.md",
-    "전공 공부/오픈소스응용프로그래밍/객체지향개발 특성.md",
     "ERROR_Diary/GIT",
     "전공 공부/자바기반응용프로그래밍",
     "전공 공부/전자상거래",
