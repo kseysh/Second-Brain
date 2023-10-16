@@ -4,29 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "f76f0105182537ee",
+        "id": "5ff903d6a117a31c",
         "type": "tabs",
         "children": [
           {
-            "id": "1725d29e5dcfac37",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "전공 공부/시스템 프로그래밍/시프 공부.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          }
-        ]
-      },
-      {
-        "id": "d28d05678247f840",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "56e8fefaf3548456",
+            "id": "cb4e8b6ed28074d4",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -87,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "feabab388e8825fc",
@@ -184,10 +167,13 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "56e8fefaf3548456",
+  "active": "cb4e8b6ed28074d4",
   "lastOpenFiles": [
     "전공 공부/시스템 프로그래밍/시프 공부.md",
     "전공 공부/시스템 프로그래밍/9. Conditional branches.md",
+    "전공 공부/시스템 프로그래밍/Machine-Level Programming - Procedures.md",
+    "전공 공부/자바기반응용프로그래밍/공부.md",
+    "전공 공부/자바기반응용프로그래밍/7주차.md",
     "전공 공부/시스템 프로그래밍/8. Condition Codes.md",
     "전공 공부/시스템 프로그래밍/시스템 프로그래밍 들어가기 전.md",
     "전공 공부/시스템 프로그래밍/무제 파일.md",
@@ -219,10 +205,7 @@
     "Attached files/Pasted image 20231016113519.png",
     "Attached files/Pasted image 20231016113501.png",
     "Attached files/Pasted image 20231016113446.png",
-    "무제 파일.md",
-    "독서록/개발 관련 도서/무제 파일.md",
     "독서록/개발 관련 도서/테스트주도개발시작하기",
-    "전공 공부/이산구조/Recursive Algorithms.md",
     "ERROR_Diary/GIT",
     "전공 공부/자바기반응용프로그래밍",
     "전공 공부/전자상거래",
