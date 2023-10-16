@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "전공 공부/시스템 프로그래밍/Calling Conventions- Passing Control.md",
+                "file": "전공 공부/시스템 프로그래밍/1. Information Storage.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "feabab388e8825fc",
@@ -86,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "전공 공부/시스템 프로그래밍/Calling Conventions- Passing Control.md",
+                "file": "전공 공부/시스템 프로그래밍/1. Information Storage.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "전공 공부/시스템 프로그래밍/Calling Conventions- Passing Control.md",
+                "file": "전공 공부/시스템 프로그래밍/1. Information Storage.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "전공 공부/시스템 프로그래밍/Calling Conventions- Passing Control.md"
+                "file": "전공 공부/시스템 프로그래밍/1. Information Storage.md"
               }
             }
           },
@@ -169,34 +168,33 @@
   },
   "active": "cb4e8b6ed28074d4",
   "lastOpenFiles": [
+    "전공 공부/시스템 프로그래밍/11. Calling Conventions- Passing Control.md",
+    "전공 공부/시스템 프로그래밍/10. Stack Structure.md",
+    "전공 공부/시스템 프로그래밍/9. Conditional branches.md",
+    "전공 공부/시스템 프로그래밍/8. Condition Codes.md",
+    "전공 공부/시스템 프로그래밍/7. Arithmetic & Logical Operations.md",
+    "전공 공부/시스템 프로그래밍/6. Registers, Operands, Move.md",
+    "전공 공부/시스템 프로그래밍/5. C, assembly, machince code.md",
+    "전공 공부/시스템 프로그래밍/4. Floating point.md",
+    "전공 공부/시스템 프로그래밍/3. Representations in memory.md",
+    "전공 공부/시스템 프로그래밍/2. Integer Arithmetic.md",
+    "전공 공부/시스템 프로그래밍/1. Information Storage.md",
+    "전공 공부/시스템 프로그래밍/C Basics.md",
     "Attached files/Pasted image 20231016213524.png",
     "Attached files/Pasted image 20231016213305.png",
     "Attached files/Pasted image 20231016213024.png",
     "Attached files/Pasted image 20231016212945.png",
     "Attached files/Pasted image 20231016212347.png",
-    "전공 공부/시스템 프로그래밍/10. Stack Structure.md",
     "Attached files/Pasted image 20231016212133.png",
     "Attached files/Pasted image 20231016212009.png",
     "Attached files/Pasted image 20231016211940.png",
-    "전공 공부/시스템 프로그래밍/9. Conditional branches.md",
     "Attached files/Pasted image 20231016211238.png",
     "Attached files/Pasted image 20231016210859.png",
-    "Attached files/Pasted image 20231016210854.png",
-    "전공 공부/시스템 프로그래밍/Calling Conventions- Passing Control.md",
     "전공 공부/시스템 프로그래밍/시프 공부.md",
     "전공 공부/자바기반응용프로그래밍/공부.md",
     "전공 공부/자바기반응용프로그래밍/7주차.md",
-    "전공 공부/시스템 프로그래밍/8. Condition Codes.md",
     "전공 공부/시스템 프로그래밍/시스템 프로그래밍 들어가기 전.md",
     "전공 공부/시스템 프로그래밍/무제 파일.md",
-    "전공 공부/시스템 프로그래밍/7. Representations in memory.md",
-    "전공 공부/시스템 프로그래밍/2. C, assembly, machince code.md",
-    "전공 공부/시스템 프로그래밍/3. Registers, Operands, Move.md",
-    "전공 공부/시스템 프로그래밍/5. Floating point.md",
-    "전공 공부/시스템 프로그래밍/1. Information Storage.md",
-    "전공 공부/시스템 프로그래밍/C Basics.md",
-    "전공 공부/시스템 프로그래밍/6. Integer Arithmetic.md",
-    "전공 공부/시스템 프로그래밍/4. Arithmetic & Logical Operations.md",
     "전공 공부/오픈소스응용프로그래밍/오픈소스응용공부.md",
     "전공 공부/오픈소스응용프로그래밍/코드 리뷰.md",
     "전공 공부/오픈소스응용프로그래밍/C++ 스타일 가이드.md",
