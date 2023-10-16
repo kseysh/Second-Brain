@@ -33,7 +33,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "전공 공부/시스템 프로그래밍/4. Arithmetic & Logical Operations.md",
+                "file": "전공 공부/시스템 프로그래밍/5. Floating point.md",
                 "mode": "source",
                 "source": false
               }
@@ -105,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "전공 공부/시스템 프로그래밍/4. Arithmetic & Logical Operations.md",
+                "file": "전공 공부/시스템 프로그래밍/시프 공부.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "전공 공부/시스템 프로그래밍/4. Arithmetic & Logical Operations.md",
+                "file": "전공 공부/시스템 프로그래밍/시프 공부.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -145,7 +145,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "전공 공부/시스템 프로그래밍/4. Arithmetic & Logical Operations.md"
+                "file": "전공 공부/시스템 프로그래밍/시프 공부.md"
               }
             }
           },
@@ -186,10 +186,11 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "1725d29e5dcfac37",
+  "active": "843446bcb38e802f",
   "lastOpenFiles": [
-    "전공 공부/시스템 프로그래밍/시프 공부.md",
+    "전공 공부/시스템 프로그래밍/5. Floating point.md",
     "전공 공부/시스템 프로그래밍/4. Arithmetic & Logical Operations.md",
+    "전공 공부/시스템 프로그래밍/시프 공부.md",
     "전공 공부/시스템 프로그래밍/3. Registers, Operands, Move.md",
     "전공 공부/시스템 프로그래밍/2. C, assembly, machince code.md",
     "전공 공부/시스템 프로그래밍/1. Information Storage.md",
@@ -205,7 +206,6 @@
     "전공 공부/오픈소스응용프로그래밍/도커 아키텍처와 이미지 명령어.md",
     "전공 공부/시스템 프로그래밍/8. Condition Codes.md",
     "전공 공부/시스템 프로그래밍/7. Representations in memory.md",
-    "전공 공부/시스템 프로그래밍/5. Floating point.md",
     "전공 공부/시스템 프로그래밍/9. Conditional branches.md",
     "독서록/개발 관련 도서/테스트주도개발시작하기/TDD 시작.md",
     "Attached files/Pasted image 20231016113818.png",
