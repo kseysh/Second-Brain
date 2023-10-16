@@ -69,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "feabab388e8825fc",
@@ -169,13 +168,17 @@
   },
   "active": "cb4e8b6ed28074d4",
   "lastOpenFiles": [
+    "전공 공부/시스템 프로그래밍/Machine-Level Programming - Procedures.md",
+    "전공 공부/시스템 프로그래밍/Calling Conventions- Passing Control.md",
+    "전공 공부/시스템 프로그래밍/9. Conditional branches.md",
+    "Attached files/Pasted image 20231016205209.png",
+    "Attached files/Pasted image 20231016205148.png",
+    "Attached files/Pasted image 20231016204833.png",
     "Attached files/Pasted image 20231016204013.png",
     "Attached files/Pasted image 20231016203937.png",
     "Attached files/Pasted image 20231016203917.png",
     "Attached files/Pasted image 20231016203835.png",
     "전공 공부/시스템 프로그래밍/시프 공부.md",
-    "전공 공부/시스템 프로그래밍/9. Conditional branches.md",
-    "전공 공부/시스템 프로그래밍/Machine-Level Programming - Procedures.md",
     "전공 공부/자바기반응용프로그래밍/공부.md",
     "전공 공부/자바기반응용프로그래밍/7주차.md",
     "전공 공부/시스템 프로그래밍/8. Condition Codes.md",
@@ -201,10 +204,6 @@
     "Attached files/Pasted image 20231016113818.png",
     "Attached files/Pasted image 20231016113810.png",
     "Attached files/Pasted image 20231016113724.png",
-    "Attached files/Pasted image 20231016113712.png",
-    "Attached files/Pasted image 20231016113706.png",
-    "Attached files/Pasted image 20231016113605.png",
-    "Attached files/Pasted image 20231016113536.png",
     "독서록/개발 관련 도서/테스트주도개발시작하기",
     "ERROR_Diary/GIT",
     "전공 공부/자바기반응용프로그래밍",
