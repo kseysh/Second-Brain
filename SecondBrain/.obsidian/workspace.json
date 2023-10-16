@@ -30,6 +30,7 @@
           {
             "id": "92f9ed7ac5b08ed6",
             "type": "tabs",
+            "dimension": 24.509803921568626,
             "children": [
               {
                 "id": "7b3191893cb1a143",
@@ -48,6 +49,7 @@
           {
             "id": "ec2c2da2a0a3abd4",
             "type": "tabs",
+            "dimension": 75.49019607843137,
             "children": [
               {
                 "id": "fe55d732df14e8c9",
@@ -130,7 +132,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "전공 공부/이산구조/Recursive Algorithms.md",
+                "file": "전공 공부/이산구조/이산구조 질문.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -147,7 +149,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "전공 공부/이산구조/Recursive Algorithms.md",
+                "file": "전공 공부/이산구조/이산구조 질문.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -170,7 +172,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "전공 공부/이산구조/Recursive Algorithms.md"
+                "file": "전공 공부/이산구조/이산구조 질문.md"
               }
             }
           },
@@ -211,8 +213,9 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "d70e86f1b5ff58f8",
+  "active": "7b3191893cb1a143",
   "lastOpenFiles": [
+    "전공 공부/이산구조/Recursive Algorithms.md",
     "전공 공부/이산구조/The Basics of Counting.md",
     "전공 공부/이산구조/Induction and recursion.md",
     "전공 공부/이산구조/Growth of Functions.md",
@@ -220,7 +223,6 @@
     "전공 공부/이산구조/이산구조 문제.md",
     "전공 공부/이산구조/이산구조 질문.md",
     "공부용.md",
-    "전공 공부/이산구조/Recursive Algorithms.md",
     "전공 공부/이산구조/Matrix.md",
     "전공 공부/이산구조/Sequences.md",
     "전공 공부/이산구조/1. Logic and Proofs.md",
