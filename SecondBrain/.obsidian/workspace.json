@@ -13,6 +13,24 @@
             "state": {
               "type": "markdown",
               "state": {
+                "file": "전공 공부/시스템 프로그래밍/시프 공부.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "d28d05678247f840",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "56e8fefaf3548456",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
                 "file": "전공 공부/시스템 프로그래밍/9. Conditional branches.md",
                 "mode": "source",
                 "source": false
@@ -167,10 +185,12 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "1725d29e5dcfac37",
+  "active": "56e8fefaf3548456",
   "lastOpenFiles": [
-    "전공 공부/시스템 프로그래밍/8. Condition Codes.md",
     "전공 공부/시스템 프로그래밍/시프 공부.md",
+    "전공 공부/시스템 프로그래밍/무제 파일.md",
+    "전공 공부/시스템 프로그래밍/9. Conditional branches.md",
+    "전공 공부/시스템 프로그래밍/8. Condition Codes.md",
     "전공 공부/시스템 프로그래밍/7. Representations in memory.md",
     "전공 공부/시스템 프로그래밍/2. C, assembly, machince code.md",
     "전공 공부/시스템 프로그래밍/3. Registers, Operands, Move.md",
@@ -189,7 +209,6 @@
     "전공 공부/오픈소스응용프로그래밍/오픈소스SW 및 라이선스.md",
     "전공 공부/오픈소스응용프로그래밍/Git.md",
     "전공 공부/오픈소스응용프로그래밍/도커 아키텍처와 이미지 명령어.md",
-    "전공 공부/시스템 프로그래밍/9. Conditional branches.md",
     "독서록/개발 관련 도서/테스트주도개발시작하기/TDD 시작.md",
     "Attached files/Pasted image 20231016113818.png",
     "Attached files/Pasted image 20231016113810.png",
@@ -205,7 +224,6 @@
     "독서록/개발 관련 도서/무제 파일.md",
     "독서록/개발 관련 도서/테스트주도개발시작하기",
     "전공 공부/이산구조/Recursive Algorithms.md",
-    "전공 공부/이산구조/이산구조 질문.md",
     "ERROR_Diary/GIT",
     "전공 공부/자바기반응용프로그래밍",
     "전공 공부/전자상거래",
