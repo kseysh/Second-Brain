@@ -33,7 +33,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "전공 공부/시스템 프로그래밍/6. Integer Arithmetic.md",
+                "file": "전공 공부/시스템 프로그래밍/1. Information Storage.md",
                 "mode": "source",
                 "source": false
               }
@@ -105,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "전공 공부/시스템 프로그래밍/6. Integer Arithmetic.md",
+                "file": "전공 공부/시스템 프로그래밍/1. Information Storage.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "전공 공부/시스템 프로그래밍/6. Integer Arithmetic.md",
+                "file": "전공 공부/시스템 프로그래밍/1. Information Storage.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -145,7 +145,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "전공 공부/시스템 프로그래밍/6. Integer Arithmetic.md"
+                "file": "전공 공부/시스템 프로그래밍/1. Information Storage.md"
               }
             }
           },
@@ -188,13 +188,13 @@
   },
   "active": "1725d29e5dcfac37",
   "lastOpenFiles": [
+    "전공 공부/시스템 프로그래밍/6. Integer Arithmetic.md",
     "전공 공부/시스템 프로그래밍/5. Floating point.md",
     "전공 공부/시스템 프로그래밍/시프 공부.md",
     "전공 공부/시스템 프로그래밍/4. Arithmetic & Logical Operations.md",
     "전공 공부/시스템 프로그래밍/3. Registers, Operands, Move.md",
     "전공 공부/시스템 프로그래밍/2. C, assembly, machince code.md",
     "전공 공부/시스템 프로그래밍/1. Information Storage.md",
-    "전공 공부/시스템 프로그래밍/6. Integer Arithmetic.md",
     "전공 공부/오픈소스응용프로그래밍/오픈소스응용공부.md",
     "전공 공부/오픈소스응용프로그래밍/코드 리뷰.md",
     "전공 공부/오픈소스응용프로그래밍/C++ 스타일 가이드.md",
