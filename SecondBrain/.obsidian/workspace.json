@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "전공 공부/시스템 프로그래밍/9. Conditional branches.md",
+                "file": "전공 공부/시스템 프로그래밍/10. Stack Structure.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "전공 공부/시스템 프로그래밍/9. Conditional branches.md",
+                "file": "전공 공부/시스템 프로그래밍/10. Stack Structure.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "전공 공부/시스템 프로그래밍/9. Conditional branches.md",
+                "file": "전공 공부/시스템 프로그래밍/10. Stack Structure.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "전공 공부/시스템 프로그래밍/9. Conditional branches.md"
+                "file": "전공 공부/시스템 프로그래밍/10. Stack Structure.md"
               }
             }
           },
@@ -168,17 +168,19 @@
   },
   "active": "cb4e8b6ed28074d4",
   "lastOpenFiles": [
-    "Attached files/Pasted image 20231016205943.png",
-    "전공 공부/시스템 프로그래밍/Machine-Level Programming - Procedures.md",
-    "전공 공부/시스템 프로그래밍/Calling Conventions- Passing Control.md",
     "전공 공부/시스템 프로그래밍/9. Conditional branches.md",
+    "Attached files/Pasted image 20231016211238.png",
+    "Attached files/Pasted image 20231016210859.png",
+    "Attached files/Pasted image 20231016210854.png",
+    "Attached files/Pasted image 20231016210810.png",
+    "Attached files/Pasted image 20231016210750.png",
+    "Attached files/Pasted image 20231016205943.png",
+    "전공 공부/시스템 프로그래밍/10. Stack Structure.md",
+    "전공 공부/시스템 프로그래밍/Calling Conventions- Passing Control.md",
     "Attached files/Pasted image 20231016205209.png",
     "Attached files/Pasted image 20231016205148.png",
     "Attached files/Pasted image 20231016204833.png",
     "Attached files/Pasted image 20231016204013.png",
-    "Attached files/Pasted image 20231016203937.png",
-    "Attached files/Pasted image 20231016203917.png",
-    "Attached files/Pasted image 20231016203835.png",
     "전공 공부/시스템 프로그래밍/시프 공부.md",
     "전공 공부/자바기반응용프로그래밍/공부.md",
     "전공 공부/자바기반응용프로그래밍/7주차.md",
@@ -201,9 +203,6 @@
     "전공 공부/오픈소스응용프로그래밍/디자인패턴 종류.md",
     "전공 공부/오픈소스응용프로그래밍/오픈소스SW 및 라이선스.md",
     "전공 공부/오픈소스응용프로그래밍/Git.md",
-    "Attached files/Pasted image 20231016113818.png",
-    "Attached files/Pasted image 20231016113810.png",
-    "Attached files/Pasted image 20231016113724.png",
     "독서록/개발 관련 도서/테스트주도개발시작하기",
     "ERROR_Diary/GIT",
     "전공 공부/자바기반응용프로그래밍",
