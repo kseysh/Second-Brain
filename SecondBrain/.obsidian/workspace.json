@@ -11,12 +11,8 @@
             "id": "cb4e8b6ed28074d4",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "전공 공부/시스템 프로그래밍/2. Integer Arithmetic.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "graph",
+              "state": {}
             }
           }
         ]
@@ -86,7 +82,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "전공 공부/시스템 프로그래밍/2. Integer Arithmetic.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +98,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "전공 공부/시스템 프로그래밍/2. Integer Arithmetic.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,9 +119,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "전공 공부/시스템 프로그래밍/2. Integer Arithmetic.md"
-              }
+              "state": {}
             }
           },
           {
@@ -169,6 +161,7 @@
   },
   "active": "cb4e8b6ed28074d4",
   "lastOpenFiles": [
+    "전공 공부/시스템 프로그래밍/2. Integer Arithmetic.md",
     "전공 공부/시스템 프로그래밍/1. Information Storage.md",
     "전공 공부/지난 학기/DataStructure/Dictionary & Maps.md",
     "전공 공부/지난 학기/DataStructure/Directed Graphs.md",
@@ -197,7 +190,6 @@
     "전공 공부/시스템 프로그래밍/시프 공부.md",
     "전공 공부/시스템 프로그래밍/11. Calling Conventions- Passing Control.md",
     "전공 공부/시스템 프로그래밍/10. Stack Structure.md",
-    "전공 공부/시스템 프로그래밍/9. Conditional branches.md",
     "Attached files/Pasted image 20231016213524.png",
     "Attached files/Pasted image 20231016213305.png",
     "Attached files/Pasted image 20231016213024.png",
