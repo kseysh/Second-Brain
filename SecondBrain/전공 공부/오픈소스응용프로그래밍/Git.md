@@ -61,6 +61,9 @@ git에서 저장소를 관리하기 위해 사용하는 세 가지 공간
 - -u 옵션을 이용하면 처음에만 원격 저장소명 및 로컬 브랜치 명을 써주면, 이후에는 `git push` 명령만으로 간편하게 동일 대상에 대해 push 수행 가능
 `git pull <원격저장소> <원격 저장소의 브랜치>` : 원격 저장소의 브랜치 내용을 로컬 저장소로 가지고 오는 명령어
 
+![[Pasted image 20231017170555.png]]
+최신 버전으로 working tree를 되돌리고 싶은 경우 : `git reset HEAD^`
+특정 버전으로 working tree를 되돌리고 싶은 경우 : `git reset --hard <commit hash>`
 ## stage 공간의 필요성
 수정된 부분 중 일부분만 commit 가능하다.
 특정 파일만 골라서 commit 가능하다.
