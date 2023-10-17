@@ -11,8 +11,12 @@
             "id": "cb4e8b6ed28074d4",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "독서록/개발 관련 도서/구글 엔지니어는 이렇게 일한다.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -66,7 +70,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "feabab388e8825fc",
@@ -82,6 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "독서록/개발 관련 도서/구글 엔지니어는 이렇게 일한다.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -98,6 +104,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "독서록/개발 관련 도서/구글 엔지니어는 이렇게 일한다.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -119,7 +126,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "독서록/개발 관련 도서/구글 엔지니어는 이렇게 일한다.md"
+              }
             }
           },
           {
@@ -161,17 +170,17 @@
   },
   "active": "cb4e8b6ed28074d4",
   "lastOpenFiles": [
-    "전공 공부/시스템 프로그래밍/2. Integer Arithmetic.md",
-    "전공 공부/시스템 프로그래밍/1. Information Storage.md",
-    "전공 공부/지난 학기/DataStructure/Dictionary & Maps.md",
-    "전공 공부/지난 학기/DataStructure/Directed Graphs.md",
-    "전공 공부/지난 학기/DataStructure/DFS - BFS.md",
-    "전공 공부/지난 학기/DataStructure/Graphs.md",
-    "전공 공부/지난 학기/DataStructure/AVL Trees.md",
-    "전공 공부/지난 학기/DataStructure/Binary Search Tree.md",
-    "전공 공부/지난 학기/DataStructure/Hash Table.md",
-    "독서록/개발 관련 도서/구글 엔지니어는 이렇게 일한다.md",
     "독서록/개발 관련 도서/개발자의 글쓰기.md",
+    "독서록/개발 관련 도서/구글 엔지니어는 이렇게 일한다.md",
+    "전공 공부/지난 학기/DataStructure/Dictionary & Maps.md",
+    "전공 공부/지난 학기/DataStructure/Hash Table.md",
+    "전공 공부/지난 학기/DataStructure/Binary Search Tree.md",
+    "전공 공부/지난 학기/DataStructure/AVL Trees.md",
+    "전공 공부/지난 학기/DataStructure/Graphs.md",
+    "전공 공부/지난 학기/DataStructure/DFS - BFS.md",
+    "전공 공부/지난 학기/DataStructure/Directed Graphs.md",
+    "전공 공부/시스템 프로그래밍/1. Information Storage.md",
+    "전공 공부/시스템 프로그래밍/2. Integer Arithmetic.md",
     "전공 공부/오픈소스응용프로그래밍/코드 리뷰.md",
     "전공 공부/오픈소스응용프로그래밍/소프트웨어 공학 및 개발론 개요.md",
     "전공 공부/오픈소스응용프로그래밍/소프트웨어 공학의 필요성.md",
