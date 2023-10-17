@@ -6,7 +6,6 @@
       {
         "id": "5ff903d6a117a31c",
         "type": "tabs",
-        "dimension": 60.120643431635386,
         "children": [
           {
             "id": "cb4e8b6ed28074d4",
@@ -14,26 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "전공 공부/오픈소스응용프로그래밍/소프트웨어 공학 및 개발론 개요.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          }
-        ]
-      },
-      {
-        "id": "84040f46c08e921b",
-        "type": "tabs",
-        "dimension": 39.879356568364614,
-        "children": [
-          {
-            "id": "02d1d777d1b2c609",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "전공 공부/오픈소스응용프로그래밍/오픈소스응용공부.md",
+                "file": "독서록/개발 관련 도서/구글 엔지니어는 이렇게 일한다.md",
                 "mode": "source",
                 "source": false
               }
@@ -89,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "feabab388e8825fc",
@@ -105,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "전공 공부/오픈소스응용프로그래밍/소프트웨어 공학 및 개발론 개요.md",
+                "file": "독서록/개발 관련 도서/구글 엔지니어는 이렇게 일한다.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "전공 공부/오픈소스응용프로그래밍/소프트웨어 공학 및 개발론 개요.md",
+                "file": "독서록/개발 관련 도서/구글 엔지니어는 이렇게 일한다.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -145,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "전공 공부/오픈소스응용프로그래밍/소프트웨어 공학 및 개발론 개요.md"
+                "file": "독서록/개발 관련 도서/구글 엔지니어는 이렇게 일한다.md"
               }
             }
           },
@@ -188,6 +169,10 @@
   },
   "active": "cb4e8b6ed28074d4",
   "lastOpenFiles": [
+    "독서록/개발 관련 도서/개발자의 글쓰기.md",
+    "독서록/개발 관련 도서/구글 엔지니어는 이렇게 일한다.md",
+    "전공 공부/오픈소스응용프로그래밍/코드 리뷰.md",
+    "전공 공부/오픈소스응용프로그래밍/소프트웨어 공학 및 개발론 개요.md",
     "전공 공부/오픈소스응용프로그래밍/소프트웨어 공학의 필요성.md",
     "전공 공부/오픈소스응용프로그래밍/도커 파일과 깃허브를 이용한 파일 공유.md",
     "전공 공부/오픈소스응용프로그래밍/오픈소스응용공부.md",
@@ -199,9 +184,7 @@
     "Attached files/Pasted image 20231017170555.png",
     "전공 공부/오픈소스응용프로그래밍/오픈소스SW 및 라이선스.md",
     "전공 공부/오픈소스응용프로그래밍/C++ 스타일 가이드.md",
-    "전공 공부/오픈소스응용프로그래밍/코드 리뷰.md",
     "전공 공부/오픈소스응용프로그래밍/스타일 가이드.md",
-    "전공 공부/오픈소스응용프로그래밍/소프트웨어 공학 및 개발론 개요.md",
     "Attached files/Pasted image 20231017105505.png",
     "전공 공부/시스템 프로그래밍/시프 공부.md",
     "전공 공부/시스템 프로그래밍/11. Calling Conventions- Passing Control.md",
@@ -215,7 +198,6 @@
     "전공 공부/시스템 프로그래밍/3. Representations in memory.md",
     "전공 공부/시스템 프로그래밍/2. Integer Arithmetic.md",
     "전공 공부/시스템 프로그래밍/1. Information Storage.md",
-    "전공 공부/시스템 프로그래밍/C Basics.md",
     "Attached files/Pasted image 20231016213524.png",
     "Attached files/Pasted image 20231016213305.png",
     "Attached files/Pasted image 20231016213024.png",
