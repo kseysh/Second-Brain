@@ -11,7 +11,7 @@ C++ 라이브러리,
 다른 라이브러리들의 .h,
 현재 프로젝트의 .h 순으로 나열한다.
 모든 헤더 파일은 .이나 ..을 사용하지 않고 src의 하위요소로 나열되어야 한다.
-ex ) google-awesome-project/src/base/logging.h 는 이와 같이 \#include 되어야 한다.
+ex ) google-awesome-project/src/base/logging.h 는 이와 같이 `#include` 되어야 한다.
 `#include "base/logging.h"`
 각각의 부분 안에서 include는 알파벳 순서로 나열되어야 한다.
 ![[Pasted image 20231011145750.png]]
