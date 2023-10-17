@@ -60,7 +60,7 @@ GPL보다 완화된 라이선스
 '자유' 대신 오픈소스라는 용어 사용 
 GNU의 철학을 이어받되, 재배포 시 라이선스를 부여할 자유와 같이 실용적인 입장을 취함.
 
-### Free Software => Copyleft
+### Copyleft가 Free Software중 하나이다.
 ### Open Source => Permissive
 
 ### Permissive 라이선스
