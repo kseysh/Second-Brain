@@ -14,7 +14,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "전공 공부/시스템 프로그래밍/11. Calling Conventions- Passing Control.md",
+                "file": "전공 공부/오픈소스응용프로그래밍/Git.md",
                 "mode": "source",
                 "source": false
               }
@@ -33,8 +33,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "전공 공부/시스템 프로그래밍/시프 공부.md",
-                "mode": "preview",
+                "file": "전공 공부/오픈소스응용프로그래밍/오픈소스응용공부.md",
+                "mode": "source",
                 "source": false
               }
             }
@@ -58,7 +58,7 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical"
+                "sortOrder": "byCreatedTime"
               }
             }
           },
@@ -105,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "전공 공부/시스템 프로그래밍/시프 공부.md",
+                "file": "전공 공부/오픈소스응용프로그래밍/Git.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "전공 공부/시스템 프로그래밍/시프 공부.md",
+                "file": "전공 공부/오픈소스응용프로그래밍/Git.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -145,7 +145,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "전공 공부/시스템 프로그래밍/시프 공부.md"
+                "file": "전공 공부/오픈소스응용프로그래밍/Git.md"
               }
             }
           },
@@ -186,11 +186,15 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "02d1d777d1b2c609",
+  "active": "cb4e8b6ed28074d4",
   "lastOpenFiles": [
+    "전공 공부/오픈소스응용프로그래밍/오픈소스응용공부.md",
+    "전공 공부/오픈소스응용프로그래밍/Git.md",
+    "전공 공부/오픈소스응용프로그래밍/스타일 가이드.md",
+    "전공 공부/시스템 프로그래밍/시프 공부.md",
+    "전공 공부/오픈소스응용프로그래밍/소프트웨어 공학 및 개발론 개요.md",
     "전공 공부/시스템 프로그래밍/11. Calling Conventions- Passing Control.md",
     "전공 공부/시스템 프로그래밍/10. Stack Structure.md",
-    "전공 공부/시스템 프로그래밍/시프 공부.md",
     "전공 공부/시스템 프로그래밍/9. Conditional branches.md",
     "전공 공부/시스템 프로그래밍/8. Condition Codes.md",
     "전공 공부/시스템 프로그래밍/7. Arithmetic & Logical Operations.md",
@@ -215,14 +219,11 @@
     "전공 공부/자바기반응용프로그래밍/7주차.md",
     "전공 공부/시스템 프로그래밍/시스템 프로그래밍 들어가기 전.md",
     "전공 공부/시스템 프로그래밍/무제 파일.md",
-    "전공 공부/오픈소스응용프로그래밍/오픈소스응용공부.md",
     "전공 공부/오픈소스응용프로그래밍/코드 리뷰.md",
     "전공 공부/오픈소스응용프로그래밍/C++ 스타일 가이드.md",
     "전공 공부/오픈소스응용프로그래밍/디자인 패턴 개요.md",
     "전공 공부/오픈소스응용프로그래밍/객체지향개발 특성.md",
     "전공 공부/오픈소스응용프로그래밍/디자인패턴 종류.md",
-    "전공 공부/오픈소스응용프로그래밍/오픈소스SW 및 라이선스.md",
-    "전공 공부/오픈소스응용프로그래밍/Git.md",
     "독서록/개발 관련 도서/테스트주도개발시작하기",
     "ERROR_Diary/GIT",
     "전공 공부/자바기반응용프로그래밍",
