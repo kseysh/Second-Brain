@@ -4,8 +4,28 @@
     "type": "split",
     "children": [
       {
+        "id": "e322d7b08a117303",
+        "type": "tabs",
+        "dimension": 63.62229102167183,
+        "children": [
+          {
+            "id": "c1c173ad51d03af1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "전공 공부/이산구조/1. Logic and Proofs.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      },
+      {
         "id": "5ff903d6a117a31c",
         "type": "tabs",
+        "dimension": 36.37770897832817,
         "children": [
           {
             "id": "cb4e8b6ed28074d4",
@@ -13,7 +33,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "독서록/개발 관련 도서/구글 엔지니어는 이렇게 일한다.md",
+                "file": "전공 공부/이산구조/이산구조 질문.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,8 +89,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "feabab388e8825fc",
@@ -86,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "독서록/개발 관련 도서/구글 엔지니어는 이렇게 일한다.md",
+                "file": "전공 공부/이산구조/이산구조 질문.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "독서록/개발 관련 도서/구글 엔지니어는 이렇게 일한다.md",
+                "file": "전공 공부/이산구조/이산구조 질문.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +145,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "독서록/개발 관련 도서/구글 엔지니어는 이렇게 일한다.md"
+                "file": "전공 공부/이산구조/이산구조 질문.md"
               }
             }
           },
@@ -169,9 +188,11 @@
   },
   "active": "cb4e8b6ed28074d4",
   "lastOpenFiles": [
+    "전공 공부/이산구조/1. Logic and Proofs.md",
+    "전공 공부/이산구조/이산구조 질문.md",
+    "독서록/개발 관련 도서/구글 엔지니어는 이렇게 일한다.md",
     "Attached files/Pasted image 20231018005733.png",
     "전공 공부/시스템 프로그래밍/4. Floating point.md",
-    "독서록/개발 관련 도서/구글 엔지니어는 이렇게 일한다.md",
     "독서록/개발 관련 도서/개발자의 글쓰기.md",
     "전공 공부/지난 학기/DataStructure/Dictionary & Maps.md",
     "전공 공부/지난 학기/DataStructure/Hash Table.md",
@@ -197,14 +218,12 @@
     "전공 공부/오픈소스응용프로그래밍/C++ 스타일 가이드.md",
     "전공 공부/오픈소스응용프로그래밍/스타일 가이드.md",
     "Attached files/Pasted image 20231017105505.png",
-    "전공 공부/시스템 프로그래밍/시프 공부.md",
     "Attached files/Pasted image 20231016213524.png",
     "Attached files/Pasted image 20231016213305.png",
     "Attached files/Pasted image 20231016213024.png",
     "Attached files/Pasted image 20231016212945.png",
     "Attached files/Pasted image 20231016212347.png",
     "Attached files/Pasted image 20231016212133.png",
-    "Attached files/Pasted image 20231016212009.png",
     "독서록/개발 관련 도서/테스트주도개발시작하기",
     "ERROR_Diary/GIT",
     "전공 공부/자바기반응용프로그래밍",
