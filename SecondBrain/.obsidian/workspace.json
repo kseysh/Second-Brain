@@ -14,7 +14,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "전공 공부/시스템 프로그래밍/10. Stack Structure.md",
+                "file": "전공 공부/시스템 프로그래밍/9. Conditional branches.md",
                 "mode": "source",
                 "source": false
               }
@@ -105,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "전공 공부/시스템 프로그래밍/시프 공부.md",
+                "file": "전공 공부/시스템 프로그래밍/9. Conditional branches.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "전공 공부/시스템 프로그래밍/시프 공부.md",
+                "file": "전공 공부/시스템 프로그래밍/9. Conditional branches.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -145,7 +145,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "전공 공부/시스템 프로그래밍/시프 공부.md"
+                "file": "전공 공부/시스템 프로그래밍/9. Conditional branches.md"
               }
             }
           },
@@ -186,9 +186,10 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "3b1426edde91423b",
+  "active": "c1c173ad51d03af1",
   "lastOpenFiles": [
     "전공 공부/시스템 프로그래밍/10. Stack Structure.md",
+    "전공 공부/시스템 프로그래밍/시프 공부.md",
     "전공 공부/시스템 프로그래밍/1. Information Storage.md",
     "전공 공부/시스템 프로그래밍/시스템 프로그래밍 들어가기 전.md",
     "전공 공부/이산구조/Algorithms.md",
@@ -214,7 +215,6 @@
     "전공 공부/지난 학기/DataStructure/Hash Table.md",
     "전공 공부/지난 학기/DataStructure/Binary Search Tree.md",
     "전공 공부/지난 학기/DataStructure/AVL Trees.md",
-    "전공 공부/지난 학기/DataStructure/Graphs.md",
     "Attached files/Pasted image 20231017172001.png",
     "Attached files/Pasted image 20231017170555.png",
     "Attached files/Pasted image 20231017105505.png",
