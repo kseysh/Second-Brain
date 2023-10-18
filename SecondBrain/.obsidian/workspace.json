@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SQL/SQL 문법/SUM.md",
+                "file": "SQL/SQL 문법/GROUP BY.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "feabab388e8825fc",
@@ -85,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SQL/SQL 문법/SUM.md",
+                "file": "SQL/SQL 문법/GROUP BY.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SQL/SQL 문법/SUM.md",
+                "file": "SQL/SQL 문법/GROUP BY.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SQL/SQL 문법/SUM.md"
+                "file": "SQL/SQL 문법/GROUP BY.md"
               }
             }
           },
@@ -168,12 +169,12 @@
   },
   "active": "c1c173ad51d03af1",
   "lastOpenFiles": [
-    "SQL/SQL 문법/COUNT.md",
     "SQL/SQL 문법/AVG.md",
-    "SQL/SQL 문법/SUM.md",
-    "SQL/SQL 문법/DATEDIFF.md",
-    "SQL/SQL 문법/HAVING.md",
     "SQL/SQL 문법/GROUP BY.md",
+    "SQL/SQL 문법/HAVING.md",
+    "SQL/SQL 문법/DATEDIFF.md",
+    "SQL/SQL 문법/COUNT.md",
+    "SQL/SQL 문법/SUM.md",
     "SQL/SQL 문법/LIKE.md",
     "SQL/2주차 SQL 과제.md",
     "SQL/SQL 문법",
