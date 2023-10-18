@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SQL/LIKE.md",
+                "file": "SQL/SQL 문법/SUM.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SQL/LIKE.md",
+                "file": "SQL/SQL 문법/SUM.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SQL/LIKE.md",
+                "file": "SQL/SQL 문법/SUM.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SQL/LIKE.md"
+                "file": "SQL/SQL 문법/SUM.md"
               }
             }
           },
@@ -168,16 +168,23 @@
   },
   "active": "c1c173ad51d03af1",
   "lastOpenFiles": [
-    "SQL/REGEXP.md",
-    "SQL/LIKE.md",
+    "SQL/SQL 문법/COUNT.md",
+    "SQL/SQL 문법/AVG.md",
+    "SQL/SQL 문법/SUM.md",
+    "SQL/SQL 문법/DATEDIFF.md",
+    "SQL/SQL 문법/HAVING.md",
+    "SQL/SQL 문법/GROUP BY.md",
+    "SQL/SQL 문법/LIKE.md",
     "SQL/2주차 SQL 과제.md",
+    "SQL/SQL 문법",
+    "SQL/SQL 문법/REGEXP.md",
     "SQL/SQL 문제/2단계/조건에 부합하는 중고거래 상태 조회하기.md",
     "SQL/SQL 문제/1단계/조건에 부합하는 중고거래 댓글 조회하기.md",
     "전공 공부/시스템 프로그래밍/9. Conditional branches.md",
     "전공 공부/시스템 프로그래밍/10. Stack Structure.md",
     "SQL/SQL문.md",
-    "SQL/JOIN.md",
-    "SQL/UNION.md",
+    "SQL/SQL 문법/JOIN.md",
+    "SQL/SQL 문법/UNION.md",
     "전공 공부/시스템 프로그래밍/시프 공부.md",
     "전공 공부/시스템 프로그래밍/1. Information Storage.md",
     "전공 공부/시스템 프로그래밍/시스템 프로그래밍 들어가기 전.md",
@@ -188,12 +195,6 @@
     "전공 공부/이산구조/Functions.md",
     "전공 공부/이산구조/Sets.md",
     "전공 공부/이산구조/2. Basic Structures.md",
-    "전공 공부/이산구조/1. Logic and Proofs.md",
-    "전공 공부/이산구조/이산구조 질문.md",
-    "전공 공부/이산구조/이산구조 문제.md",
-    "전공 공부/이산구조/Growth of Functions.md",
-    "전공 공부/이산구조/Induction and recursion.md",
-    "전공 공부/이산구조/The Basics of Counting.md",
     "Attached files/Pasted image 20231018005733.png",
     "Attached files/Pasted image 20231017172001.png",
     "Attached files/Pasted image 20231017170555.png",
@@ -213,7 +214,6 @@
     "SQL/SQL 문제/1단계",
     "SQL/SQL 문제",
     "SQL",
-    "Spring/JPA",
     "무제 파일.canvas"
   ]
 }
