@@ -35,6 +35,7 @@ A⊆B이지만, A≠B인 집합
 ## Set Cardinality (집합의 크기)
 \| {a,b,c} | = 3 
 
+> 공집합은 원소가 아니다!
 ## **Power Sets**
 집합 A의 모든 subset, `P(A)`라고도 부른다.
 n개의 원소가 있을 때, power set의 cardinality는 2ⁿ개이다. 
