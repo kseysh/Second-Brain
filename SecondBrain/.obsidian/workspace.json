@@ -6,7 +6,6 @@
       {
         "id": "e322d7b08a117303",
         "type": "tabs",
-        "dimension": 60.913312693498455,
         "children": [
           {
             "id": "c1c173ad51d03af1",
@@ -14,26 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "전공 공부/시스템 프로그래밍/9. Conditional branches.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          }
-        ]
-      },
-      {
-        "id": "ac668b4857a3f6c0",
-        "type": "tabs",
-        "dimension": 39.08668730650155,
-        "children": [
-          {
-            "id": "3b1426edde91423b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "전공 공부/시스템 프로그래밍/시프 공부.md",
+                "file": "SQL/LIKE.md",
                 "mode": "source",
                 "source": false
               }
@@ -105,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "전공 공부/시스템 프로그래밍/9. Conditional branches.md",
+                "file": "SQL/LIKE.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "전공 공부/시스템 프로그래밍/9. Conditional branches.md",
+                "file": "SQL/LIKE.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -145,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "전공 공부/시스템 프로그래밍/9. Conditional branches.md"
+                "file": "SQL/LIKE.md"
               }
             }
           },
@@ -188,7 +168,14 @@
   },
   "active": "c1c173ad51d03af1",
   "lastOpenFiles": [
+    "SQL/SQL 문제/2단계/조건에 부합하는 중고거래 상태 조회하기.md",
+    "SQL/LIKE.md",
+    "SQL/SQL 문제/1단계/조건에 부합하는 중고거래 댓글 조회하기.md",
+    "전공 공부/시스템 프로그래밍/9. Conditional branches.md",
     "전공 공부/시스템 프로그래밍/10. Stack Structure.md",
+    "SQL/SQL문.md",
+    "SQL/JOIN.md",
+    "SQL/UNION.md",
     "전공 공부/시스템 프로그래밍/시프 공부.md",
     "전공 공부/시스템 프로그래밍/1. Information Storage.md",
     "전공 공부/시스템 프로그래밍/시스템 프로그래밍 들어가기 전.md",
@@ -207,14 +194,7 @@
     "전공 공부/이산구조/The Basics of Counting.md",
     "전공 공부/이산구조/Recursive Algorithms.md",
     "전공 공부/이산구조/이산수학 기호.md",
-    "독서록/개발 관련 도서/구글 엔지니어는 이렇게 일한다.md",
     "Attached files/Pasted image 20231018005733.png",
-    "전공 공부/시스템 프로그래밍/4. Floating point.md",
-    "독서록/개발 관련 도서/개발자의 글쓰기.md",
-    "전공 공부/지난 학기/DataStructure/Dictionary & Maps.md",
-    "전공 공부/지난 학기/DataStructure/Hash Table.md",
-    "전공 공부/지난 학기/DataStructure/Binary Search Tree.md",
-    "전공 공부/지난 학기/DataStructure/AVL Trees.md",
     "Attached files/Pasted image 20231017172001.png",
     "Attached files/Pasted image 20231017170555.png",
     "Attached files/Pasted image 20231017105505.png",
@@ -228,11 +208,11 @@
     "ERROR_Diary/GIT",
     "전공 공부/자바기반응용프로그래밍",
     "전공 공부/전자상거래",
-    "Spring/SQL/SQL 문제/3단계",
-    "Spring/SQL/SQL 문제/2단계",
-    "Spring/SQL/SQL 문제/1단계",
-    "Spring/SQL/SQL 문제",
-    "Spring/SQL",
+    "SQL/SQL 문제/3단계",
+    "SQL/SQL 문제/2단계",
+    "SQL/SQL 문제/1단계",
+    "SQL/SQL 문제",
+    "SQL",
     "Spring/JPA",
     "무제 파일.canvas"
   ]
