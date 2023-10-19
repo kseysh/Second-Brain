@@ -170,3 +170,4 @@ null을 입력할 경우 ![[Pasted image 20231016112732.png]]
 ![[Pasted image 20231016113810.png]]
 ![[Pasted image 20231016113818.png]]
 
+메소드 이름을 자세히 적어야 하는가?
