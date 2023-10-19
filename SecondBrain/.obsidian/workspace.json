@@ -6,9 +6,29 @@
       {
         "id": "e322d7b08a117303",
         "type": "tabs",
+        "dimension": 67.95665634674923,
         "children": [
           {
             "id": "c1c173ad51d03af1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "전공 공부/시스템 프로그래밍/7. Arithmetic & Logical Operations.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "db22646f4c4e1585",
+        "type": "tabs",
+        "dimension": 32.04334365325077,
+        "children": [
+          {
+            "id": "da9be27468d25ec9",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -166,23 +186,23 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "c1c173ad51d03af1",
+  "active": "da9be27468d25ec9",
   "lastOpenFiles": [
-    "전공 공부/시스템 프로그래밍/8. Condition Codes.md",
     "전공 공부/시스템 프로그래밍/7. Arithmetic & Logical Operations.md",
-    "전공 공부/시스템 프로그래밍/6. Registers, Operands, Move.md",
     "전공 공부/시스템 프로그래밍/5. C, assembly, machince code.md",
+    "전공 공부/시스템 프로그래밍/시프 공부.md",
+    "전공 공부/시스템 프로그래밍/1. Information Storage.md",
+    "전공 공부/시스템 프로그래밍/8. Condition Codes.md",
+    "전공 공부/시스템 프로그래밍/6. Registers, Operands, Move.md",
     "전공 공부/시스템 프로그래밍/4. Floating point.md",
     "전공 공부/시스템 프로그래밍/3. Representations in memory.md",
     "전공 공부/시스템 프로그래밍/2. Integer Arithmetic.md",
-    "전공 공부/시스템 프로그래밍/1. Information Storage.md",
     "전공 공부/시스템 프로그래밍/C Basics.md",
     "전공 공부/시스템 프로그래밍/시스템 프로그래밍 들어가기 전.md",
     "전공 공부/시스템 프로그래밍/11. Calling Conventions- Passing Control.md",
     "전공 공부/시스템 프로그래밍/10. Stack Structure.md",
     "전공 공부/시스템 프로그래밍/9. Conditional branches.md",
     "Attached files/Pasted image 20231019095211.png",
-    "전공 공부/시스템 프로그래밍/시프 공부.md",
     "SQL/SQL 문법/HAVING.md",
     "SQL/SQL 문법/GROUP BY.md",
     "SQL/SQL 문법/DATEDIFF.md",
