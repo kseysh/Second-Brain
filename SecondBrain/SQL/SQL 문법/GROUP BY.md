@@ -10,30 +10,14 @@ GROUP BY를 사용할 때는 두가지가 필요하다.
 
 EX)
 ### 컬럼 그룹화
-
 `SELECT 컬럼 FROM 테이블 GROUP BY 그룹화할 컬럼;`
-
-  
-
 ### 조건 처리 후에 컬럼 그룹화
-
 `SELECT 컬럼 FROM 테이블 WHERE 조건식 GROUP BY 그룹화할 컬럼;`
-
-  
-
 ### 컬럼 그룹화 후에 조건 처리
-
 `SELECT 컬럼 FROM 테이블 GROUP BY 그룹화할 컬럼 HAVING 조건식;`
-
-  
-
 ### 조건 처리 후에 컬럼 그룹화 후에 조건 처리
-
 `SELECT 컬럼 FROM 테이블 WHERE 조건식 GROUP BY 그룹화할 컬럼 HAVING 조건식;`
-
-  
-
 ### ORDER BY가 존재하는 경우
-
 `SELECT 컬럼 FROM 테이블 [WHERE 조건식]`
 `GROUP BY 그룹화할 컬럼 [HAVING 조건식] ORDER BY 컬럼1 [, 컬럼2, 컬럼3 ...];`
+

@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SQL/SQL 문법/GROUP BY.md",
+                "file": "SQL/SQL 문법/DATEDIFF.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "feabab388e8825fc",
@@ -86,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SQL/SQL 문법/GROUP BY.md",
+                "file": "SQL/SQL 문법/DATEDIFF.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SQL/SQL 문법/GROUP BY.md",
+                "file": "SQL/SQL 문법/DATEDIFF.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SQL/SQL 문법/GROUP BY.md"
+                "file": "SQL/SQL 문법/DATEDIFF.md"
               }
             }
           },
@@ -167,12 +166,14 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "c1c173ad51d03af1",
+  "active": "77e0b92a051c28ac",
   "lastOpenFiles": [
     "SQL/SQL 문법/AVG.md",
-    "SQL/SQL 문법/GROUP BY.md",
-    "SQL/SQL 문법/HAVING.md",
+    "SQL/SQL 문법/ROUND.md",
+    "SQL/SQL 문법/TIMESTAMPDIFF.md",
     "SQL/SQL 문법/DATEDIFF.md",
+    "SQL/SQL 문법/HAVING.md",
+    "SQL/SQL 문법/GROUP BY.md",
     "SQL/SQL 문법/COUNT.md",
     "SQL/SQL 문법/SUM.md",
     "SQL/SQL 문법/LIKE.md",
@@ -194,8 +195,6 @@
     "전공 공부/이산구조/Cardinality of Sets.md",
     "전공 공부/이산구조/Sequences.md",
     "전공 공부/이산구조/Functions.md",
-    "전공 공부/이산구조/Sets.md",
-    "전공 공부/이산구조/2. Basic Structures.md",
     "Attached files/Pasted image 20231018005733.png",
     "Attached files/Pasted image 20231017172001.png",
     "Attached files/Pasted image 20231017170555.png",

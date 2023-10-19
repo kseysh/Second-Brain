@@ -1,0 +1,5 @@
+반올림을 해주는 함수
+
+EX)
+`SELECT ROUND(1234.56789) FROM DUAL`
+\> 1234
