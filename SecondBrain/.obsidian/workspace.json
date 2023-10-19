@@ -20,24 +20,6 @@
             }
           }
         ]
-      },
-      {
-        "id": "322ea84b0265f898",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "55c482fd7b58a108",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "전공 공부/시스템 프로그래밍/시프 공부.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          }
-        ]
       }
     ],
     "direction": "vertical"
@@ -186,6 +168,7 @@
   },
   "active": "c1c173ad51d03af1",
   "lastOpenFiles": [
+    "Attached files/Pasted image 20231019095211.png",
     "전공 공부/시스템 프로그래밍/10. Stack Structure.md",
     "전공 공부/시스템 프로그래밍/시프 공부.md",
     "SQL/SQL 문법/HAVING.md",
@@ -212,7 +195,6 @@
     "전공 공부/이산구조/Matrix.md",
     "전공 공부/이산구조/Cardinality of Sets.md",
     "전공 공부/이산구조/Sequences.md",
-    "전공 공부/이산구조/Functions.md",
     "Attached files/Pasted image 20231018005733.png",
     "Attached files/Pasted image 20231017172001.png",
     "Attached files/Pasted image 20231017170555.png",
