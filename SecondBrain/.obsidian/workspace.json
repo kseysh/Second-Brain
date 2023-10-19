@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "전공 공부/시스템 프로그래밍/6. Registers, Operands, Move.md",
+                "file": "전공 공부/시스템 프로그래밍/7. Arithmetic & Logical Operations.md",
                 "mode": "preview",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "전공 공부/시스템 프로그래밍/6. Registers, Operands, Move.md",
+                "file": "전공 공부/시스템 프로그래밍/7. Arithmetic & Logical Operations.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "전공 공부/시스템 프로그래밍/6. Registers, Operands, Move.md",
+                "file": "전공 공부/시스템 프로그래밍/7. Arithmetic & Logical Operations.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "전공 공부/시스템 프로그래밍/6. Registers, Operands, Move.md"
+                "file": "전공 공부/시스템 프로그래밍/7. Arithmetic & Logical Operations.md"
               }
             }
           },
@@ -168,6 +168,7 @@
   },
   "active": "c1c173ad51d03af1",
   "lastOpenFiles": [
+    "전공 공부/시스템 프로그래밍/6. Registers, Operands, Move.md",
     "전공 공부/시스템 프로그래밍/5. C, assembly, machince code.md",
     "전공 공부/시스템 프로그래밍/4. Floating point.md",
     "전공 공부/시스템 프로그래밍/3. Representations in memory.md",
@@ -195,7 +196,6 @@
     "SQL/SQL 문제/2단계/조건에 부합하는 중고거래 상태 조회하기.md",
     "SQL/SQL 문제/1단계/조건에 부합하는 중고거래 댓글 조회하기.md",
     "SQL/SQL문.md",
-    "SQL/SQL 문법/JOIN.md",
     "Attached files/Pasted image 20231018005733.png",
     "Attached files/Pasted image 20231017172001.png",
     "Attached files/Pasted image 20231017170555.png",
