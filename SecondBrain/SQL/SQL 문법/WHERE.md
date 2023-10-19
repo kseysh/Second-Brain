@@ -20,13 +20,15 @@ WHERE Country = 'Mexico';
 ```
 
 #### 사용할 수 있는 연산자
+
+| 연산자  | 설명                                                                            |
 | ------- | ------------------------------------------------------------------------------- |
 | =       | Equal                                                                           |
 | >       | Greater than                                                                    |
 | <       | Less than                                                                       |
 | >=      | Greater than or equal                                                           |
 | <=      | Less than or equal                                                              |
-| <>      | Not equal. **Note:** In some versions of SQL this operator may be written as != |
+| <>  or !=    | Not equal.  |
 | BETWEEN | Between a certain range                                                         |
 | LIKE    | Search for a pattern                                                            |
 | IN      | To specify multiple possible values for a column                                |

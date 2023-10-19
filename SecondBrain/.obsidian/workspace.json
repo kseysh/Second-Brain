@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SQL/SQL 문법/WHERE.md",
+                "file": "SQL/SQL 문법/DISTINCT.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SQL/SQL 문법/WHERE.md",
+                "file": "SQL/SQL 문법/DISTINCT.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SQL/SQL 문법/WHERE.md",
+                "file": "SQL/SQL 문법/DISTINCT.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SQL/SQL 문법/WHERE.md"
+                "file": "SQL/SQL 문법/DISTINCT.md"
               }
             }
           },
@@ -168,15 +168,15 @@
   },
   "active": "da9be27468d25ec9",
   "lastOpenFiles": [
-    "SQL/SQL 문법/ROUND.md",
     "SQL/SQL 문법/WHERE.md",
+    "SQL/SQL 문법/ROUND.md",
+    "SQL/SQL 문법/LIKE.md",
     "SQL/SQL 문법/DISTINCT.md",
     "SQL/SQL 문법/MONTH.md",
     "SQL/SQL 문법/TIMESTAMPDIFF.md",
     "SQL/SQL 문법/COUNT.md",
     "SQL/SQL 문법/SQL 문법 순서도.md",
     "SQL/SQL 문법/JOIN.md",
-    "SQL/SQL 문법/LIKE.md",
     "SQL/SQL 문법/REGEXP.md",
     "SQL/SQL 문법/UNION.md",
     "SQL/SQL 문법/MAX, MIN.md",
