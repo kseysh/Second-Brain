@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SQL/SQL 문법/날짜 관련 함수.md",
+                "file": "독서록/개발 관련 도서/테스트주도개발시작하기/TDD 시작.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SQL/SQL 문법/날짜 관련 함수.md",
+                "file": "독서록/개발 관련 도서/테스트주도개발시작하기/TDD 시작.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SQL/SQL 문법/날짜 관련 함수.md",
+                "file": "독서록/개발 관련 도서/테스트주도개발시작하기/TDD 시작.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SQL/SQL 문법/날짜 관련 함수.md"
+                "file": "독서록/개발 관련 도서/테스트주도개발시작하기/TDD 시작.md"
               }
             }
           },
@@ -168,8 +168,8 @@
   },
   "active": "da9be27468d25ec9",
   "lastOpenFiles": [
-    "SQL/SQL 문법/TIMESTAMPDIFF.md",
     "SQL/SQL 문법/날짜 관련 함수.md",
+    "SQL/SQL 문법/TIMESTAMPDIFF.md",
     "SQL/SQL 문법/GROUP BY.md",
     "SQL/SQL 문법/DISTINCT.md",
     "SQL/SQL 문법/WHERE.md",
