@@ -14,7 +14,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "전공 공부/시스템 프로그래밍/1. Information Storage.md",
+                "file": "전공 공부/시스템 프로그래밍/10. Stack Structure.md",
                 "mode": "source",
                 "source": false
               }
@@ -105,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "전공 공부/시스템 프로그래밍/1. Information Storage.md",
+                "file": "전공 공부/시스템 프로그래밍/10. Stack Structure.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "전공 공부/시스템 프로그래밍/1. Information Storage.md",
+                "file": "전공 공부/시스템 프로그래밍/10. Stack Structure.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -145,7 +145,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "전공 공부/시스템 프로그래밍/1. Information Storage.md"
+                "file": "전공 공부/시스템 프로그래밍/10. Stack Structure.md"
               }
             }
           },
@@ -188,6 +188,7 @@
   },
   "active": "c1c173ad51d03af1",
   "lastOpenFiles": [
+    "전공 공부/시스템 프로그래밍/1. Information Storage.md",
     "전공 공부/시스템 프로그래밍/11. Calling Conventions- Passing Control.md",
     "전공 공부/시스템 프로그래밍/시프 공부.md",
     "전공 공부/시스템 프로그래밍/10. Stack Structure.md",
@@ -199,7 +200,6 @@
     "전공 공부/시스템 프로그래밍/4. Floating point.md",
     "전공 공부/시스템 프로그래밍/3. Representations in memory.md",
     "전공 공부/시스템 프로그래밍/2. Integer Arithmetic.md",
-    "전공 공부/시스템 프로그래밍/1. Information Storage.md",
     "전공 공부/시스템 프로그래밍/C Basics.md",
     "전공 공부/시스템 프로그래밍/시스템 프로그래밍 들어가기 전.md",
     "Attached files/Pasted image 20231019095211.png",
