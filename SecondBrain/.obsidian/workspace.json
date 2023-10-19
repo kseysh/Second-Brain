@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SQL/SQL 문제/1단계/조건에 부합하는 중고거래 댓글 조회하기.md",
+                "file": "SQL/SQL 문법/JOIN.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SQL/SQL 문제/1단계/조건에 부합하는 중고거래 댓글 조회하기.md",
+                "file": "SQL/SQL 문법/JOIN.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SQL/SQL 문제/1단계/조건에 부합하는 중고거래 댓글 조회하기.md",
+                "file": "SQL/SQL 문법/JOIN.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SQL/SQL 문제/1단계/조건에 부합하는 중고거래 댓글 조회하기.md"
+                "file": "SQL/SQL 문법/JOIN.md"
               }
             }
           },
@@ -168,12 +168,18 @@
   },
   "active": "da9be27468d25ec9",
   "lastOpenFiles": [
+    "SQL/SQL 문법/WHERE.md",
+    "SQL/SQL 문법/DISTINCT.md",
+    "SQL/SQL 문법/LIKE.md",
+    "SQL/SQL 문법/REGEXP.md",
+    "SQL/SQL 문법/UNION.md",
+    "SQL/SQL 문법/MAX, MIN.md",
+    "SQL/SQL 문법/CONCAT.md",
+    "SQL/SQL 문법/CASE WHEN.md",
+    "SQL/SQL 문제/1단계/조건에 부합하는 중고거래 댓글 조회하기.md",
     "SQL/SQL 문법/JOIN.md",
     "SQL/SQL 문제/3단계/조회수가 가장 많은 중고거래 게시판의 첨부파일 조회하기.md",
     "SQL/SQL 문제/2단계/조건에 부합하는 중고거래 상태 조회하기.md",
-    "SQL/SQL 문제/1단계/조건에 부합하는 중고거래 댓글 조회하기.md",
-    "SQL/SQL 문법/CASE WHEN.md",
-    "SQL/SQL 문법/CONCAT.md",
     "DB 스터디 2주차 과제.md",
     "나중에 더 공부할 내용.md",
     "블로깅을 하는 방법.md",
@@ -188,12 +194,6 @@
     "전공 공부/시스템 프로그래밍/8. Condition Codes.md",
     "전공 공부/시스템 프로그래밍/7. Arithmetic & Logical Operations.md",
     "전공 공부/시스템 프로그래밍/6. Registers, Operands, Move.md",
-    "전공 공부/시스템 프로그래밍/4. Floating point.md",
-    "전공 공부/시스템 프로그래밍/5. C, assembly, machince code.md",
-    "전공 공부/시스템 프로그래밍/3. Representations in memory.md",
-    "전공 공부/시스템 프로그래밍/2. Integer Arithmetic.md",
-    "전공 공부/시스템 프로그래밍/1. Information Storage.md",
-    "전공 공부/시스템 프로그래밍/C Basics.md",
     "Attached files/Pasted image 20231019095211.png",
     "SQL/SQL 문법",
     "Attached files/Pasted image 20231018005733.png",
