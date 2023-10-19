@@ -171,3 +171,9 @@ null을 입력할 경우 ![[Pasted image 20231016112732.png]]
 ![[Pasted image 20231016113818.png]]
 
 메소드 이름을 자세히 적어야 하는가?
+테스트 케이스를 작성해본다
+엣지 케이스
+엣지 케이스 찾는데 도움이 된다.
+assertStrength로 리팩토링 진행 -> given when then으로 테스트를 하는 데 given만 있고 when then이 합쳐짐
+given when then은 행위 주도 개발이다.
+행위 주도 개발이란
