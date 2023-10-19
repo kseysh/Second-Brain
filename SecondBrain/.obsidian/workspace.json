@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "전공 공부/시스템 프로그래밍/9. Conditional branches.md",
+                "file": "전공 공부/시스템 프로그래밍/11. Calling Conventions- Passing Control.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "전공 공부/시스템 프로그래밍/9. Conditional branches.md",
+                "file": "전공 공부/시스템 프로그래밍/11. Calling Conventions- Passing Control.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "전공 공부/시스템 프로그래밍/9. Conditional branches.md",
+                "file": "전공 공부/시스템 프로그래밍/11. Calling Conventions- Passing Control.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "전공 공부/시스템 프로그래밍/9. Conditional branches.md"
+                "file": "전공 공부/시스템 프로그래밍/11. Calling Conventions- Passing Control.md"
               }
             }
           },
@@ -168,8 +168,9 @@
   },
   "active": "c1c173ad51d03af1",
   "lastOpenFiles": [
-    "Attached files/Pasted image 20231019095211.png",
     "전공 공부/시스템 프로그래밍/10. Stack Structure.md",
+    "전공 공부/시스템 프로그래밍/9. Conditional branches.md",
+    "Attached files/Pasted image 20231019095211.png",
     "전공 공부/시스템 프로그래밍/시프 공부.md",
     "SQL/SQL 문법/HAVING.md",
     "SQL/SQL 문법/GROUP BY.md",
@@ -185,7 +186,6 @@
     "SQL/SQL 문법/REGEXP.md",
     "SQL/SQL 문제/2단계/조건에 부합하는 중고거래 상태 조회하기.md",
     "SQL/SQL 문제/1단계/조건에 부합하는 중고거래 댓글 조회하기.md",
-    "전공 공부/시스템 프로그래밍/9. Conditional branches.md",
     "SQL/SQL문.md",
     "SQL/SQL 문법/JOIN.md",
     "SQL/SQL 문법/UNION.md",
@@ -204,7 +204,6 @@
     "Attached files/Pasted image 20231016213024.png",
     "Attached files/Pasted image 20231016212945.png",
     "Attached files/Pasted image 20231016212347.png",
-    "Attached files/Pasted image 20231016212133.png",
     "독서록/개발 관련 도서/테스트주도개발시작하기",
     "ERROR_Diary/GIT",
     "전공 공부/자바기반응용프로그래밍",
