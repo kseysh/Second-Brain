@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "전공 공부/시스템 프로그래밍/2. Integer Arithmetic.md",
-                "mode": "source",
+                "file": "전공 공부/시스템 프로그래밍/4. Floating point.md",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "전공 공부/시스템 프로그래밍/2. Integer Arithmetic.md",
+                "file": "전공 공부/시스템 프로그래밍/4. Floating point.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "전공 공부/시스템 프로그래밍/2. Integer Arithmetic.md",
+                "file": "전공 공부/시스템 프로그래밍/4. Floating point.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "전공 공부/시스템 프로그래밍/2. Integer Arithmetic.md"
+                "file": "전공 공부/시스템 프로그래밍/4. Floating point.md"
               }
             }
           },
@@ -168,6 +168,8 @@
   },
   "active": "c1c173ad51d03af1",
   "lastOpenFiles": [
+    "전공 공부/시스템 프로그래밍/3. Representations in memory.md",
+    "전공 공부/시스템 프로그래밍/2. Integer Arithmetic.md",
     "전공 공부/시스템 프로그래밍/1. Information Storage.md",
     "전공 공부/시스템 프로그래밍/C Basics.md",
     "전공 공부/시스템 프로그래밍/시스템 프로그래밍 들어가기 전.md",
@@ -194,8 +196,6 @@
     "SQL/SQL 문법/JOIN.md",
     "SQL/SQL 문법/UNION.md",
     "전공 공부/이산구조/Algorithms.md",
-    "전공 공부/이산구조/Matrix.md",
-    "전공 공부/이산구조/Cardinality of Sets.md",
     "Attached files/Pasted image 20231018005733.png",
     "Attached files/Pasted image 20231017172001.png",
     "Attached files/Pasted image 20231017170555.png",
