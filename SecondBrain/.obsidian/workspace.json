@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "독서록/개발 관련 도서/테스트주도개발시작하기/TDD 시작.md",
+                "file": "전공 공부/오픈소스응용프로그래밍/오픈소스SW 및 라이선스.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "feabab388e8825fc",
@@ -86,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "독서록/개발 관련 도서/테스트주도개발시작하기/TDD 시작.md",
+                "file": "전공 공부/오픈소스응용프로그래밍/오픈소스SW 및 라이선스.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "독서록/개발 관련 도서/테스트주도개발시작하기/TDD 시작.md",
+                "file": "전공 공부/오픈소스응용프로그래밍/오픈소스SW 및 라이선스.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "독서록/개발 관련 도서/테스트주도개발시작하기/TDD 시작.md"
+                "file": "전공 공부/오픈소스응용프로그래밍/오픈소스SW 및 라이선스.md"
               }
             }
           },
@@ -169,6 +168,7 @@
   },
   "active": "da9be27468d25ec9",
   "lastOpenFiles": [
+    "독서록/개발 관련 도서/테스트주도개발시작하기/TDD 시작.md",
     "SQL/SQL 문법/날짜 관련 함수.md",
     "SQL/SQL 문법/TIMESTAMPDIFF.md",
     "SQL/SQL 문법/GROUP BY.md",
@@ -194,7 +194,6 @@
     "전공 공부/오픈소스응용프로그래밍/오픈소스응용공부.md",
     "공부용.md",
     "전공 공부/시스템 프로그래밍/시프 공부.md",
-    "전공 공부/오픈소스응용프로그래밍/오픈소스SW 및 라이선스.md",
     "Attached files/Pasted image 20231019095211.png",
     "SQL/SQL 문법",
     "Attached files/Pasted image 20231018005733.png",
