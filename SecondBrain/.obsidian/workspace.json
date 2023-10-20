@@ -14,7 +14,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "독서록/개발 관련 도서/구글 엔지니어는 이렇게 일한다.md",
+                "file": "전공 공부/오픈소스응용프로그래밍/도커와 이미지, 컨테이너.md",
                 "mode": "source",
                 "source": false
               }
@@ -105,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "독서록/개발 관련 도서/구글 엔지니어는 이렇게 일한다.md",
+                "file": "전공 공부/오픈소스응용프로그래밍/도커와 이미지, 컨테이너.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "독서록/개발 관련 도서/구글 엔지니어는 이렇게 일한다.md",
+                "file": "전공 공부/오픈소스응용프로그래밍/도커와 이미지, 컨테이너.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -145,7 +145,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "독서록/개발 관련 도서/구글 엔지니어는 이렇게 일한다.md"
+                "file": "전공 공부/오픈소스응용프로그래밍/도커와 이미지, 컨테이너.md"
               }
             }
           },
@@ -190,6 +190,7 @@
   "lastOpenFiles": [
     "전공 공부/오픈소스응용프로그래밍/Git.md",
     "전공 공부/오픈소스응용프로그래밍/오픈소스응용공부.md",
+    "독서록/개발 관련 도서/구글 엔지니어는 이렇게 일한다.md",
     "전공 공부/오픈소스응용프로그래밍/오픈소스SW 및 라이선스.md",
     "독서록/개발 관련 도서/테스트주도개발시작하기/TDD 시작.md",
     "SQL/SQL 문법/날짜 관련 함수.md",
@@ -213,7 +214,6 @@
     "DB 스터디 2주차 과제.md",
     "나중에 더 공부할 내용.md",
     "블로깅을 하는 방법.md",
-    "SOPT 1주차 과제.md",
     "Attached files/Pasted image 20231019095211.png",
     "SQL/SQL 문법",
     "Attached files/Pasted image 20231018005733.png",

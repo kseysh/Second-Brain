@@ -65,8 +65,7 @@ git에서 저장소를 관리하기 위해 사용하는 세 가지 공간
 최신 버전으로 working tree를 되돌리고 싶은 경우 : `git reset HEAD^`
 특정 버전으로 working tree를 되돌리고 싶은 경우 : `git reset --hard <commit hash>`
 ## stage 공간의 필요성
-수정된 부분 중 일부분만 commit 가능하다.
-특정 파일만 골라서 commit 가능하다.
+특정 파일만/ 수정된 부분 중 일부분만 골라서 commit 가능하다.
 commit 전 코드 리뷰 및 테스트 용
 
 
