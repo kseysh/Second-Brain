@@ -14,7 +14,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "전공 공부/오픈소스응용프로그래밍/소프트웨어 공학 및 개발론 개요.md",
+                "file": "전공 공부/오픈소스응용프로그래밍/C++ 스타일 가이드.md",
                 "mode": "source",
                 "source": false
               }
@@ -105,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "전공 공부/오픈소스응용프로그래밍/소프트웨어 공학 및 개발론 개요.md",
+                "file": "전공 공부/오픈소스응용프로그래밍/C++ 스타일 가이드.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "전공 공부/오픈소스응용프로그래밍/소프트웨어 공학 및 개발론 개요.md",
+                "file": "전공 공부/오픈소스응용프로그래밍/C++ 스타일 가이드.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -145,7 +145,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "전공 공부/오픈소스응용프로그래밍/소프트웨어 공학 및 개발론 개요.md"
+                "file": "전공 공부/오픈소스응용프로그래밍/C++ 스타일 가이드.md"
               }
             }
           },
@@ -188,8 +188,9 @@
   },
   "active": "da9be27468d25ec9",
   "lastOpenFiles": [
-    "전공 공부/오픈소스응용프로그래밍/오픈소스응용공부.md",
+    "전공 공부/오픈소스응용프로그래밍/스타일 가이드.md",
     "전공 공부/오픈소스응용프로그래밍/소프트웨어 공학 및 개발론 개요.md",
+    "전공 공부/오픈소스응용프로그래밍/오픈소스응용공부.md",
     "전공 공부/오픈소스응용프로그래밍/소프트웨어 공학의 필요성.md",
     "전공 공부/오픈소스응용프로그래밍/도커 파일과 깃허브를 이용한 파일 공유.md",
     "전공 공부/오픈소스응용프로그래밍/도커 컨테이너 명령어와 볼륨.md",
@@ -213,7 +214,6 @@
     "SQL/SQL 문법/SQL 문법 순서도.md",
     "SQL/SQL 문법/JOIN.md",
     "SQL/SQL 문법/REGEXP.md",
-    "SQL/SQL 문법/UNION.md",
     "Attached files/Pasted image 20231019095211.png",
     "SQL/SQL 문법",
     "Attached files/Pasted image 20231018005733.png",
