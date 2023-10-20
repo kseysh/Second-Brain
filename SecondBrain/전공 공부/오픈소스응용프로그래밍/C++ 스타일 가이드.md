@@ -33,7 +33,7 @@ ex ) google-awesome-project/src/base/logging.h 는 이와 같이 `#include` 되�
 ex)
 ![[Pasted image 20231011150508.png]]
 ![[Pasted image 20231011150516.png]]
-
+![[Pasted image 20231020225902.png]]
 ## **접근 제어**
 변수 모두 private 선언하고, get, set
 # 선언 순서
