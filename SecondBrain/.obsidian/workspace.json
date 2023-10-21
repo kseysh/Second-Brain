@@ -69,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "feabab388e8825fc",
@@ -169,6 +168,11 @@
   },
   "active": "671302f13deed041",
   "lastOpenFiles": [
+    "Spring/JPA/JPA.md",
+    "Spring/JPA/데이터 중심 설계의 문제점.md",
+    "Spring/JPA/기본 키 매핑.md",
+    "DB 스터디 2주차 과제.md",
+    "전공 공부/전자상거래/4. 스마트 시대의 비즈니스와 모바일 상거래.md",
     "전공 공부/전자상거래/3. 조직간 전자상거래.md",
     "Attached files/Pasted image 20231021173800.png",
     "Attached files/Pasted image 20231021173709.png",
@@ -182,7 +186,6 @@
     "Attached files/Pasted image 20231021135736.png",
     "Attached files/Pasted image 20231021134937.png",
     "Attached files/Pasted image 20231021134915.png",
-    "전공 공부/전자상거래/4. 스마트 시대의 비즈니스와 모바일 상거래.md",
     "전공 공부/오픈소스응용프로그래밍/오픈소스응용공부.md",
     "전공 공부/오픈소스응용프로그래밍/C++ 스타일 가이드.md",
     "전공 공부/오픈소스응용프로그래밍/코드 리뷰.md",
@@ -201,9 +204,6 @@
     "전공 공부/오픈소스응용프로그래밍/디자인 패턴 개요.md",
     "전공 공부/오픈소스응용프로그래밍/무제 파일.md",
     "독서록/개발 관련 도서/테스트주도개발시작하기/TDD 시작.md",
-    "SQL/SQL 문법/날짜 관련 함수.md",
-    "SQL/SQL 문법/TIMESTAMPDIFF.md",
-    "SQL/SQL 문법/GROUP BY.md",
     "SQL/SQL 문법",
     "독서록/개발 관련 도서/테스트주도개발시작하기",
     "ERROR_Diary/GIT",
