@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "전공 공부/전자상거래/3. 조직간 전자상거래.md",
+                "file": "DB 스터디 2주차 과제.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "feabab388e8825fc",
@@ -86,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "전공 공부/전자상거래/3. 조직간 전자상거래.md",
+                "file": "DB 스터디 2주차 과제.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "전공 공부/전자상거래/3. 조직간 전자상거래.md",
+                "file": "DB 스터디 2주차 과제.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "전공 공부/전자상거래/3. 조직간 전자상거래.md"
+                "file": "DB 스터디 2주차 과제.md"
               }
             }
           },
@@ -167,8 +166,13 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "671302f13deed041",
+  "active": "77e0b92a051c28ac",
   "lastOpenFiles": [
+    "블로깅을 하는 방법.md",
+    "DB 스터디 2주차 과제.md",
+    "SOPT 1주차 과제.md",
+    "IDEA/아이디어 폴더/우테코.md",
+    "전공 공부/전자상거래/3. 조직간 전자상거래.md",
     "전공 공부/전자상거래/2. 소비자 전자상거래.md",
     "전공 공부/전자상거래/1. 전자상거래 입문.md",
     "전공 공부/전자상거래/8. 전자상거래 구축.md",
@@ -180,8 +184,6 @@
     "Spring/JPA/JPA.md",
     "Spring/JPA/데이터 중심 설계의 문제점.md",
     "Spring/JPA/기본 키 매핑.md",
-    "DB 스터디 2주차 과제.md",
-    "전공 공부/전자상거래/3. 조직간 전자상거래.md",
     "Attached files/Pasted image 20231021173800.png",
     "Attached files/Pasted image 20231021173709.png",
     "Attached files/Pasted image 20231021173450.png",
@@ -202,8 +204,6 @@
     "전공 공부/오픈소스응용프로그래밍/오픈소스SW 및 라이선스.md",
     "독서록/개발 관련 도서/구글 엔지니어는 이렇게 일한다.md",
     "전공 공부/오픈소스응용프로그래밍/디자인패턴 종류.md",
-    "전공 공부/오픈소스응용프로그래밍/객체지향개발 특성.md",
-    "전공 공부/오픈소스응용프로그래밍/디자인 패턴 개요.md",
     "SQL/SQL 문법",
     "독서록/개발 관련 도서/테스트주도개발시작하기",
     "ERROR_Diary/GIT",
