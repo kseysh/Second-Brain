@@ -105,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "전공 공부/전자상거래/1. 전자상거래 입문.md",
+                "file": "전공 공부/전자상거래/전상 공부.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "전공 공부/전자상거래/1. 전자상거래 입문.md",
+                "file": "전공 공부/전자상거래/전상 공부.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -145,7 +145,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "전공 공부/전자상거래/1. 전자상거래 입문.md"
+                "file": "전공 공부/전자상거래/전상 공부.md"
               }
             }
           },
@@ -186,10 +186,10 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "671302f13deed041",
+  "active": "5cda2090db07147d",
   "lastOpenFiles": [
-    "전공 공부/전자상거래/전상 공부.md",
     "전공 공부/전자상거래/1. 전자상거래 입문.md",
+    "전공 공부/전자상거래/전상 공부.md",
     "전공 공부/전자상거래/8. 전자상거래 구축.md",
     "전공 공부/전자상거래/4. 스마트 시대의 비즈니스와 모바일 상거래.md",
     "전공 공부/전자상거래/3. 조직간 전자상거래.md",
