@@ -6,6 +6,7 @@
       {
         "id": "b307401929312a93",
         "type": "tabs",
+        "dimension": 63.54489164086687,
         "children": [
           {
             "id": "671302f13deed041",
@@ -13,7 +14,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "전공 공부/전자상거래/8. 전자상거래 구축.md",
+                "file": "전공 공부/전자상거래/1. 전자상거래 입문.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "8c5656b3fbbfa089",
+        "type": "tabs",
+        "dimension": 36.45510835913313,
+        "children": [
+          {
+            "id": "5cda2090db07147d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "전공 공부/전자상거래/전상 공부.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,8 +89,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "feabab388e8825fc",
@@ -86,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "전공 공부/전자상거래/8. 전자상거래 구축.md",
+                "file": "전공 공부/전자상거래/전상 공부.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "전공 공부/전자상거래/8. 전자상거래 구축.md",
+                "file": "전공 공부/전자상거래/전상 공부.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +145,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "전공 공부/전자상거래/8. 전자상거래 구축.md"
+                "file": "전공 공부/전자상거래/전상 공부.md"
               }
             }
           },
@@ -167,8 +186,12 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "671302f13deed041",
+  "active": "5cda2090db07147d",
   "lastOpenFiles": [
+    "전공 공부/전자상거래/1. 전자상거래 입문.md",
+    "전공 공부/전자상거래/전상 공부.md",
+    "전공 공부/전자상거래/2. 소비자 전자상거래.md",
+    "전공 공부/전자상거래/8. 전자상거래 구축.md",
     "전공 공부/전자상거래/4. 스마트 시대의 비즈니스와 모바일 상거래.md",
     "전공 공부/전자상거래/3. 조직간 전자상거래.md",
     "IDEA/아이디어 폴더/우테코.md",
@@ -186,9 +209,6 @@
     "Chatgpt/Chatgpt prompt.md",
     "블로깅을 하는 방법.md",
     "SOPT 1주차 과제.md",
-    "전공 공부/전자상거래/2. 소비자 전자상거래.md",
-    "전공 공부/전자상거래/1. 전자상거래 입문.md",
-    "전공 공부/전자상거래/8. 전자상거래 구축.md",
     "Attached files/Pasted image 20231022081049.png",
     "Attached files/Pasted image 20231022081004.png",
     "Attached files/Pasted image 20231022075634.png",
@@ -204,7 +224,6 @@
     "Attached files/Pasted image 20231021143006.png",
     "전공 공부/오픈소스응용프로그래밍/오픈소스응용공부.md",
     "전공 공부/오픈소스응용프로그래밍/C++ 스타일 가이드.md",
-    "전공 공부/오픈소스응용프로그래밍/코드 리뷰.md",
     "DB/SQL/SQL 문법",
     "독서록/개발 관련 도서/테스트주도개발시작하기",
     "ERROR_Diary/GIT",
