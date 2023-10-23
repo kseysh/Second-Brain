@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "전공 공부/전자상거래/8. 전자상거래 구축.md",
+                "file": "전공 공부/전자상거래/1. 전자상거래 입문.md",
                 "mode": "source",
                 "source": false
               }
@@ -186,7 +186,9 @@
   },
   "active": "338f0f392bfca66d",
   "lastOpenFiles": [
+    "전공 공부/전자상거래/1. 전자상거래 입문.md",
     "전공 공부/전자상거래/8. 전자상거래 구축.md",
+    "전공 공부/전자상거래/전상 공부.md",
     "전공 공부/전자상거래/4. 스마트 시대의 비즈니스와 모바일 상거래.md",
     "전공 공부/시스템 프로그래밍/9. Conditional branches.md",
     "전공 공부/시스템 프로그래밍/7. Arithmetic & Logical Operations.md",
@@ -194,12 +196,10 @@
     "전공 공부/시스템 프로그래밍/5. C, assembly, machince code.md",
     "전공 공부/시스템 프로그래밍/8. Condition Codes.md",
     "전공 공부/시스템 프로그래밍/4. Floating point.md",
-    "전공 공부/전자상거래/1. 전자상거래 입문.md",
     "전공 공부/전자상거래/3. 조직간 전자상거래.md",
     "전공 공부/전자상거래/2. 소비자 전자상거래.md",
     "Spring/Intellij 단축키 정리.md",
     "전공 공부/전자상거래/무제 파일.md",
-    "전공 공부/전자상거래/전상 공부.md",
     "Git/커밋 메시지 작성 방법.md",
     "Spring/JPA/데이터베이스 스키마 자동 생성.md",
     "DB 스터디 2주차 과제.md",
