@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Develop/코드 리뷰/좋은 코드 리뷰를 위한 가이드라인.md",
+                "file": "Develop/코드 리뷰/작은 PR 규칙.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "feabab388e8825fc",
@@ -86,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Develop/코드 리뷰/좋은 코드 리뷰를 위한 가이드라인.md",
+                "file": "Develop/코드 리뷰/작은 PR 규칙.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Develop/코드 리뷰/좋은 코드 리뷰를 위한 가이드라인.md",
+                "file": "Develop/코드 리뷰/작은 PR 규칙.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Develop/코드 리뷰/좋은 코드 리뷰를 위한 가이드라인.md"
+                "file": "Develop/코드 리뷰/작은 PR 규칙.md"
               }
             }
           },
@@ -169,11 +168,13 @@
   },
   "active": "3ee6126b243d4ddb",
   "lastOpenFiles": [
+    "Develop/코드 리뷰/동기 커뮤니케이션 vs 비동기 커뮤니케이션.md",
+    "Develop/코드 리뷰/작은 PR 규칙.md",
+    "Develop/코드 리뷰/좋은 코드 리뷰를 위한 가이드라인.md",
     "Attached files/Pasted image 20231023205027.png",
     "Attached files/Pasted image 20231023204655.png",
     "Attached files/Pasted image 20231023204012.png",
     "Git/GIT 스터디/Git의 3가지 영역.md",
-    "Develop/코드 리뷰/좋은 코드 리뷰를 위한 가이드라인.md",
     "Develop/코드 리뷰",
     "Git/GIT 스터디/GIT의 4가지 상태.md",
     "Git/GIT 스터디/git commit.md",
@@ -199,14 +200,12 @@
     "Spring/JPA/DDL.md",
     "Spring/JPA/엔티티 매핑.md",
     "Spring/JPA/필드와 컬럼 매핑.md",
-    "Spring/JPA/기본 키 매핑.md",
     "Attached files/Pasted image 20231022081049.png",
     "Attached files/Pasted image 20231022081004.png",
     "Attached files/Pasted image 20231022075634.png",
     "Attached files/Pasted image 20231022072643.png",
     "Attached files/Pasted image 20231021173800.png",
     "Attached files/Pasted image 20231021173709.png",
-    "Attached files/Pasted image 20231021173450.png",
     "DB/SQL/SQL 문법",
     "독서록/개발 관련 도서/테스트주도개발시작하기",
     "ERROR_Diary/GIT",
