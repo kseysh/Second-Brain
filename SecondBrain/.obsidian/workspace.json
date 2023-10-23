@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "전공 공부/전자상거래/3. 조직간 전자상거래.md",
+                "file": "전공 공부/전자상거래/4. 스마트 시대의 비즈니스와 모바일 상거래.md",
                 "mode": "source",
                 "source": false
               }
@@ -65,8 +65,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -87,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "전공 공부/전자상거래/3. 조직간 전자상거래.md",
+                "file": "전공 공부/전자상거래/4. 스마트 시대의 비즈니스와 모바일 상거래.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "전공 공부/전자상거래/3. 조직간 전자상거래.md",
+                "file": "전공 공부/전자상거래/4. 스마트 시대의 비즈니스와 모바일 상거래.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -127,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "전공 공부/전자상거래/3. 조직간 전자상거래.md"
+                "file": "전공 공부/전자상거래/4. 스마트 시대의 비즈니스와 모바일 상거래.md"
               }
             }
           },
@@ -170,8 +169,8 @@
   },
   "active": "671302f13deed041",
   "lastOpenFiles": [
-    "Spring/Intellij 단축키 정리.md",
     "전공 공부/전자상거래/3. 조직간 전자상거래.md",
+    "Spring/Intellij 단축키 정리.md",
     "전공 공부/전자상거래/2. 소비자 전자상거래.md",
     "전공 공부/전자상거래/무제 파일.md",
     "전공 공부/전자상거래/1. 전자상거래 입문.md",
