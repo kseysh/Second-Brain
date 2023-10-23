@@ -20,6 +20,24 @@
             }
           }
         ]
+      },
+      {
+        "id": "b0c82d14869503f8",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "338f0f392bfca66d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "전공 공부/전자상거래/전상 공부.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
       }
     ],
     "direction": "vertical"
@@ -85,7 +103,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "전공 공부/전자상거래/8. 전자상거래 구축.md",
+                "file": "전공 공부/전자상거래/전상 공부.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +120,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "전공 공부/전자상거래/8. 전자상거래 구축.md",
+                "file": "전공 공부/전자상거래/전상 공부.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +143,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "전공 공부/전자상거래/8. 전자상거래 구축.md"
+                "file": "전공 공부/전자상거래/전상 공부.md"
               }
             }
           },
@@ -166,13 +184,19 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "671302f13deed041",
+  "active": "338f0f392bfca66d",
   "lastOpenFiles": [
-    "전공 공부/전자상거래/1. 전자상거래 입문.md",
+    "전공 공부/전자상거래/8. 전자상거래 구축.md",
     "전공 공부/전자상거래/4. 스마트 시대의 비즈니스와 모바일 상거래.md",
+    "전공 공부/시스템 프로그래밍/9. Conditional branches.md",
+    "전공 공부/시스템 프로그래밍/7. Arithmetic & Logical Operations.md",
+    "전공 공부/시스템 프로그래밍/11. Calling Conventions- Passing Control.md",
+    "전공 공부/시스템 프로그래밍/5. C, assembly, machince code.md",
+    "전공 공부/시스템 프로그래밍/8. Condition Codes.md",
+    "전공 공부/시스템 프로그래밍/4. Floating point.md",
+    "전공 공부/전자상거래/1. 전자상거래 입문.md",
     "전공 공부/전자상거래/3. 조직간 전자상거래.md",
     "전공 공부/전자상거래/2. 소비자 전자상거래.md",
-    "전공 공부/전자상거래/8. 전자상거래 구축.md",
     "Spring/Intellij 단축키 정리.md",
     "전공 공부/전자상거래/무제 파일.md",
     "전공 공부/전자상거래/전상 공부.md",
@@ -188,12 +212,6 @@
     "Spring/JPA/플러시.md",
     "DB/SQL/SQL 문법/LIKE.md",
     "DB/SQL/SQL 문법/UNION.md",
-    "DB/SQL/SQL 문법/CASE WHEN.md",
-    "DB/SQL/SQL 문제/3단계/조회수가 가장 많은 중고거래 게시판의 첨부파일 조회하기.md",
-    "DB/SQL/SQL 문제/2단계/조건에 부합하는 중고거래 상태 조회하기.md",
-    "DB/SQL/SQL 문제/1단계/조건에 부합하는 중고거래 댓글 조회하기.md",
-    "IDEA/아이디어 폴더/우테코.md",
-    "DB/데이터 무결성.md",
     "Attached files/Pasted image 20231022081049.png",
     "Attached files/Pasted image 20231022081004.png",
     "Attached files/Pasted image 20231022075634.png",
