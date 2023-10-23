@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Git/GIT 스터디/git commit.md",
+                "file": "Git/GIT 스터디/GIT의 4가지 상태.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Git/GIT 스터디/git commit.md",
+                "file": "Git/GIT 스터디/GIT의 4가지 상태.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Git/GIT 스터디/git commit.md",
+                "file": "Git/GIT 스터디/GIT의 4가지 상태.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Git/GIT 스터디/git commit.md"
+                "file": "Git/GIT 스터디/GIT의 4가지 상태.md"
               }
             }
           },
@@ -168,6 +168,7 @@
   },
   "active": "3ee6126b243d4ddb",
   "lastOpenFiles": [
+    "Git/GIT 스터디/Git의 3가지 영역.md",
     "Git/GIT 스터디/GIT의 4가지 상태.md",
     "Git/GIT 스터디/git commit.md",
     "Attached files/Pasted image 20231023194817.png",
@@ -195,7 +196,6 @@
     "Spring/JPA/기본 키 매핑.md",
     "DB/SQL/SQL 문법/DISTINCT.md",
     "Spring/JPA/데이터 중심 설계의 문제점.md",
-    "Spring/JPA/플러시.md",
     "Attached files/Pasted image 20231022081049.png",
     "Attached files/Pasted image 20231022081004.png",
     "Attached files/Pasted image 20231022075634.png",
