@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Git/GIT 스터디/Git의 3가지 영역.md",
+                "file": "Develop/코드 리뷰/좋은 코드 리뷰를 위한 가이드라인.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "feabab388e8825fc",
@@ -85,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Git/GIT 스터디/Git의 3가지 영역.md",
+                "file": "Develop/코드 리뷰/좋은 코드 리뷰를 위한 가이드라인.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Git/GIT 스터디/Git의 3가지 영역.md",
+                "file": "Develop/코드 리뷰/좋은 코드 리뷰를 위한 가이드라인.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Git/GIT 스터디/Git의 3가지 영역.md"
+                "file": "Develop/코드 리뷰/좋은 코드 리뷰를 위한 가이드라인.md"
               }
             }
           },
@@ -166,11 +167,13 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "77e0b92a051c28ac",
+  "active": "3ee6126b243d4ddb",
   "lastOpenFiles": [
+    "Attached files/Pasted image 20231023204012.png",
+    "Git/GIT 스터디/Git의 3가지 영역.md",
+    "Develop/코드 리뷰/좋은 코드 리뷰를 위한 가이드라인.md",
     "Develop/코드 리뷰",
     "Git/GIT 스터디/GIT의 4가지 상태.md",
-    "Git/GIT 스터디/Git의 3가지 영역.md",
     "Git/GIT 스터디/git commit.md",
     "Attached files/Pasted image 20231023194817.png",
     "전공 공부/전자상거래/전상 공부.md",
@@ -195,7 +198,6 @@
     "Spring/JPA/엔티티 매핑.md",
     "Spring/JPA/필드와 컬럼 매핑.md",
     "Spring/JPA/기본 키 매핑.md",
-    "DB/SQL/SQL 문법/DISTINCT.md",
     "Attached files/Pasted image 20231022081049.png",
     "Attached files/Pasted image 20231022081004.png",
     "Attached files/Pasted image 20231022075634.png",
@@ -213,7 +215,6 @@
     "DB/SQL/SQL 문제/3단계",
     "DB/SQL/SQL 문제/2단계",
     "DB/SQL/SQL 문제/1단계",
-    "DB/SQL/SQL 문제",
     "무제 파일.canvas"
   ]
 }
