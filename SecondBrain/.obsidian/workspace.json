@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Spring/OOP와 RDB의 패러다임의 불일치.md",
+                "file": "Spring/어노테이션/@GeneratedValue.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Spring/OOP와 RDB의 패러다임의 불일치.md",
+                "file": "Spring/어노테이션/@GeneratedValue.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Spring/OOP와 RDB의 패러다임의 불일치.md",
+                "file": "Spring/어노테이션/@GeneratedValue.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Spring/OOP와 RDB의 패러다임의 불일치.md"
+                "file": "Spring/어노테이션/@GeneratedValue.md"
               }
             }
           },
@@ -179,11 +179,16 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "3c503ba62f50db03",
+  "active": "77e0b92a051c28ac",
   "lastOpenFiles": [
+    "Spring/URI.md",
+    "Spring/어노테이션/@GeneratedValue.md",
+    "Spring/URL.md",
+    "Spring/Query String.md",
+    "Spring/Path Parameter.md",
+    "Spring/OOP와 RDB의 패러다임의 불일치.md",
     "Attached files/Pasted image 20231024213115.png",
     "Spring/record.md",
-    "Spring/OOP와 RDB의 패러다임의 불일치.md",
     "Spring/dto.md",
     "Spring/Domain.md",
     "Spring/Repository.md",
@@ -204,11 +209,7 @@
     "네트워크/HTTP/Cacheability.md",
     "Python/Django/배포/캐싱.md",
     "네트워크/HTTP/HTTP Method의 특징.md",
-    "네트워크/HTTP/HTTP message의 구조.md",
     "Attached files/Untitled.png",
-    "Develop/코드 리뷰/작은 PR 규칙.md",
-    "Develop/코드 리뷰/좋은 코드 리뷰를 위한 가이드라인.md",
-    "Develop/코드 리뷰/코드리뷰의 기술적 팁들.md",
     "Attached files/Pasted image 20231023205027.png",
     "Attached files/Pasted image 20231023204655.png",
     "Attached files/Pasted image 20231023204012.png",
@@ -219,7 +220,6 @@
     "Attached files/Pasted image 20231022081004.png",
     "Attached files/Pasted image 20231022075634.png",
     "Attached files/Pasted image 20231022072643.png",
-    "Attached files/Pasted image 20231021173800.png",
     "DB/SQL/SQL 문법",
     "독서록/개발 관련 도서/테스트주도개발시작하기",
     "ERROR_Diary/GIT",
