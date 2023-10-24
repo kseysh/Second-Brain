@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "네트워크/HTTP/HTTP 응답 코드.md",
+                "file": "Spring/스프링 웹 애플리케이션 계층 구조.md",
                 "mode": "source",
                 "source": false
               }
@@ -61,7 +61,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "intel",
+                "query": "계층",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -78,7 +78,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -98,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "네트워크/HTTP/HTTP 응답 코드.md",
+                "file": "Spring/스프링 웹 애플리케이션 계층 구조.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "네트워크/HTTP/HTTP 응답 코드.md",
+                "file": "Spring/스프링 웹 애플리케이션 계층 구조.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "네트워크/HTTP/HTTP 응답 코드.md"
+                "file": "Spring/스프링 웹 애플리케이션 계층 구조.md"
               }
             }
           },
@@ -181,8 +182,10 @@
   },
   "active": "3c503ba62f50db03",
   "lastOpenFiles": [
-    "네트워크/HTTP/Safe.md",
+    "Python/Django/RESTful API.md",
+    "Python/Django/DRF/APIView.md",
     "네트워크/HTTP/HTTP 응답 코드.md",
+    "네트워크/HTTP/Safe.md",
     "네트워크/HTTP/멱등성.md",
     "네트워크/HTTP/Cacheability.md",
     "Python/Django/배포/캐싱.md",
@@ -212,8 +215,6 @@
     "전공 공부/시스템 프로그래밍/9. Conditional branches.md",
     "전공 공부/시스템 프로그래밍/7. Arithmetic & Logical Operations.md",
     "전공 공부/시스템 프로그래밍/11. Calling Conventions- Passing Control.md",
-    "전공 공부/시스템 프로그래밍/5. C, assembly, machince code.md",
-    "전공 공부/시스템 프로그래밍/8. Condition Codes.md",
     "Attached files/Pasted image 20231022081049.png",
     "Attached files/Pasted image 20231022081004.png",
     "Attached files/Pasted image 20231022075634.png",
