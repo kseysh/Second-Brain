@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Spring/어노테이션/@GeneratedValue.md",
+                "file": "Spring/URI.md",
                 "mode": "source",
                 "source": false
               }
@@ -61,7 +61,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "controller",
+                "query": "generated",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Spring/어노테이션/@GeneratedValue.md",
+                "file": "Spring/URI.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Spring/어노테이션/@GeneratedValue.md",
+                "file": "Spring/URI.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Spring/어노테이션/@GeneratedValue.md"
+                "file": "Spring/URI.md"
               }
             }
           },
@@ -179,14 +179,15 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "77e0b92a051c28ac",
+  "active": "3c503ba62f50db03",
   "lastOpenFiles": [
-    "Spring/URI.md",
+    "Spring/OOP와 RDB의 패러다임의 불일치.md",
+    "Spring/Path Parameter.md",
     "Spring/어노테이션/@GeneratedValue.md",
+    "Spring/JPA/기본 키 매핑.md",
+    "Spring/URI.md",
     "Spring/URL.md",
     "Spring/Query String.md",
-    "Spring/Path Parameter.md",
-    "Spring/OOP와 RDB의 패러다임의 불일치.md",
     "Attached files/Pasted image 20231024213115.png",
     "Spring/record.md",
     "Spring/dto.md",
@@ -208,7 +209,6 @@
     "네트워크/HTTP/멱등성.md",
     "네트워크/HTTP/Cacheability.md",
     "Python/Django/배포/캐싱.md",
-    "네트워크/HTTP/HTTP Method의 특징.md",
     "Attached files/Untitled.png",
     "Attached files/Pasted image 20231023205027.png",
     "Attached files/Pasted image 20231023204655.png",
