@@ -13,13 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "네트워크/HTTP/idempotent.md",
+                "file": "네트워크/HTTP/HTTP Method의 특징.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "3c503ba62f50db03",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "네트워크/HTTP/HTTP 응답 코드.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "네트워크/HTTP/idempotent.md",
+                "file": "네트워크/HTTP/HTTP 응답 코드.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "네트워크/HTTP/idempotent.md",
+                "file": "네트워크/HTTP/HTTP 응답 코드.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "네트워크/HTTP/idempotent.md"
+                "file": "네트워크/HTTP/HTTP 응답 코드.md"
               }
             }
           },
@@ -166,11 +179,13 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "3ee6126b243d4ddb",
+  "active": "3c503ba62f50db03",
   "lastOpenFiles": [
     "네트워크/HTTP/Safe.md",
+    "네트워크/HTTP/HTTP 응답 코드.md",
+    "네트워크/HTTP/멱등성.md",
     "네트워크/HTTP/Cacheability.md",
-    "네트워크/HTTP/idempotent.md",
+    "Python/Django/배포/캐싱.md",
     "네트워크/HTTP/HTTP Method의 특징.md",
     "네트워크/HTTP/HTTP message의 구조.md",
     "Attached files/Untitled.png",
@@ -199,8 +214,6 @@
     "전공 공부/시스템 프로그래밍/11. Calling Conventions- Passing Control.md",
     "전공 공부/시스템 프로그래밍/5. C, assembly, machince code.md",
     "전공 공부/시스템 프로그래밍/8. Condition Codes.md",
-    "전공 공부/시스템 프로그래밍/4. Floating point.md",
-    "Spring/Intellij 단축키 정리.md",
     "Attached files/Pasted image 20231022081049.png",
     "Attached files/Pasted image 20231022081004.png",
     "Attached files/Pasted image 20231022075634.png",
