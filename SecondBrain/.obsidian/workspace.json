@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Develop/코드 리뷰/코드리뷰의 기술적 팁들.md",
+                "file": "Develop/코드 리뷰/작은 PR 규칙.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "feabab388e8825fc",
@@ -85,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Develop/코드 리뷰/코드리뷰의 기술적 팁들.md",
+                "file": "Develop/코드 리뷰/작은 PR 규칙.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Develop/코드 리뷰/코드리뷰의 기술적 팁들.md",
+                "file": "Develop/코드 리뷰/작은 PR 규칙.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Develop/코드 리뷰/코드리뷰의 기술적 팁들.md"
+                "file": "Develop/코드 리뷰/작은 PR 규칙.md"
               }
             }
           },
@@ -170,6 +171,7 @@
   "lastOpenFiles": [
     "Develop/코드 리뷰/좋은 코드 리뷰를 위한 가이드라인.md",
     "Develop/코드 리뷰/코드리뷰의 기술적 팁들.md",
+    "Git/커밋 메시지 작성 방법.md",
     "Develop/코드 리뷰/작은 PR 규칙.md",
     "Develop/코드 리뷰/동기 커뮤니케이션 vs 비동기 커뮤니케이션.md",
     "Attached files/Pasted image 20231023205027.png",
@@ -195,7 +197,6 @@
     "전공 공부/시스템 프로그래밍/4. Floating point.md",
     "Spring/Intellij 단축키 정리.md",
     "전공 공부/전자상거래/무제 파일.md",
-    "Git/커밋 메시지 작성 방법.md",
     "Spring/JPA/데이터베이스 스키마 자동 생성.md",
     "DB 스터디 2주차 과제.md",
     "Spring/JPA/DDL.md",
