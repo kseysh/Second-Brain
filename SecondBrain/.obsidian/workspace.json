@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Spring/dto.md",
+                "file": "Spring/record.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Spring/dto.md",
+                "file": "Spring/record.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Spring/dto.md",
+                "file": "Spring/record.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Spring/dto.md"
+                "file": "Spring/record.md"
               }
             }
           },
@@ -181,6 +181,8 @@
   },
   "active": "3c503ba62f50db03",
   "lastOpenFiles": [
+    "Spring/dto.md",
+    "Spring/record.md",
     "Spring/Domain.md",
     "Spring/Repository.md",
     "Spring/Service.md",
@@ -210,9 +212,7 @@
     "Attached files/Pasted image 20231023205027.png",
     "Attached files/Pasted image 20231023204655.png",
     "Attached files/Pasted image 20231023204012.png",
-    "Git/GIT 스터디/Git의 3가지 영역.md",
     "Develop/코드 리뷰",
-    "Git/GIT 스터디/GIT의 4가지 상태.md",
     "Attached files/Pasted image 20231023194817.png",
     "Git/GIT 스터디",
     "Attached files/Pasted image 20231022081049.png",
