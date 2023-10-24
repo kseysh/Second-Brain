@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Spring/record.md",
+                "file": "Spring/OOP와 RDB의 패러다임의 불일치.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Spring/record.md",
+                "file": "Spring/OOP와 RDB의 패러다임의 불일치.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Spring/record.md",
+                "file": "Spring/OOP와 RDB의 패러다임의 불일치.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Spring/record.md"
+                "file": "Spring/OOP와 RDB의 패러다임의 불일치.md"
               }
             }
           },
@@ -181,8 +181,10 @@
   },
   "active": "3c503ba62f50db03",
   "lastOpenFiles": [
-    "Spring/dto.md",
+    "Attached files/Pasted image 20231024213115.png",
     "Spring/record.md",
+    "Spring/OOP와 RDB의 패러다임의 불일치.md",
+    "Spring/dto.md",
     "Spring/Domain.md",
     "Spring/Repository.md",
     "Spring/Service.md",
@@ -207,8 +209,6 @@
     "Develop/코드 리뷰/작은 PR 규칙.md",
     "Develop/코드 리뷰/좋은 코드 리뷰를 위한 가이드라인.md",
     "Develop/코드 리뷰/코드리뷰의 기술적 팁들.md",
-    "Git/커밋 메시지 작성 방법.md",
-    "Develop/코드 리뷰/동기 커뮤니케이션 vs 비동기 커뮤니케이션.md",
     "Attached files/Pasted image 20231023205027.png",
     "Attached files/Pasted image 20231023204655.png",
     "Attached files/Pasted image 20231023204012.png",
