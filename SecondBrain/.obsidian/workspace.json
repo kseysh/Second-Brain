@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Spring/URI.md",
+                "file": "DB/SQL/SQL 문법/CASE WHEN.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Spring/URI.md",
+                "file": "DB/SQL/SQL 문법/CASE WHEN.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Spring/URI.md",
+                "file": "DB/SQL/SQL 문법/CASE WHEN.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Spring/URI.md"
+                "file": "DB/SQL/SQL 문법/CASE WHEN.md"
               }
             }
           },
@@ -181,11 +181,25 @@
   },
   "active": "3c503ba62f50db03",
   "lastOpenFiles": [
+    "DB/SQL/SQL 문법/CONCAT.md",
+    "DB/SQL/SQL 문법/MAX, MIN.md",
+    "DB/SQL/SQL 문법/UNION.md",
+    "DB/SQL/SQL 문법/LIKE.md",
+    "DB/SQL/SQL 문법/REGEXP.md",
+    "DB/SQL/SQL 문법/HAVING.md",
+    "DB/SQL/SQL 문법/GROUP BY.md",
+    "DB/SQL/SQL 문법/DATEDIFF.md",
+    "DB/SQL/SQL 문법/SUM.md",
+    "DB/SQL/SQL 문법/COUNT.md",
+    "DB/SQL/SQL 문법/TIMESTAMPDIFF.md",
+    "DB/SQL/SQL 문법/ROUND.md",
+    "DB/SQL/SQL 문법/WHERE.md",
+    "DB/SQL/SQL 문법/DISTINCT.md",
+    "Spring/URI.md",
     "Spring/OOP와 RDB의 패러다임의 불일치.md",
     "Spring/Path Parameter.md",
     "Spring/어노테이션/@GeneratedValue.md",
     "Spring/JPA/기본 키 매핑.md",
-    "Spring/URI.md",
     "Spring/URL.md",
     "Spring/Query String.md",
     "Attached files/Pasted image 20231024213115.png",
@@ -194,21 +208,7 @@
     "Spring/Domain.md",
     "Spring/Repository.md",
     "Spring/Service.md",
-    "Spring/어노테이션/@RequestBody.md",
-    "Spring/어노테이션/@RequestMapping.md",
-    "Spring/어노테이션/@ResponseBody.md",
-    "Spring/어노테이션/@Autowired.md",
     "Spring/어노테이션",
-    "Spring/Controller.md",
-    "Spring/스프링 웹 애플리케이션 계층 구조.md",
-    "Spring/Spring MVC.md",
-    "Python/Django/RESTful API.md",
-    "Python/Django/DRF/APIView.md",
-    "네트워크/HTTP/HTTP 응답 코드.md",
-    "네트워크/HTTP/Safe.md",
-    "네트워크/HTTP/멱등성.md",
-    "네트워크/HTTP/Cacheability.md",
-    "Python/Django/배포/캐싱.md",
     "Attached files/Untitled.png",
     "Attached files/Pasted image 20231023205027.png",
     "Attached files/Pasted image 20231023204655.png",
