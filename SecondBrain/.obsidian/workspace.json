@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Spring/URI.md",
+                "file": "Spring/어노테이션/@Embeddable.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Spring/URI.md",
+                "file": "Spring/어노테이션/@Embeddable.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Spring/URI.md",
+                "file": "Spring/어노테이션/@Embeddable.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Spring/URI.md"
+                "file": "Spring/어노테이션/@Embeddable.md"
               }
             }
           },
@@ -181,10 +181,12 @@
   },
   "active": "3c503ba62f50db03",
   "lastOpenFiles": [
+    "Spring/어노테이션/@Embedded.md",
+    "Spring/어노테이션/@Embeddable.md",
+    "Spring/URI.md",
     "Spring/URL.md",
     "Spring/Query String.md",
     "Spring/Path Parameter.md",
-    "Spring/URI.md",
     "Spring/OOP와 RDB의 패러다임의 불일치.md",
     "Spring/record.md",
     "DB/SQL/SQL 문법/REGEXP.md",
@@ -205,9 +207,7 @@
     "DB/SQL/SQL 문법/TIMESTAMPDIFF.md",
     "DB/SQL/SQL 문법/WHERE.md",
     "Spring/어노테이션/@GeneratedValue.md",
-    "Spring/JPA/기본 키 매핑.md",
     "Attached files/Pasted image 20231024213115.png",
-    "Spring/dto.md",
     "Spring/어노테이션",
     "Attached files/Untitled.png",
     "Attached files/Pasted image 20231023205027.png",
