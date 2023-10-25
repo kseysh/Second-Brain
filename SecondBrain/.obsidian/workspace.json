@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DB/SQL/SQL 문법/ROUND.md",
+                "file": "DB/SQL/SQL 문법/REGEXP.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DB/SQL/SQL 문법/ROUND.md",
+                "file": "DB/SQL/SQL 문법/REGEXP.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "DB/SQL/SQL 문법/ROUND.md",
+                "file": "DB/SQL/SQL 문법/REGEXP.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DB/SQL/SQL 문법/ROUND.md"
+                "file": "DB/SQL/SQL 문법/REGEXP.md"
               }
             }
           },
@@ -181,6 +181,9 @@
   },
   "active": "3c503ba62f50db03",
   "lastOpenFiles": [
+    "DB/SQL/SQL 문법/DISTINCT.md",
+    "DB/SQL/SQL 문법/COUNT.md",
+    "DB/SQL/SQL 문법/ROUND.md",
     "DB/SQL/SQL 문법/SQL 문법 순서도.md",
     "DB/SQL/SQL 문법/REGEXP.md",
     "DB/SQL/SQL 문법/LIKE.md",
@@ -193,11 +196,8 @@
     "DB/SQL/SQL 문법/HAVING.md",
     "DB/SQL/SQL 문법/GROUP BY.md",
     "DB/SQL/SQL 문법/SUM.md",
-    "DB/SQL/SQL 문법/COUNT.md",
     "DB/SQL/SQL 문법/TIMESTAMPDIFF.md",
-    "DB/SQL/SQL 문법/ROUND.md",
     "DB/SQL/SQL 문법/WHERE.md",
-    "DB/SQL/SQL 문법/DISTINCT.md",
     "Spring/URI.md",
     "Spring/OOP와 RDB의 패러다임의 불일치.md",
     "Spring/Path Parameter.md",
