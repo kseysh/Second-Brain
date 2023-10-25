@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Develop/개발 원칙/좋은 REST API를 위한 URL 설계 규칙.md",
+                "file": "Spring/JPA/엔티티 매핑.md",
                 "mode": "source",
                 "source": false
               }
@@ -61,7 +61,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "generated",
+                "query": "Entity",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -78,7 +78,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -98,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Develop/개발 원칙/좋은 REST API를 위한 URL 설계 규칙.md",
+                "file": "Spring/JPA/엔티티 매핑.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Develop/개발 원칙/좋은 REST API를 위한 URL 설계 규칙.md",
+                "file": "Spring/JPA/엔티티 매핑.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Develop/개발 원칙/좋은 REST API를 위한 URL 설계 규칙.md"
+                "file": "Spring/JPA/엔티티 매핑.md"
               }
             }
           },
@@ -181,9 +182,11 @@
   },
   "active": "3c503ba62f50db03",
   "lastOpenFiles": [
-    "Spring/어노테이션/@Embeddable.md",
-    "Develop/개발 원칙/좋은 REST API를 위한 URL 설계 규칙.md",
+    "Spring/JPA/엔티티.md",
+    "DB/데이터 무결성.md",
     "Spring/어노테이션/@Embedded.md",
+    "Develop/개발 원칙/좋은 REST API를 위한 URL 설계 규칙.md",
+    "Spring/어노테이션/@Embeddable.md",
     "Spring/URI.md",
     "Spring/URL.md",
     "Spring/Query String.md",
@@ -205,8 +208,6 @@
     "DB/SQL/SQL 문법/HAVING.md",
     "DB/SQL/SQL 문법/GROUP BY.md",
     "DB/SQL/SQL 문법/SUM.md",
-    "DB/SQL/SQL 문법/TIMESTAMPDIFF.md",
-    "DB/SQL/SQL 문법/WHERE.md",
     "Attached files/Pasted image 20231024213115.png",
     "Spring/어노테이션",
     "Attached files/Untitled.png",
