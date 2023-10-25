@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DB/SQL/SQL 문법/REGEXP.md",
+                "file": "Spring/URI.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DB/SQL/SQL 문법/REGEXP.md",
+                "file": "Spring/URI.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "DB/SQL/SQL 문법/REGEXP.md",
+                "file": "Spring/URI.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DB/SQL/SQL 문법/REGEXP.md"
+                "file": "Spring/URI.md"
               }
             }
           },
@@ -181,11 +181,15 @@
   },
   "active": "3c503ba62f50db03",
   "lastOpenFiles": [
+    "Spring/URL.md",
+    "Spring/URI.md",
+    "Spring/OOP와 RDB의 패러다임의 불일치.md",
+    "Spring/record.md",
+    "DB/SQL/SQL 문법/REGEXP.md",
     "DB/SQL/SQL 문법/DISTINCT.md",
     "DB/SQL/SQL 문법/COUNT.md",
     "DB/SQL/SQL 문법/ROUND.md",
     "DB/SQL/SQL 문법/SQL 문법 순서도.md",
-    "DB/SQL/SQL 문법/REGEXP.md",
     "DB/SQL/SQL 문법/LIKE.md",
     "DB/SQL/SQL 문법/DATEDIFF.md",
     "DB/SQL/SQL 문법/날짜 관련 함수.md",
@@ -198,15 +202,11 @@
     "DB/SQL/SQL 문법/SUM.md",
     "DB/SQL/SQL 문법/TIMESTAMPDIFF.md",
     "DB/SQL/SQL 문법/WHERE.md",
-    "Spring/URI.md",
-    "Spring/OOP와 RDB의 패러다임의 불일치.md",
     "Spring/Path Parameter.md",
     "Spring/어노테이션/@GeneratedValue.md",
     "Spring/JPA/기본 키 매핑.md",
-    "Spring/URL.md",
     "Spring/Query String.md",
     "Attached files/Pasted image 20231024213115.png",
-    "Spring/record.md",
     "Spring/dto.md",
     "Spring/어노테이션",
     "Attached files/Untitled.png",
