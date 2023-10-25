@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DB/SQL/SQL 문법/DATEDIFF.md",
+                "file": "DB/SQL/SQL 문법/LIKE.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DB/SQL/SQL 문법/DATEDIFF.md",
+                "file": "DB/SQL/SQL 문법/LIKE.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "DB/SQL/SQL 문법/DATEDIFF.md",
+                "file": "DB/SQL/SQL 문법/LIKE.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DB/SQL/SQL 문법/DATEDIFF.md"
+                "file": "DB/SQL/SQL 문법/LIKE.md"
               }
             }
           },
@@ -181,6 +181,7 @@
   },
   "active": "3c503ba62f50db03",
   "lastOpenFiles": [
+    "DB/SQL/SQL 문법/DATEDIFF.md",
     "DB/SQL/SQL 문법/날짜 관련 함수.md",
     "DB/SQL/SQL 문법/CASE WHEN.md",
     "DB/SQL/SQL 문법/CONCAT.md",
@@ -190,7 +191,6 @@
     "DB/SQL/SQL 문법/REGEXP.md",
     "DB/SQL/SQL 문법/HAVING.md",
     "DB/SQL/SQL 문법/GROUP BY.md",
-    "DB/SQL/SQL 문법/DATEDIFF.md",
     "DB/SQL/SQL 문법/SUM.md",
     "DB/SQL/SQL 문법/COUNT.md",
     "DB/SQL/SQL 문법/TIMESTAMPDIFF.md",
