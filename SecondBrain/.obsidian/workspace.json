@@ -90,8 +90,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -192,8 +191,9 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "54f21b8efdb5dc98",
+  "active": "77e0b92a051c28ac",
   "lastOpenFiles": [
+    "Develop/디자인 패턴",
     "세미나 2주차 과제.md",
     "Spring/JPA/JPA의 성능 최적화 기능.md",
     "Spring/JPA/트랜잭션.md",
@@ -219,7 +219,6 @@
     "Spring/record.md",
     "DB/SQL/SQL 문법/REGEXP.md",
     "DB/SQL/SQL 문법/DISTINCT.md",
-    "DB/SQL/SQL 문법/COUNT.md",
     "Attached files/Pasted image 20231024213115.png",
     "Spring/어노테이션",
     "Attached files/Untitled.png",
