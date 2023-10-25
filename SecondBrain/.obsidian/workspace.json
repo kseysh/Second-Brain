@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DB/SQL/SQL 문법/CASE WHEN.md",
+                "file": "DB/SQL/SQL 문법/DATEDIFF.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DB/SQL/SQL 문법/CASE WHEN.md",
+                "file": "DB/SQL/SQL 문법/DATEDIFF.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "DB/SQL/SQL 문법/CASE WHEN.md",
+                "file": "DB/SQL/SQL 문법/DATEDIFF.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DB/SQL/SQL 문법/CASE WHEN.md"
+                "file": "DB/SQL/SQL 문법/DATEDIFF.md"
               }
             }
           },
@@ -181,6 +181,8 @@
   },
   "active": "3c503ba62f50db03",
   "lastOpenFiles": [
+    "DB/SQL/SQL 문법/날짜 관련 함수.md",
+    "DB/SQL/SQL 문법/CASE WHEN.md",
     "DB/SQL/SQL 문법/CONCAT.md",
     "DB/SQL/SQL 문법/MAX, MIN.md",
     "DB/SQL/SQL 문법/UNION.md",
@@ -206,8 +208,6 @@
     "Spring/record.md",
     "Spring/dto.md",
     "Spring/Domain.md",
-    "Spring/Repository.md",
-    "Spring/Service.md",
     "Spring/어노테이션",
     "Attached files/Untitled.png",
     "Attached files/Pasted image 20231023205027.png",
