@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Spring/JPA/양방향 연관관계.md",
+                "file": "Spring/JPA/persistence.xml.md",
                 "mode": "source",
                 "source": false
               }
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Spring/JPA/양방향 연관관계.md",
+                "file": "Spring/JPA/persistence.xml.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Spring/JPA/양방향 연관관계.md",
+                "file": "Spring/JPA/persistence.xml.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Spring/JPA/양방향 연관관계.md"
+                "file": "Spring/JPA/persistence.xml.md"
               }
             }
           },
@@ -193,8 +193,8 @@
   },
   "active": "54f21b8efdb5dc98",
   "lastOpenFiles": [
-    "Spring/JPA/단방향 연관관계.md",
     "Spring/JPA/양방향 연관관계.md",
+    "Spring/JPA/단방향 연관관계.md",
     "Spring/JPA/연관관계가 필요한 이유.md",
     "세미나 2주차 과제.md",
     "회의록.md",
