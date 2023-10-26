@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Spring/record.md",
+                "file": "Develop/디자인 패턴/빌더 패턴.md",
                 "mode": "source",
                 "source": false
               }
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Spring/record.md",
+                "file": "Develop/디자인 패턴/빌더 패턴.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Spring/record.md",
+                "file": "Develop/디자인 패턴/빌더 패턴.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Spring/record.md"
+                "file": "Develop/디자인 패턴/빌더 패턴.md"
               }
             }
           },
@@ -191,8 +191,10 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "77e0b92a051c28ac",
+  "active": "54f21b8efdb5dc98",
   "lastOpenFiles": [
+    "Spring/record.md",
+    "Develop/디자인 패턴/빌더 패턴.md",
     "Develop/디자인 패턴",
     "세미나 2주차 과제.md",
     "Spring/JPA/JPA의 성능 최적화 기능.md",
@@ -216,7 +218,6 @@
     "Spring/Query String.md",
     "Spring/Path Parameter.md",
     "Spring/OOP와 RDB의 패러다임의 불일치.md",
-    "Spring/record.md",
     "DB/SQL/SQL 문법/REGEXP.md",
     "DB/SQL/SQL 문법/DISTINCT.md",
     "Attached files/Pasted image 20231024213115.png",
@@ -238,7 +239,6 @@
     "전공 공부/자바기반응용프로그래밍",
     "전공 공부/전자상거래",
     "DB/SQL/SQL 문제/3단계",
-    "DB/SQL/SQL 문제/2단계",
     "무제 파일.canvas"
   ]
 }
