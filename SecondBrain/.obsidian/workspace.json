@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Spring/JPA/영속성 컨텍스트.md",
+                "file": "Git/커밋 메시지 작성 방법.md",
                 "mode": "source",
                 "source": false
               }
@@ -73,7 +73,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "record",
+                "query": "커밋 ",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -90,7 +90,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -110,7 +111,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Spring/JPA/영속성 컨텍스트.md",
+                "file": "Git/커밋 메시지 작성 방법.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +128,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Spring/JPA/영속성 컨텍스트.md",
+                "file": "Git/커밋 메시지 작성 방법.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +151,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Spring/JPA/영속성 컨텍스트.md"
+                "file": "Git/커밋 메시지 작성 방법.md"
               }
             }
           },
@@ -193,6 +194,7 @@
   },
   "active": "54f21b8efdb5dc98",
   "lastOpenFiles": [
+    "Spring/JPA/영속성 컨텍스트.md",
     "세미나 2주차 과제.md",
     "Spring/of.md",
     "Develop/디자인 패턴/빌더 패턴.md",
@@ -208,7 +210,6 @@
     "전공 공부/이산구조/Matrix.md",
     "Spring/JPA/JPQL.md",
     "Spring/dto.md",
-    "Spring/JPA/영속성 컨텍스트.md",
     "Spring/JPA/엔티티 매핑.md",
     "DB/데이터 무결성.md",
     "Spring/어노테이션/@Embedded.md",
