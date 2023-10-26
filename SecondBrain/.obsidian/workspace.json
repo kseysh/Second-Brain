@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Spring/JPA/persistence.xml.md",
+                "file": "Spring/어노테이션/@mappedBy.md",
                 "mode": "source",
                 "source": false
               }
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Spring/JPA/persistence.xml.md",
+                "file": "Spring/어노테이션/@mappedBy.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Spring/JPA/persistence.xml.md",
+                "file": "Spring/어노테이션/@mappedBy.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Spring/JPA/persistence.xml.md"
+                "file": "Spring/어노테이션/@mappedBy.md"
               }
             }
           },
@@ -194,6 +194,8 @@
   "active": "54f21b8efdb5dc98",
   "lastOpenFiles": [
     "Spring/JPA/양방향 연관관계.md",
+    "Spring/어노테이션/@mappedBy.md",
+    "Spring/JPA/persistence.xml.md",
     "Spring/JPA/단방향 연관관계.md",
     "Spring/JPA/연관관계가 필요한 이유.md",
     "세미나 2주차 과제.md",
@@ -206,7 +208,6 @@
     "Develop/디자인 패턴",
     "Spring/JPA/JPA의 성능 최적화 기능.md",
     "Spring/JPA/트랜잭션.md",
-    "Spring/JPA/persistence.xml.md",
     "Spring/JPA/JPA.md",
     "Spring/JPA/ORM.md",
     "Spring/JPA/엔티티.md",
@@ -219,7 +220,6 @@
     "Spring/어노테이션/@Embedded.md",
     "Develop/개발 원칙/좋은 REST API를 위한 URL 설계 규칙.md",
     "Spring/어노테이션/@Embeddable.md",
-    "Spring/URI.md",
     "Attached files/Pasted image 20231024213115.png",
     "Spring/어노테이션",
     "Attached files/Untitled.png",
