@@ -42,9 +42,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "03523530ba9b56ec",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "회의록.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -110,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "세미나 2주차 과제.md",
+                "file": "회의록.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "세미나 2주차 과제.md",
+                "file": "회의록.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "세미나 2주차 과제.md"
+                "file": "회의록.md"
               }
             }
           },
@@ -191,12 +203,13 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "54f21b8efdb5dc98",
+  "active": "03523530ba9b56ec",
   "lastOpenFiles": [
+    "세미나 2주차 과제.md",
+    "회의록.md",
     "Develop/디자인 패턴/빌더 패턴.md",
     "Git/커밋 메시지 작성 방법.md",
     "Spring/JPA/영속성 컨텍스트.md",
-    "세미나 2주차 과제.md",
     "Spring/of.md",
     "Spring/record.md",
     "Develop/디자인 패턴",
@@ -219,7 +232,6 @@
     "Spring/URL.md",
     "Spring/Query String.md",
     "Spring/Path Parameter.md",
-    "Spring/OOP와 RDB의 패러다임의 불일치.md",
     "Attached files/Pasted image 20231024213115.png",
     "Spring/어노테이션",
     "Attached files/Untitled.png",
