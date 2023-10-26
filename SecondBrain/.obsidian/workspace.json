@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Develop/디자인 패턴/빌더 패턴.md",
+                "file": "세미나 2주차 과제.md",
                 "mode": "source",
                 "source": false
               }
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Develop/디자인 패턴/빌더 패턴.md",
+                "file": "세미나 2주차 과제.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Develop/디자인 패턴/빌더 패턴.md",
+                "file": "세미나 2주차 과제.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Develop/디자인 패턴/빌더 패턴.md"
+                "file": "세미나 2주차 과제.md"
               }
             }
           },
@@ -193,8 +193,9 @@
   },
   "active": "54f21b8efdb5dc98",
   "lastOpenFiles": [
-    "Spring/record.md",
+    "Spring/of.md",
     "Develop/디자인 패턴/빌더 패턴.md",
+    "Spring/record.md",
     "Develop/디자인 패턴",
     "세미나 2주차 과제.md",
     "Spring/JPA/JPA의 성능 최적화 기능.md",
@@ -219,7 +220,6 @@
     "Spring/Path Parameter.md",
     "Spring/OOP와 RDB의 패러다임의 불일치.md",
     "DB/SQL/SQL 문법/REGEXP.md",
-    "DB/SQL/SQL 문법/DISTINCT.md",
     "Attached files/Pasted image 20231024213115.png",
     "Spring/어노테이션",
     "Attached files/Untitled.png",
