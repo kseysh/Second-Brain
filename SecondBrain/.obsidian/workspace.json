@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Git/커밋 메시지 작성 방법.md",
+                "file": "세미나 2주차 과제.md",
                 "mode": "source",
                 "source": false
               }
@@ -73,7 +73,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "커밋 ",
+                "query": "빌더",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -90,8 +90,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -111,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Git/커밋 메시지 작성 방법.md",
+                "file": "세미나 2주차 과제.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -128,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Git/커밋 메시지 작성 방법.md",
+                "file": "세미나 2주차 과제.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -151,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Git/커밋 메시지 작성 방법.md"
+                "file": "세미나 2주차 과제.md"
               }
             }
           },
@@ -194,10 +193,11 @@
   },
   "active": "54f21b8efdb5dc98",
   "lastOpenFiles": [
+    "Develop/디자인 패턴/빌더 패턴.md",
+    "Git/커밋 메시지 작성 방법.md",
     "Spring/JPA/영속성 컨텍스트.md",
     "세미나 2주차 과제.md",
     "Spring/of.md",
-    "Develop/디자인 패턴/빌더 패턴.md",
     "Spring/record.md",
     "Develop/디자인 패턴",
     "Spring/JPA/JPA의 성능 최적화 기능.md",
@@ -220,7 +220,6 @@
     "Spring/Query String.md",
     "Spring/Path Parameter.md",
     "Spring/OOP와 RDB의 패러다임의 불일치.md",
-    "DB/SQL/SQL 문법/REGEXP.md",
     "Attached files/Pasted image 20231024213115.png",
     "Spring/어노테이션",
     "Attached files/Untitled.png",
