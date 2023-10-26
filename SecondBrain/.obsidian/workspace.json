@@ -37,26 +37,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "세미나 2주차 과제.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "03523530ba9b56ec",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "회의록.md",
+                "file": "Spring/JPA/연관관계 매핑 기초.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -122,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "회의록.md",
+                "file": "Spring/JPA/연관관계 매핑 기초.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "회의록.md",
+                "file": "Spring/JPA/연관관계 매핑 기초.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "회의록.md"
+                "file": "Spring/JPA/연관관계 매핑 기초.md"
               }
             }
           },
@@ -203,9 +191,10 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "03523530ba9b56ec",
+  "active": "54f21b8efdb5dc98",
   "lastOpenFiles": [
     "세미나 2주차 과제.md",
+    "Spring/JPA/연관관계 매핑 기초.md",
     "회의록.md",
     "Develop/디자인 패턴/빌더 패턴.md",
     "Git/커밋 메시지 작성 방법.md",
@@ -231,7 +220,6 @@
     "Spring/URI.md",
     "Spring/URL.md",
     "Spring/Query String.md",
-    "Spring/Path Parameter.md",
     "Attached files/Pasted image 20231024213115.png",
     "Spring/어노테이션",
     "Attached files/Untitled.png",
