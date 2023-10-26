@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "세미나 2주차 과제.md",
+                "file": "Spring/JPA/영속성 컨텍스트.md",
                 "mode": "source",
                 "source": false
               }
@@ -94,7 +94,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "feabab388e8825fc",
@@ -110,7 +111,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "세미나 2주차 과제.md",
+                "file": "Spring/JPA/영속성 컨텍스트.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +128,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "세미나 2주차 과제.md",
+                "file": "Spring/JPA/영속성 컨텍스트.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +151,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "세미나 2주차 과제.md"
+                "file": "Spring/JPA/영속성 컨텍스트.md"
               }
             }
           },
@@ -193,11 +194,11 @@
   },
   "active": "54f21b8efdb5dc98",
   "lastOpenFiles": [
+    "세미나 2주차 과제.md",
     "Spring/of.md",
     "Develop/디자인 패턴/빌더 패턴.md",
     "Spring/record.md",
     "Develop/디자인 패턴",
-    "세미나 2주차 과제.md",
     "Spring/JPA/JPA의 성능 최적화 기능.md",
     "Spring/JPA/트랜잭션.md",
     "Spring/JPA/persistence.xml.md",
