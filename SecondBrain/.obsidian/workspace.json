@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Spring/어노테이션/@DynamicUpdate.md",
+                "file": "Spring/역할과 구현의 분리.md",
                 "mode": "source",
                 "source": false
               }
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Spring/어노테이션/@DynamicUpdate.md",
+                "file": "Spring/역할과 구현의 분리.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Spring/어노테이션/@DynamicUpdate.md",
+                "file": "Spring/역할과 구현의 분리.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Spring/어노테이션/@DynamicUpdate.md"
+                "file": "Spring/역할과 구현의 분리.md"
               }
             }
           },
@@ -193,13 +193,18 @@
   },
   "active": "54f21b8efdb5dc98",
   "lastOpenFiles": [
-    "Spring/전체 조회 페이징 처리.md",
+    "Attached files/Pasted image 20231027210322.png",
+    "Attached files/Pasted image 20231027210255.png",
+    "Spring/역할과 구현의 분리.md",
+    "Attached files/Pasted image 20231027210229.png",
+    "Attached files/Pasted image 20231027205953.png",
+    "Attached files/Pasted image 20231027205945.png",
     "Spring/어노테이션/@DynamicUpdate.md",
+    "Spring/전체 조회 페이징 처리.md",
     "Develop/디자인 패턴/도메인형 패키지 구조.md",
     "Develop/디자인 패턴/계층형 패키지 구조.md",
     "Spring/record.md",
     "Spring/APIResponse.md",
-    "Spring/역할과 구현의 분리.md",
     "Attached files/Pasted image 20231027183433.png",
     "Spring/Intellij 단축키 정리.md",
     "Spring/무제 폴더",
@@ -220,7 +225,6 @@
     "회의록.md",
     "Develop/디자인 패턴/빌더 패턴.md",
     "Git/커밋 메시지 작성 방법.md",
-    "Spring/JPA/영속성 컨텍스트.md",
     "Develop/디자인 패턴",
     "Attached files/Pasted image 20231024213115.png",
     "Spring/어노테이션",
@@ -229,11 +233,7 @@
     "Attached files/Pasted image 20231023204655.png",
     "Attached files/Pasted image 20231023204012.png",
     "Develop/코드 리뷰",
-    "Attached files/Pasted image 20231023194817.png",
     "Git/GIT 스터디",
-    "Attached files/Pasted image 20231022081049.png",
-    "Attached files/Pasted image 20231022081004.png",
-    "Attached files/Pasted image 20231022075634.png",
     "DB/SQL/SQL 문법",
     "독서록/개발 관련 도서/테스트주도개발시작하기",
     "ERROR_Diary/GIT",
