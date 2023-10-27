@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Spring/어노테이션/@mappedBy.md",
+                "file": "Spring/Intellij 단축키 정리.md",
                 "mode": "source",
                 "source": false
               }
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Spring/어노테이션/@mappedBy.md",
+                "file": "Spring/Intellij 단축키 정리.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Spring/어노테이션/@mappedBy.md",
+                "file": "Spring/Intellij 단축키 정리.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Spring/어노테이션/@mappedBy.md"
+                "file": "Spring/Intellij 단축키 정리.md"
               }
             }
           },
@@ -193,8 +193,16 @@
   },
   "active": "54f21b8efdb5dc98",
   "lastOpenFiles": [
-    "Spring/JPA/양방향 연관관계.md",
+    "Spring/AOP.md",
+    "Spring/DI.md",
+    "Spring/테스트 케이스를 작성하는 방법.md",
+    "Spring/스프링 빈.md",
+    "Spring/스프링을 사용하는 이유.md",
+    "Spring/POJO.md",
+    "Spring/스프링 부트의 장점.md",
+    "Spring/싱글톤.md",
     "Spring/어노테이션/@mappedBy.md",
+    "Spring/JPA/양방향 연관관계.md",
     "Spring/JPA/persistence.xml.md",
     "Spring/JPA/단방향 연관관계.md",
     "Spring/JPA/연관관계가 필요한 이유.md",
@@ -212,14 +220,6 @@
     "Spring/JPA/ORM.md",
     "Spring/JPA/엔티티.md",
     "Spring/JPA/플러시.md",
-    "전공 공부/이산구조/Matrix.md",
-    "Spring/JPA/JPQL.md",
-    "Spring/dto.md",
-    "Spring/JPA/엔티티 매핑.md",
-    "DB/데이터 무결성.md",
-    "Spring/어노테이션/@Embedded.md",
-    "Develop/개발 원칙/좋은 REST API를 위한 URL 설계 규칙.md",
-    "Spring/어노테이션/@Embeddable.md",
     "Attached files/Pasted image 20231024213115.png",
     "Spring/어노테이션",
     "Attached files/Untitled.png",
