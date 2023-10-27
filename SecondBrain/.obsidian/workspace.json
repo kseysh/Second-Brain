@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Spring/JPA/양방향 연관관계.md",
+                "file": "Spring/JPA/연관관계의 주인.md",
                 "mode": "source",
                 "source": false
               }
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Spring/JPA/양방향 연관관계.md",
+                "file": "Spring/JPA/연관관계의 주인.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Spring/JPA/양방향 연관관계.md",
+                "file": "Spring/JPA/연관관계의 주인.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Spring/JPA/양방향 연관관계.md"
+                "file": "Spring/JPA/연관관계의 주인.md"
               }
             }
           },
@@ -193,6 +193,11 @@
   },
   "active": "54f21b8efdb5dc98",
   "lastOpenFiles": [
+    "Attached files/Pasted image 20231027222153.png",
+    "Attached files/Pasted image 20231027222127.png",
+    "Attached files/Pasted image 20231027221853.png",
+    "Spring/JPA/양방향 연관관계.md",
+    "Spring/JPA/연관관계의 주인.md",
     "Attached files/Pasted image 20231027220654.png",
     "Spring/역할과 구현의 분리.md",
     "Attached files/Pasted image 20231027210322.png",
@@ -218,20 +223,15 @@
     "Spring/스프링 부트의 장점.md",
     "Spring/싱글톤.md",
     "Spring/어노테이션/@mappedBy.md",
-    "Spring/JPA/양방향 연관관계.md",
     "Spring/JPA/persistence.xml.md",
     "Spring/JPA/단방향 연관관계.md",
     "Spring/JPA/연관관계가 필요한 이유.md",
     "세미나 2주차 과제.md",
     "회의록.md",
     "Develop/디자인 패턴/빌더 패턴.md",
-    "Git/커밋 메시지 작성 방법.md",
     "Develop/디자인 패턴",
     "Attached files/Pasted image 20231024213115.png",
     "Spring/어노테이션",
-    "Attached files/Untitled.png",
-    "Attached files/Pasted image 20231023205027.png",
-    "Attached files/Pasted image 20231023204655.png",
     "Develop/코드 리뷰",
     "Git/GIT 스터디",
     "DB/SQL/SQL 문법",
