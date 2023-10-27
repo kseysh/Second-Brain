@@ -73,7 +73,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "빌더",
+                "query": "asse",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -90,7 +90,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -191,7 +192,7 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "54f21b8efdb5dc98",
+  "active": "98b99bcebe54855a",
   "lastOpenFiles": [
     "Spring/AOP.md",
     "Spring/DI.md",
