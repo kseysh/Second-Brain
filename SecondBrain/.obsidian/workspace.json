@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Spring/APIResponse.md",
+                "file": "Develop/디자인 패턴/무제 파일.md",
                 "mode": "source",
                 "source": false
               }
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Spring/APIResponse.md",
+                "file": "Develop/디자인 패턴/무제 파일.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Spring/APIResponse.md",
+                "file": "Develop/디자인 패턴/무제 파일.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Spring/APIResponse.md"
+                "file": "Develop/디자인 패턴/무제 파일.md"
               }
             }
           },
@@ -193,8 +193,9 @@
   },
   "active": "54f21b8efdb5dc98",
   "lastOpenFiles": [
-    "Spring/역할과 구현의 분리.md",
     "Spring/APIResponse.md",
+    "Develop/디자인 패턴/무제 파일.md",
+    "Spring/역할과 구현의 분리.md",
     "Attached files/Pasted image 20231027183433.png",
     "Spring/Intellij 단축키 정리.md",
     "Spring/무제 폴더",
@@ -221,7 +222,6 @@
     "Develop/디자인 패턴",
     "Spring/JPA/JPA의 성능 최적화 기능.md",
     "Spring/JPA/트랜잭션.md",
-    "Spring/JPA/JPA.md",
     "Attached files/Pasted image 20231024213115.png",
     "Spring/어노테이션",
     "Attached files/Untitled.png",
