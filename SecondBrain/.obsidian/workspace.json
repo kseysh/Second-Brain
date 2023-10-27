@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Spring/전체 조회 페이징 처리.md",
+                "file": "Spring/어노테이션/@DynamicUpdate.md",
                 "mode": "source",
                 "source": false
               }
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Spring/전체 조회 페이징 처리.md",
+                "file": "Spring/어노테이션/@DynamicUpdate.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Spring/전체 조회 페이징 처리.md",
+                "file": "Spring/어노테이션/@DynamicUpdate.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Spring/전체 조회 페이징 처리.md"
+                "file": "Spring/어노테이션/@DynamicUpdate.md"
               }
             }
           },
@@ -193,8 +193,9 @@
   },
   "active": "54f21b8efdb5dc98",
   "lastOpenFiles": [
-    "Develop/디자인 패턴/도메인형 패키지 구조.md",
     "Spring/전체 조회 페이징 처리.md",
+    "Spring/어노테이션/@DynamicUpdate.md",
+    "Develop/디자인 패턴/도메인형 패키지 구조.md",
     "Develop/디자인 패턴/계층형 패키지 구조.md",
     "Spring/record.md",
     "Spring/APIResponse.md",
@@ -220,7 +221,6 @@
     "Develop/디자인 패턴/빌더 패턴.md",
     "Git/커밋 메시지 작성 방법.md",
     "Spring/JPA/영속성 컨텍스트.md",
-    "Spring/of.md",
     "Develop/디자인 패턴",
     "Attached files/Pasted image 20231024213115.png",
     "Spring/어노테이션",
