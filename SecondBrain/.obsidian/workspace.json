@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Spring/Intellij 단축키 정리.md",
+                "file": "Spring/APIResponse.md",
                 "mode": "source",
                 "source": false
               }
@@ -73,7 +73,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "asse",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -90,8 +90,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -111,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Spring/Intellij 단축키 정리.md",
+                "file": "Spring/APIResponse.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -128,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Spring/Intellij 단축키 정리.md",
+                "file": "Spring/APIResponse.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -151,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Spring/Intellij 단축키 정리.md"
+                "file": "Spring/APIResponse.md"
               }
             }
           },
@@ -192,8 +191,13 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "98b99bcebe54855a",
+  "active": "54f21b8efdb5dc98",
   "lastOpenFiles": [
+    "Spring/역할과 구현의 분리.md",
+    "Spring/APIResponse.md",
+    "Attached files/Pasted image 20231027183433.png",
+    "Spring/Intellij 단축키 정리.md",
+    "Spring/무제 폴더",
     "Spring/AOP.md",
     "Spring/DI.md",
     "Spring/테스트 케이스를 작성하는 방법.md",
@@ -218,9 +222,6 @@
     "Spring/JPA/JPA의 성능 최적화 기능.md",
     "Spring/JPA/트랜잭션.md",
     "Spring/JPA/JPA.md",
-    "Spring/JPA/ORM.md",
-    "Spring/JPA/엔티티.md",
-    "Spring/JPA/플러시.md",
     "Attached files/Pasted image 20231024213115.png",
     "Spring/어노테이션",
     "Attached files/Untitled.png",
@@ -233,13 +234,11 @@
     "Attached files/Pasted image 20231022081049.png",
     "Attached files/Pasted image 20231022081004.png",
     "Attached files/Pasted image 20231022075634.png",
-    "Attached files/Pasted image 20231022072643.png",
     "DB/SQL/SQL 문법",
     "독서록/개발 관련 도서/테스트주도개발시작하기",
     "ERROR_Diary/GIT",
     "전공 공부/자바기반응용프로그래밍",
     "전공 공부/전자상거래",
-    "DB/SQL/SQL 문제/3단계",
     "무제 파일.canvas"
   ]
 }
