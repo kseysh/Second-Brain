@@ -49,7 +49,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DB/DB정규화.md",
+                "file": "DB/제 1 정규형.md",
                 "mode": "source",
                 "source": false
               }
@@ -122,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DB/DB정규화.md",
+                "file": "DB/제 1 정규형.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "DB/DB정규화.md",
+                "file": "DB/제 1 정규형.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DB/DB정규화.md"
+                "file": "DB/제 1 정규형.md"
               }
             }
           },
@@ -205,8 +205,11 @@
   },
   "active": "1d14e450ef66783b",
   "lastOpenFiles": [
+    "DB/DB 정규화.md",
+    "DB/제 3 정규형.md",
+    "DB/제 2 정규형.md",
+    "DB/제 1 정규형.md",
     "연관관계 매핑 기초.md",
-    "DB/DB정규화.md",
     "Spring/JPA/DB정규화.md",
     "Spring/JPA/연관관계의 주인.md",
     "Spring/JPA/양방향 연관관계.md",
@@ -239,9 +242,6 @@
     "Spring/POJO.md",
     "Spring/스프링 부트의 장점.md",
     "Spring/싱글톤.md",
-    "Spring/어노테이션/@mappedBy.md",
-    "Spring/JPA/persistence.xml.md",
-    "Spring/JPA/연관관계가 필요한 이유.md",
     "Develop/디자인 패턴",
     "Spring/어노테이션",
     "Develop/코드 리뷰",
