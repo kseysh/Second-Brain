@@ -49,14 +49,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DB/SQL/SQL 문법/WITH.md",
+                "file": "전공 공부/시스템 프로그래밍/8. Condition Codes.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "cf62fb1a3b59085f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "전공 공부/시스템 프로그래밍/9. Conditional branches.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -122,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DB/SQL/SQL 문법/WITH.md",
+                "file": "전공 공부/시스템 프로그래밍/9. Conditional branches.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "DB/SQL/SQL 문법/WITH.md",
+                "file": "전공 공부/시스템 프로그래밍/9. Conditional branches.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DB/SQL/SQL 문법/WITH.md"
+                "file": "전공 공부/시스템 프로그래밍/9. Conditional branches.md"
               }
             }
           },
@@ -203,12 +215,15 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "1d14e450ef66783b",
+  "active": "cf62fb1a3b59085f",
   "lastOpenFiles": [
+    "전공 공부/시스템 프로그래밍/8. Condition Codes.md",
+    "무제 파일.md",
+    "전공 공부/시스템 프로그래밍/9. Conditional branches.md",
+    "DB/SQL/SQL 문법/WITH.md",
     "DB/SQL/SQL 문법/GROUP BY.md",
     "DB/SQL/SQL 문법/HAVING.md",
     "DB/SQL/SQL 문법/TEMP.md",
-    "DB/SQL/SQL 문법/WITH.md",
     "Spring/JPA/무제 파일.md",
     "Spring/JPA/연관관계의 주인.md",
     "Spring/JPA/양방향 연관관계.md",
@@ -239,9 +254,6 @@
     "Attached files/Pasted image 20231027183433.png",
     "Spring/Intellij 단축키 정리.md",
     "Spring/무제 폴더",
-    "Spring/AOP.md",
-    "Spring/DI.md",
-    "Spring/테스트 케이스를 작성하는 방법.md",
     "Develop/디자인 패턴",
     "Spring/어노테이션",
     "Develop/코드 리뷰",
