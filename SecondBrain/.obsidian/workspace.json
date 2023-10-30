@@ -80,6 +80,18 @@
             }
           },
           {
+            "id": "29932d64bf669c99",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "피드백.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "74e4cec0fd869f24",
             "type": "leaf",
             "state": {
@@ -92,7 +104,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -158,7 +170,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Spring/CascadeType.md",
+                "file": "피드백.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -175,7 +187,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Spring/CascadeType.md",
+                "file": "피드백.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -198,7 +210,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Spring/CascadeType.md"
+                "file": "피드백.md"
               }
             }
           },
@@ -239,10 +251,11 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "5f9ce5dd5f6cebe6",
+  "active": "29932d64bf669c99",
   "lastOpenFiles": [
-    "Spring/JPA/양방향 연관관계.md",
     "Spring/CascadeType.md",
+    "피드백.md",
+    "Spring/JPA/양방향 연관관계.md",
     "3차 세미나 과제.md",
     "Spring/어노테이션/@Column.md",
     "Spring/어노테이션/@Table.md",
@@ -276,7 +289,6 @@
     "Attached files/Pasted image 20231027205945.png",
     "Spring/어노테이션/@DynamicUpdate.md",
     "Spring/전체 조회 페이징 처리.md",
-    "Develop/디자인 패턴/도메인형 패키지 구조.md",
     "Spring/무제 폴더",
     "Develop/디자인 패턴",
     "Spring/어노테이션",
