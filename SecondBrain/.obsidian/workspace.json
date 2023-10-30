@@ -66,9 +66,33 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "5f9ce5dd5f6cebe6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "DB/제 1 정규형.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "74e4cec0fd869f24",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "DB/SQL/SQL 문법/JOIN.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -134,7 +158,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "전공 공부/시스템 프로그래밍/9. Conditional branches.md",
+                "file": "DB/제 1 정규형.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,7 +175,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "전공 공부/시스템 프로그래밍/9. Conditional branches.md",
+                "file": "DB/제 1 정규형.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -174,7 +198,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "전공 공부/시스템 프로그래밍/9. Conditional branches.md"
+                "file": "DB/제 1 정규형.md"
               }
             }
           },
@@ -215,11 +239,12 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "cf62fb1a3b59085f",
+  "active": "5f9ce5dd5f6cebe6",
   "lastOpenFiles": [
-    "전공 공부/시스템 프로그래밍/8. Condition Codes.md",
-    "무제 파일.md",
+    "3차 세미나 과제.md",
+    "DB/SQL/SQL 문법/JOIN.md",
     "전공 공부/시스템 프로그래밍/9. Conditional branches.md",
+    "전공 공부/시스템 프로그래밍/8. Condition Codes.md",
     "DB/SQL/SQL 문법/WITH.md",
     "DB/SQL/SQL 문법/GROUP BY.md",
     "DB/SQL/SQL 문법/HAVING.md",
@@ -252,7 +277,6 @@
     "Spring/record.md",
     "Spring/APIResponse.md",
     "Attached files/Pasted image 20231027183433.png",
-    "Spring/Intellij 단축키 정리.md",
     "Spring/무제 폴더",
     "Develop/디자인 패턴",
     "Spring/어노테이션",
