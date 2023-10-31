@@ -85,7 +85,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "숫자 야구 기능 목록.md",
+                "file": "Git/GIT 스터디/무제 파일.md",
                 "mode": "source",
                 "source": false
               }
@@ -154,8 +154,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "feabab388e8825fc",
@@ -171,7 +170,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "숫자 야구 기능 목록.md",
+                "file": "Git/GIT 스터디/무제 파일.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -188,7 +187,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "숫자 야구 기능 목록.md",
+                "file": "Git/GIT 스터디/무제 파일.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -211,7 +210,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "숫자 야구 기능 목록.md"
+                "file": "Git/GIT 스터디/무제 파일.md"
               }
             }
           },
@@ -254,8 +253,11 @@
   },
   "active": "612ed2b97189b2f6",
   "lastOpenFiles": [
-    "Spring/CascadeType.md",
+    "Git/GIT 스터디/3-way-merge.md",
+    "Git/GIT 스터디/무제 파일.md",
+    "Git/GIT 스터디/fast-forward merge.md",
     "숫자 야구 기능 목록.md",
+    "Spring/CascadeType.md",
     "피드백.md",
     "Spring/어노테이션/Test/@CsvSource.md",
     "Spring/어노테이션/Test/@ParameterizedTest.md",
@@ -279,9 +281,6 @@
     "Spring/JPA/연관관계의 주인.md",
     "DB/DB 정규화.md",
     "연관관계 매핑 기초.md",
-    "Spring/JPA/DB정규화.md",
-    "Spring/JPA/단방향 연관관계.md",
-    "세미나 2주차 과제.md",
     "Attached files/Pasted image 20231027222153.png",
     "Attached files/Pasted image 20231027222127.png",
     "Attached files/Pasted image 20231027221853.png",
