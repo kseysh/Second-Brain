@@ -85,7 +85,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DB/SQL/SQL 문법/GROUP BY.md",
+                "file": "Git/GIT 스터디/fast-forward merge.md",
                 "mode": "source",
                 "source": false
               }
@@ -170,7 +170,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DB/SQL/SQL 문법/GROUP BY.md",
+                "file": "Git/GIT 스터디/fast-forward merge.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -187,7 +187,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "DB/SQL/SQL 문법/GROUP BY.md",
+                "file": "Git/GIT 스터디/fast-forward merge.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -210,7 +210,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DB/SQL/SQL 문법/GROUP BY.md"
+                "file": "Git/GIT 스터디/fast-forward merge.md"
               }
             }
           },
@@ -253,6 +253,7 @@
   },
   "active": "612ed2b97189b2f6",
   "lastOpenFiles": [
+    "DB/SQL/SQL 문법/GROUP BY.md",
     "DB/SQL/SQL 문법/JOIN.md",
     "DB/SQL/SQL 문법/CASE WHEN.md",
     "DB/SQL/SQL 문법/DISTINCT.md",
@@ -260,7 +261,6 @@
     "DB/SQL/SQL 문법/SUM.md",
     "DB/SQL/SQL 문법/AVG.md",
     "DB/SQL/SQL 문법/DATEDIFF.md",
-    "DB/SQL/SQL 문법/GROUP BY.md",
     "DB/SQL/SQL 문법/UNION.md",
     "DB/SQL/SQL 문법/LIKE.md",
     "DB/SQL/SQL 문법/CONCAT.md",
