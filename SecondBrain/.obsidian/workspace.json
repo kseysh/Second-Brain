@@ -85,7 +85,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "전공 공부/오픈소스응용프로그래밍/2-7. 생성 패턴, 행위 패턴.md",
+                "file": "Develop/디자인 패턴/생성 패턴/팩토리 메서드.md",
                 "mode": "source",
                 "source": false
               }
@@ -170,7 +170,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "전공 공부/오픈소스응용프로그래밍/2-7. 생성 패턴, 행위 패턴.md",
+                "file": "Develop/디자인 패턴/생성 패턴/팩토리 메서드.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -187,7 +187,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "전공 공부/오픈소스응용프로그래밍/2-7. 생성 패턴, 행위 패턴.md",
+                "file": "Develop/디자인 패턴/생성 패턴/팩토리 메서드.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -210,7 +210,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "전공 공부/오픈소스응용프로그래밍/2-7. 생성 패턴, 행위 패턴.md"
+                "file": "Develop/디자인 패턴/생성 패턴/팩토리 메서드.md"
               }
             }
           },
@@ -253,11 +253,22 @@
   },
   "active": "612ed2b97189b2f6",
   "lastOpenFiles": [
+    "Attached files/Pasted image 20231101130745.png",
+    "Attached files/Pasted image 20231101130737.png",
+    "Develop/디자인 패턴/행위 패턴/옵서버.md",
+    "Develop/디자인 패턴/생성 패턴/팩토리 메서드.md",
+    "Develop/디자인 패턴/구조 패턴/어댑터 패턴.md",
+    "Develop/디자인 패턴/구조 패턴/계층형 패키지 구조.md",
+    "Develop/디자인 패턴/구조 패턴/도메인형 패키지 구조.md",
+    "Develop/디자인 패턴/행위 패턴",
+    "Develop/디자인 패턴/생성 패턴",
+    "Develop/디자인 패턴/구조 패턴",
+    "전공 공부/오픈소스응용프로그래밍/2-7. 생성 패턴, 행위 패턴.md",
+    "Attached files/Pasted image 20231101130132.png",
     "전공 공부/오픈소스응용프로그래밍/2-8. 소프트웨어 테스팅 개요, 블랙 박스 테스팅 기법들.md",
     "전공 공부/오픈소스응용프로그래밍/2-6. 디자인패턴 종류.md",
     "전공 공부/오픈소스응용프로그래밍/2-5. 객체지향개발 특성.md",
     "전공 공부/오픈소스응용프로그래밍/2-5. 디자인 패턴 개요.md",
-    "전공 공부/오픈소스응용프로그래밍/2-7. 생성 패턴, 행위 패턴.md",
     "전공 공부/오픈소스응용프로그래밍/중간고사/무제 파일.md",
     "피드백.md",
     "숫자 야구 기능 목록.md",
@@ -275,12 +286,6 @@
     "Git/GIT 스터디/fast-forward merge.md",
     "DB/SQL/SQL 문법/GROUP BY.md",
     "DB/SQL/SQL 문법/JOIN.md",
-    "DB/SQL/SQL 문법/CASE WHEN.md",
-    "DB/SQL/SQL 문법/DISTINCT.md",
-    "DB/SQL/SQL 문법/TIMESTAMPDIFF.md",
-    "DB/SQL/SQL 문법/SUM.md",
-    "DB/SQL/SQL 문법/AVG.md",
-    "DB/SQL/SQL 문법/DATEDIFF.md",
     "Spring/어노테이션/Test",
     "Attached files/Pasted image 20231030140823.png",
     "Attached files/Pasted image 20231027222153.png",
@@ -289,16 +294,11 @@
     "Attached files/Pasted image 20231027220654.png",
     "Attached files/Pasted image 20231027210322.png",
     "Attached files/Pasted image 20231027210255.png",
-    "Attached files/Pasted image 20231027210229.png",
-    "Attached files/Pasted image 20231027205953.png",
     "Spring/무제 폴더",
     "Develop/디자인 패턴",
     "Spring/어노테이션",
     "Develop/코드 리뷰",
     "Git/GIT 스터디",
-    "DB/SQL/SQL 문법",
-    "독서록/개발 관련 도서/테스트주도개발시작하기",
-    "ERROR_Diary/GIT",
     "무제 파일.canvas"
   ]
 }
