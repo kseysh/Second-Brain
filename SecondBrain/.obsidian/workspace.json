@@ -85,7 +85,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Git/GIT 스터디/fast-forward merge.md",
+                "file": "Git/GIT 스터디/rebase and merge.md",
                 "mode": "source",
                 "source": false
               }
@@ -170,7 +170,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Git/GIT 스터디/fast-forward merge.md",
+                "file": "Git/GIT 스터디/rebase and merge.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -187,7 +187,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Git/GIT 스터디/fast-forward merge.md",
+                "file": "Git/GIT 스터디/rebase and merge.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -210,7 +210,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Git/GIT 스터디/fast-forward merge.md"
+                "file": "Git/GIT 스터디/rebase and merge.md"
               }
             }
           },
@@ -253,6 +253,11 @@
   },
   "active": "612ed2b97189b2f6",
   "lastOpenFiles": [
+    "Git/GIT 스터디/squash and merge.md",
+    "Git/GIT 스터디/rebase and merge.md",
+    "Git/GIT 스터디/3-way-merge.md",
+    "Attached files/Pasted image 20231101112251.png",
+    "Git/GIT 스터디/fast-forward merge.md",
     "DB/SQL/SQL 문법/GROUP BY.md",
     "DB/SQL/SQL 문법/JOIN.md",
     "DB/SQL/SQL 문법/CASE WHEN.md",
@@ -266,8 +271,6 @@
     "DB/SQL/SQL 문법/CONCAT.md",
     "DB/SQL/SQL 문법/날짜 관련 함수.md",
     "DB/SQL/SQL 문법/WHERE.md",
-    "Git/GIT 스터디/3-way-merge.md",
-    "Git/GIT 스터디/fast-forward merge.md",
     "Git/GIT 스터디/무제 파일.md",
     "숫자 야구 기능 목록.md",
     "Spring/CascadeType.md",
@@ -278,8 +281,6 @@
     "Spring/JPA/양방향 연관관계.md",
     "3차 세미나 과제.md",
     "Spring/어노테이션/@Column.md",
-    "Spring/어노테이션/@Table.md",
-    "DB/제 3 정규형.md",
     "Attached files/Pasted image 20231030140823.png",
     "Attached files/Pasted image 20231027222153.png",
     "Attached files/Pasted image 20231027222127.png",
@@ -289,7 +290,6 @@
     "Attached files/Pasted image 20231027210255.png",
     "Attached files/Pasted image 20231027210229.png",
     "Attached files/Pasted image 20231027205953.png",
-    "Attached files/Pasted image 20231027205945.png",
     "Spring/무제 폴더",
     "Develop/디자인 패턴",
     "Spring/어노테이션",
