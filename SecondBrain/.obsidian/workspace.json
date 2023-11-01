@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "전공 공부/오픈소스응용프로그래밍/2-7. 행위 패턴.md",
+                "file": "Develop/디자인 패턴/행위 패턴/옵서버.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "전공 공부/오픈소스응용프로그래밍/2-7. 행위 패턴.md",
+                "file": "Develop/디자인 패턴/행위 패턴/옵서버.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "전공 공부/오픈소스응용프로그래밍/2-7. 행위 패턴.md",
+                "file": "Develop/디자인 패턴/행위 패턴/옵서버.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "전공 공부/오픈소스응용프로그래밍/2-7. 행위 패턴.md"
+                "file": "Develop/디자인 패턴/행위 패턴/옵서버.md"
               }
             }
           },
@@ -168,8 +168,10 @@
   },
   "active": "612ed2b97189b2f6",
   "lastOpenFiles": [
-    "전공 공부/오픈소스응용프로그래밍/2-7. 생성 패턴.md",
+    "Attached files/Pasted image 20231101160923.png",
+    "Attached files/Pasted image 20231101160755.png",
     "전공 공부/오픈소스응용프로그래밍/2-7. 행위 패턴.md",
+    "전공 공부/오픈소스응용프로그래밍/2-7. 생성 패턴.md",
     "Attached files/Pasted image 20231101155513.png",
     "Develop/디자인 패턴/생성 패턴/빌더.md",
     "Attached files/Pasted image 20231101155456.png",
@@ -202,13 +204,11 @@
     "Git/GIT 스터디/rebase and merge.md",
     "전공 공부/오픈소스응용프로그래밍/중간고사",
     "Git/GIT 스터디/squash and merge.md",
-    "Git/GIT 스터디/3-way-merge.md",
     "Attached files/Pasted image 20231101112251.png",
     "Spring/어노테이션/Test",
     "Attached files/Pasted image 20231030140823.png",
     "Attached files/Pasted image 20231027222153.png",
     "Attached files/Pasted image 20231027222127.png",
-    "Attached files/Pasted image 20231027221853.png",
     "Spring/무제 폴더",
     "Develop/디자인 패턴",
     "Spring/어노테이션",
