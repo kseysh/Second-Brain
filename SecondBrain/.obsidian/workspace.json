@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Develop/디자인 패턴/행위 패턴/옵서버.md",
+                "file": "전공 공부/오픈소스응용프로그래밍/2-7. 행위 패턴.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Develop/디자인 패턴/행위 패턴/옵서버.md",
+                "file": "전공 공부/오픈소스응용프로그래밍/2-7. 행위 패턴.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Develop/디자인 패턴/행위 패턴/옵서버.md",
+                "file": "전공 공부/오픈소스응용프로그래밍/2-7. 행위 패턴.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Develop/디자인 패턴/행위 패턴/옵서버.md"
+                "file": "전공 공부/오픈소스응용프로그래밍/2-7. 행위 패턴.md"
               }
             }
           },
@@ -166,8 +166,9 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "612ed2b97189b2f6",
+  "active": "77e0b92a051c28ac",
   "lastOpenFiles": [
+    "Develop/디자인 패턴/행위 패턴/옵서버.md",
     "Attached files/Pasted image 20231101160923.png",
     "Attached files/Pasted image 20231101160755.png",
     "전공 공부/오픈소스응용프로그래밍/2-7. 행위 패턴.md",
@@ -181,7 +182,6 @@
     "숫자 야구 기능 목록.md",
     "전공 공부/오픈소스응용프로그래밍/2-6. 디자인패턴 종류.md",
     "Python/Django/배포/WS.md",
-    "Develop/디자인 패턴/행위 패턴/옵서버.md",
     "Develop/디자인 패턴/도메인형 패키지 구조.md",
     "Develop/디자인 패턴/계층형 패키지 구조.md",
     "Develop/디자인 패턴/디자인 패턴.md",
@@ -208,7 +208,6 @@
     "Spring/어노테이션/Test",
     "Attached files/Pasted image 20231030140823.png",
     "Attached files/Pasted image 20231027222153.png",
-    "Attached files/Pasted image 20231027222127.png",
     "Spring/무제 폴더",
     "Develop/디자인 패턴",
     "Spring/어노테이션",
