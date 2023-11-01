@@ -85,7 +85,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DB/SQL/SQL 문법/날짜 관련 함수.md",
+                "file": "DB/SQL/SQL 문법/DISTINCT.md",
                 "mode": "source",
                 "source": false
               }
@@ -170,7 +170,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DB/SQL/SQL 문법/날짜 관련 함수.md",
+                "file": "DB/SQL/SQL 문법/DISTINCT.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -187,7 +187,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "DB/SQL/SQL 문법/날짜 관련 함수.md",
+                "file": "DB/SQL/SQL 문법/DISTINCT.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -210,7 +210,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DB/SQL/SQL 문법/날짜 관련 함수.md"
+                "file": "DB/SQL/SQL 문법/DISTINCT.md"
               }
             }
           },
@@ -253,7 +253,17 @@
   },
   "active": "612ed2b97189b2f6",
   "lastOpenFiles": [
+    "DB/SQL/SQL 문법/TIMESTAMPDIFF.md",
+    "DB/SQL/SQL 문법/SUM.md",
+    "DB/SQL/SQL 문법/AVG.md",
+    "DB/SQL/SQL 문법/DATEDIFF.md",
+    "DB/SQL/SQL 문법/GROUP BY.md",
+    "DB/SQL/SQL 문법/UNION.md",
+    "DB/SQL/SQL 문법/CASE WHEN.md",
+    "DB/SQL/SQL 문법/JOIN.md",
     "DB/SQL/SQL 문법/LIKE.md",
+    "DB/SQL/SQL 문법/CONCAT.md",
+    "DB/SQL/SQL 문법/날짜 관련 함수.md",
     "DB/SQL/SQL 문법/WHERE.md",
     "Git/GIT 스터디/3-way-merge.md",
     "Git/GIT 스터디/fast-forward merge.md",
@@ -270,17 +280,7 @@
     "Spring/어노테이션/@Table.md",
     "DB/제 3 정규형.md",
     "DB/제 2 정규형.md",
-    "DB/제 1 정규형.md",
     "Attached files/Pasted image 20231030140823.png",
-    "DB/SQL/SQL 문법/JOIN.md",
-    "전공 공부/시스템 프로그래밍/9. Conditional branches.md",
-    "전공 공부/시스템 프로그래밍/8. Condition Codes.md",
-    "DB/SQL/SQL 문법/WITH.md",
-    "DB/SQL/SQL 문법/GROUP BY.md",
-    "DB/SQL/SQL 문법/HAVING.md",
-    "DB/SQL/SQL 문법/TEMP.md",
-    "Spring/JPA/무제 파일.md",
-    "Spring/JPA/연관관계의 주인.md",
     "Attached files/Pasted image 20231027222153.png",
     "Attached files/Pasted image 20231027222127.png",
     "Attached files/Pasted image 20231027221853.png",
