@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "전공 공부/시스템 프로그래밍/중간고사/11. Calling Conventions- Passing Control.md",
+                "file": "전공 공부/시스템 프로그래밍/Stack.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "feabab388e8825fc",
@@ -85,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "전공 공부/시스템 프로그래밍/중간고사/11. Calling Conventions- Passing Control.md",
+                "file": "전공 공부/시스템 프로그래밍/Stack.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "전공 공부/시스템 프로그래밍/중간고사/11. Calling Conventions- Passing Control.md",
+                "file": "전공 공부/시스템 프로그래밍/Stack.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "전공 공부/시스템 프로그래밍/중간고사/11. Calling Conventions- Passing Control.md"
+                "file": "전공 공부/시스템 프로그래밍/Stack.md"
               }
             }
           },
@@ -168,6 +169,8 @@
   },
   "active": "bdc11151f2601887",
   "lastOpenFiles": [
+    "Attached files/Pasted image 20231103000940.png",
+    "전공 공부/시스템 프로그래밍/중간고사/11. Calling Conventions- Passing Control.md",
     "독서록/개발 관련 도서/테스트주도개발시작하기/TDD 기능 명세 설계.md",
     "독서록/개발 관련 도서/테스트주도개발시작하기/테스트 코드 작성 순서.md",
     "독서록/개발 관련 도서/테스트주도개발시작하기/TDD 시작.md",
@@ -177,7 +180,6 @@
     "전공 공부/시스템 프로그래밍/중간고사/10. Stack Structure.md",
     "전공 공부/시스템 프로그래밍/시스템 프로그래밍 들어가기 전.md",
     "전공 공부/시스템 프로그래밍/C Basics.md",
-    "전공 공부/시스템 프로그래밍/중간고사/11. Calling Conventions- Passing Control.md",
     "전공 공부/시스템 프로그래밍/시프 공부.md",
     "전공 공부/시스템 프로그래밍/중간고사",
     "Attached files/Pasted image 20231102212721.png",
