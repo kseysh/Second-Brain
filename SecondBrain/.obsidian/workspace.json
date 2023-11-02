@@ -69,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "feabab388e8825fc",
@@ -169,15 +168,16 @@
   },
   "active": "bdc11151f2601887",
   "lastOpenFiles": [
+    "전공 공부/시스템 프로그래밍/11. Calling Conventions- Passing Control.md",
+    "전공 공부/시스템 프로그래밍/중간고사/10. Stack Structure.md",
+    "전공 공부/시스템 프로그래밍/Stack.md",
+    "Attached files/Pasted image 20231103001817.png",
     "Attached files/Pasted image 20231103000940.png",
-    "전공 공부/시스템 프로그래밍/중간고사/11. Calling Conventions- Passing Control.md",
     "독서록/개발 관련 도서/테스트주도개발시작하기/TDD 기능 명세 설계.md",
     "독서록/개발 관련 도서/테스트주도개발시작하기/테스트 코드 작성 순서.md",
     "독서록/개발 관련 도서/테스트주도개발시작하기/TDD 시작.md",
-    "전공 공부/시스템 프로그래밍/Stack.md",
     "Attached files/Pasted image 20231102231728.png",
     "Attached files/Pasted image 20231102231407.png",
-    "전공 공부/시스템 프로그래밍/중간고사/10. Stack Structure.md",
     "전공 공부/시스템 프로그래밍/시스템 프로그래밍 들어가기 전.md",
     "전공 공부/시스템 프로그래밍/C Basics.md",
     "전공 공부/시스템 프로그래밍/시프 공부.md",
@@ -188,8 +188,6 @@
     "Attached files/Pasted image 20231102205510.png",
     "Attached files/Pasted image 20231102205503.png",
     "Attached files/Pasted image 20231102205456.png",
-    "Attached files/Pasted image 20231102205449.png",
-    "Attached files/Pasted image 20231102205438.png",
     "전공 공부/오픈소스응용프로그래밍/2-7. 행위 패턴.md",
     "전공 공부/오픈소스응용프로그래밍/2-8. 블랙박스 테스팅 기법.md",
     "전공 공부/오픈소스응용프로그래밍/오픈소스응용 공부.md",

@@ -18,5 +18,7 @@
 mult2를 호출할  순서대로 rdi는 x, rsi는 y에 배치된다.
 리턴 값은 반드시 rax에 들어간다.
 
+![[Pasted image 20231103001817.png]]
 스택의 top에는 `%rsp`에 return address 적혀있고, 그 한 칸 위(+8)에는 a7이 적혀있다.
-r
+그리고 a8에는 +16이 적혀있다.
+만약 a7, a8이 long이 아니라 int이면 a7는 8(%rsp) 이지만, a8은 12(%rsp)가 된다. (%rsp는 8byte)
