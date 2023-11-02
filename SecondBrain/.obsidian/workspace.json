@@ -69,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "feabab388e8825fc",
@@ -166,7 +167,7 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "bdc11151f2601887",
+  "active": "77e0b92a051c28ac",
   "lastOpenFiles": [
     "독서록/개발 관련 도서/테스트주도개발시작하기/TDD 시작.md",
     "독서록/개발 관련 도서/테스트주도개발시작하기/테스트 코드 작성 순서.md",
