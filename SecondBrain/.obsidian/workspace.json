@@ -18,21 +18,8 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "6d2299e775657333",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "독서록/개발 관련 도서/테스트주도개발시작하기/TDD 기능 명세 설계.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -82,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "feabab388e8825fc",
@@ -99,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "독서록/개발 관련 도서/테스트주도개발시작하기/TDD 기능 명세 설계.md",
+                "file": "전공 공부/시스템 프로그래밍/중간고사/11. Calling Conventions- Passing Control.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "독서록/개발 관련 도서/테스트주도개발시작하기/TDD 기능 명세 설계.md",
+                "file": "전공 공부/시스템 프로그래밍/중간고사/11. Calling Conventions- Passing Control.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "독서록/개발 관련 도서/테스트주도개발시작하기/TDD 기능 명세 설계.md"
+                "file": "전공 공부/시스템 프로그래밍/중간고사/11. Calling Conventions- Passing Control.md"
               }
             }
           },
@@ -180,8 +166,9 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "6d2299e775657333",
+  "active": "bdc11151f2601887",
   "lastOpenFiles": [
+    "독서록/개발 관련 도서/테스트주도개발시작하기/TDD 기능 명세 설계.md",
     "독서록/개발 관련 도서/테스트주도개발시작하기/테스트 코드 작성 순서.md",
     "독서록/개발 관련 도서/테스트주도개발시작하기/TDD 시작.md",
     "전공 공부/시스템 프로그래밍/Stack.md",
@@ -191,7 +178,6 @@
     "전공 공부/시스템 프로그래밍/시스템 프로그래밍 들어가기 전.md",
     "전공 공부/시스템 프로그래밍/C Basics.md",
     "전공 공부/시스템 프로그래밍/중간고사/11. Calling Conventions- Passing Control.md",
-    "독서록/개발 관련 도서/테스트주도개발시작하기/TDD 기능 명세 설계.md",
     "전공 공부/시스템 프로그래밍/시프 공부.md",
     "전공 공부/시스템 프로그래밍/중간고사",
     "Attached files/Pasted image 20231102212721.png",
