@@ -103,7 +103,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "전공 공부/오픈소스응용프로그래밍/오픈소스응용 공부.md",
+                "file": "전공 공부/오픈소스응용프로그래밍/2-8. 소프트웨어 테스팅 개요.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -120,7 +120,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "전공 공부/오픈소스응용프로그래밍/오픈소스응용 공부.md",
+                "file": "전공 공부/오픈소스응용프로그래밍/2-8. 소프트웨어 테스팅 개요.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -143,7 +143,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "전공 공부/오픈소스응용프로그래밍/오픈소스응용 공부.md"
+                "file": "전공 공부/오픈소스응용프로그래밍/2-8. 소프트웨어 테스팅 개요.md"
               }
             }
           },
@@ -184,11 +184,11 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "7c809acb466f1dd9",
+  "active": "bdc11151f2601887",
   "lastOpenFiles": [
+    "전공 공부/오픈소스응용프로그래밍/오픈소스응용 공부.md",
     "전공 공부/오픈소스응용프로그래밍/2-8. 소프트웨어 테스팅 개요.md",
     "전공 공부/오픈소스응용프로그래밍/2-7. 생성 패턴.md",
-    "전공 공부/오픈소스응용프로그래밍/오픈소스응용 공부.md",
     "전공 공부/오픈소스응용프로그래밍/2-7. 행위 패턴.md",
     "전공 공부/오픈소스응용프로그래밍/2-6. 디자인패턴 종류.md",
     "전공 공부/오픈소스응용프로그래밍/2-5. 객체지향개발 특성.md",
