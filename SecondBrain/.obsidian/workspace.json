@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DB 스터디 4주차 정리.md",
+                "file": "DB/SQL/SQL 문법/WITH.md",
                 "mode": "source",
                 "source": false
               }
@@ -61,7 +61,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "WITH",
+                "query": "WITH절",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -99,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DB 스터디 4주차 정리.md",
+                "file": "DB/SQL/SQL 문법/WITH.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "DB 스터디 4주차 정리.md",
+                "file": "DB/SQL/SQL 문법/WITH.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DB 스터디 4주차 정리.md"
+                "file": "DB/SQL/SQL 문법/WITH.md"
               }
             }
           },
@@ -180,10 +180,10 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "98b99bcebe54855a",
+  "active": "a1b2ffe1912a1e96",
   "lastOpenFiles": [
-    "Spring/어노테이션/@MappedSuperclass.md",
     "DB 스터디 4주차 정리.md",
+    "Spring/어노테이션/@MappedSuperclass.md",
     "Attached files/Pasted image 20231105214140.png",
     "Spring/JPA/상속관계 매핑.md",
     "Attached files/Pasted image 20231105211024.png",
