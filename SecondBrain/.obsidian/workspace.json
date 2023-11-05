@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "a1b2ffe1912a1e96",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "DB 스터디 4주차 정리.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -48,7 +61,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "cmp",
+                "query": "WITH",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -65,7 +78,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -85,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Spring/어노테이션/@MappedSuperclass.md",
+                "file": "DB 스터디 4주차 정리.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Spring/어노테이션/@MappedSuperclass.md",
+                "file": "DB 스터디 4주차 정리.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Spring/어노테이션/@MappedSuperclass.md"
+                "file": "DB 스터디 4주차 정리.md"
               }
             }
           },
@@ -166,11 +180,12 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "bdc11151f2601887",
+  "active": "98b99bcebe54855a",
   "lastOpenFiles": [
+    "Spring/어노테이션/@MappedSuperclass.md",
+    "DB 스터디 4주차 정리.md",
     "Attached files/Pasted image 20231105214140.png",
     "Spring/JPA/상속관계 매핑.md",
-    "Spring/어노테이션/@MappedSuperclass.md",
     "Attached files/Pasted image 20231105211024.png",
     "Attached files/Pasted image 20231105210755.png",
     "Attached files/Pasted image 20231105210639.png",
@@ -181,7 +196,6 @@
     "Attached files/Pasted image 20231105181530.png",
     "Attached files/Pasted image 20231105181455.png",
     "Attached files/Pasted image 20231105180905.png",
-    "Attached files/Pasted image 20231105180858.png",
     "Spring/JPA/단방향 연관관계.md",
     "숫자 야구 기능 목록.md",
     "피드백.md",
