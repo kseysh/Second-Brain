@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DB/SQL/SQL 문법/WITH.md",
+                "file": "DB/SQL/SQL 문법/정규표현식.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DB/SQL/SQL 문법/WITH.md",
+                "file": "DB/SQL/SQL 문법/정규표현식.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "DB/SQL/SQL 문법/WITH.md",
+                "file": "DB/SQL/SQL 문법/정규표현식.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DB/SQL/SQL 문법/WITH.md"
+                "file": "DB/SQL/SQL 문법/정규표현식.md"
               }
             }
           },
@@ -168,9 +168,10 @@
   },
   "active": "bdc11151f2601887",
   "lastOpenFiles": [
-    "DB/SQL/SQL 문법/REGEXP.md",
     "DB/SQL/SQL 문법/WITH.md",
+    "DB/SQL/SQL 문법/정규표현식.md",
     "DB/SQL/SQL 문법/TEMP.md",
+    "DB/SQL/SQL 문법/REGEXP.md",
     "Spring/JPA/연관관계의 주인.md",
     "Spring/JPA/무제 파일.md",
     "Attached files/Pasted image 20231105111910.png",
@@ -204,7 +205,6 @@
     "전공 공부/오픈소스응용프로그래밍/2-8. 소프트웨어 테스팅 개요.md",
     "전공 공부/오픈소스응용프로그래밍/2-6. 디자인패턴 종류.md",
     "전공 공부/오픈소스응용프로그래밍/2-7. 생성 패턴.md",
-    "전공 공부/오픈소스응용프로그래밍/2-5. 객체지향개발 특성.md",
     "Develop/디자인 패턴/행위 패턴",
     "Develop/디자인 패턴/생성 패턴",
     "Develop/디자인 패턴/구조 패턴",
