@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Spring/JPA/단방향 연관관계.md",
+                "file": "Spring/JPA/다양한 연관관계 매핑.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Spring/JPA/단방향 연관관계.md",
+                "file": "Spring/JPA/다양한 연관관계 매핑.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Spring/JPA/단방향 연관관계.md",
+                "file": "Spring/JPA/다양한 연관관계 매핑.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Spring/JPA/단방향 연관관계.md"
+                "file": "Spring/JPA/다양한 연관관계 매핑.md"
               }
             }
           },
@@ -168,6 +168,8 @@
   },
   "active": "bdc11151f2601887",
   "lastOpenFiles": [
+    "Spring/JPA/단방향 연관관계.md",
+    "Spring/JPA/다양한 연관관계 매핑.md",
     "숫자 야구 기능 목록.md",
     "피드백.md",
     "Develop/디자인 패턴/계층형 패키지 구조.md",
@@ -181,7 +183,6 @@
     "DB/SQL/SQL 문법/TEMP.md",
     "DB/SQL/SQL 문법/REGEXP.md",
     "Spring/JPA/연관관계의 주인.md",
-    "Spring/JPA/무제 파일.md",
     "Attached files/Pasted image 20231105111910.png",
     "Attached files/Pasted image 20231105111212.png",
     "전공 공부/시스템 프로그래밍/13. Calling Conventions.md",
@@ -203,7 +204,6 @@
     "독서록/개발 관련 도서/테스트주도개발시작하기/테스트 코드 작성 순서.md",
     "독서록/개발 관련 도서/테스트주도개발시작하기/TDD 시작.md",
     "전공 공부/시스템 프로그래밍/시스템 프로그래밍 들어가기 전.md",
-    "전공 공부/시스템 프로그래밍/C Basics.md",
     "전공 공부/시스템 프로그래밍/중간고사",
     "Develop/디자인 패턴/행위 패턴",
     "Develop/디자인 패턴/생성 패턴",
