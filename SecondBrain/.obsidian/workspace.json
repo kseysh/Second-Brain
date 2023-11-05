@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "전공 공부/시스템 프로그래밍/13. Calling Conventions.md",
+                "file": "Spring/JPA/연관관계의 주인.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "전공 공부/시스템 프로그래밍/13. Calling Conventions.md",
+                "file": "Spring/JPA/연관관계의 주인.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "전공 공부/시스템 프로그래밍/13. Calling Conventions.md",
+                "file": "Spring/JPA/연관관계의 주인.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "전공 공부/시스템 프로그래밍/13. Calling Conventions.md"
+                "file": "Spring/JPA/연관관계의 주인.md"
               }
             }
           },
@@ -169,10 +169,11 @@
   },
   "active": "bdc11151f2601887",
   "lastOpenFiles": [
+    "Attached files/Pasted image 20231105111212.png",
+    "전공 공부/시스템 프로그래밍/13. Calling Conventions.md",
     "전공 공부/시스템 프로그래밍/중간고사/10. Stack Structure.md",
     "전공 공부/시스템 프로그래밍/중간고사/9. Conditional branches.md",
     "전공 공부/시스템 프로그래밍/중간고사/8. Condition Codes.md",
-    "전공 공부/시스템 프로그래밍/13. Calling Conventions.md",
     "전공 공부/시스템 프로그래밍/중간고사/7. Arithmetic & Logical Operations.md",
     "전공 공부/시스템 프로그래밍/중간고사/6. Registers, Operands, Move.md",
     "전공 공부/시스템 프로그래밍/12. Stack.md",
@@ -205,7 +206,6 @@
     "Develop/개발 원칙/객체 지향 프로그래밍/리스코브 치환의 원칙.md",
     "전공 공부/오픈소스응용프로그래밍/2-8. 소프트웨어 테스팅 개요 및 어쩌구.md",
     "전공 공부/오픈소스응용프로그래밍/2-8. 소프트웨어 테스팅 개요, 블랙 박스 테스팅 기법들1.md",
-    "Develop/디자인 패턴/행위 패턴/옵서버.md",
     "Develop/디자인 패턴/행위 패턴",
     "Develop/디자인 패턴/생성 패턴",
     "Develop/디자인 패턴/구조 패턴",
