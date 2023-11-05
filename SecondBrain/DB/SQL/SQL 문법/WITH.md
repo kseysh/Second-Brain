@@ -1,10 +1,31 @@
-### with절
+## with절
 
-- 단일문 범위 내에 존재하는 명명된 임시 결과의 집합
-- 나중에 해당 문 내에서 여러번 참조 가능
+> 가상 테이블을 만드는 함수
+> 메인쿼리에서 쓸 서브쿼리를 미리 with절에 기술해주는 것
 
-복잡한 SQL에서 동일 블록에 대해 반복적으로 SQL문을 사용하는 경우 그 블록에 이름을 부여하여 재사용 할 수 있게 하는 코드
+```
+WITH 가상테이블명 AS 
+(
+	SELECT 쿼리 
+	FROM 테이블 이름
+	WHERE 조건
+)
+```
 
-WITH절을 이용하여 미리 이름을 부여해서 Query Block을 만들 수 있다.
+### 예제
+부서 이름이 'Sales'인 모든 직원의 이름, 직책 및 급여 정보를 가져오는 쿼리
+```
+WITH SalesEmployees AS ( 
+	SELECT Name, JobTitle, Salary 
+	FROM employees e 
+	JOIN departments d 
+	ON e.DepartmentID = d.DepartmentID 
+	WHERE DepartmentName = 'Sales' 
+) 
+SELECT Name, JobTitle, Salary 
+FROM SalesEmployees;
+```
 
-> 가상 테이블을 만든다고 생각하면 좋다.
+### 장점
+하나 이상의 서브쿼리에서 반환된 데이터를 단일 쿼리에서 재사용할 수 있다.
+코드 중복을 줄이고 쿼리의 가독성을 향상시키는 데 도움이 된다.
