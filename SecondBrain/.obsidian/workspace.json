@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DB/SQL/SQL 문법/정규표현식.md",
+                "file": "Spring/JPA/다양한 연관관계 매핑.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DB/SQL/SQL 문법/정규표현식.md",
+                "file": "Spring/JPA/다양한 연관관계 매핑.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "DB/SQL/SQL 문법/정규표현식.md",
+                "file": "Spring/JPA/다양한 연관관계 매핑.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DB/SQL/SQL 문법/정규표현식.md"
+                "file": "Spring/JPA/다양한 연관관계 매핑.md"
               }
             }
           },
@@ -179,8 +179,9 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "a1b2ffe1912a1e96",
+  "active": "77e0b92a051c28ac",
   "lastOpenFiles": [
+    "DB/SQL/SQL 문법/정규표현식.md",
     "DB/SQL/SQL 문법/WITH.md",
     "DB 스터디 4주차 정리.md",
     "Spring/어노테이션/@MappedSuperclass.md",
@@ -204,7 +205,6 @@
     "Develop/디자인 패턴/디자인 패턴.md",
     "Develop/디자인 패턴/MVC 패턴.md",
     "JAVA/무제 파일.md",
-    "DB/SQL/SQL 문법/정규표현식.md",
     "DB/SQL/SQL 문법/TEMP.md",
     "DB/SQL/SQL 문법/REGEXP.md",
     "Spring/JPA/연관관계의 주인.md",
