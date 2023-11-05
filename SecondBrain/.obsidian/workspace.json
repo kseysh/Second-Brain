@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Develop/디자인 패턴/계층형 패키지 구조.md",
+                "file": "숫자 야구 기능 목록.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Develop/디자인 패턴/계층형 패키지 구조.md",
+                "file": "숫자 야구 기능 목록.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Develop/디자인 패턴/계층형 패키지 구조.md",
+                "file": "숫자 야구 기능 목록.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Develop/디자인 패턴/계층형 패키지 구조.md"
+                "file": "숫자 야구 기능 목록.md"
               }
             }
           },
@@ -168,8 +168,9 @@
   },
   "active": "bdc11151f2601887",
   "lastOpenFiles": [
-    "Develop/디자인 패턴/도메인형 패키지 구조.md",
+    "피드백.md",
     "Develop/디자인 패턴/계층형 패키지 구조.md",
+    "Develop/디자인 패턴/도메인형 패키지 구조.md",
     "Develop/디자인 패턴/디자인 패턴.md",
     "Develop/디자인 패턴/MVC 패턴.md",
     "Attached files/Pasted image 20231105140559.jpg",
@@ -203,7 +204,6 @@
     "독서록/개발 관련 도서/테스트주도개발시작하기/TDD 시작.md",
     "전공 공부/시스템 프로그래밍/시스템 프로그래밍 들어가기 전.md",
     "전공 공부/시스템 프로그래밍/C Basics.md",
-    "전공 공부/시스템 프로그래밍/시프 공부.md",
     "전공 공부/시스템 프로그래밍/중간고사",
     "Develop/디자인 패턴/행위 패턴",
     "Develop/디자인 패턴/생성 패턴",
