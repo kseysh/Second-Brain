@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "숫자 야구 기능 목록.md",
+                "file": "Spring/JPA/단방향 연관관계.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "숫자 야구 기능 목록.md",
+                "file": "Spring/JPA/단방향 연관관계.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "숫자 야구 기능 목록.md",
+                "file": "Spring/JPA/단방향 연관관계.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "숫자 야구 기능 목록.md"
+                "file": "Spring/JPA/단방향 연관관계.md"
               }
             }
           },
@@ -168,13 +168,13 @@
   },
   "active": "bdc11151f2601887",
   "lastOpenFiles": [
+    "숫자 야구 기능 목록.md",
     "피드백.md",
     "Develop/디자인 패턴/계층형 패키지 구조.md",
     "Develop/디자인 패턴/도메인형 패키지 구조.md",
     "Develop/디자인 패턴/디자인 패턴.md",
     "Develop/디자인 패턴/MVC 패턴.md",
     "Attached files/Pasted image 20231105140559.jpg",
-    "숫자 야구 기능 목록.md",
     "JAVA/무제 파일.md",
     "DB/SQL/SQL 문법/정규표현식.md",
     "DB/SQL/SQL 문법/WITH.md",
