@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Git/GIT 스터디/reset.md",
+                "file": "Git/GIT 스터디/revert.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Git/GIT 스터디/reset.md",
+                "file": "Git/GIT 스터디/revert.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Git/GIT 스터디/reset.md",
+                "file": "Git/GIT 스터디/revert.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Git/GIT 스터디/reset.md"
+                "file": "Git/GIT 스터디/revert.md"
               }
             }
           },
@@ -179,12 +179,14 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "77e0b92a051c28ac",
+  "active": "a1b2ffe1912a1e96",
   "lastOpenFiles": [
+    "Attached files/Pasted image 20231106094253.png",
+    "Git/GIT 스터디/reset.md",
+    "Git/GIT 스터디/revert.md",
     "Git/GIT 스터디/commit 상대 참조.md",
     "Attached files/Pasted image 20231106093514.png",
     "Attached files/Pasted image 20231106093436.png",
-    "Git/GIT 스터디/reset.md",
     "Attached files/Pasted image 20231106093142.png",
     "Attached files/Pasted image 20231106092902.png",
     "Attached files/Pasted image 20231106092644.png",
@@ -215,7 +217,6 @@
     "전공 공부/시스템 프로그래밍/중간고사/9. Conditional branches.md",
     "전공 공부/시스템 프로그래밍/중간고사/8. Condition Codes.md",
     "전공 공부/시스템 프로그래밍/중간고사/7. Arithmetic & Logical Operations.md",
-    "전공 공부/시스템 프로그래밍/중간고사/6. Registers, Operands, Move.md",
     "전공 공부/시스템 프로그래밍/중간고사",
     "Develop/디자인 패턴/행위 패턴",
     "Develop/디자인 패턴/생성 패턴",
