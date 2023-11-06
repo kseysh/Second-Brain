@@ -10,3 +10,7 @@ reset은 commit history도 남지 않고, 직접 WorkingDir 및 Staging Area를 
 revert로 돌리는 경우는 이런 변경이 여기저기에 있고 복잡할 때 사용하면 유용하다.
 
 
+## revert로 merge 풀기
+revert를 하고 싶은 곳이 merge 커밋이라면 `git revert HEAD^`명령어만을 통해 revert를 진행할 수 없다.  
+![[Pasted image 20231106175547.png]]
+그래서 이 경우는 -m 즉, main 라인을 어떤 것으로 할 것인지도 동시에 넣어주어야 한다. 
