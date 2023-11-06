@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Git/GIT 스터디/revert.md",
+                "file": "Git/GIT 스터디/reflog.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Git/GIT 스터디/revert.md",
+                "file": "Git/GIT 스터디/reflog.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Git/GIT 스터디/revert.md",
+                "file": "Git/GIT 스터디/reflog.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Git/GIT 스터디/revert.md"
+                "file": "Git/GIT 스터디/reflog.md"
               }
             }
           },
@@ -179,11 +179,13 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "a1b2ffe1912a1e96",
+  "active": "77e0b92a051c28ac",
   "lastOpenFiles": [
+    "Git/GIT 스터디/revert.md",
+    "Git/GIT 스터디/reset.md",
+    "Git/GIT 스터디/commit 상대 참조.md",
     "Attached files/Pasted image 20231106175547.png",
     "Git/GIT 스터디/무제 파일 1.md",
-    "Git/GIT 스터디/revert.md",
     "Git/GIT 스터디/reflog.md",
     "Attached files/Pasted image 20231106175218.png",
     "DB/SQL/SQL 문법/날짜 관련 함수.md",
@@ -200,8 +202,6 @@
     "DB/SQL/SQL 문법/CASE WHEN.md",
     "Attached files/Pasted image 20231106095140.png",
     "Attached files/Pasted image 20231106094253.png",
-    "Git/GIT 스터디/reset.md",
-    "Git/GIT 스터디/commit 상대 참조.md",
     "Attached files/Pasted image 20231106093514.png",
     "Attached files/Pasted image 20231106093436.png",
     "Attached files/Pasted image 20231106093142.png",
@@ -212,7 +212,6 @@
     "DB 스터디 4주차 정리.md",
     "Attached files/Pasted image 20231105214140.png",
     "Spring/JPA/상속관계 매핑.md",
-    "Attached files/Pasted image 20231105211024.png",
     "Spring/JPA/다양한 연관관계 매핑.md",
     "Spring/JPA/단방향 연관관계.md",
     "숫자 야구 기능 목록.md",
