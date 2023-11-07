@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "전공 공부/이산구조/일반화 된 수열과 조합.md",
+                "file": "전공 공부/이산구조/8. 점화 관계.md",
                 "mode": "source",
                 "source": false
               }
@@ -82,8 +82,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "feabab388e8825fc",
@@ -99,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "전공 공부/이산구조/일반화 된 수열과 조합.md",
+                "file": "전공 공부/이산구조/8. 점화 관계.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "전공 공부/이산구조/일반화 된 수열과 조합.md",
+                "file": "전공 공부/이산구조/8. 점화 관계.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "전공 공부/이산구조/일반화 된 수열과 조합.md"
+                "file": "전공 공부/이산구조/8. 점화 관계.md"
               }
             }
           },
@@ -180,10 +179,11 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "a1b2ffe1912a1e96",
+  "active": "77e0b92a051c28ac",
   "lastOpenFiles": [
+    "전공 공부/이산구조/6. 일반화 된 수열과 조합.md",
+    "전공 공부/이산구조/8. 점화 관계.md",
     "전공 공부/이산구조/중간고사/1. Logic and Proofs.md",
-    "전공 공부/이산구조/일반화 된 수열과 조합.md",
     "전공 공부/이산구조/이산수학 기호.md",
     "전공 공부/이산구조/중간고사/2. Basic Structures.md",
     "전공 공부/이산구조/중간고사/Recursive Algorithms.md",
@@ -210,7 +210,6 @@
     "DB/SQL/SQL 문법/UNION.md",
     "DB/SQL/SQL 문법/MAX, MIN.md",
     "DB/SQL/SQL 문법/JOIN.md",
-    "DB/SQL/SQL 문법/WITH.md",
     "Attached files/Pasted image 20231106095140.png",
     "Attached files/Pasted image 20231106094253.png",
     "Attached files/Pasted image 20231106093514.png",
