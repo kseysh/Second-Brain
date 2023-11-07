@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Git/GIT 스터디/reflog.md",
+                "file": "전공 공부/이산구조/일반화 된 수열과 조합.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Spring/어노테이션/@MappedSuperclass.md",
+                "file": "전공 공부/이산구조/일반화 된 수열과 조합.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Spring/어노테이션/@MappedSuperclass.md",
+                "file": "전공 공부/이산구조/일반화 된 수열과 조합.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Spring/어노테이션/@MappedSuperclass.md"
+                "file": "전공 공부/이산구조/일반화 된 수열과 조합.md"
               }
             }
           },
@@ -179,14 +179,29 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "77e0b92a051c28ac",
+  "active": "a1b2ffe1912a1e96",
   "lastOpenFiles": [
+    "전공 공부/이산구조/중간고사/1. Logic and Proofs.md",
+    "전공 공부/이산구조/일반화 된 수열과 조합.md",
+    "전공 공부/이산구조/이산수학 기호.md",
+    "전공 공부/이산구조/중간고사/2. Basic Structures.md",
+    "전공 공부/이산구조/중간고사/Recursive Algorithms.md",
+    "전공 공부/이산구조/중간고사",
+    "전공 공부/이산구조/중간고사/Sets.md",
+    "전공 공부/이산구조/중간고사/Matrix.md",
+    "전공 공부/이산구조/중간고사/Algorithms.md",
+    "전공 공부/이산구조/중간고사/Growth of Functions.md",
+    "전공 공부/이산구조/중간고사/Induction and recursion.md",
+    "전공 공부/이산구조/중간고사/The Basics of Counting.md",
+    "Git/GIT 스터디/reflog.md",
+    "전공 공부/이산구조/이산구조 문제.md",
+    "전공 공부/이산구조/이산구조 질문.md",
+    "Spring/어노테이션/@MappedSuperclass.md",
     "Git/GIT 스터디/revert.md",
     "Git/GIT 스터디/reset.md",
     "Git/GIT 스터디/commit 상대 참조.md",
     "Attached files/Pasted image 20231106175547.png",
     "Git/GIT 스터디/무제 파일 1.md",
-    "Git/GIT 스터디/reflog.md",
     "Attached files/Pasted image 20231106175218.png",
     "DB/SQL/SQL 문법/날짜 관련 함수.md",
     "DB/SQL/SQL 문법/TIMESTAMPDIFF.md",
@@ -195,11 +210,6 @@
     "DB/SQL/SQL 문법/MAX, MIN.md",
     "DB/SQL/SQL 문법/JOIN.md",
     "DB/SQL/SQL 문법/WITH.md",
-    "DB/SQL/SQL 문법/SQL 문법 순서도.md",
-    "DB/SQL/SQL 문법/DISTINCT.md",
-    "DB/SQL/SQL 문법/WHERE.md",
-    "DB/SQL/SQL 문법/ROUND.md",
-    "DB/SQL/SQL 문법/CASE WHEN.md",
     "Attached files/Pasted image 20231106095140.png",
     "Attached files/Pasted image 20231106094253.png",
     "Attached files/Pasted image 20231106093514.png",
@@ -207,15 +217,7 @@
     "Attached files/Pasted image 20231106093142.png",
     "Attached files/Pasted image 20231106092902.png",
     "Attached files/Pasted image 20231106092644.png",
-    "Spring/어노테이션/@MappedSuperclass.md",
-    "DB/SQL/SQL 문법/정규표현식.md",
-    "DB 스터디 4주차 정리.md",
     "Attached files/Pasted image 20231105214140.png",
-    "Spring/JPA/상속관계 매핑.md",
-    "Spring/JPA/다양한 연관관계 매핑.md",
-    "Spring/JPA/단방향 연관관계.md",
-    "숫자 야구 기능 목록.md",
-    "피드백.md",
     "전공 공부/시스템 프로그래밍/중간고사",
     "Develop/디자인 패턴/행위 패턴",
     "Develop/디자인 패턴/생성 패턴",
@@ -225,7 +227,6 @@
     "Spring/무제 폴더",
     "Develop/디자인 패턴",
     "Spring/어노테이션",
-    "Develop/코드 리뷰",
     "무제 파일.canvas"
   ]
 }
