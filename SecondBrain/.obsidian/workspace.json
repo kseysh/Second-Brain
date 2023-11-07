@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Git/GIT 스터디/reflog.md",
+                "file": "Spring/어노테이션/@MappedSuperclass.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Git/GIT 스터디/reflog.md",
+                "file": "Spring/어노테이션/@MappedSuperclass.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Git/GIT 스터디/reflog.md"
+                "file": "Spring/어노테이션/@MappedSuperclass.md"
               }
             }
           },
