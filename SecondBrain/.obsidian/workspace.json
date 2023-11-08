@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "전공 공부/이산구조/8. 점화 관계.md",
+                "file": "전공 공부/시스템 프로그래밍/11. Calling Conventions- Passing Control.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "전공 공부/이산구조/8. 점화 관계.md",
+                "file": "전공 공부/시스템 프로그래밍/11. Calling Conventions- Passing Control.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "전공 공부/이산구조/8. 점화 관계.md",
+                "file": "전공 공부/시스템 프로그래밍/11. Calling Conventions- Passing Control.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "전공 공부/이산구조/8. 점화 관계.md"
+                "file": "전공 공부/시스템 프로그래밍/11. Calling Conventions- Passing Control.md"
               }
             }
           },
@@ -181,10 +181,12 @@
   },
   "active": "a1b2ffe1912a1e96",
   "lastOpenFiles": [
+    "전공 공부/시스템 프로그래밍/12. Stack.md",
+    "전공 공부/시스템 프로그래밍/13. Calling Conventions.md",
+    "전공 공부/이산구조/8. 점화 관계.md",
     "전공 공부/이산구조/6. 일반화 된 수열과 조합.md",
     "전공 공부/이산구조/이산수학 기호.md",
     "전공 공부/이산구조/9. 관계.md",
-    "전공 공부/이산구조/8. 점화 관계.md",
     "Attached files/Pasted image 20231108033002.png",
     "Attached files/Pasted image 20231108032737.png",
     "전공 공부/이산구조/중간고사/1. Logic and Proofs.md",
@@ -210,7 +212,6 @@
     "DB/SQL/SQL 문법/날짜 관련 함수.md",
     "DB/SQL/SQL 문법/TIMESTAMPDIFF.md",
     "DB/SQL/SQL 문법/REGEXP.md",
-    "DB/SQL/SQL 문법/UNION.md",
     "Attached files/Pasted image 20231106095140.png",
     "Attached files/Pasted image 20231106094253.png",
     "Attached files/Pasted image 20231106093514.png",
