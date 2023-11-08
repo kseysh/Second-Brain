@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "커밋 시에 이슈 번호 넣기.md",
+                "file": "Git/커밋 메시지 작성 방법.md",
                 "mode": "source",
                 "source": false
               }
@@ -73,7 +73,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "WITH절",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "커밋 시에 이슈 번호 넣기.md",
+                "file": "Git/커밋 메시지 작성 방법.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "커밋 시에 이슈 번호 넣기.md",
+                "file": "Git/커밋 메시지 작성 방법.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "커밋 시에 이슈 번호 넣기.md"
+                "file": "Git/커밋 메시지 작성 방법.md"
               }
             }
           },
@@ -193,10 +193,11 @@
   },
   "active": "9835a0a251e9ea0e",
   "lastOpenFiles": [
+    "전공 공부/오픈소스응용프로그래밍/중간고사/Git.md",
+    "커밋 시에 이슈 번호 넣기.md",
     "Attached files/Pasted image 20231108231112.png",
     "Attached files/Pasted image 20231108230745.png",
     "Spring/Intellij 단축키 정리.md",
-    "커밋 시에 이슈 번호 넣기.md",
     "전공 공부/시스템 프로그래밍/11. Calling Conventions- Passing Control.md",
     "전공 공부/시스템 프로그래밍/12. Stack.md",
     "전공 공부/시스템 프로그래밍/13. Calling Conventions.md",
@@ -229,7 +230,6 @@
     "Attached files/Pasted image 20231106094253.png",
     "Attached files/Pasted image 20231106093514.png",
     "Attached files/Pasted image 20231106093436.png",
-    "Attached files/Pasted image 20231106093142.png",
     "전공 공부/시스템 프로그래밍/중간고사",
     "Develop/디자인 패턴/행위 패턴",
     "Develop/디자인 패턴/생성 패턴",
