@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Spring/JPA/BaseEntity.md",
+                "file": "Spring/JPA/데이터베이스 스키마 자동 생성.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -86,7 +86,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "프록시",
+                "query": "yml",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -103,7 +103,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -123,7 +124,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Spring/JPA/BaseEntity.md",
+                "file": "Spring/JPA/데이터베이스 스키마 자동 생성.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -140,7 +141,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Spring/JPA/BaseEntity.md",
+                "file": "Spring/JPA/데이터베이스 스키마 자동 생성.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -163,7 +164,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Spring/JPA/BaseEntity.md"
+                "file": "Spring/JPA/데이터베이스 스키마 자동 생성.md"
               }
             }
           },
@@ -204,13 +205,13 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "9835a0a251e9ea0e",
+  "active": "98b99bcebe54855a",
   "lastOpenFiles": [
+    "Spring/JPA/BaseEntity.md",
     "Spring/JPA/단방향 연관관계.md",
     "Spring/JPA/양방향 연관관계.md",
     "Spring/JPA/데이터 중심 설계의 문제점.md",
     "Spring/JPA/연관관계가 필요한 이유.md",
-    "Spring/JPA/BaseEntity.md",
     "3차 세미나 과제.md",
     "숫자 야구 기능 목록.md",
     "피드백.md",
