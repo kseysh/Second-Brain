@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "독서록/개발 관련 도서/테스트주도개발시작하기/JUnit 5 기초.md",
+                "file": "독서록/개발 관련 도서/테스트주도개발시작하기/테스트 코드의 구성.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -87,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "독서록/개발 관련 도서/테스트주도개발시작하기/JUnit 5 기초.md",
+                "file": "독서록/개발 관련 도서/테스트주도개발시작하기/테스트 코드의 구성.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "독서록/개발 관련 도서/테스트주도개발시작하기/JUnit 5 기초.md",
+                "file": "독서록/개발 관련 도서/테스트주도개발시작하기/테스트 코드의 구성.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -127,7 +127,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "독서록/개발 관련 도서/테스트주도개발시작하기/JUnit 5 기초.md"
+                "file": "독서록/개발 관련 도서/테스트주도개발시작하기/테스트 코드의 구성.md"
               }
             }
           },
@@ -170,8 +170,8 @@
   },
   "active": "9835a0a251e9ea0e",
   "lastOpenFiles": [
-    "독서록/개발 관련 도서/테스트주도개발시작하기/테스트 코드의 구성.md",
     "독서록/개발 관련 도서/테스트주도개발시작하기/JUnit 5 기초.md",
+    "독서록/개발 관련 도서/테스트주도개발시작하기/테스트 코드의 구성.md",
     "독서록/개발 관련 도서/테스트주도개발시작하기/TDD 기능 명세 설계.md",
     "독서록/개발 관련 도서/테스트주도개발시작하기/테스트 코드 작성 순서.md",
     "3차 세미나 과제.md",
