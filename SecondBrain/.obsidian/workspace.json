@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Spring/JPA/데이터베이스 스키마 자동 생성.md",
+                "file": "Spring/Path Parameter.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -86,7 +86,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "yml",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -103,8 +103,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -124,7 +123,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Spring/JPA/데이터베이스 스키마 자동 생성.md",
+                "file": "Spring/Path Parameter.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -141,7 +140,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Spring/JPA/데이터베이스 스키마 자동 생성.md",
+                "file": "Spring/Path Parameter.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -164,7 +163,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Spring/JPA/데이터베이스 스키마 자동 생성.md"
+                "file": "Spring/Path Parameter.md"
               }
             }
           },
@@ -205,44 +204,44 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "98b99bcebe54855a",
+  "active": "9835a0a251e9ea0e",
   "lastOpenFiles": [
-    "Spring/JPA/BaseEntity.md",
-    "Spring/JPA/단방향 연관관계.md",
-    "Spring/JPA/양방향 연관관계.md",
-    "Spring/JPA/데이터 중심 설계의 문제점.md",
-    "Spring/JPA/연관관계가 필요한 이유.md",
-    "3차 세미나 과제.md",
-    "숫자 야구 기능 목록.md",
-    "피드백.md",
-    "커밋 시에 이슈 번호 넣기.md",
-    "Spring/JPA/트랜잭션.md",
-    "DB 스터디 4주차 정리.md",
+    "Spring/Query String.md",
+    "Spring/URL.md",
+    "Spring/URI.md",
+    "Spring/OOP와 RDB의 패러다임의 불일치.md",
+    "Spring/record.md",
+    "Spring/Domain.md",
+    "Spring/Repository.md",
+    "Spring/Service.md",
+    "Spring/Controller.md",
+    "Spring/dto.md",
+    "Spring/JAR vs WAR.md",
+    "Spring/싱글톤.md",
+    "Spring/Spring의 각각의 의존성 주입 방법 특징 및 생성자 주입 방식의 장점.md",
+    "Spring/스프링 부트의 장점.md",
+    "Spring/횡단 관심사.md",
+    "Spring/프레임 워크.md",
+    "Spring/POJO.md",
+    "Spring/스프링을 사용하는 이유.md",
     "Spring/AOP.md",
-    "Spring/프록시 객체.md",
-    "Spring/JPA/ACID.md",
-    "Spring/어노테이션/@Transactional.md",
-    "Spring/JPA/JPA Query Method.md",
-    "Git/GIT 스터디/무제 파일.md",
-    "Spring/JPA/JPA의 성능 최적화 기능.md",
-    "Spring/JPA/영속성 컨텍스트.md",
-    "독서록/개발 관련 도서/테스트주도개발시작하기/테스트 코드의 구성.md",
-    "독서록/개발 관련 도서/테스트주도개발시작하기/JUnit 5 기초.md",
-    "전공 공부/오픈소스응용프로그래밍/2-5. 객체지향개발 특성.md",
-    "전공 공부/오픈소스응용프로그래밍/2-5. 디자인 패턴 개요.md",
-    "전공 공부/오픈소스응용프로그래밍/2-6. 디자인패턴 종류.md",
+    "Spring/DI.md",
+    "Spring/테스트 케이스를 작성하는 방법.md",
+    "Spring/스프링 빈.md",
+    "Spring/IOC.md",
+    "Spring/Intellij 단축키 정리.md",
+    "Spring/spring에서 Test코드 작성시의 주의사항.md",
+    "Spring/스프링 웹 애플리케이션 계층 구조.md",
     "Attached files/Pasted image 20231109100946.png",
     "Attached files/Pasted image 20231109100231.png",
     "Attached files/Pasted image 20231109100206.png",
     "Attached files/Pasted image 20231109095509.png",
     "Attached files/Pasted image 20231109095258.png",
-    "전공 공부/지난 학기/DataStructure/Directed Graphs.md",
     "Attached files/Pasted image 20231109092142.png",
     "Attached files/Pasted image 20231109091536.png",
     "Attached files/Pasted image 20231109091453.png",
     "Attached files/Pasted image 20231109091250.png",
     "Attached files/Pasted image 20231109091236.png",
-    "Git/커밋 메시지 작성 방법.md",
     "전공 공부/이산구조/중간고사",
     "전공 공부/시스템 프로그래밍/중간고사",
     "Develop/디자인 패턴/행위 패턴",
