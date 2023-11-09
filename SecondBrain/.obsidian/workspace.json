@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "독서록/개발 관련 도서/테스트주도개발시작하기/테스트 코드의 구성.md",
+                "file": "3차 세미나 과제.md",
                 "mode": "source",
                 "source": false
               }
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "독서록/개발 관련 도서/테스트주도개발시작하기/테스트 코드의 구성.md",
+                "file": "3차 세미나 과제.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "독서록/개발 관련 도서/테스트주도개발시작하기/테스트 코드의 구성.md",
+                "file": "3차 세미나 과제.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "독서록/개발 관련 도서/테스트주도개발시작하기/테스트 코드의 구성.md"
+                "file": "3차 세미나 과제.md"
               }
             }
           },
@@ -193,8 +193,8 @@
   },
   "active": "9835a0a251e9ea0e",
   "lastOpenFiles": [
-    "독서록/개발 관련 도서/테스트주도개발시작하기/JUnit 5 기초.md",
     "독서록/개발 관련 도서/테스트주도개발시작하기/테스트 코드의 구성.md",
+    "독서록/개발 관련 도서/테스트주도개발시작하기/JUnit 5 기초.md",
     "전공 공부/오픈소스응용프로그래밍/2-5. 객체지향개발 특성.md",
     "전공 공부/오픈소스응용프로그래밍/2-5. 디자인 패턴 개요.md",
     "전공 공부/오픈소스응용프로그래밍/2-6. 디자인패턴 종류.md",
