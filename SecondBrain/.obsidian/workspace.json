@@ -37,9 +37,9 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Spring/JPA/트랜잭션.md",
+                "file": "Spring/JPA/단방향 연관관계.md",
                 "mode": "source",
-                "backlinks": true,
+                "backlinks": false,
                 "source": false
               }
             }
@@ -123,7 +123,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Spring/JPA/트랜잭션.md",
+                "file": "Spring/JPA/단방향 연관관계.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -140,7 +140,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Spring/JPA/트랜잭션.md",
+                "file": "Spring/JPA/단방향 연관관계.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -163,7 +163,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Spring/JPA/트랜잭션.md"
+                "file": "Spring/JPA/단방향 연관관계.md"
               }
             }
           },
@@ -206,8 +206,17 @@
   },
   "active": "9835a0a251e9ea0e",
   "lastOpenFiles": [
-    "Spring/AOP.md",
+    "Spring/JPA/양방향 연관관계.md",
+    "Spring/JPA/데이터 중심 설계의 문제점.md",
+    "Spring/JPA/연관관계가 필요한 이유.md",
+    "Spring/JPA/BaseEntity.md",
+    "3차 세미나 과제.md",
+    "숫자 야구 기능 목록.md",
+    "피드백.md",
+    "커밋 시에 이슈 번호 넣기.md",
     "Spring/JPA/트랜잭션.md",
+    "DB 스터디 4주차 정리.md",
+    "Spring/AOP.md",
     "Spring/프록시 객체.md",
     "Spring/JPA/ACID.md",
     "Spring/어노테이션/@Transactional.md",
@@ -215,7 +224,6 @@
     "Git/GIT 스터디/무제 파일.md",
     "Spring/JPA/JPA의 성능 최적화 기능.md",
     "Spring/JPA/영속성 컨텍스트.md",
-    "3차 세미나 과제.md",
     "독서록/개발 관련 도서/테스트주도개발시작하기/테스트 코드의 구성.md",
     "독서록/개발 관련 도서/테스트주도개발시작하기/JUnit 5 기초.md",
     "전공 공부/오픈소스응용프로그래밍/2-5. 객체지향개발 특성.md",
@@ -234,14 +242,6 @@
     "Attached files/Pasted image 20231109091236.png",
     "Git/커밋 메시지 작성 방법.md",
     "전공 공부/오픈소스응용프로그래밍/중간고사/Git.md",
-    "커밋 시에 이슈 번호 넣기.md",
-    "Spring/Intellij 단축키 정리.md",
-    "전공 공부/시스템 프로그래밍/11. Calling Conventions- Passing Control.md",
-    "전공 공부/시스템 프로그래밍/12. Stack.md",
-    "전공 공부/시스템 프로그래밍/13. Calling Conventions.md",
-    "전공 공부/이산구조/8. 점화 관계.md",
-    "전공 공부/이산구조/6. 일반화 된 수열과 조합.md",
-    "전공 공부/이산구조/이산수학 기호.md",
     "전공 공부/이산구조/중간고사",
     "전공 공부/시스템 프로그래밍/중간고사",
     "Develop/디자인 패턴/행위 패턴",
