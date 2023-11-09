@@ -43,6 +43,18 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "26a7d3ae8ae7109e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Spring/프록시 객체.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
         "currentTab": 2
@@ -194,11 +206,12 @@
   },
   "active": "9835a0a251e9ea0e",
   "lastOpenFiles": [
-    "Spring/JPA/ACID.md",
+    "Spring/AOP.md",
     "Spring/JPA/트랜잭션.md",
+    "Spring/프록시 객체.md",
+    "Spring/JPA/ACID.md",
     "Spring/어노테이션/@Transactional.md",
     "Spring/JPA/JPA Query Method.md",
-    "Spring/프록시 객체.md",
     "Git/GIT 스터디/무제 파일.md",
     "Spring/JPA/JPA의 성능 최적화 기능.md",
     "Spring/JPA/영속성 컨텍스트.md",
@@ -229,7 +242,6 @@
     "전공 공부/이산구조/8. 점화 관계.md",
     "전공 공부/이산구조/6. 일반화 된 수열과 조합.md",
     "전공 공부/이산구조/이산수학 기호.md",
-    "전공 공부/이산구조/9. 관계.md",
     "전공 공부/이산구조/중간고사",
     "전공 공부/시스템 프로그래밍/중간고사",
     "Develop/디자인 패턴/행위 패턴",
