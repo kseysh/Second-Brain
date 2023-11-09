@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Spring/어노테이션/@Transactional.md",
+                "file": "ERROR_Diary/Spring/Error creating bean with name 'entityManagerFactory' defined in class path resource.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -103,8 +103,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -124,7 +123,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Spring/어노테이션/@Transactional.md",
+                "file": "ERROR_Diary/Spring/Error creating bean with name 'entityManagerFactory' defined in class path resource.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -141,7 +140,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Spring/어노테이션/@Transactional.md",
+                "file": "ERROR_Diary/Spring/Error creating bean with name 'entityManagerFactory' defined in class path resource.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -164,7 +163,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Spring/어노테이션/@Transactional.md"
+                "file": "ERROR_Diary/Spring/Error creating bean with name 'entityManagerFactory' defined in class path resource.md"
               }
             }
           },
@@ -207,6 +206,8 @@
   },
   "active": "9835a0a251e9ea0e",
   "lastOpenFiles": [
+    "Spring/어노테이션/@Transactional.md",
+    "ERROR_Diary/Spring/Error creating bean with name 'entityManagerFactory' defined in class path resource.md",
     "Spring/Path Parameter.md",
     "Spring/Query String.md",
     "Spring/URL.md",
@@ -231,8 +232,6 @@
     "Spring/테스트 케이스를 작성하는 방법.md",
     "Spring/스프링 빈.md",
     "Spring/IOC.md",
-    "Spring/Intellij 단축키 정리.md",
-    "Spring/spring에서 Test코드 작성시의 주의사항.md",
     "Attached files/Pasted image 20231109100946.png",
     "Attached files/Pasted image 20231109100231.png",
     "Attached files/Pasted image 20231109100206.png",
