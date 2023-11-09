@@ -8,56 +8,19 @@
         "type": "tabs",
         "children": [
           {
-            "id": "bdc11151f2601887",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Spring/어노테이션/@MappedSuperclass.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "a1b2ffe1912a1e96",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Spring/Intellij 단축키 정리.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "9835a0a251e9ea0e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "3차 세미나 과제.md",
-                "mode": "source",
+                "file": "독서록/개발 관련 도서/테스트주도개발시작하기/JUnit 5 기초.md",
+                "mode": "preview",
                 "backlinks": false,
                 "source": false
               }
             }
-          },
-          {
-            "id": "26a7d3ae8ae7109e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Spring/프록시 객체.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -107,7 +70,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "feabab388e8825fc",
@@ -123,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "3차 세미나 과제.md",
+                "file": "독서록/개발 관련 도서/테스트주도개발시작하기/JUnit 5 기초.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -140,7 +104,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "3차 세미나 과제.md",
+                "file": "독서록/개발 관련 도서/테스트주도개발시작하기/JUnit 5 기초.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -163,7 +127,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "3차 세미나 과제.md"
+                "file": "독서록/개발 관련 도서/테스트주도개발시작하기/JUnit 5 기초.md"
               }
             }
           },
@@ -206,6 +170,11 @@
   },
   "active": "9835a0a251e9ea0e",
   "lastOpenFiles": [
+    "독서록/개발 관련 도서/테스트주도개발시작하기/테스트 코드의 구성.md",
+    "독서록/개발 관련 도서/테스트주도개발시작하기/JUnit 5 기초.md",
+    "독서록/개발 관련 도서/테스트주도개발시작하기/TDD 기능 명세 설계.md",
+    "독서록/개발 관련 도서/테스트주도개발시작하기/테스트 코드 작성 순서.md",
+    "3차 세미나 과제.md",
     "ERROR_Diary/Spring/Error creating bean with name 'entityManagerFactory' defined in class path resource.md",
     "Spring/어노테이션/@Transactional.md",
     "Spring/Path Parameter.md",
@@ -227,11 +196,6 @@
     "Spring/프레임 워크.md",
     "Spring/POJO.md",
     "Spring/스프링을 사용하는 이유.md",
-    "Spring/AOP.md",
-    "Spring/DI.md",
-    "Spring/테스트 케이스를 작성하는 방법.md",
-    "Spring/스프링 빈.md",
-    "Spring/IOC.md",
     "Attached files/Pasted image 20231109100946.png",
     "Attached files/Pasted image 20231109100231.png",
     "Attached files/Pasted image 20231109100206.png",
