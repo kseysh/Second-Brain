@@ -16,6 +16,7 @@
 ![[Pasted image 20231005212629.png]]
 - 지연로딩
 	- 보통 member와 team을 같이 잘 사용하지 않을 때 사용
+	- Entity의 연관관계로 조회를 할 때 Entity는 프록시 객체를 활용한다.
 - 즉시로딩
 	- 보통 member와 team을 자주 같이 사용할 때 사용 
 	- ex) member를 조회할 때 보통 team도 같이 조회할 때
