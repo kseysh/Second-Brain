@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "독서록/개발 관련 도서/테스트주도개발시작하기/JUnit 5 기초.md",
+                "file": "독서록/개발 관련 도서/테스트주도개발시작하기/테스트 코드의 구성.md",
                 "mode": "source",
                 "source": false
               }
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "독서록/개발 관련 도서/테스트주도개발시작하기/JUnit 5 기초.md",
+                "file": "독서록/개발 관련 도서/테스트주도개발시작하기/테스트 코드의 구성.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "독서록/개발 관련 도서/테스트주도개발시작하기/JUnit 5 기초.md",
+                "file": "독서록/개발 관련 도서/테스트주도개발시작하기/테스트 코드의 구성.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "독서록/개발 관련 도서/테스트주도개발시작하기/JUnit 5 기초.md"
+                "file": "독서록/개발 관련 도서/테스트주도개발시작하기/테스트 코드의 구성.md"
               }
             }
           },
@@ -193,6 +193,9 @@
   },
   "active": "9835a0a251e9ea0e",
   "lastOpenFiles": [
+    "전공 공부/지난 학기/DataStructure/Directed Graphs.md",
+    "독서록/개발 관련 도서/테스트주도개발시작하기/테스트 코드의 구성.md",
+    "독서록/개발 관련 도서/테스트주도개발시작하기/JUnit 5 기초.md",
     "Attached files/Pasted image 20231109092142.png",
     "Attached files/Pasted image 20231109091536.png",
     "Attached files/Pasted image 20231109091453.png",
@@ -200,7 +203,6 @@
     "Attached files/Pasted image 20231109091236.png",
     "Attached files/Pasted image 20231109091106.png",
     "Git/커밋 메시지 작성 방법.md",
-    "독서록/개발 관련 도서/테스트주도개발시작하기/JUnit 5 기초.md",
     "전공 공부/오픈소스응용프로그래밍/중간고사/Git.md",
     "커밋 시에 이슈 번호 넣기.md",
     "Attached files/Pasted image 20231108231112.png",
@@ -228,8 +230,6 @@
     "Git/GIT 스터디/reflog.md",
     "전공 공부/이산구조/이산구조 문제.md",
     "전공 공부/이산구조/이산구조 질문.md",
-    "Spring/어노테이션/@MappedSuperclass.md",
-    "Attached files/Pasted image 20231106175547.png",
     "전공 공부/시스템 프로그래밍/중간고사",
     "Develop/디자인 패턴/행위 패턴",
     "Develop/디자인 패턴/생성 패턴",
