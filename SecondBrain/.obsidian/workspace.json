@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ERROR_Diary/Spring/Error creating bean with name 'entityManagerFactory' defined in class path resource.md",
+                "file": "3차 세미나 과제.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -123,7 +123,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ERROR_Diary/Spring/Error creating bean with name 'entityManagerFactory' defined in class path resource.md",
+                "file": "3차 세미나 과제.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -140,7 +140,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ERROR_Diary/Spring/Error creating bean with name 'entityManagerFactory' defined in class path resource.md",
+                "file": "3차 세미나 과제.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -163,7 +163,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ERROR_Diary/Spring/Error creating bean with name 'entityManagerFactory' defined in class path resource.md"
+                "file": "3차 세미나 과제.md"
               }
             }
           },
@@ -206,8 +206,8 @@
   },
   "active": "9835a0a251e9ea0e",
   "lastOpenFiles": [
-    "Spring/어노테이션/@Transactional.md",
     "ERROR_Diary/Spring/Error creating bean with name 'entityManagerFactory' defined in class path resource.md",
+    "Spring/어노테이션/@Transactional.md",
     "Spring/Path Parameter.md",
     "Spring/Query String.md",
     "Spring/URL.md",
