@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Git/커밋 메시지 작성 방법.md",
+                "file": "독서록/개발 관련 도서/테스트주도개발시작하기/JUnit 5 기초.md",
                 "mode": "source",
                 "source": false
               }
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Git/커밋 메시지 작성 방법.md",
+                "file": "독서록/개발 관련 도서/테스트주도개발시작하기/JUnit 5 기초.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Git/커밋 메시지 작성 방법.md",
+                "file": "독서록/개발 관련 도서/테스트주도개발시작하기/JUnit 5 기초.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Git/커밋 메시지 작성 방법.md"
+                "file": "독서록/개발 관련 도서/테스트주도개발시작하기/JUnit 5 기초.md"
               }
             }
           },
@@ -193,6 +193,8 @@
   },
   "active": "9835a0a251e9ea0e",
   "lastOpenFiles": [
+    "Git/커밋 메시지 작성 방법.md",
+    "독서록/개발 관련 도서/테스트주도개발시작하기/JUnit 5 기초.md",
     "전공 공부/오픈소스응용프로그래밍/중간고사/Git.md",
     "커밋 시에 이슈 번호 넣기.md",
     "Attached files/Pasted image 20231108231112.png",
@@ -222,8 +224,6 @@
     "전공 공부/이산구조/이산구조 질문.md",
     "Spring/어노테이션/@MappedSuperclass.md",
     "Git/GIT 스터디/revert.md",
-    "Git/GIT 스터디/reset.md",
-    "Git/GIT 스터디/commit 상대 참조.md",
     "Attached files/Pasted image 20231106175547.png",
     "Attached files/Pasted image 20231106175218.png",
     "Attached files/Pasted image 20231106095140.png",
