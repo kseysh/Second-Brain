@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Spring/JPA/상속관계 매핑.md",
+                "file": "Spring/JPA/엔티티 부모자식관계 매핑하기.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Spring/JPA/상속관계 매핑.md",
+                "file": "Spring/JPA/엔티티 부모자식관계 매핑하기.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Spring/JPA/상속관계 매핑.md",
+                "file": "Spring/JPA/엔티티 부모자식관계 매핑하기.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Spring/JPA/상속관계 매핑.md"
+                "file": "Spring/JPA/엔티티 부모자식관계 매핑하기.md"
               }
             }
           },
@@ -169,8 +169,9 @@
   },
   "active": "9835a0a251e9ea0e",
   "lastOpenFiles": [
-    "Spring/어노테이션/@Inheritance.md",
     "Spring/JPA/상속관계 매핑.md",
+    "Spring/JPA/엔티티 부모자식관계 매핑하기.md",
+    "Spring/어노테이션/@Inheritance.md",
     "Spring/JPA/다양한 연관관계 매핑.md",
     "Spring/어노테이션/@Embedded @Embeddable.md",
     "독서록/개발 관련 도서/테스트주도개발시작하기/테스트 코드의 구성.md",
@@ -194,7 +195,6 @@
     "Spring/JAR vs WAR.md",
     "Spring/싱글톤.md",
     "Spring/Spring의 각각의 의존성 주입 방법 특징 및 생성자 주입 방식의 장점.md",
-    "Spring/스프링 부트의 장점.md",
     "Attached files/Pasted image 20231109100946.png",
     "Attached files/Pasted image 20231109100231.png",
     "Attached files/Pasted image 20231109100206.png",
