@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "독서록/개발 관련 도서/테스트주도개발시작하기/테스트 코드의 구성.md",
-                "mode": "preview",
+                "file": "Spring/어노테이션/@Embedded @Embeddable.md",
+                "mode": "source",
                 "backlinks": false,
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "독서록/개발 관련 도서/테스트주도개발시작하기/테스트 코드의 구성.md",
+                "file": "Spring/어노테이션/@Embedded @Embeddable.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "독서록/개발 관련 도서/테스트주도개발시작하기/테스트 코드의 구성.md",
+                "file": "Spring/어노테이션/@Embedded @Embeddable.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "독서록/개발 관련 도서/테스트주도개발시작하기/테스트 코드의 구성.md"
+                "file": "Spring/어노테이션/@Embedded @Embeddable.md"
               }
             }
           },
@@ -169,8 +169,9 @@
   },
   "active": "9835a0a251e9ea0e",
   "lastOpenFiles": [
-    "독서록/개발 관련 도서/테스트주도개발시작하기/JUnit 5 기초.md",
     "독서록/개발 관련 도서/테스트주도개발시작하기/테스트 코드의 구성.md",
+    "Spring/어노테이션/@Embedded @Embeddable.md",
+    "독서록/개발 관련 도서/테스트주도개발시작하기/JUnit 5 기초.md",
     "독서록/개발 관련 도서/테스트주도개발시작하기/TDD 기능 명세 설계.md",
     "독서록/개발 관련 도서/테스트주도개발시작하기/테스트 코드 작성 순서.md",
     "3차 세미나 과제.md",
@@ -194,7 +195,6 @@
     "Spring/횡단 관심사.md",
     "Spring/프레임 워크.md",
     "Spring/POJO.md",
-    "Spring/스프링을 사용하는 이유.md",
     "Attached files/Pasted image 20231109100946.png",
     "Attached files/Pasted image 20231109100231.png",
     "Attached files/Pasted image 20231109100206.png",
