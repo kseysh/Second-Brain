@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Spring/어노테이션/@Embedded @Embeddable.md",
+                "file": "Spring/JPA/다양한 연관관계 매핑.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -49,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "Tran",
+                "query": "joinc",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -66,7 +66,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -86,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Spring/어노테이션/@Embedded @Embeddable.md",
+                "file": "Spring/JPA/다양한 연관관계 매핑.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +104,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Spring/어노테이션/@Embedded @Embeddable.md",
+                "file": "Spring/JPA/다양한 연관관계 매핑.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +127,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Spring/어노테이션/@Embedded @Embeddable.md"
+                "file": "Spring/JPA/다양한 연관관계 매핑.md"
               }
             }
           },
@@ -169,8 +170,8 @@
   },
   "active": "9835a0a251e9ea0e",
   "lastOpenFiles": [
-    "독서록/개발 관련 도서/테스트주도개발시작하기/테스트 코드의 구성.md",
     "Spring/어노테이션/@Embedded @Embeddable.md",
+    "독서록/개발 관련 도서/테스트주도개발시작하기/테스트 코드의 구성.md",
     "독서록/개발 관련 도서/테스트주도개발시작하기/JUnit 5 기초.md",
     "독서록/개발 관련 도서/테스트주도개발시작하기/TDD 기능 명세 설계.md",
     "독서록/개발 관련 도서/테스트주도개발시작하기/테스트 코드 작성 순서.md",
