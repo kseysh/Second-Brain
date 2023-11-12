@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "3차 세미나 과제.md",
+                "file": "숫자 야구 기능 목록.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "3차 세미나 과제.md",
+                "file": "숫자 야구 기능 목록.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "3차 세미나 과제.md",
+                "file": "숫자 야구 기능 목록.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "3차 세미나 과제.md"
+                "file": "숫자 야구 기능 목록.md"
               }
             }
           },
@@ -169,7 +169,11 @@
   },
   "active": "9835a0a251e9ea0e",
   "lastOpenFiles": [
+    "회의록.md",
+    "숫자 야구 기능 목록.md",
+    "연관관계 매핑 기초.md",
     "ERROR_Diary/Spring/Error creating bean with name 'entityManagerFactory' defined in class path resource.md",
+    "3차 세미나 과제.md",
     "Spring/프록시 객체.md",
     "Spring/JPA/엔티티 부모자식관계 매핑하기.md",
     "Spring/JPA/상속관계 매핑.md",
@@ -180,7 +184,6 @@
     "독서록/개발 관련 도서/테스트주도개발시작하기/JUnit 5 기초.md",
     "독서록/개발 관련 도서/테스트주도개발시작하기/TDD 기능 명세 설계.md",
     "독서록/개발 관련 도서/테스트주도개발시작하기/테스트 코드 작성 순서.md",
-    "3차 세미나 과제.md",
     "Spring/어노테이션/@Transactional.md",
     "Spring/Path Parameter.md",
     "Spring/Query String.md",
@@ -192,9 +195,6 @@
     "Spring/Repository.md",
     "Spring/Service.md",
     "Spring/Controller.md",
-    "Spring/dto.md",
-    "Spring/JAR vs WAR.md",
-    "Spring/싱글톤.md",
     "Attached files/Pasted image 20231109100946.png",
     "Attached files/Pasted image 20231109100231.png",
     "Attached files/Pasted image 20231109100206.png",
