@@ -66,3 +66,8 @@ JPA 구현 라이브러리가 객체를 생성할 때 리플랙션 같은 기술
 ![[Pasted image 20231112211546.png]]
 #### 생성자 주입
 ![[Pasted image 20231112211554.png]]
+
+## @RunWith
+`@RunWith(SpringRunner.class)` : 스프링과 테스트를 통합해주는 어노테이션
+## @SpringBootTest 
+스프링 부트 띄우고 테스트(이게 없으면 @Autowired 다 실패) @Transactional : 반복 가능한 테스트 지원, 각각의 테스트를 실행할 때마다 트랜잭션을 시작하고 테스트 가 끝나면 트랜잭션을 강제로 롤백 (이 어노테이션이 테스트 케이스에서 사용될 때만 롤백)
