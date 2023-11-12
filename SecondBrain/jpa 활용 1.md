@@ -48,8 +48,21 @@ JPA 구현 라이브러리가 객체를 생성할 때 리플랙션 같은 기술
 ## @PersistContext
 ![[@PersistContext]]
 
-> 엔티티 매니저 팩토리는 주입해주지 않는 이유
+> 엔티티 매니저 팩토리는 `@PersistenceUnit`으로 주입해주지 않는 이유
 > @Repository에서 자동으로 주입해주기 때문이다.
 
+## @Transactional(readOnly = true)
+
+![[트랜잭션]]
+
+## 스프링 필드 주입 대신에 생성자 주입을 사용하자
 
 
+![[DI]]
+
+
+### 예제
+#### 필드 주입
+![[Pasted image 20231112211546.png]]
+#### 생성자 주입
+![[Pasted image 20231112211554.png]]
