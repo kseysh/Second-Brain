@@ -19,8 +19,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "21e678bdd6345200",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "jpa 활용 1.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -86,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "전공 공부/지난 학기/DataStructure/AVL Trees.md",
+                "file": "jpa 활용 1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "전공 공부/지난 학기/DataStructure/AVL Trees.md",
+                "file": "jpa 활용 1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "전공 공부/지난 학기/DataStructure/AVL Trees.md"
+                "file": "jpa 활용 1.md"
               }
             }
           },
@@ -167,8 +180,11 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "9835a0a251e9ea0e",
+  "active": "21e678bdd6345200",
   "lastOpenFiles": [
+    "Attached files/Pasted image 20231112194558.png",
+    "전공 공부/지난 학기/DataStructure/AVL Trees.md",
+    "jpa 활용 1.md",
     "숫자 야구 기능 목록.md",
     "회의록.md",
     "연관관계 매핑 기초.md",
@@ -192,9 +208,6 @@
     "Spring/OOP와 RDB의 패러다임의 불일치.md",
     "Spring/record.md",
     "Spring/Domain.md",
-    "Spring/Repository.md",
-    "Spring/Service.md",
-    "Spring/Controller.md",
     "Attached files/Pasted image 20231109100946.png",
     "Attached files/Pasted image 20231109100231.png",
     "Attached files/Pasted image 20231109100206.png",
