@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "jpa 활용 1.md",
+                "file": "Spring/어노테이션/@MappedSuperclass.md",
                 "mode": "source",
                 "source": false
               }
@@ -99,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "jpa 활용 1.md",
+                "file": "Spring/어노테이션/@MappedSuperclass.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "jpa 활용 1.md",
+                "file": "Spring/어노테이션/@MappedSuperclass.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "jpa 활용 1.md"
+                "file": "Spring/어노테이션/@MappedSuperclass.md"
               }
             }
           },
@@ -182,9 +182,10 @@
   },
   "active": "21e678bdd6345200",
   "lastOpenFiles": [
+    "Spring/어노테이션/@Embedded @Embeddable.md",
+    "jpa 활용 1.md",
     "단일 테이블 전략.md",
     "Spring/JPA/상속관계 매핑.md",
-    "jpa 활용 1.md",
     "구현 클래스마다 테이블 전략.md",
     "조인 전략.md",
     "Spring/JPA/ACID.md",
@@ -206,7 +207,6 @@
     "3차 세미나 과제.md",
     "Spring/프록시 객체.md",
     "Spring/어노테이션/@Inheritance.md",
-    "Spring/어노테이션/@Embedded @Embeddable.md",
     "독서록/개발 관련 도서/테스트주도개발시작하기/테스트 코드의 구성.md",
     "독서록/개발 관련 도서/테스트주도개발시작하기/JUnit 5 기초.md",
     "독서록/개발 관련 도서/테스트주도개발시작하기/TDD 기능 명세 설계.md",
