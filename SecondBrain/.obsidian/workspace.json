@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Spring/JPA/상속관계 매핑.md",
+                "file": "jpa 활용 1.md",
                 "mode": "source",
                 "source": false
               }
@@ -99,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Spring/JPA/상속관계 매핑.md",
+                "file": "jpa 활용 1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Spring/JPA/상속관계 매핑.md",
+                "file": "jpa 활용 1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Spring/JPA/상속관계 매핑.md"
+                "file": "jpa 활용 1.md"
               }
             }
           },
@@ -182,11 +182,11 @@
   },
   "active": "21e678bdd6345200",
   "lastOpenFiles": [
-    "jpa 활용 1.md",
-    "Spring/JPA/상속관계 매핑.md",
-    "조인 전략.md",
-    "구현 클래스마다 테이블 전략.md",
     "단일 테이블 전략.md",
+    "Spring/JPA/상속관계 매핑.md",
+    "jpa 활용 1.md",
+    "구현 클래스마다 테이블 전략.md",
+    "조인 전략.md",
     "Spring/JPA/ACID.md",
     "Spring/JPA/엔티티 부모자식관계 매핑하기.md",
     "Spring/JPA/단방향 연관관계.md",
