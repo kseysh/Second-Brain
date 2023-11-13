@@ -74,7 +74,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "생성자 주입",
+                "query": "docker",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -91,7 +91,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -192,7 +193,7 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "b725da39b4f89025",
+  "active": "98b99bcebe54855a",
   "lastOpenFiles": [
     "Attached files/Pasted image 20231113144219.png",
     "jpa 활용 1.md",
