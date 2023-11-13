@@ -31,9 +31,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "b725da39b4f89025",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "무제 파일.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -83,8 +95,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "feabab388e8825fc",
@@ -100,7 +111,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "jpa 활용 1.md",
+                "file": "무제 파일.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +128,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "jpa 활용 1.md",
+                "file": "무제 파일.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -140,7 +151,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "jpa 활용 1.md"
+                "file": "무제 파일.md"
               }
             }
           },
@@ -181,13 +192,15 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "21e678bdd6345200",
+  "active": "b725da39b4f89025",
   "lastOpenFiles": [
+    "Attached files/Pasted image 20231113144219.png",
+    "jpa 활용 1.md",
+    "무제 파일.md",
     "Attached files/Pasted image 20231112211554.png",
     "Attached files/Pasted image 20231112211546.png",
     "Spring/DI.md",
     "생성자 주입.md",
-    "jpa 활용 1.md",
     "Spring/어노테이션/@PersistContext.md",
     "Spring/어노테이션/@MappedSuperclass.md",
     "Spring/어노테이션/@Embedded @Embeddable.md",
@@ -213,12 +226,10 @@
     "숫자 야구 기능 목록.md",
     "회의록.md",
     "연관관계 매핑 기초.md",
-    "ERROR_Diary/Spring/Error creating bean with name 'entityManagerFactory' defined in class path resource.md",
     "Attached files/Pasted image 20231109100946.png",
     "Attached files/Pasted image 20231109100231.png",
     "Attached files/Pasted image 20231109100206.png",
     "Attached files/Pasted image 20231109095509.png",
-    "Attached files/Pasted image 20231109095258.png",
     "전공 공부/이산구조/중간고사",
     "전공 공부/시스템 프로그래밍/중간고사",
     "Develop/디자인 패턴/행위 패턴",
