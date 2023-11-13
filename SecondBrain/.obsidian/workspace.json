@@ -74,7 +74,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "docker",
+                "query": "static",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -96,8 +96,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "feabab388e8825fc",
@@ -194,7 +193,7 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "b725da39b4f89025",
+  "active": "98b99bcebe54855a",
   "lastOpenFiles": [
     "전공 공부/오픈소스응용프로그래밍/중간고사/도커 아키텍처와 이미지 명령어.md",
     "무제 파일.md",
