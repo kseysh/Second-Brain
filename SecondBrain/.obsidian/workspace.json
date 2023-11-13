@@ -43,9 +43,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "e30b6745a017223c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "'.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -91,8 +103,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -112,7 +123,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Python/Django/배포/Docker를 이용해 Django 배포하기.md",
+                "file": "'.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -129,7 +140,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Python/Django/배포/Docker를 이용해 Django 배포하기.md",
+                "file": "'.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -152,7 +163,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Python/Django/배포/Docker를 이용해 Django 배포하기.md"
+                "file": "'.md"
               }
             }
           },
@@ -193,8 +204,10 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "98b99bcebe54855a",
+  "active": "e30b6745a017223c",
   "lastOpenFiles": [
+    "Python/Django/배포/Docker를 이용해 Django 배포하기.md",
+    "'.md",
     "전공 공부/오픈소스응용프로그래밍/중간고사/도커 아키텍처와 이미지 명령어.md",
     "무제 파일.md",
     "Attached files/Pasted image 20231113144219.png",
@@ -226,8 +239,6 @@
     "Attached files/Pasted image 20231112194558.png",
     "전공 공부/지난 학기/DataStructure/AVL Trees.md",
     "숫자 야구 기능 목록.md",
-    "회의록.md",
-    "연관관계 매핑 기초.md",
     "Attached files/Pasted image 20231109100946.png",
     "Attached files/Pasted image 20231109100231.png",
     "Attached files/Pasted image 20231109100206.png",
