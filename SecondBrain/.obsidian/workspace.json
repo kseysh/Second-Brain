@@ -195,6 +195,8 @@
   },
   "active": "21e678bdd6345200",
   "lastOpenFiles": [
+    "Develop/개발 원칙/객체 지향 프로그래밍/단일 책임의 원칙.md",
+    "전공 공부/오픈소스응용프로그래밍/2-5. 객체지향개발 특성.md",
     "jpa 활용 1.md",
     "전공 공부/오픈소스응용프로그래밍/2-6. 디자인패턴 종류.md",
     "Develop/디자인 패턴/디자인 패턴.md",
@@ -223,8 +225,6 @@
     "Spring/JPA/양방향 연관관계.md",
     "Spring/JPA/연관관계의 주인.md",
     "Spring/JPA/다양한 연관관계 매핑.md",
-    "Spring/JPA/JPA Query Method.md",
-    "Spring/JPA/BaseEntity.md",
     "Attached files/Pasted image 20231112194636.png",
     "Attached files/Pasted image 20231112194621.png",
     "Attached files/Pasted image 20231112194558.png",
