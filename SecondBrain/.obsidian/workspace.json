@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "전공 공부/지난 학기/DataStructure/AVL Trees.md",
+                "file": "Develop/디자인 패턴/디자인 패턴.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -44,8 +44,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -91,8 +90,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -112,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "전공 공부/오픈소스응용프로그래밍/2-5. 객체지향개발 특성.md",
+                "file": "Develop/디자인 패턴/디자인 패턴.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -129,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "전공 공부/오픈소스응용프로그래밍/2-5. 객체지향개발 특성.md",
+                "file": "Develop/디자인 패턴/디자인 패턴.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -152,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "전공 공부/오픈소스응용프로그래밍/2-5. 객체지향개발 특성.md"
+                "file": "Develop/디자인 패턴/디자인 패턴.md"
               }
             }
           },
@@ -193,12 +191,13 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "21e678bdd6345200",
+  "active": "9835a0a251e9ea0e",
   "lastOpenFiles": [
-    "Develop/개발 원칙/객체 지향 프로그래밍/단일 책임의 원칙.md",
-    "전공 공부/오픈소스응용프로그래밍/2-5. 객체지향개발 특성.md",
-    "jpa 활용 1.md",
+    "전공 공부/지난 학기/DataStructure/AVL Trees.md",
     "전공 공부/오픈소스응용프로그래밍/2-6. 디자인패턴 종류.md",
+    "전공 공부/오픈소스응용프로그래밍/2-5. 객체지향개발 특성.md",
+    "Develop/개발 원칙/객체 지향 프로그래밍/단일 책임의 원칙.md",
+    "jpa 활용 1.md",
     "Develop/디자인 패턴/디자인 패턴.md",
     "무제 파일.md",
     "'.md",
@@ -224,7 +223,6 @@
     "Spring/JPA/단방향 연관관계.md",
     "Spring/JPA/양방향 연관관계.md",
     "Spring/JPA/연관관계의 주인.md",
-    "Spring/JPA/다양한 연관관계 매핑.md",
     "Attached files/Pasted image 20231112194636.png",
     "Attached files/Pasted image 20231112194621.png",
     "Attached files/Pasted image 20231112194558.png",
