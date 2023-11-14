@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "jpa 활용 1.md",
+                "file": "전공 공부/오픈소스응용프로그래밍/2-5. 객체지향개발 특성.md",
                 "mode": "preview",
                 "source": false
               }
@@ -38,14 +38,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Develop/디자인 패턴/디자인 패턴.md",
+                "file": "전공 공부/오픈소스응용프로그래밍/2-6. 디자인패턴 종류.md",
                 "mode": "preview",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -74,7 +74,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "static",
+                "query": "solid",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -91,7 +91,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -111,7 +112,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Develop/디자인 패턴/디자인 패턴.md",
+                "file": "전공 공부/오픈소스응용프로그래밍/2-5. 객체지향개발 특성.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -128,7 +129,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Develop/디자인 패턴/디자인 패턴.md",
+                "file": "전공 공부/오픈소스응용프로그래밍/2-5. 객체지향개발 특성.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -151,7 +152,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Develop/디자인 패턴/디자인 패턴.md"
+                "file": "전공 공부/오픈소스응용프로그래밍/2-5. 객체지향개발 특성.md"
               }
             }
           },
@@ -192,16 +193,16 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "b725da39b4f89025",
+  "active": "21e678bdd6345200",
   "lastOpenFiles": [
+    "jpa 활용 1.md",
     "전공 공부/오픈소스응용프로그래밍/2-6. 디자인패턴 종류.md",
-    "무제 파일.md",
     "Develop/디자인 패턴/디자인 패턴.md",
+    "무제 파일.md",
     "'.md",
     "Python/Django/배포/Docker를 이용해 Django 배포하기.md",
     "전공 공부/오픈소스응용프로그래밍/중간고사/도커 아키텍처와 이미지 명령어.md",
     "Attached files/Pasted image 20231113144219.png",
-    "jpa 활용 1.md",
     "Attached files/Pasted image 20231112211554.png",
     "Attached files/Pasted image 20231112211546.png",
     "Spring/DI.md",
