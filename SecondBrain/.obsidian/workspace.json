@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Develop/디자인 패턴/디자인 패턴.md",
+                "file": "독서록/개발 관련 도서/테스트주도개발시작하기/대역.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Develop/디자인 패턴/디자인 패턴.md",
+                "file": "독서록/개발 관련 도서/테스트주도개발시작하기/대역.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Develop/디자인 패턴/디자인 패턴.md",
+                "file": "독서록/개발 관련 도서/테스트주도개발시작하기/대역.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Develop/디자인 패턴/디자인 패턴.md"
+                "file": "독서록/개발 관련 도서/테스트주도개발시작하기/대역.md"
               }
             }
           },
@@ -193,12 +193,13 @@
   },
   "active": "9835a0a251e9ea0e",
   "lastOpenFiles": [
+    "Develop/디자인 패턴/디자인 패턴.md",
+    "독서록/개발 관련 도서/테스트주도개발시작하기/대역.md",
     "전공 공부/지난 학기/DataStructure/AVL Trees.md",
     "전공 공부/오픈소스응용프로그래밍/2-6. 디자인패턴 종류.md",
     "전공 공부/오픈소스응용프로그래밍/2-5. 객체지향개발 특성.md",
     "Develop/개발 원칙/객체 지향 프로그래밍/단일 책임의 원칙.md",
     "jpa 활용 1.md",
-    "Develop/디자인 패턴/디자인 패턴.md",
     "무제 파일.md",
     "'.md",
     "Python/Django/배포/Docker를 이용해 Django 배포하기.md",
@@ -222,7 +223,6 @@
     "Spring/JPA/엔티티 부모자식관계 매핑하기.md",
     "Spring/JPA/단방향 연관관계.md",
     "Spring/JPA/양방향 연관관계.md",
-    "Spring/JPA/연관관계의 주인.md",
     "Attached files/Pasted image 20231112194636.png",
     "Attached files/Pasted image 20231112194621.png",
     "Attached files/Pasted image 20231112194558.png",
