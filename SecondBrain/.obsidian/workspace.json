@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "독서록/개발 관련 도서/테스트주도개발시작하기/대역.md",
+                "file": "전공 공부/시스템 프로그래밍/10. Stack Structure.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -21,25 +21,13 @@
             }
           },
           {
-            "id": "21e678bdd6345200",
+            "id": "2a282e6c9bb13354",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "전공 공부/오픈소스응용프로그래밍/2-5. 객체지향개발 특성.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "b725da39b4f89025",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "전공 공부/오픈소스응용프로그래밍/2-6. 디자인패턴 종류.md",
-                "mode": "preview",
+                "file": "전공 공부/시스템 프로그래밍/20. Dynamic Memory Allocation.md",
+                "mode": "source",
                 "source": false
               }
             }
@@ -73,7 +61,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "solid",
+                "query": "procedure",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -110,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "독서록/개발 관련 도서/테스트주도개발시작하기/대역.md",
+                "file": "전공 공부/시스템 프로그래밍/10. Stack Structure.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "독서록/개발 관련 도서/테스트주도개발시작하기/대역.md",
+                "file": "전공 공부/시스템 프로그래밍/10. Stack Structure.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "독서록/개발 관련 도서/테스트주도개발시작하기/대역.md"
+                "file": "전공 공부/시스템 프로그래밍/10. Stack Structure.md"
               }
             }
           },
@@ -191,44 +179,44 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "9835a0a251e9ea0e",
+  "active": "77e0b92a051c28ac",
   "lastOpenFiles": [
-    "Attached files/Pasted image 20231115110709.png",
-    "Attached files/Pasted image 20231115103914.png",
-    "Attached files/Pasted image 20231115103340.png",
-    "Attached files/Pasted image 20231115103312.png",
-    "Attached files/Pasted image 20231115103246.png",
-    "Attached files/Pasted image 20231115094759.png",
-    "Attached files/Pasted image 20231115094727.png",
-    "Attached files/Pasted image 20231115094458.png",
-    "Develop/디자인 패턴/디자인 패턴.md",
-    "독서록/개발 관련 도서/테스트주도개발시작하기/대역.md",
-    "전공 공부/지난 학기/DataStructure/AVL Trees.md",
-    "전공 공부/오픈소스응용프로그래밍/2-6. 디자인패턴 종류.md",
-    "전공 공부/오픈소스응용프로그래밍/2-5. 객체지향개발 특성.md",
-    "Develop/개발 원칙/객체 지향 프로그래밍/단일 책임의 원칙.md",
-    "jpa 활용 1.md",
-    "무제 파일.md",
-    "'.md",
-    "Python/Django/배포/Docker를 이용해 Django 배포하기.md",
-    "전공 공부/오픈소스응용프로그래밍/중간고사/도커 아키텍처와 이미지 명령어.md",
-    "Attached files/Pasted image 20231113144219.png",
-    "Attached files/Pasted image 20231112211554.png",
-    "Attached files/Pasted image 20231112211546.png",
-    "Spring/DI.md",
-    "생성자 주입.md",
-    "Spring/어노테이션/@PersistContext.md",
-    "Spring/어노테이션/@MappedSuperclass.md",
-    "Spring/어노테이션/@Embedded @Embeddable.md",
-    "Spring/JPA/트랜잭션.md",
-    "Spring/어노테이션/@Transactional.md",
-    "단일 테이블 전략.md",
-    "Spring/JPA/상속관계 매핑.md",
-    "구현 클래스마다 테이블 전략.md",
-    "조인 전략.md",
+    "Attached files/Pasted image 20231130223540.png",
+    "전공 공부/시스템 프로그래밍/중간고사/9. Conditional branches.md",
+    "전공 공부/시스템 프로그래밍/10. Stack Structure.md",
+    "전공 공부/시스템 프로그래밍/11. Calling Conventions- Passing Control.md",
+    "전공 공부/시스템 프로그래밍/12. Stack.md",
+    "전공 공부/시스템 프로그래밍/22. Exceptional Control Flow.md",
+    "Attached files/Pasted image 20231130205530.png",
+    "Attached files/Pasted image 20231130205203.png",
+    "Attached files/Pasted image 20231130205130.png",
+    "Attached files/Pasted image 20231130204451.png",
+    "Attached files/Pasted image 20231130204326.png",
+    "Attached files/Pasted image 20231130203707.png",
+    "Attached files/Pasted image 20231130201606.png",
+    "Attached files/Pasted image 20231130201529.png",
+    "전공 공부/시스템 프로그래밍/21. Memory-related perils and pitfalls.md",
+    "Attached files/Pasted image 20231130180314.png",
+    "Attached files/Pasted image 20231130180215.png",
+    "전공 공부/시스템 프로그래밍/20. Dynamic Memory Allocation.md",
+    "전공 공부/오픈소스응용프로그래밍/2-12. 소프트웨어 신뢰성을 위한 추가 방법들.md",
+    "Spring/JPA/BaseEntity.md",
+    "전공 공부/오픈소스응용프로그래밍/2-9. 화이트박스 테스팅 기법들.md",
+    "Spring/JPA/@ElementCollection.md",
+    "Spring/JPA/Controller에서는 엔티티 자체보다 엔티티의 식별자를 전달하자.md",
+    "Spring/JPA/변경 감지와 병합.md",
+    "Spring/JPA/Cascade.ALL을 사용하는 경우.md",
+    "Spring/JPA/JPA Query Method.md",
     "Spring/JPA/ACID.md",
-    "Spring/JPA/엔티티 부모자식관계 매핑하기.md",
+    "Spring/JPA/다양한 연관관계 매핑.md",
+    "Spring/JPA/양방향 연관관계.md",
     "Spring/JPA/단방향 연관관계.md",
+    "Spring/JPA/기본 키 매핑.md",
+    "Spring/JPA/필드와 컬럼 매핑.md",
+    "Spring/JPA/플러시.md",
+    "Spring/JPA/엔티티.md",
+    "Spring/JPA/ORM.md",
+    "Spring/JPA/JPA.md",
     "전공 공부/이산구조/중간고사",
     "전공 공부/시스템 프로그래밍/중간고사",
     "Develop/디자인 패턴/행위 패턴",

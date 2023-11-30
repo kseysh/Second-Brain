@@ -21,3 +21,18 @@ EX)
 `SELECT 컬럼 FROM 테이블 [WHERE 조건식]`
 `GROUP BY 그룹화할 컬럼 [HAVING 조건식] ORDER BY 컬럼1 [, 컬럼2, 컬럼3 ...];`
 
+
+## GROUP BY 활용
+
+### COUNT(\*) 조합
+데이터가 얼만큼 들어가 있는지 확인하는 용도로 사용할 수 있다.
+![[Pasted image 20231117185316.png]]
+![[Pasted image 20231117185323.png]]
+
+### SUM(\*) 조합
+![[Pasted image 20231117185352.png]]
+![[Pasted image 20231117185401.png]]
+
+### AVG(\*) 조합
+![[Pasted image 20231117185420.png]]
+![[Pasted image 20231117185427.png]]

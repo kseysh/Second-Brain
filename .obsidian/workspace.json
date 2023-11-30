@@ -4,15 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "068d8e27a523f1d4",
+        "id": "6e72e403871091fb",
         "type": "tabs",
         "children": [
           {
-            "id": "7d70dd06fa5b63ca",
+            "id": "9995bee090ba3afb",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "SecondBrain/전공 공부/이산구조/9. 관계.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -60,12 +64,21 @@
               "type": "bookmarks",
               "state": {}
             }
+          },
+          {
+            "id": "69bd50229a435d3a",
+            "type": "leaf",
+            "state": {
+              "type": "mk-file-view",
+              "state": {}
+            }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "6a641e930567f8cc",
@@ -81,6 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "SecondBrain/전공 공부/이산구조/9. 관계.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "SecondBrain/전공 공부/이산구조/9. 관계.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +133,19 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "SecondBrain/전공 공부/이산구조/9. 관계.md"
+              }
+            }
+          },
+          {
+            "id": "51a8d393b9afd647",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency"
+              }
             }
           }
         ]
@@ -135,9 +162,16 @@
       "canvas:새 캔버스 만들기": false,
       "daily-notes:오늘의 데일리 노트 열기": false,
       "templates:템플릿 삽입": false,
-      "command-palette:명령어 팔레트 열기": false
+      "command-palette:명령어 팔레트 열기": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "7d70dd06fa5b63ca",
-  "lastOpenFiles": []
+  "active": "9995bee090ba3afb",
+  "lastOpenFiles": [
+    "SecondBrain/Attached files/Pasted image 20231130223540.png",
+    "Pasted image 20231130223540.png",
+    "SecondBrain/전공 공부/이산구조/9. 관계.md",
+    "Spaces/Home",
+    "Spaces"
+  ]
 }
