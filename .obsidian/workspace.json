@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SecondBrain/전공 공부/시스템 프로그래밍/19. Virtual Memory.md",
+                "file": "SecondBrain/전공 공부/시스템 프로그래밍/20. Dynamic Memory Allocation.md",
                 "mode": "source",
                 "source": false
               }
@@ -113,7 +113,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SecondBrain/전공 공부/시스템 프로그래밍/19. Virtual Memory.md",
+                "file": "SecondBrain/전공 공부/시스템 프로그래밍/시프 기말 공부.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -130,7 +130,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SecondBrain/전공 공부/시스템 프로그래밍/19. Virtual Memory.md",
+                "file": "SecondBrain/전공 공부/시스템 프로그래밍/시프 기말 공부.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -153,7 +153,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SecondBrain/전공 공부/시스템 프로그래밍/19. Virtual Memory.md"
+                "file": "SecondBrain/전공 공부/시스템 프로그래밍/시프 기말 공부.md"
               }
             }
           },
@@ -185,10 +185,11 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "9995bee090ba3afb",
+  "active": "5fd9398c4a3a9248",
   "lastOpenFiles": [
-    "SecondBrain/전공 공부/시스템 프로그래밍/시프 기말 공부.md",
+    "SecondBrain/전공 공부/시스템 프로그래밍/20. Dynamic Memory Allocation.md",
     "SecondBrain/전공 공부/시스템 프로그래밍/19. Virtual Memory.md",
+    "SecondBrain/전공 공부/시스템 프로그래밍/시프 기말 공부.md",
     "SecondBrain/전공 공부/시스템 프로그래밍/18. Processes.md",
     "SecondBrain/전공 공부/시스템 프로그래밍/17. Linking.md",
     "SecondBrain/전공 공부/시스템 프로그래밍/16. Union.md",
@@ -200,7 +201,6 @@
     "SecondBrain/전공 공부/시스템 프로그래밍/15. Structure.md",
     "SecondBrain/전공 공부/시스템 프로그래밍/14. Arrays.md",
     "SecondBrain/Attached files/Pasted image 20231203172340.png",
-    "SecondBrain/전공 공부/시스템 프로그래밍/20. Dynamic Memory Allocation.md",
     "SecondBrain/전공 공부/시스템 프로그래밍/중간고사/6. Registers, Operands, Move.md",
     "SecondBrain/전공 공부/시스템 프로그래밍/중간고사/7. Arithmetic & Logical Operations.md",
     "SecondBrain/전공 공부/시스템 프로그래밍/중간고사/5. C, assembly, machince code.md",
