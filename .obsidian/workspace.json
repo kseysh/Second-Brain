@@ -13,7 +13,25 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SecondBrain/전공 공부/시스템 프로그래밍/14. Arrays.md",
+                "file": "SecondBrain/전공 공부/시스템 프로그래밍/13. Calling Conventions.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "70d06cd0f2483c5b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "5fd9398c4a3a9248",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "SecondBrain/전공 공부/시스템 프로그래밍/시프 기말 공부.md",
                 "mode": "source",
                 "source": false
               }
@@ -77,8 +95,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "6a641e930567f8cc",
@@ -94,7 +111,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SecondBrain/전공 공부/시스템 프로그래밍/14. Arrays.md",
+                "file": "SecondBrain/전공 공부/시스템 프로그래밍/시프 기말 공부.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +128,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SecondBrain/전공 공부/시스템 프로그래밍/14. Arrays.md",
+                "file": "SecondBrain/전공 공부/시스템 프로그래밍/시프 기말 공부.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +151,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SecondBrain/전공 공부/시스템 프로그래밍/14. Arrays.md"
+                "file": "SecondBrain/전공 공부/시스템 프로그래밍/시프 기말 공부.md"
               }
             }
           },
@@ -166,17 +183,21 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "9995bee090ba3afb",
+  "active": "5fd9398c4a3a9248",
   "lastOpenFiles": [
+    "Pasted image 20231203160413.png",
+    "Pasted image 20231203160339.png",
+    "SecondBrain/전공 공부/시스템 프로그래밍/13. Calling Conventions.md",
+    "SecondBrain/전공 공부/시스템 프로그래밍/12. Stack.md",
+    "SecondBrain/전공 공부/시스템 프로그래밍/중간고사/10. Stack Structure.md",
+    "SecondBrain/전공 공부/시스템 프로그래밍/시프 기말 공부.md",
+    "SecondBrain/전공 공부/시스템 프로그래밍/14. Arrays.md",
+    "SecondBrain/전공 공부/시스템 프로그래밍/11. Calling Conventions- Passing Control.md",
     "SecondBrain/전공 공부/시스템 프로그래밍/중간고사/7. Arithmetic & Logical Operations.md",
     "SecondBrain/전공 공부/시스템 프로그래밍/중간고사/8. Condition Codes.md",
     "SecondBrain/전공 공부/시스템 프로그래밍/중간고사/9. Conditional branches.md",
-    "SecondBrain/전공 공부/시스템 프로그래밍/14. Arrays.md",
-    "SecondBrain/전공 공부/시스템 프로그래밍/13. Calling Conventions.md",
-    "SecondBrain/전공 공부/시스템 프로그래밍/12. Stack.md",
     "SecondBrain/전공 공부/시스템 프로그래밍/중간고사/5. C, assembly, machince code.md",
     "SecondBrain/전공 공부/시스템 프로그래밍/중간고사/6. Registers, Operands, Move.md",
-    "SecondBrain/전공 공부/시스템 프로그래밍/중간고사/10. Stack Structure.md",
     "SecondBrain/전공 공부/시스템 프로그래밍/중간고사/4. Floating point.md",
     "SecondBrain/전공 공부/시스템 프로그래밍/중간고사/3. Representations in memory.md",
     "SecondBrain/전공 공부/시스템 프로그래밍/중간고사/2. Integer Arithmetic.md",
@@ -191,11 +212,8 @@
     "SecondBrain/조인 전략.md",
     "SecondBrain/jpa 활용 1-1.md",
     "SecondBrain/JPA 활용 1-2.md",
-    "README.md",
-    "SecondBrain/Array, Pointer and Structure.md",
     "Spaces/Home",
     "Spaces",
-    "SecondBrain/전공 공부/시스템 프로그래밍/11. Calling Conventions- Passing Control.md",
     "SecondBrain/Attached files/1_av8Om3HpG1MC7YTLKvyftg.webp",
     "SecondBrain/Attached files/객체-지향-프로그래밍-드라이버-클래스-예시.webp",
     "SecondBrain/Attached files/객체-지향-프로그래밍-인터페이스.webp",
@@ -205,7 +223,6 @@
     "SecondBrain/Attached files/Pasted image 20231128142418.png",
     "SecondBrain/Attached files/Pasted image 20231127131707.png",
     "SecondBrain/Attached files/Pasted image 20231123130642.png",
-    "SecondBrain/Attached files/Pasted image 20231116164911.png",
     "SecondBrain/전공 공부/지난 학기/전자상거래",
     "SecondBrain/전공 공부/지난 학기/자바기반응용프로그래밍"
   ]
