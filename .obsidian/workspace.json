@@ -13,7 +13,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SecondBrain/전공 공부/시스템 프로그래밍/22. Exceptional Control Flow.md",
+                "file": "SecondBrain/전공 공부/오픈소스응용프로그래밍/2-5. 객체지향개발 특성.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "a02056f9f31907dd",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "SecondBrain/Develop/개발 원칙/객체 지향 프로그래밍/캡슐화.md",
                 "mode": "source",
                 "source": false
               }
@@ -31,7 +43,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SecondBrain/전공 공부/시스템 프로그래밍/시프 기말 공부.md",
+                "file": "SecondBrain/전공 공부/오픈소스응용프로그래밍/오픈소스응용 공부.md",
                 "mode": "source",
                 "source": false
               }
@@ -96,7 +108,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "6a641e930567f8cc",
@@ -112,7 +125,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SecondBrain/전공 공부/시스템 프로그래밍/시프 기말 공부.md",
+                "file": "SecondBrain/전공 공부/오픈소스응용프로그래밍/2-5. 객체지향개발 특성.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -129,7 +142,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SecondBrain/전공 공부/시스템 프로그래밍/시프 기말 공부.md",
+                "file": "SecondBrain/전공 공부/오픈소스응용프로그래밍/2-5. 객체지향개발 특성.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -152,7 +165,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SecondBrain/전공 공부/시스템 프로그래밍/시프 기말 공부.md"
+                "file": "SecondBrain/전공 공부/오픈소스응용프로그래밍/2-5. 객체지향개발 특성.md"
               }
             }
           },
@@ -184,9 +197,14 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "5fd9398c4a3a9248",
+  "active": "9995bee090ba3afb",
   "lastOpenFiles": [
+    "SecondBrain/Develop/개발 원칙/객체 지향 프로그래밍/캡슐화.md",
+    "SecondBrain/전공 공부/오픈소스응용프로그래밍/2-5. 객체지향개발 특성.md",
+    "SecondBrain/Develop/개발 원칙/객체 지향 프로그래밍/추상화.md",
+    "SecondBrain/전공 공부/오픈소스응용프로그래밍/2-5. 디자인 패턴 개요.md",
     "SecondBrain/전공 공부/시스템 프로그래밍/22. Exceptional Control Flow.md",
+    "SecondBrain/전공 공부/오픈소스응용프로그래밍/오픈소스응용 공부.md",
     "SecondBrain/전공 공부/시스템 프로그래밍/시프 기말 공부.md",
     "SecondBrain/전공 공부/시스템 프로그래밍/21. Memory-related perils and pitfalls.md",
     "SecondBrain/Attached files/Pasted image 20231203211318.png",
@@ -212,16 +230,11 @@
     "SecondBrain/전공 공부/시스템 프로그래밍/중간고사/10. Stack Structure.md",
     "SecondBrain/전공 공부/시스템 프로그래밍/중간고사/9. Conditional branches.md",
     "SecondBrain/전공 공부/시스템 프로그래밍/중간고사/8. Condition Codes.md",
-    "SecondBrain/전공 공부/시스템 프로그래밍/12. Stack.md",
     "SecondBrain/Attached files/Pasted image 20231203163502.png",
     "SecondBrain/Attached files/Pasted image 20231203163432.png",
     "SecondBrain/Attached files/Pasted image 20231203163414.png",
     "SecondBrain/Attached files/Pasted image 20231203162428.png",
     "SecondBrain/Attached files/Pasted image 20231203162408.png",
-    "SecondBrain/전공 공부/시스템 프로그래밍/13. Calling Conventions.md",
-    "SecondBrain/전공 공부/시스템 프로그래밍/11. Calling Conventions- Passing Control.md",
-    "SecondBrain/전공 공부/시스템 프로그래밍/중간고사/1. Information Storage.md",
-    "SecondBrain/6주차 과제.md",
     "Spaces/Home",
     "Spaces",
     "SecondBrain/전공 공부/지난 학기/전자상거래",
