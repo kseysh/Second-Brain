@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SecondBrain/전공 공부/시스템 프로그래밍/15. Structure.md",
+                "file": "SecondBrain/전공 공부/시스템 프로그래밍/17. Linking.md",
                 "mode": "source",
                 "source": false
               }
@@ -96,8 +96,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "6a641e930567f8cc",
@@ -113,7 +112,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SecondBrain/전공 공부/시스템 프로그래밍/15. Structure.md",
+                "file": "SecondBrain/전공 공부/시스템 프로그래밍/17. Linking.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -130,7 +129,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SecondBrain/전공 공부/시스템 프로그래밍/15. Structure.md",
+                "file": "SecondBrain/전공 공부/시스템 프로그래밍/17. Linking.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -153,7 +152,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SecondBrain/전공 공부/시스템 프로그래밍/15. Structure.md"
+                "file": "SecondBrain/전공 공부/시스템 프로그래밍/17. Linking.md"
               }
             }
           },
@@ -187,9 +186,10 @@
   },
   "active": "9995bee090ba3afb",
   "lastOpenFiles": [
-    "SecondBrain/전공 공부/시스템 프로그래밍/15. Structure.md",
-    "SecondBrain/전공 공부/시스템 프로그래밍/시프 기말 공부.md",
     "SecondBrain/전공 공부/시스템 프로그래밍/16. Union.md",
+    "SecondBrain/전공 공부/시스템 프로그래밍/시프 기말 공부.md",
+    "SecondBrain/전공 공부/시스템 프로그래밍/17. Linking.md",
+    "SecondBrain/전공 공부/시스템 프로그래밍/15. Structure.md",
     "SecondBrain/전공 공부/시스템 프로그래밍/14. Arrays.md",
     "Pasted image 20231203172340.png",
     "SecondBrain/전공 공부/시스템 프로그래밍/18. Processes.md",
