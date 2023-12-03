@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SecondBrain/전공 공부/시스템 프로그래밍/12. Stack.md",
+                "file": "SecondBrain/전공 공부/시스템 프로그래밍/중간고사/7. Arithmetic & Logical Operations.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SecondBrain/전공 공부/시스템 프로그래밍/12. Stack.md",
+                "file": "SecondBrain/전공 공부/시스템 프로그래밍/중간고사/7. Arithmetic & Logical Operations.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SecondBrain/전공 공부/시스템 프로그래밍/12. Stack.md",
+                "file": "SecondBrain/전공 공부/시스템 프로그래밍/중간고사/7. Arithmetic & Logical Operations.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SecondBrain/전공 공부/시스템 프로그래밍/12. Stack.md"
+                "file": "SecondBrain/전공 공부/시스템 프로그래밍/중간고사/7. Arithmetic & Logical Operations.md"
               }
             }
           },
@@ -167,45 +167,45 @@
   },
   "active": "9995bee090ba3afb",
   "lastOpenFiles": [
-    "SecondBrain/전공 공부/시스템 프로그래밍/11. Calling Conventions- Passing Control.md",
-    "SecondBrain/전공 공부/시스템 프로그래밍/12. Stack.md",
     "SecondBrain/전공 공부/시스템 프로그래밍/중간고사/6. Registers, Operands, Move.md",
+    "SecondBrain/전공 공부/시스템 프로그래밍/중간고사/5. C, assembly, machince code.md",
+    "SecondBrain/전공 공부/시스템 프로그래밍/중간고사/4. Floating point.md",
+    "SecondBrain/전공 공부/시스템 프로그래밍/중간고사/3. Representations in memory.md",
+    "SecondBrain/전공 공부/시스템 프로그래밍/중간고사/2. Integer Arithmetic.md",
+    "SecondBrain/전공 공부/시스템 프로그래밍/중간고사/1. Information Storage.md",
+    "SecondBrain/전공 공부/시스템 프로그래밍/12. Stack.md",
+    "SecondBrain/6주차 과제.md",
+    "SecondBrain/구현 클래스마다 테이블 전략.md",
+    "SecondBrain/단일 테이블 전략.md",
+    "SecondBrain/무제 파일.md",
+    "SecondBrain/생성자 주입.md",
+    "SecondBrain/숫자 야구 기능 목록.md",
+    "SecondBrain/자바 스윙.md",
+    "SecondBrain/조인 전략.md",
+    "SecondBrain/jpa 활용 1-1.md",
+    "SecondBrain/JPA 활용 1-2.md",
+    "README.md",
+    "SecondBrain/Array, Pointer and Structure.md",
+    "Spaces/Home",
+    "Spaces",
+    "SecondBrain/전공 공부/시스템 프로그래밍/11. Calling Conventions- Passing Control.md",
+    "SecondBrain/Attached files/1_av8Om3HpG1MC7YTLKvyftg.webp",
+    "SecondBrain/Attached files/객체-지향-프로그래밍-드라이버-클래스-예시.webp",
+    "SecondBrain/Attached files/객체-지향-프로그래밍-인터페이스.webp",
+    "SecondBrain/Attached files/Pasted image 20231130161446.png",
+    "SecondBrain/Attached files/Pasted image 20231129163308.png",
+    "SecondBrain/Attached files/Pasted image 20231129100548.png",
+    "SecondBrain/Attached files/Pasted image 20231128142418.png",
+    "SecondBrain/Attached files/Pasted image 20231127131707.png",
+    "SecondBrain/Attached files/Pasted image 20231123130642.png",
+    "SecondBrain/Attached files/Pasted image 20231116164911.png",
     "SecondBrain/전공 공부/시스템 프로그래밍/중간고사/7. Arithmetic & Logical Operations.md",
     "SecondBrain/전공 공부/시스템 프로그래밍/중간고사/10. Stack Structure.md",
     "SecondBrain/전공 공부/시스템 프로그래밍/중간고사/9. Conditional branches.md",
-    "SecondBrain/전공 공부/시스템 프로그래밍/중간고사/3. Representations in memory.md",
-    "SecondBrain/전공 공부/시스템 프로그래밍/중간고사/5. C, assembly, machince code.md",
     "SecondBrain/전공 공부/시스템 프로그래밍/중간고사/8. Condition Codes.md",
     "SecondBrain/전공 공부/이산구조/8. 점화 관계.md",
     "SecondBrain/전공 공부/이산구조/9. 관계.md",
-    "SecondBrain/전공 공부/이산구조/6. 일반화 된 수열과 조합.md",
-    "SecondBrain/전공 공부/이산구조/11. 트리.md",
-    "SecondBrain/전공 공부/이산구조/무제 파일.md",
-    "SecondBrain/Git/커밋 메시지 작성 방법.md",
-    "SecondBrain/Attached files/Pasted image 20231201215003.png",
-    "SecondBrain/Attached files/Pasted image 20231201214924.png",
-    "SecondBrain/Attached files/Pasted image 20231201214910.png",
-    "SecondBrain/Attached files/Pasted image 20231201183139.png",
-    "SecondBrain/Attached files/Pasted image 20231201183023.png",
-    "SecondBrain/Attached files/KakaoTalk_20231201_182735177.jpg",
-    "SecondBrain/Attached files/KakaoTalk_20231201_182735177_02.jpg",
-    "SecondBrain/Attached files/KakaoTalk_20231201_182735177_01.jpg",
-    "SecondBrain/Attached files/KakaoTalk_20231201_171229771_01.jpg",
-    "SecondBrain/Attached files/KakaoTalk_20231201_171229771.jpg",
-    "SecondBrain/전공 공부/이산구조/10. 그래프.md",
-    "SecondBrain/전공 공부/이산구조/10.md",
-    "SecondBrain/독서록/개발 관련 도서/테스트주도개발시작하기/대역.md",
-    "SecondBrain/전공 공부/지난 학기/전자상거래/전상 공부.md",
-    "SecondBrain/전공 공부/지난 학기/전자상거래/8. 전자상거래 구축.md",
-    "SecondBrain/전공 공부/지난 학기/전자상거래/4. 스마트 시대의 비즈니스와 모바일 상거래.md",
-    "SecondBrain/전공 공부/지난 학기/전자상거래/3. 조직간 전자상거래.md",
-    "SecondBrain/전공 공부/지난 학기/전자상거래/2. 소비자 전자상거래.md",
-    "SecondBrain/전공 공부/지난 학기/전자상거래/1. 전자상거래 입문.md",
     "SecondBrain/전공 공부/지난 학기/전자상거래",
-    "SecondBrain/전공 공부/지난 학기/자바기반응용프로그래밍/7주차.md",
-    "SecondBrain/전공 공부/지난 학기/자바기반응용프로그래밍/6주차.md",
-    "SecondBrain/전공 공부/지난 학기/자바기반응용프로그래밍",
-    "Spaces/Home",
-    "Spaces"
+    "SecondBrain/전공 공부/지난 학기/자바기반응용프로그래밍"
   ]
 }
