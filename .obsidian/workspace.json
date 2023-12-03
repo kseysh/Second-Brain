@@ -14,7 +14,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SecondBrain/전공 공부/오픈소스응용프로그래밍/2-8. 소프트웨어 테스팅 개요.md",
+                "file": "SecondBrain/전공 공부/오픈소스응용프로그래밍/2-9. 화이트박스 테스팅 기법들.md",
                 "mode": "source",
                 "source": false
               }
@@ -110,7 +110,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "6a641e930567f8cc",
@@ -126,7 +127,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SecondBrain/전공 공부/오픈소스응용프로그래밍/2-8. 소프트웨어 테스팅 개요.md",
+                "file": "SecondBrain/전공 공부/오픈소스응용프로그래밍/2-9. 화이트박스 테스팅 기법들.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -143,7 +144,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SecondBrain/전공 공부/오픈소스응용프로그래밍/2-8. 소프트웨어 테스팅 개요.md",
+                "file": "SecondBrain/전공 공부/오픈소스응용프로그래밍/2-9. 화이트박스 테스팅 기법들.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -166,7 +167,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SecondBrain/전공 공부/오픈소스응용프로그래밍/2-8. 소프트웨어 테스팅 개요.md"
+                "file": "SecondBrain/전공 공부/오픈소스응용프로그래밍/2-9. 화이트박스 테스팅 기법들.md"
               }
             }
           },
@@ -201,8 +202,9 @@
   "active": "9995bee090ba3afb",
   "lastOpenFiles": [
     "SecondBrain/전공 공부/오픈소스응용프로그래밍/오픈소스응용 공부.md",
-    "SecondBrain/전공 공부/오픈소스응용프로그래밍/2-8. 소프트웨어 테스팅 개요.md",
+    "SecondBrain/전공 공부/오픈소스응용프로그래밍/2-9. 화이트박스 테스팅 기법들.md",
     "SecondBrain/전공 공부/오픈소스응용프로그래밍/2-8. 블랙박스 테스팅 기법.md",
+    "SecondBrain/전공 공부/오픈소스응용프로그래밍/2-8. 소프트웨어 테스팅 개요.md",
     "SecondBrain/전공 공부/오픈소스응용프로그래밍/2-7. 행위 패턴.md",
     "SecondBrain/전공 공부/오픈소스응용프로그래밍/2-7. 생성 패턴.md",
     "SecondBrain/전공 공부/오픈소스응용프로그래밍/2-6. 디자인패턴 종류.md",
@@ -230,7 +232,6 @@
     "SecondBrain/전공 공부/시스템 프로그래밍/중간고사/6. Registers, Operands, Move.md",
     "SecondBrain/전공 공부/시스템 프로그래밍/중간고사/7. Arithmetic & Logical Operations.md",
     "SecondBrain/전공 공부/시스템 프로그래밍/중간고사/5. C, assembly, machince code.md",
-    "SecondBrain/전공 공부/시스템 프로그래밍/중간고사/4. Floating point.md",
     "SecondBrain/Attached files/Pasted image 20231203163502.png",
     "SecondBrain/Attached files/Pasted image 20231203163432.png",
     "SecondBrain/Attached files/Pasted image 20231203163414.png",
