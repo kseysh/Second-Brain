@@ -96,7 +96,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "6a641e930567f8cc",
@@ -186,9 +187,9 @@
   },
   "active": "9995bee090ba3afb",
   "lastOpenFiles": [
-    "SecondBrain/전공 공부/시스템 프로그래밍/16. Union.md",
     "SecondBrain/전공 공부/시스템 프로그래밍/시프 기말 공부.md",
     "SecondBrain/전공 공부/시스템 프로그래밍/17. Linking.md",
+    "SecondBrain/전공 공부/시스템 프로그래밍/16. Union.md",
     "SecondBrain/전공 공부/시스템 프로그래밍/15. Structure.md",
     "SecondBrain/전공 공부/시스템 프로그래밍/14. Arrays.md",
     "Pasted image 20231203172340.png",
