@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SecondBrain/전공 공부/시스템 프로그래밍/20. Dynamic Memory Allocation.md",
+                "file": "SecondBrain/전공 공부/시스템 프로그래밍/21. Memory-related perils and pitfalls.md",
                 "mode": "source",
                 "source": false
               }
@@ -187,8 +187,9 @@
   },
   "active": "5fd9398c4a3a9248",
   "lastOpenFiles": [
-    "SecondBrain/전공 공부/시스템 프로그래밍/20. Dynamic Memory Allocation.md",
+    "SecondBrain/전공 공부/시스템 프로그래밍/21. Memory-related perils and pitfalls.md",
     "SecondBrain/전공 공부/시스템 프로그래밍/시프 기말 공부.md",
+    "SecondBrain/전공 공부/시스템 프로그래밍/20. Dynamic Memory Allocation.md",
     "SecondBrain/전공 공부/시스템 프로그래밍/19. Virtual Memory.md",
     "SecondBrain/전공 공부/시스템 프로그래밍/18. Processes.md",
     "SecondBrain/전공 공부/시스템 프로그래밍/17. Linking.md",
@@ -222,7 +223,6 @@
     "SecondBrain/전공 공부/시스템 프로그래밍/중간고사/1. Information Storage.md",
     "SecondBrain/6주차 과제.md",
     "SecondBrain/구현 클래스마다 테이블 전략.md",
-    "SecondBrain/단일 테이블 전략.md",
     "Spaces/Home",
     "Spaces",
     "SecondBrain/전공 공부/지난 학기/전자상거래",
