@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SecondBrain/전공 공부/시스템 프로그래밍/21. Memory-related perils and pitfalls.md",
+                "file": "SecondBrain/전공 공부/시스템 프로그래밍/22. Exceptional Control Flow.md",
                 "mode": "source",
                 "source": false
               }
@@ -96,8 +96,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "6a641e930567f8cc",
@@ -187,8 +186,10 @@
   },
   "active": "5fd9398c4a3a9248",
   "lastOpenFiles": [
-    "SecondBrain/전공 공부/시스템 프로그래밍/21. Memory-related perils and pitfalls.md",
+    "SecondBrain/전공 공부/시스템 프로그래밍/22. Exceptional Control Flow.md",
     "SecondBrain/전공 공부/시스템 프로그래밍/시프 기말 공부.md",
+    "SecondBrain/전공 공부/시스템 프로그래밍/21. Memory-related perils and pitfalls.md",
+    "SecondBrain/Attached files/Pasted image 20231203211318.png",
     "SecondBrain/전공 공부/시스템 프로그래밍/20. Dynamic Memory Allocation.md",
     "SecondBrain/전공 공부/시스템 프로그래밍/19. Virtual Memory.md",
     "SecondBrain/전공 공부/시스템 프로그래밍/18. Processes.md",
@@ -217,12 +218,10 @@
     "SecondBrain/Attached files/Pasted image 20231203163414.png",
     "SecondBrain/Attached files/Pasted image 20231203162428.png",
     "SecondBrain/Attached files/Pasted image 20231203162408.png",
-    "SecondBrain/Attached files/Pasted image 20231203162218.png",
     "SecondBrain/전공 공부/시스템 프로그래밍/13. Calling Conventions.md",
     "SecondBrain/전공 공부/시스템 프로그래밍/11. Calling Conventions- Passing Control.md",
     "SecondBrain/전공 공부/시스템 프로그래밍/중간고사/1. Information Storage.md",
     "SecondBrain/6주차 과제.md",
-    "SecondBrain/구현 클래스마다 테이블 전략.md",
     "Spaces/Home",
     "Spaces",
     "SecondBrain/전공 공부/지난 학기/전자상거래",
