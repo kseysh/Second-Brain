@@ -127,7 +127,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SecondBrain/전공 공부/오픈소스응용프로그래밍/2-7. 생성 패턴.md",
+                "file": "SecondBrain/전공 공부/오픈소스응용프로그래밍/오픈소스응용 공부.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -144,7 +144,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SecondBrain/전공 공부/오픈소스응용프로그래밍/2-7. 생성 패턴.md",
+                "file": "SecondBrain/전공 공부/오픈소스응용프로그래밍/오픈소스응용 공부.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -167,7 +167,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SecondBrain/전공 공부/오픈소스응용프로그래밍/2-7. 생성 패턴.md"
+                "file": "SecondBrain/전공 공부/오픈소스응용프로그래밍/오픈소스응용 공부.md"
               }
             }
           },
@@ -199,10 +199,11 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "9995bee090ba3afb",
+  "active": "5fd9398c4a3a9248",
   "lastOpenFiles": [
-    "SecondBrain/전공 공부/오픈소스응용프로그래밍/2-6. 디자인패턴 종류.md",
+    "SecondBrain/전공 공부/오픈소스응용프로그래밍/2-7. 생성 패턴.md",
     "SecondBrain/전공 공부/오픈소스응용프로그래밍/오픈소스응용 공부.md",
+    "SecondBrain/전공 공부/오픈소스응용프로그래밍/2-6. 디자인패턴 종류.md",
     "SecondBrain/전공 공부/오픈소스응용프로그래밍/2-5. 디자인 패턴 개요.md",
     "SecondBrain/전공 공부/오픈소스응용프로그래밍/2-5. 객체지향개발 특성.md",
     "SecondBrain/Develop/개발 원칙/객체 지향 프로그래밍/캡슐화.md",
@@ -231,7 +232,6 @@
     "SecondBrain/전공 공부/시스템 프로그래밍/중간고사/2. Integer Arithmetic.md",
     "SecondBrain/전공 공부/시스템 프로그래밍/중간고사/3. Representations in memory.md",
     "SecondBrain/전공 공부/시스템 프로그래밍/중간고사/10. Stack Structure.md",
-    "SecondBrain/전공 공부/시스템 프로그래밍/중간고사/9. Conditional branches.md",
     "SecondBrain/Attached files/Pasted image 20231203163502.png",
     "SecondBrain/Attached files/Pasted image 20231203163432.png",
     "SecondBrain/Attached files/Pasted image 20231203163414.png",
