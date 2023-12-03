@@ -4,29 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "801bd90d83a1c243",
+        "id": "2289a0de8ef04ccf",
         "type": "tabs",
         "children": [
           {
-            "id": "9835a0a251e9ea0e",
+            "id": "58f1b620f0f9ed22",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "전공 공부/시스템 프로그래밍/10. Stack Structure.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "2a282e6c9bb13354",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "전공 공부/시스템 프로그래밍/20. Dynamic Memory Allocation.md",
+                "file": "전공 공부/이산구조/11. 트리.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "전공 공부/시스템 프로그래밍/10. Stack Structure.md",
+                "file": "전공 공부/이산구조/11. 트리.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "전공 공부/시스템 프로그래밍/10. Stack Structure.md",
+                "file": "전공 공부/이산구조/11. 트리.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "전공 공부/시스템 프로그래밍/10. Stack Structure.md"
+                "file": "전공 공부/이산구조/11. 트리.md"
               }
             }
           },
@@ -179,26 +166,32 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "77e0b92a051c28ac",
+  "active": "58f1b620f0f9ed22",
   "lastOpenFiles": [
-    "Attached files/Pasted image 20231130223540.png",
-    "전공 공부/시스템 프로그래밍/중간고사/9. Conditional branches.md",
+    "전공 공부/이산구조/10. 그래프.md",
+    "전공 공부/이산구조/11. 트리.md",
+    "전공 공부/이산구조/9. 관계.md",
+    "전공 공부/지난 학기/DataStructure/Directed Graphs.md",
+    "전공 공부/지난 학기/DataStructure/Graphs.md",
+    "전공 공부/지난 학기/DataStructure/DFS - BFS.md",
+    "전공 공부/지난 학기/DataStructure/AVL Trees.md",
+    "Attached files/Pasted image 20231201215003.png",
+    "Attached files/Pasted image 20231201214924.png",
+    "Attached files/Pasted image 20231201214910.png",
+    "Attached files/Pasted image 20231201183139.png",
+    "Attached files/Pasted image 20231201183023.png",
+    "Attached files/KakaoTalk_20231201_182735177.jpg",
+    "Attached files/KakaoTalk_20231201_182735177_02.jpg",
+    "Attached files/KakaoTalk_20231201_182735177_01.jpg",
+    "Attached files/KakaoTalk_20231201_171229771_01.jpg",
+    "Attached files/KakaoTalk_20231201_171229771.jpg",
+    "전공 공부/시스템 프로그래밍/20. Dynamic Memory Allocation.md",
     "전공 공부/시스템 프로그래밍/10. Stack Structure.md",
+    "전공 공부/시스템 프로그래밍/중간고사/9. Conditional branches.md",
     "전공 공부/시스템 프로그래밍/11. Calling Conventions- Passing Control.md",
     "전공 공부/시스템 프로그래밍/12. Stack.md",
     "전공 공부/시스템 프로그래밍/22. Exceptional Control Flow.md",
-    "Attached files/Pasted image 20231130205530.png",
-    "Attached files/Pasted image 20231130205203.png",
-    "Attached files/Pasted image 20231130205130.png",
-    "Attached files/Pasted image 20231130204451.png",
-    "Attached files/Pasted image 20231130204326.png",
-    "Attached files/Pasted image 20231130203707.png",
-    "Attached files/Pasted image 20231130201606.png",
-    "Attached files/Pasted image 20231130201529.png",
     "전공 공부/시스템 프로그래밍/21. Memory-related perils and pitfalls.md",
-    "Attached files/Pasted image 20231130180314.png",
-    "Attached files/Pasted image 20231130180215.png",
-    "전공 공부/시스템 프로그래밍/20. Dynamic Memory Allocation.md",
     "전공 공부/오픈소스응용프로그래밍/2-12. 소프트웨어 신뢰성을 위한 추가 방법들.md",
     "Spring/JPA/BaseEntity.md",
     "전공 공부/오픈소스응용프로그래밍/2-9. 화이트박스 테스팅 기법들.md",
@@ -211,12 +204,6 @@
     "Spring/JPA/다양한 연관관계 매핑.md",
     "Spring/JPA/양방향 연관관계.md",
     "Spring/JPA/단방향 연관관계.md",
-    "Spring/JPA/기본 키 매핑.md",
-    "Spring/JPA/필드와 컬럼 매핑.md",
-    "Spring/JPA/플러시.md",
-    "Spring/JPA/엔티티.md",
-    "Spring/JPA/ORM.md",
-    "Spring/JPA/JPA.md",
     "전공 공부/이산구조/중간고사",
     "전공 공부/시스템 프로그래밍/중간고사",
     "Develop/디자인 패턴/행위 패턴",
