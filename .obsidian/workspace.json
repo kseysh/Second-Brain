@@ -112,7 +112,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SecondBrain/전공 공부/시스템 프로그래밍/시프 기말 공부.md",
+                "file": "SecondBrain/전공 공부/시스템 프로그래밍/13. Calling Conventions.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -129,7 +129,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SecondBrain/전공 공부/시스템 프로그래밍/시프 기말 공부.md",
+                "file": "SecondBrain/전공 공부/시스템 프로그래밍/13. Calling Conventions.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -152,7 +152,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SecondBrain/전공 공부/시스템 프로그래밍/시프 기말 공부.md"
+                "file": "SecondBrain/전공 공부/시스템 프로그래밍/13. Calling Conventions.md"
               }
             }
           },
@@ -192,12 +192,16 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "5533a88da42a1078",
+  "active": "558a417694837673",
   "lastOpenFiles": [
-    "SecondBrain/Attached files/Pasted image 20231204164055.png",
-    "SecondBrain/Attached files/Pasted image 20231204164037.png",
+    "SecondBrain/전공 공부/시스템 프로그래밍/15. Structure.md",
+    "SecondBrain/전공 공부/시스템 프로그래밍/14. Arrays.md",
     "SecondBrain/전공 공부/시스템 프로그래밍/13. Calling Conventions.md",
     "SecondBrain/전공 공부/시스템 프로그래밍/시프 기말 공부.md",
+    "SecondBrain/Attached files/Pasted image 20231204164224.png",
+    "SecondBrain/Attached files/Pasted image 20231204164143.png",
+    "SecondBrain/Attached files/Pasted image 20231204164055.png",
+    "SecondBrain/Attached files/Pasted image 20231204164037.png",
     "SecondBrain/전공 공부/시스템 프로그래밍/12. Stack.md",
     "SecondBrain/전공 공부/시스템 프로그래밍/11. Calling Conventions- Passing Control.md",
     "SecondBrain/전공 공부/시스템 프로그래밍/22. Exceptional Control Flow.md",
@@ -207,8 +211,6 @@
     "SecondBrain/전공 공부/시스템 프로그래밍/18. Processes.md",
     "SecondBrain/전공 공부/시스템 프로그래밍/17. Linking.md",
     "SecondBrain/전공 공부/시스템 프로그래밍/16. Union.md",
-    "SecondBrain/전공 공부/시스템 프로그래밍/15. Structure.md",
-    "SecondBrain/전공 공부/시스템 프로그래밍/14. Arrays.md",
     "SecondBrain/전공 공부/시스템 프로그래밍/중간고사/5. C, assembly, machince code.md",
     "SecondBrain/전공 공부/시스템 프로그래밍/중간고사/7. Arithmetic & Logical Operations.md",
     "SecondBrain/전공 공부/시스템 프로그래밍/중간고사/8. Condition Codes.md",
@@ -227,9 +229,6 @@
     "SecondBrain/전공 공부/오픈소스응용프로그래밍/2-9. 화이트박스 테스팅 기법들.md",
     "SecondBrain/Attached files/Pasted image 20231203211318.png",
     "SecondBrain/Attached files/Pasted image 20231203180059.png",
-    "SecondBrain/Attached files/Pasted image 20231203160339.png",
-    "SecondBrain/Attached files/Pasted image 20231203160413.png",
-    "SecondBrain/Attached files/Pasted image 20231203172340.png",
     "Spaces/Home",
     "Spaces",
     "SecondBrain/전공 공부/지난 학기/전자상거래",
