@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SecondBrain/전공 공부/시스템 프로그래밍/11. Calling Conventions- Passing Control.md",
+                "file": "SecondBrain/전공 공부/시스템 프로그래밍/13. Calling Conventions.md",
                 "mode": "source",
                 "source": false
               }
@@ -96,7 +96,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "6a641e930567f8cc",
@@ -112,7 +113,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SecondBrain/전공 공부/시스템 프로그래밍/11. Calling Conventions- Passing Control.md",
+                "file": "SecondBrain/전공 공부/시스템 프로그래밍/13. Calling Conventions.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -129,7 +130,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SecondBrain/전공 공부/시스템 프로그래밍/11. Calling Conventions- Passing Control.md",
+                "file": "SecondBrain/전공 공부/시스템 프로그래밍/13. Calling Conventions.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -152,7 +153,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SecondBrain/전공 공부/시스템 프로그래밍/11. Calling Conventions- Passing Control.md"
+                "file": "SecondBrain/전공 공부/시스템 프로그래밍/13. Calling Conventions.md"
               }
             }
           },
@@ -165,12 +166,20 @@
                 "sortOrder": "frequency"
               }
             }
+          },
+          {
+            "id": "34174af19a97da7c",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 300,
+    "width": 200,
     "collapsed": true
   },
   "left-ribbon": {
@@ -184,11 +193,14 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "558a417694837673",
+  "active": "2e43f7328cd94454",
   "lastOpenFiles": [
+    "SecondBrain/전공 공부/시스템 프로그래밍/12. Stack.md",
     "SecondBrain/전공 공부/시스템 프로그래밍/시프 기말 공부.md",
-    "SecondBrain/전공 공부/오픈소스응용프로그래밍/오픈소스응용 공부.md",
     "SecondBrain/전공 공부/시스템 프로그래밍/11. Calling Conventions- Passing Control.md",
+    "SecondBrain/전공 공부/시스템 프로그래밍/시스템 프로그래밍.md",
+    "SecondBrain/전공 공부/전공 공부.md",
+    "SecondBrain/전공 공부/오픈소스응용프로그래밍/오픈소스응용 공부.md",
     "SecondBrain/Develop/개발 원칙/객체 지향 프로그래밍/캡슐화.md",
     "SecondBrain/전공 공부/오픈소스응용프로그래밍/2-12. 소프트웨어 신뢰성을 위한 추가 방법들.md",
     "SecondBrain/전공 공부/오픈소스응용프로그래밍/2-11. 구글 테스트 실습.md",
@@ -216,10 +228,7 @@
     "SecondBrain/전공 공부/시스템 프로그래밍/16. Union.md",
     "SecondBrain/Attached files/Pasted image 20231203180059.png",
     "SecondBrain/Attached files/Pasted image 20231203160339.png",
-    "README.md",
     "SecondBrain/Attached files/Pasted image 20231203160413.png",
-    "SecondBrain/생성자 주입.md",
-    "SecondBrain/전공 공부/시스템 프로그래밍/15. Structure.md",
     "SecondBrain/Attached files/Pasted image 20231203172340.png",
     "SecondBrain/Attached files/Pasted image 20231203163502.png",
     "Spaces/Home",
