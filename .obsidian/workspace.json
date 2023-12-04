@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SecondBrain/전공 공부/시스템 프로그래밍/14. Arrays.md",
+                "file": "SecondBrain/전공 공부/시스템 프로그래밍/중간고사/8. Condition Codes.md",
                 "mode": "source",
                 "source": false
               }
@@ -112,7 +112,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SecondBrain/전공 공부/시스템 프로그래밍/14. Arrays.md",
+                "file": "SecondBrain/전공 공부/시스템 프로그래밍/중간고사/8. Condition Codes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -129,7 +129,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SecondBrain/전공 공부/시스템 프로그래밍/14. Arrays.md",
+                "file": "SecondBrain/전공 공부/시스템 프로그래밍/중간고사/8. Condition Codes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -152,7 +152,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SecondBrain/전공 공부/시스템 프로그래밍/14. Arrays.md"
+                "file": "SecondBrain/전공 공부/시스템 프로그래밍/중간고사/8. Condition Codes.md"
               }
             }
           },
@@ -194,8 +194,13 @@
   },
   "active": "558a417694837673",
   "lastOpenFiles": [
-    "SecondBrain/전공 공부/시스템 프로그래밍/13. Calling Conventions.md",
+    "SecondBrain/전공 공부/시스템 프로그래밍/중간고사/9. Conditional branches.md",
+    "SecondBrain/전공 공부/시스템 프로그래밍/중간고사/8. Condition Codes.md",
+    "SecondBrain/전공 공부/시스템 프로그래밍/중간고사/7. Arithmetic & Logical Operations.md",
+    "SecondBrain/전공 공부/시스템 프로그래밍/중간고사/5. C, assembly, machince code.md",
+    "SecondBrain/전공 공부/시스템 프로그래밍/14. Arrays.md",
     "SecondBrain/전공 공부/시스템 프로그래밍/시프 기말 공부.md",
+    "SecondBrain/전공 공부/시스템 프로그래밍/13. Calling Conventions.md",
     "SecondBrain/전공 공부/시스템 프로그래밍/12. Stack.md",
     "SecondBrain/전공 공부/시스템 프로그래밍/11. Calling Conventions- Passing Control.md",
     "SecondBrain/전공 공부/시스템 프로그래밍/시스템 프로그래밍.md",
@@ -219,12 +224,7 @@
     "SecondBrain/전공 공부/오픈소스응용프로그래밍/2-5. 객체지향개발 특성.md",
     "SecondBrain/Develop/개발 원칙/객체 지향 프로그래밍/추상화.md",
     "SecondBrain/전공 공부/시스템 프로그래밍/22. Exceptional Control Flow.md",
-    "SecondBrain/전공 공부/시스템 프로그래밍/21. Memory-related perils and pitfalls.md",
     "SecondBrain/Attached files/Pasted image 20231203211318.png",
-    "SecondBrain/전공 공부/시스템 프로그래밍/20. Dynamic Memory Allocation.md",
-    "SecondBrain/전공 공부/시스템 프로그래밍/19. Virtual Memory.md",
-    "SecondBrain/전공 공부/시스템 프로그래밍/18. Processes.md",
-    "SecondBrain/전공 공부/시스템 프로그래밍/17. Linking.md",
     "SecondBrain/Attached files/Pasted image 20231203180059.png",
     "SecondBrain/Attached files/Pasted image 20231203160339.png",
     "SecondBrain/Attached files/Pasted image 20231203160413.png",
