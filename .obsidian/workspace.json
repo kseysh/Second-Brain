@@ -112,7 +112,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SecondBrain/전공 공부/시스템 프로그래밍/19. Virtual Memory.md",
+                "file": "SecondBrain/전공 공부/시스템 프로그래밍/시프 기말 공부.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -129,7 +129,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SecondBrain/전공 공부/시스템 프로그래밍/19. Virtual Memory.md",
+                "file": "SecondBrain/전공 공부/시스템 프로그래밍/시프 기말 공부.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -152,7 +152,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SecondBrain/전공 공부/시스템 프로그래밍/19. Virtual Memory.md"
+                "file": "SecondBrain/전공 공부/시스템 프로그래밍/시프 기말 공부.md"
               }
             }
           },
@@ -192,8 +192,9 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "558a417694837673",
+  "active": "5533a88da42a1078",
   "lastOpenFiles": [
+    "SecondBrain/전공 공부/시스템 프로그래밍/19. Virtual Memory.md",
     "SecondBrain/전공 공부/시스템 프로그래밍/18. Processes.md",
     "SecondBrain/전공 공부/시스템 프로그래밍/시프 기말 공부.md",
     "SecondBrain/전공 공부/시스템 프로그래밍/22. Exceptional Control Flow.md",
@@ -223,7 +224,6 @@
     "SecondBrain/전공 공부/오픈소스응용프로그래밍/2-8. 블랙박스 테스팅 기법.md",
     "SecondBrain/전공 공부/오픈소스응용프로그래밍/2-8. 소프트웨어 테스팅 개요.md",
     "SecondBrain/전공 공부/오픈소스응용프로그래밍/2-7. 행위 패턴.md",
-    "SecondBrain/전공 공부/오픈소스응용프로그래밍/2-7. 생성 패턴.md",
     "SecondBrain/Attached files/Pasted image 20231203211318.png",
     "SecondBrain/Attached files/Pasted image 20231203180059.png",
     "SecondBrain/Attached files/Pasted image 20231203160339.png",
