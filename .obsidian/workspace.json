@@ -4,36 +4,6 @@
     "type": "split",
     "children": [
       {
-        "id": "6e72e403871091fb",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "9995bee090ba3afb",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "SecondBrain/전공 공부/오픈소스응용프로그래밍/2-12. 소프트웨어 신뢰성을 위한 추가 방법들.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "a02056f9f31907dd",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "SecondBrain/Develop/개발 원칙/객체 지향 프로그래밍/캡슐화.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          }
-        ]
-      },
-      {
         "id": "60bea71daa341807",
         "type": "tabs",
         "children": [
@@ -43,7 +13,25 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SecondBrain/전공 공부/오픈소스응용프로그래밍/오픈소스응용 공부.md",
+                "file": "SecondBrain/전공 공부/시스템 프로그래밍/11. Calling Conventions- Passing Control.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "41a0215e341a7517",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "5533a88da42a1078",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "SecondBrain/전공 공부/시스템 프로그래밍/시프 기말 공부.md",
                 "mode": "source",
                 "source": false
               }
@@ -124,7 +112,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SecondBrain/전공 공부/오픈소스응용프로그래밍/오픈소스응용 공부.md",
+                "file": "SecondBrain/전공 공부/시스템 프로그래밍/11. Calling Conventions- Passing Control.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -141,7 +129,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SecondBrain/전공 공부/오픈소스응용프로그래밍/오픈소스응용 공부.md",
+                "file": "SecondBrain/전공 공부/시스템 프로그래밍/11. Calling Conventions- Passing Control.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -164,7 +152,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SecondBrain/전공 공부/오픈소스응용프로그래밍/오픈소스응용 공부.md"
+                "file": "SecondBrain/전공 공부/시스템 프로그래밍/11. Calling Conventions- Passing Control.md"
               }
             }
           },
@@ -198,8 +186,11 @@
   },
   "active": "558a417694837673",
   "lastOpenFiles": [
-    "SecondBrain/전공 공부/오픈소스응용프로그래밍/2-12. 소프트웨어 신뢰성을 위한 추가 방법들.md",
+    "SecondBrain/전공 공부/시스템 프로그래밍/시프 기말 공부.md",
     "SecondBrain/전공 공부/오픈소스응용프로그래밍/오픈소스응용 공부.md",
+    "SecondBrain/전공 공부/시스템 프로그래밍/11. Calling Conventions- Passing Control.md",
+    "SecondBrain/Develop/개발 원칙/객체 지향 프로그래밍/캡슐화.md",
+    "SecondBrain/전공 공부/오픈소스응용프로그래밍/2-12. 소프트웨어 신뢰성을 위한 추가 방법들.md",
     "SecondBrain/전공 공부/오픈소스응용프로그래밍/2-11. 구글 테스트 실습.md",
     "SecondBrain/Attached files/Pasted image 20231203235528.png",
     "SecondBrain/Attached files/Pasted image 20231203235518.png",
@@ -214,10 +205,8 @@
     "SecondBrain/전공 공부/오픈소스응용프로그래밍/2-6. 디자인패턴 종류.md",
     "SecondBrain/전공 공부/오픈소스응용프로그래밍/2-5. 디자인 패턴 개요.md",
     "SecondBrain/전공 공부/오픈소스응용프로그래밍/2-5. 객체지향개발 특성.md",
-    "SecondBrain/Develop/개발 원칙/객체 지향 프로그래밍/캡슐화.md",
     "SecondBrain/Develop/개발 원칙/객체 지향 프로그래밍/추상화.md",
     "SecondBrain/전공 공부/시스템 프로그래밍/22. Exceptional Control Flow.md",
-    "SecondBrain/전공 공부/시스템 프로그래밍/시프 기말 공부.md",
     "SecondBrain/전공 공부/시스템 프로그래밍/21. Memory-related perils and pitfalls.md",
     "SecondBrain/Attached files/Pasted image 20231203211318.png",
     "SecondBrain/전공 공부/시스템 프로그래밍/20. Dynamic Memory Allocation.md",
@@ -231,7 +220,6 @@
     "SecondBrain/Attached files/Pasted image 20231203160413.png",
     "SecondBrain/생성자 주입.md",
     "SecondBrain/전공 공부/시스템 프로그래밍/15. Structure.md",
-    "SecondBrain/전공 공부/시스템 프로그래밍/14. Arrays.md",
     "SecondBrain/Attached files/Pasted image 20231203172340.png",
     "SecondBrain/Attached files/Pasted image 20231203163502.png",
     "Spaces/Home",
