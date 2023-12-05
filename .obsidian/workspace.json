@@ -6,7 +6,7 @@
       {
         "id": "41a0215e341a7517",
         "type": "tabs",
-        "dimension": 72.37569060773481,
+        "dimension": 60.25469168900804,
         "children": [
           {
             "id": "5533a88da42a1078",
@@ -25,7 +25,7 @@
       {
         "id": "f5e8f1880947b30c",
         "type": "tabs",
-        "dimension": 27.624309392265197,
+        "dimension": 39.74530831099196,
         "children": [
           {
             "id": "a8fca74515252376",
@@ -115,7 +115,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SecondBrain/전공 공부/이산구조/이산구조 공부.md",
+                "file": "SecondBrain/전공 공부/이산구조/10. 그래프.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -132,7 +132,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SecondBrain/전공 공부/이산구조/이산구조 공부.md",
+                "file": "SecondBrain/전공 공부/이산구조/10. 그래프.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -155,7 +155,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SecondBrain/전공 공부/이산구조/이산구조 공부.md"
+                "file": "SecondBrain/전공 공부/이산구조/10. 그래프.md"
               }
             }
           },
@@ -195,10 +195,10 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "a8fca74515252376",
+  "active": "5533a88da42a1078",
   "lastOpenFiles": [
-    "SecondBrain/전공 공부/이산구조/10. 그래프.md",
     "SecondBrain/전공 공부/이산구조/이산구조 공부.md",
+    "SecondBrain/전공 공부/이산구조/10. 그래프.md",
     "SecondBrain/전공 공부/이산구조/9. 관계.md",
     "SecondBrain/전공 공부/이산구조/11. 트리.md",
     "SecondBrain/전공 공부/이산구조/이산수학 기호.md",
