@@ -20,24 +20,6 @@
             }
           }
         ]
-      },
-      {
-        "id": "d47731cf1c84db0b",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "0a68e8e030b56d04",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "SecondBrain/전공 공부/이산구조/이산구조 공부.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          }
-        ]
       }
     ],
     "direction": "vertical"
@@ -96,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "6a641e930567f8cc",
@@ -112,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SecondBrain/전공 공부/이산구조/이산구조 공부.md",
+                "file": "SecondBrain/전공 공부/이산구조/10. 그래프.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -129,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SecondBrain/전공 공부/이산구조/이산구조 공부.md",
+                "file": "SecondBrain/전공 공부/이산구조/10. 그래프.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -152,7 +135,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SecondBrain/전공 공부/이산구조/이산구조 공부.md"
+                "file": "SecondBrain/전공 공부/이산구조/10. 그래프.md"
               }
             }
           },
@@ -192,11 +175,11 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "0a68e8e030b56d04",
+  "active": "5533a88da42a1078",
   "lastOpenFiles": [
+    "SecondBrain/전공 공부/이산구조/이산구조 공부.md",
     "SecondBrain/전공 공부/이산구조/10. 그래프.md",
     "SecondBrain/전공 공부/이산구조/9. 관계.md",
-    "SecondBrain/전공 공부/이산구조/이산구조 공부.md",
     "SecondBrain/전공 공부/이산구조/11. 트리.md",
     "SecondBrain/전공 공부/이산구조/이산수학 기호.md",
     "SecondBrain/전공 공부/이산구조/6. 일반화 된 수열과 조합.md",
