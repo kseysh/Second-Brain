@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SecondBrain/전공 공부/시스템 프로그래밍/19. Virtual Memory.md",
+                "file": "SecondBrain/전공 공부/시스템 프로그래밍/20. Dynamic Memory Allocation.md",
                 "mode": "source",
                 "source": false
               }
@@ -112,7 +112,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SecondBrain/전공 공부/시스템 프로그래밍/19. Virtual Memory.md",
+                "file": "SecondBrain/전공 공부/시스템 프로그래밍/20. Dynamic Memory Allocation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -129,7 +129,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SecondBrain/전공 공부/시스템 프로그래밍/19. Virtual Memory.md",
+                "file": "SecondBrain/전공 공부/시스템 프로그래밍/20. Dynamic Memory Allocation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -152,7 +152,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SecondBrain/전공 공부/시스템 프로그래밍/19. Virtual Memory.md"
+                "file": "SecondBrain/전공 공부/시스템 프로그래밍/20. Dynamic Memory Allocation.md"
               }
             }
           },
@@ -194,10 +194,10 @@
   },
   "active": "558a417694837673",
   "lastOpenFiles": [
-    "SecondBrain/전공 공부/시스템 프로그래밍/시프 기말 공부.md",
-    "SecondBrain/전공 공부/시스템 프로그래밍/19. Virtual Memory.md",
-    "SecondBrain/전공 공부/시스템 프로그래밍/18. Processes.md",
     "SecondBrain/전공 공부/시스템 프로그래밍/17. Linking.md",
+    "SecondBrain/전공 공부/시스템 프로그래밍/19. Virtual Memory.md",
+    "SecondBrain/전공 공부/시스템 프로그래밍/시프 기말 공부.md",
+    "SecondBrain/전공 공부/시스템 프로그래밍/18. Processes.md",
     "SecondBrain/전공 공부/시스템 프로그래밍/16. Union.md",
     "SecondBrain/전공 공부/시스템 프로그래밍/15. Structure.md",
     "SecondBrain/전공 공부/시스템 프로그래밍/14. Arrays.md",
