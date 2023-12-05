@@ -6,7 +6,6 @@
       {
         "id": "41a0215e341a7517",
         "type": "tabs",
-        "dimension": 60.25469168900804,
         "children": [
           {
             "id": "5533a88da42a1078",
@@ -14,26 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SecondBrain/전공 공부/이산구조/8. 점화 관계.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          }
-        ]
-      },
-      {
-        "id": "f5e8f1880947b30c",
-        "type": "tabs",
-        "dimension": 39.74530831099196,
-        "children": [
-          {
-            "id": "a8fca74515252376",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "SecondBrain/전공 공부/이산구조/이산구조 공부.md",
+                "file": "SecondBrain/전공 공부/이산구조/6. 일반화 된 수열과 조합.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "6a641e930567f8cc",
@@ -114,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SecondBrain/전공 공부/이산구조/8. 점화 관계.md",
+                "file": "SecondBrain/전공 공부/이산구조/6. 일반화 된 수열과 조합.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -131,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SecondBrain/전공 공부/이산구조/8. 점화 관계.md",
+                "file": "SecondBrain/전공 공부/이산구조/6. 일반화 된 수열과 조합.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -154,7 +135,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SecondBrain/전공 공부/이산구조/8. 점화 관계.md"
+                "file": "SecondBrain/전공 공부/이산구조/6. 일반화 된 수열과 조합.md"
               }
             }
           },
@@ -196,13 +177,14 @@
   },
   "active": "5533a88da42a1078",
   "lastOpenFiles": [
+    "SecondBrain/Attached files/Pasted image 20231205224423.png",
+    "SecondBrain/전공 공부/이산구조/8. 점화 관계.md",
     "SecondBrain/전공 공부/이산구조/10. 그래프.md",
     "SecondBrain/전공 공부/이산구조/이산구조 공부.md",
     "SecondBrain/전공 공부/이산구조/9. 관계.md",
     "SecondBrain/전공 공부/이산구조/11. 트리.md",
     "SecondBrain/전공 공부/이산구조/이산수학 기호.md",
     "SecondBrain/전공 공부/이산구조/6. 일반화 된 수열과 조합.md",
-    "SecondBrain/전공 공부/이산구조/8. 점화 관계.md",
     "SecondBrain/전공 공부/시스템 프로그래밍/시프 기말 공부.md",
     "SecondBrain/전공 공부/시스템 프로그래밍/22. Exceptional Control Flow.md",
     "SecondBrain/전공 공부/시스템 프로그래밍/21. Memory-related perils and pitfalls.md",
@@ -222,7 +204,6 @@
     "SecondBrain/Attached files/Pasted image 20231204174926.png",
     "SecondBrain/전공 공부/시스템 프로그래밍/중간고사/6. Registers, Operands, Move.md",
     "SecondBrain/전공 공부/시스템 프로그래밍/중간고사/3. Representations in memory.md",
-    "SecondBrain/전공 공부/시스템 프로그래밍/중간고사/2. Integer Arithmetic.md",
     "SecondBrain/Attached files/Pasted image 20231204164224.png",
     "SecondBrain/Attached files/Pasted image 20231204164143.png",
     "SecondBrain/Attached files/Pasted image 20231204164055.png",
