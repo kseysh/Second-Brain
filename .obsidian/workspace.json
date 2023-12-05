@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SecondBrain/전공 공부/이산구조/10. 그래프.md",
+                "file": "SecondBrain/전공 공부/이산구조/9. 관계.md",
                 "mode": "source",
                 "source": false
               }
@@ -95,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SecondBrain/전공 공부/이산구조/10. 그래프.md",
+                "file": "SecondBrain/전공 공부/이산구조/9. 관계.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SecondBrain/전공 공부/이산구조/10. 그래프.md",
+                "file": "SecondBrain/전공 공부/이산구조/9. 관계.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -135,7 +135,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SecondBrain/전공 공부/이산구조/10. 그래프.md"
+                "file": "SecondBrain/전공 공부/이산구조/9. 관계.md"
               }
             }
           },
@@ -177,8 +177,8 @@
   },
   "active": "5533a88da42a1078",
   "lastOpenFiles": [
-    "SecondBrain/전공 공부/이산구조/이산구조 공부.md",
     "SecondBrain/전공 공부/이산구조/10. 그래프.md",
+    "SecondBrain/전공 공부/이산구조/이산구조 공부.md",
     "SecondBrain/전공 공부/이산구조/9. 관계.md",
     "SecondBrain/전공 공부/이산구조/11. 트리.md",
     "SecondBrain/전공 공부/이산구조/이산수학 기호.md",
