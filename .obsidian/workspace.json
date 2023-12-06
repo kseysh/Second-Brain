@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SecondBrain/전공 공부/이산구조/9. 관계.md",
+                "file": "SecondBrain/전공 공부/이산구조/10. 그래프.md",
                 "mode": "source",
                 "source": false
               }
@@ -95,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SecondBrain/전공 공부/이산구조/9. 관계.md",
+                "file": "SecondBrain/전공 공부/이산구조/10. 그래프.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SecondBrain/전공 공부/이산구조/9. 관계.md",
+                "file": "SecondBrain/전공 공부/이산구조/10. 그래프.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -135,7 +135,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SecondBrain/전공 공부/이산구조/9. 관계.md"
+                "file": "SecondBrain/전공 공부/이산구조/10. 그래프.md"
               }
             }
           },
@@ -177,6 +177,7 @@
   },
   "active": "5533a88da42a1078",
   "lastOpenFiles": [
+    "SecondBrain/전공 공부/이산구조/9. 관계.md",
     "SecondBrain/Attached files/Pasted image 20231206110151.png",
     "SecondBrain/Attached files/Pasted image 20231206005055.png",
     "SecondBrain/전공 공부/이산구조/8. 점화 관계.md",
@@ -184,7 +185,6 @@
     "SecondBrain/Attached files/Pasted image 20231205224423.png",
     "SecondBrain/전공 공부/이산구조/10. 그래프.md",
     "SecondBrain/전공 공부/이산구조/이산구조 공부.md",
-    "SecondBrain/전공 공부/이산구조/9. 관계.md",
     "SecondBrain/전공 공부/이산구조/11. 트리.md",
     "SecondBrain/전공 공부/이산구조/이산수학 기호.md",
     "SecondBrain/전공 공부/시스템 프로그래밍/시프 기말 공부.md",
@@ -212,7 +212,6 @@
     "SecondBrain/Attached files/Pasted image 20231204164037.png",
     "SecondBrain/Attached files/Pasted image 20231203235528.png",
     "SecondBrain/Attached files/Pasted image 20231203235518.png",
-    "SecondBrain/Attached files/Pasted image 20231203235506.png",
     "Spaces/Home",
     "Spaces",
     "SecondBrain/전공 공부/지난 학기/전자상거래",
