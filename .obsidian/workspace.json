@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SecondBrain/전공 공부/이산구조/9. 관계.md",
+                "file": "SecondBrain/전공 공부/이산구조/10. 그래프.md",
                 "mode": "source",
                 "source": false
               }
@@ -112,7 +112,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SecondBrain/전공 공부/이산구조/9. 관계.md",
+                "file": "SecondBrain/전공 공부/이산구조/이산구조 공부.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -129,7 +129,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SecondBrain/전공 공부/이산구조/9. 관계.md",
+                "file": "SecondBrain/전공 공부/이산구조/이산구조 공부.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -152,7 +152,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SecondBrain/전공 공부/이산구조/9. 관계.md"
+                "file": "SecondBrain/전공 공부/이산구조/이산구조 공부.md"
               }
             }
           },
@@ -192,15 +192,15 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "5533a88da42a1078",
+  "active": "7113ada732b60296",
   "lastOpenFiles": [
+    "SecondBrain/전공 공부/이산구조/10. 그래프.md",
     "SecondBrain/전공 공부/이산구조/이산구조 공부.md",
     "SecondBrain/전공 공부/이산구조/9. 관계.md",
     "SecondBrain/전공 공부/이산구조/이산수학 기호.md",
     "SecondBrain/전공 공부/이산구조/8. 점화 관계.md",
     "SecondBrain/전공 공부/이산구조/6. 일반화 된 수열과 조합.md",
     "SecondBrain/전공 공부/이산구조/11. 트리.md",
-    "SecondBrain/전공 공부/이산구조/10. 그래프.md",
     "SecondBrain/Attached files/Pasted image 20231206115026.png",
     "SecondBrain/Attached files/Pasted image 20231206115019.png",
     "SecondBrain/Attached files/Pasted image 20231206110151.png",
