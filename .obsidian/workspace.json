@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SecondBrain/전공 공부/이산구조/11. 트리.md",
+                "file": "SecondBrain/전공 공부/시스템 프로그래밍/11. Calling Conventions- Passing Control.md",
                 "mode": "source",
                 "source": false
               }
@@ -31,7 +31,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SecondBrain/전공 공부/이산구조/이산구조 공부.md",
+                "file": "SecondBrain/전공 공부/시스템 프로그래밍/시프 기말 공부.md",
                 "mode": "source",
                 "source": false
               }
@@ -91,8 +91,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
@@ -112,7 +111,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SecondBrain/전공 공부/이산구조/11. 트리.md",
+                "file": "SecondBrain/전공 공부/시스템 프로그래밍/시프 기말 공부.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -129,7 +128,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SecondBrain/전공 공부/이산구조/11. 트리.md",
+                "file": "SecondBrain/전공 공부/시스템 프로그래밍/시프 기말 공부.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -152,7 +151,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SecondBrain/전공 공부/이산구조/11. 트리.md"
+                "file": "SecondBrain/전공 공부/시스템 프로그래밍/시프 기말 공부.md"
               }
             }
           },
@@ -192,21 +191,24 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "5533a88da42a1078",
+  "active": "7113ada732b60296",
   "lastOpenFiles": [
-    "SecondBrain/전공 공부/이산구조/10. 그래프.md",
-    "SecondBrain/전공 공부/이산구조/11. 트리.md",
-    "SecondBrain/전공 공부/이산구조/9. 관계.md",
-    "SecondBrain/전공 공부/이산구조/8. 점화 관계.md",
-    "SecondBrain/전공 공부/이산구조/6. 일반화 된 수열과 조합.md",
-    "SecondBrain/전공 공부/이산구조/이산구조 공부.md",
-    "SecondBrain/전공 공부/이산구조/이산수학 기호.md",
+    "SecondBrain/전공 공부/시스템 프로그래밍/11. Calling Conventions- Passing Control.md",
+    "SecondBrain/전공 공부/시스템 프로그래밍/시스템 프로그래밍.md",
+    "SecondBrain/전공 공부/시스템 프로그래밍/시프 기말 공부.md",
+    "SecondBrain/전공 공부/지난 학기/이산구조/이산구조 공부.md",
+    "SecondBrain/전공 공부/전공 공부.md",
+    "SecondBrain/전공 공부/지난 학기/이산구조/11. 트리.md",
+    "SecondBrain/전공 공부/지난 학기/이산구조/10. 그래프.md",
+    "SecondBrain/전공 공부/지난 학기/이산구조/9. 관계.md",
+    "SecondBrain/전공 공부/지난 학기/이산구조/8. 점화 관계.md",
+    "SecondBrain/전공 공부/지난 학기/이산구조/6. 일반화 된 수열과 조합.md",
+    "SecondBrain/전공 공부/지난 학기/이산구조/이산수학 기호.md",
     "SecondBrain/Attached files/Pasted image 20231206115026.png",
     "SecondBrain/Attached files/Pasted image 20231206115019.png",
     "SecondBrain/Attached files/Pasted image 20231206110151.png",
     "SecondBrain/Attached files/Pasted image 20231206005055.png",
     "SecondBrain/Attached files/Pasted image 20231205224423.png",
-    "SecondBrain/전공 공부/시스템 프로그래밍/시프 기말 공부.md",
     "SecondBrain/전공 공부/시스템 프로그래밍/22. Exceptional Control Flow.md",
     "SecondBrain/전공 공부/시스템 프로그래밍/21. Memory-related perils and pitfalls.md",
     "SecondBrain/전공 공부/시스템 프로그래밍/20. Dynamic Memory Allocation.md",
@@ -221,10 +223,8 @@
     "SecondBrain/전공 공부/시스템 프로그래밍/중간고사/8. Condition Codes.md",
     "SecondBrain/전공 공부/시스템 프로그래밍/중간고사/9. Conditional branches.md",
     "SecondBrain/전공 공부/시스템 프로그래밍/12. Stack.md",
-    "SecondBrain/전공 공부/시스템 프로그래밍/11. Calling Conventions- Passing Control.md",
     "SecondBrain/Attached files/Pasted image 20231204174926.png",
     "SecondBrain/전공 공부/시스템 프로그래밍/중간고사/6. Registers, Operands, Move.md",
-    "SecondBrain/전공 공부/시스템 프로그래밍/중간고사/3. Representations in memory.md",
     "SecondBrain/Attached files/Pasted image 20231204164224.png",
     "SecondBrain/Attached files/Pasted image 20231204164143.png",
     "SecondBrain/Attached files/Pasted image 20231204164055.png",
