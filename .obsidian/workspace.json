@@ -14,7 +14,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SecondBrain/전공 공부/시스템 프로그래밍/13. Calling Conventions.md",
+                "file": "SecondBrain/전공 공부/시스템 프로그래밍/14. Arrays.md",
                 "mode": "source",
                 "source": false
               }
@@ -113,7 +113,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SecondBrain/전공 공부/시스템 프로그래밍/시프 기말 공부.md",
+                "file": "SecondBrain/전공 공부/시스템 프로그래밍/14. Arrays.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -130,7 +130,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SecondBrain/전공 공부/시스템 프로그래밍/시프 기말 공부.md",
+                "file": "SecondBrain/전공 공부/시스템 프로그래밍/14. Arrays.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -153,7 +153,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SecondBrain/전공 공부/시스템 프로그래밍/시프 기말 공부.md"
+                "file": "SecondBrain/전공 공부/시스템 프로그래밍/14. Arrays.md"
               }
             }
           },
@@ -193,11 +193,11 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "7113ada732b60296",
+  "active": "5533a88da42a1078",
   "lastOpenFiles": [
     "SecondBrain/전공 공부/시스템 프로그래밍/13. Calling Conventions.md",
-    "SecondBrain/전공 공부/시스템 프로그래밍/14. Arrays.md",
     "SecondBrain/전공 공부/시스템 프로그래밍/시프 기말 공부.md",
+    "SecondBrain/전공 공부/시스템 프로그래밍/14. Arrays.md",
     "SecondBrain/전공 공부/시스템 프로그래밍/12. Stack.md",
     "SecondBrain/전공 공부/시스템 프로그래밍/11. Calling Conventions- Passing Control.md",
     "SecondBrain/전공 공부/시스템 프로그래밍/19. Virtual Memory.md",
