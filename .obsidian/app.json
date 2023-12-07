@@ -1,5 +1,11 @@
 {
   "spellcheck": false,
   "promptDelete": false,
-  "attachmentFolderPath": "SecondBrain/Attached files"
+  "attachmentFolderPath": "SecondBrain/Attached files",
+  "pdfExportSettings": {
+    "pageSize": "Letter",
+    "landscape": false,
+    "margin": "0",
+    "downscalePercent": 100
+  }
 }
