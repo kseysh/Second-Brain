@@ -14,7 +14,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SecondBrain/전공 공부/시스템 프로그래밍/22. Exceptional Control Flow.md",
+                "file": "SecondBrain/전공 공부/시스템 프로그래밍/20. Dynamic Memory Allocation.md",
                 "mode": "source",
                 "source": false
               }
@@ -113,7 +113,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SecondBrain/전공 공부/시스템 프로그래밍/22. Exceptional Control Flow.md",
+                "file": "SecondBrain/전공 공부/시스템 프로그래밍/20. Dynamic Memory Allocation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -130,7 +130,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SecondBrain/전공 공부/시스템 프로그래밍/22. Exceptional Control Flow.md",
+                "file": "SecondBrain/전공 공부/시스템 프로그래밍/20. Dynamic Memory Allocation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -153,7 +153,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SecondBrain/전공 공부/시스템 프로그래밍/22. Exceptional Control Flow.md"
+                "file": "SecondBrain/전공 공부/시스템 프로그래밍/20. Dynamic Memory Allocation.md"
               }
             }
           },
@@ -196,6 +196,7 @@
   "active": "5533a88da42a1078",
   "lastOpenFiles": [
     "SecondBrain/전공 공부/시스템 프로그래밍/21. Memory-related perils and pitfalls.md",
+    "SecondBrain/전공 공부/시스템 프로그래밍/22. Exceptional Control Flow.md",
     "SecondBrain/전공 공부/시스템 프로그래밍/20. Dynamic Memory Allocation.md",
     "SecondBrain/전공 공부/시스템 프로그래밍/19. Virtual Memory.md",
     "SecondBrain/전공 공부/시스템 프로그래밍/시프 기말 공부.md",
@@ -209,7 +210,6 @@
     "SecondBrain/전공 공부/시스템 프로그래밍/13. Calling Conventions.md",
     "SecondBrain/전공 공부/시스템 프로그래밍/12. Stack.md",
     "SecondBrain/전공 공부/시스템 프로그래밍/11. Calling Conventions- Passing Control.md",
-    "SecondBrain/전공 공부/시스템 프로그래밍/22. Exceptional Control Flow.md",
     "SecondBrain/전공 공부/오픈소스응용프로그래밍/중간고사/도커 컨테이너 명령어와 볼륨.md",
     "SecondBrain/전공 공부/오픈소스응용프로그래밍/중간고사/도커 파일과 깃허브를 이용한 파일 공유.md",
     "SecondBrain/전공 공부/오픈소스응용프로그래밍/중간고사/도커와 이미지, 컨테이너.md",
