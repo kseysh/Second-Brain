@@ -113,7 +113,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SecondBrain/전공 공부/오픈소스응용프로그래밍/오픈소스응용 공부.md",
+                "file": "SecondBrain/전공 공부/오픈소스응용프로그래밍/2-7. 생성 패턴.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -130,7 +130,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SecondBrain/전공 공부/오픈소스응용프로그래밍/오픈소스응용 공부.md",
+                "file": "SecondBrain/전공 공부/오픈소스응용프로그래밍/2-7. 생성 패턴.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -153,7 +153,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SecondBrain/전공 공부/오픈소스응용프로그래밍/오픈소스응용 공부.md"
+                "file": "SecondBrain/전공 공부/오픈소스응용프로그래밍/2-7. 생성 패턴.md"
               }
             }
           },
@@ -193,10 +193,10 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "db8e706196997b74",
+  "active": "5533a88da42a1078",
   "lastOpenFiles": [
-    "SecondBrain/전공 공부/오픈소스응용프로그래밍/2-7. 생성 패턴.md",
     "SecondBrain/전공 공부/오픈소스응용프로그래밍/오픈소스응용 공부.md",
+    "SecondBrain/전공 공부/오픈소스응용프로그래밍/2-7. 생성 패턴.md",
     "SecondBrain/전공 공부/오픈소스응용프로그래밍/2-6. 디자인패턴 종류.md",
     "SecondBrain/전공 공부/오픈소스응용프로그래밍/2-5. 디자인 패턴 개요.md",
     "SecondBrain/전공 공부/오픈소스응용프로그래밍/2-5. 객체지향개발 특성.md",
