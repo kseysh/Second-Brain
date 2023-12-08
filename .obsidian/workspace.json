@@ -6,6 +6,7 @@
       {
         "id": "41a0215e341a7517",
         "type": "tabs",
+        "dimension": 67.49226006191951,
         "children": [
           {
             "id": "5533a88da42a1078",
@@ -14,6 +15,25 @@
               "type": "markdown",
               "state": {
                 "file": "SecondBrain/전공 공부/오픈소스응용프로그래밍/2-5. 객체지향개발 특성.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "9ee6c04194fac030",
+        "type": "tabs",
+        "dimension": 32.50773993808049,
+        "children": [
+          {
+            "id": "db8e706196997b74",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "SecondBrain/전공 공부/오픈소스응용프로그래밍/오픈소스응용 공부.md",
                 "mode": "source",
                 "source": false
               }
@@ -175,8 +195,9 @@
   },
   "active": "5533a88da42a1078",
   "lastOpenFiles": [
-    "SecondBrain/독서록/개발 관련 도서/구글 엔지니어는 이렇게 일한다 - 2.md",
+    "SecondBrain/전공 공부/오픈소스응용프로그래밍/오픈소스응용 공부.md",
     "SecondBrain/전공 공부/오픈소스응용프로그래밍/2-5. 객체지향개발 특성.md",
+    "SecondBrain/독서록/개발 관련 도서/구글 엔지니어는 이렇게 일한다 - 2.md",
     "SecondBrain/전공 공부/오픈소스응용프로그래밍/2-10. 구글의 테스트 기준, 구글 테스트 프레임워크.md",
     "SecondBrain/전공 공부/오픈소스응용프로그래밍/2-8. 소프트웨어 테스팅 개요.md",
     "SecondBrain/전공 공부/오픈소스응용프로그래밍/2-8. 블랙박스 테스팅 기법.md",
@@ -184,7 +205,6 @@
     "SecondBrain/전공 공부/오픈소스응용프로그래밍/2-7. 생성 패턴.md",
     "SecondBrain/전공 공부/오픈소스응용프로그래밍/2-9. 화이트박스 테스팅 기법들.md",
     "SecondBrain/독서록/개발 관련 도서/구글 엔지니어는 이렇게 일한다 - 1.md",
-    "SecondBrain/전공 공부/오픈소스응용프로그래밍/오픈소스응용 공부.md",
     "SecondBrain/전공 공부/지난 학기/시스템 프로그래밍/20. Dynamic Memory Allocation.md",
     "SecondBrain/전공 공부/지난 학기/시스템 프로그래밍/시프 기말 공부.md",
     "SecondBrain/전공 공부/지난 학기/시스템 프로그래밍/21. Memory-related perils and pitfalls.md",
