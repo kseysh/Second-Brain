@@ -14,7 +14,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SecondBrain/전공 공부/오픈소스응용프로그래밍/2-7. 행위 패턴.md",
+                "file": "SecondBrain/전공 공부/오픈소스응용프로그래밍/2-8. 소프트웨어 테스팅 개요.md",
                 "mode": "source",
                 "source": false
               }
@@ -113,7 +113,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SecondBrain/전공 공부/오픈소스응용프로그래밍/2-7. 행위 패턴.md",
+                "file": "SecondBrain/전공 공부/오픈소스응용프로그래밍/오픈소스응용 공부.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -130,7 +130,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SecondBrain/전공 공부/오픈소스응용프로그래밍/2-7. 행위 패턴.md",
+                "file": "SecondBrain/전공 공부/오픈소스응용프로그래밍/오픈소스응용 공부.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -153,7 +153,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SecondBrain/전공 공부/오픈소스응용프로그래밍/2-7. 행위 패턴.md"
+                "file": "SecondBrain/전공 공부/오픈소스응용프로그래밍/오픈소스응용 공부.md"
               }
             }
           },
@@ -193,8 +193,11 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "5533a88da42a1078",
+  "active": "db8e706196997b74",
   "lastOpenFiles": [
+    "SecondBrain/전공 공부/오픈소스응용프로그래밍/2-8. 소프트웨어 테스팅 개요.md",
+    "SecondBrain/전공 공부/오픈소스응용프로그래밍/2-8. 블랙박스 테스팅 기법.md",
+    "SecondBrain/전공 공부/오픈소스응용프로그래밍/2-7. 행위 패턴.md",
     "SecondBrain/전공 공부/오픈소스응용프로그래밍/2-7. 생성 패턴.md",
     "SecondBrain/전공 공부/오픈소스응용프로그래밍/오픈소스응용 공부.md",
     "SecondBrain/전공 공부/오픈소스응용프로그래밍/2-6. 디자인패턴 종류.md",
@@ -205,9 +208,6 @@
     "SecondBrain/전공 공부/오픈소스응용프로그래밍/2-11. 구글 테스트 실습.md",
     "SecondBrain/전공 공부/오픈소스응용프로그래밍/2-10. 구글의 테스트 기준, 구글 테스트 프레임워크.md",
     "SecondBrain/전공 공부/오픈소스응용프로그래밍/2-9. 화이트박스 테스팅 기법들.md",
-    "SecondBrain/전공 공부/오픈소스응용프로그래밍/2-8. 블랙박스 테스팅 기법.md",
-    "SecondBrain/전공 공부/오픈소스응용프로그래밍/2-8. 소프트웨어 테스팅 개요.md",
-    "SecondBrain/전공 공부/오픈소스응용프로그래밍/2-7. 행위 패턴.md",
     "SecondBrain/Develop/디자인 패턴/생성 패턴/팩토리 메서드.md",
     "SecondBrain/Develop/객체의 상속과 합성 (미완성).md",
     "SecondBrain/Spring/어노테이션/@PersistContext.md",
