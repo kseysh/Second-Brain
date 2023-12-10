@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SecondBrain/Git/GIT 스터디/cherry-pick.md",
+                "file": "SecondBrain/Git/GIT 스터디/rebase.md",
                 "mode": "source",
                 "source": false
               }
@@ -77,8 +77,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "6a641e930567f8cc",
@@ -94,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SecondBrain/Git/GIT 스터디/cherry-pick.md",
+                "file": "SecondBrain/Git/GIT 스터디/rebase.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SecondBrain/Git/GIT 스터디/cherry-pick.md",
+                "file": "SecondBrain/Git/GIT 스터디/rebase.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SecondBrain/Git/GIT 스터디/cherry-pick.md"
+                "file": "SecondBrain/Git/GIT 스터디/rebase.md"
               }
             }
           },
@@ -176,14 +175,19 @@
   },
   "active": "5533a88da42a1078",
   "lastOpenFiles": [
-    "SecondBrain/Attached files/Pasted image 20231210161414.png",
+    "SecondBrain/Attached files/Pasted image 20231210155045.png",
     "SecondBrain/Git/GIT 스터디/rebase.md",
+    "SecondBrain/Git/GIT 스터디/squash and merge.md",
+    "SecondBrain/Attached files/Pasted image 20231210162034.png",
+    "SecondBrain/Attached files/Pasted image 20231210162023.png",
+    "SecondBrain/Git/GIT 스터디/squash merge.md",
+    "SecondBrain/Git/GIT 스터디/cherry-pick.md",
+    "SecondBrain/Attached files/Pasted image 20231210161554.png",
+    "SecondBrain/Attached files/Pasted image 20231210161414.png",
     "SecondBrain/Attached files/Pasted image 20231210160958.png",
     "SecondBrain/Attached files/Pasted image 20231210160947.png",
     "SecondBrain/Attached files/Pasted image 20231210160929.png",
     "SecondBrain/Attached files/Pasted image 20231210160915.png",
-    "SecondBrain/Git/GIT 스터디/cherry-pick.md",
-    "SecondBrain/Git/GIT 스터디/squash merge.md",
     "SecondBrain/전공 공부/지난 학기/이산구조/이산수학 기호.md",
     "SecondBrain/전공 공부/지난 학기/자바기반응용프로그래밍/2주차.md",
     "SecondBrain/전공 공부/지난 학기/전자상거래/전상 공부.md",
@@ -191,7 +195,6 @@
     "SecondBrain/전공 공부/지난 학기/오픈소스응용프로그래밍/오픈소스응용 공부.md",
     "SecondBrain/전공 공부/지난 학기/시스템 프로그래밍/시스템 프로그래밍.md",
     "SecondBrain/전공 공부/지난 학기/시스템 프로그래밍/시프 기말 공부.md",
-    "SecondBrain/Attached files/Pasted image 20231210155045.png",
     "SecondBrain/전공 공부/지난 학기/오픈소스응용프로그래밍/2-12. 소프트웨어 신뢰성을 위한 추가 방법들.md",
     "SecondBrain/전공 공부/지난 학기/오픈소스응용프로그래밍/2-11. 구글 테스트 실습.md",
     "SecondBrain/전공 공부/지난 학기/오픈소스응용프로그래밍/2-10. 구글의 테스트 기준, 구글 테스트 프레임워크.md",
@@ -206,12 +209,7 @@
     "SecondBrain/독서록/개발 관련 도서/구글 엔지니어는 이렇게 일한다 - 2.md",
     "SecondBrain/Develop/디자인 패턴/생성 패턴/팩토리 메서드.md",
     "SecondBrain/Develop/객체의 상속과 합성 (미완성).md",
-    "SecondBrain/Spring/어노테이션/@PersistContext.md",
     "SecondBrain/Attached files/Pasted image 20231208142114.png",
-    "SecondBrain/Attached files/Pasted image 20231208142105.png",
-    "SecondBrain/Attached files/Pasted image 20231208142051.png",
-    "SecondBrain/Attached files/Pasted image 20231208131611.png",
-    "SecondBrain/Attached files/Pasted image 20231208131602.png",
     "Spaces/Home",
     "Spaces",
     "SecondBrain/전공 공부/지난 학기/전자상거래",
