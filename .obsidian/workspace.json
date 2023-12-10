@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SecondBrain/Git/GIT 스터디/rebase.md",
+                "file": "SecondBrain/Git/GIT 스터디/cherry-pick.md",
                 "mode": "source",
                 "source": false
               }
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SecondBrain/Git/GIT 스터디/rebase.md",
+                "file": "SecondBrain/Git/GIT 스터디/cherry-pick.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SecondBrain/Git/GIT 스터디/rebase.md",
+                "file": "SecondBrain/Git/GIT 스터디/cherry-pick.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SecondBrain/Git/GIT 스터디/rebase.md"
+                "file": "SecondBrain/Git/GIT 스터디/cherry-pick.md"
               }
             }
           },
@@ -176,9 +176,14 @@
   },
   "active": "5533a88da42a1078",
   "lastOpenFiles": [
+    "SecondBrain/Attached files/Pasted image 20231210161414.png",
+    "SecondBrain/Git/GIT 스터디/rebase.md",
+    "SecondBrain/Attached files/Pasted image 20231210160958.png",
+    "SecondBrain/Attached files/Pasted image 20231210160947.png",
+    "SecondBrain/Attached files/Pasted image 20231210160929.png",
+    "SecondBrain/Attached files/Pasted image 20231210160915.png",
     "SecondBrain/Git/GIT 스터디/cherry-pick.md",
     "SecondBrain/Git/GIT 스터디/squash merge.md",
-    "SecondBrain/Git/GIT 스터디/rebase.md",
     "SecondBrain/전공 공부/지난 학기/이산구조/이산수학 기호.md",
     "SecondBrain/전공 공부/지난 학기/자바기반응용프로그래밍/2주차.md",
     "SecondBrain/전공 공부/지난 학기/전자상거래/전상 공부.md",
@@ -202,16 +207,11 @@
     "SecondBrain/Develop/디자인 패턴/생성 패턴/팩토리 메서드.md",
     "SecondBrain/Develop/객체의 상속과 합성 (미완성).md",
     "SecondBrain/Spring/어노테이션/@PersistContext.md",
-    "SecondBrain/Spring/DI.md",
     "SecondBrain/Attached files/Pasted image 20231208142114.png",
     "SecondBrain/Attached files/Pasted image 20231208142105.png",
     "SecondBrain/Attached files/Pasted image 20231208142051.png",
     "SecondBrain/Attached files/Pasted image 20231208131611.png",
     "SecondBrain/Attached files/Pasted image 20231208131602.png",
-    "SecondBrain/Attached files/Pasted image 20231208120341.png",
-    "SecondBrain/Attached files/Pasted image 20231208120315.png",
-    "SecondBrain/Attached files/Pasted image 20231208110003.png",
-    "SecondBrain/Attached files/Pasted image 20231208105954.png",
     "Spaces/Home",
     "Spaces",
     "SecondBrain/전공 공부/지난 학기/전자상거래",
