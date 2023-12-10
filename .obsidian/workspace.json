@@ -14,7 +14,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SecondBrain/전공 공부/지난 학기/오픈소스응용프로그래밍/2-12. 소프트웨어 신뢰성을 위한 추가 방법들.md",
+                "file": "SecondBrain/Git/GIT 스터디/rebase.md",
                 "mode": "source",
                 "source": false
               }
@@ -97,7 +97,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "6a641e930567f8cc",
@@ -113,7 +114,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SecondBrain/전공 공부/지난 학기/오픈소스응용프로그래밍/2-12. 소프트웨어 신뢰성을 위한 추가 방법들.md",
+                "file": "SecondBrain/Git/GIT 스터디/rebase.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -130,7 +131,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SecondBrain/전공 공부/지난 학기/오픈소스응용프로그래밍/2-12. 소프트웨어 신뢰성을 위한 추가 방법들.md",
+                "file": "SecondBrain/Git/GIT 스터디/rebase.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -153,7 +154,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SecondBrain/전공 공부/지난 학기/오픈소스응용프로그래밍/2-12. 소프트웨어 신뢰성을 위한 추가 방법들.md"
+                "file": "SecondBrain/Git/GIT 스터디/rebase.md"
               }
             }
           },
@@ -195,6 +196,10 @@
   },
   "active": "fea5684534da7755",
   "lastOpenFiles": [
+    "SecondBrain/Git/GIT 스터디/squash merge.md",
+    "SecondBrain/Git/GIT 스터디/cherry-pick.md",
+    "SecondBrain/Git/GIT 스터디/rebase.md",
+    "SecondBrain/전공 공부/지난 학기/오픈소스응용프로그래밍/2-12. 소프트웨어 신뢰성을 위한 추가 방법들.md",
     "SecondBrain/전공 공부/지난 학기/오픈소스응용프로그래밍/2-11. 구글 테스트 실습.md",
     "SecondBrain/전공 공부/지난 학기/오픈소스응용프로그래밍/2-10. 구글의 테스트 기준, 구글 테스트 프레임워크.md",
     "SecondBrain/전공 공부/지난 학기/오픈소스응용프로그래밍/2-9. 화이트박스 테스팅 기법들.md",
@@ -206,7 +211,6 @@
     "SecondBrain/전공 공부/지난 학기/오픈소스응용프로그래밍/2-5. 디자인 패턴 개요.md",
     "SecondBrain/전공 공부/지난 학기/오픈소스응용프로그래밍/2-5. 객체지향개발 특성.md",
     "SecondBrain/독서록/개발 관련 도서/구글 엔지니어는 이렇게 일한다 - 2.md",
-    "SecondBrain/전공 공부/지난 학기/오픈소스응용프로그래밍/2-12. 소프트웨어 신뢰성을 위한 추가 방법들.md",
     "SecondBrain/전공 공부/지난 학기/오픈소스응용프로그래밍/오픈소스응용 공부.md",
     "SecondBrain/Develop/디자인 패턴/생성 패턴/팩토리 메서드.md",
     "SecondBrain/Develop/객체의 상속과 합성 (미완성).md",
@@ -227,9 +231,6 @@
     "SecondBrain/전공 공부/지난 학기/시스템 프로그래밍/시프 기말 공부.md",
     "SecondBrain/전공 공부/지난 학기/시스템 프로그래밍/21. Memory-related perils and pitfalls.md",
     "SecondBrain/전공 공부/지난 학기/시스템 프로그래밍/22. Exceptional Control Flow.md",
-    "SecondBrain/전공 공부/지난 학기/시스템 프로그래밍/19. Virtual Memory.md",
-    "SecondBrain/전공 공부/지난 학기/시스템 프로그래밍/18. Processes.md",
-    "SecondBrain/전공 공부/지난 학기/시스템 프로그래밍/17. Linking.md",
     "SecondBrain/Attached files/Pasted image 20231207124931.png",
     "Spaces/Home",
     "Spaces",
