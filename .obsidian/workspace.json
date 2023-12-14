@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "6cd58277040c7cc8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "시스템 프로그래밍 HW2 과제.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -73,12 +86,12 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "6a641e930567f8cc",
@@ -94,7 +107,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SecondBrain/전공 공부/지난 학기/DataStructure/AVL Trees.md",
+                "file": "시스템 프로그래밍 HW2 과제.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +124,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SecondBrain/전공 공부/지난 학기/DataStructure/AVL Trees.md",
+                "file": "시스템 프로그래밍 HW2 과제.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +147,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SecondBrain/전공 공부/지난 학기/DataStructure/AVL Trees.md"
+                "file": "시스템 프로그래밍 HW2 과제.md"
               }
             }
           },
@@ -174,8 +187,10 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "5533a88da42a1078",
+  "active": "6cd58277040c7cc8",
   "lastOpenFiles": [
+    "SecondBrain/전공 공부/지난 학기/DataStructure/AVL Trees.md",
+    "시스템 프로그래밍 HW2 과제.md",
     "SecondBrain/Git/GIT 스터디/squash and merge.md",
     "SecondBrain/Git/GIT 스터디/rebase and merge.md",
     "SecondBrain/Git/GIT 스터디/cherry-pick.md",
@@ -209,8 +224,6 @@
     "SecondBrain/전공 공부/지난 학기/오픈소스응용프로그래밍/2-5. 디자인 패턴 개요.md",
     "SecondBrain/전공 공부/지난 학기/오픈소스응용프로그래밍/2-5. 객체지향개발 특성.md",
     "SecondBrain/독서록/개발 관련 도서/구글 엔지니어는 이렇게 일한다 - 2.md",
-    "SecondBrain/Develop/디자인 패턴/생성 패턴/팩토리 메서드.md",
-    "SecondBrain/Develop/객체의 상속과 합성 (미완성).md",
     "SecondBrain/Attached files/Pasted image 20231208142114.png",
     "Spaces/Home",
     "Spaces",
