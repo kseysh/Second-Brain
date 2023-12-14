@@ -157,7 +157,7 @@ static void print_hex(unsigned int value) {
 ## Compile-Time Interpositioning
 Compile-Time Interpositioning은 소스 코드를 컴파일하는 단계에서 함수 호출을 변경하거나 새로운 함수를 주입하여 프로그램의 동작을 수정합니다.
 
-`printf.h`파일을 생성하고 `#define`을 통해 `printf`함수를 `myprintf`함수로 interposition 하겠다는 것을 정의하고, `myprintf()`함수를 헤더파일에 정의해줍니다.
+`printf.h`파일을 생성하여 라이브러리에 있는 `printf.h`가 아니라 제가 생성한 `printf.h`파일을 사용하도록 해줍니다. `#define`을 통해 `printf`함수를 `myprintf`함수로 interposition 하겠다는 것을 정의하고, `myprintf()`함수를 헤더파일에 정의해줍니다.
 이를 통해 컴파일러는 printf를 사용할 때 `printf`함수 대신 `myprintf`를 사용하게 됩니다.
 ### `gcc -DCOMPILETIME -c myprintf.c` 
 compile-time interpositioning을 위해서는 `myprintf.c` 파일의 relocatable object파일이 필요합니다. 따라서 `myprintf.c` 파일을 따로 compile하여 relocatable object file로 만들어줍니다.
@@ -168,6 +168,7 @@ compile-time interpositioning을 위해서는 `myprintf.c` 파일의 relocatable
 -o 옵션은 컴파일된 실행파일의 이름을 지정하는 옵션으로 이 과제에서는 hw2C라는 실행파일의 이름으로 지정하였습니다.
 
 여기서 `myprintf.c`를 따로 컴파일 한 이유는 `myprintf.c`파일을 `-DCOMPILETIME` 옵션으로 컴파일하여 compile-time interpositioning을 할 수 있도록 한 것입니다. 이렇게 하면 `main.c` 파일를 컴파일 할 때 `printf`함수를 `myprintf` 함수로 변경하여 `main.c`파일에서 사용하게 됩니다. 
+또한 `myprintf.c`가 `<stdio.h>`라이브러리의 `printf`함수를 사용해야 
 ## 수행 결과
 ![[Pasted image 20231214155653.png]]
 ## Link-Time Interpositioning
