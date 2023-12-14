@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "시스템 프로그래밍 HW2 과제.md",
+                "file": "SecondBrain/DB/SQL/SQL 문법/날짜 관련 함수.md",
                 "mode": "source",
                 "source": false
               }
@@ -77,8 +77,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "6a641e930567f8cc",
@@ -94,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "시스템 프로그래밍 HW2 과제.md",
+                "file": "SecondBrain/DB/SQL/SQL 문법/날짜 관련 함수.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "시스템 프로그래밍 HW2 과제.md",
+                "file": "SecondBrain/DB/SQL/SQL 문법/날짜 관련 함수.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "시스템 프로그래밍 HW2 과제.md"
+                "file": "SecondBrain/DB/SQL/SQL 문법/날짜 관련 함수.md"
               }
             }
           },
@@ -174,12 +173,22 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "90f73db2c2a5785d",
+  "active": "fea5684534da7755",
   "lastOpenFiles": [
+    "SecondBrain/DB/SQL/SQL 문법/CASE WHEN.md",
+    "SecondBrain/DB/SQL/SQL 문법/CONCAT.md",
+    "SecondBrain/DB/SQL/SQL 문법/COUNT.md",
+    "SecondBrain/DB/SQL/SQL 문법/DATEDIFF.md",
+    "SecondBrain/DB/SQL/SQL 문법/DISTINCT.md",
+    "SecondBrain/DB/SQL/SQL 문법/GROUP BY.md",
+    "SecondBrain/DB/SQL/SQL 문법/HAVING.md",
+    "SecondBrain/DB/SQL/SQL 문법/JOIN.md",
+    "SecondBrain/DB/SQL/SQL 문법/LIKE.md",
+    "SecondBrain/DB/SQL/SQL 문법/MAX, MIN.md",
+    "시스템 프로그래밍 HW2 과제.md",
     "SecondBrain/Attached files/Pasted image 20231214160722.png",
     "SecondBrain/Attached files/Pasted image 20231214160658.png",
     "SecondBrain/전공 공부/지난 학기/DataStructure/AVL Trees.md",
-    "시스템 프로그래밍 HW2 과제.md",
     "SecondBrain/전공 공부/지난 학기/시스템 프로그래밍/17. Linking.md",
     "SecondBrain/전공 공부/지난 학기/시스템 프로그래밍/11. Calling Conventions- Passing Control.md",
     "SecondBrain/Attached files/Pasted image 20231214155718.png",
@@ -190,7 +199,6 @@
     "SecondBrain/Attached files/Pasted image 20231214141044.png",
     "SecondBrain/Attached files/Pasted image 20231214141025.png",
     "SecondBrain/Attached files/Pasted image 20231214141012.png",
-    "SecondBrain/Attached files/Pasted image 20231214141000.png",
     "SecondBrain/Git/GIT 스터디/squash and merge.md",
     "SecondBrain/Git/GIT 스터디/rebase and merge.md",
     "SecondBrain/Git/GIT 스터디/cherry-pick.md",
@@ -203,15 +211,6 @@
     "SecondBrain/전공 공부/지난 학기/오픈소스응용프로그래밍/오픈소스응용 공부.md",
     "SecondBrain/전공 공부/지난 학기/시스템 프로그래밍/시스템 프로그래밍.md",
     "SecondBrain/전공 공부/지난 학기/시스템 프로그래밍/시프 기말 공부.md",
-    "SecondBrain/전공 공부/지난 학기/오픈소스응용프로그래밍/2-12. 소프트웨어 신뢰성을 위한 추가 방법들.md",
-    "SecondBrain/전공 공부/지난 학기/오픈소스응용프로그래밍/2-11. 구글 테스트 실습.md",
-    "SecondBrain/전공 공부/지난 학기/오픈소스응용프로그래밍/2-10. 구글의 테스트 기준, 구글 테스트 프레임워크.md",
-    "SecondBrain/전공 공부/지난 학기/오픈소스응용프로그래밍/2-9. 화이트박스 테스팅 기법들.md",
-    "SecondBrain/전공 공부/지난 학기/오픈소스응용프로그래밍/2-8. 소프트웨어 테스팅 개요.md",
-    "SecondBrain/전공 공부/지난 학기/오픈소스응용프로그래밍/2-8. 블랙박스 테스팅 기법.md",
-    "SecondBrain/전공 공부/지난 학기/오픈소스응용프로그래밍/2-7. 생성 패턴.md",
-    "SecondBrain/전공 공부/지난 학기/오픈소스응용프로그래밍/2-7. 행위 패턴.md",
-    "SecondBrain/전공 공부/지난 학기/오픈소스응용프로그래밍/2-6. 디자인패턴 종류.md",
     "Spaces/Home",
     "Spaces",
     "SecondBrain/전공 공부/지난 학기/전자상거래",
