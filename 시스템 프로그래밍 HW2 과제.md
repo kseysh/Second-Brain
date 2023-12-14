@@ -9,6 +9,9 @@ sticker: emoji//270f-fe0f
 `printf()`함수는 compile Time interpositioning과 Link-time interpositioning의 코드가 거의 비슷하므로 `printf()` 함수는 compile Time interpositioning을 기준으로 설명하되, 차이점에 대해서는 Interpositioning 수행 과정 및 결과 설명에서 따로 설명하도록 하겠습니다.
 
 ## 1-1. 구현 코드
+### `printf.h`
+![[Pasted image 20231214153451.png]]
+### `myprintf.c`
 ![[Pasted image 20231214140947.png]]
 ![[Pasted image 20231214141000.png]]
 ![[Pasted image 20231214141012.png]]
@@ -145,4 +148,16 @@ static void print_hex(unsigned int value) {
     }
 }
 ```
-`myprintf()`함수에서 `%x`가 포함되면 실행되는 함수입니다. 가변 인자의 값을 매개변수로 받아와서 매개변수의 값을 16진수 형태로 출력합니다. int를 출력하는 `print_int()`함수와 비슷하지만, int는 10진수 단위이므로 10 단위로 끊어주었다면, `print_hex()`함수는 16진수 단위이므로 16 단위로 끊어주어야 합니다. 16진수 단위로 끊어준 이후에, 끊어준 값이 10보다 작다면 '0'을 더해주어 `print_int()`함수와 같은 방법으로 출력해주고, 10보다 크다면 10을 뺀 값에 'a'를 더해주어 char 타입으로 변경해준 후 출력해주어 16진수로 출력될 수 
+`myprintf()`함수에서 `%x`가 포함되면 실행되는 함수입니다. 가변 인자의 값을 매개변수로 받아와서 매개변수의 값을 16진수 형태로 출력합니다. int를 출력하는 `print_int()`함수와 비슷하지만, int는 10진수 단위이므로 10 단위로 끊어주었다면, `print_hex()`함수는 16진수 단위이므로 16 단위로 끊어주어야 합니다. 16진수 단위로 끊어준 이후에, 끊어준 값이 10보다 작다면 '0'을 더해주어 `print_int()`함수와 같은 방법으로 출력해주고, 10보다 크다면 10을 뺀 값에 'a'를 더해주어 char 타입으로 변경해준 후 출력해주어 16진수로 출력될 수 있도록 합니다. 이외에 앞에 `print_str()`을 이용하여 0x를 앞에 붙여주는 것 외에는 `print_int()`와 유사한 방식으로 코드가 실행됩니다.
+
+#### Multiple argument를 처리한 방법
+%가 나오고 그 뒤에 값이 d, c, s, x라면 각각 타입에 맞는 가변인자를 출력하는 함수에 매개변수로 `va_arg (args, type)`를 통해 값을 전달해주고, 출력하므로써 Mutiple argument도 single argument와 같은 방식으로 처리할 수 있었습니다.
+
+# Interpositioning 수행 과정 및 결과 설명
+## Compile-Time Interpositioning
+
+`printf.h`파일을 생성하고 `#define`을 통해 `printf`함수를 `myprintf`함수로 interposition 하겠다는 것을 정의하고, `myprintf()`함수를 헤더파일에 정의해줍니다.
+이를 통해 컴파일러는 printf를 사용할 때 printf함수 대신 myprintf를 사용하게 됩니다/.
+
+## Link-Time Interpositioning
+
