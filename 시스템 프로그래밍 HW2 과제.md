@@ -10,10 +10,12 @@ sticker: emoji//270f-fe0f
 
 ## 1-1. 구현 코드
 ### `printf.h`
-![[Pasted image 20231214153451.png]]
+![[Pasted image 20231214153451.png|600]]
 ### `myprintf.c`
-![[Pasted image 20231214140947.png]]
-![[Pasted image 20231214141000.png]]
+![[Pasted image 20231214140947.png|600]]
+
+
+![[Pasted image 20231214141000.png|600]]
 ![[Pasted image 20231214141012.png]]
 ![[Pasted image 20231214141025.png]]
 ![[Pasted image 20231214141044.png]]
@@ -149,6 +151,7 @@ static void print_hex(unsigned int value) {
 }
 ```
 `myprintf()`함수에서 `%x`가 포함되면 실행되는 함수입니다. 가변 인자의 값을 매개변수로 받아와서 매개변수의 값을 16진수 형태로 출력합니다. int를 출력하는 `print_int()`함수와 비슷하지만, int는 10진수 단위이므로 10 단위로 끊어주었다면, `print_hex()`함수는 16진수 단위이므로 16 단위로 끊어주어야 합니다. 16진수 단위로 끊어준 이후에, 끊어준 값이 10보다 작다면 '0'을 더해주어 `print_int()`함수와 같은 방법으로 출력해주고, 10보다 크다면 10을 뺀 값에 'a'를 더해주어 char 타입으로 변경해준 후 출력해주어 16진수로 출력될 수 있도록 합니다. 이외에 앞에 `print_str()`을 이용하여 0x를 앞에 붙여주는 것 외에는 `print_int()`와 유사한 방식으로 코드가 실행됩니다.
+또한 음수도 16진수로 변환할 수 있도록 unsigned int를 매개변수로 받아 사용하였습니다.
 
 #### Multiple argument를 처리한 방법
 %가 나오고 그 뒤에 값이 d, c, s, x라면 각각 타입에 맞는 가변인자를 출력하는 함수에 매개변수로 `va_arg (args, type)`를 통해 값을 전달해주고, 출력하므로써 Mutiple argument도 single argument와 같은 방식으로 처리할 수 있었습니다.
@@ -173,7 +176,7 @@ Compile-Time Interpositioning은 소스 코드를 컴파일하는 단계에서 �
 ## Link-Time Interpositioning
 Link-Time Interpositioning은 소스코드를 relocatable object file로 만들고, 이를 linking하여 Executable object file로 만들 때 Interpositioning을 진행하여 함수 호출을 변경하거나 추가하여 프로그램의 동작을 수정하는 기술입니다.
 ### `gcc -DLINKTIME -c myprintf.c`
-compile-time-interpositioning과 비슷하게 `myprintf.c`파일을 relocatable object 파일로 만들어줍니다. 
+`myprintf.c`파일을 LINKTIME을 define한 상태로 relocatable object 파일로 만들어줍니다. 
 `-DLINKTIME`옵션을 통해 LINKTIME 매크로를 정의하고 이로 인해 `#ifdef LINKTIME` 과  `#endif` 안의 코드를 활성화 할 수 있도록 합니다. 따라서 이 코드는 linking 시간에만 포함되는 코드가 됩니다.  
 ### `gcc -c main.c`
 main.c도 linking-time-interpositioning을 진행하기 위해 relocatable object 파일로 변경해줍니다.
