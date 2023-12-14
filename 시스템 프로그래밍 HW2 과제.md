@@ -62,4 +62,13 @@ int myprintf(const char* format, ...) {
 }
 
 ```
-#### `va_list args`는 가변인자의 포인터 역할로서  여러 개의 인자를 가진 함수인 `myprintf()`에서 
+#### `va_list args`
+`va_list`는 가변인자의 포인터 역할로서  여러 개의 인자를 가진 함수인 `myprintf()`에서 가변 인자에 접근할 수 있도록 해줍니다.
+#### `va_start (args, format)`
+`va_start`는 `va_list`를 초기화 하여 `va_list`인 `args`를 고정 파라미터인 format의 다음 번지로 설정해주는 역할을 합니다.
+#### `va_arg (args, type)`
+`va_arg`는 가변 인자 목록에서 다음 가변 인자의 값을 읽어옵니다. 첫 번째 인자로 va_list를 주고 두 번째 인자로 가져올 값의 데이터 타입을 가져옵니다.
+#### `va_end (args)`
+`va_end`는 `va_list`를 정리하고, 가변 인자 포인터인 `format`의 사용을 끝내주는 역할을 합니다.
+#### `int putchar(int character)`
+ `putchar`는 하나의 문자를 콘솔에 출력하는 C언어의 표준 라이브러리 함수입니다. 인자로 출력할 문자의 
