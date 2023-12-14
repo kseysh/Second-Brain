@@ -164,6 +164,22 @@ compile-time interpositioning을 위해서는 `myprintf.c` 파일의 relocatable
 -DCOMPILETIME 옵션은 COMPILETIME  매크로를 정의하고 이로 인해서 `#ifdef COMPILETIME` 과 `#endif` 안의 코드를 활성화 할 수 있도록 합니다. 따라서 이 코드는 컴파일 시간에만 포함되는 코드가 됩니다.
 ### `gcc -I. -o hw2C main.c myprintf.o`
 위 명령어를 통해 `main.c`와 `myprintf.o`파일을 함께 컴파일하여 `hw2C` 실행파일을 만들게 됩니다.
--ㅑ
-## Link-Time Interpositioning
+`-I.`옵션은 include 파일의 검색 경로를 지정하는 옵션으로 `.`으로 작성하여 현재 디렉토리를 나타내어 현재 디렉토리를 include 파일의 검색 경로로 지정할 수 있도록 하였습니다.
+-o 옵션은 컴파일된 실행파일의 이름을 지정하는 옵션으로 이 과제에서는 hw2C라는 실행파일의 이름으로 지정하였습니다.
 
+여기서 `myprintf.c`를 따로 컴파일 한 이유는 `myprintf.c`파일을 `-DCOMPILETIME` 옵션으로 컴파일하여 compile-time interpositioning을 할 수 있도록 한 것입니다. 이렇게 하면 `main.c` 파일를 컴파일 할 때 `printf`함수를 `myprintf` 함수로 변경하여 `main.c`파일에서 사용하게 됩니다. 
+## 수행 결과
+![[Pasted image 20231214155653.png]]
+## Link-Time Interpositioning
+Link-
+### `gcc -DLINKTIME -c myprintf.c`
+
+### `gcc -c main.c`
+
+### `gcc -Wl,--wrap,printf -o hw2L main.o myprintf.o`
+
+
+
+
+## 수행 결과
+![[Pasted image 20231214155718.png]]
