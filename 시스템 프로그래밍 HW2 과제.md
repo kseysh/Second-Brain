@@ -77,4 +77,12 @@ int myprintf(const char* format, ...) {
 `va_list`와 `va_start`를 통해 가변인자의 포인터를 설정하고 이를 고정 인자인 `format`의 다음 번지로 설정해줍니다.
 이후에 원래 `printf()`함수와 구분할 수 있도록 직접 정의한 `print_str()`함수를 통해 출력 값 앞에 "\[Interpositioning] " 이 올 수 있도록 합니다. `print_str()` 함수에 관해서는 뒤에서 설명하도록 하겠습니다.
 
-while문에서는 `myprintf()`함수에서 매개변수로 ㅂ 작업을 실행합니다. 따라서 format이 null이 아닐 때(더 이상 출력할 값이 없을 때) 까지 while문을 실행할 수 있도록 while(\*format)으로 설정해줍니다.  또한 %가 나온 후에 뒤에 d,c,s,x가 나온다면 
+while문에서는 `myprintf()`함수에서 매개변수로 받은 값들을 출력하는 작업을 실행합니다. 따라서 format이 null이 아닐 때(더 이상 출력할 값이 없을 때) 까지 while문을 실행할 수 있도록 while(\*format)으로 설정해줍니다.  
+또한 %가 나온 후에 뒤에 d,c,s,x가 나온다면 format을 인식하고 각각에 대해 parameter를 적절한 형태로 출력해야하므로 if문을 사용하여 format이 %이고, 그 % 뒤에 값이 d, c, s, x 라면 각각의 format에 맞게 이를 출력하고 d,c,s,x가 아니라면 putchar를 통해 값을 출력할 수 있는 함수를 실행하도록 하였습니다.
+
+%d, %c, %s, %x를 출력할 때는 가변인자에서 값을 가져와서 가변인자에 있는 값을 출력해야 합니다. 따라서 `va_arg`를 이용하여 가변 인자 목록에서 다음 가변 인자의 값을 가져와 각각의 format에 맞게 작성해놓은 `print_int()`, `print_str()`, `print_hex`또는 `putchar`를 실행하여 가변 인자의 값을 출력할 수 있도록 하였습니다. 
+만약 읽어오는 값이 %로 시작되지 않는다면 `putchar`를 통해 값을 한 문자씩 출력하며, 출력 이후에는  `format++`를 이용하여 포인터 주소를 8byte씩 증가시켜 다음 char 포인터의 값을 읽어올 수 있도록 하였습니다. 
+while문을 이용하여 모든 format 포인터를 다 읽어들이게 되면 va_end를 이용해 가변 인자 포인터인 `format`의 사용을 끝내줄 수 있도록 하였습니다.
+
+#### `print_int()`
+`my``%d`
