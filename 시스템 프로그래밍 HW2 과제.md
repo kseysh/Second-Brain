@@ -180,11 +180,14 @@ main.c도 linking-time-interpositioning을 진행하기 위해 relocatable objec
 ### `gcc -Wl,--wrap,printf -o hw2L main.o myprintf.o`
 두 개의 relocatable object file의 링킹을 진행해줍니다. 이 때 `-Wl,--wrap,printf` 옵션을 통해 링커에게 `printf` 함수를 감싸는 방식으로 동작하도록 지시합니다. 이를 통해 `__wrap_printf`함수가 `printf`를 감싸서 호출되게 합니다. 
 
-이해를 위해 link time interpositioning에서의 printf함수 정의 부분을 보면, 아래와 같이 
-![[Pasted image 20231214160722.png]]
+이해를 위해 link time interpositioning에서의 printf함수 정의 부분을 보면, 아래와 같이 `__real_printf(const char* format, ...)`과
+`__wrap_printf(const char* format, ...)`를 정의하였는데, `__real_printf(const char* format, ...)`함수는 원래 `printf` 함수의 기능을 대신 수행하는 함수이며, `__wrap_printf(const char* format, ...)`는 감싸진 형태로 동작하는 함수로 실제 동작을 변경하거나 보완합니다.
+```c
+int __real_printf(const char* format, ...);
 
-
-
-
+int __wrap_printf(const char* format, ...) {
+    ... 재정의한 printf 함수 구현 부분 ...
+}
+```
 ## 수행 결과
 ![[Pasted image 20231214155718.png]]
