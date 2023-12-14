@@ -171,12 +171,17 @@ compile-time interpositioning을 위해서는 `myprintf.c` 파일의 relocatable
 ## 수행 결과
 ![[Pasted image 20231214155653.png]]
 ## Link-Time Interpositioning
-Link-
+Link-Time Interpositioning은 소스코드를 relocatable object file로 만들고, 이를 linking하여 Executable object file로 만들 때 Interpositioning을 진행하여 함수 호출을 변경하거나 추가하여 프로그램의 동작을 수정하는 기술입니다.
 ### `gcc -DLINKTIME -c myprintf.c`
-
+compile-time-interpositioning과 비슷하게 `myprintf.c`파일을 relocatable object 파일로 만들어줍니다. 
+`-DLINKTIME`옵션을 통해 LINKTIME 매크로를 정의하고 이로 인해 `#ifdef LINKTIME` 과  `#endif` 안의 코드를 활성화 할 수 있도록 합니다. 따라서 이 코드는 linking 시간에만 포함되는 코드가 됩니다.  
 ### `gcc -c main.c`
-
+main.c도 linking-time-interpositioning을 진행하기 위해 relocatable object 파일로 변경해줍니다.
 ### `gcc -Wl,--wrap,printf -o hw2L main.o myprintf.o`
+두 개의 relocatable object file의 링킹을 진행해줍니다. 이 때 `-Wl,--wrap,printf` 옵션을 통해 링커에게 `printf` 함수를 감싸는 방식으로 동작하도록 지시합니다. 이를 통해 `__wrap_printf`함수가 `printf`를 감싸서 호출되게 합니다. 
+
+이해를 위해 link time interpositioning에서의 printf함수 정의 부분을 보면, 아래와 같이 
+![[Pasted image 20231214160722.png]]
 
 
 

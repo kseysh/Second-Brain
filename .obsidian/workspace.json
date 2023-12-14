@@ -4,23 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "41a0215e341a7517",
+        "id": "ba175c86339462bc",
         "type": "tabs",
         "children": [
           {
-            "id": "5533a88da42a1078",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "SecondBrain/전공 공부/지난 학기/DataStructure/AVL Trees.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "6cd58277040c7cc8",
+            "id": "90f73db2c2a5785d",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -31,8 +19,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -187,8 +174,14 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "6cd58277040c7cc8",
+  "active": "90f73db2c2a5785d",
   "lastOpenFiles": [
+    "SecondBrain/Attached files/Pasted image 20231214160722.png",
+    "SecondBrain/Attached files/Pasted image 20231214160658.png",
+    "SecondBrain/전공 공부/지난 학기/DataStructure/AVL Trees.md",
+    "시스템 프로그래밍 HW2 과제.md",
+    "SecondBrain/전공 공부/지난 학기/시스템 프로그래밍/17. Linking.md",
+    "SecondBrain/전공 공부/지난 학기/시스템 프로그래밍/11. Calling Conventions- Passing Control.md",
     "SecondBrain/Attached files/Pasted image 20231214155718.png",
     "SecondBrain/Attached files/Pasted image 20231214155653.png",
     "SecondBrain/Attached files/Pasted image 20231214153451.png",
@@ -198,14 +191,10 @@
     "SecondBrain/Attached files/Pasted image 20231214141025.png",
     "SecondBrain/Attached files/Pasted image 20231214141012.png",
     "SecondBrain/Attached files/Pasted image 20231214141000.png",
-    "SecondBrain/Attached files/Pasted image 20231214140947.png",
-    "SecondBrain/전공 공부/지난 학기/DataStructure/AVL Trees.md",
-    "시스템 프로그래밍 HW2 과제.md",
     "SecondBrain/Git/GIT 스터디/squash and merge.md",
     "SecondBrain/Git/GIT 스터디/rebase and merge.md",
     "SecondBrain/Git/GIT 스터디/cherry-pick.md",
     "SecondBrain/Git/GIT 스터디/rebase.md",
-    "SecondBrain/Attached files/Pasted image 20231210155045.png",
     "SecondBrain/Git/GIT 스터디/squash merge.md",
     "SecondBrain/전공 공부/지난 학기/이산구조/이산수학 기호.md",
     "SecondBrain/전공 공부/지난 학기/자바기반응용프로그래밍/2주차.md",
@@ -223,8 +212,6 @@
     "SecondBrain/전공 공부/지난 학기/오픈소스응용프로그래밍/2-7. 생성 패턴.md",
     "SecondBrain/전공 공부/지난 학기/오픈소스응용프로그래밍/2-7. 행위 패턴.md",
     "SecondBrain/전공 공부/지난 학기/오픈소스응용프로그래밍/2-6. 디자인패턴 종류.md",
-    "SecondBrain/전공 공부/지난 학기/오픈소스응용프로그래밍/2-5. 디자인 패턴 개요.md",
-    "SecondBrain/전공 공부/지난 학기/오픈소스응용프로그래밍/2-5. 객체지향개발 특성.md",
     "Spaces/Home",
     "Spaces",
     "SecondBrain/전공 공부/지난 학기/전자상거래",
