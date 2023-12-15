@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SecondBrain/Git/커밋 메시지 작성 방법.md",
+                "file": "SecondBrain/전공 공부/지난 학기/DataStructure/AVL Trees.md",
                 "mode": "source",
                 "source": false
               }
@@ -107,7 +107,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SecondBrain/Git/커밋 메시지 작성 방법.md",
+                "file": "SecondBrain/전공 공부/지난 학기/DataStructure/AVL Trees.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -124,7 +124,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SecondBrain/Git/커밋 메시지 작성 방법.md",
+                "file": "SecondBrain/전공 공부/지난 학기/DataStructure/AVL Trees.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -147,7 +147,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SecondBrain/Git/커밋 메시지 작성 방법.md"
+                "file": "SecondBrain/전공 공부/지난 학기/DataStructure/AVL Trees.md"
               }
             }
           },
@@ -189,6 +189,7 @@
   },
   "active": "90f73db2c2a5785d",
   "lastOpenFiles": [
+    "SecondBrain/Git/커밋 메시지 작성 방법.md",
     "SecondBrain/전공 공부/지난 학기/오픈소스응용프로그래밍/2-7. 생성 패턴.md",
     "SecondBrain/Develop/디자인 패턴/생성 패턴/팩토리 메서드.md",
     "SecondBrain/전공 공부/지난 학기/오픈소스응용프로그래밍/2-6. 디자인패턴 종류.md",
@@ -224,7 +225,6 @@
     "SecondBrain/Git/GIT 스터디/squash merge.md",
     "SecondBrain/전공 공부/지난 학기/이산구조/이산수학 기호.md",
     "SecondBrain/전공 공부/지난 학기/자바기반응용프로그래밍/2주차.md",
-    "SecondBrain/전공 공부/지난 학기/전자상거래/전상 공부.md",
     "Spaces/Home",
     "Spaces",
     "SecondBrain/전공 공부/지난 학기/전자상거래",
