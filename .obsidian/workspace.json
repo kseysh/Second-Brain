@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SecondBrain/전공 공부/지난 학기/DataStructure/AVL Trees.md",
+                "file": "SecondBrain/Git/커밋 메시지 작성 방법.md",
                 "mode": "source",
                 "source": false
               }
@@ -60,7 +60,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "팩토",
+                "query": "커밋메",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -90,8 +90,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "6a641e930567f8cc",
@@ -107,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SecondBrain/전공 공부/지난 학기/DataStructure/AVL Trees.md",
+                "file": "SecondBrain/Git/커밋 메시지 작성 방법.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -124,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SecondBrain/전공 공부/지난 학기/DataStructure/AVL Trees.md",
+                "file": "SecondBrain/Git/커밋 메시지 작성 방법.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -147,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SecondBrain/전공 공부/지난 학기/DataStructure/AVL Trees.md"
+                "file": "SecondBrain/Git/커밋 메시지 작성 방법.md"
               }
             }
           },
@@ -189,6 +188,7 @@
   },
   "active": "90f73db2c2a5785d",
   "lastOpenFiles": [
+    "SecondBrain/전공 공부/지난 학기/DataStructure/AVL Trees.md",
     "SecondBrain/Git/커밋 메시지 작성 방법.md",
     "SecondBrain/전공 공부/지난 학기/오픈소스응용프로그래밍/2-7. 생성 패턴.md",
     "SecondBrain/Develop/디자인 패턴/생성 패턴/팩토리 메서드.md",
@@ -207,7 +207,6 @@
     "시스템 프로그래밍 HW2 과제.md",
     "SecondBrain/Attached files/Pasted image 20231214160722.png",
     "SecondBrain/Attached files/Pasted image 20231214160658.png",
-    "SecondBrain/전공 공부/지난 학기/DataStructure/AVL Trees.md",
     "SecondBrain/전공 공부/지난 학기/시스템 프로그래밍/17. Linking.md",
     "SecondBrain/전공 공부/지난 학기/시스템 프로그래밍/11. Calling Conventions- Passing Control.md",
     "SecondBrain/Attached files/Pasted image 20231214155718.png",
