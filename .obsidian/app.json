@@ -3,7 +3,7 @@
   "promptDelete": false,
   "attachmentFolderPath": "SecondBrain/Attached files",
   "pdfExportSettings": {
-    "pageSize": "Letter",
+    "pageSize": "A3",
     "landscape": false,
     "margin": "0",
     "downscalePercent": 100
