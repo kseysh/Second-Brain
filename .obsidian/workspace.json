@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SecondBrain/DB/SQL/SQL 문법/LIKE.md",
+                "file": "자바기반응용프로그래밍 기말대체과제.md",
                 "mode": "source",
                 "source": false
               }
@@ -89,7 +89,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "6a641e930567f8cc",
@@ -105,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SecondBrain/DB/SQL/SQL 문법/LIKE.md",
+                "file": "자바기반응용프로그래밍 기말대체과제.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SecondBrain/DB/SQL/SQL 문법/LIKE.md",
+                "file": "자바기반응용프로그래밍 기말대체과제.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -145,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SecondBrain/DB/SQL/SQL 문법/LIKE.md"
+                "file": "자바기반응용프로그래밍 기말대체과제.md"
               }
             }
           },
@@ -187,6 +188,7 @@
   },
   "active": "90f73db2c2a5785d",
   "lastOpenFiles": [
+    "SecondBrain/DB/SQL/SQL 문법/LIKE.md",
     "SecondBrain/Develop/디자인 패턴/도메인 모델 패턴.md",
     "SecondBrain/Develop/디자인 패턴/도메인형 패키지 구조.md",
     "SecondBrain/Develop/디자인 패턴/트랜잭션 스크립트 패턴.md",
@@ -209,7 +211,6 @@
     "SecondBrain/전공 공부/지난 학기/오픈소스응용프로그래밍/2-7. 생성 패턴.md",
     "SecondBrain/Develop/디자인 패턴/생성 패턴/팩토리 메서드.md",
     "SecondBrain/전공 공부/지난 학기/오픈소스응용프로그래밍/2-6. 디자인패턴 종류.md",
-    "SecondBrain/DB/SQL/SQL 문법/LIKE.md",
     "SecondBrain/DB/SQL/SQL 문법/날짜 관련 함수.md",
     "SecondBrain/DB/SQL/SQL 문법/CASE WHEN.md",
     "SecondBrain/DB/SQL/SQL 문법/CONCAT.md",
@@ -220,7 +221,7 @@
     "SecondBrain/DB/SQL/SQL 문법/HAVING.md",
     "SecondBrain/DB/SQL/SQL 문법/JOIN.md",
     "SecondBrain/DB/SQL/SQL 문법/MAX, MIN.md",
-    "시스템 프로그래밍 HW2 과제.md",
+    "자바기반응용프로그래밍 기말대체과제.md",
     "SecondBrain/전공 공부/지난 학기/시스템 프로그래밍/17. Linking.md",
     "SecondBrain/전공 공부/지난 학기/시스템 프로그래밍/11. Calling Conventions- Passing Control.md",
     "Spaces/Home",
