@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SecondBrain/Develop/디자인 패턴/도메인 모델 패턴.md",
+                "file": "SecondBrain/DB/SQL/SQL 문법/LIKE.md",
                 "mode": "source",
                 "source": false
               }
@@ -105,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SecondBrain/Develop/디자인 패턴/도메인 모델 패턴.md",
+                "file": "SecondBrain/DB/SQL/SQL 문법/LIKE.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SecondBrain/Develop/디자인 패턴/도메인 모델 패턴.md",
+                "file": "SecondBrain/DB/SQL/SQL 문법/LIKE.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -145,7 +145,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SecondBrain/Develop/디자인 패턴/도메인 모델 패턴.md"
+                "file": "SecondBrain/DB/SQL/SQL 문법/LIKE.md"
               }
             }
           },
@@ -187,11 +187,11 @@
   },
   "active": "90f73db2c2a5785d",
   "lastOpenFiles": [
+    "SecondBrain/Develop/디자인 패턴/도메인 모델 패턴.md",
     "SecondBrain/Develop/디자인 패턴/도메인형 패키지 구조.md",
     "SecondBrain/Develop/디자인 패턴/트랜잭션 스크립트 패턴.md",
     "SecondBrain/Develop/디자인 패턴/디자인 패턴.md",
     "SecondBrain/Develop/디자인 패턴/계층형 패키지 구조.md",
-    "SecondBrain/Develop/디자인 패턴/도메인 모델 패턴.md",
     "SecondBrain/자바 스윙.md",
     "SecondBrain/Attached files/Pasted image 20231219192344.png",
     "SecondBrain/Attached files/Pasted image 20231219151413.png",
