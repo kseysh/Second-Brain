@@ -20,6 +20,18 @@
             }
           },
           {
+            "id": "78e8ae056ab30614",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "8차 세미나.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "2ca1dfcd506f0536",
             "type": "leaf",
             "state": {
@@ -31,7 +43,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -89,8 +102,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "6a641e930567f8cc",
@@ -106,7 +118,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "자바기반응용프로그래밍 기말대체과제.md",
+                "file": "8차 세미나.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +135,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "자바기반응용프로그래밍 기말대체과제.md",
+                "file": "8차 세미나.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +158,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "자바기반응용프로그래밍 기말대체과제.md"
+                "file": "8차 세미나.md"
               }
             }
           },
@@ -186,8 +198,10 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "90f73db2c2a5785d",
+  "active": "78e8ae056ab30614",
   "lastOpenFiles": [
+    "자바기반응용프로그래밍 기말대체과제.md",
+    "8차 세미나.md",
     "SecondBrain/Attached files/Pasted image 20231222035235.png",
     "SecondBrain/Attached files/Pasted image 20231222035202.png",
     "SecondBrain/Attached files/Pasted image 20231222034841.png",
@@ -198,7 +212,6 @@
     "SecondBrain/Attached files/Pasted image 20231222033621.png",
     "SecondBrain/Attached files/Pasted image 20231222033322.png",
     "SecondBrain/Attached files/Pasted image 20231222033036.png",
-    "SecondBrain/Attached files/Pasted image 20231222032955.png",
     "SecondBrain/DB/SQL/SQL 문법/LIKE.md",
     "SecondBrain/Develop/디자인 패턴/도메인 모델 패턴.md",
     "SecondBrain/Develop/디자인 패턴/도메인형 패키지 구조.md",
@@ -222,7 +235,6 @@
     "SecondBrain/DB/SQL/SQL 문법/HAVING.md",
     "SecondBrain/DB/SQL/SQL 문법/JOIN.md",
     "SecondBrain/DB/SQL/SQL 문법/MAX, MIN.md",
-    "자바기반응용프로그래밍 기말대체과제.md",
     "SecondBrain/전공 공부/지난 학기/시스템 프로그래밍/17. Linking.md",
     "Spaces/Home",
     "Spaces",
