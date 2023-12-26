@@ -21,8 +21,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "클라와 논의해야할 내용.md",
-                "mode": "source",
+                "file": "SecondBrain/DB/DB 정규화.md",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -57,7 +57,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "커밋메",
+                "query": "정규화",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -83,7 +83,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -104,7 +104,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "클라와 논의해야할 내용.md",
+                "file": "SecondBrain/DB/DB 정규화.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -121,7 +121,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "클라와 논의해야할 내용.md",
+                "file": "SecondBrain/DB/DB 정규화.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -144,7 +144,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "클라와 논의해야할 내용.md"
+                "file": "SecondBrain/DB/DB 정규화.md"
               }
             }
           },
@@ -186,8 +186,8 @@
   },
   "active": "823af0330ccb48f5",
   "lastOpenFiles": [
-    "SecondBrain/Attached files/Pasted image 20231226162842.png",
     "클라와 논의해야할 내용.md",
+    "SecondBrain/Attached files/Pasted image 20231226162842.png",
     "SecondBrain/Develop/디자인 패턴/생성 패턴/팩토리 메서드.md",
     "자바기반응용프로그래밍 기말대체과제.md",
     "8차 세미나.md",
@@ -200,7 +200,6 @@
     "SecondBrain/Attached files/Pasted image 20231222033745.png",
     "SecondBrain/Attached files/Pasted image 20231222033621.png",
     "SecondBrain/Attached files/Pasted image 20231222033322.png",
-    "SecondBrain/Attached files/Pasted image 20231222033036.png",
     "SecondBrain/DB/SQL/SQL 문법/LIKE.md",
     "SecondBrain/Develop/디자인 패턴/도메인 모델 패턴.md",
     "SecondBrain/Develop/디자인 패턴/도메인형 패키지 구조.md",
