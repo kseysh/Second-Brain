@@ -8,30 +8,27 @@
         "type": "tabs",
         "children": [
           {
-            "id": "90f73db2c2a5785d",
+            "id": "62cdfe39aeaba351",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "자바기반응용프로그래밍 기말대체과제.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           },
           {
-            "id": "2ca1dfcd506f0536",
+            "id": "823af0330ccb48f5",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SecondBrain/Develop/디자인 패턴/생성 패턴/팩토리 메서드.md",
+                "file": "클라와 논의해야할 내용.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -90,7 +87,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "6a641e930567f8cc",
@@ -106,7 +104,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "자바기반응용프로그래밍 기말대체과제.md",
+                "file": "클라와 논의해야할 내용.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +121,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "자바기반응용프로그래밍 기말대체과제.md",
+                "file": "클라와 논의해야할 내용.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +144,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "자바기반응용프로그래밍 기말대체과제.md"
+                "file": "클라와 논의해야할 내용.md"
               }
             }
           },
@@ -186,10 +184,12 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "90f73db2c2a5785d",
+  "active": "823af0330ccb48f5",
   "lastOpenFiles": [
-    "8차 세미나.md",
+    "클라와 논의해야할 내용.md",
+    "SecondBrain/Develop/디자인 패턴/생성 패턴/팩토리 메서드.md",
     "자바기반응용프로그래밍 기말대체과제.md",
+    "8차 세미나.md",
     "SecondBrain/Attached files/Pasted image 20231222035235.png",
     "SecondBrain/Attached files/Pasted image 20231222035202.png",
     "SecondBrain/Attached files/Pasted image 20231222034841.png",
@@ -211,7 +211,6 @@
     "SecondBrain/Git/커밋 메시지 작성 방법.md",
     "SecondBrain/전공 공부/지난 학기/DataStructure/AVL Trees.md",
     "SecondBrain/전공 공부/지난 학기/오픈소스응용프로그래밍/2-7. 생성 패턴.md",
-    "SecondBrain/Develop/디자인 패턴/생성 패턴/팩토리 메서드.md",
     "SecondBrain/전공 공부/지난 학기/오픈소스응용프로그래밍/2-6. 디자인패턴 종류.md",
     "SecondBrain/DB/SQL/SQL 문법/날짜 관련 함수.md",
     "SecondBrain/DB/SQL/SQL 문법/CASE WHEN.md",
@@ -223,7 +222,6 @@
     "SecondBrain/DB/SQL/SQL 문법/HAVING.md",
     "SecondBrain/DB/SQL/SQL 문법/JOIN.md",
     "SecondBrain/DB/SQL/SQL 문법/MAX, MIN.md",
-    "SecondBrain/전공 공부/지난 학기/시스템 프로그래밍/17. Linking.md",
     "Spaces/Home",
     "Spaces",
     "SecondBrain/전공 공부/지난 학기/전자상거래",
