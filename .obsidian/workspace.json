@@ -38,9 +38,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "eb0308e34cccb297",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "HMH Readme.md.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -94,8 +106,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -115,7 +126,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SecondBrain/Spring/JPA/@ElementCollection.md",
+                "file": "HMH Readme.md.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -132,7 +143,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SecondBrain/Spring/JPA/@ElementCollection.md",
+                "file": "HMH Readme.md.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -155,7 +166,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SecondBrain/Spring/JPA/@ElementCollection.md"
+                "file": "HMH Readme.md.md"
               }
             }
           },
@@ -197,8 +208,10 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "1ee03ee4cefb3dd0",
+  "active": "eb0308e34cccb297",
   "lastOpenFiles": [
+    "SecondBrain/Spring/JPA/@ElementCollection.md",
+    "HMH Readme.md.md",
     "클라와 논의해야할 내용.md",
     "SecondBrain/Attached files/Pasted image 20231226162842.png",
     "SecondBrain/Develop/디자인 패턴/생성 패턴/팩토리 메서드.md",
@@ -233,7 +246,6 @@
     "SecondBrain/DB/SQL/SQL 문법/DISTINCT.md",
     "SecondBrain/DB/SQL/SQL 문법/GROUP BY.md",
     "SecondBrain/DB/SQL/SQL 문법/HAVING.md",
-    "SecondBrain/DB/SQL/SQL 문법/JOIN.md",
     "Spaces/Home",
     "Spaces",
     "SecondBrain/전공 공부/지난 학기/전자상거래",
