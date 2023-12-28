@@ -8,7 +8,6 @@
 ### INSERT 
 ![[Pasted image 20231005212324.png]]
 트랜잭션을 커밋할  때까지 INSERT SQL을 모아서 커밋하는 순간 데이터베이스에 INSERT SQL을 모아서 보내준다.
-
 ### UPDATE
 ![[Pasted image 20231005212554.png]]
 다음에 다시 보기!

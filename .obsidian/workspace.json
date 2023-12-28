@@ -45,7 +45,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SecondBrain/Spring/JPA/기본 키 매핑.md",
+                "file": "SecondBrain/Spring/JPA/Controller에서는 엔티티 자체보다 엔티티의 식별자를 전달하자.md",
                 "mode": "source",
                 "source": false
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SecondBrain/Spring/JPA/기본 키 매핑.md",
+                "file": "SecondBrain/Spring/JPA/Controller에서는 엔티티 자체보다 엔티티의 식별자를 전달하자.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -143,7 +143,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SecondBrain/Spring/JPA/기본 키 매핑.md",
+                "file": "SecondBrain/Spring/JPA/Controller에서는 엔티티 자체보다 엔티티의 식별자를 전달하자.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -166,7 +166,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SecondBrain/Spring/JPA/기본 키 매핑.md"
+                "file": "SecondBrain/Spring/JPA/Controller에서는 엔티티 자체보다 엔티티의 식별자를 전달하자.md"
               }
             }
           },
@@ -210,6 +210,14 @@
   },
   "active": "eb0308e34cccb297",
   "lastOpenFiles": [
+    "SecondBrain/Spring/JPA/DDL.md",
+    "SecondBrain/Spring/JPA/JPA.md",
+    "SecondBrain/Spring/JPA/JPA Query Method.md",
+    "SecondBrain/Spring/JPA/JPA의 성능 최적화 기능.md",
+    "SecondBrain/Spring/JPA/JPQL.md",
+    "SecondBrain/Spring/JPA/ORM.md",
+    "SecondBrain/Spring/JPA/persistence.xml.md",
+    "SecondBrain/Spring/JPA/기본 키 매핑.md",
     "SecondBrain/Spring/JPA/@ElementCollection.md",
     "HMH Readme.md.md",
     "클라와 논의해야할 내용.md",
@@ -238,14 +246,6 @@
     "SecondBrain/전공 공부/지난 학기/DataStructure/AVL Trees.md",
     "SecondBrain/전공 공부/지난 학기/오픈소스응용프로그래밍/2-7. 생성 패턴.md",
     "SecondBrain/전공 공부/지난 학기/오픈소스응용프로그래밍/2-6. 디자인패턴 종류.md",
-    "SecondBrain/DB/SQL/SQL 문법/날짜 관련 함수.md",
-    "SecondBrain/DB/SQL/SQL 문법/CASE WHEN.md",
-    "SecondBrain/DB/SQL/SQL 문법/CONCAT.md",
-    "SecondBrain/DB/SQL/SQL 문법/COUNT.md",
-    "SecondBrain/DB/SQL/SQL 문법/DATEDIFF.md",
-    "SecondBrain/DB/SQL/SQL 문법/DISTINCT.md",
-    "SecondBrain/DB/SQL/SQL 문법/GROUP BY.md",
-    "SecondBrain/DB/SQL/SQL 문법/HAVING.md",
     "Spaces/Home",
     "Spaces",
     "SecondBrain/전공 공부/지난 학기/전자상거래",
