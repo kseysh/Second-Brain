@@ -45,7 +45,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SecondBrain/Spring/JPA/영속성 컨텍스트.md",
+                "file": "SecondBrain/Spring/JPA/데이터 중심 설계의 문제점.md",
                 "mode": "source",
                 "source": false
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SecondBrain/Spring/JPA/영속성 컨텍스트.md",
+                "file": "SecondBrain/Spring/JPA/데이터 중심 설계의 문제점.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -143,7 +143,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SecondBrain/Spring/JPA/영속성 컨텍스트.md",
+                "file": "SecondBrain/Spring/JPA/데이터 중심 설계의 문제점.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -166,7 +166,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SecondBrain/Spring/JPA/영속성 컨텍스트.md"
+                "file": "SecondBrain/Spring/JPA/데이터 중심 설계의 문제점.md"
               }
             }
           },
@@ -210,6 +210,16 @@
   },
   "active": "eb0308e34cccb297",
   "lastOpenFiles": [
+    "SecondBrain/Spring/JPA/데이터베이스 방언.md",
+    "SecondBrain/Spring/JPA/데이터베이스 스키마 자동 생성.md",
+    "SecondBrain/Spring/JPA/변경 감지와 병합.md",
+    "SecondBrain/Spring/JPA/상속관계 매핑.md",
+    "SecondBrain/Spring/JPA/양방향 연관관계.md",
+    "SecondBrain/Spring/JPA/엔티티.md",
+    "SecondBrain/Spring/JPA/엔티티 매핑.md",
+    "SecondBrain/Spring/JPA/엔티티 부모자식관계 매핑하기.md",
+    "SecondBrain/Spring/JPA/연관관계의 주인.md",
+    "SecondBrain/Spring/JPA/영속성 컨텍스트.md",
     "SecondBrain/Spring/JPA/트랜잭션.md",
     "SecondBrain/Spring/JPA/플러시.md",
     "SecondBrain/Spring/JPA/필드와 컬럼 매핑.md",
@@ -226,13 +236,7 @@
     "SecondBrain/Spring/JPA/ORM.md",
     "SecondBrain/Spring/JPA/persistence.xml.md",
     "SecondBrain/Spring/JPA/기본 키 매핑.md",
-    "SecondBrain/Spring/JPA/@ElementCollection.md",
-    "HMH Readme.md.md",
-    "클라와 논의해야할 내용.md",
     "SecondBrain/Attached files/Pasted image 20231226162842.png",
-    "SecondBrain/Develop/디자인 패턴/생성 패턴/팩토리 메서드.md",
-    "자바기반응용프로그래밍 기말대체과제.md",
-    "8차 세미나.md",
     "SecondBrain/Attached files/Pasted image 20231222035235.png",
     "SecondBrain/Attached files/Pasted image 20231222035202.png",
     "SecondBrain/Attached files/Pasted image 20231222034841.png",
@@ -242,10 +246,6 @@
     "SecondBrain/Attached files/Pasted image 20231222033745.png",
     "SecondBrain/Attached files/Pasted image 20231222033621.png",
     "SecondBrain/Attached files/Pasted image 20231222033322.png",
-    "SecondBrain/DB/SQL/SQL 문법/LIKE.md",
-    "SecondBrain/Develop/디자인 패턴/도메인 모델 패턴.md",
-    "SecondBrain/Develop/디자인 패턴/도메인형 패키지 구조.md",
-    "SecondBrain/Develop/디자인 패턴/트랜잭션 스크립트 패턴.md",
     "Spaces/Home",
     "Spaces",
     "SecondBrain/전공 공부/지난 학기/전자상거래",
