@@ -45,7 +45,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SecondBrain/Spring/JPA/데이터 중심 설계의 문제점.md",
+                "file": "SecondBrain/Spring/JPA/기본 키 매핑.md",
                 "mode": "source",
                 "source": false
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SecondBrain/Spring/JPA/데이터 중심 설계의 문제점.md",
+                "file": "SecondBrain/Spring/JPA/기본 키 매핑.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -143,7 +143,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SecondBrain/Spring/JPA/데이터 중심 설계의 문제점.md",
+                "file": "SecondBrain/Spring/JPA/기본 키 매핑.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -166,7 +166,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SecondBrain/Spring/JPA/데이터 중심 설계의 문제점.md"
+                "file": "SecondBrain/Spring/JPA/기본 키 매핑.md"
               }
             }
           },
@@ -210,6 +210,9 @@
   },
   "active": "eb0308e34cccb297",
   "lastOpenFiles": [
+    "SecondBrain/Spring/JPA/다양한 연관관계 매핑.md",
+    "SecondBrain/Spring/JPA/데이터 중심 설계의 문제점.md",
+    "SecondBrain/Spring/JPA/단방향 연관관계.md",
     "SecondBrain/Spring/JPA/데이터베이스 방언.md",
     "SecondBrain/Spring/JPA/데이터베이스 스키마 자동 생성.md",
     "SecondBrain/Spring/JPA/변경 감지와 병합.md",
@@ -233,9 +236,6 @@
     "SecondBrain/Spring/JPA/JPA Query Method.md",
     "SecondBrain/Spring/JPA/JPA의 성능 최적화 기능.md",
     "SecondBrain/Spring/JPA/JPQL.md",
-    "SecondBrain/Spring/JPA/ORM.md",
-    "SecondBrain/Spring/JPA/persistence.xml.md",
-    "SecondBrain/Spring/JPA/기본 키 매핑.md",
     "SecondBrain/Attached files/Pasted image 20231226162842.png",
     "SecondBrain/Attached files/Pasted image 20231222035235.png",
     "SecondBrain/Attached files/Pasted image 20231222035202.png",
