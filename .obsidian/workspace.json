@@ -45,7 +45,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "HMH Readme.md.md",
+                "file": "SecondBrain/Spring/JPA/기본 키 매핑.md",
                 "mode": "source",
                 "source": false
               }
@@ -110,8 +110,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "6a641e930567f8cc",
@@ -127,7 +126,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "HMH Readme.md.md",
+                "file": "SecondBrain/Spring/JPA/기본 키 매핑.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -144,7 +143,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "HMH Readme.md.md",
+                "file": "SecondBrain/Spring/JPA/기본 키 매핑.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -167,7 +166,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "HMH Readme.md.md"
+                "file": "SecondBrain/Spring/JPA/기본 키 매핑.md"
               }
             }
           },
