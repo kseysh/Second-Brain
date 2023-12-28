@@ -78,6 +78,9 @@
 
 <br/>
 
+## 🤝 회의록
+[🧑‍🤝‍🧑회의록](https://www.notion.so/msmmx/b56b03b36f1e40f3a8d81542544d8cff?pvs=4)
+
 ## ✅ Convention
 
 ---
@@ -92,26 +95,18 @@
 ## 💾 ERD
 
 ---
-> 자세한 테이블 정보는 다음 노션 페이지에 정리해둘 예정입니다! (Comming Soon...)
-- [📝 Database](https://www.notion.so/DB-Schema-Description-d0c91546b233435e908a1a2ab315295b?pvs=4)
-
-<img width="884" alt="erd" src="https://github.com/SOPT-33-iOS-Team-1/SOPKATHON_33-Server/assets/69035864/a06f2a66-7e87-4321-b31b-ff450de1553b">
-
+추후 작성
 <br>
-
 ## 🖇 Api 명세서
 
-[🍀 API 명세서](https://www.notion.so/342f6504080f4113afb4a89af506c2d7?v=a36becbc1f0f4239a802053bf782195c&pvs=4)
-
+추후 작성
+스웨거 링크
 <br>
-
 ## ⚙️ Architecture
 
 ---
-<img width="884" alt="architecture_image" src="https://github.com/SOPT-33-iOS-Team-1/SOPKATHON_33-Server/assets/69035864/9572b43a-18e2-4578-b496-2fd54f1dc476">
-
+추후 작성
 <br>
-
 ## 🗂️ Project Foldering
 
 ```
@@ -158,9 +153,5 @@
 ```
 
 <br>
-
-## ♻️ 실행 방법
-clone 받아서 application run하고 localhost:8080으로 api 명세서대로 api를 호출한다.
-
 
 
