@@ -26,9 +26,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "1ee03ee4cefb3dd0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "SecondBrain/Spring/JPA/@ElementCollection.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -104,7 +116,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SecondBrain/DB/DB 정규화.md",
+                "file": "SecondBrain/Spring/JPA/@ElementCollection.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -121,7 +133,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SecondBrain/DB/DB 정규화.md",
+                "file": "SecondBrain/Spring/JPA/@ElementCollection.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -144,7 +156,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SecondBrain/DB/DB 정규화.md"
+                "file": "SecondBrain/Spring/JPA/@ElementCollection.md"
               }
             }
           },
@@ -154,7 +166,9 @@
             "state": {
               "type": "all-properties",
               "state": {
-                "sortOrder": "frequency"
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
               }
             }
           },
@@ -184,7 +198,7 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "823af0330ccb48f5",
+  "active": "1ee03ee4cefb3dd0",
   "lastOpenFiles": [
     "클라와 논의해야할 내용.md",
     "SecondBrain/Attached files/Pasted image 20231226162842.png",
