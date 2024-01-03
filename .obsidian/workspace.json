@@ -45,7 +45,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "해놔야 하는 것.md",
+                "file": "SecondBrain/Spring/어노테이션/@GeneratedValue.md",
                 "mode": "source",
                 "source": false
               }
@@ -81,7 +81,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "정규화",
+                "query": "mysql",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -106,7 +106,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -126,7 +127,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "해놔야 하는 것.md",
+                "file": "SecondBrain/Spring/어노테이션/@GeneratedValue.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -143,7 +144,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "해놔야 하는 것.md",
+                "file": "SecondBrain/Spring/어노테이션/@GeneratedValue.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -166,7 +167,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "해놔야 하는 것.md"
+                "file": "SecondBrain/Spring/어노테이션/@GeneratedValue.md"
               }
             }
           },
@@ -210,6 +211,7 @@
   },
   "active": "eb0308e34cccb297",
   "lastOpenFiles": [
+    "해놔야 하는 것.md",
     "SecondBrain/Attached files/Pasted image 20231231002639.png",
     "SecondBrain/Attached files/Pasted image 20231230201316.png",
     "SecondBrain/Spring/JPA/기본 키 매핑.md",
@@ -245,7 +247,6 @@
     "SecondBrain/Attached files/Pasted image 20231222034144.png",
     "SecondBrain/Attached files/Pasted image 20231222033815.png",
     "SecondBrain/Attached files/Pasted image 20231222033745.png",
-    "SecondBrain/Attached files/Pasted image 20231222033621.png",
     "Spaces/Home",
     "Spaces",
     "SecondBrain/전공 공부/지난 학기/전자상거래",
