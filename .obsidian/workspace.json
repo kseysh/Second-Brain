@@ -45,7 +45,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SecondBrain/Develop/디자인 패턴/도메인형 패키지 구조.md",
+                "file": "SecondBrain/Spring/어노테이션/@Column.md",
                 "mode": "source",
                 "source": false
               }
@@ -81,7 +81,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "도메인",
+                "query": "Column",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -127,7 +127,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SecondBrain/Develop/디자인 패턴/도메인형 패키지 구조.md",
+                "file": "SecondBrain/Spring/어노테이션/@Column.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -144,7 +144,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SecondBrain/Develop/디자인 패턴/도메인형 패키지 구조.md",
+                "file": "SecondBrain/Spring/어노테이션/@Column.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -167,7 +167,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SecondBrain/Develop/디자인 패턴/도메인형 패키지 구조.md"
+                "file": "SecondBrain/Spring/어노테이션/@Column.md"
               }
             }
           },
@@ -209,8 +209,10 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "eb0308e34cccb297",
+  "active": "ac3733a44f42b7b2",
   "lastOpenFiles": [
+    "SecondBrain/Spring/어노테이션/@Embedded @Embeddable.md",
+    "SecondBrain/Develop/디자인 패턴/도메인형 패키지 구조.md",
     "SecondBrain/Spring/어노테이션/@GeneratedValue.md",
     "해놔야 하는 것.md",
     "SecondBrain/Attached files/Pasted image 20231231002639.png",
@@ -237,8 +239,6 @@
     "SecondBrain/Spring/JPA/BaseEntity.md",
     "SecondBrain/Spring/JPA/Cascade.ALL을 사용하는 경우.md",
     "SecondBrain/Spring/JPA/Controller에서는 엔티티 자체보다 엔티티의 식별자를 전달하자.md",
-    "SecondBrain/Spring/JPA/DDL.md",
-    "SecondBrain/Spring/JPA/JPA.md",
     "SecondBrain/Attached files/Pasted image 20231226162842.png",
     "SecondBrain/Attached files/Pasted image 20231222035235.png",
     "SecondBrain/Attached files/Pasted image 20231222035202.png",
