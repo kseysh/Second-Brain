@@ -81,7 +81,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "Column",
+                "query": "config",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
