@@ -109,6 +109,7 @@ public class SampleService {
 }
 
 @Component
+@RequiredArgsConstructor
 public class SampleController {
 
 	private final SampleService sampleService = new SampleService(new SampleDAO());
@@ -116,6 +117,8 @@ public class SampleController {
 	...
 }
 ```
+	controller에서는 생성자 의존성 주입을 위해서 private final 선언과 @RequiredArgsConstructor를 사용해야한다.
+
 ### 장점
 필수적으로 사용해야하는 의존성 없이는 Instance를 만들지 못하도록 강제할 수 있다
 
