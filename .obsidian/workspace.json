@@ -45,7 +45,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SecondBrain/Spring/DI.md",
+                "file": "SecondBrain/Develop/디자인 패턴/도메인형 패키지 구조.md",
                 "mode": "source",
                 "source": false
               }
@@ -81,7 +81,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "의존성",
+                "query": "infra",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -127,7 +127,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SecondBrain/Spring/DI.md",
+                "file": "SecondBrain/Develop/디자인 패턴/도메인형 패키지 구조.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -144,7 +144,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SecondBrain/Spring/DI.md",
+                "file": "SecondBrain/Develop/디자인 패턴/도메인형 패키지 구조.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -167,7 +167,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SecondBrain/Spring/DI.md"
+                "file": "SecondBrain/Develop/디자인 패턴/도메인형 패키지 구조.md"
               }
             }
           },
@@ -211,6 +211,9 @@
   },
   "active": "eb0308e34cccb297",
   "lastOpenFiles": [
+    "SecondBrain/Spring/auth/소셜로그인 플로우 잘 설명되어있는 블로그.md",
+    "SecondBrain/Spring/DI.md",
+    "SecondBrain/Spring/auth",
     "SecondBrain/Develop/개발 원칙/객체 지향 프로그래밍/다형성.md",
     "SecondBrain/Spring/어노테이션/@Column.md",
     "SecondBrain/Spring/어노테이션/@Embedded @Embeddable.md",
@@ -237,8 +240,6 @@
     "SecondBrain/Spring/JPA/플러시.md",
     "SecondBrain/Spring/JPA/필드와 컬럼 매핑.md",
     "SecondBrain/Spring/JPA/ACID.md",
-    "SecondBrain/Spring/JPA/API를 만들 때 엔티티 자체를 반환하면 안되는 이유.md",
-    "SecondBrain/Spring/JPA/BaseEntity.md",
     "SecondBrain/Attached files/Pasted image 20231226162842.png",
     "SecondBrain/Attached files/Pasted image 20231222035235.png",
     "SecondBrain/Attached files/Pasted image 20231222035202.png",
