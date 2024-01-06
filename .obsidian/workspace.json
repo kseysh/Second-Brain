@@ -45,7 +45,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SecondBrain/Spring/JPA/필드와 컬럼 매핑.md",
+                "file": "SecondBrain/JAVA/Obtional 객체.md",
                 "mode": "source",
                 "source": false
               }
@@ -81,7 +81,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "Enumer",
+                "query": "optional",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -127,7 +127,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SecondBrain/Spring/JPA/필드와 컬럼 매핑.md",
+                "file": "SecondBrain/JAVA/Obtional 객체.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -144,7 +144,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SecondBrain/Spring/JPA/필드와 컬럼 매핑.md",
+                "file": "SecondBrain/JAVA/Obtional 객체.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -167,7 +167,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SecondBrain/Spring/JPA/필드와 컬럼 매핑.md"
+                "file": "SecondBrain/JAVA/Obtional 객체.md"
               }
             }
           },
@@ -211,6 +211,8 @@
   },
   "active": "eb0308e34cccb297",
   "lastOpenFiles": [
+    "SecondBrain/Develop/디자인 패턴/생성 패턴/빌더.md",
+    "SecondBrain/Spring/JPA/필드와 컬럼 매핑.md",
     "SecondBrain/Spring/JPA/다양한 연관관계 매핑.md",
     "SecondBrain/Spring/어노테이션/@Embedded.md",
     "SecondBrain/Spring/어노테이션/@Column.md",
@@ -238,8 +240,6 @@
     "SecondBrain/Spring/JPA/엔티티 부모자식관계 매핑하기.md",
     "SecondBrain/Spring/JPA/연관관계의 주인.md",
     "SecondBrain/Spring/JPA/영속성 컨텍스트.md",
-    "SecondBrain/Spring/JPA/트랜잭션.md",
-    "SecondBrain/Spring/JPA/플러시.md",
     "SecondBrain/Attached files/Pasted image 20231226162842.png",
     "SecondBrain/Attached files/Pasted image 20231222035235.png",
     "SecondBrain/Attached files/Pasted image 20231222035202.png",
