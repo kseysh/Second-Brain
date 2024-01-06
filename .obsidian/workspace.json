@@ -45,7 +45,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SecondBrain/네트워크/HTTP/Status code가 body에도 들어가는 이유.md",
+                "file": "SecondBrain/Spring/어노테이션/@Embedded.md",
                 "mode": "source",
                 "source": false
               }
@@ -81,7 +81,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "entit",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -106,7 +106,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -126,7 +127,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SecondBrain/네트워크/HTTP/Status code가 body에도 들어가는 이유.md",
+                "file": "SecondBrain/Spring/어노테이션/@Embedded.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -143,7 +144,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SecondBrain/네트워크/HTTP/Status code가 body에도 들어가는 이유.md",
+                "file": "SecondBrain/Spring/어노테이션/@Embedded.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -166,7 +167,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SecondBrain/네트워크/HTTP/Status code가 body에도 들어가는 이유.md"
+                "file": "SecondBrain/Spring/어노테이션/@Embedded.md"
               }
             }
           },
@@ -210,13 +211,13 @@
   },
   "active": "eb0308e34cccb297",
   "lastOpenFiles": [
-    "SecondBrain/Develop/디자인 패턴/도메인형 패키지 구조.md",
+    "SecondBrain/Spring/어노테이션/@Column.md",
     "SecondBrain/네트워크/HTTP/Status code가 body에도 들어가는 이유.md",
+    "SecondBrain/Develop/디자인 패턴/도메인형 패키지 구조.md",
     "SecondBrain/Spring/auth/소셜로그인 플로우 잘 설명되어있는 블로그.md",
     "SecondBrain/Spring/DI.md",
     "SecondBrain/Spring/auth",
     "SecondBrain/Develop/개발 원칙/객체 지향 프로그래밍/다형성.md",
-    "SecondBrain/Spring/어노테이션/@Column.md",
     "SecondBrain/Spring/어노테이션/@Embedded @Embeddable.md",
     "SecondBrain/Spring/어노테이션/@GeneratedValue.md",
     "해놔야 하는 것.md",
