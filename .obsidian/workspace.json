@@ -45,7 +45,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SecondBrain/Spring/JPA/다양한 연관관계 매핑.md",
+                "file": "SecondBrain/Spring/JPA/필드와 컬럼 매핑.md",
                 "mode": "source",
                 "source": false
               }
@@ -81,7 +81,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "ManyTo",
+                "query": "Enumer",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -127,7 +127,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SecondBrain/Spring/JPA/다양한 연관관계 매핑.md",
+                "file": "SecondBrain/Spring/JPA/필드와 컬럼 매핑.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -144,7 +144,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SecondBrain/Spring/JPA/다양한 연관관계 매핑.md",
+                "file": "SecondBrain/Spring/JPA/필드와 컬럼 매핑.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -167,7 +167,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SecondBrain/Spring/JPA/다양한 연관관계 매핑.md"
+                "file": "SecondBrain/Spring/JPA/필드와 컬럼 매핑.md"
               }
             }
           },
@@ -211,6 +211,7 @@
   },
   "active": "eb0308e34cccb297",
   "lastOpenFiles": [
+    "SecondBrain/Spring/JPA/다양한 연관관계 매핑.md",
     "SecondBrain/Spring/어노테이션/@Embedded.md",
     "SecondBrain/Spring/어노테이션/@Column.md",
     "SecondBrain/네트워크/HTTP/Status code가 body에도 들어가는 이유.md",
@@ -225,7 +226,6 @@
     "SecondBrain/Attached files/Pasted image 20231231002639.png",
     "SecondBrain/Attached files/Pasted image 20231230201316.png",
     "SecondBrain/Spring/JPA/기본 키 매핑.md",
-    "SecondBrain/Spring/JPA/다양한 연관관계 매핑.md",
     "SecondBrain/Spring/JPA/데이터 중심 설계의 문제점.md",
     "SecondBrain/Spring/JPA/단방향 연관관계.md",
     "SecondBrain/Spring/JPA/데이터베이스 방언.md",
