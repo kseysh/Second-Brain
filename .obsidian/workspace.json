@@ -45,7 +45,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SecondBrain/Spring/JPA/다양한 연관관계 매핑.md",
+                "file": "SecondBrain/Spring/Spring 네이밍 컨벤션.md",
                 "mode": "source",
                 "source": false
               }
@@ -81,8 +81,8 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "일대다",
-                "matchingCase": false,
+                "query": "네이밍",
+                "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
                 "extraContext": false,
@@ -128,7 +128,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SecondBrain/Spring/JPA/다양한 연관관계 매핑.md",
+                "file": "SecondBrain/Spring/Spring 네이밍 컨벤션.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -145,7 +145,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SecondBrain/Spring/JPA/다양한 연관관계 매핑.md",
+                "file": "SecondBrain/Spring/Spring 네이밍 컨벤션.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -168,7 +168,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SecondBrain/Spring/JPA/다양한 연관관계 매핑.md"
+                "file": "SecondBrain/Spring/Spring 네이밍 컨벤션.md"
               }
             }
           },
@@ -212,11 +212,11 @@
   },
   "active": "eb0308e34cccb297",
   "lastOpenFiles": [
+    "SecondBrain/Spring/JPA/다양한 연관관계 매핑.md",
     "SecondBrain/Spring/JPA/연관관계의 주인.md",
     "SecondBrain/JAVA/Obtional 객체.md",
     "SecondBrain/Develop/디자인 패턴/생성 패턴/빌더.md",
     "SecondBrain/Spring/JPA/필드와 컬럼 매핑.md",
-    "SecondBrain/Spring/JPA/다양한 연관관계 매핑.md",
     "SecondBrain/Spring/어노테이션/@Embedded.md",
     "SecondBrain/Spring/어노테이션/@Column.md",
     "SecondBrain/네트워크/HTTP/Status code가 body에도 들어가는 이유.md",
