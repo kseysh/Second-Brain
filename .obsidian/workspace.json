@@ -45,7 +45,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SecondBrain/Spring/Spring 네이밍 컨벤션.md",
+                "file": "SecondBrain/Spring/JPA/다양한 연관관계 매핑.md",
                 "mode": "source",
                 "source": false
               }
@@ -81,7 +81,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "네이밍",
+                "query": "mapped",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -111,8 +111,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "6a641e930567f8cc",
@@ -128,7 +127,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SecondBrain/Spring/Spring 네이밍 컨벤션.md",
+                "file": "SecondBrain/Spring/JPA/다양한 연관관계 매핑.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -145,7 +144,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SecondBrain/Spring/Spring 네이밍 컨벤션.md",
+                "file": "SecondBrain/Spring/JPA/다양한 연관관계 매핑.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -168,7 +167,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SecondBrain/Spring/Spring 네이밍 컨벤션.md"
+                "file": "SecondBrain/Spring/JPA/다양한 연관관계 매핑.md"
               }
             }
           },
@@ -212,6 +211,8 @@
   },
   "active": "eb0308e34cccb297",
   "lastOpenFiles": [
+    "SecondBrain/Spring/어노테이션/@mappedBy.md",
+    "SecondBrain/Spring/Spring 네이밍 컨벤션.md",
     "SecondBrain/Spring/JPA/다양한 연관관계 매핑.md",
     "SecondBrain/Spring/JPA/연관관계의 주인.md",
     "SecondBrain/JAVA/Obtional 객체.md",
@@ -239,8 +240,6 @@
     "SecondBrain/Spring/JPA/상속관계 매핑.md",
     "SecondBrain/Spring/JPA/양방향 연관관계.md",
     "SecondBrain/Spring/JPA/엔티티.md",
-    "SecondBrain/Spring/JPA/엔티티 매핑.md",
-    "SecondBrain/Spring/JPA/엔티티 부모자식관계 매핑하기.md",
     "SecondBrain/Attached files/Pasted image 20231226162842.png",
     "SecondBrain/Attached files/Pasted image 20231222035235.png",
     "SecondBrain/Attached files/Pasted image 20231222035202.png",
