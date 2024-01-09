@@ -45,7 +45,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "HMH Readme.md.md",
+                "file": "SecondBrain/Develop/좋은 함수 만들기.md",
                 "mode": "source",
                 "source": false
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "HMH Readme.md.md",
+                "file": "SecondBrain/Develop/좋은 함수 만들기.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -143,7 +143,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "HMH Readme.md.md",
+                "file": "SecondBrain/Develop/좋은 함수 만들기.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -166,7 +166,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "HMH Readme.md.md"
+                "file": "SecondBrain/Develop/좋은 함수 만들기.md"
               }
             }
           },
@@ -210,6 +210,9 @@
   },
   "active": "eb0308e34cccb297",
   "lastOpenFiles": [
+    "HMH Readme.md.md",
+    "SecondBrain/Develop/좋은 함수 만들기.md",
+    "SecondBrain/Develop/무제 폴더",
     "SecondBrain/Attached files/Pasted image 20240109172655.png",
     "SecondBrain/Attached files/Pasted image 20240109172619.png",
     "README.md",
@@ -239,14 +242,12 @@
     "해놔야 하는 것.md",
     "SecondBrain/Attached files/Pasted image 20231231002639.png",
     "SecondBrain/Attached files/Pasted image 20231230201316.png",
-    "SecondBrain/Spring/JPA/기본 키 매핑.md",
     "SecondBrain/Attached files/Pasted image 20231226162842.png",
     "SecondBrain/Attached files/Pasted image 20231222035235.png",
     "SecondBrain/Attached files/Pasted image 20231222035202.png",
     "SecondBrain/Attached files/Pasted image 20231222034841.png",
     "SecondBrain/Attached files/Pasted image 20231222034513.png",
     "SecondBrain/Attached files/Pasted image 20231222034144.png",
-    "SecondBrain/Attached files/Pasted image 20231222033815.png",
     "Spaces/Home",
     "Spaces",
     "SecondBrain/전공 공부/지난 학기/전자상거래",
