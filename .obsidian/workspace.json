@@ -45,7 +45,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SecondBrain/Spring/JPA/다양한 연관관계 매핑.md",
+                "file": "SecondBrain/Spring/JPA/@ElementCollection.md",
                 "mode": "source",
                 "source": false
               }
@@ -81,7 +81,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "cas",
+                "query": "casca",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -127,7 +127,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SecondBrain/Spring/JPA/다양한 연관관계 매핑.md",
+                "file": "SecondBrain/Spring/JPA/@ElementCollection.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -144,7 +144,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SecondBrain/Spring/JPA/다양한 연관관계 매핑.md",
+                "file": "SecondBrain/Spring/JPA/@ElementCollection.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -167,7 +167,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SecondBrain/Spring/JPA/다양한 연관관계 매핑.md"
+                "file": "SecondBrain/Spring/JPA/@ElementCollection.md"
               }
             }
           },
@@ -211,13 +211,13 @@
   },
   "active": "ac3733a44f42b7b2",
   "lastOpenFiles": [
+    "SecondBrain/Spring/JPA/다양한 연관관계 매핑.md",
     "SecondBrain/Spring/spring에서 Test코드 작성시의 주의사항.md",
     "SecondBrain/Python/Django/배포/Docker를 이용해 Django 배포하기.md",
     "SecondBrain/Spring/스프링 웹 애플리케이션 계층 구조.md",
     "SecondBrain/전공 공부/지난 학기/오픈소스응용프로그래밍/중간고사/도커 아키텍처와 이미지 명령어.md",
     "SecondBrain/Develop/디자인 패턴/도메인형 패키지 구조.md",
     "SecondBrain/Spring/어노테이션/@Autowired.md",
-    "SecondBrain/Spring/JPA/다양한 연관관계 매핑.md",
     "SecondBrain/Spring/어노테이션/@mappedBy.md",
     "SecondBrain/Spring/Spring 네이밍 컨벤션.md",
     "SecondBrain/Spring/JPA/연관관계의 주인.md",
