@@ -45,7 +45,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SecondBrain/Develop/좋은 함수 만들기.md",
+                "file": "SecondBrain/Develop/final을 사용해야 하는 이유.md",
                 "mode": "source",
                 "source": false
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SecondBrain/Develop/좋은 함수 만들기.md",
+                "file": "SecondBrain/Develop/final을 사용해야 하는 이유.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -143,7 +143,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SecondBrain/Develop/좋은 함수 만들기.md",
+                "file": "SecondBrain/Develop/final을 사용해야 하는 이유.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -166,7 +166,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SecondBrain/Develop/좋은 함수 만들기.md"
+                "file": "SecondBrain/Develop/final을 사용해야 하는 이유.md"
               }
             }
           },
@@ -210,8 +210,9 @@
   },
   "active": "eb0308e34cccb297",
   "lastOpenFiles": [
-    "HMH Readme.md.md",
     "SecondBrain/Develop/좋은 함수 만들기.md",
+    "SecondBrain/Develop/final을 사용해야 하는 이유.md",
+    "HMH Readme.md.md",
     "SecondBrain/Develop/무제 폴더",
     "SecondBrain/Attached files/Pasted image 20240109172655.png",
     "SecondBrain/Attached files/Pasted image 20240109172619.png",
@@ -239,7 +240,6 @@
     "SecondBrain/Develop/개발 원칙/객체 지향 프로그래밍/다형성.md",
     "SecondBrain/Spring/어노테이션/@Embedded @Embeddable.md",
     "SecondBrain/Spring/어노테이션/@GeneratedValue.md",
-    "해놔야 하는 것.md",
     "SecondBrain/Attached files/Pasted image 20231231002639.png",
     "SecondBrain/Attached files/Pasted image 20231230201316.png",
     "SecondBrain/Attached files/Pasted image 20231226162842.png",
