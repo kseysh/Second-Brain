@@ -50,9 +50,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "efec0ce3d28b18ce",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "무제 파일.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -106,8 +118,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -127,7 +138,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SecondBrain/Spring/JPA/필드와 컬럼 매핑.md",
+                "file": "무제 파일.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -144,7 +155,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SecondBrain/Spring/JPA/필드와 컬럼 매핑.md",
+                "file": "무제 파일.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -167,7 +178,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SecondBrain/Spring/JPA/필드와 컬럼 매핑.md"
+                "file": "무제 파일.md"
               }
             }
           },
@@ -209,8 +220,10 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "eb0308e34cccb297",
+  "active": "efec0ce3d28b18ce",
   "lastOpenFiles": [
+    "SecondBrain/Spring/JPA/필드와 컬럼 매핑.md",
+    "무제 파일.md",
     "SecondBrain/Spring/Batch에 대해서.md",
     "SecondBrain/Spring/JPA/다양한 연관관계 매핑.md",
     "SecondBrain/Develop/final을 사용해야 하는 이유.md",
@@ -232,7 +245,6 @@
     "SecondBrain/Spring/JPA/연관관계의 주인.md",
     "SecondBrain/JAVA/Obtional 객체.md",
     "SecondBrain/Develop/디자인 패턴/생성 패턴/빌더.md",
-    "SecondBrain/Spring/JPA/필드와 컬럼 매핑.md",
     "SecondBrain/Spring/어노테이션/@Embedded.md",
     "SecondBrain/Spring/어노테이션/@Column.md",
     "SecondBrain/네트워크/HTTP/Status code가 body에도 들어가는 이유.md",
@@ -240,7 +252,6 @@
     "SecondBrain/Spring/DI.md",
     "SecondBrain/Spring/auth",
     "SecondBrain/Develop/개발 원칙/객체 지향 프로그래밍/다형성.md",
-    "SecondBrain/Spring/어노테이션/@Embedded @Embeddable.md",
     "SecondBrain/Attached files/Pasted image 20231231002639.png",
     "SecondBrain/Attached files/Pasted image 20231230201316.png",
     "SecondBrain/Attached files/Pasted image 20231226162842.png",
