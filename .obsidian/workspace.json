@@ -45,7 +45,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SecondBrain/Spring/Batch에 대해서.md",
+                "file": "SecondBrain/Spring/JPA/필드와 컬럼 매핑.md",
                 "mode": "source",
                 "source": false
               }
@@ -81,7 +81,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "status",
+                "query": "enum",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -106,7 +106,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -126,7 +127,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SecondBrain/Spring/Batch에 대해서.md",
+                "file": "SecondBrain/Spring/JPA/필드와 컬럼 매핑.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -143,7 +144,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SecondBrain/Spring/Batch에 대해서.md",
+                "file": "SecondBrain/Spring/JPA/필드와 컬럼 매핑.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -166,7 +167,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SecondBrain/Spring/Batch에 대해서.md"
+                "file": "SecondBrain/Spring/JPA/필드와 컬럼 매핑.md"
               }
             }
           },
@@ -210,8 +211,8 @@
   },
   "active": "eb0308e34cccb297",
   "lastOpenFiles": [
-    "SecondBrain/Spring/JPA/다양한 연관관계 매핑.md",
     "SecondBrain/Spring/Batch에 대해서.md",
+    "SecondBrain/Spring/JPA/다양한 연관관계 매핑.md",
     "SecondBrain/Develop/final을 사용해야 하는 이유.md",
     "SecondBrain/Develop/좋은 함수 만들기.md",
     "HMH Readme.md.md",
