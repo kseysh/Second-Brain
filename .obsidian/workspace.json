@@ -45,7 +45,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SecondBrain/Spring/JPA/다양한 연관관계 매핑.md",
+                "file": "SecondBrain/Spring/Batch에 대해서.md",
                 "mode": "source",
                 "source": false
               }
@@ -106,8 +106,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -127,7 +126,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SecondBrain/Spring/JPA/다양한 연관관계 매핑.md",
+                "file": "SecondBrain/Spring/Batch에 대해서.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -144,7 +143,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SecondBrain/Spring/JPA/다양한 연관관계 매핑.md",
+                "file": "SecondBrain/Spring/Batch에 대해서.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -167,7 +166,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SecondBrain/Spring/JPA/다양한 연관관계 매핑.md"
+                "file": "SecondBrain/Spring/Batch에 대해서.md"
               }
             }
           },
@@ -209,8 +208,10 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "ac3733a44f42b7b2",
+  "active": "eb0308e34cccb297",
   "lastOpenFiles": [
+    "SecondBrain/Spring/JPA/다양한 연관관계 매핑.md",
+    "SecondBrain/Spring/Batch에 대해서.md",
     "SecondBrain/Develop/final을 사용해야 하는 이유.md",
     "SecondBrain/Develop/좋은 함수 만들기.md",
     "HMH Readme.md.md",
@@ -219,7 +220,6 @@
     "SecondBrain/Attached files/Pasted image 20240109172619.png",
     "README.md",
     "SecondBrain/Spring/JPA/@ElementCollection.md",
-    "SecondBrain/Spring/JPA/다양한 연관관계 매핑.md",
     "SecondBrain/Spring/spring에서 Test코드 작성시의 주의사항.md",
     "SecondBrain/Python/Django/배포/Docker를 이용해 Django 배포하기.md",
     "SecondBrain/Spring/스프링 웹 애플리케이션 계층 구조.md",
@@ -240,7 +240,6 @@
     "SecondBrain/Spring/auth",
     "SecondBrain/Develop/개발 원칙/객체 지향 프로그래밍/다형성.md",
     "SecondBrain/Spring/어노테이션/@Embedded @Embeddable.md",
-    "SecondBrain/Spring/어노테이션/@GeneratedValue.md",
     "SecondBrain/Attached files/Pasted image 20231231002639.png",
     "SecondBrain/Attached files/Pasted image 20231230201316.png",
     "SecondBrain/Attached files/Pasted image 20231226162842.png",
