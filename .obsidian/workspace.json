@@ -81,7 +81,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "JoinC",
+                "query": "status",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
