@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SecondBrain/Spring/Spring 네이밍 컨벤션.md",
+                "file": "SecondBrain/Spring/JPA/Cascade.ALL을 사용하는 경우.md",
                 "mode": "source",
                 "source": false
               }
@@ -61,7 +61,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "casc",
+                "query": "cascade",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -107,7 +107,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SecondBrain/Develop/개발 원칙/객체 지향 프로그래밍/객체 지향 프로그래밍.md",
+                "file": "SecondBrain/Spring/JPA/Cascade.ALL을 사용하는 경우.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -124,7 +124,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SecondBrain/Develop/개발 원칙/객체 지향 프로그래밍/객체 지향 프로그래밍.md",
+                "file": "SecondBrain/Spring/JPA/Cascade.ALL을 사용하는 경우.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -147,7 +147,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SecondBrain/Develop/개발 원칙/객체 지향 프로그래밍/객체 지향 프로그래밍.md"
+                "file": "SecondBrain/Spring/JPA/Cascade.ALL을 사용하는 경우.md"
               }
             }
           },
@@ -189,13 +189,14 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "ac3733a44f42b7b2",
+  "active": "fdd9548e35779e31",
   "lastOpenFiles": [
+    "SecondBrain/Spring/JPA/@ElementCollection.md",
+    "SecondBrain/Develop/개발 원칙/객체 지향 프로그래밍/객체 지향 프로그래밍.md",
     "SecondBrain/DB/SQL/SQL 문법/날짜 관련 함수.md",
     "SecondBrain/jpa 활용 1-1.md",
     "SecondBrain/Spring/JPA/다양한 연관관계 매핑.md",
     "SecondBrain/Develop/개발 원칙/객체 지향 프로그래밍/추상화.md",
-    "SecondBrain/Develop/개발 원칙/객체 지향 프로그래밍/객체 지향 프로그래밍.md",
     "SecondBrain/전공 공부/지난 학기/오픈소스응용프로그래밍/2-5. 객체지향개발 특성.md",
     "SecondBrain/네트워크/HTTP/HTTP 응답 코드.md",
     "SecondBrain/네트워크/HTTP/HTTP message의 구조.md",
@@ -206,7 +207,6 @@
     "SecondBrain/Develop/개발 원칙/객체 지향 프로그래밍/의존성 역전의 원칙.md",
     "SecondBrain/Spring/싱글톤.md",
     "SecondBrain/DB/DB 정규화.md",
-    "SecondBrain/Spring/JPA/@ElementCollection.md",
     "SecondBrain/Spring/JPA/필드와 컬럼 매핑.md",
     "무제 파일.md",
     "SecondBrain/Attached files/Pasted image 20240112215127.png",

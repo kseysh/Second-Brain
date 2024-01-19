@@ -16,7 +16,7 @@ public Long order(Long memberId, Long itemId, int count) {
     return order.getId();  
 }
 ```
-- 위 예시에서 order를 order만 저장해도 되는 이유는 orderItems의 cascade = Cascasde.ALL 옵션덕분에 하나만 저장해도 전부 영향이 가는 것이다
+- 위 예시에서 order를 order만 저장해도 되는 이유는 orderItems의 cascade = Cascade.ALL 옵션덕분에 하나만 저장해도 전부 영향이 가는 것이다
 - order만 persist해도 orderItem이 전부 persist가 된다.  
 
 ## Cascade.ALL을 사용해도 괜찮은 수준
