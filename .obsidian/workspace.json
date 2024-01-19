@@ -61,7 +61,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "select",
+                "query": "casc",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -86,12 +86,12 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 339.5,
-    "collapsed": true
+    "width": 339.5
   },
   "right": {
     "id": "6a641e930567f8cc",
@@ -107,7 +107,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SecondBrain/Spring/Spring 네이밍 컨벤션.md",
+                "file": "SecondBrain/Develop/개발 원칙/객체 지향 프로그래밍/객체 지향 프로그래밍.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -124,7 +124,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SecondBrain/Spring/Spring 네이밍 컨벤션.md",
+                "file": "SecondBrain/Develop/개발 원칙/객체 지향 프로그래밍/객체 지향 프로그래밍.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -147,7 +147,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SecondBrain/Spring/Spring 네이밍 컨벤션.md"
+                "file": "SecondBrain/Develop/개발 원칙/객체 지향 프로그래밍/객체 지향 프로그래밍.md"
               }
             }
           },
@@ -189,7 +189,7 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "fea5684534da7755",
+  "active": "ac3733a44f42b7b2",
   "lastOpenFiles": [
     "SecondBrain/DB/SQL/SQL 문법/날짜 관련 함수.md",
     "SecondBrain/jpa 활용 1-1.md",
