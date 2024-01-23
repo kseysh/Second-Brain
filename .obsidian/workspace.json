@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SecondBrain/멋쟁이 사자처럼 세미나 자료/주차별 예상 세션.md",
+                "file": "SecondBrain/멋쟁이 사자처럼 세미나 자료/2주차.md",
                 "mode": "source",
                 "source": false
               }
@@ -106,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SecondBrain/멋쟁이 사자처럼 세미나 자료/주차별 예상 세션.md",
+                "file": "SecondBrain/멋쟁이 사자처럼 세미나 자료/2주차.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SecondBrain/멋쟁이 사자처럼 세미나 자료/주차별 예상 세션.md",
+                "file": "SecondBrain/멋쟁이 사자처럼 세미나 자료/2주차.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SecondBrain/멋쟁이 사자처럼 세미나 자료/주차별 예상 세션.md"
+                "file": "SecondBrain/멋쟁이 사자처럼 세미나 자료/2주차.md"
               }
             }
           },
@@ -190,8 +190,16 @@
   },
   "active": "fdd9548e35779e31",
   "lastOpenFiles": [
-    "SecondBrain/Spring/JPA/Cascade.ALL을 사용하는 경우.md",
+    "SecondBrain/멋쟁이 사자처럼 세미나 자료/1주차.md",
     "SecondBrain/멋쟁이 사자처럼 세미나 자료/주차별 예상 세션.md",
+    "SecondBrain/멋쟁이 사자처럼 세미나 자료/2주차.md",
+    "SecondBrain/멋쟁이 사자처럼 세미나 자료/8주차.md",
+    "SecondBrain/멋쟁이 사자처럼 세미나 자료/7주차.md",
+    "SecondBrain/멋쟁이 사자처럼 세미나 자료/6주차.md",
+    "SecondBrain/멋쟁이 사자처럼 세미나 자료/5주차.md",
+    "SecondBrain/멋쟁이 사자처럼 세미나 자료/4주차.md",
+    "SecondBrain/멋쟁이 사자처럼 세미나 자료/3주차.md",
+    "SecondBrain/Spring/JPA/Cascade.ALL을 사용하는 경우.md",
     "SecondBrain/멋쟁이 사자처럼 세미나 자료",
     "SecondBrain/Spring/JPA/@ElementCollection.md",
     "SecondBrain/Develop/개발 원칙/객체 지향 프로그래밍/객체 지향 프로그래밍.md",
@@ -209,19 +217,11 @@
     "SecondBrain/Develop/개발 원칙/객체 지향 프로그래밍/의존성 역전의 원칙.md",
     "SecondBrain/Spring/싱글톤.md",
     "SecondBrain/DB/DB 정규화.md",
-    "SecondBrain/Spring/JPA/필드와 컬럼 매핑.md",
-    "무제 파일.md",
     "SecondBrain/Attached files/Pasted image 20240112215127.png",
     "SecondBrain/Attached files/Pasted image 20240112215106.png",
-    "SecondBrain/Spring/Batch에 대해서.md",
-    "SecondBrain/Develop/final을 사용해야 하는 이유.md",
-    "SecondBrain/Develop/좋은 함수 만들기.md",
-    "HMH Readme.md.md",
     "SecondBrain/Develop/무제 폴더",
     "SecondBrain/Attached files/Pasted image 20240109172655.png",
     "SecondBrain/Attached files/Pasted image 20240109172619.png",
-    "README.md",
-    "SecondBrain/Spring/spring에서 Test코드 작성시의 주의사항.md",
     "SecondBrain/Spring/auth",
     "SecondBrain/Attached files/Pasted image 20231231002639.png",
     "SecondBrain/Attached files/Pasted image 20231230201316.png",
