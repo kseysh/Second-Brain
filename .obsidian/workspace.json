@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SecondBrain/멋쟁이 사자처럼 세미나 자료/주차별 예상 세션.md",
+                "file": "SecondBrain/멋쟁이 사자처럼 세미나 자료/백엔드 세미나 회의 안건.md",
                 "mode": "source",
                 "source": false
               }
@@ -106,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SecondBrain/멋쟁이 사자처럼 세미나 자료/주차별 예상 세션.md",
+                "file": "SecondBrain/멋쟁이 사자처럼 세미나 자료/백엔드 세미나 회의 안건.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SecondBrain/멋쟁이 사자처럼 세미나 자료/주차별 예상 세션.md",
+                "file": "SecondBrain/멋쟁이 사자처럼 세미나 자료/백엔드 세미나 회의 안건.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SecondBrain/멋쟁이 사자처럼 세미나 자료/주차별 예상 세션.md"
+                "file": "SecondBrain/멋쟁이 사자처럼 세미나 자료/백엔드 세미나 회의 안건.md"
               }
             }
           },
@@ -190,11 +190,14 @@
   },
   "active": "fdd9548e35779e31",
   "lastOpenFiles": [
+    "SecondBrain/멋쟁이 사자처럼 세미나 자료/3주차.md",
+    "SecondBrain/멋쟁이 사자처럼 세미나 자료/백엔드 세미나 회의 안건.md",
+    "SecondBrain/멋쟁이 사자처럼 세미나 자료/주차별 예상 세션.md",
+    "SecondBrain/멋쟁이 사자처럼 세미나 자료/2주차.md",
     "SecondBrain/Python/리스트의 얕은 복사와 깊은 복사.md",
     "SecondBrain/Python/Django/url의 상대경로와 절대경로.md",
     "SecondBrain/Python/Django/Session.md",
     "SecondBrain/Python/Django/RESTful API.md",
-    "SecondBrain/멋쟁이 사자처럼 세미나 자료/주차별 예상 세션.md",
     "SecondBrain/Python/Django/request의 의미와 기능.md",
     "SecondBrain/Python/Django/null = True와 blank = True의 차이.md",
     "SecondBrain/Python/Django/Foreign Key와 참조와 역참조.md",
@@ -213,9 +216,6 @@
     "SecondBrain/Python/Django/AUTH/django 카카오 소셜 로그인.md",
     "SecondBrain/Python/Django/배포/WS와 WAS의 차이.md",
     "SecondBrain/Python/Django/배포/WS.md",
-    "SecondBrain/Python/Django/배포/WAS.md",
-    "SecondBrain/Python/Django/배포/Swagger 문서 작성방법.md",
-    "SecondBrain/Python/Django/배포/SSH.md",
     "SecondBrain/멋쟁이 사자처럼 세미나 자료",
     "SecondBrain/Attached files/Pasted image 20240112215127.png",
     "SecondBrain/Attached files/Pasted image 20240112215106.png",
