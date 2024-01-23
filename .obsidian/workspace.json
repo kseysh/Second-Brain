@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SecondBrain/멋쟁이 사자처럼 세미나 자료/주차별 예상 세션.md",
+                "file": "SecondBrain/멋쟁이 사자처럼 세미나 자료/5주차.md",
                 "mode": "source",
                 "source": false
               }
@@ -106,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SecondBrain/멋쟁이 사자처럼 세미나 자료/주차별 예상 세션.md",
+                "file": "SecondBrain/멋쟁이 사자처럼 세미나 자료/5주차.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SecondBrain/멋쟁이 사자처럼 세미나 자료/주차별 예상 세션.md",
+                "file": "SecondBrain/멋쟁이 사자처럼 세미나 자료/5주차.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SecondBrain/멋쟁이 사자처럼 세미나 자료/주차별 예상 세션.md"
+                "file": "SecondBrain/멋쟁이 사자처럼 세미나 자료/5주차.md"
               }
             }
           },
@@ -188,12 +188,13 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "fea5684534da7755",
+  "active": "fdd9548e35779e31",
   "lastOpenFiles": [
+    "SecondBrain/멋쟁이 사자처럼 세미나 자료/주차별 예상 세션.md",
     "SecondBrain/멋쟁이 사자처럼 세미나 자료/백엔드 세미나 회의 안건.md",
+    "SecondBrain/멋쟁이 사자처럼 세미나 자료/5주차.md",
     "SecondBrain/멋쟁이 사자처럼 세미나 자료/4주차.md",
     "SecondBrain/멋쟁이 사자처럼 세미나 자료/3주차.md",
-    "SecondBrain/멋쟁이 사자처럼 세미나 자료/주차별 예상 세션.md",
     "SecondBrain/멋쟁이 사자처럼 세미나 자료/2주차.md",
     "SecondBrain/멋쟁이 사자처럼 세미나 자료/1주차.md",
     "SecondBrain/Python/리스트의 얕은 복사와 깊은 복사.md",
@@ -215,7 +216,6 @@
     "SecondBrain/Python/Django/DRF/Authentication.md",
     "SecondBrain/Python/Django/DRF/APIView.md",
     "SecondBrain/Python/Django/AUTH/JWT를 이용한 회원가입 및 로그인.md",
-    "SecondBrain/Python/Django/AUTH/django 카카오 소셜 로그인.md",
     "SecondBrain/멋쟁이 사자처럼 세미나 자료",
     "SecondBrain/Attached files/Pasted image 20240112215127.png",
     "SecondBrain/Attached files/Pasted image 20240112215106.png",
