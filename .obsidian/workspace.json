@@ -25,8 +25,20 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SecondBrain/멋쟁이 사자처럼 세미나 자료/백엔드 세미나 회의 안건.md",
-                "mode": "preview",
+                "file": "SecondBrain/jpa 활용 1-1.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "3706eb224c23e124",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "SecondBrain/단일 테이블 전략.md",
+                "mode": "source",
                 "source": false
               }
             }
@@ -61,7 +73,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "mapped",
+                "query": "조인 전",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -86,8 +98,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -108,7 +119,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SecondBrain/멋쟁이 사자처럼 세미나 자료/백엔드 세미나 회의 안건.md",
+                "file": "SecondBrain/jpa 활용 1-1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +136,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SecondBrain/멋쟁이 사자처럼 세미나 자료/백엔드 세미나 회의 안건.md",
+                "file": "SecondBrain/jpa 활용 1-1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -148,7 +159,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SecondBrain/멋쟁이 사자처럼 세미나 자료/백엔드 세미나 회의 안건.md"
+                "file": "SecondBrain/jpa 활용 1-1.md"
               }
             }
           },
@@ -176,8 +187,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -190,8 +200,11 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "ac3733a44f42b7b2",
+  "active": "fdd9548e35779e31",
   "lastOpenFiles": [
+    "SecondBrain/단일 테이블 전략.md",
+    "SecondBrain/jpa 활용 1-1.md",
+    "SecondBrain/멋쟁이 사자처럼 세미나 자료/백엔드 세미나 회의 안건.md",
     "SecondBrain/멋쟁이 사자처럼 세미나 자료/7주차.md",
     "SecondBrain/멋쟁이 사자처럼 세미나 자료/8주차.md",
     "SecondBrain/멋쟁이 사자처럼 세미나 자료/6주차.md",
@@ -201,7 +214,6 @@
     "SecondBrain/멋쟁이 사자처럼 세미나 자료/2주차.md",
     "SecondBrain/멋쟁이 사자처럼 세미나 자료/1주차.md",
     "SecondBrain/멋쟁이 사자처럼 세미나 자료/주차별 예상 세션.md",
-    "SecondBrain/멋쟁이 사자처럼 세미나 자료/백엔드 세미나 회의 안건.md",
     "SecondBrain/Python/리스트의 얕은 복사와 깊은 복사.md",
     "SecondBrain/Python/Django/url의 상대경로와 절대경로.md",
     "SecondBrain/Python/Django/Session.md",
@@ -216,8 +228,6 @@
     "SecondBrain/Python/Django/Model/순환 참조 오류.md",
     "SecondBrain/Python/Django/Model/기초적인 models.py 작성 방법.md",
     "SecondBrain/Python/Django/DRF/ViewSet.md",
-    "SecondBrain/Python/Django/DRF/Serializer.md",
-    "SecondBrain/Python/Django/DRF/Router.md",
     "SecondBrain/멋쟁이 사자처럼 세미나 자료",
     "SecondBrain/Attached files/Pasted image 20240112215127.png",
     "SecondBrain/Attached files/Pasted image 20240112215106.png",
