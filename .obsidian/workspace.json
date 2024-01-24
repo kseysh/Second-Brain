@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SecondBrain/jpa 활용 1-1.md",
+                "file": "SecondBrain/Spring/JPA/프록시.md",
                 "mode": "source",
                 "source": false
               }
@@ -119,8 +119,8 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SecondBrain/jpa 활용 1-1.md",
-                "collapseAll": false,
+                "file": "SecondBrain/Spring/JPA/프록시.md",
+                "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
@@ -136,7 +136,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SecondBrain/jpa 활용 1-1.md",
+                "file": "SecondBrain/Spring/JPA/프록시.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -159,7 +159,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SecondBrain/jpa 활용 1-1.md"
+                "file": "SecondBrain/Spring/JPA/프록시.md"
               }
             }
           },
@@ -187,7 +187,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -202,8 +203,10 @@
   },
   "active": "fdd9548e35779e31",
   "lastOpenFiles": [
-    "SecondBrain/단일 테이블 전략.md",
+    "SecondBrain/Spring/어노테이션/@MappedSuperclass.md",
+    "SecondBrain/Spring/JPA/프록시.md",
     "SecondBrain/jpa 활용 1-1.md",
+    "SecondBrain/단일 테이블 전략.md",
     "SecondBrain/멋쟁이 사자처럼 세미나 자료/백엔드 세미나 회의 안건.md",
     "SecondBrain/멋쟁이 사자처럼 세미나 자료/7주차.md",
     "SecondBrain/멋쟁이 사자처럼 세미나 자료/8주차.md",
@@ -226,8 +229,6 @@
     "SecondBrain/Python/Django/Model/Fields option.md",
     "SecondBrain/Python/Django/Model/Fields 종류.md",
     "SecondBrain/Python/Django/Model/순환 참조 오류.md",
-    "SecondBrain/Python/Django/Model/기초적인 models.py 작성 방법.md",
-    "SecondBrain/Python/Django/DRF/ViewSet.md",
     "SecondBrain/멋쟁이 사자처럼 세미나 자료",
     "SecondBrain/Attached files/Pasted image 20240112215127.png",
     "SecondBrain/Attached files/Pasted image 20240112215106.png",
