@@ -61,7 +61,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "cascade",
+                "query": "mapped",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -86,11 +86,13 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 241.5
+    "width": 241.5,
+    "collapsed": true
   },
   "right": {
     "id": "6a641e930567f8cc",
@@ -188,7 +190,7 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "fdd9548e35779e31",
+  "active": "ac3733a44f42b7b2",
   "lastOpenFiles": [
     "SecondBrain/멋쟁이 사자처럼 세미나 자료/7주차.md",
     "SecondBrain/멋쟁이 사자처럼 세미나 자료/8주차.md",
