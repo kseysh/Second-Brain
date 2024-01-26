@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SecondBrain/Spring/JPA/JPA의 성능 최적화 기능.md",
+                "file": "SecondBrain/Spring/JPA/Cascade.ALL을 사용하는 경우.md",
                 "mode": "source",
                 "source": false
               }
@@ -73,7 +73,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "지연",
+                "query": "",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -118,7 +118,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SecondBrain/Spring/JPA/JPA의 성능 최적화 기능.md",
+                "file": "SecondBrain/Spring/JPA/Cascade.ALL을 사용하는 경우.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -135,7 +135,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SecondBrain/Spring/JPA/JPA의 성능 최적화 기능.md",
+                "file": "SecondBrain/Spring/JPA/Cascade.ALL을 사용하는 경우.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -158,7 +158,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SecondBrain/Spring/JPA/JPA의 성능 최적화 기능.md"
+                "file": "SecondBrain/Spring/JPA/Cascade.ALL을 사용하는 경우.md"
               }
             }
           },
@@ -200,10 +200,10 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "fdd9548e35779e31",
+  "active": "fea5684534da7755",
   "lastOpenFiles": [
-    "SecondBrain/단일 테이블 전략.md",
     "SecondBrain/Spring/JPA/JPA의 성능 최적화 기능.md",
+    "SecondBrain/단일 테이블 전략.md",
     "SecondBrain/Spring/JPA/지연 로딩과 즉시 로딩.md",
     "SecondBrain/Spring/JPA/지연 로딩.md",
     "SecondBrain/Attached files/Pasted image 20240124172950.png",
