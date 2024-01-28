@@ -1,4 +1,4 @@
-한 엔티티에서 같은 값 타입을 사용하면 컬럼 명이 중복되게 된다.
+ 한 엔티티에서 같은 값 타입을 사용하면 컬럼 명이 중복되게 된다.
 따라서 `@AttributeOverrides`,`@AttributeOverride`를 이용해서 컬럼 명의 속성을 재정의 하는 것이 좋다. 
 
 ex)
@@ -6,9 +6,13 @@ ex)
 @Embedded
 private Address homeAddress
 
-
+@Embedded
+@AttributeOverrides(
+{
+	@AttributeOverride(name="city",
+				column=@Column(name="WORK_CITY")),
+	@AttributeOverride(name="zipcode",
+				column=@Column(name="WORK_ZIPCODE")),
+})
 private Address workAddress
-
-
-
 ```
