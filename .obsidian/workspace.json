@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SecondBrain/Spring/JPA/동등성.md",
+                "file": "SecondBrain/Spring/JPA/@ElementCollection.md",
                 "mode": "source",
                 "source": false
               }
@@ -73,7 +73,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "Embe",
+                "query": "값 타입 컬",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -98,11 +98,13 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 241.5
+    "width": 241.5,
+    "collapsed": true
   },
   "right": {
     "id": "6a641e930567f8cc",
@@ -118,7 +120,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SecondBrain/Spring/JPA/동등성.md",
+                "file": "SecondBrain/Spring/JPA/@ElementCollection.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -135,7 +137,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SecondBrain/Spring/JPA/동등성.md",
+                "file": "SecondBrain/Spring/JPA/@ElementCollection.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -158,7 +160,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SecondBrain/Spring/JPA/동등성.md"
+                "file": "SecondBrain/Spring/JPA/@ElementCollection.md"
               }
             }
           },
@@ -202,8 +204,8 @@
   },
   "active": "fdd9548e35779e31",
   "lastOpenFiles": [
-    "SecondBrain/Spring/JPA/동일성.md",
     "SecondBrain/Spring/JPA/동등성.md",
+    "SecondBrain/Spring/JPA/동일성.md",
     "SecondBrain/Spring/JPA/불변 객체.md",
     "SecondBrain/Attached files/Pasted image 20240129214240.png",
     "SecondBrain/Spring/JPA/@AttributeOverride.md",
