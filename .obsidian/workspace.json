@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SecondBrain/Spring/JPA/페이징 API.md",
+                "file": "SecondBrain/Spring/JPA/JPQL 페이징 API.md",
                 "mode": "source",
                 "source": false
               }
@@ -130,7 +130,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SecondBrain/Spring/JPA/페이징 API.md",
+                "file": "SecondBrain/Spring/JPA/JPQL 페이징 API.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -147,7 +147,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SecondBrain/Spring/JPA/페이징 API.md",
+                "file": "SecondBrain/Spring/JPA/JPQL 페이징 API.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -170,7 +170,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SecondBrain/Spring/JPA/페이징 API.md"
+                "file": "SecondBrain/Spring/JPA/JPQL 페이징 API.md"
               }
             }
           },
@@ -214,9 +214,9 @@
   },
   "active": "1f2066e0e2a52a5a",
   "lastOpenFiles": [
+    "SecondBrain/Spring/JPA/JPQL 결과 조회 API.md",
+    "SecondBrain/Spring/JPA/JPQL 페이징 API.md",
     "SecondBrain/Spring/JPA/JPQL.md",
-    "SecondBrain/Spring/JPA/페이징 API.md",
-    "SecondBrain/Spring/JPA/결과 조회 API.md",
     "SecondBrain/Spring/어노테이션/@MappedSuperclass.md",
     "SecondBrain/Spring/어노테이션/@Column.md",
     "SecondBrain/Spring/어노테이션/@Table.md",

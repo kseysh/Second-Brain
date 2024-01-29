@@ -4,5 +4,8 @@ JPA는 페이징을 두 API로 추상화한다.
 
 ex)
 ```
-List<Member> result = em.createQuery()
+List<Member> result = em.createQuery("select m from Member m order by m.age desc", Member.class)
+	.setFirstResult(0)
+	.setMaxResult(10)
+	.getResultList();
 ```
