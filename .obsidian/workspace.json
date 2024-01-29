@@ -37,19 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SecondBrain/Spring/JPA/TypeQuery.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "7b46774987f5fa5d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "SecondBrain/Spring/JPA/Query.md",
+                "file": "SecondBrain/Spring/JPA/결과 조회 API.md",
                 "mode": "source",
                 "source": false
               }
@@ -68,7 +56,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -87,7 +75,7 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical"
+                "sortOrder": "byModifiedTime"
               }
             }
           },
@@ -97,7 +85,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "값 타입 컬",
+                "query": "JPQL",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -142,7 +130,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SecondBrain/Spring/JPA/Query.md",
+                "file": "SecondBrain/Spring/JPA/결과 조회 API.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -159,7 +147,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SecondBrain/Spring/JPA/Query.md",
+                "file": "SecondBrain/Spring/JPA/결과 조회 API.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -182,7 +170,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SecondBrain/Spring/JPA/Query.md"
+                "file": "SecondBrain/Spring/JPA/결과 조회 API.md"
               }
             }
           },
@@ -224,12 +212,20 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "7b46774987f5fa5d",
+  "active": "1f2066e0e2a52a5a",
   "lastOpenFiles": [
-    "SecondBrain/Spring/JPA/TypeQuery.md",
+    "SecondBrain/Spring/어노테이션/@MappedSuperclass.md",
+    "SecondBrain/Spring/어노테이션/@Column.md",
+    "SecondBrain/Spring/어노테이션/@Table.md",
+    "SecondBrain/Spring/어노테이션/@mappedBy.md",
+    "SecondBrain/Spring/auth/소셜로그인 플로우 잘 설명되어있는 블로그.md",
+    "SecondBrain/Spring/JPA/결과 조회 API.md",
     "SecondBrain/Spring/JPA/Query.md",
-    "SecondBrain/Spring/JPA/@ElementCollection.md",
     "SecondBrain/Spring/JPA/로드맵.md",
+    "SecondBrain/Spring/JPA/JPQL.md",
+    "SecondBrain/Spring/JPA/JPQL 1.md",
+    "SecondBrain/Spring/JPA/TypeQuery.md",
+    "SecondBrain/Spring/JPA/@ElementCollection.md",
     "SecondBrain/Attached files/Pasted image 20240130015548.png",
     "SecondBrain/Spring/JPA/getter 사용 지향.md",
     "SecondBrain/Spring/JPA/동등성.md",
@@ -246,14 +242,6 @@
     "HMH Readme.md.md",
     "해놔야 하는 것.md",
     "클라와 논의해야할 내용.md",
-    "자바기반응용프로그래밍 기말대체과제.md",
-    "무제 파일.md",
-    "8차 세미나.md",
-    "SecondBrain/6주차 과제.md",
-    "SecondBrain/JPA 활용 1-2.md",
-    "SecondBrain/jpa 활용 1-1.md",
-    "SecondBrain/자바 스윙.md",
-    "SecondBrain/Spring/어노테이션/@Embeddable.md",
     "SecondBrain/Attached files/Pasted image 20240124172950.png",
     "SecondBrain/Attached files/Pasted image 20240124164055.png",
     "SecondBrain/Attached files/Pasted image 20240124163911.png",
