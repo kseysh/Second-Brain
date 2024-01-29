@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SecondBrain/Spring/JPA/JPQL.md",
+                "file": "SecondBrain/Spring/JPA/페이징 API.md",
                 "mode": "source",
                 "source": false
               }
@@ -130,7 +130,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SecondBrain/Spring/JPA/JPQL.md",
+                "file": "SecondBrain/Spring/JPA/페이징 API.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -147,7 +147,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SecondBrain/Spring/JPA/JPQL.md",
+                "file": "SecondBrain/Spring/JPA/페이징 API.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -170,7 +170,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SecondBrain/Spring/JPA/JPQL.md"
+                "file": "SecondBrain/Spring/JPA/페이징 API.md"
               }
             }
           },
@@ -214,6 +214,8 @@
   },
   "active": "1f2066e0e2a52a5a",
   "lastOpenFiles": [
+    "SecondBrain/Spring/JPA/JPQL.md",
+    "SecondBrain/Spring/JPA/페이징 API.md",
     "SecondBrain/Spring/JPA/결과 조회 API.md",
     "SecondBrain/Spring/어노테이션/@MappedSuperclass.md",
     "SecondBrain/Spring/어노테이션/@Column.md",
@@ -222,7 +224,6 @@
     "SecondBrain/Spring/auth/소셜로그인 플로우 잘 설명되어있는 블로그.md",
     "SecondBrain/Spring/JPA/Query.md",
     "SecondBrain/Spring/JPA/로드맵.md",
-    "SecondBrain/Spring/JPA/JPQL.md",
     "SecondBrain/Spring/JPA/JPQL 1.md",
     "SecondBrain/Spring/JPA/TypeQuery.md",
     "SecondBrain/Spring/JPA/@ElementCollection.md",
@@ -241,7 +242,6 @@
     "README.md",
     "HMH Readme.md.md",
     "해놔야 하는 것.md",
-    "클라와 논의해야할 내용.md",
     "SecondBrain/Attached files/Pasted image 20240124172950.png",
     "SecondBrain/Attached files/Pasted image 20240124164055.png",
     "SecondBrain/Attached files/Pasted image 20240124163911.png",
