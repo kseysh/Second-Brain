@@ -47,3 +47,11 @@ SELECT 절에 조회할 대상을 지정하는 것
 `select m.address from member m` => 임베디드 타입 프로젝션
 `select m.username, m.age from member m` => 스칼라 타입 프로젝션
 
+### 프로젝션 - 여러 값 조회
+- Query 타입으로 조회
+- new 명령어로 조회
+	- 단순값을 DTO로 바로 조회
+	  ex)
+	  `select new jpabook.jpql.UserDTO(m.username, m.age) from Member m`
+	  패키지 명을 포함한 전체 클래스 명을 입력해야 한다.
+	  순서와 타입이 일치하는 생성자가 필요하다.
