@@ -23,7 +23,6 @@ JPQL의 주요 특징
 5. **쿼리 결과:** JPQL은 SELECT 쿼리를 실행하고 엔티티 객체나 스칼라 값(단일 값)을 반환할 수 있습니다. 결과는 엔티티 객체 컬렉션 또는 단일 값이 될 수 있습니다.
 > JPQL은 엔티티 객체를 대상으로 쿼리문을 실행하지만, SQL은 데이터베이스 테이블을 대상으로 쿼리문을 실행한다.
 
-
 ## JPQL 문법 특징
 엔티티와 속성은 대소문자를 구분한다.
 JPQL 키워드는 대소문자를 구분하지 않는다 (SQL문처럼)
@@ -31,3 +30,20 @@ JPQL 키워드는 대소문자를 구분하지 않는다 (SQL문처럼)
 별칭을 필수로 만들어 주어야 한다
 ex) `select m from Member m where m.age > 18`
 에서의 m을 별칭이라고 한다.
+
+## 파라미터 바인딩
+ex)
+```
+SELECT m FROM Member m where m.username=:username
+query.setParameter("username",usernameParam);
+```
+
+## 프로젝션
+SELECT 절에 조회할 대상을 지정하는 것
+프로젝션 대상: 엔티티, 임베디드 타입, 스칼라 타입(기본 데이터 타입)
+
+`select m from member m` => 엔티티 프로젝션
+`select m.team from member m` => 엔티티 프로젝션
+`select m.address from member m` => 임베디드 타입 프로젝션
+`select m.username, m.age from member m` => 스칼라 타입 프로젝션
+

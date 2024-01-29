@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SecondBrain/Spring/JPA/결과 조회 API.md",
+                "file": "SecondBrain/Spring/JPA/JPQL.md",
                 "mode": "source",
                 "source": false
               }
@@ -130,7 +130,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SecondBrain/Spring/JPA/결과 조회 API.md",
+                "file": "SecondBrain/Spring/JPA/JPQL.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -147,7 +147,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SecondBrain/Spring/JPA/결과 조회 API.md",
+                "file": "SecondBrain/Spring/JPA/JPQL.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -170,7 +170,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SecondBrain/Spring/JPA/결과 조회 API.md"
+                "file": "SecondBrain/Spring/JPA/JPQL.md"
               }
             }
           },
@@ -214,12 +214,12 @@
   },
   "active": "1f2066e0e2a52a5a",
   "lastOpenFiles": [
+    "SecondBrain/Spring/JPA/결과 조회 API.md",
     "SecondBrain/Spring/어노테이션/@MappedSuperclass.md",
     "SecondBrain/Spring/어노테이션/@Column.md",
     "SecondBrain/Spring/어노테이션/@Table.md",
     "SecondBrain/Spring/어노테이션/@mappedBy.md",
     "SecondBrain/Spring/auth/소셜로그인 플로우 잘 설명되어있는 블로그.md",
-    "SecondBrain/Spring/JPA/결과 조회 API.md",
     "SecondBrain/Spring/JPA/Query.md",
     "SecondBrain/Spring/JPA/로드맵.md",
     "SecondBrain/Spring/JPA/JPQL.md",
