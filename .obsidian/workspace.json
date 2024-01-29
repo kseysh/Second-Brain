@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SecondBrain/Spring/JPA/JPQL 페이징 API.md",
+                "file": "SecondBrain/Spring/JPA/JPQL 문법.md",
                 "mode": "source",
                 "source": false
               }
@@ -130,7 +130,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SecondBrain/Spring/JPA/JPQL 페이징 API.md",
+                "file": "SecondBrain/Spring/JPA/JPQL 문법.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -147,7 +147,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SecondBrain/Spring/JPA/JPQL 페이징 API.md",
+                "file": "SecondBrain/Spring/JPA/JPQL 문법.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -170,7 +170,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SecondBrain/Spring/JPA/JPQL 페이징 API.md"
+                "file": "SecondBrain/Spring/JPA/JPQL 문법.md"
               }
             }
           },
@@ -214,9 +214,10 @@
   },
   "active": "1f2066e0e2a52a5a",
   "lastOpenFiles": [
-    "SecondBrain/Spring/JPA/JPQL 결과 조회 API.md",
-    "SecondBrain/Spring/JPA/JPQL 페이징 API.md",
     "SecondBrain/Spring/JPA/JPQL.md",
+    "SecondBrain/Spring/JPA/JPQL 문법.md",
+    "SecondBrain/Spring/JPA/JPQL 페이징 API.md",
+    "SecondBrain/Spring/JPA/JPQL 결과 조회 API.md",
     "SecondBrain/Spring/어노테이션/@MappedSuperclass.md",
     "SecondBrain/Spring/어노테이션/@Column.md",
     "SecondBrain/Spring/어노테이션/@Table.md",
@@ -241,7 +242,6 @@
     "SecondBrain/Spring/단일 테이블 전략.md",
     "README.md",
     "HMH Readme.md.md",
-    "해놔야 하는 것.md",
     "SecondBrain/Attached files/Pasted image 20240124172950.png",
     "SecondBrain/Attached files/Pasted image 20240124164055.png",
     "SecondBrain/Attached files/Pasted image 20240124163911.png",
