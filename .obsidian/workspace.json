@@ -25,7 +25,31 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SecondBrain/Spring/JPA/@ElementCollection.md",
+                "file": "SecondBrain/Spring/JPA/Query.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "1f2066e0e2a52a5a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "SecondBrain/Spring/JPA/TypeQuery.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "7b46774987f5fa5d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "SecondBrain/Spring/JPA/Query.md",
                 "mode": "source",
                 "source": false
               }
@@ -44,7 +68,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -118,7 +142,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SecondBrain/Spring/JPA/@ElementCollection.md",
+                "file": "SecondBrain/Spring/JPA/Query.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -135,7 +159,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SecondBrain/Spring/JPA/@ElementCollection.md",
+                "file": "SecondBrain/Spring/JPA/Query.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -158,7 +182,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SecondBrain/Spring/JPA/@ElementCollection.md"
+                "file": "SecondBrain/Spring/JPA/Query.md"
               }
             }
           },
@@ -200,11 +224,13 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "fdd9548e35779e31",
+  "active": "7b46774987f5fa5d",
   "lastOpenFiles": [
+    "SecondBrain/Spring/JPA/TypeQuery.md",
+    "SecondBrain/Spring/JPA/Query.md",
+    "SecondBrain/Spring/JPA/@ElementCollection.md",
     "SecondBrain/Spring/JPA/로드맵.md",
     "SecondBrain/Attached files/Pasted image 20240130015548.png",
-    "SecondBrain/Spring/JPA/@ElementCollection.md",
     "SecondBrain/Spring/JPA/getter 사용 지향.md",
     "SecondBrain/Spring/JPA/동등성.md",
     "SecondBrain/Spring/JPA/동일성.md",
@@ -228,7 +254,6 @@
     "SecondBrain/jpa 활용 1-1.md",
     "SecondBrain/자바 스윙.md",
     "SecondBrain/Spring/어노테이션/@Embeddable.md",
-    "SecondBrain/Spring/JPA/영속성 전이 + 고아 객체.md",
     "SecondBrain/Attached files/Pasted image 20240124172950.png",
     "SecondBrain/Attached files/Pasted image 20240124164055.png",
     "SecondBrain/Attached files/Pasted image 20240124163911.png",
