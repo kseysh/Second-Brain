@@ -98,13 +98,11 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 241.5,
-    "collapsed": true
+    "width": 241.5
   },
   "right": {
     "id": "6a641e930567f8cc",
@@ -204,12 +202,13 @@
   },
   "active": "fdd9548e35779e31",
   "lastOpenFiles": [
+    "SecondBrain/Spring/JPA/getter 사용 지향.md",
+    "SecondBrain/Spring/JPA/@ElementCollection.md",
     "SecondBrain/Spring/JPA/동등성.md",
     "SecondBrain/Spring/JPA/동일성.md",
     "SecondBrain/Spring/JPA/불변 객체.md",
     "SecondBrain/Attached files/Pasted image 20240129214240.png",
     "SecondBrain/Spring/JPA/@AttributeOverride.md",
-    "SecondBrain/Spring/JPA/@ElementCollection.md",
     "SecondBrain/Spring/조인 전략.md",
     "SecondBrain/Spring/숫자 야구 기능 목록.md",
     "생성자 주입.md",
@@ -230,7 +229,6 @@
     "SecondBrain/Spring/JPA/영속성 전이 + 고아 객체.md",
     "SecondBrain/Spring/JPA/영속성 전이.md",
     "SecondBrain/Spring/JPA/고아 객체.md",
-    "SecondBrain/Spring/JPA/JPA의 성능 최적화 기능.md",
     "SecondBrain/Attached files/Pasted image 20240124172950.png",
     "SecondBrain/Attached files/Pasted image 20240124164055.png",
     "SecondBrain/Attached files/Pasted image 20240124163911.png",
