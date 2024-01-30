@@ -47,4 +47,6 @@ FROM 절의 서브 쿼리는 현재 JPQL에서 불가능하다. (하이버네이
 - 숫자 : 10L(Long), 10D(Double), 10F(Float)
 - Boolean : TRUE, FALSE
 - ENUM : jpabook.MemberType.Admin(패키지명 포함)
-- 
+	- ex) `select m.username, 'HELLO', true from Member m where m.type = jpql.MemberType.USER`
+- 엔티티 타입: TYPE(m) = Member (상속 관계에서 사용)
+	- ex) `select i from Item i where type(i) = Book`
