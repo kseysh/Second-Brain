@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SecondBrain/Spring/JPA/JPQL 문법.md",
+                "file": "SecondBrain/Spring/JPA/JPQL 경로 표현식.md",
                 "mode": "source",
                 "source": false
               }
@@ -130,7 +130,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SecondBrain/Spring/JPA/JPQL 문법.md",
+                "file": "SecondBrain/Spring/JPA/JPQL 경로 표현식.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -147,7 +147,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SecondBrain/Spring/JPA/JPQL 문법.md",
+                "file": "SecondBrain/Spring/JPA/JPQL 경로 표현식.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -170,7 +170,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SecondBrain/Spring/JPA/JPQL 문법.md"
+                "file": "SecondBrain/Spring/JPA/JPQL 경로 표현식.md"
               }
             }
           },
@@ -214,10 +214,11 @@
   },
   "active": "1f2066e0e2a52a5a",
   "lastOpenFiles": [
+    "SecondBrain/Spring/JPA/JPQL 문법.md",
+    "SecondBrain/Spring/JPA/JPQL 경로 표현식.md",
     "SecondBrain/Attached files/Pasted image 20240130171040.png",
     "SecondBrain/Attached files/Pasted image 20240130171029.png",
     "SecondBrain/Spring/JPA/JPQL.md",
-    "SecondBrain/Spring/JPA/JPQL 문법.md",
     "SecondBrain/Spring/JPA/JPQL 페이징 API.md",
     "SecondBrain/Spring/JPA/JPQL 결과 조회 API.md",
     "SecondBrain/Spring/어노테이션/@MappedSuperclass.md",
@@ -251,7 +252,6 @@
     "SecondBrain/Attached files/Pasted image 20240112215127.png",
     "SecondBrain/Attached files/Pasted image 20240112215106.png",
     "SecondBrain/Develop/무제 폴더",
-    "SecondBrain/Attached files/Pasted image 20240109172655.png",
     "SecondBrain/Spring/auth",
     "Spaces/Home",
     "Spaces",
