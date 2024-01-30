@@ -51,3 +51,22 @@ FROM 절의 서브 쿼리는 현재 JPQL에서 불가능하다. (하이버네이
 - 엔티티 타입: TYPE(m) = Member (상속 관계에서 사용)
 	- ex) `select i from Item i where type(i) = Book`
 이외의 표준 sql 문법들은 대부분 지원한다.
+
+# 조건식
+## CASE 식
+![[Pasted image 20240130171029.png]]
+![[Pasted image 20240130171040.png]]
+
+# JPQL 기본 함수
+- CONCAT
+- SUBSTRING
+- TRIM
+- LOWER, UPPER
+- LENGTH
+- LOCATE
+- ABS, SQRT, MOD
+- SIZE, INDEX
+### JPQL에서 사용자 정의 함수 호출
+하이버네이트는 사용전 방언에 추가해야 한다.
+사용하는 DB 방언을 상속받고, 사용자 정의 함수를 등록한다.
+ex) `SELECT FUNCTION('group_concat', i.name) from Item i`
