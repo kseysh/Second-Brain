@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SecondBrain/Spring/JPA/JPQL 경로 표현식.md",
+                "file": "SecondBrain/Develop/디자인 패턴/디자인 패턴.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "JPQL",
+                "query": "싱글톤",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -110,7 +110,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -130,7 +131,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SecondBrain/Spring/JPA/JPQL 경로 표현식.md",
+                "file": "SecondBrain/Develop/디자인 패턴/디자인 패턴.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -147,7 +148,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SecondBrain/Spring/JPA/JPQL 경로 표현식.md",
+                "file": "SecondBrain/Develop/디자인 패턴/디자인 패턴.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -170,7 +171,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SecondBrain/Spring/JPA/JPQL 경로 표현식.md"
+                "file": "SecondBrain/Develop/디자인 패턴/디자인 패턴.md"
               }
             }
           },
@@ -214,8 +215,9 @@
   },
   "active": "1f2066e0e2a52a5a",
   "lastOpenFiles": [
-    "SecondBrain/Spring/JPA/JPQL 문법.md",
+    "SecondBrain/Spring/싱글톤.md",
     "SecondBrain/Spring/JPA/JPQL 경로 표현식.md",
+    "SecondBrain/Spring/JPA/JPQL 문법.md",
     "SecondBrain/Attached files/Pasted image 20240130171040.png",
     "SecondBrain/Attached files/Pasted image 20240130171029.png",
     "SecondBrain/Spring/JPA/JPQL.md",
@@ -243,7 +245,6 @@
     "생성자 주입.md",
     "SecondBrain/Spring/구현 클래스마다 테이블 전략.md",
     "SecondBrain/Spring/단일 테이블 전략.md",
-    "README.md",
     "SecondBrain/Attached files/Pasted image 20240124172950.png",
     "SecondBrain/Attached files/Pasted image 20240124164055.png",
     "SecondBrain/Attached files/Pasted image 20240124163911.png",
