@@ -50,3 +50,4 @@ FROM 절의 서브 쿼리는 현재 JPQL에서 불가능하다. (하이버네이
 	- ex) `select m.username, 'HELLO', true from Member m where m.type = jpql.MemberType.USER`
 - 엔티티 타입: TYPE(m) = Member (상속 관계에서 사용)
 	- ex) `select i from Item i where type(i) = Book`
+이외의 표준 sql 문법들은 대부분 지원한다.
