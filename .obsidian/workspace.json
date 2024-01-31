@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SecondBrain/Spring/JPA/JPQL fetch join.md",
+                "file": "SecondBrain/Spring/JPA/다형성 쿼리.md",
                 "mode": "source",
                 "source": false
               }
@@ -119,7 +119,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SecondBrain/Spring/JPA/JPQL fetch join.md",
+                "file": "SecondBrain/Spring/JPA/다형성 쿼리.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -136,7 +136,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SecondBrain/Spring/JPA/JPQL fetch join.md",
+                "file": "SecondBrain/Spring/JPA/다형성 쿼리.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -159,7 +159,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SecondBrain/Spring/JPA/JPQL fetch join.md"
+                "file": "SecondBrain/Spring/JPA/다형성 쿼리.md"
               }
             }
           },
@@ -203,13 +203,14 @@
   },
   "active": "fdd9548e35779e31",
   "lastOpenFiles": [
+    "SecondBrain/Spring/JPA/JPQL fetch join.md",
+    "SecondBrain/Spring/JPA/다형성 쿼리.md",
     "SecondBrain/Attached files/Pasted image 20240131213257.png",
     "SecondBrain/Attached files/Pasted image 20240131212811.png",
     "SecondBrain/Attached files/Pasted image 20240131212703.png",
     "SecondBrain/Attached files/Pasted image 20240131212640.png",
     "SecondBrain/Attached files/Pasted image 20240131212534.png",
     "SecondBrain/Spring/JPA/JPQL 문법.md",
-    "SecondBrain/Spring/JPA/JPQL fetch join.md",
     "SecondBrain/Spring/JPA/JPQL 경로 표현식.md",
     "SecondBrain/Spring/JPA/Query.md",
     "SecondBrain/Spring/싱글톤.md",
@@ -238,7 +239,6 @@
     "SecondBrain/Spring/조인 전략.md",
     "SecondBrain/Spring/숫자 야구 기능 목록.md",
     "SecondBrain/Attached files/Pasted image 20240124172950.png",
-    "SecondBrain/Attached files/Pasted image 20240124164055.png",
     "SecondBrain/멋쟁이 사자처럼 세미나 자료",
     "SecondBrain/Develop/무제 폴더",
     "SecondBrain/Spring/auth",
