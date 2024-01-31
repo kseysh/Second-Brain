@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SecondBrain/Spring/IOC.md",
+                "file": "SecondBrain/Develop/프레임워크 vs 라이브러리.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,13 +86,11 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 281.5,
-    "collapsed": true
+    "width": 281.5
   },
   "right": {
     "id": "6a641e930567f8cc",
@@ -108,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SecondBrain/Spring/IOC.md",
+                "file": "SecondBrain/Develop/프레임워크 vs 라이브러리.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SecondBrain/Spring/IOC.md",
+                "file": "SecondBrain/Develop/프레임워크 vs 라이브러리.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -148,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SecondBrain/Spring/IOC.md"
+                "file": "SecondBrain/Develop/프레임워크 vs 라이브러리.md"
               }
             }
           },
@@ -192,6 +190,12 @@
   },
   "active": "2645405c51a0876d",
   "lastOpenFiles": [
+    "SecondBrain/Spring/auth/소셜로그인 플로우 잘 설명되어있는 블로그.md",
+    "SecondBrain/Develop/프레임워크 vs 라이브러리.md",
+    "SecondBrain/Spring/무제 파일.md",
+    "SecondBrain/Spring/DI.md",
+    "SecondBrain/Spring/Batch에 대해서.md",
+    "SecondBrain/Spring/IOC.md",
     "SecondBrain/Develop/개발 원칙/객체 지향 프로그래밍/개방 폐쇄의 원칙.md",
     "SecondBrain/Develop/개발 원칙/객체 지향 프로그래밍/객체 지향의 5대 설계 원칙 (SOLID).md",
     "SecondBrain/Develop/개발 원칙/객체 지향 프로그래밍/의존성 역전의 원칙.md",
@@ -219,14 +223,8 @@
     "SecondBrain/Attached files/Pasted image 20240131212534.png",
     "SecondBrain/Spring/JPA/JPQL/Query.md",
     "SecondBrain/Spring/싱글톤.md",
-    "SecondBrain/Develop/디자인 패턴/디자인 패턴.md",
     "SecondBrain/Attached files/Pasted image 20240130171040.png",
     "SecondBrain/Attached files/Pasted image 20240130171029.png",
-    "SecondBrain/Spring/어노테이션/@MappedSuperclass.md",
-    "SecondBrain/Spring/어노테이션/@Column.md",
-    "SecondBrain/Spring/어노테이션/@Table.md",
-    "SecondBrain/Spring/어노테이션/@mappedBy.md",
-    "SecondBrain/Spring/auth/소셜로그인 플로우 잘 설명되어있는 블로그.md",
     "SecondBrain/Attached files/Pasted image 20240130015548.png",
     "SecondBrain/Attached files/Pasted image 20240129214240.png",
     "SecondBrain/멋쟁이 사자처럼 세미나 자료",
