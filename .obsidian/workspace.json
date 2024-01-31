@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SecondBrain/Spring/JPA/다형성 쿼리.md",
+                "file": "SecondBrain/Spring/JPA/JPQL/[JPQL] 엔티티 직접 사용.md",
                 "mode": "source",
                 "source": false
               }
@@ -102,7 +102,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
+    "width": 281.5,
     "collapsed": true
   },
   "right": {
@@ -119,7 +119,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SecondBrain/Spring/JPA/다형성 쿼리.md",
+                "file": "SecondBrain/Spring/JPA/JPQL/[JPQL] 엔티티 직접 사용.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -136,7 +136,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SecondBrain/Spring/JPA/다형성 쿼리.md",
+                "file": "SecondBrain/Spring/JPA/JPQL/[JPQL] 엔티티 직접 사용.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -159,7 +159,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SecondBrain/Spring/JPA/다형성 쿼리.md"
+                "file": "SecondBrain/Spring/JPA/JPQL/[JPQL] 엔티티 직접 사용.md"
               }
             }
           },
@@ -203,23 +203,26 @@
   },
   "active": "fdd9548e35779e31",
   "lastOpenFiles": [
-    "SecondBrain/Spring/JPA/JPQL fetch join.md",
-    "SecondBrain/Spring/JPA/다형성 쿼리.md",
+    "SecondBrain/Spring/JPA/JPQL/[JPQL] fetch join.md",
+    "SecondBrain/Spring/JPA/JPQL/[JPQL] 경로 표현식.md",
+    "SecondBrain/Spring/JPA/JPQL/[JPQL] 문법.md",
+    "SecondBrain/Spring/JPA/JPQL/[JPQL] 페이징 API.md",
+    "SecondBrain/Spring/JPA/JPQL/JPQL.md",
+    "SecondBrain/Spring/JPA/JPQL/TypeQuery.md",
+    "SecondBrain/Spring/JPA/JPQL/[JPQL] 결과 조회 API.md",
+    "SecondBrain/Spring/JPA/JPQL/[JPQL] 다형성 쿼리.md",
+    "SecondBrain/Spring/JPA/JPQL/[JPQL] 엔티티 직접 사용.md",
+    "SecondBrain/Spring/JPA/JPQL",
     "SecondBrain/Attached files/Pasted image 20240131213257.png",
     "SecondBrain/Attached files/Pasted image 20240131212811.png",
     "SecondBrain/Attached files/Pasted image 20240131212703.png",
     "SecondBrain/Attached files/Pasted image 20240131212640.png",
     "SecondBrain/Attached files/Pasted image 20240131212534.png",
-    "SecondBrain/Spring/JPA/JPQL 문법.md",
-    "SecondBrain/Spring/JPA/JPQL 경로 표현식.md",
-    "SecondBrain/Spring/JPA/Query.md",
+    "SecondBrain/Spring/JPA/JPQL/Query.md",
     "SecondBrain/Spring/싱글톤.md",
     "SecondBrain/Develop/디자인 패턴/디자인 패턴.md",
     "SecondBrain/Attached files/Pasted image 20240130171040.png",
     "SecondBrain/Attached files/Pasted image 20240130171029.png",
-    "SecondBrain/Spring/JPA/JPQL.md",
-    "SecondBrain/Spring/JPA/JPQL 페이징 API.md",
-    "SecondBrain/Spring/JPA/JPQL 결과 조회 API.md",
     "SecondBrain/Spring/어노테이션/@MappedSuperclass.md",
     "SecondBrain/Spring/어노테이션/@Column.md",
     "SecondBrain/Spring/어노테이션/@Table.md",
@@ -227,7 +230,6 @@
     "SecondBrain/Spring/auth/소셜로그인 플로우 잘 설명되어있는 블로그.md",
     "SecondBrain/Spring/JPA/로드맵.md",
     "SecondBrain/Spring/JPA/JPQL 1.md",
-    "SecondBrain/Spring/JPA/TypeQuery.md",
     "SecondBrain/Spring/JPA/@ElementCollection.md",
     "SecondBrain/Attached files/Pasted image 20240130015548.png",
     "SecondBrain/Spring/JPA/getter 사용 지향.md",
@@ -236,8 +238,6 @@
     "SecondBrain/Spring/JPA/불변 객체.md",
     "SecondBrain/Attached files/Pasted image 20240129214240.png",
     "SecondBrain/Spring/JPA/@AttributeOverride.md",
-    "SecondBrain/Spring/조인 전략.md",
-    "SecondBrain/Spring/숫자 야구 기능 목록.md",
     "SecondBrain/Attached files/Pasted image 20240124172950.png",
     "SecondBrain/멋쟁이 사자처럼 세미나 자료",
     "SecondBrain/Develop/무제 폴더",
