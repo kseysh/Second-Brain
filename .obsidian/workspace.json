@@ -4,47 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "ba175c86339462bc",
+        "id": "e4b41c339b0fdc09",
         "type": "tabs",
         "children": [
           {
-            "id": "62cdfe39aeaba351",
+            "id": "a3b1b1e7a75e8ebd",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SecondBrain/Python/리스트의 얕은 복사와 깊은 복사.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "fdd9548e35779e31",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "SecondBrain/Spring/JPA/JPQL/벌크 연산.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "3706eb224c23e124",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "SecondBrain/Spring/단일 테이블 전략.md",
+                "file": "생성자 주입.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -73,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "싱글톤",
+                "query": "의존성 주입",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -98,7 +73,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -119,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SecondBrain/Spring/JPA/JPQL/벌크 연산.md",
+                "file": "생성자 주입.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -136,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SecondBrain/Spring/JPA/JPQL/벌크 연산.md",
+                "file": "생성자 주입.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -159,7 +135,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SecondBrain/Spring/JPA/JPQL/벌크 연산.md"
+                "file": "생성자 주입.md"
               }
             }
           },
@@ -201,13 +177,14 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "fdd9548e35779e31",
+  "active": "a3b1b1e7a75e8ebd",
   "lastOpenFiles": [
+    "SecondBrain/Spring/단일 테이블 전략.md",
+    "SecondBrain/Spring/JPA/JPQL/벌크 연산.md",
     "SecondBrain/Spring/JPA/JPQL/fetch join.md",
     "SecondBrain/Spring/JPA/JPQL/[JPQL] 다형성 쿼리.md",
     "SecondBrain/Spring/JPA/JPQL/[JPQL] 엔티티 직접 사용.md",
     "SecondBrain/Spring/JPA/JPQL/@NamedQuery.md",
-    "SecondBrain/Spring/JPA/JPQL/벌크 연산.md",
     "SecondBrain/Attached files/Pasted image 20240131225916.png",
     "SecondBrain/Spring/JPA/JPQL/[JPQL] 경로 표현식.md",
     "SecondBrain/Spring/JPA/JPQL/[JPQL] 문법.md",
@@ -238,7 +215,6 @@
     "SecondBrain/Spring/JPA/getter 사용 지향.md",
     "SecondBrain/Spring/JPA/동등성.md",
     "SecondBrain/Spring/JPA/동일성.md",
-    "SecondBrain/Spring/JPA/불변 객체.md",
     "SecondBrain/Attached files/Pasted image 20240129214240.png",
     "SecondBrain/멋쟁이 사자처럼 세미나 자료",
     "SecondBrain/Develop/무제 폴더",
