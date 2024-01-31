@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SecondBrain/Spring/JPA/JPQL/[JPQL] Named 쿼리 - 정적 쿼리.md",
+                "file": "SecondBrain/Spring/JPA/JPQL/벌크 연산.md",
                 "mode": "source",
                 "source": false
               }
@@ -102,7 +102,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 281.5
+    "width": 281.5,
+    "collapsed": true
   },
   "right": {
     "id": "6a641e930567f8cc",
@@ -118,7 +119,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SecondBrain/Spring/JPA/JPQL/[JPQL] Named 쿼리 - 정적 쿼리.md",
+                "file": "SecondBrain/Spring/JPA/JPQL/벌크 연산.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -135,7 +136,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SecondBrain/Spring/JPA/JPQL/[JPQL] Named 쿼리 - 정적 쿼리.md",
+                "file": "SecondBrain/Spring/JPA/JPQL/벌크 연산.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -158,7 +159,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SecondBrain/Spring/JPA/JPQL/[JPQL] Named 쿼리 - 정적 쿼리.md"
+                "file": "SecondBrain/Spring/JPA/JPQL/벌크 연산.md"
               }
             }
           },
@@ -202,17 +203,18 @@
   },
   "active": "fdd9548e35779e31",
   "lastOpenFiles": [
-    "SecondBrain/Attached files/Pasted image 20240131225916.png",
+    "SecondBrain/Spring/JPA/JPQL/fetch join.md",
+    "SecondBrain/Spring/JPA/JPQL/[JPQL] 다형성 쿼리.md",
     "SecondBrain/Spring/JPA/JPQL/[JPQL] 엔티티 직접 사용.md",
-    "SecondBrain/Spring/JPA/JPQL/[JPQL] Named 쿼리 - 정적 쿼리.md",
-    "SecondBrain/Spring/JPA/JPQL/[JPQL] fetch join.md",
+    "SecondBrain/Spring/JPA/JPQL/@NamedQuery.md",
+    "SecondBrain/Spring/JPA/JPQL/벌크 연산.md",
+    "SecondBrain/Attached files/Pasted image 20240131225916.png",
     "SecondBrain/Spring/JPA/JPQL/[JPQL] 경로 표현식.md",
     "SecondBrain/Spring/JPA/JPQL/[JPQL] 문법.md",
     "SecondBrain/Spring/JPA/JPQL/[JPQL] 페이징 API.md",
     "SecondBrain/Spring/JPA/JPQL/JPQL.md",
     "SecondBrain/Spring/JPA/JPQL/TypeQuery.md",
     "SecondBrain/Spring/JPA/JPQL/[JPQL] 결과 조회 API.md",
-    "SecondBrain/Spring/JPA/JPQL/[JPQL] 다형성 쿼리.md",
     "SecondBrain/Spring/JPA/JPQL",
     "SecondBrain/Attached files/Pasted image 20240131213257.png",
     "SecondBrain/Attached files/Pasted image 20240131212811.png",
@@ -238,7 +240,6 @@
     "SecondBrain/Spring/JPA/동일성.md",
     "SecondBrain/Spring/JPA/불변 객체.md",
     "SecondBrain/Attached files/Pasted image 20240129214240.png",
-    "SecondBrain/Attached files/Pasted image 20240124172950.png",
     "SecondBrain/멋쟁이 사자처럼 세미나 자료",
     "SecondBrain/Develop/무제 폴더",
     "SecondBrain/Spring/auth",

@@ -6,3 +6,5 @@
 - 애플리케이션 로딩 시점에 쿼리를 검증
 
 ![[Pasted image 20240131225916.png]]
+
+스프링 Data JPA에서는 [[Query]]를 통해 Named Query를 제공한다. 
