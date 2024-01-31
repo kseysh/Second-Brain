@@ -7,3 +7,15 @@
 ## 엔티티 페치 조인
 회원을 조회하면서 SQL 한 번에 연관된 팀도 함께 조회하고 싶을 때 사용한다.
 SQL을 보면 회원 뿐만 아니라 팀도 함께 SELECT한다.
+ex) `select m from Member m join fetch m.team`
+=> `select M.*, T.* from MEMBER M inner join TEAM T on M.TEAM_ID=T.ID`
+
+## 컬렉션 페치 조인
+일대다 관계, 컬렉션 페치 조인
+
+ex) `select t from Team t join fetch t.members where t.name = '팀A'`
+=> `select T.*, M.* from TEAM T inner join MEMBER M on T.ID=M.TEAM_ID where T.NAME = '팀A'`
+
+
+
+ex) `select m from Member m join fetch m.team`
