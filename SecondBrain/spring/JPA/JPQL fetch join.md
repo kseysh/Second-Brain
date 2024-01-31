@@ -16,6 +16,19 @@ ex) `select m from Member m join fetch m.team`
 ex) `select t from Team t join fetch t.members where t.name = '팀A'`
 => `select T.*, M.* from TEAM T inner join MEMBER M on T.ID=M.TEAM_ID where T.NAME = '팀A'`
 
+### 컬렉션 페치 조인에서 주의해야할 점
+위 예시 코드에서 Team을 조회할 때,
 
+![[Pasted image 20240131212534.png]]
+위 사진처럼 한 팀에 여러 멤버가 있을 때 JOIN을 하게 되면
 
-ex) `select m from Member m join fetch m.team`
+![[Pasted image 20240131212640.png]]
+위 사진과 같이 조회되게 된다.
+
+![[Pasted image 20240131212703.png]]
+따라서 JOIN을 통해 TEAM을 조회하면 같은 team이 두 번 조회되게 된다.
+
+![[Pasted image 20240131212811.png]]
+위 사진을 보면 같은 팀 A가 두 번 조회되는 모습을 확인할 수 있다.
+
+> 이 일
