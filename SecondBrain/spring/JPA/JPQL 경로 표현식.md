@@ -11,8 +11,11 @@ ex) `select m.team.members from Member m` 처럼 탐색
 ### 컬렉션 값 연관 경로
 	  (@OneToMany, @ManyToMany) => 대상이 컬렉션
 묵시적 내부 조인이 발생하며 탐색하지 않는다.
-FROM 절에서 명시적 조인을 통해 별칭을 얻으면 별칭을 통해 탐색이 가능하다.
 
+*하지만*) FROM 절에서 명시적 조인을 통해 별칭을 얻으면 별칭을 통해 탐색이 가능하다.
+ex) 
+`select t.members from Team t`는 members에서 더 탐색을 진행할 수 없지만,
+`select m from Team t join t.members m`은 m이라는 별칭을 얻어 더 탐색을 진행할 수 있다.
 # 결론
 묵시적 내부 조인을 최대한 줄이고 명시적 조인을 사용하는 것이 나중에 쿼리 튜닝에 유용하다!
 
