@@ -86,7 +86,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -190,6 +191,7 @@
   },
   "active": "2645405c51a0876d",
   "lastOpenFiles": [
+    "SecondBrain/Attached files/Pasted image 20240202000331.png",
     "SecondBrain/Spring/auth/소셜로그인 플로우 잘 설명되어있는 블로그.md",
     "SecondBrain/Develop/프레임워크 vs 라이브러리.md",
     "SecondBrain/Spring/무제 파일.md",
@@ -222,7 +224,6 @@
     "SecondBrain/Attached files/Pasted image 20240131212640.png",
     "SecondBrain/Attached files/Pasted image 20240131212534.png",
     "SecondBrain/Spring/JPA/JPQL/Query.md",
-    "SecondBrain/Spring/싱글톤.md",
     "SecondBrain/Attached files/Pasted image 20240130171040.png",
     "SecondBrain/Attached files/Pasted image 20240130171029.png",
     "SecondBrain/Attached files/Pasted image 20240130015548.png",
