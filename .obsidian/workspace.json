@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SecondBrain/Develop/프레임워크 vs 라이브러리.md",
+                "file": "SecondBrain/IDEA/아이디어 폴더/메이커스 아이디어.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,8 +86,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
@@ -107,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SecondBrain/Develop/프레임워크 vs 라이브러리.md",
+                "file": "SecondBrain/IDEA/아이디어 폴더/메이커스 아이디어.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -124,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SecondBrain/Develop/프레임워크 vs 라이브러리.md",
+                "file": "SecondBrain/IDEA/아이디어 폴더/메이커스 아이디어.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -147,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SecondBrain/Develop/프레임워크 vs 라이브러리.md"
+                "file": "SecondBrain/IDEA/아이디어 폴더/메이커스 아이디어.md"
               }
             }
           },
@@ -191,12 +190,13 @@
   },
   "active": "2645405c51a0876d",
   "lastOpenFiles": [
+    "SecondBrain/Develop/프레임워크 vs 라이브러리.md",
+    "SecondBrain/IDEA/아이디어 폴더/메이커스 아이디어.md",
     "SecondBrain/Attached files/Pasted image 20240203205823.png",
     "SecondBrain/Attached files/Pasted image 20240203162943.png",
     "SecondBrain/Attached files/HMH.png",
     "SecondBrain/Attached files/Pasted image 20240202000331.png",
     "SecondBrain/Spring/auth/소셜로그인 플로우 잘 설명되어있는 블로그.md",
-    "SecondBrain/Develop/프레임워크 vs 라이브러리.md",
     "SecondBrain/Spring/무제 파일.md",
     "SecondBrain/Spring/DI.md",
     "SecondBrain/Spring/Batch에 대해서.md",
@@ -227,7 +227,6 @@
     "SecondBrain/Attached files/Pasted image 20240131212640.png",
     "SecondBrain/Attached files/Pasted image 20240131212534.png",
     "SecondBrain/Spring/JPA/JPQL/Query.md",
-    "SecondBrain/Attached files/Pasted image 20240130171040.png",
     "SecondBrain/멋쟁이 사자처럼 세미나 자료",
     "SecondBrain/Develop/무제 폴더",
     "SecondBrain/Spring/auth",
