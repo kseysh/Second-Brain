@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SecondBrain/Spring/JPA/JPA 팁.md",
+                "file": "SecondBrain/Spring/JPA/의존성.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,12 +86,12 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 281.5
+    "width": 281.5,
+    "collapsed": true
   },
   "right": {
     "id": "6a641e930567f8cc",
@@ -107,7 +107,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SecondBrain/Spring/JPA/JPA 팁.md",
+                "file": "SecondBrain/Spring/JPA/의존성.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -124,7 +124,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SecondBrain/Spring/JPA/JPA 팁.md",
+                "file": "SecondBrain/Spring/JPA/의존성.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -147,7 +147,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SecondBrain/Spring/JPA/JPA 팁.md"
+                "file": "SecondBrain/Spring/JPA/의존성.md"
               }
             }
           },
@@ -191,7 +191,13 @@
   },
   "active": "2645405c51a0876d",
   "lastOpenFiles": [
+    "SecondBrain/Attached files/Pasted image 20240206120506.png",
+    "SecondBrain/Attached files/Pasted image 20240206120450.png",
+    "SecondBrain/Attached files/Pasted image 20240206120441.png",
+    "SecondBrain/Attached files/Pasted image 20240206120431.png",
+    "SecondBrain/Attached files/Pasted image 20240206120119.png",
     "SecondBrain/Spring/JPA/JPA 팁.md",
+    "SecondBrain/Spring/JPA/의존성.md",
     "SecondBrain/IDEA/아이디어 폴더/메이커스 아이디어.md",
     "SecondBrain/Develop/프레임워크 vs 라이브러리.md",
     "SecondBrain/Attached files/Pasted image 20240203205823.png",
@@ -220,14 +226,8 @@
     "SecondBrain/Spring/JPA/JPQL/[JPQL] 문법.md",
     "SecondBrain/Spring/JPA/JPQL/[JPQL] 페이징 API.md",
     "SecondBrain/Spring/JPA/JPQL/JPQL.md",
-    "SecondBrain/Spring/JPA/JPQL/TypeQuery.md",
-    "SecondBrain/Spring/JPA/JPQL/[JPQL] 결과 조회 API.md",
     "SecondBrain/Spring/JPA/JPQL",
     "SecondBrain/Attached files/Pasted image 20240131213257.png",
-    "SecondBrain/Attached files/Pasted image 20240131212811.png",
-    "SecondBrain/Attached files/Pasted image 20240131212703.png",
-    "SecondBrain/Attached files/Pasted image 20240131212640.png",
-    "SecondBrain/Attached files/Pasted image 20240131212534.png",
     "SecondBrain/멋쟁이 사자처럼 세미나 자료",
     "SecondBrain/Develop/무제 폴더",
     "SecondBrain/Spring/auth",
