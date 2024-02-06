@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SecondBrain/Develop/도메인 주도 개발.md",
+                "file": "SecondBrain/Develop/코드 리뷰/동기 커뮤니케이션 vs 비동기 커뮤니케이션.md",
                 "mode": "source",
                 "source": false
               }
@@ -107,7 +107,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SecondBrain/Develop/도메인 주도 개발.md",
+                "file": "SecondBrain/Develop/코드 리뷰/동기 커뮤니케이션 vs 비동기 커뮤니케이션.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -124,7 +124,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SecondBrain/Develop/도메인 주도 개발.md",
+                "file": "SecondBrain/Develop/코드 리뷰/동기 커뮤니케이션 vs 비동기 커뮤니케이션.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -147,7 +147,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SecondBrain/Develop/도메인 주도 개발.md"
+                "file": "SecondBrain/Develop/코드 리뷰/동기 커뮤니케이션 vs 비동기 커뮤니케이션.md"
               }
             }
           },
@@ -191,8 +191,8 @@
   },
   "active": "2645405c51a0876d",
   "lastOpenFiles": [
-    "SecondBrain/Develop/코드 리뷰/동기 커뮤니케이션 vs 비동기 커뮤니케이션.md",
     "SecondBrain/Develop/도메인 주도 개발.md",
+    "SecondBrain/Develop/코드 리뷰/동기 커뮤니케이션 vs 비동기 커뮤니케이션.md",
     "SecondBrain/Develop/의존성.md",
     "SecondBrain/Attached files/Pasted image 20240206161803.png",
     "SecondBrain/Attached files/Pasted image 20240206161742.png",
