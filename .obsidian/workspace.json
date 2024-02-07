@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SecondBrain/Develop/코드 리뷰/동기 커뮤니케이션 vs 비동기 커뮤니케이션.md",
+                "file": "SecondBrain/Develop/의존성.md",
                 "mode": "source",
                 "source": false
               }
@@ -107,7 +107,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SecondBrain/Develop/코드 리뷰/동기 커뮤니케이션 vs 비동기 커뮤니케이션.md",
+                "file": "SecondBrain/Develop/의존성.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -124,7 +124,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SecondBrain/Develop/코드 리뷰/동기 커뮤니케이션 vs 비동기 커뮤니케이션.md",
+                "file": "SecondBrain/Develop/의존성.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -147,7 +147,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SecondBrain/Develop/코드 리뷰/동기 커뮤니케이션 vs 비동기 커뮤니케이션.md"
+                "file": "SecondBrain/Develop/의존성.md"
               }
             }
           },
@@ -191,8 +191,14 @@
   },
   "active": "2645405c51a0876d",
   "lastOpenFiles": [
-    "SecondBrain/Develop/도메인 주도 개발.md",
+    "SecondBrain/Develop/좋은 함수 만들기.md",
+    "SecondBrain/Develop/객체의 상속과 합성 (미완성).md",
+    "SecondBrain/Develop/디자인 패턴/디자인 패턴.md",
+    "SecondBrain/Develop/디자인 패턴/MVC 패턴.md",
+    "SecondBrain/Develop/디자인 패턴/계층형 패키지 구조.md",
+    "SecondBrain/Develop/디자인 패턴/트랜잭션 스크립트 패턴.md",
     "SecondBrain/Develop/코드 리뷰/동기 커뮤니케이션 vs 비동기 커뮤니케이션.md",
+    "SecondBrain/Develop/도메인 주도 개발.md",
     "SecondBrain/Develop/의존성.md",
     "SecondBrain/Attached files/Pasted image 20240206161803.png",
     "SecondBrain/Attached files/Pasted image 20240206161742.png",
@@ -221,12 +227,6 @@
     "SecondBrain/Spring/단일 테이블 전략.md",
     "SecondBrain/Spring/JPA/JPQL/벌크 연산.md",
     "SecondBrain/Spring/JPA/JPQL/fetch join.md",
-    "SecondBrain/Spring/JPA/JPQL/[JPQL] 다형성 쿼리.md",
-    "SecondBrain/Spring/JPA/JPQL/[JPQL] 엔티티 직접 사용.md",
-    "SecondBrain/Spring/JPA/JPQL/@NamedQuery.md",
-    "SecondBrain/Spring/JPA/JPQL/[JPQL] 경로 표현식.md",
-    "SecondBrain/Spring/JPA/JPQL/[JPQL] 문법.md",
-    "SecondBrain/Spring/JPA/JPQL/[JPQL] 페이징 API.md",
     "SecondBrain/Spring/JPA/JPQL",
     "SecondBrain/멋쟁이 사자처럼 세미나 자료",
     "SecondBrain/Develop/무제 폴더",
