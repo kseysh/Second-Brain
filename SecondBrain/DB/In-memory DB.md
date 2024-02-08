@@ -1,0 +1,1 @@
+대표적인 데이터베이스로는 [[RDB]], [NoSQL], In-Memory DB로 총 세 가지가 
