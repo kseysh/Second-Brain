@@ -119,7 +119,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SecondBrain/Spring/싱글톤.md",
+                "file": "SecondBrain/전공 공부/지난 학기/오픈소스응용프로그래밍/2-5. 객체지향개발 특성.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -136,7 +136,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SecondBrain/Spring/싱글톤.md",
+                "file": "SecondBrain/전공 공부/지난 학기/오픈소스응용프로그래밍/2-5. 객체지향개발 특성.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -159,7 +159,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SecondBrain/Spring/싱글톤.md"
+                "file": "SecondBrain/전공 공부/지난 학기/오픈소스응용프로그래밍/2-5. 객체지향개발 특성.md"
               }
             }
           },
