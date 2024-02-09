@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SecondBrain/Spring/싱글톤.md",
+                "file": "SecondBrain/Spring/DI.md",
                 "mode": "source",
                 "source": false
               }
@@ -73,7 +73,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "싱글톤",
+                "query": "의존",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -98,7 +98,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -119,7 +120,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SecondBrain/전공 공부/지난 학기/오픈소스응용프로그래밍/2-5. 객체지향개발 특성.md",
+                "file": "SecondBrain/Spring/DI.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -136,7 +137,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SecondBrain/전공 공부/지난 학기/오픈소스응용프로그래밍/2-5. 객체지향개발 특성.md",
+                "file": "SecondBrain/Spring/DI.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -159,7 +160,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SecondBrain/전공 공부/지난 학기/오픈소스응용프로그래밍/2-5. 객체지향개발 특성.md"
+                "file": "SecondBrain/Spring/DI.md"
               }
             }
           },
@@ -201,8 +202,11 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "fea5684534da7755",
+  "active": "2645405c51a0876d",
   "lastOpenFiles": [
+    "SecondBrain/Develop/개발 원칙/객체 지향 프로그래밍/다형성.md",
+    "SecondBrain/전공 공부/지난 학기/오픈소스응용프로그래밍/2-5. 객체지향개발 특성.md",
+    "SecondBrain/Spring/싱글톤.md",
     "SecondBrain/DB/In-memory DB.md",
     "SecondBrain/Python/Django/배포/캐싱.md",
     "SecondBrain/Attached files/Pasted image 20240209114850.png",
@@ -236,9 +240,6 @@
     "SecondBrain/Spring/IOC.md",
     "SecondBrain/Develop/개발 원칙/객체 지향 프로그래밍/개방 폐쇄의 원칙.md",
     "SecondBrain/Develop/개발 원칙/객체 지향 프로그래밍/객체 지향의 5대 설계 원칙 (SOLID).md",
-    "SecondBrain/Develop/개발 원칙/객체 지향 프로그래밍/의존성 역전의 원칙.md",
-    "SecondBrain/Develop/개발 원칙/객체 지향 프로그래밍/단일 책임의 원칙.md",
-    "SecondBrain/전공 공부/지난 학기/오픈소스응용프로그래밍/2-5. 객체지향개발 특성.md",
     "SecondBrain/Spring/JPA/JPQL",
     "SecondBrain/멋쟁이 사자처럼 세미나 자료",
     "SecondBrain/Develop/무제 폴더",
