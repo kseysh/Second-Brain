@@ -30,6 +30,18 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "db7de1ef82cd509a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "SecondBrain/Python/Django/배포/캐싱.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
         "currentTab": 1
@@ -191,9 +203,10 @@
   },
   "active": "2645405c51a0876d",
   "lastOpenFiles": [
+    "SecondBrain/Python/Django/배포/캐싱.md",
+    "SecondBrain/DB/In-memory DB.md",
     "SecondBrain/Attached files/Pasted image 20240209114850.png",
     "SecondBrain/DB/NOSQL.md",
-    "SecondBrain/DB/In-memory DB.md",
     "SecondBrain/Develop/의존성.md",
     "무제 파일.md",
     "SecondBrain/Attached files/Pasted image 20240207131239.png",
@@ -213,7 +226,6 @@
     "SecondBrain/Attached files/Pasted image 20240206161639.png",
     "SecondBrain/Attached files/Pasted image 20240206155408.png",
     "SecondBrain/Attached files/Pasted image 20240206155000.png",
-    "SecondBrain/Attached files/Pasted image 20240206154325.png",
     "SecondBrain/Spring/JPA/JPA 팁.md",
     "SecondBrain/IDEA/아이디어 폴더/메이커스 아이디어.md",
     "SecondBrain/Develop/프레임워크 vs 라이브러리.md",
