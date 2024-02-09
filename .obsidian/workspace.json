@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SecondBrain/DB/In-memory DB.md",
+                "file": "SecondBrain/Spring/싱글톤.md",
                 "mode": "source",
                 "source": false
               }
@@ -73,7 +73,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "제어의 역전",
+                "query": "싱글톤",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -119,7 +119,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SecondBrain/DB/In-memory DB.md",
+                "file": "SecondBrain/Spring/싱글톤.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -136,7 +136,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SecondBrain/DB/In-memory DB.md",
+                "file": "SecondBrain/Spring/싱글톤.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -159,7 +159,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SecondBrain/DB/In-memory DB.md"
+                "file": "SecondBrain/Spring/싱글톤.md"
               }
             }
           },
@@ -201,10 +201,10 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "2645405c51a0876d",
+  "active": "fea5684534da7755",
   "lastOpenFiles": [
-    "SecondBrain/Python/Django/배포/캐싱.md",
     "SecondBrain/DB/In-memory DB.md",
+    "SecondBrain/Python/Django/배포/캐싱.md",
     "SecondBrain/Attached files/Pasted image 20240209114850.png",
     "SecondBrain/DB/NOSQL.md",
     "SecondBrain/Develop/의존성.md",
