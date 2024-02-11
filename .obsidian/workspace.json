@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SecondBrain/Spring/DI.md",
+                "file": "SecondBrain/Spring/DI 컨테이너.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,13 +98,11 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 281.5,
-    "collapsed": true
+    "width": 281.5
   },
   "right": {
     "id": "6a641e930567f8cc",
@@ -120,7 +118,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SecondBrain/Spring/DI.md",
+                "file": "SecondBrain/Spring/DI 컨테이너.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -137,7 +135,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SecondBrain/Spring/DI.md",
+                "file": "SecondBrain/Spring/DI 컨테이너.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -160,7 +158,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SecondBrain/Spring/DI.md"
+                "file": "SecondBrain/Spring/DI 컨테이너.md"
               }
             }
           },
@@ -204,6 +202,8 @@
   },
   "active": "2645405c51a0876d",
   "lastOpenFiles": [
+    "SecondBrain/Spring/DI.md",
+    "SecondBrain/Spring/DI 컨테이너.md",
     "SecondBrain/Attached files/Pasted image 20240211181416.png",
     "SecondBrain/Attached files/Pasted image 20240211181127.png",
     "SecondBrain/Develop/개발 원칙/객체 지향 프로그래밍/다형성.md",
@@ -230,13 +230,10 @@
     "SecondBrain/Attached files/Pasted image 20240206161719.png",
     "SecondBrain/Attached files/Pasted image 20240206161656.png",
     "SecondBrain/Attached files/Pasted image 20240206161639.png",
-    "SecondBrain/Attached files/Pasted image 20240206155408.png",
     "SecondBrain/Spring/JPA/JPA 팁.md",
     "SecondBrain/IDEA/아이디어 폴더/메이커스 아이디어.md",
     "SecondBrain/Develop/프레임워크 vs 라이브러리.md",
     "SecondBrain/Spring/auth/소셜로그인 플로우 잘 설명되어있는 블로그.md",
-    "SecondBrain/Spring/무제 파일.md",
-    "SecondBrain/Spring/DI.md",
     "SecondBrain/Spring/Batch에 대해서.md",
     "SecondBrain/Spring/IOC.md",
     "SecondBrain/Develop/개발 원칙/객체 지향 프로그래밍/개방 폐쇄의 원칙.md",
