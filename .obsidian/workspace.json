@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SecondBrain/Spring/스프링 컨테이너.md",
+                "file": "SecondBrain/멋쟁이 사자처럼 세미나 자료/3주차.md",
                 "mode": "source",
                 "source": false
               }
@@ -102,8 +102,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 281.5,
-    "collapsed": true
+    "width": 281.5
   },
   "right": {
     "id": "6a641e930567f8cc",
@@ -119,7 +118,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SecondBrain/Spring/스프링 컨테이너.md",
+                "file": "SecondBrain/멋쟁이 사자처럼 세미나 자료/3주차.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -136,7 +135,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SecondBrain/Spring/스프링 컨테이너.md",
+                "file": "SecondBrain/멋쟁이 사자처럼 세미나 자료/3주차.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -159,7 +158,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SecondBrain/Spring/스프링 컨테이너.md"
+                "file": "SecondBrain/멋쟁이 사자처럼 세미나 자료/3주차.md"
               }
             }
           },
@@ -203,13 +202,26 @@
   },
   "active": "2645405c51a0876d",
   "lastOpenFiles": [
+    "SecondBrain/멋쟁이 사자처럼 세미나 자료/2주차.md",
+    "SecondBrain/네트워크/HTTP/Safe.md",
+    "SecondBrain/네트워크/HTTP/멱등성.md",
+    "SecondBrain/네트워크/HTTP/Cacheability.md",
+    "SecondBrain/네트워크/HTTP/Status code가 body에도 들어가는 이유.md",
+    "생성자 주입.md",
+    "README.md",
+    "SecondBrain/Spring/횡단 관심사.md",
+    "SecondBrain/Spring/OOP와 RDB의 패러다임의 불일치.md",
+    "SecondBrain/Spring/APIResponse.md",
+    "SecondBrain/Spring/CascadeType.md",
+    "SecondBrain/Spring/Batch에 대해서.md",
+    "SecondBrain/Spring/숫자 야구 기능 목록.md",
+    "SecondBrain/Spring/DI.md",
+    "SecondBrain/Spring/DI 컨테이너.md",
+    "SecondBrain/Spring/스프링 컨테이너.md",
     "SecondBrain/Attached files/Pasted image 20240211184639.png",
     "SecondBrain/Attached files/Pasted image 20240211184627.png",
     "SecondBrain/Attached files/Pasted image 20240211184411.png",
     "SecondBrain/Attached files/Pasted image 20240211184247.png",
-    "SecondBrain/Spring/DI 컨테이너.md",
-    "SecondBrain/Spring/스프링 컨테이너.md",
-    "SecondBrain/Spring/DI.md",
     "SecondBrain/Attached files/Pasted image 20240211181416.png",
     "SecondBrain/Attached files/Pasted image 20240211181127.png",
     "SecondBrain/Develop/개발 원칙/객체 지향 프로그래밍/다형성.md",
@@ -225,20 +237,7 @@
     "SecondBrain/Attached files/Pasted image 20240207130539.png",
     "SecondBrain/Develop/좋은 함수 만들기.md",
     "SecondBrain/Develop/객체의 상속과 합성 (미완성).md",
-    "SecondBrain/Develop/디자인 패턴/디자인 패턴.md",
-    "SecondBrain/Develop/디자인 패턴/MVC 패턴.md",
-    "SecondBrain/Develop/디자인 패턴/계층형 패키지 구조.md",
-    "SecondBrain/Develop/디자인 패턴/트랜잭션 스크립트 패턴.md",
-    "SecondBrain/Develop/코드 리뷰/동기 커뮤니케이션 vs 비동기 커뮤니케이션.md",
-    "SecondBrain/Develop/도메인 주도 개발.md",
     "SecondBrain/Attached files/Pasted image 20240206161803.png",
-    "SecondBrain/Attached files/Pasted image 20240206161742.png",
-    "SecondBrain/Spring/JPA/JPA 팁.md",
-    "SecondBrain/IDEA/아이디어 폴더/메이커스 아이디어.md",
-    "SecondBrain/Develop/프레임워크 vs 라이브러리.md",
-    "SecondBrain/Spring/auth/소셜로그인 플로우 잘 설명되어있는 블로그.md",
-    "SecondBrain/Spring/Batch에 대해서.md",
-    "SecondBrain/Spring/IOC.md",
     "SecondBrain/Spring/JPA/JPQL",
     "SecondBrain/멋쟁이 사자처럼 세미나 자료",
     "SecondBrain/Develop/무제 폴더",
