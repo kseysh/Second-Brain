@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SecondBrain/Spring/DI.md",
+                "file": "SecondBrain/Spring/스프링 컨테이너.md",
                 "mode": "source",
                 "source": false
               }
@@ -73,7 +73,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "제어의 역",
+                "query": "스프링 컨테이너",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -98,7 +98,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -119,7 +120,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SecondBrain/Spring/DI.md",
+                "file": "SecondBrain/Spring/스프링 컨테이너.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -136,7 +137,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SecondBrain/Spring/DI.md",
+                "file": "SecondBrain/Spring/스프링 컨테이너.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -159,7 +160,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SecondBrain/Spring/DI.md"
+                "file": "SecondBrain/Spring/스프링 컨테이너.md"
               }
             }
           },
@@ -203,10 +204,10 @@
   },
   "active": "2645405c51a0876d",
   "lastOpenFiles": [
+    "SecondBrain/Spring/DI.md",
     "SecondBrain/Spring/IOC.md",
     "SecondBrain/Attached files/Pasted image 20240214150129.png",
     "SecondBrain/Python/Django/배포/캐싱.md",
-    "SecondBrain/Spring/DI.md",
     "SecondBrain/Spring/생성자 주입.md",
     "SecondBrain/Spring/Setter 주입.md",
     "SecondBrain/Spring/필드 주입.md",
