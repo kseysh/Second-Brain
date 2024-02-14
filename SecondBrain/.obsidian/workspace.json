@@ -11,8 +11,12 @@
             "id": "58f1b620f0f9ed22",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Spring/AOP.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Spring/AOP.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Spring/AOP.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Spring/AOP.md"
+              }
             }
           },
           {
@@ -162,6 +170,8 @@
   },
   "active": "58f1b620f0f9ed22",
   "lastOpenFiles": [
+    "Python/Call by value.md",
+    "Python/Call by reference.md",
     "전공 공부/이산구조/10. 그래프.md",
     "전공 공부/이산구조/11. 트리.md",
     "전공 공부/이산구조/9. 관계.md",
@@ -196,8 +206,6 @@
     "Spring/JPA/JPA Query Method.md",
     "Spring/JPA/ACID.md",
     "Spring/JPA/다양한 연관관계 매핑.md",
-    "Spring/JPA/양방향 연관관계.md",
-    "Spring/JPA/단방향 연관관계.md",
     "전공 공부/이산구조/중간고사",
     "전공 공부/시스템 프로그래밍/중간고사",
     "Develop/디자인 패턴/행위 패턴",
