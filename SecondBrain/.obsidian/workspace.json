@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "procedure",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -65,7 +65,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -168,7 +169,7 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "58f1b620f0f9ed22",
+  "active": "98b99bcebe54855a",
   "lastOpenFiles": [
     "Python/Call by value.md",
     "Python/Call by reference.md",
