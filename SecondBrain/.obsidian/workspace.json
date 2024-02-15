@@ -73,7 +73,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "cors",
+                "query": "세션",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -90,7 +90,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -196,6 +197,7 @@
   "active": "bd86d06002b12ee1",
   "lastOpenFiles": [
     "네트워크/HTTP/서버 인증의 종류.md",
+    "네트워크/HTTP/프론트와 백엔드의 쿠키 공유.md",
     "면접 질문.md",
     "네트워크/HTTP/Status code가 body에도 들어가는 이유.md",
     "네트워크/HTTP/멱등성.md",
@@ -206,7 +208,6 @@
     "네트워크/HTTP/HTTP message의 구조.md",
     "네트워크/HTTP/CSRF.md",
     "네트워크/HTTP/CORS.md",
-    "네트워크/HTTP/프론트와 백엔드의 쿠키 공유.md",
     "멋쟁이 사자처럼 세미나 자료/6주차.md",
     "Spring/URI.md",
     "Spring/URL.md",
