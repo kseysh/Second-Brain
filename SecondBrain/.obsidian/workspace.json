@@ -13,13 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Spring/URI.md",
+                "file": "네트워크/HTTP/프론트와 백엔드의 쿠키 공유.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "793f5bfa279f025c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "네트워크/HTTP/서버 인증의 종류.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -48,7 +61,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "uri",
+                "query": "cors",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -65,8 +78,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -86,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Spring/URI.md",
+                "file": "네트워크/HTTP/서버 인증의 종류.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Spring/URI.md",
+                "file": "네트워크/HTTP/서버 인증의 종류.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Spring/URI.md"
+                "file": "네트워크/HTTP/서버 인증의 종류.md"
               }
             }
           },
@@ -169,10 +181,21 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "58f1b620f0f9ed22",
+  "active": "793f5bfa279f025c",
   "lastOpenFiles": [
-    "Spring/URL.md",
+    "네트워크/HTTP/Status code가 body에도 들어가는 이유.md",
+    "네트워크/HTTP/멱등성.md",
+    "네트워크/HTTP/JWT.md",
+    "네트워크/HTTP/Safe.md",
+    "네트워크/HTTP/HTTP 응답 코드.md",
+    "네트워크/HTTP/HTTP Method의 특징.md",
+    "네트워크/HTTP/HTTP message의 구조.md",
+    "네트워크/HTTP/CSRF.md",
+    "네트워크/HTTP/CORS.md",
+    "네트워크/HTTP/프론트와 백엔드의 쿠키 공유.md",
+    "멋쟁이 사자처럼 세미나 자료/6주차.md",
     "Spring/URI.md",
+    "Spring/URL.md",
     "Python/Django/RESTful API.md",
     "Python/Django/DRF/APIView.md",
     "Spring/AOP.md",
@@ -196,17 +219,6 @@
     "Attached files/KakaoTalk_20231201_171229771_01.jpg",
     "Attached files/KakaoTalk_20231201_171229771.jpg",
     "전공 공부/시스템 프로그래밍/20. Dynamic Memory Allocation.md",
-    "전공 공부/시스템 프로그래밍/10. Stack Structure.md",
-    "전공 공부/시스템 프로그래밍/중간고사/9. Conditional branches.md",
-    "전공 공부/시스템 프로그래밍/11. Calling Conventions- Passing Control.md",
-    "전공 공부/시스템 프로그래밍/12. Stack.md",
-    "전공 공부/시스템 프로그래밍/22. Exceptional Control Flow.md",
-    "전공 공부/시스템 프로그래밍/21. Memory-related perils and pitfalls.md",
-    "전공 공부/오픈소스응용프로그래밍/2-12. 소프트웨어 신뢰성을 위한 추가 방법들.md",
-    "Spring/JPA/BaseEntity.md",
-    "전공 공부/오픈소스응용프로그래밍/2-9. 화이트박스 테스팅 기법들.md",
-    "Spring/JPA/@ElementCollection.md",
-    "Spring/JPA/Controller에서는 엔티티 자체보다 엔티티의 식별자를 전달하자.md",
     "전공 공부/이산구조/중간고사",
     "전공 공부/시스템 프로그래밍/중간고사",
     "Develop/디자인 패턴/행위 패턴",
