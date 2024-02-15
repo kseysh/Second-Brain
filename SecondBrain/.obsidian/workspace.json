@@ -30,9 +30,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "bd86d06002b12ee1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "면접 질문.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -98,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "네트워크/HTTP/서버 인증의 종류.md",
+                "file": "면접 질문.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "네트워크/HTTP/서버 인증의 종류.md",
+                "file": "면접 질문.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "네트워크/HTTP/서버 인증의 종류.md"
+                "file": "면접 질문.md"
               }
             }
           },
@@ -181,8 +193,10 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "793f5bfa279f025c",
+  "active": "bd86d06002b12ee1",
   "lastOpenFiles": [
+    "네트워크/HTTP/서버 인증의 종류.md",
+    "면접 질문.md",
     "네트워크/HTTP/Status code가 body에도 들어가는 이유.md",
     "네트워크/HTTP/멱등성.md",
     "네트워크/HTTP/JWT.md",
@@ -207,7 +221,6 @@
     "전공 공부/지난 학기/DataStructure/Directed Graphs.md",
     "전공 공부/지난 학기/DataStructure/Graphs.md",
     "전공 공부/지난 학기/DataStructure/DFS - BFS.md",
-    "전공 공부/지난 학기/DataStructure/AVL Trees.md",
     "Attached files/Pasted image 20231201215003.png",
     "Attached files/Pasted image 20231201214924.png",
     "Attached files/Pasted image 20231201214910.png",
@@ -218,7 +231,6 @@
     "Attached files/KakaoTalk_20231201_182735177_01.jpg",
     "Attached files/KakaoTalk_20231201_171229771_01.jpg",
     "Attached files/KakaoTalk_20231201_171229771.jpg",
-    "전공 공부/시스템 프로그래밍/20. Dynamic Memory Allocation.md",
     "전공 공부/이산구조/중간고사",
     "전공 공부/시스템 프로그래밍/중간고사",
     "Develop/디자인 패턴/행위 패턴",
