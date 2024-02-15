@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "면접 질문.md",
+                "file": "Spring/싱글톤.md",
                 "mode": "source",
                 "source": false
               }
@@ -73,7 +73,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "redis",
+                "query": "싱글톤",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -95,7 +95,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "feabab388e8825fc",
@@ -111,7 +112,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "면접 질문.md",
+                "file": "Spring/싱글톤.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -128,7 +129,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "면접 질문.md",
+                "file": "Spring/싱글톤.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -151,7 +152,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "면접 질문.md"
+                "file": "Spring/싱글톤.md"
               }
             }
           },
@@ -196,8 +197,8 @@
   },
   "active": "bd86d06002b12ee1",
   "lastOpenFiles": [
-    "DB/In-memory DB.md",
     "면접 질문.md",
+    "DB/In-memory DB.md",
     "네트워크/HTTP/서버 인증의 종류.md",
     "네트워크/HTTP/프론트와 백엔드의 쿠키 공유.md",
     "네트워크/HTTP/Status code가 body에도 들어가는 이유.md",
