@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DB/낙관적 락.md",
+                "file": "Spring/동시성 문제를 해결하는 방법.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DB/낙관적 락.md",
+                "file": "Spring/동시성 문제를 해결하는 방법.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "DB/낙관적 락.md",
+                "file": "Spring/동시성 문제를 해결하는 방법.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DB/낙관적 락.md"
+                "file": "Spring/동시성 문제를 해결하는 방법.md"
               }
             }
           },
@@ -170,8 +170,8 @@
   },
   "active": "58f1b620f0f9ed22",
   "lastOpenFiles": [
-    "DB/비관적 락.md",
     "DB/낙관적 락.md",
+    "DB/비관적 락.md",
     "Spring/동시성 문제를 해결하는 방법.md",
     "Attached files/Pasted image 20240216142020.png",
     "Attached files/Pasted image 20240216141632.png",
