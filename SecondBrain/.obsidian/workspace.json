@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DB/MySQL vs. PostgreSQL.md",
+                "file": "Develop/개발 원칙/객체 지향 프로그래밍/추상화.md",
                 "mode": "source",
                 "source": false
               }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "개방 폐",
+                "query": "abstract",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DB/MySQL vs. PostgreSQL.md",
+                "file": "Develop/개발 원칙/객체 지향 프로그래밍/추상화.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "DB/MySQL vs. PostgreSQL.md",
+                "file": "Develop/개발 원칙/객체 지향 프로그래밍/추상화.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DB/MySQL vs. PostgreSQL.md"
+                "file": "Develop/개발 원칙/객체 지향 프로그래밍/추상화.md"
               }
             }
           },
@@ -169,16 +169,20 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "98b99bcebe54855a",
+  "active": "58f1b620f0f9ed22",
   "lastOpenFiles": [
-    "Spring/동시성 문제를 해결하는 방법.md",
+    "JAVA/자바의 정석/제어자.md",
+    "면접 질문.md",
+    "Develop/개발 원칙/객체 지향 프로그래밍/객체 지향의 5대 설계 원칙 (SOLID).md",
+    "Develop/개발 원칙/객체 지향 프로그래밍/인터페이스 분리 원칙.md",
+    "Develop/개발 원칙/객체 지향 프로그래밍/리스코브 치환의 원칙.md",
     "DB/MySQL vs. PostgreSQL.md",
+    "Spring/동시성 문제를 해결하는 방법.md",
     "DB/낙관적 락.md",
     "DB/비관적 락.md",
     "Attached files/Pasted image 20240216142020.png",
     "Attached files/Pasted image 20240216141632.png",
     "Attached files/Pasted image 20240216141604.png",
-    "면접 질문.md",
     "네트워크/HTTP/프론트와 백엔드의 쿠키 공유.md",
     "네트워크/HTTP/서버 인증의 종류.md",
     "Spring/싱글톤.md",
@@ -197,10 +201,6 @@
     "Spring/URI.md",
     "Spring/URL.md",
     "Python/Django/RESTful API.md",
-    "Python/Django/DRF/APIView.md",
-    "Spring/AOP.md",
-    "Python/Call by value.md",
-    "Python/Call by reference.md",
     "Attached files/Pasted image 20231201215003.png",
     "Attached files/Pasted image 20231201214924.png",
     "Attached files/Pasted image 20231201214910.png",
