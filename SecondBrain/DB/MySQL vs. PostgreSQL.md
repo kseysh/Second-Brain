@@ -35,8 +35,13 @@
 
 **최상의 다중 버전 동시성 제어(MVCC)가 필요할 때:** MVCC는 기업이 PostgreSQL을 선택하는 가장 중요한 이유 중 하나입니다. MVCC를 사용하면 서로 다른 읽기 및 쓰기 사용자가 동시에 PostgreSQL 데이터베이스와 상호 작용하고 관리할 수 있습니다. 따라서 누군가가 데이터와 상호 작용해야 할 때마다 읽기-쓰기 잠금을 설정할 필요가 없으므로 효율성이 향상됩니다. MVCC는 "스냅샷 격리"를 통해 이를 실현합니다. 스냅샷은 특정 시점의 데이터 상태를 나타냅니다. 최신 버전의 MySQL도 MYVCC를 제공하지만, 일반적으로 MVCC에는 PostgreSQL이 가장 적합합니다.
 
-**최고 수준의 ACID 규정 준수가 필요할 때:** PostgreSQL은 데이터 손상을 방지하고 트랜잭션 수준에서 데이터의 무결성을 보존합니다. 여기에서 [PostgreSQL의 ACID 규정 준수의 가치](https://people.apache.org/~jim/NewArchitect/webtech/2001/09/jepson/index.html)에 대해 자세히 알아보세요.
+**최고 수준의 ACID 규정 준수가 필요할 때:** PostgreSQL은 데이터 손상을 방지하고 트랜잭션 수준에서 데이터의 무결성을 보존합니다.
 
 **개발팀에 PostgreSQL 기술이 있을 때:** PostgreSQL은 배우기 어려운 데이터베이스이므로 팀원들이 이 기술을 다룰 준비가 되어 있는지 확인하세요.
 
-**REST API에 대한 지원을 원할 때:** PostgreSQL은 PostgREST REST API를 제공합니다. PostgreSQL 웹사이트에 따르면 "PostgREST는 독립형 웹 서버로, PostgreSQL 데이터베이스를 RESTful API로 직접 변환합니다. 데이터베이스의 구조적 제약 조건과 권한에 따라 API 엔드포인트와 작업이 결정됩니다." 참고로, MySQL에 대해 유사한 기능을 원한다면 [DreamFactory](https://blog.dreamfactory.com/restful-api-and-microservices-the-differences-and-how-they-work-together/?__hstc=114807128.4104c3747c79b7c199ce8baad6a00167.1708063650063.1708063650063.1708063650063.1&__hssc=114807128.1.1708063650063&__hsfp=913730054&_gl=1*u443wl*_gcl_au*MTg3MzgxOTgwOC4xNjk2NTY2MjI5&_ga=2.124444618.119108794.1696903940-1811051354.1696566229)와 같은 다른 도구와 프레임워크를 사용하여 MySQL 데이터베이스용 RESTful API를 만들 수 있습니다.
+**REST API에 대한 지원을 원할 때:** PostgreSQL은 PostgREST REST API를 제공합니다. PostgreSQL 웹사이트에 따르면 "PostgREST는 독립형 웹 서버로, PostgreSQL 데이터베이스를 RESTful API로 직접 변환합니다. 데이터베이스의 구조적 제약 조건과 권한에 따라 API 엔드포인트와 작업이 결정됩니다."
+
+
+# 결론
+- 복잡한 쿼리와 대규모 데이터베이스를 처리할 수 있는 풍부한 기능을 갖춘 데이터베이스가 필요하신가요? 확장성 면에서 Postgres를 선택하는 것이 좋습니다.
+- 설정 및 관리가 쉽고, 빠르고, 안정적이며, 이해도가 높은 더 간단한 데이터베이스가 필요하신가요? MySQL이 최적입니다.
