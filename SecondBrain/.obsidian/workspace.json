@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Develop/개발 원칙/객체 지향 프로그래밍/추상화.md",
+                "file": "JAVA/자바의 정석/abstract.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Develop/개발 원칙/객체 지향 프로그래밍/추상화.md",
+                "file": "JAVA/자바의 정석/abstract.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Develop/개발 원칙/객체 지향 프로그래밍/추상화.md",
+                "file": "JAVA/자바의 정석/abstract.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Develop/개발 원칙/객체 지향 프로그래밍/추상화.md"
+                "file": "JAVA/자바의 정석/abstract.md"
               }
             }
           },
@@ -171,6 +171,7 @@
   },
   "active": "58f1b620f0f9ed22",
   "lastOpenFiles": [
+    "Develop/개발 원칙/객체 지향 프로그래밍/추상화.md",
     "JAVA/자바의 정석/제어자.md",
     "면접 질문.md",
     "Develop/개발 원칙/객체 지향 프로그래밍/객체 지향의 5대 설계 원칙 (SOLID).md",
@@ -200,7 +201,6 @@
     "멋쟁이 사자처럼 세미나 자료/6주차.md",
     "Spring/URI.md",
     "Spring/URL.md",
-    "Python/Django/RESTful API.md",
     "Attached files/Pasted image 20231201215003.png",
     "Attached files/Pasted image 20231201214924.png",
     "Attached files/Pasted image 20231201214910.png",
