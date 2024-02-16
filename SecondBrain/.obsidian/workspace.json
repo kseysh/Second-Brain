@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Spring/동시성 문제를 해결하는 방법.md",
+                "file": "DB/낙관적 락.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Spring/동시성 문제를 해결하는 방법.md",
+                "file": "DB/낙관적 락.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Spring/동시성 문제를 해결하는 방법.md",
+                "file": "DB/낙관적 락.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Spring/동시성 문제를 해결하는 방법.md"
+                "file": "DB/낙관적 락.md"
               }
             }
           },
@@ -170,10 +170,13 @@
   },
   "active": "58f1b620f0f9ed22",
   "lastOpenFiles": [
+    "DB/비관적 락.md",
+    "DB/낙관적 락.md",
+    "Spring/동시성 문제를 해결하는 방법.md",
+    "Attached files/Pasted image 20240216142020.png",
     "Attached files/Pasted image 20240216141632.png",
     "Attached files/Pasted image 20240216141604.png",
     "면접 질문.md",
-    "Spring/동시성 문제를 해결하는 방법.md",
     "네트워크/HTTP/프론트와 백엔드의 쿠키 공유.md",
     "네트워크/HTTP/서버 인증의 종류.md",
     "Spring/싱글톤.md",
@@ -197,15 +200,12 @@
     "Python/Call by value.md",
     "Python/Call by reference.md",
     "전공 공부/이산구조/10. 그래프.md",
-    "전공 공부/이산구조/11. 트리.md",
     "Attached files/Pasted image 20231201215003.png",
     "Attached files/Pasted image 20231201214924.png",
     "Attached files/Pasted image 20231201214910.png",
     "Attached files/Pasted image 20231201183139.png",
     "Attached files/Pasted image 20231201183023.png",
     "Attached files/KakaoTalk_20231201_182735177.jpg",
-    "Attached files/KakaoTalk_20231201_182735177_02.jpg",
-    "Attached files/KakaoTalk_20231201_182735177_01.jpg",
     "전공 공부/이산구조/중간고사",
     "전공 공부/시스템 프로그래밍/중간고사",
     "Develop/디자인 패턴/행위 패턴",
