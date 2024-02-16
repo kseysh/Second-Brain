@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Develop/코드 리뷰/코드리뷰의 기술적 팁들.md",
+                "file": "멋쟁이 사자처럼 세미나 자료/3주차.md",
                 "mode": "source",
                 "source": false
               }
@@ -65,8 +65,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -86,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Develop/코드 리뷰/코드리뷰의 기술적 팁들.md",
+                "file": "멋쟁이 사자처럼 세미나 자료/3주차.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Develop/코드 리뷰/코드리뷰의 기술적 팁들.md",
+                "file": "멋쟁이 사자처럼 세미나 자료/3주차.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Develop/코드 리뷰/코드리뷰의 기술적 팁들.md"
+                "file": "멋쟁이 사자처럼 세미나 자료/3주차.md"
               }
             }
           },
@@ -171,8 +170,9 @@
   },
   "active": "58f1b620f0f9ed22",
   "lastOpenFiles": [
-    "멋쟁이 사자처럼 세미나 자료/주차별 예상 세션.md",
     "멋쟁이 사자처럼 세미나 자료/1주차.md",
+    "멋쟁이 사자처럼 세미나 자료/주차별 예상 세션.md",
+    "Develop/코드 리뷰/코드리뷰의 기술적 팁들.md",
     "JAVA/자바의 정석/abstract.md",
     "Develop/개발 원칙/객체 지향 프로그래밍/추상화.md",
     "JAVA/자바의 정석/제어자.md",
@@ -200,7 +200,6 @@
     "네트워크/HTTP/HTTP Method의 특징.md",
     "네트워크/HTTP/HTTP message의 구조.md",
     "네트워크/HTTP/CSRF.md",
-    "네트워크/HTTP/CORS.md",
     "Attached files/Pasted image 20231201215003.png",
     "Attached files/Pasted image 20231201214924.png",
     "Attached files/Pasted image 20231201214910.png",
