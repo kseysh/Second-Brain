@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "a2dc2022155485fb",
+        "id": "8c2cb8540a26e746",
         "type": "tabs",
         "children": [
           {
-            "id": "86c367c79568cbb6",
+            "id": "385dd4dff5a2fc5d",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -160,7 +160,7 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "86c367c79568cbb6",
+  "active": "385dd4dff5a2fc5d",
   "lastOpenFiles": [
     "임시.md",
     "JAVA/와일드카드를 포함하는 반환타입을 사용하면 안되는 이유.md",
