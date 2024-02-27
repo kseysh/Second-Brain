@@ -11,8 +11,12 @@
             "id": "385dd4dff5a2fc5d",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Git/GIT 스터디/upstream.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Git/GIT 스터디/upstream.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Git/GIT 스터디/upstream.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Git/GIT 스터디/upstream.md"
+              }
             }
           },
           {
@@ -162,36 +170,36 @@
   },
   "active": "385dd4dff5a2fc5d",
   "lastOpenFiles": [
+    "Git/GIT 스터디/squash and merge.md",
+    "Git/GIT 스터디/revert.md",
+    "Git/GIT 스터디/reset.md",
+    "Git/GIT 스터디/reflog.md",
+    "Git/GIT 스터디/rebase.md",
+    "Git/GIT 스터디/rebase and merge.md",
+    "Git/GIT 스터디/gitignore를 통해 레포 안의 파일 삭제하기.md",
+    "Git/GIT 스터디/pull.md",
+    "Git/GIT 스터디/git commit.md",
+    "Git/GIT 스터디/fast-forward merge.md",
+    "Git/GIT 스터디/fetch.md",
+    "Git/GIT 스터디/downstream.md",
+    "Git/GIT 스터디/commit 상대 참조.md",
+    "Git/GIT 스터디/clone.md",
+    "Git/GIT 스터디/cherry-pick.md",
+    "Git/GIT 스터디/Git의 3가지 영역.md",
+    "Git/GIT 스터디/GIT의 4가지 상태.md",
+    "Git/GIT 스터디/3-way-merge.md",
+    "Git/GIT 스터디/upstream.md",
+    "Git/커밋 메시지 작성 방법.md",
     "임시.md",
     "JAVA/와일드카드를 포함하는 반환타입을 사용하면 안되는 이유.md",
     "독서록/읽고 싶은 책 List.md",
     "면접 질문.md",
     "DB/In-memory DB.md",
     "Spring/동시성 문제를 해결하는 방법.md",
-    "DB/낙관적 락.md",
-    "DB/비관적 락.md",
-    "DB/MySQL vs. PostgreSQL.md",
-    "JAVA/자바의 정석/제어자.md",
-    "Develop/개발 원칙/객체 지향 프로그래밍/추상화.md",
-    "JAVA/자바의 정석/abstract.md",
-    "멋쟁이 사자처럼 세미나 자료/1주차.md",
-    "멋쟁이 사자처럼 세미나 자료/주차별 예상 세션.md",
-    "Develop/코드 리뷰/코드리뷰의 기술적 팁들.md",
-    "멋쟁이 사자처럼 세미나 자료/3주차.md",
-    "Develop/개발 원칙/객체 지향 프로그래밍/객체 지향의 5대 설계 원칙 (SOLID).md",
-    "Develop/개발 원칙/객체 지향 프로그래밍/인터페이스 분리 원칙.md",
-    "Develop/개발 원칙/객체 지향 프로그래밍/리스코브 치환의 원칙.md",
     "Attached files/Pasted image 20240216142020.png",
     "Attached files/Pasted image 20240216141632.png",
     "Attached files/Pasted image 20240216141604.png",
-    "네트워크/HTTP/프론트와 백엔드의 쿠키 공유.md",
-    "네트워크/HTTP/서버 인증의 종류.md",
-    "Spring/싱글톤.md",
     "Attached files/Pasted image 20240215203840.png",
-    "네트워크/HTTP/Status code가 body에도 들어가는 이유.md",
-    "네트워크/HTTP/멱등성.md",
-    "네트워크/HTTP/JWT.md",
-    "네트워크/HTTP/Safe.md",
     "Attached files/Pasted image 20231201215003.png",
     "Attached files/Pasted image 20231201214924.png",
     "Attached files/Pasted image 20231201214910.png",
