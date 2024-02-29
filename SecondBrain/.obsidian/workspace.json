@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Develop/Architecture/Layered architecture.md",
+                "file": "Develop/디자인 패턴/구조 패턴/Facade Pattern.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Develop/Architecture/Layered architecture.md",
+                "file": "Develop/디자인 패턴/구조 패턴/Facade Pattern.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Develop/Architecture/Layered architecture.md",
+                "file": "Develop/디자인 패턴/구조 패턴/Facade Pattern.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Develop/Architecture/Layered architecture.md"
+                "file": "Develop/디자인 패턴/구조 패턴/Facade Pattern.md"
               }
             }
           },
@@ -170,9 +170,10 @@
   },
   "active": "385dd4dff5a2fc5d",
   "lastOpenFiles": [
+    "Attached files/Pasted image 20240229171901.png",
+    "Develop/Architecture/Layered architecture.md",
     "Develop/디자인 패턴/구조 패턴/Facade Pattern.md",
     "Develop/Architecture/Facade Layer.md",
-    "Develop/Architecture/Layered architecture.md",
     "Chatgpt/Chatgpt prompt.md",
     "Develop/Architecture",
     "전공 공부/지난 학기/오픈소스응용프로그래밍/2-10. 구글의 테스트 기준, 구글 테스트 프레임워크.md",
@@ -196,7 +197,6 @@
     "Git/GIT 스터디/Git의 3가지 영역.md",
     "Git/GIT 스터디/GIT의 4가지 상태.md",
     "Git/GIT 스터디/3-way-merge.md",
-    "Git/커밋 메시지 작성 방법.md",
     "Attached files/Pasted image 20240216142020.png",
     "Attached files/Pasted image 20240216141632.png",
     "Attached files/Pasted image 20240216141604.png",
