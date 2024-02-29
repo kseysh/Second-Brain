@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AWS/PreSigned Url.md",
+                "file": "Develop/Auth/SSO.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "AWS/PreSigned Url.md",
+                "file": "Develop/Auth/SSO.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "AWS/PreSigned Url.md",
+                "file": "Develop/Auth/SSO.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "AWS/PreSigned Url.md"
+                "file": "Develop/Auth/SSO.md"
               }
             }
           },
@@ -170,10 +170,20 @@
   },
   "active": "385dd4dff5a2fc5d",
   "lastOpenFiles": [
+    "Develop/Parameter와 Argument의 차이.md",
+    "Develop/Auth/SSO.md",
+    "Develop/Auth",
+    "Develop/프레임워크 vs 라이브러리.md",
+    "Develop/좋은 함수 만들기.md",
+    "Develop/의존성.md",
+    "Develop/객체의 상속과 합성 (미완성).md",
+    "Develop/다대다 관계 풀어주기.md",
+    "JAVA/final을 사용해야 하는 이유.md",
+    "Develop/개발 시 유용한 단축키 모음.md",
+    "AWS/PreSigned Url.md",
     "Attached files/Pasted image 20240229173442.png",
     "Attached files/Pasted image 20240229173106.png",
     "Develop/디자인 패턴/구조 패턴/Facade Pattern.md",
-    "AWS/PreSigned Url.md",
     "AWS",
     "Attached files/Pasted image 20240229171901.png",
     "Develop/Architecture/Layered architecture.md",
@@ -192,14 +202,6 @@
     "Git/GIT 스터디/gitignore를 통해 레포 안의 파일 삭제하기.md",
     "Git/GIT 스터디/pull.md",
     "Git/GIT 스터디/git commit.md",
-    "Git/GIT 스터디/fast-forward merge.md",
-    "Git/GIT 스터디/fetch.md",
-    "Git/GIT 스터디/downstream.md",
-    "Git/GIT 스터디/commit 상대 참조.md",
-    "Git/GIT 스터디/clone.md",
-    "Git/GIT 스터디/cherry-pick.md",
-    "Git/GIT 스터디/Git의 3가지 영역.md",
-    "Git/GIT 스터디/GIT의 4가지 상태.md",
     "Attached files/Pasted image 20240216142020.png",
     "Attached files/Pasted image 20240216141632.png",
     "Attached files/Pasted image 20240216141604.png",
@@ -207,7 +209,6 @@
     "Attached files/Pasted image 20231201215003.png",
     "Attached files/Pasted image 20231201214924.png",
     "Attached files/Pasted image 20231201214910.png",
-    "Attached files/Pasted image 20231201183139.png",
     "전공 공부/이산구조/중간고사",
     "전공 공부/시스템 프로그래밍/중간고사",
     "Develop/디자인 패턴/행위 패턴",
@@ -215,7 +216,6 @@
     "Develop/디자인 패턴/구조 패턴",
     "전공 공부/오픈소스응용프로그래밍/중간고사",
     "Spring/어노테이션/Test",
-    "Spring/무제 폴더",
     "무제 파일.canvas"
   ]
 }
