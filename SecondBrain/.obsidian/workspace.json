@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Develop/Auth/OAuth.md",
+                "file": "Develop/Auth/SSO.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Develop/Auth/OAuth.md",
+                "file": "Develop/Auth/SSO.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Develop/Auth/OAuth.md",
+                "file": "Develop/Auth/SSO.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Develop/Auth/OAuth.md"
+                "file": "Develop/Auth/SSO.md"
               }
             }
           },
@@ -170,8 +170,9 @@
   },
   "active": "385dd4dff5a2fc5d",
   "lastOpenFiles": [
-    "Develop/Auth/SSO.md",
     "Develop/Auth/OAuth.md",
+    "Attached files/Pasted image 20240229181906.png",
+    "Develop/Auth/SSO.md",
     "Develop/Parameter와 Argument의 차이.md",
     "Develop/Auth",
     "Develop/프레임워크 vs 라이브러리.md",
@@ -201,14 +202,12 @@
     "Git/GIT 스터디/rebase.md",
     "Git/GIT 스터디/rebase and merge.md",
     "Git/GIT 스터디/gitignore를 통해 레포 안의 파일 삭제하기.md",
-    "Git/GIT 스터디/pull.md",
     "Attached files/Pasted image 20240216142020.png",
     "Attached files/Pasted image 20240216141632.png",
     "Attached files/Pasted image 20240216141604.png",
     "Attached files/Pasted image 20240215203840.png",
     "Attached files/Pasted image 20231201215003.png",
     "Attached files/Pasted image 20231201214924.png",
-    "Attached files/Pasted image 20231201214910.png",
     "전공 공부/이산구조/중간고사",
     "전공 공부/시스템 프로그래밍/중간고사",
     "Develop/디자인 패턴/행위 패턴",
