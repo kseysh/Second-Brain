@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Develop/Auth/SSO.md",
+                "file": "Develop/Auth/OAuth.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Develop/Auth/SSO.md",
+                "file": "Develop/Auth/OAuth.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Develop/Auth/SSO.md",
+                "file": "Develop/Auth/OAuth.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Develop/Auth/SSO.md"
+                "file": "Develop/Auth/OAuth.md"
               }
             }
           },
@@ -170,8 +170,9 @@
   },
   "active": "385dd4dff5a2fc5d",
   "lastOpenFiles": [
-    "Develop/Parameter와 Argument의 차이.md",
     "Develop/Auth/SSO.md",
+    "Develop/Auth/OAuth.md",
+    "Develop/Parameter와 Argument의 차이.md",
     "Develop/Auth",
     "Develop/프레임워크 vs 라이브러리.md",
     "Develop/좋은 함수 만들기.md",
@@ -201,7 +202,6 @@
     "Git/GIT 스터디/rebase and merge.md",
     "Git/GIT 스터디/gitignore를 통해 레포 안의 파일 삭제하기.md",
     "Git/GIT 스터디/pull.md",
-    "Git/GIT 스터디/git commit.md",
     "Attached files/Pasted image 20240216142020.png",
     "Attached files/Pasted image 20240216141632.png",
     "Attached files/Pasted image 20240216141604.png",
