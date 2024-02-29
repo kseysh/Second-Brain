@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AWS/PreSigned Url.md",
+                "file": "IDEA/hmh 변경점 아이디어 고민.md",
                 "mode": "source",
                 "source": false
               }
@@ -65,8 +65,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -86,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "AWS/PreSigned Url.md",
+                "file": "IDEA/hmh 변경점 아이디어 고민.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "AWS/PreSigned Url.md",
+                "file": "IDEA/hmh 변경점 아이디어 고민.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "AWS/PreSigned Url.md"
+                "file": "IDEA/hmh 변경점 아이디어 고민.md"
               }
             }
           },
@@ -169,8 +168,10 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "98b99bcebe54855a",
+  "active": "385dd4dff5a2fc5d",
   "lastOpenFiles": [
+    "AWS/PreSigned Url.md",
+    "IDEA/hmh 변경점 아이디어 고민.md",
     "DB/비관적 락.md",
     "ERROR_Diary/nginx 502 error.md",
     "ERROR_Diary/Spring/Error creating bean with name 'entityManagerFactory' defined in class path resource.md",
@@ -197,8 +198,6 @@
     "Attached files/Pasted image 20240229181906.png",
     "Develop/Parameter와 Argument의 차이.md",
     "Develop/Auth",
-    "Develop/프레임워크 vs 라이브러리.md",
-    "Develop/좋은 함수 만들기.md",
     "Attached files/Pasted image 20240229173442.png",
     "Attached files/Pasted image 20240229173106.png",
     "AWS",
