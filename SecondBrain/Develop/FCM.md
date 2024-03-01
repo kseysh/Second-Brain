@@ -1,5 +1,5 @@
 # FCM ( Firebase - Cloud - Messaging )
-
+![[Pasted image 20240301205054.png]]
 - 무료로 메시지를 안정적으로 전송할 수 있는 교차 플랫폼 메시징 솔루션
 
 FCM이 제공하는 **주요 기능**
