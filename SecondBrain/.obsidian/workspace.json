@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "IDEA/hmh 변경점 아이디어 고민.md",
+                "file": "Develop/Auth/SSO.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "IDEA/hmh 변경점 아이디어 고민.md",
+                "file": "Develop/Auth/SSO.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "IDEA/hmh 변경점 아이디어 고민.md",
+                "file": "Develop/Auth/SSO.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "IDEA/hmh 변경점 아이디어 고민.md"
+                "file": "Develop/Auth/SSO.md"
               }
             }
           },
@@ -170,33 +170,33 @@
   },
   "active": "385dd4dff5a2fc5d",
   "lastOpenFiles": [
+    "Develop/디자인 패턴/구조 패턴/Facade Pattern.md",
+    "Develop/Architecture/Layered architecture.md",
     "AWS/PreSigned Url.md",
-    "IDEA/hmh 변경점 아이디어 고민.md",
-    "DB/비관적 락.md",
-    "ERROR_Diary/nginx 502 error.md",
-    "ERROR_Diary/Spring/Error creating bean with name 'entityManagerFactory' defined in class path resource.md",
-    "ERROR_Diary/GIT/미해결 - there isn’t anything to compare.md",
-    "ERROR_Diary/docker/denied - requested access to the resource is denied.md",
-    "ERROR_Diary/docker/Unit docker.service could not be found.md",
-    "ERROR_Diary/docker/Docker file exited.md",
-    "Git/커밋 메시지 작성 방법.md",
-    "IDEA/아이디에이션 방법/유저 찾기.md",
-    "IDEA/아이디에이션 방법/가장 작은 단위로 아이디어 전개.md",
-    "IDEA/아이디에이션 방법/5 whys.md",
-    "IDEA/아이디어 폴더/카페 아이디어.md",
-    "IDEA/아이디어 폴더/우테코.md",
-    "IDEA/아이디어 폴더/서비스 아이디어.md",
-    "IDEA/아이디어 폴더/메이커스 아이디어.md",
+    "JAVA/final을 사용해야 하는 이유.md",
+    "Develop/객체의 상속과 합성 (미완성).md",
+    "Develop/의존성.md",
+    "Develop/좋은 함수 만들기.md",
+    "Develop/프레임워크 vs 라이브러리.md",
+    "Develop/Parameter와 Argument의 차이.md",
+    "Develop/Auth/SSO.md",
+    "독서록/읽고 싶은 책 List.md",
+    "독서록/자기 계발/1만 시간의 재발견.md",
     "독서록/개발 관련 도서/구글 엔지니어는 이렇게 일한다 - 1.md",
     "독서록/개발 관련 도서/구글 엔지니어는 이렇게 일한다 - 2.md",
-    "독서록/개발 관련 도서/개발자의 글쓰기.md",
-    "독서록/자기 계발/1만 시간의 재발견.md",
-    "독서록/읽고 싶은 책 List.md",
-    "Develop/Auth/SSO.md",
-    "면접 질문.md",
-    "Develop/Auth/OAuth.md",
+    "IDEA/아이디어 폴더/메이커스 아이디어.md",
+    "IDEA/아이디어 폴더/서비스 아이디어.md",
+    "IDEA/아이디어 폴더/우테코.md",
+    "IDEA/아이디어 폴더/카페 아이디어.md",
+    "IDEA/아이디에이션 방법/5 whys.md",
+    "IDEA/아이디에이션 방법/가장 작은 단위로 아이디어 전개.md",
+    "IDEA/아이디에이션 방법/유저 찾기.md",
+    "Git/커밋 메시지 작성 방법.md",
+    "ERROR_Diary/docker/Docker file exited.md",
+    "ERROR_Diary/docker/Unit docker.service could not be found.md",
+    "ERROR_Diary/docker/denied - requested access to the resource is denied.md",
+    "ERROR_Diary/GIT/미해결 - there isn’t anything to compare.md",
     "Attached files/Pasted image 20240229181906.png",
-    "Develop/Parameter와 Argument의 차이.md",
     "Develop/Auth",
     "Attached files/Pasted image 20240229173442.png",
     "Attached files/Pasted image 20240229173106.png",
