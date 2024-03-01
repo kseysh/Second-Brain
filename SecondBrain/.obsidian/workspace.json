@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Develop/Auth/SSO.md",
+                "file": "Develop/FCM.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Develop/Auth/SSO.md",
+                "file": "Develop/FCM.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Develop/Auth/SSO.md",
+                "file": "Develop/FCM.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Develop/Auth/SSO.md"
+                "file": "Develop/FCM.md"
               }
             }
           },
@@ -170,6 +170,8 @@
   },
   "active": "385dd4dff5a2fc5d",
   "lastOpenFiles": [
+    "Develop/Auth/SSO.md",
+    "Develop/FCM.md",
     "Develop/디자인 패턴/구조 패턴/Facade Pattern.md",
     "Develop/Architecture/Layered architecture.md",
     "AWS/PreSigned Url.md",
@@ -179,7 +181,6 @@
     "Develop/좋은 함수 만들기.md",
     "Develop/프레임워크 vs 라이브러리.md",
     "Develop/Parameter와 Argument의 차이.md",
-    "Develop/Auth/SSO.md",
     "독서록/읽고 싶은 책 List.md",
     "독서록/자기 계발/1만 시간의 재발견.md",
     "독서록/개발 관련 도서/구글 엔지니어는 이렇게 일한다 - 1.md",
@@ -195,7 +196,6 @@
     "ERROR_Diary/docker/Docker file exited.md",
     "ERROR_Diary/docker/Unit docker.service could not be found.md",
     "ERROR_Diary/docker/denied - requested access to the resource is denied.md",
-    "ERROR_Diary/GIT/미해결 - there isn’t anything to compare.md",
     "Attached files/Pasted image 20240229181906.png",
     "Develop/Auth",
     "Attached files/Pasted image 20240229173442.png",
