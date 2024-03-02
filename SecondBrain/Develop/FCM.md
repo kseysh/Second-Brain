@@ -50,3 +50,6 @@ FCM의 공식 레퍼런스에서는 FCM을 사용하는 서버의 경우 **다�
 
 # 참고
 https://zuminternet.github.io/FCM-PUSH/
+
+
+![[Pasted image 20240302205814.png]]
