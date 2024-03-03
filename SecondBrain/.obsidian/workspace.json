@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Develop/FCM.md",
+                "file": "Spring/MapStruct.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Develop/FCM.md",
+                "file": "Spring/MapStruct.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Develop/FCM.md",
+                "file": "Spring/MapStruct.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Develop/FCM.md"
+                "file": "Spring/MapStruct.md"
               }
             }
           },
@@ -170,10 +170,11 @@
   },
   "active": "385dd4dff5a2fc5d",
   "lastOpenFiles": [
+    "Develop/FCM.md",
+    "Spring/MapStruct.md",
     "Attached files/Pasted image 20240302205814.png",
     "Attached files/Pasted image 20240301205054.png",
     "Develop/Auth/SSO.md",
-    "Develop/FCM.md",
     "Develop/디자인 패턴/구조 패턴/Facade Pattern.md",
     "Develop/Architecture/Layered architecture.md",
     "AWS/PreSigned Url.md",
@@ -208,7 +209,6 @@
     "Attached files/Pasted image 20240216141632.png",
     "Attached files/Pasted image 20240216141604.png",
     "Attached files/Pasted image 20240215203840.png",
-    "Attached files/Pasted image 20231201215003.png",
     "전공 공부/이산구조/중간고사",
     "전공 공부/시스템 프로그래밍/중간고사",
     "Develop/디자인 패턴/행위 패턴",
