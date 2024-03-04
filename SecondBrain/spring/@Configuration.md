@@ -1,5 +1,9 @@
-스프링 컨테이너는 싱글톤 레지스트리다. 따라서 스프링 빈이 싱글톤이 되도록 보장해주어야 한다. 그런데 스프링이 자바 코드까지 어떻게 하기는 어렵다.  그래서 스프링은 클래스의 바이트코드를 조작하는 라이브러리를 사용한다.\
+스프링 컨테이너는 싱글톤 레지스트리다. 따라서 스프링 빈이 싱글톤이 되도록 보장해주어야 한다. 그런데 스프링이 자바 코드까지 어떻게 하기는 어렵다.  그래서 스프링은 클래스의 바이트코드를 조작하는 라이브러리를 사용한다.
 
-@Bean을 호출해서 스프링 빈을 생성할 때, memberRepository가 아래와 같이 호출 될 때, 
-1. 스프링 컨테이너가 스프링 빈에 등록하기 위해 `@Bean`이 붙어있는 memberRepository()호출
-2. memberService()로직
+# 스프링 빈, 어떻게 싱글톤으로 유지되었을까?
+@Bean을 호출해서 스프링 빈을 생성할 때, `memberRepository`가 아래와 같이 호출 될 때, 
+1. 스프링 컨테이너가 스프링 빈에 등록하기 위해 `@Bean`이 붙어있는 `memberRepository()`호출
+2. `memberService()`로직에서 `memberRepository()`호출
+3. `orderService()`로직에서 `memberRepository()`호출
+memberService, orderService, memberRepository를 모두 호출하게 되면 new MemberRepository가 세 번 호출될텐데, 검증해보면 memberRepository는 new를 이용해 한 번만 생성되게 된다. 어떻게 한 번만 생성되게 되었을까?
+
