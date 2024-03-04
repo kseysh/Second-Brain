@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Spring/싱글톤.md",
+                "file": "Python/리스트의 얕은 복사와 깊은 복사.md",
                 "mode": "source",
                 "source": false
               }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "싱글톤",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -65,8 +65,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -86,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Spring/싱글톤.md",
+                "file": "Python/리스트의 얕은 복사와 깊은 복사.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Spring/싱글톤.md",
+                "file": "Python/리스트의 얕은 복사와 깊은 복사.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Spring/싱글톤.md"
+                "file": "Python/리스트의 얕은 복사와 깊은 복사.md"
               }
             }
           },
@@ -171,34 +170,34 @@
   },
   "active": "385dd4dff5a2fc5d",
   "lastOpenFiles": [
-    "Spring/싱글톤 컨테이너.md",
-    "Spring/싱글톤.md",
-    "Spring/DI 컨테이너.md",
-    "Spring/MapStruct.md",
-    "Develop/FCM.md",
+    "Python/Pass By Assignment.md",
+    "Python/Call by value.md",
+    "Python/Call by reference.md",
+    "Python/Django/참조.md",
+    "Python/Django/역참조.md",
+    "Python/Django/url의 상대경로와 절대경로.md",
+    "Python/Django/request의 의미와 기능.md",
+    "Python/Django/Session.md",
+    "Python/Django/RESTful API.md",
+    "Python/Django/null = True와 blank = True의 차이.md",
+    "Python/Django/Foreign Key와 참조와 역참조.md",
+    "Python/Django/View/render, redirect의 차이점.md",
+    "Python/Django/View/get과 filter의 차이.md",
+    "Python/Django/View/Path Variable과 Query Parameter.md",
+    "Python/Django/View/Generic views.md",
+    "Python/Django/DRF/ViewSet.md",
+    "Python/Django/DRF/Serializer.md",
+    "Python/Django/DRF/Router.md",
+    "Python/Django/DRF/Authentication.md",
+    "Python/Django/DRF/APIView.md",
+    "Python/Django/AUTH/JWT를 이용한 회원가입 및 로그인.md",
+    "Python/Django/AUTH/django 카카오 소셜 로그인.md",
+    "Python/Django/배포/장고 배포시 유의해야 할 점.md",
+    "Python/Django/배포/업스트림 서버.md",
+    "Python/Django/배포/로드밸런싱.md",
+    "Python/Django/배포/nginx.md",
     "Attached files/Pasted image 20240302205814.png",
     "Attached files/Pasted image 20240301205054.png",
-    "Develop/Auth/SSO.md",
-    "Develop/디자인 패턴/구조 패턴/Facade Pattern.md",
-    "Develop/Architecture/Layered architecture.md",
-    "AWS/PreSigned Url.md",
-    "JAVA/final을 사용해야 하는 이유.md",
-    "Develop/객체의 상속과 합성 (미완성).md",
-    "Develop/의존성.md",
-    "Develop/좋은 함수 만들기.md",
-    "Develop/프레임워크 vs 라이브러리.md",
-    "Develop/Parameter와 Argument의 차이.md",
-    "독서록/읽고 싶은 책 List.md",
-    "독서록/자기 계발/1만 시간의 재발견.md",
-    "독서록/개발 관련 도서/구글 엔지니어는 이렇게 일한다 - 1.md",
-    "독서록/개발 관련 도서/구글 엔지니어는 이렇게 일한다 - 2.md",
-    "IDEA/아이디어 폴더/메이커스 아이디어.md",
-    "IDEA/아이디어 폴더/서비스 아이디어.md",
-    "IDEA/아이디어 폴더/우테코.md",
-    "IDEA/아이디어 폴더/카페 아이디어.md",
-    "IDEA/아이디에이션 방법/5 whys.md",
-    "IDEA/아이디에이션 방법/가장 작은 단위로 아이디어 전개.md",
-    "IDEA/아이디에이션 방법/유저 찾기.md",
     "Attached files/Pasted image 20240229181906.png",
     "Develop/Auth",
     "Attached files/Pasted image 20240229173442.png",
