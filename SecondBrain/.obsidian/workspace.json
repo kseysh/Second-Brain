@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Spring/MapStruct.md",
+                "file": "Spring/싱글톤.md",
                 "mode": "source",
                 "source": false
               }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "myba",
+                "query": "싱글톤",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -65,7 +65,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -85,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Spring/MapStruct.md",
+                "file": "Spring/싱글톤.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Spring/MapStruct.md",
+                "file": "Spring/싱글톤.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Spring/MapStruct.md"
+                "file": "Spring/싱글톤.md"
               }
             }
           },
@@ -170,8 +171,11 @@
   },
   "active": "385dd4dff5a2fc5d",
   "lastOpenFiles": [
-    "Develop/FCM.md",
+    "Spring/싱글톤 컨테이너.md",
+    "Spring/싱글톤.md",
+    "Spring/DI 컨테이너.md",
     "Spring/MapStruct.md",
+    "Develop/FCM.md",
     "Attached files/Pasted image 20240302205814.png",
     "Attached files/Pasted image 20240301205054.png",
     "Develop/Auth/SSO.md",
@@ -195,9 +199,6 @@
     "IDEA/아이디에이션 방법/5 whys.md",
     "IDEA/아이디에이션 방법/가장 작은 단위로 아이디어 전개.md",
     "IDEA/아이디에이션 방법/유저 찾기.md",
-    "Git/커밋 메시지 작성 방법.md",
-    "ERROR_Diary/docker/Docker file exited.md",
-    "ERROR_Diary/docker/Unit docker.service could not be found.md",
     "Attached files/Pasted image 20240229181906.png",
     "Develop/Auth",
     "Attached files/Pasted image 20240229173442.png",
