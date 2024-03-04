@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Python/리스트의 얕은 복사와 깊은 복사.md",
+                "file": "Spring/@Configuration.md",
                 "mode": "source",
                 "source": false
               }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "configuration",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Python/리스트의 얕은 복사와 깊은 복사.md",
+                "file": "Spring/@Configuration.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Python/리스트의 얕은 복사와 깊은 복사.md",
+                "file": "Spring/@Configuration.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Python/리스트의 얕은 복사와 깊은 복사.md"
+                "file": "Spring/@Configuration.md"
               }
             }
           },
@@ -170,6 +170,9 @@
   },
   "active": "385dd4dff5a2fc5d",
   "lastOpenFiles": [
+    "Spring/스프링 컨테이너.md",
+    "Spring/@Configuration.md",
+    "Python/리스트의 얕은 복사와 깊은 복사.md",
     "Python/Pass By Assignment.md",
     "Python/Call by value.md",
     "Python/Call by reference.md",
@@ -193,9 +196,6 @@
     "Python/Django/AUTH/JWT를 이용한 회원가입 및 로그인.md",
     "Python/Django/AUTH/django 카카오 소셜 로그인.md",
     "Python/Django/배포/장고 배포시 유의해야 할 점.md",
-    "Python/Django/배포/업스트림 서버.md",
-    "Python/Django/배포/로드밸런싱.md",
-    "Python/Django/배포/nginx.md",
     "Attached files/Pasted image 20240302205814.png",
     "Attached files/Pasted image 20240301205054.png",
     "Attached files/Pasted image 20240229181906.png",
