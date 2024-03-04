@@ -34,5 +34,7 @@ memberService, orderService, memberRepository를 모두 호출하게 되면 new 
 
 ![[Pasted image 20240304184329.png]]
 
-
+# @Configuration을 적용하지 않는다면?
+`@Configuration`을 붙이면 바이트코드를 조작하는 CGLIB 기술을 사용해서 싱글톤을 보장하지만, 만약 @Bean만 적용하면 CGLIB 기술이 싱글톤을 보장해주지 못해 같은 코드가 3번 호출되는 것을 확인할 수 있다.
+또한 각 인스턴스도 다르게 되어 싱글톤이 깨진다.
 
