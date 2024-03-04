@@ -69,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "feabab388e8825fc",
@@ -170,6 +171,8 @@
   },
   "active": "385dd4dff5a2fc5d",
   "lastOpenFiles": [
+    "Attached files/Pasted image 20240304184329.png",
+    "Attached files/Pasted image 20240304184129.png",
     "Spring/스프링 컨테이너.md",
     "Spring/@Configuration.md",
     "Python/리스트의 얕은 복사와 깊은 복사.md",
@@ -195,7 +198,6 @@
     "Python/Django/DRF/APIView.md",
     "Python/Django/AUTH/JWT를 이용한 회원가입 및 로그인.md",
     "Python/Django/AUTH/django 카카오 소셜 로그인.md",
-    "Python/Django/배포/장고 배포시 유의해야 할 점.md",
     "Attached files/Pasted image 20240302205814.png",
     "Attached files/Pasted image 20240301205054.png",
     "Attached files/Pasted image 20240229181906.png",
@@ -208,7 +210,6 @@
     "Attached files/Pasted image 20240216142020.png",
     "Attached files/Pasted image 20240216141632.png",
     "Attached files/Pasted image 20240216141604.png",
-    "Attached files/Pasted image 20240215203840.png",
     "전공 공부/이산구조/중간고사",
     "전공 공부/시스템 프로그래밍/중간고사",
     "Develop/디자인 패턴/행위 패턴",

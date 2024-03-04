@@ -7,3 +7,32 @@
 3. `orderService()`로직에서 `memberRepository()`호출
 memberService, orderService, memberRepository를 모두 호출하게 되면 new MemberRepository가 세 번 호출될텐데, 검증해보면 memberRepository는 new를 이용해 한 번만 생성되게 된다. 어떻게 한 번만 생성되게 되었을까?
 
+
+```java
+@Test
+ void configurationDeep() {
+
+	ApplicationContext ac = new AnnotationConfigApplicationContext(AppConfig.class);
+
+	// AppConfig도 스프링 빈으로 등록된다.
+	AppConfig bean = ac.getBean(AppConfig.class);
+
+    System.out.println("bean = " + bean.getClass());
+	// 출력: bean = class hello.core.AppConfig$$EnhancerBySpringCGLIB$$bd479d70
+```
+사실 `AnnotationConfigApplicationContext` 에 파라미터로 넘긴 값은 스프링 빈으로 등록된다. 그래서 `AppConfig` 도 스프링 빈이 된다.  
+`AppConfig` 스프링 빈을 조회해서 클래스 정보를 출력해보자.
+
+` bean = class hello.core.AppConfig$$EnhancerBySpringCGLIB$$bd479d70`
+
+순수한 클래스라면 다음과 같이 출력되어야 한다. `class hello.core.AppConfig`
+
+그런데 예상과는 다르게 클래스 명에 xxxCGLIB가 붙으면서 상당히 복잡해진 것을 볼 수 있다. 이것은 내가 만든 클래 스가 아니라 스프링이 **CGLIB라는 바이트코드 조작 라이브러리를 사용**해서 **AppConfig 클래스를 상속받은 임의의 다 른 클래스를 만들고, 그 다른 클래스를 스프링 빈으로 등록한 것**이다!
+
+![[Pasted image 20240304184129.png]]
+이 임의의 `AppConfig@CGLIB`이라는 클래스가 싱글톤이 보장되도록 해준다. 바이트 코드를 조작해서 작성되어 있을 것이다. 
+
+![[Pasted image 20240304184329.png]]
+
+
+
