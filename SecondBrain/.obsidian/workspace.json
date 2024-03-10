@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "d1086863018a354e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "인수인계.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Spring/Id에서 Long을 사용하는 이유.md",
+                "file": "인수인계.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Spring/Id에서 Long을 사용하는 이유.md",
+                "file": "인수인계.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Spring/Id에서 Long을 사용하는 이유.md"
+                "file": "인수인계.md"
               }
             }
           },
@@ -168,10 +181,11 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "385dd4dff5a2fc5d",
+  "active": "d1086863018a354e",
   "lastOpenFiles": [
-    "Spring/컴포넌트 스캔.md",
+    "인수인계.md",
     "Spring/Id에서 Long을 사용하는 이유.md",
+    "Spring/컴포넌트 스캔.md",
     "Attached files/Pasted image 20240304194210.png",
     "Attached files/Pasted image 20240304194158.png",
     "Attached files/Pasted image 20240304193043.png",
@@ -202,7 +216,6 @@
     "Python/Django/DRF/Router.md",
     "Python/Django/DRF/Authentication.md",
     "Python/Django/DRF/APIView.md",
-    "Python/Django/AUTH/JWT를 이용한 회원가입 및 로그인.md",
     "Attached files/Pasted image 20240302205814.png",
     "Attached files/Pasted image 20240301205054.png",
     "Attached files/Pasted image 20240229181906.png",
