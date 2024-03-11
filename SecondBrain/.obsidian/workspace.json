@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Develop/Auth/SSO.md",
+                "file": "Spring/생성자 주입.md",
                 "mode": "source",
                 "source": false
               }
@@ -61,7 +61,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "sso",
+                "query": "생성자 주입",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -99,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Develop/Auth/SSO.md",
+                "file": "Spring/생성자 주입.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Develop/Auth/SSO.md",
+                "file": "Spring/생성자 주입.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Develop/Auth/SSO.md"
+                "file": "Spring/생성자 주입.md"
               }
             }
           },
@@ -184,6 +184,7 @@
   },
   "active": "d1086863018a354e",
   "lastOpenFiles": [
+    "Develop/Auth/SSO.md",
     "인수인계.md",
     "Spring/Id에서 Long을 사용하는 이유.md",
     "Spring/컴포넌트 스캔.md",
@@ -216,7 +217,6 @@
     "Python/Django/DRF/Serializer.md",
     "Python/Django/DRF/Router.md",
     "Python/Django/DRF/Authentication.md",
-    "Python/Django/DRF/APIView.md",
     "Attached files/Pasted image 20240302205814.png",
     "Attached files/Pasted image 20240301205054.png",
     "Attached files/Pasted image 20240229181906.png",
