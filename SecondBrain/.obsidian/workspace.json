@@ -30,9 +30,19 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "2f129e96a1df4eb5",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "Attached files/Pasted image 20240312214008.png"
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -98,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "AWS/redis 관련 명령어.md",
+                "file": "Attached files/Pasted image 20240312214008.png",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +125,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "AWS/redis 관련 명령어.md",
+                "file": "Attached files/Pasted image 20240312214008.png",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +148,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "AWS/redis 관련 명령어.md"
+                "file": "Attached files/Pasted image 20240312214008.png"
               }
             }
           },
@@ -181,10 +191,14 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "d1086863018a354e",
+  "active": "2f129e96a1df4eb5",
   "lastOpenFiles": [
-    "AWS/EC2 용량 확보하는 방법.md",
+    "Attached files/Pasted image 20240312213953.png",
+    "Attached files/Pasted image 20240312214008.png",
     "AWS/redis 관련 명령어.md",
+    "Attached files/Pasted image 20240312213913.png",
+    "Attached files/Pasted image 20240312213900.png",
+    "AWS/EC2 용량 확보하는 방법.md",
     "Spring/필드 주입.md",
     "Spring/생성자 주입.md",
     "Develop/Auth/SSO.md",
@@ -198,7 +212,6 @@
     "Attached files/Pasted image 20240304192929.png",
     "Spring/@Configuration.md",
     "Attached files/Pasted image 20240304184329.png",
-    "Attached files/Pasted image 20240304184129.png",
     "Spring/스프링 컨테이너.md",
     "Python/리스트의 얕은 복사와 깊은 복사.md",
     "Python/Pass By Assignment.md",
@@ -215,10 +228,6 @@
     "Python/Django/View/render, redirect의 차이점.md",
     "Python/Django/View/get과 filter의 차이.md",
     "Python/Django/View/Path Variable과 Query Parameter.md",
-    "Python/Django/View/Generic views.md",
-    "Attached files/Pasted image 20240302205814.png",
-    "Attached files/Pasted image 20240301205054.png",
-    "Attached files/Pasted image 20240229181906.png",
     "Develop/Auth",
     "AWS",
     "Develop/Architecture",
