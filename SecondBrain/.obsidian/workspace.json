@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Spring/필드 주입.md",
+                "file": "AWS/EC2 용량 확보하는 방법.md",
                 "mode": "source",
                 "source": false
               }
@@ -61,7 +61,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "필드 주입",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -78,8 +78,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -99,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Spring/필드 주입.md",
+                "file": "AWS/EC2 용량 확보하는 방법.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Spring/필드 주입.md",
+                "file": "AWS/EC2 용량 확보하는 방법.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Spring/필드 주입.md"
+                "file": "AWS/EC2 용량 확보하는 방법.md"
               }
             }
           },
@@ -184,6 +183,8 @@
   },
   "active": "d1086863018a354e",
   "lastOpenFiles": [
+    "Spring/필드 주입.md",
+    "AWS/EC2 용량 확보하는 방법.md",
     "Spring/생성자 주입.md",
     "Develop/Auth/SSO.md",
     "인수인계.md",
@@ -215,8 +216,6 @@
     "Python/Django/View/Path Variable과 Query Parameter.md",
     "Python/Django/View/Generic views.md",
     "Python/Django/DRF/ViewSet.md",
-    "Python/Django/DRF/Serializer.md",
-    "Python/Django/DRF/Router.md",
     "Attached files/Pasted image 20240302205814.png",
     "Attached files/Pasted image 20240301205054.png",
     "Attached files/Pasted image 20240229181906.png",
