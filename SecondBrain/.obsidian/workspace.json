@@ -30,19 +30,9 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "2f129e96a1df4eb5",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "Attached files/Pasted image 20240312214008.png"
-              }
-            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -108,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Attached files/Pasted image 20240312214008.png",
+                "file": "AWS/redis 관련 명령어.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Attached files/Pasted image 20240312214008.png",
+                "file": "AWS/redis 관련 명령어.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -148,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Attached files/Pasted image 20240312214008.png"
+                "file": "AWS/redis 관련 명령어.md"
               }
             }
           },
@@ -191,10 +181,10 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "2f129e96a1df4eb5",
+  "active": "d1086863018a354e",
   "lastOpenFiles": [
-    "Attached files/Pasted image 20240312213953.png",
     "Attached files/Pasted image 20240312214008.png",
+    "Attached files/Pasted image 20240312213953.png",
     "AWS/redis 관련 명령어.md",
     "Attached files/Pasted image 20240312213913.png",
     "Attached files/Pasted image 20240312213900.png",
