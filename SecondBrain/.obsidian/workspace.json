@@ -61,7 +61,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "프레임워크",
+                "query": "abstract",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -182,7 +182,7 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "d1086863018a354e",
+  "active": "98b99bcebe54855a",
   "lastOpenFiles": [
     "AWS/redis 관련 명령어.md",
     "Attached files/Pasted image 20240312214008.png",
