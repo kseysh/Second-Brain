@@ -23,11 +23,9 @@
             "id": "d1086863018a354e",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "Spring/프레임 워크.md",
-                "mode": "source",
-                "source": false
+                "file": "Attached files/Pasted image 20240314184702.png"
               }
             }
           }
@@ -78,8 +76,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -99,7 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Spring/프레임 워크.md",
+                "file": "Attached files/Pasted image 20240314184702.png",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +113,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Spring/프레임 워크.md",
+                "file": "Attached files/Pasted image 20240314184702.png",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +136,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Spring/프레임 워크.md"
+                "file": "Attached files/Pasted image 20240314184702.png"
               }
             }
           },
@@ -184,8 +181,9 @@
   },
   "active": "d1086863018a354e",
   "lastOpenFiles": [
-    "Attached files/Pasted image 20240314184702.png",
     "Attached files/Pasted image 20240314184645.png",
+    "Attached files/Pasted image 20240314184702.png",
+    "Spring/프레임 워크.md",
     "Attached files/Pasted image 20240314184626.png",
     "AWS/redis 관련 명령어.md",
     "Attached files/Pasted image 20240312214008.png",
@@ -202,7 +200,6 @@
     "Attached files/Pasted image 20240304194210.png",
     "Attached files/Pasted image 20240304194158.png",
     "Attached files/Pasted image 20240304193043.png",
-    "Attached files/Pasted image 20240304193024.png",
     "Spring/@Configuration.md",
     "Spring/스프링 컨테이너.md",
     "Python/리스트의 얕은 복사와 깊은 복사.md",
@@ -219,7 +216,6 @@
     "Python/Django/Foreign Key와 참조와 역참조.md",
     "Python/Django/View/render, redirect의 차이점.md",
     "Python/Django/View/get과 filter의 차이.md",
-    "Python/Django/View/Path Variable과 Query Parameter.md",
     "Develop/Auth",
     "AWS",
     "Develop/Architecture",
