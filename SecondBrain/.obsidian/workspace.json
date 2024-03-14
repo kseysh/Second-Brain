@@ -4,33 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "8c2cb8540a26e746",
+        "id": "4763a0edec22cf53",
         "type": "tabs",
         "children": [
           {
-            "id": "385dd4dff5a2fc5d",
+            "id": "c3e36cfd354898b6",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Spring/Id에서 Long을 사용하는 이유.md",
+                "file": "check.md",
                 "mode": "source",
                 "source": false
               }
             }
-          },
-          {
-            "id": "d1086863018a354e",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "Attached files/Pasted image 20240314184702.png"
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -96,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Attached files/Pasted image 20240314184702.png",
+                "file": "check.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Attached files/Pasted image 20240314184702.png",
+                "file": "check.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -136,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Attached files/Pasted image 20240314184702.png"
+                "file": "check.md"
               }
             }
           },
@@ -179,25 +168,25 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "d1086863018a354e",
+  "active": "c3e36cfd354898b6",
   "lastOpenFiles": [
+    "Attached files/Pasted image 20240304194210.png",
+    "Spring/Id에서 Long을 사용하는 이유.md",
+    "Attached files/Pasted image 20240312213900.png",
+    "Attached files/Pasted image 20240312213913.png",
+    "Attached files/Pasted image 20240312213953.png",
+    "Attached files/Pasted image 20240312214008.png",
+    "Attached files/Pasted image 20240314184626.png",
     "Attached files/Pasted image 20240314184645.png",
     "Attached files/Pasted image 20240314184702.png",
     "Spring/프레임 워크.md",
-    "Attached files/Pasted image 20240314184626.png",
     "AWS/redis 관련 명령어.md",
-    "Attached files/Pasted image 20240312214008.png",
-    "Attached files/Pasted image 20240312213953.png",
-    "Attached files/Pasted image 20240312213913.png",
-    "Attached files/Pasted image 20240312213900.png",
     "AWS/EC2 용량 확보하는 방법.md",
     "Spring/필드 주입.md",
     "Spring/생성자 주입.md",
     "Develop/Auth/SSO.md",
-    "인수인계.md",
-    "Spring/Id에서 Long을 사용하는 이유.md",
+    "check.md",
     "Spring/컴포넌트 스캔.md",
-    "Attached files/Pasted image 20240304194210.png",
     "Attached files/Pasted image 20240304194158.png",
     "Attached files/Pasted image 20240304193043.png",
     "Spring/@Configuration.md",
