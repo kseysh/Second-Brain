@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "check.md",
+                "file": "독서록/개발 관련 도서/테스트주도개발시작하기/대역.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "check.md",
+                "file": "독서록/개발 관련 도서/테스트주도개발시작하기/대역.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "check.md",
+                "file": "독서록/개발 관련 도서/테스트주도개발시작하기/대역.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "check.md"
+                "file": "독서록/개발 관련 도서/테스트주도개발시작하기/대역.md"
               }
             }
           },
@@ -170,6 +170,11 @@
   },
   "active": "c3e36cfd354898b6",
   "lastOpenFiles": [
+    "독서록/개발 관련 도서/테스트주도개발시작하기/TDD 시작.md",
+    "독서록/개발 관련 도서/테스트주도개발시작하기/대역.md",
+    "독서록/개발 관련 도서/테스트주도개발시작하기/TDD 기능 명세 설계.md",
+    "독서록/개발 관련 도서/테스트주도개발시작하기/JUnit 5 기초.md",
+    "check.md",
     "Attached files/Pasted image 20240304194210.png",
     "Spring/Id에서 Long을 사용하는 이유.md",
     "Attached files/Pasted image 20240312213900.png",
@@ -185,7 +190,6 @@
     "Spring/필드 주입.md",
     "Spring/생성자 주입.md",
     "Develop/Auth/SSO.md",
-    "check.md",
     "Spring/컴포넌트 스캔.md",
     "Attached files/Pasted image 20240304194158.png",
     "Attached files/Pasted image 20240304193043.png",
@@ -202,9 +206,6 @@
     "Python/Django/Session.md",
     "Python/Django/RESTful API.md",
     "Python/Django/null = True와 blank = True의 차이.md",
-    "Python/Django/Foreign Key와 참조와 역참조.md",
-    "Python/Django/View/render, redirect의 차이점.md",
-    "Python/Django/View/get과 filter의 차이.md",
     "Develop/Auth",
     "AWS",
     "Develop/Architecture",
