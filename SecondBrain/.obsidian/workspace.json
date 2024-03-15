@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "독서록/개발 관련 도서/테스트주도개발시작하기/대역.md",
+                "file": "회의.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "feabab388e8825fc",
@@ -85,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "독서록/개발 관련 도서/테스트주도개발시작하기/대역.md",
+                "file": "회의.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "독서록/개발 관련 도서/테스트주도개발시작하기/대역.md",
+                "file": "회의.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "독서록/개발 관련 도서/테스트주도개발시작하기/대역.md"
+                "file": "회의.md"
               }
             }
           },
@@ -170,11 +171,11 @@
   },
   "active": "c3e36cfd354898b6",
   "lastOpenFiles": [
-    "독서록/개발 관련 도서/테스트주도개발시작하기/TDD 시작.md",
     "독서록/개발 관련 도서/테스트주도개발시작하기/대역.md",
+    "독서록/개발 관련 도서/테스트주도개발시작하기/TDD 시작.md",
     "독서록/개발 관련 도서/테스트주도개발시작하기/TDD 기능 명세 설계.md",
     "독서록/개발 관련 도서/테스트주도개발시작하기/JUnit 5 기초.md",
-    "check.md",
+    "회의.md",
     "Attached files/Pasted image 20240304194210.png",
     "Spring/Id에서 Long을 사용하는 이유.md",
     "Attached files/Pasted image 20240312213900.png",
