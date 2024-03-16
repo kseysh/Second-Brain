@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "회의.md",
+                "file": "Git/GIT 스터디/cherry-pick.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "회의.md",
+                "file": "Git/GIT 스터디/cherry-pick.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "회의.md",
+                "file": "Git/GIT 스터디/cherry-pick.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "회의.md"
+                "file": "Git/GIT 스터디/cherry-pick.md"
               }
             }
           },
@@ -170,12 +170,12 @@
   },
   "active": "c3e36cfd354898b6",
   "lastOpenFiles": [
+    "회의.md",
     "독서록/개발 관련 도서/테스트주도개발시작하기/대역.md",
     "독서록/개발 관련 도서/테스트주도개발시작하기/테스트 코드 작성 순서.md",
     "독서록/개발 관련 도서/테스트주도개발시작하기/테스트 범위와 종류.md",
     "독서록/개발 관련 도서/테스트주도개발시작하기/테스트 가능한 설계.md",
     "독서록/개발 관련 도서/테스트주도개발시작하기/테스트 코드의 구성.md",
-    "회의.md",
     "독서록/개발 관련 도서/테스트주도개발시작하기/TDD 시작.md",
     "독서록/개발 관련 도서/테스트주도개발시작하기/TDD 기능 명세 설계.md",
     "독서록/개발 관련 도서/테스트주도개발시작하기/JUnit 5 기초.md",
