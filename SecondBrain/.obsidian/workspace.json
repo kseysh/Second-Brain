@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Git/GIT 스터디/cherry-pick.md",
+                "file": "회의.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Git/GIT 스터디/cherry-pick.md",
+                "file": "회의.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Git/GIT 스터디/cherry-pick.md",
+                "file": "회의.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Git/GIT 스터디/cherry-pick.md"
+                "file": "회의.md"
               }
             }
           },
@@ -170,6 +170,11 @@
   },
   "active": "c3e36cfd354898b6",
   "lastOpenFiles": [
+    "Git/GIT 스터디/reset.md",
+    "Git/GIT 스터디/revert.md",
+    "Git/GIT 스터디/squash and merge.md",
+    "Git/GIT 스터디/upstream.md",
+    "Git/GIT 스터디/cherry-pick.md",
     "회의.md",
     "독서록/개발 관련 도서/테스트주도개발시작하기/대역.md",
     "독서록/개발 관련 도서/테스트주도개발시작하기/테스트 코드 작성 순서.md",
@@ -201,11 +206,6 @@
     "Spring/스프링 컨테이너.md",
     "Python/리스트의 얕은 복사와 깊은 복사.md",
     "Python/Pass By Assignment.md",
-    "Python/Call by value.md",
-    "Python/Call by reference.md",
-    "Python/Django/참조.md",
-    "Python/Django/역참조.md",
-    "Python/Django/url의 상대경로와 절대경로.md",
     "Develop/Auth",
     "AWS",
     "Develop/Architecture",
