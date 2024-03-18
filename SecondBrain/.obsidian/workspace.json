@@ -60,7 +60,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "비관",
+                "query": "김시원",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -77,12 +77,12 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "feabab388e8825fc",
@@ -181,7 +181,7 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "c3e36cfd354898b6",
+  "active": "98b99bcebe54855a",
   "lastOpenFiles": [
     "회의.md",
     "Spring/조회 빈이 2개 이상일 때.md",
