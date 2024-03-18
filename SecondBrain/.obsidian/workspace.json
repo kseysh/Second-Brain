@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Spring/조회 빈이 2개 이상일 때.md",
+                "file": "Spring/TestCode/@DataJpaTest.md",
                 "mode": "source",
                 "source": false
               }
@@ -77,12 +77,12 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "feabab388e8825fc",
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Spring/조회 빈이 2개 이상일 때.md",
+                "file": "Spring/TestCode/@DataJpaTest.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Spring/조회 빈이 2개 이상일 때.md",
+                "file": "Spring/TestCode/@DataJpaTest.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Spring/조회 빈이 2개 이상일 때.md"
+                "file": "Spring/TestCode/@DataJpaTest.md"
               }
             }
           },
@@ -181,10 +181,12 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "98b99bcebe54855a",
+  "active": "77e0b92a051c28ac",
   "lastOpenFiles": [
-    "회의.md",
     "Spring/조회 빈이 2개 이상일 때.md",
+    "Spring/TestCode/@DataJpaTest.md",
+    "Spring/TestCode",
+    "회의.md",
     "DB/낙관적 락.md",
     "DB/비관적 락.md",
     "Spring/동시성 문제를 해결하는 방법.md",
@@ -216,7 +218,6 @@
     "Spring/필드 주입.md",
     "Spring/생성자 주입.md",
     "Develop/Auth/SSO.md",
-    "Spring/컴포넌트 스캔.md",
     "Attached files/Pasted image 20240304194158.png",
     "Attached files/Pasted image 20240304193043.png",
     "Develop/Auth",
@@ -228,7 +229,6 @@
     "Develop/디자인 패턴/생성 패턴",
     "Develop/디자인 패턴/구조 패턴",
     "전공 공부/오픈소스응용프로그래밍/중간고사",
-    "Spring/어노테이션/Test",
     "무제 파일.canvas"
   ]
 }
