@@ -60,7 +60,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "김시원",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -77,7 +77,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -180,7 +181,7 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "c3e36cfd354898b6",
+  "active": "98b99bcebe54855a",
   "lastOpenFiles": [
     "Spring/TestCode/@DataJpaTest.md",
     "Spring/조회 빈이 2개 이상일 때.md",
