@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "회의.md",
+                "file": "Spring/spring에서 Test코드 작성시의 주의사항.md",
                 "mode": "source",
                 "source": false
               }
@@ -81,8 +81,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "feabab388e8825fc",
@@ -98,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "회의.md",
+                "file": "Spring/spring에서 Test코드 작성시의 주의사항.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "회의.md",
+                "file": "Spring/spring에서 Test코드 작성시의 주의사항.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "회의.md"
+                "file": "Spring/spring에서 Test코드 작성시의 주의사항.md"
               }
             }
           },
@@ -181,12 +180,12 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "77e0b92a051c28ac",
+  "active": "c3e36cfd354898b6",
   "lastOpenFiles": [
+    "회의.md",
     "Spring/TestCode/@DataJpaTest.md",
     "Spring/조회 빈이 2개 이상일 때.md",
     "Spring/TestCode",
-    "회의.md",
     "DB/낙관적 락.md",
     "DB/비관적 락.md",
     "Spring/동시성 문제를 해결하는 방법.md",
