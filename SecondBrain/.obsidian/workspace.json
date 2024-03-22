@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Spring/spring에서 Test코드 작성시의 주의사항.md",
+                "file": "Git/GIT 스터디/gitignore를 통해 레포 안의 파일 삭제하기.md",
                 "mode": "source",
                 "source": false
               }
@@ -60,7 +60,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "gitignore",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -77,7 +77,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -97,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Spring/spring에서 Test코드 작성시의 주의사항.md",
+                "file": "Git/GIT 스터디/gitignore를 통해 레포 안의 파일 삭제하기.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Spring/spring에서 Test코드 작성시의 주의사항.md",
+                "file": "Git/GIT 스터디/gitignore를 통해 레포 안의 파일 삭제하기.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Spring/spring에서 Test코드 작성시의 주의사항.md"
+                "file": "Git/GIT 스터디/gitignore를 통해 레포 안의 파일 삭제하기.md"
               }
             }
           },
@@ -182,6 +183,7 @@
   },
   "active": "c3e36cfd354898b6",
   "lastOpenFiles": [
+    "Spring/spring에서 Test코드 작성시의 주의사항.md",
     "회의.md",
     "Spring/TestCode/@DataJpaTest.md",
     "Spring/조회 빈이 2개 이상일 때.md",
@@ -216,7 +218,6 @@
     "AWS/EC2 용량 확보하는 방법.md",
     "Spring/필드 주입.md",
     "Spring/생성자 주입.md",
-    "Develop/Auth/SSO.md",
     "Attached files/Pasted image 20240304194158.png",
     "Attached files/Pasted image 20240304193043.png",
     "Develop/Auth",
