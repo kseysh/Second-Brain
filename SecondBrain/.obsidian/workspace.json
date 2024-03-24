@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Git/GIT 스터디/gitignore를 통해 레포 안의 파일 삭제하기.md",
+                "file": "Spring/TestCode/@Transactional과 Static.md",
                 "mode": "source",
                 "source": false
               }
@@ -60,7 +60,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "reset",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -77,12 +77,12 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "feabab388e8825fc",
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Git/GIT 스터디/gitignore를 통해 레포 안의 파일 삭제하기.md",
+                "file": "Spring/TestCode/@Transactional과 Static.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Git/GIT 스터디/gitignore를 통해 레포 안의 파일 삭제하기.md",
+                "file": "Spring/TestCode/@Transactional과 Static.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Git/GIT 스터디/gitignore를 통해 레포 안의 파일 삭제하기.md"
+                "file": "Spring/TestCode/@Transactional과 Static.md"
               }
             }
           },
@@ -183,8 +183,11 @@
   },
   "active": "c3e36cfd354898b6",
   "lastOpenFiles": [
-    "전공 공부/지난 학기/오픈소스응용프로그래밍/중간고사/Git.md",
+    "Attached files/Pasted image 20240324164930.png",
+    "Attached files/Pasted image 20240324164705.png",
     "Git/GIT 스터디/gitignore를 통해 레포 안의 파일 삭제하기.md",
+    "Spring/TestCode/@Transactional과 Static.md",
+    "전공 공부/지난 학기/오픈소스응용프로그래밍/중간고사/Git.md",
     "Spring/spring에서 Test코드 작성시의 주의사항.md",
     "회의.md",
     "Spring/TestCode/@DataJpaTest.md",
@@ -216,10 +219,7 @@
     "Attached files/Pasted image 20240314184645.png",
     "Attached files/Pasted image 20240314184702.png",
     "Spring/프레임 워크.md",
-    "AWS/redis 관련 명령어.md",
-    "AWS/EC2 용량 확보하는 방법.md",
     "Attached files/Pasted image 20240304194158.png",
-    "Attached files/Pasted image 20240304193043.png",
     "Develop/Auth",
     "AWS",
     "Develop/Architecture",
