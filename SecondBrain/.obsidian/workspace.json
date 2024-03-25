@@ -8,22 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "c3e36cfd354898b6",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "Attached files/Pasted image 20240324164930.png"
-              }
-            }
-          },
-          {
             "id": "1195dfdf6d763c6d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DB/비관적 락.md",
+                "file": "Spring/어노테이션/어노테이션 만들기.md",
                 "mode": "source",
                 "source": false
               }
@@ -95,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Attached files/Pasted image 20240324164930.png",
+                "file": "Spring/어노테이션/어노테이션 만들기.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Attached files/Pasted image 20240324164930.png",
+                "file": "Spring/어노테이션/어노테이션 만들기.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -135,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Attached files/Pasted image 20240324164930.png"
+                "file": "Spring/어노테이션/어노테이션 만들기.md"
               }
             }
           },
@@ -178,10 +168,12 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "c3e36cfd354898b6",
+  "active": "1195dfdf6d763c6d",
   "lastOpenFiles": [
-    "Spring/TestCode/@Transactional과 static.md",
+    "DB/비관적 락.md",
+    "Spring/어노테이션/어노테이션 만들기.md",
     "Attached files/Pasted image 20240324164930.png",
+    "Spring/TestCode/@Transactional과 static.md",
     "Attached files/Pasted image 20240324164705.png",
     "Git/GIT 스터디/gitignore를 통해 레포 안의 파일 삭제하기.md",
     "전공 공부/지난 학기/오픈소스응용프로그래밍/중간고사/Git.md",
@@ -191,7 +183,6 @@
     "Spring/조회 빈이 2개 이상일 때.md",
     "Spring/TestCode",
     "DB/낙관적 락.md",
-    "DB/비관적 락.md",
     "Spring/동시성 문제를 해결하는 방법.md",
     "Git/GIT 스터디/reset.md",
     "Git/GIT 스터디/revert.md",
