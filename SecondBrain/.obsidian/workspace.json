@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Spring/어노테이션/어노테이션 만들기.md",
+                "file": "Spring/수동으로 Bean을 등록하는 경우.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Spring/어노테이션/어노테이션 만들기.md",
+                "file": "Spring/수동으로 Bean을 등록하는 경우.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Spring/어노테이션/어노테이션 만들기.md",
+                "file": "Spring/수동으로 Bean을 등록하는 경우.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Spring/어노테이션/어노테이션 만들기.md"
+                "file": "Spring/수동으로 Bean을 등록하는 경우.md"
               }
             }
           },
@@ -170,8 +170,10 @@
   },
   "active": "1195dfdf6d763c6d",
   "lastOpenFiles": [
-    "DB/비관적 락.md",
+    "Spring/조회 빈이 2개 이상일 때.md",
+    "Spring/수동으로 Bean을 등록하는 경우.md",
     "Spring/어노테이션/어노테이션 만들기.md",
+    "DB/비관적 락.md",
     "Attached files/Pasted image 20240324164930.png",
     "Spring/TestCode/@Transactional과 static.md",
     "Attached files/Pasted image 20240324164705.png",
@@ -180,7 +182,6 @@
     "Spring/spring에서 Test코드 작성시의 주의사항.md",
     "회의.md",
     "Spring/TestCode/@DataJpaTest.md",
-    "Spring/조회 빈이 2개 이상일 때.md",
     "Spring/TestCode",
     "DB/낙관적 락.md",
     "Spring/동시성 문제를 해결하는 방법.md",
@@ -206,7 +207,6 @@
     "Attached files/Pasted image 20240314184626.png",
     "Attached files/Pasted image 20240314184645.png",
     "Attached files/Pasted image 20240314184702.png",
-    "Spring/프레임 워크.md",
     "Develop/Auth",
     "AWS",
     "Develop/Architecture",
