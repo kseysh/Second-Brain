@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "JAVA/Stream.toList().md",
+                "file": "JAVA/Collectors.toList() vs Stream.toList().md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "JAVA/Stream.toList().md",
+                "file": "JAVA/Collectors.toList() vs Stream.toList().md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "JAVA/Stream.toList().md",
+                "file": "JAVA/Collectors.toList() vs Stream.toList().md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "JAVA/Stream.toList().md"
+                "file": "JAVA/Collectors.toList() vs Stream.toList().md"
               }
             }
           },
@@ -170,8 +170,9 @@
   },
   "active": "1195dfdf6d763c6d",
   "lastOpenFiles": [
+    "JAVA/ArrayList를 사용한 배열.md",
+    "JAVA/Collectors.toList() vs Stream.toList().md",
     "Spring/수동으로 Bean을 등록하는 경우.md",
-    "JAVA/Stream.toList().md",
     "Spring/조회 빈이 2개 이상일 때.md",
     "Spring/어노테이션/어노테이션 만들기.md",
     "DB/비관적 락.md",
@@ -198,7 +199,6 @@
     "독서록/개발 관련 도서/테스트주도개발시작하기/테스트 코드의 구성.md",
     "독서록/개발 관련 도서/테스트주도개발시작하기/TDD 시작.md",
     "독서록/개발 관련 도서/테스트주도개발시작하기/TDD 기능 명세 설계.md",
-    "독서록/개발 관련 도서/테스트주도개발시작하기/JUnit 5 기초.md",
     "Attached files/Pasted image 20240304194210.png",
     "Attached files/Pasted image 20240312213900.png",
     "Attached files/Pasted image 20240312213913.png",
