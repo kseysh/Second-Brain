@@ -10,4 +10,10 @@ java10에서 리턴되는 List가 수정이 가능한 Collectors.toList()와 다
 .collect(Collectors.toList()), .collect(Collectors.toUn modifiableList()), Stream.of.toList() 는 수정여부 이외에 Null 허용 여부에 대해 차이가 있다.
 - Collectors.toList()
 	- Nullable
-- Collectors.toUnmodi
+- Collectors.toUnmodifiableList()
+	- Null을 허용하지 않음
+- Stream.toList()
+	- Nullable
+`Collectors.toUnmodifiableList()` 를 사용하면 Null 을 삽입하게 되는 경우, NPE 런타임 에러가 발생하므로, NPE 로부터 안전하지 않다.
+
+따라서 Stream.toList()를 사용하면 NPE에 대해서 안전하게 처리할 수 있으며, 리턴되는 List가 수정되지 않는 `Collectors.UnmodifiableList`를 반환하므로 수정이 불가능한 구현체를 리턴한다.
