@@ -5,7 +5,6 @@ java10에서 리턴되는 List가 수정이 가능한 Collectors.toList()와 다
 ### 수정이 불가능한 List에 수정을 하려한다면?
 `UnsupportedOperationException.class` 에러를 던진다.
 
-
 ## Null 허용 여부
 .collect(Collectors.toList()), .collect(Collectors.toUn modifiableList()), Stream.of.toList() 는 수정여부 이외에 Null 허용 여부에 대해 차이가 있다.
 - Collectors.toList()
