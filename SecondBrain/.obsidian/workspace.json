@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "JAVA/Collectors.toList() vs Stream.toList().md",
+                "file": "Spring/어노테이션/@ModelAttribute.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 317.5,
-    "collapsed": true
+    "width": 317.5
   },
   "right": {
     "id": "feabab388e8825fc",
@@ -86,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "JAVA/Collectors.toList() vs Stream.toList().md",
+                "file": "Spring/어노테이션/@ModelAttribute.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "JAVA/Collectors.toList() vs Stream.toList().md",
+                "file": "Spring/어노테이션/@ModelAttribute.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "JAVA/Collectors.toList() vs Stream.toList().md"
+                "file": "Spring/어노테이션/@ModelAttribute.md"
               }
             }
           },
@@ -171,8 +170,9 @@
   },
   "active": "6b5401b69671eb71",
   "lastOpenFiles": [
-    "Develop/Auth/SSO.md",
     "JAVA/Collectors.toList() vs Stream.toList().md",
+    "Spring/어노테이션/@ModelAttribute.md",
+    "Develop/Auth/SSO.md",
     "JAVA/ArrayList를 사용한 배열.md",
     "Spring/수동으로 Bean을 등록하는 경우.md",
     "Spring/조회 빈이 2개 이상일 때.md",
@@ -199,7 +199,6 @@
     "독서록/개발 관련 도서/테스트주도개발시작하기/테스트 범위와 종류.md",
     "독서록/개발 관련 도서/테스트주도개발시작하기/테스트 가능한 설계.md",
     "독서록/개발 관련 도서/테스트주도개발시작하기/테스트 코드의 구성.md",
-    "독서록/개발 관련 도서/테스트주도개발시작하기/TDD 시작.md",
     "Attached files/Pasted image 20240304194210.png",
     "Attached files/Pasted image 20240312213900.png",
     "Attached files/Pasted image 20240312213913.png",
