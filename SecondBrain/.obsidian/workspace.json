@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "문제 상황.md",
+                "file": "Spring/OOP와 RDB의 패러다임의 불일치.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "문제 상황.md",
+                "file": "Spring/OOP와 RDB의 패러다임의 불일치.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "문제 상황.md",
+                "file": "Spring/OOP와 RDB의 패러다임의 불일치.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "문제 상황.md"
+                "file": "Spring/OOP와 RDB의 패러다임의 불일치.md"
               }
             }
           },
@@ -183,43 +183,43 @@
   },
   "active": "37344ca7fe480849",
   "lastOpenFiles": [
+    "Spring/JPA/데이터베이스 스키마 자동 생성.md",
+    "Spring/JPA/동등성.md",
+    "Spring/JPA/동일성.md",
+    "Spring/JPA/로드맵.md",
+    "Spring/JPA/양방향 연관관계.md",
+    "Spring/JPA/엔티티 매핑.md",
+    "Spring/JPA/엔티티 부모자식관계 매핑하기.md",
+    "Spring/JPA/엔티티.md",
+    "Spring/JPA/연관관계의 주인.md",
+    "Spring/JPA/영속성 전이 + 고아 객체.md",
+    "Spring/JPA/지연 로딩.md",
+    "Spring/JPA/지연 로딩과 즉시 로딩.md",
+    "Spring/JPA/트랜잭션.md",
+    "Spring/JPA/프록시.md",
+    "Spring/JPA/플러시.md",
+    "Spring/JPA/JPA.md",
+    "Spring/JPA/JPA의 성능 최적화 기능.md",
+    "Spring/JPA/ORM.md",
+    "Spring/JPA/persistence.xml.md",
+    "Spring/JPA/기본 키 매핑.md",
+    "Spring/JPA/다양한 연관관계 매핑.md",
+    "Spring/JPA/데이터 중심 설계의 문제점.md",
+    "Spring/JPA/영속성 컨텍스트.md",
+    "Spring/JPA/필드와 컬럼 매핑.md",
+    "Spring/JPA/@AttributeOverride.md",
+    "Spring/JPA/@ElementCollection.md",
     "Attached files/Pasted image 20240331155746.png",
     "Attached files/Pasted image 20240331151719.png",
-    "Spring/어노테이션/@Valid.md",
-    "문제 상황.md",
-    "Spring/어노테이션/@ModelAttribute.md",
-    "JAVA/Collectors.toList() vs Stream.toList().md",
-    "Develop/Auth/SSO.md",
-    "JAVA/ArrayList를 사용한 배열.md",
-    "Spring/수동으로 Bean을 등록하는 경우.md",
-    "Spring/조회 빈이 2개 이상일 때.md",
-    "Spring/어노테이션/어노테이션 만들기.md",
-    "DB/비관적 락.md",
     "Attached files/Pasted image 20240324164930.png",
-    "Spring/TestCode/@Transactional과 static.md",
     "Attached files/Pasted image 20240324164705.png",
-    "Git/GIT 스터디/gitignore를 통해 레포 안의 파일 삭제하기.md",
-    "전공 공부/지난 학기/오픈소스응용프로그래밍/중간고사/Git.md",
-    "Spring/spring에서 Test코드 작성시의 주의사항.md",
-    "회의.md",
-    "Spring/TestCode/@DataJpaTest.md",
     "Spring/TestCode",
-    "DB/낙관적 락.md",
-    "Spring/동시성 문제를 해결하는 방법.md",
-    "Git/GIT 스터디/reset.md",
-    "Git/GIT 스터디/revert.md",
-    "Git/GIT 스터디/squash and merge.md",
-    "Git/GIT 스터디/upstream.md",
-    "Git/GIT 스터디/cherry-pick.md",
-    "독서록/개발 관련 도서/테스트주도개발시작하기/대역.md",
-    "독서록/개발 관련 도서/테스트주도개발시작하기/테스트 코드 작성 순서.md",
     "Attached files/Pasted image 20240304194210.png",
     "Attached files/Pasted image 20240312213900.png",
     "Attached files/Pasted image 20240312213913.png",
     "Attached files/Pasted image 20240312213953.png",
     "Attached files/Pasted image 20240312214008.png",
     "Attached files/Pasted image 20240314184626.png",
-    "Attached files/Pasted image 20240314184645.png",
     "Develop/Auth",
     "AWS",
     "Develop/Architecture",
