@@ -184,8 +184,9 @@
   },
   "active": "37344ca7fe480849",
   "lastOpenFiles": [
-    "Spring/단일 테이블 전략.md",
     "Spring/구현 클래스마다 테이블 전략.md",
+    "Spring/단일 테이블 전략.md",
+    "Spring/조인 전략.md",
     "Spring/어노테이션/@MappedSuperclass.md",
     "Spring/OOP와 RDB의 패러다임의 불일치.md",
     "Spring/JPA/데이터베이스 스키마 자동 생성.md",
@@ -209,7 +210,6 @@
     "Spring/JPA/persistence.xml.md",
     "Spring/JPA/기본 키 매핑.md",
     "Spring/JPA/다양한 연관관계 매핑.md",
-    "Spring/JPA/데이터 중심 설계의 문제점.md",
     "Attached files/Pasted image 20240331155746.png",
     "Attached files/Pasted image 20240331151719.png",
     "Attached files/Pasted image 20240324164930.png",
