@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "독서록/읽고 싶은 책 List.md",
+                "file": "문제 상황.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -99,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "독서록/읽고 싶은 책 List.md",
+                "file": "문제 상황.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "독서록/읽고 싶은 책 List.md",
+                "file": "문제 상황.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "독서록/읽고 싶은 책 List.md"
+                "file": "문제 상황.md"
               }
             }
           },
@@ -184,6 +184,10 @@
   },
   "active": "37344ca7fe480849",
   "lastOpenFiles": [
+    "Attached files/Pasted image 20240410173334.png",
+    "Attached files/Pasted image 20240410173245.png",
+    "Attached files/Pasted image 20240410173228.png",
+    "독서록/읽고 싶은 책 List.md",
     "DB/제 3 정규형.md",
     "DB/제 2 정규형.md",
     "DB/제 1 정규형.md",
@@ -208,8 +212,6 @@
     "Spring/JPA/지연 로딩과 즉시 로딩.md",
     "Spring/JPA/트랜잭션.md",
     "Spring/JPA/프록시.md",
-    "Spring/JPA/플러시.md",
-    "Spring/JPA/JPA.md",
     "Attached files/Pasted image 20240331155746.png",
     "Attached files/Pasted image 20240331151719.png",
     "Attached files/Pasted image 20240324164930.png",
@@ -219,8 +221,6 @@
     "Attached files/Pasted image 20240312213900.png",
     "Attached files/Pasted image 20240312213913.png",
     "Attached files/Pasted image 20240312213953.png",
-    "Attached files/Pasted image 20240312214008.png",
-    "Attached files/Pasted image 20240314184626.png",
     "Develop/Auth",
     "AWS",
     "Develop/Architecture",
