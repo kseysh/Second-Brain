@@ -31,9 +31,39 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "53bf325a51ee1a23",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "Attached files/Pasted image 20240410173334.png"
+              }
+            }
+          },
+          {
+            "id": "acfcc536f1e2b184",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "Attached files/Pasted image 20240410173245.png"
+              }
+            }
+          },
+          {
+            "id": "c37abf4ff1988216",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "Attached files/Pasted image 20240410173228.png"
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -99,7 +129,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "문제 상황.md",
+                "file": "Attached files/Pasted image 20240410173334.png",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +146,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "문제 상황.md",
+                "file": "Attached files/Pasted image 20240410173334.png",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +169,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "문제 상황.md"
+                "file": "Attached files/Pasted image 20240410173334.png"
               }
             }
           },
@@ -182,16 +212,16 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "37344ca7fe480849",
+  "active": "53bf325a51ee1a23",
   "lastOpenFiles": [
-    "Attached files/Pasted image 20240410173334.png",
+    "문제 상황.md",
     "Attached files/Pasted image 20240410173245.png",
     "Attached files/Pasted image 20240410173228.png",
+    "Attached files/Pasted image 20240410173334.png",
     "독서록/읽고 싶은 책 List.md",
     "DB/제 3 정규형.md",
     "DB/제 2 정규형.md",
     "DB/제 1 정규형.md",
-    "문제 상황.md",
     "회의.md",
     "Spring/어노테이션/@MappedSuperclass.md",
     "Spring/구현 클래스마다 테이블 전략.md",
@@ -220,7 +250,6 @@
     "Attached files/Pasted image 20240304194210.png",
     "Attached files/Pasted image 20240312213900.png",
     "Attached files/Pasted image 20240312213913.png",
-    "Attached files/Pasted image 20240312213953.png",
     "Develop/Auth",
     "AWS",
     "Develop/Architecture",
