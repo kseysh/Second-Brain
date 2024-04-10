@@ -36,9 +36,11 @@
             "id": "53bf325a51ee1a23",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "Attached files/Pasted image 20240410173334.png"
+                "file": "문제 상황.md",
+                "mode": "source",
+                "source": false
               }
             }
           },
@@ -92,7 +94,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tolist",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -129,7 +131,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Attached files/Pasted image 20240410173334.png",
+                "file": "문제 상황.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -146,7 +148,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Attached files/Pasted image 20240410173334.png",
+                "file": "문제 상황.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -169,7 +171,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Attached files/Pasted image 20240410173334.png"
+                "file": "문제 상황.md"
               }
             }
           },
@@ -214,10 +216,10 @@
   },
   "active": "53bf325a51ee1a23",
   "lastOpenFiles": [
+    "Attached files/Pasted image 20240410173334.png",
     "문제 상황.md",
     "Attached files/Pasted image 20240410173245.png",
     "Attached files/Pasted image 20240410173228.png",
-    "Attached files/Pasted image 20240410173334.png",
     "독서록/읽고 싶은 책 List.md",
     "DB/제 3 정규형.md",
     "DB/제 2 정규형.md",
