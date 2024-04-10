@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DB/제 3 정규형.md",
+                "file": "독서록/읽고 싶은 책 List.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -83,8 +83,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 257.5,
-    "collapsed": true
+    "width": 257.5
   },
   "right": {
     "id": "feabab388e8825fc",
@@ -100,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DB/제 3 정규형.md",
+                "file": "독서록/읽고 싶은 책 List.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "DB/제 3 정규형.md",
+                "file": "독서록/읽고 싶은 책 List.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -140,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DB/제 3 정규형.md"
+                "file": "독서록/읽고 싶은 책 List.md"
               }
             }
           },
@@ -185,6 +184,7 @@
   },
   "active": "37344ca7fe480849",
   "lastOpenFiles": [
+    "DB/제 3 정규형.md",
     "DB/제 2 정규형.md",
     "DB/제 1 정규형.md",
     "문제 상황.md",
@@ -210,7 +210,6 @@
     "Spring/JPA/프록시.md",
     "Spring/JPA/플러시.md",
     "Spring/JPA/JPA.md",
-    "Spring/JPA/JPA의 성능 최적화 기능.md",
     "Attached files/Pasted image 20240331155746.png",
     "Attached files/Pasted image 20240331151719.png",
     "Attached files/Pasted image 20240324164930.png",
