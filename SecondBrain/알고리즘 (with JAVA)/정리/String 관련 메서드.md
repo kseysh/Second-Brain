@@ -5,6 +5,9 @@ String str = "apple";
 //길이 반환 
 str.length(); 
 
+// char 배열로 변환
+str.toCharArray();
+
 //빈 문자열 체크 
 str.isEmpty(); 
 
@@ -46,12 +49,10 @@ str.compareTo("applp"); // -1 -> 위 내용 참고
 str.contains("app"); 
 
 //문자열 분리 
-str.split(" "); 
+str.split(" "); //공백으로 구분된 문자열 str을 분리하여 String[] 배열로 반환 
+str.split(); //띄어쓰기 없는 문자열 str을 한 문자씩 분리하여 String[] 배열로 반환 
 
-//공백으로 구분된 문자열 str을 분리하여 String[] 배열로 반환 
-str.split(); 
-
-//띄어쓰기 없는 문자열 str을 한 문자씩 분리하여 String[] 배열로 반환 //문자 앞뒤 공백 제거 
+//문자 앞뒤 공백 제거 
 str.trim();  // str의 앞뒤 공백을 제거한다. 문자열 사이의 공백은 제거하지 않는다. 
 
 //문자 <-> 숫자 변환 
@@ -59,3 +60,8 @@ Integer.parseInt("100") //문자열 "100"을 숫자 100으로 변환
 Integer.toString(100) //숫자 100을 문자열 "100"으로 변환
 
 ```
+
+Char는 int로 변환했을 때, 소문자에 32를 더하면 대문자, 대문자에서 32를 빼면 소문자가 된다.
+
+문자가 65~90인 경우 소문자
+문자가 97~122인 경우 대문자
