@@ -38,7 +38,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "알고리즘 (with JAVA)/자바 기본 Setting.md",
+                "file": "알고리즘 (with JAVA)/풀이/boj 4673.md",
                 "mode": "source",
                 "source": false
               }
@@ -131,7 +131,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "알고리즘 (with JAVA)/자바 기본 Setting.md",
+                "file": "알고리즘 (with JAVA)/풀이/boj 4673.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -148,7 +148,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "알고리즘 (with JAVA)/자바 기본 Setting.md",
+                "file": "알고리즘 (with JAVA)/풀이/boj 4673.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -171,7 +171,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "알고리즘 (with JAVA)/자바 기본 Setting.md"
+                "file": "알고리즘 (with JAVA)/풀이/boj 4673.md"
               }
             }
           },
@@ -216,8 +216,9 @@
   },
   "active": "53bf325a51ee1a23",
   "lastOpenFiles": [
-    "알고리즘 (with JAVA)/boj java ranking.md",
+    "알고리즘 (with JAVA)/정리/Array 관련 메서드.md",
     "알고리즘 (with JAVA)/자바 기본 Setting.md",
+    "알고리즘 (with JAVA)/boj java ranking.md",
     "알고리즘 (with JAVA)/풀이/boj 4673.md",
     "알고리즘 (with JAVA)/정리/String 관련 메서드.md",
     "알고리즘 (with JAVA)/정리/StringBuilder 관련 메서드.md",
@@ -247,7 +248,6 @@
     "Spring/구현 클래스마다 테이블 전략.md",
     "Spring/단일 테이블 전략.md",
     "Spring/조인 전략.md",
-    "Spring/OOP와 RDB의 패러다임의 불일치.md",
     "Attached files/Pasted image 20240331155746.png",
     "Attached files/Pasted image 20240331151719.png",
     "Attached files/Pasted image 20240324164930.png",
