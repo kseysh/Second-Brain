@@ -1,8 +1,8 @@
 ```java
-class Solution {
-    public int solution(int num1, int num2) {
-        int answer = 0;
-        return answer;
-    }
+public class Solution {
+	public static void main(String[] args) {
+		
+		
+	}
 }
 ```
