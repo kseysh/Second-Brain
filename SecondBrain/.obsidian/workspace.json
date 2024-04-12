@@ -4,68 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "c472db8f54d3ba3c",
+        "id": "a3de9698c0ed9578",
         "type": "tabs",
         "children": [
           {
-            "id": "6b5401b69671eb71",
+            "id": "fb933dfe38573644",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Spring/어노테이션/@Valid.md",
+                "file": "알고리즘 (with JAVA)/풀이/boj 5622.md",
                 "mode": "source",
                 "source": false
-              }
-            }
-          },
-          {
-            "id": "37344ca7fe480849",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "문제 상황.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "53bf325a51ee1a23",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "알고리즘 (with JAVA)/풀이/Untitled.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "acfcc536f1e2b184",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "Attached files/Pasted image 20240410173245.png"
-              }
-            }
-          },
-          {
-            "id": "c37abf4ff1988216",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "Attached files/Pasted image 20240410173228.png"
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -131,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "알고리즘 (with JAVA)/풀이/Untitled.md",
+                "file": "알고리즘 (with JAVA)/풀이/boj 5622.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -148,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "알고리즘 (with JAVA)/풀이/Untitled.md",
+                "file": "알고리즘 (with JAVA)/풀이/boj 5622.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -171,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "알고리즘 (with JAVA)/풀이/Untitled.md"
+                "file": "알고리즘 (with JAVA)/풀이/boj 5622.md"
               }
             }
           },
@@ -214,19 +168,23 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "53bf325a51ee1a23",
+  "active": "fb933dfe38573644",
   "lastOpenFiles": [
     "알고리즘 (with JAVA)/풀이/boj setting.md",
-    "알고리즘 (with JAVA)/풀이/Untitled.md",
     "알고리즘 (with JAVA)/풀이/boj 10809.md",
+    "알고리즘 (with JAVA)/정리/StringBuilder 관련 메서드.md",
+    "Attached files/Pasted image 20240410173228.png",
+    "Spring/어노테이션/@Valid.md",
+    "알고리즘 (with JAVA)/자바 기본 Setting.md",
+    "알고리즘 (with JAVA)/풀이/boj 5622.md",
+    "Attached files/Pasted image 20240410173245.png",
+    "알고리즘 (with JAVA)/boj java ranking.md",
+    "문제 상황.md",
     "알고리즘 (with JAVA)/정리/String 관련 메서드.md",
     "알고리즘 (with JAVA)/정리/입출력 관련 메서드.md",
     "알고리즘 (with JAVA)/풀이/boj 1546.md",
     "알고리즘 (with JAVA)/풀이/boj 4673.md",
     "알고리즘 (with JAVA)/정리/Array 관련 메서드.md",
-    "알고리즘 (with JAVA)/자바 기본 Setting.md",
-    "알고리즘 (with JAVA)/boj java ranking.md",
-    "알고리즘 (with JAVA)/정리/StringBuilder 관련 메서드.md",
     "알고리즘 (with JAVA)/정리/List 관련 메서드.md",
     "알고리즘 (with JAVA)/정리/배열 관련 메서드.md",
     "알고리즘 (with JAVA)/정리/HashMap 관련 메서드.md",
@@ -238,16 +196,11 @@
     "알고리즘 (with JAVA)/정리/Collections 관련 메서드.md",
     "알고리즘 (with JAVA)/풀이",
     "알고리즘 (with JAVA)/정리",
-    "문제 상황.md",
     "알고리즘 (with JAVA)",
     "Attached files/Pasted image 20240410173334.png",
-    "Attached files/Pasted image 20240410173245.png",
-    "Attached files/Pasted image 20240410173228.png",
     "독서록/읽고 싶은 책 List.md",
     "DB/제 3 정규형.md",
     "DB/제 2 정규형.md",
-    "DB/제 1 정규형.md",
-    "회의.md",
     "Attached files/Pasted image 20240331155746.png",
     "Attached files/Pasted image 20240331151719.png",
     "Attached files/Pasted image 20240324164930.png",
