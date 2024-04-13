@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "알고리즘 (with JAVA)/boj java ranking.md",
+                "file": "Python/Django/배포/nginx 디렉터리 의미.md",
                 "mode": "source",
                 "source": false
               }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "nginx",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -65,7 +65,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -85,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "알고리즘 (with JAVA)/boj java ranking.md",
+                "file": "Python/Django/배포/nginx 디렉터리 의미.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "알고리즘 (with JAVA)/boj java ranking.md",
+                "file": "Python/Django/배포/nginx 디렉터리 의미.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "알고리즘 (with JAVA)/boj java ranking.md"
+                "file": "Python/Django/배포/nginx 디렉터리 의미.md"
               }
             }
           },
@@ -170,10 +171,15 @@
   },
   "active": "fb933dfe38573644",
   "lastOpenFiles": [
+    "ERROR_Diary/nginx 502 error.md",
+    "Python/Django/배포/nginx.md",
+    "네트워크/HTTP/HTTP 응답 코드.md",
+    "Python/Django/배포/aws 배포.md",
+    "Python/Django/배포/업스트림 서버.md",
+    "알고리즘 (with JAVA)/boj java ranking.md",
     "알고리즘 (with JAVA)/풀이/boj 2563.md",
     "알고리즘 (with JAVA)/자바 기본 Setting.md",
     "알고리즘 (with JAVA)/풀이/boj 10798 +.md",
-    "알고리즘 (with JAVA)/boj java ranking.md",
     "알고리즘 (with JAVA)/풀이/boj setting.md",
     "알고리즘 (with JAVA)/풀이/boj 2941.md",
     "알고리즘 (with JAVA)/풀이/boj 25206.md",
@@ -193,11 +199,6 @@
     "알고리즘 (with JAVA)/풀이/boj 1546.md",
     "알고리즘 (with JAVA)/풀이/boj 4673.md",
     "알고리즘 (with JAVA)/정리/Array 관련 메서드.md",
-    "알고리즘 (with JAVA)/정리/배열 관련 메서드.md",
-    "알고리즘 (with JAVA)/정리/HashMap 관련 메서드.md",
-    "알고리즘 (with JAVA)/정리/배열 <-> 리스트 관련 메서드.md",
-    "알고리즘 (with JAVA)/정리/Collections.binarySearch 메서드.md",
-    "알고리즘 (with JAVA)/정리/HashSet 관련 메서드.md",
     "알고리즘 (with JAVA)/풀이",
     "알고리즘 (with JAVA)/정리",
     "알고리즘 (with JAVA)",
