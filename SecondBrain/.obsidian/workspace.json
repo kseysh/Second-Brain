@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "알고리즘 (with JAVA)/풀이/boj 25206.md",
+                "file": "알고리즘 (with JAVA)/풀이/boj 10798.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 257.5,
-    "collapsed": true
+    "width": 257.5
   },
   "right": {
     "id": "feabab388e8825fc",
@@ -86,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "알고리즘 (with JAVA)/풀이/boj 25206.md",
+                "file": "알고리즘 (with JAVA)/풀이/boj 10798.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "알고리즘 (with JAVA)/풀이/boj 25206.md",
+                "file": "알고리즘 (with JAVA)/풀이/boj 10798.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "알고리즘 (with JAVA)/풀이/boj 25206.md"
+                "file": "알고리즘 (with JAVA)/풀이/boj 10798.md"
               }
             }
           },
@@ -171,12 +170,13 @@
   },
   "active": "fb933dfe38573644",
   "lastOpenFiles": [
-    "알고리즘 (with JAVA)/풀이/boj 1316.md",
+    "알고리즘 (with JAVA)/풀이/boj 2941.md",
+    "알고리즘 (with JAVA)/풀이/boj 10798.md",
     "알고리즘 (with JAVA)/풀이/boj 25206.md",
+    "알고리즘 (with JAVA)/풀이/boj 1316.md",
     "알고리즘 (with JAVA)/boj java ranking.md",
     "알고리즘 (with JAVA)/풀이/boj setting.md",
     "알고리즘 (with JAVA)/자바 기본 Setting.md",
-    "알고리즘 (with JAVA)/풀이/boj 2941.md",
     "알고리즘 (with JAVA)/정리/String 관련 메서드.md",
     "알고리즘 (with JAVA)/풀이/boj 1157.md",
     "알고리즘 (with JAVA)/정리/List 관련 메서드.md",
@@ -198,7 +198,6 @@
     "알고리즘 (with JAVA)/정리/Collections.binarySearch 메서드.md",
     "알고리즘 (with JAVA)/정리/HashSet 관련 메서드.md",
     "알고리즘 (with JAVA)/정리/Queue 관련 메서드.md",
-    "알고리즘 (with JAVA)/정리/Stack 관련 메서드.md",
     "알고리즘 (with JAVA)/풀이",
     "알고리즘 (with JAVA)/정리",
     "알고리즘 (with JAVA)",
