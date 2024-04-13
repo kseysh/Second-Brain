@@ -1,6 +1,6 @@
 | rank | name                                                        |
 | ---- | ----------------------------------------------------------- |
-| 1    | [ ultmhoon21](https://www.acmicpc.net/user/ultmhoon21)      |
+| 1    | [ultmhoon21](https://www.acmicpc.net/user/ultmhoon21)       |
 | 2    | [lms0806](https://www.acmicpc.net/user/lms0806)             |
 | 3    | [shareshate](https://www.acmicpc.net/user/shareshate)       |
 | 4    | [exponential_e](https://www.acmicpc.net/user/exponential_e) |
