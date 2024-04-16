@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "a3de9698c0ed9578",
+        "id": "4aef4e79152bb980",
         "type": "tabs",
         "children": [
           {
-            "id": "fb933dfe38573644",
+            "id": "c7503dc9cd0424c9",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "전공 공부/지난 학기/이산구조/중간고사/Recursive Algorithms.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -85,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "전공 공부/지난 학기/이산구조/중간고사/Recursive Algorithms.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "전공 공부/지난 학기/이산구조/중간고사/Recursive Algorithms.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "전공 공부/지난 학기/이산구조/중간고사/Recursive Algorithms.md"
-              }
+              "state": {}
             }
           },
           {
@@ -168,8 +160,9 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "fb933dfe38573644",
+  "active": "c7503dc9cd0424c9",
   "lastOpenFiles": [
+    "전공 공부/지난 학기/이산구조/중간고사/Recursive Algorithms.md",
     "전공 공부/지난 학기/이산구조/8. 점화 관계.md",
     "전공 공부/지난 학기/DataStructure/DFS - BFS.md",
     "Python/Django/배포/nginx 디렉터리 의미.md",
@@ -197,7 +190,6 @@
     "Spring/어노테이션/@Valid.md",
     "Attached files/Pasted image 20240410173245.png",
     "문제 상황.md",
-    "알고리즘 (with JAVA)/정리/입출력 관련 메서드.md",
     "알고리즘 (with JAVA)/풀이",
     "알고리즘 (with JAVA)/정리",
     "알고리즘 (with JAVA)",
