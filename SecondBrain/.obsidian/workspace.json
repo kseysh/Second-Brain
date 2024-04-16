@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "알고리즘 (with JAVA)/풀이/boj 2869 +.md",
+                "file": "독서록/개발 관련 도서/테스트주도개발시작하기/TDD 시작.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "알고리즘 (with JAVA)/풀이/boj 2869 +.md",
+                "file": "독서록/개발 관련 도서/테스트주도개발시작하기/TDD 시작.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "알고리즘 (with JAVA)/풀이/boj 2869 +.md",
+                "file": "독서록/개발 관련 도서/테스트주도개발시작하기/TDD 시작.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "알고리즘 (with JAVA)/풀이/boj 2869 +.md"
+                "file": "독서록/개발 관련 도서/테스트주도개발시작하기/TDD 시작.md"
               }
             }
           },
@@ -170,6 +170,7 @@
   },
   "active": "c7503dc9cd0424c9",
   "lastOpenFiles": [
+    "독서록/개발 관련 도서/테스트주도개발시작하기/대역.md",
     "알고리즘 (with JAVA)/풀이/boj 2869 +.md",
     "전공 공부/지난 학기/이산구조/중간고사/Recursive Algorithms.md",
     "전공 공부/지난 학기/이산구조/8. 점화 관계.md",
@@ -196,7 +197,6 @@
     "알고리즘 (with JAVA)/풀이/boj 10809.md",
     "알고리즘 (with JAVA)/정리/StringBuilder 관련 메서드.md",
     "Attached files/Pasted image 20240410173228.png",
-    "Spring/어노테이션/@Valid.md",
     "Attached files/Pasted image 20240410173245.png",
     "알고리즘 (with JAVA)/풀이",
     "알고리즘 (with JAVA)/정리",
