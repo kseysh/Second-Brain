@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "독서록/개발 관련 도서/테스트주도개발시작하기/테스트 가능한 설계.md",
+                "file": "Develop/요청과 응답으로 엔티티(Entity) 대신 DTO를 사용하자.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 257.5,
-    "collapsed": true
+    "width": 257.5
   },
   "right": {
     "id": "feabab388e8825fc",
@@ -86,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "독서록/개발 관련 도서/테스트주도개발시작하기/테스트 가능한 설계.md",
+                "file": "Develop/요청과 응답으로 엔티티(Entity) 대신 DTO를 사용하자.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "독서록/개발 관련 도서/테스트주도개발시작하기/테스트 가능한 설계.md",
+                "file": "Develop/요청과 응답으로 엔티티(Entity) 대신 DTO를 사용하자.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "독서록/개발 관련 도서/테스트주도개발시작하기/테스트 가능한 설계.md"
+                "file": "Develop/요청과 응답으로 엔티티(Entity) 대신 DTO를 사용하자.md"
               }
             }
           },
@@ -171,6 +170,8 @@
   },
   "active": "c7503dc9cd0424c9",
   "lastOpenFiles": [
+    "독서록/개발 관련 도서/테스트주도개발시작하기/테스트 가능한 설계.md",
+    "Develop/요청과 응답으로 엔티티(Entity) 대신 DTO를 사용하자.md",
     "Spring/TestCode/모의 객체의 단점.md",
     "Spring/Spring MVC.md",
     "Spring/TestCode/Mockito에서 특정 메서드 호출 검증.md",
@@ -195,8 +196,6 @@
     "알고리즘 (with JAVA)/풀이/boj 10798 +.md",
     "알고리즘 (with JAVA)/풀이/boj setting.md",
     "알고리즘 (with JAVA)/풀이/boj 2941.md",
-    "알고리즘 (with JAVA)/풀이/boj 25206.md",
-    "알고리즘 (with JAVA)/풀이/boj 1316.md",
     "Attached files/Pasted image 20240410173228.png",
     "Attached files/Pasted image 20240410173245.png",
     "알고리즘 (with JAVA)/풀이",
