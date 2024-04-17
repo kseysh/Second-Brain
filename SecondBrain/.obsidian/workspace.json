@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "전공 공부/지난 학기/이산구조/중간고사/Algorithms.md",
+                "file": "Spring/TestCode/Mockito에서 특정 메서드 호출 검증.md",
                 "mode": "source",
                 "source": false
               }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "insertion",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -65,8 +65,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -87,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "전공 공부/지난 학기/이산구조/중간고사/Algorithms.md",
+                "file": "Spring/TestCode/Mockito에서 특정 메서드 호출 검증.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "전공 공부/지난 학기/이산구조/중간고사/Algorithms.md",
+                "file": "Spring/TestCode/Mockito에서 특정 메서드 호출 검증.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -127,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "전공 공부/지난 학기/이산구조/중간고사/Algorithms.md"
+                "file": "Spring/TestCode/Mockito에서 특정 메서드 호출 검증.md"
               }
             }
           },
@@ -172,6 +171,8 @@
   },
   "active": "c7503dc9cd0424c9",
   "lastOpenFiles": [
+    "전공 공부/지난 학기/이산구조/중간고사/Algorithms.md",
+    "Spring/TestCode/Mockito에서 특정 메서드 호출 검증.md",
     "독서록/개발 관련 도서/테스트주도개발시작하기/테스트.md",
     "독서록/개발 관련 도서/테스트주도개발시작하기/대역.md",
     "Spring/조회 빈이 2개 이상일 때.md",
@@ -196,8 +197,6 @@
     "알고리즘 (with JAVA)/풀이/boj 1316.md",
     "알고리즘 (with JAVA)/정리/String 관련 메서드.md",
     "알고리즘 (with JAVA)/풀이/boj 1157.md",
-    "알고리즘 (with JAVA)/정리/List 관련 메서드.md",
-    "알고리즘 (with JAVA)/정리/Collections 관련 메서드.md",
     "Attached files/Pasted image 20240410173228.png",
     "Attached files/Pasted image 20240410173245.png",
     "알고리즘 (with JAVA)/풀이",
