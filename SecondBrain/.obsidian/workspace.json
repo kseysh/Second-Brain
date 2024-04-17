@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Spring/조회 빈이 2개 이상일 때.md",
+                "file": "독서록/개발 관련 도서/테스트주도개발시작하기/대역.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Spring/조회 빈이 2개 이상일 때.md",
+                "file": "독서록/개발 관련 도서/테스트주도개발시작하기/대역.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Spring/조회 빈이 2개 이상일 때.md",
+                "file": "독서록/개발 관련 도서/테스트주도개발시작하기/대역.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Spring/조회 빈이 2개 이상일 때.md"
+                "file": "독서록/개발 관련 도서/테스트주도개발시작하기/대역.md"
               }
             }
           },
@@ -170,6 +170,7 @@
   },
   "active": "c7503dc9cd0424c9",
   "lastOpenFiles": [
+    "Spring/조회 빈이 2개 이상일 때.md",
     "독서록/개발 관련 도서/테스트주도개발시작하기/TDD 시작.md",
     "독서록/개발 관련 도서/테스트주도개발시작하기/대역.md",
     "알고리즘 (with JAVA)/풀이/boj 2869 +.md",
@@ -195,7 +196,6 @@
     "알고리즘 (with JAVA)/정리/List 관련 메서드.md",
     "알고리즘 (with JAVA)/정리/Collections 관련 메서드.md",
     "알고리즘 (with JAVA)/풀이/boj 5622.md",
-    "알고리즘 (with JAVA)/풀이/boj 10809.md",
     "Attached files/Pasted image 20240410173228.png",
     "Attached files/Pasted image 20240410173245.png",
     "알고리즘 (with JAVA)/풀이",
