@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "알고리즘 (with JAVA)/그리디 문제.md",
+                "file": "알고리즘 (with JAVA)/이런 저런...md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "알고리즘 (with JAVA)/그리디 문제.md",
+                "file": "알고리즘 (with JAVA)/이런 저런...md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "알고리즘 (with JAVA)/그리디 문제.md",
+                "file": "알고리즘 (with JAVA)/이런 저런...md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "알고리즘 (with JAVA)/그리디 문제.md"
+                "file": "알고리즘 (with JAVA)/이런 저런...md"
               }
             }
           },
@@ -170,8 +170,10 @@
   },
   "active": "c7503dc9cd0424c9",
   "lastOpenFiles": [
-    "알고리즘 (with JAVA)/분할 정복 문제.md",
+    "알고리즘 (with JAVA)/완전 탐색 문제.md",
+    "알고리즘 (with JAVA)/이런 저런...md",
     "알고리즘 (with JAVA)/그리디 문제.md",
+    "알고리즘 (with JAVA)/분할 정복 문제.md",
     "알고리즘 (with JAVA)/binary search 문제.md",
     "알고리즘 (with JAVA)/BFS, DFS.md",
     "알고리즘 (with JAVA)/DP 문제.md",
@@ -195,8 +197,6 @@
     "전공 공부/지난 학기/DataStructure/DFS - BFS.md",
     "Python/Django/배포/nginx 디렉터리 의미.md",
     "ERROR_Diary/nginx 502 error.md",
-    "Python/Django/배포/nginx.md",
-    "네트워크/HTTP/HTTP 응답 코드.md",
     "Attached files/Pasted image 20240410173228.png",
     "Attached files/Pasted image 20240410173245.png",
     "알고리즘 (with JAVA)/풀이",
