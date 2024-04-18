@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AWS/CodeDeploy EC2 Not Found.md",
+                "file": "알고리즘 (with JAVA)/풀이/boj 1193.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 257.5,
-    "collapsed": true
+    "width": 257.5
   },
   "right": {
     "id": "feabab388e8825fc",
@@ -86,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "AWS/CodeDeploy EC2 Not Found.md",
+                "file": "알고리즘 (with JAVA)/풀이/boj 1193.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "AWS/CodeDeploy EC2 Not Found.md",
+                "file": "알고리즘 (with JAVA)/풀이/boj 1193.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "AWS/CodeDeploy EC2 Not Found.md"
+                "file": "알고리즘 (with JAVA)/풀이/boj 1193.md"
               }
             }
           },
@@ -171,9 +170,10 @@
   },
   "active": "c7503dc9cd0424c9",
   "lastOpenFiles": [
+    "AWS/CodeDeploy EC2 Not Found.md",
+    "알고리즘 (with JAVA)/풀이/boj 1193.md",
     "Attached files/Pasted image 20240417183107.png",
     "Develop/요청과 응답으로 엔티티(Entity) 대신 DTO를 사용하자.md",
-    "AWS/CodeDeploy EC2 Not Found.md",
     "독서록/개발 관련 도서/테스트주도개발시작하기/테스트 가능한 설계.md",
     "Spring/TestCode/모의 객체의 단점.md",
     "Spring/Spring MVC.md",
@@ -210,7 +210,6 @@
     "Spring/TestCode",
     "Attached files/Pasted image 20240304194210.png",
     "Attached files/Pasted image 20240312213900.png",
-    "Attached files/Pasted image 20240312213913.png",
     "Develop/Auth",
     "AWS",
     "Develop/Architecture",
