@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Spring/TestCode/Mockito에서 특정 메서드 호출 검증.md",
+                "file": "알고리즘 (with JAVA)/그리디 문제.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Spring/TestCode/Mockito에서 특정 메서드 호출 검증.md",
+                "file": "알고리즘 (with JAVA)/그리디 문제.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Spring/TestCode/Mockito에서 특정 메서드 호출 검증.md",
+                "file": "알고리즘 (with JAVA)/그리디 문제.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Spring/TestCode/Mockito에서 특정 메서드 호출 검증.md"
+                "file": "알고리즘 (with JAVA)/그리디 문제.md"
               }
             }
           },
@@ -170,6 +170,12 @@
   },
   "active": "c7503dc9cd0424c9",
   "lastOpenFiles": [
+    "알고리즘 (with JAVA)/분할 정복 문제.md",
+    "알고리즘 (with JAVA)/그리디 문제.md",
+    "알고리즘 (with JAVA)/binary search 문제.md",
+    "알고리즘 (with JAVA)/BFS, DFS.md",
+    "알고리즘 (with JAVA)/DP 문제.md",
+    "Spring/TestCode/Mockito에서 특정 메서드 호출 검증.md",
     "알고리즘 (with JAVA)/풀이/boj 1193.md",
     "알고리즘 (with JAVA)/boj java ranking.md",
     "AWS/CodeDeploy EC2 Not Found.md",
@@ -178,7 +184,6 @@
     "독서록/개발 관련 도서/테스트주도개발시작하기/테스트 가능한 설계.md",
     "Spring/TestCode/모의 객체의 단점.md",
     "Spring/Spring MVC.md",
-    "Spring/TestCode/Mockito에서 특정 메서드 호출 검증.md",
     "전공 공부/지난 학기/이산구조/중간고사/Algorithms.md",
     "독서록/개발 관련 도서/테스트주도개발시작하기/테스트.md",
     "독서록/개발 관련 도서/테스트주도개발시작하기/대역.md",
@@ -192,11 +197,6 @@
     "ERROR_Diary/nginx 502 error.md",
     "Python/Django/배포/nginx.md",
     "네트워크/HTTP/HTTP 응답 코드.md",
-    "Python/Django/배포/aws 배포.md",
-    "Python/Django/배포/업스트림 서버.md",
-    "알고리즘 (with JAVA)/풀이/boj 2563.md",
-    "알고리즘 (with JAVA)/자바 기본 Setting.md",
-    "알고리즘 (with JAVA)/풀이/boj 10798 +.md",
     "Attached files/Pasted image 20240410173228.png",
     "Attached files/Pasted image 20240410173245.png",
     "알고리즘 (with JAVA)/풀이",
