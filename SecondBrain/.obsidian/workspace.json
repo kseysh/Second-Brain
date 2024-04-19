@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "알고리즘 (with JAVA)/풀이/boj 1940.md",
+                "file": "알고리즘 (with JAVA)/풀이/boj 12891.md",
                 "mode": "source",
                 "source": false
               }
@@ -97,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "알고리즘 (with JAVA)/풀이/boj 1940.md",
+                "file": "알고리즘 (with JAVA)/풀이/boj 12891.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "알고리즘 (with JAVA)/풀이/boj 1940.md",
+                "file": "알고리즘 (with JAVA)/풀이/boj 12891.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "알고리즘 (with JAVA)/풀이/boj 1940.md"
+                "file": "알고리즘 (with JAVA)/풀이/boj 12891.md"
               }
             }
           },
@@ -182,9 +182,10 @@
   },
   "active": "c7503dc9cd0424c9",
   "lastOpenFiles": [
-    "알고리즘 (with JAVA)/풀이/boj 2018.md",
-    "알고리즘 (with JAVA)/풀이/boj 1940.md",
     "알고리즘 (with JAVA)/이론/투 포인터.md",
+    "알고리즘 (with JAVA)/풀이/boj 12891.md",
+    "알고리즘 (with JAVA)/풀이/boj 1940 +.md",
+    "알고리즘 (with JAVA)/풀이/boj 2018.md",
     "Attached files/Pasted image 20240419152431.png",
     "Attached files/Pasted image 20240419152338.png",
     "Attached files/Pasted image 20240419152235.png",
@@ -214,7 +215,6 @@
     "Attached files/Pasted image 20240417183107.png",
     "Develop/요청과 응답으로 엔티티(Entity) 대신 DTO를 사용하자.md",
     "독서록/개발 관련 도서/테스트주도개발시작하기/테스트 가능한 설계.md",
-    "Spring/TestCode/모의 객체의 단점.md",
     "Attached files/Pasted image 20240410173228.png",
     "Attached files/Pasted image 20240410173245.png",
     "알고리즘 (with JAVA)/풀이",
