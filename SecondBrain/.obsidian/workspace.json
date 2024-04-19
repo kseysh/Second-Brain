@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "알고리즘 (with JAVA)/풀이/boj 2018.md",
+                "file": "알고리즘 (with JAVA)/풀이/boj 1940.md",
                 "mode": "source",
                 "source": false
               }
@@ -97,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "알고리즘 (with JAVA)/풀이/boj 2018.md",
+                "file": "알고리즘 (with JAVA)/풀이/boj 1940.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "알고리즘 (with JAVA)/풀이/boj 2018.md",
+                "file": "알고리즘 (with JAVA)/풀이/boj 1940.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "알고리즘 (with JAVA)/풀이/boj 2018.md"
+                "file": "알고리즘 (with JAVA)/풀이/boj 1940.md"
               }
             }
           },
@@ -182,8 +182,9 @@
   },
   "active": "c7503dc9cd0424c9",
   "lastOpenFiles": [
-    "알고리즘 (with JAVA)/이론/투 포인터.md",
     "알고리즘 (with JAVA)/풀이/boj 2018.md",
+    "알고리즘 (with JAVA)/풀이/boj 1940.md",
+    "알고리즘 (with JAVA)/이론/투 포인터.md",
     "Attached files/Pasted image 20240419152431.png",
     "Attached files/Pasted image 20240419152338.png",
     "Attached files/Pasted image 20240419152235.png",
