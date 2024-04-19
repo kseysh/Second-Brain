@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "알고리즘 (with JAVA)/이론/코테 시간 복잡도.md",
+                "file": "알고리즘 (with JAVA)/풀 문제들/자료구조 문제.md",
                 "mode": "source",
                 "source": false
               }
@@ -25,14 +25,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "알고리즘 (with JAVA)/풀이/boj 11659.md",
+                "file": "알고리즘 (with JAVA)/이론/구간 합.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -98,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "알고리즘 (with JAVA)/풀이/boj 11659.md",
+                "file": "알고리즘 (with JAVA)/풀 문제들/자료구조 문제.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "알고리즘 (with JAVA)/풀이/boj 11659.md",
+                "file": "알고리즘 (with JAVA)/풀 문제들/자료구조 문제.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "알고리즘 (with JAVA)/풀이/boj 11659.md"
+                "file": "알고리즘 (with JAVA)/풀 문제들/자료구조 문제.md"
               }
             }
           },
@@ -181,12 +180,15 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "1215a3aa0b893b03",
+  "active": "c7503dc9cd0424c9",
   "lastOpenFiles": [
+    "알고리즘 (with JAVA)/이론/코테 시간 복잡도.md",
+    "알고리즘 (with JAVA)/이론/구간 합.md",
+    "Attached files/Pasted image 20240419150822.png",
+    "알고리즘 (with JAVA)/풀이/boj 11659.md",
     "알고리즘 (with JAVA)/풀 문제들/자료구조 문제.md",
     "알고리즘 (with JAVA)/풀 문제들/이런 저런...md",
     "알고리즘 (with JAVA)/이론/코테 디버깅.md",
-    "알고리즘 (with JAVA)/이론/코테 시간 복잡도.md",
     "알고리즘 (with JAVA)/풀 문제들/알고리즘 공부 순서.md",
     "알고리즘 (with JAVA)/이론/DP를 사용하면 좋을 문제들.md",
     "알고리즘 (with JAVA)/풀 문제들/그리디 문제.md",
@@ -194,7 +196,6 @@
     "알고리즘 (with JAVA)/풀 문제들/binary search 문제.md",
     "알고리즘 (with JAVA)/풀 문제들/BFS, DFS.md",
     "알고리즘 (with JAVA)/풀 문제들/DP 문제.md",
-    "알고리즘 (with JAVA)/풀이/boj 11659.md",
     "알고리즘 (with JAVA)/풀 문제들/완전 탐색 문제.md",
     "알고리즘 (with JAVA)/이론/DP 이론.md",
     "알고리즘 (with JAVA)/메서드 정리/Array 관련 메서드.md",
@@ -210,8 +211,6 @@
     "Spring/TestCode/모의 객체의 단점.md",
     "Spring/Spring MVC.md",
     "전공 공부/지난 학기/이산구조/중간고사/Algorithms.md",
-    "독서록/개발 관련 도서/테스트주도개발시작하기/테스트.md",
-    "독서록/개발 관련 도서/테스트주도개발시작하기/대역.md",
     "Attached files/Pasted image 20240410173228.png",
     "Attached files/Pasted image 20240410173245.png",
     "알고리즘 (with JAVA)/풀이",
@@ -224,7 +223,6 @@
     "Attached files/Pasted image 20240324164705.png",
     "Spring/TestCode",
     "Attached files/Pasted image 20240304194210.png",
-    "Attached files/Pasted image 20240312213900.png",
     "Develop/Auth",
     "AWS",
     "Develop/Architecture",
