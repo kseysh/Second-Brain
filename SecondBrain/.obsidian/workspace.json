@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "알고리즘 (with JAVA)/이론/투 포인터.md",
+                "file": "알고리즘 (with JAVA)/풀이/boj 2018.md",
                 "mode": "source",
                 "source": false
               }
@@ -97,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "알고리즘 (with JAVA)/이론/투 포인터.md",
+                "file": "알고리즘 (with JAVA)/풀이/boj 2018.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "알고리즘 (with JAVA)/이론/투 포인터.md",
+                "file": "알고리즘 (with JAVA)/풀이/boj 2018.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "알고리즘 (with JAVA)/이론/투 포인터.md"
+                "file": "알고리즘 (with JAVA)/풀이/boj 2018.md"
               }
             }
           },
@@ -182,11 +182,11 @@
   },
   "active": "c7503dc9cd0424c9",
   "lastOpenFiles": [
+    "알고리즘 (with JAVA)/이론/투 포인터.md",
+    "알고리즘 (with JAVA)/풀이/boj 2018.md",
     "Attached files/Pasted image 20240419152431.png",
     "Attached files/Pasted image 20240419152338.png",
     "Attached files/Pasted image 20240419152235.png",
-    "알고리즘 (with JAVA)/풀이/boj 2018.md",
-    "알고리즘 (with JAVA)/이론/투 포인터.md",
     "알고리즘 (with JAVA)/풀이/boj 11659.md",
     "알고리즘 (with JAVA)/풀 문제들/자료구조 문제.md",
     "알고리즘 (with JAVA)/이론/구간 합.md",
@@ -222,7 +222,6 @@
     "Attached files/Pasted image 20240410173334.png",
     "Attached files/Pasted image 20240331155746.png",
     "Attached files/Pasted image 20240331151719.png",
-    "Attached files/Pasted image 20240324164930.png",
     "Spring/TestCode",
     "Develop/Auth",
     "AWS",
