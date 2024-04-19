@@ -13,13 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "알고리즘 (with JAVA)/이론/시간 복잡도.md",
+                "file": "알고리즘 (with JAVA)/이론/코테 시간 복잡도.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "1215a3aa0b893b03",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "알고리즘 (with JAVA)/이론/코테 디버깅.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -86,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "알고리즘 (with JAVA)/이론/시간 복잡도.md",
+                "file": "알고리즘 (with JAVA)/이론/코테 디버깅.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "알고리즘 (with JAVA)/이론/시간 복잡도.md",
+                "file": "알고리즘 (with JAVA)/이론/코테 디버깅.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "알고리즘 (with JAVA)/이론/시간 복잡도.md"
+                "file": "알고리즘 (with JAVA)/이론/코테 디버깅.md"
               }
             }
           },
@@ -169,18 +182,19 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "c7503dc9cd0424c9",
+  "active": "1215a3aa0b893b03",
   "lastOpenFiles": [
+    "알고리즘 (with JAVA)/이론/코테 시간 복잡도.md",
+    "알고리즘 (with JAVA)/이론/코테 디버깅.md",
+    "알고리즘 (with JAVA)/풀 문제들/알고리즘 공부 순서.md",
+    "알고리즘 (with JAVA)/이론/DP를 사용하면 좋을 문제들.md",
     "알고리즘 (with JAVA)/풀 문제들/그리디 문제.md",
-    "알고리즘 (with JAVA)/이론/시간 복잡도.md",
     "알고리즘 (with JAVA)/풀 문제들/분할 정복 문제.md",
     "알고리즘 (with JAVA)/풀 문제들/binary search 문제.md",
     "알고리즘 (with JAVA)/풀 문제들/BFS, DFS.md",
     "알고리즘 (with JAVA)/풀 문제들/DP 문제.md",
     "알고리즘 (with JAVA)/풀이/boj 1463.md",
     "알고리즘 (with JAVA)/풀 문제들/완전 탐색 문제.md",
-    "알고리즘 (with JAVA)/풀 문제들/알고리즘 공부 순서.md",
-    "알고리즘 (with JAVA)/이론/DP를 사용하면 좋을 문제들.md",
     "알고리즘 (with JAVA)/이론/DP 이론.md",
     "알고리즘 (with JAVA)/메서드 정리/Array 관련 메서드.md",
     "알고리즘 (with JAVA)/이론",
@@ -199,7 +213,6 @@
     "독서록/개발 관련 도서/테스트주도개발시작하기/테스트.md",
     "독서록/개발 관련 도서/테스트주도개발시작하기/대역.md",
     "Spring/조회 빈이 2개 이상일 때.md",
-    "독서록/개발 관련 도서/테스트주도개발시작하기/TDD 시작.md",
     "Attached files/Pasted image 20240410173228.png",
     "Attached files/Pasted image 20240410173245.png",
     "알고리즘 (with JAVA)/풀이",
