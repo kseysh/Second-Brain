@@ -8,24 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "c7503dc9cd0424c9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "JAVA/stream 작성법.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "1215a3aa0b893b03",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "알고리즘 (with JAVA)/이론/구간 합.md",
+                "file": "알고리즘 (with JAVA)/풀이/boj 2750.md",
                 "mode": "source",
                 "source": false
               }
@@ -97,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "JAVA/stream 작성법.md",
+                "file": "알고리즘 (with JAVA)/풀이/boj 2750.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "JAVA/stream 작성법.md",
+                "file": "알고리즘 (with JAVA)/풀이/boj 2750.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "JAVA/stream 작성법.md"
+                "file": "알고리즘 (with JAVA)/풀이/boj 2750.md"
               }
             }
           },
@@ -180,16 +168,20 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "c7503dc9cd0424c9",
+  "active": "1215a3aa0b893b03",
   "lastOpenFiles": [
+    "알고리즘 (with JAVA)/풀이/boj 1427.md",
+    "알고리즘 (with JAVA)/풀이/boj 2750.md",
+    "알고리즘 (with JAVA)/풀이/boj 11286 +.md",
+    "알고리즘 (with JAVA)/풀이/boj 2164.md",
+    "알고리즘 (with JAVA)/이론/Comparator.md",
+    "알고리즘 (with JAVA)/이론/구간 합.md",
     "JAVA/람다식 작성법.md",
     "JAVA/stream 작성법.md",
     "Attached files/Pasted image 20240420185726.png",
-    "알고리즘 (with JAVA)/이론/Comparator.md",
     "알고리즘 (with JAVA)/이론/우선 순위 큐.md",
     "알고리즘 (with JAVA)/이론/Queue.md",
     "알고리즘 (with JAVA)/이론/Stack.md",
-    "알고리즘 (with JAVA)/풀이/boj 2164.md",
     "알고리즘 (with JAVA)/풀이/boj 1874 +.md",
     "알고리즘 (with JAVA)/이론/슬라이딩 윈도우.md",
     "Attached files/Pasted image 20240420130315.png",
@@ -202,7 +194,6 @@
     "Attached files/Pasted image 20240419152235.png",
     "알고리즘 (with JAVA)/풀이/boj 11659.md",
     "알고리즘 (with JAVA)/풀 문제들/자료구조 문제.md",
-    "알고리즘 (with JAVA)/이론/구간 합.md",
     "알고리즘 (with JAVA)/이론/코테 시간 복잡도.md",
     "Attached files/Pasted image 20240419150822.png",
     "알고리즘 (with JAVA)/풀 문제들/이런 저런...md",
@@ -211,9 +202,6 @@
     "알고리즘 (with JAVA)/이론/DP를 사용하면 좋을 문제들.md",
     "알고리즘 (with JAVA)/풀 문제들/그리디 문제.md",
     "알고리즘 (with JAVA)/풀 문제들/분할 정복 문제.md",
-    "알고리즘 (with JAVA)/풀 문제들/binary search 문제.md",
-    "알고리즘 (with JAVA)/풀 문제들/BFS, DFS.md",
-    "알고리즘 (with JAVA)/풀 문제들/DP 문제.md",
     "알고리즘 (with JAVA)/이론",
     "알고리즘 (with JAVA)/풀 문제들",
     "Attached files/Pasted image 20240417183107.png",
