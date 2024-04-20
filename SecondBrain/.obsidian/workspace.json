@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "알고리즘 (with JAVA)/풀이/boj 2750.md",
+                "file": "알고리즘 (with JAVA)/풀이/boj 1427.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "알고리즘 (with JAVA)/풀이/boj 2750.md",
+                "file": "알고리즘 (with JAVA)/풀이/boj 1427.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "알고리즘 (with JAVA)/풀이/boj 2750.md",
+                "file": "알고리즘 (with JAVA)/풀이/boj 1427.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "알고리즘 (with JAVA)/풀이/boj 2750.md"
+                "file": "알고리즘 (with JAVA)/풀이/boj 1427.md"
               }
             }
           },
@@ -170,8 +170,8 @@
   },
   "active": "1215a3aa0b893b03",
   "lastOpenFiles": [
-    "알고리즘 (with JAVA)/풀이/boj 1427.md",
     "알고리즘 (with JAVA)/풀이/boj 2750.md",
+    "알고리즘 (with JAVA)/풀이/boj 1427.md",
     "알고리즘 (with JAVA)/풀이/boj 11286 +.md",
     "알고리즘 (with JAVA)/풀이/boj 2164.md",
     "알고리즘 (with JAVA)/이론/Comparator.md",
