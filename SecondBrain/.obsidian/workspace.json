@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "알고리즘 (with JAVA)/풀이/boj 1874 +.md",
+                "file": "알고리즘 (with JAVA)/풀이/boj 2164.md",
                 "mode": "source",
                 "source": false
               }
@@ -81,8 +81,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 257.5,
-    "collapsed": true
+    "width": 257.5
   },
   "right": {
     "id": "feabab388e8825fc",
@@ -98,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "알고리즘 (with JAVA)/풀이/boj 1874 +.md",
+                "file": "알고리즘 (with JAVA)/풀이/boj 2164.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "알고리즘 (with JAVA)/풀이/boj 1874 +.md",
+                "file": "알고리즘 (with JAVA)/풀이/boj 2164.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "알고리즘 (with JAVA)/풀이/boj 1874 +.md"
+                "file": "알고리즘 (with JAVA)/풀이/boj 2164.md"
               }
             }
           },
@@ -183,8 +182,9 @@
   },
   "active": "c7503dc9cd0424c9",
   "lastOpenFiles": [
-    "알고리즘 (with JAVA)/이론/슬라이딩 윈도우.md",
     "알고리즘 (with JAVA)/풀이/boj 1874 +.md",
+    "알고리즘 (with JAVA)/풀이/boj 2164.md",
+    "알고리즘 (with JAVA)/이론/슬라이딩 윈도우.md",
     "Attached files/Pasted image 20240420130315.png",
     "알고리즘 (with JAVA)/풀이/boj 12891.md",
     "알고리즘 (with JAVA)/이론/투 포인터.md",
@@ -215,7 +215,6 @@
     "Spring/TestCode/Mockito에서 특정 메서드 호출 검증.md",
     "알고리즘 (with JAVA)/풀이/boj 1193.md",
     "알고리즘 (with JAVA)/boj java ranking.md",
-    "AWS/CodeDeploy EC2 Not Found.md",
     "Attached files/Pasted image 20240417183107.png",
     "Attached files/Pasted image 20240410173228.png",
     "Attached files/Pasted image 20240410173245.png",
