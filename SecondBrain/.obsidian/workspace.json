@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "알고리즘 (with JAVA)/이론/Queue.md",
+                "file": "알고리즘 (with JAVA)/이론/Stack.md",
                 "mode": "source",
                 "source": false
               }
@@ -97,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "알고리즘 (with JAVA)/이론/Queue.md",
+                "file": "알고리즘 (with JAVA)/이론/Stack.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "알고리즘 (with JAVA)/이론/Queue.md",
+                "file": "알고리즘 (with JAVA)/이론/Stack.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "알고리즘 (with JAVA)/이론/Queue.md"
+                "file": "알고리즘 (with JAVA)/이론/Stack.md"
               }
             }
           },
@@ -182,8 +182,9 @@
   },
   "active": "c7503dc9cd0424c9",
   "lastOpenFiles": [
-    "알고리즘 (with JAVA)/풀이/boj 2164.md",
     "알고리즘 (with JAVA)/이론/Queue.md",
+    "알고리즘 (with JAVA)/이론/Stack.md",
+    "알고리즘 (with JAVA)/풀이/boj 2164.md",
     "알고리즘 (with JAVA)/풀이/boj 1874 +.md",
     "알고리즘 (with JAVA)/이론/슬라이딩 윈도우.md",
     "Attached files/Pasted image 20240420130315.png",
@@ -214,7 +215,6 @@
     "알고리즘 (with JAVA)/이론",
     "알고리즘 (with JAVA)/풀 문제들",
     "Spring/TestCode/Mockito에서 특정 메서드 호출 검증.md",
-    "알고리즘 (with JAVA)/풀이/boj 1193.md",
     "Attached files/Pasted image 20240417183107.png",
     "Attached files/Pasted image 20240410173228.png",
     "Attached files/Pasted image 20240410173245.png",
