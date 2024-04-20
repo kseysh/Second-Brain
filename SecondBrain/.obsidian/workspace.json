@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "알고리즘 (with JAVA)/풀이/boj 1427.md",
+                "file": "Spring/TestCode/Given When Then.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "알고리즘 (with JAVA)/풀이/boj 1427.md",
+                "file": "Spring/TestCode/Given When Then.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "알고리즘 (with JAVA)/풀이/boj 1427.md",
+                "file": "Spring/TestCode/Given When Then.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "알고리즘 (with JAVA)/풀이/boj 1427.md"
+                "file": "Spring/TestCode/Given When Then.md"
               }
             }
           },
@@ -170,8 +170,9 @@
   },
   "active": "1215a3aa0b893b03",
   "lastOpenFiles": [
-    "알고리즘 (with JAVA)/풀이/boj 2750.md",
     "알고리즘 (with JAVA)/풀이/boj 1427.md",
+    "Spring/TestCode/Given When Then.md",
+    "알고리즘 (with JAVA)/풀이/boj 2750.md",
     "알고리즘 (with JAVA)/풀이/boj 11286 +.md",
     "알고리즘 (with JAVA)/풀이/boj 2164.md",
     "알고리즘 (with JAVA)/이론/Comparator.md",
@@ -201,7 +202,6 @@
     "알고리즘 (with JAVA)/풀 문제들/알고리즘 공부 순서.md",
     "알고리즘 (with JAVA)/이론/DP를 사용하면 좋을 문제들.md",
     "알고리즘 (with JAVA)/풀 문제들/그리디 문제.md",
-    "알고리즘 (with JAVA)/풀 문제들/분할 정복 문제.md",
     "알고리즘 (with JAVA)/이론",
     "알고리즘 (with JAVA)/풀 문제들",
     "Attached files/Pasted image 20240417183107.png",
