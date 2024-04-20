@@ -1,0 +1,1 @@
+Comparator는 Array나 List, Collection
