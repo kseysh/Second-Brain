@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "알고리즘 (with JAVA)/풀 문제들/BFS, DFS.md",
+                "file": "알고리즘 (with JAVA)/풀이/boj 11724.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "알고리즘 (with JAVA)/풀 문제들/BFS, DFS.md",
+                "file": "알고리즘 (with JAVA)/풀이/boj 11724.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "알고리즘 (with JAVA)/풀 문제들/BFS, DFS.md",
+                "file": "알고리즘 (with JAVA)/풀이/boj 11724.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "알고리즘 (with JAVA)/풀 문제들/BFS, DFS.md"
+                "file": "알고리즘 (with JAVA)/풀이/boj 11724.md"
               }
             }
           },
@@ -170,8 +170,9 @@
   },
   "active": "1215a3aa0b893b03",
   "lastOpenFiles": [
-    "알고리즘 (with JAVA)/풀 문제들/완전 탐색 문제.md",
     "알고리즘 (with JAVA)/풀 문제들/BFS, DFS.md",
+    "알고리즘 (with JAVA)/풀이/boj 11724.md",
+    "알고리즘 (with JAVA)/풀 문제들/완전 탐색 문제.md",
     "알고리즘 (with JAVA)/이론/알고리즘 종류/DFS.md",
     "Attached files/Pasted image 20240421194717.png",
     "Attached files/Pasted image 20240421194538.png",
@@ -200,7 +201,6 @@
     "알고리즘 (with JAVA)/풀이/boj 11286 +.md",
     "알고리즘 (with JAVA)/풀이/boj 2164.md",
     "알고리즘 (with JAVA)/이론/Comparator.md",
-    "알고리즘 (with JAVA)/이론/알고리즘 종류/구간 합.md",
     "Attached files/Pasted image 20240420185726.png",
     "Attached files/Pasted image 20240420130315.png",
     "Attached files/Pasted image 20240419152431.png",
