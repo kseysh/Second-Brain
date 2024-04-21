@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DB/SQL/SQL 문법/JOIN.md",
+                "file": "DB/SQL/SQL 문제/2단계/조건에 부합하는 중고거래 상태 조회하기.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 257.5,
-    "collapsed": true
+    "width": 257.5
   },
   "right": {
     "id": "feabab388e8825fc",
@@ -86,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DB/SQL/SQL 문법/JOIN.md",
+                "file": "DB/SQL/SQL 문제/2단계/조건에 부합하는 중고거래 상태 조회하기.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "DB/SQL/SQL 문법/JOIN.md",
+                "file": "DB/SQL/SQL 문제/2단계/조건에 부합하는 중고거래 상태 조회하기.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DB/SQL/SQL 문법/JOIN.md"
+                "file": "DB/SQL/SQL 문제/2단계/조건에 부합하는 중고거래 상태 조회하기.md"
               }
             }
           },
@@ -171,6 +170,9 @@
   },
   "active": "1215a3aa0b893b03",
   "lastOpenFiles": [
+    "DB/SQL/SQL 문제/3단계/조회수가 가장 많은 중고거래 게시판의 첨부파일 조회하기.md",
+    "DB/SQL/SQL 문법/정규표현식.md",
+    "DB/SQL/SQL 문법/JOIN.md",
     "Spring/TestCode/Given When Then.md",
     "알고리즘 (with JAVA)/풀이/boj 1427.md",
     "알고리즘 (with JAVA)/풀이/boj 2750.md",
@@ -200,9 +202,6 @@
     "Attached files/Pasted image 20240419150822.png",
     "알고리즘 (with JAVA)/풀 문제들/이런 저런...md",
     "알고리즘 (with JAVA)/이론/코테 디버깅.md",
-    "알고리즘 (with JAVA)/풀 문제들/알고리즘 공부 순서.md",
-    "알고리즘 (with JAVA)/이론/DP를 사용하면 좋을 문제들.md",
-    "알고리즘 (with JAVA)/풀 문제들/그리디 문제.md",
     "알고리즘 (with JAVA)/이론",
     "알고리즘 (with JAVA)/풀 문제들",
     "Attached files/Pasted image 20240417183107.png",
