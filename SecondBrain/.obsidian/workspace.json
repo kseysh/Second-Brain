@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Spring/TestCode/Given When Then.md",
+                "file": "DB/SQL/SQL 문법/JOIN.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 257.5
+    "width": 257.5,
+    "collapsed": true
   },
   "right": {
     "id": "feabab388e8825fc",
@@ -85,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Spring/TestCode/Given When Then.md",
+                "file": "DB/SQL/SQL 문법/JOIN.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Spring/TestCode/Given When Then.md",
+                "file": "DB/SQL/SQL 문법/JOIN.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Spring/TestCode/Given When Then.md"
+                "file": "DB/SQL/SQL 문법/JOIN.md"
               }
             }
           },
@@ -170,8 +171,8 @@
   },
   "active": "1215a3aa0b893b03",
   "lastOpenFiles": [
-    "알고리즘 (with JAVA)/풀이/boj 1427.md",
     "Spring/TestCode/Given When Then.md",
+    "알고리즘 (with JAVA)/풀이/boj 1427.md",
     "알고리즘 (with JAVA)/풀이/boj 2750.md",
     "알고리즘 (with JAVA)/풀이/boj 11286 +.md",
     "알고리즘 (with JAVA)/풀이/boj 2164.md",
