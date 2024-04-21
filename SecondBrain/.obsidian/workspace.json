@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "알고리즘 (with JAVA)/이론/알고리즘 종류/BFS.md",
+                "file": "알고리즘 (with JAVA)/풀 문제들/BFS, DFS.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "알고리즘 (with JAVA)/이론/알고리즘 종류/BFS.md",
+                "file": "알고리즘 (with JAVA)/풀 문제들/BFS, DFS.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "알고리즘 (with JAVA)/이론/알고리즘 종류/BFS.md",
+                "file": "알고리즘 (with JAVA)/풀 문제들/BFS, DFS.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "알고리즘 (with JAVA)/이론/알고리즘 종류/BFS.md"
+                "file": "알고리즘 (with JAVA)/풀 문제들/BFS, DFS.md"
               }
             }
           },
@@ -170,10 +170,10 @@
   },
   "active": "1215a3aa0b893b03",
   "lastOpenFiles": [
+    "알고리즘 (with JAVA)/이론/알고리즘 종류/BFS.md",
     "Attached files/Pasted image 20240421230136.png",
     "Attached files/Pasted image 20240421225235.png",
     "알고리즘 (with JAVA)/이론/알고리즘 종류/DFS.md",
-    "알고리즘 (with JAVA)/이론/알고리즘 종류/BFS.md",
     "알고리즘 (with JAVA)/이론/알고리즘 종류/우선 순위 큐.md",
     "알고리즘 (with JAVA)/풀이/boj 11724 +.md",
     "알고리즘 (with JAVA)/풀 문제들/BFS, DFS.md",
@@ -206,7 +206,6 @@
     "Attached files/Pasted image 20240420130315.png",
     "Attached files/Pasted image 20240419152431.png",
     "Attached files/Pasted image 20240419152338.png",
-    "Attached files/Pasted image 20240419152235.png",
     "알고리즘 (with JAVA)/이론",
     "알고리즘 (with JAVA)/풀 문제들",
     "알고리즘 (with JAVA)/풀이",
