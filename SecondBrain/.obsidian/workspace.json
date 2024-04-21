@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DB/SQL/SQL 문제/2단계/조건에 부합하는 중고거래 상태 조회하기.md",
+                "file": "DB/DB 정규화.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DB/SQL/SQL 문제/2단계/조건에 부합하는 중고거래 상태 조회하기.md",
+                "file": "DB/DB 정규화.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "DB/SQL/SQL 문제/2단계/조건에 부합하는 중고거래 상태 조회하기.md",
+                "file": "DB/DB 정규화.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DB/SQL/SQL 문제/2단계/조건에 부합하는 중고거래 상태 조회하기.md"
+                "file": "DB/DB 정규화.md"
               }
             }
           },
@@ -170,6 +170,10 @@
   },
   "active": "1215a3aa0b893b03",
   "lastOpenFiles": [
+    "DB/In-memory DB.md",
+    "DB/MySQL vs. PostgreSQL.md",
+    "DB/SQL/SQL 문제/2단계/조건에 부합하는 중고거래 상태 조회하기.md",
+    "DB/SQL/SQL문.md",
     "DB/SQL/SQL 문제/3단계/조회수가 가장 많은 중고거래 게시판의 첨부파일 조회하기.md",
     "DB/SQL/SQL 문법/정규표현식.md",
     "DB/SQL/SQL 문법/JOIN.md",
@@ -197,11 +201,7 @@
     "Attached files/Pasted image 20240419152338.png",
     "Attached files/Pasted image 20240419152235.png",
     "알고리즘 (with JAVA)/풀이/boj 11659.md",
-    "알고리즘 (with JAVA)/풀 문제들/자료구조 문제.md",
-    "알고리즘 (with JAVA)/이론/코테 시간 복잡도.md",
     "Attached files/Pasted image 20240419150822.png",
-    "알고리즘 (with JAVA)/풀 문제들/이런 저런...md",
-    "알고리즘 (with JAVA)/이론/코테 디버깅.md",
     "알고리즘 (with JAVA)/이론",
     "알고리즘 (with JAVA)/풀 문제들",
     "Attached files/Pasted image 20240417183107.png",
