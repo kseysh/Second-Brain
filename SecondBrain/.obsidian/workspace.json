@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DB/DB 정규화.md",
+                "file": "알고리즘 (with JAVA)/이론/알고리즘 종류/DFS.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DB/DB 정규화.md",
+                "file": "알고리즘 (with JAVA)/이론/알고리즘 종류/DFS.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "DB/DB 정규화.md",
+                "file": "알고리즘 (with JAVA)/이론/알고리즘 종류/DFS.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DB/DB 정규화.md"
+                "file": "알고리즘 (with JAVA)/이론/알고리즘 종류/DFS.md"
               }
             }
           },
@@ -170,6 +170,9 @@
   },
   "active": "1215a3aa0b893b03",
   "lastOpenFiles": [
+    "DB/DB 정규화.md",
+    "알고리즘 (with JAVA)/이론/알고리즘 종류/DFS.md",
+    "알고리즘 (with JAVA)/이론/알고리즘 종류",
     "DB/In-memory DB.md",
     "DB/MySQL vs. PostgreSQL.md",
     "DB/SQL/SQL 문제/2단계/조건에 부합하는 중고거래 상태 조회하기.md",
@@ -183,24 +186,22 @@
     "알고리즘 (with JAVA)/풀이/boj 11286 +.md",
     "알고리즘 (with JAVA)/풀이/boj 2164.md",
     "알고리즘 (with JAVA)/이론/Comparator.md",
-    "알고리즘 (with JAVA)/이론/구간 합.md",
+    "알고리즘 (with JAVA)/이론/알고리즘 종류/구간 합.md",
     "JAVA/람다식 작성법.md",
     "JAVA/stream 작성법.md",
     "Attached files/Pasted image 20240420185726.png",
-    "알고리즘 (with JAVA)/이론/우선 순위 큐.md",
-    "알고리즘 (with JAVA)/이론/Queue.md",
-    "알고리즘 (with JAVA)/이론/Stack.md",
+    "알고리즘 (with JAVA)/이론/알고리즘 종류/우선 순위 큐.md",
+    "알고리즘 (with JAVA)/이론/알고리즘 종류/Queue.md",
+    "알고리즘 (with JAVA)/이론/알고리즘 종류/Stack.md",
     "알고리즘 (with JAVA)/풀이/boj 1874 +.md",
-    "알고리즘 (with JAVA)/이론/슬라이딩 윈도우.md",
+    "알고리즘 (with JAVA)/이론/알고리즘 종류/슬라이딩 윈도우.md",
     "Attached files/Pasted image 20240420130315.png",
     "알고리즘 (with JAVA)/풀이/boj 12891.md",
-    "알고리즘 (with JAVA)/이론/투 포인터.md",
+    "알고리즘 (with JAVA)/이론/알고리즘 종류/투 포인터.md",
     "알고리즘 (with JAVA)/풀이/boj 1940 +.md",
-    "알고리즘 (with JAVA)/풀이/boj 2018.md",
     "Attached files/Pasted image 20240419152431.png",
     "Attached files/Pasted image 20240419152338.png",
     "Attached files/Pasted image 20240419152235.png",
-    "알고리즘 (with JAVA)/풀이/boj 11659.md",
     "Attached files/Pasted image 20240419150822.png",
     "알고리즘 (with JAVA)/이론",
     "알고리즘 (with JAVA)/풀 문제들",
@@ -215,7 +216,6 @@
     "Develop/Auth",
     "AWS",
     "Develop/Architecture",
-    "전공 공부/이산구조/중간고사",
     "무제 파일.canvas"
   ]
 }
