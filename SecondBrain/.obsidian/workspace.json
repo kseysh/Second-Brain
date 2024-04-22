@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "알고리즘 (with JAVA)/풀이/boj 1260.md",
+                "file": "알고리즘 (with JAVA)/이론/알고리즘 종류/이분 그래프.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "알고리즘 (with JAVA)/풀이/boj 1260.md",
+                "file": "알고리즘 (with JAVA)/이론/알고리즘 종류/이분 그래프.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "알고리즘 (with JAVA)/풀이/boj 1260.md",
+                "file": "알고리즘 (with JAVA)/이론/알고리즘 종류/이분 그래프.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "알고리즘 (with JAVA)/풀이/boj 1260.md"
+                "file": "알고리즘 (with JAVA)/이론/알고리즘 종류/이분 그래프.md"
               }
             }
           },
@@ -170,11 +170,12 @@
   },
   "active": "1215a3aa0b893b03",
   "lastOpenFiles": [
+    "알고리즘 (with JAVA)/풀이/boj 1260.md",
+    "알고리즘 (with JAVA)/이론/알고리즘 종류/이분 그래프.md",
     "알고리즘 (with JAVA)/풀 문제들/BFS, DFS.md",
     "알고리즘 (with JAVA)/이론/알고리즘 종류/BFS.md",
     "알고리즘 (with JAVA)/이론/알고리즘 종류/DFS.md",
     "알고리즘 (with JAVA)/풀이/boj 2178.md",
-    "알고리즘 (with JAVA)/풀이/boj 1260.md",
     "알고리즘 (with JAVA)/풀이/boj 11724 +.md",
     "알고리즘 (with JAVA)/이론/알고리즘 종류/Queue.md",
     "전공 공부/지난 학기/DataStructure/DFS - BFS.md",
@@ -202,7 +203,6 @@
     "DB/SQL/SQL문.md",
     "DB/SQL/SQL 문제/3단계/조회수가 가장 많은 중고거래 게시판의 첨부파일 조회하기.md",
     "DB/SQL/SQL 문법/정규표현식.md",
-    "DB/SQL/SQL 문법/JOIN.md",
     "Attached files/Pasted image 20240420185726.png",
     "Attached files/Pasted image 20240420130315.png",
     "Attached files/Pasted image 20240419152431.png",
