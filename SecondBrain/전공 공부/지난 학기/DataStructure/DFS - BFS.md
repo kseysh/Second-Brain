@@ -45,8 +45,6 @@ Input값은 graph G = (V, E), and a start vertex v ∈ V
 ```
 
 ### Examples
-
-
 ![[KakaoTalk_20230522_155527895.jpg|400]]
 ![[KakaoTalk_20230522_155550019.jpg|600]]
 ### Stack으로 표현
@@ -206,8 +204,6 @@ BFS만 Shortest path를 찾을 수 있다.
 ![[KakaoTalk_20230527_203427050.jpg|400]]
 
 BFS의 cross edge의 level number는 최대 1이 차이난다.
-
-
 
 연관된 글
 [[Graphs]]
