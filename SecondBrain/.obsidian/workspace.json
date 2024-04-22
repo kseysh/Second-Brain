@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "전공 공부/지난 학기/DataStructure/DFS - BFS.md",
+                "file": "알고리즘 (with JAVA)/풀이/boj 2178.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 257.5,
-    "collapsed": true
+    "width": 257.5
   },
   "right": {
     "id": "feabab388e8825fc",
@@ -86,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "전공 공부/지난 학기/DataStructure/DFS - BFS.md",
+                "file": "알고리즘 (with JAVA)/풀이/boj 2178.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "전공 공부/지난 학기/DataStructure/DFS - BFS.md",
+                "file": "알고리즘 (with JAVA)/풀이/boj 2178.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "전공 공부/지난 학기/DataStructure/DFS - BFS.md"
+                "file": "알고리즘 (with JAVA)/풀이/boj 2178.md"
               }
             }
           },
@@ -171,14 +170,16 @@
   },
   "active": "1215a3aa0b893b03",
   "lastOpenFiles": [
-    "알고리즘 (with JAVA)/이론/알고리즘 종류/Queue.md",
-    "알고리즘 (with JAVA)/이론/알고리즘 종류/BFS.md",
+    "알고리즘 (with JAVA)/풀이/boj 11724 +.md",
+    "알고리즘 (with JAVA)/풀이/boj 2178.md",
     "알고리즘 (with JAVA)/풀 문제들/BFS, DFS.md",
+    "알고리즘 (with JAVA)/이론/알고리즘 종류/BFS.md",
+    "알고리즘 (with JAVA)/이론/알고리즘 종류/Queue.md",
+    "전공 공부/지난 학기/DataStructure/DFS - BFS.md",
     "Attached files/Pasted image 20240421230136.png",
     "Attached files/Pasted image 20240421225235.png",
     "알고리즘 (with JAVA)/이론/알고리즘 종류/DFS.md",
     "알고리즘 (with JAVA)/이론/알고리즘 종류/우선 순위 큐.md",
-    "알고리즘 (with JAVA)/풀이/boj 11724 +.md",
     "알고리즘 (with JAVA)/풀 문제들/완전 탐색 문제.md",
     "Attached files/Pasted image 20240421194717.png",
     "Attached files/Pasted image 20240421194538.png",
@@ -202,8 +203,6 @@
     "DB/SQL/SQL 문법/정규표현식.md",
     "DB/SQL/SQL 문법/JOIN.md",
     "Spring/TestCode/Given When Then.md",
-    "알고리즘 (with JAVA)/풀이/boj 1427.md",
-    "알고리즘 (with JAVA)/풀이/boj 2750.md",
     "Attached files/Pasted image 20240420185726.png",
     "Attached files/Pasted image 20240420130315.png",
     "Attached files/Pasted image 20240419152431.png",
