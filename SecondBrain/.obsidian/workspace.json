@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "JAVA/자바의 정석/import문의 선언.md",
+                "file": "JAVA/자바의 정석/참조변수의 형변환.md",
                 "mode": "source",
                 "source": false
               }
@@ -60,7 +60,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "스레드",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -97,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "JAVA/자바의 정석/import문의 선언.md",
+                "file": "JAVA/자바의 정석/참조변수의 형변환.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "JAVA/자바의 정석/import문의 선언.md",
+                "file": "JAVA/자바의 정석/참조변수의 형변환.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "JAVA/자바의 정석/import문의 선언.md"
+                "file": "JAVA/자바의 정석/참조변수의 형변환.md"
               }
             }
           },
@@ -182,8 +182,10 @@
   },
   "active": "1215a3aa0b893b03",
   "lastOpenFiles": [
-    "JAVA/자바의 정석/오버로딩 vs 오버라이딩.md",
+    "Attached files/Pasted image 20240424145011.png",
+    "Attached files/Pasted image 20240424145002.png",
     "JAVA/자바의 정석/import문의 선언.md",
+    "JAVA/자바의 정석/오버로딩 vs 오버라이딩.md",
     "JAVA/자바의 정석/모든 클래스의 최고조상 - Object 클래스.md",
     "JAVA/자바의 정석/단일 상속.md",
     "JAVA/자바의 정석/여러 종류의 객체를 하나의 배열로 다루기.md",
@@ -209,7 +211,6 @@
     "Attached files/Pasted image 20240421230136.png",
     "Attached files/Pasted image 20240421225235.png",
     "알고리즘 (with JAVA)/이론/알고리즘 종류/우선 순위 큐.md",
-    "알고리즘 (with JAVA)/풀 문제들/완전 탐색 문제.md",
     "Attached files/Pasted image 20240421194717.png",
     "Attached files/Pasted image 20240421194538.png",
     "Attached files/Pasted image 20240421194439.png",
@@ -218,7 +219,6 @@
     "Attached files/Pasted image 20240420185726.png",
     "Attached files/Pasted image 20240420130315.png",
     "Attached files/Pasted image 20240419152431.png",
-    "Attached files/Pasted image 20240419152338.png",
     "알고리즘 (with JAVA)/이론",
     "알고리즘 (with JAVA)/풀 문제들",
     "알고리즘 (with JAVA)/풀이",
