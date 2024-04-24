@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "JAVA/자바의 정석/Queue의 변형.md",
+                "file": "JAVA/자바의 정석/HashSet과 TreeSet.md",
                 "mode": "source",
                 "source": false
               }
@@ -109,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "JAVA/자바의 정석/Queue의 변형.md",
+                "file": "JAVA/자바의 정석/HashSet과 TreeSet.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,7 +126,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "JAVA/자바의 정석/Queue의 변형.md",
+                "file": "JAVA/자바의 정석/HashSet과 TreeSet.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -149,7 +149,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "JAVA/자바의 정석/Queue의 변형.md"
+                "file": "JAVA/자바의 정석/HashSet과 TreeSet.md"
               }
             }
           },
@@ -194,8 +194,11 @@
   },
   "active": "1215a3aa0b893b03",
   "lastOpenFiles": [
-    "JAVA/자바의 정석/ArrayList vs LinkedList.md",
+    "JAVA/자바의 정석/Comparator와 Comparable.md",
+    "JAVA/자바의 정석/HashSet과 TreeSet.md",
+    "JAVA/자바의 정석/ListIterator.md",
     "JAVA/자바의 정석/Queue의 변형.md",
+    "JAVA/자바의 정석/ArrayList vs LinkedList.md",
     "JAVA/자바의 정석/TemporalAdjusters.md",
     "Attached files/Pasted image 20240424220307.png",
     "JAVA/자바의 정석/ZoneDateTime.md",
@@ -227,9 +230,6 @@
     "JAVA/자바의 정석/여러 종류의 객체를 하나의 배열로 다루기.md",
     "JAVA/자바의 정석/클래스메서드와 인스턴스메서드.md",
     "JAVA/자바의 정석/클래스간의 관계결정하기 - 상속 vs 포함.md",
-    "JAVA/람다식 작성법.md",
-    "JAVA/자바의 정석/초기화 블록.md",
-    "JAVA/Collectors.toList() vs Stream.toList().md",
     "알고리즘 (with JAVA)/이론/알고리즘 종류",
     "알고리즘 (with JAVA)/이론",
     "알고리즘 (with JAVA)/풀 문제들",
