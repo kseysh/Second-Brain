@@ -39,7 +39,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "JAVA/자바의 정석/interface.md",
+                "file": "JAVA/자바의 정석/메서드에 예외 선언하기.md",
                 "mode": "source",
                 "source": false
               }
@@ -96,8 +96,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 257.5,
-    "collapsed": true
+    "width": 257.5
   },
   "right": {
     "id": "feabab388e8825fc",
@@ -113,7 +112,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "JAVA/자바의 정석/interface.md",
+                "file": "JAVA/자바의 정석/메서드에 예외 선언하기.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -130,7 +129,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "JAVA/자바의 정석/interface.md",
+                "file": "JAVA/자바의 정석/메서드에 예외 선언하기.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -153,7 +152,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "JAVA/자바의 정석/interface.md"
+                "file": "JAVA/자바의 정석/메서드에 예외 선언하기.md"
               }
             }
           },
@@ -198,11 +197,13 @@
   },
   "active": "5ca60a33ae548d11",
   "lastOpenFiles": [
+    "Attached files/Pasted image 20240424161945.png",
+    "JAVA/자바의 정석/interface.md",
+    "JAVA/자바의 정석/메서드에 예외 선언하기.md",
     "JAVA/자바의 정석/abstract vs interface.md",
     "Attached files/Pasted image 20240424154301.png",
     "Attached files/Pasted image 20240424153521.png",
     "JAVA/자바의 정석/abstract.md",
-    "JAVA/자바의 정석/interface.md",
     "Attached files/Pasted image 20240424150443.png",
     "JAVA/자바의 정석/참조변수의 형변환.md",
     "Attached files/Pasted image 20240424145011.png",
@@ -227,7 +228,6 @@
     "알고리즘 (with JAVA)/이론/알고리즘 종류/DFS.md",
     "알고리즘 (with JAVA)/풀이/boj 2178.md",
     "알고리즘 (with JAVA)/풀이/boj 11724 +.md",
-    "알고리즘 (with JAVA)/이론/알고리즘 종류/Queue.md",
     "Attached files/Pasted image 20240421230136.png",
     "Attached files/Pasted image 20240421225235.png",
     "Attached files/Pasted image 20240421194717.png",
