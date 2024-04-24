@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "JAVA/자바의 정석/ArrayList vs LinkedList.md",
+                "file": "JAVA/자바의 정석/Queue의 변형.md",
                 "mode": "source",
                 "source": false
               }
@@ -109,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "JAVA/자바의 정석/ArrayList vs LinkedList.md",
+                "file": "JAVA/자바의 정석/Queue의 변형.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,7 +126,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "JAVA/자바의 정석/ArrayList vs LinkedList.md",
+                "file": "JAVA/자바의 정석/Queue의 변형.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -149,7 +149,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "JAVA/자바의 정석/ArrayList vs LinkedList.md"
+                "file": "JAVA/자바의 정석/Queue의 변형.md"
               }
             }
           },
@@ -194,8 +194,9 @@
   },
   "active": "1215a3aa0b893b03",
   "lastOpenFiles": [
-    "JAVA/자바의 정석/TemporalAdjusters.md",
     "JAVA/자바의 정석/ArrayList vs LinkedList.md",
+    "JAVA/자바의 정석/Queue의 변형.md",
+    "JAVA/자바의 정석/TemporalAdjusters.md",
     "Attached files/Pasted image 20240424220307.png",
     "JAVA/자바의 정석/ZoneDateTime.md",
     "Attached files/Pasted image 20240424204307.png",
@@ -229,7 +230,6 @@
     "JAVA/람다식 작성법.md",
     "JAVA/자바의 정석/초기화 블록.md",
     "JAVA/Collectors.toList() vs Stream.toList().md",
-    "독서록/읽고 싶은 책 List.md",
     "알고리즘 (with JAVA)/이론/알고리즘 종류",
     "알고리즘 (with JAVA)/이론",
     "알고리즘 (with JAVA)/풀 문제들",
