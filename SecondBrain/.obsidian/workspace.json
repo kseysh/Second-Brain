@@ -82,7 +82,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 257.5
+    "width": 257.5,
+    "collapsed": true
   },
   "right": {
     "id": "feabab388e8825fc",
@@ -181,7 +182,7 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "98b99bcebe54855a",
+  "active": "1215a3aa0b893b03",
   "lastOpenFiles": [
     "알고리즘 (with JAVA)/풀이/boj 10451.md",
     "알고리즘 (with JAVA)/풀 문제들/BFS, DFS.md",
