@@ -39,7 +39,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "JAVA/자바의 정석/메서드에 예외 선언하기.md",
+                "file": "JAVA/자바의 정석/연결된 예외.md",
                 "mode": "source",
                 "source": false
               }
@@ -112,7 +112,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "JAVA/자바의 정석/메서드에 예외 선언하기.md",
+                "file": "JAVA/자바의 정석/연결된 예외.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -129,7 +129,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "JAVA/자바의 정석/메서드에 예외 선언하기.md",
+                "file": "JAVA/자바의 정석/연결된 예외.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -152,7 +152,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "JAVA/자바의 정석/메서드에 예외 선언하기.md"
+                "file": "JAVA/자바의 정석/연결된 예외.md"
               }
             }
           },
@@ -197,9 +197,16 @@
   },
   "active": "5ca60a33ae548d11",
   "lastOpenFiles": [
+    "Attached files/Pasted image 20240424162756.png",
+    "Attached files/Pasted image 20240424162733.png",
+    "JAVA/자바의 정석/사용자정의 예외 만들기.md",
+    "JAVA/자바의 정석/연결된 예외.md",
+    "Attached files/Pasted image 20240424162512.png",
+    "JAVA/자바의 정석/예외 되던지기.md",
+    "Attached files/Pasted image 20240424162443.png",
+    "JAVA/자바의 정석/메서드에 예외 선언하기.md",
     "Attached files/Pasted image 20240424161945.png",
     "JAVA/자바의 정석/interface.md",
-    "JAVA/자바의 정석/메서드에 예외 선언하기.md",
     "JAVA/자바의 정석/abstract vs interface.md",
     "Attached files/Pasted image 20240424154301.png",
     "Attached files/Pasted image 20240424153521.png",
@@ -225,14 +232,7 @@
     "알고리즘 (with JAVA)/이론/알고리즘 종류/이분 그래프.md",
     "알고리즘 (with JAVA)/풀이/boj 1260.md",
     "알고리즘 (with JAVA)/이론/알고리즘 종류/BFS.md",
-    "알고리즘 (with JAVA)/이론/알고리즘 종류/DFS.md",
-    "알고리즘 (with JAVA)/풀이/boj 2178.md",
-    "알고리즘 (with JAVA)/풀이/boj 11724 +.md",
     "Attached files/Pasted image 20240421230136.png",
-    "Attached files/Pasted image 20240421225235.png",
-    "Attached files/Pasted image 20240421194717.png",
-    "Attached files/Pasted image 20240421194538.png",
-    "Attached files/Pasted image 20240421194439.png",
     "알고리즘 (with JAVA)/이론/알고리즘 종류",
     "알고리즘 (with JAVA)/이론",
     "알고리즘 (with JAVA)/풀 문제들",
