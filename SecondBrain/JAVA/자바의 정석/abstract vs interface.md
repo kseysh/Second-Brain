@@ -3,7 +3,7 @@
 	- [명확한 계층 구조 추상화](#%EB%AA%85%ED%99%95%ED%95%9C%20%EA%B3%84%EC%B8%B5%20%EA%B5%AC%EC%A1%B0%20%EC%B6%94%EC%83%81%ED%99%94)
 - [인터페이스를 사용하는 경우](#%EC%9D%B8%ED%84%B0%ED%8E%98%EC%9D%B4%EC%8A%A4%EB%A5%BC%20%EC%82%AC%EC%9A%A9%ED%95%98%EB%8A%94%20%EA%B2%BD%EC%9A%B0)
 	- [자유로운 타입 묶음](#%EC%9E%90%EC%9C%A0%EB%A1%9C%EC%9A%B4%20%ED%83%80%EC%9E%85%20%EB%AC%B6%EC%9D%8C)
-
+		- [예시](#%EC%98%88%EC%8B%9C)
 
 # [[abstract]] vs [[interface]]
 

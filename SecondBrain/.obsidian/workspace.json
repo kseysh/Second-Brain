@@ -39,7 +39,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "JAVA/자바의 정석/abstract vs interface.md",
+                "file": "JAVA/자바의 정석/interface.md",
                 "mode": "source",
                 "source": false
               }
@@ -113,7 +113,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "JAVA/자바의 정석/abstract vs interface.md",
+                "file": "JAVA/자바의 정석/interface.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -130,7 +130,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "JAVA/자바의 정석/abstract vs interface.md",
+                "file": "JAVA/자바의 정석/interface.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -153,7 +153,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "JAVA/자바의 정석/abstract vs interface.md"
+                "file": "JAVA/자바의 정석/interface.md"
               }
             }
           },
@@ -198,10 +198,10 @@
   },
   "active": "5ca60a33ae548d11",
   "lastOpenFiles": [
+    "JAVA/자바의 정석/abstract vs interface.md",
     "Attached files/Pasted image 20240424154301.png",
     "Attached files/Pasted image 20240424153521.png",
     "JAVA/자바의 정석/abstract.md",
-    "JAVA/자바의 정석/abstract vs interface.md",
     "JAVA/자바의 정석/interface.md",
     "Attached files/Pasted image 20240424150443.png",
     "JAVA/자바의 정석/참조변수의 형변환.md",
@@ -233,7 +233,6 @@
     "Attached files/Pasted image 20240421194717.png",
     "Attached files/Pasted image 20240421194538.png",
     "Attached files/Pasted image 20240421194439.png",
-    "Attached files/Pasted image 20240421194229.png",
     "알고리즘 (with JAVA)/이론/알고리즘 종류",
     "알고리즘 (with JAVA)/이론",
     "알고리즘 (with JAVA)/풀 문제들",
