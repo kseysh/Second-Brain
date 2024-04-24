@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "독서록/읽고 싶은 책 List.md",
+                "file": "JAVA/자바의 정석/클래스간의 관계결정하기 - 상속 vs 포함.md",
                 "mode": "source",
                 "source": false
               }
@@ -77,13 +77,11 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 257.5,
-    "collapsed": true
+    "width": 257.5
   },
   "right": {
     "id": "feabab388e8825fc",
@@ -99,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "독서록/읽고 싶은 책 List.md",
+                "file": "JAVA/자바의 정석/클래스간의 관계결정하기 - 상속 vs 포함.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "독서록/읽고 싶은 책 List.md",
+                "file": "JAVA/자바의 정석/클래스간의 관계결정하기 - 상속 vs 포함.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "독서록/읽고 싶은 책 List.md"
+                "file": "JAVA/자바의 정석/클래스간의 관계결정하기 - 상속 vs 포함.md"
               }
             }
           },
@@ -184,6 +182,16 @@
   },
   "active": "1215a3aa0b893b03",
   "lastOpenFiles": [
+    "JAVA/자바의 정석/Untitled.md",
+    "JAVA/람다식 작성법.md",
+    "JAVA/자바의 정석/interface.md",
+    "JAVA/자바의 정석/abstract.md",
+    "JAVA/자바의 정석/초기화 블록.md",
+    "JAVA/자바의 정석/클래스간의 관계결정하기 - 상속 vs 포함.md",
+    "JAVA/자바의 정석/클래스메서드와 인스턴스메서드.md",
+    "JAVA/자바의 정석/여러 종류의 객체를 하나의 배열로 다루기.md",
+    "JAVA/Collectors.toList() vs Stream.toList().md",
+    "독서록/읽고 싶은 책 List.md",
     "알고리즘 (with JAVA)/풀이/boj 10451.md",
     "알고리즘 (with JAVA)/풀 문제들/BFS, DFS.md",
     "알고리즘 (with JAVA)/풀이/boj 1707 -.md",
@@ -206,17 +214,7 @@
     "DB/DB 정규화.md",
     "Spring/TestCode/모의 객체의 단점.md",
     "Spring/TestCode/@Transactional과 static.md",
-    "독서록/개발 관련 도서/테스트주도개발시작하기/대역.md",
-    "독서록/개발 관련 도서/테스트주도개발시작하기/테스트 가능한 설계.md",
-    "독서록/개발 관련 도서/테스트주도개발시작하기/테스트 범위와 종류.md",
-    "독서록/개발 관련 도서/테스트주도개발시작하기/TDD 기능 명세 설계.md",
-    "독서록/개발 관련 도서/테스트주도개발시작하기/TDD 시작.md",
-    "Spring/TestCode/Mockito에서 특정 메서드 호출 검증.md",
     "알고리즘 (with JAVA)/이론/알고리즘 종류",
-    "DB/In-memory DB.md",
-    "DB/MySQL vs. PostgreSQL.md",
-    "DB/SQL/SQL 문제/2단계/조건에 부합하는 중고거래 상태 조회하기.md",
-    "DB/SQL/SQL문.md",
     "Attached files/Pasted image 20240420185726.png",
     "Attached files/Pasted image 20240420130315.png",
     "Attached files/Pasted image 20240419152431.png",
