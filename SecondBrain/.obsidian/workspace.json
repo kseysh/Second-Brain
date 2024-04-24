@@ -10,13 +10,15 @@
           {
             "id": "1215a3aa0b893b03",
             "type": "leaf",
+            "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
                 "file": "JAVA/자바의 정석/abstract vs interface.md",
                 "mode": "source",
                 "source": false
-              }
+              },
+              "pinned": true
             }
           },
           {
