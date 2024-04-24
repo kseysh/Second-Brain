@@ -32,8 +32,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "5ca60a33ae548d11",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "JAVA/자바의 정석/abstract vs interface.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -183,8 +196,9 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "1215a3aa0b893b03",
+  "active": "5ca60a33ae548d11",
   "lastOpenFiles": [
+    "Attached files/Pasted image 20240424153521.png",
     "JAVA/자바의 정석/abstract.md",
     "JAVA/자바의 정석/abstract vs interface.md",
     "JAVA/자바의 정석/interface.md",

@@ -3,5 +3,6 @@
   "obsidian-git",
   "highlightr-plugin",
   "url-into-selection",
-  "editing-toolbar"
+  "editing-toolbar",
+  "obsidian-plugin-toc"
 ]
