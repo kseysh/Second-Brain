@@ -93,7 +93,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 257.5
+    "width": 257.5,
+    "collapsed": true
   },
   "right": {
     "id": "feabab388e8825fc",
@@ -194,6 +195,10 @@
   },
   "active": "1215a3aa0b893b03",
   "lastOpenFiles": [
+    "Attached files/Pasted image 20240425200650.png",
+    "Attached files/Pasted image 20240425200504.png",
+    "Attached files/Pasted image 20240425200435.png",
+    "Attached files/Pasted image 20240425200348.png",
     "Attached files/Pasted image 20240425200029.png",
     "Attached files/Pasted image 20240425195944.png",
     "Attached files/Pasted image 20240425195352.png",
@@ -206,15 +211,11 @@
     "JAVA/자바의 정석/해싱.md",
     "Attached files/Pasted image 20240425161230.png",
     "Attached files/Pasted image 20240424232059.png",
-    "Attached files/Pasted image 20240424231816.png",
-    "Attached files/Pasted image 20240424231809.png",
-    "Attached files/Pasted image 20240424231712.png",
     "JAVA/자바의 정석/Comparator와 Comparable.md",
     "JAVA/자바의 정석/ListIterator.md",
     "JAVA/자바의 정석/Queue의 변형.md",
     "JAVA/자바의 정석/ArrayList vs LinkedList.md",
     "JAVA/자바의 정석/TemporalAdjusters.md",
-    "Attached files/Pasted image 20240424220307.png",
     "JAVA/자바의 정석/ZoneDateTime.md",
     "JAVA/자바의 정석/Java.time 패키지.md",
     "JAVA/자바의 정석/abstract vs interface.md",
