@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "JAVA/자바의 정석/어노테이션.md",
+                "file": "TDD 리팩토링.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,8 +93,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 257.5,
-    "collapsed": true
+    "width": 257.5
   },
   "right": {
     "id": "feabab388e8825fc",
@@ -110,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "JAVA/자바의 정석/어노테이션.md",
+                "file": "TDD 리팩토링.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +126,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "JAVA/자바의 정석/어노테이션.md",
+                "file": "TDD 리팩토링.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +149,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "JAVA/자바의 정석/어노테이션.md"
+                "file": "TDD 리팩토링.md"
               }
             }
           },
@@ -195,6 +194,9 @@
   },
   "active": "1215a3aa0b893b03",
   "lastOpenFiles": [
+    "문제 상황.md",
+    "TDD 리팩토링.md",
+    "JAVA/자바의 정석/어노테이션.md",
     "Attached files/Pasted image 20240425205231.png",
     "Attached files/Pasted image 20240425205059.png",
     "Attached files/Pasted image 20240425205051.png",
@@ -203,11 +205,9 @@
     "Attached files/Pasted image 20240425204829.png",
     "Attached files/Pasted image 20240425204223.png",
     "JAVA/자바의 정석/열거형.md",
-    "JAVA/자바의 정석/어노테이션.md",
     "Attached files/Pasted image 20240425204059.png",
     "Attached files/Pasted image 20240425204037.png",
     "Attached files/Pasted image 20240425203946.png",
-    "Attached files/Pasted image 20240425203859.png",
     "JAVA/자바의 정석/제네릭(Generics).md",
     "JAVA/자바의 정석/컬렉션 클래스 정리.md",
     "JAVA/자바의 정석/HashMap과 TreeMap.md",
@@ -230,7 +230,6 @@
     "JAVA/자바의 정석/메서드에 예외 선언하기.md",
     "JAVA/자바의 정석/interface.md",
     "JAVA/자바의 정석/abstract.md",
-    "JAVA/자바의 정석/참조변수의 형변환.md",
     "알고리즘 (with JAVA)/이론/알고리즘 종류",
     "알고리즘 (with JAVA)/이론",
     "알고리즘 (with JAVA)/풀 문제들",
