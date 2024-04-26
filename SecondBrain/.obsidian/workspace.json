@@ -13,7 +13,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "TDD 리팩토링.md",
+                "file": "JAVA/자바의 정석/프로세스.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "fdbe12aef79c4361",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "JAVA/자바의 정석/프로세스.md",
                 "mode": "source",
                 "source": false
               }
@@ -43,7 +55,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -109,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "TDD 리팩토링.md",
+                "file": "JAVA/자바의 정석/프로세스.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "TDD 리팩토링.md",
+                "file": "JAVA/자바의 정석/프로세스.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -149,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "TDD 리팩토링.md"
+                "file": "JAVA/자바의 정석/프로세스.md"
               }
             }
           },
@@ -192,10 +205,15 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "1215a3aa0b893b03",
+  "active": "fdbe12aef79c4361",
   "lastOpenFiles": [
-    "문제 상황.md",
+    "JAVA/자바의 정석/스레드.md",
+    "JAVA/자바의 정석/프로세스.md",
+    "Attached files/Pasted image 20240426120224.png",
+    "Attached files/Pasted image 20240426115923.png",
+    "JAVA/자바의 정석/멀티 스레드.md",
     "TDD 리팩토링.md",
+    "문제 상황.md",
     "JAVA/자바의 정석/어노테이션.md",
     "Attached files/Pasted image 20240425205231.png",
     "Attached files/Pasted image 20240425205059.png",
@@ -206,8 +224,6 @@
     "Attached files/Pasted image 20240425204223.png",
     "JAVA/자바의 정석/열거형.md",
     "Attached files/Pasted image 20240425204059.png",
-    "Attached files/Pasted image 20240425204037.png",
-    "Attached files/Pasted image 20240425203946.png",
     "JAVA/자바의 정석/제네릭(Generics).md",
     "JAVA/자바의 정석/컬렉션 클래스 정리.md",
     "JAVA/자바의 정석/HashMap과 TreeMap.md",
@@ -226,10 +242,6 @@
     "JAVA/자바의 정석/String 클래스 메서드.md",
     "JAVA/자바의 정석/연결된 예외.md",
     "JAVA/자바의 정석/사용자정의 예외 만들기.md",
-    "JAVA/자바의 정석/예외 되던지기.md",
-    "JAVA/자바의 정석/메서드에 예외 선언하기.md",
-    "JAVA/자바의 정석/interface.md",
-    "JAVA/자바의 정석/abstract.md",
     "알고리즘 (with JAVA)/이론/알고리즘 종류",
     "알고리즘 (with JAVA)/이론",
     "알고리즘 (with JAVA)/풀 문제들",
