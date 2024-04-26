@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "JAVA/자바의 정석/스레드의 상태와 실행제어.md",
+                "file": "JAVA/자바의 정석/스레드의 동기화.md",
                 "mode": "source",
                 "source": false
               }
@@ -106,8 +106,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 257.5,
-    "collapsed": true
+    "width": 257.5
   },
   "right": {
     "id": "feabab388e8825fc",
@@ -123,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "JAVA/자바의 정석/스레드의 상태와 실행제어.md",
+                "file": "JAVA/자바의 정석/스레드의 동기화.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -140,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "JAVA/자바의 정석/스레드의 상태와 실행제어.md",
+                "file": "JAVA/자바의 정석/스레드의 동기화.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -163,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "JAVA/자바의 정석/스레드의 상태와 실행제어.md"
+                "file": "JAVA/자바의 정석/스레드의 동기화.md"
               }
             }
           },
@@ -208,10 +207,12 @@
   },
   "active": "fdbe12aef79c4361",
   "lastOpenFiles": [
+    "JAVA/자바의 정석/스레드의 상태와 실행제어.md",
+    "JAVA/자바의 정석/스레드의 동기화.md",
+    "Attached files/Pasted image 20240426192056.png",
     "Attached files/Pasted image 20240426190205.png",
     "Attached files/Pasted image 20240426185901.png",
     "JAVA/자바의 정석/싱글스레드와 멀티스레드.md",
-    "JAVA/자바의 정석/스레드의 상태와 실행제어.md",
     "Attached files/Pasted image 20240426123542.png",
     "Attached files/Pasted image 20240426123342.png",
     "Attached files/Pasted image 20240426123257.png",
@@ -222,8 +223,6 @@
     "JAVA/자바의 정석/멀티 스레드.md",
     "JAVA/자바의 정석/스레드.md",
     "Attached files/Pasted image 20240426121307.png",
-    "Attached files/Pasted image 20240426121258.png",
-    "Attached files/Pasted image 20240426120402.png",
     "TDD 리팩토링.md",
     "문제 상황.md",
     "JAVA/자바의 정석/어노테이션.md",
