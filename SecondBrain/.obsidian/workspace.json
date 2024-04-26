@@ -106,7 +106,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 257.5
+    "width": 257.5,
+    "collapsed": true
   },
   "right": {
     "id": "feabab388e8825fc",
@@ -207,6 +208,10 @@
   },
   "active": "fdbe12aef79c4361",
   "lastOpenFiles": [
+    "Attached files/Pasted image 20240426123342.png",
+    "Attached files/Pasted image 20240426123257.png",
+    "Attached files/Pasted image 20240426122930.png",
+    "Attached files/Pasted image 20240426122400.png",
     "Attached files/Pasted image 20240426122335.png",
     "JAVA/자바의 정석/스레드, 프로세스, 멀티 스레드.md",
     "JAVA/자바의 정석/싱글스레드와 멀티스레드.md",
@@ -221,10 +226,6 @@
     "문제 상황.md",
     "JAVA/자바의 정석/어노테이션.md",
     "Attached files/Pasted image 20240425205231.png",
-    "Attached files/Pasted image 20240425205059.png",
-    "Attached files/Pasted image 20240425205051.png",
-    "Attached files/Pasted image 20240425205014.png",
-    "Attached files/Pasted image 20240425204918.png",
     "JAVA/자바의 정석/열거형.md",
     "JAVA/자바의 정석/제네릭(Generics).md",
     "JAVA/자바의 정석/컬렉션 클래스 정리.md",
