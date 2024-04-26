@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "JAVA/자바의 정석/싱글스레드와 멀티스레드.md",
+                "file": "JAVA/자바의 정석/스레드의 상태와 실행제어.md",
                 "mode": "source",
                 "source": false
               }
@@ -123,7 +123,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "JAVA/자바의 정석/싱글스레드와 멀티스레드.md",
+                "file": "JAVA/자바의 정석/스레드의 상태와 실행제어.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -140,7 +140,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "JAVA/자바의 정석/싱글스레드와 멀티스레드.md",
+                "file": "JAVA/자바의 정석/스레드의 상태와 실행제어.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -163,7 +163,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "JAVA/자바의 정석/싱글스레드와 멀티스레드.md"
+                "file": "JAVA/자바의 정석/스레드의 상태와 실행제어.md"
               }
             }
           },
@@ -208,6 +208,10 @@
   },
   "active": "fdbe12aef79c4361",
   "lastOpenFiles": [
+    "Attached files/Pasted image 20240426190205.png",
+    "Attached files/Pasted image 20240426185901.png",
+    "JAVA/자바의 정석/싱글스레드와 멀티스레드.md",
+    "JAVA/자바의 정석/스레드의 상태와 실행제어.md",
     "Attached files/Pasted image 20240426123542.png",
     "Attached files/Pasted image 20240426123342.png",
     "Attached files/Pasted image 20240426123257.png",
@@ -215,14 +219,11 @@
     "Attached files/Pasted image 20240426122400.png",
     "Attached files/Pasted image 20240426122335.png",
     "JAVA/자바의 정석/스레드, 프로세스, 멀티 스레드.md",
-    "JAVA/자바의 정석/싱글스레드와 멀티스레드.md",
     "JAVA/자바의 정석/멀티 스레드.md",
     "JAVA/자바의 정석/스레드.md",
     "Attached files/Pasted image 20240426121307.png",
     "Attached files/Pasted image 20240426121258.png",
     "Attached files/Pasted image 20240426120402.png",
-    "Attached files/Pasted image 20240426120224.png",
-    "Attached files/Pasted image 20240426115923.png",
     "TDD 리팩토링.md",
     "문제 상황.md",
     "JAVA/자바의 정석/어노테이션.md",
@@ -243,7 +244,6 @@
     "JAVA/자바의 정석/Math 클래스 메서드.md",
     "JAVA/자바의 정석/StringBuffer 클래스 메서드.md",
     "JAVA/자바의 정석/String 클래스 메서드.md",
-    "JAVA/자바의 정석/연결된 예외.md",
     "알고리즘 (with JAVA)/이론/알고리즘 종류",
     "알고리즘 (with JAVA)/이론",
     "알고리즘 (with JAVA)/풀 문제들",
