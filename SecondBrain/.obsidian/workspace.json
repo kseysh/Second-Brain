@@ -106,7 +106,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 257.5
+    "width": 257.5,
+    "collapsed": true
   },
   "right": {
     "id": "feabab388e8825fc",
@@ -209,6 +210,7 @@
   "lastOpenFiles": [
     "JAVA/자바의 정석/스레드의 상태와 실행제어.md",
     "JAVA/자바의 정석/스레드의 동기화.md",
+    "Attached files/Pasted image 20240426192622.png",
     "Attached files/Pasted image 20240426192056.png",
     "Attached files/Pasted image 20240426190205.png",
     "Attached files/Pasted image 20240426185901.png",
@@ -222,7 +224,6 @@
     "JAVA/자바의 정석/스레드, 프로세스, 멀티 스레드.md",
     "JAVA/자바의 정석/멀티 스레드.md",
     "JAVA/자바의 정석/스레드.md",
-    "Attached files/Pasted image 20240426121307.png",
     "TDD 리팩토링.md",
     "문제 상황.md",
     "JAVA/자바의 정석/어노테이션.md",
@@ -242,7 +243,6 @@
     "JAVA/자바의 정석/abstract vs interface.md",
     "JAVA/자바의 정석/Math 클래스 메서드.md",
     "JAVA/자바의 정석/StringBuffer 클래스 메서드.md",
-    "JAVA/자바의 정석/String 클래스 메서드.md",
     "알고리즘 (with JAVA)/이론/알고리즘 종류",
     "알고리즘 (with JAVA)/이론",
     "알고리즘 (with JAVA)/풀 문제들",
