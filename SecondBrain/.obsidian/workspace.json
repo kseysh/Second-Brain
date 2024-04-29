@@ -25,31 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "JAVA/자바의 정석/람다.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "f572ccea16ce23b8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "알고리즘 (with JAVA)/이론/알고리즘 종류/이분 그래프.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "5ca60a33ae548d11",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "JAVA/자바의 정석/Math 클래스 메서드.md",
+                "file": "JAVA/자바의 정석/함수형 인터페이스.md",
                 "mode": "source",
                 "source": false
               }
@@ -123,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "JAVA/자바의 정석/람다.md",
+                "file": "JAVA/자바의 정석/함수형 인터페이스.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -140,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "JAVA/자바의 정석/람다.md",
+                "file": "JAVA/자바의 정석/함수형 인터페이스.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -163,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "JAVA/자바의 정석/람다.md"
+                "file": "JAVA/자바의 정석/함수형 인터페이스.md"
               }
             }
           },
@@ -208,20 +184,21 @@
   },
   "active": "fdbe12aef79c4361",
   "lastOpenFiles": [
+    "Attached files/Pasted image 20240429111222.png",
+    "JAVA/자바의 정석/람다.md",
+    "JAVA/자바의 정석/함수형 인터페이스.md",
+    "Attached files/Pasted image 20240429111009.png",
+    "Attached files/Pasted image 20240429110945.png",
+    "Attached files/Pasted image 20240429110904.png",
+    "Attached files/Pasted image 20240429110436.png",
     "Attached files/Pasted image 20240429110408.png",
     "Attached files/Pasted image 20240429110340.png",
     "Attached files/Pasted image 20240429110135.png",
     "Attached files/Pasted image 20240429110124.png",
     "JAVA/자바의 정석/join & fork framework.md",
-    "JAVA/자바의 정석/람다.md",
     "Attached files/Pasted image 20240429110017.png",
     "Attached files/Pasted image 20240429105204.png",
-    "Attached files/Pasted image 20240429105132.png",
-    "Attached files/Pasted image 20240429105044.png",
     "JAVA/자바의 정석/Lock & Condition.md",
-    "Attached files/Pasted image 20240429104910.png",
-    "Attached files/Pasted image 20240429104752.png",
-    "Attached files/Pasted image 20240429104726.png",
     "JAVA/자바의 정석/스레드의 상태와 실행제어.md",
     "JAVA/자바의 정석/스레드의 동기화.md",
     "JAVA/자바의 정석/스레드, 프로세스, 멀티 스레드.md",
@@ -243,7 +220,6 @@
     "JAVA/자바의 정석/ArrayList vs LinkedList.md",
     "JAVA/자바의 정석/TemporalAdjusters.md",
     "JAVA/자바의 정석/ZoneDateTime.md",
-    "JAVA/자바의 정석/Java.time 패키지.md",
     "알고리즘 (with JAVA)/이론/알고리즘 종류",
     "알고리즘 (with JAVA)/이론",
     "알고리즘 (with JAVA)/풀 문제들",
