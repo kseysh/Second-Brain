@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "알고리즘 (with JAVA)/풀 문제들/BFS, DFS.md",
+                "file": "알고리즘 (with JAVA)/풀이/Untitled.md",
                 "mode": "source",
                 "source": false
               }
@@ -94,8 +94,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 257.5,
-    "collapsed": true
+    "width": 257.5
   },
   "right": {
     "id": "feabab388e8825fc",
@@ -111,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "알고리즘 (with JAVA)/풀 문제들/BFS, DFS.md",
+                "file": "알고리즘 (with JAVA)/풀이/Untitled.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -128,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "알고리즘 (with JAVA)/풀 문제들/BFS, DFS.md",
+                "file": "알고리즘 (with JAVA)/풀이/Untitled.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -151,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "알고리즘 (with JAVA)/풀 문제들/BFS, DFS.md"
+                "file": "알고리즘 (with JAVA)/풀이/Untitled.md"
               }
             }
           },
@@ -196,14 +195,15 @@
   },
   "active": "66a06497790cf251",
   "lastOpenFiles": [
-    "알고리즘 (with JAVA)/풀이/boj 2331.md",
     "알고리즘 (with JAVA)/풀 문제들/BFS, DFS.md",
+    "알고리즘 (with JAVA)/풀이/Untitled.md",
+    "알고리즘 (with JAVA)/풀이/boj 2331 +.md",
+    "알고리즘 (with JAVA)/풀 문제들/자료구조 문제.md",
+    "알고리즘 (with JAVA)/풀 문제들/알고리즘 공부 순서.md",
+    "알고리즘 (with JAVA)/풀 문제들/이런 저런...md",
+    "알고리즘 (with JAVA)/풀 문제들/완전 탐색 문제.md",
     "알고리즘 (with JAVA)/풀이/boj 10451.md",
     "알고리즘 (with JAVA)/풀이/boj 1707 -.md",
-    "알고리즘 (with JAVA)/풀 문제들/완전 탐색 문제.md",
-    "알고리즘 (with JAVA)/풀 문제들/이런 저런...md",
-    "알고리즘 (with JAVA)/풀 문제들/알고리즘 공부 순서.md",
-    "알고리즘 (with JAVA)/풀 문제들/자료구조 문제.md",
     "알고리즘 (with JAVA)/이론/알고리즘 종류/이분 그래프.md",
     "Develop/TDD 리팩토링.md",
     "Unused/Attached files/Pasted image 20240429154926.png",
@@ -233,7 +233,6 @@
     "독서록/개발 관련 도서/자바의 정석/join & fork framework.md",
     "독서록/개발 관련 도서/자바의 정석/Lock & Condition.md",
     "독서록/개발 관련 도서/자바의 정석/스레드의 상태와 실행제어.md",
-    "독서록/개발 관련 도서/자바의 정석/스레드의 동기화.md",
     "알고리즘 (with JAVA)/이론/알고리즘 종류",
     "알고리즘 (with JAVA)/이론",
     "알고리즘 (with JAVA)/풀 문제들",
