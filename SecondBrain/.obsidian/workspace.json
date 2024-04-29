@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "알고리즘 (with JAVA)/풀이/boj 10451.md",
+                "file": "알고리즘 (with JAVA)/풀이/boj 2331.md",
                 "mode": "source",
                 "source": false
               }
@@ -94,7 +94,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 257.5
+    "width": 257.5,
+    "collapsed": true
   },
   "right": {
     "id": "feabab388e8825fc",
@@ -110,7 +111,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "알고리즘 (with JAVA)/풀이/boj 10451.md",
+                "file": "알고리즘 (with JAVA)/풀이/boj 2331.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +128,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "알고리즘 (with JAVA)/풀이/boj 10451.md",
+                "file": "알고리즘 (with JAVA)/풀이/boj 2331.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +151,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "알고리즘 (with JAVA)/풀이/boj 10451.md"
+                "file": "알고리즘 (with JAVA)/풀이/boj 2331.md"
               }
             }
           },
@@ -196,6 +197,8 @@
   "active": "66a06497790cf251",
   "lastOpenFiles": [
     "알고리즘 (with JAVA)/풀 문제들/BFS, DFS.md",
+    "알고리즘 (with JAVA)/풀이/boj 2331.md",
+    "알고리즘 (with JAVA)/풀이/boj 10451.md",
     "알고리즘 (with JAVA)/풀이/boj 1707 -.md",
     "알고리즘 (with JAVA)/풀 문제들/완전 탐색 문제.md",
     "알고리즘 (with JAVA)/풀 문제들/이런 저런...md",
@@ -231,8 +234,6 @@
     "독서록/개발 관련 도서/자바의 정석/Lock & Condition.md",
     "독서록/개발 관련 도서/자바의 정석/스레드의 상태와 실행제어.md",
     "독서록/개발 관련 도서/자바의 정석/스레드의 동기화.md",
-    "독서록/개발 관련 도서/자바의 정석/스레드, 프로세스, 멀티 스레드.md",
-    "독서록/개발 관련 도서/자바의 정석/싱글스레드와 멀티스레드.md",
     "알고리즘 (with JAVA)/이론/알고리즘 종류",
     "알고리즘 (with JAVA)/이론",
     "알고리즘 (with JAVA)/풀 문제들",
