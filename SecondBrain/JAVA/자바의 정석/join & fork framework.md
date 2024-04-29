@@ -9,4 +9,7 @@ fork()로 나눈 작업을 큐에 넣고, compute()를 재귀호출한다.
 작업을 나눠서 다른 쓰레드의 작업 큐에 넣는 것
 ![[Pasted image 20240429105204.png]]
 ## fork()와 join()
-compute()는 작업을 나누고, fork()는 작업을 큐에 넣는다.,
+compute()는 작업을 나누고, fork()는 작업을 큐에 넣는다.
+join()으로 작업의 결과를 합친다.
+![[Pasted image 20240429110017.png]]
+

@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "JAVA/자바의 정석/join & fork framework.md",
+                "file": "JAVA/자바의 정석/람다.md",
                 "mode": "source",
                 "source": false
               }
@@ -123,7 +123,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "JAVA/자바의 정석/join & fork framework.md",
+                "file": "JAVA/자바의 정석/람다.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -140,7 +140,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "JAVA/자바의 정석/join & fork framework.md",
+                "file": "JAVA/자바의 정석/람다.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -163,7 +163,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "JAVA/자바의 정석/join & fork framework.md"
+                "file": "JAVA/자바의 정석/람다.md"
               }
             }
           },
@@ -208,22 +208,23 @@
   },
   "active": "fdbe12aef79c4361",
   "lastOpenFiles": [
+    "Attached files/Pasted image 20240429110408.png",
+    "Attached files/Pasted image 20240429110340.png",
+    "Attached files/Pasted image 20240429110135.png",
+    "Attached files/Pasted image 20240429110124.png",
+    "JAVA/자바의 정석/join & fork framework.md",
+    "JAVA/자바의 정석/람다.md",
+    "Attached files/Pasted image 20240429110017.png",
     "Attached files/Pasted image 20240429105204.png",
     "Attached files/Pasted image 20240429105132.png",
     "Attached files/Pasted image 20240429105044.png",
     "JAVA/자바의 정석/Lock & Condition.md",
-    "JAVA/자바의 정석/join & fork framework.md",
     "Attached files/Pasted image 20240429104910.png",
     "Attached files/Pasted image 20240429104752.png",
     "Attached files/Pasted image 20240429104726.png",
-    "Attached files/Pasted image 20240429104640.png",
-    "Attached files/Pasted image 20240429104548.png",
-    "Attached files/Pasted image 20240429104519.png",
-    "Attached files/Pasted image 20240429104458.png",
     "JAVA/자바의 정석/스레드의 상태와 실행제어.md",
     "JAVA/자바의 정석/스레드의 동기화.md",
     "JAVA/자바의 정석/스레드, 프로세스, 멀티 스레드.md",
-    "Attached files/Pasted image 20240426194222.png",
     "JAVA/자바의 정석/싱글스레드와 멀티스레드.md",
     "JAVA/자바의 정석/멀티 스레드.md",
     "JAVA/자바의 정석/스레드.md",
@@ -243,7 +244,6 @@
     "JAVA/자바의 정석/TemporalAdjusters.md",
     "JAVA/자바의 정석/ZoneDateTime.md",
     "JAVA/자바의 정석/Java.time 패키지.md",
-    "JAVA/자바의 정석/abstract vs interface.md",
     "알고리즘 (with JAVA)/이론/알고리즘 종류",
     "알고리즘 (with JAVA)/이론",
     "알고리즘 (with JAVA)/풀 문제들",
