@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "JAVA/자바의 정석/스레드, 프로세스, 멀티 스레드.md",
+                "file": "독서록/개발 관련 도서/자바의 정석/스레드, 프로세스, 멀티 스레드.md",
                 "mode": "source",
                 "source": false
               }
@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "JAVA/자바의 정석/스트림.md",
+                "file": "독서록/개발 관련 도서/자바의 정석/스트림.md",
                 "mode": "source",
                 "source": false
               }
@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "JAVA/자바의 정석/Collector.md",
+                "file": "알고리즘 (with JAVA)/풀이/boj 1707 -.md",
                 "mode": "source",
                 "source": false
               }
@@ -111,7 +111,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "JAVA/자바의 정석/Collector.md",
+                "file": "알고리즘 (with JAVA)/풀이/boj 1707 -.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -128,7 +128,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "JAVA/자바의 정석/Collector.md",
+                "file": "알고리즘 (with JAVA)/풀이/boj 1707 -.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -151,7 +151,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "JAVA/자바의 정석/Collector.md"
+                "file": "알고리즘 (with JAVA)/풀이/boj 1707 -.md"
               }
             }
           },
@@ -196,42 +196,44 @@
   },
   "active": "66a06497790cf251",
   "lastOpenFiles": [
-    "Attached files/Pasted image 20240429151851.png",
-    "Attached files/Pasted image 20240429151843.png",
-    "Attached files/Pasted image 20240429151836.png",
-    "Attached files/Pasted image 20240429151633.png",
-    "Attached files/Pasted image 20240429151624.png",
-    "Attached files/Pasted image 20240429151605.png",
-    "Attached files/Pasted image 20240429151556.png",
-    "Attached files/Pasted image 20240429151548.png",
-    "Attached files/Pasted image 20240429151541.png",
-    "JAVA/자바의 정석/스트림.md",
-    "Attached files/Pasted image 20240429151021.png",
-    "Attached files/Pasted image 20240429151010.png",
-    "JAVA/자바의 정석/Collector.md",
-    "JAVA/자바의 정석/람다.md",
-    "JAVA/자바의 정석/메서드 참조.md",
-    "JAVA/자바의 정석/Predicate의 결합.md",
-    "JAVA/자바의 정석/java.util.function package.md",
-    "JAVA/자바의 정석/Function의 합성.md",
-    "JAVA/자바의 정석/함수형 인터페이스.md",
-    "JAVA/자바의 정석/join & fork framework.md",
-    "JAVA/자바의 정석/Lock & Condition.md",
-    "JAVA/자바의 정석/스레드의 상태와 실행제어.md",
-    "JAVA/자바의 정석/스레드의 동기화.md",
-    "JAVA/자바의 정석/스레드, 프로세스, 멀티 스레드.md",
-    "JAVA/자바의 정석/싱글스레드와 멀티스레드.md",
+    "알고리즘 (with JAVA)/풀 문제들/BFS, DFS.md",
+    "알고리즘 (with JAVA)/풀 문제들/완전 탐색 문제.md",
+    "알고리즘 (with JAVA)/풀 문제들/이런 저런...md",
+    "알고리즘 (with JAVA)/풀 문제들/알고리즘 공부 순서.md",
+    "알고리즘 (with JAVA)/풀 문제들/자료구조 문제.md",
+    "알고리즘 (with JAVA)/이론/알고리즘 종류/이분 그래프.md",
+    "Develop/TDD 리팩토링.md",
+    "Unused/Attached files/Pasted image 20240429154926.png",
+    "Pasted image 20240429154845.png",
+    "Unused",
+    "JAVA/Collectors.toList() vs Stream.toList().md",
+    "JAVA/람다식 작성법.md",
+    "독서록/읽고 싶은 책 List.md",
+    "독서록/개발 관련 도서/구글 엔지니어는 이렇게 일한다/구글 엔지니어는 이렇게 일한다 - 1.md",
+    "독서록/개발 관련 도서/자바의 정석/Collector.md",
+    "독서록/개발 관련 도서/구글 엔지니어는 이렇게 일한다",
+    "Unused/Attached files/Pasted image 20240429151851.png",
+    "Unused/Attached files/Pasted image 20240429151843.png",
+    "Unused/Attached files/Pasted image 20240429151836.png",
+    "Unused/Attached files/Pasted image 20240429151633.png",
+    "Unused/Attached files/Pasted image 20240429151624.png",
+    "Unused/Attached files/Pasted image 20240429151605.png",
+    "Unused/Attached files/Pasted image 20240429151556.png",
+    "Unused/Attached files/Pasted image 20240429151548.png",
+    "독서록/개발 관련 도서/자바의 정석/스트림.md",
+    "독서록/개발 관련 도서/자바의 정석/람다.md",
+    "독서록/개발 관련 도서/자바의 정석/메서드 참조.md",
+    "독서록/개발 관련 도서/자바의 정석/Predicate의 결합.md",
+    "독서록/개발 관련 도서/자바의 정석/java.util.function package.md",
+    "독서록/개발 관련 도서/자바의 정석/Function의 합성.md",
+    "독서록/개발 관련 도서/자바의 정석/함수형 인터페이스.md",
+    "독서록/개발 관련 도서/자바의 정석/join & fork framework.md",
+    "독서록/개발 관련 도서/자바의 정석/Lock & Condition.md",
+    "독서록/개발 관련 도서/자바의 정석/스레드의 상태와 실행제어.md",
+    "독서록/개발 관련 도서/자바의 정석/스레드의 동기화.md",
+    "독서록/개발 관련 도서/자바의 정석/스레드, 프로세스, 멀티 스레드.md",
+    "독서록/개발 관련 도서/자바의 정석/싱글스레드와 멀티스레드.md",
     "JAVA/자바의 정석/멀티 스레드.md",
-    "JAVA/자바의 정석/스레드.md",
-    "TDD 리팩토링.md",
-    "문제 상황.md",
-    "JAVA/자바의 정석/어노테이션.md",
-    "JAVA/자바의 정석/열거형.md",
-    "JAVA/자바의 정석/제네릭(Generics).md",
-    "JAVA/자바의 정석/컬렉션 클래스 정리.md",
-    "JAVA/자바의 정석/HashMap과 TreeMap.md",
-    "JAVA/자바의 정석/HashSet과 TreeSet.md",
-    "JAVA/자바의 정석/해싱.md",
     "알고리즘 (with JAVA)/이론/알고리즘 종류",
     "알고리즘 (with JAVA)/이론",
     "알고리즘 (with JAVA)/풀 문제들",
@@ -240,8 +242,6 @@
     "알고리즘 (with JAVA)",
     "Spring/TestCode",
     "Develop/Auth",
-    "AWS",
-    "Develop/Architecture",
     "무제 파일.canvas"
   ]
 }
