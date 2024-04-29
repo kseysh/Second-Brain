@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "JAVA/자바의 정석/java.util.function package.md",
+                "file": "JAVA/자바의 정석/Predicate의 결합.md",
                 "mode": "source",
                 "source": false
               }
@@ -99,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "JAVA/자바의 정석/java.util.function package.md",
+                "file": "JAVA/자바의 정석/Predicate의 결합.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "JAVA/자바의 정석/java.util.function package.md",
+                "file": "JAVA/자바의 정석/Predicate의 결합.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "JAVA/자바의 정석/java.util.function package.md"
+                "file": "JAVA/자바의 정석/Predicate의 결합.md"
               }
             }
           },
@@ -184,20 +184,22 @@
   },
   "active": "fdbe12aef79c4361",
   "lastOpenFiles": [
+    "JAVA/자바의 정석/람다.md",
+    "JAVA/자바의 정석/Predicate의 결합.md",
+    "Attached files/Pasted image 20240429120235.png",
+    "JAVA/자바의 정석/메서드 참조.md",
+    "JAVA/자바의 정석/java.util.function package.md",
+    "JAVA/자바의 정석/Function의 합성.md",
     "Attached files/Pasted image 20240429115357.png",
     "Attached files/Pasted image 20240429115238.png",
     "Attached files/Pasted image 20240429115146.png",
     "Attached files/Pasted image 20240429115137.png",
     "JAVA/자바의 정석/함수형 인터페이스.md",
-    "JAVA/자바의 정석/java.util.function package.md",
     "Attached files/Pasted image 20240429114536.png",
     "Attached files/Pasted image 20240429114448.png",
     "Attached files/Pasted image 20240429114417.png",
     "Attached files/Pasted image 20240429114316.png",
     "Attached files/Pasted image 20240429114157.png",
-    "Attached files/Pasted image 20240429114109.png",
-    "Attached files/Pasted image 20240429113956.png",
-    "JAVA/자바의 정석/람다.md",
     "JAVA/자바의 정석/join & fork framework.md",
     "JAVA/자바의 정석/Lock & Condition.md",
     "JAVA/자바의 정석/스레드의 상태와 실행제어.md",
@@ -217,9 +219,6 @@
     "JAVA/자바의 정석/해싱.md",
     "JAVA/자바의 정석/Comparator와 Comparable.md",
     "JAVA/자바의 정석/ListIterator.md",
-    "JAVA/자바의 정석/Queue의 변형.md",
-    "JAVA/자바의 정석/ArrayList vs LinkedList.md",
-    "JAVA/자바의 정석/TemporalAdjusters.md",
     "알고리즘 (with JAVA)/이론/알고리즘 종류",
     "알고리즘 (with JAVA)/이론",
     "알고리즘 (with JAVA)/풀 문제들",
