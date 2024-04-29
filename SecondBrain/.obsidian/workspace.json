@@ -30,9 +30,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "66a06497790cf251",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "JAVA/자바의 정석/Collector.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -99,7 +111,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "JAVA/자바의 정석/스트림.md",
+                "file": "JAVA/자바의 정석/Collector.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +128,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "JAVA/자바의 정석/스트림.md",
+                "file": "JAVA/자바의 정석/Collector.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +151,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "JAVA/자바의 정석/스트림.md"
+                "file": "JAVA/자바의 정석/Collector.md"
               }
             }
           },
@@ -182,21 +194,21 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "fdbe12aef79c4361",
+  "active": "66a06497790cf251",
   "lastOpenFiles": [
+    "Attached files/Pasted image 20240429151851.png",
+    "Attached files/Pasted image 20240429151843.png",
+    "Attached files/Pasted image 20240429151836.png",
+    "Attached files/Pasted image 20240429151633.png",
+    "Attached files/Pasted image 20240429151624.png",
+    "Attached files/Pasted image 20240429151605.png",
+    "Attached files/Pasted image 20240429151556.png",
+    "Attached files/Pasted image 20240429151548.png",
+    "Attached files/Pasted image 20240429151541.png",
+    "JAVA/자바의 정석/스트림.md",
+    "Attached files/Pasted image 20240429151021.png",
     "Attached files/Pasted image 20240429151010.png",
     "JAVA/자바의 정석/Collector.md",
-    "JAVA/자바의 정석/스트림.md",
-    "Attached files/Pasted image 20240429124823.png",
-    "Attached files/Pasted image 20240429124815.png",
-    "Attached files/Pasted image 20240429124806.png",
-    "Attached files/Pasted image 20240429124759.png",
-    "Attached files/Pasted image 20240429124750.png",
-    "Attached files/Pasted image 20240429124737.png",
-    "Attached files/Pasted image 20240429123408.png",
-    "Attached files/Pasted image 20240429123359.png",
-    "Attached files/Pasted image 20240429123349.png",
-    "Attached files/Pasted image 20240429123342.png",
     "JAVA/자바의 정석/람다.md",
     "JAVA/자바의 정석/메서드 참조.md",
     "JAVA/자바의 정석/Predicate의 결합.md",
