@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "알고리즘 (with JAVA)/이론/알고리즘 종류/BFS.md",
+                "file": "알고리즘 (with JAVA)/풀 문제들/BFS, DFS.md",
                 "mode": "source",
                 "source": false
               }
@@ -94,8 +94,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 257.5,
-    "collapsed": true
+    "width": 257.5
   },
   "right": {
     "id": "feabab388e8825fc",
@@ -111,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "알고리즘 (with JAVA)/이론/알고리즘 종류/BFS.md",
+                "file": "알고리즘 (with JAVA)/풀 문제들/BFS, DFS.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -128,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "알고리즘 (with JAVA)/이론/알고리즘 종류/BFS.md",
+                "file": "알고리즘 (with JAVA)/풀 문제들/BFS, DFS.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -151,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "알고리즘 (with JAVA)/이론/알고리즘 종류/BFS.md"
+                "file": "알고리즘 (with JAVA)/풀 문제들/BFS, DFS.md"
               }
             }
           },
@@ -196,10 +195,10 @@
   },
   "active": "66a06497790cf251",
   "lastOpenFiles": [
-    "알고리즘 (with JAVA)/이론/알고리즘 종류/Queue.md",
+    "알고리즘 (with JAVA)/풀이/boj 2667 -.md",
     "알고리즘 (with JAVA)/이론/알고리즘 종류/BFS.md",
+    "알고리즘 (with JAVA)/이론/알고리즘 종류/Queue.md",
     "알고리즘 (with JAVA)/풀 문제들/BFS, DFS.md",
-    "알고리즘 (with JAVA)/풀이/boj 2667.md",
     "알고리즘 (with JAVA)/풀이/boj 9466.md",
     "알고리즘 (with JAVA)/풀이/boj 2331 +.md",
     "알고리즘 (with JAVA)/풀 문제들/자료구조 문제.md",

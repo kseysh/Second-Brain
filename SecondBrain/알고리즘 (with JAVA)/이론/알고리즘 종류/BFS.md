@@ -17,3 +17,4 @@ BFS는 선입선출 방식으로 탐색하므로 큐를 이용해 구현한다.
 # 알고리즘에서 BFS가 유의해야 할점
 Queue를 사용해 queue가 비어있을 때까지 while문을 돌린다.
 queue를 add할 때 isVisited를 true로 한다.
+queue를 poll하면서 반환된 것들을 add한다.
