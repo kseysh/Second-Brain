@@ -13,3 +13,7 @@ BFS는 선입선출 방식으로 탐색하므로 큐를 이용해 구현한다.
 ![[Pasted image 20240421225235.png]]
 
 ![[Pasted image 20240421230136.png]]
+
+# 알고리즘에서 BFS가 유의해야 할점
+Queue를 사용해 queue가 비어있을 때까지 while문을 돌린다.
+queue를 add할 때 isVisited를 true로 한다.
