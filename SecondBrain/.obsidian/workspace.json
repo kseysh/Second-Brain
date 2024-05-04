@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "알고리즘 (with JAVA)/풀이/boj 2146 정답 봄.md",
+                "file": "알고리즘 (with JAVA)/풀이/boj 1991.md",
                 "mode": "source",
                 "source": false
               }
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "알고리즘 (with JAVA)/풀이/boj 2146 정답 봄.md",
+                "file": "알고리즘 (with JAVA)/풀이/boj 1991.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "알고리즘 (with JAVA)/풀이/boj 2146 정답 봄.md",
+                "file": "알고리즘 (with JAVA)/풀이/boj 1991.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "알고리즘 (with JAVA)/풀이/boj 2146 정답 봄.md"
+                "file": "알고리즘 (with JAVA)/풀이/boj 1991.md"
               }
             }
           },
@@ -195,9 +195,10 @@
   },
   "active": "66a06497790cf251",
   "lastOpenFiles": [
-    "알고리즘 (with JAVA)/풀이/boj 7576 정답 봄.md",
-    "알고리즘 (with JAVA)/풀이/boj 2146 정답 봄.md",
     "알고리즘 (with JAVA)/풀 문제들/BFS, DFS.md",
+    "알고리즘 (with JAVA)/풀이/boj 1991.md",
+    "알고리즘 (with JAVA)/풀이/boj 2146 정답 봄.md",
+    "알고리즘 (with JAVA)/풀이/boj 7576 정답 봄.md",
     "알고리즘 (with JAVA)/풀이/boj 2178.md",
     "알고리즘 (with JAVA)/풀이/boj 4963 -.md",
     "알고리즘 (with JAVA)/풀이/boj 2667 -.md",
@@ -232,7 +233,6 @@
     "Unused/Attached files/Pasted image 20240429151548.png",
     "독서록/개발 관련 도서/자바의 정석/스트림.md",
     "독서록/개발 관련 도서/자바의 정석/람다.md",
-    "독서록/개발 관련 도서/자바의 정석/메서드 참조.md",
     "알고리즘 (with JAVA)/이론/알고리즘 종류",
     "알고리즘 (with JAVA)/이론",
     "알고리즘 (with JAVA)/풀 문제들",
