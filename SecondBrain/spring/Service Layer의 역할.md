@@ -17,3 +17,9 @@
 ![[Pasted image 20240505161502.png]]
 ##### TO-BE
 ![[Pasted image 20240505161442.png]]
+
+## Layer의 규칙
+![[Pasted image 20240505162704.png]]
+![[Pasted image 20240505162718.png]]
+![[Pasted image 20240505162748.png]]
+![[Pasted image 20240505162835.png]]
