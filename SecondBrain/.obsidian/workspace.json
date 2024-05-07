@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "알고리즘 (with JAVA)/이론/알고리즘 종류/그리디 알고리즘.md",
+                "file": "알고리즘 (with JAVA)/풀 문제들/분할 정복 문제.md",
                 "mode": "source",
                 "source": false
               }
@@ -94,8 +94,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 257.5,
-    "collapsed": true
+    "width": 257.5
   },
   "right": {
     "id": "feabab388e8825fc",
@@ -111,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "알고리즘 (with JAVA)/이론/알고리즘 종류/그리디 알고리즘.md",
+                "file": "알고리즘 (with JAVA)/풀 문제들/분할 정복 문제.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -128,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "알고리즘 (with JAVA)/이론/알고리즘 종류/그리디 알고리즘.md",
+                "file": "알고리즘 (with JAVA)/풀 문제들/분할 정복 문제.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -151,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "알고리즘 (with JAVA)/이론/알고리즘 종류/그리디 알고리즘.md"
+                "file": "알고리즘 (with JAVA)/풀 문제들/분할 정복 문제.md"
               }
             }
           },
@@ -196,8 +195,16 @@
   },
   "active": "66a06497790cf251",
   "lastOpenFiles": [
-    "알고리즘 (with JAVA)/풀 문제들/BFS, DFS.md",
+    "알고리즘 (with JAVA)/풀 문제들/binary search 문제.md",
+    "알고리즘 (with JAVA)/풀 문제들/그리디 문제.md",
+    "알고리즘 (with JAVA)/풀 문제들/분할 정복 문제.md",
+    "알고리즘 (with JAVA)/풀 문제들/완전 탐색 문제.md",
+    "알고리즘 (with JAVA)/풀이/boj 1920 +.md",
+    "알고리즘 (with JAVA)/풀이/boj 1967 +.md",
+    "알고리즘 (with JAVA)/풀이/boj 1167 아직 안 품.md",
+    "알고리즘 (with JAVA)/풀이/boj 11047.md",
     "알고리즘 (with JAVA)/이론/알고리즘 종류/그리디 알고리즘.md",
+    "알고리즘 (with JAVA)/풀 문제들/BFS, DFS.md",
     "Unused/Attached files/Pasted image 20240507201909.png",
     "Spring/Service Layer의 역할.md",
     "Unused/Attached files/Pasted image 20240505162835.png",
@@ -206,17 +213,14 @@
     "Unused/Attached files/Pasted image 20240505162704.png",
     "Unused/Attached files/Pasted image 20240505161502.png",
     "Unused/Attached files/Pasted image 20240505161442.png",
-    "알고리즘 (with JAVA)/풀이/boj 1167 아직 안 품.md",
     "알고리즘 (with JAVA)/이론/알고리즘 종류/가중치 그래프.md",
     "알고리즘 (with JAVA)/이론/알고리즘 종류/세그먼트 트리 (인덱스 트리).md",
     "알고리즘 (with JAVA)/이론/DP를 사용하면 좋을 문제들.md",
-    "알고리즘 (with JAVA)/풀이/boj 1967 +.md",
     "알고리즘 (with JAVA)/이론/알고리즘 종류/Tree.md",
     "알고리즘 (with JAVA)/이론/알고리즘 종류/이진 트리.md",
     "Unused/Attached files/Pasted image 20240505122447.png",
     "Unused/Attached files/Pasted image 20240505122308.png",
     "알고리즘 (with JAVA)/풀이/boj 11725 정답 봄.md",
-    "알고리즘 (with JAVA)/풀이/boj 1920 +.md",
     "알고리즘 (with JAVA)/풀 문제들/알고리즘 공부 순서.md",
     "알고리즘 (with JAVA)/풀 문제들/자료구조 문제.md",
     "알고리즘 (with JAVA)/풀이/boj 1991 +.md",
@@ -226,11 +230,6 @@
     "알고리즘 (with JAVA)/풀이/boj 4963 -.md",
     "알고리즘 (with JAVA)/풀이/boj 2667 -.md",
     "알고리즘 (with JAVA)/이론/알고리즘 종류/BFS.md",
-    "알고리즘 (with JAVA)/이론/알고리즘 종류/Queue.md",
-    "알고리즘 (with JAVA)/풀이/boj 9466.md",
-    "알고리즘 (with JAVA)/풀이/boj 2331 +.md",
-    "알고리즘 (with JAVA)/풀 문제들/이런 저런...md",
-    "알고리즘 (with JAVA)/풀 문제들/완전 탐색 문제.md",
     "Unused/Attached files/Pasted image 20240429154926.png",
     "Unused",
     "독서록/개발 관련 도서/구글 엔지니어는 이렇게 일한다",
