@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "알고리즘 (with JAVA)/풀 문제들/분할 정복 문제.md",
+                "file": "알고리즘 (with JAVA)/풀이/boj 1541.md",
                 "mode": "source",
                 "source": false
               }
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "알고리즘 (with JAVA)/풀 문제들/분할 정복 문제.md",
+                "file": "알고리즘 (with JAVA)/풀이/boj 1541.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "알고리즘 (with JAVA)/풀 문제들/분할 정복 문제.md",
+                "file": "알고리즘 (with JAVA)/풀이/boj 1541.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "알고리즘 (with JAVA)/풀 문제들/분할 정복 문제.md"
+                "file": "알고리즘 (with JAVA)/풀이/boj 1541.md"
               }
             }
           },
@@ -195,9 +195,10 @@
   },
   "active": "66a06497790cf251",
   "lastOpenFiles": [
+    "알고리즘 (with JAVA)/풀 문제들/분할 정복 문제.md",
+    "알고리즘 (with JAVA)/풀이/boj 1541.md",
     "알고리즘 (with JAVA)/풀 문제들/binary search 문제.md",
     "알고리즘 (with JAVA)/풀 문제들/그리디 문제.md",
-    "알고리즘 (with JAVA)/풀 문제들/분할 정복 문제.md",
     "알고리즘 (with JAVA)/풀 문제들/완전 탐색 문제.md",
     "알고리즘 (with JAVA)/풀이/boj 1920 +.md",
     "알고리즘 (with JAVA)/풀이/boj 1967 +.md",
@@ -229,7 +230,6 @@
     "알고리즘 (with JAVA)/풀이/boj 2178.md",
     "알고리즘 (with JAVA)/풀이/boj 4963 -.md",
     "알고리즘 (with JAVA)/풀이/boj 2667 -.md",
-    "알고리즘 (with JAVA)/이론/알고리즘 종류/BFS.md",
     "Unused/Attached files/Pasted image 20240429154926.png",
     "Unused",
     "독서록/개발 관련 도서/구글 엔지니어는 이렇게 일한다",
