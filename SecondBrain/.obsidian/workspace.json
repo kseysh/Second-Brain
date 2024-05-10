@@ -20,6 +20,18 @@
             }
           },
           {
+            "id": "a449ee016018e4cf",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "독서록/개발 관련 도서/테스트주도개발시작하기/테스트 코드와 유지보수.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "1d49e9c1426e4fdc",
             "type": "leaf",
             "state": {
@@ -31,7 +43,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -181,7 +194,7 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "66a06497790cf251",
+  "active": "a449ee016018e4cf",
   "lastOpenFiles": [
     "Unused/Attached files/Pasted image 20240510171400.png",
     "Unused/Attached files/Pasted image 20240510171257.png",
