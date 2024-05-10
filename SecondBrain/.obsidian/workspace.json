@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "독서록/개발 관련 도서/테스트주도개발시작하기/Mockito.md",
+                "file": "독서록/개발 관련 도서/테스트주도개발시작하기/AssertJ.md",
                 "mode": "source",
                 "source": false
               }
@@ -111,7 +111,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "독서록/개발 관련 도서/테스트주도개발시작하기/Mockito.md",
+                "file": "독서록/개발 관련 도서/테스트주도개발시작하기/AssertJ.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -128,7 +128,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "독서록/개발 관련 도서/테스트주도개발시작하기/Mockito.md",
+                "file": "독서록/개발 관련 도서/테스트주도개발시작하기/AssertJ.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -151,7 +151,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "독서록/개발 관련 도서/테스트주도개발시작하기/Mockito.md"
+                "file": "독서록/개발 관련 도서/테스트주도개발시작하기/AssertJ.md"
               }
             }
           },
@@ -196,25 +196,26 @@
   },
   "active": "a449ee016018e4cf",
   "lastOpenFiles": [
-    "Unused/Attached files/Pasted image 20240510212636.png",
-    "Unused/Attached files/Pasted image 20240510212443.png",
-    "Unused/Attached files/Pasted image 20240510212008.png",
-    "독서록/개발 관련 도서/테스트주도개발시작하기/@Timeout 어노테이션을 이용한 테스트 실행 시간 검증.md",
+    "Unused/Attached files/Pasted image 20240510213806.png",
+    "Unused/Attached files/Pasted image 20240510213657.png",
+    "Unused/Attached files/Pasted image 20240510213643.png",
+    "Unused/Attached files/Pasted image 20240510213619.png",
+    "Unused/Attached files/Pasted image 20240510213614.png",
+    "Unused/Attached files/Pasted image 20240510213607.png",
+    "Unused/Attached files/Pasted image 20240510213553.png",
+    "Unused/Attached files/Pasted image 20240510213542.png",
+    "Unused/Attached files/Pasted image 20240510213525.png",
+    "Unused/Attached files/Pasted image 20240510213507.png",
+    "Unused/Attached files/Pasted image 20240510213458.png",
     "독서록/개발 관련 도서/테스트주도개발시작하기/Mockito.md",
+    "독서록/개발 관련 도서/테스트주도개발시작하기/AssertJ.md",
+    "독서록/개발 관련 도서/테스트주도개발시작하기/@Timeout 어노테이션을 이용한 테스트 실행 시간 검증.md",
     "독서록/개발 관련 도서/테스트주도개발시작하기/@TempDir 어노테이션을 이용한 임시 폴더 생성.md",
-    "Unused/Attached files/Pasted image 20240510210515.png",
     "독서록/개발 관련 도서/테스트주도개발시작하기/테스트 메시지 사용자화.md",
-    "Unused/Attached files/Pasted image 20240510210145.png",
-    "Unused/Attached files/Pasted image 20240510210122.png",
     "독서록/개발 관련 도서/테스트주도개발시작하기/테스트 중첩 구성.md",
     "독서록/개발 관련 도서/테스트주도개발시작하기/조건에 따른 테스트.md",
-    "Unused/Attached files/Pasted image 20240510205751.png",
-    "Unused/Attached files/Pasted image 20240510205744.png",
-    "Unused/Attached files/Pasted image 20240510205651.png",
-    "Unused/Attached files/Pasted image 20240510205625.png",
     "독서록/읽고 싶은 책 List.md",
     "독서록/개발 관련 도서/테스트주도개발시작하기/테스트 코드와 유지보수.md",
-    "Unused/Attached files/Pasted image 20240510203120.png",
     "독서록/개발 관련 도서/테스트주도개발시작하기/통합 테스트.md",
     "독서록/개발 관련 도서/테스트주도개발시작하기/테스트 코드의 구성.md",
     "독서록/개발 관련 도서/테스트주도개발시작하기/테스트 코드 작성 순서.md",
@@ -231,7 +232,6 @@
     "알고리즘 (with JAVA)/풀이/boj 1920 +.md",
     "알고리즘 (with JAVA)/풀이/boj 1967 +.md",
     "알고리즘 (with JAVA)/풀이/boj 1167 아직 안 품.md",
-    "알고리즘 (with JAVA)/풀이/boj 11047.md",
     "Unused",
     "독서록/개발 관련 도서/구글 엔지니어는 이렇게 일한다",
     "알고리즘 (with JAVA)/이론/알고리즘 종류",
