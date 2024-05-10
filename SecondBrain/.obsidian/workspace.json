@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "알고리즘 (with JAVA)/풀이/boj 1783.md",
+                "file": "독서록/개발 관련 도서/테스트주도개발시작하기/테스트 범위와 종류.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "알고리즘 (with JAVA)/풀이/boj 1783.md",
+                "file": "독서록/개발 관련 도서/테스트주도개발시작하기/테스트 범위와 종류.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "알고리즘 (with JAVA)/풀이/boj 1783.md",
+                "file": "독서록/개발 관련 도서/테스트주도개발시작하기/테스트 범위와 종류.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "알고리즘 (with JAVA)/풀이/boj 1783.md"
+                "file": "독서록/개발 관련 도서/테스트주도개발시작하기/테스트 범위와 종류.md"
               }
             }
           },
@@ -183,8 +183,8 @@
   },
   "active": "66a06497790cf251",
   "lastOpenFiles": [
-    "알고리즘 (with JAVA)/풀이/boj 10610.md",
     "알고리즘 (with JAVA)/풀이/boj 1783.md",
+    "알고리즘 (with JAVA)/풀이/boj 10610.md",
     "알고리즘 (with JAVA)/풀 문제들/그리디 문제.md",
     "알고리즘 (with JAVA)/풀이/boj 2875 -.md",
     "알고리즘 (with JAVA)/이론/알고리즘 종류/그리디 알고리즘.md",
