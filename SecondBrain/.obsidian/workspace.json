@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "독서록/개발 관련 도서/테스트주도개발시작하기/통합 테스트.md",
+                "file": "독서록/개발 관련 도서/테스트주도개발시작하기/테스트 코드와 유지보수.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "독서록/개발 관련 도서/테스트주도개발시작하기/통합 테스트.md",
+                "file": "독서록/개발 관련 도서/테스트주도개발시작하기/테스트 코드와 유지보수.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "독서록/개발 관련 도서/테스트주도개발시작하기/통합 테스트.md",
+                "file": "독서록/개발 관련 도서/테스트주도개발시작하기/테스트 코드와 유지보수.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "독서록/개발 관련 도서/테스트주도개발시작하기/통합 테스트.md"
+                "file": "독서록/개발 관련 도서/테스트주도개발시작하기/테스트 코드와 유지보수.md"
               }
             }
           },
@@ -183,6 +183,10 @@
   },
   "active": "66a06497790cf251",
   "lastOpenFiles": [
+    "독서록/개발 관련 도서/테스트주도개발시작하기/통합 테스트.md",
+    "독서록/개발 관련 도서/테스트주도개발시작하기/테스트 코드와 유지보수.md",
+    "Unused/Attached files/Pasted image 20240510164020.png",
+    "Unused/Attached files/Pasted image 20240510164010.png",
     "Unused/Attached files/Pasted image 20240510163527.png",
     "Unused/Attached files/Pasted image 20240510163519.png",
     "Unused/Attached files/Pasted image 20240510163218.png",
@@ -191,7 +195,6 @@
     "Unused/Attached files/Pasted image 20240510162804.png",
     "Unused/Attached files/Pasted image 20240510162753.png",
     "독서록/개발 관련 도서/테스트주도개발시작하기/테스트 코드의 구성.md",
-    "독서록/개발 관련 도서/테스트주도개발시작하기/통합 테스트.md",
     "독서록/개발 관련 도서/테스트주도개발시작하기/테스트 코드 작성 순서.md",
     "독서록/개발 관련 도서/테스트주도개발시작하기/테스트 범위와 종류.md",
     "알고리즘 (with JAVA)/풀이/boj 1783.md",
@@ -209,10 +212,7 @@
     "알고리즘 (with JAVA)/풀이/boj 1167 아직 안 품.md",
     "알고리즘 (with JAVA)/풀이/boj 11047.md",
     "알고리즘 (with JAVA)/풀 문제들/BFS, DFS.md",
-    "Unused/Attached files/Pasted image 20240507201909.png",
     "Spring/Service Layer의 역할.md",
-    "Unused/Attached files/Pasted image 20240505162835.png",
-    "Unused/Attached files/Pasted image 20240505162748.png",
     "알고리즘 (with JAVA)/이론/알고리즘 종류/가중치 그래프.md",
     "알고리즘 (with JAVA)/이론/알고리즘 종류/세그먼트 트리 (인덱스 트리).md",
     "알고리즘 (with JAVA)/이론/DP를 사용하면 좋을 문제들.md",
