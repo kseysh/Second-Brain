@@ -8,43 +8,30 @@
         "type": "tabs",
         "children": [
           {
-            "id": "1215a3aa0b893b03",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "독서록/개발 관련 도서/자바의 정석/스레드, 프로세스, 멀티 스레드.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "fdbe12aef79c4361",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "독서록/개발 관련 도서/자바의 정석/스트림.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "66a06497790cf251",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "알고리즘 (with JAVA)/풀이/boj 2875 -.md",
+                "file": "알고리즘 (with JAVA)/풀이/boj 10610.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "1d49e9c1426e4fdc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "알고리즘 (with JAVA)/풀 문제들/그리디 문제.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -94,7 +81,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 257.5
+    "width": 257.5,
+    "collapsed": true
   },
   "right": {
     "id": "feabab388e8825fc",
@@ -110,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "알고리즘 (with JAVA)/풀이/boj 2875 -.md",
+                "file": "알고리즘 (with JAVA)/풀이/boj 10610.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "알고리즘 (with JAVA)/풀이/boj 2875 -.md",
+                "file": "알고리즘 (with JAVA)/풀이/boj 10610.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "알고리즘 (with JAVA)/풀이/boj 2875 -.md"
+                "file": "알고리즘 (with JAVA)/풀이/boj 10610.md"
               }
             }
           },
@@ -196,6 +184,7 @@
   "active": "66a06497790cf251",
   "lastOpenFiles": [
     "알고리즘 (with JAVA)/풀 문제들/그리디 문제.md",
+    "알고리즘 (with JAVA)/풀이/boj 10610.md",
     "알고리즘 (with JAVA)/풀이/boj 2875 -.md",
     "알고리즘 (with JAVA)/이론/알고리즘 종류/그리디 알고리즘.md",
     "알고리즘 (with JAVA)/풀이/boj 1541.md",
@@ -230,7 +219,6 @@
     "알고리즘 (with JAVA)/풀이/boj 2146 정답 봄.md",
     "알고리즘 (with JAVA)/풀이/boj 7576 정답 봄.md",
     "알고리즘 (with JAVA)/풀이/boj 2178.md",
-    "알고리즘 (with JAVA)/풀이/boj 4963 -.md",
     "Unused",
     "독서록/개발 관련 도서/구글 엔지니어는 이렇게 일한다",
     "알고리즘 (with JAVA)/이론/알고리즘 종류",
