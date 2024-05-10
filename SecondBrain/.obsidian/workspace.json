@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "독서록/개발 관련 도서/테스트주도개발시작하기/테스트 중첩 구성.md",
+                "file": "독서록/개발 관련 도서/테스트주도개발시작하기/@Timeout 어노테이션을 이용한 테스트 실행 시간 검증.md",
                 "mode": "source",
                 "source": false
               }
@@ -111,7 +111,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "독서록/개발 관련 도서/테스트주도개발시작하기/테스트 중첩 구성.md",
+                "file": "독서록/개발 관련 도서/테스트주도개발시작하기/@Timeout 어노테이션을 이용한 테스트 실행 시간 검증.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -128,7 +128,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "독서록/개발 관련 도서/테스트주도개발시작하기/테스트 중첩 구성.md",
+                "file": "독서록/개발 관련 도서/테스트주도개발시작하기/@Timeout 어노테이션을 이용한 테스트 실행 시간 검증.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -151,7 +151,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "독서록/개발 관련 도서/테스트주도개발시작하기/테스트 중첩 구성.md"
+                "file": "독서록/개발 관련 도서/테스트주도개발시작하기/@Timeout 어노테이션을 이용한 테스트 실행 시간 검증.md"
               }
             }
           },
@@ -196,8 +196,14 @@
   },
   "active": "a449ee016018e4cf",
   "lastOpenFiles": [
-    "독서록/개발 관련 도서/테스트주도개발시작하기/조건에 따른 테스트.md",
+    "독서록/개발 관련 도서/테스트주도개발시작하기/@TempDir 어노테이션을 이용한 임시 폴더 생성.md",
+    "독서록/개발 관련 도서/테스트주도개발시작하기/@Timeout 어노테이션을 이용한 테스트 실행 시간 검증.md",
+    "Unused/Attached files/Pasted image 20240510210515.png",
+    "독서록/개발 관련 도서/테스트주도개발시작하기/테스트 메시지 사용자화.md",
+    "Unused/Attached files/Pasted image 20240510210145.png",
+    "Unused/Attached files/Pasted image 20240510210122.png",
     "독서록/개발 관련 도서/테스트주도개발시작하기/테스트 중첩 구성.md",
+    "독서록/개발 관련 도서/테스트주도개발시작하기/조건에 따른 테스트.md",
     "Unused/Attached files/Pasted image 20240510205751.png",
     "Unused/Attached files/Pasted image 20240510205744.png",
     "Unused/Attached files/Pasted image 20240510205651.png",
@@ -207,9 +213,6 @@
     "Unused/Attached files/Pasted image 20240510203120.png",
     "Unused/Attached files/Pasted image 20240510203045.png",
     "Unused/Attached files/Pasted image 20240510203037.png",
-    "Unused/Attached files/Pasted image 20240510202714.png",
-    "Unused/Attached files/Pasted image 20240510195442.png",
-    "Unused/Attached files/Pasted image 20240510195350.png",
     "독서록/개발 관련 도서/테스트주도개발시작하기/통합 테스트.md",
     "독서록/개발 관련 도서/테스트주도개발시작하기/테스트 코드의 구성.md",
     "독서록/개발 관련 도서/테스트주도개발시작하기/테스트 코드 작성 순서.md",
@@ -229,9 +232,6 @@
     "알고리즘 (with JAVA)/풀이/boj 11047.md",
     "알고리즘 (with JAVA)/풀 문제들/BFS, DFS.md",
     "Spring/Service Layer의 역할.md",
-    "알고리즘 (with JAVA)/이론/알고리즘 종류/가중치 그래프.md",
-    "알고리즘 (with JAVA)/이론/알고리즘 종류/세그먼트 트리 (인덱스 트리).md",
-    "알고리즘 (with JAVA)/이론/DP를 사용하면 좋을 문제들.md",
     "Unused",
     "독서록/개발 관련 도서/구글 엔지니어는 이렇게 일한다",
     "알고리즘 (with JAVA)/이론/알고리즘 종류",
