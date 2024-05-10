@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "독서록/개발 관련 도서/테스트주도개발시작하기/테스트 코드와 유지보수.md",
+                "file": "독서록/읽고 싶은 책 List.md",
                 "mode": "source",
                 "source": false
               }
@@ -94,8 +94,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 257.5,
-    "collapsed": true
+    "width": 257.5
   },
   "right": {
     "id": "feabab388e8825fc",
@@ -111,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "독서록/개발 관련 도서/테스트주도개발시작하기/테스트 코드와 유지보수.md",
+                "file": "독서록/읽고 싶은 책 List.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -128,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "독서록/개발 관련 도서/테스트주도개발시작하기/테스트 코드와 유지보수.md",
+                "file": "독서록/읽고 싶은 책 List.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -151,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "독서록/개발 관련 도서/테스트주도개발시작하기/테스트 코드와 유지보수.md"
+                "file": "독서록/읽고 싶은 책 List.md"
               }
             }
           },
@@ -196,6 +195,7 @@
   },
   "active": "a449ee016018e4cf",
   "lastOpenFiles": [
+    "독서록/개발 관련 도서/테스트주도개발시작하기/테스트 코드와 유지보수.md",
     "Unused/Attached files/Pasted image 20240510203120.png",
     "Unused/Attached files/Pasted image 20240510203045.png",
     "Unused/Attached files/Pasted image 20240510203037.png",
@@ -206,9 +206,7 @@
     "Unused/Attached files/Pasted image 20240510193414.png",
     "Unused/Attached files/Pasted image 20240510171400.png",
     "Unused/Attached files/Pasted image 20240510171257.png",
-    "Unused/Attached files/Pasted image 20240510164837.png",
     "독서록/개발 관련 도서/테스트주도개발시작하기/통합 테스트.md",
-    "독서록/개발 관련 도서/테스트주도개발시작하기/테스트 코드와 유지보수.md",
     "독서록/개발 관련 도서/테스트주도개발시작하기/테스트 코드의 구성.md",
     "독서록/개발 관련 도서/테스트주도개발시작하기/테스트 코드 작성 순서.md",
     "독서록/개발 관련 도서/테스트주도개발시작하기/테스트 범위와 종류.md",
