@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "독서록/개발 관련 도서/테스트주도개발시작하기/AssertJ.md",
+                "file": "Unused/Python/Django/배포/장고 배포시 유의해야 할 점.md",
                 "mode": "source",
                 "source": false
               }
@@ -94,8 +94,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 257.5,
-    "collapsed": true
+    "width": 257.5
   },
   "right": {
     "id": "feabab388e8825fc",
@@ -111,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "독서록/개발 관련 도서/테스트주도개발시작하기/AssertJ.md",
+                "file": "Unused/Python/Django/배포/장고 배포시 유의해야 할 점.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -128,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "독서록/개발 관련 도서/테스트주도개발시작하기/AssertJ.md",
+                "file": "Unused/Python/Django/배포/장고 배포시 유의해야 할 점.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -151,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "독서록/개발 관련 도서/테스트주도개발시작하기/AssertJ.md"
+                "file": "Unused/Python/Django/배포/장고 배포시 유의해야 할 점.md"
               }
             }
           },
@@ -196,6 +195,19 @@
   },
   "active": "a449ee016018e4cf",
   "lastOpenFiles": [
+    "Unused/Python/Django/배포/apt와 apt-get의 차이.md",
+    "Unused/Python/Django/배포/aws 배포.md",
+    "Unused/Python/Django/배포/WAS.md",
+    "Unused/Python/Django/배포/Swagger 문서 작성방법.md",
+    "Unused/Python/Django/배포/SSH.md",
+    "Unused/Python/Django/배포/Proxy Server와 로드밸런싱.md",
+    "Unused/Python/Django/배포/Proxy Server.md",
+    "Unused/Python/Django/배포/EC2.md",
+    "Unused/Python/Django/배포/EC2 인스턴스 SSH로 접속하기.md",
+    "Unused/Python/Django/배포/Docker를 이용해 Django 배포하기.md",
+    "Unused/Python/Django/배포/Django Web Service 구성.md",
+    "Unused/Python/Django/배포/Django Swagger.md",
+    "독서록/개발 관련 도서/테스트주도개발시작하기/AssertJ.md",
     "Unused/Attached files/Pasted image 20240510213806.png",
     "Unused/Attached files/Pasted image 20240510213657.png",
     "Unused/Attached files/Pasted image 20240510213643.png",
@@ -206,9 +218,7 @@
     "Unused/Attached files/Pasted image 20240510213542.png",
     "Unused/Attached files/Pasted image 20240510213525.png",
     "Unused/Attached files/Pasted image 20240510213507.png",
-    "Unused/Attached files/Pasted image 20240510213458.png",
     "독서록/개발 관련 도서/테스트주도개발시작하기/Mockito.md",
-    "독서록/개발 관련 도서/테스트주도개발시작하기/AssertJ.md",
     "독서록/개발 관련 도서/테스트주도개발시작하기/@Timeout 어노테이션을 이용한 테스트 실행 시간 검증.md",
     "독서록/개발 관련 도서/테스트주도개발시작하기/@TempDir 어노테이션을 이용한 임시 폴더 생성.md",
     "독서록/개발 관련 도서/테스트주도개발시작하기/테스트 메시지 사용자화.md",
@@ -221,17 +231,6 @@
     "독서록/개발 관련 도서/테스트주도개발시작하기/테스트 코드 작성 순서.md",
     "독서록/개발 관련 도서/테스트주도개발시작하기/테스트 범위와 종류.md",
     "알고리즘 (with JAVA)/풀이/boj 1783.md",
-    "알고리즘 (with JAVA)/풀이/boj 10610.md",
-    "알고리즘 (with JAVA)/풀 문제들/그리디 문제.md",
-    "알고리즘 (with JAVA)/풀이/boj 2875 -.md",
-    "알고리즘 (with JAVA)/이론/알고리즘 종류/그리디 알고리즘.md",
-    "알고리즘 (with JAVA)/풀이/boj 1541.md",
-    "알고리즘 (with JAVA)/풀 문제들/분할 정복 문제.md",
-    "알고리즘 (with JAVA)/풀 문제들/binary search 문제.md",
-    "알고리즘 (with JAVA)/풀 문제들/완전 탐색 문제.md",
-    "알고리즘 (with JAVA)/풀이/boj 1920 +.md",
-    "알고리즘 (with JAVA)/풀이/boj 1967 +.md",
-    "알고리즘 (with JAVA)/풀이/boj 1167 아직 안 품.md",
     "Unused",
     "독서록/개발 관련 도서/구글 엔지니어는 이렇게 일한다",
     "알고리즘 (with JAVA)/이론/알고리즘 종류",
