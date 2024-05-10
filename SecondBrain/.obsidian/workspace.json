@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "독서록/읽고 싶은 책 List.md",
+                "file": "독서록/개발 관련 도서/테스트주도개발시작하기/테스트 중첩 구성.md",
                 "mode": "source",
                 "source": false
               }
@@ -94,7 +94,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 257.5
+    "width": 257.5,
+    "collapsed": true
   },
   "right": {
     "id": "feabab388e8825fc",
@@ -110,7 +111,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "독서록/읽고 싶은 책 List.md",
+                "file": "독서록/개발 관련 도서/테스트주도개발시작하기/테스트 중첩 구성.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +128,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "독서록/읽고 싶은 책 List.md",
+                "file": "독서록/개발 관련 도서/테스트주도개발시작하기/테스트 중첩 구성.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +151,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "독서록/읽고 싶은 책 List.md"
+                "file": "독서록/개발 관련 도서/테스트주도개발시작하기/테스트 중첩 구성.md"
               }
             }
           },
@@ -195,6 +196,13 @@
   },
   "active": "a449ee016018e4cf",
   "lastOpenFiles": [
+    "독서록/개발 관련 도서/테스트주도개발시작하기/조건에 따른 테스트.md",
+    "독서록/개발 관련 도서/테스트주도개발시작하기/테스트 중첩 구성.md",
+    "Unused/Attached files/Pasted image 20240510205751.png",
+    "Unused/Attached files/Pasted image 20240510205744.png",
+    "Unused/Attached files/Pasted image 20240510205651.png",
+    "Unused/Attached files/Pasted image 20240510205625.png",
+    "독서록/읽고 싶은 책 List.md",
     "독서록/개발 관련 도서/테스트주도개발시작하기/테스트 코드와 유지보수.md",
     "Unused/Attached files/Pasted image 20240510203120.png",
     "Unused/Attached files/Pasted image 20240510203045.png",
@@ -202,10 +210,6 @@
     "Unused/Attached files/Pasted image 20240510202714.png",
     "Unused/Attached files/Pasted image 20240510195442.png",
     "Unused/Attached files/Pasted image 20240510195350.png",
-    "Unused/Attached files/Pasted image 20240510195338.png",
-    "Unused/Attached files/Pasted image 20240510193414.png",
-    "Unused/Attached files/Pasted image 20240510171400.png",
-    "Unused/Attached files/Pasted image 20240510171257.png",
     "독서록/개발 관련 도서/테스트주도개발시작하기/통합 테스트.md",
     "독서록/개발 관련 도서/테스트주도개발시작하기/테스트 코드의 구성.md",
     "독서록/개발 관련 도서/테스트주도개발시작하기/테스트 코드 작성 순서.md",
@@ -228,8 +232,6 @@
     "알고리즘 (with JAVA)/이론/알고리즘 종류/가중치 그래프.md",
     "알고리즘 (with JAVA)/이론/알고리즘 종류/세그먼트 트리 (인덱스 트리).md",
     "알고리즘 (with JAVA)/이론/DP를 사용하면 좋을 문제들.md",
-    "알고리즘 (with JAVA)/이론/알고리즘 종류/Tree.md",
-    "알고리즘 (with JAVA)/이론/알고리즘 종류/이진 트리.md",
     "Unused",
     "독서록/개발 관련 도서/구글 엔지니어는 이렇게 일한다",
     "알고리즘 (with JAVA)/이론/알고리즘 종류",
