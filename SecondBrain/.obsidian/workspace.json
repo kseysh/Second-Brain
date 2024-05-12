@@ -37,14 +37,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "알고리즘 (with JAVA)/풀 문제들/그리디 문제.md",
+                "file": "알고리즘 (with JAVA)/풀이/boj 1931.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Unused/Python/Django/배포/장고 배포시 유의해야 할 점.md",
+                "file": "알고리즘 (with JAVA)/풀이/boj 1931.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Unused/Python/Django/배포/장고 배포시 유의해야 할 점.md",
+                "file": "알고리즘 (with JAVA)/풀이/boj 1931.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Unused/Python/Django/배포/장고 배포시 유의해야 할 점.md"
+                "file": "알고리즘 (with JAVA)/풀이/boj 1931.md"
               }
             }
           },
@@ -193,8 +193,11 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "a449ee016018e4cf",
+  "active": "1d49e9c1426e4fdc",
   "lastOpenFiles": [
+    "알고리즘 (with JAVA)/풀 문제들/그리디 문제.md",
+    "알고리즘 (with JAVA)/풀이/boj 1931.md",
+    "Unused/Python/Django/배포/장고 배포시 유의해야 할 점.md",
     "Unused/Python/Django/배포/apt와 apt-get의 차이.md",
     "Unused/Python/Django/배포/aws 배포.md",
     "Unused/Python/Django/배포/WAS.md",
@@ -228,9 +231,6 @@
     "독서록/개발 관련 도서/테스트주도개발시작하기/테스트 코드와 유지보수.md",
     "독서록/개발 관련 도서/테스트주도개발시작하기/통합 테스트.md",
     "독서록/개발 관련 도서/테스트주도개발시작하기/테스트 코드의 구성.md",
-    "독서록/개발 관련 도서/테스트주도개발시작하기/테스트 코드 작성 순서.md",
-    "독서록/개발 관련 도서/테스트주도개발시작하기/테스트 범위와 종류.md",
-    "알고리즘 (with JAVA)/풀이/boj 1783.md",
     "Unused",
     "독서록/개발 관련 도서/구글 엔지니어는 이렇게 일한다",
     "알고리즘 (with JAVA)/이론/알고리즘 종류",
