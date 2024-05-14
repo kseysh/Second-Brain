@@ -1,7 +1,7 @@
 # BDDMockito와 ArgumentCaptor
 ```java
 ArgumentCaptor<Long> ac = ArgumentCaptor.forClass(Long.class);
-// 모의 객체를 메서드를 호출할 때 전달한 객체를 담는 기능을 제공한다.
+// 모의 객체의 메서드를 호출할 때 전달한 객체를 담는 기능을 제공한다.
 
 BDDMockito
 	.then(userRepository) // userRepository 모의 객체의

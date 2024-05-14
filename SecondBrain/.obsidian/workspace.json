@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "독서록/개발 관련 도서/테스트주도개발시작하기/Mockito.md",
+                "file": "Spring/TestCode/Mockito에서 특정 메서드 호출 검증.md",
                 "mode": "source",
                 "source": false
               }
@@ -73,7 +73,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "argumentM",
+                "query": "argumentC",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -95,7 +95,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 257.5
+    "width": 257.5,
+    "collapsed": true
   },
   "right": {
     "id": "feabab388e8825fc",
@@ -111,7 +112,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "독서록/개발 관련 도서/테스트주도개발시작하기/Mockito.md",
+                "file": "Spring/TestCode/Mockito에서 특정 메서드 호출 검증.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -128,7 +129,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "독서록/개발 관련 도서/테스트주도개발시작하기/Mockito.md",
+                "file": "Spring/TestCode/Mockito에서 특정 메서드 호출 검증.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -151,7 +152,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "독서록/개발 관련 도서/테스트주도개발시작하기/Mockito.md"
+                "file": "Spring/TestCode/Mockito에서 특정 메서드 호출 검증.md"
               }
             }
           },
@@ -196,6 +197,7 @@
   },
   "active": "1d49e9c1426e4fdc",
   "lastOpenFiles": [
+    "독서록/개발 관련 도서/테스트주도개발시작하기/Mockito.md",
     "Spring/TestCode/Mockito에서 특정 메서드 호출 검증.md",
     "알고리즘 (with JAVA)/풀이/boj 1931.md",
     "알고리즘 (with JAVA)/풀 문제들/그리디 문제.md",
@@ -223,7 +225,6 @@
     "Unused/Attached files/Pasted image 20240510213542.png",
     "Unused/Attached files/Pasted image 20240510213525.png",
     "Unused/Attached files/Pasted image 20240510213507.png",
-    "독서록/개발 관련 도서/테스트주도개발시작하기/Mockito.md",
     "독서록/개발 관련 도서/테스트주도개발시작하기/@Timeout 어노테이션을 이용한 테스트 실행 시간 검증.md",
     "독서록/개발 관련 도서/테스트주도개발시작하기/@TempDir 어노테이션을 이용한 임시 폴더 생성.md",
     "독서록/개발 관련 도서/테스트주도개발시작하기/테스트 메시지 사용자화.md",
