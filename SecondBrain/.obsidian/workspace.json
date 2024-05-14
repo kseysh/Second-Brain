@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Spring/TestCode/Mockito에서 특정 메서드 호출 검증.md",
+                "file": "독서록/개발 관련 도서/테스트주도개발시작하기/Mockito.md",
                 "mode": "source",
                 "source": false
               }
@@ -73,7 +73,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "argumentC",
+                "query": "argumentM",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -95,8 +95,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 257.5,
-    "collapsed": true
+    "width": 257.5
   },
   "right": {
     "id": "feabab388e8825fc",
@@ -112,7 +111,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Spring/TestCode/Mockito에서 특정 메서드 호출 검증.md",
+                "file": "독서록/개발 관련 도서/테스트주도개발시작하기/Mockito.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -129,7 +128,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Spring/TestCode/Mockito에서 특정 메서드 호출 검증.md",
+                "file": "독서록/개발 관련 도서/테스트주도개발시작하기/Mockito.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -152,7 +151,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Spring/TestCode/Mockito에서 특정 메서드 호출 검증.md"
+                "file": "독서록/개발 관련 도서/테스트주도개발시작하기/Mockito.md"
               }
             }
           },
@@ -197,6 +196,7 @@
   },
   "active": "1d49e9c1426e4fdc",
   "lastOpenFiles": [
+    "Spring/TestCode/Mockito에서 특정 메서드 호출 검증.md",
     "알고리즘 (with JAVA)/풀이/boj 1931.md",
     "알고리즘 (with JAVA)/풀 문제들/그리디 문제.md",
     "Unused/Python/Django/배포/장고 배포시 유의해야 할 점.md",
@@ -232,7 +232,6 @@
     "독서록/읽고 싶은 책 List.md",
     "독서록/개발 관련 도서/테스트주도개발시작하기/테스트 코드와 유지보수.md",
     "독서록/개발 관련 도서/테스트주도개발시작하기/통합 테스트.md",
-    "독서록/개발 관련 도서/테스트주도개발시작하기/테스트 코드의 구성.md",
     "Unused",
     "독서록/개발 관련 도서/구글 엔지니어는 이렇게 일한다",
     "알고리즘 (with JAVA)/이론/알고리즘 종류",
