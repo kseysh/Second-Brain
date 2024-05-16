@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Spring/TestCode/Mockito에서 특정 메서드 호출 검증.md",
+                "file": "Unused/Python/Django/배포/장고 배포시 유의해야 할 점.md",
                 "mode": "source",
                 "source": false
               }
@@ -73,7 +73,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "argumentC",
+                "query": "SECRET",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -112,7 +112,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Spring/TestCode/Mockito에서 특정 메서드 호출 검증.md",
+                "file": "Unused/Python/Django/배포/장고 배포시 유의해야 할 점.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -129,7 +129,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Spring/TestCode/Mockito에서 특정 메서드 호출 검증.md",
+                "file": "Unused/Python/Django/배포/장고 배포시 유의해야 할 점.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -152,7 +152,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Spring/TestCode/Mockito에서 특정 메서드 호출 검증.md"
+                "file": "Unused/Python/Django/배포/장고 배포시 유의해야 할 점.md"
               }
             }
           },
@@ -197,8 +197,8 @@
   },
   "active": "1d49e9c1426e4fdc",
   "lastOpenFiles": [
-    "독서록/개발 관련 도서/테스트주도개발시작하기/Mockito.md",
     "Spring/TestCode/Mockito에서 특정 메서드 호출 검증.md",
+    "독서록/개발 관련 도서/테스트주도개발시작하기/Mockito.md",
     "알고리즘 (with JAVA)/풀이/boj 1931.md",
     "알고리즘 (with JAVA)/풀 문제들/그리디 문제.md",
     "Unused/Python/Django/배포/장고 배포시 유의해야 할 점.md",
