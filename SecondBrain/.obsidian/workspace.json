@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Unused/Python/Django/배포/장고 배포시 유의해야 할 점.md",
+                "file": "DB/SQLD/Untitled.md",
                 "mode": "source",
                 "source": false
               }
@@ -73,7 +73,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "SECRET",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -90,8 +90,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -112,7 +111,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Unused/Python/Django/배포/장고 배포시 유의해야 할 점.md",
+                "file": "DB/SQLD/Untitled.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -129,7 +128,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Unused/Python/Django/배포/장고 배포시 유의해야 할 점.md",
+                "file": "DB/SQLD/Untitled.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -152,7 +151,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Unused/Python/Django/배포/장고 배포시 유의해야 할 점.md"
+                "file": "DB/SQLD/Untitled.md"
               }
             }
           },
@@ -197,11 +196,14 @@
   },
   "active": "1d49e9c1426e4fdc",
   "lastOpenFiles": [
+    "Unused/Python/Django/배포/장고 배포시 유의해야 할 점.md",
+    "DB/SQLD/Untitled.md",
+    "DB/SQLD",
+    "DB/Untitled.md",
     "Spring/TestCode/Mockito에서 특정 메서드 호출 검증.md",
     "독서록/개발 관련 도서/테스트주도개발시작하기/Mockito.md",
     "알고리즘 (with JAVA)/풀이/boj 1931.md",
     "알고리즘 (with JAVA)/풀 문제들/그리디 문제.md",
-    "Unused/Python/Django/배포/장고 배포시 유의해야 할 점.md",
     "Unused/Python/Django/배포/apt와 apt-get의 차이.md",
     "Unused/Python/Django/배포/aws 배포.md",
     "Unused/Python/Django/배포/WAS.md",
@@ -231,8 +233,6 @@
     "독서록/개발 관련 도서/테스트주도개발시작하기/테스트 중첩 구성.md",
     "독서록/개발 관련 도서/테스트주도개발시작하기/조건에 따른 테스트.md",
     "독서록/읽고 싶은 책 List.md",
-    "독서록/개발 관련 도서/테스트주도개발시작하기/테스트 코드와 유지보수.md",
-    "독서록/개발 관련 도서/테스트주도개발시작하기/통합 테스트.md",
     "Unused",
     "독서록/개발 관련 도서/구글 엔지니어는 이렇게 일한다",
     "알고리즘 (with JAVA)/이론/알고리즘 종류",
@@ -242,7 +242,6 @@
     "알고리즘 (with JAVA)/메서드 정리",
     "알고리즘 (with JAVA)",
     "Spring/TestCode",
-    "Develop/Auth",
     "무제 파일.canvas"
   ]
 }
