@@ -42,9 +42,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "629d99c8e8ea95db",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "피드백.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -111,7 +123,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DB/SQLD/정규화.md",
+                "file": "피드백.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -128,7 +140,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "DB/SQLD/정규화.md",
+                "file": "피드백.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -151,7 +163,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DB/SQLD/정규화.md"
+                "file": "피드백.md"
               }
             }
           },
@@ -194,10 +206,11 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "1d49e9c1426e4fdc",
+  "active": "629d99c8e8ea95db",
   "lastOpenFiles": [
-    "DB/SQLD/식별자.md",
     "DB/SQLD/정규화.md",
+    "피드백.md",
+    "DB/SQLD/식별자.md",
     "Unused/Attached files/Pasted image 20240518172038.png",
     "DB/SQLD/관계.md",
     "Unused/Attached files/Pasted image 20240518165041.png",
@@ -232,7 +245,6 @@
     "Unused/Attached files/Pasted image 20240510213619.png",
     "Unused/Attached files/Pasted image 20240510213614.png",
     "Unused/Attached files/Pasted image 20240510213607.png",
-    "독서록/개발 관련 도서/테스트주도개발시작하기/@Timeout 어노테이션을 이용한 테스트 실행 시간 검증.md",
     "Unused",
     "독서록/개발 관련 도서/구글 엔지니어는 이렇게 일한다",
     "알고리즘 (with JAVA)/이론/알고리즘 종류",
