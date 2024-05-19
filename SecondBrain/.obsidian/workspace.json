@@ -110,6 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "DB/SQLD/정규화.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,6 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "DB/SQLD/정규화.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -148,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "피드백.md"
+                "file": "DB/SQLD/정규화.md"
               }
             }
           },
@@ -191,10 +193,10 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "77e0b92a051c28ac",
+  "active": "1d49e9c1426e4fdc",
   "lastOpenFiles": [
-    "DB/SQLD/정규화.md",
     "피드백.md",
+    "DB/SQLD/정규화.md",
     "DB/SQLD/식별자.md",
     "Unused/Attached files/Pasted image 20240518172038.png",
     "DB/SQLD/관계.md",
