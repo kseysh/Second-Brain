@@ -42,21 +42,9 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "629d99c8e8ea95db",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "피드백.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -106,8 +94,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 257.5,
-    "collapsed": true
+    "width": 257.5
   },
   "right": {
     "id": "feabab388e8825fc",
@@ -123,7 +110,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "피드백.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -140,7 +126,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "피드백.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -206,7 +191,7 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "629d99c8e8ea95db",
+  "active": "77e0b92a051c28ac",
   "lastOpenFiles": [
     "DB/SQLD/정규화.md",
     "피드백.md",
