@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DB/SQLD/정규화.md",
+                "file": "DB/SQLD/데이터 모델링의 이해.md",
                 "mode": "source",
                 "source": false
               }
@@ -94,7 +94,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 257.5
+    "width": 257.5,
+    "collapsed": true
   },
   "right": {
     "id": "feabab388e8825fc",
@@ -110,7 +111,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DB/SQLD/정규화.md",
+                "file": "DB/SQLD/데이터 모델링의 이해.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +128,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "DB/SQLD/정규화.md",
+                "file": "DB/SQLD/데이터 모델링의 이해.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +151,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DB/SQLD/정규화.md"
+                "file": "DB/SQLD/데이터 모델링의 이해.md"
               }
             }
           },
@@ -195,8 +196,8 @@
   },
   "active": "1d49e9c1426e4fdc",
   "lastOpenFiles": [
-    "피드백.md",
     "DB/SQLD/정규화.md",
+    "피드백.md",
     "DB/SQLD/식별자.md",
     "Unused/Attached files/Pasted image 20240518172038.png",
     "DB/SQLD/관계.md",
