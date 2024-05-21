@@ -37,3 +37,4 @@ SUBSTR(문자열,b,c)은 문자열 중 b위치에서 c개의 문자 길이에 �
 GROUP BY를 사용할 경우 GROUP BY 표현식이 아닌 값은 GROUP BY 뒤에서 사용될 수 없다
 NULLIF(A,B) A와 b가 같으면 NULL 아니면 A리턴
 순수관계연산자 SELECT, PROJECT, JOIN, DIVIDE
+JOIN시에 USING을 사용하기 위해서는 USING(같아야 하는 값) 요렇게 사용한다.
