@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DB/SQLD/속성.md",
+                "file": "DB/SQLD/SQL 기본 및 활용.md",
                 "mode": "source",
                 "source": false
               }
@@ -94,8 +94,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 257.5,
-    "collapsed": true
+    "width": 257.5
   },
   "right": {
     "id": "feabab388e8825fc",
@@ -111,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DB/SQLD/속성.md",
+                "file": "DB/SQLD/SQL 기본 및 활용.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -128,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "DB/SQLD/속성.md",
+                "file": "DB/SQLD/SQL 기본 및 활용.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -151,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DB/SQLD/속성.md"
+                "file": "DB/SQLD/SQL 기본 및 활용.md"
               }
             }
           },
@@ -196,12 +195,14 @@
   },
   "active": "1d49e9c1426e4fdc",
   "lastOpenFiles": [
-    "DB/SQLD/식별자.md",
-    "DB/SQLD/관계.md",
+    "DB/SQLD/정규화.md",
+    "DB/SQLD/SQL 기본 및 활용.md",
     "DB/SQLD/데이터 모델링의 이해.md",
+    "DB/MySQL vs. PostgreSQL.md",
     "DB/SQLD/엔터티.md",
     "DB/SQLD/속성.md",
-    "DB/SQLD/정규화.md",
+    "DB/SQLD/식별자.md",
+    "DB/SQLD/관계.md",
     "피드백.md",
     "Unused/Attached files/Pasted image 20240518172038.png",
     "Unused/Attached files/Pasted image 20240518165041.png",
@@ -225,8 +226,6 @@
     "Unused/Python/Django/배포/EC2 인스턴스 SSH로 접속하기.md",
     "Unused/Python/Django/배포/Docker를 이용해 Django 배포하기.md",
     "Unused/Python/Django/배포/Django Web Service 구성.md",
-    "Unused/Python/Django/배포/Django Swagger.md",
-    "독서록/개발 관련 도서/테스트주도개발시작하기/AssertJ.md",
     "Unused/Attached files/Pasted image 20240510213806.png",
     "Unused/Attached files/Pasted image 20240510213657.png",
     "Unused/Attached files/Pasted image 20240510213643.png",
