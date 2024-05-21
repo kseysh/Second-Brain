@@ -36,3 +36,4 @@ ISNULL이나 NVL은 대상이 널이면 치환값으로 치환하여 리턴한�
 SUBSTR(문자열,b,c)은 문자열 중 b위치에서 c개의 문자 길이에 해당하는 문자를 돌려줌 
 GROUP BY를 사용할 경우 GROUP BY 표현식이 아닌 값은 GROUP BY 뒤에서 사용될 수 없다
 NULLIF(A,B) A와 b가 같으면 NULL 아니면 A리턴
+순수관계연산자 SELECT, PROJECT, JOIN, DIVIDE
