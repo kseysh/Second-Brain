@@ -25,3 +25,7 @@
 - HAVING
 - SELECT
 - ORDER BY
+
+# 추가적인 정보
+ Oracle에서 길이가 0인 데이터는 Null이다
+ 
