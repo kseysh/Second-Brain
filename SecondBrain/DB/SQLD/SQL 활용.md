@@ -24,3 +24,4 @@ rollup 및 cube는 한 개만 전달 시 전체 그룹 연산 결과 출력 x
 DISTINCT는 중복된 값을 받지 않는 함수
 인라인뷰: from에서 테이블 별칭 정의한 것
 group by 안쓰고 having 써도 댐
+GROUPING: group by에 의해 산출된 row면 0을 rollup, cube에 의해 산출된 row면 1 반환
