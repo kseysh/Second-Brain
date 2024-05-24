@@ -15,6 +15,7 @@ from에서 테이블 별칭 명시하는 것
 
 # PIVOT
 select \* from 테이블 명 또는 서브 쿼리 pivot (**value** for **unstack** in (1,2,3))
+in 안의 컬럼 값은 따옴표 없이
 ## UNPIVOT
 VALUE FOR STACK
 
@@ -28,3 +29,4 @@ DISTINCT는 중복된 값을 받지 않는 함수
 group by 안쓰고 having 써도 댐
 GROUPING: group by에 의해 산출된 row면 0을 rollup, cube에 의해 산출된 row면 1 반환
 top n 질의문에서 n에 해당하는 값이 동일한 경우 함께 출력되도록하는 with ties 옵션을 사용해야함
+FETCH절은 출력될 행의 수를 제한하는 절이며 OFFSET 건너뛸 행의 수이고 FETCH는 출력할 행의 수를 전달하는 구문
