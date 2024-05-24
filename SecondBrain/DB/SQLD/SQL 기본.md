@@ -38,4 +38,5 @@ GROUP BY를 사용할 경우 GROUP BY 표현식이 아닌 값은 GROUP BY 뒤에
 NULLIF(A,B) A와 b가 같으면 NULL 아니면 A리턴
 순수관계연산자 SELECT, PROJECT, JOIN, DIVIDE
 JOIN시에 USING을 사용하기 위해서는 USING(같아야 하는 값) 요렇게 사용한다.
+SUM은 리턴할 값이 없으면 null
 
