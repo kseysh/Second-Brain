@@ -25,3 +25,4 @@ DISTINCT는 중복된 값을 받지 않는 함수
 인라인뷰: from에서 테이블 별칭 정의한 것
 group by 안쓰고 having 써도 댐
 GROUPING: group by에 의해 산출된 row면 0을 rollup, cube에 의해 산출된 row면 1 반환
+top n 질의문에서 n에 해당하는 값이 동일한 경우 함께 출력되도록하는 with ties 옵션을 사용해야함
