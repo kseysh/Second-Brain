@@ -196,9 +196,9 @@
   },
   "active": "1d49e9c1426e4fdc",
   "lastOpenFiles": [
-    "DB/SQLD/관리구문.md",
-    "DB/SQLD/SQL 활용.md",
     "DB/SQLD/SQL 기본.md",
+    "DB/SQLD/SQL 활용.md",
+    "DB/SQLD/관리구문.md",
     "DB/SQLD/정규화.md",
     "DB/SQLD/데이터 모델링의 이해.md",
     "DB/MySQL vs. PostgreSQL.md",

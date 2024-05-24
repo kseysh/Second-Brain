@@ -13,8 +13,10 @@ from에서 테이블 별칭 명시하는 것
 ### 상호 연관 서브 쿼리
 메인 쿼리와 서브 쿼리의 비교를 수행하는 형태
 
-
-
+# PIVOT
+select \* from 테이블 명 또는 서브 쿼리 pivot (**value** for **unstack** in (1,2,3))
+## UNPIVOT
+VALUE FOR STACK
 
 
 
