@@ -42,9 +42,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "99248a0a806d9b85",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "으악.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -94,7 +106,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 257.5
+    "width": 257.5,
+    "collapsed": true
   },
   "right": {
     "id": "feabab388e8825fc",
@@ -110,7 +123,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DB/SQLD/SQL 기본.md",
+                "file": "으악.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +140,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "DB/SQLD/SQL 기본.md",
+                "file": "으악.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +163,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DB/SQLD/SQL 기본.md"
+                "file": "으악.md"
               }
             }
           },
@@ -193,11 +206,12 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "1d49e9c1426e4fdc",
+  "active": "99248a0a806d9b85",
   "lastOpenFiles": [
+    "DB/SQLD/SQL 기본.md",
+    "으악.md",
     "DB/SQLD/관리구문.md",
     "DB/SQLD/SQL 활용.md",
-    "DB/SQLD/SQL 기본.md",
     "DB/SQLD/정규화.md",
     "DB/SQLD/식별자.md",
     "DB/SQLD/관계.md",
@@ -225,7 +239,6 @@
     "Unused/Python/Django/배포/Proxy Server와 로드밸런싱.md",
     "Unused/Python/Django/배포/Proxy Server.md",
     "Unused/Python/Django/배포/EC2.md",
-    "Unused/Python/Django/배포/EC2 인스턴스 SSH로 접속하기.md",
     "Unused/Attached files/Pasted image 20240510213806.png",
     "Unused/Attached files/Pasted image 20240510213657.png",
     "Unused/Attached files/Pasted image 20240510213643.png",
