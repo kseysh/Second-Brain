@@ -37,26 +37,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DB/SQLD/SQL 기본.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "99248a0a806d9b85",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "으악.md",
+                "file": "Spring/빈 생명주기 콜백.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -123,7 +111,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "으악.md",
+                "file": "Spring/빈 생명주기 콜백.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -140,7 +128,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "으악.md",
+                "file": "Spring/빈 생명주기 콜백.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -163,7 +151,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "으악.md"
+                "file": "Spring/빈 생명주기 콜백.md"
               }
             }
           },
@@ -206,10 +194,15 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "99248a0a806d9b85",
+  "active": "1d49e9c1426e4fdc",
   "lastOpenFiles": [
-    "DB/SQLD/SQL 기본.md",
+    "Spring/수동으로 Bean을 등록하는 경우.md",
+    "Spring/빈 생명주기 콜백.md",
+    "Spring/BCrypt.md",
+    "Spring/Service Layer의 역할.md",
+    "독서록/개발 관련 도서/테스트주도개발시작하기/테스트 코드와 유지보수.md",
     "으악.md",
+    "DB/SQLD/SQL 기본.md",
     "DB/SQLD/관리구문.md",
     "DB/SQLD/SQL 활용.md",
     "DB/SQLD/정규화.md",
@@ -234,11 +227,6 @@
     "Unused/Python/Django/배포/apt와 apt-get의 차이.md",
     "Unused/Python/Django/배포/aws 배포.md",
     "Unused/Python/Django/배포/WAS.md",
-    "Unused/Python/Django/배포/Swagger 문서 작성방법.md",
-    "Unused/Python/Django/배포/SSH.md",
-    "Unused/Python/Django/배포/Proxy Server와 로드밸런싱.md",
-    "Unused/Python/Django/배포/Proxy Server.md",
-    "Unused/Python/Django/배포/EC2.md",
     "Unused/Attached files/Pasted image 20240510213806.png",
     "Unused/Attached files/Pasted image 20240510213657.png",
     "Unused/Attached files/Pasted image 20240510213643.png",
