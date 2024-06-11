@@ -184,10 +184,10 @@
   },
   "active": "a449ee016018e4cf",
   "lastOpenFiles": [
+    "Spring/Transaction의 범위.md",
     "Spring/@Transaction(readOnly= true)는 왜 사용할까?.md",
     "Unused/Python/Django/배포/장고 배포시 유의해야 할 점.md",
     "Spring/Transaction 전파.md",
-    "Spring/Transaction의 범위.md",
     "Spring/빈 생명주기 콜백.md",
     "Spring/수동으로 Bean을 등록하는 경우.md",
     "Spring/BCrypt.md",
