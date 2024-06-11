@@ -25,14 +25,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Spring/@Transaction(readOnly= true)는 왜 사용할까?.md",
+                "file": "Spring/Transaction의 범위.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "3a37ae29c02a4156",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "정리해보자.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -99,7 +111,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Spring/@Transaction(readOnly= true)는 왜 사용할까?.md",
+                "file": "정리해보자.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +128,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Spring/@Transaction(readOnly= true)는 왜 사용할까?.md",
+                "file": "정리해보자.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +151,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Spring/@Transaction(readOnly= true)는 왜 사용할까?.md"
+                "file": "정리해보자.md"
               }
             }
           },
@@ -182,12 +194,13 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "a449ee016018e4cf",
+  "active": "3a37ae29c02a4156",
   "lastOpenFiles": [
     "Spring/Transaction의 범위.md",
+    "정리해보자.md",
     "Spring/@Transaction(readOnly= true)는 왜 사용할까?.md",
-    "Unused/Python/Django/배포/장고 배포시 유의해야 할 점.md",
     "Spring/Transaction 전파.md",
+    "Unused/Python/Django/배포/장고 배포시 유의해야 할 점.md",
     "Spring/빈 생명주기 콜백.md",
     "Spring/수동으로 Bean을 등록하는 경우.md",
     "Spring/BCrypt.md",
@@ -214,7 +227,6 @@
     "Spring/TestCode/Mockito에서 특정 메서드 호출 검증.md",
     "독서록/개발 관련 도서/테스트주도개발시작하기/Mockito.md",
     "알고리즘 (with JAVA)/풀이/boj 1931.md",
-    "알고리즘 (with JAVA)/풀 문제들/그리디 문제.md",
     "Unused/Attached files/Pasted image 20240510213806.png",
     "Unused/Attached files/Pasted image 20240510213657.png",
     "Unused/Attached files/Pasted image 20240510213643.png",
