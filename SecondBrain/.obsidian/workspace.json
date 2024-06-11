@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Spring/Transaction의 범위.md",
+                "file": "Spring/@Transaction(readOnly= true)는 왜 사용할까?.md",
                 "mode": "source",
                 "source": false
               }
@@ -99,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Spring/Transaction의 범위.md",
+                "file": "Spring/@Transaction(readOnly= true)는 왜 사용할까?.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Spring/Transaction의 범위.md",
+                "file": "Spring/@Transaction(readOnly= true)는 왜 사용할까?.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Spring/Transaction의 범위.md"
+                "file": "Spring/@Transaction(readOnly= true)는 왜 사용할까?.md"
               }
             }
           },
