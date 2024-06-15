@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Spring/Transaction의 범위.md",
+                "file": "DB/SQLD/데이터 모델링의 이해.md",
                 "mode": "source",
                 "source": false
               }
@@ -99,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Spring/Transaction의 범위.md",
+                "file": "DB/SQLD/데이터 모델링의 이해.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Spring/Transaction의 범위.md",
+                "file": "DB/SQLD/데이터 모델링의 이해.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Spring/Transaction의 범위.md"
+                "file": "DB/SQLD/데이터 모델링의 이해.md"
               }
             }
           },
@@ -182,10 +182,10 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "a449ee016018e4cf",
+  "active": "77e0b92a051c28ac",
   "lastOpenFiles": [
-    "정리해보자.md",
     "Spring/Transaction의 범위.md",
+    "정리해보자.md",
     "Spring/@Transaction(readOnly= true)는 왜 사용할까?.md",
     "Spring/Transaction 전파.md",
     "Unused/Python/Django/배포/장고 배포시 유의해야 할 점.md",
