@@ -30,9 +30,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "4a0ebba5ef1fb025",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "무제 파일.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -99,7 +111,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "알고리즘 (with JAVA)/풀이/boj 1931 정답 봄.md",
+                "file": "무제 파일.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +128,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "알고리즘 (with JAVA)/풀이/boj 1931 정답 봄.md",
+                "file": "무제 파일.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +151,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "알고리즘 (with JAVA)/풀이/boj 1931 정답 봄.md"
+                "file": "무제 파일.md"
               }
             }
           },
@@ -182,10 +194,14 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "a449ee016018e4cf",
+  "active": "4a0ebba5ef1fb025",
   "lastOpenFiles": [
-    "알고리즘 (with JAVA)/풀이/boj 1783.md",
+    "Unused/Attached files/Pasted image 20240619181003.png",
+    "Unused/Attached files/Pasted image 20240619180856.png",
+    "Unused/Attached files/Pasted image 20240619180801.png",
     "알고리즘 (with JAVA)/풀이/boj 1931 정답 봄.md",
+    "무제 파일.md",
+    "알고리즘 (with JAVA)/풀이/boj 1783.md",
     "알고리즘 (with JAVA)/풀 문제들/그리디 문제.md",
     "알고리즘 (with JAVA)/풀 문제들/이런 저런...md",
     "알고리즘 (with JAVA)/풀 문제들/알고리즘 공부 순서.md",
@@ -208,8 +224,6 @@
     "DB/SQLD/정규화.md",
     "DB/SQLD/식별자.md",
     "DB/SQLD/관계.md",
-    "DB/SQLD/속성.md",
-    "DB/SQLD/엔터티.md",
     "Unused/Attached files/Pasted image 20240518172038.png",
     "Unused/Attached files/Pasted image 20240518165041.png",
     "Unused/Attached files/Pasted image 20240518161938.png",
@@ -219,8 +233,6 @@
     "Unused/Attached files/Pasted image 20240510213657.png",
     "Unused/Attached files/Pasted image 20240510213643.png",
     "Unused/Attached files/Pasted image 20240510213619.png",
-    "Unused/Attached files/Pasted image 20240510213614.png",
-    "Unused/Attached files/Pasted image 20240510213607.png",
     "Unused",
     "독서록/개발 관련 도서/구글 엔지니어는 이렇게 일한다",
     "알고리즘 (with JAVA)/이론/알고리즘 종류",
