@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DB/SQLD/데이터 모델링의 이해.md",
+                "file": "알고리즘 (with JAVA)/풀이/boj 1783.md",
                 "mode": "source",
                 "source": false
               }
@@ -99,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DB/SQLD/데이터 모델링의 이해.md",
+                "file": "알고리즘 (with JAVA)/풀이/boj 1783.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "DB/SQLD/데이터 모델링의 이해.md",
+                "file": "알고리즘 (with JAVA)/풀이/boj 1783.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DB/SQLD/데이터 모델링의 이해.md"
+                "file": "알고리즘 (with JAVA)/풀이/boj 1783.md"
               }
             }
           },
@@ -184,6 +184,13 @@
   },
   "active": "a449ee016018e4cf",
   "lastOpenFiles": [
+    "알고리즘 (with JAVA)/풀이/boj 1931.md",
+    "알고리즘 (with JAVA)/풀이/boj 1783.md",
+    "알고리즘 (with JAVA)/풀 문제들/그리디 문제.md",
+    "알고리즘 (with JAVA)/풀 문제들/이런 저런...md",
+    "알고리즘 (with JAVA)/풀 문제들/알고리즘 공부 순서.md",
+    "알고리즘 (with JAVA)/풀 문제들/자료구조 문제.md",
+    "DB/SQLD/데이터 모델링의 이해.md",
     "Spring/Transaction의 범위.md",
     "정리해보자.md",
     "Spring/@Transaction(readOnly= true)는 왜 사용할까?.md",
@@ -203,18 +210,11 @@
     "DB/SQLD/관계.md",
     "DB/SQLD/속성.md",
     "DB/SQLD/엔터티.md",
-    "DB/SQLD/데이터 모델링의 이해.md",
-    "DB/MySQL vs. PostgreSQL.md",
-    "피드백.md",
     "Unused/Attached files/Pasted image 20240518172038.png",
     "Unused/Attached files/Pasted image 20240518165041.png",
     "Unused/Attached files/Pasted image 20240518161938.png",
     "Unused/Attached files/Pasted image 20240518160752.png",
     "DB/SQLD",
-    "DB/Untitled.md",
-    "Spring/TestCode/Mockito에서 특정 메서드 호출 검증.md",
-    "독서록/개발 관련 도서/테스트주도개발시작하기/Mockito.md",
-    "알고리즘 (with JAVA)/풀이/boj 1931.md",
     "Unused/Attached files/Pasted image 20240510213806.png",
     "Unused/Attached files/Pasted image 20240510213657.png",
     "Unused/Attached files/Pasted image 20240510213643.png",
