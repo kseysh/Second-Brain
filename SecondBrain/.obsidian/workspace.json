@@ -25,26 +25,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "알고리즘 (with JAVA)/풀이/boj 1931 정답 봄.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "4a0ebba5ef1fb025",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "당근 인턴십.md",
+                "file": "알고리즘 (with JAVA)/풀 문제들/그리디 문제.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -94,8 +82,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 257.5,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "feabab388e8825fc",
@@ -111,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "당근 인턴십.md",
+                "file": "알고리즘 (with JAVA)/풀 문제들/그리디 문제.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -128,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "당근 인턴십.md",
+                "file": "알고리즘 (with JAVA)/풀 문제들/그리디 문제.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -151,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "당근 인턴십.md"
+                "file": "알고리즘 (with JAVA)/풀 문제들/그리디 문제.md"
               }
             }
           },
@@ -194,8 +181,14 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "4a0ebba5ef1fb025",
+  "active": "a449ee016018e4cf",
   "lastOpenFiles": [
+    "알고리즘 (with JAVA)/풀 문제들/자료구조 문제.md",
+    "알고리즘 (with JAVA)/풀이/boj 11399.md",
+    "알고리즘 (with JAVA)/풀 문제들/그리디 문제.md",
+    "알고리즘 (with JAVA)/풀이/무제 폴더",
+    "알고리즘 (with JAVA)/풀이/boj 1931 정답 봄.md",
+    "당근 인턴십.md",
     "Unused/Attached files/Pasted image 20240619184747.png",
     "Unused/Attached files/Pasted image 20240619184702.png",
     "Unused/Attached files/Pasted image 20240619184624.png",
@@ -206,14 +199,9 @@
     "Unused/Attached files/Pasted image 20240619183511.png",
     "Unused/Attached files/Pasted image 20240619182341.png",
     "Unused/Attached files/Pasted image 20240619182320.png",
-    "Unused/Attached files/Pasted image 20240619182254.png",
-    "알고리즘 (with JAVA)/풀이/boj 1931 정답 봄.md",
-    "당근 인턴십.md",
     "알고리즘 (with JAVA)/풀이/boj 1783.md",
-    "알고리즘 (with JAVA)/풀 문제들/그리디 문제.md",
     "알고리즘 (with JAVA)/풀 문제들/이런 저런...md",
     "알고리즘 (with JAVA)/풀 문제들/알고리즘 공부 순서.md",
-    "알고리즘 (with JAVA)/풀 문제들/자료구조 문제.md",
     "DB/SQLD/데이터 모델링의 이해.md",
     "Spring/Transaction의 범위.md",
     "정리해보자.md",
@@ -241,7 +229,6 @@
     "알고리즘 (with JAVA)/풀이",
     "알고리즘 (with JAVA)/메서드 정리",
     "알고리즘 (with JAVA)",
-    "Spring/TestCode",
     "무제 파일.canvas"
   ]
 }
