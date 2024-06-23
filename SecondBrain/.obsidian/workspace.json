@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "알고리즘 (with JAVA)/풀이/boj 11399.md",
+                "file": "알고리즘 (with JAVA)/풀 문제들/이런 저런...md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "알고리즘 (with JAVA)/풀이/boj 11399.md",
+                "file": "알고리즘 (with JAVA)/풀 문제들/이런 저런...md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "알고리즘 (with JAVA)/풀이/boj 11399.md",
+                "file": "알고리즘 (with JAVA)/풀 문제들/이런 저런...md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "알고리즘 (with JAVA)/풀이/boj 11399.md"
+                "file": "알고리즘 (with JAVA)/풀 문제들/이런 저런...md"
               }
             }
           },
@@ -183,8 +183,17 @@
   },
   "active": "a449ee016018e4cf",
   "lastOpenFiles": [
-    "알고리즘 (with JAVA)/풀 문제들/그리디 문제.md",
     "알고리즘 (with JAVA)/풀 문제들/자료구조 문제.md",
+    "알고리즘 (with JAVA)/풀 문제들/알고리즘 공부 순서.md",
+    "알고리즘 (with JAVA)/풀 문제들/이런 저런...md",
+    "알고리즘 (with JAVA)/풀 문제들/완전 탐색 문제.md",
+    "알고리즘 (with JAVA)/풀 문제들/분할 정복 문제.md",
+    "알고리즘 (with JAVA)/풀 문제들/binary search 문제.md",
+    "알고리즘 (with JAVA)/풀 문제들/DP 문제.md",
+    "알고리즘 (with JAVA)/풀 문제들/BFS, DFS.md",
+    "알고리즘 (with JAVA)/풀이/boj 1744 풀어야 댐 골드.md",
+    "알고리즘 (with JAVA)/풀 문제들/그리디 문제.md",
+    "알고리즘 (with JAVA)/풀이/boj 2873 시간내서 풀기 플레.md",
     "알고리즘 (with JAVA)/풀이/boj 11399.md",
     "알고리즘 (with JAVA)/풀이/무제 폴더",
     "알고리즘 (with JAVA)/풀이/boj 1931 정답 봄.md",
@@ -200,8 +209,6 @@
     "Unused/Attached files/Pasted image 20240619182341.png",
     "Unused/Attached files/Pasted image 20240619182320.png",
     "알고리즘 (with JAVA)/풀이/boj 1783.md",
-    "알고리즘 (with JAVA)/풀 문제들/이런 저런...md",
-    "알고리즘 (with JAVA)/풀 문제들/알고리즘 공부 순서.md",
     "DB/SQLD/데이터 모델링의 이해.md",
     "Spring/Transaction의 범위.md",
     "정리해보자.md",
@@ -213,13 +220,6 @@
     "Spring/BCrypt.md",
     "Spring/Service Layer의 역할.md",
     "독서록/개발 관련 도서/테스트주도개발시작하기/테스트 코드와 유지보수.md",
-    "으악.md",
-    "DB/SQLD/SQL 기본.md",
-    "DB/SQLD/관리구문.md",
-    "DB/SQLD/SQL 활용.md",
-    "DB/SQLD/정규화.md",
-    "DB/SQLD/식별자.md",
-    "DB/SQLD/관계.md",
     "DB/SQLD",
     "Unused",
     "독서록/개발 관련 도서/구글 엔지니어는 이렇게 일한다",
