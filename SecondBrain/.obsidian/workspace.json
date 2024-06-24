@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "알고리즘 (with JAVA)/풀이/boj 10825 +.md",
+                "file": "프로젝트/SOPT Makers APP/친구 추천 로직에서 캐싱 전략 고민하기.md",
                 "mode": "source",
                 "source": false
               }
@@ -99,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "알고리즘 (with JAVA)/풀이/boj 10825 +.md",
+                "file": "프로젝트/SOPT Makers APP/친구 추천 로직에서 캐싱 전략 고민하기.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "알고리즘 (with JAVA)/풀이/boj 10825 +.md",
+                "file": "프로젝트/SOPT Makers APP/친구 추천 로직에서 캐싱 전략 고민하기.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "알고리즘 (with JAVA)/풀이/boj 10825 +.md"
+                "file": "프로젝트/SOPT Makers APP/친구 추천 로직에서 캐싱 전략 고민하기.md"
               }
             }
           },
@@ -184,8 +184,14 @@
   },
   "active": "a449ee016018e4cf",
   "lastOpenFiles": [
-    "알고리즘 (with JAVA)/자바 기본 Setting.md",
     "알고리즘 (with JAVA)/풀이/boj 10825 +.md",
+    "프로젝트/SOPT Makers APP/친구 추천 로직에서 캐싱 전략 고민하기.md",
+    "프로젝트/SOPT Makers APP",
+    "프로젝트/HMH",
+    "프로젝트",
+    "Spring/무제 폴더",
+    "Spring/무제 파일.md",
+    "알고리즘 (with JAVA)/자바 기본 Setting.md",
     "알고리즘 (with JAVA)/풀이/boj 1744 풀어야 댐 골드.md",
     "알고리즘 (with JAVA)/이론/Comparator.md",
     "알고리즘 (with JAVA)/풀 문제들/분할 정복 문제.md",
@@ -219,17 +225,11 @@
     "Spring/@Transaction(readOnly= true)는 왜 사용할까?.md",
     "Spring/Transaction 전파.md",
     "Unused/Python/Django/배포/장고 배포시 유의해야 할 점.md",
-    "Spring/빈 생명주기 콜백.md",
-    "Spring/수동으로 Bean을 등록하는 경우.md",
     "DB/SQLD",
     "Unused",
     "독서록/개발 관련 도서/구글 엔지니어는 이렇게 일한다",
     "알고리즘 (with JAVA)/이론/알고리즘 종류",
     "알고리즘 (with JAVA)/이론",
-    "알고리즘 (with JAVA)/풀 문제들",
-    "알고리즘 (with JAVA)/풀이",
-    "알고리즘 (with JAVA)/메서드 정리",
-    "알고리즘 (with JAVA)",
     "무제 파일.canvas"
   ]
 }
