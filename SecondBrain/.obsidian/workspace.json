@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "프로젝트/SOPT Makers APP/친구 추천 api 로직 개선하기 - 2.md",
+                "file": "Spring/JPA/단방향 연관관계.md",
                 "mode": "source",
                 "source": false
               }
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "프로젝트/SOPT Makers APP/친구 추천 api 로직 개선하기 - 2.md",
+                "file": "Spring/JPA/단방향 연관관계.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "프로젝트/SOPT Makers APP/친구 추천 api 로직 개선하기 - 2.md",
+                "file": "Spring/JPA/단방향 연관관계.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "프로젝트/SOPT Makers APP/친구 추천 api 로직 개선하기 - 2.md"
+                "file": "Spring/JPA/단방향 연관관계.md"
               }
             }
           },
@@ -195,10 +195,11 @@
   },
   "active": "a449ee016018e4cf",
   "lastOpenFiles": [
+    "Spring/JPA/데이터 중심 설계의 문제점.md",
+    "프로젝트/SOPT Makers APP/친구 추천 api 로직 개선하기 - 2.md",
     "Unused/Attached files/Pasted image 20240624214531.png",
     "Unused/Attached files/Pasted image 20240624214419.png",
     "프로젝트/SOPT Makers APP/친구 추천 api 로직 개선하기 - 1.md",
-    "프로젝트/SOPT Makers APP/친구 추천 api 로직 개선하기 - 2.md",
     "Test/Jmeter.md",
     "독서록/개발 관련 도서/테스트주도개발시작하기/테스트 코드와 유지보수.md",
     "Test",
@@ -234,7 +235,6 @@
     "Unused/Attached files/Pasted image 20240619184112.png",
     "Unused/Attached files/Pasted image 20240619183954.png",
     "Unused/Attached files/Pasted image 20240619183511.png",
-    "Unused/Attached files/Pasted image 20240619182341.png",
     "알고리즘 (with JAVA)/풀이/boj 1783.md",
     "DB/SQLD/데이터 모델링의 이해.md",
     "DB/SQLD",
