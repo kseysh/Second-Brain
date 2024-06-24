@@ -25,7 +25,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "프로젝트/SOPT Makers APP/친구 추천 로직 여러 전략을 고민해보고 실행하며 검증하기.md",
+                "file": "프로젝트/SOPT Makers APP/친구 추천 api 로직 개선하기 - 1.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "b2477dadd737e1e6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "현업에서 궁금한 점.md",
                 "mode": "source",
                 "source": false
               }
@@ -99,7 +111,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "프로젝트/SOPT Makers APP/친구 추천 로직 여러 전략을 고민해보고 실행하며 검증하기.md",
+                "file": "프로젝트/SOPT Makers APP/친구 추천 api 로직 개선하기 - 1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +128,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "프로젝트/SOPT Makers APP/친구 추천 로직 여러 전략을 고민해보고 실행하며 검증하기.md",
+                "file": "프로젝트/SOPT Makers APP/친구 추천 api 로직 개선하기 - 1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +151,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "프로젝트/SOPT Makers APP/친구 추천 로직 여러 전략을 고민해보고 실행하며 검증하기.md"
+                "file": "프로젝트/SOPT Makers APP/친구 추천 api 로직 개선하기 - 1.md"
               }
             }
           },
@@ -184,8 +196,9 @@
   },
   "active": "a449ee016018e4cf",
   "lastOpenFiles": [
+    "현업에서 궁금한 점.md",
+    "프로젝트/SOPT Makers APP/친구 추천 api 로직 개선하기 - 1.md",
     "알고리즘 (with JAVA)/풀이/boj 10825 +.md",
-    "프로젝트/SOPT Makers APP/친구 추천 로직 여러 전략을 고민해보고 실행하며 검증하기.md",
     "프로젝트/SOPT Makers APP",
     "프로젝트/HMH",
     "프로젝트",
@@ -224,7 +237,6 @@
     "정리해보자.md",
     "Spring/@Transaction(readOnly= true)는 왜 사용할까?.md",
     "Spring/Transaction 전파.md",
-    "Unused/Python/Django/배포/장고 배포시 유의해야 할 점.md",
     "DB/SQLD",
     "Unused",
     "독서록/개발 관련 도서/구글 엔지니어는 이렇게 일한다",
