@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "알고리즘 (with JAVA)/풀 문제들/이런 저런...md",
+                "file": "알고리즘 (with JAVA)/이론/Comparator.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "알고리즘 (with JAVA)/풀 문제들/이런 저런...md",
+                "file": "알고리즘 (with JAVA)/이론/Comparator.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "알고리즘 (with JAVA)/풀 문제들/이런 저런...md",
+                "file": "알고리즘 (with JAVA)/이론/Comparator.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "알고리즘 (with JAVA)/풀 문제들/이런 저런...md"
+                "file": "알고리즘 (with JAVA)/이론/Comparator.md"
               }
             }
           },
@@ -183,11 +183,11 @@
   },
   "active": "a449ee016018e4cf",
   "lastOpenFiles": [
+    "알고리즘 (with JAVA)/풀 문제들/분할 정복 문제.md",
+    "알고리즘 (with JAVA)/풀 문제들/이런 저런...md",
     "알고리즘 (with JAVA)/풀 문제들/자료구조 문제.md",
     "알고리즘 (with JAVA)/풀 문제들/알고리즘 공부 순서.md",
-    "알고리즘 (with JAVA)/풀 문제들/이런 저런...md",
     "알고리즘 (with JAVA)/풀 문제들/완전 탐색 문제.md",
-    "알고리즘 (with JAVA)/풀 문제들/분할 정복 문제.md",
     "알고리즘 (with JAVA)/풀 문제들/binary search 문제.md",
     "알고리즘 (with JAVA)/풀 문제들/DP 문제.md",
     "알고리즘 (with JAVA)/풀 문제들/BFS, DFS.md",
