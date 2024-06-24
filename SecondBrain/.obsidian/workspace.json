@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "프로젝트/SOPT Makers APP/친구 추천 api 로직 개선하기 - 1.md",
+                "file": "Test/Jmeter.md",
                 "mode": "source",
                 "source": false
               }
@@ -94,8 +94,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "feabab388e8825fc",
@@ -111,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "프로젝트/SOPT Makers APP/친구 추천 api 로직 개선하기 - 1.md",
+                "file": "Test/Jmeter.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -128,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "프로젝트/SOPT Makers APP/친구 추천 api 로직 개선하기 - 1.md",
+                "file": "Test/Jmeter.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -151,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "프로젝트/SOPT Makers APP/친구 추천 api 로직 개선하기 - 1.md"
+                "file": "Test/Jmeter.md"
               }
             }
           },
@@ -196,8 +195,10 @@
   },
   "active": "a449ee016018e4cf",
   "lastOpenFiles": [
-    "현업에서 궁금한 점.md",
     "프로젝트/SOPT Makers APP/친구 추천 api 로직 개선하기 - 1.md",
+    "Test/Jmeter.md",
+    "Test",
+    "현업에서 궁금한 점.md",
     "알고리즘 (with JAVA)/풀이/boj 10825 +.md",
     "프로젝트/SOPT Makers APP",
     "프로젝트/HMH",
@@ -236,12 +237,10 @@
     "Spring/Transaction의 범위.md",
     "정리해보자.md",
     "Spring/@Transaction(readOnly= true)는 왜 사용할까?.md",
-    "Spring/Transaction 전파.md",
     "DB/SQLD",
     "Unused",
     "독서록/개발 관련 도서/구글 엔지니어는 이렇게 일한다",
     "알고리즘 (with JAVA)/이론/알고리즘 종류",
-    "알고리즘 (with JAVA)/이론",
     "무제 파일.canvas"
   ]
 }
