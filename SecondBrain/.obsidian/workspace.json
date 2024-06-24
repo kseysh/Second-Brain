@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "알고리즘 (with JAVA)/이론/Comparator.md",
+                "file": "알고리즘 (with JAVA)/풀이/boj 10825 +.md",
                 "mode": "source",
                 "source": false
               }
@@ -82,7 +82,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "feabab388e8825fc",
@@ -98,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "알고리즘 (with JAVA)/이론/Comparator.md",
+                "file": "알고리즘 (with JAVA)/풀이/boj 10825 +.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "알고리즘 (with JAVA)/이론/Comparator.md",
+                "file": "알고리즘 (with JAVA)/풀이/boj 10825 +.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "알고리즘 (with JAVA)/이론/Comparator.md"
+                "file": "알고리즘 (with JAVA)/풀이/boj 10825 +.md"
               }
             }
           },
@@ -183,6 +184,10 @@
   },
   "active": "a449ee016018e4cf",
   "lastOpenFiles": [
+    "알고리즘 (with JAVA)/자바 기본 Setting.md",
+    "알고리즘 (with JAVA)/풀이/boj 10825 +.md",
+    "알고리즘 (with JAVA)/풀이/boj 1744 풀어야 댐 골드.md",
+    "알고리즘 (with JAVA)/이론/Comparator.md",
     "알고리즘 (with JAVA)/풀 문제들/분할 정복 문제.md",
     "알고리즘 (with JAVA)/풀 문제들/이런 저런...md",
     "알고리즘 (with JAVA)/풀 문제들/자료구조 문제.md",
@@ -191,7 +196,6 @@
     "알고리즘 (with JAVA)/풀 문제들/binary search 문제.md",
     "알고리즘 (with JAVA)/풀 문제들/DP 문제.md",
     "알고리즘 (with JAVA)/풀 문제들/BFS, DFS.md",
-    "알고리즘 (with JAVA)/풀이/boj 1744 풀어야 댐 골드.md",
     "알고리즘 (with JAVA)/풀 문제들/그리디 문제.md",
     "알고리즘 (with JAVA)/풀이/boj 2873 시간내서 풀기 플레.md",
     "알고리즘 (with JAVA)/풀이/boj 11399.md",
@@ -217,9 +221,6 @@
     "Unused/Python/Django/배포/장고 배포시 유의해야 할 점.md",
     "Spring/빈 생명주기 콜백.md",
     "Spring/수동으로 Bean을 등록하는 경우.md",
-    "Spring/BCrypt.md",
-    "Spring/Service Layer의 역할.md",
-    "독서록/개발 관련 도서/테스트주도개발시작하기/테스트 코드와 유지보수.md",
     "DB/SQLD",
     "Unused",
     "독서록/개발 관련 도서/구글 엔지니어는 이렇게 일한다",
