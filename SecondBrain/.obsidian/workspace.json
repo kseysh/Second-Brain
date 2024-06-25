@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Spring/JPA/단방향 연관관계.md",
+                "file": "알고리즘 (with JAVA)/풀이/boj 10989.md",
                 "mode": "source",
                 "source": false
               }
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Spring/JPA/단방향 연관관계.md",
+                "file": "알고리즘 (with JAVA)/풀이/boj 10989.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Spring/JPA/단방향 연관관계.md",
+                "file": "알고리즘 (with JAVA)/풀이/boj 10989.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Spring/JPA/단방향 연관관계.md"
+                "file": "알고리즘 (with JAVA)/풀이/boj 10989.md"
               }
             }
           },
@@ -195,11 +195,16 @@
   },
   "active": "a449ee016018e4cf",
   "lastOpenFiles": [
-    "Spring/JPA/데이터 중심 설계의 문제점.md",
+    "알고리즘 (with JAVA)/풀 문제들/이런 저런...md",
+    "알고리즘 (with JAVA)/풀이/boj 10989.md",
+    "알고리즘 (with JAVA)/풀 문제들/알고리즘 공부 순서.md",
+    "알고리즘 (with JAVA)/풀 문제들/자료구조 문제.md",
+    "프로젝트/SOPT Makers APP/친구 추천 api 로직 개선하기 - 1.md",
     "프로젝트/SOPT Makers APP/친구 추천 api 로직 개선하기 - 2.md",
+    "Spring/JPA/단방향 연관관계.md",
+    "Spring/JPA/데이터 중심 설계의 문제점.md",
     "Unused/Attached files/Pasted image 20240624214531.png",
     "Unused/Attached files/Pasted image 20240624214419.png",
-    "프로젝트/SOPT Makers APP/친구 추천 api 로직 개선하기 - 1.md",
     "Test/Jmeter.md",
     "독서록/개발 관련 도서/테스트주도개발시작하기/테스트 코드와 유지보수.md",
     "Test",
@@ -214,9 +219,6 @@
     "알고리즘 (with JAVA)/풀이/boj 1744 풀어야 댐 골드.md",
     "알고리즘 (with JAVA)/이론/Comparator.md",
     "알고리즘 (with JAVA)/풀 문제들/분할 정복 문제.md",
-    "알고리즘 (with JAVA)/풀 문제들/이런 저런...md",
-    "알고리즘 (with JAVA)/풀 문제들/자료구조 문제.md",
-    "알고리즘 (with JAVA)/풀 문제들/알고리즘 공부 순서.md",
     "알고리즘 (with JAVA)/풀 문제들/완전 탐색 문제.md",
     "알고리즘 (with JAVA)/풀 문제들/binary search 문제.md",
     "알고리즘 (with JAVA)/풀 문제들/DP 문제.md",
@@ -235,8 +237,6 @@
     "Unused/Attached files/Pasted image 20240619184112.png",
     "Unused/Attached files/Pasted image 20240619183954.png",
     "Unused/Attached files/Pasted image 20240619183511.png",
-    "알고리즘 (with JAVA)/풀이/boj 1783.md",
-    "DB/SQLD/데이터 모델링의 이해.md",
     "DB/SQLD",
     "Unused",
     "독서록/개발 관련 도서/구글 엔지니어는 이렇게 일한다",
