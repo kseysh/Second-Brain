@@ -32,6 +32,16 @@
             }
           },
           {
+            "id": "8da6f92a536691aa",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.6.5"
+              }
+            }
+          },
+          {
             "id": "b2477dadd737e1e6",
             "type": "leaf",
             "state": {
@@ -44,7 +54,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -194,7 +204,7 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "a449ee016018e4cf",
+  "active": "8da6f92a536691aa",
   "lastOpenFiles": [
     "Unused/Attached files/Pasted image 20240630180703.png",
     "Unused/Attached files/Pasted image 20240630180654.png",
