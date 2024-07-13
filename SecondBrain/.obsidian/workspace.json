@@ -32,6 +32,18 @@
             }
           },
           {
+            "id": "94a4c358993d48fa",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Team.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "b2477dadd737e1e6",
             "type": "leaf",
             "state": {
@@ -44,7 +56,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -94,7 +106,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "feabab388e8825fc",
@@ -110,7 +123,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Develop/Parameter와 Argument의 차이.md",
+                "file": "Team.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +140,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Develop/Parameter와 Argument의 차이.md",
+                "file": "Team.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +163,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Develop/Parameter와 Argument의 차이.md"
+                "file": "Team.md"
               }
             }
           },
@@ -193,14 +206,15 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "a449ee016018e4cf",
+  "active": "94a4c358993d48fa",
   "lastOpenFiles": [
+    "Develop/Parameter와 Argument의 차이.md",
+    "Team.md",
     "당근 인턴십.md",
     "현업에서 궁금한 점.md",
     "Develop/FCM.md",
     "Develop/요청과 응답으로 엔티티(Entity) 대신 DTO를 사용하자.md",
     "Develop/Architecture/Layered architecture.md",
-    "Develop/Parameter와 Argument의 차이.md",
     "Develop/객체의 상속과 합성 (미완성).md",
     "Develop/프레임워크 vs 라이브러리.md",
     "프로젝트/SOPT Makers APP/파트끼리의 랭킹 목록 조회 api 리팩토링.md",
@@ -223,7 +237,6 @@
     "프로젝트/HMH/시도해볼 것.md",
     "알고리즘 (with JAVA)/풀 문제들/완전 탐색 문제.md",
     "알고리즘 (with JAVA)/풀이/boj 11652.md",
-    "알고리즘 (with JAVA)/풀이/boj 10989 +.md",
     "Unused/Attached files/Pasted image 20240624214531.png",
     "Unused/Attached files/Pasted image 20240624214419.png",
     "Test",
