@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "설명.md",
+                "file": "현업에서 궁금한 점.md",
                 "mode": "source",
                 "source": false
               }
@@ -122,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "설명.md",
+                "file": "현업에서 궁금한 점.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "설명.md",
+                "file": "현업에서 궁금한 점.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "설명.md"
+                "file": "현업에서 궁금한 점.md"
               }
             }
           },
@@ -207,11 +207,11 @@
   },
   "active": "8b311301fa35164f",
   "lastOpenFiles": [
+    "당근 인턴십.md",
     "현업에서 궁금한 점.md",
     "설명.md",
     "Develop/Parameter와 Argument의 차이.md",
     "Team.md",
-    "당근 인턴십.md",
     "Develop/FCM.md",
     "Develop/요청과 응답으로 엔티티(Entity) 대신 DTO를 사용하자.md",
     "Develop/Architecture/Layered architecture.md",
