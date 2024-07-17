@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "알고리즘 (with JAVA)/풀 문제들/알고리즘 공부 순서.md",
+                "file": "알고리즘 (with JAVA)/풀이/boj 18406.md",
                 "mode": "source",
                 "source": false
               }
@@ -122,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "알고리즘 (with JAVA)/풀 문제들/알고리즘 공부 순서.md",
+                "file": "알고리즘 (with JAVA)/풀이/boj 18406.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "알고리즘 (with JAVA)/풀 문제들/알고리즘 공부 순서.md",
+                "file": "알고리즘 (with JAVA)/풀이/boj 18406.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "알고리즘 (with JAVA)/풀 문제들/알고리즘 공부 순서.md"
+                "file": "알고리즘 (with JAVA)/풀이/boj 18406.md"
               }
             }
           },
@@ -207,11 +207,12 @@
   },
   "active": "8b311301fa35164f",
   "lastOpenFiles": [
+    "알고리즘 (with JAVA)/풀 문제들/알고리즘 공부 순서.md",
+    "알고리즘 (with JAVA)/풀이/boj 18406.md",
     "알고리즘 (with JAVA)/풀 문제들/이런 저런...md",
     "알고리즘 (with JAVA)/풀 문제들/binary search 문제.md",
     "알고리즘 (with JAVA)/풀 문제들/분할 정복 문제.md",
     "알고리즘 (with JAVA)/풀 문제들/완전 탐색 문제.md",
-    "알고리즘 (with JAVA)/풀 문제들/알고리즘 공부 순서.md",
     "알고리즘 (with JAVA)/이론/알고리즘 종류/에라토스테니스의 체.md",
     "Unused/Attached files/Pasted image 20240717162618.png",
     "Unused/Attached files/Pasted image 20240717155831.png",
@@ -235,7 +236,6 @@
     "Develop/FCM.md",
     "Develop/요청과 응답으로 엔티티(Entity) 대신 DTO를 사용하자.md",
     "Develop/Architecture/Layered architecture.md",
-    "Develop/객체의 상속과 합성 (미완성).md",
     "Unused/Attached files/Pasted image 20240710104854.png",
     "Unused/Attached files/Pasted image 20240630180703.png",
     "Unused/Attached files/Pasted image 20240630180654.png",
