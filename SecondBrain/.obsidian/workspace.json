@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "현업에서 궁금한 점.md",
+                "file": "알고리즘 (with JAVA)/이론/알고리즘 종류/에라토스테니스의 체.md",
                 "mode": "source",
                 "source": false
               }
@@ -122,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "현업에서 궁금한 점.md",
+                "file": "알고리즘 (with JAVA)/이론/알고리즘 종류/에라토스테니스의 체.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "현업에서 궁금한 점.md",
+                "file": "알고리즘 (with JAVA)/이론/알고리즘 종류/에라토스테니스의 체.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "현업에서 궁금한 점.md"
+                "file": "알고리즘 (with JAVA)/이론/알고리즘 종류/에라토스테니스의 체.md"
               }
             }
           },
@@ -207,8 +207,22 @@
   },
   "active": "8b311301fa35164f",
   "lastOpenFiles": [
-    "무제 파일.md",
+    "알고리즘 (with JAVA)/풀 문제들/알고리즘 공부 순서.md",
+    "알고리즘 (with JAVA)/이론/알고리즘 종류/에라토스테니스의 체.md",
+    "알고리즘 (with JAVA)/풀 문제들/자료구조 문제.md",
+    "알고리즘 (with JAVA)/이론/코테 시간 복잡도.md",
+    "알고리즘 (with JAVA)/이론/코테 디버깅.md",
+    "알고리즘 (with JAVA)/이론/알고리즘 종류/가중치 그래프.md",
+    "알고리즘 (with JAVA)/이론/알고리즘 종류/그리디 알고리즘.md",
+    "알고리즘 (with JAVA)/풀 문제들/이런 저런...md",
+    "알고리즘 (with JAVA)/풀이/boj 1167 아직 안 품.md",
+    "알고리즘 (with JAVA)/이론/DP를 사용하면 좋을 문제들.md",
+    "알고리즘 (with JAVA)/이론/Comparator.md",
+    "알고리즘 (with JAVA)/이론/알고리즘 종류/이진 트리.md",
+    "알고리즘 (with JAVA)/풀 문제들/binary search 문제.md",
+    "알고리즘 (with JAVA)/풀 문제들/DP 문제.md",
     "현업에서 궁금한 점.md",
+    "무제 파일.md",
     "당근 인턴십.md",
     "설명.md",
     "Develop/Parameter와 Argument의 차이.md",
@@ -220,22 +234,8 @@
     "Develop/프레임워크 vs 라이브러리.md",
     "프로젝트/SOPT Makers APP/파트끼리의 랭킹 목록 조회 api 리팩토링.md",
     "Unused/Attached files/Pasted image 20240710104854.png",
-    "프로젝트/SOPT Makers APP/친구 추천 api 로직 개선하기 - 2.md",
     "Unused/Attached files/Pasted image 20240630180703.png",
     "Unused/Attached files/Pasted image 20240630180654.png",
-    "프로젝트/SOPT Makers APP/친구 추천 api 로직 개선하기 - 1.md",
-    "알고리즘 (with JAVA)/풀이/boj 1406.md",
-    "알고리즘 (with JAVA)/풀 문제들/이런 저런...md",
-    "알고리즘 (with JAVA)/풀이/boj 10824.md",
-    "알고리즘 (with JAVA)/풀이/boj 11655.md",
-    "알고리즘 (with JAVA)/풀이/boj 10820 +.md",
-    "알고리즘 (with JAVA)/풀이/boj 10808.md",
-    "알고리즘 (with JAVA)/풀 문제들/DP 문제.md",
-    "알고리즘 (with JAVA)/풀이/boj 10799.md",
-    "알고리즘 (with JAVA)/풀이/boj 9012.md",
-    "알고리즘 (with JAVA)/풀이/boj 11004.md",
-    "알고리즘 (with JAVA)/풀 문제들/자료구조 문제.md",
-    "프로젝트/HMH/시도해볼 것.md",
     "Unused/Attached files/Pasted image 20240624214531.png",
     "Unused/Attached files/Pasted image 20240624214419.png",
     "Test",
