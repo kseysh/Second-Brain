@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "알고리즘 (with JAVA)/풀이/pro 카드뭉치.md",
+                "file": "알고리즘 (with JAVA)/풀이/pro 둘만의 암호.md",
                 "mode": "source",
                 "source": false
               }
@@ -106,7 +106,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "feabab388e8825fc",
@@ -122,7 +123,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "알고리즘 (with JAVA)/풀이/pro 카드뭉치.md",
+                "file": "알고리즘 (with JAVA)/풀이/pro 둘만의 암호.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +140,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "알고리즘 (with JAVA)/풀이/pro 카드뭉치.md",
+                "file": "알고리즘 (with JAVA)/풀이/pro 둘만의 암호.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +163,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "알고리즘 (with JAVA)/풀이/pro 카드뭉치.md"
+                "file": "알고리즘 (with JAVA)/풀이/pro 둘만의 암호.md"
               }
             }
           },
@@ -207,8 +208,9 @@
   },
   "active": "8b311301fa35164f",
   "lastOpenFiles": [
-    "알고리즘 (with JAVA)/풀이/pro 안전지대 +.md",
     "알고리즘 (with JAVA)/풀이/pro 카드뭉치.md",
+    "알고리즘 (with JAVA)/풀이/pro 둘만의 암호.md",
+    "알고리즘 (with JAVA)/풀이/pro 안전지대 +.md",
     "알고리즘 (with JAVA)/이론/Comparator.md",
     "알고리즘 (with JAVA)/이론/알고리즘 종류/세그먼트 트리 (인덱스 트리).md",
     "알고리즘 (with JAVA)/이론/알고리즘 종류/BFS.md",
@@ -232,7 +234,6 @@
     "알고리즘 (with JAVA)/풀이/pro 문자열을 정수로 바꾸기.md",
     "알고리즘 (with JAVA)/풀이/pro 달리기경주 정답 봄.md",
     "알고리즘 (with JAVA)/풀이/pro 추억점수 +.md",
-    "알고리즘 (with JAVA)/풀이/pro 공원 산책 +.md",
     "Unused/Attached files/Pasted image 20240717162618.png",
     "Unused/Attached files/Pasted image 20240717155831.png",
     "Unused/Attached files/Pasted image 20240717155816.png",
