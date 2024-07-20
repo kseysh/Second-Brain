@@ -44,16 +44,6 @@
             }
           },
           {
-            "id": "844b3025c328de67",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.6.7"
-              }
-            }
-          },
-          {
             "id": "b2477dadd737e1e6",
             "type": "leaf",
             "state": {
@@ -66,7 +56,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -215,7 +205,7 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "844b3025c328de67",
+  "active": "8b311301fa35164f",
   "lastOpenFiles": [
     "알고리즘 (with JAVA)/풀이/pro 외계어 사전.md",
     "알고리즘 (with JAVA)/풀이/pro 다른 사람의 풀이.md",
