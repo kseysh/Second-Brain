@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "알고리즘 (with JAVA)/풀이/pro 다른 사람의 풀이.md",
+                "file": "알고리즘 (with JAVA)/이론/Comparator.md",
                 "mode": "source",
                 "source": false
               }
@@ -122,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "알고리즘 (with JAVA)/풀이/pro 다른 사람의 풀이.md",
+                "file": "알고리즘 (with JAVA)/이론/Comparator.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "알고리즘 (with JAVA)/풀이/pro 다른 사람의 풀이.md",
+                "file": "알고리즘 (with JAVA)/이론/Comparator.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "알고리즘 (with JAVA)/풀이/pro 다른 사람의 풀이.md"
+                "file": "알고리즘 (with JAVA)/이론/Comparator.md"
               }
             }
           },
@@ -207,8 +207,20 @@
   },
   "active": "8b311301fa35164f",
   "lastOpenFiles": [
-    "알고리즘 (with JAVA)/풀이/pro 외계어 사전.md",
+    "알고리즘 (with JAVA)/이론/알고리즘 종류/세그먼트 트리 (인덱스 트리).md",
+    "알고리즘 (with JAVA)/이론/알고리즘 종류/BFS.md",
+    "알고리즘 (with JAVA)/이론/알고리즘 종류/우선 순위 큐.md",
+    "알고리즘 (with JAVA)/이론/알고리즘 종류/Queue.md",
+    "알고리즘 (with JAVA)/이론/알고리즘 종류/Stack.md",
+    "알고리즘 (with JAVA)/이론/알고리즘 종류/DFS.md",
+    "알고리즘 (with JAVA)/이론/알고리즘 종류/이분 그래프.md",
+    "알고리즘 (with JAVA)/이론/알고리즘 종류/이진 트리.md",
+    "알고리즘 (with JAVA)/이론/알고리즘 종류/가중치 그래프.md",
+    "알고리즘 (with JAVA)/이론/알고리즘 종류/그리디 알고리즘.md",
+    "알고리즘 (with JAVA)/이론/알고리즘 종류/에라토스테니스의 체.md",
+    "알고리즘 (with JAVA)/풀이/pro 같은 숫자는 싫어.md",
     "알고리즘 (with JAVA)/풀이/pro 다른 사람의 풀이.md",
+    "알고리즘 (with JAVA)/풀이/pro 외계어 사전.md",
     "알고리즘 (with JAVA)/풀이/pro 약수의 개수와 덧셈.md",
     "알고리즘 (with JAVA)/풀이/pro 대충 만든 자판 +.md",
     "알고리즘 (with JAVA)/풀이/pro 덧칠하기.md",
@@ -221,21 +233,9 @@
     "알고리즘 (with JAVA)/풀이/boj 18406.md",
     "알고리즘 (with JAVA)/풀 문제들/알고리즘 공부 순서.md",
     "알고리즘 (with JAVA)/풀 문제들/이런 저런...md",
-    "알고리즘 (with JAVA)/풀 문제들/binary search 문제.md",
-    "알고리즘 (with JAVA)/풀 문제들/분할 정복 문제.md",
-    "알고리즘 (with JAVA)/풀 문제들/완전 탐색 문제.md",
-    "알고리즘 (with JAVA)/이론/알고리즘 종류/에라토스테니스의 체.md",
     "Unused/Attached files/Pasted image 20240717162618.png",
     "Unused/Attached files/Pasted image 20240717155831.png",
     "Unused/Attached files/Pasted image 20240717155816.png",
-    "알고리즘 (with JAVA)/풀 문제들/자료구조 문제.md",
-    "알고리즘 (with JAVA)/이론/코테 시간 복잡도.md",
-    "알고리즘 (with JAVA)/이론/코테 디버깅.md",
-    "알고리즘 (with JAVA)/이론/알고리즘 종류/가중치 그래프.md",
-    "알고리즘 (with JAVA)/이론/알고리즘 종류/그리디 알고리즘.md",
-    "알고리즘 (with JAVA)/풀이/boj 1167 아직 안 품.md",
-    "알고리즘 (with JAVA)/이론/DP를 사용하면 좋을 문제들.md",
-    "알고리즘 (with JAVA)/이론/Comparator.md",
     "Unused/Attached files/Pasted image 20240710104854.png",
     "Unused/Attached files/Pasted image 20240630180703.png",
     "Unused/Attached files/Pasted image 20240630180654.png",
