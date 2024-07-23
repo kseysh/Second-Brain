@@ -49,7 +49,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "무제 파일.md",
+                "file": "으악.md",
                 "mode": "source",
                 "source": false
               }
@@ -76,9 +76,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "b74eb287c3c4356f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "으악.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -144,7 +156,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Unused/Attached files/Pasted image 20240723133321.png",
+                "file": "으악.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -161,7 +173,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Unused/Attached files/Pasted image 20240723133321.png",
+                "file": "으악.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -184,7 +196,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Unused/Attached files/Pasted image 20240723133321.png"
+                "file": "으악.md"
               }
             }
           },
@@ -227,10 +239,10 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "f5076a7048f6ddec",
+  "active": "b74eb287c3c4356f",
   "lastOpenFiles": [
-    "무제 파일.md",
     "Unused/Attached files/Pasted image 20240723133321.png",
+    "으악.md",
     "Unused/Attached files/Pasted image 20240723132739.png",
     "Unused/Attached files/Pasted image 20240723132624.png",
     "Unused/Attached files/Pasted image 20240723132606.png",
