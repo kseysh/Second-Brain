@@ -56,6 +56,16 @@
             }
           },
           {
+            "id": "f5076a7048f6ddec",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "Unused/Attached files/Pasted image 20240723133321.png"
+              }
+            }
+          },
+          {
             "id": "b2477dadd737e1e6",
             "type": "leaf",
             "state": {
@@ -68,7 +78,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -134,7 +144,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "무제 파일.md",
+                "file": "Unused/Attached files/Pasted image 20240723133321.png",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,7 +161,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "무제 파일.md",
+                "file": "Unused/Attached files/Pasted image 20240723133321.png",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -174,7 +184,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "무제 파일.md"
+                "file": "Unused/Attached files/Pasted image 20240723133321.png"
               }
             }
           },
@@ -217,14 +227,15 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "942e13a6e0b48191",
+  "active": "f5076a7048f6ddec",
   "lastOpenFiles": [
+    "무제 파일.md",
+    "Unused/Attached files/Pasted image 20240723133321.png",
     "Unused/Attached files/Pasted image 20240723132739.png",
     "Unused/Attached files/Pasted image 20240723132624.png",
     "Unused/Attached files/Pasted image 20240723132606.png",
     "Unused/Attached files/Pasted image 20240723132556.png",
     "알고리즘 (with JAVA)/풀이/pro 가장 가까운 같은 글자 +.md",
-    "무제 파일.md",
     "알고리즘 (with JAVA)/풀이/pro 크기가 작은 부분 문자열 +.md",
     "알고리즘 (with JAVA)/풀이/pro 둘만의 암호.md",
     "알고리즘 (with JAVA)/풀이/pro 카드뭉치.md",
@@ -253,8 +264,6 @@
     "Unused/Attached files/Pasted image 20240717155816.png",
     "Unused/Attached files/Pasted image 20240710104854.png",
     "Unused/Attached files/Pasted image 20240630180703.png",
-    "Unused/Attached files/Pasted image 20240630180654.png",
-    "Unused/Attached files/Pasted image 20240624214531.png",
     "Test",
     "프로젝트/SOPT Makers APP",
     "프로젝트/HMH",
