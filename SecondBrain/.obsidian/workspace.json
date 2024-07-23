@@ -47,9 +47,11 @@
             "id": "f5076a7048f6ddec",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "Unused/Attached files/Pasted image 20240723133321.png"
+                "file": "Unused/Python/Call by value.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -120,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Unused/Attached files/Pasted image 20240723133321.png",
+                "file": "Unused/Python/Call by value.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -137,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Unused/Attached files/Pasted image 20240723133321.png",
+                "file": "Unused/Python/Call by value.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -160,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Unused/Attached files/Pasted image 20240723133321.png"
+                "file": "Unused/Python/Call by value.md"
               }
             }
           },
@@ -205,6 +207,8 @@
   },
   "active": "77e0b92a051c28ac",
   "lastOpenFiles": [
+    "Unused/Python/Call by reference.md",
+    "Unused/Attached files/Pasted image 20240723133321.png",
     "Unused/IDEA/아이디에이션 방법/유저 찾기.md",
     "Unused/IDEA/아이디에이션 방법/가장 작은 단위로 아이디어 전개.md",
     "Unused/IDEA/아이디에이션 방법/5 whys.md",
@@ -213,7 +217,6 @@
     "Unused/IDEA/아이디어 폴더/우테코.md",
     "Unused/IDEA/아이디어 폴더/서비스 아이디어.md",
     "Unused/IDEA/hmh 변경점 아이디어 고민.md",
-    "Unused/Attached files/Pasted image 20240723133321.png",
     "으악.md",
     "Unused/Attached files/Pasted image 20240723132739.png",
     "Unused/Attached files/Pasted image 20240723132624.png",
@@ -235,7 +238,6 @@
     "알고리즘 (with JAVA)/이론/알고리즘 종류/이진 트리.md",
     "알고리즘 (with JAVA)/이론/알고리즘 종류/가중치 그래프.md",
     "알고리즘 (with JAVA)/이론/알고리즘 종류/그리디 알고리즘.md",
-    "알고리즘 (with JAVA)/이론/알고리즘 종류/에라토스테니스의 체.md",
     "Unused/Attached files/Pasted image 20240717162618.png",
     "Unused/Attached files/Pasted image 20240717155831.png",
     "Unused/Attached files/Pasted image 20240717155816.png",
