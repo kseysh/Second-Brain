@@ -49,7 +49,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Unused/Python/Call by value.md",
+                "file": "독서록/개발 관련 도서/Clean Code/무제 파일.md",
                 "mode": "source",
                 "source": false
               }
@@ -122,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Unused/Python/Call by value.md",
+                "file": "독서록/개발 관련 도서/Clean Code/무제 파일.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Unused/Python/Call by value.md",
+                "file": "독서록/개발 관련 도서/Clean Code/무제 파일.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Unused/Python/Call by value.md"
+                "file": "독서록/개발 관련 도서/Clean Code/무제 파일.md"
               }
             }
           },
@@ -205,8 +205,11 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "77e0b92a051c28ac",
+  "active": "f5076a7048f6ddec",
   "lastOpenFiles": [
+    "독서록/개발 관련 도서/테스트주도개발시작하기/테스트 코드와 유지보수.md",
+    "독서록/개발 관련 도서/Clean Code/무제 파일.md",
+    "독서록/개발 관련 도서/Clean Code",
     "Unused/Python/Call by reference.md",
     "Unused/Attached files/Pasted image 20240723133321.png",
     "Unused/IDEA/아이디에이션 방법/유저 찾기.md",
@@ -236,8 +239,6 @@
     "알고리즘 (with JAVA)/이론/알고리즘 종류/DFS.md",
     "알고리즘 (with JAVA)/이론/알고리즘 종류/이분 그래프.md",
     "알고리즘 (with JAVA)/이론/알고리즘 종류/이진 트리.md",
-    "알고리즘 (with JAVA)/이론/알고리즘 종류/가중치 그래프.md",
-    "알고리즘 (with JAVA)/이론/알고리즘 종류/그리디 알고리즘.md",
     "Unused/Attached files/Pasted image 20240717162618.png",
     "Unused/Attached files/Pasted image 20240717155831.png",
     "Unused/Attached files/Pasted image 20240717155816.png",
@@ -252,7 +253,6 @@
     "DB/SQLD",
     "Unused",
     "독서록/개발 관련 도서/구글 엔지니어는 이렇게 일한다",
-    "알고리즘 (with JAVA)/이론/알고리즘 종류",
     "무제 파일.canvas"
   ]
 }
