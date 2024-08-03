@@ -49,7 +49,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "독서록/개발 관련 도서/Clean Code/3장 함수.md",
+                "file": "독서록/개발 관련 도서/Clean Code/5장 형식 맞추기.md",
                 "mode": "source",
                 "source": false
               }
@@ -122,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "독서록/개발 관련 도서/Clean Code/3장 함수.md",
+                "file": "독서록/개발 관련 도서/Clean Code/5장 형식 맞추기.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "독서록/개발 관련 도서/Clean Code/3장 함수.md",
+                "file": "독서록/개발 관련 도서/Clean Code/5장 형식 맞추기.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "독서록/개발 관련 도서/Clean Code/3장 함수.md"
+                "file": "독서록/개발 관련 도서/Clean Code/5장 형식 맞추기.md"
               }
             }
           },
@@ -207,8 +207,10 @@
   },
   "active": "f5076a7048f6ddec",
   "lastOpenFiles": [
-    "독서록/개발 관련 도서/Clean Code/17장 냄새와 휴리스틱/함수.md",
+    "독서록/개발 관련 도서/Clean Code/4장 주석.md",
+    "독서록/개발 관련 도서/Clean Code/5장 형식 맞추기.md",
     "독서록/개발 관련 도서/Clean Code/3장 함수.md",
+    "독서록/개발 관련 도서/Clean Code/17장 냄새와 휴리스틱/함수.md",
     "독서록/개발 관련 도서/Clean Code/2장 의미있는 이름.md",
     "독서록/개발 관련 도서/Clean Code/17장 냄새와 휴리스틱/이름.md",
     "독서록/개발 관련 도서/Clean Code/17장 냄새와 휴리스틱/테스트.md",
@@ -238,8 +240,6 @@
     "알고리즘 (with JAVA)/풀이/pro 가장 가까운 같은 글자 +.md",
     "알고리즘 (with JAVA)/풀이/pro 크기가 작은 부분 문자열 +.md",
     "알고리즘 (with JAVA)/풀이/pro 둘만의 암호.md",
-    "알고리즘 (with JAVA)/풀이/pro 카드뭉치.md",
-    "알고리즘 (with JAVA)/풀이/pro 안전지대 +.md",
     "Unused/Attached files/Pasted image 20240717162618.png",
     "Unused/Attached files/Pasted image 20240717155831.png",
     "Unused/Attached files/Pasted image 20240717155816.png",
