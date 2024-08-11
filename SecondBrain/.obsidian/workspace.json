@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "알고리즘 (with JAVA)/풀이/pro 가장 가까운 같은 글자 +.md",
+                "file": "알고리즘 (with JAVA)/풀이/Programmers/틀린 문제/다시 풀 문제/pro 가장 가까운 같은 글자 +.md",
                 "mode": "source",
                 "source": false
               }
@@ -49,14 +49,50 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "알고리즘 (with JAVA)/풀이/틀린 문제/다시 보기만 할 문제/pro 자연수 뒤집어 배열로 만들기.md",
+                "file": "알고리즘 (with JAVA)/풀이/Programmers/맞은 문제/pro 정수 내림차순으로 배치하기.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "f1144a9a1ebc96f3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "알고리즘 (with JAVA)/풀이/Programmers/틀린 문제/다시 풀 문제/pro 가장 가까운 같은 글자 +.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "8d63dbd117090ff5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "알고리즘 (with JAVA)/풀이/Programmers/틀린 문제/다시 풀 문제/pro 크기가 작은 부분 문자열 +.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "d12cb07ae85d9e93",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "알고리즘 (with JAVA)/풀이/boj 1406.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -106,8 +142,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 237.50260543823242,
-    "collapsed": true
+    "width": 237.50260543823242
   },
   "right": {
     "id": "feabab388e8825fc",
@@ -123,7 +158,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "알고리즘 (with JAVA)/풀이/틀린 문제/다시 보기만 할 문제/pro 자연수 뒤집어 배열로 만들기.md",
+                "file": "알고리즘 (with JAVA)/풀이/boj 1406.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -140,7 +175,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "알고리즘 (with JAVA)/풀이/틀린 문제/다시 보기만 할 문제/pro 자연수 뒤집어 배열로 만들기.md",
+                "file": "알고리즘 (with JAVA)/풀이/boj 1406.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -163,7 +198,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "알고리즘 (with JAVA)/풀이/틀린 문제/다시 보기만 할 문제/pro 자연수 뒤집어 배열로 만들기.md"
+                "file": "알고리즘 (with JAVA)/풀이/boj 1406.md"
               }
             }
           },
@@ -206,40 +241,45 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "f5076a7048f6ddec",
+  "active": "d12cb07ae85d9e93",
   "lastOpenFiles": [
-    "알고리즘 (with JAVA)/풀이/틀린 문제/다시 보기만 할 문제",
-    "알고리즘 (with JAVA)/풀이/틀린 문제/다시 풀 문제",
-    "알고리즘 (with JAVA)/풀이/틀린 문제",
-    "알고리즘 (with JAVA)/풀이/맞은 문제",
-    "독서록/자기 계발/1만 시간의 재발견.md",
-    "알고리즘 (with JAVA)/풀이/틀린 문제/다시 보기만 할 문제/pro 자연수 뒤집어 배열로 만들기.md",
-    "독서록/개발 관련 도서/Clean Code/12장 창발성.md",
-    "독서록/개발 관련 도서/Clean Code/11장 시스템 (미완).md",
-    "독서록/개발 관련 도서/Clean Code/9장 클래스.md",
-    "독서록/개발 관련 도서/Clean Code/9장 단위 테스트.md",
-    "독서록/개발 관련 도서/Clean Code/8장 경계.md",
-    "독서록/개발 관련 도서/Clean Code/7장 오류 처리.md",
-    "독서록/개발 관련 도서/Clean Code/6장 객체와 자료구조.md",
-    "독서록/개발 관련 도서/Clean Code/5장 형식 맞추기.md",
-    "독서록/개발 관련 도서/Clean Code/4장 주석.md",
-    "독서록/개발 관련 도서/Clean Code/3장 함수.md",
-    "독서록/개발 관련 도서/Clean Code/17장 냄새와 휴리스틱/함수.md",
-    "독서록/개발 관련 도서/Clean Code/2장 의미있는 이름.md",
-    "독서록/개발 관련 도서/Clean Code/17장 냄새와 휴리스틱/이름.md",
-    "독서록/개발 관련 도서/Clean Code/17장 냄새와 휴리스틱/테스트.md",
-    "독서록/개발 관련 도서/Clean Code/17장 냄새와 휴리스틱/자바.md",
-    "독서록/개발 관련 도서/Clean Code/17장 냄새와 휴리스틱/일반.md",
-    "독서록/개발 관련 도서/Clean Code/17장 냄새와 휴리스틱/환경.md",
-    "독서록/개발 관련 도서/Clean Code/17장 냄새와 휴리스틱/주석.md",
-    "독서록/개발 관련 도서/Clean Code/냄새와 휴리스틱.md",
-    "독서록/개발 관련 도서/Clean Code/17장 냄새와 휴리스틱",
-    "독서록/개발 관련 도서/테스트주도개발시작하기/테스트 코드와 유지보수.md",
-    "독서록/개발 관련 도서/Clean Code",
-    "Unused/Python/Call by reference.md",
+    "알고리즘 (with JAVA)/풀이/boj 11047.md",
+    "알고리즘 (with JAVA)/풀이/boj 1744 풀어야 댐 골드.md",
+    "알고리즘 (with JAVA)/풀이/boj/맞은 문제/boj 1541.md",
+    "알고리즘 (with JAVA)/풀이/boj/틀린 문제/다시 풀 문제/boj 2875 -.md",
+    "알고리즘 (with JAVA)/풀이/boj/맞은 문제/boj 10610.md",
+    "알고리즘 (with JAVA)/풀이/boj/맞은 문제/boj 1783.md",
+    "알고리즘 (with JAVA)/풀이/boj/틀린 문제/다시 풀 문제/boj 1931 정답 봄.md",
+    "알고리즘 (with JAVA)/풀이/boj/맞은 문제/boj 11399.md",
+    "알고리즘 (with JAVA)/풀이/boj 2873 시간내서 풀기 플레.md",
+    "알고리즘 (with JAVA)/풀이/boj/틀린 문제/다시 풀 문제/boj 10825 +.md",
+    "알고리즘 (with JAVA)/풀이/boj/틀린 문제/다시 보기만 할 문제/boj 10989 +.md",
+    "알고리즘 (with JAVA)/풀이/boj/틀린 문제/다시 풀 문제/boj 11652.md",
+    "알고리즘 (with JAVA)/풀이/boj 1406.md",
+    "알고리즘 (with JAVA)/풀이/boj/맞은 문제/boj 11004.md",
+    "알고리즘 (with JAVA)/풀이/boj/맞은 문제/boj 9012.md",
+    "알고리즘 (with JAVA)/풀이/boj/맞은 문제/boj 10799.md",
+    "알고리즘 (with JAVA)/풀이/boj/맞은 문제/boj 10808.md",
+    "알고리즘 (with JAVA)/풀이/boj/틀린 문제/다시 풀 문제/boj 10820 +.md",
+    "알고리즘 (with JAVA)/풀이/boj/맞은 문제/boj 11655.md",
+    "알고리즘 (with JAVA)/풀이/boj/맞은 문제/boj 10824.md",
+    "알고리즘 (with JAVA)/풀이/boj/맞은 문제/boj 18406.md",
+    "알고리즘 (with JAVA)/풀이/boj/틀린 문제/다시 풀 문제",
+    "알고리즘 (with JAVA)/풀이/boj/틀린 문제/다시 보기만 할 문제",
+    "알고리즘 (with JAVA)/풀이/boj/틀린 문제",
+    "알고리즘 (with JAVA)/풀이/boj/맞은 문제",
+    "알고리즘 (with JAVA)/풀이/boj",
+    "알고리즘 (with JAVA)/풀이/Programmers/틀린 문제/다시 풀 문제/pro 달리기경주 정답 봄.md",
+    "알고리즘 (with JAVA)/풀이/Programmers/틀린 문제/다시 풀 문제/pro 추억점수 +.md",
+    "알고리즘 (with JAVA)/풀이/Programmers/틀린 문제/다시 풀 문제/pro 공원 산책 +.md",
+    "알고리즘 (with JAVA)/풀이/Programmers/맞은 문제/pro 문자열을 정수로 바꾸기.md",
+    "알고리즘 (with JAVA)/풀이/Programmers/맞은 문제/pro 자릿수 더하기.md",
+    "알고리즘 (with JAVA)/풀이/Programmers",
+    "알고리즘 (with JAVA)/풀이/Programmers/etc",
+    "알고리즘 (with JAVA)/풀이/Programmers/틀린 문제/다시 보기만 할 문제",
+    "알고리즘 (with JAVA)/풀이/Programmers/틀린 문제/다시 풀 문제",
+    "알고리즘 (with JAVA)/풀이/Programmers/틀린 문제",
     "Unused/Attached files/Pasted image 20240723133321.png",
-    "Unused/IDEA/아이디에이션 방법/유저 찾기.md",
-    "Unused/IDEA/아이디에이션 방법/가장 작은 단위로 아이디어 전개.md",
     "Unused/Attached files/Pasted image 20240723132739.png",
     "Unused/Attached files/Pasted image 20240723132624.png",
     "Unused/Attached files/Pasted image 20240723132606.png",
@@ -249,11 +289,6 @@
     "Unused/Attached files/Pasted image 20240717155816.png",
     "Unused/Attached files/Pasted image 20240710104854.png",
     "Unused/Attached files/Pasted image 20240630180703.png",
-    "Test",
-    "프로젝트/SOPT Makers APP",
-    "프로젝트/HMH",
-    "프로젝트",
-    "Spring/무제 폴더",
     "무제 파일.canvas"
   ]
 }
