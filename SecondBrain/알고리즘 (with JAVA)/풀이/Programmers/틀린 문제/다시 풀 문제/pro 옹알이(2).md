@@ -1,3 +1,4 @@
+https://school.programmers.co.kr/learn/courses/30/lessons/133499
 # 틀린 풀이
 ```java
 class Solution {
@@ -65,4 +66,4 @@ class Solution {
     }
 }
 ```
-따라서 replaceAll을 활용하여 regexp를 활용해 woo
+따라서 replaceAll을 활용하여 regexp를 활용해 정규표현식 (woo|ma|aya|ye)에 해당하는 모든 word를 replace 해주었습니다.
