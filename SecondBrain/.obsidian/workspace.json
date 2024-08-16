@@ -85,7 +85,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "알고리즘 (with JAVA)/풀이/Programmers/맞은 문제/pro 최소 직사각형.md",
+                "file": "알고리즘 (with JAVA)/이론/코테 디버깅.md",
                 "mode": "source",
                 "source": false
               }
@@ -158,7 +158,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "알고리즘 (with JAVA)/풀이/Programmers/맞은 문제/pro 최소 직사각형.md",
+                "file": "알고리즘 (with JAVA)/이론/코테 디버깅.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -175,7 +175,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "알고리즘 (with JAVA)/풀이/Programmers/맞은 문제/pro 최소 직사각형.md",
+                "file": "알고리즘 (with JAVA)/이론/코테 디버깅.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -198,7 +198,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "알고리즘 (with JAVA)/풀이/Programmers/맞은 문제/pro 최소 직사각형.md"
+                "file": "알고리즘 (with JAVA)/이론/코테 디버깅.md"
               }
             }
           },
@@ -243,8 +243,11 @@
   },
   "active": "d12cb07ae85d9e93",
   "lastOpenFiles": [
-    "알고리즘 (with JAVA)/풀이/Programmers/맞은 문제/무제 파일.md",
+    "알고리즘 (with JAVA)/이론/코테 시간 복잡도.md",
+    "알고리즘 (with JAVA)/이론/DP를 사용하면 좋을 문제들.md",
+    "알고리즘 (with JAVA)/풀이/Programmers/틀린 문제/다시 풀 문제/pro 쿼드 압축 후 개수 세기.md",
     "알고리즘 (with JAVA)/풀이/Programmers/맞은 문제/pro 최소 직사각형.md",
+    "알고리즘 (with JAVA)/풀이/Programmers/맞은 문제/무제 파일.md",
     "프로젝트/HMH/시도해볼 것.md",
     "프로젝트/SOPT Makers APP/친구 추천 api 로직 개선하기 - 2.md",
     "프로젝트/SOPT Makers APP/친구 추천 api 로직 개선하기 - 1.md",
@@ -268,9 +271,6 @@
     "알고리즘 (with JAVA)/풀이/Programmers/맞은 문제/pro 햄버거 만들기.md",
     "알고리즘 (with JAVA)/풀이/Programmers/맞은 문제/pro 푸드 파이터 대회.md",
     "알고리즘 (with JAVA)/풀이/Programmers/틀린 문제/다시 보기만 할 문제/pro 과일 장수.md",
-    "알고리즘 (with JAVA)/풀이/Programmers/틀린 문제/다시 풀 문제/pro 기사단원의 무기.md",
-    "알고리즘 (with JAVA)/풀이/Programmers/틀린 문제/다시 보기만 할 문제/pro 명예의 전당(1).md",
-    "알고리즘 (with JAVA)/메서드 정리/Queue 관련 메서드.md",
     "알고리즘 (with JAVA)/풀이/boj/틀린 문제/다시 풀 문제",
     "알고리즘 (with JAVA)/풀이/boj/틀린 문제/다시 보기만 할 문제",
     "알고리즘 (with JAVA)/풀이/boj/틀린 문제",
