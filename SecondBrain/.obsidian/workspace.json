@@ -73,7 +73,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "알고리즘 (with JAVA)/풀이/boj/맞은 문제/boj 2630.md",
+                "file": "알고리즘 (with JAVA)/이론/알고리즘 종류/재귀.md",
                 "mode": "source",
                 "source": false
               }
@@ -158,7 +158,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "알고리즘 (with JAVA)/풀이/boj/맞은 문제/boj 2630.md",
+                "file": "알고리즘 (with JAVA)/이론/알고리즘 종류/재귀.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -175,7 +175,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "알고리즘 (with JAVA)/풀이/boj/맞은 문제/boj 2630.md",
+                "file": "알고리즘 (with JAVA)/이론/알고리즘 종류/재귀.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -198,7 +198,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "알고리즘 (with JAVA)/풀이/boj/맞은 문제/boj 2630.md"
+                "file": "알고리즘 (with JAVA)/이론/알고리즘 종류/재귀.md"
               }
             }
           },
@@ -243,8 +243,11 @@
   },
   "active": "8d63dbd117090ff5",
   "lastOpenFiles": [
-    "알고리즘 (with JAVA)/풀이/boj/틀린 문제/다시 풀 문제/boj 11729.md",
+    "Unused/Attached files/Pasted image 20240817203822.png",
+    "알고리즘 (with JAVA)/풀이/boj/맞은 문제/boj 2447.md",
+    "알고리즘 (with JAVA)/이론/알고리즘 종류/재귀.md",
     "알고리즘 (with JAVA)/풀이/boj/맞은 문제/boj 2630.md",
+    "알고리즘 (with JAVA)/풀이/boj/틀린 문제/다시 풀 문제/boj 11729.md",
     "알고리즘 (with JAVA)/풀이/boj/틀린 문제/다시 풀 문제/boj 1074.md",
     "알고리즘 (with JAVA)/풀이/boj/틀린 문제/다시 풀 문제/boj 1629.md",
     "알고리즘 (with JAVA)/풀이/Programmers/틀린 문제/다시 풀 문제/pro 하노이의 탑.md",
@@ -268,9 +271,6 @@
     "알고리즘 (with JAVA)/풀이/Programmers/맞은 문제/무제 폴더",
     "알고리즘 (with JAVA)/풀이/Programmers/틀린 문제/다시 보기만 할 문제/pro 전력망을 둘로 나누기.md",
     "알고리즘 (with JAVA)/풀이/boj/맞은 문제/boj 1260.md",
-    "알고리즘 (with JAVA)/풀이/Programmers/틀린 문제/다시 풀 문제/pro.md",
-    "전공 공부/지난 학기/이산구조/11. 트리.md",
-    "알고리즘 (with JAVA)/풀이/Programmers/틀린 문제/다시 풀 문제/pro 크기가 작은 부분 문자열 +.md",
     "Unused/Attached files/Pasted image 20240812234100.png",
     "Unused/Attached files/Pasted image 20240812234038.png",
     "알고리즘 (with JAVA)/풀이/boj/틀린 문제/다시 풀 문제",
