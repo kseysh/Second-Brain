@@ -4,5 +4,6 @@
   "highlightr-plugin",
   "url-into-selection",
   "editing-toolbar",
-  "obsidian-plugin-toc"
+  "obsidian-plugin-toc",
+  "obsidian-file-cleaner"
 ]
