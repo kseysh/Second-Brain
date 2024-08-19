@@ -73,7 +73,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "알고리즘 (with JAVA)/풀이/무제 파일.md",
+                "file": "알고리즘 (with JAVA)/풀이/오늘 푼 문제들.md",
                 "mode": "source",
                 "source": false
               }
@@ -158,7 +158,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "알고리즘 (with JAVA)/풀이/무제 파일.md",
+                "file": "알고리즘 (with JAVA)/풀이/오늘 푼 문제들.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -175,7 +175,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "알고리즘 (with JAVA)/풀이/무제 파일.md",
+                "file": "알고리즘 (with JAVA)/풀이/오늘 푼 문제들.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -198,7 +198,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "알고리즘 (with JAVA)/풀이/무제 파일.md"
+                "file": "알고리즘 (with JAVA)/풀이/오늘 푼 문제들.md"
               }
             }
           },
@@ -243,8 +243,10 @@
   },
   "active": "8d63dbd117090ff5",
   "lastOpenFiles": [
+    "Unused/Attached files/Pasted image 20240819151107.png",
+    "Unused/Attached files/Pasted image 20240819150700.png",
     "알고리즘 (with JAVA)/풀이/Programmers/틀린 문제/다시 풀 문제/pro 체육복.md",
-    "알고리즘 (with JAVA)/풀이/무제 파일.md",
+    "알고리즘 (with JAVA)/풀이/오늘 푼 문제들.md",
     "알고리즘 (with JAVA)/이론/알고리즘 종류/이분 그래프.md",
     "알고리즘 (with JAVA)/풀이/boj/맞은 문제/boj 2018.md",
     "Obsidian/간단한 기호들.md",
@@ -268,7 +270,6 @@
     "알고리즘 (with JAVA)/이론/알고리즘 종류/BFS.md",
     "알고리즘 (with JAVA)/이론/알고리즘 종류/DFS.md",
     "알고리즘 (with JAVA)/이론/알고리즘 종류/우선 순위 큐.md",
-    "알고리즘 (with JAVA)/이론/알고리즘 종류/Stack.md",
     "Unused/Attached files/Pasted image 20240817203822.png",
     "Unused/Attached files/Pasted image 20240817171128.png",
     "알고리즘 (with JAVA)/풀이/Programmers/맞은 문제/무제 폴더",
@@ -288,7 +289,6 @@
     "Unused/Attached files/Pasted image 20240723132624.png",
     "Unused/Attached files/Pasted image 20240723132606.png",
     "Unused/Attached files/Pasted image 20240723132556.png",
-    "Unused/Attached files/Pasted image 20240717162618.png",
     "무제 파일.canvas"
   ]
 }
