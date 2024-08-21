@@ -73,7 +73,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Spring/조회 빈이 2개 이상일 때.md",
+                "file": "Spring/@Transaction(readOnly= true)는 왜 사용할까?.md",
                 "mode": "source",
                 "source": false
               }
@@ -158,7 +158,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Spring/조회 빈이 2개 이상일 때.md",
+                "file": "Spring/@Transaction(readOnly= true)는 왜 사용할까?.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -175,7 +175,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Spring/조회 빈이 2개 이상일 때.md",
+                "file": "Spring/@Transaction(readOnly= true)는 왜 사용할까?.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -198,7 +198,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Spring/조회 빈이 2개 이상일 때.md"
+                "file": "Spring/@Transaction(readOnly= true)는 왜 사용할까?.md"
               }
             }
           },
@@ -242,8 +242,13 @@
       "obsidian-file-cleaner:Clean files": false
     }
   },
-  "active": "8d63dbd117090ff5",
+  "active": "77e0b92a051c28ac",
   "lastOpenFiles": [
+    "Obsidian/옵시디언 사용법.md",
+    "Spring/무제 파일.md",
+    "Spring/스프링 강의",
+    "Spring/조회 빈이 2개 이상일 때.md",
+    "Spring/스프링 강의/스프링 핵심 원리",
     "Spring/Id에서 Long을 사용하는 이유.md",
     "Spring/컴포넌트 스캔.md",
     "Spring/스프링 빈이 싱글톤으로 유지되는 이유, @Configuration.md",
@@ -268,13 +273,9 @@
     "알고리즘 (with JAVA)/풀이/boj/boj 1406.md",
     "알고리즘 (with JAVA)/이론/알고리즘 종류/백트래킹.md",
     "Unused/Attached files/Pasted image 20240820231022.png",
-    "알고리즘 (with JAVA)/풀이/boj/틀린 문제/다시 풀 문제/boj 15649.md",
     "Unused/Attached files/Pasted image 20240820223829.png",
-    "알고리즘 (with JAVA)/풀이/Programmers/틀린 문제/다시 풀 문제/pro K번째 수.md",
     "Unused/Attached files/Pasted image 20240819203037.png",
-    "알고리즘 (with JAVA)/풀이/Programmers/맞은 문제/모의 고사.md",
     "Unused/Attached files/Pasted image 20240819160722.png",
-    "알고리즘 (with JAVA)/풀이/Programmers/틀린 문제/다시 풀 문제/pro 부족한 금액 계산하기.md",
     "Unused/Attached files/Pasted image 20240819153634.png",
     "Unused/Attached files/Pasted image 20240819151107.png",
     "Unused/Attached files/Pasted image 20240819150700.png",
@@ -288,8 +289,6 @@
     "알고리즘 (with JAVA)/풀이/boj",
     "알고리즘 (with JAVA)/풀이/Programmers",
     "알고리즘 (with JAVA)/풀이/Programmers/etc",
-    "알고리즘 (with JAVA)/풀이/Programmers/틀린 문제/다시 보기만 할 문제",
-    "알고리즘 (with JAVA)/풀이/Programmers/틀린 문제/다시 풀 문제",
     "무제 파일.canvas"
   ]
 }
