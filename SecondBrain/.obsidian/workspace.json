@@ -73,7 +73,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "알고리즘 (with JAVA)/이론/알고리즘 종류/백트래킹.md",
+                "file": "Obsidian/마크다운 사용법.md",
                 "mode": "source",
                 "source": false
               }
@@ -158,7 +158,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "알고리즘 (with JAVA)/이론/알고리즘 종류/백트래킹.md",
+                "file": "Obsidian/마크다운 사용법.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -175,7 +175,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "알고리즘 (with JAVA)/이론/알고리즘 종류/백트래킹.md",
+                "file": "Obsidian/마크다운 사용법.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -198,7 +198,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "알고리즘 (with JAVA)/이론/알고리즘 종류/백트래킹.md"
+                "file": "Obsidian/마크다운 사용법.md"
               }
             }
           },
@@ -244,14 +244,21 @@
   },
   "active": "8d63dbd117090ff5",
   "lastOpenFiles": [
+    "Obsidian/간단한 기호들.md",
+    "Obsidian/플러그인 리스트.md",
+    "프로젝트/SOPT Makers APP/친구 추천 api 로직 개선하기 - 2.md",
+    "Obsidian/이미지 사이즈 변경하는 방법.md",
+    "프로젝트/HMH/시도해볼 것.md",
+    "알고리즘 (with JAVA)/풀이/boj/boj java ranking.md",
+    "알고리즘 (with JAVA)/풀이/boj/boj 5622.md",
+    "알고리즘 (with JAVA)/풀이/boj/boj 1167 아직 안 품.md",
+    "알고리즘 (with JAVA)/풀이/boj/boj 1406.md",
+    "알고리즘 (with JAVA)/풀이/오늘 푼 문제들.md",
+    "알고리즘 (with JAVA)/이론/알고리즘 종류/백트래킹.md",
     "Unused/Attached files/Pasted image 20240820231022.png",
     "알고리즘 (with JAVA)/풀이/boj/틀린 문제/다시 풀 문제/boj 15649.md",
-    "알고리즘 (with JAVA)/이론/알고리즘 종류/백트래킹.md",
-    "알고리즘 (with JAVA)/풀이/오늘 푼 문제들.md",
     "Unused/Attached files/Pasted image 20240820223829.png",
     "알고리즘 (with JAVA)/풀이/Programmers/틀린 문제/다시 풀 문제/pro K번째 수.md",
-    "프로젝트/SOPT Makers APP/친구 추천 api 로직 개선하기 - 2.md",
-    "프로젝트/HMH/시도해볼 것.md",
     "Unused/Attached files/Pasted image 20240819203037.png",
     "알고리즘 (with JAVA)/풀이/Programmers/맞은 문제/모의 고사.md",
     "Unused/Attached files/Pasted image 20240819160722.png",
@@ -262,9 +269,6 @@
     "알고리즘 (with JAVA)/풀이/Programmers/틀린 문제/다시 풀 문제/pro 체육복.md",
     "알고리즘 (with JAVA)/이론/알고리즘 종류/이분 그래프.md",
     "알고리즘 (with JAVA)/풀이/boj/맞은 문제/boj 2018.md",
-    "Obsidian/간단한 기호들.md",
-    "Obsidian/플러그인 리스트.md",
-    "Obsidian/이미지 사이즈 변경하는 방법.md",
     "ERROR_Diary/nginx 502 error.md",
     "ERROR_Diary/Spring/Error creating bean with name 'entityManagerFactory' defined in class path resource.md",
     "ERROR_Diary/GIT/미해결 - there isn’t anything to compare.md",
@@ -273,14 +277,10 @@
     "ERROR_Diary/docker/Docker file exited.md",
     "알고리즘 (with JAVA)/이론/알고리즘 종류/재귀.md",
     "알고리즘 (with JAVA)/이론/알고리즘 종류/에라토스테니스의 체.md",
-    "알고리즘 (with JAVA)/이론/DP를 사용하면 좋을 문제들.md",
-    "알고리즘 (with JAVA)/이론/코테 시간 복잡도.md",
-    "알고리즘 (with JAVA)/이론/코테 디버깅.md",
     "Unused/Attached files/Pasted image 20240817203822.png",
     "Unused/Attached files/Pasted image 20240817171128.png",
     "알고리즘 (with JAVA)/풀이/Programmers/맞은 문제/무제 폴더",
     "Unused/Attached files/Pasted image 20240812234100.png",
-    "Unused/Attached files/Pasted image 20240812234038.png",
     "알고리즘 (with JAVA)/풀이/boj/틀린 문제/다시 풀 문제",
     "알고리즘 (with JAVA)/풀이/boj/틀린 문제/다시 보기만 할 문제",
     "알고리즘 (with JAVA)/풀이/boj/틀린 문제",
