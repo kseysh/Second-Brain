@@ -90,9 +90,17 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "df76c00ccb1d4704",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
           }
         ],
-        "currentTab": 5
+        "currentTab": 7
       }
     ],
     "direction": "vertical"
@@ -158,7 +166,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Spring/@Transaction(readOnly= true)는 왜 사용할까?.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -175,7 +182,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Spring/@Transaction(readOnly= true)는 왜 사용할까?.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -197,9 +203,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Spring/@Transaction(readOnly= true)는 왜 사용할까?.md"
-              }
+              "state": {}
             }
           },
           {
@@ -242,8 +246,9 @@
       "obsidian-file-cleaner:Clean files": false
     }
   },
-  "active": "77e0b92a051c28ac",
+  "active": "df76c00ccb1d4704",
   "lastOpenFiles": [
+    "Spring/@Transaction(readOnly= true)는 왜 사용할까?.md",
     "Obsidian/옵시디언 사용법.md",
     "Spring/무제 파일.md",
     "Spring/스프링 강의",
