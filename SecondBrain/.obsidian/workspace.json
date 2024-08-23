@@ -73,7 +73,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Spring/@Transaction(readOnly= true)는 왜 사용할까?.md",
+                "file": "Spring/JPA/@Transaction(readOnly= true)는 왜 사용할까?.md",
                 "mode": "source",
                 "source": false
               }
@@ -97,7 +97,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Spring/스프링 강의/스프링 핵심 원리/조회 빈이 2개 이상일 때.md",
+                "file": "Spring/스프링 강의/스프링 핵심 원리/수동으로 Bean을 등록하는 경우.md",
                 "mode": "source",
                 "source": false
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "ArrayList<",
+                "query": "기술 지원",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -170,7 +170,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Spring/스프링 강의/스프링 핵심 원리/조회 빈이 2개 이상일 때.md",
+                "file": "Spring/스프링 강의/스프링 핵심 원리/수동으로 Bean을 등록하는 경우.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -187,7 +187,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Spring/스프링 강의/스프링 핵심 원리/조회 빈이 2개 이상일 때.md",
+                "file": "Spring/스프링 강의/스프링 핵심 원리/수동으로 Bean을 등록하는 경우.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -210,7 +210,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Spring/스프링 강의/스프링 핵심 원리/조회 빈이 2개 이상일 때.md"
+                "file": "Spring/스프링 강의/스프링 핵심 원리/수동으로 Bean을 등록하는 경우.md"
               }
             }
           },
@@ -254,8 +254,17 @@
       "obsidian-file-cleaner:Clean files": false
     }
   },
-  "active": "df76c00ccb1d4704",
+  "active": "77e0b92a051c28ac",
   "lastOpenFiles": [
+    "Spring/Service.md",
+    "Spring/Salting.md",
+    "Spring/Spring 네이밍 컨벤션.md",
+    "Spring/URI.md",
+    "Spring/URL.md",
+    "Spring/dto.md",
+    "Spring/spring에서 Test코드 작성시의 주의사항.md",
+    "Spring/스프링 강의/스프링 핵심 원리/조회 빈이 2개 이상일 때.md",
+    "Spring/auth/소셜로그인 플로우 잘 설명되어있는 블로그.md",
     "Spring/스프링 웹 애플리케이션 계층 구조.md",
     "Spring/스프링 컨테이너.md",
     "Spring/스프링을 사용하는 이유.md",
@@ -273,15 +282,6 @@
     "Spring/생성자 주입.md",
     "Spring/단일 테이블 전략.md",
     "Spring/구현 클래스마다 테이블 전략.md",
-    "Spring/record.md",
-    "Spring/spring에서 Test코드 작성시의 주의사항.md",
-    "Spring/of.md",
-    "Spring/dto.md",
-    "Spring/URL.md",
-    "Spring/URI.md",
-    "Spring/Spring 네이밍 컨벤션.md",
-    "Spring/Spring MVC.md",
-    "Spring/Spring boot 빌드 및 실행.md",
     "Spring/스프링 강의",
     "Spring/스프링 강의/스프링 핵심 원리",
     "Unused/Attached files/Pasted image 20240821163133.png",
