@@ -97,7 +97,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Spring/Salting.md",
+                "file": "Spring/URL.md",
                 "mode": "source",
                 "source": false
               }
@@ -170,7 +170,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Spring/Salting.md",
+                "file": "Spring/URL.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -187,7 +187,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Spring/Salting.md",
+                "file": "Spring/URL.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -210,7 +210,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Spring/Salting.md"
+                "file": "Spring/URL.md"
               }
             }
           },
@@ -256,35 +256,35 @@
   },
   "active": "df76c00ccb1d4704",
   "lastOpenFiles": [
-    "Spring/BCrypt.md",
-    "Spring/Query String.md",
-    "Spring/Batch에 대해서.md",
-    "Spring/스프링 빈이 싱글톤으로 유지되는 이유, @Configuration.md",
-    "Spring/동시성 문제를 해결하는 방법.md",
-    "Spring/AOP.md",
-    "Spring/@Transaction(readOnly= true)는 왜 사용할까?.md",
-    "Obsidian/옵시디언 사용법.md",
-    "Spring/무제 파일.md",
-    "Spring/스프링 강의",
-    "Spring/조회 빈이 2개 이상일 때.md",
-    "Spring/스프링 강의/스프링 핵심 원리",
-    "Spring/Id에서 Long을 사용하는 이유.md",
-    "Spring/컴포넌트 스캔.md",
-    "Spring/Repository.md",
-    "Spring/Spring boot 빌드 및 실행.md",
+    "Spring/URI.md",
     "Spring/Spring 네이밍 컨벤션.md",
-    "Spring/URL.md",
-    "Spring/dto.md",
-    "Spring/of.md",
-    "알고리즘 (with JAVA)/풀이/오늘 푼 문제들.md",
-    "알고리즘 (with JAVA)/풀이/Programmers/맞은 문제/pro 직사각형 별찍기.md",
+    "Spring/Spring MVC.md",
+    "Spring/Spring boot 빌드 및 실행.md",
+    "Spring/Setter 주입.md",
+    "Spring/Service.md",
+    "Spring/Salting.md",
+    "Spring/ResponseEntity vs ApiResponse.md",
+    "Spring/Repository.md",
+    "Spring/Redis.md",
+    "Spring/OOP와 RDB의 패러다임의 불일치.md",
+    "Spring/JAR vs WAR.md",
+    "Spring/Intellij 단축키 정리.md",
+    "Spring/IOC.md",
+    "Spring/Domain.md",
+    "Spring/DataSource.md",
+    "Spring/스프링 강의/스프링 핵심 원리/DI.md",
+    "Spring/Controller.md",
+    "Spring/DI 컨테이너.md",
+    "Spring/CascadeType.md",
+    "Spring/BeanDefinition.md",
+    "Spring/Batch에 대해서.md",
+    "Spring/BCrypt.md",
+    "Spring/APIResponse.md",
+    "Spring/ApplicationContext.md",
+    "Spring/AOP.md",
+    "Spring/스프링 강의",
+    "Spring/스프링 강의/스프링 핵심 원리",
     "Unused/Attached files/Pasted image 20240821163133.png",
-    "Obsidian/마크다운 사용법.md",
-    "Obsidian/간단한 기호들.md",
-    "Obsidian/플러그인 리스트.md",
-    "프로젝트/SOPT Makers APP/친구 추천 api 로직 개선하기 - 2.md",
-    "Obsidian/이미지 사이즈 변경하는 방법.md",
-    "프로젝트/HMH/시도해볼 것.md",
     "Unused/Attached files/Pasted image 20240820231022.png",
     "Unused/Attached files/Pasted image 20240820223829.png",
     "Unused/Attached files/Pasted image 20240819203037.png",
