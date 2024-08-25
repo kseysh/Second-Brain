@@ -97,7 +97,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Spring/스프링 강의/스프링 핵심 원리/빈 스코프.md",
+                "file": "Spring/스프링 강의/모든 개발자를 위한 HTTP 웹 기본 지식/IP.md",
                 "mode": "source",
                 "source": false
               }
@@ -170,7 +170,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Spring/스프링 강의/스프링 핵심 원리/빈 스코프.md",
+                "file": "Spring/스프링 강의/모든 개발자를 위한 HTTP 웹 기본 지식/IP.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -187,7 +187,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Spring/스프링 강의/스프링 핵심 원리/빈 스코프.md",
+                "file": "Spring/스프링 강의/모든 개발자를 위한 HTTP 웹 기본 지식/IP.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -210,7 +210,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Spring/스프링 강의/스프링 핵심 원리/빈 스코프.md"
+                "file": "Spring/스프링 강의/모든 개발자를 위한 HTTP 웹 기본 지식/IP.md"
               }
             }
           },
@@ -254,8 +254,11 @@
       "obsidian-file-cleaner:Clean files": false
     }
   },
-  "active": "df76c00ccb1d4704",
+  "active": "77e0b92a051c28ac",
   "lastOpenFiles": [
+    "Spring/스프링 강의/모든 개발자를 위한 HTTP 웹 기본 지식",
+    "Spring/스프링 강의/스프링 핵심 원리/빈 스코프.md",
+    "Spring/스프링 강의/모든 개발자를 위한 HTTP 웹 기본 지식/IP.md",
     "Unused/Attached files/Pasted image 20240825012445.png",
     "Unused/Attached files/Pasted image 20240825012428.png",
     "Unused/Attached files/Pasted image 20240824234611.png",
@@ -264,7 +267,6 @@
     "Unused/Attached files/Pasted image 20240824224226.png",
     "Unused/Attached files/Pasted image 20240824224212.png",
     "Spring/스프링 강의/스프링 핵심 원리/빈 생명주기 콜백.md",
-    "Spring/스프링 강의/스프링 핵심 원리/빈 스코프.md",
     "Unused/Attached files/Pasted image 20240824151442.png",
     "Unused/Attached files/Pasted image 20240824150703.png",
     "Spring/스프링 강의/스프링 핵심 원리/수동으로 Bean을 등록하는 경우.md",
@@ -289,11 +291,9 @@
     "Spring/필드 주입.md",
     "Spring/횡단 관심사.md",
     "Spring/스프링 강의/스프링 핵심 원리/싱글톤.md",
-    "Spring/스프링 빈.md",
     "Spring/스프링 강의",
     "Spring/스프링 강의/스프링 핵심 원리",
     "Unused/Attached files/Pasted image 20240821163133.png",
-    "Unused/Attached files/Pasted image 20240820231022.png",
     "알고리즘 (with JAVA)/풀이/Programmers/맞은 문제/무제 폴더",
     "알고리즘 (with JAVA)/풀이/boj/틀린 문제/다시 풀 문제",
     "알고리즘 (with JAVA)/풀이/boj/틀린 문제/다시 보기만 할 문제",
