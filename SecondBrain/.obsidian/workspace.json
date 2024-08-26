@@ -109,7 +109,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Spring/스프링 강의/모든 개발자를 위한 HTTP 웹 기본 지식/HTTP Header - 협상.md",
+                "file": "Spring/스프링 강의/모든 개발자를 위한 HTTP 웹 기본 지식/HTTP Header - 일반 정보.md",
                 "mode": "source",
                 "source": false
               }
@@ -194,7 +194,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Spring/스프링 강의/모든 개발자를 위한 HTTP 웹 기본 지식/HTTP Header - 협상.md",
+                "file": "Spring/스프링 강의/모든 개발자를 위한 HTTP 웹 기본 지식/HTTP Header - 일반 정보.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -211,7 +211,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Spring/스프링 강의/모든 개발자를 위한 HTTP 웹 기본 지식/HTTP Header - 협상.md",
+                "file": "Spring/스프링 강의/모든 개발자를 위한 HTTP 웹 기본 지식/HTTP Header - 일반 정보.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -234,7 +234,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Spring/스프링 강의/모든 개발자를 위한 HTTP 웹 기본 지식/HTTP Header - 협상.md"
+                "file": "Spring/스프링 강의/모든 개발자를 위한 HTTP 웹 기본 지식/HTTP Header - 일반 정보.md"
               }
             }
           },
@@ -280,9 +280,16 @@
   },
   "active": "c1c7cbb4508b6795",
   "lastOpenFiles": [
+    "Unused/Attached files/Pasted image 20240827023017.png",
+    "Spring/스프링 강의/모든 개발자를 위한 HTTP 웹 기본 지식/HTTP Header - 전송 방식.md",
+    "Spring/스프링 강의/모든 개발자를 위한 HTTP 웹 기본 지식/HTTP Header - 일반 정보.md",
+    "Unused/Attached files/Pasted image 20240827022945.png",
+    "Unused/Attached files/Pasted image 20240827022910.png",
+    "Unused/Attached files/Pasted image 20240827022844.png",
+    "Unused/Attached files/Pasted image 20240827022822.png",
+    "Spring/스프링 강의/모든 개발자를 위한 HTTP 웹 기본 지식/HTTP Header - 협상.md",
     "Spring/스프링 강의/모든 개발자를 위한 HTTP 웹 기본 지식/HTTP Header.md",
     "Spring/스프링 강의/모든 개발자를 위한 HTTP 웹 기본 지식/HTTP Header - 표현.md",
-    "Spring/스프링 강의/모든 개발자를 위한 HTTP 웹 기본 지식/HTTP Header - 협상.md",
     "Spring/스프링 강의/모든 개발자를 위한 HTTP 웹 기본 지식/4xx Client Error.md",
     "Spring/스프링 강의/모든 개발자를 위한 HTTP 웹 기본 지식/3XX Redirection.md",
     "Unused/Attached files/Pasted image 20240827015320.png",
@@ -296,15 +303,11 @@
     "Spring/스프링 강의/모든 개발자를 위한 HTTP 웹 기본 지식/웹 브라우저 요청 흐름.md",
     "Unused/Attached files/Pasted image 20240826223342.png",
     "Spring/스프링 강의/모든 개발자를 위한 HTTP 웹 기본 지식/Port.md",
-    "Unused/Attached files/Pasted image 20240826011602.png",
     "Spring/스프링 강의/모든 개발자를 위한 HTTP 웹 기본 지식/IP.md",
     "Spring/스프링 강의/모든 개발자를 위한 HTTP 웹 기본 지식/TCP.md",
     "Spring/스프링 강의/모든 개발자를 위한 HTTP 웹 기본 지식/인터넷 프로토콜 스택의 4계층.md",
     "Spring/스프링 강의/모든 개발자를 위한 HTTP 웹 기본 지식/UDP.md",
-    "Unused/Attached files/Pasted image 20240826010122.png",
-    "Unused/Attached files/Pasted image 20240826010043.png",
     "Spring/스프링 강의/모든 개발자를 위한 HTTP 웹 기본 지식/TCP 3 way handshake.md",
-    "Unused/Attached files/Pasted image 20240826005554.png",
     "Spring/스프링 강의/모든 개발자를 위한 HTTP 웹 기본 지식",
     "Spring/스프링 강의/스프링 핵심 원리/빈 스코프.md",
     "Spring/스프링 강의/스프링 핵심 원리/빈 생명주기 콜백.md",
@@ -314,9 +317,6 @@
     "Spring/Spring 네이밍 컨벤션.md",
     "Spring/URI.md",
     "Spring/URL.md",
-    "Spring/dto.md",
-    "Spring/spring에서 Test코드 작성시의 주의사항.md",
-    "Spring/스프링 강의/스프링 핵심 원리/조회 빈이 2개 이상일 때.md",
     "Spring/스프링 강의",
     "Spring/스프링 강의/스프링 핵심 원리",
     "알고리즘 (with JAVA)/풀이/Programmers/맞은 문제/무제 폴더",
