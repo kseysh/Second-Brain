@@ -109,7 +109,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Spring/스프링 강의/모든 개발자를 위한 HTTP 웹 기본 지식/3XX Redirection.md",
+                "file": "Spring/스프링 강의/모든 개발자를 위한 HTTP 웹 기본 지식/4xx Client Error.md",
                 "mode": "source",
                 "source": false
               }
@@ -194,7 +194,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Spring/스프링 강의/모든 개발자를 위한 HTTP 웹 기본 지식/3XX Redirection.md",
+                "file": "Spring/스프링 강의/모든 개발자를 위한 HTTP 웹 기본 지식/4xx Client Error.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -211,7 +211,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Spring/스프링 강의/모든 개발자를 위한 HTTP 웹 기본 지식/3XX Redirection.md",
+                "file": "Spring/스프링 강의/모든 개발자를 위한 HTTP 웹 기본 지식/4xx Client Error.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -234,7 +234,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Spring/스프링 강의/모든 개발자를 위한 HTTP 웹 기본 지식/3XX Redirection.md"
+                "file": "Spring/스프링 강의/모든 개발자를 위한 HTTP 웹 기본 지식/4xx Client Error.md"
               }
             }
           },
@@ -280,9 +280,12 @@
   },
   "active": "c1c7cbb4508b6795",
   "lastOpenFiles": [
+    "Spring/스프링 강의/모든 개발자를 위한 HTTP 웹 기본 지식/3XX Redirection.md",
+    "Spring/스프링 강의/모든 개발자를 위한 HTTP 웹 기본 지식/4xx Client Error.md",
+    "Unused/Attached files/Pasted image 20240827015320.png",
+    "Unused/Attached files/Pasted image 20240827015249.png",
     "Unused/Attached files/Pasted image 20240827014411.png",
     "Spring/스프링 강의/모든 개발자를 위한 HTTP 웹 기본 지식/HTTP method.md",
-    "Spring/스프링 강의/모든 개발자를 위한 HTTP 웹 기본 지식/3XX Redirection.md",
     "Spring/스프링 강의/모든 개발자를 위한 HTTP 웹 기본 지식/HTTP 지속 연결.md",
     "Unused/Attached files/Pasted image 20240826233451.png",
     "Unused/Attached files/Pasted image 20240826233431.png",
@@ -299,9 +302,6 @@
     "Unused/Attached files/Pasted image 20240826010043.png",
     "Spring/스프링 강의/모든 개발자를 위한 HTTP 웹 기본 지식/TCP 3 way handshake.md",
     "Unused/Attached files/Pasted image 20240826005554.png",
-    "Unused/Attached files/Pasted image 20240826005155.png",
-    "Unused/Attached files/Pasted image 20240826005052.png",
-    "Unused/Attached files/Pasted image 20240826004909.png",
     "Spring/스프링 강의/모든 개발자를 위한 HTTP 웹 기본 지식",
     "Spring/스프링 강의/스프링 핵심 원리/빈 스코프.md",
     "Spring/스프링 강의/스프링 핵심 원리/빈 생명주기 콜백.md",
