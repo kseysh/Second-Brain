@@ -109,7 +109,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Spring/스프링 강의/모든 개발자를 위한 HTTP 웹 기본 지식/웹 브라우저 요청 흐름.md",
+                "file": "Spring/스프링 강의/모든 개발자를 위한 HTTP 웹 기본 지식/HTTP 지속 연결.md",
                 "mode": "source",
                 "source": false
               }
@@ -194,7 +194,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Spring/스프링 강의/모든 개발자를 위한 HTTP 웹 기본 지식/웹 브라우저 요청 흐름.md",
+                "file": "Spring/스프링 강의/모든 개발자를 위한 HTTP 웹 기본 지식/HTTP 지속 연결.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -211,7 +211,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Spring/스프링 강의/모든 개발자를 위한 HTTP 웹 기본 지식/웹 브라우저 요청 흐름.md",
+                "file": "Spring/스프링 강의/모든 개발자를 위한 HTTP 웹 기본 지식/HTTP 지속 연결.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -234,7 +234,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Spring/스프링 강의/모든 개발자를 위한 HTTP 웹 기본 지식/웹 브라우저 요청 흐름.md"
+                "file": "Spring/스프링 강의/모든 개발자를 위한 HTTP 웹 기본 지식/HTTP 지속 연결.md"
               }
             }
           },
@@ -280,9 +280,13 @@
   },
   "active": "c1c7cbb4508b6795",
   "lastOpenFiles": [
+    "Unused/Attached files/Pasted image 20240826233451.png",
+    "Unused/Attached files/Pasted image 20240826233431.png",
+    "Spring/스프링 강의/모든 개발자를 위한 HTTP 웹 기본 지식/비 연결성.md",
+    "Spring/스프링 강의/모든 개발자를 위한 HTTP 웹 기본 지식/HTTP 지속 연결.md",
+    "Spring/스프링 강의/모든 개발자를 위한 HTTP 웹 기본 지식/웹 브라우저 요청 흐름.md",
     "Unused/Attached files/Pasted image 20240826223342.png",
     "Spring/스프링 강의/모든 개발자를 위한 HTTP 웹 기본 지식/Port.md",
-    "Spring/스프링 강의/모든 개발자를 위한 HTTP 웹 기본 지식/웹 브라우저 요청 흐름.md",
     "Unused/Attached files/Pasted image 20240826011602.png",
     "Spring/스프링 강의/모든 개발자를 위한 HTTP 웹 기본 지식/IP.md",
     "Spring/스프링 강의/모든 개발자를 위한 HTTP 웹 기본 지식/TCP.md",
@@ -298,8 +302,6 @@
     "Spring/스프링 강의/모든 개발자를 위한 HTTP 웹 기본 지식",
     "Spring/스프링 강의/스프링 핵심 원리/빈 스코프.md",
     "Unused/Attached files/Pasted image 20240825012445.png",
-    "Unused/Attached files/Pasted image 20240825012428.png",
-    "Unused/Attached files/Pasted image 20240824234611.png",
     "Spring/스프링 강의/스프링 핵심 원리/빈 생명주기 콜백.md",
     "Spring/스프링 강의/스프링 핵심 원리/수동으로 Bean을 등록하는 경우.md",
     "Spring/Service.md",
@@ -315,8 +317,6 @@
     "Spring/스프링 컨테이너.md",
     "Spring/스프링을 사용하는 이유.md",
     "Spring/역할과 구현의 분리.md",
-    "Spring/조인 전략.md",
-    "Spring/전체 조회 페이징 처리.md",
     "Spring/스프링 강의",
     "Spring/스프링 강의/스프링 핵심 원리",
     "알고리즘 (with JAVA)/풀이/Programmers/맞은 문제/무제 폴더",
