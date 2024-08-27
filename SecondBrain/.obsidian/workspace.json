@@ -109,7 +109,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "알고리즘 (with JAVA)/풀이/boj/맞은 문제/boj 15605.md",
+                "file": "알고리즘 (with JAVA)/메서드 정리/입출력 관련 메서드.md",
                 "mode": "source",
                 "source": false
               }
@@ -194,7 +194,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "알고리즘 (with JAVA)/풀이/boj/맞은 문제/boj 15605.md",
+                "file": "알고리즘 (with JAVA)/메서드 정리/입출력 관련 메서드.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -211,7 +211,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "알고리즘 (with JAVA)/풀이/boj/맞은 문제/boj 15605.md",
+                "file": "알고리즘 (with JAVA)/메서드 정리/입출력 관련 메서드.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -234,7 +234,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "알고리즘 (with JAVA)/풀이/boj/맞은 문제/boj 15605.md"
+                "file": "알고리즘 (with JAVA)/메서드 정리/입출력 관련 메서드.md"
               }
             }
           },
@@ -280,8 +280,8 @@
   },
   "active": "c1c7cbb4508b6795",
   "lastOpenFiles": [
+    "알고리즘 (with JAVA)/풀이/boj/맞은 문제/boj 15650.md",
     "알고리즘 (with JAVA)/풀이/오늘 푼 문제들.md",
-    "알고리즘 (with JAVA)/풀이/boj/맞은 문제/boj 15605.md",
     "Unused/Attached files/Pasted image 20240827223639.png",
     "알고리즘 (with JAVA)/풀이/boj/틀린 문제/다시 풀 문제/boj 15649.md",
     "Spring/스프링 강의/모든 개발자를 위한 HTTP 웹 기본 지식/HTTP Header/캐시 무효화.md",
