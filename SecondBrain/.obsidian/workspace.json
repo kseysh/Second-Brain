@@ -4,131 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "4aef4e79152bb980",
+        "id": "ac40662c27c4111f",
         "type": "tabs",
         "children": [
           {
-            "id": "66a06497790cf251",
+            "id": "1aeb56864cc26567",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "독서록/개발 관련 도서/테스트주도개발시작하기/테스트 코드와 유지보수.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "a449ee016018e4cf",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Develop/Parameter와 Argument의 차이.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "8b311301fa35164f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "알고리즘 (with JAVA)/풀이/Programmers/틀린 문제/다시 풀 문제/pro 가장 가까운 같은 글자 +.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "f5076a7048f6ddec",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "알고리즘 (with JAVA)/풀이/Programmers/맞은 문제/pro 정수 내림차순으로 배치하기.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "f1144a9a1ebc96f3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "알고리즘 (with JAVA)/풀이/Programmers/틀린 문제/다시 풀 문제/pro 가장 가까운 같은 글자 +.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "8d63dbd117090ff5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Spring/JPA/@Transaction(readOnly= true)는 왜 사용할까?.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "d12cb07ae85d9e93",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "알고리즘 (with JAVA)/풀이/boj/맞은 문제/boj 9466.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "df76c00ccb1d4704",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Spring/스프링 강의/모든 개발자를 위한 HTTP 웹 기본 지식/TCP.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "c1c7cbb4508b6795",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "알고리즘 (with JAVA)/풀이/boj/틀린 문제/다시 풀 문제/boj 15649.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "933bc433b601a6fa",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Spring/스프링 강의/모든 개발자를 위한 HTTP 웹 기본 지식/TCP 3 way handshake.md",
+                "file": "알고리즘 (with JAVA)/풀이/boj/boj 1167 아직 안 품.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 8
+        ]
       }
     ],
     "direction": "vertical"
@@ -174,8 +65,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -195,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "알고리즘 (with JAVA)/풀이/boj/틀린 문제/다시 풀 문제/boj 15649.md",
+                "file": "알고리즘 (with JAVA)/풀이/boj/boj 1167 아직 안 품.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -212,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "알고리즘 (with JAVA)/풀이/boj/틀린 문제/다시 풀 문제/boj 15649.md",
+                "file": "알고리즘 (with JAVA)/풀이/boj/boj 1167 아직 안 품.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -235,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "알고리즘 (with JAVA)/풀이/boj/틀린 문제/다시 풀 문제/boj 15649.md"
+                "file": "알고리즘 (with JAVA)/풀이/boj/boj 1167 아직 안 품.md"
               }
             }
           },
@@ -279,8 +169,17 @@
       "obsidian-file-cleaner:Clean files": false
     }
   },
-  "active": "c1c7cbb4508b6795",
+  "active": "1aeb56864cc26567",
   "lastOpenFiles": [
+    "Spring/스프링 강의/모든 개발자를 위한 HTTP 웹 기본 지식/TCP 3 way handshake.md",
+    "독서록/개발 관련 도서/테스트주도개발시작하기/테스트 코드와 유지보수.md",
+    "Develop/Parameter와 Argument의 차이.md",
+    "알고리즘 (with JAVA)/풀이/Programmers/틀린 문제/다시 풀 문제/pro 가장 가까운 같은 글자 +.md",
+    "알고리즘 (with JAVA)/풀이/Programmers/맞은 문제/pro 정수 내림차순으로 배치하기.md",
+    "Spring/JPA/@Transaction(readOnly= true)는 왜 사용할까?.md",
+    "알고리즘 (with JAVA)/풀이/boj/맞은 문제/boj 9466.md",
+    "Spring/스프링 강의/모든 개발자를 위한 HTTP 웹 기본 지식/TCP.md",
+    "알고리즘 (with JAVA)/풀이/boj/틀린 문제/다시 풀 문제/boj 15649.md",
     "알고리즘 (with JAVA)/풀이/오늘 푼 문제들.md",
     "Unused/Attached files/Pasted image 20240828014939.png",
     "알고리즘 (with JAVA)/풀이/boj/틀린 문제/다시 풀 문제/boj 1182.md",
@@ -292,7 +191,6 @@
     "알고리즘 (with JAVA)/메서드 정리/입출력 관련 메서드.md",
     "알고리즘 (with JAVA)/풀이/boj/맞은 문제/boj 15650.md",
     "Unused/Attached files/Pasted image 20240827223639.png",
-    "알고리즘 (with JAVA)/풀이/boj/틀린 문제/다시 풀 문제/boj 15649.md",
     "Spring/스프링 강의/모든 개발자를 위한 HTTP 웹 기본 지식/HTTP Header/캐시 무효화.md",
     "Spring/스프링 강의/모든 개발자를 위한 HTTP 웹 기본 지식/프록시 캐시.md",
     "Unused/Attached files/Pasted image 20240827155949.png",
@@ -310,13 +208,6 @@
     "Spring/스프링 강의/모든 개발자를 위한 HTTP 웹 기본 지식/HTTP Header/HTTP Header - 일반 정보.md",
     "Spring/스프링 강의/모든 개발자를 위한 HTTP 웹 기본 지식/HTTP Header/HTTP Header - 전송 방식.md",
     "Spring/스프링 강의/모든 개발자를 위한 HTTP 웹 기본 지식/HTTP Header/HTTP Header - 협상.md",
-    "Spring/스프링 강의/모든 개발자를 위한 HTTP 웹 기본 지식/HTTP Header/HTTP Header - 표현.md",
-    "Spring/스프링 강의/모든 개발자를 위한 HTTP 웹 기본 지식/4xx Client Error.md",
-    "Spring/스프링 강의/모든 개발자를 위한 HTTP 웹 기본 지식/3XX Redirection.md",
-    "Spring/스프링 강의/모든 개발자를 위한 HTTP 웹 기본 지식/HTTP method.md",
-    "Spring/스프링 강의/모든 개발자를 위한 HTTP 웹 기본 지식/HTTP 지속 연결.md",
-    "Spring/스프링 강의/모든 개발자를 위한 HTTP 웹 기본 지식/비 연결성.md",
-    "Spring/스프링 강의/모든 개발자를 위한 HTTP 웹 기본 지식/웹 브라우저 요청 흐름.md",
     "Spring/스프링 강의/모든 개발자를 위한 HTTP 웹 기본 지식",
     "Spring/스프링 강의",
     "Spring/스프링 강의/스프링 핵심 원리",
