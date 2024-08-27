@@ -109,7 +109,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Spring/스프링 강의/모든 개발자를 위한 HTTP 웹 기본 지식/HTTP Header/캐시 제어 헤더.md",
+                "file": "Spring/스프링 강의/모든 개발자를 위한 HTTP 웹 기본 지식/HTTP Header/캐시 무효화.md",
                 "mode": "source",
                 "source": false
               }
@@ -194,7 +194,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Spring/스프링 강의/모든 개발자를 위한 HTTP 웹 기본 지식/HTTP Header/캐시 제어 헤더.md",
+                "file": "Spring/스프링 강의/모든 개발자를 위한 HTTP 웹 기본 지식/HTTP Header/캐시 무효화.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -211,7 +211,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Spring/스프링 강의/모든 개발자를 위한 HTTP 웹 기본 지식/HTTP Header/캐시 제어 헤더.md",
+                "file": "Spring/스프링 강의/모든 개발자를 위한 HTTP 웹 기본 지식/HTTP Header/캐시 무효화.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -234,7 +234,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Spring/스프링 강의/모든 개발자를 위한 HTTP 웹 기본 지식/HTTP Header/캐시 제어 헤더.md"
+                "file": "Spring/스프링 강의/모든 개발자를 위한 HTTP 웹 기본 지식/HTTP Header/캐시 무효화.md"
               }
             }
           },
@@ -280,6 +280,9 @@
   },
   "active": "c1c7cbb4508b6795",
   "lastOpenFiles": [
+    "Spring/스프링 강의/모든 개발자를 위한 HTTP 웹 기본 지식/프록시 캐시.md",
+    "Spring/스프링 강의/모든 개발자를 위한 HTTP 웹 기본 지식/HTTP Header/캐시 무효화.md",
+    "Unused/Attached files/Pasted image 20240827155949.png",
     "Spring/스프링 강의/모든 개발자를 위한 HTTP 웹 기본 지식/검증 헤더와 조건부 요청.md",
     "Spring/스프링 강의/모든 개발자를 위한 HTTP 웹 기본 지식/HTTP Header/캐시 제어 헤더.md",
     "Unused/Attached files/Pasted image 20240827152313.png",
@@ -298,7 +301,6 @@
     "Spring/스프링 강의/모든 개발자를 위한 HTTP 웹 기본 지식/HTTP Header/HTTP Header - 전송 방식.md",
     "Unused/Attached files/Pasted image 20240827022945.png",
     "Unused/Attached files/Pasted image 20240827022910.png",
-    "Unused/Attached files/Pasted image 20240827022844.png",
     "Spring/스프링 강의/모든 개발자를 위한 HTTP 웹 기본 지식/HTTP Header/HTTP Header - 협상.md",
     "Spring/스프링 강의/모든 개발자를 위한 HTTP 웹 기본 지식/HTTP Header/HTTP Header - 표현.md",
     "Spring/스프링 강의/모든 개발자를 위한 HTTP 웹 기본 지식/4xx Client Error.md",
@@ -316,8 +318,6 @@
     "Spring/스프링 강의/모든 개발자를 위한 HTTP 웹 기본 지식",
     "Spring/스프링 강의/스프링 핵심 원리/빈 스코프.md",
     "Spring/스프링 강의/스프링 핵심 원리/빈 생명주기 콜백.md",
-    "Spring/스프링 강의/스프링 핵심 원리/수동으로 Bean을 등록하는 경우.md",
-    "Spring/Service.md",
     "Spring/스프링 강의",
     "Spring/스프링 강의/스프링 핵심 원리",
     "알고리즘 (with JAVA)/풀이/Programmers/맞은 문제/무제 폴더",
