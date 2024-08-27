@@ -109,7 +109,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Spring/스프링 강의/모든 개발자를 위한 HTTP 웹 기본 지식/검증 헤더와 조건부 요청.md",
+                "file": "Spring/스프링 강의/모든 개발자를 위한 HTTP 웹 기본 지식/HTTP Header/캐시 제어 헤더.md",
                 "mode": "source",
                 "source": false
               }
@@ -194,7 +194,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Spring/스프링 강의/모든 개발자를 위한 HTTP 웹 기본 지식/검증 헤더와 조건부 요청.md",
+                "file": "Spring/스프링 강의/모든 개발자를 위한 HTTP 웹 기본 지식/HTTP Header/캐시 제어 헤더.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -211,7 +211,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Spring/스프링 강의/모든 개발자를 위한 HTTP 웹 기본 지식/검증 헤더와 조건부 요청.md",
+                "file": "Spring/스프링 강의/모든 개발자를 위한 HTTP 웹 기본 지식/HTTP Header/캐시 제어 헤더.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -234,7 +234,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Spring/스프링 강의/모든 개발자를 위한 HTTP 웹 기본 지식/검증 헤더와 조건부 요청.md"
+                "file": "Spring/스프링 강의/모든 개발자를 위한 HTTP 웹 기본 지식/HTTP Header/캐시 제어 헤더.md"
               }
             }
           },
@@ -280,6 +280,8 @@
   },
   "active": "c1c7cbb4508b6795",
   "lastOpenFiles": [
+    "Spring/스프링 강의/모든 개발자를 위한 HTTP 웹 기본 지식/검증 헤더와 조건부 요청.md",
+    "Spring/스프링 강의/모든 개발자를 위한 HTTP 웹 기본 지식/HTTP Header/캐시 제어 헤더.md",
     "Unused/Attached files/Pasted image 20240827152313.png",
     "Unused/Attached files/Pasted image 20240827152241.png",
     "Unused/Attached files/Pasted image 20240827152215.png",
@@ -287,7 +289,6 @@
     "Unused/Attached files/Pasted image 20240827152144.png",
     "Unused/Attached files/Pasted image 20240827151959.png",
     "Spring/스프링 강의/모든 개발자를 위한 HTTP 웹 기본 지식/HTTP Header/HTTP Header - 쿠키.md",
-    "Spring/스프링 강의/모든 개발자를 위한 HTTP 웹 기본 지식/검증 헤더와 조건부 요청.md",
     "Spring/스프링 강의/모든 개발자를 위한 HTTP 웹 기본 지식/HTTP Header/HTTP Header - 인증.md",
     "Spring/스프링 강의/모든 개발자를 위한 HTTP 웹 기본 지식/HTTP Header/HTTP Header.md",
     "Spring/스프링 강의/모든 개발자를 위한 HTTP 웹 기본 지식/HTTP Header",
@@ -298,7 +299,6 @@
     "Unused/Attached files/Pasted image 20240827022945.png",
     "Unused/Attached files/Pasted image 20240827022910.png",
     "Unused/Attached files/Pasted image 20240827022844.png",
-    "Unused/Attached files/Pasted image 20240827022822.png",
     "Spring/스프링 강의/모든 개발자를 위한 HTTP 웹 기본 지식/HTTP Header/HTTP Header - 협상.md",
     "Spring/스프링 강의/모든 개발자를 위한 HTTP 웹 기본 지식/HTTP Header/HTTP Header - 표현.md",
     "Spring/스프링 강의/모든 개발자를 위한 HTTP 웹 기본 지식/4xx Client Error.md",
