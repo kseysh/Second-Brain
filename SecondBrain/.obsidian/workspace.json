@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "알고리즘 (with JAVA)/풀이/오늘 푼 문제들.md",
+                "file": "알고리즘 (with JAVA)/풀이/boj/틀린 문제/다시 풀 문제/boj 15683.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "알고리즘 (with JAVA)/풀이/오늘 푼 문제들.md",
+                "file": "알고리즘 (with JAVA)/풀이/boj/틀린 문제/다시 풀 문제/boj 15683.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "알고리즘 (with JAVA)/풀이/오늘 푼 문제들.md",
+                "file": "알고리즘 (with JAVA)/풀이/boj/틀린 문제/다시 풀 문제/boj 15683.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "알고리즘 (with JAVA)/풀이/오늘 푼 문제들.md"
+                "file": "알고리즘 (with JAVA)/풀이/boj/틀린 문제/다시 풀 문제/boj 15683.md"
               }
             }
           },
@@ -171,9 +171,10 @@
   },
   "active": "1aeb56864cc26567",
   "lastOpenFiles": [
+    "알고리즘 (with JAVA)/풀이/오늘 푼 문제들.md",
+    "알고리즘 (with JAVA)/풀이/boj/틀린 문제/다시 풀 문제/boj 15683.md",
     "Unused/Attached files/Pasted image 20240828184254.png",
     "알고리즘 (with JAVA)/풀이/boj/맞은 문제/boj 1759.md",
-    "알고리즘 (with JAVA)/풀이/오늘 푼 문제들.md",
     "Unused/Attached files/Pasted image 20240828162216.png",
     "알고리즘 (with JAVA)/풀이/boj/틀린 문제/다시 풀 문제/boj 15686.md",
     "알고리즘 (with JAVA)/풀이/boj/틀린 문제/다시 풀 문제/boj 14889.md",
@@ -206,7 +207,6 @@
     "Spring/스프링 강의/모든 개발자를 위한 HTTP 웹 기본 지식/프록시 캐시.md",
     "Unused/Attached files/Pasted image 20240827155949.png",
     "Spring/스프링 강의/모든 개발자를 위한 HTTP 웹 기본 지식/검증 헤더와 조건부 요청.md",
-    "Unused/Attached files/Pasted image 20240827152313.png",
     "Spring/스프링 강의/모든 개발자를 위한 HTTP 웹 기본 지식/HTTP Header",
     "Spring/스프링 강의/모든 개발자를 위한 HTTP 웹 기본 지식",
     "Spring/스프링 강의",
