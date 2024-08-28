@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "알고리즘 (with JAVA)/풀이/boj/틀린 문제/다시 풀 문제/boj 14889.md",
+                "file": "알고리즘 (with JAVA)/풀이/오늘 푼 문제들.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "알고리즘 (with JAVA)/풀이/boj/틀린 문제/다시 풀 문제/boj 14889.md",
+                "file": "알고리즘 (with JAVA)/풀이/오늘 푼 문제들.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "알고리즘 (with JAVA)/풀이/boj/틀린 문제/다시 풀 문제/boj 14889.md",
+                "file": "알고리즘 (with JAVA)/풀이/오늘 푼 문제들.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "알고리즘 (with JAVA)/풀이/boj/틀린 문제/다시 풀 문제/boj 14889.md"
+                "file": "알고리즘 (with JAVA)/풀이/오늘 푼 문제들.md"
               }
             }
           },
@@ -171,8 +171,10 @@
   },
   "active": "1aeb56864cc26567",
   "lastOpenFiles": [
-    "알고리즘 (with JAVA)/풀이/Programmers/맞은 문제/pro x만큼 간격이 있는 n개의 숫자.md",
+    "Unused/Attached files/Pasted image 20240828162216.png",
+    "알고리즘 (with JAVA)/풀이/boj/틀린 문제/다시 풀 문제/boj 15686.md",
     "알고리즘 (with JAVA)/풀이/boj/틀린 문제/다시 풀 문제/boj 14889.md",
+    "알고리즘 (with JAVA)/풀이/Programmers/맞은 문제/pro x만큼 간격이 있는 n개의 숫자.md",
     "알고리즘 (with JAVA)/풀이/boj/틀린 문제/다시 보기만 할 문제/boj 10989 +.md",
     "알고리즘 (with JAVA)/풀이/boj/틀린 문제/다시 보기만 할 문제/boj 15651.md",
     "알고리즘 (with JAVA)/풀이/boj/맞은 문제/boj 14888.md",
@@ -205,8 +207,6 @@
     "Spring/스프링 강의/모든 개발자를 위한 HTTP 웹 기본 지식/HTTP Header/캐시 제어 헤더.md",
     "Unused/Attached files/Pasted image 20240827152313.png",
     "Unused/Attached files/Pasted image 20240827152241.png",
-    "Spring/스프링 강의/모든 개발자를 위한 HTTP 웹 기본 지식/HTTP Header/HTTP Header - 쿠키.md",
-    "Spring/스프링 강의/모든 개발자를 위한 HTTP 웹 기본 지식/HTTP Header/HTTP Header - 인증.md",
     "Spring/스프링 강의/모든 개발자를 위한 HTTP 웹 기본 지식/HTTP Header",
     "Spring/스프링 강의/모든 개발자를 위한 HTTP 웹 기본 지식",
     "Spring/스프링 강의",
