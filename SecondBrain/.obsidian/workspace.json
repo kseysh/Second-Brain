@@ -69,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 237.50260543823242
+    "width": 237.50260543823242,
+    "collapsed": true
   },
   "right": {
     "id": "feabab388e8825fc",
@@ -169,7 +170,7 @@
       "obsidian-file-cleaner:Clean files": false
     }
   },
-  "active": "77e0b92a051c28ac",
+  "active": "1aeb56864cc26567",
   "lastOpenFiles": [
     "알고리즘 (with JAVA)/풀이/boj/틀린 문제/다시 보기만 할 문제/boj 1463.md",
     "알고리즘 (with JAVA)/풀이/boj/틀린 문제/다시 보기만 할 문제/boj 9095.md",
