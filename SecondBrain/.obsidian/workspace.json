@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "알고리즘 (with JAVA)/풀이/boj/틀린 문제/다시 풀 문제/boj 2193.md",
+                "file": "알고리즘 (with JAVA)/풀이/boj/맞은 문제/boj 2167.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 237.50260543823242
+    "width": 237.50260543823242,
+    "collapsed": true
   },
   "right": {
     "id": "feabab388e8825fc",
@@ -85,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "알고리즘 (with JAVA)/풀이/boj/틀린 문제/다시 풀 문제/boj 2193.md",
+                "file": "알고리즘 (with JAVA)/풀이/boj/맞은 문제/boj 2167.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "알고리즘 (with JAVA)/풀이/boj/틀린 문제/다시 풀 문제/boj 2193.md",
+                "file": "알고리즘 (with JAVA)/풀이/boj/맞은 문제/boj 2167.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "알고리즘 (with JAVA)/풀이/boj/틀린 문제/다시 풀 문제/boj 2193.md"
+                "file": "알고리즘 (with JAVA)/풀이/boj/맞은 문제/boj 2167.md"
               }
             }
           },
@@ -171,8 +172,9 @@
   },
   "active": "1aeb56864cc26567",
   "lastOpenFiles": [
-    "알고리즘 (with JAVA)/풀이/boj/틀린 문제/다시 풀 문제/boj 12852.md",
     "알고리즘 (with JAVA)/풀이/boj/틀린 문제/다시 풀 문제/boj 2193.md",
+    "알고리즘 (with JAVA)/풀이/boj/맞은 문제/boj 2167.md",
+    "알고리즘 (with JAVA)/풀이/boj/틀린 문제/다시 풀 문제/boj 12852.md",
     "알고리즘 (with JAVA)/풀이/boj/맞은 문제/boj 11726.md",
     "알고리즘 (with JAVA)/풀이/boj/맞은 문제/boj 1149.md",
     "알고리즘 (with JAVA)/풀이/boj/틀린 문제/다시 풀 문제/boj 2579.md",
@@ -200,7 +202,6 @@
     "Develop/Parameter와 Argument의 차이.md",
     "알고리즘 (with JAVA)/풀이/Programmers/틀린 문제/다시 풀 문제/pro 가장 가까운 같은 글자 +.md",
     "알고리즘 (with JAVA)/풀이/Programmers/맞은 문제/pro 정수 내림차순으로 배치하기.md",
-    "Spring/JPA/@Transaction(readOnly= true)는 왜 사용할까?.md",
     "Unused/Attached files/Pasted image 20240828014939.png",
     "Unused/Attached files/Pasted image 20240828014830.png",
     "Unused/Attached files/Pasted image 20240828003610.png",
