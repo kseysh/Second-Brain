@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "알고리즘 (with JAVA)/풀이/boj/틀린 문제/다시 풀 문제/boj 2776.md",
+                "file": "알고리즘 (with JAVA)/풀이/boj/맞은 문제/boj 1018.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "알고리즘 (with JAVA)/풀이/boj/틀린 문제/다시 풀 문제/boj 2776.md",
+                "file": "알고리즘 (with JAVA)/풀이/boj/맞은 문제/boj 1018.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "알고리즘 (with JAVA)/풀이/boj/틀린 문제/다시 풀 문제/boj 2776.md",
+                "file": "알고리즘 (with JAVA)/풀이/boj/맞은 문제/boj 1018.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "알고리즘 (with JAVA)/풀이/boj/틀린 문제/다시 풀 문제/boj 2776.md"
+                "file": "알고리즘 (with JAVA)/풀이/boj/맞은 문제/boj 1018.md"
               }
             }
           },
@@ -172,8 +172,9 @@
   },
   "active": "1aeb56864cc26567",
   "lastOpenFiles": [
-    "알고리즘 (with JAVA)/풀 문제들/알고리즘 공부 순서.md",
     "알고리즘 (with JAVA)/풀이/boj/틀린 문제/다시 풀 문제/boj 2776.md",
+    "알고리즘 (with JAVA)/풀이/boj/맞은 문제/boj 1018.md",
+    "알고리즘 (with JAVA)/풀 문제들/알고리즘 공부 순서.md",
     "알고리즘 (with JAVA)/이론/알고리즘 종류/이분 그래프.md",
     "알고리즘 (with JAVA)/풀이/boj/맞은 문제/boj 2167.md",
     "알고리즘 (with JAVA)/풀이/boj/틀린 문제/다시 풀 문제/boj 2193.md",
@@ -201,7 +202,6 @@
     "Unused/Attached files/Pasted image 20240828021736.png",
     "알고리즘 (with JAVA)/풀이/boj/boj 1167 아직 안 품.md",
     "Spring/스프링 강의/모든 개발자를 위한 HTTP 웹 기본 지식/TCP 3 way handshake.md",
-    "독서록/개발 관련 도서/테스트주도개발시작하기/테스트 코드와 유지보수.md",
     "Unused/Attached files/Pasted image 20240828014939.png",
     "Unused/Attached files/Pasted image 20240828014830.png",
     "Unused/Attached files/Pasted image 20240828003610.png",
