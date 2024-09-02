@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "알고리즘 (with JAVA)/풀이/boj/맞은 문제/boj 1018.md",
+                "file": "알고리즘 (with JAVA)/메서드 정리/입출력 관련 메서드.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "알고리즘 (with JAVA)/풀이/boj/맞은 문제/boj 1018.md",
+                "file": "알고리즘 (with JAVA)/메서드 정리/입출력 관련 메서드.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "알고리즘 (with JAVA)/풀이/boj/맞은 문제/boj 1018.md",
+                "file": "알고리즘 (with JAVA)/메서드 정리/입출력 관련 메서드.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "알고리즘 (with JAVA)/풀이/boj/맞은 문제/boj 1018.md"
+                "file": "알고리즘 (with JAVA)/메서드 정리/입출력 관련 메서드.md"
               }
             }
           },
@@ -172,8 +172,8 @@
   },
   "active": "1aeb56864cc26567",
   "lastOpenFiles": [
-    "알고리즘 (with JAVA)/풀이/boj/틀린 문제/다시 풀 문제/boj 2776.md",
     "알고리즘 (with JAVA)/풀이/boj/맞은 문제/boj 1018.md",
+    "알고리즘 (with JAVA)/풀이/boj/틀린 문제/다시 풀 문제/boj 2776.md",
     "알고리즘 (with JAVA)/풀 문제들/알고리즘 공부 순서.md",
     "알고리즘 (with JAVA)/이론/알고리즘 종류/이분 그래프.md",
     "알고리즘 (with JAVA)/풀이/boj/맞은 문제/boj 2167.md",
