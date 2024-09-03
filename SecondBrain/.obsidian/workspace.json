@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "알고리즘 (with JAVA)/메서드 정리/String 관련 메서드.md",
+                "file": "알고리즘 (with JAVA)/풀이/Programmers/틀린 문제/다시 풀 문제/시저 암호.md",
                 "mode": "source",
                 "source": false
               }
@@ -65,8 +65,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -86,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "알고리즘 (with JAVA)/메서드 정리/String 관련 메서드.md",
+                "file": "알고리즘 (with JAVA)/풀이/Programmers/틀린 문제/다시 풀 문제/시저 암호.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "알고리즘 (with JAVA)/메서드 정리/String 관련 메서드.md",
+                "file": "알고리즘 (with JAVA)/풀이/Programmers/틀린 문제/다시 풀 문제/시저 암호.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "알고리즘 (with JAVA)/메서드 정리/String 관련 메서드.md"
+                "file": "알고리즘 (with JAVA)/풀이/Programmers/틀린 문제/다시 풀 문제/시저 암호.md"
               }
             }
           },
@@ -170,8 +169,10 @@
       "obsidian-file-cleaner:Clean files": false
     }
   },
-  "active": "98b99bcebe54855a",
+  "active": "1aeb56864cc26567",
   "lastOpenFiles": [
+    "알고리즘 (with JAVA)/메서드 정리/String 관련 메서드.md",
+    "알고리즘 (with JAVA)/풀이/Programmers/틀린 문제/다시 풀 문제/시저 암호.md",
     "알고리즘 (with JAVA)/메서드 정리/StringBuilder 관련 메서드.md",
     "알고리즘 (with JAVA)/풀이/boj/틀린 문제/다시 보기만 할 문제/boj 1107.md",
     "알고리즘 (with JAVA)/풀 문제들/완전 탐색 문제.md",
@@ -196,8 +197,6 @@
     "알고리즘 (with JAVA)/풀이/boj/틀린 문제/다시 보기만 할 문제/boj 1463.md",
     "알고리즘 (with JAVA)/풀이/boj/틀린 문제/다시 보기만 할 문제/boj 14503.md",
     "알고리즘 (with JAVA)/풀이/Programmers/틀린 문제/다시 보기만 할 문제/pro 이상한 문자 만들기.md",
-    "알고리즘 (with JAVA)/풀이/boj/맞은 문제/boj 13335.md",
-    "알고리즘 (with JAVA)/풀이/boj/틀린 문제/다시 풀 문제/boj 15683.md",
     "Unused/Attached files/Pasted image 20240828184254.png",
     "Unused/Attached files/Pasted image 20240828162216.png",
     "Unused/Attached files/Pasted image 20240828025123.png",
