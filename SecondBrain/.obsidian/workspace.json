@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "알고리즘 (with JAVA)/풀이/boj/틀린 문제/다시 보기만 할 문제/boj 1107.md",
+                "file": "알고리즘 (with JAVA)/메서드 정리/String 관련 메서드.md",
                 "mode": "source",
                 "source": false
               }
@@ -65,7 +65,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -85,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "알고리즘 (with JAVA)/풀이/boj/틀린 문제/다시 보기만 할 문제/boj 1107.md",
+                "file": "알고리즘 (with JAVA)/메서드 정리/String 관련 메서드.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "알고리즘 (with JAVA)/풀이/boj/틀린 문제/다시 보기만 할 문제/boj 1107.md",
+                "file": "알고리즘 (with JAVA)/메서드 정리/String 관련 메서드.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "알고리즘 (with JAVA)/풀이/boj/틀린 문제/다시 보기만 할 문제/boj 1107.md"
+                "file": "알고리즘 (with JAVA)/메서드 정리/String 관련 메서드.md"
               }
             }
           },
@@ -169,10 +170,11 @@
       "obsidian-file-cleaner:Clean files": false
     }
   },
-  "active": "1aeb56864cc26567",
+  "active": "98b99bcebe54855a",
   "lastOpenFiles": [
-    "알고리즘 (with JAVA)/풀 문제들/완전 탐색 문제.md",
+    "알고리즘 (with JAVA)/메서드 정리/StringBuilder 관련 메서드.md",
     "알고리즘 (with JAVA)/풀이/boj/틀린 문제/다시 보기만 할 문제/boj 1107.md",
+    "알고리즘 (with JAVA)/풀 문제들/완전 탐색 문제.md",
     "알고리즘 (with JAVA)/풀 문제들/자료구조 문제.md",
     "알고리즘 (with JAVA)/풀 문제들/알고리즘 공부 순서.md",
     "알고리즘 (with JAVA)/풀 문제들/분할 정복 문제.md",
@@ -197,7 +199,6 @@
     "알고리즘 (with JAVA)/풀이/boj/맞은 문제/boj 13335.md",
     "알고리즘 (with JAVA)/풀이/boj/틀린 문제/다시 풀 문제/boj 15683.md",
     "Unused/Attached files/Pasted image 20240828184254.png",
-    "알고리즘 (with JAVA)/풀이/boj/맞은 문제/boj 1759.md",
     "Unused/Attached files/Pasted image 20240828162216.png",
     "Unused/Attached files/Pasted image 20240828025123.png",
     "Unused/Attached files/Pasted image 20240828021736.png",
