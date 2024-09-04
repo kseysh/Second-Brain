@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Spring/스프링 강의/모든 개발자를 위한 HTTP 웹 기본 지식/TCP.md",
+                "file": "전공 공부/컴퓨터 네트워크/7 Layers.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Spring/스프링 강의/모든 개발자를 위한 HTTP 웹 기본 지식/TCP.md",
+                "file": "전공 공부/컴퓨터 네트워크/7 Layers.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Spring/스프링 강의/모든 개발자를 위한 HTTP 웹 기본 지식/TCP.md",
+                "file": "전공 공부/컴퓨터 네트워크/7 Layers.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Spring/스프링 강의/모든 개발자를 위한 HTTP 웹 기본 지식/TCP.md"
+                "file": "전공 공부/컴퓨터 네트워크/7 Layers.md"
               }
             }
           },
@@ -171,6 +171,9 @@
   },
   "active": "1aeb56864cc26567",
   "lastOpenFiles": [
+    "Spring/스프링 강의/모든 개발자를 위한 HTTP 웹 기본 지식/TCP.md",
+    "전공 공부/컴퓨터 네트워크/7 Layers.md",
+    "전공 공부/컴퓨터 네트워크",
     "알고리즘 (with JAVA)/풀이/Programmers/틀린 문제/다시 풀 문제/pro 거스름돈.md",
     "알고리즘 (with JAVA)/풀이/Programmers/틀린 문제/다시 풀 문제/시저 암호.md",
     "알고리즘 (with JAVA)/메서드 정리/String 관련 메서드.md",
@@ -195,8 +198,6 @@
     "알고리즘 (with JAVA)/풀이/boj/맞은 문제/boj 1149.md",
     "알고리즘 (with JAVA)/풀이/boj/틀린 문제/다시 풀 문제/boj 2579.md",
     "알고리즘 (with JAVA)/풀이/boj/틀린 문제/다시 보기만 할 문제/boj 9095.md",
-    "알고리즘 (with JAVA)/풀이/boj/틀린 문제/다시 보기만 할 문제/boj 1463.md",
-    "알고리즘 (with JAVA)/풀이/boj/틀린 문제/다시 보기만 할 문제/boj 14503.md",
     "Unused/Attached files/Pasted image 20240828184254.png",
     "Unused/Attached files/Pasted image 20240828162216.png",
     "Unused/Attached files/Pasted image 20240828025123.png",
@@ -216,7 +217,6 @@
     "알고리즘 (with JAVA)/풀이/boj/틀린 문제/다시 보기만 할 문제",
     "알고리즘 (with JAVA)/풀이/boj/틀린 문제",
     "알고리즘 (with JAVA)/풀이/boj/맞은 문제",
-    "알고리즘 (with JAVA)/풀이/boj",
     "무제 파일.canvas"
   ]
 }
