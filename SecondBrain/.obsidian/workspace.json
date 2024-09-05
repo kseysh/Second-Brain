@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "전공 공부/컴퓨터 네트워크/7 Layers.md",
+                "file": "알고리즘 (with JAVA)/풀이/Programmers/틀린 문제/다시 보기만 할 문제/pro 가장 먼 노드.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "전공 공부/컴퓨터 네트워크/7 Layers.md",
+                "file": "알고리즘 (with JAVA)/풀이/Programmers/틀린 문제/다시 보기만 할 문제/pro 가장 먼 노드.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "전공 공부/컴퓨터 네트워크/7 Layers.md",
+                "file": "알고리즘 (with JAVA)/풀이/Programmers/틀린 문제/다시 보기만 할 문제/pro 가장 먼 노드.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "전공 공부/컴퓨터 네트워크/7 Layers.md"
+                "file": "알고리즘 (with JAVA)/풀이/Programmers/틀린 문제/다시 보기만 할 문제/pro 가장 먼 노드.md"
               }
             }
           },
@@ -171,12 +171,13 @@
   },
   "active": "1aeb56864cc26567",
   "lastOpenFiles": [
+    "전공 공부/컴퓨터 네트워크/7 Layers.md",
+    "알고리즘 (with JAVA)/풀이/Programmers/틀린 문제/다시 보기만 할 문제/pro 가장 먼 노드.md",
     "Unused/Attached files/Pasted image 20240904181751.png",
     "Unused/Attached files/Pasted image 20240904181743.png",
     "Unused/Attached files/Pasted image 20240904181651.png",
     "Unused/Attached files/Pasted image 20240904181648.png",
     "Spring/스프링 강의/모든 개발자를 위한 HTTP 웹 기본 지식/TCP.md",
-    "전공 공부/컴퓨터 네트워크/7 Layers.md",
     "Unused/Attached files/Pasted image 20240904154021.png",
     "Spring/스프링 강의/모든 개발자를 위한 HTTP 웹 기본 지식/UDP.md",
     "Spring/스프링 강의/모든 개발자를 위한 HTTP 웹 기본 지식/Port.md",
@@ -207,7 +208,6 @@
     "Unused/Attached files/Pasted image 20240828025123.png",
     "Unused/Attached files/Pasted image 20240828021736.png",
     "Unused/Attached files/Pasted image 20240828014939.png",
-    "Unused/Attached files/Pasted image 20240828014830.png",
     "Spring/스프링 강의/모든 개발자를 위한 HTTP 웹 기본 지식/HTTP Header",
     "Spring/스프링 강의/모든 개발자를 위한 HTTP 웹 기본 지식",
     "Spring/스프링 강의",
