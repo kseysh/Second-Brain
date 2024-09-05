@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "알고리즘/풀이/오늘 푼 문제들.md",
+                "file": "알고리즘/C++ 문법/기본.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "알고리즘/풀이/오늘 푼 문제들.md",
+                "file": "알고리즘/C++ 문법/기본.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "알고리즘/풀이/오늘 푼 문제들.md",
+                "file": "알고리즘/C++ 문법/기본.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "알고리즘/풀이/오늘 푼 문제들.md"
+                "file": "알고리즘/C++ 문법/기본.md"
               }
             }
           },
@@ -169,13 +169,14 @@
       "obsidian-file-cleaner:Clean files": false
     }
   },
-  "active": "77e0b92a051c28ac",
+  "active": "1aeb56864cc26567",
   "lastOpenFiles": [
+    "알고리즘/풀이/오늘 푼 문제들.md",
+    "알고리즘/C++ 문법/기본.md",
     "알고리즘/C++ 문법",
     "Unused/Attached files/Pasted image 20240905110737.png",
     "알고리즘/풀이/Programmers/틀린 문제/다시 풀 문제/pro 최대공약수와 최소공배수.md",
     "알고리즘/풀이/Programmers/틀린 문제/다시 보기만 할 문제/pro 같은 숫자는 싫어.md",
-    "알고리즘/풀이/오늘 푼 문제들.md",
     "Unused/Attached files/Pasted image 20240905105644.png",
     "Unused/Attached files/Pasted image 20240905104334.png",
     "알고리즘/풀이/Programmers/틀린 문제/다시 보기만 할 문제/pro 가장 먼 노드.md",
@@ -216,7 +217,6 @@
     "알고리즘/풀이/boj/틀린 문제/다시 풀 문제",
     "알고리즘/풀이/boj/틀린 문제/다시 보기만 할 문제",
     "알고리즘/풀이/boj/틀린 문제",
-    "알고리즘/풀이/boj/맞은 문제",
     "무제 파일.canvas"
   ]
 }
