@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "알고리즘 (with JAVA)/풀이/Programmers/틀린 문제/다시 풀 문제/pro 최대공약수와 최소공배수.md",
+                "file": "알고리즘/풀이/오늘 푼 문제들.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "알고리즘 (with JAVA)/풀이/Programmers/틀린 문제/다시 풀 문제/pro 최대공약수와 최소공배수.md",
+                "file": "알고리즘/풀이/오늘 푼 문제들.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "알고리즘 (with JAVA)/풀이/Programmers/틀린 문제/다시 풀 문제/pro 최대공약수와 최소공배수.md",
+                "file": "알고리즘/풀이/오늘 푼 문제들.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "알고리즘 (with JAVA)/풀이/Programmers/틀린 문제/다시 풀 문제/pro 최대공약수와 최소공배수.md"
+                "file": "알고리즘/풀이/오늘 푼 문제들.md"
               }
             }
           },
@@ -169,14 +169,16 @@
       "obsidian-file-cleaner:Clean files": false
     }
   },
-  "active": "1aeb56864cc26567",
+  "active": "77e0b92a051c28ac",
   "lastOpenFiles": [
-    "알고리즘 (with JAVA)/풀이/Programmers/틀린 문제/다시 보기만 할 문제/pro 같은 숫자는 싫어.md",
-    "알고리즘 (with JAVA)/풀이/Programmers/틀린 문제/다시 풀 문제/pro 최대공약수와 최소공배수.md",
-    "알고리즘 (with JAVA)/풀이/오늘 푼 문제들.md",
+    "알고리즘/C++ 문법",
+    "Unused/Attached files/Pasted image 20240905110737.png",
+    "알고리즘/풀이/Programmers/틀린 문제/다시 풀 문제/pro 최대공약수와 최소공배수.md",
+    "알고리즘/풀이/Programmers/틀린 문제/다시 보기만 할 문제/pro 같은 숫자는 싫어.md",
+    "알고리즘/풀이/오늘 푼 문제들.md",
     "Unused/Attached files/Pasted image 20240905105644.png",
     "Unused/Attached files/Pasted image 20240905104334.png",
-    "알고리즘 (with JAVA)/풀이/Programmers/틀린 문제/다시 보기만 할 문제/pro 가장 먼 노드.md",
+    "알고리즘/풀이/Programmers/틀린 문제/다시 보기만 할 문제/pro 가장 먼 노드.md",
     "전공 공부/컴퓨터 네트워크/7 Layers.md",
     "Unused/Attached files/Pasted image 20240904181751.png",
     "Unused/Attached files/Pasted image 20240904181743.png",
@@ -191,32 +193,30 @@
     "Spring/스프링 강의/모든 개발자를 위한 HTTP 웹 기본 지식/프록시 캐시.md",
     "Spring/스프링 강의/모든 개발자를 위한 HTTP 웹 기본 지식/검증 헤더와 조건부 요청.md",
     "전공 공부/컴퓨터 네트워크",
-    "알고리즘 (with JAVA)/풀이/Programmers/틀린 문제/다시 풀 문제/pro 거스름돈.md",
-    "알고리즘 (with JAVA)/풀이/Programmers/틀린 문제/다시 풀 문제/시저 암호.md",
-    "알고리즘 (with JAVA)/메서드 정리/String 관련 메서드.md",
-    "알고리즘 (with JAVA)/메서드 정리/StringBuilder 관련 메서드.md",
-    "알고리즘 (with JAVA)/풀이/boj/틀린 문제/다시 보기만 할 문제/boj 1107.md",
-    "알고리즘 (with JAVA)/풀 문제들/완전 탐색 문제.md",
-    "알고리즘 (with JAVA)/풀 문제들/자료구조 문제.md",
-    "알고리즘 (with JAVA)/풀 문제들/알고리즘 공부 순서.md",
-    "알고리즘 (with JAVA)/풀 문제들/분할 정복 문제.md",
-    "알고리즘 (with JAVA)/풀 문제들/binary search 문제.md",
-    "알고리즘 (with JAVA)/풀 문제들/DP 문제.md",
-    "알고리즘 (with JAVA)/풀이/boj/맞은 문제/boj 18258.md",
-    "알고리즘 (with JAVA)/메서드 정리/입출력 관련 메서드.md",
-    "알고리즘 (with JAVA)/풀이/boj/맞은 문제/boj 1018.md",
+    "알고리즘/풀이/Programmers/틀린 문제/다시 풀 문제/pro 거스름돈.md",
+    "알고리즘/풀이/Programmers/틀린 문제/다시 풀 문제/시저 암호.md",
+    "알고리즘/JAVA 문법/String 관련 메서드.md",
+    "알고리즘/JAVA 문법/StringBuilder 관련 메서드.md",
+    "알고리즘/풀이/boj/틀린 문제/다시 보기만 할 문제/boj 1107.md",
+    "알고리즘/풀 문제들/완전 탐색 문제.md",
+    "알고리즘/풀 문제들/자료구조 문제.md",
+    "알고리즘/풀 문제들/알고리즘 공부 순서.md",
+    "알고리즘/풀 문제들/분할 정복 문제.md",
+    "알고리즘/풀 문제들/binary search 문제.md",
+    "알고리즘/풀 문제들/DP 문제.md",
+    "알고리즘/풀이/boj/맞은 문제/boj 18258.md",
+    "알고리즘/JAVA 문법/입출력 관련 메서드.md",
     "Unused/Attached files/Pasted image 20240828184254.png",
     "Unused/Attached files/Pasted image 20240828162216.png",
-    "Unused/Attached files/Pasted image 20240828025123.png",
     "Spring/스프링 강의/모든 개발자를 위한 HTTP 웹 기본 지식/HTTP Header",
     "Spring/스프링 강의/모든 개발자를 위한 HTTP 웹 기본 지식",
     "Spring/스프링 강의",
     "Spring/스프링 강의/스프링 핵심 원리",
     "알고리즘 (with JAVA)/풀이/Programmers/맞은 문제/무제 폴더",
-    "알고리즘 (with JAVA)/풀이/boj/틀린 문제/다시 풀 문제",
-    "알고리즘 (with JAVA)/풀이/boj/틀린 문제/다시 보기만 할 문제",
-    "알고리즘 (with JAVA)/풀이/boj/틀린 문제",
-    "알고리즘 (with JAVA)/풀이/boj/맞은 문제",
+    "알고리즘/풀이/boj/틀린 문제/다시 풀 문제",
+    "알고리즘/풀이/boj/틀린 문제/다시 보기만 할 문제",
+    "알고리즘/풀이/boj/틀린 문제",
+    "알고리즘/풀이/boj/맞은 문제",
     "무제 파일.canvas"
   ]
 }
