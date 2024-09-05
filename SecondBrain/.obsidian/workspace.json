@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "알고리즘/풀이/boj/맞은 문제/boj 1026.md",
+                "file": "알고리즘/풀이/boj/맞은 문제/boj 1946.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "알고리즘/풀이/boj/맞은 문제/boj 1026.md",
+                "file": "알고리즘/풀이/boj/맞은 문제/boj 1946.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "알고리즘/풀이/boj/맞은 문제/boj 1026.md",
+                "file": "알고리즘/풀이/boj/맞은 문제/boj 1946.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "알고리즘/풀이/boj/맞은 문제/boj 1026.md"
+                "file": "알고리즘/풀이/boj/맞은 문제/boj 1946.md"
               }
             }
           },
@@ -171,8 +171,9 @@
   },
   "active": "1aeb56864cc26567",
   "lastOpenFiles": [
-    "알고리즘/C++ 문법/C++ STL.md",
     "알고리즘/풀이/boj/맞은 문제/boj 1026.md",
+    "알고리즘/풀이/boj/맞은 문제/boj 1946.md",
+    "알고리즘/C++ 문법/C++ STL.md",
     "알고리즘/풀이/boj/맞은 문제/boj 2217.md",
     "알고리즘/C++ 문법/기본.md",
     "알고리즘/풀이/오늘 푼 문제들.md",
@@ -206,7 +207,6 @@
     "알고리즘/풀 문제들/자료구조 문제.md",
     "알고리즘/풀 문제들/알고리즘 공부 순서.md",
     "알고리즘/풀 문제들/분할 정복 문제.md",
-    "알고리즘/풀 문제들/binary search 문제.md",
     "Unused/Attached files/Pasted image 20240828184254.png",
     "Unused/Attached files/Pasted image 20240828162216.png",
     "Spring/스프링 강의/모든 개발자를 위한 HTTP 웹 기본 지식/HTTP Header",
