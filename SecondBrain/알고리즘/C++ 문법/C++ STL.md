@@ -92,11 +92,9 @@ map.insert(pair<string, int>("식빵",5));
 # algorithm
 - `min_element(container.begin(),container.end())` : 범위에서 가장 작은 원소의 반복자를 return
 - `max_element(container.begin(),container.end())` : 범위에서 가장 큰 원소의 반복자를 return
-    
 - `find(container.begin(),container.end(), item)` : item 검색해서 찾아서 그 반복자 return, 없으면 end() return
     
 - 정렬
-    
     - `sort(container.begin(),container.end())` : 범위를 정렬, 세 번재 인수로 정렬 기준이 되는 사용자 정의 비교 함수 (lambda) 포인터 넘길 수도 있음
     - `sort(container.begin(),container.end(), compare)` : 범위를 정렬, 세 번재 인수로 정렬 기준이 되는 사용자 정의 비교 함수 (lambda) 포인터 넘길 수도 있음
     - `stable_sort` : stable 정렬 (sort 는 unstable)
@@ -104,11 +102,10 @@ map.insert(pair<string, int>("식빵",5));
 - `reverse` : 인수로 넘긴 범위의 순서를 거꾸로 뒤집음.
     
 - 수학 관련 :
-    
     - max(a,b), min(a,b)
     - max_element(시작 주소/반복자, 끝 주소/반복자), min_element(시작 주소/반복자, 끝 주소/반복자)
+
 - 원소 수정하지 않는 작업 :
-    
     - all_of : 범위 안에 모든 원소들이 조건을 만족하는지 확인한다.
     - any_of : 범위 안의 원소들 중 조건을 만족하는 원소가 있는지 확인한다.
     - find : 범위 안에 원소들 중 값이 일치하는 원소를 찾는다.
