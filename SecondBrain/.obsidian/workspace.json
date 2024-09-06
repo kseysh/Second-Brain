@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "ac40662c27c4111f",
+        "id": "75c315462607b23d",
         "type": "tabs",
         "children": [
           {
-            "id": "1aeb56864cc26567",
+            "id": "c83867f235cb94a0",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -169,8 +169,10 @@
       "obsidian-file-cleaner:Clean files": false
     }
   },
-  "active": "1aeb56864cc26567",
+  "active": "c83867f235cb94a0",
   "lastOpenFiles": [
+    "전공 공부/컴퓨터 네트워크/7 Layers 정리.md",
+    "전공 공부/컴퓨터 네트워크/7 Layers.md",
     "Unused/Attached files/Pasted image 20240906160236.png",
     "Unused/Attached files/Pasted image 20240906155923.png",
     "Unused/Attached files/Pasted image 20240906155840.png",
@@ -195,8 +197,6 @@
     "Unused/Attached files/Pasted image 20240905105644.png",
     "Unused/Attached files/Pasted image 20240905104334.png",
     "알고리즘/풀이/Programmers/틀린 문제/다시 보기만 할 문제/pro 가장 먼 노드.md",
-    "전공 공부/컴퓨터 네트워크/7 Layers.md",
-    "Unused/Attached files/Pasted image 20240904181751.png",
     "Spring/스프링 강의/모든 개발자를 위한 HTTP 웹 기본 지식/TCP.md",
     "Spring/스프링 강의/모든 개발자를 위한 HTTP 웹 기본 지식/UDP.md",
     "Spring/스프링 강의/모든 개발자를 위한 HTTP 웹 기본 지식/Port.md",
