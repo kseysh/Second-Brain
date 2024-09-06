@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "전공 공부/컴퓨터 네트워크/7 Layers.md",
+                "file": "전공 공부/컴퓨터 네트워크/7 Layers 정리.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "전공 공부/컴퓨터 네트워크/7 Layers.md",
+                "file": "전공 공부/컴퓨터 네트워크/7 Layers 정리.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "전공 공부/컴퓨터 네트워크/7 Layers.md",
+                "file": "전공 공부/컴퓨터 네트워크/7 Layers 정리.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "전공 공부/컴퓨터 네트워크/7 Layers.md"
+                "file": "전공 공부/컴퓨터 네트워크/7 Layers 정리.md"
               }
             }
           },
@@ -169,10 +169,47 @@
       "obsidian-file-cleaner:Clean files": false
     }
   },
+  "floating": {
+    "id": "0ed1c18f97403bf9",
+    "type": "floating",
+    "children": [
+      {
+        "id": "953dc4b80f147a37",
+        "type": "window",
+        "children": [
+          {
+            "id": "58220c6bbbcd9d2f",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "9c13bf0b5dd78f47",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "전공 공부/컴퓨터 네트워크/7 Layers.md",
+                    "mode": "source",
+                    "source": false
+                  }
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "vertical",
+        "x": 855,
+        "y": 39,
+        "width": 855,
+        "height": 1068,
+        "maximize": false,
+        "zoom": 0
+      }
+    ]
+  },
   "active": "c83867f235cb94a0",
   "lastOpenFiles": [
-    "전공 공부/컴퓨터 네트워크/7 Layers 정리.md",
     "전공 공부/컴퓨터 네트워크/7 Layers.md",
+    "전공 공부/컴퓨터 네트워크/7 Layers 정리.md",
     "Unused/Attached files/Pasted image 20240906160236.png",
     "Unused/Attached files/Pasted image 20240906155923.png",
     "Unused/Attached files/Pasted image 20240906155840.png",
