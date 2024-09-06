@@ -51,7 +51,8 @@ Application으로 퉁치기... 5개의 Layer로 일단 보자
 ![[Pasted image 20240906153106.png|400]]
 ISO에서 7Layer를 제안했지만, Internet은 5Layer고, 살아남은 것은 5Layer라서 5Layer로 이해하는 것이 편하다.
 
-#### p
+#### 33p
+10번이 87에게 데이터를 보내고 싶으
 
 #### p
 
