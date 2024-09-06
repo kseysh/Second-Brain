@@ -34,9 +34,22 @@
 
 #### 13p
 패킷도 Layer마다 이름을 다르게 한다.
-#### p
-
-#### p
+#### 14p
+![[Pasted image 20240906153126.png|400]]
+###### Data link layer
+hot to hop delivery에 관련한 것을 제공한다.
+mac주소를 만든다 (포스트 잇을 붙인다)
+###### Network
+Source to Destination에 관련한 것을 담당한다 (IP주소)
+IP 헤더 만들기, 경로 만들기에 관련한 일을 담당한다.
+###### Transport
+비서 역할 했던 것
+포트번호를 만들어준다.
+###### Session, Presentation, Application
+Application으로 퉁치기... 5개의 Layer로 일단 보자
+#### 17p
+![[Pasted image 20240906153106.png|400]]
+ISO에서 7Layer를 제안했지만, Internet은 5Layer고, 살아남은 것은 5Layer라서 5Layer로 이해하는 것이 편하다.
 
 #### p
 
