@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "알고리즘/C++ 문법/배열 초기화.md",
+                "file": "전공 공부/컴퓨터 네트워크/7 Layers.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "알고리즘/C++ 문법/배열 초기화.md",
+                "file": "전공 공부/컴퓨터 네트워크/7 Layers.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "알고리즘/C++ 문법/배열 초기화.md",
+                "file": "전공 공부/컴퓨터 네트워크/7 Layers.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "알고리즘/C++ 문법/배열 초기화.md"
+                "file": "전공 공부/컴퓨터 네트워크/7 Layers.md"
               }
             }
           },
@@ -171,8 +171,8 @@
   },
   "active": "1aeb56864cc26567",
   "lastOpenFiles": [
-    "알고리즘/C++ 문법/기본.md",
     "알고리즘/C++ 문법/배열 초기화.md",
+    "알고리즘/C++ 문법/기본.md",
     "알고리즘/풀이/오늘 푼 문제들.md",
     "알고리즘/풀이/Programmers/틀린 문제/무제 파일.md",
     "Unused/Attached files/Pasted image 20240905173318.png",
