@@ -85,7 +85,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "전공 공부/컴퓨터 네트워크/7 Layers 정리.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +101,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "전공 공부/컴퓨터 네트워크/7 Layers 정리.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,9 +122,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "전공 공부/컴퓨터 네트워크/7 Layers 정리.md"
-              }
+              "state": {}
             }
           },
           {
@@ -192,8 +188,17 @@
                     "source": false
                   }
                 }
+              },
+              {
+                "id": "806616129516c3c8",
+                "type": "leaf",
+                "state": {
+                  "type": "empty",
+                  "state": {}
+                }
               }
-            ]
+            ],
+            "currentTab": 1
           }
         ],
         "direction": "vertical",
@@ -206,7 +211,7 @@
       }
     ]
   },
-  "active": "c83867f235cb94a0",
+  "active": "806616129516c3c8",
   "lastOpenFiles": [
     "전공 공부/컴퓨터 네트워크/7 Layers.md",
     "전공 공부/컴퓨터 네트워크/7 Layers 정리.md",
