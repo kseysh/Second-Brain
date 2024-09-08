@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "전공 공부/컴퓨터 네트워크/7 Layers 정리.md",
+                "file": "알고리즘/풀이/오늘 푼 문제들.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "알고리즘/풀이/오늘 푼 문제들.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -101,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "알고리즘/풀이/오늘 푼 문제들.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -122,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "알고리즘/풀이/오늘 푼 문제들.md"
+              }
             }
           },
           {
@@ -165,56 +169,11 @@
       "obsidian-file-cleaner:Clean files": false
     }
   },
-  "floating": {
-    "id": "0ed1c18f97403bf9",
-    "type": "floating",
-    "children": [
-      {
-        "id": "953dc4b80f147a37",
-        "type": "window",
-        "children": [
-          {
-            "id": "58220c6bbbcd9d2f",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "9c13bf0b5dd78f47",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "전공 공부/컴퓨터 네트워크/7 Layers.md",
-                    "mode": "source",
-                    "source": false
-                  }
-                }
-              },
-              {
-                "id": "806616129516c3c8",
-                "type": "leaf",
-                "state": {
-                  "type": "empty",
-                  "state": {}
-                }
-              }
-            ],
-            "currentTab": 1
-          }
-        ],
-        "direction": "vertical",
-        "x": 855,
-        "y": 39,
-        "width": 855,
-        "height": 1068,
-        "maximize": false,
-        "zoom": 0
-      }
-    ]
-  },
-  "active": "806616129516c3c8",
+  "active": "c83867f235cb94a0",
   "lastOpenFiles": [
-    "전공 공부/컴퓨터 네트워크/7 Layers.md",
+    "Unused/Attached files/Pasted image 20240908122123.png",
     "전공 공부/컴퓨터 네트워크/7 Layers 정리.md",
+    "전공 공부/컴퓨터 네트워크/7 Layers.md",
     "Unused/Attached files/Pasted image 20240906160236.png",
     "Unused/Attached files/Pasted image 20240906155923.png",
     "Unused/Attached files/Pasted image 20240906155840.png",
@@ -250,7 +209,6 @@
     "알고리즘/풀이/Programmers/틀린 문제/다시 풀 문제/pro 거스름돈.md",
     "알고리즘/풀이/Programmers/틀린 문제/다시 풀 문제/시저 암호.md",
     "알고리즘/JAVA 문법/String 관련 메서드.md",
-    "알고리즘/JAVA 문법/StringBuilder 관련 메서드.md",
     "Spring/스프링 강의/모든 개발자를 위한 HTTP 웹 기본 지식/HTTP Header",
     "Spring/스프링 강의/모든 개발자를 위한 HTTP 웹 기본 지식",
     "Spring/스프링 강의",
