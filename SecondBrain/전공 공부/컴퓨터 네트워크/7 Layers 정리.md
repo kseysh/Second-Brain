@@ -57,20 +57,24 @@ Mac 주소(Physical adresses) 관리
 비트를 프레임으로 구성하며, hop to hop 전달을 제공한다.
 ### Physical Layer
 비트들을 어떻게 전송할지에 대한 책임을 지닌다.
+라우터끼리 비트를 어떻게 전송할지 결정한다.
 
-# 각 계층별 커뮤니케이션 단위
+# 각 계층별 커뮤니케이션 단위 (패킷을 어떻게 명명하는지)
 - Application, Presentation, Session Layer
-- Transport Layer
-- Network Layer
--  Data Link Layer
-	- frame (data)
+	- `message`
+- Transport Layer - port
+	- `segment` (TCP에서의 패킷)
+	- `userdatagram` (udp에서의 패킷)
+	- `packet` (전체적인 transport layer에서의 패킷)
+- Network Layer - ip
+	- `Datagram`
+-  Data Link Layer - mac
+	- `frame`
 - Physical Layer
-	- bit
-
-
+	- `bit`
 # Physical Layer
 비트들을 어떻게 전송할지에 대한 책임을 지니는 Layer이다. (ex) 유선, 무선, 와이파이, LTE, 3G 다 포맷이 다름 이 주파수 변환 및 데이터 통신을 담당한다.)
-라우터끼리 비트를 어떻게 전송할지 결정한다.
-커뮤니케이션 단위: bit
+
+
 ![[Pasted image 20240909150745.png|400]]
 # Data Link Layer
