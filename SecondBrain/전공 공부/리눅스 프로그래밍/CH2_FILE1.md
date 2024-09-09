@@ -71,3 +71,15 @@ int open(const char *pathname, int flags, [mode_t mode]);
 `O_CREAT` Flag에서만 사용된다.
 File security permission을 위해 사용된다.
 ![[Pasted image 20240909174947.png]]
+### `O_RDWR` flag가 필요한 이유
+![[Pasted image 20240909175506.png]]
+`O_RDONLY`와 `O_WRONLY`를 단순히 조합해서는 `O_RDWR`를 대체할 수 없다. 
+이는 `O_RDONLY`가 0으로 정의되어 있기 때문에 비트 연산을 하면 `O_RDONLY | O_WRONLY`은 `O_WRONLY`와 동일한 값이 된다.
+
+따라서 `O_RDWR`는 읽기/쓰기 모드를 지정하는 고유한 플래그로서 중요한 역할을 한다.
+### `open` example
+![[Pasted image 20240909180037.png|400]]
+
+# File permissions
+![[Pasted image 20240909180143.png]]
+# `creat` system call
