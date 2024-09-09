@@ -51,4 +51,23 @@ buf => 파일에서 읽은 데이터를 저장할 버퍼
 #### 기본 시스템 데이터 타입
 - `_t`로 끝나는 데이터 타입: 예제에 등장한 `ssize_t`처럼 `_t`로 끝나는 데이터 타입들은 시스템이 제공하는 기본적인 데이터 타입을 의미. 이 타입들은 시스템의 특성에 따라 필요한 대로 정의되며, 프로그래머가 직접 정수(`int`)나 실수(`float`)와 같은 구체적인 데이터 타입을 사용하는 것을 피하게 한다.
 - 헤더 파일 `sys/types.h`: 이러한 기본 시스템 데이터 타입들은 `sys/types.h`라는 헤더 파일에 정의되어 있으며, 이 헤더 파일은 `unistd.h`와 같은 파일에 포함되어 있어야 합니다.
-# open system 
+# `open` system call
+파일을 열거나 생성한다.
+```c
+#include <fcntl.h>
+int open(const char *pathname, int flags, [mode_t mode]);
+	// Returns: file descriptor if OK, -1 on error
+```
+### flag options
+• `O_RDONLY` #0 읽기 전용 (Read Only)
+• `O_WRONLY` #1 쓰기 전용 (writing only)
+• `O_RDWR` #2 읽기 및 쓰기 전용 (read and write)
+• `O_APPEND` 파일의 마지막에 쓰기 (Append to the end of file on each write.)
+• `O_CREAT` 존재하지 않으면 파일 생성 (Create the file if it doesn't exist.)
+	• `O_EXCL` : `O_CREAT`와 함께 사용되면, 새 파일을 만들려는 시도 중에 그 파일이 이미 존재하는 경우 오류를 발생시킨다.
+• `O_TRUNC` 파일이 이미 존재할 경우, 파일의 내용을 모두 지워서 길이를 0으로 만듭니다.
+• `O_NONBLOCK` 파일을 열 때 non-blocking mode로 열어, 자원이 사용 중이라도 기다리지 않고 바로 제어를 반환합니다
+### mode
+`O_CREAT` Flag에서만 사용된다.
+File security permission을 위해 사용된다.
+![[Pasted image 20240909174947.png]]
