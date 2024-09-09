@@ -46,12 +46,31 @@ Open Systems Interconnection (모델)
 ### Application, Presentation, Session Layer
 네트워크 자원에 대한 접근을 허용함
 ### Transport Layer
+port 관리
+받은 패킷을 어느 창에 띄워야 할지 정해준다. (process to process 커뮤니케이션)
 프로세스 간 신뢰할 수 있는 메시지 전달과 오류 복구를 제공한다.
 ### Network Layer
+IP 주소(Logical addresses) 관리
 패킷을 출발지에서 목적지까지 이동시키며, 인터넷워킹을 제공한다.
 ### Data Link Layer
+Mac 주소(Physical adresses) 관리
 비트를 프레임으로 구성하며, hop to hop 전달을 제공한다.
 ### Physical Layer
 비트들을 어떻게 전송할지에 대한 책임을 지닌다.
+
+# 각 계층별 커뮤니케이션 단위
+- Application, Presentation, Session Layer
+- Transport Layer
+- Network Layer
+-  Data Link Layer
+	- frame (data)
+- Physical Layer
+	- bit
+
+
 # Physical Layer
 비트들을 어떻게 전송할지에 대한 책임을 지니는 Layer이다. (ex) 유선, 무선, 와이파이, LTE, 3G 다 포맷이 다름 이 주파수 변환 및 데이터 통신을 담당한다.)
+라우터끼리 비트를 어떻게 전송할지 결정한다.
+커뮤니케이션 단위: bit
+![[Pasted image 20240909150745.png|400]]
+# Data Link Layer
