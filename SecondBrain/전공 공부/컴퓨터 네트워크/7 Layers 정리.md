@@ -45,13 +45,13 @@ Open Systems Interconnection (모델)
 ![[Pasted image 20240909145314.png|400]]
 ### Application, Presentation, Session Layer
 네트워크 자원에 대한 접근을 허용함
+ISO에서 7Layer를 제안했지만, Internet은 5Layer고, 살아남은 것은 5Layer라서 5Layer로 이해하는 것이 편하다.
 ### Transport Layer
 port 관리
 받은 패킷을 어느 창에 띄워야 할지 정해준다. (process to process 커뮤니케이션)
-프로세스 간 신뢰할 수 있는 메시지 전달과 오류 복구를 제공한다.
 ### Network Layer
 IP 주소(Logical addresses) 관리
-패킷을 출발지에서 목적지까지 이동시키며, 인터넷워킹을 제공한다.
+패킷을 출발지에서 목적지까지 이동시키며, 경로 만들기에 관련한 일을 담당한다.
 ### Data Link Layer
 Mac 주소(Physical adresses) 관리
 비트를 프레임으로 구성하며, hop to hop 전달을 제공한다.
