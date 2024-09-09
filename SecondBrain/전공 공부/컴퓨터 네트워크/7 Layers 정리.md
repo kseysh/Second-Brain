@@ -34,9 +34,24 @@ Open Systems Interconnection (모델)
 
 ## Packet Switching Network (목적지 주소 전달 방식)
 출발 IP와 목적지 IP만 가지고 출발한다. 각 교차로마다 목적지 주소를 보고 어디로 가라고 알려준다. 
-일부 경로가 죽더라도 다른 경로로 가면 되기 때문에 보낭
+일부 경로가 죽더라도 다른 경로로 가면 되기 때문에 보안적으로 유리하다.
 
 ### Circuit Switching Network (중앙제어 전달 방식)과의 차이
 우리가 사용하는 Internet이 아닌 방식이다.
 중앙서버에서 출발지부터 목적지까지 가기 위해 어떻게 이동해야하는지 그 패킷만의 경로를 알려준다.
 하지만, 네트워크는 전쟁 상황에서 출발하였기 때문에 중앙 서버가 죽으면 모든 서버가 죽으므로 보안적으로 유리하지 않다.
+
+# OSI 7계층 요약
+![[Pasted image 20240909145314.png|400]]
+### Application, Presentation, Session Layer
+네트워크 자원에 대한 접근을 허용함
+### Transport Layer
+프로세스 간 신뢰할 수 있는 메시지 전달과 오류 복구를 제공한다.
+### Network Layer
+패킷을 출발지에서 목적지까지 이동시키며, 인터넷워킹을 제공한다.
+### Data Link Layer
+비트를 프레임으로 구성하며, hop to hop 전달을 제공한다.
+### Physical Layer
+비트들을 어떻게 전송할지에 대한 책임을 지닌다.
+# Physical Layer
+비트들을 어떻게 전송할지에 대한 책임을 지니는 Layer이다. (ex) 유선, 무선, 와이파이, LTE, 3G 다 포맷이 다름 이 주파수 변환 및 데이터 통신을 담당한다.)
