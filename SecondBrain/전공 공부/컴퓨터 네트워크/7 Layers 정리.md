@@ -72,7 +72,7 @@ Mac 주소(Physical adresses) 관리
 	- `frame`
 - Physical Layer
 	- `bit`
-## physical addresses (mac 주소)
+## Data Link Layer (physical addresses) (mac 주소)
 ![[Pasted image 20240909152123.png|550]]
 ### 10이 87에게 frame을 처음 보낼 때
 1 => switch로 패킷을 보냄
@@ -96,4 +96,13 @@ Mac 주소(Physical adresses) 관리
 ### Switch
 필터링 기능이 있는 허브 (필터링 기능이 있는 멀티포트 리피터)
 데이터 링크 계층에서 작동
+
+# Network Layer(logical addresses)의 Exemple
+![[Pasted image 20240909153120.png]]
+physical address인 MAC주소는 hop to hop (각 hop은 라우터 또는 스위치)으로 이동할 때마다 출발지와 목적지의 MAC 주소가 변경된다.
+하지만, logical adderess인 IP주소는 변경되지 않는다.
+### Mac 헤더와 IP 헤더
+Mac 헤더는 도착 Mac 출발 Mac 순서이고,
+IP 헤더는 출발 IP 도착 IP 순서이다.
+이게 지워져 있어도 채울 수 있어야 할 듯.
 
