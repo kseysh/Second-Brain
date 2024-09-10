@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DB/In-memory DB/Redis.md",
+                "file": "DB/In-memory DB/캐시 쓰기 전략.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DB/In-memory DB/Redis.md",
+                "file": "DB/In-memory DB/캐시 쓰기 전략.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "DB/In-memory DB/Redis.md",
+                "file": "DB/In-memory DB/캐시 쓰기 전략.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DB/In-memory DB/Redis.md"
+                "file": "DB/In-memory DB/캐시 쓰기 전략.md"
               }
             }
           },
@@ -171,10 +171,16 @@
   },
   "active": "c83867f235cb94a0",
   "lastOpenFiles": [
+    "Unused/Attached files/Pasted image 20240911000049.png",
+    "DB/In-memory DB/캐시 읽기 전략.md",
+    "DB/In-memory DB/캐시 쓰기 전략.md",
+    "프로젝트/SOPT Makers APP/친구 추천 api 로직 개선하기 - 1.md",
+    "프로젝트/SOPT Makers APP/친구 추천 api 로직 개선하기 - 2.md",
+    "DB/In-memory DB/Redis.md",
+    "Unused/Attached files/Pasted image 20240910235620.png",
     "Unused/Attached files/Pasted image 20240910235436.png",
     "Unused/Attached files/Pasted image 20240910235147.png",
     "DB/In-memory DB/Memcached.md",
-    "DB/In-memory DB/Redis.md",
     "DB/In-memory DB/AWS ElastiCache.md",
     "DB/In-memory DB/Redis vs Memcached.md",
     "DB/In-memory DB/In-memory DB.md",
@@ -193,8 +199,6 @@
     "Unused/Attached files/Pasted image 20240910223732.png",
     "Unused/Attached files/Pasted image 20240910223359.png",
     "Unused/Attached files/Pasted image 20240910222934.png",
-    "Unused/Attached files/Pasted image 20240910222632.png",
-    "Unused/Attached files/Pasted image 20240910222619.png",
     "독서록/읽고 싶은 책 List.md",
     "전공 공부/리눅스 프로그래밍/CH01 BASIC.md",
     "전공 공부/논리 회로/Widmer_C1.md",
@@ -206,10 +210,6 @@
     "네트워크/HTTP/멱등성.md",
     "네트워크/HTTP/Status code가 body에도 들어가는 이유.md",
     "네트워크/HTTP/HTTP message의 구조.md",
-    "네트워크/HTTP/Cacheability.md",
-    "네트워크/HTTP/CSRF.md",
-    "네트워크/HTTP/CORS.md",
-    "알고리즘/풀이/오늘 푼 문제들.md",
     "알고리즘/C++ 문법",
     "전공 공부/컴퓨터 네트워크",
     "Spring/스프링 강의/모든 개발자를 위한 HTTP 웹 기본 지식/HTTP Header",
