@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DB/Redis/In-memory DB.md",
+                "file": "DB/In-memory DB/Redis.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DB/Redis/In-memory DB.md",
+                "file": "DB/In-memory DB/Redis.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "DB/Redis/In-memory DB.md",
+                "file": "DB/In-memory DB/Redis.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DB/Redis/In-memory DB.md"
+                "file": "DB/In-memory DB/Redis.md"
               }
             }
           },
@@ -169,14 +169,19 @@
       "obsidian-file-cleaner:Clean files": false
     }
   },
-  "active": "77e0b92a051c28ac",
+  "active": "c83867f235cb94a0",
   "lastOpenFiles": [
-    "DB/Redis/AWS ElastiCache.md",
-    "DB/Redis/복제와 클러스터.md",
+    "Unused/Attached files/Pasted image 20240910235436.png",
+    "Unused/Attached files/Pasted image 20240910235147.png",
+    "DB/In-memory DB/Memcached.md",
+    "DB/In-memory DB/Redis.md",
+    "DB/In-memory DB/AWS ElastiCache.md",
+    "DB/In-memory DB/Redis vs Memcached.md",
+    "DB/In-memory DB/In-memory DB.md",
+    "DB/In-memory DB/복제와 클러스터.md",
     "Unused/Attached files/Pasted image 20240910225522.png",
     "Unused/Attached files/Pasted image 20240910224924.png",
-    "DB/Redis/In-memory DB.md",
-    "DB/Redis",
+    "DB/In-memory DB",
     "DB/NOSQL.md",
     "DB/DB 정규화.md",
     "DB/비관적 락.md",
@@ -190,7 +195,6 @@
     "Unused/Attached files/Pasted image 20240910222934.png",
     "Unused/Attached files/Pasted image 20240910222632.png",
     "Unused/Attached files/Pasted image 20240910222619.png",
-    "Unused/Attached files/Pasted image 20240910222539.png",
     "독서록/읽고 싶은 책 List.md",
     "전공 공부/리눅스 프로그래밍/CH01 BASIC.md",
     "전공 공부/논리 회로/Widmer_C1.md",
@@ -206,10 +210,6 @@
     "네트워크/HTTP/CSRF.md",
     "네트워크/HTTP/CORS.md",
     "알고리즘/풀이/오늘 푼 문제들.md",
-    "알고리즘/C++ 문법/배열 초기화.md",
-    "알고리즘/C++ 문법/기본.md",
-    "알고리즘/풀이/Programmers/틀린 문제/무제 파일.md",
-    "알고리즘/풀이/boj/맞은 문제/boj 12933.md",
     "알고리즘/C++ 문법",
     "전공 공부/컴퓨터 네트워크",
     "Spring/스프링 강의/모든 개발자를 위한 HTTP 웹 기본 지식/HTTP Header",
