@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DB/Redis/AWS ElastiCache.md",
+                "file": "DB/Redis/In-memory DB.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DB/Redis/AWS ElastiCache.md",
+                "file": "DB/Redis/In-memory DB.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "DB/Redis/AWS ElastiCache.md",
+                "file": "DB/Redis/In-memory DB.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DB/Redis/AWS ElastiCache.md"
+                "file": "DB/Redis/In-memory DB.md"
               }
             }
           },
@@ -169,13 +169,13 @@
       "obsidian-file-cleaner:Clean files": false
     }
   },
-  "active": "c83867f235cb94a0",
+  "active": "77e0b92a051c28ac",
   "lastOpenFiles": [
-    "DB/Redis/복제와 클러스터.md",
     "DB/Redis/AWS ElastiCache.md",
+    "DB/Redis/복제와 클러스터.md",
     "Unused/Attached files/Pasted image 20240910225522.png",
     "Unused/Attached files/Pasted image 20240910224924.png",
-    "DB/In-memory DB.md",
+    "DB/Redis/In-memory DB.md",
     "DB/Redis",
     "DB/NOSQL.md",
     "DB/DB 정규화.md",

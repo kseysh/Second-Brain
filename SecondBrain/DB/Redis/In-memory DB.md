@@ -45,9 +45,28 @@ CPU와의 거리가 상당히 멀기 때문에 데이터를 처리하는 속도�
 - Lua 익스텐션을 지원해서 로직을 만들어서 적용시킬 수 있다.
 - ACID를 유사하게 지원해서 트랜잭션을 걸 수 있다.
 
-## Refresh 토큰을 저장할 때 사용되는 이유
-- 우선 RDB와는 다르게 데이터의 만료일을 지정할 수 있다.  
-	  이를 TTL(Time-To-Live)이라고 하는데, 이를 토큰의 만료일과 똑같이 맞춰두어 관리하면 토큰이 만료되면 Redis에서도 토큰이 삭제되도록 하여 데이터를 효율적으로 관리할 수 있다.
-  - 대체로 30분~2시간 단위로 갱신하는 JWT Access Token은 새롭게 갱신하기 위해 Refresh Token이 필요합니다.  
-    이렇게 호출의 빈도가 대체적으로 높은 Refresh Token은 **RDB**에 저장하는 것보다 **In-Memory DB**에 저장해두고 사용하는 것이 훨씬 속도가 빠르고 토큰 **ReIssue** 로직의 **병목현상**을 방지할 수 있다습니다.
-  
+## Redis vs memcahed
+
+|             |                                     |                                         |
+| ----------- | ----------------------------------- | --------------------------------------- |
+|             | Redis                               | Memcached                               |
+| **저장소**     | In Memory Storage                   | In Memory Storage                       |
+| **저장 방식**   | Key-Value                           | Key-Value                               |
+| **데이터 타입**  | String, Set, Sorted Set, Hash, List | String                                  |
+| **데이터 저장**  | Memory, Disk                        | Only Memory                             |
+| **메모리 재사용** | 메모리 재사용 하지 않음(명시적으로만 데이터 삭제 가능)     | 메모리 부족시 LRU 알고리즘을 이용하여 데이터 삭제 후 메모리 재사용 |
+| **스레드**     | **Single Thread**                   | **Multi Thread**                        |
+| **캐싱 용량**   | Key, Value 모두 512MB                 | Key name 250 byte,  Value 1MB           |
+### 비교하여 Redis의 장점
+- 다양한 자료구조 지원
+- 데이터 복구가 가능
+	- 데이터를 Disk에도 저장하기 때문
+- 다양한 Data Eviction(공간이 필요할 때, 어떤 데이터를 지우는 것) 정책을 지원합니다.
+	- Memcached는 LRU 알고리즘을 통한 Eviction을 지원한다. 
+	- 하지만 Redis는 6가지 Eviction정책을 통해 더욱 세밀한 Eviction 제어가 가능하다.
+
+### 비교하여 Memcached의 장점
+- 멀티 스레드 아키텍처 지원
+	- 서버 scale up에 유리하다
+- Redis에 비해 적은 메모리를 요구
+	- Redis는 Copy&Write 방식을 사용하기 때문에 실제 사용하는 메모리보다 더 많은 메모리를 요구
