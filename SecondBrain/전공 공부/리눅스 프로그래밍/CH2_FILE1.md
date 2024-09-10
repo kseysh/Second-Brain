@@ -150,4 +150,9 @@ offset: start_flag로부터의 바이트 수
 
 ## `dup`, `dup2` system call
 ![[Pasted image 20240910172346.png]]
-기존 파일 디스크립터는 는 dup,  중 하나로 복제됩니다.
+`dup`, `dup2`는 기존 파일 디스크립터를 복제한다.
+성공 시 새로운 파일 디스크립터를 반환하고, 실패 시 -1을 반환한다.
+#### example dup2
+![[Pasted image 20240910222029.png]]
+- dup(1)이 표준 출력 파일 디스크립터를 복제하는 예제
+- 동일한 작업을 수행하기 위해 `fcntl`함수를 F_DU 
