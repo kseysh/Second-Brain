@@ -147,3 +147,6 @@ offset: start_flag로부터의 바이트 수
 ![[Pasted image 20240910160131.png]]
 ![[Pasted image 20240910160145.png]]
 ![[Pasted image 20240910160153.png]]
+
+## `dup`, `dup2` system call
+![[Pasted image 20240910172346.png]]
