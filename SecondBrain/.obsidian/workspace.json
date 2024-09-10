@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "독서록/읽고 싶은 책 List.md",
+                "file": "전공 공부/리눅스 프로그래밍/CH2_FILE1.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "독서록/읽고 싶은 책 List.md",
+                "file": "전공 공부/리눅스 프로그래밍/CH2_FILE1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "독서록/읽고 싶은 책 List.md",
+                "file": "전공 공부/리눅스 프로그래밍/CH2_FILE1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "독서록/읽고 싶은 책 List.md"
+                "file": "전공 공부/리눅스 프로그래밍/CH2_FILE1.md"
               }
             }
           },
@@ -171,6 +171,7 @@
   },
   "active": "c83867f235cb94a0",
   "lastOpenFiles": [
+    "독서록/읽고 싶은 책 List.md",
     "전공 공부/리눅스 프로그래밍/CH2_FILE1.md",
     "Unused/Attached files/Pasted image 20240910172346.png",
     "Unused/Attached files/Pasted image 20240910160153.png",

@@ -150,3 +150,4 @@ offset: start_flag로부터의 바이트 수
 
 ## `dup`, `dup2` system call
 ![[Pasted image 20240910172346.png]]
+기존 파일 디스크립터는 는 dup,  중 하나로 복제됩니다.
