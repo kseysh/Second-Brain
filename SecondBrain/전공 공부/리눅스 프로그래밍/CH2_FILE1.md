@@ -111,3 +111,10 @@ File security permission을 위해 사용된다.
 
 ![[Pasted image 20240910153913.png]]
 
+## `read`, `write` 효율성
+buffer size를 늘리면 효율이 올라간다 -> system call의 횟수를 줄여 컨텍스트 스위칭을 줄일 수 있기 때문에.
+`delayed writing` -> `write` system call을 하면 쓰기를 수행한 후 반환되는 것이 아닌, 커널에 버퍼 캐시로 데이터를 전송한 다음 반환한다.
+그러나, 디스크에 에러가 발생하거나 커널이 멈추면 write했다고 생각한 데이터가 write되지 않았을 수도 있다.
+
+## `lseek` system call
+
