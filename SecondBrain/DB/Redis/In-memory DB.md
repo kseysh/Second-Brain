@@ -70,3 +70,9 @@ CPU와의 거리가 상당히 멀기 때문에 데이터를 처리하는 속도�
 	- 서버 scale up에 유리하다
 - Redis에 비해 적은 메모리를 요구
 	- Redis는 Copy&Write 방식을 사용하기 때문에 실제 사용하는 메모리보다 더 많은 메모리를 요구
+
+## Spring이 Memcached 보다 Redis를 사용하는 이유
+Redis는 Memcached의 단점을 개선하여 만듦. 
+Spring 운영 서버에서 데이터 복구 기능과 다양한 자료구조를 가진 Redis는 캐싱과 세션 관리에 있어서 더욱 강력한 기능을 제공함.
+
+그렇기 때문에 메모리 파편화와 약간의 속도 차이를 감수하고도 Memcached에 비해 강력한 운영 기능을 가진 Redis를 Spring은 선택.
