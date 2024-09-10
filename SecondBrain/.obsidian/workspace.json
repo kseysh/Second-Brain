@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "전공 공부/논리 회로/Widmer_C1.md",
+                "file": "전공 공부/리눅스 프로그래밍/CH2_FILE1.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "전공 공부/논리 회로/Widmer_C1.md",
+                "file": "전공 공부/리눅스 프로그래밍/CH2_FILE1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "전공 공부/논리 회로/Widmer_C1.md",
+                "file": "전공 공부/리눅스 프로그래밍/CH2_FILE1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "전공 공부/논리 회로/Widmer_C1.md"
+                "file": "전공 공부/리눅스 프로그래밍/CH2_FILE1.md"
               }
             }
           },
@@ -171,8 +171,10 @@
   },
   "active": "c83867f235cb94a0",
   "lastOpenFiles": [
-    "전공 공부/리눅스 프로그래밍/CH2_FILE1.md",
+    "Unused/Attached files/Pasted image 20240910152131.png",
+    "전공 공부/리눅스 프로그래밍/CH01 BASIC.md",
     "전공 공부/논리 회로/Widmer_C1.md",
+    "전공 공부/리눅스 프로그래밍/CH2_FILE1.md",
     "전공 공부/논리 회로",
     "전공 공부/무제 파일.md",
     "Unused/Attached files/Pasted image 20240909180143.png",
@@ -183,7 +185,6 @@
     "Unused/Attached files/Pasted image 20240909173806.png",
     "Unused/Attached files/Pasted image 20240909173143.png",
     "Unused/Attached files/Pasted image 20240909171933.png",
-    "전공 공부/리눅스 프로그래밍/CH01 BASIC.md",
     "Unused/Attached files/Pasted image 20240909170348.png",
     "Unused/Attached files/Pasted image 20240909165159.png",
     "전공 공부/컴퓨터 네트워크/7 Layers 수업 내용 요약.md",
@@ -209,7 +210,6 @@
     "알고리즘/풀이/Programmers/틀린 문제/다시 풀 문제/pro 최대공약수와 최소공배수.md",
     "알고리즘/풀이/Programmers/틀린 문제/다시 보기만 할 문제/pro 같은 숫자는 싫어.md",
     "알고리즘/풀이/Programmers/틀린 문제/다시 보기만 할 문제/pro 가장 먼 노드.md",
-    "Spring/스프링 강의/모든 개발자를 위한 HTTP 웹 기본 지식/TCP.md",
     "전공 공부/컴퓨터 네트워크",
     "Spring/스프링 강의/모든 개발자를 위한 HTTP 웹 기본 지식/HTTP Header",
     "Spring/스프링 강의/모든 개발자를 위한 HTTP 웹 기본 지식",

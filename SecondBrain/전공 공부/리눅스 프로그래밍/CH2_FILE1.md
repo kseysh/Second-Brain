@@ -83,3 +83,4 @@ File security permission을 위해 사용된다.
 # File permissions
 ![[Pasted image 20240909180143.png]]
 # `creat` system call
+![[Pasted image 20240910152131.png]]
