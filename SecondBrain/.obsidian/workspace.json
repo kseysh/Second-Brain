@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DB/Redis/복제와 클러스터.md",
+                "file": "DB/Redis/AWS ElastiCache.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DB/Redis/복제와 클러스터.md",
+                "file": "DB/Redis/AWS ElastiCache.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "DB/Redis/복제와 클러스터.md",
+                "file": "DB/Redis/AWS ElastiCache.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DB/Redis/복제와 클러스터.md"
+                "file": "DB/Redis/AWS ElastiCache.md"
               }
             }
           },
@@ -171,9 +171,11 @@
   },
   "active": "c83867f235cb94a0",
   "lastOpenFiles": [
+    "DB/Redis/복제와 클러스터.md",
+    "DB/Redis/AWS ElastiCache.md",
+    "Unused/Attached files/Pasted image 20240910225522.png",
     "Unused/Attached files/Pasted image 20240910224924.png",
     "DB/In-memory DB.md",
-    "DB/Redis/복제와 클러스터.md",
     "DB/Redis",
     "DB/NOSQL.md",
     "DB/DB 정규화.md",
@@ -189,9 +191,7 @@
     "Unused/Attached files/Pasted image 20240910222632.png",
     "Unused/Attached files/Pasted image 20240910222619.png",
     "Unused/Attached files/Pasted image 20240910222539.png",
-    "Unused/Attached files/Pasted image 20240910222029.png",
     "독서록/읽고 싶은 책 List.md",
-    "Unused/Attached files/Pasted image 20240910172346.png",
     "전공 공부/리눅스 프로그래밍/CH01 BASIC.md",
     "전공 공부/논리 회로/Widmer_C1.md",
     "전공 공부/논리 회로",
