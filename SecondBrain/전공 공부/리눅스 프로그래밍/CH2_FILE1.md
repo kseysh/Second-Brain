@@ -174,4 +174,17 @@ offset: start_flag로부터의 바이트 수
 • dup2 호출 후: 원래 fd4 항목이 닫히고, fd4는 이제 fd3의 파일 테이블 항목을 복제합니다.
 
 ## `fcntl` system call
-이미 열려 있는 파일의 속성을 변경할 수 있습니다.
+
+	이미 열려 있는 파일의 속성을 변경하는 함수
+
+![[Pasted image 20240910223732.png]]
+
+• `cmd`: 프로그래머가 특정 기능을 선택하기 위해 정수 cmd 인자에 값을 설정함
+• `F_DUPFD`: 기존 디스크립터 복제
+• `F_GETFD`. `F_SETFD`: 파일 디스크립터 플래그 가져오기/설정하기
+• `F_GETFL` , `F_SETFL`: 파일 상태 플래그 가져오기/설정하기
+• `F_GETOWN` , `F_SETOWN`: 비동기 입출력 소유권 가져오기/설정하기
+• `F_GETLK`, `F_SETLK` , `F_SETLKW`: 레코드 잠금 가져오기/설정하기
+
+![[Pasted image 20240910223852.png]]
+![[Pasted image 20240910223902.png|300]]
