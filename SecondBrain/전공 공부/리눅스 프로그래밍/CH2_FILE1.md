@@ -84,3 +84,18 @@ File security permission을 위해 사용된다.
 ![[Pasted image 20240909180143.png]]
 # `creat` system call
 ![[Pasted image 20240910152131.png]]
+- 파일을 생성할 때는 주로 `open` 함수를 사용하지만 대체 방법으로서 `creat`함수를 사용할 수도 있다.
+- 만약 지정된 경로에 파일이 이미 존재한다면, mode(파일의 권한을 설정)는 무시된다. (이미 존재하는 파일의 권한을 변경하지 않는다.)
+- 
+### open과 creat의 차이점
+- 파일을 항상 쓰기 전용으로 연다. 읽기 전용으로 열 수 없다. (`O_WRONLY`)
+- 파일이 이미 존재하는 경우 파일 내용을 모두 지우고 파일 디스크립터를 반환한다. (`O_TRUNC`)
+- 존재하지 않으면 파일을 생성한다. (`O_CREAT`)
+![[Pasted image 20240910152654.png]]
+
+## `close` system call
+열린 파일은 `close`를 통해서만 닫을 수 있음
+모든 열린 파일은 프로그램 실행이 끝나면 자동적으로 닫혀야 한다.
+![[Pasted image 20240910153114.png]]
+
+## `read` system call
