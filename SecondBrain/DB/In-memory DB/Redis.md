@@ -14,6 +14,7 @@
 ![[Pasted image 20240910235147.png]]
 KEYS, FLUSHALL, FLUSHDB, Delete Collections, Get All Collections와 같은 시간 복잡도가 O(n)인 명령어의 경우에는 해당 명령이 처리될 때까지 다음 명령어들이 대기 상태로 전환되는 문제가 발생한다.
 => Redis가 성능 저하의 원인이 될 수도 있다
+=> 하지만 Race Condition에서 유리하다.
 
 ### 메모리 관리
 메모리의 특성상 메모리 단편화가 발생한다.
