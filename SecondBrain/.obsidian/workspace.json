@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "전공 공부/문해기/문해기.md",
+                "file": "DB/MySQL vs. PostgreSQL.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "전공 공부/문해기/문해기.md",
+                "file": "DB/MySQL vs. PostgreSQL.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "전공 공부/문해기/문해기.md",
+                "file": "DB/MySQL vs. PostgreSQL.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "전공 공부/문해기/문해기.md"
+                "file": "DB/MySQL vs. PostgreSQL.md"
               }
             }
           },
@@ -171,8 +171,17 @@
   },
   "active": "c83867f235cb94a0",
   "lastOpenFiles": [
-    "전공 공부/문해기/Week 1.md",
+    "DB/SQLD/데이터 모델링의 이해.md",
+    "DB/SQLD/엔터티.md",
+    "DB/SQLD/속성.md",
+    "DB/SQLD/관계.md",
+    "DB/SQLD/식별자.md",
+    "DB/SQLD/정규화.md",
+    "DB/SQLD/SQL 기본.md",
+    "DB/SQLD/SQL 활용.md",
+    "DB/SQLD/관리구문.md",
     "전공 공부/문해기/문해기.md",
+    "전공 공부/문해기/Week 1.md",
     "전공 공부/문해기",
     "DB/In-memory DB/캐시 쓰기 전략.md",
     "Unused/Attached files/Pasted image 20240911000845.png",
@@ -198,19 +207,10 @@
     "DB/비관적 락.md",
     "DB/낙관적 락.md",
     "DB/MySQL vs. PostgreSQL.md",
-    "전공 공부/리눅스 프로그래밍/CH2_FILE1.md",
     "Unused/Attached files/Pasted image 20240910223902.png",
     "Unused/Attached files/Pasted image 20240910223852.png",
-    "독서록/읽고 싶은 책 List.md",
-    "전공 공부/리눅스 프로그래밍/CH01 BASIC.md",
-    "전공 공부/논리 회로/Widmer_C1.md",
     "전공 공부/논리 회로",
-    "전공 공부/컴퓨터 네트워크/7 Layers 수업 내용 요약.md",
     "전공 공부/리눅스 프로그래밍",
-    "전공 공부/컴퓨터 네트워크/7 Layers 정리.md",
-    "네트워크/HTTP/멱등성.md",
-    "네트워크/HTTP/Status code가 body에도 들어가는 이유.md",
-    "네트워크/HTTP/HTTP message의 구조.md",
     "알고리즘/C++ 문법",
     "전공 공부/컴퓨터 네트워크",
     "Spring/스프링 강의/모든 개발자를 위한 HTTP 웹 기본 지식/HTTP Header",
