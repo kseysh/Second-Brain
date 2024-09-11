@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DB/MySQL vs. PostgreSQL.md",
+                "file": "Develop/프레임워크 vs 라이브러리.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DB/MySQL vs. PostgreSQL.md",
+                "file": "Develop/프레임워크 vs 라이브러리.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "DB/MySQL vs. PostgreSQL.md",
+                "file": "Develop/프레임워크 vs 라이브러리.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DB/MySQL vs. PostgreSQL.md"
+                "file": "Develop/프레임워크 vs 라이브러리.md"
               }
             }
           },
@@ -171,6 +171,12 @@
   },
   "active": "c83867f235cb94a0",
   "lastOpenFiles": [
+    "Develop/좋은 함수 만들기.md",
+    "Develop/의존성.md",
+    "Develop/객체의 상속과 합성 (미완성).md",
+    "Develop/FCM.md",
+    "Develop/TDD 리팩토링.md",
+    "DB/MySQL vs. PostgreSQL.md",
     "DB/SQLD/데이터 모델링의 이해.md",
     "DB/SQLD/엔터티.md",
     "DB/SQLD/속성.md",
@@ -198,15 +204,9 @@
     "DB/In-memory DB/AWS ElastiCache.md",
     "DB/In-memory DB/Redis vs Memcached.md",
     "DB/In-memory DB/In-memory DB.md",
-    "DB/In-memory DB/복제와 클러스터.md",
     "Unused/Attached files/Pasted image 20240910225522.png",
     "Unused/Attached files/Pasted image 20240910224924.png",
     "DB/In-memory DB",
-    "DB/NOSQL.md",
-    "DB/DB 정규화.md",
-    "DB/비관적 락.md",
-    "DB/낙관적 락.md",
-    "DB/MySQL vs. PostgreSQL.md",
     "Unused/Attached files/Pasted image 20240910223902.png",
     "Unused/Attached files/Pasted image 20240910223852.png",
     "전공 공부/논리 회로",
