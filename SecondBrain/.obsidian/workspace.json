@@ -18,8 +18,17 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "42a56cc275a63e36",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -87,7 +96,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DB/In-memory DB/복제와 클러스터.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +112,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "DB/In-memory DB/복제와 클러스터.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,9 +133,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "DB/In-memory DB/복제와 클러스터.md"
-              }
+              "state": {}
             }
           },
           {
@@ -171,8 +176,9 @@
       "obsidian-file-cleaner:Clean files": false
     }
   },
-  "active": "c83867f235cb94a0",
+  "active": "42a56cc275a63e36",
   "lastOpenFiles": [
+    "DB/In-memory DB/복제와 클러스터.md",
     "전공 공부/지난 학기/오픈소스응용프로그래밍/중간고사/소프트웨어 공학 및 개발론 개요.md",
     "DB/In-memory DB/우아한 레디스.md",
     "Unused/Attached files/Pasted image 20240911173549.png",
@@ -209,7 +215,6 @@
     "전공 공부/문해기",
     "DB/In-memory DB/캐시 쓰기 전략.md",
     "DB/In-memory DB/캐시 읽기 전략.md",
-    "프로젝트/SOPT Makers APP/친구 추천 api 로직 개선하기 - 1.md",
     "DB/In-memory DB",
     "전공 공부/논리 회로",
     "전공 공부/리눅스 프로그래밍",
