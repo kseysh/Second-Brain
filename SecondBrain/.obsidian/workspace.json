@@ -69,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 237.50260543823242,
-    "collapsed": true
+    "width": 237.50260543823242
   },
   "right": {
     "id": "feabab388e8825fc",
@@ -172,6 +171,7 @@
   },
   "active": "c83867f235cb94a0",
   "lastOpenFiles": [
+    "Unused/Attached files/Pasted image 20240911162749.png",
     "DB/In-memory DB/Redis.md",
     "DB/In-memory DB/우아한 레디스.md",
     "Develop/프레임워크 vs 라이브러리.md",
@@ -204,7 +204,6 @@
     "Unused/Attached files/Pasted image 20240910235436.png",
     "Unused/Attached files/Pasted image 20240910235147.png",
     "DB/In-memory DB/Memcached.md",
-    "DB/In-memory DB/AWS ElastiCache.md",
     "Unused/Attached files/Pasted image 20240910225522.png",
     "Unused/Attached files/Pasted image 20240910224924.png",
     "DB/In-memory DB",
