@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "전공 공부/문해기.md",
+                "file": "전공 공부/문해기/문해기.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "전공 공부/문해기.md",
+                "file": "전공 공부/문해기/문해기.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "전공 공부/문해기.md",
+                "file": "전공 공부/문해기/문해기.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "전공 공부/문해기.md"
+                "file": "전공 공부/문해기/문해기.md"
               }
             }
           },
@@ -171,8 +171,10 @@
   },
   "active": "c83867f235cb94a0",
   "lastOpenFiles": [
+    "전공 공부/문해기/Week 1.md",
+    "전공 공부/문해기/문해기.md",
+    "전공 공부/문해기",
     "DB/In-memory DB/캐시 쓰기 전략.md",
-    "전공 공부/문해기.md",
     "Unused/Attached files/Pasted image 20240911000845.png",
     "Unused/Attached files/Pasted image 20240911000529.png",
     "Unused/Attached files/Pasted image 20240911000049.png",
@@ -215,7 +217,6 @@
     "Spring/스프링 강의/모든 개발자를 위한 HTTP 웹 기본 지식",
     "Spring/스프링 강의",
     "Spring/스프링 강의/스프링 핵심 원리",
-    "알고리즘 (with JAVA)/풀이/Programmers/맞은 문제/무제 폴더",
     "무제 파일.canvas"
   ]
 }
