@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DB/In-memory DB/우아한 레디스.md",
+                "file": "DB/In-memory DB/Redis.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DB/In-memory DB/우아한 레디스.md",
+                "file": "DB/In-memory DB/Redis.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "DB/In-memory DB/우아한 레디스.md",
+                "file": "DB/In-memory DB/Redis.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DB/In-memory DB/우아한 레디스.md"
+                "file": "DB/In-memory DB/Redis.md"
               }
             }
           },
@@ -171,10 +171,12 @@
   },
   "active": "c83867f235cb94a0",
   "lastOpenFiles": [
+    "DB/In-memory DB/In-memory DB.md",
+    "DB/In-memory DB/Redis Replication.md",
+    "DB/In-memory DB/우아한 레디스.md",
     "Unused/Attached files/Pasted image 20240911163319.png",
     "Unused/Attached files/Pasted image 20240911162749.png",
     "DB/In-memory DB/Redis.md",
-    "DB/In-memory DB/우아한 레디스.md",
     "Develop/프레임워크 vs 라이브러리.md",
     "Develop/좋은 함수 만들기.md",
     "Develop/의존성.md",
@@ -204,11 +206,9 @@
     "Unused/Attached files/Pasted image 20240910235620.png",
     "Unused/Attached files/Pasted image 20240910235436.png",
     "Unused/Attached files/Pasted image 20240910235147.png",
-    "DB/In-memory DB/Memcached.md",
     "Unused/Attached files/Pasted image 20240910225522.png",
     "Unused/Attached files/Pasted image 20240910224924.png",
     "DB/In-memory DB",
-    "Unused/Attached files/Pasted image 20240910223902.png",
     "전공 공부/논리 회로",
     "전공 공부/리눅스 프로그래밍",
     "알고리즘/C++ 문법",

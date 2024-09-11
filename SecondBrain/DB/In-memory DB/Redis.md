@@ -26,3 +26,10 @@ KEYS, FLUSHALL, FLUSHDB, Delete Collections, Get All Collections와 같은 시�
 Persistence 기능(메모리에 저장된 데이터를 디스크에 영속화하는 기능)은 장애 발생 가능성이 높다.
 따라서 데이터가 유실되어도 치명적인 문제가 없다면, Persistence 기능을 제거하는 것이 좋다.
 ![[Pasted image 20240910235620.png]]
+
+## redis.conf 권장 설정
+Maxclient 설정 50000
+RDB/AOF 설정 off
+특정 commands disable
+- keys
+적절한 ziplist 설정
