@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DB/In-memory DB/Redis.md",
+                "file": "DB/In-memory DB/우아한 레디스.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DB/In-memory DB/Redis.md",
+                "file": "DB/In-memory DB/우아한 레디스.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "DB/In-memory DB/Redis.md",
+                "file": "DB/In-memory DB/우아한 레디스.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DB/In-memory DB/Redis.md"
+                "file": "DB/In-memory DB/우아한 레디스.md"
               }
             }
           },
@@ -171,12 +171,12 @@
   },
   "active": "c83867f235cb94a0",
   "lastOpenFiles": [
+    "DB/In-memory DB/Redis.md",
     "DB/In-memory DB/In-memory DB.md",
     "DB/In-memory DB/Redis Replication.md",
     "DB/In-memory DB/우아한 레디스.md",
     "Unused/Attached files/Pasted image 20240911163319.png",
     "Unused/Attached files/Pasted image 20240911162749.png",
-    "DB/In-memory DB/Redis.md",
     "Develop/프레임워크 vs 라이브러리.md",
     "Develop/좋은 함수 만들기.md",
     "Develop/의존성.md",
