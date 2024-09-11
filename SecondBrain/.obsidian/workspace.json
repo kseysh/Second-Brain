@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DB/In-memory DB/캐시 쓰기 전략.md",
+                "file": "전공 공부/문해기.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DB/In-memory DB/캐시 쓰기 전략.md",
+                "file": "전공 공부/문해기.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "DB/In-memory DB/캐시 쓰기 전략.md",
+                "file": "전공 공부/문해기.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DB/In-memory DB/캐시 쓰기 전략.md"
+                "file": "전공 공부/문해기.md"
               }
             }
           },
@@ -171,11 +171,12 @@
   },
   "active": "c83867f235cb94a0",
   "lastOpenFiles": [
+    "DB/In-memory DB/캐시 쓰기 전략.md",
+    "전공 공부/문해기.md",
     "Unused/Attached files/Pasted image 20240911000845.png",
     "Unused/Attached files/Pasted image 20240911000529.png",
     "Unused/Attached files/Pasted image 20240911000049.png",
     "DB/In-memory DB/캐시 읽기 전략.md",
-    "DB/In-memory DB/캐시 쓰기 전략.md",
     "프로젝트/SOPT Makers APP/친구 추천 api 로직 개선하기 - 1.md",
     "프로젝트/SOPT Makers APP/친구 추천 api 로직 개선하기 - 2.md",
     "DB/In-memory DB/Redis.md",
@@ -198,12 +199,10 @@
     "전공 공부/리눅스 프로그래밍/CH2_FILE1.md",
     "Unused/Attached files/Pasted image 20240910223902.png",
     "Unused/Attached files/Pasted image 20240910223852.png",
-    "Unused/Attached files/Pasted image 20240910223732.png",
     "독서록/읽고 싶은 책 List.md",
     "전공 공부/리눅스 프로그래밍/CH01 BASIC.md",
     "전공 공부/논리 회로/Widmer_C1.md",
     "전공 공부/논리 회로",
-    "전공 공부/무제 파일.md",
     "전공 공부/컴퓨터 네트워크/7 Layers 수업 내용 요약.md",
     "전공 공부/리눅스 프로그래밍",
     "전공 공부/컴퓨터 네트워크/7 Layers 정리.md",
