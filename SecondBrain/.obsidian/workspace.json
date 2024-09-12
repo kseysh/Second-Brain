@@ -23,8 +23,12 @@
             "id": "42a56cc275a63e36",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "전공 공부/리눅스 프로그래밍/CH2_FILE1.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ],
@@ -57,7 +61,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "가용성",
+                "query": "lseek",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -79,8 +83,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 237.50260543823242,
-    "collapsed": true
+    "width": 237.50260543823242
   },
   "right": {
     "id": "feabab388e8825fc",
@@ -96,6 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "전공 공부/리눅스 프로그래밍/CH2_FILE1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,6 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "전공 공부/리눅스 프로그래밍/CH2_FILE1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +138,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "전공 공부/리눅스 프로그래밍/CH2_FILE1.md"
+              }
             }
           },
           {
@@ -178,6 +185,7 @@
   },
   "active": "42a56cc275a63e36",
   "lastOpenFiles": [
+    "DB/In-memory DB/In-memory DB.md",
     "DB/In-memory DB/복제와 클러스터.md",
     "전공 공부/지난 학기/오픈소스응용프로그래밍/중간고사/소프트웨어 공학 및 개발론 개요.md",
     "DB/In-memory DB/우아한 레디스.md",
@@ -190,7 +198,6 @@
     "Unused/Attached files/Pasted image 20240911172034.png",
     "Unused/Attached files/Pasted image 20240911171623.png",
     "DB/In-memory DB/Redis.md",
-    "DB/In-memory DB/In-memory DB.md",
     "DB/In-memory DB/Redis Replication.md",
     "Unused/Attached files/Pasted image 20240911163319.png",
     "Unused/Attached files/Pasted image 20240911162749.png",
