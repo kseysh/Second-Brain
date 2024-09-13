@@ -25,8 +25,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "전공 공부/논리 회로/Widmer_C2 번역.md",
-                "mode": "source",
+                "file": "알고리즘/풀이/오늘 푼 문제들.md",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "전공 공부/논리 회로/Widmer_C2 번역.md",
+                "file": "알고리즘/풀이/오늘 푼 문제들.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "전공 공부/논리 회로/Widmer_C2 번역.md",
+                "file": "알고리즘/풀이/오늘 푼 문제들.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "전공 공부/논리 회로/Widmer_C2 번역.md"
+                "file": "알고리즘/풀이/오늘 푼 문제들.md"
               }
             }
           },
@@ -184,6 +184,13 @@
   },
   "active": "42a56cc275a63e36",
   "lastOpenFiles": [
+    "Unused/Attached files/Pasted image 20240913224728.png",
+    "Unused/Attached files/Pasted image 20240913224721.png",
+    "Unused/Attached files/Pasted image 20240913224705.png",
+    "Unused/Attached files/Pasted image 20240913224655.png",
+    "Unused/Attached files/Pasted image 20240913224639.png",
+    "Unused/Attached files/Pasted image 20240913224628.png",
+    "전공 공부/문해기/문해기.md",
     "전공 공부/논리 회로/Widmer_C2.md",
     "전공 공부/논리 회로/Widmer_C2 번역.md",
     "Unused/Attached files/Pasted image 20240913220505.png",
@@ -199,11 +206,6 @@
     "Unused/Attached files/Pasted image 20240911173549.png",
     "Unused/Attached files/Pasted image 20240911173532.png",
     "Unused/Attached files/Pasted image 20240911173435.png",
-    "Unused/Attached files/Pasted image 20240911173352.png",
-    "Unused/Attached files/Pasted image 20240911173300.png",
-    "Unused/Attached files/Pasted image 20240911173028.png",
-    "Unused/Attached files/Pasted image 20240911172034.png",
-    "Unused/Attached files/Pasted image 20240911171623.png",
     "DB/In-memory DB/Redis.md",
     "DB/In-memory DB/Redis Replication.md",
     "Develop/프레임워크 vs 라이브러리.md",
@@ -219,8 +221,6 @@
     "DB/SQLD/관계.md",
     "DB/SQLD/식별자.md",
     "DB/SQLD/정규화.md",
-    "DB/SQLD/SQL 기본.md",
-    "DB/SQLD/SQL 활용.md",
     "전공 공부/문해기",
     "DB/In-memory DB",
     "전공 공부/논리 회로",
