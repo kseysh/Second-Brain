@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "전공 공부/컴퓨터 네트워크/컴퓨터 네트워크 실습.md",
+                "file": "네트워크/ISP.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 237.50260543823242,
-    "collapsed": true
+    "width": 237.50260543823242
   },
   "right": {
     "id": "feabab388e8825fc",
@@ -86,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "전공 공부/컴퓨터 네트워크/컴퓨터 네트워크 실습.md",
+                "file": "네트워크/ISP.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "전공 공부/컴퓨터 네트워크/컴퓨터 네트워크 실습.md",
+                "file": "네트워크/ISP.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "전공 공부/컴퓨터 네트워크/컴퓨터 네트워크 실습.md"
+                "file": "네트워크/ISP.md"
               }
             }
           },
@@ -172,8 +171,20 @@
   },
   "active": "882cc47b432f8fee",
   "lastOpenFiles": [
-    "Unused/Attached files/Pasted image 20240916003543.png",
+    "Unused/Attached files/Pasted image 20240916005144.png",
+    "네트워크/LAN WAN.md",
+    "네트워크/ISP.md",
+    "네트워크/HTTP/프론트와 백엔드의 쿠키 공유.md",
+    "네트워크/HTTP/인증 과정에서 쿠키를 사용하는 이유.md",
+    "네트워크/HTTP/서버 인증의 종류.md",
+    "네트워크/HTTP/멱등성.md",
+    "네트워크/HTTP/Status code가 body에도 들어가는 이유.md",
+    "네트워크/HTTP/Safe.md",
+    "네트워크/HTTP/JWT.md",
+    "네트워크/HTTP/HTTP message의 구조.md",
+    "네트워크/HTTP/Cacheability.md",
     "전공 공부/컴퓨터 네트워크/컴퓨터 네트워크 실습.md",
+    "Unused/Attached files/Pasted image 20240916003543.png",
     "전공 공부/컴퓨터 네트워크/TCP 정리.md",
     "Unused/Attached files/Pasted image 20240915232219.png",
     "Unused/Attached files/Pasted image 20240915231643.png",
@@ -197,17 +208,6 @@
     "전공 공부/문해기/C++ 문법",
     "DB/In-memory DB/In-memory DB.md",
     "DB/In-memory DB/복제와 클러스터.md",
-    "전공 공부/지난 학기/오픈소스응용프로그래밍/중간고사/소프트웨어 공학 및 개발론 개요.md",
-    "DB/In-memory DB/우아한 레디스.md",
-    "DB/In-memory DB/Redis.md",
-    "DB/In-memory DB/Redis Replication.md",
-    "Develop/프레임워크 vs 라이브러리.md",
-    "Develop/좋은 함수 만들기.md",
-    "Develop/의존성.md",
-    "Develop/객체의 상속과 합성 (미완성).md",
-    "Develop/FCM.md",
-    "Develop/TDD 리팩토링.md",
-    "DB/MySQL vs. PostgreSQL.md",
     "전공 공부/문해기",
     "DB/In-memory DB",
     "전공 공부/논리 회로",
