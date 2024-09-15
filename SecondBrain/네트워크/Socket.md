@@ -24,5 +24,18 @@ TCP/IP stack은 아래와 같이 구현될 수 있다.
 - 대부분의 시스템은 socket 형태로 네트워크 기능을 제공한다.
 - 보통 socket을 직접 조작해서 통신 기능을 구현할 일은 적다.
 	- application layer의 프로토콜은 보통 라이브러리나 모듈 형태로 해당 기능이 제공되는데, 이 때 내부를 열어보면 소켓을 활용해서 프로토콜을 구현했음을 알 수 있다.
-- 
 
+### 프로토콜 표준에서 정의한 것 처럼 socket은 \<protocol, IP, port>로 유니크하게 식별되는가?
+UDP는 맞지만, TCP는 그렇지 않다.
+
+#### TCP socket 동작 방식
+서버는 클라이언트가 connection 맺는 요청을 기다리는 listening socket이 있어야 한다.
+client가 서버에게 connection을 맺자는 요청이 오면, 3-way-handshake를 통해 서버와 connection을 맺는다.
+connection이 성립되면 서버는 다른 socket을 만든다. 
+client는 서버가 만든 새로운 socket과 통신한다.
+
+다른 client가 오면 listening socket을 통해 connectino을 맺고, 서버는 또 다른 socket을 만들어 다른 client와 통신한다.
+![[Pasted image 20240916025459.png|400]]
+#### 그렇다면, 어떻게 socket을 식별할까?
+connection 연결 요청: listening socket으로 요청한다.
+conneciton이 성립된 이후: \<src IP, src port, dest IP, dest port>로 socket을 식별한다. (세 개의 )
