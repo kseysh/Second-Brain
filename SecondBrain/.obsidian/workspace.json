@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "전공 공부/문해기/문해기.md",
+                "file": "전공 공부/문해기/Week 2.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "전공 공부/문해기/문해기.md",
+                "file": "전공 공부/문해기/Week 2.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "전공 공부/문해기/문해기.md",
+                "file": "전공 공부/문해기/Week 2.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "전공 공부/문해기/문해기.md"
+                "file": "전공 공부/문해기/Week 2.md"
               }
             }
           },
@@ -171,7 +171,8 @@
   },
   "active": "882cc47b432f8fee",
   "lastOpenFiles": [
-    "전공 공부/문해기/Week 1.md",
+    "전공 공부/문해기/문해기.md",
+    "전공 공부/문해기/Week 2.md",
     "전공 공부/논리 회로/Widmer_C2.md",
     "Unused/Attached files/Pasted image 20240913231419.png",
     "Unused/Attached files/Pasted image 20240913225556.png",
@@ -184,7 +185,6 @@
     "Unused/Attached files/Pasted image 20240913224721.png",
     "Unused/Attached files/Pasted image 20240913224705.png",
     "Unused/Attached files/Pasted image 20240913224655.png",
-    "전공 공부/문해기/문해기.md",
     "전공 공부/논리 회로/Widmer_C2 번역.md",
     "전공 공부/문해기/C++ 문법/우선 순위 큐.md",
     "전공 공부/문해기/C++ 문법/string to int.md",
