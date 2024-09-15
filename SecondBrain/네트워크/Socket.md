@@ -38,4 +38,13 @@ client는 서버가 만든 새로운 socket과 통신한다.
 ![[Pasted image 20240916025459.png|400]]
 #### 그렇다면, 어떻게 socket을 식별할까?
 connection 연결 요청: listening socket으로 요청한다.
-conneciton이 성립된 이후: \<src IP, src port, dest IP, dest port>로 socket을 식별한다. (세 개의 )
+conneciton이 성립된 이후: \<src IP, src port, dest IP, dest port>로 socket을 식별한다. (세 개의 TCP socket이 dest IP address와 dest port number가 동일하므로 src IP와 src port로 socket을 식별한다.)
+#### 클라이언트 쪽에서도 같은 IP와 port를 가지는 서로 다른 TCP 소켓이 생길 수 있다.
+![[Pasted image 20240916030447.png|300]]
+클라이언트에서는 OS level에서 port와 IP를 bind해주는데, 이는 사용되지 않는 port number를 확인하여 bind 해준다.
+그래서 사용되지 않는 port number가 없다면 client의 서로 다른 socket이 동일한 IP와 port를 가질 수 있다.
+이 때 서버에 connection을 맺자는 요청을 같은 서버에 또 보내게 되면 그 connection은 이루어지지 않도록 TCP 스펙상 만들어져있다.
+### UDP 소켓은 프로토콜 표준에 맞게 IP와 port가 unique하다.
+![[Pasted image 20240916030405.png|300]]
+- UDP socket에서 데이터를 보낼 때 어느 UDP socket으로 보낼지 지정할 수 있다.
+- UDP socket에서 데이터를 읽을 때 어느 UDP socket으로부터 왔는지 알 수 있다.
