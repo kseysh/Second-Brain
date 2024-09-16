@@ -18,21 +18,8 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "7687af008bc051bb",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "네트워크/Socket.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -183,7 +170,7 @@
       "obsidian-file-cleaner:Clean files": false
     }
   },
-  "active": "7687af008bc051bb",
+  "active": "882cc47b432f8fee",
   "lastOpenFiles": [
     "Unused/Attached files/Pasted image 20240916030447.png",
     "Unused/Attached files/Pasted image 20240916030405.png",
