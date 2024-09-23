@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "전공 공부/컴퓨터 네트워크/TCP 정리.md",
+                "file": "전공 공부/컴퓨터 네트워크/컴퓨터 네트워크 실습.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 237.50260543823242,
-    "collapsed": true
+    "width": 237.50260543823242
   },
   "right": {
     "id": "feabab388e8825fc",
@@ -86,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "전공 공부/컴퓨터 네트워크/TCP 정리.md",
+                "file": "전공 공부/컴퓨터 네트워크/컴퓨터 네트워크 실습.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "전공 공부/컴퓨터 네트워크/TCP 정리.md",
+                "file": "전공 공부/컴퓨터 네트워크/컴퓨터 네트워크 실습.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "전공 공부/컴퓨터 네트워크/TCP 정리.md"
+                "file": "전공 공부/컴퓨터 네트워크/컴퓨터 네트워크 실습.md"
               }
             }
           },
@@ -172,18 +171,18 @@
   },
   "active": "882cc47b432f8fee",
   "lastOpenFiles": [
+    "전공 공부/컴퓨터 네트워크/TCP 정리.md",
+    "Unused/Attached files/Pasted image 20240924013837.png",
+    "Unused/Attached files/Pasted image 20240924013348.png",
     "전공 공부/컴퓨터 네트워크/컴퓨터 네트워크 실습.md",
     "Unused/Attached files/Pasted image 20240924013131.png",
     "Unused/Attached files/Pasted image 20240924013115.png",
-    "전공 공부/컴퓨터 네트워크/TCP 정리.md",
     "Unused/Attached files/Pasted image 20240924011944.png",
     "Unused/Attached files/Pasted image 20240924011011.png",
     "Unused/Attached files/Pasted image 20240924005019.png",
     "Unused/Attached files/Pasted image 20240924004059.png",
     "Unused/Attached files/Pasted image 20240924001817.png",
     "Unused/Attached files/Pasted image 20240924001446.png",
-    "Unused/Attached files/Pasted image 20240923235851.png",
-    "Unused/Attached files/Pasted image 20240923233720.png",
     "알고리즘/풀이/오늘 푼 문제들.md",
     "Temp.md",
     "DB/In-memory DB/Redis.md",

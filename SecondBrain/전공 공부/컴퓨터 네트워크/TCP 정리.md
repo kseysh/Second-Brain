@@ -126,3 +126,25 @@ ACK: 종료 요청 허락
 ### 설명
 FIN만 갈 때는 데이터는 없고 sequence number를 갖는다.
 FIN + ACK이 갈 때는 데이터는 없고 sequence number를 갖는다.
+
+## socket 통신 함수
+![[Pasted image 20240924013348.png|350]]
+### server
+socket: 소켓 만드는 함수
+bind: IP 및 port 바인딩
+listen: 소켓을 전화받는 상태로 바꿈 (일반 소켓에서 서버 소켓으로 바꿈)
+accept: 상대방이 연결요청하는 것을 기다림
+연결이 다 되고 read write를 이용해 데이터를 주고 받음
+close: 연결 종료 함수
+### client
+socket: 소켓을 만든다
+connect: server로 연결요청을 한다.
+연결 요청이 다 되면 read 혹은 write 함수를 써서 데이터를 주고 받음
+close: 연결 종료 함수
+
+## Half-Close
+상대방이 종료 요청을 해도 나는 종료하지 않을 수 있다.\
+![[Pasted image 20240924013837.png|450]]
+종료 요청은 클라이언트가 먼저하는 것이 일반적이다.
+하지만 만약 서버가 더 보낼 내용이 있다면 데이터를 다 보낸 이후에 FIN을 보낸다.
+위 그림에서 현재 client는 FIN을 보낸 상태라 더 데이터를 못 보내지만 그 대신 서버는 보낼 데이터를 다 보내고 FIN을 보낸다. 클라이언트는 다른 요청은 보내지 못하지만 ACK로 응답은 해줄 수 있다.
