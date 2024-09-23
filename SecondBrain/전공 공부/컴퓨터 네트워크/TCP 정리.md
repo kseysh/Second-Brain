@@ -60,4 +60,11 @@ Receiver가 다음 번에 받고 싶은 바이트 번호
 ex) 헤더가 60byte라면 4로 나눠 1111을 HLEN으로 표기한다.
 ### Control field
 ![[Pasted image 20240923235851.png|350]]
-ACK: 보낸 패킷이 valid한지 확인하는 용도
+ACK: ACK 번호(Acknowledgment number)를 보내니까 체크해야함을 알려주는 bit (0 or 1)
+SYN: 연결 요청 패킷
+FIN: 종료 요청 패킷
+나머지는 잘 몰라도 됨
+### Reserved
+나중에 사용할 수도 있어서 추가적으로 잡아놓은 field
+### Checksum
+패킷들이 전송되다가 물리적으로 어떤 비트가 
