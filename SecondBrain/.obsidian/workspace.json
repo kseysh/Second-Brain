@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Temp.md",
+                "file": "알고리즘/풀이/오늘 푼 문제들.md",
                 "mode": "source",
                 "source": false
               }
@@ -87,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Temp.md",
+                "file": "알고리즘/풀이/오늘 푼 문제들.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Temp.md",
+                "file": "알고리즘/풀이/오늘 푼 문제들.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -127,7 +127,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Temp.md"
+                "file": "알고리즘/풀이/오늘 푼 문제들.md"
               }
             }
           },
@@ -173,6 +173,7 @@
   },
   "active": "882cc47b432f8fee",
   "lastOpenFiles": [
+    "Temp.md",
     "알고리즘/풀이/오늘 푼 문제들.md",
     "DB/In-memory DB/Redis.md",
     "Unused/Attached files/Pasted image 20240922040653.png",
@@ -180,7 +181,6 @@
     "Unused/Attached files/Pasted image 20240922040443.png",
     "Unused/Attached files/Pasted image 20240922040428.png",
     "Unused/Attached files/Pasted image 20240922040412.png",
-    "Temp.md",
     "Unused/Attached files/Pasted image 20240919230642.png",
     "DB/In-memory DB/우아한 레디스.md",
     "네트워크/Socket.md",
