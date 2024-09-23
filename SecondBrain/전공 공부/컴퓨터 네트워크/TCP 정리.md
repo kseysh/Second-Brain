@@ -70,9 +70,16 @@ FIN: 종료 요청 패킷
 패킷들이 전송되다가 물리적으로 어떤 비트가 전송중에 오류가 발생하는 것을 체크하기 위해서 필요한 것
 ![[Pasted image 20240924001817.png|400]]
 IP헤더에도 있는 값이다.
-16bit씩 가져와서 다 더하고, 보수 값(0은 1로 1은 0으로)을 취한게 checksum이다.
+Header에서 16bit씩 가져와서 다 더하고, 보수 값(0은 1로 1은 0으로)을 취한게 checksum이다.
+Receiver도 확인할 때, checksum을 빼고 더한 값이 똑같으면 전송 중에 error가 없이 들어왔다고 판단한다.
+오류가 발생했다고 판단하면 패킷 전체를 버린다.
+TCP에서는 Checksum이 필수, UDP에서는 Optional이다.
 ### Pseudoheader
 ![[Pasted image 20240924001446.png|300]]
 TCP는 헤더에 Pseudoheader라는 것을 붙인다.
 Pseudoheader에는 보내는 쪽 IP주소와 받는 쪽 IP주소를 붙인다. (이미 IP헤더에 있는 값이지만, 더 확실하게 체크하기 위해서 Pseudoheader를 붙여서 checksum을 구하고, 보낼 때는 Pseudoheader가 아닌 Header만 보낸다.)
 또한 protocol과 TCP 전체 길이를 보낸다.
+## 캡슐화
+![[Pasted image 20240924004059.png|300]]
+# TCP SetUp
+TCP는 연결하기 전에 Set up 과정을 거친다.
