@@ -49,4 +49,12 @@ sequence number는 Data의 첫 번째 byte 번호이다.
 ![[Pasted image 20240923233720.png|350]]
 Data: payload라고도 부른다.
 Sequence number: 
-Acknowledgment number: Receiver가 다음 번에 받고 싶은 바이트 번호
+### Acknowledgment number
+Receiver가 다음 번에 받고 싶은 바이트 번호
+### HLEN(header length)
+헤더가 얼마만큼의 크기를 가지는지 알기 위해 사용 
+(헤더는 기본 20byte지만 옵션을 써서 더 늘릴 수 있다. 옵션을 썼는지 확인하기 위해서는 HLEN을 확인한다.) 
+#### 특징
+비트 수를 아끼기 위해 비트를 4로 나눈 값을 사용한다. 
+따라서 4씩 증가한다. 20, 24, 28... 60
+ex) 헤더가 60byte라면 4로 나눠 1111을 HLEN으로 표기한다.
