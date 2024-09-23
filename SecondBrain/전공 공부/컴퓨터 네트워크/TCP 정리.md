@@ -1,4 +1,5 @@
 # TCP (Transmission Control Protocol)
+client는 임시 port 번호를 이용해 
 
 ## Stream delivary
 ![[Pasted image 20240915230324.png|300]]
@@ -24,13 +25,14 @@ ex) 김사장님이 비서에게 사탕 4개를 주고, 이 사탕 4개는 항�
 TCP는 보내는 각 패킷마다 번호를 붙인다. 
 번호는 랜덤으로 생성된 번호를 붙인다.
 
-
 ex)
 한 세그먼트가 1000 byte일 때, 5000byte를 보내기 위해서는 5개가 필요하다.
 시작 번호는 랜덤으로 선택하는데, 이는 10001으로 설정하였다.
 택배상자의 번호는 각 세그먼트의 시작번호로 설정한다.
-sequence number: 패킷에 부여하는 번호
+sequence number: 패킷에 있는 첫 번째 byte 번호 
 ![[Pasted image 20240915231643.png]]
 
 sequence number는 Data의 첫 번째 byte 번호이다.
-![[Pasted image 20240915232219.png]]
+![[Pasted image 20240915232219.png|350]]
+
+## TCP가 패킷을 받았을 때 응답하는 방법

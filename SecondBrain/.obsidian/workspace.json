@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "알고리즘/풀이/오늘 푼 문제들.md",
+                "file": "전공 공부/컴퓨터 네트워크/TCP 정리.md",
                 "mode": "source",
                 "source": false
               }
@@ -65,8 +65,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -87,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "알고리즘/풀이/오늘 푼 문제들.md",
+                "file": "전공 공부/컴퓨터 네트워크/TCP 정리.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "알고리즘/풀이/오늘 푼 문제들.md",
+                "file": "전공 공부/컴퓨터 네트워크/TCP 정리.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -127,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "알고리즘/풀이/오늘 푼 문제들.md"
+                "file": "전공 공부/컴퓨터 네트워크/TCP 정리.md"
               }
             }
           },
@@ -173,8 +172,8 @@
   },
   "active": "882cc47b432f8fee",
   "lastOpenFiles": [
-    "Temp.md",
     "알고리즘/풀이/오늘 푼 문제들.md",
+    "Temp.md",
     "DB/In-memory DB/Redis.md",
     "Unused/Attached files/Pasted image 20240922040653.png",
     "Unused/Attached files/Pasted image 20240922040501.png",
