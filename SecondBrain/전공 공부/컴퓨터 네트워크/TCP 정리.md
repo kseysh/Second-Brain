@@ -87,7 +87,16 @@ set up 과정을 거치고, set up이 다 되고 나서야 데이터를 보낸�
 ![[Pasted image 20240924005019.png|450]]
 서버는 먼저 실행되어서 상대방의 연결 요청을 하는 것을 기다려야 한다.
 TCP에서는 서버가 먼저 준비되어 있어야 한다.
-cli -> serv: sin = 연결 해도 돼?
-serv -> cli: ack = 연결 허락
-serv -> cli: sin = 연결 허락 패킷이 잘 갔는지 확인
-cli -> serv: ack = 패킷이 잘 왔다는 응답
+### cli -> serv `sin` 
+연결 해도 돼?
+sequence Number로 8000 전달
+### serv -> cli `ack`
+연결 허락
+ack로 8001번을 전달하여 8000번 까지 잘 받았고, 8001번부터 달라고 요청
+### serv -> cli `sin`
+연결 허락 패킷이 잘 갔는지 확인
+cli에게 패킷이 잘 갔는지 확인해야 하므로 여기에도 번호를 부여한다 (seq: 15000)
+seq는 random number(15000)로 시작해서 보낸다.
+### cli -> serv `ack`
+패킷이 잘 왔다는 응답
+control field에 S가 없어 sin은 읽지 않는다.
