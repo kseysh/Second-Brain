@@ -36,3 +36,17 @@ sequence number는 Data의 첫 번째 byte 번호이다.
 ![[Pasted image 20240915232219.png|350]]
 
 ## TCP가 패킷을 받았을 때 응답하는 방법
+![[Pasted image 20240923233232.png|300]]
+### Selective ACK
+\#101을 받았다면, ACK\#101 (101을 받았다)을 응답
+\#201을 받았다면, ACK\#201 (201을 받았다)을 응답
+- 직관적이고 보편적인 방식
+### Cumulative ACK
+\#101을 받았다면, ACK\#201 (201을 받고 싶다)을 응답 (이 전까지는 제대로 받았다는 것을 의미)
+\#201을 받았다면, ACK\#301 (301을 받고 싶다)을 응답
+- TCP가 사용하는 방식
+## TCP Header
+![[Pasted image 20240923233720.png|350]]
+Data: payload라고도 부른다.
+Sequence number: 
+Acknowledgment number: Receiver가 다음 번에 받고 싶은 바이트 번호
