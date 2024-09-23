@@ -16,6 +16,9 @@ ex) 김사장님은 비서에게 사탕 4개, 과자 3개, 음료 5개를 줌, �
 
 Buffer는 세가지 영역을 가진다. sent, not sent, empty 
 sent: tcp는 요청을 받는 쪽에서 데이터를 받지 못했을 때 다시 보내줘야 한다. 이를 위해 데이터를 보내도 이를 삭제하지 않고 카피본을 만들어둔다. (application layer에게 다시 데이터를 요청하지 않기 위해서) 이를 sent 영역이라고 한다.
+
+이 버퍼는 프로세스(port num)마다 하나씩 만들어진다.
+이 버퍼는 연결 요청 set up 된 후 에 생성되고, 연결 종료시에 사라진다.
 ### UDP
 TCP 와 다른 방식인 Boundary delivary를 이용한다.
 메시지(application layer의 packet)에서 만들어진 boundary가 전달이 될 때 유지된다.
@@ -108,7 +111,7 @@ ACK packet은 데이터를 가져가지 않고 sequence number도 사용하지 �
 TCP set up이 끝나면 데이터의 sequence number는 8001번부터 쓴다.
 
  TCP는 모든 개념을 한 그림에 담기 어려워서 그림이 담는 key point를 잘 알아야 한다. (그림 볼 때 제목도 본다.)
-
+3 way도 4 way도 가능하다. 상황에 따라 달라진다.
 ## three-way handshake 이후 데이터 전송 
 ![[Pasted image 20240924011011.png|450]]
 SYN이 가면 ACK이 오는데, request가 갈 때 어차피 헤더 ACK도 보내야 하므로 데이터를 같이 보낸다.
@@ -116,4 +119,10 @@ ACK만 갈 때 seq 번호는 의미가 없다.
 
 # TCP three-way handshake Connection termination
 ![[Pasted image 20240924011944.png|450]]
-\
+FIN: SYN처럼 연결 종료 패킷을 보내는 것
+ACK: 종료 요청 허락
+FIN: serv도 종료 요청을 하는 것
+ACK: 종료 요청 허락
+### 설명
+FIN만 갈 때는 데이터는 없고 sequence number를 갖는다.
+FIN + ACK이 갈 때는 데이터는 없고 sequence number를 갖는다.
