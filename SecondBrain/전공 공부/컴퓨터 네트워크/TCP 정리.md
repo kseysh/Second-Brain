@@ -81,7 +81,7 @@ Pseudoheader에는 보내는 쪽 IP주소와 받는 쪽 IP주소를 붙인다. (
 또한 protocol과 TCP 전체 길이를 보낸다.
 ## 캡슐화
 ![[Pasted image 20240924004059.png|300]]
-# TCP SetUp
+# TCP three-way handshake
 TCP는 연결하기 전에 Set up 과정을 거친다.
 set up 과정을 거치고, set up이 다 되고 나서야 데이터를 보낸다.
 ![[Pasted image 20240924005019.png|450]]
@@ -89,7 +89,7 @@ set up 과정을 거치고, set up이 다 되고 나서야 데이터를 보낸�
 TCP에서는 서버가 먼저 준비되어 있어야 한다.
 ### cli -> serv `sin` 
 연결 해도 돼?
-sequence Number로 8000 전달
+sequence Number로 8000 전달 (random number 생성)
 ### serv -> cli `ack`
 연결 허락
 ack로 8001번을 전달하여 8000번 까지 잘 받았고, 8001번부터 달라고 요청
@@ -100,3 +100,14 @@ seq는 random number(15000)로 시작해서 보낸다.
 ### cli -> serv `ack`
 패킷이 잘 왔다는 응답
 control field에 S가 없어 sin은 읽지 않는다.
+### 설명
+SYN packet은 데이터를 가져가지 않고 헤더만 전송된다. sequence number 하나만 사용한다.
+SYN + ACK도 데이터를 가져가지 않고 헤더만 전송된다. sequence number 하나만 사용한다.
+ACK packet은 데이터를 가져가지 않고 sequence number도 사용하지 않는다.
+
+TCP set up이 끝나면 데이터의 sequence number는 8001번부터 쓴다.
+
+ TCP는 모든 개념을 한 그림에 담기 어려워서 그림이 담는 key point를 잘 알아야 한다. (그림 볼 때 제목도 본다.)
+
+## three-way handshake 이후 데이터 전송 
+![[Pasted image 20240924011011.png|450]]
