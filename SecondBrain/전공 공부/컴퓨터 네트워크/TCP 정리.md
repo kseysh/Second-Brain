@@ -30,7 +30,7 @@ ex)
 시작 번호는 랜덤으로 선택하는데, 이는 10001으로 설정하였다.
 택배상자의 번호는 각 세그먼트의 시작번호로 설정한다.
 sequence number: 패킷에 있는 첫 번째 byte 번호 
-![[Pasted image 20240915231643.png]]
+![[Pasted image 20240915231643.png|450]]
 
 sequence number는 Data의 첫 번째 byte 번호이다.
 ![[Pasted image 20240915232219.png|350]]
@@ -81,7 +81,7 @@ Pseudoheader에는 보내는 쪽 IP주소와 받는 쪽 IP주소를 붙인다. (
 또한 protocol과 TCP 전체 길이를 보낸다.
 ## 캡슐화
 ![[Pasted image 20240924004059.png|300]]
-# TCP three-way handshake
+# TCP three-way handshake Connection Set Up
 TCP는 연결하기 전에 Set up 과정을 거친다.
 set up 과정을 거치고, set up이 다 되고 나서야 데이터를 보낸다.
 ![[Pasted image 20240924005019.png|450]]
@@ -111,3 +111,9 @@ TCP set up이 끝나면 데이터의 sequence number는 8001번부터 쓴다.
 
 ## three-way handshake 이후 데이터 전송 
 ![[Pasted image 20240924011011.png|450]]
+SYN이 가면 ACK이 오는데, request가 갈 때 어차피 헤더 ACK도 보내야 하므로 데이터를 같이 보낸다.
+ACK만 갈 때 seq 번호는 의미가 없다.
+
+# TCP three-way handshake Connection termination
+![[Pasted image 20240924011944.png|450]]
+\
