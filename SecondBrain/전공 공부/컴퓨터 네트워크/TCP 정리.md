@@ -67,4 +67,12 @@ FIN: 종료 요청 패킷
 ### Reserved
 나중에 사용할 수도 있어서 추가적으로 잡아놓은 field
 ### Checksum
-패킷들이 전송되다가 물리적으로 어떤 비트가 
+패킷들이 전송되다가 물리적으로 어떤 비트가 전송중에 오류가 발생하는 것을 체크하기 위해서 필요한 것
+![[Pasted image 20240924001817.png|400]]
+IP헤더에도 있는 값이다.
+16bit씩 가져와서 다 더하고, 보수 값(0은 1로 1은 0으로)을 취한게 checksum이다.
+### Pseudoheader
+![[Pasted image 20240924001446.png|300]]
+TCP는 헤더에 Pseudoheader라는 것을 붙인다.
+Pseudoheader에는 보내는 쪽 IP주소와 받는 쪽 IP주소를 붙인다. (이미 IP헤더에 있는 값이지만, 더 확실하게 체크하기 위해서 Pseudoheader를 붙여서 checksum을 구하고, 보낼 때는 Pseudoheader가 아닌 Header만 보낸다.)
+또한 protocol과 TCP 전체 길이를 보낸다.
