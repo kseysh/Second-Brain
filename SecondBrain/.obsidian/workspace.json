@@ -18,21 +18,8 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "1e144257a756ce38",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "알고리즘/풀이/오늘 푼 문제들.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -99,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "알고리즘/풀이/오늘 푼 문제들.md",
+                "file": "DB/In-memory DB/Redis.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "알고리즘/풀이/오늘 푼 문제들.md",
+                "file": "DB/In-memory DB/Redis.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "알고리즘/풀이/오늘 푼 문제들.md"
+                "file": "DB/In-memory DB/Redis.md"
               }
             }
           },
@@ -183,8 +170,9 @@
       "obsidian-file-cleaner:Clean files": false
     }
   },
-  "active": "1e144257a756ce38",
+  "active": "882cc47b432f8fee",
   "lastOpenFiles": [
+    "알고리즘/풀이/오늘 푼 문제들.md",
     "Unused/Attached files/Pasted image 20240922040653.png",
     "Unused/Attached files/Pasted image 20240922040501.png",
     "Unused/Attached files/Pasted image 20240922040443.png",
@@ -199,7 +187,6 @@
     "Unused/Attached files/Pasted image 20240916030405.png",
     "Unused/Attached files/Pasted image 20240916025459.png",
     "Unused/Attached files/Pasted image 20240916024253.png",
-    "Unused/Attached files/Pasted image 20240916024159.png",
     "네트워크/Connection.md",
     "네트워크/ISP.md",
     "네트워크/LAN WAN.md",
@@ -219,7 +206,6 @@
     "전공 공부/문해기/Week 2.md",
     "전공 공부/문해기/문해기.md",
     "전공 공부/논리 회로/Widmer_C2.md",
-    "알고리즘/풀이/오늘 푼 문제들.md",
     "전공 공부/논리 회로/Widmer_C2 번역.md",
     "전공 공부/문해기/C++ 문법",
     "전공 공부/문해기",
