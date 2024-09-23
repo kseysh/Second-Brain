@@ -83,3 +83,11 @@ Pseudoheader에는 보내는 쪽 IP주소와 받는 쪽 IP주소를 붙인다. (
 ![[Pasted image 20240924004059.png|300]]
 # TCP SetUp
 TCP는 연결하기 전에 Set up 과정을 거친다.
+set up 과정을 거치고, set up이 다 되고 나서야 데이터를 보낸다.
+![[Pasted image 20240924005019.png|450]]
+서버는 먼저 실행되어서 상대방의 연결 요청을 하는 것을 기다려야 한다.
+TCP에서는 서버가 먼저 준비되어 있어야 한다.
+cli -> serv: sin = 연결 해도 돼?
+serv -> cli: ack = 연결 허락
+serv -> cli: sin = 연결 허락 패킷이 잘 갔는지 확인
+cli -> serv: ack = 패킷이 잘 왔다는 응답
