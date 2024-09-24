@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "문제 설명",
+                "query": "기호",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -65,7 +65,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -209,19 +210,21 @@
   },
   "active": "882cc47b432f8fee",
   "lastOpenFiles": [
-    "Unused/Attached files/Pasted image 20240925013628.png",
-    "Unused/Attached files/Pasted image 20240925013621.png",
-    "Unused/Attached files/Pasted image 20240925013556.png",
-    "Unused/Attached files/Pasted image 20240925013542.png",
-    "Unused/Attached files/Pasted image 20240925013453.png",
-    "Unused/Attached files/Pasted image 20240925013417.png",
-    "Unused/Attached files/Pasted image 20240925013306.png",
+    "Unused/Attached files/Pasted image 20240925014628.png",
+    "Unused/Attached files/Pasted image 20240925014602.png",
+    "Unused/Attached files/Pasted image 20240925014309.png",
+    "Unused/Attached files/Pasted image 20240925014255.png",
+    "Unused/Attached files/Pasted image 20240925014233.png",
     "전공 공부/논리 회로/Widmer_C3 번역.md",
     "전공 공부/논리 회로/Widmer_C3.md",
-    "Unused/Attached files/Pasted image 20240925012840.png",
-    "Unused/Attached files/Pasted image 20240925012811.png",
-    "Unused/Attached files/Pasted image 20240925012749.png",
-    "Unused/Attached files/Pasted image 20240925012055.png",
+    "Unused/Attached files/Pasted image 20240925014148.png",
+    "전공 공부/지난 학기/이산구조/6. 일반화 된 수열과 조합.md",
+    "Obsidian/간단한 기호들.md",
+    "Unused/Attached files/Pasted image 20240925013926.png",
+    "Unused/Attached files/Pasted image 20240925013912.png",
+    "Unused/Attached files/Pasted image 20240925013857.png",
+    "Unused/Attached files/Pasted image 20240925013841.png",
+    "Unused/Attached files/Pasted image 20240925013628.png",
     "전공 공부/컴퓨터 네트워크/Chapter 1.md",
     "전공 공부/논리 회로/Widmer_C2.md",
     "전공 공부/논리 회로/Widmer_C2 번역.md",
@@ -243,8 +246,6 @@
     "네트워크/HTTP/멱등성.md",
     "네트워크/HTTP/Status code가 body에도 들어가는 이유.md",
     "네트워크/HTTP/Safe.md",
-    "네트워크/HTTP/JWT.md",
-    "네트워크/HTTP/HTTP message의 구조.md",
     "전공 공부/문해기/C++ 문법",
     "전공 공부/문해기",
     "DB/In-memory DB",
