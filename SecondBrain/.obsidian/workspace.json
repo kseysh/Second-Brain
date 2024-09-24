@@ -31,8 +31,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -99,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "전공 공부/컴퓨터 네트워크/Chapter 1.md",
+                "file": "전공 공부/컴퓨터 네트워크/Chapter 3.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "전공 공부/컴퓨터 네트워크/Chapter 1.md",
+                "file": "전공 공부/컴퓨터 네트워크/Chapter 3.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "전공 공부/컴퓨터 네트워크/Chapter 1.md"
+                "file": "전공 공부/컴퓨터 네트워크/Chapter 3.md"
               }
             }
           },
@@ -183,10 +182,12 @@
       "obsidian-file-cleaner:Clean files": false
     }
   },
-  "active": "28ec9c00999ff0c7",
+  "active": "882cc47b432f8fee",
   "lastOpenFiles": [
-    "전공 공부/컴퓨터 네트워크/Chapter 3.md",
+    "Unused/Attached files/Pasted image 20240924154717.png",
+    "Unused/Attached files/Pasted image 20240924154452.png",
     "전공 공부/컴퓨터 네트워크/Chapter 1.md",
+    "전공 공부/컴퓨터 네트워크/Chapter 3.md",
     "Unused/Attached files/Pasted image 20240924152437.png",
     "전공 공부/컴퓨터 네트워크/Chapter 2.md",
     "Unused/Attached files/Pasted image 20240924015852.png",
@@ -198,7 +199,6 @@
     "Unused/Attached files/Pasted image 20240924011944.png",
     "Unused/Attached files/Pasted image 20240924011011.png",
     "Unused/Attached files/Pasted image 20240924005019.png",
-    "Unused/Attached files/Pasted image 20240924004059.png",
     "알고리즘/풀이/오늘 푼 문제들.md",
     "Temp.md",
     "DB/In-memory DB/Redis.md",
