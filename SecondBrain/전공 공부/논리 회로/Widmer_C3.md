@@ -46,7 +46,18 @@ NOT 회로는 일반적으로 INVERTER라고 불린다.
 ![[Pasted image 20240925012055.png|400]]
 ## 불 표현식을 사용한 회로 구현
 불 표현식으로부터 논리 회로를 그릴 줄도 알아야 한다.
-
 ![[Pasted image 20240925012749.png|300]]
+하나씩 하나씩 나눠서 그려본다.
+![[Pasted image 20240925012811.png|300]]
 
+![[Pasted image 20240925012840.png|300]]
+## NOR 게이트와 NAND 게이트
+NAND와 NOR게이트의 출력은 AND또는 OR게이트 진리표의 보수를 보여준다.
+![[Pasted image 20240925013306.png|300]]
+![[Pasted image 20240925013556.png|200]]
+뒤에 동그라미가 붙어있다. 동그라미는 NOT이라고 생각하자.
+![[Pasted image 20240925013453.png|300]]
+![[Pasted image 20240925013542.png|200]]
 
+![[Pasted image 20240925013628.png|70]]을 NOR와 NAND만 사용하여 구현한 논리회로
+![[Pasted image 20240925013621.png|300]]
