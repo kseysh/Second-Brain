@@ -13,19 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "전공 공부/논리 회로/Widmer_C3 번역.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "28ec9c00999ff0c7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "전공 공부/컴퓨터 네트워크/Chapter 1.md",
+                "file": "전공 공부/논리 회로/Widmer_C3.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "전공 공부/논리 회로/Widmer_C3 번역.md",
+                "file": "전공 공부/논리 회로/Widmer_C3.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "전공 공부/논리 회로/Widmer_C3 번역.md",
+                "file": "전공 공부/논리 회로/Widmer_C3.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "전공 공부/논리 회로/Widmer_C3 번역.md"
+                "file": "전공 공부/논리 회로/Widmer_C3.md"
               }
             }
           },
@@ -182,14 +170,52 @@
       "obsidian-file-cleaner:Clean files": false
     }
   },
+  "floating": {
+    "id": "b53ba7cd390eaa59",
+    "type": "floating",
+    "children": [
+      {
+        "id": "134025a3d42d0c68",
+        "type": "window",
+        "children": [
+          {
+            "id": "03591676d1dc9b17",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "712e3f74b3421761",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "전공 공부/논리 회로/Widmer_C3 번역.md",
+                    "mode": "source",
+                    "source": false
+                  }
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "vertical",
+        "x": 0,
+        "y": 39,
+        "width": 855,
+        "height": 1068,
+        "maximize": false,
+        "zoom": 1
+      }
+    ]
+  },
   "active": "882cc47b432f8fee",
   "lastOpenFiles": [
-    "전공 공부/논리 회로/Widmer_C2.md",
     "전공 공부/논리 회로/Widmer_C3 번역.md",
+    "전공 공부/논리 회로/Widmer_C3.md",
+    "전공 공부/컴퓨터 네트워크/Chapter 1.md",
+    "전공 공부/논리 회로/Widmer_C2.md",
     "전공 공부/논리 회로/Widmer_C2 번역.md",
     "전공 공부/리눅스 프로그래밍/CH2_FILE1.md",
     "전공 공부/컴퓨터 네트워크/Chapter 3.md",
-    "전공 공부/컴퓨터 네트워크/Chapter 1.md",
     "Unused/Attached files/Pasted image 20240924160340.png",
     "Unused/Attached files/Pasted image 20240924155919.png",
     "Unused/Attached files/Pasted image 20240924154717.png",
@@ -219,7 +245,6 @@
     "네트워크/HTTP/JWT.md",
     "네트워크/HTTP/HTTP message의 구조.md",
     "네트워크/HTTP/Cacheability.md",
-    "전공 공부/컴퓨터 네트워크/7 Layers 수업 내용 요약.md",
     "전공 공부/문해기/C++ 문법",
     "전공 공부/문해기",
     "DB/In-memory DB",
