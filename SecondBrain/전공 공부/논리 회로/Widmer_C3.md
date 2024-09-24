@@ -15,4 +15,18 @@
 - HDL과 컴퓨터 프로그래밍 언어의 차이점 설명
 - 간단한 논리 게이트를 위한 HDL 파일 만들기
 - 중간 변수가 포함된 조합 회로를 위한 HDL 파일 만들기
-# 진ㄹ
+## 진리표
+![[Pasted image 20240925004805.png|300]]
+## OR 게이트
+![[Pasted image 20240925005130.png|300]]
+![[Pasted image 20240925005331.png|300]]
+## AND 게이트
+![[Pasted image 20240925005445.png|300]]
+![[Pasted image 20240925005457.png|300]]
+## NOT 연산
+![[Pasted image 20240925005624.png|100]]![[Pasted image 20240925005635.png|200]]
+![[Pasted image 20240925005654.png|200]]![[Pasted image 20240925005706.png|200]]
+NOT 회로는 일반적으로 INVERTER라고 불린다.
+
+
+
