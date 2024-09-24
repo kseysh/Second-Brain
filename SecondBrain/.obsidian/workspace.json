@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "전공 공부/컴퓨터 네트워크/Chapter 2.md",
+                "file": "전공 공부/컴퓨터 네트워크/Chapter 3.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 237.50260543823242,
-    "collapsed": true
+    "width": 237.50260543823242
   },
   "right": {
     "id": "feabab388e8825fc",
@@ -86,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "전공 공부/컴퓨터 네트워크/Chapter 2.md",
+                "file": "전공 공부/컴퓨터 네트워크/Chapter 3.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "전공 공부/컴퓨터 네트워크/Chapter 2.md",
+                "file": "전공 공부/컴퓨터 네트워크/Chapter 3.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "전공 공부/컴퓨터 네트워크/Chapter 2.md"
+                "file": "전공 공부/컴퓨터 네트워크/Chapter 3.md"
               }
             }
           },
@@ -172,9 +171,9 @@
   },
   "active": "882cc47b432f8fee",
   "lastOpenFiles": [
-    "전공 공부/컴퓨터 네트워크/Chapter 1.md",
     "전공 공부/컴퓨터 네트워크/Chapter 2.md",
-    "전공 공부/컴퓨터 네트워크/무제 파일.md",
+    "전공 공부/컴퓨터 네트워크/Chapter 3.md",
+    "전공 공부/컴퓨터 네트워크/Chapter 1.md",
     "Unused/Attached files/Pasted image 20240924015852.png",
     "전공 공부/컴퓨터 네트워크/TCP 정리.md",
     "Unused/Attached files/Pasted image 20240924013837.png",
