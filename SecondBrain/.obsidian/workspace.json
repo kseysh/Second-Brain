@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "전공 공부/논리 회로/Widmer_C3.md",
+                "file": "전공 공부/논리 회로/Widmer_C3 번역.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "전공 공부/논리 회로/Widmer_C3.md",
+                "file": "전공 공부/논리 회로/Widmer_C3 번역.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "전공 공부/논리 회로/Widmer_C3.md"
+                "file": "전공 공부/논리 회로/Widmer_C3 번역.md"
               }
             }
           },
@@ -207,21 +207,20 @@
       }
     ]
   },
-  "active": "882cc47b432f8fee",
+  "active": "712e3f74b3421761",
   "lastOpenFiles": [
-    "Unused/Attached files/Pasted image 20240925011711.png",
-    "전공 공부/논리 회로/Widmer_C3 번역.md",
     "전공 공부/논리 회로/Widmer_C3.md",
+    "Unused/Attached files/Pasted image 20240925012749.png",
+    "전공 공부/논리 회로/Widmer_C3 번역.md",
+    "Unused/Attached files/Pasted image 20240925012055.png",
+    "Unused/Attached files/Pasted image 20240925011942.png",
+    "Unused/Attached files/Pasted image 20240925011931.png",
+    "Unused/Attached files/Pasted image 20240925011711.png",
     "Unused/Attached files/Pasted image 20240925011456.png",
     "Unused/Attached files/Pasted image 20240925011446.png",
     "Unused/Attached files/Pasted image 20240925011435.png",
     "Unused/Attached files/Pasted image 20240925011418.png",
     "Unused/Attached files/Pasted image 20240925011405.png",
-    "Unused/Attached files/Pasted image 20240925005842.png",
-    "Unused/Attached files/Pasted image 20240925005706.png",
-    "Unused/Attached files/Pasted image 20240925005654.png",
-    "Unused/Attached files/Pasted image 20240925005635.png",
-    "Unused/Attached files/Pasted image 20240925005624.png",
     "전공 공부/컴퓨터 네트워크/Chapter 1.md",
     "전공 공부/논리 회로/Widmer_C2.md",
     "전공 공부/논리 회로/Widmer_C2 번역.md",
