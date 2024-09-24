@@ -13,13 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
+                "file": "전공 공부/컴퓨터 네트워크/Chapter 3.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "28ec9c00999ff0c7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
                 "file": "전공 공부/컴퓨터 네트워크/Chapter 1.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -170,12 +183,12 @@
       "obsidian-file-cleaner:Clean files": false
     }
   },
-  "active": "882cc47b432f8fee",
+  "active": "28ec9c00999ff0c7",
   "lastOpenFiles": [
     "전공 공부/컴퓨터 네트워크/Chapter 3.md",
+    "전공 공부/컴퓨터 네트워크/Chapter 1.md",
     "Unused/Attached files/Pasted image 20240924152437.png",
     "전공 공부/컴퓨터 네트워크/Chapter 2.md",
-    "전공 공부/컴퓨터 네트워크/Chapter 1.md",
     "Unused/Attached files/Pasted image 20240924015852.png",
     "전공 공부/컴퓨터 네트워크/TCP 정리.md",
     "Unused/Attached files/Pasted image 20240924013837.png",
