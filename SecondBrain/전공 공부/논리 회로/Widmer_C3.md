@@ -27,6 +27,12 @@
 ![[Pasted image 20240925005624.png|100]]![[Pasted image 20240925005635.png|200]]
 ![[Pasted image 20240925005654.png|200]]![[Pasted image 20240925005706.png|200]]
 NOT 회로는 일반적으로 INVERTER라고 불린다.
+![[Pasted image 20240925005842.png|300]]
+버튼이 눌리면 (Logic level이 1이면) NOT gate 뒤의 값이 0이고, 
+버튼이 눌리지 않으면 (Logic level이 0이면) NOT gate 뒤의 값이 1이다.
+## 논리 회로 설명
+표현식에 AND와 OR 게이트가 모두 포함된 경우, AND 연산이 먼저 수행된다. ()
+단, 표현식에 괄호가 있을 경우는 예외이다.
 
 
 
