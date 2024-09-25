@@ -188,3 +188,12 @@ offset: start_flag로부터의 바이트 수
 
 ![[Pasted image 20240910223852.png]]
 ![[Pasted image 20240910223902.png|300]]
+
+## Standard input, Standard output, Standard error
+![[Pasted image 20240925200123.png]]
+자연스럽게 standard input과 standard output으로 read write를 해준다.
+![[Pasted image 20240925200139.png]]
+keyboard input을 file로 redirection 해주는 
+![[Pasted image 20240925200149.png]]
+
+![[Pasted image 20240925200205.png]]
