@@ -209,6 +209,8 @@
   },
   "active": "882cc47b432f8fee",
   "lastOpenFiles": [
+    "전공 공부/컴퓨터 네트워크/7 Layers 수업 내용 요약.md",
+    "전공 공부/컴퓨터 네트워크/7 Layers 정리.md",
     "전공 공부/컴퓨터 네트워크/Chapter 1.md",
     "전공 공부/논리 회로/Widmer_C3.md",
     "전공 공부/논리 회로/Widmer_C3 번역.md",
@@ -243,7 +245,6 @@
     "네트워크/HTTP/서버 인증의 종류.md",
     "네트워크/HTTP/멱등성.md",
     "네트워크/HTTP/Status code가 body에도 들어가는 이유.md",
-    "네트워크/HTTP/Safe.md",
     "전공 공부/문해기/C++ 문법",
     "전공 공부/문해기",
     "DB/In-memory DB",
