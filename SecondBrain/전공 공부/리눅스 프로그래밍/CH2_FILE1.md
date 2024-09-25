@@ -204,7 +204,10 @@ standard output을 outfile로 redirection 해주는 것
 ## `io`
 ![[Pasted image 20240925200955.png|450]]
 ## 표준 I/O Library
-
+system call인 UNIX I/O는 직접 사용하기에 좋지 않기에 Standard I/O를 사용한다.
+- 자동 버퍼
+- 개발자 친화적 인터페이스
+- 효율성에 대한 걱정을 해결함 
 
 
 
