@@ -173,7 +173,7 @@ accept: ack을 받는 함수
 
 ## 상대방이 FIN을 보냈을 때 서버 소켓이 알아듣는 방법
 ![[Pasted image 20240925153538.png|400]]
-### Inform and send data in the queue plus EOF
+Inform and send data in the queue plus EOF를 설명하기 위한 그림
 
 ```cpp
 for(i=0; i<5; i++)
@@ -191,3 +191,12 @@ for(i=0; i<5; i++)
 새로운 소켓을 만들어서 read와 write를 한다. serv_sock은 연결을 받는 역할만 한다.
 read 함수: buffer에 있는 값을 한 번에 읽는다.
 상대방이 fin을 보내면 read의 return 값이 0이된다. (이외에는 0보다 크다)
+
+![[Pasted image 20240925154752.png|400]]
+서버소켓은 client1을 위한 클라이언트 소켓 하나를 만들어준다. (114에 전화하면 담당 전화상담사를 한 명 배정해준다)
+서버소켓은 client2를 위한 클라이언트 소켓 하나를 만들어준다.
+서버소켓은 client3를 위한 클라이언트 소켓 하나를 만들어준다.
+## Time
+![[Pasted image 20240925154840.png|300]]
+close를 하고 다시 syn syn/ack ack을 통해 바로 연결요청을 하는 상황이다.
+서버는 이전 연결과 이후 연결을 포트 번호로 구분한다.
