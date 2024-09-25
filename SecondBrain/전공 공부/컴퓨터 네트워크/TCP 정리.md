@@ -1,5 +1,4 @@
 # TCP (Transmission Control Protocol)
-client는 임시 port 번호를 이용해 
 
 ## Stream delivary
 ![[Pasted image 20240915230324.png|300]]
