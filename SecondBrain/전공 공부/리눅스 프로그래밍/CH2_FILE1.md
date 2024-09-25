@@ -217,6 +217,11 @@ system call인 UNIX I/O는 직접 사용하기에 좋지 않기에 Standard I/O�
 ![[Pasted image 20240925203408.png|300]]
 system call을 되도록 적게 사용하기 위해서 buffering mechanism을 사용한다.
 ## Error Handling
+system call에서 -1이 발생하면 어떤 이유로 실패했는지를 모르게 된다.
+그래서 errno에 실패한 원인에 대한 정보를 저장해두게 된다.
+근데 errno는 전역변수이기 때문에 즉시 에러를 확인하지 않으면 overwrite되어 확인하기 어렵다.
+![[Pasted image 20240925204638.png|400]]
+strerror: errnum 값을 주면, 
 
 
 
