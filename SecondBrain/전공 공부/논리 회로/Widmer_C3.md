@@ -95,3 +95,19 @@ x(y + z) = xy + xz
 ![[Pasted image 20240925014602.png|150]]
 ![[Pasted image 20240925014628.png|250]]
 ## 드모르간의 법칙
+NOR과 NAND의 대체 기호
+![[Pasted image 20240925165004.png|400]]
+![[Pasted image 20240925165045.png|400]]
+
+## NAND 및 NOR 게이트의 보편성
+NAND NOR 게이트는 OR AND INVERT의 세 가지 기본 논리 표현을 생성하는데 사용할 수 있다.
+이는 논리 회로 설계에 유연성을 제공한다.
+![[Pasted image 20240925165452.png|400]]
+![[Pasted image 20240925165515.png|400]]
+NOR 게이트는 불 연산의 모든 작업을 구현하도록 배열할 수 있다.
+
+
+
+
+
+
