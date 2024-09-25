@@ -1,3 +1,5 @@
+실습 문제는 쉽게 나옴
+퀴즈는 하위 3개 제외
 ## internet vs Internet
 ### internet
 통신 기능을 갖춘 2개 이상의 장치의 집합
@@ -60,6 +62,7 @@ Mac 주소(Physical adresses) 관리
 라우터끼리 비트를 어떻게 전송할지 결정한다.
 
 # 각 계층별 커뮤니케이션 단위 (패킷을 어떻게 명명하는지)
+문제 나왓엇음
 - Application, Presentation, Session Layer
 	- `message`
 - Transport Layer - port
