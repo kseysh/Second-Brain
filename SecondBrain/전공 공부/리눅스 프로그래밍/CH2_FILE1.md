@@ -224,6 +224,7 @@ system call에서 -1이 발생하면 어떤 이유로 실패했는지를 모르�
 `strerror`: errnum 값을 주면, 에러 메시지를 문자열로 말해주는 함수
 `perror`: 자신의 실행 값 이름과 에러 명을 출력한다.
 a.out arg1 arg2 이렇게 실행하면 main 함수에는 a.out이 argv\[0], arg1이 argv\[1], arg2가 argv\[2]가 된다.
+![[Pasted image 20240925210045.png|450]]
 
 
 
