@@ -147,3 +147,20 @@ close: 연결 종료 함수
 종료 요청은 클라이언트가 먼저하는 것이 일반적이다.
 하지만 만약 서버가 더 보낼 내용이 있다면 데이터를 다 보낸 이후에 FIN을 보낸다.
 위 그림에서 현재 client는 FIN을 보낸 상태라 더 데이터를 못 보내지만 그 대신 서버는 보낼 데이터를 다 보내고 FIN을 보낸다. 클라이언트는 다른 요청은 보내지 못하지만 ACK로 응답은 해줄 수 있다.
+
+## State transition diagram
+### client
+SYN과 SYN+ACK 사이의 상태를 이름을 지은 것 = SIN-SENT
+SYN/ACK이 되면 ACK을 보내고 ESTABLISHED 상태(데이터를 주고 받을 수 있는 상태)가 된다
+
+FIN을 보낸 상태 FIN-WAIT-1
+ACK을 받은 상태 FIN-WAIT-2
+FIN을 받은 상태 TIME-WATE (바로 끝나지 않고 MA)
+ACK을 보낸 상태 CLOSED
+### server
+SYN을 받기 전 상태 = LISTEN
+SYN을 받은 상태 SYN-SENT
+ACK을 받은 상태 ESTABLISH
+
+![[Pasted image 20240925151800.png|400]]
+![[Pasted image 20240925152032.png|400]]
