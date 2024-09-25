@@ -171,6 +171,23 @@ ACK을 받은 상태: CLOSED (버퍼 및 소켓 삭제)
 listen: syn/ack을 보내주도록 서버 소켓으로 만드는 함수
 accept: ack을 받는 함수
 
+## 상대방이 FIN을 보냈을 때 서버 소켓이 알아듣는 방법
+![[Pasted image 20240925153538.png|400]]
+### Inform and send data in the queue plus EOF
 
-
-
+```cpp
+for(i=0; i<5; i++)
+{
+	clnt_sock=accept(serv_sock, (struct sockaddr*)&clnt_adr,&clnt_adr_sz);
+	if(clnt_sock==-1)
+		error_handling("accept() error");
+	else
+		printf("Connected client %d \n", i+1);
+	while((str_len=read(clnt_sock, message, BUF_SIZE))!=0)
+		write(clnt_sock, message, str_len)
+		close(clnt_sock); // return 값이 0이 아닐 때까지 계속 read/write 한다.
+} // 들어온 값을 상대에게 다시 돌려주는 함수이다.
+```
+새로운 소켓을 만들어서 read와 write를 한다. serv_sock은 연결을 받는 역할만 한다.
+read 함수: buffer에 있는 값을 한 번에 읽는다.
+상대방이 fin을 보내면 read의 return 값이 0이된다. (이외에는 0보다 크다)
