@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "전공 공부/논리 회로/Widmer_C3.md",
+                "file": "알고리즘/C++ 문법/C++ Setting.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "전공 공부/논리 회로/Widmer_C3.md",
+                "file": "알고리즘/C++ 문법/C++ Setting.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "전공 공부/논리 회로/Widmer_C3.md",
+                "file": "알고리즘/C++ 문법/C++ Setting.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "전공 공부/논리 회로/Widmer_C3.md"
+                "file": "알고리즘/C++ 문법/C++ Setting.md"
               }
             }
           },
@@ -209,8 +209,9 @@
   },
   "active": "882cc47b432f8fee",
   "lastOpenFiles": [
-    "전공 공부/논리 회로/Widmer_C3 번역.md",
     "전공 공부/논리 회로/Widmer_C3.md",
+    "알고리즘/C++ 문법/C++ Setting.md",
+    "전공 공부/논리 회로/Widmer_C3 번역.md",
     "Unused/Attached files/Pasted image 20240925172341.png",
     "Unused/Attached files/Pasted image 20240925172246.png",
     "Unused/Attached files/Pasted image 20240925171951.png",
