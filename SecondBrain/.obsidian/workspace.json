@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "알고리즘/C++ 문법/연산자 오버로딩.md",
+                "file": "알고리즘/C++ 문법/C++ STL.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "알고리즘/C++ 문법/연산자 오버로딩.md",
+                "file": "알고리즘/C++ 문법/C++ STL.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "알고리즘/C++ 문법/연산자 오버로딩.md",
+                "file": "알고리즘/C++ 문법/C++ STL.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "알고리즘/C++ 문법/연산자 오버로딩.md"
+                "file": "알고리즘/C++ 문법/C++ STL.md"
               }
             }
           },
@@ -208,8 +208,9 @@
   },
   "active": "882cc47b432f8fee",
   "lastOpenFiles": [
-    "알고리즘/C++ 문법/C++ Setting.md",
+    "알고리즘/C++ 문법/배열 초기화.md",
     "알고리즘/C++ 문법/연산자 오버로딩.md",
+    "알고리즘/C++ 문법/C++ Setting.md",
     "전공 공부/논리 회로/Widmer_C3.md",
     "전공 공부/논리 회로/Widmer_C3 번역.md",
     "Unused/Attached files/Pasted image 20240925172341.png",
@@ -243,7 +244,6 @@
     "네트워크/LAN WAN.md",
     "네트워크/HTTP/프론트와 백엔드의 쿠키 공유.md",
     "네트워크/HTTP/인증 과정에서 쿠키를 사용하는 이유.md",
-    "네트워크/HTTP/서버 인증의 종류.md",
     "전공 공부/문해기/C++ 문법",
     "전공 공부/문해기",
     "DB/In-memory DB",
