@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "전공 공부/논리 회로/Widmer_C4 번역.md",
+                "file": "알고리즘/풀이/오늘 푼 문제들.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "전공 공부/논리 회로/Widmer_C4 번역.md",
+                "file": "알고리즘/풀이/오늘 푼 문제들.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "전공 공부/논리 회로/Widmer_C4 번역.md",
+                "file": "알고리즘/풀이/오늘 푼 문제들.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "전공 공부/논리 회로/Widmer_C4 번역.md"
+                "file": "알고리즘/풀이/오늘 푼 문제들.md"
               }
             }
           },
@@ -206,12 +206,15 @@
       }
     ]
   },
-  "active": "77e0b92a051c28ac",
+  "active": "882cc47b432f8fee",
   "lastOpenFiles": [
+    "Unused/Attached files/Pasted image 20240926163759.png",
+    "Unused/Attached files/Pasted image 20240926163713.png",
+    "전공 공부/문해기/Week 2.md",
+    "전공 공부/논리 회로/Widmer_C4 번역.md",
     "Unused/Attached files/Pasted image 20240926135215.png",
     "Unused/Attached files/Pasted image 20240926135143.png",
     "전공 공부/논리 회로/Widmer_C3 번역.md",
-    "전공 공부/논리 회로/Widmer_C4 번역.md",
     "전공 공부/논리 회로/Widmer_C4.md",
     "전공 공부/논리 회로/Widmer_C2 번역.md",
     "전공 공부/논리 회로/Widmer_C3.md",
@@ -226,8 +229,6 @@
     "Unused/Attached files/Pasted image 20240925171558.png",
     "Unused/Attached files/Pasted image 20240925171529.png",
     "Unused/Attached files/Pasted image 20240925171443.png",
-    "Unused/Attached files/Pasted image 20240925170942.png",
-    "Unused/Attached files/Pasted image 20240925170927.png",
     "전공 공부/컴퓨터 네트워크/7 Layers 수업 내용 요약.md",
     "전공 공부/컴퓨터 네트워크/TCP 정리.md",
     "전공 공부/컴퓨터 네트워크/7 Layers 정리.md",
@@ -243,7 +244,6 @@
     "DB/In-memory DB/Redis.md",
     "DB/In-memory DB/우아한 레디스.md",
     "네트워크/Socket.md",
-    "네트워크/Connection.md",
     "전공 공부/문해기/C++ 문법",
     "전공 공부/문해기",
     "DB/In-memory DB",
