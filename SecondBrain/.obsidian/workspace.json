@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "알고리즘/풀이/오늘 푼 문제들.md",
+                "file": "알고리즘/풀이/boj/틀린 문제/다시 보기만 할 문제/boj 2252 - 위상정렬.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "알고리즘/풀이/오늘 푼 문제들.md",
+                "file": "알고리즘/풀이/boj/틀린 문제/다시 보기만 할 문제/boj 2252 - 위상정렬.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "알고리즘/풀이/오늘 푼 문제들.md",
+                "file": "알고리즘/풀이/boj/틀린 문제/다시 보기만 할 문제/boj 2252 - 위상정렬.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "알고리즘/풀이/오늘 푼 문제들.md"
+                "file": "알고리즘/풀이/boj/틀린 문제/다시 보기만 할 문제/boj 2252 - 위상정렬.md"
               }
             }
           },
@@ -206,8 +206,10 @@
       }
     ]
   },
-  "active": "882cc47b432f8fee",
+  "active": "77e0b92a051c28ac",
   "lastOpenFiles": [
+    "알고리즘/풀이/오늘 푼 문제들.md",
+    "Unused/Attached files/Pasted image 20240927004710.png",
     "Unused/Attached files/Pasted image 20240926163759.png",
     "Unused/Attached files/Pasted image 20240926163713.png",
     "전공 공부/문해기/Week 2.md",
@@ -227,8 +229,6 @@
     "Unused/Attached files/Pasted image 20240925171951.png",
     "Unused/Attached files/Pasted image 20240925171930.png",
     "Unused/Attached files/Pasted image 20240925171558.png",
-    "Unused/Attached files/Pasted image 20240925171529.png",
-    "Unused/Attached files/Pasted image 20240925171443.png",
     "전공 공부/컴퓨터 네트워크/7 Layers 수업 내용 요약.md",
     "전공 공부/컴퓨터 네트워크/TCP 정리.md",
     "전공 공부/컴퓨터 네트워크/7 Layers 정리.md",
@@ -239,7 +239,6 @@
     "전공 공부/리눅스 프로그래밍/CH2_FILE1.md",
     "전공 공부/컴퓨터 네트워크/Chapter 3.md",
     "전공 공부/컴퓨터 네트워크/Chapter 2.md",
-    "알고리즘/풀이/오늘 푼 문제들.md",
     "Temp.md",
     "DB/In-memory DB/Redis.md",
     "DB/In-memory DB/우아한 레디스.md",
