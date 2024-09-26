@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "전공 공부/논리 회로/Widmer_C3.md",
+                "file": "전공 공부/논리 회로/Widmer_C4 번역.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "전공 공부/논리 회로/Widmer_C3.md",
+                "file": "전공 공부/논리 회로/Widmer_C4 번역.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "전공 공부/논리 회로/Widmer_C3.md",
+                "file": "전공 공부/논리 회로/Widmer_C4 번역.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "전공 공부/논리 회로/Widmer_C3.md"
+                "file": "전공 공부/논리 회로/Widmer_C4 번역.md"
               }
             }
           },
@@ -209,12 +209,15 @@
   },
   "active": "882cc47b432f8fee",
   "lastOpenFiles": [
+    "전공 공부/논리 회로/Widmer_C4.md",
+    "전공 공부/논리 회로/Widmer_C4 번역.md",
+    "전공 공부/논리 회로/Widmer_C2 번역.md",
+    "전공 공부/논리 회로/Widmer_C3 번역.md",
+    "전공 공부/논리 회로/Widmer_C3.md",
     "알고리즘/C++ 문법/C++ STL.md",
     "알고리즘/C++ 문법/배열 초기화.md",
     "알고리즘/C++ 문법/연산자 오버로딩.md",
     "알고리즘/C++ 문법/C++ Setting.md",
-    "전공 공부/논리 회로/Widmer_C3.md",
-    "전공 공부/논리 회로/Widmer_C3 번역.md",
     "Unused/Attached files/Pasted image 20240925172341.png",
     "Unused/Attached files/Pasted image 20240925172246.png",
     "Unused/Attached files/Pasted image 20240925171951.png",
@@ -232,7 +235,6 @@
     "전공 공부/지난 학기/이산구조/6. 일반화 된 수열과 조합.md",
     "Obsidian/간단한 기호들.md",
     "전공 공부/논리 회로/Widmer_C2.md",
-    "전공 공부/논리 회로/Widmer_C2 번역.md",
     "전공 공부/리눅스 프로그래밍/CH2_FILE1.md",
     "전공 공부/컴퓨터 네트워크/Chapter 3.md",
     "전공 공부/컴퓨터 네트워크/Chapter 2.md",
@@ -243,8 +245,6 @@
     "네트워크/Socket.md",
     "네트워크/Connection.md",
     "네트워크/ISP.md",
-    "네트워크/LAN WAN.md",
-    "네트워크/HTTP/프론트와 백엔드의 쿠키 공유.md",
     "전공 공부/문해기/C++ 문법",
     "전공 공부/문해기",
     "DB/In-memory DB",
