@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "기호",
+                "query": "querydsl",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -65,12 +65,12 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 237.50260543823242,
-    "collapsed": true
+    "width": 237.50260543823242
   },
   "right": {
     "id": "feabab388e8825fc",
@@ -170,7 +170,7 @@
       "obsidian-file-cleaner:Clean files": false
     }
   },
-  "active": "882cc47b432f8fee",
+  "active": "98b99bcebe54855a",
   "lastOpenFiles": [
     "Unused/Attached files/Pasted image 20240927031623.png",
     "Unused/Attached files/Pasted image 20240927014747.png",
