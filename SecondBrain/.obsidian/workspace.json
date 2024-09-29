@@ -69,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 237.50260543823242,
-    "collapsed": true
+    "width": 237.50260543823242
   },
   "right": {
     "id": "feabab388e8825fc",
@@ -172,11 +171,13 @@
   },
   "active": "882cc47b432f8fee",
   "lastOpenFiles": [
+    "알고리즘/이론/알고리즘 종류/우선 순위 큐.md",
+    "알고리즘/C++ 문법/우선 순위 큐.md",
+    "알고리즘/이론/알고리즘 종류/최소 신장 트리.md",
     "Unused/Attached files/Pasted image 20240930012018.png",
     "Unused/Attached files/Pasted image 20240930011825.png",
     "Unused/Attached files/Pasted image 20240930005935.png",
     "알고리즘/오늘 푼 문제들.md",
-    "알고리즘/이론/알고리즘 종류/최소 신장 트리.md",
     "Unused/Attached files/Pasted image 20240928231933.png",
     "Unused/Attached files/Pasted image 20240927031623.png",
     "Unused/Attached files/Pasted image 20240927014747.png",
@@ -188,7 +189,6 @@
     "전공 공부/문해기/Week 2.md",
     "전공 공부/논리 회로/Widmer_C4 번역.md",
     "Unused/Attached files/Pasted image 20240926135215.png",
-    "Unused/Attached files/Pasted image 20240926135143.png",
     "전공 공부/논리 회로/Widmer_C4.md",
     "전공 공부/논리 회로/Widmer_C2 번역.md",
     "전공 공부/논리 회로/Widmer_C3.md",
@@ -207,7 +207,6 @@
     "전공 공부/컴퓨터 네트워크/Chapter 3.md",
     "전공 공부/컴퓨터 네트워크/Chapter 2.md",
     "Temp.md",
-    "DB/In-memory DB/Redis.md",
     "전공 공부/문해기/C++ 문법",
     "전공 공부/문해기",
     "DB/In-memory DB",
