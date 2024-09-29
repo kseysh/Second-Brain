@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "알고리즘/오늘 푼 문제들.md",
+                "file": "알고리즘/이론/알고리즘 종류/최소 신장 트리.md",
                 "mode": "source",
                 "source": false
               }
@@ -65,12 +65,12 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 237.50260543823242
+    "width": 237.50260543823242,
+    "collapsed": true
   },
   "right": {
     "id": "feabab388e8825fc",
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "알고리즘/오늘 푼 문제들.md",
+                "file": "알고리즘/이론/알고리즘 종류/최소 신장 트리.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "알고리즘/오늘 푼 문제들.md",
+                "file": "알고리즘/이론/알고리즘 종류/최소 신장 트리.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "알고리즘/오늘 푼 문제들.md"
+                "file": "알고리즘/이론/알고리즘 종류/최소 신장 트리.md"
               }
             }
           },
@@ -172,12 +172,14 @@
   },
   "active": "882cc47b432f8fee",
   "lastOpenFiles": [
+    "Unused/Attached files/Pasted image 20240930005935.png",
+    "알고리즘/오늘 푼 문제들.md",
+    "알고리즘/이론/알고리즘 종류/최소 신장 트리.md",
     "Unused/Attached files/Pasted image 20240928231933.png",
     "Unused/Attached files/Pasted image 20240927031623.png",
     "Unused/Attached files/Pasted image 20240927014747.png",
     "알고리즘/풀이/boj/틀린 문제/다시 보기만 할 문제/boj 2252 - 위상정렬.md",
     "전공 공부/논리 회로/Widmer_C3 번역.md",
-    "알고리즘/오늘 푼 문제들.md",
     "Unused/Attached files/Pasted image 20240927004710.png",
     "Unused/Attached files/Pasted image 20240926163759.png",
     "Unused/Attached files/Pasted image 20240926163713.png",
@@ -194,7 +196,6 @@
     "알고리즘/C++ 문법/C++ Setting.md",
     "Unused/Attached files/Pasted image 20240925172341.png",
     "Unused/Attached files/Pasted image 20240925172246.png",
-    "Unused/Attached files/Pasted image 20240925171951.png",
     "전공 공부/컴퓨터 네트워크/7 Layers 수업 내용 요약.md",
     "전공 공부/컴퓨터 네트워크/TCP 정리.md",
     "전공 공부/컴퓨터 네트워크/7 Layers 정리.md",
@@ -207,7 +208,6 @@
     "전공 공부/컴퓨터 네트워크/Chapter 2.md",
     "Temp.md",
     "DB/In-memory DB/Redis.md",
-    "DB/In-memory DB/우아한 레디스.md",
     "전공 공부/문해기/C++ 문법",
     "전공 공부/문해기",
     "DB/In-memory DB",
