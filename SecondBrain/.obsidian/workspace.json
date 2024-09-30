@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "알고리즘/풀이/boj/맞은 문제/boj 1368 - 최소 신장 트리.md",
+                "file": "알고리즘/C++ 문법/C++ Setting.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "알고리즘/풀이/boj/맞은 문제/boj 1368 - 최소 신장 트리.md",
+                "file": "알고리즘/C++ 문법/C++ Setting.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "알고리즘/풀이/boj/맞은 문제/boj 1368 - 최소 신장 트리.md",
+                "file": "알고리즘/C++ 문법/C++ Setting.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "알고리즘/풀이/boj/맞은 문제/boj 1368 - 최소 신장 트리.md"
+                "file": "알고리즘/C++ 문법/C++ Setting.md"
               }
             }
           },
@@ -171,8 +171,18 @@
   },
   "active": "882cc47b432f8fee",
   "lastOpenFiles": [
-    "알고리즘/오늘 푼 문제들.md",
+    "알고리즘/C++ 문법/우선 순위 큐.md",
+    "알고리즘/C++ 문법/연산자 오버로딩.md",
+    "알고리즘/C++ 문법/C++ Setting.md",
+    "알고리즘/C++ 문법/배열 초기화.md",
+    "알고리즘/C++ 문법/C++ STL.md",
+    "알고리즘/C++ 문법/기본.md",
+    "전공 공부/문해기/C++ 문법/string to int.md",
+    "전공 공부/문해기/C++ 문법/우선 순위 큐.md",
     "알고리즘/풀이/boj/맞은 문제/boj 1368 - 최소 신장 트리.md",
+    "전공 공부/문해기/Week 2.md",
+    "전공 공부/문해기/문해기.md",
+    "알고리즘/오늘 푼 문제들.md",
     "Unused/Attached files/Pasted image 20240930143911.png",
     "전공 공부/리눅스 프로그래밍/CH3_FILE2.md",
     "전공 공부/리눅스 프로그래밍/CH2_FILE1.md",
@@ -181,7 +191,6 @@
     "알고리즘/풀이/boj/틀린 문제/다시 보기만 할 문제/boj 1197 - 최소 신장 트리.md",
     "알고리즘/이론/알고리즘 종류/최소 신장 트리.md",
     "알고리즘/이론/알고리즘 종류/우선 순위 큐.md",
-    "알고리즘/C++ 문법/우선 순위 큐.md",
     "Unused/Attached files/Pasted image 20240930012018.png",
     "Unused/Attached files/Pasted image 20240930011825.png",
     "Unused/Attached files/Pasted image 20240930005935.png",
@@ -192,21 +201,12 @@
     "전공 공부/논리 회로/Widmer_C3 번역.md",
     "Unused/Attached files/Pasted image 20240927004710.png",
     "Unused/Attached files/Pasted image 20240926163759.png",
-    "전공 공부/문해기/Week 2.md",
     "전공 공부/논리 회로/Widmer_C4 번역.md",
     "전공 공부/논리 회로/Widmer_C4.md",
     "전공 공부/논리 회로/Widmer_C2 번역.md",
     "전공 공부/논리 회로/Widmer_C3.md",
-    "알고리즘/C++ 문법/C++ STL.md",
-    "알고리즘/C++ 문법/배열 초기화.md",
-    "알고리즘/C++ 문법/연산자 오버로딩.md",
-    "알고리즘/C++ 문법/C++ Setting.md",
     "전공 공부/컴퓨터 네트워크/7 Layers 수업 내용 요약.md",
     "전공 공부/컴퓨터 네트워크/TCP 정리.md",
-    "전공 공부/컴퓨터 네트워크/7 Layers 정리.md",
-    "전공 공부/컴퓨터 네트워크/Chapter 1.md",
-    "전공 공부/지난 학기/이산구조/6. 일반화 된 수열과 조합.md",
-    "Obsidian/간단한 기호들.md",
     "전공 공부/문해기/C++ 문법",
     "전공 공부/문해기",
     "DB/In-memory DB",
