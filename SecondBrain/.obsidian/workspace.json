@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "전공 공부/리눅스 프로그래밍/CH2_FILE1.md",
+                "file": "전공 공부/리눅스 프로그래밍/CH3_FILE2.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "전공 공부/리눅스 프로그래밍/CH2_FILE1.md",
+                "file": "전공 공부/리눅스 프로그래밍/CH3_FILE2.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "전공 공부/리눅스 프로그래밍/CH2_FILE1.md",
+                "file": "전공 공부/리눅스 프로그래밍/CH3_FILE2.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "전공 공부/리눅스 프로그래밍/CH2_FILE1.md"
+                "file": "전공 공부/리눅스 프로그래밍/CH3_FILE2.md"
               }
             }
           },
@@ -171,6 +171,8 @@
   },
   "active": "882cc47b432f8fee",
   "lastOpenFiles": [
+    "전공 공부/리눅스 프로그래밍/CH2_FILE1.md",
+    "전공 공부/리눅스 프로그래밍/CH3_FILE2.md",
     "전공 공부/리눅스 프로그래밍/CH01 BASIC.md",
     "알고리즘/오늘 푼 문제들.md",
     "Unused/Attached files/Pasted image 20240930025130.png",
@@ -205,8 +207,6 @@
     "전공 공부/지난 학기/이산구조/6. 일반화 된 수열과 조합.md",
     "Obsidian/간단한 기호들.md",
     "전공 공부/논리 회로/Widmer_C2.md",
-    "전공 공부/리눅스 프로그래밍/CH2_FILE1.md",
-    "전공 공부/컴퓨터 네트워크/Chapter 3.md",
     "전공 공부/문해기/C++ 문법",
     "전공 공부/문해기",
     "DB/In-memory DB",
