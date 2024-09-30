@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "알고리즘/C++ 문법/C++ Setting.md",
+                "file": "알고리즘/이론/알고리즘 종류/다익스트라 알고리즘.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 237.50260543823242
+    "width": 237.50260543823242,
+    "collapsed": true
   },
   "right": {
     "id": "feabab388e8825fc",
@@ -85,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "알고리즘/C++ 문법/C++ Setting.md",
+                "file": "알고리즘/이론/알고리즘 종류/다익스트라 알고리즘.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "알고리즘/C++ 문법/C++ Setting.md",
+                "file": "알고리즘/이론/알고리즘 종류/다익스트라 알고리즘.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "알고리즘/C++ 문법/C++ Setting.md"
+                "file": "알고리즘/이론/알고리즘 종류/다익스트라 알고리즘.md"
               }
             }
           },
@@ -171,9 +172,10 @@
   },
   "active": "882cc47b432f8fee",
   "lastOpenFiles": [
+    "알고리즘/C++ 문법/C++ Setting.md",
+    "알고리즘/이론/알고리즘 종류/다익스트라 알고리즘.md",
     "알고리즘/C++ 문법/우선 순위 큐.md",
     "알고리즘/C++ 문법/연산자 오버로딩.md",
-    "알고리즘/C++ 문법/C++ Setting.md",
     "알고리즘/C++ 문법/배열 초기화.md",
     "알고리즘/C++ 문법/C++ STL.md",
     "알고리즘/C++ 문법/기본.md",
@@ -206,7 +208,6 @@
     "전공 공부/논리 회로/Widmer_C2 번역.md",
     "전공 공부/논리 회로/Widmer_C3.md",
     "전공 공부/컴퓨터 네트워크/7 Layers 수업 내용 요약.md",
-    "전공 공부/컴퓨터 네트워크/TCP 정리.md",
     "전공 공부/문해기/C++ 문법",
     "전공 공부/문해기",
     "DB/In-memory DB",
