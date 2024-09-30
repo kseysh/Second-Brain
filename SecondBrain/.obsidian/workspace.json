@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "알고리즘/오늘 푼 문제들.md",
+                "file": "전공 공부/리눅스 프로그래밍/CH2_FILE1.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "알고리즘/오늘 푼 문제들.md",
+                "file": "전공 공부/리눅스 프로그래밍/CH2_FILE1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "알고리즘/오늘 푼 문제들.md",
+                "file": "전공 공부/리눅스 프로그래밍/CH2_FILE1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "알고리즘/오늘 푼 문제들.md"
+                "file": "전공 공부/리눅스 프로그래밍/CH2_FILE1.md"
               }
             }
           },
@@ -171,6 +171,8 @@
   },
   "active": "882cc47b432f8fee",
   "lastOpenFiles": [
+    "전공 공부/리눅스 프로그래밍/CH01 BASIC.md",
+    "알고리즘/오늘 푼 문제들.md",
     "Unused/Attached files/Pasted image 20240930025130.png",
     "알고리즘/풀이/boj/틀린 문제/다시 보기만 할 문제/boj 1197 - 최소 신장 트리.md",
     "알고리즘/이론/알고리즘 종류/최소 신장 트리.md",
@@ -179,7 +181,6 @@
     "Unused/Attached files/Pasted image 20240930012018.png",
     "Unused/Attached files/Pasted image 20240930011825.png",
     "Unused/Attached files/Pasted image 20240930005935.png",
-    "알고리즘/오늘 푼 문제들.md",
     "Unused/Attached files/Pasted image 20240928231933.png",
     "Unused/Attached files/Pasted image 20240927031623.png",
     "Unused/Attached files/Pasted image 20240927014747.png",
@@ -190,7 +191,6 @@
     "Unused/Attached files/Pasted image 20240926163713.png",
     "전공 공부/문해기/Week 2.md",
     "전공 공부/논리 회로/Widmer_C4 번역.md",
-    "Unused/Attached files/Pasted image 20240926135215.png",
     "전공 공부/논리 회로/Widmer_C4.md",
     "전공 공부/논리 회로/Widmer_C2 번역.md",
     "전공 공부/논리 회로/Widmer_C3.md",
