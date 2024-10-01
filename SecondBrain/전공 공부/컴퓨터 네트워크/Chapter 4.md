@@ -30,5 +30,6 @@ ACK이 오면 `accept`라는 함수에서 연결 요청 대기 큐에서 값을 
  ![[Pasted image 20241001154435.png|500]]
  상대방이 FIN을 보낼 때만 str_len이 0이된다.
  따라서, FIN을 보내야만 cln_sock이 close된다.
+ 
 ## 에코 클라이언트의 문제점
  ![[Pasted image 20241001154855.png|500]]
