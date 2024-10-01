@@ -50,7 +50,6 @@ sequence number는 Data의 첫 번째 byte 번호이다.
 ## TCP Header
 ![[Pasted image 20240923233720.png|350]]
 Data: payload라고도 부른다.
-Sequence number: 
 ### Acknowledgment number
 Receiver가 다음 번에 받고 싶은 바이트 번호
 ### HLEN(header length)
