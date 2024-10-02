@@ -165,7 +165,7 @@ ACK을 받은 상태 ESTABLISH
 FIN을 받고 ACK을 보낸 상태: CLOSE-WAIT
 FIN을 보낸 상태 LAST-ACK
 ACK을 받은 상태: CLOSED (버퍼 및 소켓 삭제)
-![[Pasted image 20240925152032.png|400]]
+![[Pasted image 20240925152032.png|500]]
 서버 소켓: syn을 받으면 syn/ack을 보내주는 역할을 함 (일반 소켓은 못 보냄)
 listen: syn/ack을 보내주도록 서버 소켓으로 만드는 함수
 accept: ack을 받는 함수
