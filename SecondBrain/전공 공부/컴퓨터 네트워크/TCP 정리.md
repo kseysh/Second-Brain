@@ -48,8 +48,10 @@ sequence number는 Data의 첫 번째 byte 번호이다.
 \#201을 받았다면, ACK\#301 (301을 받고 싶다)을 응답
 - TCP가 사용하는 방식
 ## TCP Header
+뭐가 들어있는지 알아야함
 ![[Pasted image 20240923233720.png|350]]
 Data: payload라고도 부른다.
+Window size: receiver의 window size, 자신이 받을 수 있는 빈 공간
 ### Acknowledgment number
 Receiver가 다음 번에 받고 싶은 바이트 번호
 ### HLEN(header length)
@@ -86,6 +88,8 @@ Pseudoheader에는 보내는 쪽 IP주소와 받는 쪽 IP주소를 붙인다. (
 TCP는 연결하기 전에 Set up 과정을 거친다.
 set up 과정을 거치고, set up이 다 되고 나서야 데이터를 보낸다.
 ![[Pasted image 20240924005019.png|450]]
+rwnd: receiver의 window size, 자신이 받을 수 있는 빈 공간이 5000이다. (byte 단위이다.)
+
 서버는 먼저 실행되어서 상대방의 연결 요청을 하는 것을 기다려야 한다.
 TCP에서는 서버가 먼저 준비되어 있어야 한다.
 ### cli -> serv `sin` 
@@ -215,4 +219,6 @@ fin을 먼저 보내는 애가 Time-wait이 된다.
 
 ---
 SYN을 보내고, 기다렸다가 ACK을 받고 다시 SYN을 보내기(STOP&WAIT 방식)에는 시간이 너무 많이 든다.
-따라서 한 번에 SYN을 많이 보내기 위해서, 
+따라서 한 번에 SYN을 n만큼 보내기 위해서, 받는 쪽에서 받을 수 있는 패킷의 수를 고려한다. 
+
+처음 받는 쪽에서 패킷의 빈공간은 
