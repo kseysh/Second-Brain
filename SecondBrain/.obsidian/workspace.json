@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "전공 공부/컴퓨터 네트워크/TCP 정리.md",
+                "file": "전공 공부/컴퓨터 네트워크/Chapter 3.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 237.50260543823242,
-    "collapsed": true
+    "width": 237.50260543823242
   },
   "right": {
     "id": "feabab388e8825fc",
@@ -86,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "전공 공부/컴퓨터 네트워크/TCP 정리.md",
+                "file": "전공 공부/컴퓨터 네트워크/Chapter 3.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "전공 공부/컴퓨터 네트워크/TCP 정리.md",
+                "file": "전공 공부/컴퓨터 네트워크/Chapter 3.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "전공 공부/컴퓨터 네트워크/TCP 정리.md"
+                "file": "전공 공부/컴퓨터 네트워크/Chapter 3.md"
               }
             }
           },
@@ -172,11 +171,12 @@
   },
   "active": "882cc47b432f8fee",
   "lastOpenFiles": [
-    "알고리즘/이론/알고리즘 종류/최소 신장 트리.md",
     "전공 공부/컴퓨터 네트워크/Chapter 1.md",
     "전공 공부/컴퓨터 네트워크/TCP 정리.md",
-    "전공 공부/컴퓨터 네트워크/Chapter 4.md",
     "전공 공부/컴퓨터 네트워크/Chapter 3.md",
+    "전공 공부/컴퓨터 네트워크/Chapter 2.md",
+    "알고리즘/이론/알고리즘 종류/최소 신장 트리.md",
+    "전공 공부/컴퓨터 네트워크/Chapter 4.md",
     "Unused/Attached files/Pasted image 20241001154855.png",
     "Unused/Attached files/Pasted image 20241001154435.png",
     "Unused/Attached files/Pasted image 20241001153328.png",
@@ -207,7 +207,6 @@
     "알고리즘/풀이/boj/틀린 문제/다시 보기만 할 문제/boj 1197 - 최소 신장 트리.md",
     "알고리즘/이론/알고리즘 종류/우선 순위 큐.md",
     "알고리즘/풀이/boj/틀린 문제/다시 보기만 할 문제/boj 2252 - 위상정렬.md",
-    "전공 공부/논리 회로/Widmer_C3 번역.md",
     "전공 공부/문해기/C++ 문법",
     "전공 공부/문해기",
     "DB/In-memory DB",
