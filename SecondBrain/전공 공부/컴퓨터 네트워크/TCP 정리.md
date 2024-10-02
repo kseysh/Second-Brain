@@ -149,6 +149,8 @@ close: 연결 종료 함수
 
 ## State transition diagram
 ![[Pasted image 20240925151800.png|400]]
+보낸 것 / 받은 것의 순서대로 되어 있다
+중요한 그림이니 이해하기
 ### client
 SYN과 SYN+ACK 사이의 상태를 이름을 지은 것 = SIN-SENT
 SYN/ACK이 되면 ACK을 보내고 ESTABLISHED 상태(데이터를 주고 받을 수 있는 상태)가 된다

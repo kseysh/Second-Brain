@@ -69,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 237.50260543823242
+    "width": 237.50260543823242,
+    "collapsed": true
   },
   "right": {
     "id": "feabab388e8825fc",
@@ -172,8 +173,8 @@
   "active": "882cc47b432f8fee",
   "lastOpenFiles": [
     "전공 공부/컴퓨터 네트워크/7 Layers 정리.md",
-    "전공 공부/컴퓨터 네트워크/7 Layers 수업 내용 요약.md",
     "전공 공부/컴퓨터 네트워크/TCP 정리.md",
+    "전공 공부/컴퓨터 네트워크/7 Layers 수업 내용 요약.md",
     "전공 공부/컴퓨터 네트워크/Chapter 4.md",
     "전공 공부/컴퓨터 네트워크/Chapter 1.md",
     "전공 공부/컴퓨터 네트워크/Chapter 3.md",
