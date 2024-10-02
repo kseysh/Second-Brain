@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "전공 공부/컴퓨터 네트워크/Chapter 4.md",
+                "file": "전공 공부/컴퓨터 네트워크/7 Layers 정리.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "전공 공부/컴퓨터 네트워크/Chapter 4.md",
+                "file": "전공 공부/컴퓨터 네트워크/7 Layers 정리.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "전공 공부/컴퓨터 네트워크/Chapter 4.md",
+                "file": "전공 공부/컴퓨터 네트워크/7 Layers 정리.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "전공 공부/컴퓨터 네트워크/Chapter 4.md"
+                "file": "전공 공부/컴퓨터 네트워크/7 Layers 정리.md"
               }
             }
           },
@@ -171,12 +171,12 @@
   },
   "active": "882cc47b432f8fee",
   "lastOpenFiles": [
-    "전공 공부/컴퓨터 네트워크/Chapter 3.md",
-    "전공 공부/컴퓨터 네트워크/Chapter 1.md",
     "전공 공부/컴퓨터 네트워크/TCP 정리.md",
+    "전공 공부/컴퓨터 네트워크/Chapter 4.md",
+    "전공 공부/컴퓨터 네트워크/Chapter 1.md",
+    "전공 공부/컴퓨터 네트워크/Chapter 3.md",
     "전공 공부/컴퓨터 네트워크/Chapter 2.md",
     "알고리즘/이론/알고리즘 종류/최소 신장 트리.md",
-    "전공 공부/컴퓨터 네트워크/Chapter 4.md",
     "Unused/Attached files/Pasted image 20241001154855.png",
     "Unused/Attached files/Pasted image 20241001154435.png",
     "Unused/Attached files/Pasted image 20241001153328.png",
