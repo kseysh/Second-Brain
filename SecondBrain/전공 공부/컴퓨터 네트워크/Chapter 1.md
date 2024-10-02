@@ -127,7 +127,7 @@ int main(int argc, char *argv[])
 	serv_addr.sin_addr.s_addr=htonl(INADDR_ANY); // 서버가 쓸 IP 주소 serv_addr 구조체에 저장
 	serv_addr.sin_port=htons(atoi(argv[1])); // 서버가 쓸 port 주소 serv_addr 구조체에 저장
 	
-	if(bind(serv_sock, (struct sockaddr*) &serv_addr, sizeof(serv_addr))==-1 )
+	if(bind(serv_sock, (struct sockaddr*) &serv_addr, sizeof(serv_addr))==-1)
 	// 소켓에 서버가 사용할 주소를 bind를 이용해 할당한다
 		error_handling("bind() error"); 
 	
