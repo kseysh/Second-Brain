@@ -69,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 237.50260543823242,
-    "collapsed": true
+    "width": 237.50260543823242
   },
   "right": {
     "id": "feabab388e8825fc",
@@ -172,11 +171,12 @@
   },
   "active": "882cc47b432f8fee",
   "lastOpenFiles": [
-    "전공 공부/컴퓨터 네트워크/7 Layers 정리.md",
+    "전공 공부/컴퓨터 네트워크/Chapter 1.md",
     "전공 공부/컴퓨터 네트워크/TCP 정리.md",
+    "Unused/Attached files/Pasted image 20241002150905.png",
+    "전공 공부/컴퓨터 네트워크/7 Layers 정리.md",
     "전공 공부/컴퓨터 네트워크/7 Layers 수업 내용 요약.md",
     "전공 공부/컴퓨터 네트워크/Chapter 4.md",
-    "전공 공부/컴퓨터 네트워크/Chapter 1.md",
     "전공 공부/컴퓨터 네트워크/Chapter 3.md",
     "전공 공부/컴퓨터 네트워크/Chapter 2.md",
     "알고리즘/이론/알고리즘 종류/최소 신장 트리.md",
@@ -190,7 +190,6 @@
     "Unused/Attached files/Pasted image 20241001143237.png",
     "Unused/Attached files/Pasted image 20241001142259.png",
     "알고리즘/오늘 푼 문제들.md",
-    "Unused/Attached files/Pasted image 20241001015451.png",
     "알고리즘/풀이/boj/맞은 문제/boj 1753 - 다익스트라 알고리즘.md",
     "알고리즘/이론/알고리즘 종류/다익스트라 알고리즘.md",
     "알고리즘/C++ 문법/C++ Setting.md",
@@ -207,7 +206,6 @@
     "전공 공부/리눅스 프로그래밍/CH3_FILE2.md",
     "전공 공부/리눅스 프로그래밍/CH2_FILE1.md",
     "전공 공부/리눅스 프로그래밍/CH01 BASIC.md",
-    "알고리즘/풀이/boj/틀린 문제/다시 보기만 할 문제/boj 1197 - 최소 신장 트리.md",
     "전공 공부/문해기/C++ 문법",
     "전공 공부/문해기",
     "DB/In-memory DB",

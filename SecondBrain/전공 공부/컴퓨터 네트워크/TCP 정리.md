@@ -126,7 +126,8 @@ FIN만 갈 때는 데이터는 없고 sequence number를 갖는다.
 FIN + ACK이 갈 때는 데이터는 없고 sequence number를 갖는다.
 
 ## socket 통신 함수
-![[Pasted image 20240924013348.png|350]]
+![[Pasted image 20240924013348.png|450]]
+글 다 쓸 수 있게 알아두기
 ### server
 socket: 소켓 만드는 함수
 bind: IP 및 port 바인딩
@@ -148,8 +149,8 @@ close: 연결 종료 함수
 위 그림에서 현재 client는 FIN을 보낸 상태라 더 데이터를 못 보내지만 그 대신 서버는 보낼 데이터를 다 보내고 FIN을 보낸다. 클라이언트는 다른 요청은 보내지 못하지만 ACK로 응답은 해줄 수 있다.
 
 ## State transition diagram
-![[Pasted image 20240925151800.png|400]]
-보낸 것 / 받은 것의 순서대로 되어 있다
+![[Pasted image 20241002150905.png|500]]
+보내는 것 / 받은 것의 순서대로 되어 있다
 중요한 그림이니 이해하기
 ### client
 SYN과 SYN+ACK 사이의 상태를 이름을 지은 것 = SIN-SENT
