@@ -184,7 +184,7 @@ for(i=0; i<5; i++)
 		printf("Connected client %d \n", i+1);
 	while((str_len=read(clnt_sock, message, BUF_SIZE))!=0)
 		write(clnt_sock, message, str_len)
-		close(clnt_sock); // return 값이 0이 아닐 때까지 계속 read/write 한다.
+	close(clnt_sock); // return 값이 0이 아닐 때까지 계속 read/write 한다.
 } // 들어온 값을 상대에게 다시 돌려주는 함수이다.
 ```
 새로운 소켓을 만들어서 read와 write를 한다. serv_sock은 연결을 받는 역할만 한다.
