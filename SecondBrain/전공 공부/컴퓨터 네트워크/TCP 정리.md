@@ -223,9 +223,15 @@ SYN을 보내고, 기다렸다가 ACK을 받고 다시 SYN을 보내기(STOP&WAI
 처음 받는 쪽에서 패킷의 빈공간은 Window Size를 통해 정한다.
 
 ![[Pasted image 20241002154019.png]]
-최초에 아무 것도 안 보냈을 때 rwnd는 syn/ack시에 알 수 있다.
-상대방이 rwnd를 100이라고 알려주면, rwnd에서 내가 보낸 것을 빼서 그 만큼 더 보낼 수 있겠다고 인지한다.
-현재 ACK \#201이 온 상황이고
-200 부터는 sender buffer에서 관리하지 않아도 된다.
-슬라이딩 윈도우처럼 관리한다.
-buffer에서 Sent 영역: 보냈지만, 아직 받았다고 ACK을 받지 않는 것
+- 최초에 아무 것도 안 보냈을 때 rwnd는 syn/ack시에 알 수 있다.
+- 상대방이 rwnd를 100이라고 알려주면, rwnd에서 내가 보낸 것을 빼서 그 만큼 더 보낼 수 있겠다고 인지한다.
+- 현재 ACK \#201을 받은 상황이고 따라서, 200 부터는 sender buffer에서 관리하지 않아도 된다.
+	- 슬라이딩 윈도우처럼 관리한다.
+- buffer에서 Sent 영역: 보냈지만, 아직 받았다고 ACK을 받지 않는 것
+## Flow control
+![[Pasted image 20241002155355.png]]
+if, rwnd가 1일 때, 
+
+![[Pasted image 20241002155812.png]]
+보내는 양이 어떻게 조절되는지를 보여주는 그림
+application에서 tcp함수로 write함수를 통해 데이터를 작성한다.
