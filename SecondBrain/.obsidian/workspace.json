@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "전공 공부/논리 회로/Widmer_C3.md",
+                "file": "전공 공부/컴퓨터 네트워크/Chapter 1.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "전공 공부/논리 회로/Widmer_C3.md",
+                "file": "전공 공부/컴퓨터 네트워크/Chapter 1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "전공 공부/논리 회로/Widmer_C3.md",
+                "file": "전공 공부/컴퓨터 네트워크/Chapter 1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "전공 공부/논리 회로/Widmer_C3.md"
+                "file": "전공 공부/컴퓨터 네트워크/Chapter 1.md"
               }
             }
           },
@@ -172,6 +172,10 @@
   },
   "active": "882cc47b432f8fee",
   "lastOpenFiles": [
+    "전공 공부/컴퓨터 네트워크/Chapter 3.md",
+    "전공 공부/컴퓨터 네트워크/Chapter 2.md",
+    "전공 공부/컴퓨터 네트워크/Chapter 1.md",
+    "전공 공부/논리 회로/Widmer_C3.md",
     "Unused/Attached files/Pasted image 20241003202136.png",
     "Unused/Attached files/Pasted image 20241003202058.png",
     "Unused/Attached files/Pasted image 20241003202027.png",
@@ -181,17 +185,13 @@
     "Unused/Attached files/Pasted image 20241002155812.png",
     "Unused/Attached files/Pasted image 20241002155355.png",
     "Unused/Attached files/Pasted image 20241002154019.png",
-    "전공 공부/컴퓨터 네트워크/Chapter 1.md",
     "Unused/Attached files/Pasted image 20241002150905.png",
     "전공 공부/컴퓨터 네트워크/7 Layers 정리.md",
     "전공 공부/컴퓨터 네트워크/7 Layers 수업 내용 요약.md",
     "전공 공부/컴퓨터 네트워크/Chapter 4.md",
-    "전공 공부/컴퓨터 네트워크/Chapter 3.md",
-    "전공 공부/컴퓨터 네트워크/Chapter 2.md",
     "알고리즘/이론/알고리즘 종류/최소 신장 트리.md",
     "Unused/Attached files/Pasted image 20241001154855.png",
     "Unused/Attached files/Pasted image 20241001154435.png",
-    "Unused/Attached files/Pasted image 20241001153328.png",
     "알고리즘/오늘 푼 문제들.md",
     "알고리즘/풀이/boj/맞은 문제/boj 1753 - 다익스트라 알고리즘.md",
     "알고리즘/이론/알고리즘 종류/다익스트라 알고리즘.md",
