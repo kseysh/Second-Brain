@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "querydsl",
+                "query": "모듈러",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -65,7 +65,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -169,7 +170,7 @@
       "obsidian-file-cleaner:Clean files": false
     }
   },
-  "active": "882cc47b432f8fee",
+  "active": "98b99bcebe54855a",
   "lastOpenFiles": [
     "전공 공부/컴퓨터 네트워크/Chapter 1.md",
     "전공 공부/문해기/temp.md",
