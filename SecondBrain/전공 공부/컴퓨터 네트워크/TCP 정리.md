@@ -243,6 +243,9 @@ read 함수는 block함수이지만, write 함수도 block 함수이다. 버퍼�
 ### ex)
 글만 보고 둘의 buffer하기
 ![[Pasted image 20241002160450.png]]
+그림의 client에서 분홍색은 client의 application에서 server에게 데이터를 전송하라고 갖다놓은 데이터, 만약 applicaiton이 800만큼 갖다놓으면 800을 전송했을 것임.
+client의 왼쪽 window 벽: server의 ackNo 값
+client의 오른쪽 window 벽: server의 ackNo + rwnd
 client->server 단방향에서 설명하는 것.
 rwnd: 현재 내가 보낼 수 있는 최대한의 바이트
 마지막 ACK(8)은 무시하자
