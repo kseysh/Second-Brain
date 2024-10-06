@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "알고리즘/오늘 푼 문제들.md",
+                "file": "전공 공부/컴퓨터 네트워크/TCP 정리.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "알고리즘/오늘 푼 문제들.md",
+                "file": "전공 공부/컴퓨터 네트워크/TCP 정리.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "알고리즘/오늘 푼 문제들.md",
+                "file": "전공 공부/컴퓨터 네트워크/TCP 정리.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "알고리즘/오늘 푼 문제들.md"
+                "file": "전공 공부/컴퓨터 네트워크/TCP 정리.md"
               }
             }
           },
@@ -172,6 +172,8 @@
   },
   "active": "882cc47b432f8fee",
   "lastOpenFiles": [
+    "전공 공부/컴퓨터 네트워크/Chapter 4.md",
+    "알고리즘/오늘 푼 문제들.md",
     "Unused/Attached files/Pasted image 20241005004215.png",
     "전공 공부/문해기/temp.md",
     "전공 공부/컴퓨터 네트워크/Chapter 1.md",
@@ -190,11 +192,8 @@
     "Unused/Attached files/Pasted image 20241002150905.png",
     "전공 공부/컴퓨터 네트워크/7 Layers 정리.md",
     "전공 공부/컴퓨터 네트워크/7 Layers 수업 내용 요약.md",
-    "전공 공부/컴퓨터 네트워크/Chapter 4.md",
     "알고리즘/이론/알고리즘 종류/최소 신장 트리.md",
     "Unused/Attached files/Pasted image 20241001154855.png",
-    "Unused/Attached files/Pasted image 20241001154435.png",
-    "알고리즘/오늘 푼 문제들.md",
     "알고리즘/풀이/boj/맞은 문제/boj 1753 - 다익스트라 알고리즘.md",
     "알고리즘/이론/알고리즘 종류/다익스트라 알고리즘.md",
     "알고리즘/C++ 문법/C++ Setting.md",

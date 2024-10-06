@@ -230,7 +230,7 @@ SYN을 보내고, 기다렸다가 ACK을 받고 다시 SYN을 보내기(STOP&WAI
 - buffer에서 Sent 영역: 보냈지만, 아직 받았다고 ACK을 받지 않는 것
 ## Flow control
 ![[Pasted image 20241002155355.png]]
-if, rwnd가 1일 때, 
+
 
 ![[Pasted image 20241002155812.png]]
 보내는 양이 어떻게 조절되는지를 보여주는 그림
