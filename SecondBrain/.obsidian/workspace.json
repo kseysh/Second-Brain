@@ -18,17 +18,8 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "8cbcbf0729859431",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -78,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 237.50260543823242,
-    "collapsed": true
+    "width": 237.50260543823242
   },
   "right": {
     "id": "feabab388e8825fc",
@@ -95,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "전공 공부/리눅스 프로그래밍/CH05_PROCESS1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "전공 공부/리눅스 프로그래밍/CH05_PROCESS1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -132,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "전공 공부/리눅스 프로그래밍/CH05_PROCESS1.md"
+              }
             }
           },
           {
@@ -175,7 +169,7 @@
       "obsidian-file-cleaner:Clean files": false
     }
   },
-  "active": "8cbcbf0729859431",
+  "active": "882cc47b432f8fee",
   "lastOpenFiles": [
     "전공 공부/리눅스 프로그래밍/CH05_PROCESS1.md",
     "Unused/Attached files/Pasted image 20241007130721.png",
