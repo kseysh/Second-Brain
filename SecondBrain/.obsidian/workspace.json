@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "전공 공부/리눅스 프로그래밍/process1 번역.md",
+                "file": "전공 공부/리눅스 프로그래밍/CH05_PROCESS1.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "전공 공부/리눅스 프로그래밍/process1 번역.md",
+                "file": "전공 공부/리눅스 프로그래밍/CH05_PROCESS1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "전공 공부/리눅스 프로그래밍/process1 번역.md",
+                "file": "전공 공부/리눅스 프로그래밍/CH05_PROCESS1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "전공 공부/리눅스 프로그래밍/process1 번역.md"
+                "file": "전공 공부/리눅스 프로그래밍/CH05_PROCESS1.md"
               }
             }
           },
@@ -171,13 +171,13 @@
   },
   "active": "882cc47b432f8fee",
   "lastOpenFiles": [
+    "전공 공부/리눅스 프로그래밍/process1 번역.md",
     "Unused/Attached files/Pasted image 20241007125455.png",
     "Unused/Attached files/Pasted image 20241007125006.png",
     "Unused/Attached files/Pasted image 20241007124947.png",
     "Unused/Attached files/Pasted image 20241007124549.png",
     "Unused/Attached files/Pasted image 20241007124140.png",
     "전공 공부/리눅스 프로그래밍/CH05_PROCESS1.md",
-    "전공 공부/리눅스 프로그래밍/process1 번역.md",
     "Unused/Attached files/Pasted image 20241007120856.png",
     "전공 공부/리눅스 프로그래밍/CH04_DIRECTORIES.md",
     "전공 공부/리눅스 프로그래밍/CH3_FILE2.md",
@@ -200,7 +200,6 @@
     "Unused/Attached files/Pasted image 20241003202058.png",
     "Unused/Attached files/Pasted image 20241003202027.png",
     "전공 공부/논리 회로/Widmer_C3 번역.md",
-    "Unused/Attached files/Pasted image 20241002160450.png",
     "전공 공부/컴퓨터 네트워크/7 Layers 정리.md",
     "전공 공부/컴퓨터 네트워크/7 Layers 수업 내용 요약.md",
     "알고리즘/이론/알고리즘 종류/최소 신장 트리.md",
