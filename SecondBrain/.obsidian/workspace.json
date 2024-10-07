@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "프로젝트/SOPT Makers APP/일급 컬렉션 사용하기.md",
+                "file": "전공 공부/리눅스 프로그래밍/CH05_PROCESS1.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 237.50260543823242,
-    "collapsed": true
+    "width": 237.50260543823242
   },
   "right": {
     "id": "feabab388e8825fc",
@@ -86,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "프로젝트/SOPT Makers APP/일급 컬렉션 사용하기.md",
+                "file": "전공 공부/리눅스 프로그래밍/CH05_PROCESS1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "프로젝트/SOPT Makers APP/일급 컬렉션 사용하기.md",
+                "file": "전공 공부/리눅스 프로그래밍/CH05_PROCESS1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "프로젝트/SOPT Makers APP/일급 컬렉션 사용하기.md"
+                "file": "전공 공부/리눅스 프로그래밍/CH05_PROCESS1.md"
               }
             }
           },
@@ -172,8 +171,13 @@
   },
   "active": "882cc47b432f8fee",
   "lastOpenFiles": [
-    "프로젝트/SOPT Makers APP/친구 추천 api 로직 개선하기 - 1.md",
+    "Unused/Attached files/Pasted image 20241007120856.png",
+    "전공 공부/리눅스 프로그래밍/CH04_DIRECTORIES.md",
+    "전공 공부/리눅스 프로그래밍/CH05_PROCESS1.md",
+    "전공 공부/리눅스 프로그래밍/CH3_FILE2.md",
+    "전공 공부/리눅스 프로그래밍/CH2_FILE1.md",
     "프로젝트/SOPT Makers APP/일급 컬렉션 사용하기.md",
+    "프로젝트/SOPT Makers APP/친구 추천 api 로직 개선하기 - 1.md",
     "프로젝트/SOPT Makers APP/친구 추천 api 로직 개선하기 - 2.md",
     "프로젝트/HMH/무제 파일.md",
     "프로젝트/HMH/시도해볼 것.md",
@@ -203,11 +207,6 @@
     "알고리즘/이론/알고리즘 종류/다익스트라 알고리즘.md",
     "알고리즘/C++ 문법/C++ Setting.md",
     "알고리즘/C++ 문법/우선 순위 큐.md",
-    "알고리즘/C++ 문법/연산자 오버로딩.md",
-    "알고리즘/C++ 문법/배열 초기화.md",
-    "알고리즘/C++ 문법/C++ STL.md",
-    "알고리즘/C++ 문법/기본.md",
-    "전공 공부/문해기/C++ 문법/string to int.md",
     "전공 공부/문해기/C++ 문법",
     "전공 공부/문해기",
     "DB/In-memory DB",
