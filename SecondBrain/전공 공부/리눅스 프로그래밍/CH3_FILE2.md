@@ -102,18 +102,22 @@ euid가 0인 이유는 set user id excution이 있으므로 passwd의 euid로 sh
 다시 보기
 
 ## 파일 생성 마스크
-• 각 프로세스와 연결된 것은 파일 생성 마스크라 불리는 값이다.
 • 파일 생성 마스크 (보호)
 	• 파일이 생성될 때 특정 권한 비트를 자동으로 해제합니다.
 	• 지정된 권한이 실수로 켜지는 것을 방지합니다.
 ![[Pasted image 20241008162002.png|350]]
-  
+  위의 명령어로 실행해도 자연스럽게 아래 명령어로 실행됨 (마스크가 어떻게 설정되었느냐만 다를 뿐)
 ## umask(2) 시스템 호출
 ```c
 #include <sys/stat.h>
 mode_t umask(mode_t cmask);
 // Returns: previous file mode creation mask
+
+$ umask // umask값 확인
+$ umask -S // umask값 확인
+$ umask 22 // umask값을 22로 설정
 ```
+
 • umask 함수는 프로세스의 파일 모드 생성 마스크를 설정합니다.
 ![[Pasted image 20241008162232.png|400]]
 ![[Pasted image 20241008162332.png|400]]
