@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "전공 공부/리눅스 프로그래밍/CH2_FILE1.md",
+                "file": "전공 공부/리눅스 프로그래밍/CH3_FILE2.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "전공 공부/리눅스 프로그래밍/CH2_FILE1.md",
+                "file": "전공 공부/리눅스 프로그래밍/CH3_FILE2.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "전공 공부/리눅스 프로그래밍/CH2_FILE1.md",
+                "file": "전공 공부/리눅스 프로그래밍/CH3_FILE2.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "전공 공부/리눅스 프로그래밍/CH2_FILE1.md"
+                "file": "전공 공부/리눅스 프로그래밍/CH3_FILE2.md"
               }
             }
           },
@@ -171,20 +171,19 @@
   },
   "active": "882cc47b432f8fee",
   "lastOpenFiles": [
+    "전공 공부/리눅스 프로그래밍/CH2_FILE1.md",
+    "전공 공부/리눅스 프로그래밍/CH3_FILE2.md",
+    "Unused/Attached files/Pasted image 20241008185534.png",
+    "Unused/Attached files/Pasted image 20241008185516.png",
     "Unused/Attached files/Pasted image 20241008184607.png",
     "Unused/Attached files/Pasted image 20241008172254.png",
     "Unused/Attached files/Pasted image 20241008171608.png",
     "전공 공부/리눅스 프로그래밍/CH01 BASIC.md",
-    "전공 공부/리눅스 프로그래밍/CH2_FILE1.md",
-    "전공 공부/리눅스 프로그래밍/CH3_FILE2.md",
     "Unused/Attached files/Pasted image 20241008162332.png",
     "Unused/Attached files/Pasted image 20241008162232.png",
     "Unused/Attached files/Pasted image 20241008162122.png",
     "Unused/Attached files/Pasted image 20241008162002.png",
     "Unused/Attached files/Pasted image 20241008161922.png",
-    "Unused/Attached files/Pasted image 20241008161806.png",
-    "Unused/Attached files/Pasted image 20241008161801.png",
-    "Unused/Attached files/Pasted image 20241008155403.png",
     "전공 공부/리눅스 프로그래밍/CH05_PROCESS2.md",
     "전공 공부/리눅스 프로그래밍/CH05_PROCESS1.md",
     "전공 공부/리눅스 프로그래밍/process1 번역.md",
