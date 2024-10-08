@@ -293,5 +293,7 @@ struct stat {
 ![[Pasted image 20241008235704.png|550]]
 ![[Pasted image 20241008235719.png|550]]
 ![[Pasted image 20241008235735.png|550]]
+마지막 `if (stat(name, &sb) == ―1 || sb.st_mtime ! = last)`에서 왼쪽이 true면 오른쪽을 실행하지 않는다.
 ![[Pasted image 20241008235754.png|550]]
+변경하고 저장하지 않아도 되나봄
  
