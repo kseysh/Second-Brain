@@ -105,14 +105,22 @@ ssize_t read(int filedes, void *buffer, size_t n);
 // Returns: number of bytes read, 0 if end of file, -1 on error
 ```
 **end of file에서 0을 반환하는 것** 주의
+읽은 바이트 수를 리턴한다.
 ![[Pasted image 20240910153224.png]]
 
-## `write` system call
+## `write(2)` system call
+```c
+#include <unistd.h>
+ssize_t write(int filedes, const void *buffer, size_t n);
+// Returns: number of bytes written if OK, -1 on error
+```
+`filedes`에 있는 값을 n만큼 buffer에 쓰고, 쓴 메모리만큼을 리턴한다.
 - `write` 함수는 메모리에서 현재 파일 위치로 바이트를 복사하고, 데이터를 쓴 후 파일의 현재 위치를 업데이트한다.
 - "현재 파일 위치"는 파일 내에서 다음에 데이터를 쓸 위치를 의미하며, 쓰기 작업이 완료되면 이 위치가 자동으로 이동합니다.
 ### `write`로 이미 존재하는 파일을 쓰기 전용으로 열면
-- 기존 파일에 있던 데이터는 새로운 데이터로 한 글자씩 덮어쓰게 된다. 즉, 파일의 이전 내용이 사라지고 새로운 내용이 저장된다.
-- 만약 파일을 열 때 `O_APPEND` 옵션을 사용했다면, 쓰기 작업이 시작되는 위치가 파일의 끝으로 자동 설정됩니다.
+- 기존 파일에 있던 데이터는 새로운 데이터로 한 글자씩 덮어쓰게 된다. 즉, **파일의 이전 내용이 사라지고 새로운 내용이 저장**된다.
+
+만약 파일을 열 때 `O_APPEND` 옵션을 사용했다면, 쓰기 작업이 시작되는 위치가 파일의 끝으로 자동 설정됩니다.
 - 이 옵션을 사용하면 기존 파일의 내용이 지워지지 않고, 새로운 데이터가 파일 끝에 추가된다.
 
 ![[Pasted image 20240910153913.png]]
