@@ -99,6 +99,12 @@ File security permission을 위해 사용된다.
 모든 열린 파일은 프로그램 실행이 끝나면 자동적으로 닫혀야 한다.
 ![[Pasted image 20240910153114.png]]
 ## `read` system call
+```c
+#include <unistd.h>
+ssize_t read(int filedes, void *buffer, size_t n);
+// Returns: number of bytes read, 0 if end of file, -1 on error
+```
+**end of file에서 0을 반환하는 것** 주의
 ![[Pasted image 20240910153224.png]]
 
 ## `write` system call
