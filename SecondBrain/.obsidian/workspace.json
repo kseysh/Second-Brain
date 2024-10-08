@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "전공 공부/리눅스 프로그래밍/CH3_FILE2.md",
+                "file": "전공 공부/리눅스 프로그래밍/CH04_DIRECTORIES.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 237.50260543823242
+    "width": 237.50260543823242,
+    "collapsed": true
   },
   "right": {
     "id": "feabab388e8825fc",
@@ -85,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "전공 공부/리눅스 프로그래밍/CH3_FILE2.md",
+                "file": "전공 공부/리눅스 프로그래밍/CH04_DIRECTORIES.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "전공 공부/리눅스 프로그래밍/CH3_FILE2.md",
+                "file": "전공 공부/리눅스 프로그래밍/CH04_DIRECTORIES.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "전공 공부/리눅스 프로그래밍/CH3_FILE2.md"
+                "file": "전공 공부/리눅스 프로그래밍/CH04_DIRECTORIES.md"
               }
             }
           },
@@ -171,8 +172,8 @@
   },
   "active": "882cc47b432f8fee",
   "lastOpenFiles": [
-    "전공 공부/리눅스 프로그래밍/CH2_FILE1.md",
     "전공 공부/리눅스 프로그래밍/CH3_FILE2.md",
+    "전공 공부/리눅스 프로그래밍/CH2_FILE1.md",
     "전공 공부/리눅스 프로그래밍/CH04_DIRECTORIES.md",
     "전공 공부/리눅스 프로그래밍/CH05_PROCESS1.md",
     "전공 공부/논리 회로/Widmer_C4 번역.md",
