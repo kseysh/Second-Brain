@@ -169,21 +169,22 @@ fd 하나당 file table은 하나 만들어짐
 v-node는 파일이 디스크 안에 존재하면 계속 있음
 ## `dup(2)`, `dup2(2)` system call
 ![[Pasted image 20240910172346.png]]
-`dup`, `dup2`는 기존 파일 디스크립터를 복제한다.
-성공 시 새로운 파일 디스크립터를 반환하고, 실패 시 -1을 반환한다.
+`dup`, `dup2`는 기존 파일 디스크립터를 복제한다. (duplicate)
+성공 시 새로운 파일 디스크립터(사용되지 않는 파일 디스크립터 중 가장 작은 값)를 반환하고, 실패 시 -1을 반환한다.
 #### ex) dup
 ![[Pasted image 20240910222619.png]]
 - dup(1)이 표준 출력 파일 디스크립터를 복제하는 예제
 - 동일한 작업을 수행하기 위해 `fcntl`함수를 `F_DUPFD`와 함께 사용하는 예제 
 
 ![[Pasted image 20240910222632.png]]
+file table의 count 값이 2가 된다.
 프로세스 테이블에는 파일 테이블 항목을 가리키는 파일 디스크립터가 있고, 파일 테이블 항목은 v-노드 테이블 항목을 가리킨다.
 
 #### ex) dup2
 ![[Pasted image 20240910222029.png]]
 - “test”라는 파일을 읽기 전용 모드로 열고, 파일 디스크립터 4를 fd4에 할당. 
 - dup2를 사용하여 파일 디스크립터 3을 fd4에 복제합니다. 
-- dup2는 fd4를 복제했던 파일 디스크립터를 닫는 것까지 포함한다. 
+- **dup2는 fd4를 복제했던 파일 디스크립터를 닫는 것까지 포함한다**. 
 - 동등한 함수 호출인 close(fd4)와 fcntl도 비교를 위해 나와 있다.
 
 ![[Pasted image 20240910222934.png]]
@@ -192,10 +193,8 @@ v-node는 파일이 디스크 안에 존재하면 계속 있음
 • dup2 호출 전: fd4는 “test” 파일에 대한 파일 테이블 항목을 가리킵니다.
 • dup2 호출 후: 원래 fd4 항목이 닫히고, fd4는 이제 fd3의 파일 테이블 항목을 복제합니다.
 
-## `fcntl` system call
-
-	이미 열려 있는 파일의 속성을 변경하는 함수
-
+## `fcntl(2)` system call
+이미 열려 있는 파일의 속성을 변경하는 함수 (file control)
 ![[Pasted image 20240910223732.png]]
 
 • `cmd`: 프로그래머가 특정 기능을 선택하기 위해 정수 cmd 인자에 값을 설정함
@@ -207,7 +206,7 @@ v-node는 파일이 디스크 안에 존재하면 계속 있음
 
 ![[Pasted image 20240910223852.png]]
 ![[Pasted image 20240910223902.png|300]]
-
+`O_ACCMODE`여야만 
 ## Standard input, Standard output, Standard error
 ![[Pasted image 20240925200123.png|400]]
 자연스럽게 standard input과 standard output으로 read write를 해준다.
