@@ -157,13 +157,17 @@ offset: start_flag로부터의 바이트 수
 	- 현재 파일 offset
 	- 파일의 v-node 테이블 엔트리로의 포인터
 ### v-node 구조체
-- 각 열린 파일에는 파일의 타입과 파일에 대해 작동하는 함수에 대한 포인터를 포함하는 v-node 구조체가 있다.
+- 각 열린 파일에는 파일의 타입과 파일에 대해 작동하는 함수에 대한 포인터를 포함하는 v-node 구조체가 있다. (v-node와 i-node와 file은 1대1로 대응됨)
 
 ![[Pasted image 20240910160131.png]]
+프로그램을 하나 실행하면, Process Table이 생기고 process table은 file descripter를 가지는 process table entry를 가진다. 이 file pointer는 file table을 가져 file status flags, current file offset, v-node pointer를 사지고 v-nodepointer는 v-node와 i-node의 정보를 가진다
 ![[Pasted image 20240910160145.png]]
+각각의 다른 프로세스에서 v-node를 공유할 수 있다. (같은 파일을 열면 파일과 v-node는 1대1대응이므로)
 ![[Pasted image 20240910160153.png]]
-
-## `dup`, `dup2` system call
+count: file table을 가리키는 fd의 개수
+fd 하나당 file table은 하나 만들어짐
+v-node는 파일이 디스크 안에 존재하면 계속 있음
+## `dup(2)`, `dup2(2)` system call
 ![[Pasted image 20240910172346.png]]
 `dup`, `dup2`는 기존 파일 디스크립터를 복제한다.
 성공 시 새로운 파일 디스크립터를 반환하고, 실패 시 -1을 반환한다.
