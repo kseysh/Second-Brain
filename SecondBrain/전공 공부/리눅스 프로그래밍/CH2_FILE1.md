@@ -105,7 +105,8 @@ ssize_t read(int filedes, void *buffer, size_t n);
 // Returns: number of bytes read, 0 if end of file, -1 on error
 ```
 **end of file에서 0을 반환하는 것** 주의
-읽은 바이트 수를 리턴한다.
+filedes에서 n만큼 buffer에 넣고, 읽은 바이트 수를 리턴한다.
+파일은 읽으면 f_offset이 알아서 증가한다. (이후 읽을 때 f_offset부터 읽는다.)
 ![[Pasted image 20240910153224.png]]
 
 ## `write(2)` system call
@@ -114,7 +115,7 @@ ssize_t read(int filedes, void *buffer, size_t n);
 ssize_t write(int filedes, const void *buffer, size_t n);
 // Returns: number of bytes written if OK, -1 on error
 ```
-`filedes`에 있는 값을 n만큼 buffer에 쓰고, 쓴 메모리만큼을 리턴한다.
+`buffer`에 있는 값을 n만큼 `filedes`에 쓰고, 쓴 메모리만큼을 리턴한다.
 - `write` 함수는 메모리에서 현재 파일 위치로 바이트를 복사하고, 데이터를 쓴 후 파일의 현재 위치를 업데이트한다.
 - "현재 파일 위치"는 파일 내에서 다음에 데이터를 쓸 위치를 의미하며, 쓰기 작업이 완료되면 이 위치가 자동으로 이동합니다.
 ### `write`로 이미 존재하는 파일을 쓰기 전용으로 열면
@@ -126,7 +127,7 @@ ssize_t write(int filedes, const void *buffer, size_t n);
 ![[Pasted image 20240910153913.png]]
 
 ## `read`, `write` 효율성
-buffer size를 늘리면 효율이 올라간다 -> system call의 횟수를 줄여 컨텍스트 스위칭을 줄일 수 있기 때문에.
+buffer size를 늘리면 효율이 올라간다 -> system call의 횟수를 줄여 컨텍스트 스위칭을 줄일 수 있기 때문에. (하지만, 디스크에서 4K만큼 I/O가 일어남으로 무조건 커진다고 효율이 올라가지는 않는다.)
 `delayed writing` -> `write` system call을 하면 쓰기를 수행한 후 반환되는 것이 아닌, 커널에 버퍼 캐시로 데이터를 전송한 다음 반환한다.
 그러나, 디스크에 에러가 발생하거나 커널이 멈추면 write했다고 생각한 데이터가 write되지 않았을 수도 있다.
 
