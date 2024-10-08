@@ -50,13 +50,15 @@ buf => 파일에서 읽은 데이터를 저장할 버퍼
 #### 기본 시스템 데이터 타입
 - `_t`로 끝나는 데이터 타입: 예제에 등장한 `ssize_t`처럼 `_t`로 끝나는 데이터 타입들은 시스템이 제공하는 기본적인 데이터 타입을 의미. 이 타입들은 시스템의 특성에 따라 필요한 대로 정의되며, 프로그래머가 직접 정수(`int`)나 실수(`float`)와 같은 구체적인 데이터 타입을 사용하는 것을 피하게 한다.
 - 헤더 파일 `sys/types.h`: 이러한 기본 시스템 데이터 타입들은 `sys/types.h`라는 헤더 파일에 정의되어 있으며, 이 헤더 파일은 `unistd.h`와 같은 파일에 포함되어 있어야 합니다.
-# `open` system call
+# `open(2)` system call
+번호의 의미 1: command 2: system call 3: library
 파일을 열거나 생성한다.
 ```c
 #include <fcntl.h>
 int open(const char *pathname, int flags, [mode_t mode]);
-	// Returns: file descriptor if OK, -1 on error
+// Returns: file descriptor if OK, -1 on error
 ```
+\[mode_t mode]는 옵션이라는 뜻이다.
 ### flag options
 • `O_RDONLY` #0 읽기 전용 (Read Only)
 • `O_WRONLY` #1 쓰기 전용 (writing only)
@@ -66,6 +68,7 @@ int open(const char *pathname, int flags, [mode_t mode]);
 	• `O_EXCL` : `O_CREAT`와 함께 사용되면, 새 파일을 만들려는 시도 중에 그 파일이 이미 존재하는 경우 오류를 발생시킨다.
 • `O_TRUNC` 파일이 이미 존재할 경우, 파일의 내용을 모두 지워서 길이를 0으로 만듭니다.
 • `O_NONBLOCK` 파일을 열 때 non-blocking mode로 열어, 자원이 사용 중이라도 기다리지 않고 바로 제어를 반환합니다
+![[Pasted image 20241008171608.png]]
 ### mode
 `O_CREAT` Flag에서만 사용된다.
 File security permission을 위해 사용된다.
@@ -85,18 +88,16 @@ File security permission을 위해 사용된다.
 ![[Pasted image 20240910152131.png]]
 - 파일을 생성할 때는 주로 `open` 함수를 사용하지만 대체 방법으로서 `creat`함수를 사용할 수도 있다.
 - 만약 지정된 경로에 파일이 이미 존재한다면, mode(파일의 권한을 설정)는 무시된다. (이미 존재하는 파일의 권한을 변경하지 않는다.)
-- 
 ### open과 creat의 차이점
 - 파일을 항상 쓰기 전용으로 연다. 읽기 전용으로 열 수 없다. (`O_WRONLY`)
 - 파일이 이미 존재하는 경우 파일 내용을 모두 지우고 파일 디스크립터를 반환한다. (`O_TRUNC`)
 - 존재하지 않으면 파일을 생성한다. (`O_CREAT`)
 ![[Pasted image 20240910152654.png]]
-
+위 두개는 같다
 ## `close` system call
 열린 파일은 `close`를 통해서만 닫을 수 있음
 모든 열린 파일은 프로그램 실행이 끝나면 자동적으로 닫혀야 한다.
 ![[Pasted image 20240910153114.png]]
-
 ## `read` system call
 ![[Pasted image 20240910153224.png]]
 
