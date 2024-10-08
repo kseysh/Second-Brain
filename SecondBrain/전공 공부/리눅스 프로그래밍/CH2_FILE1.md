@@ -215,6 +215,7 @@ O_ACCMODE는 read/write에 관한 정보만 알 수 있다.
 ![[Pasted image 20240925200139.png|400]]
 keyboard input을 infile로 redirection 해주는 것
 여기서 오른쪽 infile은 fd다
+이 때 dup2덕분에 자연스럽게 `read(0,buffer,n)`을 사용해도 infile로 read된다.
 
 ![[Pasted image 20240925200149.png|400]]
 자연스럽게 standard output으로 read를 해준다.
@@ -222,14 +223,20 @@ keyboard input을 infile로 redirection 해주는 것
 ![[Pasted image 20240925200205.png|400]]
 standard output을 outfile로 redirection 해주는 것
 여기서 오른쪽 outfile은 fd다
+이 때 dup2덕분에 자연스럽게 `write(1,buffer,n)`을 사용해도 outfile로 write된다.
+
+![[Pasted image 20241008184607.png]]
+이렇게 하면 in과 out을 동시에 할 수 있다.
 ## `io`
 ![[Pasted image 20240925200955.png|450]]
+Ctrl-D: EOF 역할을 한다.
+
 # 표준 I/O Library
 system call인 UNIX I/O는 직접 사용하기에 좋지 않기에 Standard I/O를 사용한다.
 - 자동 버퍼
 - 개발자 친화적 인터페이스
 - 효율성에 대한 걱정을 해결함 
-## `fopen`
+## `fopen(3)`
 ![[Pasted image 20240925202958.png|450]]
 ![[Pasted image 20240925203113.png|300]]
 리턴 값이 파일의 포인터, pathname과 type이 문자로 들어간다.
@@ -237,6 +244,9 @@ system call인 UNIX I/O는 직접 사용하기에 좋지 않기에 Standard I/O�
 ## Buffering
 ![[Pasted image 20240925203408.png|300]]
 system call을 되도록 적게 사용하기 위해서 buffering mechanism을 사용한다.
+
+## Writing error message with `fprintf(3)`
+
 ## Error Handling
 system call에서 -1이 발생하면 어떤 이유로 실패했는지를 모르게 된다.
 그래서 errno에 실패한 원인에 대한 정보를 저장해두게 된다.
