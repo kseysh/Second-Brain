@@ -76,17 +76,25 @@ S_IRUSR | S_IWUSR | S_IXUSR | S_IRGRP | S_IXGRP | S_IXOTH | S_IXOTH = 0755 = rwx
 그러나, usr/bin/passwd는 /etc/shadow를 변경할 수 있다.
 ![[Pasted image 20241008161801.png|400]]
 ![[Pasted image 20241008161922.png|400]]
-다시 
-**파일 생성 마스크**
-• 각 프로세스와 연결된 값은 파일 생성 마스크입니다.
-• 파일 생성 마스크 (보호)
-• 파일이 생성될 때 특정 권한 비트를 자동으로 해제합니다.
-• 지정된 권한이 실수로 켜지는 것을 방지합니다.
-  
-**umask(2) 시스템 호출**
-• umask 함수는 프로세스의 파일 모드 생성 마스크를 설정합니다.
+다시 보기
 
-**access(2) 시스템 호출**
+## 파일 생성 마스크
+• 각 프로세스와 연결된 것은 파일 생성 마스크라 불리는 값이다.
+• 파일 생성 마스크 (보호)
+	• 파일이 생성될 때 특정 권한 비트를 자동으로 해제합니다.
+	• 지정된 권한이 실수로 켜지는 것을 방지합니다.
+![[Pasted image 20241008162002.png|350]]
+  
+## umask(2) 시스템 호출
+```c
+#include <sys/stat.h>
+mode_t umask(mode_t cmask);
+// Returns: previous file mode creation mask
+```
+• umask 함수는 프로세스의 파일 모드 생성 마스크를 설정합니다.
+![[Pasted image 20241008162232.png|400]]
+![[Pasted image 20241008162332.png|400]]
+## access(2) 시스템 호출
 • **access**는 실제 사용자 및 그룹 ID를 기반으로 경로명의 접근 권한을 확인합니다.
 • **인수**
 **chmod(2) 시스템 호출**
