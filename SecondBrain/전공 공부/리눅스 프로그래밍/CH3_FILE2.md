@@ -122,23 +122,37 @@ $ umask 22 // umask값을 22로 설정
 ![[Pasted image 20241008162232.png|400]]
 ![[Pasted image 20241008162332.png|400]]
 ## access(2) 시스템 호출
-• **access**는 실제 사용자 및 그룹 ID를 기반으로 경로명의 접근 권한을 확인합니다.
-• **인수**
-**chmod(2) 시스템 호출**
-• 기존 파일의 권한을 변경합니다.
-• **파일의 소유자 또는 슈퍼유저만** 가능합니다.
+• `access`는 ruid(euid x) 및 그룹 ID를 기반으로 경로명의 접근 권한을 확인합니다.
+• 인수
+![[Pasted image 20241008202555.png|400]]
+![[Pasted image 20241008202707.png|450]]
 
-**chown(2) 시스템 호출**
-• 파일의 사용자 ID와 그룹 ID를 변경할 수 있습니다.
-• **인수**
-• **owner_id**: 새로운 소유자 ID
-• **group_id**: 새로운 그룹 ID
-• owner_id 또는 group_id 중 하나라도 -1인 경우, 해당 ID는 변경되지 않습니다.
-• 파일 소유권을 변경하려는 불법 시도 시 항상 **EPERM** 오류가 반환됩니다.
-• 파일의 소유권이 변경되면 해당 파일의 set-user-id 및 set-group-id 권한이 해제됩니다.
+## chmod(2) 시스템 호출
+```c
+#include <unistd.h>
+int chmod(const char *pathname, mode_t newmode);
+// Returns: 0 if OK,-1 on error
 
-**3.2 여러 이름을 가진 파일**
-**파일 시스템**
+// newmode에는 command의 chmod처럼 u+w 이런거는 못들어가고 777이런것만 들어갈 수 있음
+```
+• 기존 파일의 권한을 변경합니다. (change mode)
+• 파일의 소유자(변경하려면 euid가 있어야 함) 또는 슈퍼유저만 가능합니다.
+## chown(2) 시스템 호출
+```c
+#include <unistd.h>
+int chown(const char *pathname, uid_t owner_id, gid_t group_id);
+// Returns: 0 if OK,-1 on error
+```
+• 파일의 사용자 ID와 그룹 ID를 변경할 수 있습니다. (change owner)
+• 인수
+	• owner_id: 새로운 소유자 ID
+	• group_id: 새로운 그룹 ID
+• owner_id 또는 group_id 중 하나라도 -1인 경우, 해당 ID는 변경되지 않습니다. (안 바꾸고 싶으면 바꾸고 싶지 않은 것에 -1을 넣는다)
+• 다른 owner의 파일 소유권을 변경하려는 시도 시 항상 **EPERM** 오류가 반환됩니다.
+• **파일의 소유권이 변경되면 해당 파일의 set-user-id 및 set-group-id 권한이 해제**됩니다. (상당히 중요한 이야기)
+
+## 3.2 여러 이름을 가진 파일
+파일 시스템
 • 파일 시스템은 하드 디스크 등의 저장 장치에 파일을 저장하기 위한 논리적 구조를 구성하는 소프트웨어 구성 요소입니다.
 • 파일 및 폴더를 저장할 수 있는 계층적 구조로 나타납니다. 각 파일 시스템의 계층 구조의 맨 위는 일반적으로 “루트”입니다.
 • 파일 시스템은 파일 및 폴더의 명명 규칙을 지정합니다.
