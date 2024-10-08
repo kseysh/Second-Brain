@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "전공 공부/논리 회로/Widmer_C4 번역.md",
+                "file": "전공 공부/리눅스 프로그래밍/CH3_FILE2.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "전공 공부/논리 회로/Widmer_C4 번역.md",
+                "file": "전공 공부/리눅스 프로그래밍/CH3_FILE2.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "전공 공부/논리 회로/Widmer_C4 번역.md",
+                "file": "전공 공부/리눅스 프로그래밍/CH3_FILE2.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "전공 공부/논리 회로/Widmer_C4 번역.md"
+                "file": "전공 공부/리눅스 프로그래밍/CH3_FILE2.md"
               }
             }
           },
@@ -171,7 +171,11 @@
   },
   "active": "882cc47b432f8fee",
   "lastOpenFiles": [
+    "전공 공부/리눅스 프로그래밍/CH2_FILE1.md",
+    "전공 공부/리눅스 프로그래밍/CH3_FILE2.md",
+    "전공 공부/리눅스 프로그래밍/CH04_DIRECTORIES.md",
     "전공 공부/리눅스 프로그래밍/CH05_PROCESS1.md",
+    "전공 공부/논리 회로/Widmer_C4 번역.md",
     "Unused/Attached files/Pasted image 20241007130721.png",
     "전공 공부/리눅스 프로그래밍/process1 번역.md",
     "Unused/Attached files/Pasted image 20241007125455.png",
@@ -180,9 +184,6 @@
     "Unused/Attached files/Pasted image 20241007124549.png",
     "Unused/Attached files/Pasted image 20241007124140.png",
     "Unused/Attached files/Pasted image 20241007120856.png",
-    "전공 공부/리눅스 프로그래밍/CH04_DIRECTORIES.md",
-    "전공 공부/리눅스 프로그래밍/CH3_FILE2.md",
-    "전공 공부/리눅스 프로그래밍/CH2_FILE1.md",
     "프로젝트/SOPT Makers APP/일급 컬렉션 사용하기.md",
     "프로젝트/SOPT Makers APP/친구 추천 api 로직 개선하기 - 1.md",
     "프로젝트/SOPT Makers APP/친구 추천 api 로직 개선하기 - 2.md",
