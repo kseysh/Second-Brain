@@ -272,11 +272,11 @@ int lstat(const char *pathname, struct stat *buf);
 
 ```c
 struct stat {
-	mode_t st_mode; /* file type & mode (permissions) */
-	ino_t st_ino; /* i-node number (serial number) */
+	mode_t st_mode; /* file type(directory of socket or fifo...) & mode (permissions) */
+	ino_t st_ino; /* i-node number */ 
 	dev_t st_dev; /* device number (file system) */
-	dev_t st_rdev; /* device number for special files */
-	nlink_t st_nlink; /* number of links */
+	dev_t st_rdev; /* device number for special files device number는 나중에 보자 */ 
+	nlink_t st_nlink; /* 링크 count */
 	uid_t st_uid; /* user ID of owner */
 	gid_t st_gid; /* group ID of owner */
 	off_t st_size; /* size in bytes, for regular files */
@@ -288,8 +288,10 @@ struct stat {
 };
 ```
 
+파일의 permission 정보를 출력하는 함수
 ![[Pasted image 20241008235637.png|550]]
-![[Pasted image 20241008235704.png|450]]
-![[Pasted image 20241008235719.png|450]]
-![[Pasted image 20241008235735.png|450]]
-![[Pasted image 20241008235754.png|450]]
+![[Pasted image 20241008235704.png|550]]
+![[Pasted image 20241008235719.png|550]]
+![[Pasted image 20241008235735.png|550]]
+![[Pasted image 20241008235754.png|550]]
+ 
