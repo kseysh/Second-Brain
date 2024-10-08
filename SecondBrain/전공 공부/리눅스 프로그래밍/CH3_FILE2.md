@@ -72,8 +72,11 @@ S_IRUSR | S_IWUSR | S_IXUSR | S_IRGRP | S_IXGRP | S_IXOTH | S_IXOTH = 0755 = rwx
 • 현대 시스템에서는 디렉토리에 대해 S_ISVTX 비트를 정의합니다.
 ## Password 변경
 `/etc/shadow`는 owner의 read만 가능해서 직접 변경이 불가능하다.
-
-
+![[Pasted image 20241008161806.png|400]]
+그러나, usr/bin/passwd는 /etc/shadow를 변경할 수 있다.
+![[Pasted image 20241008161801.png|400]]
+![[Pasted image 20241008161922.png|400]]
+다시 
 **파일 생성 마스크**
 • 각 프로세스와 연결된 값은 파일 생성 마스크입니다.
 • 파일 생성 마스크 (보호)
