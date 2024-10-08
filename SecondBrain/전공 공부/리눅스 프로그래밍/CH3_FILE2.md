@@ -208,26 +208,29 @@ ex) 윈도우의 바로가기 파일
 symbolic link가 가리키는 inode의 block은 original의 path name를 가지고 있다. 그래서 그 path name으로 original을 찾아간다.
 앞의 l은 symbolic link라는 뜻 그리고 name2 -> dirA/name1라고 dirA/name1을 가리키고 있다는 것을 볼 수 있음
 ## link(2) 시스템 호출
-• 새로운 디렉토리 항목을 생성하고 링크 수를 증가시킵니다.
+```c
+#include <unistd.h>
+int link(const char *orginal_path, const char *new_path);
+// Returns: 0 if OK, -1 on error
+```
+• 새로운 디렉토리 항목을 생성하고 링크 수를 증가시킵니다. (하드 링크)
 • 디렉토리에 하드 링크 생성은 슈퍼유저에게만 제한됩니다. (파일 시스템 루프 방지)
-
-• **인수**
 • 두 경로명이 동일한 파일 시스템에 있어야 합니다.
-
-**unlink(2) 시스템 호출**
+## unlink(2) 시스템 호출
 ```c
 #include <unistd.h>
 int unlink(const char *pathname);
+// Return 0 if OK, -1 on error
 ```
-• 반환 값: 성공 시 0, 오류 시 -1
+![[Pasted image 20241008233653.png|250]]
 • 기존 디렉토리 항목을 제거합니다.
-• 이름이 지정된 링크만 제거하고 파일의 링크 수를 하나 줄입니다.
+• **이름이 지정된 링크만 제거**하고 파일의 링크 수를 하나 줄입니다. 
 • 파일에 다른 링크가 있는 경우, 다른 링크를 통해 파일의 데이터에 여전히 접근할 수 있습니다.
 • 링크 수가 0으로 줄어들면 디스크 블록이 자유 블록 목록에 추가됩니다.
-• **unlink 권한?**
+unlink하려면 write permission이 있어야 하고 directory에 대해 read permission이 있어야 한다.
+![[Pasted image 20241008233945.png|450]]
 
-**remove(2) 시스템 호출**
-
+## remove(2) 시스템 호출
 • 파일의 경우, remove는 unlink와 동일합니다.
 • ISO C는 파일을 삭제하기 위해 remove 함수를 지정합니다.
 • 대부분의 비 UNIX 시스템이 파일에 대한 링크 개념을 지원하지 않았기 때문에, 이름은 역사적인 UNIX 이름인 unlink에서 remove로 변경되었습니다.
