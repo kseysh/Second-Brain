@@ -12,11 +12,13 @@ password는 다른 파일로 옮겨서 x로만 표기됨
 • 소유권 변경
 	• 슈퍼유저 또는 파일의 소유자
 	• 슈퍼유저(username=root, uid=0)
+![[Pasted image 20241008191519.png]]
+process를 실행한 사람의 uid가 프로세스에 기록됨 (프로세스가 shell의 uid를 상속함.)
 ### 그룹
-• 각 사용자는 적어도 하나 이상의 그룹에 속해 있습니다.
+• 각 사용자는 **적어도 하나 이상의 그룹**에 속해 있습니다.
 ```shell
-$ usermod -G group1,group2 user1
-$ id
+$ usermod -G group1,group2 user1 // user modify user1의 그룹을 변경하는 중
+$ id // 자신의 정보 출력
 uid=509(user1) gid=509(group1) groups=509(group1),510(group2)
 ```
 • `/etc/group`에 정의됨
@@ -27,7 +29,7 @@ uid=509(user1) gid=509(group1) groups=509(group1),510(group2)
 
 ## 실제 사용자 및 그룹 ID
 • 실제 사용자 ID (ruid) - 프로세스를 시작한 사용자의 uid
-• 유효 사용자 ID (euid) - 특정 작업을 수행할 프로세스의 권한을 평가하는 데 사용됨
+• 유효 사용자 ID (euid) - 특정 작업을 수행할 프로세스의 권한을 부여하는 데 사용됨
 • 대부분의 경우, 유효 사용자 ID와 실제 사용자 ID는 일치합니다
 • 유효 사용자 및 그룹 ID는 파일 접근 권한을 결정합니다.
 
