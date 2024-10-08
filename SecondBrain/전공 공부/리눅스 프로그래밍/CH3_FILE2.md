@@ -83,18 +83,21 @@ fd4 EACESS
 `user $ chmod u+s a.out`
 a.out에 user에다가 set user id execution을 해준다는 의미이다.
 s는 x가 없는 경우에 의미가 없으므로 x를 s로 쓴다 (s가 있으면 x가 있는 것)
-그래서 a.out의 euid가 file의 owner인 user2의 ruid로 실행된 것.
+그래서 a.out의 euid가 file의 owner인 user2의 euid로 실행된 것.
+따라서 a.out의 ruid: 실행한 사람, euid: 권한을 가진 사람
 
 - 스티키 비트 (save-text-image)
+잘 사용하지 않아 참고만 하자
 • `S_ISVTX` 비트는 실행 파일에 설정할 수 있습니다.
 • 초기 시스템에서는 save-text-image 비트가 파일에 설정된 경우, 실행 시 프로그램 텍스트 부분이 시스템이 중단될 때까지 시스템의 스왑 영역에 남아 있었습니다.
 • 현대 UNIX 시스템에서는 이 비트가 이제 불필요합니다.
 • 현대 시스템에서는 디렉토리에 대해 S_ISVTX 비트를 정의합니다.
-## Password 변경
+## Password 변경 (다른 사람의 권한으로 못여는 파일을 여는 예제)
 `/etc/shadow`는 owner의 read만 가능해서 직접 변경이 불가능하다.
 ![[Pasted image 20241008161806.png|400]]
 그러나, usr/bin/passwd는 /etc/shadow를 변경할 수 있다.
 ![[Pasted image 20241008161801.png|400]]
+euid가 0인 이유는 set user id excution이 있으므로 passwd의 euid로 shadow파일을 열었기 때문
 ![[Pasted image 20241008161922.png|400]]
 다시 보기
 
