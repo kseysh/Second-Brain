@@ -32,8 +32,9 @@ uid=509(user1) gid=509(group1) groups=509(group1),510(group2)
 • 유효 사용자 ID (euid) - 특정 작업을 수행할 프로세스의 권한을 부여하는 데 사용됨
 • 대부분의 경우, 유효 사용자 ID와 실제 사용자 ID는 일치합니다
 • 유효 사용자 및 그룹 ID는 파일 접근 권한을 결정합니다.
-
-## 권한 및 파일 모드 (1/3)
+![[Pasted image 20241008194513.png]]
+euid를 이용해 /shadow파일을 변경하는 예제
+## 권한 및 파일 모드
 ### 소유권
 • 파일에 연결된 권한을 선택할 수 있음
 ### 권한
@@ -43,6 +44,7 @@ uid=509(user1) gid=509(group1) groups=509(group1),510(group2)
 ![[Pasted image 20241008153504.png|300]]  
 ls시에 owner/group/other로 permission이 나옴
 ![[Pasted image 20241008153612.png|400]]
+이거보다 숫자가 더 편해서 쓸 일은 별로 없을거라 하심..
 ```shell
 S_IRUSER | S_IRGRP | S_IROTH = 0444 = r--r--r--
 S_IRUSR | S_IWUSR | S_IXUSR | S_IRGRP | S_IXGRP | S_IXOTH | S_IXOTH = 0755 = rwx-r-xr-x
@@ -55,7 +57,16 @@ S_IRUSR | S_IWUSR | S_IXUSR | S_IRGRP | S_IXGRP | S_IXOTH | S_IXOTH = 0755 = rwx
 • **파일을 열 때 커널은 유효 사용자 및 그룹 ID를 기반으로 접근 테스트를 수행**합니다.
 
 ![[Pasted image 20241008154325.png]]
-알아보기
+ruid = usr1
+euid = usr1
+rgid = grp1
+egid = grp1
+
+fd1 성공
+fd2 성공
+fd3 EACESS (owner의 permission이 없음(뒤를 확인하지 않음))
+fd4 성공 
+fd4 EACESS
 ## 파일 접근 테스트
 • 커널이 수행하는 테스트는 다음과 같습니다.
 	• 프로세스의 유효 사용자 ID가 0 (슈퍼유저)인 경우 접근이 허용됩니다.
