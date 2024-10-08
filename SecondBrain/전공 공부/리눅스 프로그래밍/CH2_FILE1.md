@@ -206,19 +206,22 @@ file table의 count 값이 2가 된다.
 
 ![[Pasted image 20240910223852.png]]
 ![[Pasted image 20240910223902.png|300]]
-`O_ACCMODE`여야만 
+`O_ACCMODE`와 &연산을 해야 원하는 status flags를 뽑아낼 수 있는 뒤 부분을 알 수 있다.
+O_ACCMODE는 read/write에 관한 정보만 알 수 있다.
 ## Standard input, Standard output, Standard error
 ![[Pasted image 20240925200123.png|400]]
 자연스럽게 standard input과 standard output으로 read write를 해준다.
 
 ![[Pasted image 20240925200139.png|400]]
 keyboard input을 infile로 redirection 해주는 것
+여기서 오른쪽 infile은 fd다
 
 ![[Pasted image 20240925200149.png|400]]
 자연스럽게 standard output으로 read를 해준다.
 
 ![[Pasted image 20240925200205.png|400]]
 standard output을 outfile로 redirection 해주는 것
+여기서 오른쪽 outfile은 fd다
 ## `io`
 ![[Pasted image 20240925200955.png|450]]
 # 표준 I/O Library
