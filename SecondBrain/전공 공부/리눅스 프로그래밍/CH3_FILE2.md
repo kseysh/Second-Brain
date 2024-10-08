@@ -36,12 +36,20 @@ uid=509(user1) gid=509(group1) groups=509(group1),510(group2)
 ### 권한
 • 다른 사용자가 파일에 접근할 수 있는 방법을 결정함
 • 슈퍼유저는 읽기, 쓰기 또는 실행 권한과 상관없이 모든 파일을 조작할 수 있음
-  
-**open(2)와 파일 권한**
+![[Pasted image 20241008153427.png|300]]
+![[Pasted image 20241008153504.png|300]]  
+ls시에 owner/group/other로 permission이 나옴
+![[Pasted image 20241008153612.png|400]]
+```shell
+S_IRUSER | S_IRGRP | S_IROTH = 0444 = r--r--r--
+S_IRUSR | S_IWUSR | S_IXUSR | S_IRGRP | S_IXGRP | S_IXOTH | S_IXOTH = 0755 = rwx-r-xr-x
+```
+앞은 무조건 S_I /W/R/X USR/GRP/OTH
+### open(2)와 파일 권한
 • open을 사용하여 기존 파일을 열면
 • 시스템은 파일의 권한을 확인하여 프로세스에서 요청한 접근 모드가 허용되는지 확인합니다.
 • 프로세스에 요청된 접근 권한이 없으면 open은 -1(errno=EACCESS)을 반환합니다.
-• 파일을 열 때 커널은 유효 사용자 및 그룹 ID를 기반으로 접근 테스트를 수행합니다.
+• **파일을 열 때 커널은 유효 사용자 및 그룹 ID를 기반으로 접근 테스트를 수행**합니다.
 
 **파일 접근 테스트**
 • 커널이 수행하는 테스트는 다음과 같습니다.
