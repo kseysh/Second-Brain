@@ -248,18 +248,48 @@ int symlink(const char *realname, const char *symname);
 ```c
 #include <unistd.h>
 int symlink(const char *realname, const char *symname);
-Returns: 0 if OK, -1 on error
+// Returns: 0 if OK, -1 on error
 ```
 1. sympath를 엽니다.
 2. 파일의 내용을 버퍼로 읽어들입니다.
 3. sympath를 닫습니다.
 
 • 원본 파일이 제거된 경우,
-• 프로그램은 여전히 심볼릭 링크를 ‘볼’ 수 있지만, open 호출은 그 안에 포함된 경로를 따라갈 수 없으며 errno가 EEXIST로 설정된 상태로 반환됩니다.
-
+	• 프로그램은 여전히 심볼릭 링크를 ‘볼’ 수 있지만, open 호출은 그 안에 포함된 경로를 따라갈 수 없으며 errno가 EEXIST로 설정된 상태로 반환됩니다.
 # 3.3 파일 정보 얻기: stat과 fstat
-**stat(2) 시스템 호출(1/2)**
-• 이 함수들은 파일에 대한 정보를 얻습니다.
-• **stat**: 지정된 파일
-• **fstat**: 열린 파일
-• **lstat**: 심볼릭 링크
+## stat(2) 시스템 호출
+```c
+#include <sys/stat.h>
+int stat(const char *pathname, struct stat *buf);
+int fstat(int filedes, struct stat *buf);
+int lstat(const char *pathname, struct stat *buf);
+// All three return: 0 if OK, -1 on error
+```
+• 이 함수들은 파일에 대한 정보를 얻습니다. (status)
+	• **stat**: 지정된 파일 (심볼릭 링크 파일에 stat을 쓰면 심볼릭 링크가 참조하고 있는 파일의 i-node 정보가 나옴, 따라서 심볼릭 링크는 lstat을 써야함)
+	• **fstat**: 열린 파일
+	• **lstat**: 심볼릭 링크(l이 symbolic link를 나타냄)
+
+```c
+struct stat {
+	mode_t st_mode; /* file type & mode (permissions) */
+	ino_t st_ino; /* i-node number (serial number) */
+	dev_t st_dev; /* device number (file system) */
+	dev_t st_rdev; /* device number for special files */
+	nlink_t st_nlink; /* number of links */
+	uid_t st_uid; /* user ID of owner */
+	gid_t st_gid; /* group ID of owner */
+	off_t st_size; /* size in bytes, for regular files */
+	time_t st_atime; /* time of last access */
+	time_t st_mtime; /* time of last modification */
+	time_t st_ctime; /* time of last file status change */
+	blksize_t st_blksize; /* best I/O block size */
+	blkcnt_t st_blocks; /* number of disk blocks allocated */
+};
+```
+
+![[Pasted image 20241008235637.png|550]]
+![[Pasted image 20241008235704.png|450]]
+![[Pasted image 20241008235719.png|450]]
+![[Pasted image 20241008235735.png|450]]
+![[Pasted image 20241008235754.png|450]]
