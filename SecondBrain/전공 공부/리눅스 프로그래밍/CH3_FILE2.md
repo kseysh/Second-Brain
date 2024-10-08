@@ -203,8 +203,11 @@ ex) 윈도우의 바로가기 파일
 • 파일 시스템 제한이 없습니다.
 • 하드 링크와 심볼 링크에서 하드 링크가 생성됩니다.
 • 하지만, 심볼 링크에 의해 생성된 하드 링크는 경로 문자열을 포함하는 파일에 대한 링크입니다.
-
-**link(2) 시스템 호출**
+![[Pasted image 20241008205609.png|500]]
+첫 번째가 original 두 번째가 symbolic link이다.
+symbolic link가 가리키는 inode의 block은 original의 path name를 가지고 있다. 그래서 그 path name으로 original을 찾아간다.
+앞의 l은 symbolic link라는 뜻 그리고 name2 -> dirA/name1라고 dirA/name1을 가리키고 있다는 것을 볼 수 있음
+## link(2) 시스템 호출
 • 새로운 디렉토리 항목을 생성하고 링크 수를 증가시킵니다.
 • 디렉토리에 하드 링크 생성은 슈퍼유저에게만 제한됩니다. (파일 시스템 루프 방지)
 
