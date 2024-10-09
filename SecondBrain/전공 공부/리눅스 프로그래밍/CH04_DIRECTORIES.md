@@ -99,7 +99,7 @@ struct dirent *readdir(DIR *dp);
 // Returns: pointer if OK, NULL at end of directory or error
 ```
 - 첫 번째 readdir에서 첫 번째 디렉토리 항목이 struct dirent로 읽힙니다. (directory entry)
-- 완료 시 디렉토리 포인터는 디렉토리의 다음 항목으로 이동합니다.
+- **완료 시 디렉토리 포인터는 디렉토리의 다음 항목으로 이동**합니다.
 ## rewinddir(3)
 ```c
 #include <dirent.h>
