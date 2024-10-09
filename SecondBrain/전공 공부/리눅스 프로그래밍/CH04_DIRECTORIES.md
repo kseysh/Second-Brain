@@ -65,24 +65,47 @@ int mkdir(const char *pathname, mode_t mode);
 - 일반 파일처럼 읽기 및 쓰기 권한만 지정하는 실수를 저지르는 경우가 많다 . 
 	- 하지만 디렉토리의 경우, 디렉토리 내 파일명에 접근할 수 있도록 적어도 하나의 excute bit가 활성화되어야 한다.
 ![[Pasted image 20241009171718.png]]
-
-**rmdir(2) 시스템 호출**
-- 빈 디렉토리는 rmdir 함수로 삭제됩니다.
+excute permission이 없으면 cat을 통해 파일 안의 특정 파일명을 검색할 수 없다.
+read permission이 없으면 ls를 통해 디렉토리 내의 모든 파일명을 얻을 수 없다
+## rmdir(2) 시스템 호출
+```c
+#include <unistd.h>
+int rmdir(const char *pathname);
+// Returns: 0 if OK, -1 on error
+```
+- 빈 디렉토리는 rmdir 함수로 삭제됩니다. (비지 않으면 삭제 못함)
 - 빈 디렉토리는 `.`와 `..` 항목만 포함하는 디렉토리입니다.
-
-**opendir(3)**
+## opendir(3)
+```c
+#include <dirent.h>
+DIR *opendir(const char *dirname);
+// Returns: pointer if OK, NULL on error
+```
 - DIR은 표준 I/O 라이브러리에서 사용되는 FILE 타입과 유사한 방식으로 작동합니다.
 - 항상 null 포인터를 테스트하는 적절한 오류 검사 코드를 작성해야 합니다.
 - 프로그램이 디렉토리 접근을 마치면 닫아야 합니다. 이것은 closedir 함수로 달성할 수 있습니다.
-
-**closedir(3)**
+## closedir(3)
+```c
+#include <dirent.h>
+int closedir(DIR *dirptr);
+// Returns: 0 if OK, -1 on error
+```
 - closedir 함수는 인수로 주어진 dirptr이 가리키는 디렉토리 스트림을 닫습니다.
-
-**readdir(3)**
-- 첫 번째 readdir에서 첫 번째 디렉토리 항목이 struct dirent로 읽힙니다.
+![[Pasted image 20241009172204.png|450]]
+## readdir(3)
+```c 
+#include <dirent.h>
+struct dirent *readdir(DIR *dp);
+// Returns: pointer if OK, NULL at end of directory or error
+```
+- 첫 번째 readdir에서 첫 번째 디렉토리 항목이 struct dirent로 읽힙니다. (directory entry)
 - 완료 시 디렉토리 포인터는 디렉토리의 다음 항목으로 이동합니다.
-
-**rewinddir(3)**
+## rewinddir(3)
+```c
+#include <dirent.h>
+void rewinddir(DIR *dp);
+// Returns: 0 if OK, -1 on error
+```
 - rewinddir 호출 후, 다음 readdir은 dp가 가리키는 디렉토리의 첫 번째 항목을 반환합니다.
 
 **현재 작업 디렉토리**
