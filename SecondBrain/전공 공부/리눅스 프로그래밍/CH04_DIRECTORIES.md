@@ -107,6 +107,11 @@ void rewinddir(DIR *dp);
 // Returns: 0 if OK, -1 on error
 ```
 - rewinddir 호출 후, 다음 readdir은 dp가 가리키는 디렉토리의 첫 번째 항목을 반환합니다.
+![[Pasted image 20241009172812.png|500]]
+
+dirname 아래 파일에서 주어진 접미사로 끝나는 첫 번째 파일을 찾는 함수
+![[Pasted image 20241009173221.png|500]]
+![[Pasted image 20241009173234.png|500]]
 
 **현재 작업 디렉토리**
 - 각 UNIX 프로세스는 고유한 현재 작업 디렉토리를 가집니다.
