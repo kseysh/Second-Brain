@@ -110,6 +110,8 @@ void rewinddir(DIR *dp);
 ![[Pasted image 20241009172812.png|500]]
 
 dirname 아래 파일에서 주어진 접미사로 끝나는 첫 번째 파일을 찾는 함수
+첫 번째 검색 find_entry(\_,suffix,0)
+두 번째 이후 검색 find_entry(\_,suffix,1)
 ![[Pasted image 20241009173221.png|500]]
 ![[Pasted image 20241009173234.png|500]]
 
