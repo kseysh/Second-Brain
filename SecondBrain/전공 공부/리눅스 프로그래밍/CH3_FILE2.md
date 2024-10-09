@@ -274,8 +274,8 @@ int lstat(const char *pathname, struct stat *buf);
 struct stat {
 	mode_t st_mode; /* file type(directory of socket or fifo...) & mode (permissions) */
 	ino_t st_ino; /* i-node number */ 
-	dev_t st_dev; /* device number (file system) */
-	dev_t st_rdev; /* device number for special files device number는 나중에 보자 */ 
+	dev_t st_dev; /* device number (file system) */ // file system에서 저장하는 device 파일
+	dev_t st_rdev; /* device number for special files device number */ // real device 
 	nlink_t st_nlink; /* 링크 count */
 	uid_t st_uid; /* user ID of owner */
 	gid_t st_gid; /* group ID of owner */
