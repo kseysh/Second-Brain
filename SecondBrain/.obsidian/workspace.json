@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "알고리즘/오늘 푼 문제들.md",
+                "file": "전공 공부/논리 회로/Widmer_C3.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "알고리즘/오늘 푼 문제들.md",
+                "file": "전공 공부/논리 회로/Widmer_C3.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "알고리즘/오늘 푼 문제들.md",
+                "file": "전공 공부/논리 회로/Widmer_C3.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "알고리즘/오늘 푼 문제들.md"
+                "file": "전공 공부/논리 회로/Widmer_C3.md"
               }
             }
           },
@@ -171,11 +171,13 @@
   },
   "active": "882cc47b432f8fee",
   "lastOpenFiles": [
+    "전공 공부/논리 회로/Widmer_C4.md",
+    "전공 공부/논리 회로/Widmer_C4 번역.md",
+    "알고리즘/오늘 푼 문제들.md",
     "Unused/Attached files/Pasted image 20241010022203.png",
     "알고리즘/풀이/boj/틀린 문제/다시 보기만 할 문제/boj 2004.md",
     "알고리즘/풀이/boj/틀린 문제/다시 보기만 할 문제/boj 6588.md",
     "알고리즘/풀 문제들/이런 저런...md",
-    "알고리즘/오늘 푼 문제들.md",
     "Unused/Attached files/Pasted image 20241009194716.png",
     "알고리즘/풀이/boj/틀린 문제/다시 풀 문제/boj 1850.md",
     "알고리즘/풀 문제들/알고리즘 공부 순서.md",
@@ -191,12 +193,10 @@
     "Unused/Attached files/Pasted image 20241009181709.png",
     "Unused/Attached files/Pasted image 20241009173234.png",
     "Unused/Attached files/Pasted image 20241009173221.png",
-    "Unused/Attached files/Pasted image 20241009172812.png",
     "전공 공부/리눅스 프로그래밍/CH2_FILE1.md",
     "전공 공부/리눅스 프로그래밍/CH01 BASIC.md",
     "전공 공부/리눅스 프로그래밍/CH05_PROCESS2.md",
     "전공 공부/리눅스 프로그래밍/process1 번역.md",
-    "전공 공부/논리 회로/Widmer_C4 번역.md",
     "프로젝트/SOPT Makers APP/일급 컬렉션 사용하기.md",
     "프로젝트/SOPT Makers APP/친구 추천 api 로직 개선하기 - 1.md",
     "프로젝트/SOPT Makers APP/친구 추천 api 로직 개선하기 - 2.md",
