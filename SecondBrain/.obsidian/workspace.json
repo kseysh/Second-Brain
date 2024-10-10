@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "전공 공부/논리 회로/Widmer_C3.md",
+                "file": "전공 공부/컴퓨터 네트워크/TCP 정리.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 237.50260543823242
+    "width": 237.50260543823242,
+    "collapsed": true
   },
   "right": {
     "id": "feabab388e8825fc",
@@ -85,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "전공 공부/논리 회로/Widmer_C3.md",
+                "file": "전공 공부/컴퓨터 네트워크/TCP 정리.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "전공 공부/논리 회로/Widmer_C3.md",
+                "file": "전공 공부/컴퓨터 네트워크/TCP 정리.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "전공 공부/논리 회로/Widmer_C3.md"
+                "file": "전공 공부/컴퓨터 네트워크/TCP 정리.md"
               }
             }
           },
@@ -171,6 +172,8 @@
   },
   "active": "882cc47b432f8fee",
   "lastOpenFiles": [
+    "전공 공부/컴퓨터 네트워크/Chapter 4.md",
+    "전공 공부/논리 회로/Widmer_C3.md",
     "전공 공부/논리 회로/Widmer_C4.md",
     "전공 공부/논리 회로/Widmer_C4 번역.md",
     "알고리즘/오늘 푼 문제들.md",
@@ -203,10 +206,8 @@
     "프로젝트/HMH/무제 파일.md",
     "프로젝트/HMH/시도해볼 것.md",
     "전공 공부/컴퓨터 네트워크/TCP 정리.md",
-    "전공 공부/컴퓨터 네트워크/Chapter 4.md",
     "전공 공부/문해기/temp.md",
     "전공 공부/컴퓨터 네트워크/Chapter 1.md",
-    "전공 공부/컴퓨터 네트워크/Chapter 3.md",
     "전공 공부/문해기/C++ 문법",
     "전공 공부/문해기",
     "DB/In-memory DB",
