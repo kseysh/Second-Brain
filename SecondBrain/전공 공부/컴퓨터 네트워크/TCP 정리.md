@@ -302,14 +302,26 @@ A. 중복된 ACK이 계속 오면 패킷이 늦게 온 것이 아닌 사라졌�
 #### Rule 5
 못 받은 패킷이 도착하면(Recent된 ACK이 오면), 바로 응답을 보내자
 Q. 못 받은 패킷인지에 대한 확인은 어떻게 하는지? 중간에 채워진 데이터면 ACK을 보내는건가?
+
+![[Pasted image 20241011172027.png]]
+#### Rule 6
+중복된 패킷을 받는 경우도 있다. 그럴 때는 ACK을 기다리지 않고 응답을 바로 보낸다.
 ## Fast retransmission
 ![[Pasted image 20241011170511.png]]
 원래는 Timeout까지 가서 패킷 전송이 잘못되었음을 확인하고 Resent를 하지만, 중복된 ACK이 계속 오면 패킷이 늦게 간 것이 아닌, 패킷 전송이 잘못되었을 확률이 높다고 간주하고 다시 Resent를 한다.
 따라서 이 개수를 정한다: 3개의 중복된 ACK이 오면 패킷 전송이 잘못되었다고 가정하고 Fast retransmit(빨리 재전송)을 한다.
+## Lost acknowledgment
+![[Pasted image 20241011171759.png]]
+Sender는 Ack: 701을 받았지만, 이후에 받은 Ack으로 Receiver가 900까지는 잘 받은 것을 확인할 수 있다.
 
 #### 이로서 알 수 있는 cumulative ACK의 장점
 2개당 1개의 ACK을 보내서 ACK의 개수를 줄일 수 있다.
 Fast retransmit같은 것을 쉽게 구현할 수 있다. (쉽게 packet lost를 detect가능)
-## Lost acknowledgment
-![[Pasted image 20241011171759.png]]
-Sender는 Ack: 701을 받았지만, 이후에 받은 Ack으로 Receiver가 900까지는 잘 받은 것을 확인할 수 있다.
+Receiver의 ACK이 lost되어도 Resent하지 않아도 되는 Case가 있다.
+## ack 유실로 인해 DeadLock이 발생할 수 있다.
+Receiver는 buffer에 충분한 공간이 없어 rwnd를 0으로 보낼 수 있다.
+이 때, buffer에 충분한 공간이 생기면 다시 Receiver는 ACK을 이용해 rwnd값을 보내는데, 그 ACK이 유실되면 DeadLock이 발생할 수 있다. 
+하지만, ACK에 대한 ACK은 없기 때문에 Receiver는 Sender가 ACK을 잘 받았는지 확인할 수 없다.
+현재 상황
+Sender: Receiver에게 rwnd = 0을 받아 대기 중
+Receiver: Sender에게 rwnd = k라는 A
