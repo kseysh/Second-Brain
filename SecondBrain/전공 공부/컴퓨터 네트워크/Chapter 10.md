@@ -56,4 +56,9 @@ WIFEXITED로 제대로 종료되었는지 확인하고, WEXITSTATUS로 자식이
 ![[Pasted image 20241011185707.png|600]]
 
 ![[Pasted image 20241011185758.png|600]]
-
+부모 (서버 소켓)는 accept를 하며 무한 루프를 돌며 상대방이 연결요청을 했는지 확인한다.
+연결이 되면 client socket을 만들어서 자식 프로세스에게 이를 처리하도록 한다.
+## fork 함수 호출을 통한 디스크립터의 복사
+![[Pasted image 20241011191639.png]]
+fork를 해서 소켓까지 복사될 수 있어 걱정될 수 있지만, fork로 인해 소켓은 복사되지 않는다. 그 이유는 소켓은 OS가 가지고 있기 때문이다.
+우리는 소켓을 copy하는 것이 아니라 file descripter를 copy한 것.
