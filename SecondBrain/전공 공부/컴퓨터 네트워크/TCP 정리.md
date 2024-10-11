@@ -154,7 +154,7 @@ close: 연결 종료 함수
 
 ## State transition diagram
 ![[Pasted image 20241002150905.png|500]]
-보내는 것 / 받은 것의 순서대로 되어 있다
+받은 것 / 보내는 것의 순서대로 되어 있다
 중요한 그림이니 이해하기
 ### client
 SYN과 SYN+ACK 사이의 상태를 이름을 지은 것 = SIN-SENT
