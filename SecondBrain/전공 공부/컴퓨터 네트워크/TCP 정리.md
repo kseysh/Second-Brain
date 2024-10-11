@@ -333,4 +333,9 @@ Persistence Timer가 만료되면 probe 세그먼트 전송
 2. 일정 시간이 지나면 작은 사이즈의 데이터를 보내본다. (헤더가 낭비되긴 하지만 특별한 케이스이므로) => probe segment라 한다.
 
 ## Congestion Control
+![[Pasted image 20241011173930.png|400]]
+TCP connection 1,2 모두 100Mbps로 데이터를 보내고, 라우터도 최대 100Mbps로 보내는 것이 가능하다면 bottle neck이 발생하게 된다.
+packet switching은 circuit switching에 반해 중앙 경로 설정이 아니기 때문에, 모니터링이 불가능하고 성능에 관한 보장도 불가능하다.
+ex) packet switching: 자동차 길 circuit switching: ktx
+따라서 packet switching 방식은 혼잡도를 측정할 방법이 마땅하지 않다.
 
