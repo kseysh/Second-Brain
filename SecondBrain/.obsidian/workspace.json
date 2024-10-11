@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "전공 공부/컴퓨터 네트워크/Chapter 10.md",
+                "file": "전공 공부/리눅스 프로그래밍/CH05_PROCESS1.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "전공 공부/컴퓨터 네트워크/Chapter 10.md",
+                "file": "전공 공부/리눅스 프로그래밍/CH05_PROCESS1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "전공 공부/컴퓨터 네트워크/Chapter 10.md",
+                "file": "전공 공부/리눅스 프로그래밍/CH05_PROCESS1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "전공 공부/컴퓨터 네트워크/Chapter 10.md"
+                "file": "전공 공부/리눅스 프로그래밍/CH05_PROCESS1.md"
               }
             }
           },
@@ -171,6 +171,11 @@
   },
   "active": "882cc47b432f8fee",
   "lastOpenFiles": [
+    "Unused/Attached files/Pasted image 20241011235503.png",
+    "전공 공부/리눅스 프로그래밍/CH04_DIRECTORIES.md",
+    "전공 공부/리눅스 프로그래밍/CH05_PROCESS1.md",
+    "전공 공부/리눅스 프로그래밍/CH05_PROCESS2.md",
+    "전공 공부/컴퓨터 네트워크/Chapter 10.md",
     "전공 공부/컴퓨터 네트워크/Chapter 4.md",
     "전공 공부/컴퓨터 네트워크/Chapter 3.md",
     "전공 공부/컴퓨터 네트워크/Chapter 2.md",
@@ -182,7 +187,6 @@
     "Unused/Attached files/Pasted image 20241011205018.png",
     "Unused/Attached files/Pasted image 20241011204631.png",
     "Unused/Attached files/Pasted image 20241011204437.png",
-    "전공 공부/컴퓨터 네트워크/Chapter 10.md",
     "Unused/Attached files/Pasted image 20241011193004.png",
     "Unused/Attached files/Pasted image 20241011192912.png",
     "Unused/Attached files/Pasted image 20241011191639.png",
@@ -190,7 +194,6 @@
     "Unused/Attached files/Pasted image 20241011185707.png",
     "Unused/Attached files/Pasted image 20241011184650.png",
     "Unused/Attached files/Pasted image 20241011184105.png",
-    "전공 공부/리눅스 프로그래밍/CH05_PROCESS1.md",
     "알고리즘/C++ 문법/변수 크기 별 사용 자료구조.md",
     "전공 공부/논리 회로/Widmer_C3.md",
     "전공 공부/논리 회로/Widmer_C4.md",
@@ -202,11 +205,8 @@
     "알고리즘/풀이/boj/틀린 문제/다시 풀 문제/boj 1850.md",
     "알고리즘/풀 문제들/알고리즘 공부 순서.md",
     "알고리즘/풀 문제들/자료구조 문제.md",
-    "전공 공부/리눅스 프로그래밍/CH04_DIRECTORIES.md",
     "전공 공부/리눅스 프로그래밍/CH3_FILE2.md",
     "전공 공부/리눅스 프로그래밍/CH2_FILE1.md",
-    "전공 공부/리눅스 프로그래밍/CH01 BASIC.md",
-    "전공 공부/리눅스 프로그래밍/CH05_PROCESS2.md",
     "전공 공부/문해기/C++ 문법",
     "전공 공부/문해기",
     "DB/In-memory DB",
