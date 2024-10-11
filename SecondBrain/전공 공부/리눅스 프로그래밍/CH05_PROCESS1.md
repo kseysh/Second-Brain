@@ -89,24 +89,41 @@ pid_t fork(void);
 호출된 프로세스의 추출된 복제본인 새로운 프로세스를 생성한다.
 - 자식 프로세스는 부모 프로세스의 데이터 공간, 힙, 스택의 복사본을 받지만 공유하지는 않음
 - 하지만, 텍스트 세그먼트는 공유합니다.
-- 자식 프로세스가 부모 프로세스보다 먼저 실행을 시작할지, 부모 프로세스가 자식 프로세스보다 먼저 실행을 시작할지는 알 수 없습니다. 이는 커널에서 사용하는 스케줄링 알고리즘에 따라 달라집니다.
+- 어떤 프로세스가 먼저 실행을 시작할지는 커널에서 사용하는 스케줄링 알고리즘에 따라 달라지므로 알 수 없다.
+ ![[Pasted image 20241012005342.png|600]]
+텍스트 세그먼트를 공유하는 것을 볼 수 있다.
 
-![[Pasted image 20241007130721.png]]
+![[Pasted image 20241007130721.png|600]]
 자식(B)은 fork()가 실행된 이후 Two를 각각 실행하게 된다.
 parent와 child는 똑같은 fork()를 실행하지만, child는 pid를 0으로 반환한다.
 
-![[Pasted image 20241007120856.png]]
 **오류 처리 (EAGAIN)**
 • 시스템 전체에서 생성할 수 있는 프로세스의 수에 제한이 있을 때 발생하는 오류입니다.
 • 개별 사용자가 생성할 수 있는 프로세스 수에 제한이 있을 때도 발생할 수 있습니다.
-## exec
-• exec 패밀리는 새로운 프로그램의 실행을 시작하는 데 사용할 수 있습니다.
-• exec 호출에서는 새로운 프로세스가 생성되지 않으므로 프로세스 ID는 변경되지 않습니다.
+
+![[Pasted image 20241007120856.png]]
+그냥 child와 parent가 다른 함수를 실행할 수 있다는 예제
+## exec family
+• exec 패밀리는 새로운 프로그램의 실행을 시작하는 데 사용할 수 있습니다. (자기 자신을 새로운 프로그램을 시작하도록 바꿈)
+• 새로운 프로세스가 생성되지 않으므로 프로세스 ID는 변경되지 않습니다.
 • exec는 단순히 현재 프로세스의 텍스트, 데이터, 힙, 스택 세그먼트를 디스크에 있는 새로운 프로그램으로 대체합니다.
-• 많은 UNIX 시스템 구현에서 이 여섯 가지 함수 중 오직 하나인 execve만이 커널 내의 시스템 호출입니다.
-
-exec 가족(1/3)
-
+• execve만이 커널 내의 시스템 호출이다. 나머지 exec family는 library다
+```c
+#include <unistd.h>
+int execl(const char *pathname, const char *arg0,…/*NULL*/ );
+int execv(const char *pathname, char *const argv[]);
+int execle(const char *pathname, const char *arg0,…/*NULL*/,char *const envp[]);
+int execve(const char *pathname, char *const argv[], char *const envp[]);
+int execlp(const char *filename, const char *arg0,.../*NULL*/ );
+int execvp(const char *filename, char *const argv[]);
+// All six return: -1 on error, **no return on success**
+```
+l / v - e / p 가 뒤에 붙는다.
+execve만 system call이다.
+l - path name
+v - 
+e - environment
+p - 
 •	exec 가족은 새로운 프로그램 실행을 시작하는 데 사용될 수 있습니다.
 •	새로운 프로세스가 생성되지 않기 때문에 exec를 통해 프로세스 ID는 변경되지 않습니다.
 •	exec는 현재 프로세스의 텍스트, 데이터, 힙, 스택 세그먼트를 디스크의 새로운 프로그램으로 대체합니다.
