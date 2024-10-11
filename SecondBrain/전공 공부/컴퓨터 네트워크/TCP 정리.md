@@ -339,3 +339,11 @@ packet switching은 circuit switching에 반해 중앙 경로 설정이 아니�
 ex) packet switching: 자동차 길 circuit switching: ktx
 따라서 packet switching 방식은 혼잡도를 측정할 방법이 마땅하지 않다.
 
+![[Pasted image 20241011175158.png|250]]
+Capacity를 넘게 되면 지수적으로 delay되는 시간이 길어진다.
+
+![[Pasted image 20241011175223.png|250]]
+capacity가 최대 10Mbps라 할 때, 50Mbps를 보낼 때 5초가 걸렸다면 Throughput은 10Mbps라고 할 수 있다.
+하지만 점점 혼잡도가 증가해 10초가 걸렸다면 Throughput이 5Mbps로 줄어들게 된다.
+
+
