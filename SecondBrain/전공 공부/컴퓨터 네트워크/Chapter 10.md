@@ -62,3 +62,10 @@ WIFEXITED로 제대로 종료되었는지 확인하고, WEXITSTATUS로 자식이
 ![[Pasted image 20241011191639.png]]
 fork를 해서 소켓까지 복사될 수 있어 걱정될 수 있지만, fork로 인해 소켓은 복사되지 않는다. 그 이유는 소켓은 OS가 가지고 있기 때문이다.
 우리는 소켓을 copy하는 것이 아니라 file descripter를 copy한 것.
+
+소켓은 부모와 자식이 둘 다 보고 있으면 i-node의 count 값이 2가 된다. 
+close(serv_sock)일 때, FIN을 보내는 것이 아니고, i-node의 count값을 1 줄이는 것이며, i-node의 count값이 0이 될 때 FIN을 보낸다.
+
+그래서 부모 프로세스는 clnt_sock을 생성하자마자 바로 close를 보낸다. 그래야 자식 프로세스에서 close(clnt_sock)을 했을 때 바로 FIN이 나갈 수 있다.
+또한 자식 프로세스는 fork 되자마자 serv_sock을 close한다.
+## TCP의 입출력 루틴 분할
