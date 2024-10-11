@@ -304,4 +304,12 @@ A. 중복된 ACK이 계속 오면 패킷이 늦게 온 것이 아닌 사라졌�
 Q. 못 받은 패킷인지에 대한 확인은 어떻게 하는지? 중간에 채워진 데이터면 ACK을 보내는건가?
 ## Fast retransmission
 ![[Pasted image 20241011170511.png]]
+원래는 Timeout까지 가서 패킷 전송이 잘못되었음을 확인하고 Resent를 하지만, 중복된 ACK이 계속 오면 패킷이 늦게 간 것이 아닌, 패킷 전송이 잘못되었을 확률이 높다고 간주하고 다시 Resent를 한다.
+따라서 이 개수를 정한다: 3개의 중복된 ACK이 오면 패킷 전송이 잘못되었다고 가정하고 Fast retransmit(빨리 재전송)을 한다.
 
+#### 이로서 알 수 있는 cumulative ACK의 장점
+2개당 1개의 ACK을 보내서 ACK의 개수를 줄일 수 있다.
+Fast retransmit같은 것을 쉽게 구현할 수 있다. (쉽게 packet lost를 detect가능)
+## Lost acknowledgment
+![[Pasted image 20241011171759.png]]
+Sender는 Ack: 701을 받았지만, 이후에 받은 Ack으로 Receiver가 900까지는 잘 받은 것을 확인할 수 있다.
