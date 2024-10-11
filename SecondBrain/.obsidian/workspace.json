@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "알고리즘/C++ 문법/변수 크기 별 사용 자료구조.md",
+                "file": "전공 공부/컴퓨터 네트워크/TCP 정리.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "알고리즘/C++ 문법/변수 크기 별 사용 자료구조.md",
+                "file": "전공 공부/컴퓨터 네트워크/TCP 정리.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "알고리즘/C++ 문법/변수 크기 별 사용 자료구조.md",
+                "file": "전공 공부/컴퓨터 네트워크/TCP 정리.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "알고리즘/C++ 문법/변수 크기 별 사용 자료구조.md"
+                "file": "전공 공부/컴퓨터 네트워크/TCP 정리.md"
               }
             }
           },
@@ -171,8 +171,8 @@
   },
   "active": "882cc47b432f8fee",
   "lastOpenFiles": [
-    "전공 공부/컴퓨터 네트워크/TCP 정리.md",
     "알고리즘/C++ 문법/변수 크기 별 사용 자료구조.md",
+    "전공 공부/컴퓨터 네트워크/TCP 정리.md",
     "Unused/Attached files/Pasted image 20241010201504.png",
     "Unused/Attached files/Pasted image 20241010195743.png",
     "Unused/Attached files/Pasted image 20241010171114.png",
