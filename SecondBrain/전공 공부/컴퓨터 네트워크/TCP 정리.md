@@ -112,7 +112,7 @@ ACK packet은 데이터를 가져가지 않고 sequence number도 사용하지 �
 
 TCP set up이 끝나면 데이터의 sequence number는 8001번부터 쓴다.
 
- TCP는 모든 개념을 한 그림에 담기 어려워서 그림이 담는 key point를 잘 알아야 한다. (그림 볼 때 제목도 본다.)
+TCP는 모든 개념을 한 그림에 담기 어려워서 그림이 담는 key point를 잘 알아야 한다. (그림 볼 때 제목도 본다.)
 3 way도 4 way도 가능하다. 상황에 따라 달라진다.
 ## three-way handshake 이후 데이터 전송 
 ![[Pasted image 20240924011011.png|450]]
