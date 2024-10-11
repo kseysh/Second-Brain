@@ -35,6 +35,18 @@ wait는 자식 프로세스가 종료되기 전까지 block되었지만, waitpid
 - SIGCHLD: 자식 프로세스가 종료된 상황
 ### 시그널 등록이란
 특정 상황에서 운영체제로부터 프로세스가 시그널을 받기 위해서는 해당 상황에 대해서 등록의 과정을 거쳐야 한다.
-### 시그널 함수
+### `signal` 함수
 ![[Pasted image 20241011183713.png|500]]
-![[Pasted image 20241011183736.png|600]]
+`signal(SIGCHLD, mychild)`만 보자
+### `sigaction` 함수
+signal보다는 보통 이 함수를 사용한다. 
+![[Pasted image 20241011183911.png|600]]
+#### `sigaction` 예제
+![[Pasted image 20241011184105.png|600]]
+sigaction 구조체의 sa_handler에 실행할 함수를 세팅한다.
+## 시그널 핸들링을 통한 좀비 프로세스의 소멸
+이 부분을 우선적으로 보자
+![[Pasted image 20241011184650.png|600]]
+외울 필요는 없고 필요할 때 카피해서 쓰면 된다.
+sigaction을 이용해서 자식 프로세스가 소멸 될 때, sigaction 구조체에 저장된 real_childproc이라는 함수가 호출되면 된다.
+real_childproc은 
