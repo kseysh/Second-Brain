@@ -69,3 +69,8 @@ close(serv_sock)일 때, FIN을 보내는 것이 아니고, i-node의 count값�
 그래서 부모 프로세스는 clnt_sock을 생성하자마자 바로 close를 보낸다. 그래야 자식 프로세스에서 close(clnt_sock)을 했을 때 바로 FIN이 나갈 수 있다.
 또한 자식 프로세스는 fork 되자마자 serv_sock을 close한다.
 ## TCP의 입출력 루틴 분할
+### 입출력 루틴 분할의 이점과 의미
+![[Pasted image 20241011192912.png|500]]
+
+![[Pasted image 20241011193004.png|600]]
+shutdown -> close로 생각하자.
