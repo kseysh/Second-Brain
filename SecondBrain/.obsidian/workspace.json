@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "전공 공부/컴퓨터 네트워크/Chapter 10.md",
+                "file": "전공 공부/컴퓨터 네트워크/컴네 중간 공부.md",
                 "mode": "source",
                 "source": false
               }
@@ -65,13 +65,11 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 237.50260543823242,
-    "collapsed": true
+    "width": 237.50260543823242
   },
   "right": {
     "id": "feabab388e8825fc",
@@ -87,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "전공 공부/컴퓨터 네트워크/Chapter 10.md",
+                "file": "전공 공부/컴퓨터 네트워크/컴네 중간 공부.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "전공 공부/컴퓨터 네트워크/Chapter 10.md",
+                "file": "전공 공부/컴퓨터 네트워크/컴네 중간 공부.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -127,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "전공 공부/컴퓨터 네트워크/Chapter 10.md"
+                "file": "전공 공부/컴퓨터 네트워크/컴네 중간 공부.md"
               }
             }
           },
@@ -171,8 +169,52 @@
       "obsidian-file-cleaner:Clean files": false
     }
   },
+  "floating": {
+    "id": "a1227886b135ef68",
+    "type": "floating",
+    "children": [
+      {
+        "id": "fc29303e645d2dae",
+        "type": "window",
+        "children": [
+          {
+            "id": "c5f2e56b13ab56f7",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "6deff20772618055",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "전공 공부/컴퓨터 네트워크/7 Layers 정리.md",
+                    "mode": "source",
+                    "source": false
+                  }
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "vertical",
+        "x": 855,
+        "y": 39,
+        "width": 855,
+        "height": 1068,
+        "maximize": false,
+        "zoom": 0.5
+      }
+    ]
+  },
   "active": "882cc47b432f8fee",
   "lastOpenFiles": [
+    "전공 공부/컴퓨터 네트워크/7 Layers 정리.md",
+    "전공 공부/컴퓨터 네트워크/컴네 중간 공부.md",
+    "Unused/Attached files/Pasted image 20241011205018.png",
+    "Unused/Attached files/Pasted image 20241011204631.png",
+    "Unused/Attached files/Pasted image 20241011204437.png",
+    "전공 공부/컴퓨터 네트워크/Chapter 1.md",
+    "전공 공부/컴퓨터 네트워크/Chapter 10.md",
     "Unused/Attached files/Pasted image 20241011193004.png",
     "Unused/Attached files/Pasted image 20241011192912.png",
     "Unused/Attached files/Pasted image 20241011191639.png",
@@ -180,12 +222,7 @@
     "Unused/Attached files/Pasted image 20241011185707.png",
     "Unused/Attached files/Pasted image 20241011184650.png",
     "Unused/Attached files/Pasted image 20241011184105.png",
-    "Unused/Attached files/Pasted image 20241011183911.png",
-    "Unused/Attached files/Pasted image 20241011183736.png",
-    "Unused/Attached files/Pasted image 20241011183713.png",
-    "Unused/Attached files/Pasted image 20241011183210.png",
     "전공 공부/리눅스 프로그래밍/CH05_PROCESS1.md",
-    "전공 공부/컴퓨터 네트워크/Chapter 10.md",
     "전공 공부/컴퓨터 네트워크/Chapter 4.md",
     "전공 공부/컴퓨터 네트워크/TCP 정리.md",
     "알고리즘/C++ 문법/변수 크기 별 사용 자료구조.md",
@@ -206,9 +243,6 @@
     "전공 공부/리눅스 프로그래밍/CH05_PROCESS2.md",
     "전공 공부/리눅스 프로그래밍/process1 번역.md",
     "프로젝트/SOPT Makers APP/일급 컬렉션 사용하기.md",
-    "프로젝트/SOPT Makers APP/친구 추천 api 로직 개선하기 - 1.md",
-    "프로젝트/SOPT Makers APP/친구 추천 api 로직 개선하기 - 2.md",
-    "프로젝트/HMH/무제 파일.md",
     "전공 공부/문해기/C++ 문법",
     "전공 공부/문해기",
     "DB/In-memory DB",
