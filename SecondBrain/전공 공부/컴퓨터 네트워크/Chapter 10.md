@@ -49,4 +49,11 @@ sigaction 구조체의 sa_handler에 실행할 함수를 세팅한다.
 ![[Pasted image 20241011184650.png|600]]
 외울 필요는 없고 필요할 때 카피해서 쓰면 된다.
 sigaction을 이용해서 자식 프로세스가 소멸 될 때, sigaction 구조체에 저장된 real_childproc이라는 함수가 호출되면 된다.
-real_childproc은 
+real_childproc은 자식 프로세스가 반환한 값을 읽으면 된다. (wait 함수는 block 함수이므로 waitpid 함수를 이용한다.)
+WIFEXITED로 제대로 종료되었는지 확인하고, WEXITSTATUS로 자식이 보내준 값을 print하는 로직.
+
+## 멀티태스킹 기반의 다중 접속 서버
+![[Pasted image 20241011185707.png|600]]
+
+![[Pasted image 20241011185758.png|600]]
+
