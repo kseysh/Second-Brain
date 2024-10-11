@@ -239,7 +239,6 @@ read 함수는 block함수이지만, write 함수도 block 함수이다. 버퍼�
 버퍼에 write할 데이터가 확보되어야만 write할 수 있다.
 전송 속도는 application에서 소비하는 속도에 맞도록 선택된다.
 3번이 느려지면, 느려지고, 3번이 빨라지면 빨라진다.
-(다시 알아보기)
 ### ex)
 글만 보고 둘의 buffer하기
 ![[Pasted image 20241002160450.png]]
