@@ -322,6 +322,15 @@ Receiver의 ACK이 lost되어도 Resent하지 않아도 되는 Case가 있다.
 Receiver는 buffer에 충분한 공간이 없어 rwnd를 0으로 보낼 수 있다.
 이 때, buffer에 충분한 공간이 생기면 다시 Receiver는 ACK을 이용해 rwnd값을 보내는데, 그 ACK이 유실되면 DeadLock이 발생할 수 있다. 
 하지만, ACK에 대한 ACK은 없기 때문에 Receiver는 Sender가 ACK을 잘 받았는지 확인할 수 없다.
-현재 상황
+현재 상황 (Dead Lock)
 Sender: Receiver에게 rwnd = 0을 받아 대기 중
-Receiver: Sender에게 rwnd = k라는 A
+Receiver: Sender에게 rwnd = k라는 ACK을 보내고 Sender가 데이터를 보내주기를 대기 중.
+### 해결 방법
+#### Persistence Timer
+교착 상태를 해결하기 위하여 사용
+Persistence Timer가 만료되면 probe 세그먼트 전송
+1. Sender는 rwnd=0을 받으면 Persistence Timer를 켠다.
+2. 일정 시간이 지나면 작은 사이즈의 데이터를 보내본다. (헤더가 낭비되긴 하지만 특별한 케이스이므로) => probe segment라 한다.
+
+## Congestion Control
+
