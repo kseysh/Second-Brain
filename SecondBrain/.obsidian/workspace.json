@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "전공 공부/컴퓨터 네트워크/Chapter 4.md",
+                "file": "전공 공부/컴퓨터 네트워크/Chapter 10.md",
                 "mode": "source",
                 "source": false
               }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "CUMU",
+                "query": "fork",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -65,11 +65,13 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 237.50260543823242
+    "width": 237.50260543823242,
+    "collapsed": true
   },
   "right": {
     "id": "feabab388e8825fc",
@@ -85,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "전공 공부/컴퓨터 네트워크/Chapter 4.md",
+                "file": "전공 공부/컴퓨터 네트워크/Chapter 10.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +104,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "전공 공부/컴퓨터 네트워크/Chapter 4.md",
+                "file": "전공 공부/컴퓨터 네트워크/Chapter 10.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +127,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "전공 공부/컴퓨터 네트워크/Chapter 4.md"
+                "file": "전공 공부/컴퓨터 네트워크/Chapter 10.md"
               }
             }
           },
@@ -171,7 +173,9 @@
   },
   "active": "882cc47b432f8fee",
   "lastOpenFiles": [
+    "전공 공부/리눅스 프로그래밍/CH05_PROCESS1.md",
     "전공 공부/컴퓨터 네트워크/Chapter 10.md",
+    "전공 공부/컴퓨터 네트워크/Chapter 4.md",
     "전공 공부/컴퓨터 네트워크/TCP 정리.md",
     "Unused/Attached files/Pasted image 20241011175223.png",
     "Unused/Attached files/Pasted image 20241011175158.png",
@@ -184,7 +188,6 @@
     "Unused/Attached files/Pasted image 20241010201504.png",
     "Unused/Attached files/Pasted image 20241010195743.png",
     "Unused/Attached files/Pasted image 20241010171114.png",
-    "전공 공부/컴퓨터 네트워크/Chapter 4.md",
     "전공 공부/논리 회로/Widmer_C3.md",
     "전공 공부/논리 회로/Widmer_C4.md",
     "전공 공부/논리 회로/Widmer_C4 번역.md",
@@ -195,7 +198,6 @@
     "알고리즘/풀이/boj/틀린 문제/다시 풀 문제/boj 1850.md",
     "알고리즘/풀 문제들/알고리즘 공부 순서.md",
     "알고리즘/풀 문제들/자료구조 문제.md",
-    "전공 공부/리눅스 프로그래밍/CH05_PROCESS1.md",
     "전공 공부/리눅스 프로그래밍/CH04_DIRECTORIES.md",
     "전공 공부/리눅스 프로그래밍/CH3_FILE2.md",
     "전공 공부/리눅스 프로그래밍/CH2_FILE1.md",
