@@ -57,20 +57,35 @@ int main(int argc, char *argv[]);
 	• 프로그램 코드
 	• 프로그램 변수 내의 데이터 값
 	• 하드웨어 레지스터
-	• 프로그램 스택
+	• 프로그램 스택 (stack, heap)
 • 프로세스는 프로세스 ID(pid)에 의해 식별됩니다.
 • 셸은 새로운 프로세스를 생성합니다.
+![[Pasted image 20241012003525.png]]
+유저가 cat을 실행하여 cat process를 생성하는 예제
+pipe를 이용해서 ls에서의 출력 값을 wc에 입력하는 예제
 • 프로세스 환경
-	• 모든 UNIX 프로세스는 다른 프로세스를 시작할 수 있습니다.
-	• 이는 파일 시스템의 디렉토리 트리와 평행한 계층 구조로 UNIX 프로세스 환경을 형성합니다.
-	• 프로세스 트리의 최상위에는 init이라는 매우 중요한 프로그램의 실행인 단일 제어 프로세스가 있으며, 이는 모든 시스템 및 사용자 프로세스의 궁극적인 조상입니다.
+	• 모든 UNIX 프로세스는 다른 프로세스를 시작할 수 있습니다. (fork, exec...)
+	• 이는 파일 시스템의 디렉토리 트리와 비슷한 계층 구조로 UNIX 프로세스 환경을 형성합니다.
+	• 프로세스 트리의 **최상위에는 init**이라는 매우 중요한 프로그램의 실행인 단일 제어 프로세스가 있으며, 이는 모든 시스템 및 사용자 프로세스의 궁극적인 조상입니다.
 • UNIX는 프로세스 생성 및 조작을 위한 몇 가지 시스템 호출을 제공합니다:
 	• fork, exec, wait, exit 등
 # getpid(2)와 getppid(2) 시스템 호출
+```c
+#include <unistd.h>
+pid_t getpid(void);
+// Returns: the process ID of the calling process
+pid_t getppid(void);
+// Returns: the parent process ID of the calling process
+```
 프로세스 ID
 	• 모든 프로세스는 고유한 프로세스 ID, 즉 0 이상의 정수를 가집니다.
 	• 고유하지만, 프로세스 ID는 재사용됩니다.
-## fork
+## fork(2) system call
+```c
+#include <unistd.h>
+pid_t fork(void);
+// Returns: 0 in child, process ID of child in parent, -1 on error
+```
 호출된 프로세스의 추출된 복제본인 새로운 프로세스를 생성한다.
 - 자식 프로세스는 부모 프로세스의 데이터 공간, 힙, 스택의 복사본을 받습니다.
 - 부모 프로세스와 자식 프로세스는 이 메모리 영역들을 공유하지 않습니다.
