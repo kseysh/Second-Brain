@@ -128,6 +128,16 @@ p - path를 뜻하고, 파일의 경로를 직접 명시하지 않고 시스템�
 $ echo $PATH
 PATH=/bin:/usr/bin:/usr/local/bin/:.
 ```
+##### ex)
+![[Pasted image 20241012214101.png|550]]
+![[Pasted image 20241012214157.png|550]]
+- Accessing arguments passed with `exec`
+![[Pasted image 20241012214210.png|550]]
+## `exec`와 `fork` 사용
+![[Pasted image 20241012214416.png|550]]
+![[Pasted image 20241012214432.png|550]]
+## `decommand` example
+![[Pasted image 20241012214514.png|550]]
 
 fork, 파일 및 데이터
 
