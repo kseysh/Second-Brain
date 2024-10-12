@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "48a3daeca85d1c72",
+        "id": "0cd8c416a7d4beb5",
         "type": "tabs",
         "children": [
           {
-            "id": "882cc47b432f8fee",
+            "id": "17dafd055838e5cf",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "전공 공부/리눅스 프로그래밍/CH05_PROCESS2.md",
+                "file": "전공 공부/논리 회로/Widmer_C4.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "전공 공부/리눅스 프로그래밍/CH05_PROCESS2.md",
+                "file": "전공 공부/논리 회로/Widmer_C4.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "전공 공부/리눅스 프로그래밍/CH05_PROCESS2.md",
+                "file": "전공 공부/논리 회로/Widmer_C4.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "전공 공부/리눅스 프로그래밍/CH05_PROCESS2.md"
+                "file": "전공 공부/논리 회로/Widmer_C4.md"
               }
             }
           },
@@ -170,12 +170,52 @@
       "obsidian-file-cleaner:Clean files": false
     }
   },
-  "active": "882cc47b432f8fee",
+  "floating": {
+    "id": "d04751e60255ba13",
+    "type": "floating",
+    "children": [
+      {
+        "id": "5360becea98077e9",
+        "type": "window",
+        "children": [
+          {
+            "id": "ab9baa372bf19e22",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "882cc47b432f8fee",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "전공 공부/논리 회로/Widmer_C4 번역.md",
+                    "mode": "source",
+                    "source": false
+                  }
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "vertical",
+        "x": 855,
+        "y": 39,
+        "width": 855,
+        "height": 1068,
+        "maximize": false,
+        "zoom": 0.5
+      }
+    ]
+  },
+  "active": "17dafd055838e5cf",
   "lastOpenFiles": [
+    "전공 공부/논리 회로/Widmer_C4 번역.md",
+    "전공 공부/논리 회로/Widmer_C4.md",
+    "전공 공부/리눅스 프로그래밍/CH05_PROCESS2.md",
+    "전공 공부/리눅스 프로그래밍/CH05_PROCESS1.md",
     "Unused/Attached files/Pasted image 20241012222602.png",
     "Unused/Attached files/Pasted image 20241012222342.png",
     "Unused/Attached files/Pasted image 20241012221856.png",
-    "전공 공부/리눅스 프로그래밍/CH05_PROCESS1.md",
     "Unused/Attached files/Pasted image 20241012220430.png",
     "Unused/Attached files/Pasted image 20241012220334.png",
     "Unused/Attached files/Pasted image 20241012215234.png",
@@ -183,9 +223,7 @@
     "Unused/Attached files/Pasted image 20241012214432.png",
     "Unused/Attached files/Pasted image 20241012214416.png",
     "Unused/Attached files/Pasted image 20241012214210.png",
-    "Unused/Attached files/Pasted image 20241012214157.png",
     "전공 공부/리눅스 프로그래밍/CH04_DIRECTORIES.md",
-    "전공 공부/리눅스 프로그래밍/CH05_PROCESS2.md",
     "전공 공부/컴퓨터 네트워크/Chapter 10.md",
     "전공 공부/컴퓨터 네트워크/Chapter 4.md",
     "전공 공부/컴퓨터 네트워크/Chapter 3.md",
@@ -197,8 +235,6 @@
     "전공 공부/컴퓨터 네트워크/7 Layers 수업 내용 요약.md",
     "알고리즘/C++ 문법/변수 크기 별 사용 자료구조.md",
     "전공 공부/논리 회로/Widmer_C3.md",
-    "전공 공부/논리 회로/Widmer_C4.md",
-    "전공 공부/논리 회로/Widmer_C4 번역.md",
     "알고리즘/오늘 푼 문제들.md",
     "알고리즘/풀이/boj/틀린 문제/다시 보기만 할 문제/boj 2004.md",
     "알고리즘/풀이/boj/틀린 문제/다시 보기만 할 문제/boj 6588.md",
