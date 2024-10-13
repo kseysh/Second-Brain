@@ -42,16 +42,20 @@ exit은 하나만 exit해주는 것이 아니라 여러가지를 exit해주고 �
   - 커널은 종료된 프로세스에 대한 proc entry만 유지합니다 (pid, 종료 상태 - exit(status), CPU 시간).
   - 이 정보는 종료된 프로세스의 부모 프로세스가 확인할 때까지 남아 있습니다.
   - 부모 프로세스는 wait() 시스템 호출을 통해 이 정보를 확인합니다.
-  - wait() 후에 종료된 프로세스의 proc 엔트리는 proc 테이블에서 해제됩니다.
-## wait(2) 시스템 호출 (1/2)
+  - wait() 후에 종료된 프로세스의 proc entry는 proc 테이블에서 해제됩니다.
+## wait(2) 시스템 호출
+```c
+#include <sys/wait.h>
+pid_t wait(int *statloc);
+// Return: child process ID if OK, 0 (see later), or -1 on error
+```
 - wait는 자식 프로세스가 실행되는 동안 프로세스의 실행을 일시 중지합니다.
 - 자식이 종료되면 대기 중인 부모 프로세스가 다시 시작됩니다.
 - 여러 자식 프로세스가 실행 중인 경우, wait는 부모의 자식 중 하나가 종료되면 반환됩니다.
 - wait가 (pid_t) -1을 반환하면, 자식이 없음을 의미할 수 있습니다.
   - errno = ECHILD
 - 부모 프로세스는 자식 중 하나가 종료될 때까지 루프에서 기다릴 수 있습니다.
-
-#### waitpid(2) 시스템 호출 (1/2)
+## waitpid(2) 시스템 호출 (1/2)
 - 언급했듯이, 여러 자식이 있는 경우 wait는 자식 중 하나가 종료될 때 반환됩니다.
 
 #### wait(2) & waitpid(2) 함수의 인수
