@@ -95,6 +95,11 @@ File security permission을 위해 사용된다.
 ![[Pasted image 20240910152654.png]]
 위 두개는 같다
 ## `close` system call
+```C
+#include <unistd.h>
+int close(int filedes);
+// Returns: 0 if OK, -1 on error
+```
 열린 파일은 `close`를 통해서만 닫을 수 있음
 모든 열린 파일은 프로그램 실행이 끝나면 자동적으로 닫혀야 한다.
 ![[Pasted image 20240910153114.png]]
