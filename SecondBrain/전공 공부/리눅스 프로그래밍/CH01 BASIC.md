@@ -1,7 +1,6 @@
 # File system
 Unix filesystem은 폴더와 파일의 계층 구조이다.
 폴더도 파일이다. (모든 것이 파일이다.)
-
 ### Regular File
 unix는 텍스트 파일 및 바이너리 파일을 모두 regular file로 취급하며, 구분하지 못한다.
 ### Directory file
