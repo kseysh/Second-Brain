@@ -50,7 +50,7 @@ S_IRUSER | S_IRGRP | S_IROTH = 0444 = r--r--r--
 S_IRUSR | S_IWUSR | S_IXUSR | S_IRGRP | S_IXGRP | S_IXOTH | S_IXOTH = 0755 = rwx-r-xr-x
 ```
 앞은 무조건 S_I /W/R/X USR/GRP/OTH
-### open(2)와 파일 권한
+## open(2)와 파일 권한
 • open을 사용하여 기존 파일을 열면
 • 시스템은 파일의 권한을 확인하여 프로세스에서 요청한 접근 모드가 허용되는지 확인합니다.
 • 프로세스에 요청된 접근 권한이 없으면 open은 -1(errno=EACCESS)을 반환합니다.
