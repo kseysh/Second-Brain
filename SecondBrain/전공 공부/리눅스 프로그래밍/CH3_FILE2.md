@@ -167,7 +167,7 @@ int chown(const char *pathname, uid_t owner_id, gid_t group_id);
 ## UNIX 파일 시스템
 • 파일에 대한 링크 개념을 이해하려면 UNIX 파일 시스템의 구조에 대한 개념적 이해가 필요합니다.
 • 오늘날 여러 UNIX 파일 시스템 구현이 사용되고 있습니다. (UFS, PCFS, HSFS 등)
-
+![[Pasted image 20241014000136.png]]
 ### 부트 블록 (unix 시작시 실행하는 정보를 담음)
 • UNIX가 처음 활성화될 때 사용되는 부트 코드
 ### 슈퍼 블록 (파일 시스템의 정보를 담음)
