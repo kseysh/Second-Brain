@@ -55,7 +55,19 @@ pid_t wait(int *statloc);
 - wait가 (pid_t) -1을 반환하면, 자식이 없음을 의미할 수 있습니다.
   - errno = ECHILD
 - 부모 프로세스는 자식 중 하나가 종료될 때까지 루프에서 기다릴 수 있습니다.
-## waitpid(2) 시스템 호출 (1/2)
+![[Pasted image 20241013160702.png|400]]
+child가 여러개면 wait도 여러개
+wait(NULL)은 stat값을 받지 않겠다는 의미, -1이 반환될 때까지 wait한다.
+![[Pasted image 20241013160933.png|500]]
+![[Pasted image 20241013161022.png|500]]
+보통 status 정보는 exit을 통해 자식의 exit-status가 된다.
+## waitpid(2) 시스템 호출
+```c
+#include <sys/wait.h>
+pid_t waitpid(pid_t pid, int *statloc, int options);
+// Return: child process ID if OK, 0 (see later), or -1 on error
+```
+wait할 pid를 지정하는 system call
 - 언급했듯이, 여러 자식이 있는 경우 wait는 자식 중 하나가 종료될 때 반환됩니다.
 
 #### wait(2) & waitpid(2) 함수의 인수
