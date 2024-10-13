@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "전공 공부/리눅스 프로그래밍/CH01 BASIC.md",
+                "file": "전공 공부/리눅스 프로그래밍/CH2_FILE1.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 237.50260543823242
+    "width": 237.50260543823242,
+    "collapsed": true
   },
   "right": {
     "id": "feabab388e8825fc",
@@ -85,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "전공 공부/리눅스 프로그래밍/CH01 BASIC.md",
+                "file": "전공 공부/리눅스 프로그래밍/CH2_FILE1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "전공 공부/리눅스 프로그래밍/CH01 BASIC.md",
+                "file": "전공 공부/리눅스 프로그래밍/CH2_FILE1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "전공 공부/리눅스 프로그래밍/CH01 BASIC.md"
+                "file": "전공 공부/리눅스 프로그래밍/CH2_FILE1.md"
               }
             }
           },
@@ -209,6 +210,7 @@
   "active": "17dafd055838e5cf",
   "lastOpenFiles": [
     "전공 공부/리눅스 프로그래밍/리눅스 중간 공부.md",
+    "전공 공부/리눅스 프로그래밍/CH2_FILE1.md",
     "전공 공부/리눅스 프로그래밍/CH01 BASIC.md",
     "Unused/Attached files/Pasted image 20241013171311.png",
     "전공 공부/리눅스 프로그래밍/CH05_PROCESS2.md",
