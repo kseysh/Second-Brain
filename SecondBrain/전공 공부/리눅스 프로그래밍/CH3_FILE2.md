@@ -175,8 +175,8 @@ int chown(const char *pathname, uid_t owner_id, gid_t group_id);
 • inode 자유 목록에 있는 inode 수
 • 자유 블록의 비트 맵
 • 블록 크기(바이트 단위) - 보통 4K
-• 자유 블록 수
-• 사용된 블록 수
+• free block 수
+• used block 수
 ### i-노드
 • 디스크에 있는 파일과 연관된 모든 inode
 • 파일을 고유하게 식별함(1:1로 매핑되어 있음)

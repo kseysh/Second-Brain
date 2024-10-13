@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "전공 공부/리눅스 프로그래밍/리눅스 중간 공부.md",
+                "file": "전공 공부/리눅스 프로그래밍/CH3_FILE2.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "전공 공부/리눅스 프로그래밍/리눅스 중간 공부.md",
+                "file": "전공 공부/리눅스 프로그래밍/CH3_FILE2.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "전공 공부/리눅스 프로그래밍/리눅스 중간 공부.md"
+                "file": "전공 공부/리눅스 프로그래밍/CH3_FILE2.md"
               }
             }
           },
@@ -198,19 +198,19 @@
           }
         ],
         "direction": "vertical",
-        "x": 855,
-        "y": 39,
+        "x": 1065,
+        "y": 148,
         "width": 855,
-        "height": 1068,
+        "height": 809,
         "maximize": false,
         "zoom": 0.5
       }
     ]
   },
-  "active": "244aa3fa1b28ee7a",
+  "active": "17dafd055838e5cf",
   "lastOpenFiles": [
-    "전공 공부/리눅스 프로그래밍/CH3_FILE2.md",
     "전공 공부/리눅스 프로그래밍/리눅스 중간 공부.md",
+    "전공 공부/리눅스 프로그래밍/CH3_FILE2.md",
     "Unused/Attached files/Pasted image 20241014000136.png",
     "전공 공부/논리 회로/Widmer_C4 번역.md",
     "전공 공부/논리 회로/Widmer_C4.md",
