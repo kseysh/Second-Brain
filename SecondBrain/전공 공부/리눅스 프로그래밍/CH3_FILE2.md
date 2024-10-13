@@ -121,6 +121,11 @@ $ umask 22 // umask값을 22로 설정
 ![[Pasted image 20241008162232.png|500]]
 ![[Pasted image 20241008162332.png|500]]
 ## access(2) 시스템 호출
+```c
+#include <unistd.h>
+int access(const char *pathname, int amode);
+// Returns: 0 if OK,-1 on error
+```
 • `access`는 ruid(euid x) 및 그룹 ID를 기반으로 경로명의 접근 권한을 확인합니다.
 • 인수
 ![[Pasted image 20241008202555.png|400]]
