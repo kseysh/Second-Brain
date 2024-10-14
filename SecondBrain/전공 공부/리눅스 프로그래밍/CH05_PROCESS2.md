@@ -143,6 +143,14 @@ while (EOF not typed) // EOF가 입력되지 않는 동안
 • 신호를 재설정합니다.
 • 레지스터를 초기화합니다.
 ![[Pasted image 20241014143727.png|500]]
+## smallsh - shell example
+![[Pasted image 20241014145344.png|550]]
+![[Pasted image 20241014145356.png|550]]
+![[Pasted image 20241014145408.png|550]]
+![[Pasted image 20241014145420.png|550]]
+![[Pasted image 20241014145437.png|550]]
+![[Pasted image 20241014145446.png|550]]
+
 ## 프로세스 속성
 
 ## 프로세스 ID 0 & 1
