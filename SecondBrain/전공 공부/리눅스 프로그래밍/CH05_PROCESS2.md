@@ -112,9 +112,10 @@ Still waiting은 4번 print 할 것
 
 #### 명령어 프로세서의 기본 로직
 
-### 5.10 프로세스 속성
+## 프로세스 속성
 
-#### 프로세스 ID 0 & 1
+## 프로세스 ID 0 & 1
+![[Pasted image 20241014120812.png|500]]
 - **스케줄러 프로세스 (swapper)**: 프로세스 ID 0
   - 이 프로세스에 해당하는 디스크의 프로그램이 없습니다.
   - 커널의 일부이며 시스템 프로세스로 알려져 있습니다.
@@ -124,7 +125,8 @@ Still waiting은 4번 print 할 것
   - 이 프로세스는 UNIX 시스템을 시작하는 역할을 합니다.
   - init 프로세스는 죽지 않습니다.
   - 이는 커널 내의 시스템 프로세스가 아닌 일반 사용자 프로세스이며, superuser 권한으로 실행됩니다.
-
+![[Pasted image 20241014120453.png|600]]
+![[Pasted image 20241014120509.png|600]]
 #### 프로세스 그룹과 프로세스 그룹 ID (1/2)
 - 프로세스 그룹은 하나 이상의 프로세스로 구성되며, 일반적으로 동일한 작업과 관련이 있습니다.
   - 프로세스는 파이프로 연결됩니다.
@@ -134,7 +136,14 @@ Still waiting은 4번 print 할 것
   - pid_t 데이터 유형입니다.
 - 각 프로세스 그룹에는 프로세스 그룹 리더가 있을 수 있습니다.
   - (pid == pgid)인 경우 프로세스 그룹 리더입니다.
-
+```c
+#include <unistd.h>
+pid_t getpgrp(void);
+pid_t getpgid(pid_t pid); Returns: process group ID of calling process
+/* getpgid(0) == getpgrp() */
+// Returns: process group ID if OK, -1 on error
+```
+![[Pasted image 20241014121035.png]]
 #### 프로세스 그룹 변경 (1/2)
 - 이 함수는 프로세스의 프로세스 ID가 pid와 같은 프로세스의 프로세스 그룹 ID를 pgid로 설정합니다.
 - 프로세스는 자신이나 자식의 프로세스 그룹 ID만 설정할 수 있습니다.
