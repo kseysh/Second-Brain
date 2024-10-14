@@ -83,7 +83,7 @@ Still waiting은 4번 print 할 것
   - waitpid 함수는 종료된 자식을 기다리지 않으며, 어떤 프로세스를 기다릴지 제어하는 여러 옵션이 있습니다.
 ## 종료 상태 확인 (2/2)
 `WIFEXITED(status)`, `WEXITSTATUS(status)`
-자식 프로세스가 정상적으로 종료되었을 때 0이 아닌 값을 반환합니다. WIFEXITED가 0이 아닌 값을 반환하면, WEXITSTATUS는 자식 프로세스가 _exit(), exit() 또는 main 함수에서 반환한 하위 8비트 값을 반환합니다.
+자식 프로세스가 정상적으로 종료되었을 때 0이 아닌 값을 반환합니다. WIFEXITED가 0이 아닌 값을 반환하면, WEXITSTATUS는 자식 프로세스가 `_exit()`, `exit()` 또는 main 함수에서 반환한 하위 8비트 값을 반환합니다.
 
 `WIFSIGNALED(status)`,`WTERMSIG(status)`,`WCOREDUMP(status)` 
 자식 프로세스가 캐치되지 않은 시그널로 인해 종료되었을 때 0이 아닌 값을 반환합니다. WIFSIGNALED가 0이 아닌 값을 반환하면, WTERMSIG는 종료를 유발한 시그널 번호를 반환합니다.
