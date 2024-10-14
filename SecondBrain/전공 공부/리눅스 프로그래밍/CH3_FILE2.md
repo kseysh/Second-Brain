@@ -233,9 +233,19 @@ int unlink(const char *pathname);
 • 링크 수가 0으로 줄어들면 디스크 블록이 자유 블록 목록에 추가됩니다.
 unlink하려면 write permission이 있어야 하고 directory에 대해 read permission이 있어야 한다.
 ![[Pasted image 20241008233945.png|450]]
-## remove(2) 시스템 호출
+## remove(2) 시스템 
+```c
+#include <stdio.h>
+int remove(const char *pathname);
+// Returns: 0 if OK, -1 on error
+```
 • 파일의 경우, remove는 unlink와 동일합니다.
 ## rename(2) system call
+```c
+#include <stdio.h>
+int rename(const char *oldname, const char *newname);
+// Returns: 0 if OK, -1 on error
+```
 • 파일이나 디렉토리는 rename 함수를 사용하여 이름이 변경됩니다.
 • **인수**
 • oldname과 newname이 동일한 파일을 참조하는 경우, 함수는 아무 것도 변경하지 않고 성공적으로 반환됩니다.
@@ -251,8 +261,8 @@ int symlink(const char *realname, const char *symname);
 ## readlink(2) 시스템 호출
 ```c
 #include <unistd.h>
-int symlink(const char *realname, const char *symname);
-// Returns: 0 if OK, -1 on error
+ssize_t readlink(const char* sympath, char* buffer, size_t bufsize)
+// Returns: number of bytes read if OK, -1 on error
 ```
 1. sympath를 엽니다.
 2. 파일의 내용을 버퍼로 읽어들입니다.
