@@ -169,26 +169,26 @@ while (EOF not typed) // EOF가 입력되지 않는 동안
   - 이는 커널 내의 시스템 프로세스가 아닌 일반 사용자 프로세스이며, superuser 권한으로 실행됩니다.
 ![[Pasted image 20241014120453.png|600]]
 ![[Pasted image 20241014120509.png|600]]
-## 프로세스 그룹과 프로세스 그룹 ID (1/2)
+## 프로세스 그룹과 프로세스 그룹 ID
 - 프로세스 그룹은 하나 이상의 프로세스로 구성되며, 일반적으로 동일한 작업과 관련이 있습니다.
-  - 프로세스는 파이프로 연결됩니다.
+	- 프로세스는 파이프로 연결됩니다.
 - 각 프로세스 그룹은 고유한 프로세스 그룹 ID를 가집니다.
 - 프로세스 그룹 ID는 프로세스 ID와 유사합니다.
-  - 양의 정수입니다.
-  - pid_t 데이터 유형입니다.
+	- 양의 정수입니다.
+	- pid_t 데이터 유형입니다.
 - 각 프로세스 그룹에는 프로세스 그룹 리더가 있을 수 있습니다.
-  - (pid == pgid)인 경우 프로세스 그룹 리더입니다.
+	- (pid == pgid)인 경우 프로세스 그룹 리더입니다.
 ```c
 #include <unistd.h>
 pid_t getpgrp(void);
-pid_t getpgid(pid_t pid); Returns: process group ID of calling process
-/* getpgid(0) == getpgrp() */
+// Returns: process group ID of calling process
+pid_t getpgid(pid_t pid);  /* getpgid(0) == getpgrp() */
 // Returns: process group ID if OK, -1 on error
 ```
 ![[Pasted image 20241014121035.png]]
 `$ cmd1 | cmd2`는 cmd1과 cmd2가 같은 프로세스 그룹이 되고, shell은 다른 프로세스 그룹이다.
 bash가 cmd1과 cmd2를 만들고 그룹을 분리시킨 것
-## 프로세스 그룹 변경 (1/2)
+## 프로세스 그룹 변경
 ```c
 #include <unistd.h>
 int setpgid(pid_t pid, pid_t pgid);
@@ -200,7 +200,7 @@ int setpgid(pid_t pid, pid_t pgid);
 	- pgid == 0: 지정된 프로세스 ID(pid)가 프로세스 그룹 ID로 사용됩니다.
 - **프로세스는 자신이나 자식의 프로세스 그룹 ID만 설정할 수 있다**
 - 또한 자식이 exec 함수 중 하나를 호출한 후에는 자식의 프로세스 그룹 ID를 변경할 수 없습니다.
-## 세션 및 세션 ID (1/3)
+## 세션 및 세션 ID
 - 세션은 하나 이상의 프로세스 그룹의 모음입니다.
 - 세션 내의 프로세스 그룹은 하나의 포어그라운드 프로세스 그룹과 하나 이상의 백그라운드 프로세스 그룹으로 나눌 수 있습니다.
 ![[Pasted image 20241014122130.png|500]]
