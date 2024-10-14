@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "전공 공부/리눅스 프로그래밍/CH05_PROCESS2.md",
+                "file": "전공 공부/리눅스 프로그래밍/CH06_SIGNAL1.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "전공 공부/리눅스 프로그래밍/CH05_PROCESS2.md",
+                "file": "전공 공부/리눅스 프로그래밍/CH06_SIGNAL1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "전공 공부/리눅스 프로그래밍/CH05_PROCESS2.md",
+                "file": "전공 공부/리눅스 프로그래밍/CH06_SIGNAL1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "전공 공부/리눅스 프로그래밍/CH05_PROCESS2.md"
+                "file": "전공 공부/리눅스 프로그래밍/CH06_SIGNAL1.md"
               }
             }
           },
@@ -210,8 +210,8 @@
   },
   "active": "1c6a928397621e72",
   "lastOpenFiles": [
-    "2024-10-14.md",
     "전공 공부/리눅스 프로그래밍/CH05_PROCESS2.md",
+    "2024-10-14.md",
     "Unused/Attached files/Pasted image 20241014151136.png",
     "Unused/Attached files/Pasted image 20241014145446.png",
     "Unused/Attached files/Pasted image 20241014145437.png",

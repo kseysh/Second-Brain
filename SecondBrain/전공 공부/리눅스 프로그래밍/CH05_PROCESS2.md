@@ -241,7 +241,7 @@ int chroot(const char *path);
   - chroot가 성공하면, path는 '/'로 시작하는 파일 검색의 시작 지점이 됩니다.
   - 호출 프로세스에만 영향을 미치며, 시스템 전체에는 영향을 미치지 않습니다.
 ![[Pasted image 20241014124502.png|500]]
-### 사용자 ID 및 그룹 ID 변경 (1/2)
+## 사용자 ID 및 그룹 ID 변경
 ```c
 #include <unistd.h>
 int setuid(uid_t uid);
@@ -249,10 +249,9 @@ int setgid(gid_t gid);
 // Both return: 0 if OK, -1 on error
 ```
 - UNIX 시스템에서, 현재 날짜를 변경하는 등의 특권과 특정 파일을 읽거나 쓸 수 있는 접근 제어는 사용자 및 그룹 ID에 기반합니다.
-- setuid 함수를 사용하여 실제 사용자 ID와 유효 사용자 ID를 설정할 수 있습니다.
-- 마찬가지로, setgid 함수를 사용하여 실제 그룹 ID와 유효 그룹 ID를 설정할 수 있습니다.
-
-### 파일 크기 제한: ulimit
+- setuid 함수를 사용하여 real user ID와 effective user ID를 설정할 수 있습니다.
+- 마찬가지로, setgid 함수를 사용하여 real group ID와 the effective group ID를 설정할 수 있습니다.
+## 파일 크기 제한: ulimit
 ```c
 #include <ulimit.h>
 long ulimit(int cmd, [long newlimit]);
