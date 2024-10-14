@@ -34,6 +34,13 @@
 • SIGUSR2 : 사용자 정의 신호 2
 • SIGSTOP : 잡 제어 신호로, 잡을 수 없고 무시할 수 없다.
 
+signal에 대한 default action이 terminate가 아닌 signal
+- SIGSTOP (STOP)
+- SIGTSTP (STOP)
+- SIGCONT(CONTINUE)
+- SIGUSR1 (IGNORE)
+- SIGUSR2 (IGNORE)
+
 • 신호는 이벤트의 소프트웨어 알림이다.
 • 신호는 해당 신호를 발생시키는 이벤트가 발생하면 생성된다.
 • 신호는 프로세스가 해당 신호에 기반하여 작업을 취할 때 전달된다.
