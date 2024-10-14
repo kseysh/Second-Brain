@@ -270,7 +270,7 @@ ssize_t readlink(const char* sympath, char* buffer, size_t bufsize)
 
 • 원본 파일이 제거된 경우,
 	• 프로그램은 여전히 심볼릭 링크를 ‘볼’ 수 있지만, open 호출은 그 안에 포함된 경로를 따라갈 수 없으며 errno가 EEXIST로 설정된 상태로 반환됩니다.
-# 3.3 파일 정보 얻기: stat과 fstat
+# 파일 정보 얻기: stat과 fstat
 ## stat(2) 시스템 호출
 ```c
 #include <sys/stat.h>
