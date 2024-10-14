@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "전공 공부/리눅스 프로그래밍/CH06_SIGNAL1.md",
+                "file": "전공 공부/리눅스 프로그래밍/CH05_PROCESS2.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "전공 공부/리눅스 프로그래밍/CH06_SIGNAL1.md",
+                "file": "전공 공부/리눅스 프로그래밍/CH05_PROCESS2.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "전공 공부/리눅스 프로그래밍/CH06_SIGNAL1.md",
+                "file": "전공 공부/리눅스 프로그래밍/CH05_PROCESS2.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "전공 공부/리눅스 프로그래밍/CH06_SIGNAL1.md"
+                "file": "전공 공부/리눅스 프로그래밍/CH05_PROCESS2.md"
               }
             }
           },
@@ -209,6 +209,7 @@
   },
   "active": "17dafd055838e5cf",
   "lastOpenFiles": [
+    "전공 공부/리눅스 프로그래밍/CH06_SIGNAL1.md",
     "Unused/Attached files/Pasted image 20241014134019.png",
     "Unused/Attached files/Pasted image 20241014131012.png",
     "Unused/Attached files/Pasted image 20241014130910.png",
@@ -216,13 +217,11 @@
     "Unused/Attached files/Pasted image 20241014125259.png",
     "Unused/Attached files/Pasted image 20241014125221.png",
     "전공 공부/리눅스 프로그래밍/CH05_PROCESS2.md",
-    "전공 공부/리눅스 프로그래밍/CH06_SIGNAL1.md",
     "전공 공부/리눅스 프로그래밍/리눅스 중간 공부.md",
     "Unused/Attached files/Pasted image 20241014124502.png",
     "Unused/Attached files/Pasted image 20241014122130.png",
     "Unused/Attached files/Pasted image 20241014121626.png",
     "Unused/Attached files/Pasted image 20241014121035.png",
-    "Unused/Attached files/Pasted image 20241014120812.png",
     "전공 공부/리눅스 프로그래밍/CH3_FILE2.md",
     "전공 공부/논리 회로/Widmer_C4 번역.md",
     "전공 공부/논리 회로/Widmer_C4.md",
