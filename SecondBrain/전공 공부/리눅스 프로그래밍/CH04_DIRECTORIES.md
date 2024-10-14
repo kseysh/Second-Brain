@@ -149,6 +149,12 @@ char *getcwd(char *name, size_t size);
   - **sync**: 파일 시스템에 대한 정보를 포함하는 메인 메모리 버퍼를 디스크에 플러시하는 데 사용됩니다.
   - **fsync**: 특정 파일과 관련된 모든 데이터와 속성을 플러시하는 데 호출됩니다.
 ## sync(2) & fsync(2) 시스템 호출
+```c
+#include <unistd.h>
+int fsync(int filedes);
+//Returns: 0 if OK, -1 on error
+void sync(void);
+```
 - **중요한 차이점**:
   - fsync는 모든 파일 데이터가 디스크에 기록될 때까지 반환하지 않습니다.
   - sync 호출은 데이터 쓰기가 예약되었지만 완료되지 않았을 때 반환할 수 있습니다.
