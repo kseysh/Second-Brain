@@ -148,8 +148,9 @@ while (EOF not typed) // EOF가 입력되지 않는 동안
 
 입력을 inputbuf에 넣고, 입력 글자 수가 유효한지 확인하는 함수
 ![[Pasted image 20241014145408.png|550]]
-
+명령을 tok과 tokbuf로 나눠서 읽는다.
 ![[Pasted image 20241014145420.png|550]]
+나눈 명령을 실행한다.
 ![[Pasted image 20241014145437.png|550]]
 ![[Pasted image 20241014145446.png|550]]
 
