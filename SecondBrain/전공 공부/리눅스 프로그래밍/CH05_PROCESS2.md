@@ -145,8 +145,10 @@ while (EOF not typed) // EOF가 입력되지 않는 동안
 ![[Pasted image 20241014143727.png|500]]
 ## smallsh - shell example
 ![[Pasted image 20241014145344.png|550]]
-![[Pasted image 20241014145356.png|550]]
+
+입력을 inputbuf에 넣고, 입력 글자 수가 유효한지 확인하는 함수
 ![[Pasted image 20241014145408.png|550]]
+
 ![[Pasted image 20241014145420.png|550]]
 ![[Pasted image 20241014145437.png|550]]
 ![[Pasted image 20241014145446.png|550]]
