@@ -12,7 +12,7 @@ int main(int argc, char *argv[]);
 • 이 시작 루틴은 커널로부터 값을 받아옵니다:
 	• 명령줄 인수(argc, argv 세팅)
 	• Environment - 실행환경 세팅
-### Command-Line Argument
+## Command-Line Argument
 • 프로그램이 실행될 때, exec을 수행하는 프로세스는 새로운 프로그램에 명령줄 인수를 전달할 수 있습니다.
 ![[Pasted image 20241007124549.png|450]]
 ![[Pasted image 20241007124140.png|200]]
