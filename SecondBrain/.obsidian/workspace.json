@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "0cd8c416a7d4beb5",
+        "id": "165818fda9407664",
         "type": "tabs",
         "children": [
           {
-            "id": "17dafd055838e5cf",
+            "id": "1c6a928397621e72",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -69,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 237.50260543823242
+    "width": 237.50260543823242,
+    "collapsed": true
   },
   "right": {
     "id": "feabab388e8825fc",
@@ -207,8 +208,11 @@
       }
     ]
   },
-  "active": "77e0b92a051c28ac",
+  "active": "1c6a928397621e72",
   "lastOpenFiles": [
+    "2024-10-14.md",
+    "전공 공부/리눅스 프로그래밍/CH05_PROCESS2.md",
+    "Unused/Attached files/Pasted image 20241014151136.png",
     "Unused/Attached files/Pasted image 20241014145446.png",
     "Unused/Attached files/Pasted image 20241014145437.png",
     "Unused/Attached files/Pasted image 20241014145420.png",
@@ -219,9 +223,6 @@
     "Unused/Attached files/Pasted image 20241014143419.png",
     "전공 공부/리눅스 프로그래밍/CH06_SIGNAL1.md",
     "Unused/Attached files/Pasted image 20241014134019.png",
-    "Unused/Attached files/Pasted image 20241014131012.png",
-    "Unused/Attached files/Pasted image 20241014130910.png",
-    "전공 공부/리눅스 프로그래밍/CH05_PROCESS2.md",
     "전공 공부/리눅스 프로그래밍/리눅스 중간 공부.md",
     "전공 공부/리눅스 프로그래밍/CH3_FILE2.md",
     "전공 공부/논리 회로/Widmer_C4 번역.md",
