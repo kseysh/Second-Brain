@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "fork",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -166,7 +166,8 @@
       "templates:템플릿 삽입": false,
       "command-palette:명령어 팔레트 열기": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
-      "obsidian-file-cleaner:Clean files": false
+      "obsidian-file-cleaner:Clean files": false,
+      "obsidian-git:Open Git source control": false
     }
   },
   "floating": {
@@ -206,7 +207,7 @@
       }
     ]
   },
-  "active": "17dafd055838e5cf",
+  "active": "77e0b92a051c28ac",
   "lastOpenFiles": [
     "Unused/Attached files/Pasted image 20241014145446.png",
     "Unused/Attached files/Pasted image 20241014145437.png",
