@@ -49,7 +49,6 @@ int main(int argc, char* argv[])
 	int sock; // 파일 디스크립터 값 
 	struct sockaddr_in serv_addr;
 	char message[30];
-	int str_len;
 	
 	if(argc!=3){
 		printf("Usage : %s <IP> <port>\n", argv[0]);// 서버의 IP번호와 서버의 port 번호
@@ -72,9 +71,8 @@ int main(int argc, char* argv[])
 	// 상대방의 서버 정보는 serv_addr에 저장된다.
 		error_handling("connect() error!");
 	// 연결이 되면 서버에서 데이터를 보내준다.
-	str_len=read(sock, message, sizeof(message)-1); 
 	// 서버에서 보낸 데이터는 socket에서 read로 읽어 message에 저장하고, size는 str_len에 저장한다.
-	if(str_len==-1)
+	if(read(sock, message, sizeof(message)-1) == -1)
 		error_handling("read() error!");
 	
 	printf("Message from server: %s \n", message);  
