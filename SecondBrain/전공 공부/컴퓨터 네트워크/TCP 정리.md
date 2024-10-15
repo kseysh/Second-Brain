@@ -350,3 +350,4 @@ capacity가 최대 10Mbps라 할 때, 50Mbps를 보낼 때 5초가 걸렸다면 
 하지만 점점 혼잡도가 증가해 10초가 걸렸다면 Throughput이 5Mbps로 줄어들게 된다.
 
 Q. PF_INET과 AF_INET은 현재 같은 의미인 것으로 아는데, 시험에서도 AF_INET으로 통일해서 작성하여도 되는지?
+Q. read 함수시에 sizeof(message)-1하는 이유?
