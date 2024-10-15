@@ -4,36 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "418d4be9b7dd4b25",
+        "id": "42e2b1d28a505d92",
         "type": "tabs",
-        "dimension": 47.891963109354414,
         "children": [
           {
-            "id": "485b5be0e219375f",
+            "id": "6105945d82592d52",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "전공 공부/컴퓨터 네트워크/컴네 중간 공부.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          }
-        ]
-      },
-      {
-        "id": "85232aba63a7cc5a",
-        "type": "tabs",
-        "dimension": 52.10803689064558,
-        "children": [
-          {
-            "id": "64fb381fd86258bb",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "전공 공부/컴퓨터 네트워크/TCP 정리.md",
+                "file": "전공 공부/컴퓨터 네트워크/Chapter 10.md",
                 "mode": "source",
                 "source": false
               }
@@ -89,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 237.50260543823242,
-    "collapsed": true
+    "width": 237.50260543823242
   },
   "right": {
     "id": "feabab388e8825fc",
@@ -106,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "전공 공부/컴퓨터 네트워크/컴네 중간 공부.md",
+                "file": "전공 공부/컴퓨터 네트워크/Chapter 10.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "전공 공부/컴퓨터 네트워크/컴네 중간 공부.md",
+                "file": "전공 공부/컴퓨터 네트워크/Chapter 10.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "전공 공부/컴퓨터 네트워크/컴네 중간 공부.md"
+                "file": "전공 공부/컴퓨터 네트워크/Chapter 10.md"
               }
             }
           },
@@ -191,10 +170,13 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "485b5be0e219375f",
+  "active": "6105945d82592d52",
   "lastOpenFiles": [
-    "전공 공부/컴퓨터 네트워크/TCP 정리.md",
+    "전공 공부/컴퓨터 네트워크/무제 파일.md",
     "전공 공부/컴퓨터 네트워크/컴네 중간 공부.md",
+    "전공 공부/컴퓨터 네트워크/TCP 정리.md",
+    "Unused/Attached files/Pasted image 20241015233602.png",
+    "Unused/Attached files/Pasted image 20241015233549.png",
     "전공 공부/컴퓨터 네트워크/7 Layers 정리.md",
     "전공 공부/컴퓨터 네트워크/Chapter 4.md",
     "전공 공부/컴퓨터 네트워크/Chapter 10.md",
@@ -218,8 +200,6 @@
     "전공 공부/리눅스 프로그래밍/CH04_DIRECTORIES.md",
     "전공 공부/리눅스 프로그래밍/CH3_FILE2.md",
     "2024-10-14.md",
-    "Unused/Attached files/Pasted image 20241014151136.png",
-    "Unused/Attached files/Pasted image 20241014145446.png",
     "전공 공부/리눅스 프로그래밍/CH2_FILE1.md",
     "전공 공부/리눅스 프로그래밍/CH01 BASIC.md",
     "전공 공부/컴퓨터 네트워크/Chapter 3.md",
@@ -228,7 +208,6 @@
     "전공 공부/컴퓨터 네트워크/7 Layers 수업 내용 요약.md",
     "알고리즘/C++ 문법/변수 크기 별 사용 자료구조.md",
     "알고리즘/오늘 푼 문제들.md",
-    "알고리즘/풀이/boj/틀린 문제/다시 보기만 할 문제/boj 2004.md",
     "전공 공부/문해기/C++ 문법",
     "전공 공부/문해기",
     "DB/In-memory DB",

@@ -82,6 +82,10 @@ TCP에서는 Checksum이 필수, UDP에서는 Optional이다.
 TCP는 헤더에 Pseudoheader라는 것을 붙인다.
 Pseudoheader에는 보내는 쪽 IP주소와 받는 쪽 IP주소를 붙인다. (이미 IP헤더에 있는 값이지만, 더 확실하게 체크하기 위해서 Pseudoheader를 붙여서 checksum을 구하고, 보낼 때는 Pseudoheader가 아닌 Header만 보낸다.)
 또한 protocol과 TCP 전체 길이를 보낸다.
+## CheckSum구하기
+![[Pasted image 20241015233549.png]]
+
+![[Pasted image 20241015233602.png]]
 ## 캡슐화
 ![[Pasted image 20240924004059.png|300]]
 # TCP three-way handshake Connection Set Up
