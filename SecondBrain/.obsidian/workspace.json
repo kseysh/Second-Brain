@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "전공 공부/논리 회로/Widmer_C4 번역.md",
+                "file": "전공 공부/논리 회로/Widmer_C5.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 237.50260543823242,
-    "collapsed": true
+    "width": 237.50260543823242
   },
   "right": {
     "id": "feabab388e8825fc",
@@ -86,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "전공 공부/논리 회로/Widmer_C4 번역.md",
+                "file": "전공 공부/논리 회로/Widmer_C5.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "전공 공부/논리 회로/Widmer_C4 번역.md",
+                "file": "전공 공부/논리 회로/Widmer_C5.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "전공 공부/논리 회로/Widmer_C4 번역.md"
+                "file": "전공 공부/논리 회로/Widmer_C5.md"
               }
             }
           },
@@ -171,48 +170,13 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "floating": {
-    "id": "d04751e60255ba13",
-    "type": "floating",
-    "children": [
-      {
-        "id": "62bcc8bea9b6579d",
-        "type": "window",
-        "children": [
-          {
-            "id": "1dfb23c3a92cfe19",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "244aa3fa1b28ee7a",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "전공 공부/리눅스 프로그래밍/리눅스 중간 공부.md",
-                    "mode": "source",
-                    "source": false
-                  }
-                }
-              }
-            ]
-          }
-        ],
-        "direction": "vertical",
-        "x": 855,
-        "y": 39,
-        "width": 855,
-        "height": 1068,
-        "maximize": false,
-        "zoom": 0.5
-      }
-    ]
-  },
   "active": "1c6a928397621e72",
   "lastOpenFiles": [
+    "전공 공부/논리 회로/Widmer_C4 번역.md",
+    "전공 공부/논리 회로/Widmer_C5.md",
+    "전공 공부/리눅스 프로그래밍/리눅스 중간 공부.md",
     "전공 공부/논리 회로/Widmer_C4.md",
     "전공 공부/리눅스 프로그래밍/CH05_PROCESS2.md",
-    "전공 공부/리눅스 프로그래밍/리눅스 중간 공부.md",
     "전공 공부/리눅스 프로그래밍/CH05_PROCESS1.md",
     "전공 공부/리눅스 프로그래밍/CH06_SIGNAL1.md",
     "전공 공부/리눅스 프로그래밍/CH04_DIRECTORIES.md",
@@ -228,7 +192,6 @@
     "Unused/Attached files/Pasted image 20241014143727.png",
     "Unused/Attached files/Pasted image 20241014143419.png",
     "Unused/Attached files/Pasted image 20241014134019.png",
-    "전공 공부/논리 회로/Widmer_C4 번역.md",
     "전공 공부/리눅스 프로그래밍/CH2_FILE1.md",
     "전공 공부/리눅스 프로그래밍/CH01 BASIC.md",
     "전공 공부/컴퓨터 네트워크/Chapter 10.md",
@@ -245,7 +208,6 @@
     "알고리즘/오늘 푼 문제들.md",
     "알고리즘/풀이/boj/틀린 문제/다시 보기만 할 문제/boj 2004.md",
     "알고리즘/풀이/boj/틀린 문제/다시 보기만 할 문제/boj 6588.md",
-    "알고리즘/풀 문제들/이런 저런...md",
     "전공 공부/문해기/C++ 문법",
     "전공 공부/문해기",
     "DB/In-memory DB",
