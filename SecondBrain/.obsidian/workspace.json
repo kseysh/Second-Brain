@@ -69,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 237.50260543823242
+    "width": 237.50260543823242,
+    "collapsed": true
   },
   "right": {
     "id": "feabab388e8825fc",
@@ -172,6 +173,7 @@
   },
   "active": "1c6a928397621e72",
   "lastOpenFiles": [
+    "Unused/Attached files/Pasted image 20241015135642.png",
     "전공 공부/논리 회로/Widmer_C4 번역.md",
     "전공 공부/논리 회로/Widmer_C5.md",
     "전공 공부/리눅스 프로그래밍/리눅스 중간 공부.md",
@@ -207,7 +209,6 @@
     "전공 공부/논리 회로/Widmer_C3.md",
     "알고리즘/오늘 푼 문제들.md",
     "알고리즘/풀이/boj/틀린 문제/다시 보기만 할 문제/boj 2004.md",
-    "알고리즘/풀이/boj/틀린 문제/다시 보기만 할 문제/boj 6588.md",
     "전공 공부/문해기/C++ 문법",
     "전공 공부/문해기",
     "DB/In-memory DB",
