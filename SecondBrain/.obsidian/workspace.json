@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "전공 공부/리눅스 프로그래밍/CH05_PROCESS2.md",
+                "file": "전공 공부/리눅스 프로그래밍/CH06_SIGNAL1.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 237.50260543823242,
-    "collapsed": true
+    "width": 237.50260543823242
   },
   "right": {
     "id": "feabab388e8825fc",
@@ -86,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "전공 공부/리눅스 프로그래밍/리눅스 중간 공부.md",
+                "file": "전공 공부/리눅스 프로그래밍/CH06_SIGNAL1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "전공 공부/리눅스 프로그래밍/리눅스 중간 공부.md",
+                "file": "전공 공부/리눅스 프로그래밍/CH06_SIGNAL1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "전공 공부/리눅스 프로그래밍/리눅스 중간 공부.md"
+                "file": "전공 공부/리눅스 프로그래밍/CH06_SIGNAL1.md"
               }
             }
           },
@@ -208,10 +207,11 @@
       }
     ]
   },
-  "active": "0389d081eaf8ef88",
+  "active": "485b5be0e219375f",
   "lastOpenFiles": [
-    "전공 공부/리눅스 프로그래밍/CH05_PROCESS2.md",
     "전공 공부/리눅스 프로그래밍/리눅스 중간 공부.md",
+    "전공 공부/리눅스 프로그래밍/CH06_SIGNAL1.md",
+    "전공 공부/리눅스 프로그래밍/CH05_PROCESS2.md",
     "전공 공부/논리 회로/Widmer_C4 번역.md",
     "전공 공부/논리 회로/Widmer_C3.md",
     "전공 공부/논리 회로/Widmer_C4.md",
@@ -226,7 +226,6 @@
     "Unused/Attached files/Pasted image 20241015135709.png",
     "Unused/Attached files/Pasted image 20241015135642.png",
     "전공 공부/리눅스 프로그래밍/CH05_PROCESS1.md",
-    "전공 공부/리눅스 프로그래밍/CH06_SIGNAL1.md",
     "전공 공부/리눅스 프로그래밍/CH04_DIRECTORIES.md",
     "전공 공부/리눅스 프로그래밍/CH3_FILE2.md",
     "2024-10-14.md",
