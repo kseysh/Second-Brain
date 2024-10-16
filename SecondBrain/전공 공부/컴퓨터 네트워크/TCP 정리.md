@@ -351,3 +351,6 @@ capacity가 최대 10Mbps라 할 때, 50Mbps를 보낼 때 5초가 걸렸다면 
 
 Q. PF_INET과 AF_INET은 현재 같은 의미인 것으로 아는데, 시험에서도 AF_INET으로 통일해서 작성하여도 되는지?
 Q. read 함수시에 sizeof(message)-1하는 이유?
+Q. Sending buffer는 receiver의 receiving buffer와 크기가 같은가?
+Q. Cumulate ack 단점?
+udp로 tcp 구현하기..?
