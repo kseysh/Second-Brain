@@ -389,6 +389,6 @@ Q. PF_INET과 AF_INET은 현재 같은 의미인 것으로 아는데, 시험에�
 Q. read 함수시에 sizeof(message)-1하는 이유?
 Q. Sending buffer는 receiver의 receiving buffer와 크기가 같은가?
 Q. Cumulate ack 단점?
-Q. LTE -> wifi 변경시에 페이지 변경이 제대로 되지 않을 때가 있는데, Time out에 의한 확률이 높은지?
+Q. LTE -> wifi 변경시에 페이지 변경이 느리게될 때가 있는데, Time out에 의한 확률이 높은지?
 
 udp로 tcp 구현하기..?
