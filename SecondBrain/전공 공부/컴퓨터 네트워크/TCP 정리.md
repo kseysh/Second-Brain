@@ -357,16 +357,26 @@ cwnd: congestion window size (구현은 byte 단위, 이해는 packet 단위로 
 여기서 혼잡을 패킷이 없어진 것으로 생각하자. (하드웨어 이슈일수도 있지만 혼잡때문에 패킷 loss가 생기는 것이 확률이 99%이상이다.)
 처음에는 4개, 4개의 ACK, 5개, 5개의 ACK이 보내지면서 혼잡을 확인한다. (조금씩 늘려보면서 혼잡을 확인한다.)
 이는 RTT마다 증가한다.
+혼잡이 발생할 때까지 증가한다.
 
 ## exponential increase
 ![[Pasted image 20241016153339.png|500]]
 set up 이후에 1,2,4,8,16,32 이렇게 두 배씩 데이터를 증가하면서 보내본다.
-이게 아니라면 receiver의 rwnd만큼 보내기 ㄸ
+이게 아니라면 receiver의 rwnd만큼 보내기 때문에 
 
+언제까지 증가하냐면, 정해놓은 threshold(system에서 default로 설정한 값)만큼이거나, ?
 
+![[Pasted image 20241016153928.png]]
 
+![[Pasted image 20241016153934.png]]
+x축은 시간 = 초 
+최초의 cwnd는 1로 설정한다.
+여기서 system에서 정한 Threshold는 16
+현재 패킷 단위로 설명.
+Threshold를 만나면 slow start는 stop하고 Addtive increase를 한다.
+혼잡이 발생했다고 판단되면(Fast transmission이 진행되면) cwnd를 반으로 줄인다.
 
-
+혼잡은 Time-out으로도 감지될 수 있다. (혼잡이 심각하면 duplicate ack도 안돔)
 
 
 Q. PF_INET과 AF_INET은 현재 같은 의미인 것으로 아는데, 시험에서도 AF_INET으로 통일해서 작성하여도 되는지?
