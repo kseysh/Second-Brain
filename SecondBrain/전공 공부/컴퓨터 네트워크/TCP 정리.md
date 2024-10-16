@@ -349,9 +349,19 @@ Capacity를 넘게 되면 지수적으로 delay되는 시간이 길어진다.
 capacity가 최대 10Mbps라 할 때, 50Mbps를 보낼 때 5초가 걸렸다면 Throughput은 10Mbps라고 할 수 있다.
 하지만 점점 혼잡도가 증가해 10초가 걸렸다면 Throughput이 5Mbps로 줄어들게 된다.
 
+## Addtive increase
+혼잡 제어의 가장 쉬운 case
+![[Pasted image 20241016152812.png|500]]
+cwnd: congestion window size (구현은 byte 단위, 이해는 packet 단위로 하자)
+이 그림에서는 이해를 위해 한 패킷에 한 ACK으로 생각하자.
+여기서 혼잡을 패킷이 없어진 것으로 생각하자. (하드웨어 이슈일수도 있지만 혼잡때문에 패킷 loss가 생기는 것이 확률이 99%이상이다.)
+처음에는 4개, 4개의 ACK, 5개, 5개의 ACK이 보내지면서 혼잡을 확인한다. (조금씩 늘려보면서 혼잡을 확인한다.)
+이는 RTT마다 증가한다.
 
-
-
+## exponential increase
+![[Pasted image 20241016153339.png|500]]
+set up 이후에 1,2,4,8,16,32 이렇게 두 배씩 데이터를 증가하면서 보내본다.
+이게 아니라면 receiver의 rwnd만큼 보내기 ㄸ
 
 
 
