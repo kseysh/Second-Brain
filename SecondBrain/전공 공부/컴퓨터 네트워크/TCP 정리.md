@@ -250,7 +250,7 @@ read 함수는 block함수이지만, write 함수도 block 함수이다. 버퍼�
 client의 왼쪽 window 벽: server의 ackNo 값
 client의 오른쪽 window 벽: server의 ackNo + rwnd
 server의 왼쪽 window 벽: client의 seqNo + Data 값
-server의 오른쪽 window 벽: 기존 window 오른쪽 벽에서 application이 cusume한 data 값을 더해줌
+server의 오른쪽 window 벽: 기존 window 오른쪽 벽에서 application이 consume한 data 값을 더해줌
 client->server 단방향에서 설명하는 것.
 rwnd: 현재 내가 보낼 수 있는 최대한의 바이트
 마지막 ACK(8)은 무시하자
