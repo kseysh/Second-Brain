@@ -349,8 +349,19 @@ Capacity를 넘게 되면 지수적으로 delay되는 시간이 길어진다.
 capacity가 최대 10Mbps라 할 때, 50Mbps를 보낼 때 5초가 걸렸다면 Throughput은 10Mbps라고 할 수 있다.
 하지만 점점 혼잡도가 증가해 10초가 걸렸다면 Throughput이 5Mbps로 줄어들게 된다.
 
+
+
+
+
+
+
+
+
+
+
 Q. PF_INET과 AF_INET은 현재 같은 의미인 것으로 아는데, 시험에서도 AF_INET으로 통일해서 작성하여도 되는지?
 Q. read 함수시에 sizeof(message)-1하는 이유?
 Q. Sending buffer는 receiver의 receiving buffer와 크기가 같은가?
 Q. Cumulate ack 단점?
+Q. LTE -> wifi 변경시에 페이지 변경이 제대로 되지 않을 때가 있는데, Time out에 의한 확률이 높은지?
 udp로 tcp 구현하기..?
