@@ -156,3 +156,6 @@ NOR 게이트 기호를 버블이 없는(활성-HIGH) 출력 기호로 변경하
 ![[Pasted image 20241003202027.png]]
 ![[Pasted image 20241003202136.png]]
 
+# Active-High와 Active-Low
+상태가 1일 때 동작하는 신호: Activ-High
+상태가 0일 때 동작하는 신호: Activ-Low
