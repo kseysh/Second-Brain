@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "전공 공부/논리 회로/Widmer_C3.md",
+                "file": "전공 공부/논리 회로/Widmer_C4.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "전공 공부/논리 회로/Widmer_C3.md",
+                "file": "전공 공부/논리 회로/Widmer_C4.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "전공 공부/논리 회로/Widmer_C3.md",
+                "file": "전공 공부/논리 회로/Widmer_C4.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "전공 공부/논리 회로/Widmer_C3.md"
+                "file": "전공 공부/논리 회로/Widmer_C4.md"
               }
             }
           },
@@ -185,8 +185,9 @@
   },
   "active": "6105945d82592d52",
   "lastOpenFiles": [
-    "전공 공부/논리 회로/Widmer_C4.md",
     "전공 공부/논리 회로/Widmer_C4 번역.md",
+    "전공 공부/논리 회로/Widmer_C3.md",
+    "전공 공부/논리 회로/Widmer_C4.md",
     "Unused/Attached files/Pasted image 20241016180827.png",
     "Unused/Attached files/Pasted image 20241016180722.png",
     "Unused/Attached files/Pasted image 20241016180703.png",
@@ -210,7 +211,6 @@
     "전공 공부/리눅스 프로그래밍/CH06_SIGNAL1.md",
     "전공 공부/리눅스 프로그래밍/리눅스 중간 공부.md",
     "전공 공부/리눅스 프로그래밍/CH05_PROCESS2.md",
-    "전공 공부/논리 회로/Widmer_C3.md",
     "전공 공부/논리 회로/Widmer_C3 번역.md",
     "전공 공부/리눅스 프로그래밍/CH05_PROCESS1.md",
     "전공 공부/리눅스 프로그래밍/CH04_DIRECTORIES.md",
