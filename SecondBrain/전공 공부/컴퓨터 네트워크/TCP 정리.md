@@ -234,7 +234,8 @@ SYN을 보내고, 기다렸다가 ACK을 받고 다시 SYN을 보내기(STOP&WAI
 - buffer에서 Sent 영역: 보냈지만, 아직 받았다고 ACK을 받지 않는 것
 ## Flow control
 ![[Pasted image 20241002155355.png]]
-
+window size는 rwnd와 cwnd의 minimum으로 관리한다.
+두 값은 독립적이고 rwnd는 receiver의 입장만 보고, sender는 network 상황을 보고 cwnd를 관리한다.
 
 ![[Pasted image 20241002155812.png]]
 보내는 양이 어떻게 조절되는지를 보여주는 그림
@@ -367,16 +368,21 @@ set up 이후에 1,2,4,8,16,32 이렇게 두 배씩 데이터를 증가하면서
 언제까지 증가하냐면, 정해놓은 threshold(system에서 default로 설정한 값)만큼이거나, ?
 
 ![[Pasted image 20241016153928.png]]
+ Time-out이 발생하면 threshhold를 반으로 줄이고 cwnd를 1로 한다.
+3 duplicate ACKs는 cwnd를 반으로 줄인다.
 
 ![[Pasted image 20241016153934.png]]
 x축은 시간 = 초 
 최초의 cwnd는 1로 설정한다.
 여기서 system에서 정한 Threshold는 16
 현재 패킷 단위로 설명.
-Threshold를 만나면 slow start는 stop하고 Addtive increase를 한다.
+Threshold를 만나면 slow start는 stop하고 Additive increase를 한다.
 혼잡이 발생했다고 판단되면(Fast transmission이 진행되면) cwnd를 반으로 줄인다.
 
-혼잡은 Time-out으로도 감지될 수 있다. (혼잡이 심각하면 duplicate ack도 안돔)
+혼잡은 Time-out으로도 감지될 수 있다. (혼잡이 심각하면 duplicate ack도 안 옴 time-out밖에 답이 없음) => 심각한 혼잡으로 판단
+그래서 Time-out으로 감지된 혼잡은 1에서 다시 시작한다.
+Timeout이 발생해서 Time-out이 발생한 20에서 Threshold를 반으로 줄인다.
+Threshold에서는 항상 stop하고, addtive increase를 한다.
 
 
 Q. PF_INET과 AF_INET은 현재 같은 의미인 것으로 아는데, 시험에서도 AF_INET으로 통일해서 작성하여도 되는지?
@@ -384,4 +390,5 @@ Q. read 함수시에 sizeof(message)-1하는 이유?
 Q. Sending buffer는 receiver의 receiving buffer와 크기가 같은가?
 Q. Cumulate ack 단점?
 Q. LTE -> wifi 변경시에 페이지 변경이 제대로 되지 않을 때가 있는데, Time out에 의한 확률이 높은지?
+
 udp로 tcp 구현하기..?
