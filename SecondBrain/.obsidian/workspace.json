@@ -4,28 +4,8 @@
     "type": "split",
     "children": [
       {
-        "id": "42e2b1d28a505d92",
-        "type": "tabs",
-        "dimension": 47.734375,
-        "children": [
-          {
-            "id": "52ed8972c8f1b114",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "전공 공부/리눅스 프로그래밍/리눅스 중간 공부.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          }
-        ]
-      },
-      {
         "id": "fea615802d26d9e8",
         "type": "tabs",
-        "dimension": 52.26562500000001,
         "children": [
           {
             "id": "b50d51ee76a4b07e",
@@ -33,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "전공 공부/리눅스 프로그래밍/CH3_FILE2.md",
+                "file": "전공 공부/리눅스 프로그래밍/통합.md",
                 "mode": "source",
                 "source": false
               }
@@ -105,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "전공 공부/리눅스 프로그래밍/CH3_FILE2.md",
+                "file": "전공 공부/리눅스 프로그래밍/통합.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "전공 공부/리눅스 프로그래밍/CH3_FILE2.md",
+                "file": "전공 공부/리눅스 프로그래밍/통합.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -145,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "전공 공부/리눅스 프로그래밍/CH3_FILE2.md"
+                "file": "전공 공부/리눅스 프로그래밍/통합.md"
               }
             }
           },
@@ -192,11 +172,15 @@
   },
   "active": "b50d51ee76a4b07e",
   "lastOpenFiles": [
-    "전공 공부/리눅스 프로그래밍/CH2_FILE1.md",
-    "전공 공부/리눅스 프로그래밍/CH04_DIRECTORIES.md",
-    "전공 공부/리눅스 프로그래밍/CH3_FILE2.md",
-    "전공 공부/리눅스 프로그래밍/CH05_PROCESS1.md",
+    "전공 공부/리눅스 프로그래밍/CH05_PROCESS2.md",
+    "전공 공부/리눅스 프로그래밍/통합.md",
+    "전공 공부/리눅스 프로그래밍/CH06_SIGNAL1.md",
+    "전공 공부/리눅스 프로그래밍/CH01 BASIC.md",
     "전공 공부/리눅스 프로그래밍/리눅스 중간 공부.md",
+    "전공 공부/리눅스 프로그래밍/CH05_PROCESS1.md",
+    "전공 공부/리눅스 프로그래밍/CH2_FILE1.md",
+    "전공 공부/리눅스 프로그래밍/CH3_FILE2.md",
+    "전공 공부/리눅스 프로그래밍/CH04_DIRECTORIES.md",
     "전공 공부/논리 회로/Widmer_C5.md",
     "전공 공부/논리 회로/논회 중간 공부.md",
     "전공 공부/논리 회로/Widmer_C4 번역.md",
@@ -224,10 +208,6 @@
     "전공 공부/컴퓨터 네트워크/Chapter 4.md",
     "전공 공부/컴퓨터 네트워크/Chapter 3.md",
     "전공 공부/컴퓨터 네트워크/Chapter 10.md",
-    "전공 공부/컴퓨터 네트워크/7 Layers 정리.md",
-    "전공 공부/리눅스 프로그래밍/CH06_SIGNAL1.md",
-    "전공 공부/리눅스 프로그래밍/CH05_PROCESS2.md",
-    "2024-10-14.md",
     "전공 공부/문해기/C++ 문법",
     "전공 공부/문해기",
     "DB/In-memory DB",
