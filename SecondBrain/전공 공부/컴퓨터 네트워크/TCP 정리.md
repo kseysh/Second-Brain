@@ -359,7 +359,6 @@ cwnd: congestion window size (구현은 byte 단위, 이해는 packet 단위로 
 처음에는 4개, 4개의 ACK, 5개, 5개의 ACK이 보내지면서 혼잡을 확인한다. (조금씩 늘려보면서 혼잡을 확인한다.)
 이는 RTT마다 증가한다.
 혼잡이 발생할 때까지 증가한다.
-
 ## exponential increase
 ![[Pasted image 20241016153339.png|500]]
 set up 이후에 1,2,4,8,16,32 이렇게 두 배씩 데이터를 증가하면서 보내본다.

@@ -20,6 +20,24 @@
             }
           }
         ]
+      },
+      {
+        "id": "f691a884c57d83fe",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "88c223eb0bb56426",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "전공 공부/컴퓨터 네트워크/컴네 중간 공부.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
       }
     ],
     "direction": "vertical"
@@ -69,8 +87,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 237.50260543823242,
-    "collapsed": true
+    "width": 237.50260543823242
   },
   "right": {
     "id": "feabab388e8825fc",
@@ -86,7 +103,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "전공 공부/컴퓨터 네트워크/TCP 정리.md",
+                "file": "전공 공부/컴퓨터 네트워크/컴네 중간 공부.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +120,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "전공 공부/컴퓨터 네트워크/TCP 정리.md",
+                "file": "전공 공부/컴퓨터 네트워크/컴네 중간 공부.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +143,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "전공 공부/컴퓨터 네트워크/TCP 정리.md"
+                "file": "전공 공부/컴퓨터 네트워크/컴네 중간 공부.md"
               }
             }
           },
@@ -171,14 +188,14 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "b50d51ee76a4b07e",
+  "active": "88c223eb0bb56426",
   "lastOpenFiles": [
+    "전공 공부/컴퓨터 네트워크/TCP 정리.md",
     "Unused/Attached files/Pasted image 20241019174035.png",
     "Unused/Attached files/Pasted image 20241019173811.png",
     "Unused/Attached files/Pasted image 20241019171431.png",
     "전공 공부/컴퓨터 네트워크/7 Layers 정리.md",
     "전공 공부/컴퓨터 네트워크/컴네 중간 공부.md",
-    "전공 공부/컴퓨터 네트워크/TCP 정리.md",
     "전공 공부/리눅스 프로그래밍/통합.md",
     "전공 공부/리눅스 프로그래밍/CH01 BASIC.md",
     "전공 공부/리눅스 프로그래밍/CH2_FILE1.md",
@@ -204,7 +221,6 @@
     "Unused/Attached files/Pasted image 20241017100035.png",
     "Unused/Attached files/Pasted image 20241017100011.png",
     "Unused/Attached files/Pasted image 20241017095110.png",
-    "Unused/Attached files/Pasted image 20241017095046.png",
     "전공 공부/컴퓨터 네트워크/무제 파일.md",
     "전공 공부/컴퓨터 네트워크/Chapter 1.md",
     "전공 공부/컴퓨터 네트워크/Chapter 2.md",
