@@ -384,4 +384,5 @@ Threshold를 만나면 slow start는 stop하고 Additive increase를 한다.
 Timeout이 발생해서 Time-out이 발생한 20에서 Threshold를 반으로 줄인다.
 Threshold에서는 항상 stop하고, addtive increase를 한다.
 
-udp로 tcp 구현하기..?
+## 왜 TCP는 공평한가?
+![[Pasted image 20241019171431.png|500]]
