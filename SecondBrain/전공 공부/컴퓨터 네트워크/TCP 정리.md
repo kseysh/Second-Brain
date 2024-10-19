@@ -392,6 +392,8 @@ Threshold에서는 항상 stop하고, addtive increase를 한다.
 
 additive increase이므로 y=x의 기울기와 같이 움직이지만, 3 dupplicate ack이 발생하여 둘 다 cwnd가 절반으로 감소하고 이 것을 반복하다 보면 점점 두 throughput이 동일하게 된다.
 
-![[Pasted image 20241019173811.png|300]]
+![[Pasted image 20241019174035.png|300]]
 throughput은 RTT와 반비례하다.
-RTT가 다르면 수렴하는 기울기가 변한다.
+RTT가 다르면 수렴하는 기울기가 변한다. (이 상황에서는 connection1이 connection2보다 RTT가 2배 작음)
+또한, connection1이 process를 두개 사용하게 되면(socket을 두 개 사용하게 되면) TCP는 세 개의 소켓을 공평하게 throughput을 나누기 때문에 connection끼리의 throughput의 비율이 달라질 수 있다.
+따라서 RTT와 connection의 개수에 따라 fair하지 않은 상황이 있을 수 있다.
