@@ -389,3 +389,9 @@ Threshold에서는 항상 stop하고, addtive increase를 한다.
 전제 조건: 
 - 두 개의 RTT가 똑같다.
 - additive increase만 적용하고 있다고 가정한다.
+
+additive increase이므로 y=x의 기울기와 같이 움직이지만, 3 dupplicate ack이 발생하여 둘 다 cwnd가 절반으로 감소하고 이 것을 반복하다 보면 점점 두 throughput이 동일하게 된다.
+
+![[Pasted image 20241019173811.png|300]]
+throughput은 RTT와 반비례하다.
+RTT가 다르면 수렴하는 기울기가 변한다.
