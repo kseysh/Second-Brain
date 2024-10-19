@@ -371,7 +371,6 @@ set up 이후에 1,2,4,8,16,32 이렇게 두 배씩 데이터를 증가하면서
 3 duplicate ACKs는 cwnd를 반으로 줄인다.
 
 ![[Pasted image 20241016153934.png]]
-x축은 시간 = 초 
 최초의 cwnd는 1로 설정한다.
 여기서 system에서 정한 Threshold는 16
 현재 패킷 단위로 설명.

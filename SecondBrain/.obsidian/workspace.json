@@ -20,24 +20,6 @@
             }
           }
         ]
-      },
-      {
-        "id": "f691a884c57d83fe",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "88c223eb0bb56426",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "전공 공부/컴퓨터 네트워크/컴네 중간 공부.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          }
-        ]
       }
     ],
     "direction": "vertical"
@@ -87,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 237.50260543823242
+    "width": 237.50260543823242,
+    "collapsed": true
   },
   "right": {
     "id": "feabab388e8825fc",
