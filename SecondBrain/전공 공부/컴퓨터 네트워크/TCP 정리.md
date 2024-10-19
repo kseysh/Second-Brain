@@ -356,7 +356,7 @@ capacity가 최대 10Mbps라 할 때, 50Mbps를 보낼 때 5초가 걸렸다면 
 cwnd: congestion window size (구현은 byte 단위, 이해는 packet 단위로 하자)
 이 그림에서는 이해를 위해 한 패킷에 한 ACK으로 생각하자.
 여기서 혼잡을 패킷이 없어진 것으로 생각하자. (하드웨어 이슈일수도 있지만 혼잡때문에 패킷 loss가 생기는 것이 확률이 99%이상이다.)
-처음에는 4개, 4개의 ACK, 5개, 5개의 ACK이 보내지면서 혼잡을 확인한다. (조금씩 늘려보면서 혼잡을 확인한다.)
+처음에는 4개 패킷, 4개의 ACK, 5개 패킷, 5개의 ACK이 보내지면서 혼잡을 확인한다. (조금씩 늘려보면서 혼잡을 확인한다.)
 이는 RTT마다 증가한다.
 혼잡이 발생할 때까지 증가한다.
 ## exponential increase
@@ -364,7 +364,7 @@ cwnd: congestion window size (구현은 byte 단위, 이해는 packet 단위로 
 set up 이후에 1,2,4,8,16,32 이렇게 두 배씩 데이터를 증가하면서 보내본다.
 이게 아니라면 receiver의 rwnd만큼 보내기 때문에 
 
-언제까지 증가하냐면, 정해놓은 threshold(system에서 default로 설정한 값)만큼이거나, ?
+언제까지 증가하냐면, 정해놓은 threshold(system에서 default로 설정한 값)만큼이거나, 혼잡으로 인한 packet loss가 발생할 때.
 
 ![[Pasted image 20241016153928.png]]
  Time-out이 발생하면 threshhold를 반으로 줄이고 cwnd를 1로 한다.
