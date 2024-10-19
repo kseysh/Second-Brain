@@ -69,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 237.50260543823242,
-    "collapsed": true
+    "width": 237.50260543823242
   },
   "right": {
     "id": "feabab388e8825fc",
@@ -173,6 +172,9 @@
   },
   "active": "b50d51ee76a4b07e",
   "lastOpenFiles": [
+    "전공 공부/컴퓨터 네트워크/7 Layers 정리.md",
+    "전공 공부/컴퓨터 네트워크/컴네 중간 공부.md",
+    "전공 공부/컴퓨터 네트워크/TCP 정리.md",
     "전공 공부/리눅스 프로그래밍/통합.md",
     "전공 공부/리눅스 프로그래밍/CH01 BASIC.md",
     "전공 공부/리눅스 프로그래밍/CH2_FILE1.md",
@@ -201,14 +203,11 @@
     "Unused/Attached files/Pasted image 20241017095046.png",
     "Unused/Attached files/Pasted image 20241017095027.png",
     "Unused/Attached files/Pasted image 20241017094910.png",
-    "전공 공부/컴퓨터 네트워크/TCP 정리.md",
-    "전공 공부/컴퓨터 네트워크/컴네 중간 공부.md",
     "전공 공부/컴퓨터 네트워크/무제 파일.md",
     "전공 공부/컴퓨터 네트워크/Chapter 1.md",
     "전공 공부/컴퓨터 네트워크/Chapter 2.md",
     "전공 공부/컴퓨터 네트워크/Chapter 4.md",
     "전공 공부/컴퓨터 네트워크/Chapter 3.md",
-    "전공 공부/컴퓨터 네트워크/Chapter 10.md",
     "전공 공부/문해기/C++ 문법",
     "전공 공부/문해기",
     "DB/In-memory DB",
