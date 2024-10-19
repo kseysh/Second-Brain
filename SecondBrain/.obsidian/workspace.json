@@ -4,16 +4,34 @@
     "type": "split",
     "children": [
       {
-        "id": "828fe2b824b47111",
+        "id": "121637365ec26f7a",
         "type": "tabs",
         "children": [
           {
-            "id": "aaa81f4c4eef92a5",
+            "id": "90c9dc95a255bbb7",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "전공 공부/논리 회로/논회 중간 공부.md",
+                "file": "전공 공부/리눅스 프로그래밍/리눅스 중간 공부.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "4f9ff78191af1865",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "acda7b884dd33ed5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "전공 공부/리눅스 프로그래밍/리눅스 중간 공부.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +104,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "전공 공부/논리 회로/논회 중간 공부.md",
+                "file": "전공 공부/리눅스 프로그래밍/리눅스 중간 공부.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +121,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "전공 공부/논리 회로/논회 중간 공부.md",
+                "file": "전공 공부/리눅스 프로그래밍/리눅스 중간 공부.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +144,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "전공 공부/논리 회로/논회 중간 공부.md"
+                "file": "전공 공부/리눅스 프로그래밍/리눅스 중간 공부.md"
               }
             }
           },
@@ -171,15 +189,16 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "aaa81f4c4eef92a5",
+  "active": "acda7b884dd33ed5",
   "lastOpenFiles": [
+    "전공 공부/리눅스 프로그래밍/통합.md",
+    "전공 공부/논리 회로/논회 중간 공부.md",
     "전공 공부/컴퓨터 네트워크/컴네 중간 공부.md",
     "전공 공부/컴퓨터 네트워크/TCP 정리.md",
     "Unused/Attached files/Pasted image 20241019174035.png",
     "Unused/Attached files/Pasted image 20241019173811.png",
     "Unused/Attached files/Pasted image 20241019171431.png",
     "전공 공부/컴퓨터 네트워크/7 Layers 정리.md",
-    "전공 공부/리눅스 프로그래밍/통합.md",
     "전공 공부/리눅스 프로그래밍/CH01 BASIC.md",
     "전공 공부/리눅스 프로그래밍/CH2_FILE1.md",
     "전공 공부/리눅스 프로그래밍/리눅스 중간 공부.md",
@@ -189,7 +208,6 @@
     "전공 공부/리눅스 프로그래밍/CH05_PROCESS2.md",
     "전공 공부/리눅스 프로그래밍/CH06_SIGNAL1.md",
     "전공 공부/논리 회로/Widmer_C5.md",
-    "전공 공부/논리 회로/논회 중간 공부.md",
     "전공 공부/논리 회로/Widmer_C4 번역.md",
     "전공 공부/논리 회로/Widmer_C4.md",
     "전공 공부/논리 회로/Widmer_C3.md",
