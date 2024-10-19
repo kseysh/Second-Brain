@@ -397,3 +397,12 @@ throughput은 RTT와 반비례하다.
 RTT가 다르면 수렴하는 기울기가 변한다. (이 상황에서는 connection1이 connection2보다 RTT가 2배 작음)
 또한, connection1이 process를 두개 사용하게 되면(socket을 두 개 사용하게 되면) TCP는 세 개의 소켓을 공평하게 throughput을 나누기 때문에 connection끼리의 throughput의 비율이 달라질 수 있다.
 따라서 RTT와 connection의 개수에 따라 fair하지 않은 상황이 있을 수 있다.
+
+# TCP의 중요한 개념 4가지
+Set up 과정: syn syn/ack ack
+Reliablility: seq num과 ack num을 이용해 packet loss를 detect함
+flow control: 상대방이 얼마나 받을 수 있는지 확인하며 보냄
+congestion control: 혼잡이 일어나면 조금씩 보내는 양을 줄이면서 적절한 보내는 양을 찾음
+### UDP는?
+UDP는 TCP의 중요한 개념 4가지를 모두 하지 않는다.
+`TCP는 전화, UDP는 엽서` => 엽서는 상대방이 받지 않아도 모름
