@@ -4,24 +4,6 @@
     "type": "split",
     "children": [
       {
-        "id": "4f9ff78191af1865",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "acda7b884dd33ed5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "전공 공부/리눅스 프로그래밍/통합.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          }
-        ]
-      },
-      {
         "id": "9739d518ab378e2f",
         "type": "tabs",
         "children": [
