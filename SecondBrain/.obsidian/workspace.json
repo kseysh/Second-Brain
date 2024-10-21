@@ -13,13 +13,28 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "전공 공부/리눅스 프로그래밍/통합.md",
+                "file": "전공 공부/리눅스 프로그래밍/리눅스 중간 공부.md",
                 "mode": "source",
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "리눅스 중간 공부"
+            }
+          },
+          {
+            "id": "68c3e378fd3dec9e",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.7.4"
+              },
+              "icon": "lucide-file",
+              "title": "Release Notes 1.7.4"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -39,7 +54,9 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "byCreatedTime"
-              }
+              },
+              "icon": "lucide-folder-closed",
+              "title": "파일 탐색기"
             }
           },
           {
@@ -54,7 +71,9 @@
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-search",
+              "title": "검색"
             }
           },
           {
@@ -62,7 +81,9 @@
             "type": "leaf",
             "state": {
               "type": "bookmarks",
-              "state": {}
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
             }
           }
         ]
@@ -85,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "전공 공부/리눅스 프로그래밍/통합.md",
+                "file": "전공 공부/리눅스 프로그래밍/리눅스 중간 공부.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -93,7 +114,9 @@
                 "searchQuery": "",
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-coming-in",
+              "title": "리눅스 중간 공부의 백링크"
             }
           },
           {
@@ -102,10 +125,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "전공 공부/리눅스 프로그래밍/통합.md",
+                "file": "전공 공부/리눅스 프로그래밍/리눅스 중간 공부.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-going-out",
+              "title": "리눅스 중간 공부의 나가는 링크"
             }
           },
           {
@@ -116,7 +141,9 @@
               "state": {
                 "sortOrder": "frequency",
                 "useHierarchy": true
-              }
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
             }
           },
           {
@@ -125,8 +152,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "전공 공부/리눅스 프로그래밍/통합.md"
-              }
+                "file": "전공 공부/리눅스 프로그래밍/리눅스 중간 공부.md"
+              },
+              "icon": "lucide-list",
+              "title": "리눅스 중간 공부 개요"
             }
           },
           {
@@ -134,7 +163,9 @@
             "type": "leaf",
             "state": {
               "type": "advanced-tables-toolbar",
-              "state": {}
+              "state": {},
+              "icon": "spreadsheet",
+              "title": "Advanced Tables"
             }
           },
           {
@@ -146,7 +177,9 @@
                 "sortOrder": "frequency",
                 "showSearch": false,
                 "searchQuery": ""
-              }
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
             }
           }
         ],
@@ -170,10 +203,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "21d4bfeefee627d5",
+  "active": "77e0b92a051c28ac",
   "lastOpenFiles": [
-    "전공 공부/리눅스 프로그래밍/리눅스 중간 공부.md",
     "전공 공부/리눅스 프로그래밍/통합.md",
+    "전공 공부/리눅스 프로그래밍/리눅스 중간 공부.md",
     "전공 공부/논리 회로/논회 중간 공부.md",
     "전공 공부/컴퓨터 네트워크/컴네 중간 공부.md",
     "전공 공부/컴퓨터 네트워크/TCP 정리.md",
