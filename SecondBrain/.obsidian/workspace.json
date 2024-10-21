@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "전공 공부/리눅스 프로그래밍/통합.md",
+                "file": "전공 공부/리눅스 프로그래밍/리눅스 중간 공부.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 237.50260543823242
+    "width": 237.50260543823242,
+    "collapsed": true
   },
   "right": {
     "id": "feabab388e8825fc",
@@ -85,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "전공 공부/리눅스 프로그래밍/통합.md",
+                "file": "전공 공부/리눅스 프로그래밍/리눅스 중간 공부.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "전공 공부/리눅스 프로그래밍/통합.md",
+                "file": "전공 공부/리눅스 프로그래밍/리눅스 중간 공부.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "전공 공부/리눅스 프로그래밍/통합.md"
+                "file": "전공 공부/리눅스 프로그래밍/리눅스 중간 공부.md"
               }
             }
           },
@@ -172,8 +173,8 @@
   },
   "active": "21d4bfeefee627d5",
   "lastOpenFiles": [
-    "전공 공부/리눅스 프로그래밍/리눅스 중간 공부.md",
     "전공 공부/리눅스 프로그래밍/통합.md",
+    "전공 공부/리눅스 프로그래밍/리눅스 중간 공부.md",
     "전공 공부/논리 회로/논회 중간 공부.md",
     "전공 공부/컴퓨터 네트워크/컴네 중간 공부.md",
     "전공 공부/컴퓨터 네트워크/TCP 정리.md",
