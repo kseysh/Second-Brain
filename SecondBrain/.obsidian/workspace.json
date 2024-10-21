@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "9739d518ab378e2f",
+        "id": "a8c642bd2d4d2079",
         "type": "tabs",
         "children": [
           {
-            "id": "21d4bfeefee627d5",
+            "id": "3c67405986b3c5a5",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -191,13 +191,13 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "21d4bfeefee627d5",
+  "active": "3c67405986b3c5a5",
   "lastOpenFiles": [
+    "전공 공부/논리 회로/논회 중간 공부.md",
     "전공 공부/논리 회로/Widmer_C5.md",
     "전공 공부/논리 회로/Widmer_C1.md",
     "전공 공부/리눅스 프로그래밍/통합.md",
     "전공 공부/리눅스 프로그래밍/리눅스 중간 공부.md",
-    "전공 공부/논리 회로/논회 중간 공부.md",
     "전공 공부/컴퓨터 네트워크/컴네 중간 공부.md",
     "전공 공부/컴퓨터 네트워크/TCP 정리.md",
     "Unused/Attached files/Pasted image 20241019174035.png",
