@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "전공 공부/논리 회로/논회 중간 공부.md",
+                "file": "전공 공부/논리 회로/Widmer_C5.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "논회 중간 공부"
+              "title": "Widmer_C5"
             }
           },
           {
@@ -91,8 +91,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 237.50260543823242,
-    "collapsed": true
+    "width": 237.50260543823242
   },
   "right": {
     "id": "feabab388e8825fc",
@@ -108,7 +107,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "전공 공부/논리 회로/논회 중간 공부.md",
+                "file": "전공 공부/논리 회로/Widmer_C5.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +117,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "논회 중간 공부의 백링크"
+              "title": "Widmer_C5의 백링크"
             }
           },
           {
@@ -127,12 +126,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "전공 공부/논리 회로/논회 중간 공부.md",
+                "file": "전공 공부/논리 회로/Widmer_C5.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "논회 중간 공부의 나가는 링크"
+              "title": "Widmer_C5의 나가는 링크"
             }
           },
           {
@@ -154,10 +153,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "전공 공부/논리 회로/논회 중간 공부.md"
+                "file": "전공 공부/논리 회로/Widmer_C5.md"
               },
               "icon": "lucide-list",
-              "title": "논회 중간 공부 개요"
+              "title": "Widmer_C5 개요"
             }
           },
           {
@@ -207,8 +206,8 @@
   },
   "active": "40461fefb7fe884f",
   "lastOpenFiles": [
-    "전공 공부/논리 회로/통합.md",
     "전공 공부/논리 회로/논회 중간 공부.md",
+    "전공 공부/논리 회로/통합.md",
     "전공 공부/논리 회로/Widmer_C1.md",
     "전공 공부/논리 회로/Widmer_C4 번역.md",
     "전공 공부/논리 회로/Widmer_C4.md",
