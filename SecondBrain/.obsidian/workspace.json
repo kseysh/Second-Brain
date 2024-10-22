@@ -130,7 +130,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "전공 공부/컴퓨터 네트워크/무제 파일.md",
+                "file": "전공 공부/컴퓨터 네트워크/컴네 중간 공부.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -140,7 +140,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "무제 파일의 백링크"
+              "title": "컴네 중간 공부의 백링크"
             }
           },
           {
@@ -149,12 +149,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "전공 공부/컴퓨터 네트워크/무제 파일.md",
+                "file": "전공 공부/컴퓨터 네트워크/컴네 중간 공부.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "무제 파일의 나가는 링크"
+              "title": "컴네 중간 공부의 나가는 링크"
             }
           },
           {
@@ -176,10 +176,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "전공 공부/컴퓨터 네트워크/무제 파일.md"
+                "file": "전공 공부/컴퓨터 네트워크/컴네 중간 공부.md"
               },
               "icon": "lucide-list",
-              "title": "무제 파일 개요"
+              "title": "컴네 중간 공부 개요"
             }
           },
           {
@@ -227,10 +227,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "be326f59317e6efc",
+  "active": "40461fefb7fe884f",
   "lastOpenFiles": [
-    "전공 공부/컴퓨터 네트워크/컴네 중간 공부.md",
     "전공 공부/컴퓨터 네트워크/무제 파일.md",
+    "전공 공부/컴퓨터 네트워크/컴네 중간 공부.md",
     "전공 공부/컴퓨터 네트워크/TCP 정리.md",
     "전공 공부/논리 회로/Widmer_C5.md",
     "전공 공부/컴퓨터 네트워크/7 Layers 정리.md",
