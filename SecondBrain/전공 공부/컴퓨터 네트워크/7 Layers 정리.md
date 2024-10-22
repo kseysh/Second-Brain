@@ -31,7 +31,7 @@ Open Systems Interconnection (모델)
 #### hop to hop (mac 주소)
 네트워크가 step by step으로 이동하는 것 
 로컬에서는 mac주소를 이용해 패킷이 이동한다.
-#### source to destination (IP 주소)\
+#### source to destination (IP 주소)
 출발지 및 목적지를 패킷에 작성할 때는, IP주소를 활용한다.
 
 ## Packet Switching Network (목적지 주소 전달 방식)
@@ -76,7 +76,7 @@ Mac 주소(Physical adresses) 관리
 	- `frame`
 - Physical Layer
 	- `bit`
-비프데세메
+
 ## Data Link Layer (physical addresses) (mac 주소)
 ![[Pasted image 20240909152123.png|550]]
 ### 10이 87에게 frame을 처음 보낼 때
