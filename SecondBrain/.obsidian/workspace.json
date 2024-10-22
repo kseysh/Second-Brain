@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "전공 공부/컴퓨터 네트워크/TCP 정리.md",
+                "file": "전공 공부/컴퓨터 네트워크/Chapter 10.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "TCP 정리"
+              "title": "Chapter 10"
             }
           }
         ],
@@ -109,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "전공 공부/컴퓨터 네트워크/TCP 정리.md",
+                "file": "전공 공부/컴퓨터 네트워크/Chapter 10.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +119,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "TCP 정리의 백링크"
+              "title": "Chapter 10의 백링크"
             }
           },
           {
@@ -128,12 +128,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "전공 공부/컴퓨터 네트워크/TCP 정리.md",
+                "file": "전공 공부/컴퓨터 네트워크/Chapter 10.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "TCP 정리의 나가는 링크"
+              "title": "Chapter 10의 나가는 링크"
             }
           },
           {
@@ -155,10 +155,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "전공 공부/컴퓨터 네트워크/TCP 정리.md"
+                "file": "전공 공부/컴퓨터 네트워크/Chapter 10.md"
               },
               "icon": "lucide-list",
-              "title": "TCP 정리 개요"
+              "title": "Chapter 10 개요"
             }
           },
           {
@@ -208,8 +208,8 @@
   },
   "active": "4245dc9fd7647b6c",
   "lastOpenFiles": [
-    "전공 공부/컴퓨터 네트워크/컴네 중간 공부.md",
     "전공 공부/컴퓨터 네트워크/TCP 정리.md",
+    "전공 공부/컴퓨터 네트워크/컴네 중간 공부.md",
     "전공 공부/컴퓨터 네트워크/무제 파일.md",
     "전공 공부/논리 회로/Widmer_C5.md",
     "전공 공부/컴퓨터 네트워크/7 Layers 정리.md",
