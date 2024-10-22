@@ -36,7 +36,7 @@ sequence number: 패킷에 있는 첫 번째 byte 번호
 
 sequence number는 Data의 첫 번째 byte 번호이다.
 ![[Pasted image 20240915232219.png|350]]
-
+push, reset, urgent
 ## TCP가 패킷을 받았을 때 응답하는 방법
 ![[Pasted image 20240923233232.png|300]]
 ### Selective ACK
