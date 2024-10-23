@@ -45,7 +45,7 @@ Open Systems Interconnection (모델)
 
 # OSI 7계층 요약
 ![[Pasted image 20240909145314.png|400]]
-포도는더싸(PDNTSA)
+
 ### Application, Presentation, Session Layer
 네트워크 자원에 대한 접근을 허용함
 ISO에서 7Layer를 제안했지만, Internet은 5Layer고, 살아남은 것은 5Layer라서 5Layer로 이해하는 것이 편하다.
