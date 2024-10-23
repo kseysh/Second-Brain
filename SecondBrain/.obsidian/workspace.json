@@ -11,10 +11,14 @@
             "id": "41d187c4fc2e9652",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "전공 공부/문해기/문제 분석.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "새 탭"
+              "title": "문제 분석"
             }
           }
         ]
@@ -73,7 +77,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 237.50260543823242
+    "width": 237.50260543823242,
+    "collapsed": true
   },
   "right": {
     "id": "feabab388e8825fc",
@@ -184,6 +189,15 @@
   },
   "active": "41d187c4fc2e9652",
   "lastOpenFiles": [
+    "Unused/Attached files/Pasted image 20241023223442.png",
+    "Unused/Attached files/Pasted image 20241023223353.png",
+    "Unused/Attached files/Pasted image 20241023223327.png",
+    "Unused/Attached files/Pasted image 20241023223235.png",
+    "Unused/Attached files/Pasted image 20241023223121.png",
+    "Unused/Attached files/Pasted image 20241023222951.png",
+    "Unused/Attached files/Pasted image 20241023222801.png",
+    "Unused/Attached files/Pasted image 20241023222750.png",
+    "Unused/Attached files/Pasted image 20241023222539.png",
     "전공 공부/컴퓨터 네트워크/컴네 중간 공부.md",
     "전공 공부/컴퓨터 네트워크/무제 파일.md",
     "전공 공부/컴퓨터 네트워크/TCP 정리.md",
@@ -209,17 +223,8 @@
     "전공 공부/리눅스 프로그래밍/통합.md",
     "전공 공부/리눅스 프로그래밍/리눅스 중간 공부.md",
     "Unused/Attached files/Pasted image 20241019174035.png",
-    "Unused/Attached files/Pasted image 20241019173811.png",
-    "Unused/Attached files/Pasted image 20241019171431.png",
     "전공 공부/리눅스 프로그래밍/CH01 BASIC.md",
     "전공 공부/리눅스 프로그래밍/CH2_FILE1.md",
-    "전공 공부/리눅스 프로그래밍/CH3_FILE2.md",
-    "Unused/Attached files/Pasted image 20241017224241.png",
-    "Unused/Attached files/Pasted image 20241017224024.png",
-    "Unused/Attached files/Pasted image 20241017100137.png",
-    "Unused/Attached files/Pasted image 20241017100052.png",
-    "Unused/Attached files/Pasted image 20241017100035.png",
-    "Unused/Attached files/Pasted image 20241017100011.png",
     "전공 공부/문해기/C++ 문법",
     "전공 공부/문해기",
     "DB/In-memory DB",
