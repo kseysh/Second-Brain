@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "2f85c802bf71ce48",
+        "id": "5aeda6fce6dc0eec",
         "type": "tabs",
         "children": [
           {
-            "id": "40461fefb7fe884f",
+            "id": "41d187c4fc2e9652",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "전공 공부/컴퓨터 네트워크/컴네 중간 공부.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "컴네 중간 공부"
+              "title": "새 탭"
             }
           }
         ]
@@ -93,7 +89,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "전공 공부/컴퓨터 네트워크/컴네 중간 공부.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +98,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "컴네 중간 공부의 백링크"
+              "title": "백링크"
             }
           },
           {
@@ -112,12 +107,11 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "전공 공부/컴퓨터 네트워크/컴네 중간 공부.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "컴네 중간 공부의 나가는 링크"
+              "title": "나가는 링크"
             }
           },
           {
@@ -138,11 +132,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "전공 공부/컴퓨터 네트워크/컴네 중간 공부.md"
-              },
+              "state": {},
               "icon": "lucide-list",
-              "title": "컴네 중간 공부 개요"
+              "title": "개요"
             }
           },
           {
@@ -190,11 +182,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "40461fefb7fe884f",
+  "active": "41d187c4fc2e9652",
   "lastOpenFiles": [
+    "전공 공부/컴퓨터 네트워크/컴네 중간 공부.md",
     "전공 공부/컴퓨터 네트워크/무제 파일.md",
     "전공 공부/컴퓨터 네트워크/TCP 정리.md",
-    "전공 공부/컴퓨터 네트워크/컴네 중간 공부.md",
     "전공 공부/리눅스 프로그래밍/CH05_PROCESS1.md",
     "전공 공부/리눅스 프로그래밍/CH05_PROCESS2.md",
     "전공 공부/리눅스 프로그래밍/CH06_SIGNAL1.md",
