@@ -166,7 +166,7 @@ SYN/ACK이 되면 ACK을 보내고 ESTABLISHED 상태(데이터를 주고 받을
 
 FIN을 보낸 상태 FIN-WAIT-1
 ACK을 받은 상태 FIN-WAIT-2
-FIN을 받은 상태 TIME-WATE (바로 끝나지 않고 Maximum Segment Lifetime(msl) 만큼 기다렸다가 CLOSE로 변한다)
+FIN을 받은 상태 TIME-WAIT (바로 끝나지 않고 Maximum Segment Lifetime(msl) 만큼 기다렸다가 CLOSE로 변한다)
 ACK을 보낸 상태 CLOSED
 ### server
 SYN을 받기 전 상태 = LISTEN
