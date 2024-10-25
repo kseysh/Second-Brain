@@ -77,8 +77,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 237.50260543823242,
-    "collapsed": true
+    "width": 237.50260543823242
   },
   "right": {
     "id": "feabab388e8825fc",
@@ -189,9 +188,11 @@
   },
   "active": "41d187c4fc2e9652",
   "lastOpenFiles": [
+    "전공 공부/문해기/C++ 문법/우선 순위 큐.md",
+    "전공 공부/문해기/C++ 문법/string to int.md",
+    "전공 공부/문해기/문제 분석.md",
     "Unused/IDEA/아이디어 폴더/서비스 아이디어.md",
     "Unused/Attached files/Pasted image 20241025003030.png",
-    "전공 공부/문해기/문제 분석.md",
     "Unused/Attached files/Pasted image 20241024204024.png",
     "Unused/Attached files/Pasted image 20241024203959.png",
     "Unused/Attached files/Pasted image 20241024144258.png",
@@ -223,8 +224,6 @@
     "전공 공부/논리 회로/논회 중간 공부.md",
     "전공 공부/논리 회로/통합.md",
     "전공 공부/리눅스 프로그래밍/통합.md",
-    "전공 공부/리눅스 프로그래밍/리눅스 중간 공부.md",
-    "전공 공부/리눅스 프로그래밍/CH01 BASIC.md",
     "전공 공부/문해기/C++ 문법",
     "전공 공부/문해기",
     "DB/In-memory DB",
