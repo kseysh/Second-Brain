@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Spring/스프링 강의/스프링 핵심 원리/syncronized.md",
+                "file": "Spring/스프링 강의/스프링 MVC/스레드.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "syncronized"
+              "title": "스레드"
             }
           }
         ],
@@ -203,6 +203,8 @@
   },
   "active": "45d3630baeac2fdf",
   "lastOpenFiles": [
+    "Spring/스프링 강의/스프링 핵심 원리/syncronized.md",
+    "Spring/스프링 강의/스프링 MVC/스레드.md",
     "Spring/스프링 강의/스프링 핵심 원리/빈 스코프.md",
     "Spring/스프링 강의/스프링 핵심 원리/빈 생명주기 콜백.md",
     "Spring/스프링 강의/스프링 핵심 원리/수동으로 Bean을 등록하는 경우.md",
@@ -211,7 +213,6 @@
     "Spring/스프링 강의/스프링 핵심 원리/스프링 빈이 싱글톤으로 유지되는 이유, @Configuration.md",
     "Spring/스프링 강의/스프링 핵심 원리/DI.md",
     "Spring/스프링 강의/스프링 핵심 원리/싱글톤.md",
-    "Spring/스프링 강의/스프링 핵심 원리/syncronized.md",
     "Spring/스프링 강의/스프링 MVC/서블릿이란?.md",
     "Unused/Attached files/Pasted image 20241027224054.png",
     "Unused/Attached files/Pasted image 20241027223654.png",
@@ -239,7 +240,6 @@
     "전공 공부/컴퓨터 네트워크/7 Layers 정리.md",
     "전공 공부/컴퓨터 네트워크/7 Layers 수업 내용 요약.md",
     "전공 공부/컴퓨터 네트워크/Chapter 3.md",
-    "전공 공부/컴퓨터 네트워크/Chapter 1.md",
     "전공 공부/문해기/C++ 문법",
     "전공 공부/문해기",
     "DB/In-memory DB",
