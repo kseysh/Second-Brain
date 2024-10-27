@@ -201,13 +201,17 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "45d3630baeac2fdf",
+  "active": "77e0b92a051c28ac",
   "lastOpenFiles": [
+    "Spring/JPA/JPA 활용 2",
+    "Spring/JPA/무제 파일.md",
+    "Spring/스프링 강의/스프링 MVC/스레드.md",
+    "Spring/JPA/JPA 기본",
+    "Spring/JPA/JPA 활용 1",
     "Unused/Attached files/Pasted image 20241028003416.png",
     "Unused/Attached files/Pasted image 20241028003358.png",
     "Unused/Attached files/Pasted image 20241028003331.png",
     "Spring/스프링 강의/스프링 핵심 원리/syncronized.md",
-    "Spring/스프링 강의/스프링 MVC/스레드.md",
     "Spring/스프링 강의/스프링 핵심 원리/빈 스코프.md",
     "Spring/스프링 강의/스프링 핵심 원리/빈 생명주기 콜백.md",
     "Spring/스프링 강의/스프링 핵심 원리/수동으로 Bean을 등록하는 경우.md",
@@ -229,7 +233,6 @@
     "Unused/Attached files/Pasted image 20241024203959.png",
     "Unused/Attached files/Pasted image 20241024144258.png",
     "Unused/Attached files/Pasted image 20241024133312.png",
-    "Unused/Attached files/Pasted image 20241023231301.png",
     "전공 공부/컴퓨터 네트워크/컴네 중간 공부.md",
     "전공 공부/컴퓨터 네트워크/무제 파일.md",
     "전공 공부/컴퓨터 네트워크/TCP 정리.md",
@@ -239,7 +242,6 @@
     "전공 공부/컴퓨터 네트워크/Chapter 10.md",
     "전공 공부/컴퓨터 네트워크/Chapter 4.md",
     "전공 공부/컴퓨터 네트워크/7 Layers 정리.md",
-    "전공 공부/컴퓨터 네트워크/7 Layers 수업 내용 요약.md",
     "전공 공부/문해기/C++ 문법",
     "전공 공부/문해기",
     "DB/In-memory DB",
@@ -247,8 +249,6 @@
     "전공 공부/리눅스 프로그래밍",
     "알고리즘/C++ 문법",
     "전공 공부/컴퓨터 네트워크",
-    "Spring/스프링 강의/모든 개발자를 위한 HTTP 웹 기본 지식/HTTP Header",
-    "Spring/스프링 강의/모든 개발자를 위한 HTTP 웹 기본 지식",
     "무제 파일.canvas"
   ]
 }
