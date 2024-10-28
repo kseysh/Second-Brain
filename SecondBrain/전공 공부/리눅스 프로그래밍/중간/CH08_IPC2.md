@@ -1,1 +1,0 @@
-**POSIX:XSI Message Queue**
