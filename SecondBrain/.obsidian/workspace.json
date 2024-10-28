@@ -148,7 +148,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 237.50260543823242
+    "width": 237.50260543823242,
+    "collapsed": true
   },
   "right": {
     "id": "feabab388e8825fc",
@@ -259,6 +260,7 @@
   },
   "active": "89e754318bc2aa67",
   "lastOpenFiles": [
+    "Unused/Attached files/Pasted image 20241028120807.png",
     "전공 공부/리눅스 프로그래밍/무제 파일.md",
     "전공 공부/리눅스 프로그래밍/중간/CH05_PROCESS2.md",
     "전공 공부/리눅스 프로그래밍/중간/CH06_SIGNAL1.md",
@@ -299,7 +301,6 @@
     "전공 공부/컴퓨터 네트워크/TCP 정리.md",
     "전공 공부/컴퓨터 네트워크/Chapter 10.md",
     "전공 공부/컴퓨터 네트워크/Chapter 4.md",
-    "전공 공부/컴퓨터 네트워크/7 Layers 정리.md",
     "전공 공부/문해기/C++ 문법",
     "전공 공부/문해기",
     "DB/In-memory DB",
