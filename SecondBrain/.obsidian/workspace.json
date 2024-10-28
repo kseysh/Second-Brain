@@ -83,12 +83,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "전공 공부/리눅스 프로그래밍/중간/CH06_SIGNAL2.md",
+                "file": "전공 공부/리눅스 프로그래밍/중간/CH08_IPC2.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "CH06_SIGNAL2"
+              "title": "CH08_IPC2"
             }
           }
         ],
@@ -148,7 +148,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 237.50260543823242
+    "width": 237.50260543823242,
+    "collapsed": true
   },
   "right": {
     "id": "feabab388e8825fc",
@@ -259,8 +260,11 @@
   },
   "active": "89e754318bc2aa67",
   "lastOpenFiles": [
-    "전공 공부/리눅스 프로그래밍/중간/CH06_SIGNAL1.md",
+    "전공 공부/리눅스 프로그래밍/중간/CH08_IPC1.md",
+    "전공 공부/리눅스 프로그래밍/중간/CH08_IPC2.md",
+    "전공 공부/리눅스 프로그래밍/중간/CH07_PIPE.md",
     "전공 공부/리눅스 프로그래밍/중간/CH06_SIGNAL2.md",
+    "전공 공부/리눅스 프로그래밍/중간/CH06_SIGNAL1.md",
     "Unused/Attached files/Pasted image 20241028124053.png",
     "Unused/Attached files/Pasted image 20241028124013.png",
     "Unused/Attached files/Pasted image 20241028123959.png",
@@ -297,9 +301,6 @@
     "Unused/IDEA/아이디어 폴더/서비스 아이디어.md",
     "전공 공부/컴퓨터 네트워크/컴네 중간 공부.md",
     "전공 공부/컴퓨터 네트워크/무제 파일.md",
-    "전공 공부/컴퓨터 네트워크/TCP 정리.md",
-    "전공 공부/컴퓨터 네트워크/Chapter 10.md",
-    "전공 공부/컴퓨터 네트워크/Chapter 4.md",
     "전공 공부/문해기/C++ 문법",
     "전공 공부/문해기",
     "DB/In-memory DB",
