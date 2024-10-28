@@ -107,24 +107,41 @@ ctrl c는 foreground에만 적용되어서, background에는 kill -INT 1828을 �
 
 ps 이후 결과
 1828이 없어짐
-1828이 없는데 신호
+1828이 없는데 신호를 보내서 그대로임
 ## Signal Sets
 - 여러 신호를 표현하는 데이터 타입, 즉 **신호 집합**이 필요합니다.
 - 예를 들어, `sigprocmask` 같은 함수에서 커널에게 이 신호 집합의 신호가 발생하지 않도록 지시할 수 있습니다.
-
-### `sigaction(2)` 시스템 호출 (1/3)
+(예시 안 봄)
+## `sigaction(2)` 시스템 호출 (1/3)
+```c
+#include <signal.h>
+int sigaction(int signo, const struct sigaction *restrict act,
+struct sigaction *restrict oact);
+// Returns: 0 if OK, -1 on error
+```
 - `sigaction` 함수는 특정 신호에 대해 동작을 조회하거나 수정할 수 있습니다. 이 함수는 UNIX 시스템의 `signal` 함수를 대체합니다.
   - **인자**
     - `signo`: 신호 번호
     - `act`: 동작 수정 시 사용
     - `oact`: 이전 동작
+```c
+struct sigaction {
+void (*sa_handler)(int); /* addr of signal handler, */ /* or SIG_IGN, or SIG_DFL */
+	sigset_t sa_mask; /* additional signals to block */		
+	int sa_flags; /* signal options, Figure 10.16 */
+
+	void (*sa_sigaction)(int, siginfo_t *, void *);	/* alternate handler */
+
+};
+```
   - **주요 필드**
     - `sa_handler`: 신호를 잡는 함수의 주소 (또는 상수 `SIG_IGN`이나 `SIG_DFL`)
     - `sa_mask`: 신호 잡기 함수가 호출되기 전 프로세스의 신호 마스크에 추가되는 신호 집합
     - `sa_flags`: 신호 처리 옵션 (`SA_INTERRUPT`, `SA_NOCLDSTOP`, 등)
     - `sa_sigaction`: `SA_SIGINFO` 플래그를 사용할 때 대체 신호 처리기에 사용됩니다.
       - 일부 구현은 `sa_handler`와 `sa_sigaction`에 동일한 저장 공간을 사용하므로 둘 중 하나만 사용할 수 있습니다.
-
+![[Pasted image 20241028123802.png|500]]
+static을 사용한 이유 -> 
 ### 신호와 시스템 호출 (1/3)
 - 프로세스가 시스템 호출 중 신호를 받으면, 시스템 호출이 완료될 때까지 신호는 영향을 미치지 않습니다.
 - 만약 프로세스가 "느린" 시스템 호출 동안 신호를 잡으면, 시스템 호출이 중단됩니다.
