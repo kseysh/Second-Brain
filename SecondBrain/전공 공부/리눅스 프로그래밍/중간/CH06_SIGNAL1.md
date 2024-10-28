@@ -141,8 +141,11 @@ void (*sa_handler)(int); /* addr of signal handler, */ /* or SIG_IGN, or SIG_DFL
     - `sa_sigaction`: `SA_SIGINFO` 플래그를 사용할 때 대체 신호 처리기에 사용됩니다.
       - 일부 구현은 `sa_handler`와 `sa_sigaction`에 동일한 저장 공간을 사용하므로 둘 중 하나만 사용할 수 있습니다.
 ![[Pasted image 20241028123802.png|500]]
-static을 사용한 이유 -> 
-### 신호와 시스템 호출 (1/3)
+static을 사용한 이유 -> 메모리를 clear하기 위해서(전역변수는 값을 clear해주기 때문)
+![[Pasted image 20241028123959.png|500]]
+![[Pasted image 20241028124013.png|500]]
+![[Pasted image 20241028124053.png|500]]
+## 신호와 시스템 호출 (1/3)
 - 프로세스가 시스템 호출 중 신호를 받으면, 시스템 호출이 완료될 때까지 신호는 영향을 미치지 않습니다.
 - 만약 프로세스가 "느린" 시스템 호출 동안 신호를 잡으면, 시스템 호출이 중단됩니다.
   - 시스템 호출이 오류를 반환하고, 오류 번호(`errno`)가 `EINTR`로 설정됩니다.
