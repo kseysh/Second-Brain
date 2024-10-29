@@ -83,12 +83,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Spring/JPA/엔티티 매핑.md",
+                "file": "알고리즘/풀 문제들/완전 탐색 문제.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "엔티티 매핑"
+              "title": "완전 탐색 문제"
             }
           }
         ],
@@ -259,6 +259,12 @@
   },
   "active": "89e754318bc2aa67",
   "lastOpenFiles": [
+    "알고리즘/풀 문제들/binary search 문제.md",
+    "알고리즘/풀 문제들/DP 문제.md",
+    "알고리즘/풀 문제들/완전 탐색 문제.md",
+    "알고리즘/풀 문제들/알고리즘 공부 순서.md",
+    "알고리즘/풀 문제들/자료구조 문제.md",
+    "Spring/JPA/엔티티 매핑.md",
     "Spring/JPA/변경 감지와 병합.md",
     "Spring/JPA/JPQL/벌크 연산.md",
     "Spring/JPA/영속성 컨텍스트.md",
@@ -269,7 +275,6 @@
     "Spring/JPA/영속성 전이.md",
     "Spring/JPA/영속성 전이 + 고아 객체.md",
     "Spring/JPA/엔티티 부모자식관계 매핑하기.md",
-    "Spring/JPA/엔티티 매핑.md",
     "Spring/JPA/상속관계 매핑.md",
     "Spring/JPA/Transaction 전파.md",
     "Spring/JPA/Transaction의 범위.md",
@@ -280,11 +285,6 @@
     "전공 공부/리눅스 프로그래밍/중간/CH05_PROCESS1.md",
     "전공 공부/리눅스 프로그래밍/중간/CH05_PROCESS2.md",
     "전공 공부/리눅스 프로그래밍/CH06_SIGNAL1.md",
-    "전공 공부/리눅스 프로그래밍/CH06_SIGNAL2.md",
-    "전공 공부/리눅스 프로그래밍/CH10_SOCKET.md",
-    "전공 공부/리눅스 프로그래밍/무제 파일.md",
-    "전공 공부/리눅스 프로그래밍/CH08_IPC2.md",
-    "전공 공부/리눅스 프로그래밍/CH08_IPC1.md",
     "Unused/Attached files/Pasted image 20241028124053.png",
     "Unused/Attached files/Pasted image 20241028124013.png",
     "Unused/Attached files/Pasted image 20241028123959.png",
