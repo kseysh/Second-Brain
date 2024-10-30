@@ -99,7 +99,19 @@ rwnd에 2의 n승만큼 더 보내기 위해 Scale factor에 n을 넣는다 (따
 또한 타임스탬프는 (PAWS)로 활용할 수도 있다. (만약 sequence number가 길어서 초과하게 되면 sequence number가 초과하더라도 0부터 시작하고 쭉 쓰는데 timestamp option을 활용하여 packet에 출발시간이 있어서 그것으로 구분한다.)
 
 ## SACK (selective ack)
-![[Pasted image 20241030161242.png|500]]
 cumulative ack의 단점
 packet loss가 생겼을 때 detail한 상황을 말할 수 없다.
+=> 따라서 단점이 생겼을 때 selective ack을 사용한다.
+![[Pasted image 20241030161242.png|500]]
+4: 서로 set-up때 SACK option을 쓰자고 협의하는 것
+5.: 상대방이 4를 agree하면 4를 쓸 수 있다.
 
+![[Pasted image 20241030162102.png|500]]
+상대방이 못 받은 패킷만 보내준다.
+
+![[Pasted image 20241030162300.png|500]]
+그냥 이런게 있다...만 알기
+중복된 패킷에 관한 정보도 같이 헤더에 실어서 보낼 수 있다.
+
+
+SACK을 왜 쓰는지 -=> cummulative ack의 단점을 보완하기 위해서
