@@ -82,5 +82,10 @@ Length: 전체 option 길이
 MSS
 ## Window-scale-factor option
 ![[Pasted image 20241030155157.png|500]]
+rwndㅇ
 
+![[Pasted image 20241030155707.png|500]]
+혼잡이 없어 cwnd는 계속 늘어나고 rwnd가 제한이 되는 상황
+16bit를 rwnd를 사용하기 위해 잡아놨으므로 64K byte만큼의 데이터를 전송할 수 있다.
+따라서 512Kbps의 Throughput을 가질 수 있다.
 
