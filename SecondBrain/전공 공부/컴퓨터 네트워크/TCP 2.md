@@ -64,5 +64,23 @@ a상황인지 b상황인지 sender는 구별할 수 없다.
 두 번째에서는 RTO를 두 배 늘려서 보낸다. (Exponential Backoff of RTO)
 RTTs와 RTTd는 변경없다
 
+## Example RTT estimation
+![[Pasted image 20241030154705.png|500]]
+
+## Options
+![[Pasted image 20241030154853.png|600]]
+Single-byte : 땜빵용 (이정도만 알면 충분, 하나는 앞에 붙고 하나는 뒤에 붙는거)
+중요한건 Multiple-byte
+## End-of-option option
+![[Pasted image 20241030154916.png|500]]
+## No-operation option
+![[Pasted image 20241030155055.png|500]]
+## Maximum-segment-size option
+![[Pasted image 20241030155125.png|500]]
+kind : option 번호
+Length: 전체 option 길이
+MSS
+## Window-scale-factor option
+![[Pasted image 20241030155157.png|500]]
 
 
