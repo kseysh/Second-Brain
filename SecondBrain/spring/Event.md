@@ -9,5 +9,5 @@
 
 ## Event의 단점
 하지만 이벤트 발행은 트랜잭션 안에서 트랜잭션의 성공적인 수행을 보장할 수 없다는 문제가 발생하게 됩니다.
-이를 위해서 스프링에서는 EventListener 대신 TransactionalEventListener를 제공하는데요, 말 그대로 트랜잭션 안에서 이벤트를 발생시킬 때 트랜잭션 처리오
+이를 위해서 스프링에서는 EventListener 대신 TransactionalEventListener를 제공하는데요, 말 그대로 트랜잭션 안에서 이벤트를 발생시킬 때 트랜잭션 처리와 결합하여 이벤트를 수신하는 로직을 처리할 수 있습니다.
 
