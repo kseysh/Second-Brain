@@ -49,5 +49,20 @@ Timeout값을 너무 크게 잡으면 안된다.
 
 ![[Pasted image 20241030153037.png|500]]
 3. 첫 번째 데이터 세그먼트가 전송될 때 새로운 RTT 측정이 시작된다. 두 번째 데이터 세그먼트에 대해서는 이미 측정이 진행 중이므로 새로운 RTT 측정이 시작되지 않는다. 마지막 ACK 세그먼트의 도착은 다음 RTTM 값을 계산하는 데 사용된다. 비록 마지막 ACK 세그먼트가 두 데이터 세그먼트 모두를 확인하지만(누적 확인), 그 도착은 첫 번째 세그먼트에 대한 RTTM 값을 확정 짓는다. 이 변수들의 값은 이제 다음과 같다.
-## 실제 RTT
-![[Pasted image 20241030151947.png|400]]
+## Karn's Algorithm
+![[Pasted image 20241030153740.png|400]]
+(a)에서 original transmission이 사라졌음
+(b)에서는 Retransmissino이 사라졌음
+a상황인지 b상황인지 sender는 구별할 수 없다.
+따라서 이 case에서는 재전송에 대한 mesurement값이 오류가 발생할 수 있어 Karn's Algorithm을 사용한다. (한 번 잘못된 측정 값이 이후에도 계속 영향을 끼칠 수 있으므로)
+
+• 재전송된 세그먼트에 대해서는 RTT를 업데이트하지 않는다.
+• 재전송되지 않은 세그먼트에 대한 ACK를 받은 후에만 RTT 측정을 다시 시작한다.
+### ex)
+![[Pasted image 20241030154256.png|600]]
+재전송 때는 측정하지 않고 측정하더라도 RTTs와 RTTd는 그대로 둔다.
+두 번째에서는 RTO를 두 배 늘려서 보낸다. (Exponential Backoff of RTO)
+RTTs와 RTTd는 변경없다
+
+
+
