@@ -82,10 +82,24 @@ Length: 전체 option 길이
 MSS
 ## Window-scale-factor option
 ![[Pasted image 20241030155157.png|500]]
-rwndㅇ
+rwnd에 2의 n승만큼 더 보내기 위해 Scale factor에 n을 넣는다 (따라서 표현할 수 있는 값이 더 커지게 된다.)
+이는 connection set up할 때만 정할 수 있고, 중간에 변할 수는 없다.
 
 ![[Pasted image 20241030155707.png|500]]
 혼잡이 없어 cwnd는 계속 늘어나고 rwnd가 제한이 되는 상황
 16bit를 rwnd를 사용하기 위해 잡아놨으므로 64K byte만큼의 데이터를 전송할 수 있다.
 따라서 512Kbps의 Throughput을 가질 수 있다.
+
+## Timestamp option
+![[Pasted image 20241030160801.png|500]]
+
+
+![[Pasted image 20241030160812.png|600]]
+출발시간을 헤더에 포함해 보내고 ACK에서 받았던 출발시간을 보내서 RTT를 구한다 (Timestamp option)
+또한 타임스탬프는 (PAWS)로 활용할 수도 있다. (만약 sequence number가 길어서 초과하게 되면 sequence number가 초과하더라도 0부터 시작하고 쭉 쓰는데 timestamp option을 활용하여 packet에 출발시간이 있어서 그것으로 구분한다.)
+
+## SACK (selective ack)
+![[Pasted image 20241030161242.png|500]]
+cumulative ack의 단점
+packet loss가 생겼을 때 detail한 상황을 말할 수 없다.
 
