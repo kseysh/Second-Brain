@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "알고리즘/C++ 문법/sort.md",
+                "file": "알고리즘/풀이/boj/맞은 문제/boj 15654.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "sort"
+              "title": "boj 15654"
             }
           }
         ]
@@ -188,8 +188,9 @@
   },
   "active": "73a531d47b7bfdc2",
   "lastOpenFiles": [
-    "알고리즘/풀이/boj/맞은 문제/boj 15654.md",
+    "알고리즘/풀이/boj/boj java ranking.md",
     "알고리즘/C++ 문법/sort.md",
+    "알고리즘/풀이/boj/맞은 문제/boj 15654.md",
     "알고리즘/오늘 푼 문제들.md",
     "Unused/Attached files/Pasted image 20241031172226.png",
     "Unused/Attached files/Pasted image 20241031172223.png",
@@ -224,7 +225,6 @@
     "전공 공부/컴퓨터 네트워크/컴네 중간 공부.md",
     "알고리즘/풀 문제들/자료구조 문제.md",
     "알고리즘/풀 문제들/binary search 문제.md",
-    "알고리즘/풀 문제들/알고리즘 공부 순서.md",
     "전공 공부/리눅스 프로그래밍/중간",
     "Spring/JPA/JPA 활용 2",
     "Spring/JPA/JPA 기본",
