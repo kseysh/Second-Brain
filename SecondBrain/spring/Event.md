@@ -77,3 +77,4 @@ notification
 pushToken
 pokeHistory
 Stamp
+userFortune
