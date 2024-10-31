@@ -69,12 +69,3 @@ public void handleEvent(MyEvent event) {
 
 ## 이벤트를 사용해야 하는 경우
 특정한 도메인의 상태 변경을 외부로 알려주어야 하는 경우에 사용합니다.
-
-
-SoptampUser
-Friend
-notification
-pushToken
-pokeHistory
-Stamp
-userFortune
