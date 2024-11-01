@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "알고리즘/풀이/boj/맞은 문제/boj 1003.md",
+                "file": "알고리즘/오늘 푼 문제들.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "boj 1003"
+              "title": "오늘 푼 문제들"
             }
           }
         ]
@@ -188,8 +188,8 @@
   },
   "active": "73a531d47b7bfdc2",
   "lastOpenFiles": [
-    "알고리즘/오늘 푼 문제들.md",
     "알고리즘/풀이/boj/맞은 문제/boj 1003.md",
+    "알고리즘/오늘 푼 문제들.md",
     "Unused/Attached files/Pasted image 20241101170040.png",
     "Unused/Attached files/Pasted image 20241101164047.png",
     "알고리즘/풀이/boj/틀린 문제/다시 풀 문제/boj 16987.md",
