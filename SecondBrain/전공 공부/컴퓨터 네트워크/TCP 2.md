@@ -107,6 +107,7 @@ rwnd에 2의 n승만큼 더 보내기 위해 Scale factor에 n을 넣는다 (따
 혼잡이 없어 cwnd는 계속 늘어나고 rwnd가 제한이 되는 상황
 16bit를 rwnd를 사용하기 위해 잡아놨으므로 64K byte만큼의 데이터를 전송할 수 있다.
 따라서 512Kbps의 Throughput을 가질 수 있다.
+최대 0.5Mbps밖에 전송이 되지 않으므로 Window-scale-factor Option을 사용하여 Throughput을 증가시킬 수 있다.
 
 ## Timestamp option
 ![[Pasted image 20241030160801.png|500]]
