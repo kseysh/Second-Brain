@@ -39,8 +39,23 @@ RTTm => 가장 최근 측정된 RTT
 
 RTT에 따라 Timeout값이 변화해야 한다
 Timeout값을 너무 크게 잡으면 안된다.
+
+## RTO 계산 방식 정리
+처음, 첫 번째 측정, 그 이후의 순서
+### RTTs
+- x
+- RTTm
+- (7RTTs + RTTm) / 8
+### RTTd
+- x
+- RTTm / 2
+- (3RTTd + |RTTs - RTTm|) / 4
+### RTO
+- x
+- RTTs + 4RTTd
 ## RTO 계산 예시
 처음 보내는 RTO는 default값으로 설정한다.
+RTO는 Sender가 측정한다.
 ![[Pasted image 20241030152916.png|500]]
 ![[Pasted image 20241030153026.png|500]]
 가상의 예를 들어보자. 그림 15.39는 연결의 일부분을 보여준다. 그림은 연결 설정과 데이터 전송 단계의 일부를 보여준다.
