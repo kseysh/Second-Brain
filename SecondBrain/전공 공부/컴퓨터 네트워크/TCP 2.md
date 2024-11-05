@@ -114,7 +114,7 @@ rwnd에 2의 n승만큼 더 보내기 위해 Scale factor에 n을 넣는다 (따
 
 ![[Pasted image 20241030160812.png|600]]
 출발시간을 헤더에 포함해 보내고 ACK에서 받았던 출발시간을 보내서 RTT를 구한다 (Timestamp option)
-또한 타임스탬프는 (PAWS)로 활용할 수도 있다. (만약 sequence number가 길어서 초과하게 되면 sequence number가 초과하더라도 0부터 시작하고 쭉 쓰는데 timestamp option을 활용하여 packet에 출발시간이 있어서 그것으로 구분한다.)
+또한 타임스탬프는 (PAWS(Protection Against Wrapped Sequence number))로 활용할 수도 있다. (만약 sequence number가 길어서 초과하게 되면 sequence number가 초과하더라도 0부터 시작하고 쭉 쓰는데 timestamp option을 활용하여 packet에 출발시간이 있어서 그것으로 구분한다.)
 
 ## SACK (selective ack)
 cumulative ack의 단점
