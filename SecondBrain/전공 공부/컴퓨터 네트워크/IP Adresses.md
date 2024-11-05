@@ -20,6 +20,16 @@ IPv4는 16진수로는 잘 안 쓰고 MAC은 16진수로 사용한다.
 
 ![[Pasted image 20241105205114.png|500]]
 
-![[Pasted image 20241105205307.png|500]]
+![[Pasted image 20241105205307.png|500]]\
+\= 14.11.46.40
+
+## NOT operation
+![[Pasted image 20241105205700.png|500]]
+십진법으로 할 때는 두 개 합쳐서 255가 나오도록 하면 된다.
+
+## AND operation
+![[Pasted image 20241105205736.png|500]]
+## OR operation
+![[Pasted image 20241105205845.png|500]]
 
 
