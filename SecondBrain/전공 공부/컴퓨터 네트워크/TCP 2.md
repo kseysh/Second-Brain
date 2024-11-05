@@ -83,13 +83,16 @@ RTTs와 RTTd는 변경없다
 ![[Pasted image 20241030154705.png|500]]
 
 ## Options
+TCP 헤더는 최대 선택적 정보를 가질 수 있는데, 추가 정보를 전달하거나 다른 옵션을 정렬하는 데 사용된다.
 ![[Pasted image 20241030154853.png|600]]
 Single-byte : 땜빵용 (이정도만 알면 충분, 하나는 앞에 붙고 하나는 뒤에 붙는거)
 중요한건 Multiple-byte
 ## End-of-option option
 ![[Pasted image 20241030154916.png|500]]
+한 개만 쓰일 수 있다.
 ## No-operation option
 ![[Pasted image 20241030155055.png|500]]
+여러개 쓰일 수 있다.
 ## Maximum-segment-size option
 ![[Pasted image 20241030155125.png|500]]
 kind : option 번호
