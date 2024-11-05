@@ -49,5 +49,10 @@ IPv4는 16진수로는 잘 안 쓰고 MAC은 16진수로 사용한다.
 
 ![[Pasted image 20241105234412.png|500]]
 클래스마다 끊어읽는 곳이 다르다.
-
-
+ NetId: 각 네트워크마다 대표하는 번호가 있는데 그것을 Network Id 즉 NetId라고 한다.
+ HostId: 네트워크 아이디 내에서 가질 수 있는 번호
+## Class A
+![[Pasted image 20241105235029.png|400]]
+Class A는 첫 번째 바이트만 NetId, 나머지는 HostId이다.
+따라서 class A는 128개의 block이 있고 한 개의 블록은 2의 24승인 1600만개의 HostId를 표현할 수 있다.
+class를 구매하면 hostId는 마음대로 부여할 수 있는 권한을 얻게 된다.
