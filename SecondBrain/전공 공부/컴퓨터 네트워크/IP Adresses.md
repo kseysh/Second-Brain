@@ -102,3 +102,17 @@ Switch는 MAC주소를 사용한다.
 ![[Pasted image 20241106154411.png|600]]
 
 ![[Pasted image 20241106154654.png|600]]
+라우터는 NetId만 보고 라우팅을 하도록 한다.
+
+### Network Mask
+![[Pasted image 20241106155533.png|400]]
+
+## Finding a network address using the default mask
+![[Pasted image 20241106155637.png|500]]
+
+![[Pasted image 20241106155714.png|500]]
+
+![[Pasted image 20241106155748.png|500]]
+
+
+
