@@ -77,7 +77,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 237.50260543823242
+    "width": 237.50260543823242,
+    "collapsed": true
   },
   "right": {
     "id": "feabab388e8825fc",
@@ -188,6 +189,7 @@
   },
   "active": "f555b3e9144d0c27",
   "lastOpenFiles": [
+    "Unused/Attached files/Pasted image 20241112160337.png",
     "전공 공부/논리 회로/Widmer_C7.md",
     "전공 공부/논리 회로/Widmer_C6.md",
     "전공 공부/논리 회로/5장 문제 해석.md",
@@ -224,7 +226,6 @@
     "알고리즘/풀이/boj/틀린 문제/다시 풀 문제/boj 15486.md",
     "회의.md",
     "알고리즘/풀이/boj/맞은 문제/boj 11052.md",
-    "알고리즘/풀이/boj/맞은 문제/boj 2302.md",
     "전공 공부/컴퓨터 네트워크/중간",
     "전공 공부/리눅스 프로그래밍/중간",
     "Spring/JPA/JPA 활용 2",
