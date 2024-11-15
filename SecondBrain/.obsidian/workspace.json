@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "프로젝트/SOPT Makers APP/일급 컬렉션 사용하기.md",
+                "file": "독서록/개발 관련 도서/테스트주도개발시작하기/@TempDir 어노테이션을 이용한 임시 폴더 생성.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "일급 컬렉션 사용하기"
+              "title": "@TempDir 어노테이션을 이용한 임시 폴더 생성"
             }
           }
         ],
@@ -203,8 +203,13 @@
   },
   "active": "2b14ce8ad7cd67bd",
   "lastOpenFiles": [
-    "프로젝트/SOPT Makers APP/친구 추천 api 로직 개선하기 - 2.md",
+    "독서록/개발 관련 도서/테스트주도개발시작하기/테스트 메시지 사용자화.md",
+    "독서록/개발 관련 도서/테스트주도개발시작하기/테스트 중첩 구성.md",
+    "독서록/개발 관련 도서/테스트주도개발시작하기/테스트 코드와 유지보수.md",
+    "독서록/개발 관련 도서/테스트주도개발시작하기/AssertJ.md",
     "Test/Jmeter.md",
+    "프로젝트/SOPT Makers APP/일급 컬렉션 사용하기.md",
+    "프로젝트/SOPT Makers APP/친구 추천 api 로직 개선하기 - 2.md",
     "프로젝트/SOPT Makers APP/친구 추천 api 로직 개선하기 - 1.md",
     "독서록/읽고 싶은 책 List.md",
     "Unused/당근 인턴십.md",
@@ -234,11 +239,6 @@
     "전공 공부/논리 회로/Widmer_C5.md",
     "Spring/스프링 강의/스프링 핵심 원리/조회 빈이 2개 이상일 때.md",
     "Spring/스프링 강의/스프링 핵심 원리/빈 스코프.md",
-    "Spring/스프링 강의/스프링 핵심 원리/빈 생명주기 콜백.md",
-    "Spring/스프링 강의/스프링 핵심 원리/수동으로 Bean을 등록하는 경우.md",
-    "Spring/스프링 강의/스프링 핵심 원리/컴포넌트 스캔.md",
-    "전공 공부/리눅스 프로그래밍/CH08_IPC1.md",
-    "알고리즘/풀이/boj/맞은 문제/boj 1018.md",
     "전공 공부/논리 회로/중간",
     "전공 공부/컴퓨터 네트워크/중간",
     "전공 공부/리눅스 프로그래밍/중간",
