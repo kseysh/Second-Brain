@@ -34,9 +34,21 @@
               "icon": "lucide-file",
               "title": "Mockito"
             }
+          },
+          {
+            "id": "357610de1efaa170",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.7.6"
+              },
+              "icon": "lucide-file",
+              "title": "Release Notes 1.7.6"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -201,7 +213,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "2b14ce8ad7cd67bd",
+  "active": "357610de1efaa170",
   "lastOpenFiles": [
     "독서록/개발 관련 도서/테스트주도개발시작하기/@Timeout 어노테이션을 이용한 테스트 실행 시간 검증.md",
     "독서록/개발 관련 도서/테스트주도개발시작하기/@TempDir 어노테이션을 이용한 임시 폴더 생성.md",
