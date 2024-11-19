@@ -4,39 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "6a241f892ee0c97b",
+        "id": "389c98c21c1b62f2",
         "type": "tabs",
         "children": [
           {
-            "id": "f555b3e9144d0c27",
+            "id": "2c4b5746ac8d24b6",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Unused/당근 인턴십.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "당근 인턴십"
-            }
-          },
-          {
-            "id": "2b14ce8ad7cd67bd",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "전공 공부/논리 회로/6장 문제 해석.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "6장 문제 해석"
+              "title": "새 탭"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -202,10 +183,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "2b14ce8ad7cd67bd",
+  "active": "2c4b5746ac8d24b6",
   "lastOpenFiles": [
-    "독서록/개발 관련 도서/테스트주도개발시작하기/Mockito.md",
+    "Unused/당근 인턴십.md",
     "전공 공부/논리 회로/6장 문제 해석.md",
+    "독서록/개발 관련 도서/테스트주도개발시작하기/Mockito.md",
     "독서록/개발 관련 도서/테스트주도개발시작하기/@Timeout 어노테이션을 이용한 테스트 실행 시간 검증.md",
     "독서록/개발 관련 도서/테스트주도개발시작하기/@TempDir 어노테이션을 이용한 임시 폴더 생성.md",
     "독서록/개발 관련 도서/테스트주도개발시작하기/테스트 메시지 사용자화.md",
@@ -217,7 +199,6 @@
     "프로젝트/SOPT Makers APP/친구 추천 api 로직 개선하기 - 2.md",
     "프로젝트/SOPT Makers APP/친구 추천 api 로직 개선하기 - 1.md",
     "독서록/읽고 싶은 책 List.md",
-    "Unused/당근 인턴십.md",
     "Unused/현업에서 궁금한 점.md",
     "Unused/Python/Call by value.md",
     "Unused/Python/Call by reference.md",
