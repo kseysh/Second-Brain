@@ -20,6 +20,18 @@
               "icon": "lucide-file",
               "title": "친구 추천 api 로직 개선하기 - 2"
             }
+          },
+          {
+            "id": "cdafa8931c9bd201",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "Unused/Attached files/Pasted image 20240624214419.png"
+              },
+              "icon": "lucide-image",
+              "title": "Pasted image 20240624214419"
+            }
           }
         ]
       }
@@ -189,6 +201,8 @@
   },
   "active": "2c4b5746ac8d24b6",
   "lastOpenFiles": [
+    "Unused/Attached files/Pasted image 20240624214419.png",
+    "프로젝트/SOPT Makers APP/친구 추천 api 로직 개선하기 - 2.md",
     "Unused/Attached files/Pasted image 20241119232357.png",
     "Unused/Attached files/Pasted image 20241119232346.png",
     "전공 공부/논리 회로/Widmer_C7.md",
@@ -203,7 +217,6 @@
     "독서록/개발 관련 도서/테스트주도개발시작하기/AssertJ.md",
     "Test/Jmeter.md",
     "프로젝트/SOPT Makers APP/일급 컬렉션 사용하기.md",
-    "프로젝트/SOPT Makers APP/친구 추천 api 로직 개선하기 - 2.md",
     "프로젝트/SOPT Makers APP/친구 추천 api 로직 개선하기 - 1.md",
     "독서록/읽고 싶은 책 List.md",
     "Unused/현업에서 궁금한 점.md",
@@ -224,7 +237,6 @@
     "Unused/Attached files/Pasted image 20241114141746.png",
     "Unused/Attached files/Pasted image 20241114141726.png",
     "Unused/Attached files/Pasted image 20241114141644.png",
-    "Unused/Attached files/Pasted image 20241114141621.png",
     "전공 공부/논리 회로/중간",
     "전공 공부/컴퓨터 네트워크/중간",
     "전공 공부/리눅스 프로그래밍/중간",
