@@ -357,3 +357,4 @@ suffix가 모두 1인 경우 directed broadcast address라 하며, 다른 라우
 
 ## 사설망 주소
 ![[Pasted image 20241121172942.png|500]]
+IP주소가 사설망 주소인지, 아닌지 구분하기 어렵기 때문에 사설망 주소를 따로 분리해두었다.
