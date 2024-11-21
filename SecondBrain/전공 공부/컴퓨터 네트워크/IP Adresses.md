@@ -133,3 +133,11 @@ NetId만 보기 위해서
 
 ![[Pasted image 20241106161241.png|500]]
 16bit가 원래 mask를 위해 필요한 mask 비트지만, 서브넷을 보기 위해서는 log<sub>2</sub>4를 더해 18bit여야 mask를 위해 쓸 수 있다
+![[Pasted image 20241121110519.png|500]]
+![[Pasted image 20241121110638.png|500]]
+8개의 subnet을 만들기 위해 subnet id를 log<sub>2</sub>8인 3비트를 더 사용한다.
+supernet -> 잘 안쓰임
+
+# Classless addressing
+classful address의 단점: 128은 너무 크고, 65200은 너무 크다.
+그래서 근본적인 문제를 해결하기 위해 클래스 자체를 없앴다.
