@@ -77,7 +77,7 @@ IP는 이렇게 두 가지로 끊어읽을 수 있다.
 2. 첫 번째 주소를 찾기 위해, 가장 왼쪽 8비트를 유지하고, 오른쪽 24비트를 모두 0으로 설정합니다. 첫 번째 주소는 73.0.0.0/8이며, 여기서 8은 n의 값입니다.
 3. 마지막 주소를 찾기 위해, 가장 왼쪽 8비트를 유지하고, 오른쪽 24비트를 모두 1로 설정합니다. 마지막 주소는 73.255.255.255입니다.
 ![[Pasted image 20241106153440.png|500]]
-시작 주소와 마지막 주소는 특별한 용도로 사용된다.
+시작 주소는 대표 주소로, 마지막 주소는 directed broadcast address 용도로 사용된다.
 
 ![[Pasted image 20241106153535.png|500]]
 1. 이 블록 내 주소 수는 N = 2<sup>32-n</sup> = 65,536 입니다.
@@ -353,4 +353,7 @@ destination IP address를 255.255.255.255로 보낸 주소는 broadcast주소라
 따라서 limited broadcast address라 한다.
 ## directed broadcast address
 ![[Pasted image 20241121172321.png|400]]
-suffix가 모두 1인 경우 directed broadcast address라 하며, 
+suffix가 모두 1인 경우 directed broadcast address라 하며, 다른 라우터에게 보낼 데이터가 있을 때 directed broadcast address를 이용하여 보낸다.
+
+## 사설망 주소
+![[Pasted image 20241121172942.png|500]]
