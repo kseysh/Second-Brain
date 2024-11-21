@@ -69,8 +69,6 @@ multicast용도로 사용
 IP는 이렇게 두 가지로 끊어읽을 수 있다.
 ![[Pasted image 20241106153139.png|500]]
 
-![[Pasted image 20241106153212.png|500]]
-
 ![[Pasted image 20241106153224.png|500]]
 
 ![[Pasted image 20241106153251.png|500]]
