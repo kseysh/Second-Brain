@@ -345,6 +345,12 @@ ISP는 190.100.0.0/16 (65,536개의 주소)로 시작하는 주소 블록을 부
 ## loopback address
 서버에서 테스트를 하고 싶을 때, 한 컴퓨터 안에서 주고 받는 주소
 ![[Pasted image 20241121171014.png|300]]
-
-## broadcast address
-![[Pasted image 20241121171023.png|300]]
+## limited broadcast address
+![[Pasted image 20241121171023.png|400]]
+destination IP address를 255.255.255.255로 보낸 주소는 broadcast주소라고 한다.
+보내게 되면 같은 network에 모든 IP에 전송한다.
+라우터는 broadcast address를 block해야 한다. (block하지 않으면 계속 라우터를 통해 다른 곳으로 전송될 수 있기 때문에.)
+따라서 limited broadcast address라 한다.
+## directed broadcast address
+![[Pasted image 20241121172321.png|400]]
+suffix가 모두 1인 경우 directed broadcast address라 하며, 
