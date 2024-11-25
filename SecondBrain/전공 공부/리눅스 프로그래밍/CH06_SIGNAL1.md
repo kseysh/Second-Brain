@@ -86,17 +86,17 @@ void (*signal(int signo, void (*func)(int)))(int);
 - signal에 대한 action을 정의하는 함수
 
 • signal 함수는 ISO C에 정의되어 있지만, signal의 의미가 구현마다 다르기 때문에, sigaction 함수를 사용하는 것이 좋다.
-- 
+![[Pasted image 20241125220146.png|400]]
 
-signal()의 프로토타입은 두 개의 인수를 필요로 하며 아무것도 반환하지 않는 함수( void)를 가리키는 포인터를 반환한다고 명시하고 있다.
 ![[Pasted image 20241028120807.png|600]]
-![[Pasted image 20241028120824.png|600]]
+pause() => signal을 받을 때까지 기다리는 것
+SIGTERM을 보냈을 때는 sig_usr가 실행되지 않고 default action을 하며 꺼진다 (signal을 setting 해주지 않았기 때문)
 
+![[Pasted image 20241028120824.png|600]]
 ## Signal Block
-- **프로세스 신호 마스크**는 차단할 신호의 리스트입니다.
-- 신호를 수신하는 함수가 호출되기 전에 프로세스의 신호 마스크에 추가됩니다.
-- sig_int 함수가 시작 될 때 프로세스 신호 마스크가 추가되어 SIGINT를 차단하고, sig_int 함수가 끝나면 프로세스 신호 마스크가 끝나 차단이 해제된다.
-- **신호 큐**가 없으므로, UNIX 커널은 신호를 한 번만 전달합니다.
+- 프로세스 신호 마스크는 차단할 신호의 리스트입니다.
+- *sig_int 함수가 시작 될 때 프로세스 신호 마스크가 추가되어 SIGINT를 차단하고, sig_int 함수가 끝나면 프로세스 신호 마스크가 끝나 차단이 해제*된다.
+- *신호 큐가 없으므로, UNIX 커널은 신호를 한 번만 전달한다*.
 ![[Pasted image 20241028121253.png|500]]
 ## Signal handling & `exec` (1/2)
 - 프로그램이 실행될 때 모든 신호의 상태는 기본값이거나 무시 상태입니다.
