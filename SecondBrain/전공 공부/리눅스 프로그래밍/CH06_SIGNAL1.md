@@ -190,6 +190,9 @@ static을 사용한 이유 -> 메모리를 clear하기 위해서(전역변수는
 
 ### `sigaction(2)`의 또 다른 신호 처리기
 - `siginfo_t` 구조체는 신호가 생성된 이유에 대한 정보를 포함합니다.
+	- si_signo -> signal number
+	- si_pid -> signal을 보낸 pid
+	- si_uid -> signal을 보낸 real user id
 - 신호 잡기 함수가 반환되면, 프로세스의 신호 마스크는 이전 값으로 재설정됩니다.
 - 특정 신호를 잡는 동안 추가적인 같은 신호가 발생하면 해당 신호는 차단됩니다.
 
