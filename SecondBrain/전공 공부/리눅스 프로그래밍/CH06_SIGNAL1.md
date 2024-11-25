@@ -100,10 +100,14 @@ SIGTERM을 보냈을 때는 sig_usr가 실행되지 않고 default action을 하
 ![[Pasted image 20241028121253.png|500]]
 ## Signal handling & `exec` (1/2)
 - 프로그램이 실행될 때 모든 신호의 상태는 default action을 한다.
-- *프로세스가 `exec`를 호출하면, 기존의 signal handling이 없어진다*. (부모의 signal handling function을 찾지 못하기 때문)
-- *프로세스가 `fork`를 호출하면, 자식 프로세스는 부모의 신호 처리를 상속*받습니다. (부모의 signal handling function을 찾을 수 있기 때문)
-  - 이 경우, 자식은 부모의 메모리 이미지를 복사받으므로, signal handling이 자식도 유효하다.
+- *프로세스가 `exec`를 호출하면, 기존의 signal handling이 없어진다*. 
+	- (exec는 부모와 실행하는 프로그램이 달라 부모의 signal handling function을 찾지 못하기 때문)
+- *프로세스가 `fork`를 호출하면, 자식 프로세스는 부모의 신호 처리를 상속*받습니다. 
+	- (fork는 부모와 실행하는 프로그램이 같아 부모의 signal handling function을 찾을 수 있기 때문)
+
 ![[Pasted image 20241028122115.png|500]]
+exec에서는 시그널 핸들러가 작동하지 않는 것을 보여주는 예제
+
 ![[Pasted image 20241028122332.png|500]]
 ![[Pasted image 20241028122346.png|500]]
 ctrl c는 foreground에만 적용되어서, background에는 kill -INT 1828을 해준 것.
