@@ -37,7 +37,23 @@
 ![[Pasted image 20241125131626.png|400]]
 TCP/IP 프로토콜 스위트는 빅 엔디언 바이트 순서를 사용합니다.
 - 그래서 애플리케이션은 때때로 프로세서의 바이트 순서와 네트워크 바이트 순서 사이를 변환해야 합니다.
-### `accept(2)` 시스템 호출
+# Socket interface
+## socket(2) system call
+![[Pasted image 20241125131727.png|400]]
+인터넷에서는 domain과 type만 지정하면 된다. AF_INET, SOCK_STREAM
+## Selecting the protocol
+Connection-Oriented vs Connectionless
+• **Connection oriented (streams)**
+– sd = socket(AF_INET, SOCK_STREAM, 0);
+• **Connectionless (datagrams):**
+– sd = socket(AF_INET, SOCK_DGRAM, 0);
+인터넷(AF_INET)에서는 이것이 각각 TCP와 UDP에 해당합니다.
+## bind(2) system call
+![[Pasted image 20241125132012.png|400]]
+## listen(2) system call
+![[Pasted image 20241125132038.png|400]]
+backlog => 대기 Queue의 size
+## `accept(2)` 시스템 호출
 - 서버가 클라이언트의 연결 요청을 받으면, **새로운 소켓을 생성**하여 특정 통신을 처리해야 합니다.
   - **첫 번째 소켓**: 연결 수립 전용
   - **두 번째 소켓**: 특정 통신을 위한 소켓
