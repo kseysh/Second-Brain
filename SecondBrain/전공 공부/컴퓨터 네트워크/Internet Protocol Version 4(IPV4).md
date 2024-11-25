@@ -70,8 +70,8 @@ M은 분할 후 재조합할 때 사용하는 field이다. (마지막 패킷이 
 Fragmentation offset으로 분할한 것의 번호를 붙이는데, Fragmentation offset이 최대 13bit이므로 최대 8000정도까지 분할이 가능하다.
 하지만 IP datagram의 max length는 65535bit이므로 최대 65535라는 번호를 붙일텐데, 13bit만으로는 원하는 만큼 분할하지 못할 수도 있다. 그래서 HLEN처럼 없어진 3bit를 위해 곱하기 8을 해준다.
 Fragmentation에는 처음부터 얼마나 떨어져 있는지에 대한 값을 저장해둔다.
-
-
+#### MTU
+MTU는 header가 포함된 값이므로 
 
 
 
