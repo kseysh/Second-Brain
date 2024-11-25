@@ -21,6 +21,14 @@
   - 흐름 제어 및 오류 제어 메커니즘 사용 (신뢰성 높음)
 
 ![[Pasted image 20241125130956.png|300]]
+recv와 send는 read write와 마지막 매개변수이외에는 다 같다. 마지막 매개변수가 필요없다면 read, write로도 충분하다.
+상대방이 close했는데 send하면 SIGPIPE가 날아온다. pipe했을 때와 같다.
+![[Pasted image 20241125133311.png|500]]
+서버 소켓 생성: 
+SOCK_STREAM -> TCP를 사용하겠다.
+SOCK_DGRAM -> UDP를 사용하겠다.
+
+![[Pasted image 20241125133324.png|500]]
 # 서버와 클라이언트 소켓 구현의 이해 UDP
 ![[Pasted image 20241125131304.png|400]]
 # Addressing
