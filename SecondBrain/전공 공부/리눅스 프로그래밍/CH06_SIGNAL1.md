@@ -214,3 +214,8 @@ signlongjmp -> goto
 
 ![[Pasted image 20241125235418.png|500]]
 c에서는 다른 함수로 goto가 불가능하지만, siglongjump는 가능하다.
+sigsetjmp는 처음 실행하면 label을 setting한다. 따라서 return 값이 0이다. 그래서 if(sigsetjmp(env,1))을 사용하면 처음에는 if문을 돌고, siglongjmp로 오면 else를 실행할 수 있다.
+또한 siglongjmp의 val값을 이용해 else if 문에서 분기처리를 할 수도 있다.
+
+![[Pasted image 20241126000119.png|500]]
+![[Pasted image 20241126000133.png|500]]
