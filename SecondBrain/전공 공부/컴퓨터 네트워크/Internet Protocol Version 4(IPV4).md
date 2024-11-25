@@ -71,7 +71,18 @@ Fragmentation offset으로 분할한 것의 번호를 붙이는데, Fragmentatio
 하지만 IP datagram의 max length는 65535bit이므로 최대 65535라는 번호를 붙일텐데, 13bit만으로는 원하는 만큼 분할하지 못할 수도 있다. 그래서 HLEN처럼 없어진 3bit를 위해 곱하기 8을 해준다.
 Fragmentation에는 처음부터 얼마나 떨어져 있는지에 대한 값을 저장해둔다.
 #### MTU
-MTU는 header가 포함된 값이므로 
+MTU는 header와 data가 포함된 값이다.
+패킷이 분할된 상황에서 MTU를 추측해볼 수 있는데, 헤더 20 byte, 0000부터 1399까지 1400 byte이므로 MTU가 1420byte임을 추측할 수 있다.
+## Identification
+패킷
+## Detailed fragmentation example
+![[Pasted image 20241125204803.png|400]]
+맨 마지막 패킷은 More fragments를 0으로 해준다.
+상황에 따라서 패킷의 경로가 달라질 수도 있는데, 분할이 또 되는 case가 있다면 또 분할된다. (example 참고)
+
+
+
+
 
 
 
