@@ -19,7 +19,24 @@
 - **스트림 소켓 (TCP 사용)**:
   - 연결 지향 프로토콜
   - 흐름 제어 및 오류 제어 메커니즘 사용 (신뢰성 높음)
----
+
+![[Pasted image 20241125130956.png|300]]
+# 서버와 클라이언트 소켓 구현의 이해 UDP
+![[Pasted image 20241125131304.png|400]]
+# Addressing
+## Internet addressing
+- IP addresses는 domain names라고 불리는 식별자의 집합이다.
+	- 165.246.10.2 is mapped to inha.ac.kr
+## Main Structure
+![[Pasted image 20241125131522.png|400]]
+## Byte Ordering
+![[Pasted image 20241125131537.png|400]]
+## Confusing the byte ordering
+![[Pasted image 20241125131555.png|400]]
+## Network byte order
+![[Pasted image 20241125131626.png|400]]
+TCP/IP 프로토콜 스위트는 빅 엔디언 바이트 순서를 사용합니다.
+- 그래서 애플리케이션은 때때로 프로세서의 바이트 순서와 네트워크 바이트 순서 사이를 변환해야 합니다.
 ### `accept(2)` 시스템 호출
 - 서버가 클라이언트의 연결 요청을 받으면, **새로운 소켓을 생성**하여 특정 통신을 처리해야 합니다.
   - **첫 번째 소켓**: 연결 수립 전용
