@@ -27,8 +27,11 @@ recv와 send는 read write와 마지막 매개변수이외에는 다 같다. 마
 서버 소켓 생성: 
 SOCK_STREAM -> TCP를 사용하겠다.
 SOCK_DGRAM -> UDP를 사용하겠다.
+sockaddr: socket은 인터넷만 사용하는 것이 아니므로 generic address로 setting한다.
+이 중 인터넷을 사용하는 sockaddr이 sockaddr_in이고, bind는 sockaddr을 사용해야 하므로 sockaddr로 type casting을 해준다.
 
 ![[Pasted image 20241125133324.png|500]]
+
 # 서버와 클라이언트 소켓 구현의 이해 UDP
 ![[Pasted image 20241125131304.png|400]]
 # Addressing
