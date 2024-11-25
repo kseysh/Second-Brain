@@ -112,7 +112,19 @@ M 비트가 1이므로 첫 번째 조각이거나 중간 조각입니다. 오프
 
 ## Option
 ![[Pasted image 20241125210251.png|500]]
-Copy only in first fragment => 
+Copy only in first fragment => 분리될 때 옵션을 첫 패킷에만 가지고 가고 나머지는 가져가지 않음
+
+![[Pasted image 20241125210508.png|350]]
+single-byte -> padding용 option (중요 x)
+## Record-route option
+![[Pasted image 20241125210714.png|400]]
+### Record route concept
+![[Pasted image 20241125211902.png|500]]
+첫 번째에 있는 것은 첫 번째 라우터의 라우터 IP 주소, 두 번째에 있는 것은 두 번째 라우터의 라우터 IP 주소이다.
+record route option을 이용해서 어느 라우터들을 거쳐왔는지 알 수 있다.
+라우터는 최소 두개의 IP
+
+
 
 
 
