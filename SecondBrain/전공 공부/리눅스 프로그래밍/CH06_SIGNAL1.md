@@ -73,7 +73,6 @@ signal에 대한 default action이 terminate가 아닌 signal
 • 신호 마스크는 차단될 신호 목록을 포함한다.
 • 프로그램은 sigprocmask를 사용하여 프로세스 신호 마스크를 변경하여 신호를 차단한다.
 • 프로세스는 fork와 exec 이후에도 신호 마스크를 상속한다.
-// 여기까지
 ## signal(2) 시스템 호출(1/2)
 ```c
 #include <signal.h>
