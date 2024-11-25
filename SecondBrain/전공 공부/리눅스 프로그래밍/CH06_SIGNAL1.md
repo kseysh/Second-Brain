@@ -71,19 +71,23 @@ signal에 대한 default action이 terminate가 아닌 signal
 ## 프로세스 신호 마스크 – 프로세스 속성
 • 신호가 생성될 때 취해지는 동작은 현재 신호 핸들러와 프로세스 신호 마스크에 따라 다르다.
 • 신호 마스크는 차단될 신호 목록을 포함한다.
-• 프로그램은 sigprocmask를 사용하여 프로세스 신호 마스크를 변경하여 신호를 차단한다.
-• 프로세스는 fork와 exec 이후에도 신호 마스크를 상속한다.
+• *프로그램은 `sigprocmask`를 사용하여 프로세스 신호 마스크를 변경하여 신호를 차단*한다.
+• *프로세스는 fork와 exec 이후에도 signal mask를 상속*한다.
+
+이 방식을 사용하면 SIGKILL 같은 handle할 수 없는 SIGNAL도 block시킬 수 있다.
+
+---- 기말 범위 -----
 ## signal(2) 시스템 호출(1/2)
 ```c
 #include <signal.h>
 void (*signal(int signo, void (*func)(int)))(int);
 // Returns: previous disposition of signal (see following) if OK, SIG_ERR on error
 ```
+- signal에 대한 action을 정의하는 함수
 
-• signal 함수는 ISO C에 정의되어 있으며, 이는 다중 프로세스, 프로세스 그룹, 터미널 I/O 등을 포함하지 않는다.
-• signal의 의미가 구현마다 다르기 때문에, sigaction 함수를 사용하는 것이 좋다.
-• 이 함수는 구형 의미를 필요로 하는 응용 프로그램에 대한 하위 호환성을 제공한다.
-• 새로운 응용 프로그램은 이러한 신뢰할 수 없는 신호를 사용해서는 안 된다.
+• signal 함수는 ISO C에 정의되어 있지만, signal의 의미가 구현마다 다르기 때문에, sigaction 함수를 사용하는 것이 좋다.
+- 
+
 signal()의 프로토타입은 두 개의 인수를 필요로 하며 아무것도 반환하지 않는 함수( void)를 가리키는 포인터를 반환한다고 명시하고 있다.
 ![[Pasted image 20241028120807.png|600]]
 ![[Pasted image 20241028120824.png|600]]
