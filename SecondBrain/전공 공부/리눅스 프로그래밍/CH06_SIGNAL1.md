@@ -193,10 +193,24 @@ static을 사용한 이유 -> 메모리를 clear하기 위해서(전역변수는
 	- si_signo -> signal number
 	- si_pid -> signal을 보낸 pid
 	- si_uid -> signal을 보낸 real user id
-- 신호 잡기 함수가 반환되면, 프로세스의 신호 마스크는 이전 값으로 재설정됩니다.
+- signal catching function이 반환되면, 프로세스의 signal mask는 이전 값으로 재설정됩니다.
 - 특정 신호를 잡는 동안 추가적인 같은 신호가 발생하면 해당 신호는 차단됩니다.
+• OS는 핸들러가 호출될 때 전달되는 신호를 신호 마스크에 포함시킵니다.
+• 따라서, 주어진 신호를 처리하는 동안 해당 신호의 또 다른 발생은 우리가 첫 번째 발생을 처리할 때까지 차단됩니다.
+• 같은 신호의 추가 발생은 일반적으로 큐에 쌓이지 않습니다.
 
 ### `sigsetjmp(3)`와 `siglongjmp(3)` (1/2)
+```c
+#include <setjmp.h>
+int sigsetjmp(sigjmp_buf env, int savemask); // env가 label
+
+void siglongjmp(sigjmp_buf env, int val);
+```
+sigsetjmp -> label
+signlongjmp -> goto
 - 이 두 함수는 신호 처리기에서 분기할 때 사용해야 합니다.
   - `savemask`가 0이 아니면, `sigsetjmp`는 프로세스의 현재 신호 마스크를 저장합니다.
   - `siglongjmp`가 호출되면, `sigsetjmp`로 저장된 신호 마스크가 복원됩니다.
+
+![[Pasted image 20241125235418.png|500]]
+c에서는 다른 함수로 goto가 불가능하지만, siglongjump는 가능하다.
