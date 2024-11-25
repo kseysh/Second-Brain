@@ -94,14 +94,14 @@ SIGTERM을 보냈을 때는 sig_usr가 실행되지 않고 default action을 하
 
 ![[Pasted image 20241028120824.png|600]]
 ## Signal Block
-- 프로세스 신호 마스크는 차단할 신호의 리스트입니다.
-- *sig_int 함수가 시작 될 때 프로세스 신호 마스크가 추가되어 SIGINT를 차단하고, sig_int 함수가 끝나면 프로세스 신호 마스크가 끝나 차단이 해제*된다.
-- *신호 큐가 없으므로, UNIX 커널은 신호를 한 번만 전달한다*.
+- *sig_int 함수가 시작 될 때 프로세스 신호 마스크가 추가되어 자동적으로 SIGINT를 차단하고, sig_int 함수가 끝나면 프로세스 신호 마스크가 끝나 차단이 해제*된다.
+- *신호 큐가 없으므로, UNIX 커널은 신호를 한 번만 전달한다*. (한 개의 SIGNAL만 pending되어 기다린다.)
+- sleep 도중에 SIGINT를 처리하게 되면 recursive하게 signal function이 들어갈 수 있다. 따라서 process signal mask를 이용해 SIGNAL을 block한다.
 ![[Pasted image 20241028121253.png|500]]
 ## Signal handling & `exec` (1/2)
-- 프로그램이 실행될 때 모든 신호의 상태는 기본값이거나 무시 상태입니다.
-- 프로세스가 `exec`를 호출하면, 기존의 signal handling이 없어진다.
-- 프로세스가 `fork`를 호출하면, 자식 프로세스는 부모의 신호 처리를 상속받습니다.
+- 프로그램이 실행될 때 모든 신호의 상태는 default action을 한다.
+- *프로세스가 `exec`를 호출하면, 기존의 signal handling이 없어진다*. (부모의 signal handling function을 찾지 못하기 때문)
+- *프로세스가 `fork`를 호출하면, 자식 프로세스는 부모의 신호 처리를 상속*받습니다. (부모의 signal handling function을 찾을 수 있기 때문)
   - 이 경우, 자식은 부모의 메모리 이미지를 복사받으므로, signal handling이 자식도 유효하다.
 ![[Pasted image 20241028122115.png|500]]
 ![[Pasted image 20241028122332.png|500]]
