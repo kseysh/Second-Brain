@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "전공 공부/컴퓨터 네트워크/IP Adresses.md",
+                "file": "전공 공부/컴퓨터 네트워크/Delivery and Forwarding of IP Packets.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "IP Adresses"
+              "title": "Delivery and Forwarding of IP Packets"
             }
           }
         ]
@@ -189,6 +189,11 @@
   },
   "active": "2c4b5746ac8d24b6",
   "lastOpenFiles": [
+    "전공 공부/컴퓨터 네트워크/IP Adresses.md",
+    "전공 공부/컴퓨터 네트워크/중간/7 Layers 정리.md",
+    "전공 공부/컴퓨터 네트워크/중간/TCP 정리.md",
+    "전공 공부/컴퓨터 네트워크/Delivery and Forwarding of IP Packets.md",
+    "Unused/Attached files/Pasted image 20241125145055.png",
     "Unused/Attached files/Pasted image 20241125142650.png",
     "Unused/Attached files/Pasted image 20241125142609.png",
     "전공 공부/리눅스 프로그래밍/CH10_SOCKET.md",
@@ -199,17 +204,13 @@
     "Unused/Attached files/Pasted image 20241125131727.png",
     "Unused/Attached files/Pasted image 20241125131626.png",
     "Unused/Attached files/Pasted image 20241125131555.png",
-    "Unused/Attached files/Pasted image 20241125131537.png",
-    "Unused/Attached files/Pasted image 20241125131522.png",
     "전공 공부/논리 회로/Widmer_C7.md",
     "전공 공부/논리 회로/Widmer_C6.md",
     "알고리즘/오늘 푼 문제.md",
     "알고리즘/풀이/boj/틀린 문제/다시 풀 문제/boj 2170.md",
     "알고리즘/풀이/boj/틀린 문제/다시 풀 문제/boj 15903.md",
     "알고리즘/풀이/boj/틀린 문제/다시 풀 문제/boj 1926.md",
-    "전공 공부/컴퓨터 네트워크/IP Adresses.md",
     "Unused/IDEA/아이디어 폴더/서비스 아이디어.md",
-    "전공 공부/컴퓨터 네트워크/Delivery and Forwarding of IP Packets.md",
     "전공 공부/컴퓨터 네트워크/중간/Chapter 10.md",
     "전공 공부/문해기/10_b.md",
     "프로젝트/SOPT Makers APP/친구 추천 api 로직 개선하기 - 2.md",
@@ -224,7 +225,6 @@
     "독서록/개발 관련 도서/테스트주도개발시작하기/AssertJ.md",
     "Test/Jmeter.md",
     "프로젝트/SOPT Makers APP/일급 컬렉션 사용하기.md",
-    "프로젝트/SOPT Makers APP/친구 추천 api 로직 개선하기 - 1.md",
     "전공 공부/논리 회로/중간",
     "전공 공부/컴퓨터 네트워크/중간",
     "전공 공부/리눅스 프로그래밍/중간",

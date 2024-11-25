@@ -1,3 +1,10 @@
+## Delivery
+전달의 두 가지 방식
+- 직접 전달
+- 간접 전달
+## 직접 전달
+![[Pasted image 20241125145055.png|400]]
+같은 네트워크에서 ㅈ
 
 ## Simplified forwarding module in classless address
 ![[Pasted image 20241120153750.png|500]]
