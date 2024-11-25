@@ -36,7 +36,7 @@ S는 자신이 누구에게 패킷을 보내면 되는지에 대해서만 알면
 ![[Pasted image 20241125150757.png|400]]
 라우팅 테이블은 주변에 있는 정보만 가지고 있어도 된다.
 그림에서 R1이 아니면 모두 R2를 거쳐서 데이터를 보내도록 한다 => Default routing
-## Simplified forwarding module in classful address without subneting
+## Simplified forwarding module in *classful address without subneting*
 ![[Pasted image 20241125151006.png|500]]
 주소를 받았을 때 라우터가 어떠한 일을 하는지?
 1. 목적지 주소를 받는다.
@@ -77,12 +77,13 @@ R3가 192.16.7.0에 direct하게 보내준다.
 클래스 B의 테이블을 검색합니다. 일치하는 네트워크 주소를 찾을 수 없습니다. 
 패킷은 기본 라우터로 전달되어야 합니다(네트워크는 인터넷의 다른 곳에 있습니다). 
 다음 홉 주소 111.30.31.18과 인터페이스 번호 m0가 ARP로 전달됩니다.
-
-## Simplified forwarding module in classful address with subnetting
+## Simplified forwarding module in *classful address* *with subnetting*
 ![[Pasted image 20241125153812.png|400]]
 서브넷이 있는 경우에는 밖에서는 몰라도 되게끔 구성한다.
-네트워크 내에서는 서브넷이 몇 개가 생겼고, mask는 어떻게 되는지 다 세팅해주어야 한다. 그래야 라우터가 라우팅 테이블을 보고 다 찾아놓을 수 있다. 
-
+네트워크 내에서는 서브넷이 몇 개가 생겼고, mask는 어떻게 되는지 다 세팅해주어야 한다. 그래야 라우터가 라우팅 테이블을 보고 다 찾아놓을 수 있다.
+1. 처음에는 패킷 주소를 본다
+2. subnet mask를 통해 subnet address를 찾아낸다
+3. 테이블을 찾는다.
 
 ![[Pasted image 20241125154349.png|400]]
 네트워크가 어떻게 구축되어 있는지 라우터는 알아야 한다.
@@ -97,50 +98,12 @@ mask를 어떻게 해야하는지 라우터는 알아야 한다.
 
 해결책
 라우터는 패킷을 수신하고 마스크 (/18)를 적용합니다. 네트워크 주소는 7.22.64.0입니다. 테이블을 검색했으나 주소가 발견되지 않습니다. 라우터는 기본 라우터의 주소를 사용하여(그림에 표시되지 않음) 그 라우터로 패킷을 보냅니다.
+## Simplified forwarding module in *classless address*
+classful에서는 최소 3개의 컬럼만 있으면 된다 => destination, next hop, interface
+하지만 classless에서는 mask라는 컬럼도 추가적으로 필요하다.
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-## Simplified forwarding module in classless address
 ![[Pasted image 20241120153750.png|500]]
-
+### example 6
 ![[Pasted image 20241120153833.png|600]]
 ![[Pasted image 20241120153839.png|600]]
 네트워크 4개 연결, 최소한 4개의 정보는 direct하게 연결되어 저장되어 있고
@@ -149,7 +112,7 @@ mask를 어떻게 해야하는지 라우터는 알아야 한다.
 mask가 가장 큰 것이 맨 위로 온다.
 ![[Pasted image 20241120153946.png|600]]
 
-
+### example 7
 다음은 패킷이 목적지 주소 180.70.65.140로 R1에 도착했을 때의 포워딩 과정을 보여줍니다.
 
 **해결 방법:**
