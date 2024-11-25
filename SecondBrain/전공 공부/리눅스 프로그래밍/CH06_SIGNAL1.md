@@ -144,7 +144,7 @@ struct sigaction *restrict oact);
     - `oact`: 이전 동작을 저장해둘 때 사용
 ```c
 struct sigaction {
-void (*sa_handler)(int); /* addr of signal handler, */ /* or SIG_IGN, or SIG_DFL */
+	void (*sa_handler)(int); /* addr of signal handler, */ /* or SIG_IGN, or SIG_DFL */
 	sigset_t sa_mask; /* additional signals to block */		
 	int sa_flags; /* signal options, Figure 10.16 */
 
@@ -157,11 +157,18 @@ void (*sa_handler)(int); /* addr of signal handler, */ /* or SIG_IGN, or SIG_DFL
     - `sa_mask`: 신호 잡기 함수가 호출되기 전 프로세스의 신호 마스크에 추가되는 신호 집합 (이미 block되는 signal외에 추가적으로 block하고 싶은 signal이 있을 때)
     - `sa_flags`: 신호 처리 옵션 (`SA_RESTART`, `SA_SIGINFO`)
 
-- `sa_sigaction`: `SA_SIGINFO` 플래그를 사용할 때 대체 신호 처리기에 사용됩니다. ()
-- 일부 구현은 `sa_handler`와 `sa_sigaction`에 동일한 저장 공간을 사용하므로 둘 중 하나만 사용할 수 있습니다.
+• *sa_sigaction 필드는 SA_SIGINFO 플래그가 sigaction과 함께 사용될 때 사용하는 대체 신호 핸들러*입니다.
+• 구현체들은 sa_sigaction 필드와 sa_handler 필드를 동일한 저장소를 사용할 수 있으므로, 애플리케이션은 이 두 필드 중 하나만 사용할 수 있다.
+• *일반적으로, 신호 핸들러는 다음과 같이 호출*됩니다:
+`void handler(int signo);`
+• 하지만 *SA_SIGINFO 플래그가 설정된 경우, 신호 핸들러는 다음과 같이 호출*됩니다:
+`void handler(int signo, siginfo_t *info, void *context);`
+
+ex1: catching SIGINT
 ![[Pasted image 20241028123802.png|500]]
 static을 사용한 이유 -> 메모리를 clear하기 위해서(전역변수는 값을 clear해주기 때문)
 ![[Pasted image 20241028123959.png|500]]
+
 ![[Pasted image 20241028124013.png|500]]
 ![[Pasted image 20241028124053.png|500]]
 ## 신호와 시스템 호출 (1/3)
