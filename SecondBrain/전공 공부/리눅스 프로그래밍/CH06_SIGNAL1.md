@@ -137,11 +137,11 @@ int sigaction(int signo, const struct sigaction *restrict act,
 struct sigaction *restrict oact);
 // Returns: 0 if OK, -1 on error
 ```
-- `sigaction` 함수는 특정 신호에 대해 동작을 조회하거나 수정할 수 있습니다. 이 함수는 UNIX 시스템의 `signal` 함수를 대체합니다.
+- `sigaction` 함수는 특정 신호에 대해 동작을 조회하거나 수정할 수 있습니다.
   - **인자**
     - `signo`: 신호 번호
     - `act`: 동작 수정 시 사용
-    - `oact`: 이전 동작
+    - `oact`: 이전 동작을 저장해둘 때 사용
 ```c
 struct sigaction {
 void (*sa_handler)(int); /* addr of signal handler, */ /* or SIG_IGN, or SIG_DFL */
@@ -154,10 +154,11 @@ void (*sa_handler)(int); /* addr of signal handler, */ /* or SIG_IGN, or SIG_DFL
 ```
   - **주요 필드**
     - `sa_handler`: 신호를 잡는 함수의 주소 (또는 상수 `SIG_IGN`이나 `SIG_DFL`)
-    - `sa_mask`: 신호 잡기 함수가 호출되기 전 프로세스의 신호 마스크에 추가되는 신호 집합
-    - `sa_flags`: 신호 처리 옵션 (`SA_INTERRUPT`, `SA_NOCLDSTOP`, 등)
-    - `sa_sigaction`: `SA_SIGINFO` 플래그를 사용할 때 대체 신호 처리기에 사용됩니다.
-      - 일부 구현은 `sa_handler`와 `sa_sigaction`에 동일한 저장 공간을 사용하므로 둘 중 하나만 사용할 수 있습니다.
+    - `sa_mask`: 신호 잡기 함수가 호출되기 전 프로세스의 신호 마스크에 추가되는 신호 집합 (이미 block되는 signal외에 추가적으로 block하고 싶은 signal이 있을 때)
+    - `sa_flags`: 신호 처리 옵션 (`SA_RESTART`, `SA_SIGINFO`)
+
+- `sa_sigaction`: `SA_SIGINFO` 플래그를 사용할 때 대체 신호 처리기에 사용됩니다. ()
+- 일부 구현은 `sa_handler`와 `sa_sigaction`에 동일한 저장 공간을 사용하므로 둘 중 하나만 사용할 수 있습니다.
 ![[Pasted image 20241028123802.png|500]]
 static을 사용한 이유 -> 메모리를 clear하기 위해서(전역변수는 값을 clear해주기 때문)
 ![[Pasted image 20241028123959.png|500]]
