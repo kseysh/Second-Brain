@@ -4,7 +4,70 @@
 - 간접 전달
 ## 직접 전달
 ![[Pasted image 20241125145055.png|400]]
-같은 네트워크에서 ㅈ
+같은 네트워크에서 직접 전달하는 것을 Direct Delivery라 한다.
+## 간접 전달
+![[Pasted image 20241125145510.png|400]]
+A가 B한테 데이터를 보낼 때 다른 네트워크를 거쳐 가는 것을 간접 전달이라 한다.
+라우터가 라우터로 보내는 것도 간접전달이고, 라우터가 내부에 있는 B로 전달하는 것은 Direct delivery이다.
+
+# Forwarding
+라우팅 테이블을 보고 next hop으로 가게끔 interface에 패킷을 가져다 두는 것
+forwarding -> 라우팅 테이블도 같이 일을 한다.
+목적지 주소를 보고 전달하는 것이 기본이고, Label을 보고 전달하기도 한다.
+## Next-hop method
+![[Pasted image 20241125145904.png|400]]
+a. 경로 중심의 라우팅 테이블
+A에서 B로 가는 모든 경로를 라우팅 테이블에서 저장해둔다
+b. next hope 기반의 라우팅 테이블
+A에서 B로 갈 때 next hop의 경로만 라우팅 테이블에서 저장해둔다.
+
+## Network-specific method
+![[Pasted image 20241125150145.png|400]]
+N2가 class A라면 라우팅 테이블은 N2에 대해서만 1600만개의 주소를 저장하고 있어야 한다.
+그래서 사실 S 입장에서는 A,B,C,D가 어디있는지는 몰라도 된다.
+S는 자신이 누구에게 패킷을 보내면 되는지에 대해서만 알면 된다.
+그래서 N2를 대표하는 주소를 정해놓는 것이다.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ## Simplified forwarding module in classless address
 ![[Pasted image 20241120153750.png|500]]
