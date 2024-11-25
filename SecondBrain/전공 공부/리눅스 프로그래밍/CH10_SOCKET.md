@@ -31,7 +31,7 @@ sockaddr: socket은 인터넷만 사용하는 것이 아니므로 generic addres
 이 중 인터넷을 사용하는 sockaddr이 sockaddr_in이고, bind는 sockaddr을 사용해야 하므로 sockaddr로 type casting을 해준다.
 
 ![[Pasted image 20241125133324.png|500]]
-
+어떤 소켓을 쓰는지에 대해 문제 나올듯 어떤 소켓 쓰는지만 확인해두기
 # 서버와 클라이언트 소켓 구현의 이해 UDP
 ![[Pasted image 20241125131304.png|400]]
 # Addressing
