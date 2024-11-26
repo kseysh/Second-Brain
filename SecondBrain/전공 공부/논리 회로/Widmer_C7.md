@@ -1,5 +1,6 @@
 타이밍 다이어그램 안나옴
 나오면 state transition diagram으로 나올거임
+7-43 synchronous counter using 4가지 중 하나 시험
 ## 제 7장 목표
 - 동기 카운터와 비동기 카운터의 동작과 특성 설명
 - MOD 숫자가 \(2<sup>N</sup>\)보다 작은 카운터 구성

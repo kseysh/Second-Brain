@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "전공 공부/논리 회로/Widmer_C7.md",
+                "file": "전공 공부/논리 회로/6장 문제 해석.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Widmer_C7"
+              "title": "6장 문제 해석"
             }
           }
         ]
@@ -77,7 +77,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 237.50260543823242
+    "width": 237.50260543823242,
+    "collapsed": true
   },
   "right": {
     "id": "feabab388e8825fc",
@@ -186,23 +187,65 @@
       "obsidian-git:Open Git source control": false
     }
   },
+  "floating": {
+    "id": "5ce629f0d294f80f",
+    "type": "floating",
+    "children": [
+      {
+        "id": "9cf95f8292f8e9b7",
+        "type": "window",
+        "children": [
+          {
+            "id": "abe336572aef6a50",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "fbfab7af0edb2dd9",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "전공 공부/논리 회로/6장 문제 해석.md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "6장 문제 해석"
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "vertical",
+        "x": 855,
+        "y": 39,
+        "width": 855,
+        "height": 1068,
+        "maximize": false,
+        "zoom": 0.5
+      }
+    ]
+  },
   "active": "2c4b5746ac8d24b6",
   "lastOpenFiles": [
+    "Unused/Attached files/Pasted image 20241126142307.png",
+    "Unused/Attached files/Pasted image 20241126142236.png",
+    "Unused/Attached files/Pasted image 20241126142206.png",
+    "Unused/Attached files/Pasted image 20241126142047.png",
+    "Unused/Attached files/Pasted image 20241126142038.png",
+    "Unused/Attached files/Pasted image 20241126142030.png",
+    "Unused/Attached files/Pasted image 20241126142023.png",
+    "Unused/Attached files/Pasted image 20241126142012.png",
+    "Unused/Attached files/Pasted image 20241126142003.png",
+    "Unused/Attached files/Pasted image 20241126141954.png",
+    "Unused/Attached files/Pasted image 20241126141944.png",
     "전공 공부/논리 회로/Widmer_C6.md",
-    "전공 공부/논리 회로/Widmer_C5.md",
+    "전공 공부/논리 회로/5장 문제 해석.md",
     "전공 공부/논리 회로/Widmer_C7.md",
-    "Unused/Attached files/Pasted image 20241126134549.png",
-    "Unused/Attached files/Pasted image 20241126134249.png",
-    "Unused/Attached files/Pasted image 20241126134237.png",
+    "전공 공부/논리 회로/6장 문제 해석.md",
+    "전공 공부/논리 회로/Widmer_C5.md",
     "전공 공부/리눅스 프로그래밍/CH07_PIPE.md",
-    "Unused/Attached files/Pasted image 20241126132105.png",
     "전공 공부/리눅스 프로그래밍/CH10_SOCKET.md",
-    "Unused/Attached files/Pasted image 20241126131648.png",
-    "Unused/Attached files/Pasted image 20241126131631.png",
-    "Unused/Attached files/Pasted image 20241126130905.png",
-    "Unused/Attached files/Pasted image 20241126130635.png",
-    "Unused/Attached files/Pasted image 20241126125848.png",
-    "Unused/Attached files/Pasted image 20241126125834.png",
     "전공 공부/리눅스 프로그래밍/CH06_SIGNAL2.md",
     "전공 공부/리눅스 프로그래밍/CH06_SIGNAL1.md",
     "전공 공부/지난 학기/DataStructure/Hash Table.md",
@@ -221,8 +264,6 @@
     "전공 공부/지난 학기/자바기반응용프로그래밍/2주차.md",
     "전공 공부/지난 학기/이산구조/중간고사/2. Basic Structures.md",
     "전공 공부/지난 학기/이산구조/중간고사/1. Logic and Proofs.md",
-    "전공 공부/지난 학기/이산구조/11. 트리.md",
-    "전공 공부/지난 학기/오픈소스응용프로그래밍/2-5. 디자인 패턴 개요.md",
     "전공 공부/논리 회로/중간",
     "전공 공부/컴퓨터 네트워크/중간",
     "전공 공부/리눅스 프로그래밍/중간",
