@@ -82,6 +82,7 @@ int msgctl(int msqid, int cmd, struct msqid_ds *buf );
 ![[Pasted image 20241127002843.png|500]]
 ### stest program
 ![[Pasted image 20241127002905.png|500]]
+sender는 3419로 보냈지만, receiver는 우선순위대로 1349 순서대로 받음
 
 ![[Pasted image 20241127002918.png|500]]
 ![[Pasted image 20241127002933.png|500]]
