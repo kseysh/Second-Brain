@@ -60,7 +60,7 @@
   - 16진수의 최상위 자리(MSD)가 8 이상이면 음수를 나타낸다.
   - MSD가 7 이하이면 양수를 나타낸다.
 ## 6-9 산술 회로
-control unit이 memory unit에서 특정 숫자를 더하라고 지시하면, memory unit의 특정 숫자는 B register로 이동하고 Accumulator에 있느
+control unit이 memory unit에서 특정 숫자를 더하라고 지시하면, memory unit의 특정 숫자는 B register로 이동하고 Accumulator에 있는 값과 Logic circuits에서 더해진다. 더해진 값은 Accumulator에 저장되거나, 메모리로 전송된다.
 
 - 산술/논리 연산 장치(ALU)는 메모리에 저장된 데이터를 받아 Control unit의 지시에 따라 산술 및 논리 연산을 수행한다. 
 ![[Pasted image 20241112161759.png|300]]
@@ -83,7 +83,7 @@ control unit이 memory unit에서 특정 숫자를 더하라고 지시하면, me
   - 3개의 입력(더할 숫자 2개와 자리 올림 입력).
   - 2개의 출력(합과 자리 올림 출력).
 ![[Pasted image 20241114140800.png|200]]
-- 대수적 방법 또는 카르노 맵(K-map)을 사용해 결과적인 SOP 형태를 단순화한다.
+- K-map을 사용해 결과적인 SOP 형태를 단순화한다.
   - 그 결과는 여기에 표시된 논리 회로이다.
 ![[Pasted image 20241114140813.png|300]]
 ## 6-12 레지스터가 포함된 완전 병렬 가산기
