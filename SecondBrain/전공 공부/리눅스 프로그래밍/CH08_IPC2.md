@@ -40,21 +40,28 @@ int msgsnd(int msqid, const void *ptr, size_t nbytes, int flag);
 - 메시지는 항상 큐의 끝에 추가됩니다.
 - 매개변수:
   - `ptr`: 사용자 정의 버퍼를 가리킨다. (보낼 메시지 버퍼)
-  - `nbytes`: 메시지 크기
+```c
+struct mymesg { // 이게 ptr
+	long mtype; /* positive message type */
+	char mtext[nbytes]; /* message data, of length nbytes */
+};
+```
+  - `nbytes`: mtext size
   - `flag`: `IPC_NOWAIT`가 지정되지 않은 경우, 메시지를 위한 공간이 생길 때까지 대기합니다.
 ### `msgrcv(2)` 시스템 호출
-
+```c
+ssize_t msgrcv(int msqid, void *ptr, size_t nbytes, long type, int flag);
+```
 - 매개변수:
   - `ptr`: 사용자 정의 버퍼를 가리킵니다.
   - `nbytes`: 메시지 크기
-  - `type` 행동:
+  - `type` 행동: (type 번호와 일치하는 mymesg만 가져올 수 있다.)
     - `== 0`: 큐의 첫 번째 메시지 제거
     - `> 0`: 큐에서 특정 `type`의 첫 번째 메시지 제거
     - `< 0`: 절대값 이하의 가장 낮은 `type`의 첫 번째 메시지 제거
   - `flag`: `IPC_NOWAIT`, `MSG_NOERROR`
 - 반환된 메시지가 `nbytes`보다 크고 `MSG_NOERROR`가 설정되어 있으면, 메시지가 잘립니다. 이 플래그가 없으면 E2BIG 오류가 반환됩니다.
-
-### `msgctl(2)` 시스템 호출
+## `msgctl(2)` 시스템 호출
 
 - `msgctl`은 메시지 큐를 제거하거나 권한을 변경할 때 사용됩니다.
 
