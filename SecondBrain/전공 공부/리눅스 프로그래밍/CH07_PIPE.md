@@ -105,7 +105,9 @@ int pclose(FILE *fp);
 FIFO와 파이프에서 쓰기 작업은 데이터를 항상 끝에 추가하고, 읽기 작업은 항상 파이프나 FIFO의 시작에서 데이터를 반환합니다. 
 파이프나 FIFO에서 `lseek`를 호출하면 `ESPIPE` 오류가 반환됩니다.
 ## `mkfifo(2)` 시스템 호출 (1/2)
-
+```c
+int mkfifo(const char *pathname, mode_t mode);
+```
 - FIFO는 `mkfifo`로 생성됩니다.
   - 인자: 
     - `pathname`: FIFO 파일 이름
