@@ -23,26 +23,32 @@ owner - ipc를 만든 process의 euid지만, ipc의 owner를 다른 유저에게
 - `msgctl`, `semctl`, 또는 `shmctl` 호출을 통해 `uid`, `gid`, `mode` 필드를 수정할 수 있습니다. 단, creator만 가능합니다.
 ## 식별자와 키
 - 키 (Key):
-  - IPC 객체의 identifier
+  - IPC 객체의 외부 이름 역할을 합니다.
   - IPC 구조가 생성될 때마다(`msgget`, `semget`, `shmget` 호출) 키가 지정되어야 합니다.
   - 데이터 타입은 `key_t`이며, `<sys/types.h>`에 정의된 long integer 타입입니다.
 
 - 식별자 (Identifier):
   - IPC 객체의 내부 이름이며, 음수가 아닌 정수입니다.
   - `get` 작업의 결과로 반환됩니다.
-  - 파일 디스크립터와 비슷하게 작동하지만, IPC 식별자는 고유합니다. 즉, 다른 프로세스가 동일 IPC 객체를 참조할 때도 동일한 값을 사용합니다.
+  - 파일 디스크립터와 비슷하게 작동하지만, *IPC 식별자는 고유*합니다. 즉, 다른 프로세스가 동일 IPC 객체를 참조할 때도 동일한 값을 사용합니다.
 ## `ftok(2)` 시스템 호출
-
-- 경로와 ID를 IPC 키(key_t) 값으로 변환하는 함수입니다.
+```c
+key_t ftok(const char *path, int id);
+```
+- 경로와 ID를 IPC unique한 키 값으로 변환하는 함수입니다. (file to key)
 - 매개변수:
   - `path`: 기존 파일이어야 합니다.
   - `id`: 하위 8비트만 사용됩니다.
 - `path`와 `id`의 조합으로 IPC 객체를 고유하게 식별할 수 있습니다.
 - `path`가 존재하지 않거나 호출 프로세스에서 접근할 수 없으면 `ftok`는 -1을 반환합니다.
-
-## 세 가지 XXXget 함수
+## IPC get 연산
+```c
+int msgget(key_t key, int permflags);
+int semget(key_t key, int nsems, int permflags);
+int shmget(key_t key, size_t size, int permflags);
+```
+###### 세 가지 XXXget 함수
 - IPC 객체를 생성하거나 여는 함수이며 모두 IPC 키를 사용합니다.
-
 - 키 선택 방법:
   1. 시스템이 키를 선택하게 함 (`IPC_PRIVATE` 사용).
   2. 직접 키를 지정함.
@@ -51,8 +57,6 @@ owner - ipc를 만든 process의 euid지만, ipc의 owner를 다른 유저에게
 - 권한 플래그:
   - `IPC_CREAT`는 `O_CREAT`와 유사합니다.
   - `IPC_EXCL`는 `O_EXCL`와 유사합니다.
-
-## IPC get 연산 (2/2)
 - IPC 구조에 대해 실행 권한에 해당하는 것이 없습니다.
 - 메시지 큐와 공유 메모리는 읽기(read)와 쓰기(write)라는 용어를 사용하지만, 세마포어는 읽기(read)와 변경(alter)이라는 용어를 사용합니다.
 
