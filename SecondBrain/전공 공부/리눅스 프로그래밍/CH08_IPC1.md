@@ -23,7 +23,7 @@ owner - ipc를 만든 process의 euid지만, ipc의 owner를 다른 유저에게
 - `msgctl`, `semctl`, 또는 `shmctl` 호출을 통해 `uid`, `gid`, `mode` 필드를 수정할 수 있습니다. 단, creator만 가능합니다.
 ## 식별자와 키
 - 키 (Key):
-  - IPC 객체의 외부 이름 역할을 합니다.
+  - IPC 객체의 identifier
   - IPC 구조가 생성될 때마다(`msgget`, `semget`, `shmget` 호출) 키가 지정되어야 합니다.
   - 데이터 타입은 `key_t`이며, `<sys/types.h>`에 정의된 long integer 타입입니다.
 
