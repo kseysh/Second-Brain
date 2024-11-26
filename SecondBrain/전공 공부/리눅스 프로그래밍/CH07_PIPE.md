@@ -104,7 +104,7 @@ int pclose(FILE *fp);
   ![[Pasted image 20241126163137.png|400]]
 FIFO와 파이프에서 쓰기 작업은 데이터를 항상 끝에 추가하고, 읽기 작업은 항상 파이프나 FIFO의 시작에서 데이터를 반환합니다. 
 파이프나 FIFO에서 `lseek`를 호출하면 `ESPIPE` 오류가 반환됩니다.
-## `mkfifo(2)` 시스템 호출 (1/2)
+## `mkfifo(2)` 시스템 호출
 ```c
 int mkfifo(const char *pathname, mode_t mode);
 ```
@@ -112,17 +112,18 @@ int mkfifo(const char *pathname, mode_t mode);
   - 인자: 
     - `pathname`: FIFO 파일 이름
     - `mode`: 권한 마스크
-
+![[Pasted image 20241126165926.png|500]]
+만약 O_NONBLOCK 플래그를 설정하고 read용 fd가 열리지 않았는데 write를 하면 SIGPIPE가 날아오기 때문에 file open을 항상 실패시켜야 한다.
+그러나 O_NONBLOCK 플래그를 설정하고 0_RDONLY플래그를 이용해 파일을 열면, write용 fd없이 read를 하더라도 0을 리턴하는 것이지 에러가 발생하는 것은 아니므로 file open을 허용한다.
 #### `open()`의 비차단 플래그 (`O_NONBLOCK`)
 - 기본 동작 (`O_NONBLOCK` 지정하지 않음)
   - 읽기 전용으로 열기: 다른 프로세스가 FIFO를 쓰기 위해 열 때까지 대기합니다.
   - 쓰기 전용으로 열기: 다른 프로세스가 FIFO를 읽기 위해 열 때까지 대기합니다.
-- `O_NONBLOCK`가 지정된 경우:
-  - 읽기 전용으로 열기: 즉시 파일 디스크립터를 반환합니다.
-  - 쓰기 전용으로 열기: 다른 프로세스가 FIFO를 읽기 위해 열지 않았다면 -1을 반환하고 `errno`를 `ENXIO`로 설정합니다.
+- *`O_NONBLOCK`가 지정된 경우*:
+  - *읽기 전용으로 열기: 즉시 파일 디스크립터를 반환합니다*.
+  - *쓰기 전용으로 열기: 다른 프로세스가 FIFO를 읽기 위해 열지 않았다면 -1을 반환하고 `errno`를 `ENXIO`로 설정합니다.*
 
-### I/O 다중화 (1/2)
-
+## I/O Multiplexing
 - 하나의 디스크립터에서 읽고 다른 디스크립터로 쓰는 작업은 차단 I/O를 루프 내에서 사용할 수 있습니다. 
   ```c
   while ((n = read(STDIN_FILENO, buf, BUFSIZ)) > 0)
