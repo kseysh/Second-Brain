@@ -132,6 +132,7 @@ int mkfifo(const char *pathname, mode_t mode);
     if (write(STDOUT_FILENO, buf, n) != n)
       err_sys("write error");
   ```
+![[Pasted image 20241126174944.png|300]]
 - 두 개의 디스크립터에서 읽어야 할 경우, 다른 기술이 필요합니다.
   - 비차단 I/O 모델 (폴링): CPU 시간을 낭비하므로 멀티태스킹 시스템에서는 피해야 합니다.
   - 다중화 I/O 모델: `select()` 또는 `poll()`을 사용합니다.
