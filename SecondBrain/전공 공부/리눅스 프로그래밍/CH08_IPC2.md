@@ -77,6 +77,7 @@ int msgctl(int msqid, int cmd, struct msqid_ds *buf );
 ![[Pasted image 20241127002758.png|500]]
 ![[Pasted image 20241127002811.png|500]]
 ![[Pasted image 20241127002824.png|500]]
+10보다 작은 것중 가장 작은 것부터 가져온다.
 ### etest program
 ![[Pasted image 20241127002843.png|500]]
 ### stest program
