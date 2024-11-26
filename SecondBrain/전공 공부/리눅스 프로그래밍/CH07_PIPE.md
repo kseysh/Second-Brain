@@ -134,13 +134,13 @@ int mkfifo(const char *pathname, mode_t mode);
   ```
 ![[Pasted image 20241126174944.png|300]]
 - 두 개의 디스크립터에서 읽어야 할 경우, 다른 기술이 필요합니다.
-  - 비차단 I/O 모델 (폴링): CPU 시간을 낭비하므로 멀티태스킹 시스템에서는 피해야 합니다.
-  - 다중화 I/O 모델: `select()` 또는 `poll()`을 사용합니다.
+  - nonblocking I/O 모델 (폴링): CPU 시간을 낭비하므로 멀티태스킹 시스템에서는 피해야 합니다.(여러 fifo를 계속 확인하면서 write된 값이 있는지 확인해야 하기 때문)
+  - multiplexing I/O 모델: `select()` 또는 `poll()`을 사용합니다.
   - 신호 기반 I/O 모델 (이벤트): `SIGIO`
   - 비동기 I/O 모델 (이벤트): `SIGIO`
 ## `select(2)` 시스템 호출
 ```c
-int select(int nfds , fd_set *readfds, fd_set *writefds, fd_set *exceptfds, struct timeval *timeout);
+int select(int nfds, fd_set *readfds, fd_set *writefds, fd_set *exceptfds, struct timeval *timeout);
 ```
 - `select` 함수에 전달하는 인자는 커널에 다음 정보를 제공합니다.
   - nfds: 관심 있는 디스크립터 수를 지정합니다.
@@ -152,8 +152,21 @@ int select(int nfds , fd_set *readfds, fd_set *writefds, fd_set *exceptfds, stru
     - `timeout == NULL`: 무기한 대기하며, 지정된 디스크립터 중 하나가 준비되거나 신호가 잡힐 때 반환합니다.
     - `timeout->tv_sec == 0 && timeout->tv_usec == 0`: 대기하지 않고 즉시 반환하며, 모든 디스크립터를 테스트합니다.
     - `timeout->tv_sec != 0 || timeout->tv_usec != 0`: 지정된 시간 동안 대기하고, 지정된 디스크립터 중 하나가 준비되거나 시간이 만료되면 반환합니다. 디스크립터가 준비되지 않고 시간이 만료되면 반환 값은 0입니다.
-
+```c
+struct timeval {
+long tv_sec; /* seconds */
+long tv_usec; /* and microseconds */
+};
+```
 - `readfds`, `writefds`, `exceptfds`의 세 중간 인수 중 하나 또는 모두는 관심이 없을 경우 null 포인터로 지정할 수 있습니다.
+![[Pasted image 20241126182838.png|400]]
+
+```c
+int FD_ISSET(int fd, fd_set *fdset);
+void FD_CLR(int fd, fd_set *fdset);
+void FD_SET(int fd, fd_set *fdset);
+void FD_ZERO(fd_set *fdset);
+```
 
 - 첫 번째 인자는 실제로 검사할 디스크립터 수를 나타내므로, 최대 디스크립터 번호에 1을 더해야 합니다 (디스크립터는 0부터 시작).
 
@@ -163,5 +176,3 @@ int select(int nfds , fd_set *readfds, fd_set *writefds, fd_set *exceptfds, stru
 - 양수 반환 값: 준비된 디스크립터 수를 나타내며, 세 세트에 준비된 디스크립터의 총합을 반환합니다.
   - 같은 디스크립터가 읽기 및 쓰기 준비가 되어 있으면 두 번 계산됩니다.
   - 세 개의 디스크립터 세트에서 켜진 비트는 준비된 디스크립터에 해당합니다.
-
-****
