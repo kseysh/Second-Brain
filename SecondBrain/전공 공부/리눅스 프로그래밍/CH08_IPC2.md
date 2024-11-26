@@ -62,10 +62,28 @@ ssize_t msgrcv(int msqid, void *ptr, size_t nbytes, long type, int flag);
   - `flag`: `IPC_NOWAIT`, `MSG_NOERROR`
 - 반환된 메시지가 `nbytes`보다 크고 `MSG_NOERROR`가 설정되어 있으면, 메시지가 잘립니다. 이 플래그가 없으면 `E2BIG` 오류가 반환됩니다.
 ## `msgctl(2)` 시스템 호출
-
+```c
+int msgctl(int msqid, int cmd, struct msqid_ds *buf );
+```
 - `msgctl`은 메시지 큐를 제거하거나 권한을 변경할 때 사용됩니다.
+###### cmd
+- `IPC_STAT` 
+	- `msqid_ds` 데이터 구조체의 멤버를 buf에 복사합니다.
+- `IPC_SET` 
+	- buf로부터 `msqid_ds` 데이터 구조체의 멤버를 설정합니다.
+- `IPC_RMID` 
+	- 메시지 큐 `msqid`를 제거하고 해당 `msqid_ds`를 삭제합니다.
+## 우선순위가 있는 메시지 큐 예제
+![[Pasted image 20241127002758.png|500]]
+![[Pasted image 20241127002811.png|500]]
+![[Pasted image 20241127002824.png|500]]
+### etest program
+![[Pasted image 20241127002843.png|500]]
+### stest program
+![[Pasted image 20241127002905.png|500]]
 
-### 우선순위가 있는 메시지 큐 예제 (1)
+![[Pasted image 20241127002918.png|500]]
+![[Pasted image 20241127002933.png|500]]
 
 ---
 
