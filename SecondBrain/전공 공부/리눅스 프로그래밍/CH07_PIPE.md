@@ -115,16 +115,20 @@ int mkfifo(const char *pathname, mode_t mode);
 ![[Pasted image 20241126165926.png|500]]
 만약 O_NONBLOCK 플래그를 설정하고 read용 fd가 열리지 않았는데 write를 하면 SIGPIPE가 날아오기 때문에 file open을 항상 실패시켜야 한다.
 그러나 O_NONBLOCK 플래그를 설정하고 0_RDONLY플래그를 이용해 파일을 열면, write용 fd없이 read를 하더라도 0을 리턴하는 것이지 에러가 발생하는 것은 아니므로 file open을 허용한다.
-#### `open()`의 비차단 플래그 (`O_NONBLOCK`)
+## `open()`의 비차단 플래그 (`O_NONBLOCK`)
 - 기본 동작 (`O_NONBLOCK` 지정하지 않음)
   - 읽기 전용으로 열기: 다른 프로세스가 FIFO를 쓰기 위해 열 때까지 대기합니다.
   - 쓰기 전용으로 열기: 다른 프로세스가 FIFO를 읽기 위해 열 때까지 대기합니다.
 - *`O_NONBLOCK`가 지정된 경우*:
   - *읽기 전용으로 열기: 즉시 파일 디스크립터를 반환합니다*.
   - *쓰기 전용으로 열기: 다른 프로세스가 FIFO를 읽기 위해 열지 않았다면 -1을 반환하고 `errno`를 `ENXIO`로 설정합니다.*
+![[Pasted image 20241126171049.png|500]]
+![[Pasted image 20241126171415.png|500]]
+여기서 O_RDWR로 open한 이유는 O_RDONLY로 열게 되면 write용 fd가 없을 때 read를 하면 0이 반환되면서 무한 루프가 발생하게 된다. 하지만, O_RDWR로 open했다면, read가 block되면서 기다리게 된다.
 
-## I/O Multiplexing
-- 하나의 디스크립터에서 읽고 다른 디스크립터로 쓰는 작업은 차단 I/O를 루프 내에서 사용할 수 있습니다. 
+![[Pasted image 20241126171428.png|500]]
+# I/O Multiplexing
+- 하나의 디스크립터에서 읽고 다른 디스크립터로 쓰는 작업은 block I/O를 루프 내에서 사용할 수 있습니다. 
   ```c
   while ((n = read(STDIN_FILENO, buf, BUFSIZ)) > 0)
     if (write(STDOUT_FILENO, buf, n) != n)
