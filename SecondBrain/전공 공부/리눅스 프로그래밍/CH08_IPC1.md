@@ -1,6 +1,18 @@
 ## IPC (프로세스 간 통신)
 - POSIX의 XSI 확장에 포함된 IPC 함수들은 System V IPC 함수에 기초하여 개발되었습니다.
 - 같은 시스템 내에서 프로세스 간 정보를 공유할 수 있는 메커니즘을 제공합니다.
+![[Pasted image 20241126191149.png|500]]
+- message queue: pipe의 advanced 버전
+- semaphores: 변수를 공유할 때 프로세스가 실행순서를 제어하는 메커니즘
+- shared memory: 메모리를 공유하므로서 프로세스간 변수를 공유할 수 있게 하는 것
+
+## File & IPC
+File 사용과 IPC 사용은 대동소이하다
+![[Pasted image 20241126191443.png|500]]
+stat -> IPC에서는 identifier datastructure
+
+shmat -> shared memory attach
+shdat -> shared memory detach
 ## 권한 구조
 - IPC 객체가 생성될 때, 시스템은 IPC 시설 상태 구조도 함께 생성합니다.
 - 접근 권한은 유효 사용자 ID와 그룹 ID에 의해 결정됩니다.
