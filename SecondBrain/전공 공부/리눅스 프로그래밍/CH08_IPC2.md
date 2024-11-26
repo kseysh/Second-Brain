@@ -1,5 +1,5 @@
 # POSIX:XSI Message Queue
-### IPC (프로세스 간 통신)
+## IPC (프로세스 간 통신)
 메시지 큐는 프로세스가 다른 프로세스로부터 메시지를 보내고 받을 수 있게 해주는 POSIX:XSI 인터프로세스 통신 메커니즘입니다.
 • 메시지 큐는 커널 내에 저장된 메시지의 linked list이며, 메시지 큐 식별자에 의해 식별됩니다.
 ```c
@@ -8,29 +8,40 @@ struct msqid_ds { /* <sys/msg.h> */
 	struct msg *msg_first; /* 큐에서 첫 번째 포인터 */
 	struct msg *msg_last; /* 큐에서 마지막 포인터 */
 	msglen_t msg_cbytes; /* 메시지 큐의 전체 사이즈 */
-	msgqnum_t msg_qnum; /* # 큐에 있는 메시지  */
-	msglen_t msg_qbytes; /* max # of bytes on queue */
-	pid_t msg_lspid; /* pid of last msgsnd() */
-	pid_t msg_lrpid; /* pid of last msgrcv() */
-	time_t msg_stime; /* last-msgsnd() time */
-	time_t msg_rtime; /* last-msgrcv() time */
-	time_t msg_ctime; /* last-change time */
+	msgqnum_t msg_qnum; /* # 큐에 있는 메시지 개수 */
+	msglen_t msg_qbytes; /* 큐 안에 있는 전체 byte의 최대 사이즈 */
+	pid_t msg_lspid; /* 가장 최근에 메시지를 send한 pid */
+	pid_t msg_lrpid; /* 가장 최근에 메시지를 receive한 pid */
+	time_t msg_stime; /* 가장 최근에 메시지를 send한 시간 */
+	time_t msg_rtime; /* 가장 최근에 메시지를 receive한 시간 */
+	time_t msg_ctime; /* 메시지가 가장 최근에 변경된 시간 */
 };
 ```
-![[Pasted image 20241126234814.png]]
-### `msgget(2)` 시스템 호출
-
-- `msgget` 함수는 키 매개변수에 연관된 메시지 큐 식별자를 반환합니다.
-
-### `msgsnd(2)` 시스템 호출
-
+![[Pasted image 20241126234814.png|500]]
+## `msgget(2)` 시스템 호출
+```c
+int msgget(key_t key, int flag);
+```
+- `msgget` 함수는 키 매개변수에 연관된 MQ identifier를 반환합니다.
+###### errno
+- `EACCES`
+	- 키에 해당하는 메시지 큐가 존재하지만, 권한이 거부됨
+- `EEXIST`
+	- 키에 해당하는 메시지 큐가 존재한다. `((flag & IPC_CREAT) && (flag & IPC_EXCL)) == -1`(key가 있어서 `IPC_EXCL`로 오류 발생)
+- `ENOENT`
+	- 키에 해당하는 메시지 큐가 존재하지 않다. `(msgflg & IPC_CREAT) == 0`
+- `ENOSPC`
+	- 시스템 전체의 메시지 큐 제한을 초과함
+## `msgsnd(2)` 시스템 호출
+```c
+int msgsnd(int msqid, const void *ptr, size_t nbytes, int flag);
+```
 - `msgsnd`를 사용하여 메시지를 큐에 삽입합니다.
 - 메시지는 항상 큐의 끝에 추가됩니다.
 - 매개변수:
-  - `ptr`: 사용자 정의 버퍼를 가리킵니다.
+  - `ptr`: 사용자 정의 버퍼를 가리킨다. (보낼 메시지 버퍼)
   - `nbytes`: 메시지 크기
   - `flag`: `IPC_NOWAIT`가 지정되지 않은 경우, 메시지를 위한 공간이 생길 때까지 대기합니다.
-
 ### `msgrcv(2)` 시스템 호출
 
 - 매개변수:
