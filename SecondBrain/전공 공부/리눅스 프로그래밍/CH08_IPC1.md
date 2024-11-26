@@ -44,15 +44,15 @@ key_t ftok(const char *path, int id);
 ## IPC get 연산
 ```c
 int msgget(key_t key, int permflags);
-int semget(key_t key, int nsems, int permflags);
+int semget(key_t key, int nsems, int permflags); // nsems -> number of semaphore
 int shmget(key_t key, size_t size, int permflags);
 ```
 ###### 세 가지 XXXget 함수
 - IPC 객체를 생성하거나 여는 함수이며 모두 IPC 키를 사용합니다.
 - 키 선택 방법:
   1. 시스템이 키를 선택하게 함 (`IPC_PRIVATE` 사용).
-  2. 직접 키를 지정함.
-  3. `ftok`를 호출하여 지정된 경로로부터 키를 생성함.
+  2. 직접 키를 지정함. (하지만 unique하지 않은 키를 생성할 수 있어 위험)
+  3. `ftok`를 호출하여 지정된 경로로부터 키를 생성함. (이것도 잘못하면 unique하지 않은 키를 생성할 수 있다.)
 
 - 권한 플래그:
   - `IPC_CREAT`는 `O_CREAT`와 유사합니다.
