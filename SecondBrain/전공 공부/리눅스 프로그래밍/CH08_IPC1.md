@@ -50,17 +50,25 @@ int shmget(key_t key, size_t size, int permflags);
 ###### 세 가지 XXXget 함수
 - IPC 객체를 생성하거나 여는 함수이며 모두 IPC 키를 사용합니다.
 - 키 선택 방법:
-  1. 시스템이 키를 선택하게 함 (`IPC_PRIVATE` 사용).
+  1. 시스템이 키를 선택하게 함 (`IPC_PRIVATE`라는 상수를 key값에 넣어준다).
   2. 직접 키를 지정함. (하지만 unique하지 않은 키를 생성할 수 있어 위험)
   3. `ftok`를 호출하여 지정된 경로로부터 키를 생성함. (이것도 잘못하면 unique하지 않은 키를 생성할 수 있다.)
 
 - 권한 플래그:
   - `IPC_CREAT`는 `O_CREAT`와 유사합니다.
   - `IPC_EXCL`는 `O_EXCL`와 유사합니다.
+
+![[Pasted image 20241126232918.png|500]]
 - IPC 구조에 대해 실행 권한에 해당하는 것이 없습니다.
 - 메시지 큐와 공유 메모리는 읽기(read)와 쓰기(write)라는 용어를 사용하지만, 세마포어는 읽기(read)와 변경(alter)이라는 용어를 사용합니다.
 
-### IPC 제어 연산
+## IPC `ctl` operations
+```c
+int msgctl(int msqid, int command, struct msqid_ds *buf );
+int semctl(int semid, int semnum, int command,…/*union semun arg*/);
+int shmctl(int shmid, int command, struct shmid_ds *buf);
+```
+File의 fcntl과 stat 두 가지 작업을 한번에 하는 system call과 비슷
 
 - IPC 리소스를 처리하기 위해 사용할 수 있는 함수들입니다.
 
