@@ -144,7 +144,7 @@ int select(int nfds, fd_set *readfds, fd_set *writefds, fd_set *exceptfds, struc
 ```
 - `select` 함수에 전달하는 인자는 커널에 다음 정보를 제공합니다.
   - nfds: 관심 있는 디스크립터 수를 지정합니다.
-    - 예를 들어, 두 개의 파일 디스크립터 3과 4가 열려 있으면 `nfds`를 5로 설정해야 합니다.
+    - 예를 들어, *두 개의 파일 디스크립터 3과 4가 열려 있으면 `nfds`를 5로 설정해야 합니다.*
   - readfds: 지정된 디스크립터에서 읽기를 원하는 경우
   - writefds: 지정된 디스크립터에 쓰기를 원하는 경우
   - exceptfds: 예외 조건에 관심이 있는지 여부 (NT에서 비순차 데이터 도착)
@@ -180,6 +180,7 @@ void FD_ZERO(fd_set *fdset);
   - 세 개의 디스크립터 세트에서 켜진 비트는 준비된 디스크립터에 해당합니다.
 
 ![[Pasted image 20241126183934.png|500]]
+pipe 3개 중에 하나가 write ready되면 select가 깨어난다.
 ![[Pasted image 20241126184037.png|500]]
 ![[Pasted image 20241126184048.png|500]]
 ![[Pasted image 20241126184100.png|500]]
