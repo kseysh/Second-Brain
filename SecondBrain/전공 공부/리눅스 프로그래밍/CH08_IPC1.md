@@ -5,7 +5,6 @@
 - message queue: pipe의 advanced 버전
 - semaphores: 변수를 공유할 때 프로세스가 실행순서를 제어하는 메커니즘
 - shared memory: 메모리를 공유하므로서 프로세스간 변수를 공유할 수 있게 하는 것
-
 ## File & IPC
 File 사용과 IPC 사용은 대동소이하다
 ![[Pasted image 20241126191443.png|500]]
@@ -14,10 +13,14 @@ stat -> IPC에서는 identifier datastructure
 shmat -> shared memory attach
 shdat -> shared memory detach
 ## 권한 구조
-- IPC 객체가 생성될 때, 시스템은 IPC 시설 상태 구조도 함께 생성합니다.
+- IPC 객체가 생성될 때, 시스템은 IPC facility status structure도 함께 생성합니다.
+![[Pasted image 20241126192335.png|500]]
+owner vs creator
+creator - ipc를 만든 process의 euid
+owner - ipc를 만든 process의 euid지만, ipc의 owner를 다른 유저에게 넘길 때 변경될 수 있다.
 - 접근 권한은 유효 사용자 ID와 그룹 ID에 의해 결정됩니다.
-- IPC 시설이 생성될 때 `umask` 값은 적용되지 않습니다.
-- `msgctl`, `semctl`, 또는 `shmctl` 호출을 통해 `uid`, `gid`, `mode` 필드를 수정할 수 있습니다. 단, 생성자나 슈퍼유저만 가능합니다.
+- IPC facility가 생성될 때 `umask` 값은 적용되지 않습니다.
+- `msgctl`, `semctl`, 또는 `shmctl` 호출을 통해 `uid`, `gid`, `mode` 필드를 수정할 수 있습니다. 단, creator만 가능합니다.
 ## 식별자와 키
 - 키 (Key):
   - IPC 객체의 외부 이름 역할을 합니다.
