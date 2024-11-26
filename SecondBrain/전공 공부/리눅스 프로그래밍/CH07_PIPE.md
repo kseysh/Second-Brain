@@ -137,7 +137,6 @@ int mkfifo(const char *pathname, mode_t mode);
   - 다중화 I/O 모델: `select()` 또는 `poll()`을 사용합니다.
   - 신호 기반 I/O 모델 (이벤트): `SIGIO`
   - 비동기 I/O 모델 (이벤트): `SIGIO`
-
 ### `select(2)` 시스템 호출 (1/5)
 
 - `select` 함수에 전달하는 인자는 커널에 다음 정보를 제공합니다.
