@@ -66,7 +66,21 @@ int pipe(int filedes[2]); // pipe는 fd가 두개 있어야 하므로 array 사�
   if(fcntl(p[1], F_SETFL, O_NONBLOCK)==-1)
   perror(“fcntl”);
   ```
-## `popen(3)`와 `pclose(3)` (1/3)
+- 파이프가 가득 찬 경우: `fcntl(p[1], F_SETFL, O_NONBLOCK)`
+	- 이후에 write 호출은 절대 블록되지 않습니다.
+	- 반환 값은 -1이 되고, errno는 EAGAIN으로 설정됩니다.
+- 파이프가 비어 있는 경우: `fcntl(p[0], F_SETFL, O_NONBLOCK)`
+	- 이후에 read 호출은 절대 블록되지 않습니다.
+	- 반환 값은 -1이 되고, errno는 EAGAIN으로 설정됩니다.
+![[Pasted image 20241126130635.png|500]]
+![[Pasted image 20241126130905.png|500]]
+pipe에 4번의 write를 하는데, write는 3초에 한 번씩 read는 1초에 한 번씩 해서 3번 pipe empty가 발생하고, read가 발생한다.
+parent에서 read의 반환 값이 0이면 부모도 종료한다 (자식에서의 write가 종료되었다는 의미이므로)
+## `popen(3)`와 `pclose(3)` (library)
+```c
+FILE *popen(const char *cmdstring, const char *type);
+int pclose(FILE *fp);
+```
 - 이 두 함수는 다음과 같은 모든 작업을 자동으로 처리합니다:
   - 파이프 생성,
   - 자식 프로세스 생성,
