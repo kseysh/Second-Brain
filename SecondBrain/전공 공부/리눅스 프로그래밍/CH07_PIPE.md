@@ -45,33 +45,28 @@ int pipe(int filedes[2]); // pipe는 fd가 두개 있어야 하므로 array 사�
 ###### 파이프가 가득 찬 경우
 - `write`가 차단되어 다른 프로세스가 파이프에서 읽을 때까지 대기합니다.
 ###### 여러 프로세스 간의 동작
-- `PIPE_BUF` 바이트 이하의 쓰기는 다른 쓰기 데이터와 (섞이지) 않습니다.
-- `PIPE_BUF` 바이트를 초과하여 쓰는 경우, 데이터가 다른 프로세스의 쓰기 데이터와 섞일 수 있습니다.
+- `PIPE_BUF` 바이트 이하의 쓰기는 다른 쓰기 데이터와 interleaved되지(섞이지) 않는다. (같은 pipe에서 여러개의 프로세스가 write하더라도, 그 프로세스간 interleaved되지 않는다.)
+- `PIPE_BUF` 바이트를 초과하여 쓰는 경우, 데이터가 다른 프로세스의 쓰기 데이터와 섞일 수 있다.
 
-### 차단 및 비차단 (Blocking & Non-Blocking)
+![[Pasted image 20241126125834.png|500]]
+![[Pasted image 20241126125848.png|500]]
+1024씩 count하며 pipe의 최대 크기를 알아보는 예제
+## Blocking & Non-Blocking
 - 영원히 호출자를 차단할 수 있는 시스템 호출
   - 읽기: 데이터가 없을 때 특정 파일 타입(파이프, 터미널 장치, 네트워크 장치)에서 차단됩니다.
   - 쓰기: 데이터가 즉시 받아들여지지 않을 때 차단됩니다 (예: 파이프가 가득 찼을 때).
   - 열기: 특정 파일 타입에서 조건이 발생할 때까지 차단됩니다 (FIFO).
-
-#### 비차단 I/O를 지정하는 두 가지 방법
+###### Non-Blocking I/O를 지정하는 두 가지 방법
 1. 파일 디스크립터를 열 때: `O_NONBLOCK` 옵션을 지정합니다.
 2. 이미 열린 디스크립터의 경우: `fcntl`을 호출하여 `O_NONBLOCK` 파일 상태 플래그를 켭니다.
-
-### 비차단 읽기와 쓰기
-- 파이프에서 `read` 또는 `write`가 차단되지 않도록 보장하는 두 가지 방법:
-  1. `fstat`: `stat.st_size`는 파이프 내 문자 수를 반환합니다.
-  ```c
-  fstat(p[1], &buf);
-  if( buf.st_size >= PIPE_BUF) return error;
-  ```
-  2. `fcntl`: `O_NONBLOCK` 플래그를 사용합니다.
+## Non-Blocking write and read
+- 파이프에서 `read` 또는 `write`가 차단되지 않도록 보장하는 방법:
+	-  `fcntl`: `O_NONBLOCK` 플래그를 사용합니다.
   ```c
   if(fcntl(p[1], F_SETFL, O_NONBLOCK)==-1)
   perror(“fcntl”);
   ```
-
-### `popen(3)`와 `pclose(3)` (1/3)
+## `popen(3)`와 `pclose(3)` (1/3)
 - 이 두 함수는 다음과 같은 모든 작업을 자동으로 처리합니다:
   - 파이프 생성,
   - 자식 프로세스 생성,
@@ -81,8 +76,7 @@ int pipe(int filedes[2]); // pipe는 fd가 두개 있어야 하므로 array 사�
 - `popen` 함수는 `fork` 및 `exec`를 사용하여 `cmdstring`을 실행하고, 표준 I/O 파일 포인터를 반환합니다.
   - `type`이 "r"인 경우 파일 포인터는 `cmdstring`의 표준 출력에 연결됩니다.
   - `type`이 "w"인 경우 파일 포인터는 `cmdstring`의 표준 입력에 연결됩니다.
-### FIFO (1/2)
-
+## FIFO (1/2)
 - FIFO는 때때로 명명된 파이프라고도 불립니다.
 - 파이프는 관련된 프로세스 간에만 사용할 수 있으며, 공통 조상 프로세스가 파이프를 생성한 경우에만 사용할 수 있습니다.
 - 그러나 FIFO를 사용하면 관계없는 프로세스도 데이터 교환이 가능합니다.
