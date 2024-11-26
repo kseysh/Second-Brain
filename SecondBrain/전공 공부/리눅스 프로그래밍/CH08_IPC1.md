@@ -71,11 +71,14 @@ int shmctl(int shmid, int command, struct shmid_ds *buf);
 File의 fcntl과 stat 두 가지 작업을 한번에 하는 system call과 비슷
 
 - IPC 리소스를 처리하기 위해 사용할 수 있는 함수들입니다.
-
-### IPC 키에서 IPC 식별자 생성하기
-
-- IPC 키로부터 IPC 식별자를 생성하여 사용합니다.
-
-### 셸에서 IPC 리소스 접근하기
-
-- IPC 리소스는 셸을 통해서도 접근할 수 있습니다.
+- `IPC_STAT` 
+	- 참조된 IPC 리소스 상태 정보를 반환합니다. IPC_STAT을 지정할 때, ctlsystem 호출은 반환된 정보를 저장할 적절한 타입의 구조체 포인터를 전달해야 합니다.
+- `IPC_SET` 
+	- IPC 리소스의 소유자, 그룹 또는 모드를 변경합니다. 또한, IPC_STAT과 마찬가지로 변경된 멤버 정보를 포함한 적절한 타입의 구조체 포인터를 전달해야 합니다.
+- `IPC_RMID` 
+	- IPC 리소스의 내용을 파괴하고 시스템에서 제거합니다.
+## IPC 키에서 IPC 식별자 생성하기
+![[Pasted image 20241126233621.png|550]]
+## 셸에서 IPC 리소스 접근하기
+![[Pasted image 20241126233727.png|500]]
+![[Pasted image 20241126233742.png|500]]
