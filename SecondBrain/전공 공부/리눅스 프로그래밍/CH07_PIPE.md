@@ -188,4 +188,6 @@ pipe 3개 중에 하나가 write ready되면 select가 깨어난다.
 com1 | com2를 했을 때 이를 shell에서 어떻게 해주는지에 대한 예제
 ![[Pasted image 20241126184100.png|500]]
 pipe로 들어가는 것이 p\[1] pipe에서 나오는 것이 p\[2]가 된다.
+`dup2(p[1],1)`로 인해 pipe로 들어가는 std out이 p\[1]이 된다.
+`dup2(p[0],1)`로 인해 pipe로 들어가는 std in이 p\[0]이 된다.
 ![[Pasted image 20241126184113.png|500]]
