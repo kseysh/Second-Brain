@@ -87,14 +87,13 @@ sender는 3419로 보냈지만, receiver는 우선순위대로 1349 순서대로
 ![[Pasted image 20241127002918.png|500]]
 ![[Pasted image 20241127002933.png|500]]
 
----
-
-### POSIX:XSI 세마포어
-
+# POSIX:XSI 세마포어
 - 세마포어는 여러 프로세스가 공유 데이터 객체에 접근할 수 있도록 하기 위한 카운터입니다.
 - 1965년 E. W. Dijkstra가 상호 배제와 동기화를 관리하기 위해 제안한 추상 개념입니다.
 - wait (down, P, lock)와 signal (up, V, unlock, post) 두 가지 원자적 작업을 포함하는 정수 변수입니다.
-
+![[Pasted image 20241127210926.png|300]]
+critical section에서는 하나의 프로세스만 실행될 수 있다.
+![[Pasted image 20241127210942.png|500]]
 ### POSIX:XSI 세마포어 (1/3)
 
 - POSIX:XSI 세마포어는 세마포어 요소 배열로 구성됩니다.
