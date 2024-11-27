@@ -15,6 +15,9 @@ code: 한 타입 안에 여러가지 경우의 수를 나타낼 때 사용
 ![[Pasted image 20241127155151.png]]
 
 
+
+
+
 p4
 icmp message에는 icmp header가 있고 data로서 ip header와 tcp 8yte가 있다.
 p10
@@ -27,3 +30,15 @@ tcp 앞 헤더 8byte(source/destination port num과 seq번호)를 가져옴
 p11
 16가지 종류 detact 가능 detail한 정보를 code에 들어간다
 p12
+p14
+노트 잘 읽기
+p16
+라우터 버퍼가 꽉차 혼잡이 발생했을 때 보내는 양을 억제해달라는 목적으로 만들어짐
+p17
+혼잡때문에 라우터가 버릴 때 보내준다.
+p19
+라우터는 ttl이 0이면 패킷을 버리는데 icmp의 time-exceeded message를 보내서 알려준다. 
+fragmentation된 패킷이 오지 않았을 때도 time-exceeded message를 보내서 알려준다,.
+type number는 몰라도 code number는 알아두자
+p22
+
