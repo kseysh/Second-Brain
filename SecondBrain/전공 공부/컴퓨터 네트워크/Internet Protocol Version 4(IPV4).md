@@ -182,7 +182,17 @@ traceroute 프로그램은 엄격한 소스 라우팅을 구현하는 데에도 
 그닥 안 중요한 듯
 ## IP components
 ![[Pasted image 20241127152828.png|500]]
+읽어만 보자
+![[Pasted image 20241127153232.png|500]]
+![[Pasted image 20241127153241.png|500]]
+![[Pasted image 20241127153249.png|500]]
+![[Pasted image 20241127153259.png|500]]
 
+## Reassembly table
+재조합은 목적지 컴퓨터에서만 하기로 한다.
+IP layer에서는 어떤 것이 없어져도 재전송 요구하지 않는다 (재전송 요구는 TCP 쪽에서 하기 때문이다.)
+IP layer에서는 datagram이 없어지면 통째로 날라간다.
+fragmentation 중 하나만 없어져도 
 
 
 
