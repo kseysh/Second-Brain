@@ -40,5 +40,21 @@ p19
 라우터는 ttl이 0이면 패킷을 버리는데 icmp의 time-exceeded message를 보내서 알려준다. 
 fragmentation된 패킷이 오지 않았을 때도 time-exceeded message를 보내서 알려준다,.
 type number는 몰라도 code number는 알아두자
-p22
-
+p23
+checksum이나 ip주소가 이상하다 생각되면 original source에게 이상하다고 알림
+p24
+코드 두개인건 무시
+몇번ㅉ에 오류가 있는지 알려주는 pointer값이 있다
+p25
+redirection concept
+a가 b에게 보내려는 상황
+default 라우터가 r1인 상황
+a는 r2와 연결되어 있지만 굳이 r1을 거쳐서 갔음 
+R1가 보내는 r2가 같은 네트워크이고, A도 같은 네트워크라는 것을 확인하면 A에게 b에게 보낼 때는 r2로 보내라고 알려준다.
+p26
+읽기
+p27
+targer router = r2로 설정
+아래 하얀색 부분에는 
+p28
+읽기
