@@ -105,11 +105,12 @@ critical section에서는 하나의 프로세스만 실행될 수 있다.
 ```c
 struct semid_ds {
 	struct ipc_perm sem_perm; // 세마포어 permission
-	struct sem *sem_base; 세마포어 set에 대한 포이
-	ushort_t sem_nsems; /* # of semaphores in set */
+	struct sem *sem_base; // 세마포어 set에 대한 포인터 array
+	ushort_t sem_nsems; // 세마포어 개수
 	time_t sem_otime; /* last-semop()time */
 	time_t sem_ctime; /* last-change time */
 };
+
 struct sem {
 	ushort_t semval; /* semaphore value, nonegative*/
 	short sempid; /* PIDof last successful semop(), SETVAL, SETALL*/
@@ -120,25 +121,36 @@ struct sem {
 - 각 세마포어 요소는 다음 정보를 포함합니다(`struct sem`):
   - `semval`: 세마포어 값 (0 이상)
   - `sempid`: 마지막으로 세마포어를 조작한 프로세스 ID
-  - `semncnt`: 세마포어 값이 증가하기를 기다리는 프로세스 수
-  - `semzcnt`: 세마포어 값이 0이 되기를 기다리는 프로세스 수
+  - `semncnt`: 세마포어 값이 증가하기를 기다리는 프로세스 수 (중요 x)
+  - `semzcnt`: 세마포어 값이 0이 되기를 기다리는 프로세스 수 (중요 x)
 - 세마포어 값이 0이 되면 큐에 있는 프로세스가 깨워집니다.
 - 각 세마포어 요소는 두 가지 큐를 가집니다:
   - 값 증가 대기 프로세스 큐
-  - 값이 0이 되기를 기다리는 프로세스 큐
-
-### `semget(2)` 시스템 호출 (1/2)
-
+  - 값이 0이 되기를 기다리는 프로세스 큐 (중요 x)
+![[Pasted image 20241127215700.png|500]]
+## `semget(2)` 시스템 호출 (1/2)
+```c
+int semget(key_t key, int nsems, int flag);
+```
 - 키에 연관된 세마포어 식별자를 반환합니다.
 - 매개변수:
   - `nsems`: 세트 내 세마포어 요소 수 (`nsems == 0`일 경우 기존 세트를 참조)
-
-### `semctl(2)` 시스템 호출 (1/2)
-
+![[Pasted image 20241127215913.png|500]]
+![[Pasted image 20241127215954.png|500]]
+## `semctl(2)` 시스템 호출
+```c
+int semctl(int semid, int semnum, int cmd,…/*union semun arg*/); // 전체 세마포어에선
+```
 - 세마포어 세트의 각 요소는 사용 전에 `semctl`로 초기화되어야 합니다.
 - 매개변수:
   - `arg`: `cmd`의 값에 따라 달라집니다.
-
+```c
+union semun {
+	int val; /* for SETVAL */
+	struct semid_ds *buf; /* for IPC_STAT and IPC_SET */
+	unsigned short *array; /* for GETALL and SETALL */
+};
+```
 ### `semop(2)` 시스템 호출 (1/2)
 
 - `semop`는 사용자 정의 세마포어 작업을 세마포어 세트에 대해 원자적으로 수행합니다.
