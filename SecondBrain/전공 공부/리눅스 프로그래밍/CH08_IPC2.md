@@ -91,15 +91,32 @@ sender는 3419로 보냈지만, receiver는 우선순위대로 1349 순서대로
 - 세마포어는 여러 프로세스가 공유 데이터 객체에 접근할 수 있도록 하기 위한 카운터입니다.
 - 1965년 E. W. Dijkstra가 상호 배제와 동기화를 관리하기 위해 제안한 추상 개념입니다.
 - wait (down, P, lock)와 signal (up, V, unlock, post) 두 가지 원자적 작업을 포함하는 정수 변수입니다.
+원자성 -> 하나도 실행하지 않거나, 모두 실행하는 것. 어느 하나라도 실패하면 모두 실패로 처리한다.
+
 ![[Pasted image 20241127210926.png|300]]
 critical section에서는 하나의 프로세스만 실행될 수 있다.
 ![[Pasted image 20241127210942.png|600]]
 세마포어가 0보다 작으면 세마포어 대기 큐에 들어가 있는다
 
-### POSIX:XSI 세마포어 (1/3)
-
+## POSIX:XSI 세마포어
 - POSIX:XSI 세마포어는 세마포어 요소 배열로 구성됩니다.
 - 프로세스는 단일 호출로 전체 세트를 조작할 수 있습니다.
+
+```c
+struct semid_ds {
+	struct ipc_perm sem_perm; // 세마포어 permission
+	struct sem *sem_base; 세마포어 set에 대한 포이
+	ushort_t sem_nsems; /* # of semaphores in set */
+	time_t sem_otime; /* last-semop()time */
+	time_t sem_ctime; /* last-change time */
+};
+struct sem {
+	ushort_t semval; /* semaphore value, nonegative*/
+	short sempid; /* PIDof last successful semop(), SETVAL, SETALL*/
+	ushort_t semncnt; /* # awaiting semval > current value */
+	ushort_t semzcnt; /* # awaiting semval = 0 */
+};
+```
 - 각 세마포어 요소는 다음 정보를 포함합니다(`struct sem`):
   - `semval`: 세마포어 값 (0 이상)
   - `sempid`: 마지막으로 세마포어를 조작한 프로세스 ID
