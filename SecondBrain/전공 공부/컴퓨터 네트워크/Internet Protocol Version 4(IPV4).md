@@ -189,12 +189,13 @@ traceroute 프로그램은 엄격한 소스 라우팅을 구현하는 데에도 
 ![[Pasted image 20241127153259.png|500]]
 
 ## Reassembly table
+![[Pasted image 20241127154456.png|500]]
 재조합은 목적지 컴퓨터에서만 하기로 한다.
 IP layer에서는 어떤 것이 없어져도 재전송 요구하지 않는다 (재전송 요구는 TCP 쪽에서 하기 때문이다.)
 IP layer에서는 datagram이 없어지면 통째로 날라간다.
-fragmentation 중 하나만 없어져도 
+fragmentation 중 하나만 없어져도 tcp입장에서는 하나가 통째로 날라간 것이므로 통째로 날라가버린다. 복구에 걸리는 오버헤드가 커진다.
 
-
-
-
+segment를 크게 만들었을 때의 부작용 설명하기:
+packet loss detact도 늦어지고 fragmentatioin 중 하나만 없어져도 tcp는 큰 하나가 통째로 날라간거라 tcp가 복구할 때 분리되지 않은 전체를 복구해야 한다. 따라서 복구에 걸리는 오버헤드가 커진다.
+![[Pasted image 20241127154444.png|500]]
 

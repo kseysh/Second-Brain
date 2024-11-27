@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "전공 공부/컴퓨터 네트워크/Internet Protocol Version 4(IPV4).md",
+                "file": "전공 공부/컴퓨터 네트워크/ICMP.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Internet Protocol Version 4(IPV4)"
+              "title": "ICMP"
             }
           }
         ]
@@ -189,21 +189,22 @@
   },
   "active": "2c4b5746ac8d24b6",
   "lastOpenFiles": [
+    "Unused/Attached files/Pasted image 20241127155151.png",
+    "Unused/Attached files/Pasted image 20241127154915.png",
+    "Unused/Attached files/Pasted image 20241127154832.png",
+    "Unused/Attached files/Pasted image 20241127154747.png",
+    "Unused/Attached files/Pasted image 20241127154718.png",
+    "전공 공부/컴퓨터 네트워크/Internet Protocol Version 4(IPV4).md",
+    "전공 공부/컴퓨터 네트워크/ICMP.md",
+    "Unused/Attached files/Pasted image 20241127154456.png",
+    "Unused/Attached files/Pasted image 20241127154444.png",
     "Unused/Attached files/Pasted image 20241127153259.png",
     "Unused/Attached files/Pasted image 20241127153249.png",
     "Unused/Attached files/Pasted image 20241127153241.png",
     "Unused/Attached files/Pasted image 20241127153232.png",
-    "Unused/Attached files/Pasted image 20241127152828.png",
-    "Unused/Attached files/Pasted image 20241127152601.png",
-    "Unused/Attached files/Pasted image 20241127152050.png",
-    "Unused/Attached files/Pasted image 20241127152039.png",
-    "Unused/Attached files/Pasted image 20241127152011.png",
-    "Unused/Attached files/Pasted image 20241127151942.png",
-    "Unused/Attached files/Pasted image 20241127151137.png",
     "전공 공부/컴퓨터 네트워크/Delivery and Forwarding of IP Packets.md",
     "전공 공부/문해기/12_b.md",
     "전공 공부/컴퓨터 네트워크/IP Adresses.md",
-    "전공 공부/컴퓨터 네트워크/Internet Protocol Version 4(IPV4).md",
     "전공 공부/리눅스 프로그래밍/CH08_IPC2.md",
     "전공 공부/리눅스 프로그래밍/CH08_IPC1.md",
     "전공 공부/리눅스 프로그래밍/CH07_PIPE.md",
@@ -224,7 +225,6 @@
     "전공 공부/지난 학기/DataStructure/AVL Trees.md",
     "전공 공부/지난 학기/전자상거래/1. 전자상거래 입문.md",
     "전공 공부/지난 학기/전자상거래/3. 조직간 전자상거래.md",
-    "전공 공부/지난 학기/자바기반응용프로그래밍/7주차.md",
     "전공 공부/논리 회로/중간",
     "전공 공부/컴퓨터 네트워크/중간",
     "전공 공부/리눅스 프로그래밍/중간",
