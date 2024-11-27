@@ -93,7 +93,9 @@ sender는 3419로 보냈지만, receiver는 우선순위대로 1349 순서대로
 - wait (down, P, lock)와 signal (up, V, unlock, post) 두 가지 원자적 작업을 포함하는 정수 변수입니다.
 ![[Pasted image 20241127210926.png|300]]
 critical section에서는 하나의 프로세스만 실행될 수 있다.
-![[Pasted image 20241127210942.png|500]]
+![[Pasted image 20241127210942.png|600]]
+세마포어가 0보다 작으면 세마포어 대기 큐에 들어가 있는다
+
 ### POSIX:XSI 세마포어 (1/3)
 
 - POSIX:XSI 세마포어는 세마포어 요소 배열로 구성됩니다.
