@@ -139,18 +139,34 @@ int semget(key_t key, int nsems, int flag);
 ![[Pasted image 20241127215954.png|500]]
 ## `semctl(2)` 시스템 호출
 ```c
-int semctl(int semid, int semnum, int cmd,…/*union semun arg*/); // 전체 세마포어에선
+int semctl(int semid, int semnum, int cmd,…/*union semun arg*/); // 전체 세마포어에서는 semnum이 필요 x
 ```
 - 세마포어 세트의 각 요소는 사용 전에 `semctl`로 초기화되어야 합니다.
 - 매개변수:
   - `arg`: `cmd`의 값에 따라 달라집니다.
 ```c
 union semun {
-	int val; /* for SETVAL */
+	int val; /* for SETVAL */ // 세마포어의 값
 	struct semid_ds *buf; /* for IPC_STAT and IPC_SET */
 	unsigned short *array; /* for GETALL and SETALL */
 };
 ```
+
+###### 표준 IPC 함수
+• IPC_STAT: 세마포어 집합 semid의 구성원을 semid_dso에서 arg.buf로 복사합니다.
+• IPC_SET: arg.buf에서 세마포어 집합의 권한을 설정합니다.
+• IPC_RMID: semid로 식별된 세마포어 집합을 제거합니다.
+###### 단일 세마포어 작업
+(이들은 세마포어 sem_num에 적용되며, semctl이 반환하는 값들입니다)
+• GETVAL: 특정 세마포어 요소의 값을 반환합니다.
+• SETVAL: 특정 세마포어 요소의 값을 arg.val로 설정합니다.
+###### 모든 세마포어 작업
+• GETALL: arg.array에 있는 세마포어 집합의 값을 반환합니다.
+• SETALL: arg.array에서 세마포어 집합의 값을 설정합니다.
+
+![[Pasted image 20241127221123.png]]
+semid가 가리키는 세마포어 셋의 특정 번호의 세마포어에 semvalue를 특정 값으로 넣어라
+그래서 semun의 val을 쓰니까 arg.val에 semvalue를 넣고 
 ### `semop(2)` 시스템 호출 (1/2)
 
 - `semop`는 사용자 정의 세마포어 작업을 세마포어 세트에 대해 원자적으로 수행합니다.
