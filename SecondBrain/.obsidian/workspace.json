@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "전공 공부/논리 회로/5장 문제 해석.md",
+                "file": "전공 공부/논리 회로/논리회로 기말.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "5장 문제 해석"
+              "title": "논리회로 기말"
             }
           }
         ]
@@ -228,8 +228,11 @@
   },
   "active": "2c4b5746ac8d24b6",
   "lastOpenFiles": [
+    "Unused/Attached files/Pasted image 20241128153951.png",
     "전공 공부/논리 회로/Widmer_C5.md",
+    "전공 공부/논리 회로/논리회로 기말.md",
     "전공 공부/논리 회로/5장 문제 해석.md",
+    "Unused/Attached files/Pasted image 20241128153830.png",
     "Unused/Attached files/Pasted image 20241128140531.png",
     "Unused/Attached files/Pasted image 20241128140522.png",
     "Unused/Attached files/Pasted image 20241128135716.png",
@@ -239,7 +242,6 @@
     "Unused/Attached files/Pasted image 20241128135522.png",
     "Unused/Attached files/Pasted image 20241128135502.png",
     "Unused/Attached files/Pasted image 20241128135444.png",
-    "Unused/Attached files/Pasted image 20241128135434.png",
     "전공 공부/논리 회로/7장 문제 해석.md",
     "전공 공부/논리 회로/Widmer_C7.md",
     "알고리즘/오늘 푼 문제.md",
@@ -262,7 +264,6 @@
     "전공 공부/지난 학기/DataStructure/Hash Table.md",
     "전공 공부/지난 학기/DataStructure/Graphs.md",
     "전공 공부/지난 학기/DataStructure/Dictionary & Maps.md",
-    "전공 공부/지난 학기/DataStructure/Directed Graphs.md",
     "전공 공부/논리 회로/중간",
     "전공 공부/컴퓨터 네트워크/중간",
     "전공 공부/리눅스 프로그래밍/중간",
