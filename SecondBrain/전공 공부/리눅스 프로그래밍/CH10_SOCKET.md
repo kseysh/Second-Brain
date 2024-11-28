@@ -102,16 +102,48 @@ int accept(int sockfd, struct sockaddr *restrict addr, socklen_t *restrict len);
 int connect(int sockfd, const struct sockaddr *addr, socklen_t len);// addr: 서버 주소
 ```
 ![[Pasted image 20241128094033.png|400]]
-### 연결 종료
+## 데이터 보내고 받기
+```c
+ssize_t recv(int sockfd, void *buf, size_t nbytes, int flags);
+// 반환: 메시지의 길이(바이트 단위), 사용 가능한 메시지가 없고 상대방이 정상적으로 종료한 경우 0, 오류 발생 시 -1
 
+ssize_t send(int sockfd, const void *buf, size_t nbytes, int flags);
+// 반환: 전송된 바이트 수(정상인 경우), 오류 발생 시 -1
+```
+flags == 0일 때: read(), write()와 동일
+
+recv 함수의 flag 옵션
+• `MSG_PEEK`: 패킷 내용을 소비하지 않고 반환
+• `MSG_OOB`: 프로토콜이 지원하는 경우, 대역 외(out-of-band) 데이터를 검색
+• `MSG_WAITALL`: 모든 데이터가 사용 가능할 때까지 대기 (SOCK_STREAM만 해당)
+
+send 함수의 flag 옵션
+• `MSG_DONTWAIT`: 비차단(nonblocking) 동작 활성화 (O_NONBLOCK 사용과 동일)
+• `MSG_OOB`: 프로토콜이 지원하는 경우, 대역 외(out-of-band) 데이터 전송
+• `MSG_DONTROUTE`: 패킷을 로컬 네트워크 외부로 라우팅하지 않음
+• `MSG_EOR`: 프로토콜이 지원하는 경우, 기록의 끝임을 표시
+## 연결 종료
 - 소켓의 반대쪽 프로세스가 예기치 않게 종료될 경우, 적절히 처리하는 것이 매우 중요합니다.
 - 프로세스가 연결이 끊어진 소켓에 데이터를 쓰거나 보낼 경우 **SIGPIPE 신호**를 받습니다.
 - `read` 또는 `recv`가 **0을 반환**하면 파일의 끝을 나타내며, 따라서 연결 종료를 의미합니다.
+### server process example
+![[Pasted image 20241128094405.png|500]]
+![[Pasted image 20241128094418.png|500]]
+### client process example
+![[Pasted image 20241128094459.png|500]]
+![[Pasted image 20241128094510.png|500]]
+## 메시지 송수신
+## Sending and receiving messages
+```c
+ssize_t recvfrom(int sockfd, void *restrict buf, size_t len, int flags, struct sockaddr *restrict send_addr, socklen_t *restrict addrlen);
+// Returns: length of message in bytes, 0 if no messages are available and peer has done an orderly shutdown, or -1 on error
+ssize_t sendto(int sockfd, const void *buf, size_t nbytes, int flags, const struct sockaddr *dest_addr, socklen_t destlen);
 
----
-
-### 메시지 송수신
-
+```
 - 매개변수:
   - `send_addr`: 메시지를 보낸 장치의 **주소 정보**
   - `dest_addr`: 메시지를 보낼 **피어의 주소**
+### server process example
+![[Pasted image 20241128094642.png|500]]
+### client process example
+![[Pasted image 20241128094702.png|500]]
