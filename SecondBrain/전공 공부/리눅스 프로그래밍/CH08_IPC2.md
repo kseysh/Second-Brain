@@ -87,7 +87,7 @@ sender는 3419로 보냈지만, receiver는 우선순위대로 1349 순서대로
 ![[Pasted image 20241127002918.png|500]]
 ![[Pasted image 20241127002933.png|500]]
 
-# POSIX:XSI 세마포어
+# 세마포어
 - 세마포어는 여러 프로세스가 공유 데이터 객체에 접근할 수 있도록 하기 위한 카운터입니다.
 - 1965년 E. W. Dijkstra가 상호 배제와 동기화를 관리하기 위해 제안한 추상 개념입니다.
 - wait (down, P, lock)와 signal (up, V, unlock, post) 두 가지 원자적 작업을 포함하는 정수 변수입니다.
@@ -98,7 +98,7 @@ critical section에서는 하나의 프로세스만 실행될 수 있다.
 ![[Pasted image 20241127210942.png|600]]
 세마포어가 0보다 작으면 세마포어 대기 큐에 들어가 있는다
 
-## POSIX:XSI 세마포어
+## 세마포어
 - POSIX:XSI 세마포어는 세마포어 요소 배열로 구성됩니다.
 - 프로세스는 단일 호출로 전체 세트를 조작할 수 있습니다.
 
@@ -167,27 +167,74 @@ union semun {
 ![[Pasted image 20241127221123.png]]
 semid가 가리키는 세마포어 셋의 특정 번호의 세마포어에 semvalue를 특정 값으로 넣어라
 그래서 semun의 val을 쓰니까 arg.val에 semvalue를 넣고 
-### `semop(2)` 시스템 호출 (1/2)
-
+## `semop(2)` 시스템 호출 (1/2)
+```c
+int semop(int semid, struct sembuf semoparray[], size_t nops);
+```
 - `semop`는 사용자 정의 세마포어 작업을 세마포어 세트에 대해 원자적으로 수행합니다.
+```c
+struct sembuf {
+	unsigned short sem_num; /* member # in set (0, 1, ..., nsems-1) */
+	short sem_op; /* operation (negative, 0, or positive) */
+	short sem_flg; /* IPC_NOWAIT, SEM_UNDO */
+};
+```
 
-### `semop(2): SEM_UNDO` (1/4)
+IPC_NOWAIT가 지정된 경우, EAGAIN 오류와 함께 반환됩니다.
 
-- XSI IPC 객체는 어떤 프로세스도 사용하지 않을 때도 존재하기 때문에, 프로그램이 할당받은 세마포어를 해제하지 않고 종료하는 경우에 대비해야 합니다.
-- `SEM_UNDO` 플래그를 사용하여 프로세스가 종료될 때 세마포어 조정을 자동으로 수행할 수 있습니다.
+###### sem_op 동작
+`sem_op > 0`: V(), 세마포어를 증가시켜 자원의 해제를 기록합니다. sem_op를 semval에 더합니다.
+`sem_op < 0`: P(), 세마포어를 감소시켜 자원의 획득을 기록합니다. semval이 abs(sem_op) 이상이 될 때까지 블록됩니다. semval은 abs(sem_op)만큼 감소합니다.
+`sem_op` == 0: 세마포어가 0인지 테스트합니다. semval이 0이 될 때까지 블록됩니다.
 
-### POSIX:XSI 공유 메모리
+![[Pasted image 20241128091622.png|400]]
+![[Pasted image 20241128091645.png|400]]
+![[Pasted image 20241128091659.png|400]]
+![[Pasted image 20241128091711.png|400]]
+![[Pasted image 20241128091727.png|400]]
+## `semop(2): SEM_UNDO` (1/4)
+모든 형태의 XSI IPC 객체는 어떤 프로세스도 이를 사용하지 않을 때에도 계속 존재하기 때문에,
+– 할당된 세마포어를 해제하지 않고 종료되는 프로그램에 대해 신경 써야 합니다.
+– 이를 처리하기 위해 undo 기능이 있습니다.
 
+종료 시 세마포어 조정
+– 세마포어를 통해 자원이 할당된 상태에서 프로세스가 종료되면 문제가 됩니다.
+– 세마포어 연산에서 SEM_UNDO 플래그를 지정하고 자원을 할당할 때(sem_op 값이 0보다 작을 때) 커널은 해당 세마포어에서 우리가 할당한 자원(sem_op의 절대값)을 기억합니다.
+– 프로세스가 자발적으로 또는 비자발적으로 종료될 때, 커널은 해당 프로세스에 미결 세마포어 조정이 있는지 확인하고, 만약 있다면 해당 조정을 관련 세마포어에 적용합니다.
+
+## Shared Memory
+![[Pasted image 20241128092854.png|300]]
 - 공유 메모리는 여러 프로세스가 같은 메모리 세그먼트를 읽고 쓸 수 있도록 합니다.
 - 데이터가 클라이언트와 서버 사이에서 복사될 필요가 없기 때문에 가장 빠른 IPC 방식입니다.
 - 서버가 공유 메모리 영역에 데이터를 기록할 때 클라이언트는 서버가 완료될 때까지 접근을 지양해야 합니다.
   - 종종 세마포어를 사용하여 공유 메모리 접근을 동기화합니다.
-
-### `shmget(2)` 시스템 호출
-
+```c
+struct shmid_ds {
+	struct ipc_perm shm_perm; /* see Section 15.6.2 */
+	size_t shm_segsz; /* size of segment in bytes */
+	pid_t shm_lpid; /* pid of last shmop() */
+	pid_t shm_cpid; /* pid of creator */
+	shmatt_t shm_nattch; /* number of current attaches */
+	time_t shm_atime; /* last-attach time */
+	time_t shm_dtime; /* last-detach time */
+	time_t shm_ctime; /* last-change time */
+	. . .
+};
+```
+## `shmget(2)` 시스템 호출
+```c
+int shmget(key_t key, size_t size, int flag);
+```
 - 매개변수:
   - `size`: 메모리 세그먼트의 최소 크기(바이트)
+에러 번호 원인
+• EACCES: 키에 대한 공유 메모리 식별자가 존재하지만 권한이 부여되지 않았습니다.
+• EEXIST: 키에 대한 공유 메모리 식별자가 존재하지만 ((shmflg & IPC_CREAT) && (shmflg & IPC_EXCL)) != 0 입니다.
+• EINVAL: 공유 메모리 세그먼트가 생성되지 않으나 크기가 시스템에서 부과한 제한 또는 키의 세그먼트 크기와 일치하지 않습니다.
+• ENOENT: 키에 대한 공유 메모리 식별자가 존재하지 않으며 (shmflg & IPC_CREAT) == 0 입니다.
+• ENOSPC: 시스템 전체의 공유 메모리 식별자 제한을 초과했습니다.
 
+• ENOMEM: 지정된 공유 메모리 세그먼트를 생성할 충분한 메모리가 없습니다.
 ### `shmat(2)` 시스템 호출
 
 - `shmat`은 호출 프로세스의 주소 공간에 지정된 공유 메모리 세그먼트를 부착하고 `shmid`의 `shm_nattch` 값을 증가시킵니다.
