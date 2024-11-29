@@ -195,7 +195,10 @@ N번 operation에 대해서 signal을 실행한다.
 ![[Pasted image 20241128091645.png|500]]
 
 ![[Pasted image 20241128091659.png|500]]
+p는 wait 연산
+v는 signal 연산
 ![[Pasted image 20241128091711.png|500]]
+
 ![[Pasted image 20241128091727.png|400]]
 ## `semop(2): SEM_UNDO` (1/4)
 모든 형태의 XSI IPC 객체는 어떤 프로세스도 이를 사용하지 않을 때에도 계속 존재하기 때문에,
