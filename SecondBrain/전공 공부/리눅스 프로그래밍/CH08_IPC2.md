@@ -235,29 +235,19 @@ struct shmid_ds {
 ## `shmget(2)` 시스템 호출
 ```c
 int shmget(key_t key, size_t size, int flag);
+// return shared memory id
 ```
 - 매개변수:
   - `size`: 메모리 세그먼트의 최소 크기(바이트)
-에러 번호 원인
-• EACCES: 키에 대한 공유 메모리 식별자가 존재하지만 권한이 부여되지 않았습니다.
-• EEXIST: 키에 대한 공유 메모리 식별자가 존재하지만 `((shmflg & IPC_CREAT) && (shmflg & IPC_EXCL)) != 0` 입니다.
-• EINVAL: 공유 메모리 세그먼트가 생성되지 않으나 크기가 시스템에서 부과한 제한 또는 키의 세그먼트 크기와 일치하지 않습니다.
-• ENOENT: 키에 대한 공유 메모리 식별자가 존재하지 않으며 (shmflg & IPC_CREAT) == 0 입니다.
-• ENOSPC: 시스템 전체의 공유 메모리 식별자 제한을 초과했습니다
-• ENOMEM: 지정된 공유 메모리 세그먼트를 생성할 충분한 메모리가 없습니다.
 ## `shmat(2)` 시스템 호출
 ```c
 void *shmat(int shmid, const void *addr, int flag);
+// shared memory 첫 주소 리턴
 ```
 - `shmat`은 호출 프로세스의 주소 공간에 지정된 공유 메모리 세그먼트를 부착하고 `shmid`의 `shm_nattch` 값을 증가시킵니다.
-- 매개변수:
-  - `addr`:
-    - `addr`가 0이면 커널이 선택한 첫 번째 사용 가능한 주소에 세그먼트를 부착합니다(권장 방법).
-    - `addr`이 0이 아니고 `SHM_RND`가 지정되지 않은 경우 `addr`에 지정된 주소에 세그먼트를 부착합니다.
-    - `addr`이 0이 아니고 `SHM_RND`가 지정된 경우 `(addr - (addr % SHMLBA))`에 세그먼트를 부착합니다.
-`SHM_RND` 명령은 “반올림”을 의미합니다.
-`SHMLBA`는 “낮은 경계 주소 배수”를 의미하며 항상 2의 거듭제곱입니다.
+
 ![[Pasted image 20241128093143.png|400]]
+서로 가상 메모리 내에 잡혀있는 주소는 다를 수 있다.
 ## `shmdt(2)` 시스템 호출
 ```c
 int shmdt(void *addr);
