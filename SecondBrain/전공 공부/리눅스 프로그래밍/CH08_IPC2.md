@@ -172,6 +172,7 @@ semid가 가리키는 세마포어 셋의 특정 번호의 세마포어에 semva
 int semop(int semid, struct sembuf semoparray[], size_t nops);
 ```
 - `semop`는 사용자 정의 세마포어 작업을 세마포어 세트에 대해 원자적으로 수행합니다.
+semid가 가리키고 있는 세마포어의 개수와 semoparray의 개수가 같을 필요는 없다(semid가 가리키고 있는 세마포어의 개수보다 작을 수도 있다.) 
 ```c
 struct sembuf {
 	unsigned short sem_num; /* member # in set (0, 1, ..., nsems-1) */
@@ -182,8 +183,8 @@ struct sembuf {
 
 IPC_NOWAIT가 지정된 경우, EAGAIN 오류와 함께 반환됩니다.
 ###### sem_op 동작
-`sem_op > 0`: V(), 세마포어를 증가시켜 자원의 해제를 기록합니다. sem_op를 semval에 더합니다.
-`sem_op < 0`: P(), 세마포어를 감소시켜 자원의 획득을 기록합니다. semval이 abs(sem_op) 이상이 될 때까지 블록됩니다. semval은 abs(sem_op)만큼 감소합니다.
+`sem_op > 0`: V() -> signal operation, 세마포어를 증가시켜 자원의 해제를 기록합니다. sem_op를 semval에 더합니다.
+`sem_op < 0`: P() -> wait operation, 세마포어를 감소시켜 자원의 획득을 기록합니다. semval이 abs(sem_op) 이상이 될 때까지 블록됩니다. semval은 abs(sem_op)만큼 감소합니다.
 `sem_op` == 0: 세마포어가 0인지 테스트합니다. semval이 0이 될 때까지 블록됩니다.
 
 ![[Pasted image 20241128091622.png|400]]
