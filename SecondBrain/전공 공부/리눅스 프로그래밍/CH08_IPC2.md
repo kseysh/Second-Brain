@@ -218,16 +218,17 @@ if, p1이 p(s)를 실행하다 죽어버리면 p(s)를 해놓고 기다리던 p2
 - 데이터가 클라이언트와 서버 사이에서 복사될 필요가 없기 때문에 가장 빠른 IPC 방식입니다.
 - 서버가 공유 메모리 영역에 데이터를 기록할 때 클라이언트는 서버가 완료될 때까지 접근을 지양해야 합니다.
   - 종종 세마포어를 사용하여 공유 메모리 접근을 동기화합니다.
+세마포어의 초기 값을 0으로 해두고, 공유 메모리 값에 값을 대입시에 signal을 통해 세마포어를 1 증가시키고, 값 사용 전에 wait를 하는 방식으로 사용하면 공유 메모리가 항상 값이 대입된 상태에서 사용할 수 있다,
 ```c
 struct shmid_ds {
 	struct ipc_perm shm_perm; /* see Section 15.6.2 */
-	size_t shm_segsz; /* size of segment in bytes */
-	pid_t shm_lpid; /* pid of last shmop() */
-	pid_t shm_cpid; /* pid of creator */
-	shmatt_t shm_nattch; /* number of current attaches */
-	time_t shm_atime; /* last-attach time */
-	time_t shm_dtime; /* last-detach time */
-	time_t shm_ctime; /* last-change time */
+	size_t shm_segsz; // 공유 메모리 크기
+	pid_t shm_lpid; // shmop를 사용한 시간
+	pid_t shm_cpid; // 공유 메모리를 만든 pid
+	shmatt_t shm_nattch; // 공유 메모리와 연결되어 있는 프로세스 개수
+	time_t shm_atime; // 마지막에 프로세스를 attach한 시간
+	time_t shm_dtime; // 마지막에 프로세스를 detach한 시간
+	time_t shm_ctime; // 마지막 프로세스를 변경한 시간 
 	. . .
 };
 ```
