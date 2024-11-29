@@ -166,7 +166,7 @@ union semun {
 
 ![[Pasted image 20241127221123.png]]
 semid가 가리키는 세마포어 셋의 특정 번호의 세마포어에 semvalue를 특정 값으로 넣어라
-그래서 semun의 val을 쓰니까 arg.val에 semvalue를 넣고 
+그래서 semun의 val을 쓰니까 arg.val에 semvalue를 넣고 semctl을 호출한다.
 ## `semop(2)` 시스템 호출 (1/2)
 ```c
 int semop(int semid, struct sembuf semoparray[], size_t nops);
@@ -181,7 +181,6 @@ struct sembuf {
 ```
 
 IPC_NOWAIT가 지정된 경우, EAGAIN 오류와 함께 반환됩니다.
-
 ###### sem_op 동작
 `sem_op > 0`: V(), 세마포어를 증가시켜 자원의 해제를 기록합니다. sem_op를 semval에 더합니다.
 `sem_op < 0`: P(), 세마포어를 감소시켜 자원의 획득을 기록합니다. semval이 abs(sem_op) 이상이 될 때까지 블록됩니다. semval은 abs(sem_op)만큼 감소합니다.
