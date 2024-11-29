@@ -145,7 +145,7 @@ int semctl(int semid, int semnum, int cmd,…/*union semun arg*/); // 전체 세
 - 매개변수:
   - `arg`: `cmd`의 값에 따라 달라집니다.
 ```c
-union semun {
+union semun { // (semaphore union)
 	int val; /* for SETVAL */ // 세마포어의 값
 	struct semid_ds *buf; /* for IPC_STAT and IPC_SET */
 	unsigned short *array; /* for GETALL and SETALL */
