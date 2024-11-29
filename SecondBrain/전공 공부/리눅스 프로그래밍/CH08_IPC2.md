@@ -269,8 +269,22 @@ int shmctl(int shmid, int cmd, struct shmid_ds *buf);
 
 ![[Pasted image 20241128093309.png|500]]
 ![[Pasted image 20241128093327.png|500]]
-
+세마포어 두 개를 만들고, p가 v를 기다리게 하기 위해서 세마포어를 0으로 할당한다.
 ![[Pasted image 20241128093338.png|500]]
+read buf1
+v(s1)
+p(s2)
+read buf2
+v(s1)
+p(s2)
 ![[Pasted image 20241128093349.png|500]]
+p(s1)
+v(s2)
+write buf1
+p(s1)
+v(s2)
+write buf2
 ![[Pasted image 20241128093400.png|500]]
 ![[Pasted image 20241128093412.png|500]]
+read(buf2)와 write(buf1)은 parallel하게 실행이 가능하다.
+read(buf1)이 실행되기 전에 write(buf1)이 먼저 실행되어야 하는데, 그것을 제어하기 위해 read(buf2)후에 v1을 두어 기다리게 하고, write(buf1)이 끝나면 p1을 하여 write 이후에 read가 실행될 수 있도록 한다.
