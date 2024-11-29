@@ -183,14 +183,19 @@ struct sembuf {
 
 IPC_NOWAIT가 지정된 경우, EAGAIN 오류와 함께 반환됩니다.
 ###### sem_op 동작
+semval = resoure 개수로 생각하는 것이 일반적
 `sem_op > 0`: V() -> signal operation, 세마포어를 증가시켜 자원의 해제를 기록합니다. sem_op를 semval에 더합니다.
 `sem_op < 0`: P() -> wait operation, 세마포어를 감소시켜 자원의 획득을 기록합니다. semval이 abs(sem_op) 이상이 될 때까지 블록됩니다. semval은 abs(sem_op)만큼 감소합니다.
-`sem_op` == 0: 세마포어가 0인지 테스트합니다. semval이 0이 될 때까지 블록됩니다.
+`sem_op` == 0: 세마포어가 0인지 테스트합니다. semval이 0이 될 때까지 블록됩니다. (실제 사용 x)
 
-![[Pasted image 20241128091622.png|400]]
-![[Pasted image 20241128091645.png|400]]
-![[Pasted image 20241128091659.png|400]]
-![[Pasted image 20241128091711.png|400]]
+![[Pasted image 20241128091622.png|500]]
+num에 의해 주어지는 semaphore에게 op이 지정한 operation을 지정해서 s에 저장한다.
+1번 operation에 대해서는 wait를 실행한다.
+N번 operation에 대해서 signal을 실행한다.
+![[Pasted image 20241128091645.png|500]]
+
+![[Pasted image 20241128091659.png|500]]
+![[Pasted image 20241128091711.png|500]]
 ![[Pasted image 20241128091727.png|400]]
 ## `semop(2): SEM_UNDO` (1/4)
 모든 형태의 XSI IPC 객체는 어떤 프로세스도 이를 사용하지 않을 때에도 계속 존재하기 때문에,
