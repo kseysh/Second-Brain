@@ -268,6 +268,7 @@ int shmctl(int shmid, int cmd, struct shmid_ds *buf);
 • SHM_UNLOCK: 공유 메모리 세그먼트의 잠금을 해제합니다.
 
 ![[Pasted image 20241128093309.png|500]]
+
 ![[Pasted image 20241128093327.png|500]]
 ![[Pasted image 20241128093338.png|500]]
 ![[Pasted image 20241128093349.png|500]]
