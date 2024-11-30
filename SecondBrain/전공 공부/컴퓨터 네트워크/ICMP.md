@@ -22,9 +22,29 @@ tcp 앞 헤더 8byte(source/destination port num과 seq번호)를 가져온다.
 무슨 에러가 생겼는지는 ICMP를 보고, 어디서 에러가 생겼는지는 첫번째 IP header, 어디로 가려했는지는 뒤 IP header를 본다.
 8byte는 어떤 프로그램에서 오류가 발생했는지 알려준다(TCP 앞 4byte로 port번호를 볼 수 있으므로)(TCP앞 4-8byte에서 몇번째 seq에서 오류가 발생했는지 알려준다.)
 
-## ?
+## 목적지 도달 불가 ICMP 메시지 포맷
 ![[Pasted image 20241130160302.png]]
 16가지 종류 detact 가능 detail한 정보를 code에 들어간다
+### Destination-unreachable 종류
+• code 0 - 네트워크 도달불가(Network Unreachable):
+	• 목적지 네트워크로 가는 경로가 없음.
+	• 목적지 주소가 라우팅 테이블에 없거나 디폴트 라우트가 없는 경우 발생.
+• code 1 - 호스트 도달불가(Host Unreachable):
+	• 최종 목적지 호스트에 도달할 수 없을 때 발생.
+	• 호스트 또는 라우터에서 생성됨.
+• code 2 - 프로토콜 도달불가(Protocol Unreachable):
+	• 목적지 시스템에서 특정 프로토콜을 사용할 수 없다는 사실을 통보할 때 발생.
+• code 3 - 포트 도달불가(Port Unreachable):
+	• 목적지 호스트에서 특정 포트 번호를 사용할 수 없음을 알릴 때 발생.
+• code 4 - 단편화 필요하지만 DF 설정됨(Fragmentation Required but DF bit is set):
+	• IP 데이터그램이 MTU가 작은 네트워크를 통과하려면 단편화가 필요하지만, DF 비트가 설정된 경우 라우터는 이를 폐기하고 송신측에 이를 통보.
+• code 13 - 목적지와의 통신이 관리적으로 금지됨(Communication Administratively Prohibited):
+	• 어떤 이유로든 목적지가 통신을 원하지 않을 때 발생.
+	• 예를 들어, 방화벽이 운용 정책에 위배되는 데이터그램을 의도적으로 폐기할 경우. 이 오류 메시지를 원천지에 보낼 수도 있고 보내지 않을 수도 있음.
+
+code 2, 3은 목적지 호스트가 생성하며 나머지는 라우터가 생성한다.
+라우터는 패킷 전송을 막는 모든 문제를 감지할 수 없다.
+IP protocol은 flow-control과 congestion control이 없다.
 p12
 p14
 노트 잘 읽기
