@@ -46,19 +46,19 @@ type number는 몰라도 code number는 알아두자
 code 2, 3은 목적지 호스트가 생성하며 나머지는 라우터가 생성한다.
 라우터는 패킷 전송을 막는 모든 문제를 감지할 수 없다.
 IP protocol은 flow-control과 congestion control이 없다.
-## Source-quench format
+## Source-quench
 ![[Pasted image 20241130162422.png|500]]
 라우터 버퍼가 꽉차 혼잡이 발생했을 때 보내는 양을 억제해달라는 목적으로 만들어짐
 Source-quench message는 혼잡때문에 라우터가 버릴 때 보내준다.
 혼잡으로 인해 datagram이 폐기될 때마다 하나의 Source-quench message가 전송된다.
-## Time-exceeded message format
+## Time-exceeded message
 ![[Pasted image 20241130162858.png|500]]
 라우터는 ttl이 0이면 패킷을 버리는데 icmp의 time-exceeded message를 보내서 알려준다. 
 fragmentation된 패킷이 오지 않았을 때도 time-exceeded message를 보내서 알려준다.
 
 code 0: 시간 제한 필드의 값이 0임을 나타내기 위해 라우터에서만 사용
 code 1: 설정된 시간 내에 모든 조각이 도착하지 않았음을 나타내기 위해 목적지 호스트에서만 사용
-## Parameter-problem message format
+## Parameter-problem message
 ![[Pasted image 20241130163136.png|500]]
 checksum이나 ip주소가 이상하다 생각되면 original source에게 이상하다고 알릴 때 사용
 코드 두개인건 무시
@@ -69,10 +69,17 @@ a가 b에게 보내려는 상황
 default 라우터가 r1인 상황
 a는 r2와 연결되어 있지만 굳이 r1을 거쳐서 갔음 
 R1가 보내는 r2가 같은 네트워크이고, A도 같은 네트워크라는 것을 확인하면 A에게 b에게 보낼 때는 r2로 보내라고 알려준다.
-## Redirection message format
+## Redirection message
 호스트는 일반적으로 작은 라우팅 테이블로 시작하여 점차적으로 확장되고 업데이트됩니다. 이를 수행하기 위한 도구 중 하나가 리디렉션 메시지이다.
 ![[Pasted image 20241130164037.png|400]]
 targer router = r2로 설정
 redirection message는 라우터로부터 같은 로컬 네트워크에 있는 호스트로 보내진다.
 
 
+## Echo-request message
+![[Pasted image 20241130165237.png|500]]
+echo-request message는 호스트나 라우터가 보낼 수 있다
+echo-reply message는 echo-request message를 받는 메시지가 응답하는 것이다.
+상대방 컴퓨터에 IP 주소가 할당되어 있어 네트워크가 연결되어 있는지를 확인하기 위해 사용한다.
+보통 ping command는 이 echo-request message를 이용해 구현한다.
+Echo-request message는 보통 RTT를 측정할 때 자주 쓰인다.
