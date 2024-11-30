@@ -87,3 +87,9 @@ echo-request message에서 original timestamp를 적어서 보내고, echo-reply
 보낸 시간과 도착시간의 차에서 transmit timestamp와 reveive timestamp의 차이를 빼주면 RTT를 보다 더 정확하게 알 수 있다.
 상대방과 자신의 시계가 다르더라도 정확하게 RTT를 측정할 수 있다. 또한 시계의 sync를 맞출 수도 있다.
 ## traceroute program operation
+traceroute는 대부분 ICMP를 가지고 구현한다.
+![[Pasted image 20241130172345.png|500]]
+
+![[Pasted image 20241130172620.png|500]]
+host A는 destination B, TTL=1로 datagram을 보내면 R1에서 ICMP 메시지를 다시 A에게 보낸다. 이로 인해 R1까지 가는 경로와 시간을 알게 되고, 그 후에는 TTL=2로 보내고 목적지에 도착할 때까지 이런 방식으로 traceroute를 ICMP로 구현한다.
+대부분의 학교망이나 회사망은 외부에서 들어오는 ICMP는 방화벽에서 막는다. 따라서 traceroute를 해도 * * * 만 뜰 수도 있다.
