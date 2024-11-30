@@ -22,11 +22,11 @@ tcp 앞 헤더 8byte(source/destination port num과 seq번호)를 가져온다.
 무슨 에러가 생겼는지는 ICMP를 보고, 어디서 에러가 생겼는지는 첫번째 IP header, 어디로 가려했는지는 뒤 IP header를 본다.
 8byte는 어떤 프로그램에서 오류가 발생했는지 알려준다(TCP 앞 4byte로 port번호를 볼 수 있으므로)(TCP앞 4-8byte에서 몇번째 seq에서 오류가 발생했는지 알려준다.)
 
-## 목적지 도달 불가 ICMP 메시지 포맷
-![[Pasted image 20241130160302.png]]
+## Destination-unreachable message format
+![[Pasted image 20241130160302.png|500]]
 16가지 종류 detact 가능 detail한 정보를 code에 들어간다
 type number는 몰라도 code number는 알아두자
-### Destination-unreachable 종류
+### Destination-unreachable code 종류
 • code 0 - 네트워크 도달불가(Network Unreachable):
 	• 목적지 네트워크로 가는 경로가 없음.
 	• 목적지 주소가 라우팅 테이블에 없거나 디폴트 라우트가 없는 경우 발생.
@@ -63,16 +63,16 @@ code 1: 설정된 시간 내에 모든 조각이 도착하지 않았음을 나�
 checksum이나 ip주소가 이상하다 생각되면 original source에게 이상하다고 알릴 때 사용
 코드 두개인건 무시
 몇번째에 오류가 있는지 알려주는 pointer값이 있다
-p25
-redirection concept
+## Redirection concept
+![[Pasted image 20241130163538.png|500]]
 a가 b에게 보내려는 상황
 default 라우터가 r1인 상황
 a는 r2와 연결되어 있지만 굳이 r1을 거쳐서 갔음 
 R1가 보내는 r2가 같은 네트워크이고, A도 같은 네트워크라는 것을 확인하면 A에게 b에게 보낼 때는 r2로 보내라고 알려준다.
-p26
-읽기
-p27
+## Redirection message format
+호스트는 일반적으로 작은 라우팅 테이블로 시작하여 점차적으로 확장되고 업데이트됩니다. 이를 수행하기 위한 도구 중 하나가 리디렉션 메시지이다.
+![[Pasted image 20241130164037.png|400]]
 targer router = r2로 설정
-아래 하얀색 부분에는 
-p28
-읽기
+redirection message는 라우터로부터 같은 로컬 네트워크에 있는 호스트로 보내진다.
+
+
