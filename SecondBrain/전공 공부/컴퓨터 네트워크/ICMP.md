@@ -25,6 +25,7 @@ tcp 앞 헤더 8byte(source/destination port num과 seq번호)를 가져온다.
 ## 목적지 도달 불가 ICMP 메시지 포맷
 ![[Pasted image 20241130160302.png]]
 16가지 종류 detact 가능 detail한 정보를 code에 들어간다
+type number는 몰라도 code number는 알아두자
 ### Destination-unreachable 종류
 • code 0 - 네트워크 도달불가(Network Unreachable):
 	• 목적지 네트워크로 가는 경로가 없음.
@@ -45,22 +46,23 @@ tcp 앞 헤더 8byte(source/destination port num과 seq번호)를 가져온다.
 code 2, 3은 목적지 호스트가 생성하며 나머지는 라우터가 생성한다.
 라우터는 패킷 전송을 막는 모든 문제를 감지할 수 없다.
 IP protocol은 flow-control과 congestion control이 없다.
-p12
-p14
-노트 잘 읽기
-p16
+## Source-quench format
+![[Pasted image 20241130162422.png|500]]
 라우터 버퍼가 꽉차 혼잡이 발생했을 때 보내는 양을 억제해달라는 목적으로 만들어짐
-p17
-혼잡때문에 라우터가 버릴 때 보내준다.
-p19
+Source-quench message는 혼잡때문에 라우터가 버릴 때 보내준다.
+혼잡으로 인해 datagram이 폐기될 때마다 하나의 Source-quench message가 전송된다.
+## Time-exceeded message format
+![[Pasted image 20241130162858.png|500]]
 라우터는 ttl이 0이면 패킷을 버리는데 icmp의 time-exceeded message를 보내서 알려준다. 
-fragmentation된 패킷이 오지 않았을 때도 time-exceeded message를 보내서 알려준다,.
-type number는 몰라도 code number는 알아두자
-p23
-checksum이나 ip주소가 이상하다 생각되면 original source에게 이상하다고 알림
-p24
+fragmentation된 패킷이 오지 않았을 때도 time-exceeded message를 보내서 알려준다.
+
+code 0: 시간 제한 필드의 값이 0임을 나타내기 위해 라우터에서만 사용
+code 1: 설정된 시간 내에 모든 조각이 도착하지 않았음을 나타내기 위해 목적지 호스트에서만 사용
+## Parameter-problem message format
+![[Pasted image 20241130163136.png|500]]
+checksum이나 ip주소가 이상하다 생각되면 original source에게 이상하다고 알릴 때 사용
 코드 두개인건 무시
-몇번ㅉ에 오류가 있는지 알려주는 pointer값이 있다
+몇번째에 오류가 있는지 알려주는 pointer값이 있다
 p25
 redirection concept
 a가 b에게 보내려는 상황
