@@ -83,3 +83,4 @@ echo-reply message는 echo-request message를 받는 메시지가 응답하는 �
 상대방 컴퓨터에 IP 주소가 할당되어 있어 네트워크가 연결되어 있는지를 확인하기 위해 사용한다.
 보통 ping command는 이 echo-request message를 이용해 구현한다.
 Echo-request message는 보통 RTT를 측정할 때 자주 쓰인다.
+echo-request message에서 original timestamp를 적어서 보내고, echo-reply message에서는 receive timestamp와 transmit timestamp를 적어서 보낸다.
