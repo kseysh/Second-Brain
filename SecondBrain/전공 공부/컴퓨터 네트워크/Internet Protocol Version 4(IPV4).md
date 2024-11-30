@@ -1,8 +1,6 @@
 ## IP Diagram
 ![[Pasted image 20241125162536.png|400]]
 ### Service type
-![[Pasted image 20241125162553.png|400]]
-![[Pasted image 20241125162609.png|400]]
 서비스 타입은 잘 쓰이지 않음(TCP 헤더의 Argent pointer처럼)
 ### Total length
 ![[Pasted image 20241125163428.png]]
