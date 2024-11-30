@@ -84,3 +84,6 @@ echo-reply message는 echo-request message를 받는 메시지가 응답하는 �
 보통 ping command는 이 echo-request message를 이용해 구현한다.
 Echo-request message는 보통 RTT를 측정할 때 자주 쓰인다.
 echo-request message에서 original timestamp를 적어서 보내고, echo-reply message에서는 receive timestamp와 transmit timestamp를 적어서 보낸다.
+보낸 시간과 도착시간의 차에서 transmit timestamp와 reveive timestamp의 차이를 빼주면 RTT를 보다 더 정확하게 알 수 있다.
+상대방과 자신의 시계가 다르더라도 정확하게 RTT를 측정할 수 있다. 또한 시계의 sync를 맞출 수도 있다.
+## traceroute program operation
