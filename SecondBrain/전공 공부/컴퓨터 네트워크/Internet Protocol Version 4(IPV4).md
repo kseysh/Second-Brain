@@ -210,23 +210,24 @@ IP_Processing_Module (Datagram)
 ![[Pasted image 20241127153249.png|500]]
 ![[Pasted image 20241127153259.png|500]]
 ```tex
-IP_Fragmentation_Module (datagram)
-1. 데이터그램의 크기를 추출합니다.
-	• If데이터그램의 크기가 해당 네트워크의 MTU(Maximum Transmission Unit)보다 크다면:
-		• If D 비트가 설정되어 있다면:
-• 데이터그램을 폐기합니다.
-• ICMP 오류 메시지를 보냅니다.
-• 반환합니다.
-• 그렇지 않다면:
-• 최대 크기를 계산합니다.
-• 세그먼트를 여러 조각으로 나눕니다.
-• 각 조각에 헤더를 추가합니다.
-• 각 조각에 필요한 옵션을 추가합니다.
-• 조각을 보냅니다.
-• 반환합니다.
-3. else:
-• 데이터그램을 보냅니다.
-4. 반환합니다.
+IP_Fragmentation_Module (datagram) {
+데이터그램의 크기를 추출합니다.
+• If 데이터그램의 크기가 해당 네트워크의 MTU(Maximum Transmission Unit)보다 크다면:
+	• If D 비트가 설정되어 있다면:
+		• 데이터그램을 폐기합니다.
+		• ICMP 오류 메시지를 보냅니다.
+		• return.
+	• else:
+		• 최대 크기를 계산합니다.
+		• 세그먼트를 여러 조각으로 나눕니다.
+		• 각 조각에 헤더를 추가합니다.
+		• 각 조각에 필요한 옵션을 추가합니다.
+		• 조각을 보냅니다.
+		• return.
+else:
+	• 데이터그램을 보냅니다.
+return.
+}
 ```
 
 ## Reassembly table
@@ -239,4 +240,37 @@ fragmentation 중 하나만 없어져도 tcp입장에서는 하나가 통째로 
 segment를 크게 만들었을 때의 부작용 설명하기:
 packet loss detact도 늦어지고 fragmentatioin 중 하나만 없어져도 tcp는 큰 하나가 통째로 날라간거라 tcp가 복구할 때 분리되지 않은 전체를 복구해야 한다. 따라서 복구에 걸리는 오버헤드가 커진다.
 ![[Pasted image 20241127154444.png|500]]
-
+```
+IP_Reassembly_Module (데이터그램)
+{
+    If (오프셋 값 = 0 && M = 0) // datagram의 분할이 일어나지 않았을 때
+    {
+        데이터그램을 적절한 큐로 보냄
+        return
+    }
+    
+    재조립 테이블에서 항목을 검색
+    If (항목을 찾지 못한 경우)
+    {
+        새로운 항목을 만듦
+    }
+    
+    데이터그램을 연결 리스트에 삽입
+    If (모든 조각이 도착한 경우)
+    {
+        조각을 재조립
+        조각을 상위 계층 프로토콜로 전달
+        return
+    }
+    else
+    {
+        If (타임아웃이 만료된 경우)
+        {
+            모든 조각을 폐기
+            ICMP 오류 메시지를 보냄
+        }
+    }
+    
+    return
+}
+```
