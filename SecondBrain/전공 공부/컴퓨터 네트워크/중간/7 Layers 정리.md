@@ -63,7 +63,7 @@ Mac 주소(Physical adresses) 관리
 라우터끼리 비트를 어떻게 전송할지 결정한다.
 
 # 각 계층별 커뮤니케이션 단위 (패킷을 어떻게 명명하는지)
-문제 나왓엇음
+
 - Application, Presentation, Session Layer
 	- `message`
 - Transport Layer - port
