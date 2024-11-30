@@ -182,9 +182,46 @@ traceroute 프로그램은 엄격한 소스 라우팅을 구현하는 데에도 
 ![[Pasted image 20241127152828.png|500]]
 읽어만 보자
 ![[Pasted image 20241127153232.png|500]]
+IP_Adding_Module (data, destination_address)
+1. 데이터와 목적지 주소를 인수로 받습니다.
+2. 데이터를 IP 데이터그램에 캡슐화합니다.
+3. 체크섬을 계산하고 체크섬 필드에 삽입합니다.
+4. 데이터를 해당 큐로 보냅니다.
+5. 반환합니다.
 ![[Pasted image 20241127153241.png|500]]
+```
+IP_Processing_Module (Datagram)
+1. 입력 큐 중 하나에서 데이터그램을 제거합니다.
+2. 목적지 주소가 로컬 주소와 일치하면:
+	• 데이터그램을 재조립 모듈로 보냅니다.
+	• return
+3. 만약 장치가 라우터라면:
+	• TTL(Time To Live)을 감소시킵니다.
+1. TTL이 0 이하가 되면:
+	• 데이터그램을 폐기합니다.
+	• ICMP 오류 메시지를 보냅니다.
+	• return.
+5. 데이터그램을 포워딩 모듈로 보냅니다.
+6. return
+```
+
 ![[Pasted image 20241127153249.png|500]]
 ![[Pasted image 20241127153259.png|500]]
+```
+IP_Processing_Module (Datagram)
+1. 입력 큐 중 하나에서 데이터그램을 제거합니다.
+2. 목적지 주소가 로컬 주소와 일치하면:
+	• 데이터그램을 재조립 모듈로 보냅니다
+	• return.
+3. 만약 장치가 라우터라면:
+	• TTL(Time To Live)을 감소시킵니다.
+4. TTL이 0 이하가 되면:
+	• 데이터그램을 폐기합니다.
+	• ICMP 오류 메시지를 보냅니다.
+	• return.
+5. 데이터그램을 포워딩 모듈로 보냅니다.
+6. return.
+```
 
 ## Reassembly table
 ![[Pasted image 20241127154456.png|500]]
