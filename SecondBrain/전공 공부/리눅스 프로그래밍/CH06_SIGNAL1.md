@@ -15,7 +15,6 @@
 • 신호는 해당 신호를 발생시키는 이벤트가 발생하면 생성된다.
 • 신호는 프로세스가 해당 신호에 기반하여 작업을 취할 때 전달된다.
 • 신호의 수명은 생성과 전달 사이의 간격이다.
-• 생성되었지만 아직 전달되지 않은 신호는 보류 중이라고 한다.
 • 프로그램은 sigaction을 호출하여 사용자 정의 함수 이름으로 신호 핸들러를 설치한다.
 시그널은 default action을 하거나, ignore 되거나 catch될 수 있다. 하지만, SIGKILL과 SIGSTOP은 default action만 가능하다.
 ## 시그널 종류
@@ -113,11 +112,10 @@ int sigismember(const sigset_t *set, int signo);
 - 여러 신호를 표현하는 데이터 타입, 즉 **신호 집합**이 필요합니다.
 - 예를 들어, `sigprocmask` 같은 함수에서 커널에게 이 신호 집합의 신호가 발생하지 않도록 지시할 수 있습니다.
 (예시 안 봄)
-## `sigaction(2)` 시스템 호출 (1/3)
+## `sigaction(2)` 시스템 호출
 ```c
 #include <signal.h>
-int sigaction(int signo, const struct sigaction *restrict act,
-struct sigaction *restrict oact);
+int sigaction(int signo, const struct sigaction *restrict act, struct sigaction *restrict oact);
 // Returns: 0 if OK, -1 on error
 ```
 - `sigaction` 함수는 특정 신호에 대해 동작을 조회하거나 수정할 수 있습니다.
