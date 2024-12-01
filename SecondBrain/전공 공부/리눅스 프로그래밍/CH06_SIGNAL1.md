@@ -148,7 +148,6 @@ ex1: catching SIGINT
 static을 사용한 이유 -> 메모리를 clear하기 위해서(전역변수는 값을 clear해주기 때문)
 ![[Pasted image 20241028123959.png|500]]
 
-![[Pasted image 20241028124013.png|500]]
 ![[Pasted image 20241028124053.png|500]]
 ## 신호와 시스템 호출 (1/3)
 - *프로세스가 시스템 호출 중 신호를 받으면, 시스템 호출이 완료될 때까지 신호는 영향을 미치지 않습니다*.
@@ -166,7 +165,6 @@ static을 사용한 이유 -> 메모리를 clear하기 위해서(전역변수는
   - *자동 재시작 시스템 호출: `ioctl`, `read`, `write`, `wait`, `waitpid` 등이 있으며, 신호가 잡히면 재시작*됩니다.
   - *`sigaction`의 `sa_flags` 변수에 `SA_RESTART` 플래그를 설정하면, errno가 설정되지 않고 시스템 호출이 자동으로 재시작*됩니다.
 	  - setting해준 signal만 재시작이 된다.
-
 ### `sigaction(2)`의 또 다른 신호 처리기
 - `siginfo_t` 구조체는 신호가 생성된 이유에 대한 정보를 포함합니다.
 	- si_signo -> signal number
