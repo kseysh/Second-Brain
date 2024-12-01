@@ -72,6 +72,8 @@ int pipe(int filedes[2]); // pipe는 fd가 두개 있어야 하므로 array 사�
 	- 이후에 read 호출은 절대 블록되지 않습니다.
 	- 반환 값은 -1이 되고, errno는 EAGAIN으로 설정됩니다.
 ![[Pasted image 20241126130635.png|500]]
+파이프가 비어있을 때의 read는 -1
+파이프가 닫혔을 때의 read는 0
 ![[Pasted image 20241126130905.png|500]]
 pipe에 4번의 write를 하는데, write는 3초에 한 번씩 read는 1초에 한 번씩 해서 3번 pipe empty가 발생하고, read가 발생한다.
 parent에서 read의 반환 값이 0이면 부모도 종료한다 (자식에서의 write가 종료되었다는 의미이므로)
@@ -96,7 +98,6 @@ int pclose(FILE *fp);
 - FIFO는 때때로 named pipe라고도 불립니다. (Disk에 file로 저장되는 pipe)
 - 파이프는 관련된 프로세스 간에만 사용할 수 있으며, 공통 조상 프로세스가 파이프를 생성한 경우에만 사용할 수 있습니다.
 - 그러나 FIFO를 사용하면 관계없는 프로세스도 데이터 교환이 가능합니다. (fd를 공유하지 않아도 사용할 수 있다. FIFO라는 파일에서 open만 하면 되도록 구현했기 때문)
-- FIFO는 소유자, 크기, 접근 권한이 있으며, 일반적인 UNIX 파일처럼 열기, 닫기, 삭제할 수 있습니다.
 - FIFO는 *읽기 전용 또는 쓰기 전용으로만 열 수 있습니다*. 양방향 읽기-쓰기 모드로 열 수는 없습니다 (FIFO는 하프 듀플렉스이기 때문입니다).
 - stat structure의 st_mode member이다.
 - 이 특성은 `S_ISFIFO` 매크로로 확인할 수 있습니다.
