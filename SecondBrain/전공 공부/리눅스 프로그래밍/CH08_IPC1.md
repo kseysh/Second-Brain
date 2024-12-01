@@ -11,7 +11,7 @@ File 사용과 IPC 사용은 대동소이하다
 stat -> IPC에서는 identifier datastructure
 
 shmat -> shared memory attach
-shdat -> shared memory detach
+shmdt -> shared memory detach
 ## 권한 구조
 - IPC 객체가 생성될 때, 시스템은 IPC facility status structure도 함께 생성합니다.
 ![[Pasted image 20241126192335.png|500]]
