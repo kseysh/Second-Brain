@@ -143,7 +143,7 @@ int mkfifo(const char *pathname, mode_t mode);
 int select(int nfds, fd_set *readfds, fd_set *writefds, fd_set *exceptfds, struct timeval *timeout);
 ```
 - `select` 함수에 전달하는 인자는 커널에 다음 정보를 제공합니다.
-  - nfds: 관심 있는 디스크립터 수를 지정합니다.
+  - nfds: 관심 있는 디스크립터 번호를 지정합니다.
     - 예를 들어, *두 개의 파일 디스크립터 3과 4가 열려 있으면 `nfds`를 5로 설정해야 합니다.*
   - readfds: 지정된 디스크립터에서 읽기를 원하는 경우
   - writefds: 지정된 디스크립터에 쓰기를 원하는 경우
