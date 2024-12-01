@@ -1,7 +1,7 @@
 # TCP Timers
 ![[Pasted image 20241030150552.png|500]]
 ### Persistence Timer
-- rwnd가 0인 ACK을 받았을 때 켜지고, timer가 expire되면 작은 사이즈의 데이터(probe segmenr)를 보낸다.
+- rwnd가 0인 ACK을 받았을 때 켜지고, timer가 expire되면 작은 사이즈의 데이터(probe segment)를 보낸다.
 - 교착상태를 해결하기 위하여 사용
 - 영속타이머가 만료되면, probe 세그먼트 전송
 ### Keepalive Timer
