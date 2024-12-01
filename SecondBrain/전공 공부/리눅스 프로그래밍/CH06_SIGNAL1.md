@@ -69,9 +69,7 @@ void (*signal(int signo, void (*func)(int)))(int);
 // Returns: previous disposition of signal (see following) if OK, SIG_ERR on error
 ```
 - signal에 대한 action을 정의하는 함수
-
 • signal 함수는 ISO C에 정의되어 있지만, signal의 의미가 구현마다 다르기 때문에, sigaction 함수를 사용하는 것이 좋다.
-![[Pasted image 20241125220146.png|400]]
 
 ![[Pasted image 20241028120807.png|600]]
 pause() => signal을 받을 때까지 기다리는 것
@@ -80,7 +78,7 @@ SIGTERM을 보냈을 때는 sig_usr가 실행되지 않고 default action을 하
 ![[Pasted image 20241028120824.png|600]]
 ## Signal Block
 - *sig_int 함수가 시작 될 때 프로세스 신호 마스크가 추가되어 자동적으로 SIGINT를 차단하고, sig_int 함수가 끝나면 프로세스 신호 마스크가 끝나 차단이 해제*된다.
-- *신호 큐가 없으므로, UNIX 커널은 신호를 한 번만 전달한다*. (한 개의 SIGNAL만 pending되어 기다린다.)
+- *signal queue가 없으므로, UNIX 커널은 신호를 한 번만 전달한다*. (한 개의 SIGNAL만 pending되어 기다린다.)
 - sleep 도중에 SIGINT를 처리하게 되면 recursive하게 signal function이 들어갈 수 있다. 따라서 process signal mask를 이용해 SIGNAL을 block한다.
 ![[Pasted image 20241028121253.png|500]]
 ## Signal handling & `exec` (1/2)
