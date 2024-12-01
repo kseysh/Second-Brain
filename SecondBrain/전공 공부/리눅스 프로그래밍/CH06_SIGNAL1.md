@@ -165,11 +165,12 @@ static을 사용한 이유 -> 메모리를 clear하기 위해서(전역변수는
   - *자동 재시작 시스템 호출: `ioctl`, `read`, `write`, `wait`, `waitpid` 등이 있으며, 신호가 잡히면 재시작*됩니다.
   - *`sigaction`의 `sa_flags` 변수에 `SA_RESTART` 플래그를 설정하면, errno가 설정되지 않고 시스템 호출이 자동으로 재시작*됩니다.
 	  - setting해준 signal만 재시작이 된다.
-### `sigaction(2)`의 또 다른 신호 처리기
+## `sigaction(2)`의 또 다른 신호 처리기
 - `siginfo_t` 구조체는 신호가 생성된 이유에 대한 정보를 포함합니다.
 	- si_signo -> signal number
 	- si_pid -> signal을 보낸 pid
 	- si_uid -> signal을 보낸 real user id
+## signal에 관한 추가 정보
 - signal catching function이 반환되면, 프로세스의 signal mask는 이전 값으로 재설정됩니다.
 - 특정 신호를 잡는 동안 추가적인 같은 신호가 발생하면 해당 신호는 차단됩니다.
 • OS는 핸들러가 호출될 때 전달되는 신호를 신호 마스크에 포함시킵니다.
