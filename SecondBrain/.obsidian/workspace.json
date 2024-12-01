@@ -20,8 +20,19 @@
               "icon": "lucide-file",
               "title": "CH07_PIPE"
             }
+          },
+          {
+            "id": "c29088d49d3f3b2b",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "새 탭"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -77,7 +88,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 237.50260543823242
+    "width": 237.50260543823242,
+    "collapsed": true
   },
   "right": {
     "id": "feabab388e8825fc",
@@ -258,10 +270,10 @@
       }
     ]
   },
-  "active": "9f2c09ba742e1744",
+  "active": "c29088d49d3f3b2b",
   "lastOpenFiles": [
-    "전공 공부/리눅스 프로그래밍/리눅스 기말.md",
     "전공 공부/리눅스 프로그래밍/CH07_PIPE.md",
+    "전공 공부/리눅스 프로그래밍/리눅스 기말.md",
     "전공 공부/리눅스 프로그래밍/CH06_SIGNAL2.md",
     "전공 공부/리눅스 프로그래밍/CH06_SIGNAL1.md",
     "전공 공부/리눅스 프로그래밍/CH08_IPC1.md",
