@@ -216,10 +216,10 @@
           }
         ],
         "direction": "vertical",
-        "x": 1065,
-        "y": 148,
+        "x": 855,
+        "y": 39,
         "width": 855,
-        "height": 809,
+        "height": 1068,
         "maximize": false,
         "zoom": -0.5
       },
@@ -249,10 +249,10 @@
           }
         ],
         "direction": "vertical",
-        "x": 1065,
-        "y": 148,
+        "x": 855,
+        "y": 39,
         "width": 855,
-        "height": 809,
+        "height": 1068,
         "maximize": false,
         "zoom": -0.5
       }
