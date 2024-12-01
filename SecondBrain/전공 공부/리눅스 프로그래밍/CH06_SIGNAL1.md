@@ -177,11 +177,9 @@ static을 사용한 이유 -> 메모리를 clear하기 위해서(전역변수는
 • 따라서, 주어진 신호를 처리하는 동안 해당 신호의 또 다른 발생은 우리가 첫 번째 발생을 처리할 때까지 차단됩니다.
 • 같은 신호의 추가 발생은 일반적으로 큐에 쌓이지 않습니다.
 
-### `sigsetjmp(3)`와 `siglongjmp(3)` (1/2)
+## `sigsetjmp(3)`와 `siglongjmp(3)`
 ```c
-#include <setjmp.h>
 int sigsetjmp(sigjmp_buf env, int savemask); // env가 label
-
 void siglongjmp(sigjmp_buf env, int val);
 ```
 sigsetjmp -> label
