@@ -114,7 +114,6 @@ int sigismember(const sigset_t *set, int signo);
 (예시 안 봄)
 ## `sigaction(2)` 시스템 호출
 ```c
-#include <signal.h>
 int sigaction(int signo, const struct sigaction *restrict act, struct sigaction *restrict oact);
 // Returns: 0 if OK, -1 on error
 ```
@@ -128,15 +127,14 @@ struct sigaction {
 	void (*sa_handler)(int); /* addr of signal handler, */ /* or SIG_IGN, or SIG_DFL */
 	sigset_t sa_mask; /* additional signals to block */		
 	int sa_flags; /* signal options, Figure 10.16 */
-
 	void (*sa_sigaction)(int, siginfo_t *, void *);	/* alternate handler */
-
 };
 ```
   - **주요 필드**
-    - `sa_handler`: 신호를 잡는 함수의 주소 (또는 상수 `SIG_IGN`이나 `SIG_DFL`)
+    - `sa_handler`: signal handler 주소 (또는 상수 `SIG_IGN`이나 `SIG_DFL`)
     - `sa_mask`: 신호 잡기 함수가 호출되기 전 프로세스의 신호 마스크에 추가되는 신호 집합 (이미 block되는 signal외에 추가적으로 block하고 싶은 signal이 있을 때)
     - `sa_flags`: 신호 처리 옵션 (`SA_RESTART`, `SA_SIGINFO`)
+sigemptyset을 사용하여 구조체의 sa_mask 멤버를 초기화해야 합니다. act.sa_mask = 0;이 같은 역할을 한다고 보장할 수 없습니다.
 
 • *sa_sigaction 필드는 SA_SIGINFO 플래그가 sigaction과 함께 사용될 때 사용하는 대체 신호 핸들러*입니다.
 • 구현체들은 sa_sigaction 필드와 sa_handler 필드를 동일한 저장소를 사용할 수 있으므로, 애플리케이션은 이 두 필드 중 하나만 사용할 수 있다.
