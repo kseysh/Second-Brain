@@ -11,7 +11,6 @@
 	- kill(2) 함수
 	- kill(1) 명령어(kill -9 \#pid)
 	- 소프트웨어 조건(SIGURG, SIGPIPE, SIGALRM 등)
-• 신호는 이벤트의 소프트웨어 알림이다.
 • 신호는 해당 신호를 발생시키는 이벤트가 발생하면 생성된다.
 • 신호는 프로세스가 해당 신호에 기반하여 작업을 취할 때 전달된다.
 • 신호의 수명은 생성과 전달 사이의 간격이다.
@@ -40,9 +39,6 @@ signal에 대한 default action이 terminate가 아닌 signal
 - SIGCONT(CONTINUE)
 - SIGUSR1 (IGNORE)
 - SIGUSR2 (IGNORE)
-
-## 정상 비정상 종료
-![[Pasted image 20241014131012.png|600]]
 # Signal handling
 - 신호가 발생하면 세 가지 작업 중 하나를 수행한다.
 - SIGKILL과 SIGSTOP 두 신호는 ignore하거나 catch할 수 없다.
