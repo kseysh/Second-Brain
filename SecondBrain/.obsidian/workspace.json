@@ -52,7 +52,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "exclusion",
+                "query": "fd_set",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -73,12 +73,12 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 237.50260543823242,
-    "collapsed": true
+    "width": 237.50260543823242
   },
   "right": {
     "id": "feabab388e8825fc",
@@ -228,13 +228,13 @@
   },
   "active": "9f2c09ba742e1744",
   "lastOpenFiles": [
-    "전공 공부/리눅스 프로그래밍/CH08_IPC1.md",
     "전공 공부/리눅스 프로그래밍/CH08_IPC2.md",
+    "전공 공부/리눅스 프로그래밍/CH08_IPC1.md",
+    "전공 공부/리눅스 프로그래밍/CH10_SOCKET.md",
     "전공 공부/리눅스 프로그래밍/CH07_PIPE.md",
     "전공 공부/리눅스 프로그래밍/CH06_SIGNAL1.md",
     "전공 공부/리눅스 프로그래밍/CH06_SIGNAL2.md",
     "전공 공부/리눅스 프로그래밍/리눅스 기말.md",
-    "전공 공부/리눅스 프로그래밍/CH10_SOCKET.md",
     "전공 공부/컴퓨터 네트워크/TCP 2.md",
     "전공 공부/컴퓨터 네트워크/중간/7 Layers 정리.md",
     "Unused/Attached files/Pasted image 20241202122723.png",
