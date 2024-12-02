@@ -20,16 +20,6 @@
               "icon": "lucide-file",
               "title": "CH08_IPC2"
             }
-          },
-          {
-            "id": "c29088d49d3f3b2b",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "새 탭"
-            }
           }
         ]
       }
@@ -236,10 +226,10 @@
       }
     ]
   },
-  "active": "78f9df7d4687529a",
+  "active": "9f2c09ba742e1744",
   "lastOpenFiles": [
-    "전공 공부/리눅스 프로그래밍/CH08_IPC2.md",
     "전공 공부/리눅스 프로그래밍/리눅스 기말.md",
+    "전공 공부/리눅스 프로그래밍/CH08_IPC2.md",
     "전공 공부/리눅스 프로그래밍/CH10_SOCKET.md",
     "Unused/Attached files/Pasted image 20241202122723.png",
     "전공 공부/리눅스 프로그래밍/CH08_IPC1.md",

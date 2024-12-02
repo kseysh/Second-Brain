@@ -260,7 +260,6 @@ int shmdt(void *addr);
 int shmctl(int shmid, int cmd, struct shmid_ds *buf);
 ```
 - `cmd` 매개변수는 `shmid`로 지정된 세그먼트에 대해 수행할 다섯 가지 명령 중 하나를 지정합니다.
-다음 글을 번역해드릴게요:
 ###### 명령어 설명
 • IPC_STAT: shmid_ds를 buf로 복사합니다.
 • IPC_SET: buf에 있는 값을 기반으로 공유 메모리 세그먼트 shmid의 필드 값을 설정합니다.
