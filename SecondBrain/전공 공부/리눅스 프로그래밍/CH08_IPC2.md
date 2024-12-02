@@ -192,6 +192,7 @@ semval = resource 개수로 생각하는 것이 일반적
 num에 의해 주어지는 semaphore에게 op이 지정한 operation을 지정해서 s에 저장한다.
 1번 operation에 대해서는 wait를 실행한다.
 N번 operation에 대해서 signal을 실행한다.
+
 ![[Pasted image 20241128091645.png|500]]
 
 ![[Pasted image 20241128091659.png|500]]
