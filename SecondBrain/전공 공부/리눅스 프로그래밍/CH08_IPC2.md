@@ -183,7 +183,7 @@ struct sembuf {
 
 IPC_NOWAIT가 지정된 경우, EAGAIN 오류와 함께 반환됩니다.
 ###### sem_op 동작
-semval = resoure 개수로 생각하는 것이 일반적
+semval = resource 개수로 생각하는 것이 일반적
 `sem_op > 0`: V() -> signal operation, 세마포어를 증가시켜 자원의 해제를 기록합니다. sem_op를 semval에 더합니다.
 `sem_op < 0`: P() -> wait operation, 세마포어를 감소시켜 자원의 획득을 기록합니다. semval이 abs(sem_op) 이상이 될 때까지 블록됩니다. semval은 abs(sem_op)만큼 감소합니다.
 `sem_op` == 0: 세마포어가 0인지 테스트합니다. semval이 0이 될 때까지 블록됩니다. (실제 사용 x)
