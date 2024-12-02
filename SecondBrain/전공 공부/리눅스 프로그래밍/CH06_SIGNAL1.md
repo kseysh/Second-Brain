@@ -75,6 +75,7 @@ SIGTERM을 보냈을 때는 sig_usr가 실행되지 않고 default action을 하
 - *sig_int 함수가 시작 될 때 프로세스 신호 마스크가 추가되어 자동적으로 SIGINT를 차단하고, sig_int 함수가 끝나면 프로세스 신호 마스크가 끝나 차단이 해제*된다.
 - *signal queue가 없으므로, UNIX 커널은 신호를 한 번만 전달한다*. (한 개의 SIGNAL만 pending되어 기다린다.)
 - sleep 도중에 SIGINT를 처리하게 되면 recursive하게 signal function이 들어갈 수 있다. 따라서 process signal mask를 이용해 SIGNAL을 block한다.
+- SIGINT가 block되면, 사라지는 것이 아니라 pending 되는 것이다. 따라서 sigprocmask가 해제되면 다시 sig_int를 실행한다.
 ![[Pasted image 20241028121253.png|500]]
 ## Signal handling & `exec` (1/2)
 - 프로그램이 실행될 때 모든 신호의 상태는 default action을 한다.
@@ -82,17 +83,6 @@ SIGTERM을 보냈을 때는 sig_usr가 실행되지 않고 default action을 하
 	- (exec는 부모와 실행하는 프로그램이 달라 부모의 signal handling function을 찾지 못하기 때문)
 - *프로세스가 `fork`를 호출하면, 자식 프로세스는 부모의 신호 처리를 상속*받습니다. 
 	- (fork는 부모와 실행하는 프로그램이 같아 부모의 signal handling function을 찾을 수 있기 때문)
-
-![[Pasted image 20241028122115.png|500]]
-exec에서는 시그널 핸들러가 작동하지 않는 것을 보여주는 예제
-
-![[Pasted image 20241028122332.png|500]]
-![[Pasted image 20241028122346.png|500]]
-ctrl c는 foreground에만 적용되어서, background에는 kill -INT 1828을 해준 것.
-
-ps 이후 결과
-1828이 없어짐
-1828이 없는데 신호를 보내서 그대로임
 ## Signal Sets
 ```c
 #include <signal.h>
@@ -141,8 +131,6 @@ ex1: catching SIGINT
 ![[Pasted image 20241028123802.png|500]]
 static을 사용한 이유 -> 메모리를 clear하기 위해서(전역변수는 값을 clear해주기 때문)
 ![[Pasted image 20241028123959.png|500]]
-
-![[Pasted image 20241028124053.png|500]]
 ## 신호와 시스템 호출 (1/3)
 - *프로세스가 시스템 호출 중 신호를 받으면, 시스템 호출이 완료될 때까지 신호는 영향을 미치지 않습니다*.
 - *만약 프로세스가 "느린" 시스템 호출 동안 신호를 잡으면, 시스템 호출이 중단됩니다*.
