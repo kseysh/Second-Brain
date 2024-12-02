@@ -38,6 +38,8 @@ sockaddr: socket은 인터넷만 사용하는 것이 아니므로 generic addres
 ## Internet addressing
 - IP addresses는 domain names라고 불리는 식별자의 집합이다.
 	- 165.246.10.2 is mapped to inha.ac.kr
+![[Pasted image 20241202122723.png|500]]
+aton과 addr 구분하기
 ## Main Structure
 ![[Pasted image 20241125131522.png|400]]
 ## Byte Ordering
