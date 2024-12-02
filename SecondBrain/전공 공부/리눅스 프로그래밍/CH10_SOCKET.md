@@ -15,7 +15,7 @@
   - 연결 없는 프로토콜
   - 흐름 제어 및 오류 제어 없음 (신뢰성 낮음)
   - 작은 메시지 전송에 사용
-  - 멀티캐스트 및 브로드캐스트 지원
+  - *멀티캐스트 및 브로드캐스트 지원*
 - 스트림 소켓 (TCP 사용):
   - 연결 지향 프로토콜
   - 흐름 제어 및 오류 제어 메커니즘 사용 (신뢰성 높음)
@@ -43,25 +43,13 @@ aton과 addr 구분하기
 ## Main Structure
 ![[Pasted image 20241125131522.png|400]]
 generic address -> 여러가지 네트워크를 만들기 위해 필요한 추상적 객체
-## Byte Ordering
-![[Pasted image 20241125131537.png|400]]
-## Confusing the byte ordering
-![[Pasted image 20241125131555.png|400]]
-## Network byte order
-![[Pasted image 20241125131626.png|400]]
+
 TCP/IP는 항상 빅 엔디언을 사용한다.
 - 그래서 애플리케이션은 때때로 프로세서의 바이트 순서와 네트워크 바이트 순서 사이를 변환해야 합니다. (hton)
 # Socket interface
 ## socket(2) system call
 ![[Pasted image 20241125131727.png|400]]
 인터넷에서는 domain과 type만 지정하면 된다. AF_INET, SOCK_STREAM
-## Selecting the protocol
-### Connection-Oriented vs Connectionless
-• Connection oriented (streams)
-– `sd = socket(AF_INET, SOCK_STREAM, 0);`
-• Connectionless (datagrams):
-– `sd = socket(AF_INET, SOCK_DGRAM, 0);`
-인터넷(AF_INET)에서는 이것이 각각 TCP와 UDP에 해당합니다.
 ## bind(2) system call
 ```c
 int bind(int sockfd, const struct sockaddr *addr, socklen_t len);
@@ -97,7 +85,7 @@ int accept(int sockfd, struct sockaddr *restrict addr, socklen_t *restrict len);
   - 첫 번째 소켓: 연결 수립 전용
   - 두 번째 소켓: 특정 통신을 위한 소켓
 - 매개변수:
-  - `addr`: 연결 지향 통신이므로 NULL로 넣어도 된다.
+  - `addr`: 연결 지향 통신이므로 NULL로 넣어도 된다. (연결시에 ip와 port가 아닌 fd로 통신하면 되므로)
   - `len`: NULL
 ![[Pasted image 20241128093906.png|400]]
 ## `connect` system call
