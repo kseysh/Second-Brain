@@ -146,7 +146,6 @@ union semun { // (semaphore union)
 	unsigned short *array; /* for GETALL and SETALL */
 };
 ```
-
 ###### 표준 IPC 함수
 • IPC_STAT: 세마포어 집합 semid의 구성원을 semid_dso에서 arg.buf로 복사합니다.
 • IPC_SET: arg.buf에서 세마포어 집합의 권한을 설정합니다.
