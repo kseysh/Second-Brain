@@ -127,14 +127,14 @@ flags == 0일 때: read(), write()와 동일
 ## 메시지 송수신
 ## Sending and receiving messages
 ```c
-ssize_t recvfrom(int sockfd, void *restrict buf, size_t len, int flags, struct sockaddr *restrict send_addr, socklen_t *restrict addrlen);
+ssize_t recvfrom(int sockfd, void *restrict buf, size_t len, int flags, struct sockaddr *restrict send_addr, socklen_t *restrict addrlen); // (recv에 이게 추가)
 // Returns: length of message in bytes, 0 if no messages are available and peer has done an orderly shutdown, or -1 on error
-ssize_t sendto(int sockfd, const void *buf, size_t nbytes, int flags, const struct sockaddr *dest_addr, socklen_t destlen);
+ssize_t sendto(int sockfd, const void *buf, size_t nbytes, int flags, const struct sockaddr *dest_addr, socklen_t destlen);//(send에 이게 추가)
 
 ```
 - 매개변수:
   - `send_addr`: 메시지를 보낸 장치의 **주소 정보**
-  - `dest_addr`: 메시지를 보낼 **피어의 주소**
+  - `dest_addr`: 메시지를 보낼 **피어의 주소** 
 ### server process example
 ![[Pasted image 20241128094642.png|500]]
 ### client process example
