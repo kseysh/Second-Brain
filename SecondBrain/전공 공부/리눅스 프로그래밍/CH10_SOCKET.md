@@ -97,7 +97,7 @@ int accept(int sockfd, struct sockaddr *restrict addr, socklen_t *restrict len);
   - 첫 번째 소켓: 연결 수립 전용
   - 두 번째 소켓: 특정 통신을 위한 소켓
 - 매개변수:
-  - `addr`: 연결 지향 통신이므로 NULL
+  - `addr`: 연결 지향 통신이므로 NULL로 넣어도 된다.
   - `len`: NULL
 ![[Pasted image 20241128093906.png|400]]
 ## `connect` system call
@@ -114,17 +114,6 @@ ssize_t send(int sockfd, const void *buf, size_t nbytes, int flags);
 // 반환: 전송된 바이트 수(정상인 경우), 오류 발생 시 -1
 ```
 flags == 0일 때: read(), write()와 동일
-
-recv 함수의 flag 옵션
-• `MSG_PEEK`: 패킷 내용을 소비하지 않고 반환
-• `MSG_OOB`: 프로토콜이 지원하는 경우, 대역 외(out-of-band) 데이터를 검색
-• `MSG_WAITALL`: 모든 데이터가 사용 가능할 때까지 대기 (SOCK_STREAM만 해당)
-
-send 함수의 flag 옵션
-• `MSG_DONTWAIT`: 비차단(nonblocking) 동작 활성화 (O_NONBLOCK 사용과 동일)
-• `MSG_OOB`: 프로토콜이 지원하는 경우, 대역 외(out-of-band) 데이터 전송
-• `MSG_DONTROUTE`: 패킷을 로컬 네트워크 외부로 라우팅하지 않음
-• `MSG_EOR`: 프로토콜이 지원하는 경우, 기록의 끝임을 표시
 ## 연결 종료
 - 소켓의 반대쪽 프로세스가 예기치 않게 종료될 경우, 적절히 처리하는 것이 매우 중요합니다.
 - 프로세스가 연결이 끊어진 소켓에 데이터를 쓰거나 보낼 경우 **SIGPIPE 신호**를 받습니다.
