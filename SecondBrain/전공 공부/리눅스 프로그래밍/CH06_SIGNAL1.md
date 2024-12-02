@@ -101,13 +101,11 @@ int sigemptyset(sigset_t *set); // 전부 0으로 채움
 int sigfillset(sigset_t *set); // 전부 1로 채움
 int sigaddset(sigset_t *set, int signo); // signo만 1로 set
 int sigdelset(sigset_t *set, int signo); // signo만 0으로 set
-
 int sigismember(const sigset_t *set, int signo);
 // signo에 해당하는 signal이 1로 세팅되어 있는지를 묻는 것
 ```
 - 여러 신호를 표현하는 데이터 타입, 즉 **신호 집합**이 필요합니다.
 - 예를 들어, `sigprocmask` 같은 함수에서 커널에게 이 신호 집합의 신호가 발생하지 않도록 지시할 수 있습니다.
-(예시 안 봄)
 ## `sigaction(2)` 시스템 호출
 ```c
 int sigaction(int signo, const struct sigaction *restrict act, struct sigaction *restrict oact);
