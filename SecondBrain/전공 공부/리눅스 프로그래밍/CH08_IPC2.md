@@ -249,7 +249,7 @@ int shmdt(void *addr);
 ```
 - `addr` 매개변수는 이전에 `shmat` 호출로 반환된 값입니다. 호출이 성공하면, `shmdt`는 해당 `shmid_ds` 구조체의 `shm_nattch` 카운터를 감소시킵니다.
 
-### `shmctl(2)` 시스템 호출
+## `shmctl(2)` 시스템 호출
 ```c
 int shmctl(int shmid, int cmd, struct shmid_ds *buf);
 ```
