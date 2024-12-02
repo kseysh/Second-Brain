@@ -42,14 +42,15 @@ sockaddr: socket은 인터넷만 사용하는 것이 아니므로 generic addres
 aton과 addr 구분하기
 ## Main Structure
 ![[Pasted image 20241125131522.png|400]]
+generic address -> 여러가지 네트워크를 만들기 위해 필요한 추상적 객체
 ## Byte Ordering
 ![[Pasted image 20241125131537.png|400]]
 ## Confusing the byte ordering
 ![[Pasted image 20241125131555.png|400]]
 ## Network byte order
 ![[Pasted image 20241125131626.png|400]]
-TCP/IP 프로토콜 스위트는 빅 엔디언 바이트 순서를 사용합니다.
-- 그래서 애플리케이션은 때때로 프로세서의 바이트 순서와 네트워크 바이트 순서 사이를 변환해야 합니다.
+TCP/IP는 항상 빅 엔디언을 사용한다.
+- 그래서 애플리케이션은 때때로 프로세서의 바이트 순서와 네트워크 바이트 순서 사이를 변환해야 합니다. (hton)
 # Socket interface
 ## socket(2) system call
 ![[Pasted image 20241125131727.png|400]]
