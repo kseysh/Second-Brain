@@ -158,7 +158,7 @@ long tv_sec; /* seconds */
 long tv_usec; /* and microseconds */
 };
 ```
-- `readfds`, `writefds`, `exceptfds`의 세 중간 인수 중 하나 또는 모두는 관심이 없을 경우 null 포인터로 지정할 수 있습니다.
+-*`readfds`, `writefds`, `exceptfds`의 세 중간 인수 중 하나 또는 모두는 관심이 없을 경우 null 포인터로 지정할 수 있습니다.*
 ![[Pasted image 20241126182838.png|400]]
 
 ```c
