@@ -30,6 +30,7 @@ C의 테이블과 A의 테이블을 더한 임시 테이블을 만들고 자신�
 하나씩 전달한다.
 ![[Pasted image 20241130180441.png|500]]
 최종 테이블
+## Two node instability
 
 
 
