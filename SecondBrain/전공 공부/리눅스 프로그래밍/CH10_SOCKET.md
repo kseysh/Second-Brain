@@ -101,7 +101,7 @@ ssize_t recv(int sockfd, void *buf, size_t nbytes, int flags);
 ssize_t send(int sockfd, const void *buf, size_t nbytes, int flags);
 // 반환: 전송된 바이트 수(정상인 경우), 오류 발생 시 -1
 ```
-flags == 0일 때: read(), write()와 동일
+*flags == 0일 때: read(), write()와 동일*
 ## 연결 종료
 - 소켓의 반대쪽 프로세스가 예기치 않게 종료될 경우, 적절히 처리하는 것이 매우 중요합니다.
 - 프로세스가 연결이 끊어진 소켓에 데이터를 쓰거나 보낼 경우 **SIGPIPE 신호**를 받습니다.
