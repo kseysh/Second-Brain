@@ -59,8 +59,15 @@ B는 X 경로로 가는 라우팅 정보의 next가 C이므로 C에게는 정보
 ### 해결책
 cost가 maximum이 될 때까지 loop이 생기고, maximum이 되면 loop이 감지된다.
 # Link state routing
+내가 가지고 있는 partial 정보를 전체와 주고 받는다. 그 후 본인이 루트인 것으로 해서 최단 경로를 dijkstra로 구한다.
 ![[Pasted image 20241204021844.png|400]]
-
 ### dijkstra algorithm
 ![[Pasted image 20241204022216.png|400]]
 tentative list중에서 cost가 제일 작은 값을 confirmed list로 불러온다.
+confirmed list로 불러온 값에서 갈 수 있는 값들을 tentative list로 다시 불러온다.
+
+## A가 루트인 shortest path 구하기
+![[Pasted image 20241204023335.png|400]]
+실선은 이미 확정된 경로, 점선은 후보군
+![[Pasted image 20241204023416.png|400]]
+![[Pasted image 20241204023433.png|400]]
