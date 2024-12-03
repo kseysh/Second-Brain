@@ -40,9 +40,17 @@ After A receives update from B: B가  테이블을 업데이트하면서 A 테�
 After B receives update from A: A가 테이블을 업데이트하면서 B 테이블을 업데이트한다.
 이처럼 A와 B 사이에 Loop가 발생하며 cost가 점차 증가하는 상황하여 maximum 값에 다다라서야 Loop를 감지할 수 있는 문제가 생긴다.
 #### 테이블은 언제 업데이트 되는가?
-1. 주기적으로 업데이트 된다.
+1. 주기적으로 업데이트 된다. (보통 2분)
 2. 본인의 테이블이 수정이 되면 교환한다.
 ### 해결 방법
 1. 최댓 값을 16으로 설정한다. (내부망에서 16은 큰 숫자이며 보통 16을 넘지 않기 때문)
-2. split horizon - 라우터 A에게는 A가 next로 되어 있는 라우팅 정보는 보내지 않는다.
-3. 
+2. split horizon - 라우터 A에게는 A가 next로 되어 있는 라우팅 정보는 보내지 않는다. 
+	1. 문제 - X까지 가는 길을 몰라서 안 보내주는 것인지, 아는데 2번의 규칙으로 안 보내는 것인지 모른다.
+3. split horizon & poison reverse - 라우터 A에게는 A가 next로 되어 있는 라우팅 정보를 cost를 maximum으로 해서 보낸다.
+	1. B와 A는 direct로 연결되어 있고, X도 A와 연결되어 있어서 B는 X에 대한 정보를 알텐데, cost를 maximum으로 해서 보낸다면, split horizon으로 인해 보내지 못한다는 것을 알 수 있다.
+
+## Three-node instability
+![[Pasted image 20241203224856.png|500]]
+X-A가 끊어져 A가 B와 C에게 정보를 전송하는데, C로 가는 패킷이 없어진 상황 (transport layer가 아닌 network layer이므로 신뢰성 보장을 할 수 없다.)
+이 때 C가 주기적으로 정보를 보내게 되면, 
+
