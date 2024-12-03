@@ -71,3 +71,6 @@ confirmed list로 불러온 값에서 갈 수 있는 값들을 tentative list로
 실선은 이미 확정된 경로, 점선은 후보군
 ![[Pasted image 20241204023416.png|400]]
 ![[Pasted image 20241204023433.png|400]]
+
+### C가 루트라면?
+![[Pasted image 20241204024014.png|400]]
