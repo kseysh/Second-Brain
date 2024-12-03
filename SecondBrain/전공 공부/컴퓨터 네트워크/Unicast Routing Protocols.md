@@ -6,6 +6,7 @@ AS 안에서는 최단 경로를 우선으로 하여 테이블을 구성하지�
 
 ## routing protocols
 ![[Pasted image 20241130174657.png|500]]
+# Distance vector routing
 ## Distance vector에서 사용되는 벨만-포드 알고리즘
 ![[Pasted image 20241130174834.png|500]]
 
@@ -52,5 +53,9 @@ After B receives update from A: A가 테이블을 업데이트하면서 B 테이
 ## Three-node instability
 ![[Pasted image 20241203224856.png|500]]
 X-A가 끊어져 A가 B와 C에게 정보를 전송하는데, C로 가는 패킷이 없어진 상황 (transport layer가 아닌 network layer이므로 신뢰성 보장을 할 수 없다.)
-이 때 C가 주기적으로 정보를 보내게 되면, 
-
+이 때 C가 주기적으로 정보를 보내게 되면, B는 next가 다르고 cost가 더 작은 A가 보낸 라우팅 정보를 택한다.
+B는 X 경로로 가는 라우팅 정보의 next가 C이므로 C에게는 정보를 보내지 않지만, A에게는 보내고 A도 next가 다르고 cost가 더 작은 B가 보낸 라우팅 정보를 택한다.
+이로 인해 ABC는 loop이 다시 발생한다.
+### 해결책
+cost가 maximum이 될 때까지 loop이 생기고, maximum이 되면 loop이 감지된다.
+# Link state routing
