@@ -59,3 +59,8 @@ B는 X 경로로 가는 라우팅 정보의 next가 C이므로 C에게는 정보
 ### 해결책
 cost가 maximum이 될 때까지 loop이 생기고, maximum이 되면 loop이 감지된다.
 # Link state routing
+![[Pasted image 20241204021844.png|400]]
+
+### dijkstra algorithm
+![[Pasted image 20241204022216.png|400]]
+tentative list중에서 cost가 제일 작은 값을 confirmed list로 불러온다.
