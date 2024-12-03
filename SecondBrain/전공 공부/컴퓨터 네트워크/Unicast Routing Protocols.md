@@ -38,7 +38,11 @@ Before failure: X로 가기 위해 B는 X까지의 Cost를 1 + 1로 업데이트
 After failure: A에서 X로 가는 길이 끊어져 A에서 X로 가는 Cost를 무한으로 세팅함
 After A receives update from B: B가  테이블을 업데이트하면서 A 테이블을 업데이트한다.
 After B receives update from A: A가 테이블을 업데이트하면서 B 테이블을 업데이트한다.
-이처럼 A와 B 사이에 Loop가 발생하며 cost가 점차 증가하는 상황이 발생한다.
-### 테이블은 언제 업데이트 되는가?
+이처럼 A와 B 사이에 Loop가 발생하며 cost가 점차 증가하는 상황하여 maximum 값에 다다라서야 Loop를 감지할 수 있는 문제가 생긴다.
+#### 테이블은 언제 업데이트 되는가?
 1. 주기적으로 업데이트 된다.
 2. 본인의 테이블이 수정이 되면 교환한다.
+### 해결 방법
+1. 최댓 값을 16으로 설정한다. (내부망에서 16은 큰 숫자이며 보통 16을 넘지 않기 때문)
+2. split horizon - 라우터 A에게는 A가 next로 되어 있는 라우팅 정보는 보내지 않는다.
+3. 
