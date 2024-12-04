@@ -95,7 +95,7 @@ ARP_Input_Module ( )
         } // end if
     } // end if
 
-    If (발견되지 않음)
+    If (발견되지 않음) // request를 처음 받은 상황
     {
         항목을 생성.
         테이블에 항목을 추가.
@@ -111,6 +111,38 @@ ARP_Input_Module ( )
 
 ```
 ### Cache-Control module
+```
+ARP_Cache_Control_Module ( )
+{
+    Sleep until the periodic timer matures
+    Repeat for every entry in the cache table
+    {
+	    If(the state is FREE){
+		    Continue
+	    }//end if
+	    If(the state is PENDING){
+		    Increment the value of attempts by 1
+		    If(attempts greater than maximum){
+			    Change the state to FREE
+			    Destroy the corresponding queue
+		    }// end if
+		    else
+		    {
+			    Send an ARP request
+		    }// end else
+		    continue
+	    }// end if
+	    If(the state is RESOLVED){
+		    Decrement the value of time-out
+		    If(time-out less than or equal 0){
+			    Change the state to FREE
+			    Destroy the corresponding queue
+		    }//end if
+	    }// end if
+    }// end repeat
+    Return
+} // end module
+```
 ### cache table
 ![[Pasted image 20241204135033.png|500]]
 - State
