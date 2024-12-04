@@ -38,6 +38,79 @@ ARP Request를 보낼 때 MAC주소를 1로 채워 broadcast로 보낸다.
 ![[Pasted image 20241204134938.png|500]]
 output module: ARP packet이 output으로 나오는 모듈
 input module: ARP packet을 input으로 받는 모듈
+## sudo code
+### Output module
+```
+ARP_Output_Module ( )
+{
+    IP 소프트웨어로부터 IP 패킷을 수신할 때까지 Sleep.
+
+    IP 패킷의 목적지에 해당하는 항목을 찾기 위해 캐시 테이블을 확인.
+
+    If (항목이 발견됨)
+    {
+        If (상태가 RESOLVED)
+        {
+            항목에서 하드웨어 주소 값을 추출.
+            패킷과 하드웨어 주소를 데이터 링크 계층으로 보냄.
+            Return
+        } // end if
+
+        If (상태가 PENDING)
+        {
+            패킷을 해당 큐에 삽입(Enqueue).
+            Return
+        } // end if
+    } // end if
+
+    If (항목이 발견되지 않음)
+    {
+        상태를 PENDING으로 설정하고 ATTEMPTS를 1로 설정하여 캐시 항목을 생성.
+        큐를 생성.
+        패킷을 삽입(Enqueue).
+        ARP 요청을 보냄.
+        Return
+    } // end if
+} // end module
+
+```
+### Input module
+```
+ARP_Input_Module ( )
+{
+    ARP 패킷(요청 또는 응답)이 도착할 때까지 Sleep.
+
+    해당 항목을 찾기 위해 캐시 테이블을 확인.
+
+    If (발견됨)
+    {
+        항목을 업데이트.
+        If (상태가 PENDING)
+        {
+            While (큐가 비어 있지 않음)
+            {
+                하나의 패킷을 Dequeue.
+                패킷과 하드웨어 주소를 보냄.
+            } // end if
+        } // end if
+    } // end if
+
+    If (발견되지 않음)
+    {
+        항목을 생성.
+        테이블에 항목을 추가.
+    } // end if
+
+    If (패킷이 요청인 경우)
+    {
+        ARP 응답을 보냄.
+    } // end if
+
+    Return
+} // end module
+
+```
+### Cache-Control module
 ### cache table
 ![[Pasted image 20241204135033.png|500]]
 - State
