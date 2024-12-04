@@ -84,7 +84,7 @@ ARP_Input_Module ( )
 
     If (발견됨)
     {
-        항목을 업데이트.
+        entry를 업데이트.(state를 R로 바꿈, Queue와 attempt를 지움)
         If (상태가 PENDING)
         {
             While (큐가 비어 있지 않음)
