@@ -32,4 +32,15 @@ A가 B에게 패킷을 보내려는 상황
 ARP Request를 보낼 때 MAC주소를 1로 채워 broadcast로 보낸다.
 0x0806을 보고 ARP인 것을 확인하고 0x0001을 보고 ARP request인 것을 확인한다.
  ARP reply는 MAC 부소가 채워지고 unicast로 보내진다.
- 0x0002를 보고 ARP reply인 것을 확인한ㄷ
+ 0x0002를 보고 ARP reply인 것을 확인한다.
+
+## ARP components
+![[Pasted image 20241204134938.png|500]]
+output module: ARP packet이 output으로 나오는 모듈
+input module: ARP packet을 input으로 받는 모듈
+### cache table
+![[Pasted image 20241204135033.png|500]]
+- State
+	- R(Resolved): IP주소와 MAC주소가 매핑되어 있음
+	- P(Pending): IP주소로 MAC주소를 알아보고 있는 상황
+	- F: 빈칸일 때
