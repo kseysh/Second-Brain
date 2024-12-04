@@ -37,7 +37,11 @@ ARP Request를 보낼 때 MAC주소를 1로 채워 broadcast로 보낸다.
 ## ARP components
 ![[Pasted image 20241204134938.png|500]]
 output module: ARP packet이 output으로 나오는 모듈
+- IP packet을 보고 테이블 찾아봐서 resolved가 되면 IP packet을 보내준다.
+- cache table에 값이 없으면, P로 놓고 queue에 요청을 넣는다.
 input module: ARP packet을 input으로 받는 모듈
+- ARP packet을 받아 Table 업데이트
+- P -> R로 변한다면 queue에 있는 값을 모두 꺼내서 응답하는 모듈
 ## sudo code
 ### Output module
 ```
@@ -112,36 +116,45 @@ ARP_Input_Module ( )
 ```
 ### Cache-Control module
 ```
-ARP_Cache_Control_Module ( )
+ARP_Cache_Control_Module ( )
 {
-    Sleep until the periodic timer matures
-    Repeat for every entry in the cache table
+    주기적인 타이머가 만료될 때까지 Sleep.
+
+    캐시 테이블의 모든 항목에 대해 반복 수행
     {
-	    If(the state is FREE){
-		    Continue
-	    }//end if
-	    If(the state is PENDING){
-		    Increment the value of attempts by 1
-		    If(attempts greater than maximum){
-			    Change the state to FREE
-			    Destroy the corresponding queue
-		    }// end if
-		    else
-		    {
-			    Send an ARP request
-		    }// end else
-		    continue
-	    }// end if
-	    If(the state is RESOLVED){
-		    Decrement the value of time-out
-		    If(time-out less than or equal 0){
-			    Change the state to FREE
-			    Destroy the corresponding queue
-		    }//end if
-	    }// end if
-    }// end repeat
+        If (상태가 FREE)
+        {
+            Continue
+        } // end if
+
+        If (상태가 PENDING)
+        {
+            attempts 값을 1 증가.
+            If (attempts가 최대값보다 크면) // max까지 보내봤는데 해결되지 않음 
+            {
+                상태를 FREE로 변경.
+                해당 큐를 삭제.
+            } // end if
+            else
+            {
+                ARP 요청을 보냄.
+            } // end else
+            continue
+        } // end if
+
+        If (상태가 RESOLVED)
+        {
+            time-out 값을 1 감소.
+            If (time-out이 0 이하로 감소하면)
+            {
+                상태를 FREE로 변경.
+                해당 큐를 삭제.
+            } // end if
+        } // end if
+    } // end repeat
     Return
 } // end module
+
 ```
 ### cache table
 ![[Pasted image 20241204135033.png|500]]
