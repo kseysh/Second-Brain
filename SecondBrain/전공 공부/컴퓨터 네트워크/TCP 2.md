@@ -78,13 +78,9 @@ a상황인지 b상황인지 sender는 구별할 수 없다.
 재전송 때는 측정하지 않고 측정하더라도 RTTs와 RTTd는 그대로 둔다.
 두 번째에서는 RTO를 두 배 늘려서 보낸다. (Exponential Backoff of RTO)
 RTTs와 RTTd는 변경없다
-
-## Example RTT estimation
-![[Pasted image 20241030154705.png|500]]
-
 ## Options
 TCP 헤더는 최대 선택적 정보를 가질 수 있는데, 추가 정보를 전달하거나 다른 옵션을 정렬하는 데 사용된다.
-![[Pasted image 20241030154853.png|600]]
+![[Pasted image 20241030154853.png|400]]
 Single-byte : 땜빵용 (이정도만 알면 충분, 하나는 앞에 붙고 하나는 뒤에 붙는거)
 중요한건 Multiple-byte
 ## End-of-option option
@@ -115,7 +111,8 @@ rwnd에 2의 n승만큼 더 보내기 위해 Scale factor에 n을 넣는다 (따
 
 ![[Pasted image 20241030160812.png|600]]
 출발시간을 헤더에 포함해 보내고 ACK에서 받았던 출발시간을 보내서 RTT를 구한다 (Timestamp option)
-또한 타임스탬프는 (PAWS(Protection Against Wrapped Sequence number))로 활용할 수도 있다. (만약 sequence number가 길어서 초과하게 되면 sequence number가 초과하더라도 0부터 시작하고 쭉 쓰는데 timestamp option을 활용하여 packet에 출발시간이 있어서 그것으로 구분한다.)
+또한 타임스탬프는 PAWS(Protection Against Wrapped Sequence number)로 활용할 수도 있다. 
+(만약 sequence number가 길어서 초과하게 되면 sequence number가 초과하더라도 0부터 시작하고 쭉 쓰는데 timestamp option을 활용하여 packet에 출발시간이 있어서 그것으로 구분한다.)
 
 ## SACK (selective ack)
 cumulative ack의 단점
