@@ -20,7 +20,6 @@ a. 경로 중심의 라우팅 테이블
 A에서 B로 가는 모든 경로를 라우팅 테이블에서 저장해둔다
 b. next hope 기반의 라우팅 테이블
 A에서 B로 갈 때 next hop의 경로만 라우팅 테이블에서 저장해둔다.
-
 ## Network-specific method
 ![[Pasted image 20241125150145.png|400]]
 N2가 class A라면 라우팅 테이블은 N2에 대해서만 1600만개의 주소를 저장하고 있어야 한다.
