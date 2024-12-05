@@ -342,7 +342,7 @@ ISP는 190.100.0.0/16 (65,536개의 주소)로 시작하는 주소 블록을 부
 보통 컴퓨터는 고정 IP가 아닌 유동 IP를 사용하는데, 이 때
 IP를 할당해주는 것이 DHCP 서버이다.
  DHCP에게 내가 어떤 주소를 쓰면 되는지 물어볼 때 할당해주는 것이 DHCP 서버이다. (공유기가 이 역할을 한다.)
- 자신의 IP주소도 모르고 DHCP주소도 모르기 때문에, 묻는 IP를 0.0.0.0으로, 답하는 IP를 255.255.255.255로 보내서 IP를 할당 받는다.
+ 자신의 IP주소도 모르고 DHCP주소도 모르기 때문에, 묻는 IP를 0.0.0.0으로, Destination IP를 255.255.255.255로 보내서 IP를 할당 받는다.
 ![[Pasted image 20241121171148.png|300]]
 
 ## loopback address
@@ -357,11 +357,9 @@ destination IP address를 255.255.255.255로 보낸 주소는 broadcast주소라
 ## directed broadcast address
 ![[Pasted image 20241121172321.png|400]]
 suffix가 모두 1인 경우 directed broadcast address라 하며, 다른 라우터에게 보낼 데이터가 있을 때 directed broadcast address를 이용하여 보낸다.
-
 ## 사설망 주소
 ![[Pasted image 20241121172942.png|500]]
 IP주소가 사설망 주소인지, 아닌지 구분하기 어렵기 때문에 사설망 주소를 따로 분리해두었다.
-
 ## NAT (network address translation)
 사설망을 쓰기 위해 꼭 필요한 것
 ![[Pasted image 20241125142609.png|400]]
