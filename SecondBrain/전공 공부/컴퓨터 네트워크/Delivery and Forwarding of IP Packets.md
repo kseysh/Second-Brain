@@ -103,8 +103,7 @@ classful에서는 최소 3개의 컬럼만 있으면 된다 => destination, next
 
 ![[Pasted image 20241120153750.png|500]]
 ### example 7
-![[
-]]
+![[Pasted image 20241120153833.png|500]]
 ![[Pasted image 20241120153839.png|600]]
 네트워크 4개 연결, 최소한 4개의 정보는 direct하게 연결되어 저장되어 있고
 다른 정보도 가질 수 있음
