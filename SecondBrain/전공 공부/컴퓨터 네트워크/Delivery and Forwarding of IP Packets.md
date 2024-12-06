@@ -51,7 +51,7 @@ S는 자신이 누구에게 패킷을 보내면 되는지에 대해서만 알면
 그림 6.9는 라우터 R1이 사용하는 세 가지 테이블을 보여줍니다. 다음 홉 주소 열의 일부 항목이 비어 있는 것을 주목하세요. 이는 이러한 경우에 목적지가 라우터가 연결된 동일한 네트워크 내에 있기 때문입니다(직접 전달). 이러한 경우, ARP에서 사용하는 다음 홉 주소는 단순히 패킷의 목적지 주소입니다.
 
 ![[Pasted image 20241125151430.png|400]]
-direct delivery는 next-hop  address가 비어있다.
+direct delivery는 next-hop address가 비어있다.
 class 별로 라우팅 테이블이 구성되어 있다.
 indirect delivery는 라우터의 next-hop address가 저장되어 있다.
 R3가 192.16.7.0에 direct하게 보내준다.
