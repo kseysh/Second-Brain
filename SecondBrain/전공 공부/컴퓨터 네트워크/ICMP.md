@@ -74,8 +74,6 @@ R1가 보내는 r2가 같은 네트워크이고, A도 같은 네트워크라는 
 ![[Pasted image 20241130164037.png|400]]
 targer router = r2로 설정
 redirection message는 라우터로부터 같은 로컬 네트워크에 있는 호스트로 보내진다.
-
-
 ## Echo-request message
 ![[Pasted image 20241130165237.png|500]]
 echo-request message는 호스트나 라우터가 보낼 수 있다
