@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "전공 공부/논리 회로/Widmer_C9.md",
+                "file": "전공 공부/논리 회로/Widmer_C5.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Widmer_C9"
+              "title": "Widmer_C5"
             }
           }
         ]
@@ -188,8 +188,50 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "9f2c09ba742e1744",
+  "floating": {
+    "id": "816d7dae7acdad43",
+    "type": "floating",
+    "children": [
+      {
+        "id": "be2b55bee156137b",
+        "type": "window",
+        "children": [
+          {
+            "id": "755470b3ed3062d1",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "c569b6f02ce5e43b",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "전공 공부/논리 회로/5장 문제 해석.md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "5장 문제 해석"
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "vertical",
+        "x": 855,
+        "y": 39,
+        "width": 855,
+        "height": 1068,
+        "maximize": false,
+        "zoom": 1
+      }
+    ]
+  },
+  "active": "c569b6f02ce5e43b",
   "lastOpenFiles": [
+    "전공 공부/논리 회로/Widmer_C5.md",
+    "전공 공부/논리 회로/5장 문제 해석.md",
+    "전공 공부/논리 회로/Widmer_C9.md",
     "전공 공부/지난 학기/시스템 프로그래밍/14. Arrays.md",
     "전공 공부/지난 학기/시스템 프로그래밍/13. Calling Conventions.md",
     "전공 공부/지난 학기/시스템 프로그래밍/12. Stack.md",
@@ -213,9 +255,6 @@
     "전공 공부/지난 학기/이산구조/중간고사/Recursive Algorithms.md",
     "전공 공부/지난 학기/이산구조/6. 일반화 된 수열과 조합.md",
     "전공 공부/지난 학기/이산구조/8. 점화 관계.md",
-    "전공 공부/지난 학기/이산구조/10. 그래프.md",
-    "전공 공부/지난 학기/이산구조/11. 트리.md",
-    "전공 공부/지난 학기/이산구조/9. 관계.md",
     "Unused/Attached files/Pasted image 20241205164348.png",
     "Unused/Attached files/Pasted image 20241205164328.png",
     "Unused/Attached files/Pasted image 20241205164315.png",
