@@ -111,7 +111,7 @@ struct semid_ds {
 
 struct sem {
 	ushort_t semval; /* semaphore value, nonegative*/
-	short sempid; /* PIDof last successful semop(), SETVAL, SETALL*/
+	short sempid; /* PID of last successful semop(), SETVAL, SETALL*/
 	ushort_t semncnt; /* # awaiting semval > current value */
 	ushort_t semzcnt; /* # awaiting semval = 0 */
 };
