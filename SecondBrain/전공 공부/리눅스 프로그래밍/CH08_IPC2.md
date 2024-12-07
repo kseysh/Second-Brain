@@ -168,7 +168,8 @@ semid가 가리키는 세마포어 셋의 특정 번호의 세마포어에 semva
 ```c
 int semop(int semid, struct sembuf semoparray[], size_t nops);
 ```
-- `semop`는 사용자 정의 세마포어 작업을 세마포어 세트에 대해 원자적으로 수행합니다.
+- `semop`는 사용자 정의 세마포어 작업을 세마포어 세트에 대해 원자적으로 수행합니다
+- nops => 배열 내의 세마포어 연산의 개수입니다. 이 값은 semop 함수가 배열에서 수행할 연산의 수를 지정합니다.
 semid가 가리키고 있는 세마포어의 개수와 semoparray의 개수가 같을 필요는 없다(semid가 가리키고 있는 세마포어의 개수보다 작을 수도 있다.) 
 ```c
 struct sembuf {
@@ -243,6 +244,8 @@ void *shmat(int shmid, const void *addr, int flag);
 // shared memory 첫 주소 리턴
 ```
 - `shmat`은 호출 프로세스의 주소 공간에 지정된 공유 메모리 세그먼트를 부착하고 `shmid`의 `shm_nattch` 값을 증가시킵니다.
+- addr = 0 => 시스템이 적절한 주소를 자동으로 선택
+- flag = 0 => 공유 메모리를 RDWR로 연결
 
 ![[Pasted image 20241128093143.png|400]]
 서로 가상 메모리 내에 잡혀있는 주소는 다를 수 있다.
