@@ -35,6 +35,7 @@ int msgget(key_t key, int flag);
 ## `msgsnd(2)` 시스템 호출
 ```c
 int msgsnd(int msqid, const void *ptr, size_t nbytes, int flag);
+// Returns: 0 if OK, -1 on error
 ```
 - `msgsnd`를 사용하여 메시지를 큐에 삽입합니다.
 - 메시지는 항상 큐의 끝에 추가됩니다.
@@ -51,6 +52,7 @@ struct mymesg { // 이게 ptr
 ### `msgrcv(2)` 시스템 호출
 ```c
 ssize_t msgrcv(int msqid, void *ptr, size_t nbytes, long type, int flag);
+// Returns: size of data portion of message if OK, -1 on error
 ```
 - 매개변수:
   - `ptr`: 사용자 정의 버퍼를 가리킵니다.
@@ -64,6 +66,7 @@ ssize_t msgrcv(int msqid, void *ptr, size_t nbytes, long type, int flag);
 ## `msgctl(2)` 시스템 호출
 ```c
 int msgctl(int msqid, int cmd, struct msqid_ds *buf );
+// Returns: 0 if OK, -1 on error
 ```
 - `msgctl`은 메시지 큐를 제거하거나 권한을 변경할 때 사용됩니다.
 ###### cmd
