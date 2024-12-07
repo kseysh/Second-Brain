@@ -135,6 +135,7 @@ int mkfifo(const char *pathname, mode_t mode);
 ## `select(2)` 시스템 호출
 ```c
 int select(int nfds, fd_set *readfds, fd_set *writefds, fd_set *exceptfds, struct timeval *timeout);
+// Returns: count of ready descriptors, 0 on timeout, -1 on error
 ```
 - `select` 함수에 전달하는 인자는 커널에 다음 정보를 제공합니다.
   - nfds: 관심 있는 디스크립터 번호를 지정합니다.
