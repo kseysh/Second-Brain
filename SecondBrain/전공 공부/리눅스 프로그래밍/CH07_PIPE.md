@@ -158,8 +158,8 @@ long tv_usec; /* and microseconds */
 
 ```c
 int FD_ISSET(int fd, fd_set *fdset);
-void FD_CLR(int fd, fd_set *fdset);
-void FD_SET(int fd, fd_set *fdset);
+void FD_CLR(int fd, fd_set *fdset);// 파일 디스크립터 집합에서 제거
+void FD_SET(int fd, fd_set *fdset);// 파일 디스크립터 집합에 추가
 void FD_ZERO(fd_set *fdset);
 ```
 
