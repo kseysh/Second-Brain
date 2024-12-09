@@ -150,7 +150,6 @@
 ![[Pasted image 20241125124634.png|400]]
 이거 보고 7-43 풀기
 ![[Pasted image 20241125124707.png|400]]
-![[Pasted image 20241125124718.png|400]]
 # 7-14 상태 기계(State Machines)
 ![[Pasted image 20241125124732.png|300]]
 - 상태 기계(State Machine)란 미리 정해진 상태를 따라 순서대로 진행하는 회로를 의미합니다.
