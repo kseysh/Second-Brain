@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "전공 공부/논리 회로/Widmer_C6.md",
+                "file": "전공 공부/논리 회로/Widmer_C7.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Widmer_C6"
+              "title": "Widmer_C7"
             }
           }
         ]
@@ -193,25 +193,25 @@
     "type": "floating",
     "children": [
       {
-        "id": "4b39cdfcf6cb8c51",
+        "id": "89bab6201f07ed32",
         "type": "window",
         "children": [
           {
-            "id": "e1174a91aa842504",
+            "id": "38d4dc3db4ceb437",
             "type": "tabs",
             "children": [
               {
-                "id": "4890ae4bef85c012",
+                "id": "09f0c3f0afb6d301",
                 "type": "leaf",
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "전공 공부/논리 회로/6장 문제 해석.md",
+                    "file": "전공 공부/논리 회로/7장 문제 해석.md",
                     "mode": "source",
                     "source": false
                   },
                   "icon": "lucide-file",
-                  "title": "6장 문제 해석"
+                  "title": "7장 문제 해석"
                 }
               }
             ]
@@ -227,10 +227,12 @@
       }
     ]
   },
-  "active": "9f2c09ba742e1744",
+  "active": "09f0c3f0afb6d301",
   "lastOpenFiles": [
-    "전공 공부/논리 회로/6장 문제 해석.md",
+    "전공 공부/논리 회로/Widmer_C7.md",
     "전공 공부/논리 회로/Widmer_C6.md",
+    "전공 공부/논리 회로/7장 문제 해석.md",
+    "전공 공부/논리 회로/6장 문제 해석.md",
     "전공 공부/논리 회로/Widmer_C9.md",
     "전공 공부/논리 회로/5장 문제 해석.md",
     "전공 공부/논리 회로/Widmer_C5.md",
@@ -242,8 +244,6 @@
     "전공 공부/리눅스 프로그래밍/CH08_IPC2.md",
     "전공 공부/리눅스 프로그래밍/CH10_SOCKET.md",
     "전공 공부/리눅스 프로그래밍/CH08_IPC1.md",
-    "전공 공부/논리 회로/Widmer_C7.md",
-    "전공 공부/논리 회로/7장 문제 해석.md",
     "전공 공부/논리 회로/중간/Widmer_C4.md",
     "전공 공부/논리 회로/중간/Widmer_C3.md",
     "전공 공부/지난 학기/시스템 프로그래밍/14. Arrays.md",
