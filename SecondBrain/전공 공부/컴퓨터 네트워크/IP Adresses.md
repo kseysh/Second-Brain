@@ -2,7 +2,6 @@
 ![[Pasted image 20241105204343.png|500]]
 IP 주소는 32Bit의 Binary다. 
 표기가 편하게 byte 단위로 끊어 십진법으로 사용한다.
-
 ## IPv4 Binary -> decimal
 ![[Pasted image 20241105204613.png|500]]
 ### 자주 사용하는 Binary
