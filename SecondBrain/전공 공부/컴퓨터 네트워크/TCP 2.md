@@ -67,9 +67,9 @@ RTO는 Sender가 측정한다.
 ## Karn's Algorithm
 ![[Pasted image 20241030153740.png|400]]
 (a)에서 original transmission이 사라졌음
-(b)에서는 Retransmissino이 사라졌음
+(b)에서는 Retransmission이 사라졌음
 a상황인지 b상황인지 sender는 구별할 수 없다.
-따라서 이 case에서는 재전송에 대한 mesurement값이 오류가 발생할 수 있어 Karn's Algorithm을 사용한다. (한 번 잘못된 측정 값이 이후에도 계속 영향을 끼칠 수 있으므로)
+따라서 이 case에서는 재전송에 대한 measurement값이 오류가 발생할 수 있어 Karn's Algorithm을 사용한다. (한 번 잘못된 측정 값이 이후에도 계속 영향을 끼칠 수 있으므로)
 
 • 재전송된 세그먼트에 대해서는 RTT를 업데이트하지 않는다.
 • 재전송되지 않은 세그먼트에 대한 ACK를 받은 후에만 RTT 측정을 다시 시작한다.
