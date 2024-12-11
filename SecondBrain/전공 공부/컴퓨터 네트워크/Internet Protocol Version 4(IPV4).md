@@ -132,9 +132,6 @@ Destination과 IP address가 계속 바뀌면서 포인터 값이 4만큼 증가
 Strict-source-route-option에서는 보내야 할 next가 연결되어 있지 않거나 유효하지 않으면 패킷을 버리지만, Loose-source-route option에서는 순서가 약간 바뀌거나 중간에 다른 곳을 거쳐와도 패킷을 버리지 않는다.
 ## Time-stamp option - 크게 안 중요함
 ![[Pasted image 20241127151053.png|500]]
-## Use of flags in timestamp
-![[Pasted image 20241127151103.png|500]]
-안 외워도 됨
 ## Timestamp concept
 ![[Pasted image 20241127151137.png|500]]
 ## example
