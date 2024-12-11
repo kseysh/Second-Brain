@@ -1,4 +1,4 @@
-# Internet Control Message Protocol Version 4
+# Internet Control Message Protocol
 IP 프로토콜에는 오류 보고 또는 오류 수정 메커니즘이 없어 ICMP를 통해 오류를 보고한다.
 ICMP는 항상 에러메시지를 original source에게 보고한다.
 
