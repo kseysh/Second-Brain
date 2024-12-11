@@ -5,8 +5,6 @@ ICMP는 항상 에러메시지를 original source에게 보고한다.
 ICMP 메시지는 error reporting 메시지와 query 메시지로 나뉜다.
 error reporting message: 라우터나 호스트(목적지)가 IP 패킷을 처리할 때 겪을 수 있는 문제를 보고
 query message: 쿼리 메시지는 쌍으로 발생하며, 호스트나 네트워크 관리자가 라우터나 다른 호스트로부터 특정 정보를 얻는 데 도움을 준다.
-## Position of ICMP in the network layer
-![[Pasted image 20241127154718.png|500]]
 ![[Pasted image 20241127154832.png]]
 type 번호 안 외워도 됨
 ## ICMP messages 포맷
