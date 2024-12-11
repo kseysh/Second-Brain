@@ -73,7 +73,7 @@ R1가 보내는 r2가 같은 네트워크이고, A도 같은 네트워크라는 
 targer router = r2로 설정
 redirection message는 라우터로부터 같은 로컬 네트워크에 있는 호스트로 보내진다.
 ## Echo-request message
-![[Pasted image 20241130165237.png|500]]
+![[Pasted image 20241130165237.png|400]]
 echo-request message는 호스트나 라우터가 보낼 수 있다
 echo-reply message는 echo-request message를 받는 메시지가 응답하는 것이다.
 상대방 컴퓨터에 IP 주소가 할당되어 있어 네트워크가 연결되어 있는지를 확인하기 위해 사용한다.
