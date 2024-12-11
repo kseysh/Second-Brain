@@ -9,7 +9,6 @@
 ![[Pasted image 20241125145510.png|400]]
 A가 B한테 데이터를 보낼 때 다른 네트워크를 거쳐 가는 것을 간접 전달이라 한다.
 라우터가 라우터로 보내는 것도 간접전달이고, 라우터가 내부에 있는 B로 전달하는 것은 Direct delivery이다.
-
 # Forwarding
 라우팅 테이블을 보고 next hop으로 가게끔 interface에 패킷을 가져다 두는 것
 forwarding -> 라우팅 테이블도 같이 일을 한다.
@@ -18,7 +17,7 @@ forwarding -> 라우팅 테이블도 같이 일을 한다.
 ![[Pasted image 20241125145904.png|400]]
 a. 경로 중심의 라우팅 테이블
 A에서 B로 가는 모든 경로를 라우팅 테이블에서 저장해둔다
-b. next hope 기반의 라우팅 테이블
+b. next hop 기반의 라우팅 테이블
 A에서 B로 갈 때 next hop의 경로만 라우팅 테이블에서 저장해둔다.
 ## Network-specific method
 ![[Pasted image 20241125150145.png|400]]
