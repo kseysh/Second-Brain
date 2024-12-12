@@ -63,6 +63,7 @@ RTO는 Sender가 측정한다.
 2. SYN+ACK 세그먼트가 도착하면 RTTM이 측정되며, 이는 1.5초이다.
 
 ![[Pasted image 20241030153037.png|500]]
+**RTTd 측정시 새로 계산한 RTTs를 활용한다.**
 3. 첫 번째 데이터 세그먼트가 전송될 때 새로운 RTT 측정이 시작된다. 두 번째 데이터 세그먼트에 대해서는 이미 측정이 진행 중이므로 새로운 RTT 측정이 시작되지 않는다. 마지막 ACK 세그먼트의 도착은 다음 RTTM 값을 계산하는 데 사용된다. 비록 마지막 ACK 세그먼트가 두 데이터 세그먼트 모두를 확인하지만(누적 확인), 그 도착은 첫 번째 세그먼트에 대한 RTTM 값을 확정 짓는다. 이 변수들의 값은 이제 다음과 같다.
 ## Karn's Algorithm
 ![[Pasted image 20241030153740.png|400]]
@@ -83,7 +84,7 @@ TCP 헤더는 최대 선택적 정보를 가질 수 있는데, 추가 정보를 
 ![[Pasted image 20241030154853.png|400]]
 Single-byte : 땜빵용 (이정도만 알면 충분, 하나는 앞에 붙고 하나는 뒤에 붙는거)
 중요한건 Multiple-byte
-## End-of-option option
+## End-of-option
 ![[Pasted image 20241030154916.png|500]]
 한 개만 쓰일 수 있다.
 ## No-operation option
