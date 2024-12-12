@@ -65,7 +65,7 @@ checksum이나 ip주소가 이상하다 생각되면 original source에게 이�
 ![[Pasted image 20241130163538.png|500]]
 a가 b에게 보내려는 상황
 default 라우터가 r1인 상황
-a는 r2와 연결되어 있지만 굳이 r1을 거쳐서 갔음 
+a는 r2와 연결되어 있지만 굳이 r1을 거쳐서 갔음
 R1가 보내는 r2가 같은 네트워크이고, A도 같은 네트워크라는 것을 확인하면 A에게 b에게 보낼 때는 r2로 보내라고 알려준다.
 ## Redirection message
 호스트는 일반적으로 작은 라우팅 테이블로 시작하여 점차적으로 확장되고 업데이트됩니다. 이를 수행하기 위한 도구 중 하나가 리디렉션 메시지이다.
@@ -79,7 +79,9 @@ echo-reply message는 echo-request message를 받는 메시지가 응답하는 �
 상대방 컴퓨터에 IP 주소가 할당되어 있어 네트워크가 연결되어 있는지를 확인하기 위해 사용한다.
 보통 ping command는 이 echo-request message를 이용해 구현한다.
 Echo-request message는 보통 RTT를 측정할 때 자주 쓰인다.
-echo-request message에서 original timestamp를 적어서 보내고, echo-reply message에서는 receive timestamp와 transmit timestamp를 적어서 보낸다.
+## Timestamp message
+![[Pasted image 20241213023101.png|300]]
+timestamp-request message에서 original timestamp를 적어서 보내고, timestamp-reply message에서는 receive timestamp와 transmit timestamp를 적어서 보낸다.
 보낸 시간과 도착시간의 차에서 transmit timestamp와 reveive timestamp의 차이를 빼주면 RTT를 보다 더 정확하게 알 수 있다.
 상대방과 자신의 시계가 다르더라도 정확하게 RTT를 측정할 수 있다. 또한 시계의 sync를 맞출 수도 있다.
 ## traceroute program operation
