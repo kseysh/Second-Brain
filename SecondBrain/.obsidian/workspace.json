@@ -204,14 +204,10 @@
                 "id": "09f0c3f0afb6d301",
                 "type": "leaf",
                 "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "전공 공부/논리 회로/7장 문제 해석.md",
-                    "mode": "source",
-                    "source": false
-                  },
+                  "type": "empty",
+                  "state": {},
                   "icon": "lucide-file",
-                  "title": "7장 문제 해석"
+                  "title": "새 탭"
                 }
               }
             ]
@@ -227,14 +223,14 @@
       }
     ]
   },
-  "active": "9f2c09ba742e1744",
+  "active": "09f0c3f0afb6d301",
   "lastOpenFiles": [
+    "전공 공부/논리 회로/Widmer_C9.md",
     "전공 공부/논리 회로/Widmer_C7.md",
     "전공 공부/논리 회로/7장 문제 해석.md",
     "전공 공부/논리 회로/논리회로 기말.md",
     "전공 공부/논리 회로/Widmer_C6.md",
     "전공 공부/논리 회로/6장 문제 해석.md",
-    "전공 공부/논리 회로/Widmer_C9.md",
     "전공 공부/논리 회로/5장 문제 해석.md",
     "전공 공부/논리 회로/Widmer_C5.md",
     "전공 공부/리눅스 프로그래밍/CH06_SIGNAL1.md",
