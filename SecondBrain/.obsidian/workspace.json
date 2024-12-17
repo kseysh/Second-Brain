@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "알고리즘/C++ 문법/sort.md",
+                "file": "알고리즘/풀이/boj/다시 풀 문제/boj 1744.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "sort"
+              "title": "boj 1744"
             }
           }
         ]
@@ -78,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 237.50260543823242
+    "width": 237.50260543823242,
+    "collapsed": true
   },
   "right": {
     "id": "feabab388e8825fc",
@@ -189,6 +190,9 @@
   },
   "active": "9f2c09ba742e1744",
   "lastOpenFiles": [
+    "Unused/Attached files/Pasted image 20241217205153.png",
+    "알고리즘/C++ 문법/sort.md",
+    "알고리즘/풀이/boj/다시 풀 문제/boj 1744.md",
     "알고리즘/오늘 푼 문제.md",
     "Unused/Attached files/Pasted image 20241217194317.png",
     "알고리즘/풀이/boj/다시 풀 문제/boj 11000.md",
@@ -217,8 +221,6 @@
     "전공 공부/지난 학기/오픈소스응용프로그래밍/2-8. 소프트웨어 테스팅 개요.md",
     "전공 공부/지난 학기/오픈소스응용프로그래밍/2-8. 블랙박스 테스팅 기법.md",
     "전공 공부/지난 학기/오픈소스응용프로그래밍/2-7. 행위 패턴.md",
-    "전공 공부/지난 학기/오픈소스응용프로그래밍/2-7. 생성 패턴.md",
-    "전공 공부/지난 학기/오픈소스응용프로그래밍/2-6. 디자인패턴 종류.md",
     "Unused/Attached files/Pasted image 20241205164348.png",
     "Unused/Attached files/Pasted image 20241205164328.png",
     "Unused/Attached files/Pasted image 20241205164315.png",
