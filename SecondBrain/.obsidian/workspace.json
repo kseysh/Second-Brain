@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "알고리즘/오늘 푼 문제.md",
+                "file": "알고리즘/풀이/boj/풀 문제.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "오늘 푼 문제"
+              "title": "풀 문제"
             }
           }
         ]
@@ -78,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 237.50260543823242
+    "width": 237.50260543823242,
+    "collapsed": true
   },
   "right": {
     "id": "feabab388e8825fc",
@@ -189,11 +190,12 @@
   },
   "active": "9f2c09ba742e1744",
   "lastOpenFiles": [
+    "알고리즘/오늘 푼 문제.md",
+    "알고리즘/풀이/boj/풀 문제.md",
     "Unused/Attached files/Pasted image 20241223221141.png",
     "Unused/Attached files/Pasted image 20241223211345.png",
     "알고리즘/풀이/boj/다시 풀 문제/boj 6087.md",
     "알고리즘/풀이/boj/다시 보기만 할 문제/boj 10830.md",
-    "알고리즘/오늘 푼 문제.md",
     "Unused/Attached files/Pasted image 20241223160500.png",
     "Unused/Attached files/Pasted image 20241223151851.png",
     "Unused/Attached files/Pasted image 20241222133142.png",
@@ -208,7 +210,6 @@
     "알고리즘/풀이/boj/다시 풀 문제/boj 1744.md",
     "Unused/Attached files/Pasted image 20241217205153.png",
     "알고리즘/C++ 문법/sort.md",
-    "Unused/Attached files/Pasted image 20241217194317.png",
     "알고리즘/풀이/boj/다시 풀 문제/boj 11000.md",
     "알고리즘/풀이/boj/다시 풀 문제/boj 2869 +.md",
     "알고리즘/풀이/boj/다시 풀 문제/boj 1074.md",
@@ -219,7 +220,6 @@
     "알고리즘/풀이/boj/다시 풀 문제/boj 10026.md",
     "알고리즘/풀이/boj/boj java ranking.md",
     "알고리즘/풀이/boj/다시 풀 문제",
-    "알고리즘/풀이/boj/무제 파일.md",
     "알고리즘/풀이/boj/boj 1406.md",
     "알고리즘/풀이/boj/boj 1167 아직 안 품.md",
     "Obsidian/PARA 정리법.md",
