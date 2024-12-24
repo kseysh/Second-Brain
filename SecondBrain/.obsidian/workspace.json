@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "JAVA/인터페이스 vs 추상클래스.md",
+                "file": "전공 공부/운영체제/컨텍스트 스위칭.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "인터페이스 vs 추상클래스"
+              "title": "컨텍스트 스위칭"
             }
           }
         ]
@@ -190,8 +190,9 @@
   },
   "active": "9f2c09ba742e1744",
   "lastOpenFiles": [
-    "알고리즘/풀이/boj/풀 문제.md",
     "JAVA/인터페이스 vs 추상클래스.md",
+    "전공 공부/운영체제/컨텍스트 스위칭.md",
+    "알고리즘/풀이/boj/풀 문제.md",
     "알고리즘/오늘 푼 문제.md",
     "Unused/Attached files/Pasted image 20241223221141.png",
     "Unused/Attached files/Pasted image 20241223211345.png",
@@ -227,7 +228,6 @@
     "전공 공부/운영체제/멀티태스킹, 멀티프로세스, 멀티스레딩.md",
     "전공 공부/지난 학기/오픈소스응용프로그래밍/중간고사/Git.md",
     "전공 공부/운영체제",
-    "전공 공부/지난 학기/오픈소스응용프로그래밍/중간고사/도커와 이미지, 컨테이너.md",
     "전공 공부/논리 회로/중간",
     "전공 공부/컴퓨터 네트워크/중간",
     "전공 공부/리눅스 프로그래밍/중간",
