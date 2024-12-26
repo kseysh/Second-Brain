@@ -20,3 +20,9 @@ class ThreadTest {
 }
 ```
 ![[Pasted image 20241226210438.png|400]]
+
+## 실행 제어
+![[Pasted image 20241226214309.png]]
+- resume, stop, suspend는 쓰레드를 교착상태로 만들기 쉽기 때문에 deprecated 되었다.
+## 스레드의 상태
+![[Pasted image 20241226214501.png|400]]
