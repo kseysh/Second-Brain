@@ -27,26 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "JAVA/낙관적 락.md",
+                "file": "JAVA/volatile.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "낙관적 락"
-            }
-          },
-          {
-            "id": "8a9447da4ff50f80",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "DB/낙관적 락.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "낙관적 락"
+              "title": "volatile"
             }
           }
         ],
@@ -219,9 +205,14 @@
   },
   "active": "236c276ecfebb59b",
   "lastOpenFiles": [
+    "Unused/Attached files/Pasted image 20241227212423.png",
     "JAVA/Lock & Condition.md",
-    "DB/낙관적 락.md",
+    "JAVA/volatile.md",
+    "Unused/Attached files/Pasted image 20241227212131.png",
+    "Unused/Attached files/Pasted image 20241227212120.png",
+    "Unused/Attached files/Pasted image 20241227211802.png",
     "JAVA/낙관적 락.md",
+    "DB/낙관적 락.md",
     "JAVA/생산자와 소비자 문제.md",
     "JAVA/Thread.md",
     "Unused/Attached files/Pasted image 20241227202300.png",
@@ -245,17 +236,12 @@
     "JAVA/인터페이스 vs 추상클래스.md",
     "알고리즘/풀이/boj/풀 문제.md",
     "알고리즘/오늘 푼 문제.md",
-    "Unused/Attached files/Pasted image 20241223221141.png",
-    "Unused/Attached files/Pasted image 20241223211345.png",
     "알고리즘/풀이/boj/다시 풀 문제/boj 6087.md",
     "알고리즘/풀이/boj/다시 보기만 할 문제/boj 10830.md",
-    "Unused/Attached files/Pasted image 20241223160500.png",
     "전공 공부/문해기/무제 파일 2.md",
     "전공 공부/문해기/무제 파일 1.md",
     "전공 공부/문해기/무제 파일.md",
     "전공 공부/문해기/문해기 기말.md",
-    "알고리즘/풀이/boj/다시 풀 문제/boj 1744.md",
-    "알고리즘/C++ 문법/sort.md",
     "알고리즘/풀이/boj/다시 풀 문제",
     "전공 공부/운영체제",
     "전공 공부/논리 회로/중간",
