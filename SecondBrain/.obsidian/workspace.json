@@ -35,8 +35,7 @@
               "title": "생산자와 소비자 문제"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -203,10 +202,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "236c276ecfebb59b",
+  "active": "e93ddea1b5b57758",
   "lastOpenFiles": [
-    "JAVA/Thread의 동기화.md",
     "JAVA/생산자와 소비자 문제.md",
+    "JAVA/Thread의 동기화.md",
     "JAVA/Thread.md",
     "JAVA/Lock.md",
     "JAVA/Generic.md",
