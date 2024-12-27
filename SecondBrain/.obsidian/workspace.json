@@ -35,7 +35,8 @@
               "title": "생산자와 소비자 문제"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -92,7 +93,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 237.50260543823242
+    "width": 237.50260543823242,
+    "collapsed": true
   },
   "right": {
     "id": "feabab388e8825fc",
@@ -201,20 +203,20 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "e93ddea1b5b57758",
+  "active": "236c276ecfebb59b",
   "lastOpenFiles": [
-    "JAVA/생산자와 소비자 문제.md",
     "JAVA/Thread의 동기화.md",
     "JAVA/Thread.md",
+    "JAVA/생산자와 소비자 문제.md",
     "JAVA/Lock.md",
-    "JAVA/임계 영역.md",
+    "JAVA/Generic.md",
     "JAVA/공유 자원.md",
+    "JAVA/임계 영역.md",
     "Unused/Attached files/Pasted image 20241226214501.png",
     "Unused/Attached files/Pasted image 20241226214309.png",
     "Unused/Attached files/Pasted image 20241226210438.png",
     "전공 공부/운영체제/멀티태스킹, 멀티프로세스, 멀티스레딩.md",
     "전공 공부/운영체제/컨텍스트 스위칭.md",
-    "JAVA/Generic.md",
     "JAVA/예외 클래스의 계층 구조.md",
     "Unused/Attached files/Pasted image 20241226172444.png",
     "Unused/Attached files/Pasted image 20241226171319.png",
