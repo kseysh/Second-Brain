@@ -35,7 +35,8 @@
               "title": "Lock & Condition"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -202,11 +203,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "e93ddea1b5b57758",
+  "active": "236c276ecfebb59b",
   "lastOpenFiles": [
+    "JAVA/생산자와 소비자 문제.md",
     "JAVA/Thread.md",
     "JAVA/Lock & Condition.md",
-    "JAVA/생산자와 소비자 문제.md",
     "Unused/Attached files/Pasted image 20241227202300.png",
     "Unused/Attached files/Pasted image 20241227202126.png",
     "JAVA/Runnable.md",
