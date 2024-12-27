@@ -22,7 +22,7 @@ public synchronized void calcSum(){
 한 스레드가 특정 공유 객체에 대해 lock을 걸면, 그 객체에 대해 lock을 요청하는 다른 스레드는 BLOCKED 상태가 된다.
 ## `wait`, `notify`, `notifyAll`을 이용한 동기화
 Object 클래스에 정의되어 있으며, 동기화 블록 내에서만 사용할 수 있다.
-- `wait` - 객체의 lock을 풀고 스레드를 해당 객체의 waiting pool에 넣는다. (waiting = waiting pool에 들어감으로 생각)
+- `wait` - *객체의 lock을 풀고* *스레드를 해당 객체의 waiting pool에 넣는다*. (waiting = waiting pool에 들어감으로 생각)
 - `notify` - waiting pool에서 대기중인 스레드 중의 하나를 깨운다.
 - `notifyAll` - waiting pool에서 대기중인 모든 스레드를 깨운다.
 
