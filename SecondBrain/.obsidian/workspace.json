@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "JAVA/Thread의 동기화.md",
+                "file": "JAVA/Lock.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Thread의 동기화"
+              "title": "Lock"
             }
           },
           {
@@ -35,8 +35,7 @@
               "title": "생산자와 소비자 문제"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -203,9 +202,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "236c276ecfebb59b",
+  "active": "e93ddea1b5b57758",
   "lastOpenFiles": [
     "JAVA/Thread의 동기화.md",
+    "JAVA/Lock.md",
     "JAVA/생산자와 소비자 문제.md",
     "JAVA/임계 영역.md",
     "JAVA/공유 자원.md",
@@ -240,7 +240,6 @@
     "알고리즘/풀이/boj/다시 풀 문제/boj 1074.md",
     "알고리즘/풀이/boj/다시 보기만 할 문제/boj 1107.md",
     "알고리즘/풀이/boj/다시 보기만 할 문제/boj 15651.md",
-    "알고리즘/풀이/boj/다시 풀 문제/boj 1850.md",
     "알고리즘/풀이/boj/다시 풀 문제",
     "전공 공부/운영체제",
     "전공 공부/논리 회로/중간",

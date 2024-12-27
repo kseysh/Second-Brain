@@ -7,6 +7,11 @@ synchronized(객체의 참조변수){
 	// ...
 }
 ```
+#### synchronized(this)
+this는 클래스의 인스턴스 메모리 주소를 가리킨다.
+synchronized 블록에 this를 사용하면 모든 synchronized 블록에 하나의 객체에 같은 락을 사용하므로 한 synchroinzed 블럭이 끝나고 락이 반환될 때까지 다른 모든 synchronized 블록은 사용할 수 없다.
+#### synchronized(Object)
+this가 아닌 객체를 따로 만들어 블럭이 갖는 객체의 락을 다르게 해주면 synchronized 블록은 서로 동시에 실행할 수 있다. 그리고 이 때 만드는 o1, o2는 락을 위해서만 사용하는 임시 객체이므로 어느것으로 만들어도 상관없다.
 ### 메서드에 lock을 걸고자 할 때
 synchronized *메서드가 호출된 시점부터 객체의 lock을 얻어* 작업을 수행한다
 ```java
