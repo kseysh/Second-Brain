@@ -11,7 +11,12 @@ private void syncBlockMethod1(String msg) {
 		//this level 
 	} 
 }
+
+private synchronized void syncMethod1(){
+	// this level
+} 
 ```
+모든 인스턴스가 각자의 lock을 가진다.
 ### Class level lock
 ```java
 private void syncBlockMethod1(String msg) { 
@@ -19,5 +24,10 @@ private void syncBlockMethod1(String msg) {
 		//Class level 
 	} 
 }
+
+private static synchronized void syncMethod1(){
+	// Class level
+} 
 ```
+클래스의 인스턴스가 여러개 있어도 하나의 lock을 가진다. 클래스 하나당 하나의 lock을 가질 수 있다.
 

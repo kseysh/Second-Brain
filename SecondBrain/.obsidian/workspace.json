@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "JAVA/Lock.md",
+                "file": "JAVA/Thread의 동기화.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Lock"
+              "title": "Thread의 동기화"
             }
           },
           {
@@ -92,8 +92,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 237.50260543823242,
-    "collapsed": true
+    "width": 237.50260543823242
   },
   "right": {
     "id": "feabab388e8825fc",
@@ -204,12 +203,12 @@
   },
   "active": "e93ddea1b5b57758",
   "lastOpenFiles": [
-    "JAVA/Thread의 동기화.md",
-    "JAVA/Lock.md",
     "JAVA/생산자와 소비자 문제.md",
+    "JAVA/Thread의 동기화.md",
+    "JAVA/Thread.md",
+    "JAVA/Lock.md",
     "JAVA/임계 영역.md",
     "JAVA/공유 자원.md",
-    "JAVA/Thread.md",
     "Unused/Attached files/Pasted image 20241226214501.png",
     "Unused/Attached files/Pasted image 20241226214309.png",
     "Unused/Attached files/Pasted image 20241226210438.png",
