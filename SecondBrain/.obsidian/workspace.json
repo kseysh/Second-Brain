@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "JAVA/Runnable.md",
+                "file": "JAVA/Thread.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Runnable"
+              "title": "Thread"
             }
           },
           {
@@ -35,7 +35,8 @@
               "title": "생산자와 소비자 문제"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -202,14 +203,16 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "e93ddea1b5b57758",
+  "active": "236c276ecfebb59b",
   "lastOpenFiles": [
-    "면접/면접 - JAVA.md",
+    "JAVA/Thread.md",
+    "Unused/Attached files/Pasted image 20241227202300.png",
+    "Unused/Attached files/Pasted image 20241227202126.png",
     "JAVA/Runnable.md",
+    "면접/면접 - JAVA.md",
     "JAVA/Thread의 동기화.md",
     "면접",
     "JAVA/생산자와 소비자 문제.md",
-    "JAVA/Thread.md",
     "JAVA/Lock.md",
     "JAVA/Generic.md",
     "JAVA/공유 자원.md",
@@ -230,8 +233,6 @@
     "알고리즘/풀이/boj/다시 풀 문제/boj 6087.md",
     "알고리즘/풀이/boj/다시 보기만 할 문제/boj 10830.md",
     "Unused/Attached files/Pasted image 20241223160500.png",
-    "Unused/Attached files/Pasted image 20241223151851.png",
-    "Unused/Attached files/Pasted image 20241222133142.png",
     "전공 공부/문해기/무제 파일 2.md",
     "전공 공부/문해기/무제 파일 1.md",
     "전공 공부/문해기/무제 파일.md",
@@ -240,7 +241,6 @@
     "알고리즘/C++ 문법/sort.md",
     "알고리즘/풀이/boj/다시 풀 문제/boj 11000.md",
     "알고리즘/풀이/boj/다시 풀 문제/boj 2869 +.md",
-    "알고리즘/풀이/boj/다시 풀 문제/boj 1074.md",
     "알고리즘/풀이/boj/다시 풀 문제",
     "전공 공부/운영체제",
     "전공 공부/논리 회로/중간",
