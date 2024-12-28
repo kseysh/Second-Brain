@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "알고리즘/풀이/boj/풀 문제.md",
+                "file": "알고리즘/오늘 푼 문제.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "풀 문제"
+              "title": "오늘 푼 문제"
             }
           }
         ]
@@ -189,6 +189,9 @@
   },
   "active": "e93ddea1b5b57758",
   "lastOpenFiles": [
+    "Unused/Attached files/Pasted image 20241228174237.png",
+    "알고리즘/풀이/boj/다시 보기만 할 문제/boj 20207.md",
+    "알고리즘/풀이/boj/풀 문제.md",
     "알고리즘/C++ 문법/sort.md",
     "알고리즘/C++ 문법/기본.md",
     "알고리즘/오늘 푼 문제.md",
@@ -216,12 +219,9 @@
     "JAVA/Collection의 종류.md",
     "JAVA/Wrapper class.md",
     "JAVA/final을 사용해야 하는 이유.md",
-    "JAVA/volatile.md",
-    "JAVA/와일드카드를 포함하는 반환타입을 사용하면 안되는 이유.md",
     "Unused/Attached files/Pasted image 20241227212747.png",
     "Unused/Attached files/Pasted image 20241227212739.png",
     "Unused/Attached files/Pasted image 20241227212423.png",
-    "JAVA/Lock & Condition.md",
     "Unused/Attached files/Pasted image 20241227212131.png",
     "Unused/Attached files/Pasted image 20241227212120.png",
     "Unused/Attached files/Pasted image 20241227211802.png",
