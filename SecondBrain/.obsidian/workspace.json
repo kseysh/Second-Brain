@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "알고리즘/오늘 푼 문제.md",
+                "file": "알고리즘/풀이/boj/다시 풀 문제/boj 16926.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "오늘 푼 문제"
+              "title": "boj 16926"
             }
           }
         ]
@@ -78,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 237.50260543823242
+    "width": 237.50260543823242,
+    "collapsed": true
   },
   "right": {
     "id": "feabab388e8825fc",
@@ -189,6 +190,9 @@
   },
   "active": "e93ddea1b5b57758",
   "lastOpenFiles": [
+    "알고리즘/오늘 푼 문제.md",
+    "알고리즘/풀이/boj/다시 풀 문제/boj 16926.md",
+    "Unused/Attached files/Pasted image 20241230175005.png",
     "Unused/Attached files/Pasted image 20241230165945.png",
     "Unused/Attached files/Pasted image 20241230155149.png",
     "알고리즘/풀이/boj/다시 보기만 할 문제/boj 2252 - 위상정렬.md",
@@ -204,7 +208,6 @@
     "알고리즘/풀이/boj/다시 보기만 할 문제/boj 17070.md",
     "알고리즘/풀이/boj/다시 풀 문제/boj 20055.md",
     "알고리즘/풀이/boj/다시 풀 문제/boj.md",
-    "알고리즘/오늘 푼 문제.md",
     "Unused/Attached files/Pasted image 20241229182942.png",
     "알고리즘/풀이/boj/다시 보기만 할 문제/boj 10830.md",
     "알고리즘/풀이/boj/다시 보기만 할 문제/boj 20207.md",
@@ -223,8 +226,6 @@
     "Unused/Attached files/Pasted image 20241227222050.png",
     "Unused/Attached files/Pasted image 20241227215143.png",
     "Unused/Attached files/Pasted image 20241227215130.png",
-    "Unused/Attached files/Pasted image 20241227212747.png",
-    "Unused/Attached files/Pasted image 20241227212739.png",
     "면접",
     "알고리즘/풀이/boj/다시 풀 문제",
     "전공 공부/운영체제",
