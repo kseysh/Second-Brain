@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "알고리즘/풀이/boj/다시 보기만 할 문제/boj 17070.md",
+                "file": "알고리즘/오늘 푼 문제.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "boj 17070"
+              "title": "오늘 푼 문제"
             }
           }
         ]
@@ -189,8 +189,19 @@
   },
   "active": "e93ddea1b5b57758",
   "lastOpenFiles": [
-    "알고리즘/풀이/boj/다시 풀 문제/boj 20055.md",
+    "Unused/Attached files/Pasted image 20241230155149.png",
+    "알고리즘/풀이/boj/다시 보기만 할 문제/boj 2252 - 위상정렬.md",
+    "알고리즘/풀이/boj/다시 보기만 할 문제/boj 1463.md",
+    "알고리즘/풀이/boj/다시 보기만 할 문제/boj 14503.md",
+    "알고리즘/풀이/boj/다시 보기만 할 문제/boj 15651.md",
+    "알고리즘/풀이/boj/다시 보기만 할 문제/boj 10989 +.md",
+    "알고리즘/풀이/boj/다시 보기만 할 문제/boj 1991 +.md",
+    "알고리즘/풀이/boj/다시 보기만 할 문제/boj 4963 -.md",
+    "알고리즘/풀이/boj/다시 보기만 할 문제/boj 2667 -.md",
+    "알고리즘/풀이/boj/다시 보기만 할 문제/boj 1707 -.md",
+    "알고리즘/풀이/boj/다시 보기만 할 문제/boj 10798 +.md",
     "알고리즘/풀이/boj/다시 보기만 할 문제/boj 17070.md",
+    "알고리즘/풀이/boj/다시 풀 문제/boj 20055.md",
     "알고리즘/풀이/boj/다시 풀 문제/boj.md",
     "알고리즘/오늘 푼 문제.md",
     "Unused/Attached files/Pasted image 20241229182942.png",
@@ -207,21 +218,10 @@
     "알고리즘/풀 문제들/DP 문제.md",
     "알고리즘/풀 문제들/알고리즘 공부 순서.md",
     "알고리즘/풀 문제들/자료구조 문제.md",
-    "알고리즘/풀 문제들/완전 탐색 문제.md",
-    "JAVA/생산자와 소비자 문제.md",
-    "JAVA/fork & join.md",
-    "JAVA/프로세스 vs 스레드.md",
     "Unused/Attached files/Pasted image 20241227222200.png",
     "Unused/Attached files/Pasted image 20241227222050.png",
-    "면접/면접 - JAVA.md",
     "Unused/Attached files/Pasted image 20241227215143.png",
     "Unused/Attached files/Pasted image 20241227215130.png",
-    "JAVA/인터페이스 vs 추상클래스.md",
-    "JAVA/람다식 작성법.md",
-    "JAVA/SDK.md",
-    "JAVA/JDK.md",
-    "JAVA/JAVA의 동작원리.md",
-    "JAVA/ArrayList를 사용한 배열.md",
     "Unused/Attached files/Pasted image 20241227212747.png",
     "Unused/Attached files/Pasted image 20241227212739.png",
     "Unused/Attached files/Pasted image 20241227212423.png",
