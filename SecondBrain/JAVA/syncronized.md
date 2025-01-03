@@ -10,7 +10,7 @@ synchronized 키워드는 동기화가 필요한 메소드나 코드블럭앞에
  lock은 해당 객체당 하나씩 존재하며, synchronized로 설정된 임계영역은 lock 권한을 얻은 하나의 객체만이 독점적으로 사용하게 된다. 
 
 ### 메소드에 synchronized 설정하기
-메소드 이름 앞에 synchronized 키워드를 사용하면 해당 메소드 전체를 임계영역으로 설정할 있다. 
+메소드 이름 앞에 synchronized 키워드를 사용하면 해당 메소드 전체를 임계영역으로 설정할 수 있다. 
 ```java
 synchronized void increase() {
 	count++;
