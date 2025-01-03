@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "전공 공부/운영체제/Mutual exclusion 보장 방법.md",
+                "file": "AWS/redis 관련 명령어.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Mutual exclusion 보장 방법"
+              "title": "redis 관련 명령어"
             }
           }
         ]
@@ -67,7 +67,7 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "byModifiedTime"
+                "sortOrder": "byCreatedTime"
               },
               "icon": "lucide-folder-closed",
               "title": "파일 탐색기"
@@ -78,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 237.50260543823242,
-    "collapsed": true
+    "width": 237.50260543823242
   },
   "right": {
     "id": "feabab388e8825fc",
@@ -190,48 +189,48 @@
   },
   "active": "e93ddea1b5b57758",
   "lastOpenFiles": [
+    "AWS/CodeDeploy EC2 Not Found.md",
+    "프로젝트/SOPT Makers APP/친구 추천 api 로직 개선하기 - 1.md",
+    "프로젝트/SOPT Makers APP/친구 추천 api 로직 개선하기 - 2.md",
+    "프로젝트/SOPT Makers APP/일급 컬렉션 사용하기.md",
+    "전공 공부/지난 학기/컴퓨터 네트워크/TCP 2.md",
+    "전공 공부/지난 학기/컴퓨터 네트워크/TCP.md",
+    "전공 공부/지난 학기/컴퓨터 네트워크/TCP 실습/Chapter 10.md",
+    "전공 공부/지난 학기/시스템 프로그래밍/2. Integer Arithmetic.md",
+    "전공 공부/지난 학기/시스템 프로그래밍/1. Information Storage.md",
+    "전공 공부/지난 학기/DataStructure/Hash Table.md",
+    "전공 공부/지난 학기/DataStructure/DFS - BFS.md",
+    "전공 공부/지난 학기/DataStructure/Graphs.md",
+    "전공 공부/지난 학기/오픈소스응용프로그래밍/2-10. 구글의 테스트 기준, 구글 테스트 프레임워크.md",
+    "전공 공부/지난 학기/오픈소스응용프로그래밍/2-9. 화이트박스 테스팅 기법들.md",
+    "전공 공부/지난 학기/오픈소스응용프로그래밍/2-5. 객체지향개발 특성.md",
+    "전공 공부/지난 학기/오픈소스응용프로그래밍/2-6. 디자인패턴 종류.md",
+    "전공 공부/지난 학기/오픈소스응용프로그래밍/2-12. 소프트웨어 신뢰성을 위한 추가 방법들.md",
+    "전공 공부/지난 학기/오픈소스응용프로그래밍/2-8. 소프트웨어 테스팅 개요.md",
+    "전공 공부/지난 학기/오픈소스응용프로그래밍/2-11. 구글 테스트 실습.md",
+    "전공 공부/지난 학기/오픈소스응용프로그래밍/2-7. 생성 패턴.md",
+    "전공 공부/지난 학기/오픈소스응용프로그래밍/2-7. 행위 패턴.md",
+    "전공 공부/지난 학기/오픈소스응용프로그래밍/소프트웨어 공학의 필요성.md",
+    "전공 공부/지난 학기/오픈소스응용프로그래밍/스타일 가이드.md",
+    "전공 공부/지난 학기/오픈소스응용프로그래밍/도커 아키텍처와 이미지 명령어.md",
+    "전공 공부/지난 학기/오픈소스응용프로그래밍/소프트웨어 공학 및 개발론 개요.md",
+    "전공 공부/지난 학기/오픈소스응용프로그래밍/Git.md",
     "Unused/Attached files/Pasted image 20250104004643.png",
     "Unused/Attached files/Pasted image 20250104002750.png",
     "Unused/Attached files/Pasted image 20250104002412.png",
     "Unused/Attached files/Pasted image 20250104001334.png",
     "Unused/Attached files/Pasted image 20250103235737.png",
     "Unused/Attached files/Pasted image 20250103232831.png",
-    "JAVA/임계 영역.md",
-    "전공 공부/운영체제/Mutual exclusion 보장 방법.md",
     "Unused/Attached files/Pasted image 20250103231756.png",
-    "JAVA/공유 자원.md",
-    "JAVA/Thread의 동기화.md",
-    "JAVA/syncronized.md",
-    "전공 공부/운영체제/Synchronization.md",
-    "JAVA/Runnable.md",
-    "JAVA/Thread.md",
-    "JAVA/생산자와 소비자 문제.md",
-    "JAVA/fork & join.md",
-    "JAVA/Lock & Condition.md",
-    "JAVA/volatile.md",
-    "JAVA/프로세스 vs 스레드.md",
-    "면접/면접 - JAVA.md",
-    "전공 공부/운영체제/CPU bound, IO bound.md",
     "Unused/Attached files/Pasted image 20250103224539.png",
-    "전공 공부/운영체제/컨텍스트 스위칭.md",
     "Unused/Attached files/Pasted image 20250103222300.png",
     "Unused/Attached files/Pasted image 20250103221844.png",
-    "Unused/Attached files/Pasted image 20250103221629.png",
-    "전공 공부/운영체제/멀티태스킹, 멀티프로세스, 멀티스레딩.md",
-    "알고리즘/오늘 푼 문제.md",
-    "알고리즘/풀이/boj/다시 보기만 할 문제/boj 11559.md",
-    "알고리즘/풀이/boj/다시 보기만 할 문제/boj 17406.md",
-    "알고리즘/풀이/boj/다시 풀 문제/boj 16926.md",
-    "알고리즘/풀이/boj/다시 보기만 할 문제/boj 2252 - 위상정렬.md",
-    "알고리즘/풀이/boj/다시 보기만 할 문제/boj 1463.md",
-    "알고리즘/풀이/boj/다시 보기만 할 문제/boj 14503.md",
-    "알고리즘/풀이/boj/다시 보기만 할 문제/boj 15651.md",
     "면접",
     "알고리즘/풀이/boj/다시 풀 문제",
     "전공 공부/운영체제",
     "전공 공부/논리 회로/중간",
-    "전공 공부/컴퓨터 네트워크/중간",
-    "전공 공부/리눅스 프로그래밍/중간",
+    "전공 공부/지난 학기/컴퓨터 네트워크/TCP 실습",
+    "전공 공부/지난 학기/리눅스 프로그래밍/중간",
     "Spring/JPA/JPA 활용 2",
     "Spring/JPA/JPA 기본",
     "Spring/JPA/JPA 활용 1",
