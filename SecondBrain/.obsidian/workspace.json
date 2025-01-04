@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "JAVA/syncronized.md",
+                "file": "전공 공부/운영체제/deadlock.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "syncronized"
+              "title": "deadlock"
             }
           },
           {
@@ -87,7 +87,8 @@
               "title": "파일 탐색기"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -203,6 +204,8 @@
   },
   "active": "e93ddea1b5b57758",
   "lastOpenFiles": [
+    "JAVA/syncronized.md",
+    "전공 공부/운영체제/deadlock.md",
     "JAVA/생산자와 소비자 문제.md",
     "전공 공부/운영체제/모니터.md",
     "전공 공부/운영체제/semaphore.md",
@@ -230,8 +233,6 @@
     "독서록/개발 관련 도서/자바의 정석/스레드의 동기화.md",
     "독서록/개발 관련 도서/자바의 정석/람다.md",
     "독서록/개발 관련 도서/자바의 정석/메서드 참조.md",
-    "독서록/개발 관련 도서/구글 엔지니어는 이렇게 일한다/구글 엔지니어는 이렇게 일한다 - 2.md",
-    "독서록/개발 관련 도서/구글 엔지니어는 이렇게 일한다/구글 엔지니어는 이렇게 일한다 - 1.md",
     "Unused/Attached files/Pasted image 20250104004643.png",
     "Unused/Attached files/Pasted image 20250104002750.png",
     "Unused/Attached files/Pasted image 20250104002412.png",
