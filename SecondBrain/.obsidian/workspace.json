@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "전공 공부/운영체제/deadlock.md",
+                "file": "JAVA/프로세스 vs 스레드.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "deadlock"
+              "title": "프로세스 vs 스레드"
             }
           },
           {
@@ -92,8 +92,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 237.50260543823242,
-    "collapsed": true
+    "width": 237.50260543823242
   },
   "right": {
     "id": "feabab388e8825fc",
@@ -204,9 +203,12 @@
   },
   "active": "e93ddea1b5b57758",
   "lastOpenFiles": [
+    "JAVA/스레드의 상태 종류.md",
+    "전공 공부/운영체제/OS 프로세스 상태.md",
+    "Unused/Attached files/Pasted image 20250104200547.png",
+    "전공 공부/운영체제/deadlock.md",
     "Unused/Attached files/Pasted image 20250104165715.png",
     "JAVA/syncronized.md",
-    "전공 공부/운영체제/deadlock.md",
     "JAVA/생산자와 소비자 문제.md",
     "전공 공부/운영체제/모니터.md",
     "전공 공부/운영체제/semaphore.md",
@@ -232,14 +234,11 @@
     "독서록/개발 관련 도서/자바의 정석/열거형.md",
     "독서록/개발 관련 도서/자바의 정석/Queue의 변형.md",
     "독서록/개발 관련 도서/자바의 정석/스레드의 동기화.md",
-    "독서록/개발 관련 도서/자바의 정석/람다.md",
     "Unused/Attached files/Pasted image 20250104004643.png",
     "Unused/Attached files/Pasted image 20250104002750.png",
     "Unused/Attached files/Pasted image 20250104002412.png",
     "Unused/Attached files/Pasted image 20250104001334.png",
     "Unused/Attached files/Pasted image 20250103235737.png",
-    "Unused/Attached files/Pasted image 20250103232831.png",
-    "Unused/Attached files/Pasted image 20250103231756.png",
     "면접",
     "알고리즘/풀이/boj/다시 풀 문제",
     "전공 공부/운영체제",
