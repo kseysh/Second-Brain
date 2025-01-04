@@ -54,7 +54,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "임계",
+                "query": "모니터",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -87,8 +87,7 @@
               "title": "파일 탐색기"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "horizontal",
