@@ -36,4 +36,7 @@ waiting에서 ready 상태가 된 프로세스가 running 중인 프로세스보
 남은 CPU burst가 가장 짧은 프로세스부터 실행
 ### Priority
 우선순위가 높은 프로세스부터 실행
-### RR(Round)
+### RR(Round-Robin)
+time slice로 나눠진 CPU time을 번갈아가며 실행
+### Multilevel queue
+프로세스들을 그룹화해서 그룹마다 큐를 두는 방식
