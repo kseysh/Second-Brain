@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "JAVA/프로세스 vs 스레드.md",
+                "file": "JAVA/Thread.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "프로세스 vs 스레드"
+              "title": "Thread"
             }
           },
           {
@@ -203,8 +203,12 @@
   },
   "active": "e93ddea1b5b57758",
   "lastOpenFiles": [
+    "JAVA/Thread의 동기화.md",
+    "JAVA/공유 자원.md",
     "JAVA/스레드의 상태 종류.md",
     "전공 공부/운영체제/OS 프로세스 상태.md",
+    "JAVA/fork & join.md",
+    "JAVA/프로세스 vs 스레드.md",
     "Unused/Attached files/Pasted image 20250104200547.png",
     "전공 공부/운영체제/deadlock.md",
     "Unused/Attached files/Pasted image 20250104165715.png",
@@ -230,10 +234,6 @@
     "독서록/개발 관련 도서/자바의 정석/클래스메서드와 인스턴스메서드.md",
     "독서록/개발 관련 도서/자바의 정석/초기화 블록.md",
     "독서록/개발 관련 도서/자바의 정석/생성자에서 다른 생성자 호출하기 - this().md",
-    "독서록/개발 관련 도서/자바의 정석/abstract vs interface.md",
-    "독서록/개발 관련 도서/자바의 정석/열거형.md",
-    "독서록/개발 관련 도서/자바의 정석/Queue의 변형.md",
-    "독서록/개발 관련 도서/자바의 정석/스레드의 동기화.md",
     "Unused/Attached files/Pasted image 20250104004643.png",
     "Unused/Attached files/Pasted image 20250104002750.png",
     "Unused/Attached files/Pasted image 20250104002412.png",
