@@ -78,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 237.50260543823242
+    "width": 237.50260543823242,
+    "collapsed": true
   },
   "right": {
     "id": "feabab388e8825fc",
@@ -189,6 +190,7 @@
   },
   "active": "e93ddea1b5b57758",
   "lastOpenFiles": [
+    "Unused/Attached files/Pasted image 20250104150449.png",
     "전공 공부/운영체제/Mutex.md",
     "전공 공부/운영체제/semaphore.md",
     "전공 공부/운영체제/Mutual exclusion 보장 방법.md",
@@ -214,7 +216,6 @@
     "독서록/개발 관련 도서/구글 엔지니어는 이렇게 일한다/구글 엔지니어는 이렇게 일한다 - 1.md",
     "면접/면접 - JAVA.md",
     "Git/커밋 메시지 작성 방법.md",
-    "ERROR_Diary/docker/Unit docker.service could not be found.md",
     "Unused/Attached files/Pasted image 20250104004643.png",
     "Unused/Attached files/Pasted image 20250104002750.png",
     "Unused/Attached files/Pasted image 20250104002412.png",
