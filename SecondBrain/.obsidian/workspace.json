@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "JAVA/Thread dump.md",
+                "file": "전공 공부/운영체제/scheduler.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Thread dump"
+              "title": "scheduler"
             }
           },
           {
@@ -204,12 +204,13 @@
   },
   "active": "e93ddea1b5b57758",
   "lastOpenFiles": [
-    "JAVA/Thread.md",
+    "전공 공부/운영체제/OS 프로세스 상태.md",
+    "전공 공부/운영체제/scheduler.md",
     "JAVA/Thread dump.md",
+    "JAVA/Thread.md",
     "JAVA/Thread의 동기화.md",
     "JAVA/공유 자원.md",
     "JAVA/스레드의 상태 종류.md",
-    "전공 공부/운영체제/OS 프로세스 상태.md",
     "JAVA/fork & join.md",
     "JAVA/프로세스 vs 스레드.md",
     "Unused/Attached files/Pasted image 20250104200547.png",
@@ -234,7 +235,6 @@
     "독서록/개발 관련 도서/Clean Code/9장 단위 테스트.md",
     "독서록/개발 관련 도서/Clean Code/9장 클래스.md",
     "독서록/개발 관련 도서/Clean Code/12장 창발성.md",
-    "독서록/개발 관련 도서/자바의 정석/클래스메서드와 인스턴스메서드.md",
     "Unused/Attached files/Pasted image 20250104004643.png",
     "Unused/Attached files/Pasted image 20250104002750.png",
     "Unused/Attached files/Pasted image 20250104002412.png",
