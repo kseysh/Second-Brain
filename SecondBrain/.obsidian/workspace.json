@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "전공 공부/운영체제/무제 파일.md",
+                "file": "전공 공부/운영체제/커널.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "무제 파일"
+              "title": "커널"
             }
           },
           {
@@ -204,7 +204,7 @@
   "active": "e93ddea1b5b57758",
   "lastOpenFiles": [
     "알고리즘/오늘 푼 문제.md",
-    "전공 공부/운영체제/무제 파일.md",
+    "전공 공부/운영체제/커널.md",
     "Unused/Attached files/Pasted image 20250105220012.png",
     "알고리즘/JAVA 문법/배열 관련 메서드.md",
     "알고리즘/JAVA 문법/Array 관련 메서드.md",
