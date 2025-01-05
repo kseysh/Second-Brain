@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "알고리즘/JAVA 문법/Collections 관련 메서드.md",
+                "file": "알고리즘/오늘 푼 문제.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Collections 관련 메서드"
+              "title": "오늘 푼 문제"
             }
           },
           {
@@ -203,6 +203,15 @@
   },
   "active": "e93ddea1b5b57758",
   "lastOpenFiles": [
+    "알고리즘/JAVA 문법/배열 관련 메서드.md",
+    "알고리즘/JAVA 문법/Array 관련 메서드.md",
+    "알고리즘/JAVA 문법/입출력 관련 메서드.md",
+    "알고리즘/JAVA 문법/HashMap 관련 메서드.md",
+    "알고리즘/JAVA 문법/HashSet 관련 메서드.md",
+    "알고리즘/JAVA 문법/Queue 관련 메서드.md",
+    "알고리즘/JAVA 문법/Stack 관련 메서드.md",
+    "알고리즘/JAVA 문법/Collections.binarySearch 메서드.md",
+    "알고리즘/JAVA 문법/Collections 관련 메서드.md",
     "알고리즘/JAVA 문법/배열 <-> 리스트 관련 메서드.md",
     "알고리즘/JAVA 문법/StringBuilder 관련 메서드.md",
     "알고리즘/JAVA 문법/String 관련 메서드.md",
@@ -221,20 +230,11 @@
     "JAVA/공유 자원.md",
     "JAVA/스레드의 상태 종류.md",
     "JAVA/fork & join.md",
-    "JAVA/프로세스 vs 스레드.md",
     "Unused/Attached files/Pasted image 20250104200547.png",
-    "전공 공부/운영체제/deadlock.md",
     "Unused/Attached files/Pasted image 20250104165715.png",
-    "JAVA/syncronized.md",
-    "JAVA/생산자와 소비자 문제.md",
-    "전공 공부/운영체제/모니터.md",
-    "전공 공부/운영체제/semaphore.md",
-    "JAVA/Lock.md",
-    "synchronized.md",
     "Unused/Attached files/Pasted image 20250104152801.png",
     "Unused/Attached files/Pasted image 20250104152729.png",
     "Unused/Attached files/Pasted image 20250104150449.png",
-    "전공 공부/운영체제/Mutual exclusion 보장 방법.md",
     "Unused/Attached files/Pasted image 20250104004643.png",
     "Unused/Attached files/Pasted image 20250104002750.png",
     "Unused/Attached files/Pasted image 20250104002412.png",
