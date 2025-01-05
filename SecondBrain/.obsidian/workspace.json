@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "알고리즘/C++ 문법/Iterator.md",
+                "file": "알고리즘/C++ 문법/Linked list.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Iterator"
+              "title": "Linked list"
             }
           },
           {
@@ -92,7 +92,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 237.50260543823242
+    "width": 237.50260543823242,
+    "collapsed": true
   },
   "right": {
     "id": "feabab388e8825fc",
@@ -203,8 +204,8 @@
   },
   "active": "e93ddea1b5b57758",
   "lastOpenFiles": [
-    "알고리즘/C++ 문법/Linked list.md",
     "알고리즘/C++ 문법/Iterator.md",
+    "알고리즘/C++ 문법/Linked list.md",
     "전공 공부/운영체제/scheduler.md",
     "전공 공부/운영체제/CPU bound, IO bound.md",
     "전공 공부/운영체제/Mutex.md",

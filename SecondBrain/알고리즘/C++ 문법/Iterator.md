@@ -9,5 +9,7 @@ v.end(); // 배열의 마지막 요소 바로 뒤, 즉, 쓸모 없는 값을 가
 
 ## for문에서 사용하는 Iterator
 ```cpp
-for(vector<int>::iterator iter = v.begin; iter )
+for(vector<int>::iterator iter = v.begin; iter != v.end(); iter++){
+	cout << *iter;
+}
 ```

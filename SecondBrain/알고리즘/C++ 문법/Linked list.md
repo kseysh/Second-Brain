@@ -17,6 +17,10 @@ l.pop_back();
 ```
 
 ## Iterator
-```cpp
+![[Iterator]]
 
+## 특정 위치에 값 넣기
+```cpp
+l.insert(iter, 0); // iterator가 가리키는 위치에 0을 넣는다.
+iter = l.erase(iter); // iterator가 가리키는 위치를 삭제하고 그 다음 원소의 위치를 반환한다.
 ```
