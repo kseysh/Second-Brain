@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "전공 공부/지난 학기/컴퓨터 네트워크/Internet Protocol Version 4(IPV4).md",
+                "file": "프로젝트/개인 프로젝트.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Internet Protocol Version 4(IPV4)"
+              "title": "개인 프로젝트"
             }
           },
           {
@@ -203,6 +203,9 @@
   },
   "active": "e93ddea1b5b57758",
   "lastOpenFiles": [
+    "Unused/Attached files/Pasted image 20250107154211.png",
+    "전공 공부/지난 학기/컴퓨터 네트워크/Internet Protocol Version 4(IPV4).md",
+    "프로젝트/개인 프로젝트.md",
     "전공 공부/지난 학기/컴퓨터 네트워크/ICMP.md",
     "전공 공부/지난 학기/컴퓨터 네트워크/ARP.md",
     "전공 공부/운영체제/커널.md",
@@ -227,10 +230,7 @@
     "전공 공부/운영체제/CPU bound, IO bound.md",
     "전공 공부/운영체제/Mutex.md",
     "전공 공부/운영체제/spinlock.md",
-    "전공 공부/운영체제/OS 프로세스 상태.md",
     "Unused/Attached files/Pasted image 20250104225808.png",
-    "JAVA/Thread dump.md",
-    "JAVA/Thread.md",
     "Unused/Attached files/Pasted image 20250104200547.png",
     "Unused/Attached files/Pasted image 20250104165715.png",
     "Unused/Attached files/Pasted image 20250104152801.png",
