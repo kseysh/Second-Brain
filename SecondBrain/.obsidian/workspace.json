@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "전공 공부/운영체제/커널.md",
+                "file": "전공 공부/지난 학기/컴퓨터 네트워크/Internet Protocol Version 4(IPV4).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "커널"
+              "title": "Internet Protocol Version 4(IPV4)"
             }
           },
           {
@@ -203,8 +203,10 @@
   },
   "active": "e93ddea1b5b57758",
   "lastOpenFiles": [
-    "알고리즘/오늘 푼 문제.md",
+    "전공 공부/지난 학기/컴퓨터 네트워크/ICMP.md",
+    "전공 공부/지난 학기/컴퓨터 네트워크/ARP.md",
     "전공 공부/운영체제/커널.md",
+    "알고리즘/오늘 푼 문제.md",
     "Unused/Attached files/Pasted image 20250105220012.png",
     "알고리즘/JAVA 문법/배열 관련 메서드.md",
     "알고리즘/JAVA 문법/Array 관련 메서드.md",
@@ -229,8 +231,6 @@
     "Unused/Attached files/Pasted image 20250104225808.png",
     "JAVA/Thread dump.md",
     "JAVA/Thread.md",
-    "JAVA/Thread의 동기화.md",
-    "JAVA/공유 자원.md",
     "Unused/Attached files/Pasted image 20250104200547.png",
     "Unused/Attached files/Pasted image 20250104165715.png",
     "Unused/Attached files/Pasted image 20250104152801.png",
