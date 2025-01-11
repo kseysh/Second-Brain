@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "알고리즘/풀이/코드트리/겹쳐지지 않는 두 직사각형.md",
+                "file": "알고리즘/오늘 푼 문제.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "겹쳐지지 않는 두 직사각형"
+              "title": "오늘 푼 문제"
             }
           },
           {
@@ -92,8 +92,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 237.50260543823242,
-    "collapsed": true
+    "width": 237.50260543823242
   },
   "right": {
     "id": "feabab388e8825fc",
@@ -204,8 +203,9 @@
   },
   "active": "e93ddea1b5b57758",
   "lastOpenFiles": [
-    "프로젝트/SOPT Makers APP/Makers.md",
+    "Unused/Attached files/Pasted image 20250111220936.png",
     "알고리즘/풀이/코드트리/겹쳐지지 않는 두 직사각형.md",
+    "프로젝트/SOPT Makers APP/Makers.md",
     "프로젝트/개인 프로젝트.md",
     "알고리즘/오늘 푼 문제.md",
     "Unused/Attached files/Pasted image 20250108161436.png",
@@ -234,7 +234,6 @@
     "알고리즘/C++ 문법/Linked list.md",
     "알고리즘/C++ 문법/Iterator.md",
     "전공 공부/운영체제/scheduler.md",
-    "전공 공부/운영체제/CPU bound, IO bound.md",
     "Unused/Attached files/Pasted image 20250104225808.png",
     "Unused/Attached files/Pasted image 20250104200547.png",
     "Unused/Attached files/Pasted image 20250104165715.png",
