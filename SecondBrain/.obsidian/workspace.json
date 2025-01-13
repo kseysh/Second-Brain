@@ -20,20 +20,6 @@
               "icon": "lucide-file",
               "title": "redis sorted set 적용"
             }
-          },
-          {
-            "id": "8439e4b96debb6f2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "전공 공부/운영체제/Mutex.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Mutex"
-            }
           }
         ]
       }
@@ -203,6 +189,8 @@
   },
   "active": "e93ddea1b5b57758",
   "lastOpenFiles": [
+    "Unused/Attached files/Pasted image 20250113222829.png",
+    "Unused/Attached files/Pasted image 20250113222817.png",
     "Unused/Attached files/Pasted image 20250113150118.png",
     "Unused/Attached files/Pasted image 20250113150108.png",
     "Unused/Attached files/Pasted image 20250113150057.png",
@@ -226,8 +214,6 @@
     "Unused/Attached files/Pasted image 20250112011800.png",
     "Unused/Attached files/Pasted image 20250112003747.png",
     "Unused/Attached files/Pasted image 20250111233920.png",
-    "Unused/Attached files/Pasted image 20250111225703.png",
-    "Unused/Attached files/Pasted image 20250111220936.png",
     "알고리즘/풀이/코드트리/겹쳐지지 않는 두 직사각형.md",
     "알고리즘/풀이/코드트리",
     "전공 공부/지난 학기/컴퓨터 네트워크/Internet Protocol Version 4(IPV4).md",
