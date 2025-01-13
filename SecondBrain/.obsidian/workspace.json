@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "알고리즘/C++ 문법/Linked list.md",
+                "file": "알고리즘/오늘 푼 문제.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Linked list"
+              "title": "오늘 푼 문제"
             }
           },
           {
@@ -203,7 +203,9 @@
   },
   "active": "e93ddea1b5b57758",
   "lastOpenFiles": [
+    "Unused/Attached files/Pasted image 20250112232012.png",
     "알고리즘/C++ 문법/Iterator.md",
+    "알고리즘/C++ 문법/Linked list.md",
     "알고리즘/오늘 푼 문제.md",
     "Unused/Attached files/Pasted image 20250112230126.png",
     "Unused/Attached files/Pasted image 20250112221102.png",
@@ -238,7 +240,6 @@
     "알고리즘/JAVA 문법/StringBuilder 관련 메서드.md",
     "알고리즘/JAVA 문법/String 관련 메서드.md",
     "알고리즘/JAVA 문법/List 관련 메서드.md",
-    "알고리즘/C++ 문법/Linked list.md",
     "면접",
     "알고리즘/풀이/boj/다시 풀 문제",
     "전공 공부/운영체제",
