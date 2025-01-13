@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "프로젝트/SOPT Makers APP/redis sorted set 적용.md",
+                "file": "JAVA/Virtual Thread.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "redis sorted set 적용"
+              "title": "Virtual Thread"
             }
           }
         ]
@@ -189,8 +189,9 @@
   },
   "active": "e93ddea1b5b57758",
   "lastOpenFiles": [
-    "프로젝트/SOPT Makers APP/IO시에 비동기 처리 구현.md",
     "프로젝트/SOPT Makers APP/redis sorted set 적용.md",
+    "JAVA/Virtual Thread.md",
+    "프로젝트/SOPT Makers APP/IO시에 비동기 처리 구현.md",
     "프로젝트/SOPT Makers APP/Makers.md",
     "프로젝트/개인 프로젝트.md",
     "프로젝트/jmeter 사용법.md",
