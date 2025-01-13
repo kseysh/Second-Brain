@@ -13,6 +13,33 @@
 ## Listener 추가
 - 응답을 받아 reporting, 검증, 그래프 등 다양한 처리 지원
 - HTTP Request에 오른쪽 클릭 -> Add -> Listener -> View Results Tree, Summary Report, View Results in Table 생성
+### View Results in Table
+- Sample Time
+- Sent Bytes
+- Latency
+- Connect Time
+### Summary Report
+- Average : 평균 걸린 시간 (ms)
+- Min : 최소
+- Max : 최대
+- Std. Dev. : 표준편차
+- Error % : 에러율
+- Throughput : 분당 처리량
+- Received KB/sec : 초당 받은 데이터량
+- Sent KB/sec : 초당 보낸 데이터량
+- Avg. Bytes : 서버로부터 받은 데이터 평균
+### Aggregate Report
+- Average : 평균 응답 시간
+- Median : 응답 시간 중앙값
+- 90% Line : 90%의 샘플은 해당 값보다 적은 시간 내에 끝나고 10%는 더 걸린다. 라는 뜻의 컬럼
+- 95% Line : 95%의 샘플은 해당 값보다 적은 시간 내에 끝나고 5%는 더 걸린다. 라는 뜻의 컬럼
+- 99% Line : 99%의 샘플은 해당 값보다 적은 시간 내에 끝나고 1%는 더 걸린다. 라는 뜻의 컬럼
+- Min : 최소값
+- Maximum : 최대값
+- Error % : 에러율
+- Throughput : 초당 처리량
+- Received KB/sec : 초당 받은 KB
+- Sent KB/sec : 초당 보낸 KB
 ## Configuration
 Sampler 또는 Listener가 사용할 설정 값
 ## Assertion 
