@@ -78,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 237.50260543823242
+    "width": 237.50260543823242,
+    "collapsed": true
   },
   "right": {
     "id": "feabab388e8825fc",
@@ -189,6 +190,12 @@
   },
   "active": "e93ddea1b5b57758",
   "lastOpenFiles": [
+    "Unused/Attached files/Pasted image 20250113231744.png",
+    "Unused/Attached files/Pasted image 20250113231742.png",
+    "Unused/Attached files/Pasted image 20250113231456.png",
+    "Unused/Attached files/Pasted image 20250113231211.png",
+    "Unused/Attached files/Pasted image 20250113231122.png",
+    "Unused/Attached files/Pasted image 20250113231050.png",
     "프로젝트/SOPT Makers APP/redis sorted set 적용.md",
     "JAVA/Virtual Thread.md",
     "프로젝트/SOPT Makers APP/IO시에 비동기 처리 구현.md",
@@ -205,15 +212,10 @@
     "프로젝트/SOPT Makers APP/일급 컬렉션 사용하기.md",
     "프로젝트/SOPT Makers APP/친구 추천 api 로직 개선하기 - 1.md",
     "알고리즘/오늘 푼 문제.md",
-    "Unused/Attached files/Pasted image 20250112232012.png",
     "알고리즘/C++ 문법/Iterator.md",
     "알고리즘/C++ 문법/Linked list.md",
-    "Unused/Attached files/Pasted image 20250112230126.png",
-    "Unused/Attached files/Pasted image 20250112221102.png",
     "알고리즘/풀이/코드트리/기울어진 직사각형의 회전.md",
     "알고리즘/풀이/코드트리/기울어진 직사각형.md",
-    "Unused/Attached files/Pasted image 20250112011800.png",
-    "Unused/Attached files/Pasted image 20250112003747.png",
     "알고리즘/풀이/코드트리/겹쳐지지 않는 두 직사각형.md",
     "알고리즘/풀이/코드트리",
     "전공 공부/지난 학기/컴퓨터 네트워크/Internet Protocol Version 4(IPV4).md",
@@ -225,7 +227,6 @@
     "알고리즘/JAVA 문법/입출력 관련 메서드.md",
     "알고리즘/JAVA 문법/HashMap 관련 메서드.md",
     "알고리즘/JAVA 문법/HashSet 관련 메서드.md",
-    "알고리즘/JAVA 문법/Queue 관련 메서드.md",
     "면접",
     "알고리즘/풀이/boj/다시 풀 문제",
     "전공 공부/운영체제",
