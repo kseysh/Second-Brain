@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "전공 공부/운영체제/스레드 종류.md",
+                "file": "전공 공부/운영체제/스레드 풀.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "스레드 종류"
+              "title": "스레드 풀"
             }
           }
         ]
@@ -190,13 +190,14 @@
   },
   "active": "e93ddea1b5b57758",
   "lastOpenFiles": [
+    "전공 공부/운영체제/스레드 종류.md",
+    "전공 공부/운영체제/스레드 풀.md",
     "Unused/Attached files/Pasted image 20250114175549.png",
     "Unused/Attached files/Pasted image 20250114175350.png",
     "Unused/Attached files/Pasted image 20250114175234.png",
     "Unused/Attached files/Pasted image 20250114175109.png",
     "Unused/Attached files/Pasted image 20250114174355.png",
     "전공 공부/운영체제/Interrupt.md",
-    "전공 공부/운영체제/스레드 종류.md",
     "전공 공부/운영체제/커널.md",
     "알고리즘/C++ 문법/Linked list.md",
     "알고리즘/C++ 문법/sort.md",
@@ -211,7 +212,6 @@
     "Unused/Attached files/Pasted image 20250113231456.png",
     "Unused/Attached files/Pasted image 20250113231211.png",
     "Unused/Attached files/Pasted image 20250113231122.png",
-    "Unused/Attached files/Pasted image 20250113231050.png",
     "프로젝트/SOPT Makers APP/redis sorted set 적용.md",
     "프로젝트/SOPT Makers APP/IO시에 비동기 처리 구현.md",
     "프로젝트/SOPT Makers APP/Makers.md",
