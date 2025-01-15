@@ -35,8 +35,7 @@
               "title": "block IO vs non-block IO"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -203,10 +202,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "f854d72661119395",
+  "active": "e93ddea1b5b57758",
   "lastOpenFiles": [
-    "전공 공부/지난 학기/리눅스 프로그래밍/CH07_PIPE.md",
     "전공 공부/운영체제/block IO vs non-block IO.md",
+    "전공 공부/지난 학기/리눅스 프로그래밍/CH07_PIPE.md",
     "Unused/Attached files/Pasted image 20250115140420.png",
     "Unused/Attached files/Pasted image 20250115140339.png",
     "Unused/Attached files/Pasted image 20250115140227.png",
