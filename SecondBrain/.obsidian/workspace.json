@@ -87,8 +87,7 @@
               "title": "파일 탐색기"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "horizontal",
@@ -204,6 +203,7 @@
   },
   "active": "e93ddea1b5b57758",
   "lastOpenFiles": [
+    "Unused/Attached files/Pasted image 20250115135220.png",
     "Unused/Attached files/Pasted image 20250115134543.png",
     "전공 공부/운영체제/스레드 풀.md",
     "전공 공부/운영체제/block IO vs non-block IO.md",
@@ -229,7 +229,6 @@
     "Unused/Attached files/Pasted image 20250113231742.png",
     "Unused/Attached files/Pasted image 20250113231456.png",
     "Unused/Attached files/Pasted image 20250113231211.png",
-    "Unused/Attached files/Pasted image 20250113231122.png",
     "프로젝트/SOPT Makers APP/redis sorted set 적용.md",
     "프로젝트/SOPT Makers APP/IO시에 비동기 처리 구현.md",
     "프로젝트/SOPT Makers APP/Makers.md",
