@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "알고리즘/풀이/코드트리/2차원 폭발 게임.md",
+                "file": "알고리즘/오늘 푼 문제.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2차원 폭발 게임"
+              "title": "오늘 푼 문제"
             }
           },
           {
@@ -92,8 +92,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 237.50260543823242,
-    "collapsed": true
+    "width": 237.50260543823242
   },
   "right": {
     "id": "feabab388e8825fc",
@@ -204,9 +203,10 @@
   },
   "active": "e93ddea1b5b57758",
   "lastOpenFiles": [
+    "Unused/Attached files/Pasted image 20250117230043.png",
+    "알고리즘/풀이/코드트리/2차원 폭발 게임.md",
     "Unused/Attached files/Pasted image 20250117221624.png",
     "알고리즘/오늘 푼 문제.md",
-    "알고리즘/풀이/코드트리/2차원 폭발 게임.md",
     "Unused/Attached files/Pasted image 20250117205512.png",
     "Unused/Attached files/Pasted image 20250117202159.png",
     "Unused/Attached files/Pasted image 20250117182501.png",
@@ -225,7 +225,6 @@
     "Unused/Attached files/Pasted image 20250115145103.png",
     "Unused/Attached files/Pasted image 20250115145029.png",
     "전공 공부/지난 학기/리눅스 프로그래밍/CH07_PIPE.md",
-    "Unused/Attached files/Pasted image 20250115140420.png",
     "전공 공부/운영체제/CPU bound, IO bound.md",
     "전공 공부/지난 학기/리눅스 프로그래밍/CH05_PROCESS1.md",
     "전공 공부/지난 학기/리눅스 프로그래밍/CH08_IPC2.md",
