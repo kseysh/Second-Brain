@@ -29,3 +29,7 @@
 ## FOREIGN KEY
 ![[Pasted image 20250119221425.png|400]]
 참조하고 있던 값이 삭제되거나 업데이트 되었을 때 FK는 어떻게 할지 선언해줄 수 있다.
+
+# constraints 이름 명시하기
+![[Pasted image 20250119225413.png|400]]
+
