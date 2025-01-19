@@ -14,3 +14,5 @@
 - attribute가 NOT NULL로 명시됐다면 NULL을 값으로 가질 수 없다.
 ### entity integrity constraint
 - primary key는 value에 NULL을 가질 수 없다.
+### referential integrity constraint
+- FK와 PK와 도메인이 같아야 하고 PK에 없는 values를 FK가 값으로 가질 수 없다.
