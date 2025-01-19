@@ -16,3 +16,16 @@
 - primary key는 value에 NULL을 가질 수 없다.
 ### referential integrity constraint
 - FK와 PK와 도메인이 같아야 하고 PK에 없는 values를 FK가 값으로 가질 수 없다.
+
+# 데이터베이스 constraints 정의
+## PRIMARY KEY
+![[Pasted image 20250119221504.png|400]]
+## UNIQUE
+![[Pasted image 20250119221553.png|400]]
+## DEFAULT
+![[Pasted image 20250119221734.png|400]]
+## CHECK
+![[Pasted image 20250119221806.png|400]]
+## FOREIGN KEY
+![[Pasted image 20250119221425.png|400]]
+참조하고 있던 값이 삭제되거나 업데이트 되었을 때 FK는 어떻게 할지 선언해줄 수 있다.
