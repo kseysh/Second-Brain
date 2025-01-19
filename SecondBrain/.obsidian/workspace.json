@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "전공 공부/DB/데이터베이스.md",
+                "file": "전공 공부/DB/관계형 데이터 베이스.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "데이터베이스"
+              "title": "관계형 데이터 베이스"
             }
           },
           {
@@ -92,7 +92,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 237.50260543823242
+    "width": 237.50260543823242,
+    "collapsed": true
   },
   "right": {
     "id": "feabab388e8825fc",
@@ -203,6 +204,9 @@
   },
   "active": "e93ddea1b5b57758",
   "lastOpenFiles": [
+    "Unused/Attached files/Pasted image 20250119203017.png",
+    "전공 공부/DB/데이터베이스.md",
+    "전공 공부/DB/관계형 데이터 베이스.md",
     "프로젝트/SOPT Makers APP/redis sorted set 적용.md",
     "DB/In-memory DB/로컬 캐시를 사용하는 경우.md",
     "프로젝트/SOPT Makers APP/IO시에 비동기 처리 구현.md",
@@ -228,7 +232,6 @@
     "알고리즘/풀이/코드트리/겹쳐지지 않는 두 직사각형.md",
     "알고리즘/풀이/코드트리/기울어진 직사각형의 회전.md",
     "알고리즘/풀이/코드트리/1차원 폭발 게임.md",
-    "전공 공부/DB/데이터베이스.md",
     "Unused/Attached files/Pasted image 20250115210607.png",
     "Unused/Attached files/Pasted image 20250115205135.png",
     "Unused/Attached files/Pasted image 20250115205105.png",
@@ -238,8 +241,6 @@
     "전공 공부/지난 학기/리눅스 프로그래밍/CH07_PIPE.md",
     "전공 공부/운영체제/CPU bound, IO bound.md",
     "전공 공부/지난 학기/리눅스 프로그래밍/CH05_PROCESS1.md",
-    "전공 공부/지난 학기/리눅스 프로그래밍/CH08_IPC2.md",
-    "전공 공부/지난 학기/리눅스 프로그래밍/CH08_IPC1.md",
     "알고리즘/풀이/코드트리",
     "면접",
     "알고리즘/풀이/boj/다시 풀 문제",
