@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DB/SQL/SQL 문법/DDL/LIKE.md",
+                "file": "DB/SQL/SQL 문법/DDL/EXISTS.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "LIKE"
+              "title": "EXISTS"
             }
           },
           {
@@ -203,6 +203,8 @@
   },
   "active": "e93ddea1b5b57758",
   "lastOpenFiles": [
+    "DB/SQL/SQL 문법/DDL/LIKE.md",
+    "DB/SQL/SQL 문법/DDL/EXISTS.md",
     "DB/SQL/SQL 문법/DDL/DISTINCT.md",
     "DB/SQL/SQL 문법/DML/UPDATE.md",
     "Unused/Attached files/Pasted image 20250120161252.png",
@@ -241,8 +243,6 @@
     "프로젝트/SOPT Makers APP/Makers.md",
     "알고리즘/풀이/코드트리/벽 짚고 미로 탈출하기.md",
     "알고리즘/오늘 푼 문제.md",
-    "알고리즘/풀이/코드트리/2차원 폭발 게임.md",
-    "알고리즘/풀이/코드트리/기울어진 직사각형.md",
     "전공 공부/DB",
     "알고리즘/풀이/코드트리",
     "면접",
