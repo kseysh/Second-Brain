@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DB/SQL/SQL 문법/DDL/EXISTS.md",
+                "file": "DB/SQL/SQL 문법/DDL/ALL.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "EXISTS"
+              "title": "ALL"
             }
           },
           {
@@ -92,7 +92,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 237.50260543823242
+    "width": 237.50260543823242,
+    "collapsed": true
   },
   "right": {
     "id": "feabab388e8825fc",
@@ -203,8 +204,14 @@
   },
   "active": "e93ddea1b5b57758",
   "lastOpenFiles": [
-    "DB/SQL/SQL 문법/DDL/LIKE.md",
+    "Unused/Attached files/Pasted image 20250120165058.png",
+    "DB/SQL/SQL 문법/DDL/ANY.md",
+    "DB/SQL/SQL 문법/DDL/ALL.md",
+    "Unused/Attached files/Pasted image 20250120164833.png",
     "DB/SQL/SQL 문법/DDL/EXISTS.md",
+    "Unused/Attached files/Pasted image 20250120164447.png",
+    "Unused/Attached files/Pasted image 20250120164342.png",
+    "DB/SQL/SQL 문법/DDL/LIKE.md",
     "DB/SQL/SQL 문법/DDL/DISTINCT.md",
     "DB/SQL/SQL 문법/DML/UPDATE.md",
     "Unused/Attached files/Pasted image 20250120161252.png",
@@ -224,11 +231,8 @@
     "Unused/Attached files/Pasted image 20250119221713.png",
     "전공 공부/DB/데이터베이스 constrains.md",
     "Unused/Attached files/Pasted image 20250119221553.png",
-    "Unused/Attached files/Pasted image 20250119221504.png",
-    "Unused/Attached files/Pasted image 20250119221425.png",
     "전공 공부/DB/데이터베이스.md",
     "전공 공부/DB/attribute data type.md",
-    "Unused/Attached files/Pasted image 20250119214452.png",
     "전공 공부/DB/관계형 데이터 베이스.md",
     "프로젝트/SOPT Makers APP/redis sorted set 적용.md",
     "DB/In-memory DB/로컬 캐시를 사용하는 경우.md",
@@ -240,9 +244,6 @@
     "DB/In-memory DB/Redis Replication.md",
     "DB/In-memory DB/Redis Sorted Set.md",
     "DB/In-memory DB/Redis Pub Sub.md",
-    "프로젝트/SOPT Makers APP/Makers.md",
-    "알고리즘/풀이/코드트리/벽 짚고 미로 탈출하기.md",
-    "알고리즘/오늘 푼 문제.md",
     "전공 공부/DB",
     "알고리즘/풀이/코드트리",
     "면접",
