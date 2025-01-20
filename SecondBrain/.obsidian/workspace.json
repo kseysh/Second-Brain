@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DB/SQL/SQL 문법/DML/UPDATE.md",
+                "file": "DB/SQL/SQL 문법/DDL/LIKE.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "UPDATE"
+              "title": "LIKE"
             }
           },
           {
@@ -203,9 +203,10 @@
   },
   "active": "e93ddea1b5b57758",
   "lastOpenFiles": [
+    "DB/SQL/SQL 문법/DDL/DISTINCT.md",
+    "DB/SQL/SQL 문법/DML/UPDATE.md",
     "Unused/Attached files/Pasted image 20250120161252.png",
     "DB/SQL/SQL 문법/DML/INSERT.md",
-    "DB/SQL/SQL 문법/DML/UPDATE.md",
     "DB/SQL/SQL 문법/DDL/정규표현식.md",
     "DB/SQL/SQL 문법/DDL/날짜 관련 함수.md",
     "DB/SQL/SQL 문법/DDL/TEMP.md",
@@ -226,7 +227,6 @@
     "전공 공부/DB/데이터베이스.md",
     "전공 공부/DB/attribute data type.md",
     "Unused/Attached files/Pasted image 20250119214452.png",
-    "Unused/Attached files/Pasted image 20250119214415.png",
     "전공 공부/DB/관계형 데이터 베이스.md",
     "프로젝트/SOPT Makers APP/redis sorted set 적용.md",
     "DB/In-memory DB/로컬 캐시를 사용하는 경우.md",
