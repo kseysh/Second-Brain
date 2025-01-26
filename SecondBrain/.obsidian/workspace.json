@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "전공 공부/DB/Join의 종류.md",
+                "file": "DB/SQL/SQL 문법/DDL/GROUP BY.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Join의 종류"
+              "title": "GROUP BY"
             }
           }
         ]
@@ -78,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 237.50260543823242,
-    "collapsed": true
+    "width": 237.50260543823242
   },
   "right": {
     "id": "feabab388e8825fc",
@@ -190,9 +189,14 @@
   },
   "active": "08bc576102cbb80b",
   "lastOpenFiles": [
+    "DB/SQL/SQL 문법/DDL/HAVING.md",
+    "DB/SQL/SQL 문법/DDL/GROUP BY.md",
+    "DB/SQL/SQL 문법/DDL/aggregate function/COUNT.md",
+    "DB/SQL/SQL 문법/DDL/aggregate function/MAX, MIN.md",
+    "전공 공부/DB/Join의 종류.md",
+    "DB/SQL/SQL 문법/DDL/aggregate function",
     "DB/SQL/SQL 문법/DDL/USING.md",
     "Unused/Attached files/Pasted image 20250126215838.png",
-    "전공 공부/DB/Join의 종류.md",
     "Unused/Attached files/Pasted image 20250126215201.png",
     "Unused/Attached files/Pasted image 20250126214943.png",
     "DB/SQL/SQL 문법/DDL/JOIN.md",
@@ -227,14 +231,10 @@
     "DB/SQL/SQL 문법/DDL",
     "전공 공부/DB/Constraints.md",
     "전공 공부/DB/데이터베이스 constrains.md",
-    "전공 공부/DB/데이터베이스.md",
-    "전공 공부/DB/attribute data type.md",
-    "전공 공부/DB/관계형 데이터 베이스.md",
     "전공 공부/DB",
     "알고리즘/풀이/코드트리",
     "면접",
     "알고리즘/풀이/boj/다시 풀 문제",
-    "전공 공부/운영체제",
     "무제 파일.canvas"
   ]
 }
