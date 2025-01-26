@@ -17,3 +17,8 @@ not applicable
 ### 관련한 NOT IN 사용 시 주의 사항
 ![[Pasted image 20250126213311.png|400]]
 not in은 하나씩 비교해서 and 연산을 하는 로직인데, 3과 NULL을 비교하며 결과가 UNKNOWN이 되고, UNKNOWN과 TRUE를 and 연산하면서 결과가 UNKNOWN이 되는 것이다.
+
+![[Pasted image 20250126213616.png|400]]
+위 서브 쿼리에서 dept_id가 NULL인 employee가 하나라도 있다면, 전체 결과가 UNKNOWN이 되면서 select된 데이터가 하나도 없게 된다.
+
+이를 해결하기 위해 dept_id에 NOT NULL constraints를 걸어두거나, 서브쿼리에 dept_id IS NOT NULL의 조건을 걸어둔다.
