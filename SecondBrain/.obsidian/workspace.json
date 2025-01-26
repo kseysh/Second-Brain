@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DB/SQL/SQL 문법/DDL/GROUP BY.md",
+                "file": "DB/SQL/SQL 문법/DDL/HAVING.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "GROUP BY"
+              "title": "HAVING"
             }
           }
         ]
@@ -189,8 +189,8 @@
   },
   "active": "08bc576102cbb80b",
   "lastOpenFiles": [
-    "DB/SQL/SQL 문법/DDL/HAVING.md",
     "DB/SQL/SQL 문법/DDL/GROUP BY.md",
+    "DB/SQL/SQL 문법/DDL/HAVING.md",
     "DB/SQL/SQL 문법/DDL/aggregate function/COUNT.md",
     "DB/SQL/SQL 문법/DDL/aggregate function/MAX, MIN.md",
     "전공 공부/DB/Join의 종류.md",
