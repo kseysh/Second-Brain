@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "알고리즘/오늘 푼 문제.md",
+                "file": "알고리즘/풀이/코드트리/벽이 있는 충돌 실험.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "오늘 푼 문제"
+              "title": "벽이 있는 충돌 실험"
             }
           }
         ]
@@ -78,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 237.50260543823242,
-    "collapsed": true
+    "width": 237.50260543823242
   },
   "right": {
     "id": "feabab388e8825fc",
@@ -190,6 +189,8 @@
   },
   "active": "abcb6f40eff9fd79",
   "lastOpenFiles": [
+    "알고리즘/오늘 푼 문제.md",
+    "알고리즘/풀이/코드트리/벽이 있는 충돌 실험.md",
     "Unused/Attached files/Pasted image 20250131180136.png",
     "Unused/Attached files/Pasted image 20250131162301.png",
     "알고리즘/C++ 문법/hashset.md",
@@ -221,13 +222,11 @@
     "Unused/Attached files/Pasted image 20250120164833.png",
     "DB/SQL/SQL 문법/DDL/EXISTS.md",
     "Unused/Attached files/Pasted image 20250120164447.png",
-    "Unused/Attached files/Pasted image 20250120164342.png",
     "DB/SQL/SQL 문법/DDL/LIKE.md",
     "DB/SQL/SQL 문법/DDL/DISTINCT.md",
     "DB/SQL/SQL 문법/DML/UPDATE.md",
     "DB/SQL/SQL 문법/DML/INSERT.md",
     "DB/SQL/SQL 문법/DDL/정규표현식.md",
-    "DB/SQL/SQL 문법/DDL/날짜 관련 함수.md",
     "DB/SQL/SQL 문법/TCL",
     "DB/SQL/SQL 문법/DML",
     "DB/SQL/SQL 문법/DCL",
