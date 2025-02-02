@@ -73,7 +73,8 @@
               "title": "파일 탐색기"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -186,7 +187,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "abcb6f40eff9fd79",
+  "active": "2e760b59ee5472a9",
   "lastOpenFiles": [
     "알고리즘/풀이/코드트리/뱀은 사과를 좋아해.md",
     "알고리즘/C++ 문법/hashset.md",
