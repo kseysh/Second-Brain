@@ -40,7 +40,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "multiplex",
+                "query": "\"template <>\"",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -73,8 +73,7 @@
               "title": "파일 탐색기"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "horizontal",
@@ -189,16 +188,17 @@
   },
   "active": "abcb6f40eff9fd79",
   "lastOpenFiles": [
+    "알고리즘/풀이/코드트리/뱀은 사과를 좋아해.md",
+    "알고리즘/C++ 문법/hashset.md",
+    "알고리즘/풀이/코드트리/벽 짚고 미로 탈출하기.md",
+    "알고리즘/풀이/코드트리/벽이 있는 충돌 실험.md",
     "알고리즘/오늘 푼 문제.md",
     "Unused/Attached files/Pasted image 20250202150305.png",
     "알고리즘/C++ 문법/기본.md",
     "알고리즘/C++ 문법/Linked list.md",
     "알고리즘/C++ 문법/Iterator.md",
-    "알고리즘/풀이/코드트리/벽이 있는 충돌 실험.md",
     "Unused/Attached files/Pasted image 20250131180136.png",
     "Unused/Attached files/Pasted image 20250131162301.png",
-    "알고리즘/C++ 문법/hashset.md",
-    "알고리즘/풀이/코드트리/뱀은 사과를 좋아해.md",
     "DB/SQL/SQL 문법/DDL/HAVING.md",
     "DB/SQL/SQL 문법/DDL/GROUP BY.md",
     "DB/SQL/SQL 문법/DDL/aggregate function/COUNT.md",
