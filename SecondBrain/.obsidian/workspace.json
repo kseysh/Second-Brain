@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "알고리즘/오늘 푼 문제.md",
+                "file": "알고리즘/C++ 문법/hashset.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "오늘 푼 문제"
+              "title": "hashset"
             }
           }
         ]
@@ -189,12 +189,12 @@
   },
   "active": "abcb6f40eff9fd79",
   "lastOpenFiles": [
+    "알고리즘/오늘 푼 문제.md",
     "Unused/Attached files/Pasted image 20250202150305.png",
     "알고리즘/C++ 문법/기본.md",
     "알고리즘/C++ 문법/Linked list.md",
     "알고리즘/C++ 문법/Iterator.md",
     "알고리즘/풀이/코드트리/벽이 있는 충돌 실험.md",
-    "알고리즘/오늘 푼 문제.md",
     "Unused/Attached files/Pasted image 20250131180136.png",
     "Unused/Attached files/Pasted image 20250131162301.png",
     "알고리즘/C++ 문법/hashset.md",
@@ -225,7 +225,6 @@
     "DB/SQL/SQL 문법/DDL/ANY.md",
     "Unused/Attached files/Pasted image 20250120164833.png",
     "DB/SQL/SQL 문법/DDL/EXISTS.md",
-    "Unused/Attached files/Pasted image 20250120164447.png",
     "DB/SQL/SQL 문법/DDL/LIKE.md",
     "DB/SQL/SQL 문법/TCL",
     "DB/SQL/SQL 문법/DML",
