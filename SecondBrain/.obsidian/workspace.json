@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "알고리즘/C++ 문법/hashset.md",
+                "file": "프로젝트/sugang/성능 측정.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "hashset"
+              "title": "성능 측정"
             }
           }
         ]
@@ -78,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 237.50260543823242
+    "width": 237.50260543823242,
+    "collapsed": true
   },
   "right": {
     "id": "feabab388e8825fc",
@@ -187,13 +188,15 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "2e760b59ee5472a9",
+  "active": "abcb6f40eff9fd79",
   "lastOpenFiles": [
-    "알고리즘/풀이/코드트리/뱀은 사과를 좋아해.md",
+    "프로젝트/sugang/파이썬 환경에서 Multi Thread, Multi Processing의 차이점.md",
+    "알고리즘/오늘 푼 문제.md",
+    "Unused/Attached files/Pasted image 20250202164328.png",
     "알고리즘/C++ 문법/hashset.md",
+    "알고리즘/풀이/코드트리/뱀은 사과를 좋아해.md",
     "알고리즘/풀이/코드트리/벽 짚고 미로 탈출하기.md",
     "알고리즘/풀이/코드트리/벽이 있는 충돌 실험.md",
-    "알고리즘/오늘 푼 문제.md",
     "Unused/Attached files/Pasted image 20250202150305.png",
     "알고리즘/C++ 문법/기본.md",
     "알고리즘/C++ 문법/Linked list.md",
@@ -217,16 +220,13 @@
     "Unused/Attached files/Pasted image 20250126213311.png",
     "전공 공부/운영체제/block IO vs non-block IO.md",
     "프로젝트/sugang/성능 측정.md",
-    "프로젝트/sugang/파이썬 환경에서 Multi Thread, Multi Processing의 차이점.md",
     "프로젝트/SOPT Makers APP/redis sorted set 적용.md",
     "프로젝트/sugang",
     "프로젝트/jmeter 사용법.md",
     "DB/SQL/SQL 문법/DDL/ALL.md",
     "Unused/Attached files/Pasted image 20250120165058.png",
     "DB/SQL/SQL 문법/DDL/ANY.md",
-    "Unused/Attached files/Pasted image 20250120164833.png",
     "DB/SQL/SQL 문법/DDL/EXISTS.md",
-    "DB/SQL/SQL 문법/DDL/LIKE.md",
     "DB/SQL/SQL 문법/TCL",
     "DB/SQL/SQL 문법/DML",
     "DB/SQL/SQL 문법/DCL",
