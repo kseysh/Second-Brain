@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "전공 공부/DB/autocommit.md",
+                "file": "DB/ACID.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "autocommit"
+              "title": "ACID"
             }
           },
           {
@@ -204,8 +204,10 @@
   "active": "c0181bee653fd33c",
   "lastOpenFiles": [
     "전공 공부/DB/trigger.md",
-    "전공 공부/DB/autocommit.md",
     "전공 공부/DB/Transaction.md",
+    "전공 공부/DB/autocommit.md",
+    "Unused/Attached files/Pasted image 20250203183210.png",
+    "Spring/JPA/@Transaction(readOnly= true)는 왜 사용할까?.md",
     "Spring/JPA/Transaction 전파.md",
     "Spring/JPA/Transaction의 범위.md",
     "DB/ACID.md",
@@ -236,10 +238,7 @@
     "DB/SQL/SQL 문법/DDL/HAVING.md",
     "DB/SQL/SQL 문법/DDL/GROUP BY.md",
     "DB/SQL/SQL 문법/DDL/aggregate function/COUNT.md",
-    "DB/SQL/SQL 문법/DDL/aggregate function/MAX, MIN.md",
-    "전공 공부/DB/Join의 종류.md",
     "DB/SQL/SQL 문법/DDL/aggregate function",
-    "Unused/Attached files/Pasted image 20250126215838.png",
     "프로젝트/sugang",
     "DB/SQL/SQL 문법/TCL",
     "DB/SQL/SQL 문법/DML",
