@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "전공 공부/DB/attribute data type.md",
+                "file": "전공 공부/DB/Stored procedure.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "attribute data type"
+              "title": "Stored procedure"
             }
           }
         ]
@@ -189,6 +189,10 @@
   },
   "active": "c0181bee653fd33c",
   "lastOpenFiles": [
+    "전공 공부/DB/Stored function.md",
+    "Unused/Attached files/Pasted image 20250203165423.png",
+    "전공 공부/DB/Stored procedure.md",
+    "전공 공부/DB/attribute data type.md",
     "프로젝트/sugang/성능 측정.md",
     "프로젝트/sugang/파이썬 환경에서 Multi Thread, Multi Processing의 차이점.md",
     "알고리즘/오늘 푼 문제.md",
@@ -222,10 +226,6 @@
     "프로젝트/SOPT Makers APP/redis sorted set 적용.md",
     "프로젝트/sugang",
     "프로젝트/jmeter 사용법.md",
-    "DB/SQL/SQL 문법/DDL/ALL.md",
-    "Unused/Attached files/Pasted image 20250120165058.png",
-    "DB/SQL/SQL 문법/DDL/ANY.md",
-    "DB/SQL/SQL 문법/DDL/EXISTS.md",
     "DB/SQL/SQL 문법/TCL",
     "DB/SQL/SQL 문법/DML",
     "DB/SQL/SQL 문법/DCL",
