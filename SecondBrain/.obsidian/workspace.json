@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Develop/Architecture/Three-tier architecture.md",
+                "file": "전공 공부/DB/Stored procedure.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Three-tier architecture"
+              "title": "Stored procedure"
             }
           },
           {
@@ -92,7 +92,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 237.50260543823242
+    "width": 237.50260543823242,
+    "collapsed": true
   },
   "right": {
     "id": "feabab388e8825fc",
@@ -203,9 +204,9 @@
   },
   "active": "c0181bee653fd33c",
   "lastOpenFiles": [
+    "Develop/Architecture/Three-tier architecture.md",
     "Unused/Attached files/Pasted image 20250203172639.png",
     "전공 공부/DB/Stored procedure.md",
-    "Develop/Architecture/Three-tier architecture.md",
     "전공 공부/DB/Stored function.md",
     "Unused/Attached files/Pasted image 20250203170249.png",
     "Unused/Attached files/Pasted image 20250203165910.png",
@@ -234,7 +235,6 @@
     "DB/SQL/SQL 문법/DDL/USING.md",
     "Unused/Attached files/Pasted image 20250126215838.png",
     "Unused/Attached files/Pasted image 20250126215201.png",
-    "Unused/Attached files/Pasted image 20250126214943.png",
     "DB/SQL/SQL 문법/DDL/JOIN.md",
     "DB/SQL/SQL 문법/DDL/SQL 문법 순서도.md",
     "전공 공부/DB/SQL three valued logic.md",
