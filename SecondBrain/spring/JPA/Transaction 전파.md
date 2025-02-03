@@ -4,7 +4,7 @@
 # 트랜잭션의 종료
 하나의 트랜잭션이 시작지면 commit() 또는 rollback() 호출될 때 까지가 하나의 트랜잭션으로 묶인다.
 
-```
+```java
 public void executeQuery() throws SQLException {
     TransactionStatus status = transactionManager.getTransaction(new DefaultTransactionDefinition());
     // 트랜잭션 시작
