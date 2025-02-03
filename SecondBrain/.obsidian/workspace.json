@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "전공 공부/DB/Stored procedure.md",
+                "file": "Develop/Architecture/Three-tier architecture.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Stored procedure"
+              "title": "Three-tier architecture"
             }
           },
           {
@@ -92,8 +92,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 237.50260543823242,
-    "collapsed": true
+    "width": 237.50260543823242
   },
   "right": {
     "id": "feabab388e8825fc",
@@ -204,8 +203,10 @@
   },
   "active": "c0181bee653fd33c",
   "lastOpenFiles": [
-    "전공 공부/DB/Stored function.md",
+    "Unused/Attached files/Pasted image 20250203172639.png",
     "전공 공부/DB/Stored procedure.md",
+    "Develop/Architecture/Three-tier architecture.md",
+    "전공 공부/DB/Stored function.md",
     "Unused/Attached files/Pasted image 20250203170249.png",
     "Unused/Attached files/Pasted image 20250203165910.png",
     "Unused/Attached files/Pasted image 20250203165423.png",
@@ -240,7 +241,6 @@
     "전공 공부/운영체제/block IO vs non-block IO.md",
     "프로젝트/SOPT Makers APP/redis sorted set 적용.md",
     "프로젝트/sugang",
-    "프로젝트/jmeter 사용법.md",
     "DB/SQL/SQL 문법/TCL",
     "DB/SQL/SQL 문법/DML",
     "DB/SQL/SQL 문법/DCL",
