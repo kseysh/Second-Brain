@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DB/ACID.md",
+                "file": "알고리즘/풀이/코드트리/벽이 없는 충돌 실험.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "ACID"
+              "title": "벽이 없는 충돌 실험"
             }
           },
           {
@@ -92,7 +92,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 237.50260543823242
+    "width": 237.50260543823242,
+    "collapsed": true
   },
   "right": {
     "id": "feabab388e8825fc",
@@ -203,6 +204,9 @@
   },
   "active": "c0181bee653fd33c",
   "lastOpenFiles": [
+    "알고리즘/오늘 푼 문제.md",
+    "알고리즘/풀이/코드트리/벽이 없는 충돌 실험.md",
+    "DB/ACID.md",
     "전공 공부/DB/trigger.md",
     "전공 공부/DB/Transaction.md",
     "전공 공부/DB/autocommit.md",
@@ -210,7 +214,6 @@
     "Spring/JPA/@Transaction(readOnly= true)는 왜 사용할까?.md",
     "Spring/JPA/Transaction 전파.md",
     "Spring/JPA/Transaction의 범위.md",
-    "DB/ACID.md",
     "전공 공부/DB/ACID.md",
     "Unused/Attached files/Pasted image 20250203175816.png",
     "전공 공부/DB/Stored procedure.md",
@@ -223,7 +226,6 @@
     "전공 공부/DB/attribute data type.md",
     "프로젝트/sugang/성능 측정.md",
     "프로젝트/sugang/파이썬 환경에서 Multi Thread, Multi Processing의 차이점.md",
-    "알고리즘/오늘 푼 문제.md",
     "Unused/Attached files/Pasted image 20250202164328.png",
     "알고리즘/C++ 문법/hashset.md",
     "알고리즘/풀이/코드트리/뱀은 사과를 좋아해.md",
