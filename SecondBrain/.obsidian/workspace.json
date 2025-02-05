@@ -22,18 +22,6 @@
             }
           },
           {
-            "id": "9420a11591f2a512",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.8.4"
-              },
-              "icon": "lucide-book-up",
-              "title": "Release Notes 1.8.4"
-            }
-          },
-          {
             "id": "f3b29bb5d335f7b9",
             "type": "leaf",
             "state": {
@@ -47,8 +35,7 @@
               "title": "Stored function"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -215,7 +202,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "9420a11591f2a512",
+  "active": "c0181bee653fd33c",
   "lastOpenFiles": [
     "알고리즘/풀이/코드트리/기울어진 직사각형.md",
     "알고리즘/C++ 문법/hashset.md",
