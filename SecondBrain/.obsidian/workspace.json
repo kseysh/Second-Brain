@@ -93,7 +93,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 237.50260543823242
+    "width": 237.50260543823242,
+    "collapsed": true
   },
   "right": {
     "id": "feabab388e8825fc",
@@ -204,9 +205,12 @@
   },
   "active": "c0181bee653fd33c",
   "lastOpenFiles": [
+    "Unused/Attached files/Pasted image 20250205182134.png",
+    "Unused/Attached files/Pasted image 20250205182131.png",
+    "알고리즘/풀이/코드트리/2명의 도둑.md",
+    "알고리즘/오늘 푼 문제.md",
     "알고리즘/풀이/코드트리/사다리 타기.md",
     "알고리즘/C++ 문법/const를 이용한 빠른 참조.md",
-    "알고리즘/오늘 푼 문제.md",
     "알고리즘/풀이/코드트리/겹쳐지지 않는 두 직사각형.md",
     "알고리즘/풀이/코드트리/기울어진 직사각형.md",
     "알고리즘/C++ 문법/hashset.md",
@@ -234,12 +238,9 @@
     "전공 공부/DB/attribute data type.md",
     "프로젝트/sugang/성능 측정.md",
     "프로젝트/sugang/파이썬 환경에서 Multi Thread, Multi Processing의 차이점.md",
-    "Unused/Attached files/Pasted image 20250202164328.png",
     "알고리즘/풀이/코드트리/뱀은 사과를 좋아해.md",
     "알고리즘/풀이/코드트리/벽 짚고 미로 탈출하기.md",
     "알고리즘/풀이/코드트리/벽이 있는 충돌 실험.md",
-    "알고리즘/C++ 문법/기본.md",
-    "알고리즘/C++ 문법/Linked list.md",
     "DB/SQL/SQL 문법/DDL/aggregate function",
     "프로젝트/sugang",
     "DB/SQL/SQL 문법/TCL",
