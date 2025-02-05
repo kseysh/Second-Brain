@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "알고리즘/오늘 푼 문제.md",
+                "file": "알고리즘/C++ 문법/const를 이용한 빠른 참조.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "오늘 푼 문제"
+              "title": "const를 이용한 빠른 참조"
             }
           },
           {
@@ -205,10 +205,11 @@
   },
   "active": "c0181bee653fd33c",
   "lastOpenFiles": [
+    "알고리즘/오늘 푼 문제.md",
+    "알고리즘/C++ 문법/const를 이용한 빠른 참조.md",
     "알고리즘/풀이/코드트리/겹쳐지지 않는 두 직사각형.md",
     "알고리즘/풀이/코드트리/기울어진 직사각형.md",
     "알고리즘/C++ 문법/hashset.md",
-    "알고리즘/오늘 푼 문제.md",
     "Unused/Attached files/Pasted image 20250204222048.png",
     "Unused/Attached files/Pasted image 20250204220421.png",
     "Unused/Attached files/Pasted image 20250204220248.png",
@@ -240,7 +241,6 @@
     "알고리즘/C++ 문법/기본.md",
     "알고리즘/C++ 문법/Linked list.md",
     "알고리즘/C++ 문법/Iterator.md",
-    "DB/SQL/SQL 문법/DDL/HAVING.md",
     "DB/SQL/SQL 문법/DDL/aggregate function",
     "프로젝트/sugang",
     "DB/SQL/SQL 문법/TCL",
