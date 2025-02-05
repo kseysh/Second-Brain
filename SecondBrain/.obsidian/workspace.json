@@ -22,6 +22,18 @@
             }
           },
           {
+            "id": "9420a11591f2a512",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.8.4"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.8.4"
+            }
+          },
+          {
             "id": "f3b29bb5d335f7b9",
             "type": "leaf",
             "state": {
@@ -35,7 +47,8 @@
               "title": "Stored function"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -191,10 +204,10 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:퀵 스위처 열기": false,
+      "switcher:빠른 전환기 열기": false,
+      "daily-notes:오늘의 일일 노트 열기": false,
       "graph:그래프 뷰 열기": false,
       "canvas:새 캔버스 만들기": false,
-      "daily-notes:오늘의 데일리 노트 열기": false,
       "templates:템플릿 삽입": false,
       "command-palette:명령어 팔레트 열기": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
@@ -202,7 +215,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "c0181bee653fd33c",
+  "active": "9420a11591f2a512",
   "lastOpenFiles": [
     "알고리즘/풀이/코드트리/기울어진 직사각형.md",
     "알고리즘/C++ 문법/hashset.md",
