@@ -55,3 +55,6 @@ redis에 데이터가 다 적용이 된 이후에 DB 락을 해제해준다.
 #### 문제의 원인
 예상이지만, 가상 스레드를 사용하고 가상 스레드는 랭킹 작업이 정렬을 포함해서 cpu 사용률이 높았고, 
 뭘까..
+
+## Redis의 Set이 순서를 보장하는 이유
+`Set<TypedTuple<Long>>`을 getClass 해보았을 때, Set의 구현체가 LinkedHashSet이기 때문이다.
