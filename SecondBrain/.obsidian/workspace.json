@@ -93,8 +93,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 237.50260543823242,
-    "collapsed": true
+    "width": 237.50260543823242
   },
   "right": {
     "id": "feabab388e8825fc",
@@ -205,6 +204,9 @@
   },
   "active": "c0181bee653fd33c",
   "lastOpenFiles": [
+    "프로젝트/SOPT Makers APP/Docker를 사용하여 CICD 개선.md",
+    "프로젝트/SOPT Makers APP/IO시에 비동기 처리 구현.md",
+    "프로젝트/SOPT Makers APP/redis sorted set 적용.md",
     "알고리즘/오늘 푼 문제.md",
     "Unused/Attached files/Pasted image 20250205182134.png",
     "Unused/Attached files/Pasted image 20250205182131.png",
@@ -238,8 +240,6 @@
     "프로젝트/sugang/성능 측정.md",
     "프로젝트/sugang/파이썬 환경에서 Multi Thread, Multi Processing의 차이점.md",
     "알고리즘/풀이/코드트리/뱀은 사과를 좋아해.md",
-    "알고리즘/풀이/코드트리/벽 짚고 미로 탈출하기.md",
-    "알고리즘/풀이/코드트리/벽이 있는 충돌 실험.md",
     "DB/SQL/SQL 문법/DDL/aggregate function",
     "프로젝트/sugang",
     "DB/SQL/SQL 문법/TCL",
