@@ -93,7 +93,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 237.50260543823242
+    "width": 237.50260543823242,
+    "collapsed": true
   },
   "right": {
     "id": "feabab388e8825fc",
@@ -204,6 +205,9 @@
   },
   "active": "c0181bee653fd33c",
   "lastOpenFiles": [
+    "Unused/Attached files/Pasted image 20250207151459.png",
+    "Unused/Attached files/Pasted image 20250207151408.png",
+    "Unused/Attached files/Pasted image 20250207151347.png",
     "전공 공부/DB/concurrency control.md",
     "전공 공부/DB/Schedule.md",
     "Unused/Attached files/Pasted image 20250207145259.png",
@@ -235,11 +239,8 @@
     "Unused/Attached files/Pasted image 20250203175816.png",
     "전공 공부/DB/Stored procedure.md",
     "Develop/Architecture/Three-tier architecture.md",
-    "Unused/Attached files/Pasted image 20250203172639.png",
     "전공 공부/DB/Stored function.md",
-    "Unused/Attached files/Pasted image 20250203170249.png",
     "전공 공부/DB/attribute data type.md",
-    "프로젝트/sugang/성능 측정.md",
     "DB/SQL/SQL 문법/DDL/aggregate function",
     "프로젝트/sugang",
     "DB/SQL/SQL 문법/TCL",
