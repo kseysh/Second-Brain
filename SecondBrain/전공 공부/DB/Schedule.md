@@ -22,7 +22,12 @@ schedule 내에서 그 어떤 transaction도 자신이 읽은 데이터를 write
 => rollback할 때 이전 상태로 온전히 돌아갈 수 있기 때문에 DBMS는 이런 schedule만 허용해야 한다.
 ### cascadeless schedule
 schedule내에서 어떤 transaction도 commit되지 않은 transaction들이 write한 데이터는 읽지 않는 경우
-#### strict schedule
 
+![[Pasted image 20250207160645.png|300]]
+하지만 위 상황에서는 cascadeless schedule이지만, tx2 결과가 사라지는 문제가 발생할 수 있다.
+#### strict schedule
+cascadeless schedule의 문제를 해결하기 위해 schedule내에서 어떤 transaction도 commit되지 않은 transaction들이 write한 데이터를 쓰지도 읽지도 않는 경우
+
+![[Pasted image 20250207161111.png|200]]
 
 ![[Conflict]]
