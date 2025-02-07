@@ -17,10 +17,12 @@ schedule 내에서 commit된 transaction이 rollback된 transaction이 write 했
 => 이는 rollback을 해도 이전 상태로 회복 불가능할 수 있기 때문에 이런 schedule은 DBMS가 허용하면 안된다.
 ![[Pasted image 20250207153653.png|300]]
 => Transaction1이 롤백을 진행해서 Transaction2는 유효하지 않은 데이터에 20만원을 더하고 commit 해버린 상황.
-#### 그렇다면 어떤 schedule이 recoverable한가?
+#### recoverable schedule
+schedule 내에서 그 어떤 transaction도 자신이 읽은 데이터를 write한 transaction이 먼저 commit/rollback 전까지는 commit 하지 않는 경우
+=> rollback할 때 이전 상태로 온전히 돌아갈 수 있기 때문에 DBMS는 이런 schedule만 허용해야 한다.
+### cascadeless schedule
+schedule내에서 어떤 transaction도 commit되지 않은 transaction들이 write한 데이터는 읽지 않는 경우
+#### strict schedule
 
-현재 1번 transaction이 2번 transaction에 의존하고 있다.
-이 상태에서는 2번 transaction이 먼저 commit을 하고, 1번 transaction이 커밋해야 한다.
-만약 2번 transaction이 rollback해야 한다면, 1번 transaction도 같이 abort를 하여 rollback할 수 있도록 해야한다.
 
 ![[Conflict]]
