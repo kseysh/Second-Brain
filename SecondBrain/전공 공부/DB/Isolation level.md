@@ -13,7 +13,6 @@ x가 y에 40을 이체하는 것이므로 x와 y의 합은 항상 100이어야 �
 ### phantom read
 ![[Pasted image 20250207165701.png|400]]
 하나의 Transaction에서 같은 조건에서 두 번 읽었는데 결과가 달라졌으므로 이는 Isolation을 위반한 것
-
 # SQL 표준의 Isolation level
 일부 현상을 허용하는 몇 가지 level을 만들어 사용자가 필요에 따라서 적절하게 선택할 수 있도록 하는 것.
 따라서 개발자는 isolation level을 통해 Throughput과 데이터 일관성 사이에서 어느정도 거래를 할 수 있다.

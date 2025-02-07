@@ -1,4 +1,4 @@
 concurrency control provides serializablity & recoverability => Isolation
 
-![[Schedule]]
+# Lock을 활용한 concurrency control
 
