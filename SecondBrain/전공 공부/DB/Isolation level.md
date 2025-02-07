@@ -12,4 +12,14 @@ Commit되지 않은 변화를 읽음
 하나의 Transaction에서 같은 조건에서 두 번 읽었는데 결과가 달라졌으므로 이는 Isolation을 위반한 것
 # Isolation level
 일부 현상을 허용하는 몇 가지 level을 만들어 사용자가 필요에 따라서 적절하게 선택할 수 있도록 하는 것.
+따라서 개발자는 isolation level을 통해 Throughput과 데이터 일관성 사이에서 어느정도 거래를 할 수 있다.
 ![[Pasted image 20250207170018.png|400]]
+### Isolation level에서 정의되지 않았던 현상
+#### Dirty write
+commit 안된 데이터를 write함
+![[Pasted image 20250207170323.png|400]]
+Transaction 1은 10으로 바꾸고 abort를 하여 100이 되었다 쳐도, Transaction 2도 abort를 하게 되면 10으로 바꿔지게 되어 정합성 오류가 발생할 수 있다. 
+게다가 Transaction 2가 만약 commit을 했다고 해도 Transaction 1이 abort를 하여 0으로 값이 바뀐다면 이는 Duration 속성도 만족하지 못하게 된다.
+#### Lost update
+업데이트를 덮어씀
+![[Pasted image 20250207170822.png|400]]
