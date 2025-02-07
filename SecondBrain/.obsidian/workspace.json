@@ -93,7 +93,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 237.50260543823242
+    "width": 237.50260543823242,
+    "collapsed": true
   },
   "right": {
     "id": "feabab388e8825fc",
@@ -204,6 +205,8 @@
   },
   "active": "c0181bee653fd33c",
   "lastOpenFiles": [
+    "Unused/Attached files/Pasted image 20250207172454.png",
+    "Unused/Attached files/Pasted image 20250207172258.png",
     "Unused/Attached files/Pasted image 20250207171428.png",
     "전공 공부/DB/Conflict.md",
     "전공 공부/DB/Isolation level.md",
@@ -217,8 +220,6 @@
     "Unused/Attached files/Pasted image 20250207165330.png",
     "전공 공부/DB/concurrency control.md",
     "Unused/Attached files/Pasted image 20250207161111.png",
-    "Unused/Attached files/Pasted image 20250207160645.png",
-    "Unused/Attached files/Pasted image 20250207153653.png",
     "프로젝트/SOPT Makers APP/Docker를 사용하여 CICD 개선.md",
     "프로젝트/SOPT Makers APP/redis sorted set 적용.md",
     "프로젝트/SOPT Makers APP/IO시에 비동기 처리 구현.md",
