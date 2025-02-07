@@ -93,8 +93,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 237.50260543823242,
-    "collapsed": true
+    "width": 237.50260543823242
   },
   "right": {
     "id": "feabab388e8825fc",
@@ -205,11 +204,13 @@
   },
   "active": "c0181bee653fd33c",
   "lastOpenFiles": [
+    "Unused/Attached files/Pasted image 20250207153653.png",
+    "전공 공부/DB/Conflict.md",
+    "전공 공부/DB/Schedule.md",
     "Unused/Attached files/Pasted image 20250207151459.png",
     "Unused/Attached files/Pasted image 20250207151408.png",
     "Unused/Attached files/Pasted image 20250207151347.png",
     "전공 공부/DB/concurrency control.md",
-    "전공 공부/DB/Schedule.md",
     "Unused/Attached files/Pasted image 20250207145259.png",
     "프로젝트/SOPT Makers APP/Docker를 사용하여 CICD 개선.md",
     "프로젝트/SOPT Makers APP/redis sorted set 적용.md",
@@ -236,11 +237,9 @@
     "Spring/JPA/Transaction 전파.md",
     "Spring/JPA/Transaction의 범위.md",
     "전공 공부/DB/ACID.md",
-    "Unused/Attached files/Pasted image 20250203175816.png",
     "전공 공부/DB/Stored procedure.md",
     "Develop/Architecture/Three-tier architecture.md",
     "전공 공부/DB/Stored function.md",
-    "전공 공부/DB/attribute data type.md",
     "DB/SQL/SQL 문법/DDL/aggregate function",
     "프로젝트/sugang",
     "DB/SQL/SQL 문법/TCL",
