@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "전공 공부/DB/Schedule.md",
+                "file": "전공 공부/DB/Isolation level.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Schedule"
+              "title": "Isolation level"
             }
           },
           {
@@ -93,7 +93,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 237.50260543823242
+    "width": 237.50260543823242,
+    "collapsed": true
   },
   "right": {
     "id": "feabab388e8825fc",
@@ -204,10 +205,10 @@
   },
   "active": "c0181bee653fd33c",
   "lastOpenFiles": [
+    "전공 공부/DB/Schedule.md",
     "전공 공부/DB/Conflict.md",
     "전공 공부/DB/Isolation level.md",
     "전공 공부/DB/concurrency control.md",
-    "전공 공부/DB/Schedule.md",
     "Unused/Attached files/Pasted image 20250207161111.png",
     "Unused/Attached files/Pasted image 20250207160645.png",
     "Unused/Attached files/Pasted image 20250207153653.png",

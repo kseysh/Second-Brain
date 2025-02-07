@@ -31,5 +31,4 @@ schedule내에서 어떤 transaction도 commit되지 않은 transaction들이 wr
 cascadeless schedule의 문제를 해결하기 위해 schedule내에서 어떤 transaction도 commit되지 않은 transaction들이 write한 데이터를 쓰지도 읽지도 않는 경우
 
 
-
 ![[Conflict]]
