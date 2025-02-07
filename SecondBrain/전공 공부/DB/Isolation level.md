@@ -4,6 +4,9 @@
 ![[Pasted image 20250207165502.png|300]]
 Commit되지 않은 변화를 읽음
 이로 인해 commit 되기 전에 rollback이 되면 잘못된 값을 읽을 수도 있다는 문제가 생긴다.
+#### abort를 수행핮Dirty read
+![[Pasted image 20250207171428.png|300]]
+x가 y에 40을 이체하는 것이므로 x와 y의 합은 항상 100이어야 하는데, Transaction 2에서는 합이 60이므로 잘못된 값을 읽고 있다. 이처럼 abort가 일어나지 않아도 Dirty read가 발생할 수 있다.
 ### Non-repeatable read (Fuzzy read)
 ![[Pasted image 20250207165330.png|300]]
 같은 데이터의 값이 달라지는 현상
