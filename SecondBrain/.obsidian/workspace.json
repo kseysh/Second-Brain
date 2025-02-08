@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Spring/횡단 관심사.md",
+                "file": "Spring/스프링 강의/스프링 핵심 원리/스프링 빈이 싱글톤으로 유지되는 이유, @Configuration.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "횡단 관심사"
+              "title": "스프링 빈이 싱글톤으로 유지되는 이유, @Configuration"
             }
           },
           {
@@ -93,7 +93,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 237.50260543823242
+    "width": 237.50260543823242,
+    "collapsed": true
   },
   "right": {
     "id": "feabab388e8825fc",
@@ -204,6 +205,7 @@
   },
   "active": "c0181bee653fd33c",
   "lastOpenFiles": [
+    "Spring/횡단 관심사.md",
     "Spring/필드 주입.md",
     "Spring/프록시 객체.md",
     "Spring/프레임 워크.md",
@@ -229,7 +231,6 @@
     "DB/In-memory DB/In-memory DB.md",
     "Spring/Spring MVC.md",
     "DB/In-memory DB/복제와 클러스터.md",
-    "DB/In-memory DB/AWS ElastiCache.md",
     "Unused/Attached files/Pasted image 20250207173212.png",
     "Unused/Attached files/Pasted image 20250207172454.png",
     "Unused/Attached files/Pasted image 20250207172258.png",
