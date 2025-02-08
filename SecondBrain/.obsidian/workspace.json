@@ -93,8 +93,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 237.50260543823242,
-    "collapsed": true
+    "width": 237.50260543823242
   },
   "right": {
     "id": "feabab388e8825fc",
@@ -203,7 +202,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "c0181bee653fd33c",
+  "active": "2e760b59ee5472a9",
   "lastOpenFiles": [
     "Spring/스프링 강의/스프링 핵심 원리/스프링 빈이 싱글톤으로 유지되는 이유, @Configuration.md",
     "Spring/횡단 관심사.md",
