@@ -39,10 +39,14 @@
             "id": "e683f38eec1f24d4",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "알고리즘/오늘 푼 문제.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "새 탭"
+              "title": "오늘 푼 문제"
             }
           }
         ],
@@ -215,6 +219,7 @@
   },
   "active": "e683f38eec1f24d4",
   "lastOpenFiles": [
+    "Unused/Attached files/Pasted image 20250209222014.png",
     "알고리즘/오늘 푼 문제.md",
     "Spring/스프링 강의/스프링 핵심 원리/컴포넌트 스캔.md",
     "Spring/스프링 강의/스프링 핵심 원리/스프링 빈이 싱글톤으로 유지되는 이유, @Configuration.md",
@@ -240,7 +245,6 @@
     "Spring/dto.md",
     "Spring/URL.md",
     "Spring/Spring 네이밍 컨벤션.md",
-    "Spring/Setter 주입.md",
     "Unused/Attached files/Pasted image 20250207173212.png",
     "Unused/Attached files/Pasted image 20250207172454.png",
     "Unused/Attached files/Pasted image 20250207172258.png",
