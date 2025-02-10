@@ -16,4 +16,6 @@ HTTP 요청 메시지를 개발자가 직접 파싱해서 사용해도 되지만
 ### 추가 기능
 #### 임시 저장소 기능
 - 저장 : request.setAttribute(name, value)
-- 조회 : request.getAttribute(name, value)
+- 조회 : request.getAttribute(name)
+#### 세션 관리 기능
+- request.getSession(create: true)
