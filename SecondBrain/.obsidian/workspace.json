@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Spring/스프링 강의/스프링 MVC/HttpServletRequest.md",
+                "file": "Spring/스프링 강의/스프링 MVC/DispatcherServlet.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "HttpServletRequest"
+              "title": "DispatcherServlet"
             }
           }
         ],
@@ -220,9 +220,11 @@
   },
   "active": "e683f38eec1f24d4",
   "lastOpenFiles": [
+    "Unused/Attached files/Pasted image 20250210214435.png",
+    "Spring/스프링 강의/스프링 MVC/HttpServletRequest.md",
+    "Spring/스프링 강의/스프링 MVC/DispatcherServlet.md",
     "Unused/Attached files/Pasted image 20250210204303.png",
     "Spring/스프링 강의/스프링 MVC/서블릿 컨테이너 동작 방식.md",
-    "Spring/스프링 강의/스프링 MVC/HttpServletRequest.md",
     "Unused/Attached files/Pasted image 20250210203909.png",
     "Spring/스프링 강의/스프링 MVC/스레드.md",
     "Spring/스프링 강의/스프링 MVC/서블릿이란?.md",
@@ -252,10 +254,8 @@
     "Spring/스프링 컨테이너.md",
     "Spring/스프링 빈.md",
     "Spring/스프링 웹 애플리케이션 계층 구조.md",
-    "Controller.md",
     "Unused/Attached files/Pasted image 20250207173212.png",
     "Unused/Attached files/Pasted image 20250207172454.png",
-    "Unused/Attached files/Pasted image 20250207172258.png",
     "DB/SQL/SQL 문법/DDL/aggregate function",
     "프로젝트/sugang",
     "DB/SQL/SQL 문법/TCL",
