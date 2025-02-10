@@ -45,8 +45,5 @@ Sampler 또는 Listener가 사용할 설정 값
 ## Assertion 
 - 응답 확인 방법
 - HTTP Request 우클릭 -> Add -> Assertions -> Response Assertion 클릭
-
-
-
 ## 유의 사항
 JMeter를 돌리는 서버와 WAS가 같으면 같은 메모리를 사용하여 정확한 값을 측정할 수 없을 수 있다.
