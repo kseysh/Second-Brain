@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Spring/스프링 강의/스프링 MVC/서블릿이란?.md",
+                "file": "Spring/스프링 강의/스프링 MVC/스레드.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "서블릿이란?"
+              "title": "스레드"
             }
           }
         ],
@@ -108,8 +108,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 237.50260543823242,
-    "collapsed": true
+    "width": 237.50260543823242
   },
   "right": {
     "id": "feabab388e8825fc",
@@ -220,6 +219,7 @@
   },
   "active": "e683f38eec1f24d4",
   "lastOpenFiles": [
+    "Spring/스프링 강의/스프링 MVC/서블릿이란?.md",
     "Spring/스프링 강의/스프링 MVC/스레드.md",
     "Spring/스프링 강의/스프링 핵심 원리/빈 스코프.md",
     "Spring/스프링 강의/스프링 핵심 원리/빈 생명주기 콜백.md",
@@ -247,7 +247,6 @@
     "Spring/생성자 주입.md",
     "Spring/스프링 부트의 장점.md",
     "Spring/단일 테이블 전략.md",
-    "Spring/구현 클래스마다 테이블 전략.md",
     "Unused/Attached files/Pasted image 20250207173212.png",
     "Unused/Attached files/Pasted image 20250207172454.png",
     "Unused/Attached files/Pasted image 20250207172258.png",
