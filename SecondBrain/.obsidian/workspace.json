@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "전공 공부/지난 학기/컴퓨터 네트워크/TCP.md",
+                "file": "전공 공부/지난 학기/컴퓨터 네트워크/7 Layers 정리.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "TCP"
+              "title": "7 Layers 정리"
             }
           },
           {
@@ -122,7 +122,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 237.50260543823242
+    "width": 237.50260543823242,
+    "collapsed": true
   },
   "right": {
     "id": "feabab388e8825fc",
@@ -233,8 +234,8 @@
   },
   "active": "e683f38eec1f24d4",
   "lastOpenFiles": [
-    "전공 공부/지난 학기/컴퓨터 네트워크/7 Layers 정리.md",
     "전공 공부/지난 학기/컴퓨터 네트워크/TCP.md",
+    "전공 공부/지난 학기/컴퓨터 네트워크/7 Layers 정리.md",
     "전공 공부/지난 학기/컴퓨터 네트워크/TCP 2.md",
     "전공 공부/지난 학기/컴퓨터 네트워크/Unicast Routing Protocols.md",
     "전공 공부/지난 학기/컴퓨터 네트워크/ARP.md",
