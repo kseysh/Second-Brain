@@ -31,11 +31,11 @@ read_lock(y) ->  write_lock(x) -> unlock(y)의 순서로 락 획득 후 락 반�
 따라서 이 때문에 다들 Lock을 획득하려고만 해서 DeadLock이 발생할 수 있다.
 ### 이를 해결하기 위한 방법
 #### conservative 2PL
-모든 Lock을 취득해야 tx를 시작한다.
+모든 Lock을 확보해야 tx를 시작한다. (Lock을 거는 것이 아니라 Lock을 확보할 수 있는지 확인 -> 확보 가능하다면 Lock을 건다)
+어떤 트랜잭션도 일부 Lock을 가진 채 다른 Lock을 기다리지 않는다.
 하지만 모든 Lock을 취득하는 것이 시간이 오래 걸릴 수 있어 실용적이지 않다.
-
 #### strict 2PL
-
+strict schedule을 보장하는 2PL
 
 #### strong strict 2PL
 
