@@ -27,12 +27,12 @@ read_lock(y) ->  write_lock(x) -> unlock(y)의 순서로 락 획득 후 락 반�
 
 ## 2PL과 DeadLock
 ![[Pasted image 20250212162333.png|400]]
-2PL 방식의 특성상 Lock을 모두 획득하기 전까지 반환하지 않는다.
-따라서 이 
+2PL 방식의 특성상 Lock을 반환하는 Shrink phase 전에 Expanding phase에서 Lock을 모두 획득하기 전까지 반환하지 않는다.
+따라서 이 때문에 다들 Lock을 획득하려고만 해서 DeadLock이 발생할 수 있다.
 ### 이를 해결하기 위한 방법
-
 #### conservative 2PL
-
+모든 Lock을 취득해야 tx를 시작한다.
+하지만 모든 Lock을 취득하는 것이 시간이 오래 걸릴 수 있어 실용적이지 않다.
 
 #### strict 2PL
 
