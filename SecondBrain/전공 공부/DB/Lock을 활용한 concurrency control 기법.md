@@ -36,6 +36,7 @@ read_lock(y) ->  write_lock(x) -> unlock(y)의 순서로 락 획득 후 락 반�
 하지만 모든 Lock을 취득하는 것이 시간이 오래 걸릴 수 있어 실용적이지 않다.
 #### strict 2PL
 strict schedule을 보장하는 2PL
-
+recoverablility 보장
+write-lock을 commit/rollback될 때 반환
 #### strong strict 2PL
 
