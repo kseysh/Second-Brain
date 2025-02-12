@@ -55,12 +55,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "전공 공부/DB/Conflict.md",
+                "file": "전공 공부/DB/Isolation level.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Conflict"
+              "title": "Isolation level"
             }
           }
         ],
@@ -234,12 +234,13 @@
   },
   "active": "e683f38eec1f24d4",
   "lastOpenFiles": [
+    "Unused/Attached files/Pasted image 20250212174915.png",
     "전공 공부/DB/Isolation level.md",
-    "전공 공부/DB/Lock을 활용한 concurrency control 기법.md",
     "전공 공부/DB/Conflict.md",
+    "전공 공부/DB/MVCC.md",
+    "전공 공부/DB/Lock을 활용한 concurrency control 기법.md",
     "전공 공부/DB/Schedule.md",
     "전공 공부/DB/autocommit.md",
-    "전공 공부/DB/MVCC.md",
     "Unused/Attached files/Pasted image 20250212170306.png",
     "Unused/Attached files/Pasted image 20250212162333.png",
     "Unused/Attached files/Pasted image 20250212161400.png",
@@ -270,7 +271,6 @@
     "프로젝트/jmeter 사용법.md",
     "Spring/스프링 강의/스프링 핵심 원리/빈 스코프.md",
     "Spring/스프링 강의/스프링 핵심 원리/빈 생명주기 콜백.md",
-    "프로젝트/sugang/성능 측정.md",
     "DB/SQL/SQL 문법/DDL/aggregate function",
     "프로젝트/sugang",
     "DB/SQL/SQL 문법/TCL",
