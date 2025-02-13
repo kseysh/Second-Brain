@@ -1,1 +1,0 @@
-https://velog.io/@wisepine/JPA-사용-시-19가지-Tip
