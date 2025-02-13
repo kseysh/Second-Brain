@@ -7,5 +7,5 @@
 ### 스프링 웹 MVC와 프론트 컨트롤러
 스프링 웹 MVC의 핵심도 바로 FrontController
 스프링 웹 MVC의 DispatcherServlet이 FrontController 패턴으로 구현되어 있음
-
+디스패처 서블릿을 통해 요청을 처리할 컨트롤러를 찾아서 위임하고, 그 결과를 받아온다.
 
