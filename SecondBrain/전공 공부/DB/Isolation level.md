@@ -1,4 +1,24 @@
-## Isolation이 안될 때 나타날 수 있는 여러 현상
+# SQL 표준의 Isolation level
+![[Pasted image 20250207170018.png|400]]
+## read committed
+read하는 시간을 기준으로 그 전에 commit된 데이터를 읽는다.
+## repeatable read
+tx 시작 시간 기준으로 그 전에 commit된 데이터를 읽는다.
+같은 데이터를 여러 번 조회하더라도 동일한 결과를 보장받기 때문에 repeatable read이다.
+## seriazable
+-  mysql
+	- MVCC로 동작하기 보다는 lock으로 동작한다
+- postgresql
+	- SSI(Serializable Snapshot Isolation) 기법이 적용된 MVCC로 동작한다.
+## SNAPSHOT Isolation
+표준에서 정의한 Isolation level과는 약간 다르며, Transaction 당 스냅샷을 만들어서 사용하는 것
+![[Pasted image 20250207173212.png|400]]
+commit시 snapshot을 DB에 반영한다.
+하지만 write write conflict가 발생하면, 먼저 commit된 트랜잭션만 인정해준다.
+따라서 Transaction 1은 abort 처리가 된다.
+- tx 시작 전에 commit된 데이터만 보인다
+- First-commiter win
+# Isolation이 안될 때 나타날 수 있는 여러 현상
 이 현상들을 모두 발생하지 않게 만들 수 있지만, 그러면 제약사항이 많아져서 동시 처리 가능한 트랜잭션 수가 줄어들어 결국 DB의 Throughput이 하락하게 된다.
 ### Dirty read
 ![[Pasted image 20250207165502.png|400]]
@@ -13,19 +33,7 @@ x가 y에 40을 이체하는 것이므로 x와 y의 합은 항상 100이어야 �
 ### phantom read
 ![[Pasted image 20250207165701.png|400]]
 하나의 Transaction에서 같은 조건에서 두 번 읽었는데 결과가 달라졌으므로 이는 Isolation을 위반한 것
-# SQL 표준의 Isolation level
-일부 현상을 허용하는 몇 가지 level을 만들어 사용자가 필요에 따라서 적절하게 선택할 수 있도록 하는 것.
-따라서 개발자는 isolation level을 통해 Throughput과 데이터 일관성 사이에서 어느정도 거래를 할 수 있다.
-![[Pasted image 20250207170018.png|400]]
-## SNAPSHOT Isolation
-표준에서 정의한 Isolation level과는 약간 다르며, Transaction 당 스냅샷을 만들어서 사용하는 것
-![[Pasted image 20250207173212.png|400]]
-commit시 snapshot을 DB에 반영한다.
-하지만 write write conflict가 발생하면, 먼저 commit된 트랜잭션만 인정해준다.
-따라서 Transaction 1은 abort 처리가 된다.
-- tx 시작 전에 commit된 데이터만 보인다
-- First-commiter win
-### Isolation level에서 정의되지 않았던 현상
+## SQL 표준 Isolation level에서 정의되지 않았던 현상
 #### Dirty write
 commit 안된 데이터를 write함
 ![[Pasted image 20250207170323.png|400]]

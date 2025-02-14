@@ -1,7 +1,7 @@
 MVCC = multiversion concurrency control
 동시 접근을 허용하는 데이터베이스에서 동시성을 제어하기 위해 사용하는 방법
 Isolation level별로 특정 문제들을 제어할 수 있다.
-원본의 데이터와 
+원본 데이터와 변경 중인 데이터를 동시에 저장하는 방식으로 원본 데이터에 대한 Snapshot을 백업하여 보관한다. (읽을 때는 snapshot을 읽는다.)
 ## MVCC 특징
 - MVCC는 commit된 데이터만 읽는다 
 	- 데이터를 읽을 때 특정 시점 기준으로 가장 최근에 commit된 데이터를 읽는다.
@@ -10,17 +10,7 @@ Isolation level별로 특정 문제들을 제어할 수 있다.
 - 데이터 변화 이력을 관리한다.
 ## MVCC가 필요한 이유
 MVCC이외에 동시성을 제어할 수 있는 방식은 낙관적 락과 비관적 락이 있는데, 이러한 락을 이용한 제어는 동시성을 크게 떨어뜨릴 수 있기 때문에 read와 write가 서로를 block하지 앟는 MVCC를 사용한다.
-## Isolation level별 특징
-### read committed
-read하는 시간을 기준으로 그 전에 commit된 데이터를 읽는다.
-### repeatable read
-tx 시작 시간 기준으로 그 전에 commit된 데이터를 읽는다.
-같은 데이터를 여러 번 조회하더라도 동일한 결과를 보장받기 때문에 repeatable read이다.
-### seriazable
--  mysql
-	- MVCC로 동작하기 보다는 lock으로 동작한다
-- postgresql
-	- SSI(Serializable Snapshot Isolation) 기법이 적용된 MVCC로 동작한다.
+
 
 ## lost update 문제
 #### Lost update가 일어나는 read committed 상황
