@@ -10,10 +10,8 @@ Isolation level별로 특정 문제들을 제어할 수 있다.
 - 데이터 변화 이력을 관리한다.
 ## MVCC가 필요한 이유
 MVCC이외에 동시성을 제어할 수 있는 방식은 낙관적 락과 비관적 락이 있는데, 이러한 락을 이용한 제어는 동시성을 크게 떨어뜨릴 수 있기 때문에 read와 write가 서로를 block하지 앟는 MVCC를 사용한다.
-
-
 ## lost update 문제
-#### Lost update가 일어나는 read committed 상황
+### Lost update가 일어나는 read committed 상황
 ![[Pasted image 20250212174915.png|400]]
 그 전에 commit된 데이터를 읽고 업데이트 하므로 lost update가 발생할 수 있다.
 ### postgreSQL 해결방안
