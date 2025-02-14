@@ -42,3 +42,8 @@ Locking read를 통해 이전 tx에서 x를 update했으므로 나중 tx가 roll
 #### MySQL
 ![[Pasted image 20250214172215.png|400]]
 Locking read를 통해 Write Skew를 해결할 수 있다.
+
+## Serializable
+### MySQL
+
+### postgreSQL
