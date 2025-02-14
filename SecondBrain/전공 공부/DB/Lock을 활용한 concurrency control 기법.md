@@ -19,7 +19,6 @@ read_lock(y) ->  write_lock(x) -> unlock(y)의 순서로 락 획득 후 락 반�
 
 ## 2PL protocol (two-phase locking)
 위에 설명한 것 처럼 tx에서 모든 locking operation이 최초의 unlock operation보다 먼저 수행되도록 하는 것을 2PL protocol이라 한다.
-
 ### Expanding phase
 2PL protocol에서 lock을 취득하기만 하고 반환하지 않는 phase
 ### Shrinking phase
