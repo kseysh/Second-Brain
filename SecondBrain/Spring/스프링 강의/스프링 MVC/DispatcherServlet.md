@@ -49,7 +49,7 @@ protected void render(ModelAndView mv, HttpServletRequest request, HttpServletRe
 	- HandlerMapping을 통해 매핑된 `@Controller`를 찾는다.
 - 핸들러 어댑터 조회
 	- `@RequestMapping`으로 사용하는 핸들러인지, `HttpRequestHandler`를 이용하는 핸들러인지 유연하게 선택하기 위해 핸들러 어댑터를 사용한다.
-	- 보통은 `@RequestMapping`을 거의 사용한다.
+	- 보통은 `@RequestMapping - RequestMappingHandlerAdapter`를 거의 사용한다.
 - 핸들러 어댑터 실행
 	- `HandlerAdapter`가 핸들러를 실행할 준비를 함
 - 핸들러 실행
@@ -58,7 +58,7 @@ protected void render(ModelAndView mv, HttpServletRequest request, HttpServletRe
 	- `ModelAndView` 또는 `ResponseEntity` 반환
 - viewResolver 호출
 	- ViewResolver가 뷰 이름을 기반으로 적절한 View를 찾음 
-	- (ex: `InternalResourceViewResolver`는 JSP로, `MappingJackson2JsonView`는 JSON으로 변환)
+	- Json 방식은 바로 뷰 렌더링에서 HttpMessageConverter가 JSON 변환
 - view 반환
 	- 찾은 View 객체를 DispatcherServlet에 반환
 - 뷰 렌더링
