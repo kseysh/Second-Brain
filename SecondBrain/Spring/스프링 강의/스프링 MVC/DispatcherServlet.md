@@ -53,7 +53,7 @@ protected void render(ModelAndView mv, HttpServletRequest request, HttpServletRe
 - 핸들러 어댑터 실행
 	- `HandlerAdapter`가 핸들러를 실행할 준비를 함
 - 핸들러 실행
-	- `@GetMapping`, `@PostMapping`이 달린 메서드 실행
+	- `@GetMapping`, `@PostMapping`이 달린 메서드 실행 (얘네도 `@RequestMapping`을 내부에 가지고 있음)
 - ModelAndView 반환
 	- `ModelAndView` 또는 `ResponseEntity` 반환
 - viewResolver 호출
