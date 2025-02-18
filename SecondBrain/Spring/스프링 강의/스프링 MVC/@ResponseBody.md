@@ -1,0 +1,1 @@
+ResponseEntity처럼 작동하며
