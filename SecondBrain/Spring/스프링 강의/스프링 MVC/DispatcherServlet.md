@@ -46,10 +46,15 @@ protected void render(ModelAndView mv, HttpServletRequest request, HttpServletRe
 }
 ```
 - 핸들러 조회
+	- 핸들러 매핑을 통해 매핑된 핸들러를 찾는다.
+	- 우리가 아는 Controller가 핸들러의 역할을 한다.
 - 핸들러 어댑터 조회
+	- JSP로 반환할지, Json으로 반환할지를 유연하게 선택하기 위해 핸들러 어댑터를 사용한다.
 - 핸들러 어댑터 실행
 - 핸들러 실행
 - ModelAndView 반환
+	- param을 가진 model과 view 이름을 반환
 - viewResolver 호출
+	- model과 view를 이용해 
 - view 반환
 - 뷰 렌더링
