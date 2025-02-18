@@ -10,7 +10,7 @@
 ```java
 public interface HttpMessageConverter<T> {
 
-	// 메시지 컨버터가 해당 클래스, 미디어 타입을 지원하는지 체크 ex
+	// 메시지 컨버터가 해당 클래스, 미디어 타입을 지원하는지 체크 ex) byte[], String, class
 	boolean canRead(Class<?> clazz, @Nullable MediaType mediaType); 
 	boolean canWrite(Class<?> clazz, @Nullable MediaType mediaType);
 	
@@ -22,3 +22,8 @@ public interface HttpMessageConverter<T> {
 }
 ```
 
+## HTTP 메시지 컨버터 사용 위치
+@RequestMapping을 처리하는 핸들러 어댑터인 RequestMappingHandlerAdapter에서 사용해준다.
+![[Pasted image 20250219001423.png|400]]
+### ArgumentResolver
+@RequestParam, @ModelAttribute, @RequestBody, HttpEntity 등 여러 파라미터를 유연하게 처리할 수 있도록 도와주는 객체
