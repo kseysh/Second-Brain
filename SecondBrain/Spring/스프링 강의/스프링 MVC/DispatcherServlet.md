@@ -46,15 +46,21 @@ protected void render(ModelAndView mv, HttpServletRequest request, HttpServletRe
 }
 ```
 - 핸들러 조회
-	- 핸들러 매핑을 통해 매핑된 핸들러를 찾는다.
-	- 우리가 아는 Controller가 핸들러의 역할을 한다.
+	- HandlerMapping을 통해 매핑된 `@Controller`를 찾는다.
 - 핸들러 어댑터 조회
-	- JSP로 반환할지, Json으로 반환할지를 유연하게 선택하기 위해 핸들러 어댑터를 사용한다.
+	- `@RequestMapping`으로 사용하는 핸들러인지, `HttpRequestHandler`를 이용하는 핸들러인지 유연하게 선택하기 위해 핸들러 어댑터를 사용한다.
+	- 보통은 `@RequestMapping`을 거의 사용한다.
 - 핸들러 어댑터 실행
+	- `HandlerAdapter`가 핸들러를 실행할 준비를 함
 - 핸들러 실행
+	- `@GetMapping`, `@PostMapping`이 달린 메서드 실행
 - ModelAndView 반환
-	- param을 가진 model과 view 이름을 반환
+	- `ModelAndView` 또는 `ResponseEntity` 반환
 - viewResolver 호출
-	- model과 view를 이용해 
+	- ViewResolver가 뷰 이름을 기반으로 적절한 View를 찾음 
+	- (ex: `InternalResourceViewResolver`는 JSP로, `MappingJackson2JsonView`는 JSON으로 변환)
 - view 반환
+	- 찾은 View 객체를 DispatcherServlet에 반환
 - 뷰 렌더링
+	- JSP의 경우 RequestDispatcher.forward()를 통해 JSP 렌더링
+	- JSON의 경우 HttpMessageConverter를 통해 JSON 직렬화
