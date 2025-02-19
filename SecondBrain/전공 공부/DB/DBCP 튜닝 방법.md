@@ -11,5 +11,11 @@ DBCP의 maxLifetime은 DB의 connction time limit보다 몇 초 짧게 설정해
 - request per second와 avg response time 확인
 - ![[Pasted image 20250219193006.png|300]]
 	- 표시한 부분에서 모니터링 지표들이 어떻게 되는지 확인해야 한다!
-	- 백엔드 서버, DB 서버의 CPU, MEM 등등 리소스 사용률 확인 (너무 부하가 크면 서버 추가)
-	- 
+	- 백엔드 서버, DB 서버의 CPU, MEM 등등 리소스 사용률 확인
+		- 백엔드 서버의 부하가 크면 서버 추가를 고려한다.
+		- DB 서버의 부하가 크면 샤딩, 파티셔닝, 캐시 레이어 도입 등을 고려한다.
+	- WAS와 DB가 다 좋고 thread per request 모델이라면 active thread 수를 확인한다
+		- maximum thread pool과 active thread수가 같다면 스레드 풀의 개수가 너무 작아서의 문제일 수도 있다.
+- DBCP의 active connection 수를 확인한다
+	- maximumPoolSize와 active connection수가 같다면 maximumPoolSize를 늘려보면서 해야한다.
+- 사용할 백엔드 서버 수를 고려하여 DBCP의 max pool size 결정
