@@ -14,6 +14,9 @@ select문에서 필요하다고 한 데이터를 필터링해서 제공한다.
 ![[Pasted image 20250219180750.png|400]]
 ## horizontal partitioning
 테이블의 크기가 커질 수록 데이터의 크기도 늘어난다. 그렇게 되면 아무리 인덱스를 사용하더라도 인덱스의 성능이 점점 나오지 않으며, 삽입 삭제 시에도 점차 시간이 오래 걸리게 된다. 이와 같은 상황에 horizontal partitioning을 진행한다.
+horizontal partitioning을 다른 서버에서 진행하면 이를 샤딩이라고 한다.
 
 특정 partitioning key를 설정해 hash function을 이용해 partitioning을 진행한다. 하지만 horizontal partitioning을 partition key가 아닌 key를 이용해 조회를 하려하면 full scan을 해버려야 하는 상황이 발생한다.
-이 때
+이를 위해 가장 많이 사용될 패턴에 따라 partition key를 정하는 것이 중요하다.
+또한 데이터가 균등하게 분배될 수 있도록 hash function을 잘 정의하는 것도 중요하다.
+hash-based horizontal partitioning은 한 번 partition이 나눠져서 사용되면 이후에 partition을 추가하기 까다롭다.
