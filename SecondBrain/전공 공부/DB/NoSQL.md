@@ -9,3 +9,6 @@ Not Only SQL
 - 중복 허용
 - scale out이 편함
 - 더 높은 처리량
+![[Pasted image 20250219213238.png]]
+![[Pasted image 20250219213301.png]]
+![[Pasted image 20250219213328.png]]
