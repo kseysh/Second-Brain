@@ -14,3 +14,11 @@ Spring Boot는 LocalValidatorFactoryBean을 자동으로 글로벌 Validator로 
 
 ## Bean Validation이 기본으로 제공하는 오류 메시지 자세히 변경하기
 ![[Pasted image 20250220220829.png|400]]
+## 특정 필드 예외가 아닌 전체 예외
+만약, price 필드와 quantity 필드를 합쳐서 계산해서 예외를 발생시켜야 한다면, 자바 코드로 오류를 처리하는 것이 좋다.
+
+# groups
+동일한 모델 객체를 등록할 때와 수정할 때 다르게 검증하는 방법
+![[Pasted image 20250220221634.png|300]]
+이렇게 놓고, 검증 부분에 @NotNull(groups = {SaveCheck.class, UpdateCheck.class})처럼 둘 수 있다.
+@Validated(SaveCheck.class) 이렇게 사용하면 특정 그룹만 검증할 수 있다.
