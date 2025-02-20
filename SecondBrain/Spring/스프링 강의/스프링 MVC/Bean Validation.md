@@ -22,3 +22,5 @@ Spring Boot는 LocalValidatorFactoryBean을 자동으로 글로벌 Validator로 
 ![[Pasted image 20250220221634.png|300]]
 이렇게 놓고, 검증 부분에 @NotNull(groups = {SaveCheck.class, UpdateCheck.class})처럼 둘 수 있다.
 @Validated(SaveCheck.class) 이렇게 사용하면 특정 그룹만 검증할 수 있다.
+=> 실무에서는 보통 update와 save의 전달 데이터가 달라 잘 사용하지 않는다.
+내가 생각해봐도 요청 Request와 `~~Info` DTO는 분리하는게 더 깔끔할 듯! (request가 변경될 때, DTO는 변경되지 않을 수 있으므로)
