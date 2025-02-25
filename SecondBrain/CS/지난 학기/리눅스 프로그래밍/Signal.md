@@ -3,17 +3,7 @@
 	- 키보드 입력을 담당하는 커널이 인터럽트 문자를 감지한다.
 	- SIGINT라는 신호를 모든 프로세스(포어그라운드 그룹)에 보낸다.
 	- 신호를 받으면, SIGINT와 관련된 기본 동작을 수행하고 종료한다.
-- 신호는 소프트웨어 인터럽트이다.
 - 신호는 비동기 이벤트를 처리하는 방법을 제공한다.
-- 다양한 조건이 신호를 생성할 수 있다.
-	- 터미널에서 생성된 신호(Control-C -> SIGINT)
-	- 하드웨어 예외가 신호를 생성한다(0으로 나누기 등).
-	- kill(2) 함수
-	- kill(1) 명령어(kill -9 \#pid)
-	- 소프트웨어 조건(SIGURG, SIGPIPE, SIGALRM 등)
-• 신호는 해당 신호를 발생시키는 이벤트가 발생하면 생성된다.
-• 신호는 프로세스가 해당 신호에 기반하여 작업을 취할 때 전달된다.
-• 신호의 수명은 생성과 전달 사이의 간격이다.
 • 프로그램은 sigaction을 호출하여 사용자 정의 함수 이름으로 신호 핸들러를 설치한다.
 시그널은 default action을 하거나, ignore 되거나 catch될 수 있다. 하지만, SIGKILL과 SIGSTOP은 default action만 가능하다.
 ## 시그널 종류
@@ -32,8 +22,7 @@
 • SIGUSR1 : 사용자 정의 신호 1
 • SIGUSR2 : 사용자 정의 신호 2
 • SIGSTOP : 잡 제어 신호로, **잡을 수 없고 무시할 수 없다.**
-
-signal에 대한 default action이 terminate가 아닌 signal
+#### signal에 대한 default action이 terminate가 아닌 signal
 - SIGSTOP (STOP)
 - SIGTSTP (STOP)
 - SIGCONT(CONTINUE)
@@ -41,36 +30,25 @@ signal에 대한 default action이 terminate가 아닌 signal
 - SIGUSR2 (IGNORE)
 # Signal handling
 - 신호가 발생하면 세 가지 작업 중 하나를 수행한다.
-- SIGKILL과 SIGSTOP 두 신호는 ignore하거나 catch할 수 없다.
 	- 무시 동작
 	- 사용자 정의 동작 (catch)
 	- 기본 동작
 		- 기본 동작은 일반적으로 프로세스를 종료시키는 것이다.
+- - SIGKILL과 SIGSTOP 두 신호는 ignore하거나 catch할 수 없다.
 ## 신호 처리: 사용자 정의 동작
 • 잡힌 신호가 프로세스에 의해 처리될 때, 프로세스가 실행 중인 정상적인 명령어 시퀀스는 신호 핸들러에 의해 일시 중단된다.
 • 그런 다음 프로세스는 계속 실행되지만 신호 핸들러의 명령어를 실행한다.
 신호 핸들러가 반환되면, 신호가 잡혔을 때 프로세스가 실행 중이던 정상적인 명령어 시퀀스가 계속 실행된다.
 • 그러나 신호 핸들러 내에서는 신호가 잡혔을 때 프로세스가 어디에서 실행 중이었는지 알 수 없다.
-## 프로세스 신호 마스크 – 프로세스 속성
-• 신호 마스크는 차단될 신호 목록을 포함한다.
-• *프로그램은 `sigprocmask`를 사용하여 프로세스 신호 마스크를 변경하여 신호를 차단*한다.
-• *프로세스는 fork와 exec 이후에도 signal mask를 상속*한다.
-이 방식을 사용하면 SIGKILL 같은 handle할 수 없는 SIGNAL도 block시킬 수 있다.
 
----- 기말 범위 -----
 ## signal(2) 시스템 호출(1/2)
 ```c
 void (*signal(int signo, void (*func)(int)))(int);
 // Returns: previous disposition of signal (see following) if OK, SIG_ERR on error
 ```
 - signal에 대한 action을 정의하는 함수
-• signal 함수는 ISO C에 정의되어 있지만, signal의 의미가 구현마다 다르기 때문에, sigaction 함수를 사용하는 것이 좋다.
+- signal의 의미가 구현마다 다르기 때문에, sigaction 함수를 사용하는 것이 좋다.
 
-![[Pasted image 20241028120807.png|600]]
-pause() => signal을 받을 때까지 기다리는 것
-SIGTERM을 보냈을 때는 sig_usr가 실행되지 않고 default action을 하며 꺼진다 (signal을 setting 해주지 않았기 때문)
-
-![[Pasted image 20241028120824.png|600]]
 ## Signal Block
 - *sig_int 함수가 시작 될 때 프로세스 신호 마스크가 추가되어 자동적으로 SIGINT를 차단하고, sig_int 함수가 끝나면 프로세스 신호 마스크가 끝나 차단이 해제*된다.
 - *signal queue가 없으므로, UNIX 커널은 신호를 한 번만 전달한다*. (한 개의 SIGNAL만 pending되어 기다린다.)
