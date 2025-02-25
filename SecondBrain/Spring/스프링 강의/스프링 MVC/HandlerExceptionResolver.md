@@ -10,3 +10,12 @@ ExceptionResolver를 사용하면 예외가 발생해도 서블릿 컨테이너�
 - 뷰 템플릿 처리
 - API 응답 처리
 
+## 스프링이 제공하는 ExceptionResolver
+- ExceptionHandlerExceptionResolver
+	- `@ExceptionHandler`처리
+- ResponseStatusExceptionResolver
+	- HTTP 상태 코드 지정 (@ResponseStatus, ResponseStatusException 예외)
+	- sendError(400)를 호출한다.
+- DefaultHandlerExceptionResolver
+	- 스프링 내부 기본 예외 처리
+	- sendError(400)을 호출한다.
