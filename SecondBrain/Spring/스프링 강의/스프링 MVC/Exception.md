@@ -16,4 +16,8 @@ WAS는 /error를 단순히 다시 요청만 하는 것이 아니라 오류 정�
 
 기본 WebMvcConfigurer에서의 필터는 `DispatcherType.REQUEST`일 때만 필터가 호출된다.
 ## 서블릿 예외 처리 - 인터셉터
-인터셉터는 DispatcherType과 무관하게 항상 호출되지만, 오류 페이지 경로를 excludePathPatterns를 사용해서 빼줄 수 있다.
+인터셉터는 DispatcherType과 무관하게 항상 호출된다.
+인터셉터는 오류 페이지 경로를 excludePathPatterns를 사용해서 중복 호출을 제거할 수 있다.
+## 스프링 부트에서는?
+스프링부트에서는 `/error`라는 경로로 기본 오류 페이지를 설정하여 ErrorPage를 자동으로 등록한다.
+
