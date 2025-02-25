@@ -45,7 +45,7 @@ class MyArray<T> {
 #### 하한 와일드카드(`? super T`):
 `? super T` 형태로 사용되며, T 타입과 T의 상위 타입들만을 나타냅니다. 이것은 쓰기 작업(write-only)에 사용됩니다. 리스트나 컬렉션에 요소를 추가할 때 유용합니다.
 ### 와일드 카드의 예시
-```
+```java
 // 물음표 와일드카드: 모든 제네릭 타입을 나타냄
 public void printList(List<?> list) {
     for (Object item : list) {
