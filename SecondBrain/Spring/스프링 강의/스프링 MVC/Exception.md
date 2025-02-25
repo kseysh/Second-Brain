@@ -11,3 +11,7 @@
 `2. WAS /error 다시 요청 -> 필터 -> 서블릿 -> 인터셉터 -> 컨트롤러`
 WAS는 /error를 단순히 다시 요청만 하는 것이 아니라 오류 정보를 request의 attribute에 추가해서 넘겨준다.
 ## 서블릿 예외 처리 - 필터
+### DispatcherType
+오류가 발생하면 오류 페이지를 출력하기 위해 WAS 내부에서 다시 호출이 발생하고, 이 때 필터, 서블릿, 인터셉터  모두 다시 호출된다. 하지만 로그인 인증 체크 같은 경우 두 번 하는 것은 비효율적이기 때문에 DispatcherType을 이용해서 어떤 요청인지 구분하기 위한 추가정보를 제공한다.
+
+기본 WebMvcConfigurer에서의 필터는 `DispatcherType.REQUEST`일 때만 필터가 호출된다.
