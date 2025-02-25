@@ -3,6 +3,7 @@
 ## Stream delivary
 ![[Pasted image 20240915230324.png|300]]
 TCP는 Application Layer에서 만든 boundary를 상관하지 않고 보낸다
+UDP는 이와 다르게 application layer에서 만들어진 message의 boundary가 전달이 될 때 유지되는 Boundary delivary를 이용한다.
 
 ![[Pasted image 20240915230428.png|300]]
 여기서는 보내는 것만 보여줬지만, Sending Buffer에서 보낸 것을 Listening Buffer에서 받았다면, 받은 쪽에서는 어떤 요청을 보낸 것인지 확인하고 다시 자신의 Sending Buffer를 이용해 요청한 쪽의 Listening Buffer로 데이터를 보내준다.
@@ -12,25 +13,17 @@ sent: tcp는 요청을 받는 쪽에서 데이터를 받지 못했을 때 다시
 
 이 버퍼는 프로세스(port num)마다 하나씩 만들어진다.
 이 버퍼는 연결 요청 set up 된 후 에 생성되고, 연결 종료시에 사라진다.
-### UDP
-TCP 와 다른 방식인 Boundary delivary를 이용한다.
-메시지(application layer의 packet)에서 만들어진 boundary가 전달이 될 때 유지된다.
-ex) 김사장님이 비서에게 사탕 4개를 주고, 이 사탕 4개는 항상 한 박스로 포장해서 보내라고 지시함
-
 ## TCP numbering
 TCP는 보내는 각 패킷마다 번호를 붙인다. 
 번호는 랜덤으로 생성된 번호를 붙인다.
 
 ex)
 한 세그먼트가 1000 byte일 때, 5000byte를 보내기 위해서는 5개가 필요하다.
-시작 번호는 랜덤으로 선택하는데, 이는 10001으로 설정하였다.
-택배상자의 번호는 각 세그먼트의 시작번호로 설정한다.
+시작 번호는 랜덤으로 선택된다.
+번호는 각 세그먼트의 시작번호로 설정한다.
 sequence number: 패킷에 있는 첫 번째 byte 번호 
 ![[Pasted image 20240915231643.png|450]]
 
-sequence number는 Data의 첫 번째 byte 번호이다.
-![[Pasted image 20240915232219.png|350]]
-push, reset, urgent
 ## TCP가 패킷을 받았을 때 응답하는 방법
 ![[Pasted image 20240923233232.png|300]]
 ### Selective ACK
@@ -42,9 +35,7 @@ push, reset, urgent
 \#201을 받았다면, ACK\#301 (301을 받고 싶다)을 응답
 - TCP가 사용하는 방식
 ## TCP Header
-뭐가 들어있는지 알아야함
 ![[Pasted image 20240923233720.png|350]]
-Data: payload라고도 부른다.
 Window size: receiver의 window size, 자신이 받을 수 있는 빈 공간
 ### Acknowledgment number
 Receiver가 다음 번에 받고 싶은 바이트 번호
@@ -65,23 +56,8 @@ FIN: 종료 요청 패킷
 나중에 사용할 수도 있어서 추가적으로 잡아놓은 field
 ### Checksum
 패킷들이 전송되다가 물리적으로 어떤 비트가 전송중에 오류가 발생하는 것을 체크하기 위해서 필요한 것
-![[Pasted image 20240924001817.png|400]]
-IP헤더에도 있는 값이다.
-Header에서 16bit씩 가져와서 다 더하고, 보수 값(0은 1로 1은 0으로)을 취한게 checksum이다.
-Receiver도 확인할 때, checksum을 빼고 더한 값이 똑같으면 전송 중에 error가 없이 들어왔다고 판단한다.
 오류가 발생했다고 판단하면 패킷 전체를 버린다.
 TCP에서는 Checksum이 필수, UDP에서는 Optional이다.
-### Pseudoheader
-![[Pasted image 20240924001446.png|300]]
-TCP는 헤더에 Pseudoheader라는 것을 붙인다.
-Pseudoheader에는 보내는 쪽 IP주소와 받는 쪽 IP주소를 붙인다. (이미 IP헤더에 있는 값이지만, 더 확실하게 체크하기 위해서 Pseudoheader를 붙여서 checksum을 구하고, 보낼 때는 Pseudoheader가 아닌 Header만 보낸다.)
-또한 protocol과 TCP 전체 길이를 보낸다.
-## CheckSum구하기
-![[Pasted image 20241015233549.png]]
-
-![[Pasted image 20241015233602.png]]
-## 캡슐화
-![[Pasted image 20240924004059.png|300]]
 # TCP three-way handshake Connection Set Up
 TCP는 연결하기 전에 Set up 과정을 거친다.
 set up 과정을 거치고, set up이 다 되고 나서야 데이터를 보낸다.
@@ -109,9 +85,6 @@ SYN + ACK도 데이터를 가져가지 않고 헤더만 전송된다. sequence n
 ACK packet은 데이터를 가져가지 않고 sequence number도 사용하지 않는다.
 
 TCP set up이 끝나면 데이터의 sequence number는 8001번부터 쓴다.
-
-TCP는 모든 개념을 한 그림에 담기 어려워서 그림이 담는 key point를 잘 알아야 한다. (그림 볼 때 제목도 본다.)
-3 way도 4 way도 가능하다. 상황에 따라 달라진다.
 ## three-way handshake 이후 데이터 전송 
 ![[Pasted image 20240924011011.png|450]]
 SYN이 가면 ACK이 오는데, request가 갈 때 어차피 헤더 ACK도 보내야 하므로 데이터를 같이 보낸다.
@@ -127,24 +100,9 @@ ACK: 종료 요청 허락
 FIN만 갈 때는 데이터는 없고 sequence number를 갖는다.
 FIN + ACK이 갈 때는 데이터는 없고 sequence number를 갖는다.
 
-## socket 통신 함수
-![[Pasted image 20240924013348.png|450]]
-글 다 쓸 수 있게 알아두기
-### server
-socket: 소켓 만드는 함수
-bind: IP 및 port 바인딩
-listen: 소켓을 전화받는 상태로 바꿈 (일반 소켓에서 서버 소켓으로 바꿈)
-accept: 상대방이 연결요청하는 것을 기다림
-연결이 다 되고 read write를 이용해 데이터를 주고 받음
-close: 연결 종료 함수
-### client
-socket: 소켓을 만든다
-connect: server로 연결요청을 한다.
-연결 요청이 다 되면 read 혹은 write 함수를 써서 데이터를 주고 받음
-close: 연결 종료 함수
-
 ## Half-Close
 상대방이 종료 요청을 해도 나는 종료하지 않을 수 있다.
+이 때문에 종료시에는 보통 4-way-handsh
 ![[Pasted image 20240924013837.png|450]]
 종료 요청은 클라이언트가 먼저하는 것이 일반적이다.
 하지만 만약 서버가 더 보낼 내용이 있다면 데이터를 다 보낸 이후에 FIN을 보낸다.
