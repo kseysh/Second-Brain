@@ -31,3 +31,55 @@ File security permission을 위해 사용된다.
 - 파일을 생성할 때는 주로 `open` 함수를 사용하지만 대체 방법으로서 `creat`함수를 사용할 수도 있다.
 ![[Pasted image 20240910152654.png]]
 위 두개는 같다
+
+## `close` system call
+```C
+#include <unistd.h>
+int close(int filedes);
+// Returns: 0 if OK, -1 on error
+```
+열린 파일은 `close`를 통해서만 닫을 수 있음
+모든 열린 파일은 프로그램 실행이 끝나면 자동적으로 닫혀야 한다.
+## `read` system call
+```c
+#include <unistd.h>
+ssize_t read(int filedes, void *buffer, size_t n);
+// Returns: number of bytes read, 0 if end of file, -1 on error
+```
+end of file에서 0을 반환한다.
+filedes에서 n만큼 buffer에 넣고, 읽은 바이트 수를 리턴한다.
+파일은 읽으면 f_offset이 알아서 증가한다. (이후 읽을 때 f_offset부터 읽는다.)
+
+## `write(2)` system call
+```c
+#include <unistd.h>
+ssize_t write(int filedes, const void *buffer, size_t n);
+// Returns: number of bytes written if OK, -1 on error
+```
+`buffer`에 있는 값을 n만큼 `filedes`에 쓰고, 쓴 메모리만큼을 리턴한다.
+- `write` 함수는 메모리에서 현재 파일 위치로 바이트를 복사하고, 데이터를 쓴 후 파일의 현재 위치를 업데이트한다.
+- "현재 파일 위치"는 파일 내에서 다음에 데이터를 쓸 위치를 의미하며, write가 완료되면 이 위치가 자동으로 이동한다
+### `write`로 이미 존재하는 파일을 쓰기 전용으로 열면
+- 기존 파일에 있던 데이터는 새로운 데이터로 한 글자씩 덮어쓰게 된다. 즉, **파일의 이전 내용이 사라지고 새로운 내용이 저장**된다.
+
+만약 파일을 열 때 `O_APPEND` 옵션을 사용했다면, 쓰기 작업이 시작되는 위치가 파일의 끝으로 자동 설정됩니다.
+- 이 옵션을 사용하면 기존 파일의 내용이 지워지지 않고, 새로운 데이터가 파일 끝에 추가된다.
+- 
+## `read`, `write` 에서 효율성을 높이는 방법
+### buffer size 증가
+system call의 횟수를 줄여 컨텍스트 스위칭을 줄일 수 있기 때문에. (하지만, 디스크에서 4K만큼 I/O가 일어남으로 무조건 커진다고 효율이 올라가지는 않는다.
+(4096에서 가장 빠름))
+### delayed writing
+`write` system call을 하면 쓰기를 수행한 후 반환되는 것이 아닌, 커널에 버퍼 캐시로 데이터를 전송한 다음 4K씩 반환한다.
+그러나, 디스크에 에러가 발생하거나 커널이 멈추면 write했다고 생각한 데이터가 write되지 않았을 수도 있다.
+
+## `lseek` system call
+![[Pasted image 20240910155252.png]]
+파일을 열 때 해당 파일의 offset (쓰기를 시작할 위치)을 명시적으로 설정할 수 있다.
+
+offset: start_flag로부터의 바이트 수
+• start_flag: 시작 위치
+	• SEEK_SET #0: 파일의 시작 부분
+	• SEEK_CUR #1: 현재 위치
+	• SEEK_END #2: 파일의 끝
+![[Pasted image 20240910155429.png|200]]
