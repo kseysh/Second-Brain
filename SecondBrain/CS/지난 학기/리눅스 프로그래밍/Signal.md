@@ -48,15 +48,13 @@ void (*signal(int signo, void (*func)(int)))(int);
 ```
 - signal에 대한 action을 정의하는 함수
 - signal의 의미가 구현마다 다르기 때문에, sigaction 함수를 사용하는 것이 좋다.
-
 ## Signal Block
 - *sig_int 함수가 시작 될 때 프로세스 신호 마스크가 추가되어 자동적으로 SIGINT를 차단하고, sig_int 함수가 끝나면 프로세스 신호 마스크가 끝나 차단이 해제*된다.
 - *signal queue가 없으므로, UNIX 커널은 신호를 한 번만 전달한다*. (한 개의 SIGNAL만 pending되어 기다린다.)
 - sleep 도중에 SIGINT를 처리하게 되면 recursive하게 signal function이 들어갈 수 있다. 따라서 process signal mask를 이용해 SIGNAL을 block한다.
 - SIGINT가 block되면, 사라지는 것이 아니라 pending 되는 것이다. 따라서 sigprocmask가 해제되면 다시 sig_int를 실행한다.
 ![[Pasted image 20241028121253.png|500]]
-## Signal handling & `exec` (1/2)
-- 프로그램이 실행될 때 모든 신호의 상태는 default action을 한다.
+## Signal handling with `exec & fork`
 - *프로세스가 `exec`를 호출하면, 기존의 signal handling이 없어진다*. 
 	- (exec는 부모와 실행하는 프로그램이 달라 부모의 signal handling function을 찾지 못하기 때문)
 - *프로세스가 `fork`를 호출하면, 자식 프로세스는 부모의 신호 처리를 상속*받습니다. 
@@ -72,8 +70,8 @@ int sigdelset(sigset_t *set, int signo); // signo만 0으로 set
 int sigismember(const sigset_t *set, int signo);
 // signo에 해당하는 signal이 1로 세팅되어 있는지를 묻는 것
 ```
-- 여러 신호를 표현하는 데이터 타입, 즉 **신호 집합**이 필요합니다.
-- 예를 들어, `sigprocmask` 같은 함수에서 커널에게 이 신호 집합의 신호가 발생하지 않도록 지시할 수 있습니다.
+- 여러 신호를 표현하는 신호 집합
+- `sigprocmask` 같은 함수에서 커널에게 이 신호 집합의 신호가 발생하지 않도록 지시할 수 있습니다.
 ## `sigaction(2)` 시스템 호출
 ```c
 int sigaction(int signo, const struct sigaction *restrict act, struct sigaction *restrict oact);
@@ -105,21 +103,16 @@ sigemptyset을 사용하여 구조체의 sa_mask 멤버를 초기화해야 합�
 • 하지만 *SA_SIGINFO 플래그가 설정된 경우, 신호 핸들러는 다음과 같이 호출*됩니다:
 `void handler(int signo, siginfo_t *info, void *context);`
 
-ex1: catching SIGINT
-![[Pasted image 20241028123802.png|500]]
-static을 사용한 이유 -> 메모리를 clear하기 위해서(전역변수는 값을 clear해주기 때문)
-![[Pasted image 20241028123959.png|500]]
-## 신호와 시스템 호출 (1/3)
+## slow system call
 - *프로세스가 시스템 호출 중 신호를 받으면, 시스템 호출이 완료될 때까지 신호는 영향을 미치지 않습니다*.
-- *만약 프로세스가 "느린" 시스템 호출 동안 신호를 잡으면, 시스템 호출이 중단됩니다*.
-  - 시스템 호출이 오류를 반환하고, 오류 번호(`errno`)가 `EINTR`로 설정됩니다.(system call은 kernel에서 실행되고, user process가 중단을 시키므로 kernel과 user process는 다른 process이므로 kernel에서 중단된 위치로 다시 돌아갈 수 없기 때문)
-- 시스템 호출은 두 가지로 나뉩니다:
-  - *"느린" 시스템 호출*: 무기한 대기할 수 있는 호출 (시험 무조건)
+- *만약 프로세스가 slow system call 동안 신호를 잡으면, 시스템 호출이 중단됩니다*.
+  - 시스템 호출이 오류를 반환한다. (system call은 kernel에서 실행되고, user process가 중단을 시키므로 kernel과 user process는 다른 process이므로 kernel에서 중단된 위치로 다시 돌아갈 수 없기 때문)
+  - slow system call: 무기한 대기할 수 있는 호출
 	  - 파이프, 터미널 장치 I/O, 네트워크 장치 I/O
 	  - pause(), wait()
 	  - Certain `ioctl` operations
 	  - ipc function중 일부
-  - 나머지 호출: *디스크 I/O 관련 호출은 예외로 slow system call에 포함되지 않는다*.
+  - 디스크 I/O 관련 호출은 예외로 slow system call에 포함되지 않는다.
 
 - 중단된 시스템 호출을 처리하는 오류가 복잡해질 수 있어, 4.2BSD에서는 중단된 시스템 호출을 자동으로 재시작하는 기능을 도입했습니다.
   - *자동 재시작 시스템 호출: `ioctl`, `read`, `write`, `wait`, `waitpid` 등이 있으며, 신호가 잡히면 재시작*됩니다.
@@ -137,21 +130,43 @@ static을 사용한 이유 -> 메모리를 clear하기 위해서(전역변수는
 • 따라서, 주어진 신호를 처리하는 동안 해당 신호의 또 다른 발생은 우리가 첫 번째 발생을 처리할 때까지 차단됩니다.
 • 같은 신호의 추가 발생은 일반적으로 큐에 쌓이지 않습니다.
 
-## `sigsetjmp(3)`와 `siglongjmp(3)`
+## `sigprocmask(2)`
 ```c
-int sigsetjmp(sigjmp_buf env, int savemask); // env가 label
-void siglongjmp(sigjmp_buf env, int val);
+int sigprocmask(int how, const sigset_t *restrict set, sigset_t *restrict oset);
 ```
-sigsetjmp -> label
-signlongjmp -> goto
-- 이 두 함수는 신호 처리기에서 분기할 때 사용해야 합니다.
-  - `savemask`가 0이 아니면, `sigsetjmp`는 프로세스의 현재 신호 마스크를 저장합니다.
-  - `siglongjmp`가 호출되면, `sigsetjmp`로 저장된 신호 마스크가 복원됩니다.
+- 프로세스의 신호 마스크는 해당 프로세스에 전달이 차단될 신호들의 집합입니다.
+- `set`이 널 포인터인 경우, 프로세스의 신호 마스크는 변경되지 않으며, `how` 인자는 무시됩니다.
+###### `how`
+- **SIG_BLOCK**: 차단할 신호 집합에 특정 신호를 추가합니다.
+- **SIG_UNBLOCK**: 차단할 신호 집합에서 특정 신호를 제거합니다.
+- **SIG_SETMASK**: 지정된 신호 집합으로 차단할 신호를 설정합니다. (기존 것에 추가/삭제가 아닌 아예 새로 지정)
 
-![[Pasted image 20241125235418.png|500]]
-c에서는 다른 함수로 goto가 불가능하지만, siglongjump는 가능하다.
-sigsetjmp는 처음 실행하면 label을 setting한다. 따라서 return 값이 0이다. 그래서 if(sigsetjmp(env,1))을 사용하면 처음에는 if문을 돌고, siglongjmp로 오면 else를 실행할 수 있다.
-또한 siglongjmp의 val값을 이용해 else if 문에서 분기처리를 할 수도 있다.
-
-![[Pasted image 20241126000119.png|500]]
-![[Pasted image 20241126000133.png|500]]
+# 신호 보내기
+## `kill(2)`와 `raise(2)` 시스템 호출 (1/2)
+```c
+int kill(pid_t pid, int signo);
+int raise(int signo);
+```
+- `kill` 함수는 프로세스나 프로세스 그룹에 신호를 보냅니다.
+- `raise` 함수는 프로세스가 자신에게 신호를 보낼 수 있도록 합니다.
+###### `pid` 값에 따른 동작
+- `pid > 0`: 프로세스 ID가 `pid`인 프로세스에 신호가 전송됩니다. (특정 pid 전송)
+- `pid == 0`: 신호가 송신자의 프로세스 그룹 ID와 같은 프로세스 그룹 ID를 가진 모든 프로세스에 전송됩니다. (송신자의 그룹에 다 전송)
+- `pid < -1`: 절대값이 `pid`인 프로세스 그룹 ID를 가진 모든 프로세스에 신호가 전송됩니다. (그룹에 전송)
+- `pid == -1`: 송신자가 신호를 보낼 권한이 있는 시스템의 모든 프로세스에 신호가 전송됩니다. (다 전송)
+###### 신호를 보낼 권한
+- 슈퍼 유저는 모든 프로세스에 신호를 보낼 수 있습니다.
+- 송신자의 실제 또는 유효 사용자 ID가 수신자의 실제 또는 유효 사용자 ID와 같아야 합니다.
+## Null Signal
+- 신호 번호 0을 널 신호로 정의합니다.
+  - `signo` 인자가 0일 때, 특정 프로세스가 여전히 존재하는지 확인하는 데 자주 사용됩니다.
+  - 프로세스가 존재하지 않으면, `kill`은 -1을 반환하고 `errno`는 `ESRCH`로 설정됩니다.
+- 프로세스 존재 여부 테스트는 원자적이지 않으므로 `kill`이 호출자에게 응답을 반환할 때쯤 해당 프로세스가 이미 종료되었을 가능성이 있습니다. 따라서 이 정보의 유효성은 제한적입니다.
+## `alarm(2)` 시스템 호출 (1/2)
+```c
+unsigned int alarm(unsigned int seconds);
+```
+- `alarm()`은 지정된 시간이 지나면 `SIGALRM` 신호가 생성하도록 설정..
+- 프로세스당 하나의 알람 클럭만 설정할 수 있습니다.
+- `alarm` 호출 시 이전에 등록된 알람 클럭이 만료되지 않은 경우:
+	- 해당 알람 클럭에 남은 시간이 반환되고, 이전 알람 클럭이 새로운 값으로 대체됩니다.
