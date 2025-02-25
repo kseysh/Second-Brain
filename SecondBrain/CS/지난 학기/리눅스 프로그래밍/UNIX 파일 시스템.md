@@ -22,13 +22,7 @@
 - file에 대한 정보를 가지고 있음
 ### 데이터 블록
 • 파일 블록을 저장하기 위한 블록
-## i-노드
-• 각 파일(일반 파일, 디렉토리, 특수 파일 등)은 하나의 i-노드를 사용하며 적어도 하나의 디렉토리에서 링크되어야 합니다.
-• 디스크에 데이터를 가진 파일(일반 파일, 디렉토리, 심볼릭 링크)도 i-노드에서 가리키는 데이터 블록을 가집니다
-• i-노드 0과 1은 사용되지 않습니다.
-	• 0: “no i-node”를 의미
-	• 1: 나쁜 디스크 블록(에러나는 애들)을 모으는 데 사용됨
-• i-노드 2는 루트 디렉토리(/)에 예약되어 있습니다.
+
 ## 하드 링크 & 심볼 링크
 ### 하드 링크
 • 하드 링크는 파일에 대한 직접 포인터입니다.
@@ -44,8 +38,7 @@ ex) 윈도우의 바로가기 파일
 • 심볼릭 링크는 파일에 대한 간접 포인터입니다.
 • 심볼 링크의 실제 내용은 링크된 파일입니다.
 • 파일 시스템 제한이 없습니다.
-• 하드 링크와 심볼 링크에서 하드 링크가 생성됩니다.
-• 하지만, 심볼 링크에 의해 생성된 하드 링크는 경로 문자열을 포함하는 파일에 대한 링크입니다.
+• 심볼 링크에 의해 생성된 하드 링크는 경로 문자열을 포함하는 파일에 대한 링크입니다.
 ![[Pasted image 20241008205609.png|500]]
 첫 번째가 original 두 번째가 symbolic link이다.
 symbolic link가 가리키는 inode의 block은 original의 path name를 가지고 있다. 그래서 그 path name으로 original을 찾아간다.
@@ -71,7 +64,6 @@ int unlink(const char *pathname);
 • 파일에 다른 링크가 있는 경우, 다른 링크를 통해 파일의 데이터에 여전히 접근할 수 있습니다.
 • 링크 수가 0으로 줄어들면 디스크 블록이 자유 블록 목록에 추가됩니다.
 unlink하려면 write permission이 있어야 하고 directory에 대해 read permission이 있어야 한다.
-![[Pasted image 20241008233945.png|450]]
 ## remove(2) 시스템 
 ```c
 #include <stdio.h>
@@ -106,7 +98,6 @@ ssize_t readlink(const char* sympath, char* buffer, size_t bufsize)
 1. sympath를 엽니다.
 2. 파일의 내용을 버퍼로 읽어들입니다.
 3. sympath를 닫습니다.
-
 • 원본 파일이 제거된 경우,
 	• 프로그램은 여전히 심볼릭 링크를 ‘볼’ 수 있지만, open 호출은 그 안에 포함된 경로를 따라갈 수 없으며 errno가 EEXIST로 설정된 상태로 반환됩니다.
 # 파일 정보 얻기: stat과 fstat
@@ -123,30 +114,20 @@ int lstat(const char *pathname, struct stat *buf);
 	• **fstat**: 열린 파일
 	• **lstat**: 심볼릭 링크(l이 symbolic link를 나타냄)
 
+## 캐싱, sync 및 fsync
+- 메모리에서 디스크로의 모든 전송(즉, 쓰기)은 즉시 디스크에 기록되지 않고 일반적으로 운영 체제의 데이터 공간에 캐시됩니다.
+- 읽기도 캐시 내에서 버퍼링됩니다.
+- UNIX는 버퍼의 데이터를 디스크에 쓰기 위한 두 가지 함수를 제공합니다.
+  - **sync**: 파일 시스템에 대한 정보를 포함하는 메인 메모리 버퍼를 디스크에 플러시하는 데 사용됩니다.
+  - **fsync**: 특정 파일과 관련된 모든 데이터와 속성을 플러시하는 데 호출됩니다.
+## sync(2) & fsync(2) 시스템 호출
 ```c
-struct stat {
-	mode_t st_mode; /* file type(directory of socket or fifo...) & mode (permissions) */
-	ino_t st_ino; /* i-node number */ 
-	dev_t st_dev; /* device number (file system) */ // file system에서 저장하는 device 파일
-	dev_t st_rdev; /* device number for special files device number */ // real device 
-	nlink_t st_nlink; /* 링크 count */
-	uid_t st_uid; /* user ID of owner */
-	gid_t st_gid; /* group ID of owner */
-	off_t st_size; /* size in bytes, for regular files */
-	time_t st_atime; /* time of last access */
-	time_t st_mtime; /* time of last modification */
-	time_t st_ctime; /* time of last file status change */
-	blksize_t st_blksize; /* best I/O block size */
-	blkcnt_t st_blocks; /* number of disk blocks allocated */
-};
+#include <unistd.h>
+int fsync(int filedes);
+//Returns: 0 if OK, -1 on error
+void sync(void);
 ```
-
-파일의 permission 정보를 출력하는 함수
-![[Pasted image 20241008235637.png|550]]
-![[Pasted image 20241008235704.png|550]]
-![[Pasted image 20241008235719.png|550]]
-![[Pasted image 20241008235735.png|550]]
-마지막 `if (stat(name, &sb) == ―1 || sb.st_mtime ! = last)`에서 왼쪽이 true면 오른쪽을 실행하지 않는다.
-![[Pasted image 20241008235754.png|550]]
-변경하고 저장하지 않아도 되나봄
- 
+- **중요한 차이점**:
+  - fsync는 모든 파일 데이터가 디스크에 기록될 때까지 반환하지 않습니다.
+  - sync 호출은 데이터 쓰기가 예약되었지만 완료되지 않았을 때 반환할 수 있습니다.
+- UNIX 시스템은 sync를 반복적으로 호출하는 코드를 지속적으로 실행합니다.
