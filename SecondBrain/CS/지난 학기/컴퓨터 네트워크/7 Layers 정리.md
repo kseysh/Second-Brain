@@ -1,33 +1,5 @@
-실습 문제는 쉽게 나옴
-퀴즈는 하위 3개 제외
-## internet vs Internet
-### internet
-통신 기능을 갖춘 2개 이상의 장치의 집합
-### Internet
-TCP/IP 인터넷 프로토콜 모음을 사용하여 구축된 컴퓨터 네트워크 (WWW)
-
-## ISO vs OSI
-### ISO
-International Standards Organization (조직)
-### OSI
-Open Systems Interconnection (모델)
-
 # 7 Layer
 ![[Pasted image 20240909144311.png|300]]
-# 7 Layer 비유
-![[Pasted image 20240909144236.png|350]]
-- 이사장님 (Application Layer) 
-	- ex) email, http
-- 비서 (TCP) 
-	- 패킷이 없어졌을 때 복구를 수행함, 패킷마다 번호를 붙임
-- 배송 회사 (Network Layer) 
-	- 주소를 입력함 (IP를 이용함)
-	- IP Header를 만든다.
-- Data Link Layer
-	- 내가 보내려는 목적지에 따라 물류회사가 달라질 수가 있고, 지정된 물류회사로 갈 수도 있다 
-	  (옵션은 여러 개다.)
-	- ex) 미추홀구로 보내는 택배는 미추홀구 물류 회사, 부평구로 보내는 택배는 부평구 물류 회사로 모아놓는다. (어디로 보내는 지에 따라 어디 물류 회사로 보낼 지 정한다.)
-
 #### hop to hop (mac 주소)
 네트워크가 step by step으로 이동하는 것 
 로컬에서는 mac주소를 이용해 패킷이 이동한다.
@@ -37,7 +9,6 @@ Open Systems Interconnection (모델)
 ## Packet Switching Network (목적지 주소 전달 방식)
 출발 IP와 목적지 IP만 가지고 출발한다. 각 교차로마다 목적지 주소를 보고 어디로 가라고 알려준다. 
 일부 경로가 죽더라도 다른 경로로 가면 되기 때문에 보안적으로 유리하다.
-
 ### Circuit Switching Network (중앙제어 전달 방식)과의 차이
 우리가 사용하는 Internet이 아닌 방식이다.
 중앙서버에서 출발지부터 목적지까지 가기 위해 어떻게 이동해야하는지 그 패킷만의 경로를 알려준다.
@@ -87,27 +58,8 @@ Mac 주소(Physical adresses) 관리
 10이 87에게 frame을 보내고, 87이 10에게 다시 frame을 보낼 때는 10이 87에게 보냈던 것 처럼 28,53에게도 보내지 않는다.
 필터링 기능을 이용해서 switch가 어디서 온 frame인지 저장해두고 이를 다시 보낼 때 이 저장된 정보를 이용해 frame을 보낸다.
 
-## 리피터의 종류
-### Repeater
-1 대 1로 리피터와 리피터가 패킷을 통신한다.
-신호가 약해지거나 손상되기 전에 신호를 재생성하여 네트워크의 길이를 확장한다.
-![[Pasted image 20240909152610.png|400]]
-### Hub
-1 대 다로 허브와 허브들이 패킷을 통신한다. (1대n이 가능한 멀티포트 리피터)
-![[Pasted image 20240909152653.png|200]]
-### Bridge
-필터링 기능이 있는 리피터
-데이터 링크 계층에서 작동
-### Switch
-필터링 기능이 있는 허브 (필터링 기능이 있는 멀티포트 리피터)
-데이터 링크 계층에서 작동
-
 # Network Layer(logical addresses)의 Exemple
 ![[Pasted image 20240909153120.png]]
 physical address인 MAC주소는 hop to hop (각 hop은 라우터 또는 스위치)으로 이동할 때마다 출발지와 목적지의 MAC 주소가 변경된다.
 하지만, logical adderess인 IP주소는 변경되지 않는다.
-### Mac 헤더와 IP 헤더
-Mac 헤더는 도착 Mac 출발 Mac 순서이고,
-IP 헤더는 출발 IP 도착 IP 순서이다.
-이게 지워져 있어도 채울 수 있어야 할 듯.
 

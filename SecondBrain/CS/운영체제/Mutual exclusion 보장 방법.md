@@ -4,7 +4,7 @@
 
 ![[Mutex]]
 
-![[semaphore]]
+![[CS/운영체제/semaphore]]
 ## Mutex vs Semaphore
 - 뮤텍스는 락을 가진 자만 락을 해제할 수 있지만 세마포는 그렇지 않다.
 	- 세마포어: wait를 하는 존재와 signal을 하는 존재가 다를 수 있다.

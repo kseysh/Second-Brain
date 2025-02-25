@@ -1,6 +1,4 @@
-# POSIX:XSI Message Queue
-## IPC (프로세스 간 통신)
-메시지 큐는 프로세스가 다른 프로세스로부터 메시지를 보내고 받을 수 있게 해주는 POSIX:XSI 인터프로세스 통신 메커니즘입니다.
+메시지 큐는 프로세스가 다른 프로세스로부터 메시지를 보내고 받을 수 있게 해주는 [[IPC]] 통신 메커니즘입니다.
 • 메시지 큐는 커널 내에 저장된 메시지의 linked list이며, 메시지 큐 식별자에 의해 식별됩니다.
 ```c
 struct msqid_ds { /* <sys/msg.h> */
@@ -76,16 +74,3 @@ int msgctl(int msqid, int cmd, struct msqid_ds *buf );
 	- buf로부터 `msqid_ds` 데이터 구조체의 멤버를 설정합니다.
 - `IPC_RMID` 
 	- 메시지 큐 `msqid`를 제거하고 해당 `msqid_ds`를 삭제합니다.
-## 우선순위가 있는 메시지 큐 예제
-![[Pasted image 20241127002758.png|500]]
-![[Pasted image 20241127002811.png|500]]
-![[Pasted image 20241127002824.png|500]]
-10보다 작은 것중 가장 작은 것부터 가져온다.
-### etest program
-![[Pasted image 20241127002843.png|500]]
-### stest program
-![[Pasted image 20241127002905.png|500]]
-sender는 3419로 보냈지만, receiver는 우선순위대로 1349 순서대로 받음
-
-![[Pasted image 20241127002918.png|500]]
-![[Pasted image 20241127002933.png|500]]
