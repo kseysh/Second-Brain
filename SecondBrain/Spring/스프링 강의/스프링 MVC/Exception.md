@@ -20,4 +20,6 @@ WAS는 /error를 단순히 다시 요청만 하는 것이 아니라 오류 정�
 인터셉터는 오류 페이지 경로를 excludePathPatterns를 사용해서 중복 호출을 제거할 수 있다.
 ## 스프링 부트에서는?
 스프링부트에서는 `/error`라는 경로로 기본 오류 페이지를 설정하여 ErrorPage를 자동으로 등록한다.
+서블릿 밖으로 예외가 발생하거나, response.sendError()가 호출되면 모든 오류는 `/error`를 호출한다.
+BasicErrorController라는 스프링 컨트롤러를 자동으로 등록하여 ErrorPage에서 등록한 `/error`를 매핑해서 처리한다.
 
