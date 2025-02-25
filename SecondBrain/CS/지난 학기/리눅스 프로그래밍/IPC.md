@@ -1,17 +1,9 @@
 ## IPC (프로세스 간 통신)
 - POSIX의 XSI 확장에 포함된 IPC 함수들은 System V IPC 함수에 기초하여 개발되었습니다.
 - 같은 시스템 내에서 프로세스 간 정보를 공유할 수 있는 메커니즘을 제공합니다.
-![[Pasted image 20241126191149.png|500]]
 - message queue: pipe의 advanced 버전
 - semaphores: 변수를 공유할 때 프로세스가 실행순서를 제어하는 메커니즘
 - shared memory: 메모리를 공유하므로서 프로세스간 변수를 공유할 수 있게 하는 것
-## File & IPC
-File 사용과 IPC 사용은 대동소이하다
-![[Pasted image 20241126191443.png|500]]
-stat -> IPC에서는 identifier datastructure
-
-shmat -> shared memory attach
-shmdt -> shared memory detach
 ## 권한 구조
 - IPC 객체가 생성될 때, 시스템은 IPC facility status structure도 함께 생성합니다.
 ![[Pasted image 20241126192335.png|500]]
@@ -54,14 +46,6 @@ int shmget(key_t key, size_t size, int permflags);
   2. 직접 키를 지정함. (하지만 unique하지 않은 키를 생성할 수 있어 위험)
   3. `ftok`를 호출하여 지정된 경로로부터 키를 생성함. (이것도 잘못하면 unique하지 않은 키를 생성할 수 있다.)
 
-- 권한 플래그:
-  - `IPC_CREAT`는 `O_CREAT`와 유사합니다.
-  - `IPC_EXCL`는 `O_EXCL`와 유사합니다.
-
-![[Pasted image 20241126232918.png|500]]
-- IPC 구조에 대해 실행 권한에 해당하는 것이 없습니다.
-- 메시지 큐와 공유 메모리는 읽기(read)와 쓰기(write)라는 용어를 사용하지만, 세마포어는 읽기(read)와 변경(alter)이라는 용어를 사용합니다.
-
 ## IPC `ctl` operations
 ```c
 int msgctl(int msqid, int command, struct msqid_ds *buf );
@@ -77,8 +61,3 @@ File의 fcntl과 stat 두 가지 작업을 한번에 하는 system call과 비�
 	- IPC 리소스의 소유자, 그룹 또는 모드를 변경합니다. 또한, IPC_STAT과 마찬가지로 변경된 멤버 정보를 포함한 적절한 타입의 구조체 포인터를 전달해야 합니다.
 - `IPC_RMID` 
 	- IPC 리소스의 내용을 파괴하고 시스템에서 제거합니다.
-## IPC 키에서 IPC 식별자 생성하기
-![[Pasted image 20241126233621.png|550]]
-## 셸에서 IPC 리소스 접근하기
-![[Pasted image 20241126233727.png|500]]
-![[Pasted image 20241126233742.png|500]]
