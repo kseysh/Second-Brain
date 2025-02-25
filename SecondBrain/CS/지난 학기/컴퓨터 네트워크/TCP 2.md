@@ -40,19 +40,6 @@ RTTm => 가장 최근 측정된 RTT
 RTT에 따라 Timeout값이 변화해야 한다
 Timeout값을 너무 크게 잡으면 안된다.
 
-## RTO 계산 방식 정리
-처음, 첫 번째 측정, 그 이후의 순서
-### RTTs
-- x
-- RTTm
-- (7RTTs + RTTm) / 8
-### RTTd
-- x
-- RTTm / 2
-- (3RTTd + |RTTs - RTTm|) / 4
-### RTO
-- x
-- RTTs + 4RTTd
 ## RTO 계산 예시
 처음 보내는 RTO는 default값으로 설정한다.
 RTO는 Sender가 측정한다.
@@ -117,5 +104,3 @@ packet loss가 생겼을 때 detail한 상황을 말할 수 없다.
 ![[Pasted image 20241030162300.png|500]]
 그냥 이런게 있다...만 알기
 중복된 패킷에 관한 정보도 같이 헤더에 실어서 보낼 수 있다.
-
-SACK을 왜 쓰는지 -=> cummulative ack의 단점을 보완하기 위해서
