@@ -102,11 +102,12 @@ FIN + ACK이 갈 때는 데이터는 없고 sequence number를 갖는다.
 
 ## Half-Close
 상대방이 종료 요청을 해도 나는 종료하지 않을 수 있다.
-이 때문에 종료시에는 보통 4-way-handsh
 ![[Pasted image 20240924013837.png|450]]
 종료 요청은 클라이언트가 먼저하는 것이 일반적이다.
 하지만 만약 서버가 더 보낼 내용이 있다면 데이터를 다 보낸 이후에 FIN을 보낸다.
 위 그림에서 현재 client는 FIN을 보낸 상태라 더 데이터를 못 보내지만 그 대신 서버는 보낼 데이터를 다 보내고 FIN을 보낸다. 클라이언트는 다른 요청은 보내지 못하지만 ACK로 응답은 해줄 수 있다.
+### 종료 시에 보통 4-way-handshake를 하는 이유
+FIN-ACK을 같이 보내면 서버가 남은 데이터를 전송하지 못하므로 데이터 손실을 방지하고 송수신 방향을 독립적으로 종료하기 위해 4-way-handshake를 진행한다.
 
 ## State transition diagram
 ![[Pasted image 20241002150905.png|500]]
@@ -133,33 +134,7 @@ ACK을 받은 상태: CLOSED (버퍼 및 소켓 삭제)
 listen: syn/ack을 보내주도록 서버 소켓으로 만드는 함수
 accept: ack을 받는 함수
 
-## 상대방이 FIN을 보냈을 때 서버 소켓이 알아듣는 방법
-![[Pasted image 20240925153538.png|400]]
-Inform and send data in the queue plus EOF를 설명하기 위한 그림
-
-```cpp
-for(i=0; i<5; i++)
-{
-	clnt_sock=accept(serv_sock, (struct sockaddr*)&clnt_adr,&clnt_adr_sz);
-	if(clnt_sock==-1)
-		error_handling("accept() error");
-	else
-		printf("Connected client %d \n", i+1);
-	while((str_len=read(clnt_sock, message, BUF_SIZE))!=0)
-		write(clnt_sock, message, str_len)
-	close(clnt_sock); // return 값이 0이 아닐 때까지 계속 read/write 한다.
-} // 들어온 값을 상대에게 다시 돌려주는 함수이다.
-```
-새로운 소켓을 만들어서 read와 write를 한다. serv_sock은 연결을 받는 역할만 한다.
-read 함수: buffer에 있는 값을 한 번에 읽는다.
-상대방이 fin을 보내면 read의 return 값이 0이된다. (이외에는 0보다 크다)
-
-![[Pasted image 20240925154752.png|400]]
-서버소켓은 client1을 위한 클라이언트 소켓 하나를 만들어준다. (114에 전화하면 담당 전화상담사를 한 명 배정해준다)
-서버소켓은 client2를 위한 클라이언트 소켓 하나를 만들어준다.
-서버소켓은 client3를 위한 클라이언트 소켓 하나를 만들어준다.
 ## Time wait이 필요한 이유
-설명할 줄 알기
 ![[Pasted image 20240925154840.png|300]]
 close를 하고 다시 syn syn/ack ack을 통해 바로 연결요청을 하는 상황이다.
 ### 1
@@ -171,7 +146,7 @@ close를 하고 다시 syn syn/ack ack을 통해 바로 연결요청을 하는 �
 FIN/ACK을 보내고 ACK을 못 받았을 때, ACK을 다시 요청하면 ACK을 보내야하므로 대기 시켜놓는다.
 ### 3
 fin을 먼저 보내는 애가 Time-wait이 된다.
-만약 서버가 ^C로 죽어버리면 time-wait때문에 80 port를 못 쓸 수도 있는데 이는 time-wait을 하지 않는 옵션을 사용해서 해결할 수 있다.
+만약 서버가 ^C로 죽어버리면 time-wait때문에 port를 못 쓸 수도 있는데 이는 time-wait을 하지 않는 옵션을 사용해서 해결할 수 있다.
 ## WINDOWS IN TCP
 SYN을 보내고, 기다렸다가 ACK을 받고 다시 SYN을 보내기(STOP&WAIT 방식)에는 시간이 너무 많이 든다.
 따라서 한 번에 SYN을 n만큼 보내기 위해서, 받는 쪽에서 받을 수 있는 패킷의 수를 고려한다. 
@@ -197,7 +172,6 @@ read 함수는 block함수이지만, write 함수도 block 함수이다. 버퍼�
 전송 속도는 application에서 소비하는 속도에 맞도록 선택된다.
 3번이 느려지면, 느려지고, 3번이 빨라지면 빨라진다.
 ### ex)
-글만 보고 둘의 buffer하기
 ![[Pasted image 20241002160450.png]]
 그림의 client에서 분홍색은 client의 application에서 server에게 데이터를 전송하라고 갖다놓은 데이터, 만약 applicaiton이 800만큼 갖다놓으면 800을 전송했을 것임.
 client의 왼쪽 window 벽: server의 ackNo 값
@@ -206,7 +180,6 @@ server의 왼쪽 window 벽: client의 seqNo + Data 값
 server의 오른쪽 window 벽: 기존 window 오른쪽 벽에서 application이 consume한 data 값을 더해줌
 client->server 단방향에서 설명하는 것.
 rwnd: 현재 내가 보낼 수 있는 최대한의 바이트
-마지막 ACK(8)은 무시하자
 매 순간마다 얼만큼 데이터를 보낼지를 결정함.
 
 ## Silly Window Syndrome
@@ -233,10 +206,6 @@ Client1은 서버에게 SYN을 보내고 서버는 Client에게 SYN/ACK을 보�
 Client의 ACK이 서버에게 오면 accept 함수가 호출되고 연결 요청을 수락한다.
 
 만약 요청이 많거나, 악의적으로 ACK을 받을 수 없는 SYN만 보내면 연결 요청 대기 큐가 가득 차서 유저가 연결을 하지 못하게 만드는 것을 SYN Flooding이라고 한다. (D-Dos)
-
-## Ack에 대한 ACK은 없다
-## TCP는 보장된 데이터만 application으로 올려보낸다.
-
 ## TCP Normal operation
 ![[Pasted image 20241010201504.png]]
 ### Rule 1,2,3 
@@ -303,7 +272,6 @@ capacity가 최대 10Mbps라 할 때, 50Mbps를 보낼 때 5초가 걸렸다면 
 하지만 점점 혼잡도가 증가해 10초가 걸렸다면 Throughput이 5Mbps로 줄어들게 된다.
 
 ## Addtive increase
-혼잡 제어의 가장 쉬운 case
 ![[Pasted image 20241016152812.png|500]]
 cwnd: congestion window size (구현은 byte 단위, 이해는 packet 단위로 하자)
 이 그림에서는 이해를 위해 한 패킷에 한 ACK으로 생각하자.
