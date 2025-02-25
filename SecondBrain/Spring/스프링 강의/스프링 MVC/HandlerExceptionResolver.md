@@ -12,7 +12,7 @@ ExceptionResolver를 사용하면 예외가 발생해도 서블릿 컨테이너�
 
 ## 스프링이 제공하는 ExceptionResolver
 - ExceptionHandlerExceptionResolver
-	- `@ExceptionHandler`처리
+	- [[@ExceptionHandler]] 처리
 - ResponseStatusExceptionResolver
 	- HTTP 상태 코드 지정 (@ResponseStatus, ResponseStatusException 예외)
 	- sendError(400)를 호출한다.
