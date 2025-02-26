@@ -17,7 +17,8 @@ Skip List를 이용해 B Tree보다 동시성 문제를 더 잘 해결할 수 �
 ## Sorted set에서 우선순위 큐가 아닌 Skip List를 사용하는 이유는?
 => Linked List에 대한 검색 시간을 최적화하기 위함
 
+[참고](https://velog.io/@redjen/%EB%A0%88%EB%94%94%EC%8A%A4%EB%8A%94-%EC%99%9C-%EB%B9%A0%EB%A5%BC%EA%B9%8C) 근데 Skip List에 대해서 좀 알아야 작성할 듯..
 
-## LRU를 곁들이 Double List를 활용하여 캐시로서의 기능을 효율적으로 수행할 수 있다.
-LRU를 위해 이중 리스트를 갖춘 스킵 리스트를 사용한다.
-IO 멀티 플렉싱 c10k 문제를 해결함
+## Multiplexing IO
+레디스는 요청이 들어올 때마다 커넥션을 생성하는 것이 아니라 IO multiplexing을 이용해 처리한다.
+[[epoll]]
