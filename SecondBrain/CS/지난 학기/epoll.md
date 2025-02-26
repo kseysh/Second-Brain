@@ -1,0 +1,57 @@
+## select의 방식
+어느 FD에 이벤트가 발생했는지 찾기 위해 전체 FD에 대해 순차검색을 위한 FD_ISSET 루프를 돌린다 - O(N)의 시간 복잡도가 걸리며 루프이므로 polling CPU 낭비 발생
+## poll의 방식
+fd를 순차적으로 검사한다.
+## epoll의 방식
+- 커널 단위에서 파일 디스크립터를 관리하여 CPU가 지속적으로 fd의 상태 변화를 감시하지 않는다.
+- 이벤트가 발생한 fd 목록을 알려준다.
+
+## epoll에서 fd를 trigger하는 2가지 방식
+### level-triggered
+특정 상태가 유지되는 동안 감지
+### edge-triggered (default)
+특정 상태가 변화하는 시점에서만 감지
+
+ex)
+0000111000011100  
+LT의 경우 1이 유지되는 동안 감지를 합니다. 즉 6회 입니다.  
+ET의 경우 특정 상태가 변하는 시점에서만 발생하기 때문에 2회 감지
+
+## epoll_create
+`epoll_create(int size)`
+fd들의 입출력 이벤트 저장을 위한 공간을 만든다.
+커널이 필요한 데이터 구조의 크기를 동적으로 조정하기 때문에 size에 0보다 큰 값만 입력한다.
+epoll fd를 반환하며, 이를 이용해 epoll에 등록된 fd를 조작한다.
+## epoll_ctl
+`epoll_ctl(int epfd, int op, int fd, struct epoll_event *event)`
+epoll에 fd들을 등록/수정/삭제하는 함수
+
+* epfd : epoll fd 값
+* fd : epfd에 등록할 관심있는 파일 디스크립터 값
+* op : 관심가질 fd를 등록할지, 등록되어 있는 fd의 설정을 변경할지, 등록되어 있는 fd를 관심 목록에서 제거할지에 대한 옵션값
+
+| EPOLL_CTL_ADD | fd를 epfd의 관심 목록에 추가, 이미 목록에 존재한다면 EEXIST에러를 발생 시킨다. event 집합은 `*event`에 저장 된다.              |
+| ------------- | ------------------------------------------------------------------------------------------- |
+| EPOLL_CTL_MOD | `*event`에 지정된 정보를 이용해 fd 설정 변경. 관심 목록에 없는 fd라면 ENOENT 에러를 발생시킨다.                            |
+| EPOLL_CTL_DEL | epfd 에서 fd를 제공 한다. epfd 관심 목록에 없는 fd를 제거하려면 ENOENT 에러를 발생한다. fd를 닫으면 epoll관심 목록에서 자동 제거 된다. |
+- event : epfd에 등록할 관심있는 fd가 어떤 이벤트가 발생할 때 관심을 가질지에 대한 구조체. 관찰 대상의 관찰 이벤트 유형
+
+| EPOLLIN      | 수신할 데이터가 있다.                  |
+| ------------ | ----------------------------- |
+| EPOLLOUT     | 송신 가능하다.                      |
+| EPOLLPRI     | 중요한 데이터(OOB) 발생.              |
+| EPOLLRDHUD   | 연결 종료 또는 Half-close 발생        |
+| EPOLLERR     | 에러 발생                         |
+| EPOLLET      | 엣지 트리거 방식으로 설정(기본은 레벨 트리거 방식) |
+| EPOLLONESHOT | 한번만 이벤트 받음                    |
+## epoll_wait
+`int epoll_wait(int epfd,  struct epoll_event * events, int maxevents, int timeout)`
+관심있는 fd들에 무슨 일이 일어났는지 조사한다.
+* events : 이벤트가 발생된 fd들을 모아놓은 구조체 배열.
+* maxevents : 실제 동시접속수와 상관없이 maxevents 파라미터로 최대 몇개까지의 event만 처리할 것임을 지정해 주도록 하고 있다. 만약 현재 접속수가 1만이라면 최악의 경우 1만개의 연결에서 사건이 발생할 가능성도 있기 때문에 1만개의 events[] 배열을 위해 메모리를 확보해 놓아야 하지만, 이 maxevents 파라미터를 통해 한번에 처리하길 희망하는 숫자를 제한할 수 있다
+* timeout : epoll_wait의 동작특성을 지정해주는 중요한 요소인데, 밀리세컨드 단위로 지정해주도록 되어 있다. 이 시간만큼 사건발생을 기다리라는 의미이며 기다리는 도중에 사건이 발생하면 즉시 리턴된다.
+	* timeout(-1)로 지정해주면 영원히 사건을 기다리는 blocking상태가 된다.
+	* timeout(0)로 지정해주면 사건이 있건 없건 조사만 하고 즉시 리턴하는 상태가 된다.
+
+
+nginx와 redis가 C10K문제를 해결하기 위해서 1만개의 스레드가 서로 폴링 경합을 벌이며 CPU 낭비를 하지 않고 CPU가 사용가능할 때 epoll을 호출하여 대기 중인 스레드 중 하나를 깨워 일을 할 수 있도록 해준다.
