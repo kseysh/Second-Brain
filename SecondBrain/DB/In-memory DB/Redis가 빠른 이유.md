@@ -19,6 +19,9 @@ Skip List를 이용해 B Tree보다 동시성 문제를 더 잘 해결할 수 �
 
 [참고](https://velog.io/@redjen/%EB%A0%88%EB%94%94%EC%8A%A4%EB%8A%94-%EC%99%9C-%EB%B9%A0%EB%A5%BC%EA%B9%8C) 근데 Skip List에 대해서 좀 알아야 작성할 듯..
 
-## Multiplexing IO
-레디스는 요청이 들어올 때마다 커넥션을 생성하는 것이 아니라 IO multiplexing을 이용해 처리한다.
+## 2. epoll  IO 모델
+레디스는 요청이 들어올 때마다 커넥션과 스레드를 생성하는 것이 아니라 epoll IO multiplexing을 이용해 처리한다.
 [[epoll]]
+
+## 3. 인 메모리 데이터베이스
+데이터 스토리지가 가지는 계층 구조 덕분에 더 빠른 읽기 / 쓰기 성능을 가진다.
