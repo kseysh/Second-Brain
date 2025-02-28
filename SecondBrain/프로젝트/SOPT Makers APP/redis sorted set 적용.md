@@ -65,7 +65,7 @@ CPU 100퍼 찍으면서 260 TPS 기록
 DB 병목은 발생하지 않음
 
 ![[Pasted image 20250228224140.png]]
-
 ## redis sorted set 버전
+![[Pasted image 20250228225325.png]]
 
 ## indexing 버전
