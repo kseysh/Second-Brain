@@ -57,3 +57,12 @@ redis에 데이터가 다 적용이 된 이후에 DB 락을 해제해준다.
 
 ## Redis의 Set이 순서를 보장하는 이유
 `Set<TypedTuple<Long>>`을 getClass 해보았을 때, Set의 구현체가 LinkedHashSet이기 때문이다.
+
+
+# 원래 버전
+![[Pasted image 20250228212015.png]]
+CPU 100퍼 찍으면서 2.6k TPS 기록
+DB 병목은 발생하지 않음 (거의 3~4퍼밖에 왔다갔다 안함)
+
+![[Pasted image 20250228212242.png|400]]
+![[Pasted image 20250228212307.png|400]]
