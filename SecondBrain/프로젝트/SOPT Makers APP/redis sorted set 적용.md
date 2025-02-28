@@ -64,5 +64,8 @@ redis에 데이터가 다 적용이 된 이후에 DB 락을 해제해준다.
 CPU 100퍼 찍으면서 2.6k TPS 기록
 DB 병목은 발생하지 않음 (거의 3~4퍼밖에 왔다갔다 안함)
 
-![[Pasted image 20250228212242.png|400]]
-![[Pasted image 20250228212307.png|400]]
+![[Pasted image 20250228221427.png]]
+
+## redis sorted set 버전
+
+## indexing 버전
