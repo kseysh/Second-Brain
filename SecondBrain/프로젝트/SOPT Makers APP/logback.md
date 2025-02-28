@@ -1,8 +1,15 @@
 ```shell
 <configuration>
-    <!-- 로그 파일 저장 (logs/app.log) -->
+    <!-- 콘솔에 로그 출력 (nohup.out에서 확인 가능) -->
+    <appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
+        <encoder>
+            <pattern>%d{yyyy-MM-dd HH:mm:ss} [%thread] %-5level %logger{36} - %msg%n</pattern>
+        </encoder>
+    </appender>
+
+    <!-- 로그 파일 저장 (~/log/app.log) -->
     <appender name="FILE" class="ch.qos.logback.core.FileAppender">
-        <file>logs/app.log</file>
+        <file>${user.home}/log/app.log</file>  <!-- ✅ 홈 디렉토리에 저장 -->
         <append>true</append>
         <encoder>
             <pattern>%d{yyyy-MM-dd HH:mm:ss} [%thread] %-5level %logger{36} - %msg%n</pattern>
