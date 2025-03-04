@@ -15,6 +15,7 @@ GC는 각 영역에 할당된 크기의 메모리가 허용치를 넘을 때 수
 거의 사용이 되지 않음
 JDK 8부터 사라진 영역
 ### Young
+Stop-the-World를 이용해 Young 영역 처리 (Collection 수행시 application 정지)
 #### Eden
 메모리에 객체 생성시 저장되는 곳
 Eden 영역에 데이터가 꽉차면 GC 후 살아 남은 객체는 Survivor 영역 중 한 곳으로 이동한다.
@@ -23,7 +24,7 @@ Survivor로 들어가지 못할 정도로 큰 객체는 바로 Old 영역으로 
 1,2로 나뉘며 한 곳은 항상 비어 있다.
 할당된 Survivor 영역이 차면 GC가 되며 Eden 영역에 있는 객체와 꽉 찬 Survivor 영역에 있는 객체가 GC 진행 후 비어 있는 Survivor 영역으로 이동한다.
 ### Old
-
+Mark-sweep-compact collection 알고리즘을 따른다.
 # GC의 종류
 ### Minor GC
 young 영역에서의 GC
