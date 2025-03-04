@@ -3,8 +3,9 @@
 따라서 DBCP를 이용해 DB와 커넥션을 미리 맺어놓고 필요할 때 풀에서 가져오고 끝나면 반환하는 형식으로 진행한다.
 ## 중요 튜닝 point
 ![[Pasted image 20250219191220.png|400]]
-DBCP에서는 minimumIdle과 maximumPoolSize를 동일하게 하여 pool size를 고정하는 것을 권장한다.
-DBCP의 maxLifetime은 DB의 connction time limit보다 몇 초 짧게 설정해야 한다. (요청이 가는 동안 maxLifetime을 초과하면 연결이 끊기기 때문)
+DBCP에서는 **minimumIdle과 maximumPoolSize를 동일하게 하여 pool size를 고정하는 것을 권장**한다.
+=> 사용자 수가 급상승하면 Connection pool의 대기 시간이 오래 걸릴 수 있기 때문
+DBCP의 **maxLifetime은 DB의 connction time limit보다 몇 초 짧게 설정**해야 한다. (요청이 가는 동안 maxLifetime을 초과하면 연결이 끊기기 때문)
 # 적절한 connection 수 찾기
 - 모니터링 환경 구축 (서버 리소스, 서버 스레드 수, DBCP 등등)
 - 백엔드 시스템 부하 테스트
