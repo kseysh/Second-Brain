@@ -7,6 +7,8 @@ shared memory라고도 불리며 여러 스레드에서 공유하는 데이터�
 - 사용 중인 메모리 인식
 - 사용하지 않는 메모리 인식
 # GC의 구조
+GC는 각 영역에 할당된 크기의 메모리가 허용치를 넘을 때 수행한다.
+필요할 때 알맞은 GC 방식으로 시스템에 적용하는 정도가 적당하다.
 ![[Pasted image 20250304200358.png|300]]
 ### perm
 거의 사용이 되지 않음
@@ -22,12 +24,12 @@ Survivor로 들어가지 못할 정도로 큰 객체는 바로 Old 영역으로 
 ### Old
 
 # GC의 종류
-## Minor GC
+### Minor GC
 young 영역에서의 GC
-## Major GC (Full GC)
+### Major GC (Full GC)
 Old, Perm 영역에서의 GC
 
-## GC 방식
+# GC 방식
 
 ### Serial Collector
 Young 영역과 Old 영역이 serial하게 처리되며 하나의 CPU를 사용
