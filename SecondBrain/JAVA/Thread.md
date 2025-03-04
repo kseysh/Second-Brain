@@ -16,9 +16,12 @@ class ThreadTest {
 	public static void main(String args[]){
 		Mythread t1 = new MyThread();
 		t1.start(); // start로 쓰레드를 실행한다
+		// t1.run()을 사용하면 main에서 실행되므로 주의!
 	}
 }
 ```
+생성한 스레드를 실행하려면 start를 이용해야 한다.
+
 ![[Pasted image 20241226210438.png|400]]
 ## 실행 제어
 ![[Pasted image 20241226214309.png]]
