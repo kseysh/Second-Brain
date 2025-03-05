@@ -46,11 +46,20 @@ spring:
 flush는 DB에 쿼리가 나가긴 하지만, 트랜잭션을 commit해주는건 아니기에  
 DB 격리수준이 `READ COMMITTED` 이상일 경우, 다른 작업에서 쿼리 결과를 조회할 순 없습니다.
 ### 13. saveAndFlush() 보다는 변경 감지를 사용한다.
-
 쿼리 횟수와 결과물만 본다면 둘이 같습니다.  
 그러나 변경감지가 훨씬 Hibernate 최적화가 잘 되어있습니다.
 
 또한 변경감지는 한번의 flush 작업으로 여러 엔티티를 반영할 수 있는데 반해,  
 `saveAndFlush()`는 호출될 때마다 모든 엔티티의 변경 여부를 확인해야 합니다.
+### 14. Auto-increment PK를 가지는 엔티티 생성 시, saveAndFlush() 는 불필요하다.
+save만 해도 flush까지 됩니다. (auto_increment 키 값을 할당하기 위해)
+### 15. Auto-increment PK 키 매핑 시 GenerationType.AUTO 쓰지 않는다.
+`AUTO` 전략일 때 sequence를 지원하지 않는 DB를 사용하는 경우,  
+Hibernate는 `TABLE` 전략을 사용합니다.
+- TABLE은 별도의 Key 생성 전용 Table을 생성하고, 키 생성 때마다 해당 테이블에 비관적 락을 걸며 유니크한 키를 만들어주는 전략입니다. (DB 벤더에 중립적이라는 장점이 있습니다.)
+확장성, 성능 면에서 손해볼 수 있으므로, `GenerationType.IDENTITY`로 정확히 지정해줍시다.
+### 16. 조회만 할 시, DTO projection으로 필요한 데이터만 select하는 것이 성능이 좋다.
+
+
 
 https://velog.io/@wisepine/JPA-사용-시-19가지-Tip
