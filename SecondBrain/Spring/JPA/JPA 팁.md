@@ -18,6 +18,12 @@ ex) 레디스 같은 캐시 시스템에 엔티티를 캐싱하는 경우
 toString() 사용시 연관된 엔티티를 포함하면 불필요한 즉시 로딩이 발생할 수 있다.
 @ToString에서 연관관계가 있는 필드는 exclude 옵션을 사용하여 제외시켜야 한다.
 toString을 쓸 일이 없더라도, 라이브러리에서 내부적으로 사용하고 있을 가능성이 있어 처리하는 것이 좋다.
-
+### 9. Auto-increment PK :: Bulk Insert는 JPA가 아닌 JDBC로
+JPA는 `IDENTITY` 전략 엔티티인 경우 bulk insert 지원이 잘 안 된다.  
+`saveAll()`이라는 메소드가 있지만, insert 쿼리가 엔티티마다 각각 나갑니다.
+단일 쿼리로 여러개 insert 하고 싶을 경우, `JdbcTemplate`을 사용해야 한다.
+### 10. ‘진짜’ 네이티브 쿼리를 로깅하도록 설정하기 (for MySQL)
+쿼리 로그 확인시 hibernate 로그 설정을 하면 실제 동작하는 쿼리와 다르게 로깅하는 경우가 있다.
+- 특히 bulk insert의 경우, 실제론 bulk i
 
 https://velog.io/@wisepine/JPA-사용-시-19가지-Tip
