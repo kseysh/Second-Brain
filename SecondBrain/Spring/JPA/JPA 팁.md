@@ -68,4 +68,9 @@ DTO를 만드는게 귀찮을 순 있지만, 엔티티 생명주기를 관리하
 위 경우 에러가 나진 않지만, 성능 개선 효과도 못 보고 코드만 번거로워지는 결과를 낳게 됩니다.
 즉 SPEL, 연관관계 없이 기본 자료형 필드로만 구성되어야 원하는 컬럼만 가져오도록 쿼리할 수 있습니다.
 ### 18. DTO projection 방법 중, Interface projection이 가장 느리다.
+DTO projection을 하는 주 이유가 성능 개선이라면, interface 보다는 다른 형식을 사용하는게 더 효과가 좋다.
+### 19. nativeQuery로 Pageable 사용 시 COUNT 쿼리가 올바르게 동작하지 않는 경우가 있다
+
+
+
 https://velog.io/@wisepine/JPA-사용-시-19가지-Tip
