@@ -24,6 +24,24 @@ JPA는 `IDENTITY` 전략 엔티티인 경우 bulk insert 지원이 잘 안 된
 단일 쿼리로 여러개 insert 하고 싶을 경우, `JdbcTemplate`을 사용해야 한다.
 ### 10. ‘진짜’ 네이티브 쿼리를 로깅하도록 설정하기 (for MySQL)
 쿼리 로그 확인시 hibernate 로그 설정을 하면 실제 동작하는 쿼리와 다르게 로깅하는 경우가 있다.
-- 특히 bulk insert의 경우, 실제론 bulk i
+- 특히 bulk insert의 경우, 실제론 bulk insert 쿼리로 나가고 있음에도 insert 쿼리가 각각 나가는 것처럼 출력되는 이슈가 있다.
+MySQL이 남겨주는 네이티브 쿼리를 직접 보는게 가장 정확하므로 아래 설정을 하는 것이 좋다.
+```yaml
+spring:
+  datasource:
+    hikari:
+      jdbc-url: jdbc:mysql://localhost:3306/hibernate_batch?rewriteBatchedStatements=true&profileSQL=true&logger=Slf4JLogger&maxQuerySizeToLog=999999
+```
+- `rewriteBatchedStatements=true` : bulk insert 쿼리를 허용하는 설정
+- `profileSQL=true`: 드라이버에서 전송하는 쿼리 출력 허용 설정
+- `logger=SLF4J`: 기본값이 `System.err` 로 출력하도록 설정되어 있기 때문에 필수로 지정 필요 (MariaDB 드라이버일 경우 불필요)
+- `maxQuerySizeToLog=999999` : 출력할 쿼리 길이 (기본값은 0이기에 필수 지정)
+### 11. JPA로 bulk 쿼리 시 필수 어노테이션 :: @Modifying(clearAutomatically = true, flushAutomatically = true)
+해당 어노테이션 사용 시, 쿼리 실행 시 flush와 함께 영속성 컨텍스트를 비워줍니다.  
+`@Query`처럼 쿼리를 직접 지정한 벌크연산의 경우 JPA가 영속성 컨텍스트 업데이트를 안 해주기 때문에, DML 벌크 쿼리 시 반드시 필요한 어노테이션입니다.
+
+미사용 시, 예를 들면 삭제 쿼리가 나갔음에도 엔티티 영속은 되어있기에 조회가 되는 버그가 생길 수 있습니다.
+
+
 
 https://velog.io/@wisepine/JPA-사용-시-19가지-Tip
