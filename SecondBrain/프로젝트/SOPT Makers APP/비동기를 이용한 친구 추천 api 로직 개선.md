@@ -1,0 +1,8 @@
+친구 추천에는 3가지 유형이 있음
+GENERATION
+MBTI
+UNIVERSITY
+
+![[Pasted image 20250305170716.png]]
+여기서 for(FriendRecommendType type : typeList) 부분을 비동기 CompletableFuture를 이용해서 개선해보자!
+
