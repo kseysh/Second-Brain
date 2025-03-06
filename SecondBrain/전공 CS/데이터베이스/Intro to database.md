@@ -15,7 +15,17 @@
 	- 어떤 데이터를 가지고 있어야 하는가
 - view level
 	- logical level의 부분집합일 수도 있고
-	- view level이 새로 생성될 수도 있음 (관계같은 것)
-	- pk 제약도 view level??
+	- view level이 새로 생성될 수도 있음 (다대다 만들 때 만드는 관계같은 것)
 ## Instances, Schema
+- Schema
+	- 데이터 베이스의 논리적 구조
+	- physical schema
+		- physical level에서의 schema
+	- logical schema
+		- logical level에서의 schema
+- Instance
+	- 특정 시점에서의 데이터베이스 실제 내용
+- Physical Data Independence
+	- 물리적 스키마를 변경해도 논리적 스키마를 변경하지 않을 수 있는 능력
+	- [[partitioning]]을 진행하더라도 join을 하면 어차피 사용자에게 보이는 건 똑같다는 것을 뜻하는 것 같다.
 
