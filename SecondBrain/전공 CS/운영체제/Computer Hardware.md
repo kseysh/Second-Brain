@@ -28,13 +28,14 @@ computer system에서 주요한 컴포넌트들의 연결
 		1.	상태 레지스터를 읽어 출력 레지스터가 사용 가능한지 확인
 		2.	사용 가능하면 출력 레지스터로 데이터 이동, 제어 레지스터에 출력 명령 전달
 		3.	사용 불가능하면 이 과정을 반복하거나 대기
+	
 IO가 짧으면 오히려 Polling이 유리할 수 있다.
-1.	Polling I/O vs. Interrupt-driven I/O
-	•	Polling I/O: CPU가 I/O 상태 레지스터를 계속 확인하여 작업이 완료되었는지 검사
-	•	Interrupt-driven I/O: I/O 컨트롤러가 작업 완료 시 인터럽트를 발생하여 CPU에 알림
-2.	Memory-mapped I/O vs. Port-mapped I/O
-	•	Memory-mapped I/O: 메모리와 I/O를 동일한 주소 공간에서 관리
-	•	Port-mapped I/O: I/O 장치를 위한 별도의 주소 공간을 사용
+- Polling I/O vs. Interrupt-driven I/O
+	- Polling I/O: CPU가 I/O 상태 레지스터를 계속 확인하여 작업이 완료되었는지 검사
+	- Interrupt-driven I/O: I/O 컨트롤러가 작업 완료 시 인터럽트를 발생하여 CPU에 알림
+- Memory-mapped I/O vs. Port-mapped I/O
+	- Memory-mapped I/O: 메모리와 I/O를 동일한 주소 공간에서 관리
+	- Port-mapped I/O: I/O 장치를 위한 별도의 주소 공간을 사용
 ## DMA(Direct Memory Access, 직접 메모리 접근)
 - 장치 컨트롤러가 CPU의 개입 없이 버퍼 스토리지와 메인 메모리 간에 데이터 블록을 직접 전송할 수 있도록 함
 - I/O 작업만 담당하는 CPU라고 생각하자
