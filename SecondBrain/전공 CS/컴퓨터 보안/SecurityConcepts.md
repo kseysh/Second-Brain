@@ -62,8 +62,7 @@
 •	수동 공격의 두 가지 유형:
 1.	메시지 내용 유출(Release of Message Contents)
 2.	트래픽 분석(Traffic Analysis)
-
-능동 공격(Active Attacks)
+### 능동 공격(Active Attacks)
 •	데이터 스트림을 수정하거나 가짜 데이터 스트림을 생성하는 공격
 •	물리적, 소프트웨어적, 네트워크적 취약점이 다양하기 때문에 완벽한 방어가 어렵지만, 탐지 및 복구가 중요함
 •	주요 능동 공격 유형:
@@ -77,14 +76,14 @@
 •	메시지를 지연시키거나 순서를 바꿔서 무단 효과를 유발
 4.	서비스 거부 공격(Denial of Service, DoS)
 •	통신 시설의 정상적인 사용 또는 관리 기능을 방해하거나 차단
-## 서비스 1: 인증 (1/2)
+## Service 1: Authentication
 •	통신이 신뢰할 수 있음을 보장하는 것과 관련됨
 •	단일 메시지의 경우, 수신자가 해당 메시지가 주장하는 출처에서 왔음을 보장함
 •	지속적인 상호작용의 경우, 두 개체가 신뢰할 수 있으며 제3자가 개입하여 두 개체 중 하나로 가장할 수 없음을 보장함
 •	X.800에서 정의된 두 가지 특정 인증 서비스:
-•	동료 개체 인증(Peer Entity Authentication)
-•	데이터 출처 인증(Data Origin Authentication)
-
+	•	동료 개체 인증(Peer Entity Authentication)
+	•	데이터 출처 인증(Data Origin Authentication)
+	
 동료 개체 인증(Peer Entity Authentication)
 	•	연결 내에서 동료 개체의 신원을 확인하는 기능을 제공함
 	•	동료 개체는 서로 다른 시스템에서 동일한 프로토콜을 구현하는 개체를 의미함
