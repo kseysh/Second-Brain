@@ -13,4 +13,4 @@ ReetrantLock을 이용해 동기화를 하면 기존 synchronized의 단점이�
 ![[Pasted image 20241227212131.png|350]]
 ![[Pasted image 20241227212120.png|350]]
 
-![[JAVA/낙관적 락|낙관적 락]] [[DB/낙관적 락|낙관적 락]]
+![[JAVA/낙관적 락|낙관적 락]] [[DB/DB 이론/낙관적 락|낙관적 락]]
