@@ -28,11 +28,16 @@ CPU Clock Cycle의 횟수를 줄이거나, Clock Rate를 올리면 된다.
 Clock Cycle을 줄이면 그만큼 하는 일이 줄어들기 때문이다.
 
 ### Ex) CPU Time 10 -> 6으로 줄이기
-2GHz Clock과 10s CPU Time을 6s로 줄이고 싶다면
+2GHz Clock과 10s CPU Time을 6s로 줄이고 싶다면 
+하지만 그로 인해 clock cycle이 1.2배 올라간다면
 ![[Pasted image 20250306130742.png|400]]
 Clock Rate를 4GHz로 올리면 된다는 것을 알 수 있다.
 ## Instruction Count and CPI(Cycle per Instruction)
 어떤 Instruction을 사용하느냐에 따라 Clock Cycle이 달라진다.
 ![[Pasted image 20250306130901.png|400]]
 Clock Cycle을 줄이기 위해서는 Instruction Count, CPI를 줄이면 된다.
-- Instruction Count for a prof
+- Instruction Count for a program
+	- program 코드나 ISA와 compiler에 따라 달라진다.
+- CPI 시간
+	- CPU 하드웨어에 따라 달라진다.
+	- instruction에 따라 CPI도 다르다
