@@ -112,3 +112,9 @@ jobs:
             ./playground/scripts/deploy.sh
             docker image prune -f
 ```
+application-dev.yml로 변경
+
+
+앱 중단
+app-dev DB d
+app-prod DB 생성
