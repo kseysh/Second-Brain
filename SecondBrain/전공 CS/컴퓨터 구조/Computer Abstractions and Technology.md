@@ -50,5 +50,12 @@ CPI는 낮을 수록 좋다(적은 cycle로 처리할 수 있다는 것이므로
 ps = 1/1000ns
 A가 B보다 1.2배 빠르다
 ## CPI in More Detail
+![[Pasted image 20250311122051.png|300]]
 CPI는 각각의 Instruction마다 다르다
 CPI는 보통 Instruction의 평균을 뜻한다.
+### CPI Example
+![[Pasted image 20250311122134.png|400]]
+CPI를 계산할 수 있도록 알아두자
+
+## CPU Time 계산
+![[Pasted image 20250311122716.png|300]]
