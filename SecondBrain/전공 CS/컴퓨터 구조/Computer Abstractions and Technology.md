@@ -76,3 +76,11 @@ Reducing power 수식 안 봐도 됨
 	- Compare with instruction level parallelism(ILP)
 		- 하드웨어가 여러 개의 instruction을 한 번에 처리한다
 이런 Benchmark가 있다 정도만 알기
+## Amdahl's Law
+![[Pasted image 20250311130041.png|400]]
+- 곱셈만 빠르게 해서는 5배의 개선율은 불가능하다.
+- 따라서, 자주 사용하는 case를 빠르게 해야 개선이 유의미할 수 있다
+## Low Power at Idle
+![[Pasted image 20250311130619.png|150]]
+power는 초반에 급격하게 오른다.
+power는 부하에 따라 선형적으로 오르지 않는다.
