@@ -1,7 +1,7 @@
 ## Common Functions of Interrupts
 인터럽트(Interrupt)
 	•	하드웨어 메커니즘으로, 인터럽트 벡터를 통해 Interrupt service routine(ISR)으로 제어를 전달
-	•	인터럽트 벡터: 모든 서비스 루틴의 주소를 포함하는 테이블
+	•	Interrupt Vector: 모든 서비스 루틴의 주소를 포함하는 테이블
 •	인터럽트 아키텍처는 인터럽트가 발생한 명령어의 주소를 저장해야 함
 •	트랩(Trap) 또는 예외(Exception):
 	•	소프트웨어에 의해 생성된 인터럽트
@@ -12,4 +12,7 @@
 - OS는 CPU에 PC와 저장된 Register를 전달한다
 - Interrupt가 들어오면
 	- 현재 수행중인 instruction을 마무리 시키고, 현재 프로그램을 중지한다
-	- 다음에 수행해야할 PC를 저장해둔다
+	- 다음에 수행해야할 PC와 현재 레지스터 값들을 저장해둔다
+	- Interrupt vector에서 어떤 코드를 실행해야 할지에 대한 ISR 주소를 얻어온다 
+	- ISR로 이동한다.
+- ISR이 끝나면, 원래 하던 저장되어 있던 프로그램으로 돌아간다.
