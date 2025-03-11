@@ -132,3 +132,8 @@
 •	시스템의 가용성을 보호함
 •	서비스 거부(DoS) 공격으로 인한 보안 문제를 해결함
 •	접근 제어 서비스 및 기타 보안 서비스의 적절한 관리와 제어에 의존함
+## 네트워크 보안의 핵심 요소
+![[Pasted image 20250311104212.png|400]]
+IPsec : IP secure
+TLS : Transport Layer Security (= Secure Socket Layer)
+HTTPS: HTTP Secure
