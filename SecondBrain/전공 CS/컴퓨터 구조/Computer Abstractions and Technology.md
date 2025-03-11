@@ -26,7 +26,7 @@ CPU의 성능을 높이기 위해서는 CPU Time을 내리면 되므로
 CPU Clock Cycle의 횟수를 줄이거나, Clock Rate를 올리면 된다.
 하지만, 둘은 trade off가 있다.
 Clock Cycle을 줄이면 그만큼 하는 일이 줄어들기 때문이다.
-
+Clock Cycle은 하드웨어적으로 정해지는 것
 ### Ex) CPU Time 10 -> 6으로 줄이기
 2GHz Clock과 10s CPU Time을 6s로 줄이고 싶다면 
 하지만 그로 인해 clock cycle이 1.2배 올라간다면
