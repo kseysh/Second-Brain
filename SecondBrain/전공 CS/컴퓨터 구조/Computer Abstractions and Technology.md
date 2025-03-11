@@ -84,3 +84,18 @@ Reducing power 수식 안 봐도 됨
 ![[Pasted image 20250311130619.png|150]]
 power는 초반에 급격하게 오른다.
 power는 부하에 따라 선형적으로 오르지 않는다.
+보통 컴퓨터는 Idle 상황에 놓여있는 경우가 많다. 심지어 Google Data Center도 마찬가지다
+따라서 전력 효율을 줄이고자 할 때, 100% load 상황에서의 전력 효율이 아니라 Idle 상황에서의 전력 효율을 줄이는 것이 유의미하다.
+
+## MIPS as a Performance Metric
+MIPS: Millions of Instructions Per Second
+- computer 사이의 ISA의 차이 => 필요 instruction 수가 달라진다.
+- intructions 간의 복잡도의 차이
+따라서 MIPS로 성능 측정을 하면 안된다.
+
+## 결론
+- ISA - hardware / software interface
+- Execution Time으로 성능 측정을 해야 한다
+- Power는 limiting factor
+	- 병렬성을 활용하여 성능을 향상시킨다.
+이 장을 달달 외울 필요까지는 없다
