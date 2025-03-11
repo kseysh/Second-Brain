@@ -41,3 +41,14 @@ Clock Cycle을 줄이기 위해서는 Instruction Count, CPI를 줄이면 된다
 - CPI 시간
 	- CPU 하드웨어에 따라 달라진다.
 	- instruction에 따라 CPI도 다르다
+### CPI Example
+![[Pasted image 20250311120829.png|350]]
+A: 4GHz, 한 instruction이 2 cycle만에 동작한다
+B: 2GHz, 한 instruction이 1.2 cycle만에 동작한다
+CPI는 낮을 수록 좋다(적은 cycle로 처리할 수 있다는 것이므로)
+1ns에 1GHz이다.
+ps = 1/1000ns
+A가 B보다 1.2배 빠르다
+## CPI in More Detail
+CPI는 각각의 Instruction마다 다르다
+CPI는 보통 Instruction의 평균을 뜻한다.
