@@ -18,4 +18,10 @@
 	5. ec2에 scripts 폴더 send
 	6. ec2에서 ECR_REPO에서 docker pull 후 deploy.sh 실행
 2. deploy.sh 실행
-	1. 
+	1. 현재 실행 컨테이너 이름 가지고 오기
+	2. deploy_container
+		1. docker-compose pull
+		2. docker-compose up
+	3. health_check
+	4. stop_container
+	5. reload_nginx
