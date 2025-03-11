@@ -6,22 +6,16 @@
 6. yml 파일 blue, green으로 나누고 port도 나누기
 
 
-```shell
-server {
-    server_name app.dev.sopt.org;
-    include /etc/nginx/conf.d/app-url.inc; 
 
-    location / {
-        proxy_pass $service_url;
-        proxy_set_header Host $host;
-        proxy_set_header X-Real-IP $remote_addr;
-        proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
-    }
 
-} 
 
-server {
-    listen 80;
-    server_name app.dev.sopt.org;
-}
-```
+---
+1. github trigger 발생
+	1. github action 내에서 jar 파일 생성
+	2. github action 내에서 docker build
+	3. ECR REPO에 push
+	4. ec2에 docker-compose.yml send
+	5. ec2에 scripts 폴더 send
+	6. ec2에서 ECR_REPO에서 docker pull 후 deploy.sh 실행
+2. deploy.sh 실행
+	1. 
