@@ -59,3 +59,13 @@ CPI를 계산할 수 있도록 알아두자
 
 ## CPU Time 계산
 ![[Pasted image 20250311122716.png|300]]
+- 수행시간에 영향을 미치는 것
+	- algorithm: insturction count와 CPI에 영향을 줄 수 있다. (영향이 크게 작용할 수 있다.)
+	- Programming language: insturction count와 CPI에 영향을 줄 수 있다.
+	- Compiler: insturction count와 CPI에 영향을 줄 수 있다.
+	- ISA: insturction count와 CPI, T<sub>c</sub>(clock cycle time)에 영향을 줄 수 있다.
+## Power (전력)
+![[Pasted image 20250311123238.png|300]]
+Capacitive load: 부하 = 회로가 얼마나 큰지
+Voltage: 전압
+Frequency: 얼마나 빠르게 전기를 보낼지
