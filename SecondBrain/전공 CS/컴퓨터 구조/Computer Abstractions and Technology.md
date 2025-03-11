@@ -75,3 +75,4 @@ Reducing power 수식 안 봐도 됨
 - explicitly parallel programming을 필요로 한다
 	- Compare with instruction level parallelism(ILP)
 		- 하드웨어가 여러 개의 instruction을 한 번에 처리한다
+이런 Benchmark가 있다 정도만 알기
