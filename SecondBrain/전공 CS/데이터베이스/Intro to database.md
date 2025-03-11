@@ -29,3 +29,10 @@
 - Physical Data Independence
 	- 물리적 스키마를 변경해도 논리적 스키마를 변경하지 않을 수 있는 능력
 	- DB를 두 대로 변경하던, 여러 파일로 저장하던 table은 변하지 않는다.
+## SQL
+non-procedural language이고, 선언형 언어이다. (내부 구현은 DB가 알아서 한다 How를 설정하지 않는다)
+어떻게 인덱스를 타고 이런걸 설정할 수 있는 것으로 아는데 그런 관점에서는 how를 설정한다고 볼 수 있는 것이 아닐까?
+### DDL
+Data Definition Language
+### DML
+Data Manipulation Language
