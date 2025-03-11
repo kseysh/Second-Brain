@@ -21,7 +21,9 @@
 	1. 현재 실행 컨테이너 이름 가지고 오기
 	2. deploy_container
 		1. docker-compose pull
+			1. ECR_REPO에서 docker pull 받는 명령
 		2. docker-compose up
+			1. 
 	3. health_check
 	4. stop_container
 	5. reload_nginx
