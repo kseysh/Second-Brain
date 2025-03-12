@@ -23,7 +23,7 @@ AWS dev key 변경하기
 		1. docker-compose pull
 			1. ECR_REPO에서 docker pull 받는 명령
 		2. docker-compose up
-			1. 
+			2. 
 	3. health_check
 	4. stop_container
 	5. reload_nginx
