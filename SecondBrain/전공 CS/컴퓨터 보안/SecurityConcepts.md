@@ -132,18 +132,15 @@
 ## 네트워크 보안의 핵심 요소
 ![[Pasted image 20250311104212.png|400]]
 IPsec : IP secure
-TLS : Transport Layer Security (= Secure Socket Layer)
-HTTPS: HTTP Secure
+TLS : Transport Layer Security (= Secure Socket Layer, SSL)
 SSH: Secure shell
 S/MIME: 이메일에 추가 기능을 준 것: MIME, Secure MIME
 IEEE 802.11i: wifi 표준
 ## Device Security
 - Firewall (방화벽)
-	- 들어오는 악성 패킷을 막기도 하고, 안쪽에서 중요한 정보를 빼내는 것을 막기도 한다.
-- Intrusion detection 
-	- 인가되지 않은 방식으로 시스템을 access하는 것을 찾아내는 것
-- Intrusion prevention
-	- 인가되지 않은 방식으로 시스템을 access하는 것을 막아내고 멈추는 것
+- Intrusion detection (침입 감지)
+	- Host-based(HIDS) vs. NW-based(NIDS)
+- Intrusion prevention (침입 방어)
 ## Standards
 - National Institute of Standards and Tecnology
 	- FIPS
