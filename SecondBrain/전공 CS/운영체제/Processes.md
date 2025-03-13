@@ -34,8 +34,24 @@
 # Process State
 ![[OS 프로세스 상태]]
 ## State Transition
-![[Pasted image 20250313170123.png]|]
+![[Pasted image 20250313170123.png|300]]
+![[Pasted image 20250313170257.png|300]]
 ### Ready queue
+ready 상태인 프로세스를 모아둔 큐
 ### Device queue
+I/O로 인해 waiting하는 프로세스를 모아둔 큐
 ### Job queue
+시스템에서 모든 프로세스를 Job queue에 보관한다.
+## [[scheduler]]
+
+### Short-term scheduler (CPU scheduler)
+밀리초 단위로 자주 호출되기 때문에 빠르게 동작해야 한다
+### Long-term scheduler (job scheduler)
+- 어떤 프로세스를 Job queue에 넣을 것인지 선택하는 역할을 한다 (메모리에 너무 많은 process가 올라가면 안되므로)
+- 초 또는 분 단위로 호출되기 때문에 상대적으로 느려도 괜찮다.
+- multi programming 수준을 조절하는 역할을 한다.
+- 적절한 프로세스 균형을 유지하는 것을 목표로 한다.
+	- cpu bound 작업은 I/O bound 작업과 mix하는 것이 좋으니 그런 방식으로 조합한다.
+
+
 # Process Creation and Termiation
