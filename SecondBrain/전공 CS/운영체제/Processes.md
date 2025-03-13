@@ -61,7 +61,21 @@ I/O로 인해 waiting하는 프로세스를 모아둔 큐
 process state를 하나로 두고, execution stream을 여러개 두는 것
 # Process Creation and Termiation
 ## Process Creation
-1. build from scratch
-	1. code, data를 program file에서 읽어서 memory에 적재 (stack, heap은 돌아가면서 생기므로)
-2. create empty stack
-3. PCB 만들기
+프로세스 생성 두 가지 방법
+### build from scratch
+- loading 과정: code, data를 program file에서 읽어서 memory에 적재 (stack, heap은 돌아가면서 생기므로)
+- create empty stack (메모리에 자리만 잡아준다.)
+- PCB 만들기
+- 해당 PCB를 ready queue에 넣기
+### 프로세스 복제 (리눅스에서 사용되는 방법)
+- 현재 state 저장(PC, register)
+- memory context 복사
+- PCB 복사 (pid, parent, child만 변경)
+- 해당 PCB -> ready queue로 복사
+![[Pasted image 20250313173540.png|300]]
+init process는 build from scratch 방식으로 만들고, 이후 프로세스는 모두 복제로 생성된다.
+이는 서로 다른 프로세스 간의 소통 창구를 만들기 위해 이렇게 설계되었다.
+
+loading 과정은 어디에서 실행? 복제가 모두 끝나고?
+	pid 0 스케쥴러 프로세스는 뭐지???
+	얘도 build from scratch?
