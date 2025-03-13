@@ -57,5 +57,11 @@ I/O로 인해 waiting하는 프로세스를 모아둔 큐
 ![[Pasted image 20250313171935.png|300]]
 프로세스의 Context들은 PCB에 저장된다.
 ## Threads
-
+프로세스당 여러 개의 PC를 고려할 수 있음
+process state를 하나로 두고, execution stream을 여러개 두는 것
 # Process Creation and Termiation
+## Process Creation
+1. build from scratch
+	1. code, data를 program file에서 읽어서 memory에 적재 (stack, heap은 돌아가면서 생기므로)
+2. create empty stack
+3. PCB 만들기
