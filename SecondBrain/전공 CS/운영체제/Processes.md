@@ -52,6 +52,10 @@ I/O로 인해 waiting하는 프로세스를 모아둔 큐
 - multi programming 수준을 조절하는 역할을 한다.
 - 적절한 프로세스 균형을 유지하는 것을 목표로 한다.
 	- cpu bound 작업은 I/O bound 작업과 mix하는 것이 좋으니 그런 방식으로 조합한다.
-
+## CPU Switch From Process to Process
+[[컨텍스트 스위칭]]
+![[Pasted image 20250313171935.png|300]]
+프로세스의 Context들은 PCB에 저장된다.
+## Threads
 
 # Process Creation and Termiation
