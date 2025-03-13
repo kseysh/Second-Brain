@@ -93,7 +93,7 @@ MIPS: Millions of Instructions Per Second
 - intructions 간의 복잡도의 차이
 따라서 MIPS로 성능 측정을 하면 안된다.
 
-## 결론
+ㅑ## 결론
 - ISA - hardware / software interface
 - Execution Time으로 성능 측정을 해야 한다
 - Power는 limiting factor
