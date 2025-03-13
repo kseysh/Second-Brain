@@ -76,6 +76,8 @@ process state를 하나로 두고, execution stream을 여러개 두는 것
 init process는 build from scratch 방식으로 만들고, 이후 프로세스는 모두 복제로 생성된다.
 이는 서로 다른 프로세스 간의 소통 창구를 만들기 위해 이렇게 설계되었다.
 
-loading 과정은 어디에서 실행? 복제가 모두 끝나고?
+`fork()`: 복제
+`exec()`: 복제 후 loading
+
 	pid 0 스케쥴러 프로세스는 뭐지???
 	얘도 build from scratch?
