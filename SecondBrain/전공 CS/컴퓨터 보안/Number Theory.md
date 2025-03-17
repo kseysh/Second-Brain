@@ -66,7 +66,19 @@ modular 연산에 따라 값의 관계가 바뀐다.
 x \* □ mod 7 = 1 이면, 
 x에는 1~6이 들어갈 수 있다.
 ### 모듈러 연산의 속성
-
+#### 교환 법칙
+`(w + x) mod n = (x + w) mod n`
+`(w × x) mod n = (x × w) mod n`
+#### 결합 법칙
+`[(w + x) + y] mod n = [w + (x + y)] mod n`
+`[(w × x) × y] mod n = [w × (x × y)] mod n`
+#### 분배 법칙
+`[w × (x + y)] mod n = [(w × x) + (w × y)] mod n`
+#### 항등원
+`(0 + w) mod n = w mod n`
+`(1 × w) mod n = w mod n`
+#### 덧셈의 역원
+모든 w ∈ Z_n에 대해, 어떤 z가 존재하여 w + z ≡ 0 (mod n)을 만족함.
 ### 확장 유클리드 알고리즘
 
 ## Prime Numbers
