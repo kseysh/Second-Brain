@@ -49,5 +49,21 @@ a ≡ 0 (mod n)이면, `n | a` 다.
 	2. a mod n = (b + kn) mod n = b mod n
 2. a ≡ b (mod n)이면 b ≡ a (mod n) (대칭성)
 3. a ≡ b (mod n)이고 b ≡ c (mod n)이면 a ≡ c (mod n) (추이성)
+#### 모듈러 연산의 성질
+1. \[(a mod n) + (b mod n)] mod n = (a + b) mod n
+2. \[(a mod n) - (b mod n)] mod n = (a - b) mod n
+3. \[(a mod n) * (b mod n)] mod n = (a * b) mod n
+### Arithmetic Modulo 8
+![[Pasted image 20250317165956.png|200]]
+### Multiplication Modulo 8
+modular 연산에 따라 값의 관계가 바뀐다.
+![[Pasted image 20250317170036.png|200]]
+### Additive and Multiplicative Inverse Modulo 8
+곱셈의 역원
+![[Pasted image 20250317170158.png|150]]
+8과 1은 서로소이기 때문에 곱셈의 역원이 있다.
+따라서 소수는 곱셈의 역원이 항상 있다,
+x \* □ mod 7 = 1 이면, 
+x에는 1~6이 들어갈 수 있다.
 ## Prime Numbers
 여기까지
