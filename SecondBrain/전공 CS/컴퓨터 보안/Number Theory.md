@@ -14,3 +14,24 @@ a = mb를 만족한다
 - b | g and b | h면 b | (mg + nh)
 ## Division Algorithm
 a = qn + r일 때, r은 항상 0보다 커야 한다.
+### example
+-40 = -2 x 15 - 10 (X)
+-40 = -3 x 15 + 5 (O)
+## Euclidean Algorithm
+### Greatest Common Divisor (GCD)
+gcd(0,0)=0으로 정의한다.
+일반적으로, gcd(a,b) = gcd( `| a |` , `| b |` )
+#### example
+gcd(0,0) = 0
+gcd(a,0) = |a|
+a,b가 서로소 일때, gcd(a,b) = 1
+### Euclidean Algorithm
+![[Pasted image 20250317164250.png|250]]
+![[Pasted image 20250317164418.png|100]]
+a, b, r이 있을 때(a > b),
+r = a % b
+r이 0이면, b가 최대공약수
+아니라면, a에 b 대입, b에 r 대입하고 다시
+
+## Prime Numbers
+여기까지
