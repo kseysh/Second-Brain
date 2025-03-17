@@ -2,6 +2,7 @@
 ### 정의
 0이 아닌 정수 b가 a를 나눌 수 있다면 `b | a`라 한다.
 a = mb를 만족한다
+즉, a % b가 0이다.
 ### example
 - `-5 | 30`
 	- m = -6
@@ -32,6 +33,21 @@ a, b, r이 있을 때(a > b),
 r = a % b
 r이 0이면, b가 최대공약수
 아니라면, a에 b 대입, b에 r 대입하고 다시
-
+## Modular 연산
+a mod n에서 n(modulus)은 양수여야 한다.
+### example
+11 mod 7 = 4
+-11 mod 7 = 3
+### Congruene (동치)
+두 정수 a와 b가 modulo n에서 congruent하다
+=> `a mod n = b mod n`
+=> `a ≡ b (mod n)`
+a ≡ 0 (mod n)이면, `n | a` 다.
+#### 동치 관계의 성질
+1. a ≡ b (mod n) ⇔ n | (a - b)
+	1. a-b = kn이라 하면,
+	2. a mod n = (b + kn) mod n = b mod n
+2. a ≡ b (mod n)이면 b ≡ a (mod n) (대칭성)
+3. a ≡ b (mod n)이고 b ≡ c (mod n)이면 a ≡ c (mod n) (추이성)
 ## Prime Numbers
 여기까지
