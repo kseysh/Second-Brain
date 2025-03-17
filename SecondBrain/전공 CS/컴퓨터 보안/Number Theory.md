@@ -61,6 +61,8 @@ modular 연산에 따라 값의 관계가 바뀐다.
 ### Additive and Multiplicative Inverse Modulo 8
 곱셈의 역원
 ![[Pasted image 20250317170158.png|150]]
+두 번째 열: w + (-w) ≡ 0 mod 8을 만족하는 수
+세 번째 열: w x w<sup>-1</sup> ≡ 1 mod 8을 만족하는 수
 8과 1은 서로소이기 때문에 곱셈의 역원이 있다.
 따라서 소수는 곱셈의 역원이 항상 있다,
 x \* □ mod 7 = 1 이면, 
