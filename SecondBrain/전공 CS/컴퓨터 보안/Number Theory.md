@@ -20,7 +20,7 @@ a = qn + r일 때, r은 항상 0보다 커야 한다.
 -40 = -3 x 15 + 5 (O)
 ## Euclidean Algorithm
 ### Greatest Common Divisor (GCD)
-gcd(0,0)=0으로 정의한다.
+**gcd(0,0)=0으로 정의**한다.
 일반적으로, gcd(a,b) = gcd( `| a |` , `| b |` )
 #### example
 gcd(0,0) = 0
@@ -67,6 +67,9 @@ modular 연산에 따라 값의 관계가 바뀐다.
 따라서 소수는 곱셈의 역원이 항상 있다,
 x \* □ mod 7 = 1 이면, 
 x에는 1~6이 들어갈 수 있다.
+x:1, x<sup>-1</sup>:8
+x:2, x<sup>-1</sup>:4
+x:3, x<sup>-1</sup>:5
 ### 모듈러 연산의 속성
 #### 교환 법칙
 `(w + x) mod n = (x + w) mod n`
@@ -80,7 +83,7 @@ x에는 1~6이 들어갈 수 있다.
 `(0 + w) mod n = w mod n`
 `(1 × w) mod n = w mod n`
 #### 덧셈의 역원
-모든 w ∈ Z_n에 대해, 어떤 z가 존재하여 w + z ≡ 0 (mod n)을 만족함.
+모든 w ∈ Z<sub>n</sub>에 대해, 어떤 z가 존재하여 w + z ≡ 0 (mod n)을 만족함.
 ### 확장 유클리드 알고리즘
 
 ## Prime Numbers
