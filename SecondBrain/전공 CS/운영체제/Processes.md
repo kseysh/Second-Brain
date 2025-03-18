@@ -128,7 +128,7 @@ ex) 공유 메모리 • 메시지 전달
 - msgrcv()
 	- 커널 공간에 쌓은 메시지를 읽는다.
 
-- 실질적으로 메시지 복사가 필요하다. -> poll, select?
+- 실질적으로 메시지 복사가 필요하다.
 	- 따라서 대용량 전달이 비효율적이다 
 #### Shared memory
 Shared memory를 활용하여 process A,B에게 shared memory 접근 권한을 부여한다.

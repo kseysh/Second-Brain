@@ -128,6 +128,26 @@ srl $t2, $s0, 4
 MIPS는 NOR을 이용해 NOT Operation을 구현한다.
 NOT 연산 = `nor $t0, $t1, $zero`
 ![[Pasted image 20250318163326.png|300]]
+## Conditional Operations
+### `beq rs, rt, L1`
+- rs == rt라면, L1으로 이동
+- I-Format
+### `bne rs, rt, L1`
+- rs != rt라면, L1으로 이동
+- I-Format
+### `j L1`
+- unconditional jump to L1
+- **J-Format**
+#### J-Format
+![[Pasted image 20250318200508.png|300]]
+#### example
+`if (i==j) f = g+h;`
+`else f = g-h`
+f: $s0
+g: $s1
+h: $s2
+i: $s0
+j: $s0
 ## Design Principle
 - 간단한 것을 위해선 규칙적인 것이 좋다.
 	- ex) I-Format, R-Format등이 정해져있음
