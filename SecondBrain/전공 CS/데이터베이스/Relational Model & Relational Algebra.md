@@ -23,4 +23,24 @@ candidate key중 선택된 key
 ![[Pasted image 20250318133755.png|200]]
 time_slot_id는 현재 제약조건을 가지지는 않는다.
 ## Relational Query Languages
-- Functional vs. imperative vs. declarative
+관계형 질의 언어는 함수형, 명령형, 선언형 방식으로 나눌 수 있다,
+- 순수 관계형 질의 언어
+	- Relational Algebra (관계 대수)
+		- procedural 언어로 표현되었으나, 함수형임
+	- Tuple Relational Calculus (튜플 관계 해석학)
+		- 선언형 언어
+	- Domain Relational Calculus (도메인 관계 해석학)
+		- 선언형 언어
+- 관계 연산자
+	- 함수형 관계형 질의 언어에서 제공하는 연산자
+	- 단일 관계 또는 두 개의 관계에 적용
+	- 연산 결과는 항상 하나의 관계
+## Relational Algebra
+### basic operations
+앞글자따서 만듦
+Select: 𝜎 (sigma)
+Project: ∏ (Pi)
+Union:  ∪
+Set difference: –
+Cartesian product: ×
+Rename: ρ (rho)
