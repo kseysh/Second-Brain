@@ -70,6 +70,17 @@ subi는 존재하지 않고, 대신 음수 constant를 사용한다.
 0은 자주 사용하는 상수라서 0번 레지스터에 $zero 레지스터를 지정한다.
 레지스터간 데이터를 이동할 때, add와 $zero를 이용한다.
 add $t2, $s1, $zero -> $s1에 있는 데이터를 $t2로 옮김
+## 2s-Complement Signed Integers
+MSB가 1이면, 모든 bit에 not 연산(Complement) 후, 1을 더하면 된다.
+음수가 양수보다 절댓값이 1 더 크다
+## Sign Extension
+- addi - Immediate Value를 레지스터에 더할 때, 16bit->32bit로 확장함
+- lb, lh - 메모리에서 load Byte(1 byte load), Load Halfword(2 byte load)를 할 때, 32bit 레지스터에 저장하기 위해 부호 확장을 진행함
+- beq, bne - Branch 명령어에서 Displace
+부호를 유지하기 위해 가장 왼쪽 비트를 복제한다.
+ex) 
++2: 0000 0010 => 0000 0000 0000 0010
+-2: 1111 1110 => 1111 1111 1111 1110
 ## Design Principle
 
 - 간단한 것을 위해선 규칙적인 것이 좋다.
