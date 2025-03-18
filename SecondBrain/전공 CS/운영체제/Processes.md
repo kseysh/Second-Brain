@@ -87,4 +87,6 @@ init process는 build from scratch 방식으로 만들고, 이후 프로세스�
 - `exec()`: 복제 후 loading
 #### [[fork & exec]] 예제
 ![[Pasted image 20250318164821.png|300]]
-
+## Process Termination
+프로세스가 정상적으로 종료하려면 exit을 호출해줘야 한다.
+- 자식에게서 exit이 호출되면, 부모에게 자식의 종료 status를 전달한다.
