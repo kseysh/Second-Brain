@@ -141,7 +141,7 @@ Shared memory를 활용하여 process A,B에게 shared memory 접근 권한을 �
 ```c
 #define BUFFER_SIZE 10
 typedef struct {
-. . .
+	. . .
 } item;
 item buffer[BUFFER_SIZE];
 int in = 0;
@@ -163,7 +163,7 @@ while (true) {
 ```c
 item next_consumed;
 while (true) {
-	while (in == out){
+	while (in == out){ // 읽을 것이 없음
 		; /* do nothing */
 	}
 	next_consumed = buffer[out];
