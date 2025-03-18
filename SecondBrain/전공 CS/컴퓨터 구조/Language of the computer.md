@@ -140,14 +140,24 @@ NOT 연산 = `nor $t0, $t1, $zero`
 - **J-Format**
 #### J-Format
 ![[Pasted image 20250318200508.png|300]]
-#### example
+#### example If
 `if (i==j) f = g+h;`
 `else f = g-h`
 f: $s0
 g: $s1
 h: $s2
-i: $s0
-j: $s0
+i: $s3
+j: $s4
+- `bne $s3, $s4, Else`
+- `add $s0, $s1, $s2`
+- `j Exit`
+- Else: sub $s0, $s1, $s2
+- Exit ...
+#### example Loop
+`while (save[i] == k) i += 1;`
+i: $s3
+k: $s5
+save: $s6
 ## Design Principle
 - 간단한 것을 위해선 규칙적인 것이 좋다.
 	- ex) I-Format, R-Format등이 정해져있음
