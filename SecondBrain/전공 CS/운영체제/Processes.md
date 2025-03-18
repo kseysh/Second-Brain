@@ -1,9 +1,9 @@
 # Process Concepts
-- 실행 중인 프로그램
-- 특정한 process state의 execution stream이다.
+- 프로세스 = 실행 중인 프로그램
+- 프로세스 = 특정한 process state의 execution stream이다.
 - process state (context)
 	- 프로세스가 실행되는데 관여하는 모든 것들
-		- Memort context
+		- Memory context
 			- code, data, stack, heap
 		- Hardware context
 			- Program counter, CPU register, I/O register
@@ -42,6 +42,8 @@ ready 상태인 프로세스를 모아둔 큐
 I/O로 인해 waiting하는 프로세스를 모아둔 큐
 ### Job queue
 시스템에서 모든 프로세스를 Job queue에 보관한다.
+
+Q. 모든 프로세스가 Job queue에도, Ready queue에도 보관되는 것인지?
 ## [[scheduler]]
 
 ### Short-term scheduler (CPU scheduler)
@@ -78,6 +80,3 @@ init process는 build from scratch 방식으로 만들고, 이후 프로세스�
 
 `fork()`: 복제
 `exec()`: 복제 후 loading
-
-	pid 0 스케쥴러 프로세스는 뭐지???
-	얘도 build from scratch?
