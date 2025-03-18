@@ -66,6 +66,11 @@ Nautral Join은 Equi-Join(조건이 equal로만 이루어진 조인)이다
 - 만약 t<sub>r</sub>과 t<sub>s</sub>가 `R ∩ S`에 속하는 모든 속성에서 동일한 값을 가진다면 결과 집합에 튜플 t를 추가한다.
 	- t는 t<sub>r</sub>이 r에서 가진 값과 동일한 값을 가진다
 	- t는 t<sub>s</sub>가 s에서 가진 값과 동일한 값을 가진다.
+Natural Join은 이름이 같으면 그냥 연결함
+그래서 ∏<sub>name, title</sub>(instuctor ⋈ teaches ⋈ Name)
+를 할 때, dept_name도 같이 연결되어 버릴 수 있다.
+=> 따라서 side effect를 주의하고 세타 조인을 사용해볼 수도 있다.
+& 다시 한 번 보기
 ### Theta Join ⋈<sub>θ</sub>
 두 개의 릴레이션을 특정 조건(θ, 비교 연산 포함)을 사용하여 결합하는 연산이다. 
 일반적인 등가 조인(equi-join)과 달리, 등호(=)뿐만 아니라 <, >, <=, >=, != 등의 연산자를 사용할 수 있다.
