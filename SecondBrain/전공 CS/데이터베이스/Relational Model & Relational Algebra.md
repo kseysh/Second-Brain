@@ -44,3 +44,13 @@ Union:  ∪
 Set difference: –
 Cartesian product: ×
 Rename: ρ (rho)
+## Select 𝜎
+selection of tuples
+![[Pasted image 20250318135824.png|200]]
+row를 구하는 것 (SQL 중 select보다는 where절에 가깝다)
+## Project ∏
+selection of columns
+![[Pasted image 20250318140036.png|200]]
+column을 구하는 것 (SQL 중 select에 가깝다)
+set을 구하므로 중복이 있다면, 중복이 없는 것과 같다고 간주한다.
+
