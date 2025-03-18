@@ -86,8 +86,13 @@ x:3, x<sup>-1</sup>:5
 모든 w ∈ Z<sub>n</sub>에 대해, 어떤 z가 존재하여 w + z ≡ 0 (mod n)을 만족함.
 ### 확장 유클리드 알고리즘
 곱셈의 역원을 찾는 알고리즘
+곱셈의 역원은 GCD(a,b) = 1이어야 곱셈의 역원을 찾을 수 있다.
 주어진 두 정수 a, b에 대해 확장 유클리드 알고리즘은 정수 x, y를 찾아 `ax + by = gcd(a, b)`를 만족하는 해를 구한다.
 일반적인 유클리드 알고리즘은 gcd(a, b)만 구하지만, 확장된 버전에서는 추가로 x와 y값을 찾는다.
-
-## Prime Numbers
-여기까지
+![[알고리즘 풀이-1.jpg|500]]
+## Fermat's Theorem
+p가 소수고, a가 p로 나뉘어지지 않는 양수라면 아래 식을 만족한다
+a<sup>p−1</sup> ≡ 1 (mod p)
+a<sup>p</sup> ≡ a (mod p)
+### Fermat test
+random한 z에 대해 소수를 판별하려면, □<sup>z-1</sup>mod n != 
