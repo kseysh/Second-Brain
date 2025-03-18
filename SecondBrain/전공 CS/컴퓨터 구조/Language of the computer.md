@@ -148,16 +148,32 @@ g: $s1
 h: $s2
 i: $s3
 j: $s4
-- `bne $s3, $s4, Else`
-- `add $s0, $s1, $s2`
-- `j Exit`
-- Else: sub $s0, $s1, $s2
-- Exit ...
+```
+	bne $s3, $s4, Else
+	add $s0, $s1, $s2
+	j Exit
+Else: sub $s0, $s1, $s2
+Exit ...
+```
 #### example Loop
 `while (save[i] == k) i += 1;`
 i: $s3
 k: $s5
 save: $s6
+```
+Loop: sll $t1, $s3, 2 (save의 시작 주소를 구하기 위해 4 x i를 shift 연산으로 구함)
+	  add $t1, $t1, $s6 (save의 시작 주소와 t1을 더함 = save\[i]의 주소)
+	  lw $t0, 0($t1)
+	  bne $t0, $s5, Exit
+	  addi $s3, $s3, 1
+	   j Loop
+Exit: ...
+```
+## Basic Blocks
+embedded branch가 없고, branch의 target이 아닌 순차적인 명령어
+명령어가 sequential하게 실행되는 것을 보장하는 곳에서 주로 최적화를 수행한다
+(다른 곳에서 jump해서 오거나, 나가면 최적화 범위가 너무 넓어지기 때문)
+## More Conditional Operations
 ## Design Principle
 - 간단한 것을 위해선 규칙적인 것이 좋다.
 	- ex) I-Format, R-Format등이 정해져있음
