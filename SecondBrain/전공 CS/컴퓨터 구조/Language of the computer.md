@@ -44,16 +44,37 @@ dest src 순서
 ### `sw $t0, 8($s1)`
 Load word to `$t0`
 dest src 순서
-#### example
+#### example 1
 g = h + A\[8]
 g : `$s1`
 h : `$s2`
 A : `$s3`
-- lw 
+- `lw $t0, 32($s3)`
+	- A\[0]부터 4byte x 8만큼 떨어져 있으므로 32($s3)를 load하는 것
+- `add $s1, $s2, $t0`
+#### example 2
+A\[12] = h + A\[8]
+h : `$s2`
+A : `$s3`
+- `lw $t0, 32($s3)`
+- `add $t0, $s2, $t0`
+- `sw $t0, 48($s3)`
+## Registers vs. Memory
+레지스터가 메모리보다 빠름
+따라서 컴파일러는 최대한 레지스터에 자주 사용되는 데이터를 적재하여 optimization을 해야한다.
+## Immediate Operands
+### `addi $s3, $s3, 4`
+상수를 더할 때 사용
+subi는 존재하지 않고, 대신 음수 constant를 사용한다.
+## `$zero`
+0은 자주 사용하는 상수라서 0번 레지스터에 $zero 레지스터를 지정한다.
+레지스터간 데이터를 이동할 때, add와 $zero를 이용한다.
+add $t2, $s1, $zero -> $s1에 있는 데이터를 $t2로 옮김
 ## Design Principle
 
 - 간단한 것을 위해선 규칙적인 것이 좋다.
 	- ex) I-Format, R-Format등이 정해져있음
 - 작은 것이 더 빠르다
 	- ex) memory도 빠르지만 빠른 계산을 위해 register를 사용한다.
-- 
+- 자주 생기는 일을 빠르게 하라
+	- ex) addi를 이용해 불필요하게 레지스터에 상수를 적재하지 않도록 한다.
