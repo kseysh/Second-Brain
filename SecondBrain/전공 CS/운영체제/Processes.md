@@ -121,10 +121,53 @@ cooperating process는 IPC가 필요합니다.
 ex) 공유 메모리 • 메시지 전달
 ### Communication Models
 ![[Pasted image 20250318171848.png|300]]
+#### Message Passing
 커널이 메시지 큐를 이용해 아래 두 함수를 이용해 소통한다.
-Message Passing은 실질적으로 메시지 복사가 필요하다. -> poll, select?
 - msgsnd()
 	- 커널 공간에 메시지를 쌓는다.
 - msgrcv()
 	- 커널 공간에 쌓은 메시지를 읽는다.
 
+- 실질적으로 메시지 복사가 필요하다. -> poll, select?
+	- 따라서 대용량 전달이 비효율적이다 
+#### Shared memory
+Shared memory를 활용하여 process A,B에게 shared memory 접근 권한을 부여한다.
+- 사진에서의 shared memory는 shared memory에 직접 접근할 수 있는 주소를 부여한 것. 
+	- 실제 shared memory 저장공간은 kernel 내부에 있다. 
+- shared memory의 데이터의 race condition에 대해서 사용자가 shared memory를 관리하여야 한다
+	- 동기화 문제를 해결해야 한다.
+## [[생산자와 소비자 문제]]
+#### shared data
+```c
+#define BUFFER_SIZE 10
+typedef struct {
+. . .
+} item;
+item buffer[BUFFER_SIZE];
+int in = 0;
+int out = 0;
+```
+#### Producer code
+```c
+item next_produced;
+while (true) {
+	/* produce an item in next produced */
+	while (((in + 1) % BUFFER_SIZE) == out){ // 하나를 더 넣었는데, out과 같다는 것은 빈공간이 없다라는 뜻
+		; /* do nothing */
+	}
+	buffer[in] = next_produced; // 빈 공간이 있다면 buffer에 생성한 것을 넣는다.
+	in = (in + 1) % BUFFER_SIZE;
+}
+```
+#### Consumer code
+```c
+item next_consumed;
+while (true) {
+	while (in == out){
+		; /* do nothing */
+	}
+	next_consumed = buffer[out];
+	out = (out + 1) % BUFFER_SIZE;
+	/* consume the item in next consumed */
+}
+```
