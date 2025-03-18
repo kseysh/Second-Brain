@@ -101,7 +101,30 @@ init process는 build from scratch 방식으로 만들고, 이후 프로세스�
 - 계단식 종료: 모든 자식, 손자 등이 종료됩니다.
 - 종료는 OS에 의해 시작됩니다.
 
-- 좀비 프로세스: child는 종료되었지만 parent가 wait을 호출하지 않은 경우
+- 좀비 프로세스: child는 종료되었지만 parent가 [[wait]]을 호출하지 않은 경우
 - 고아 프로세스: child가 종료되었지만 parent가 종료된 경우
 	- init이 parent가 되어 종료해줌
+
+## Multiprogram Architecture Example
+많은 web brower는 싱글 프로세스로 구동된다.
+### Chrome
+- Browser: user interface, disk, network I/O를 관리한다.
+- Renderer: 탭 하나당 하나의 렌더러로 HTML/JS를 렌더링한다.
+- Plug-in: process for each type of plug in
+## Inter-process Communication ([[IPC]])
+Reasons for cooperating processes:
+• Information sharing
+• Computation speedup
+• Modularity
+• Convenience
+cooperating process는 IPC가 필요합니다. 
+ex) 공유 메모리 • 메시지 전달
+### Communication Models
+![[Pasted image 20250318171848.png|300]]
+커널이 메시지 큐를 이용해 아래 두 함수를 이용해 소통한다.
+Message Passing은 실질적으로 메시지 복사가 필요하다. -> poll, select?
+- msgsnd()
+	- 커널 공간에 메시지를 쌓는다.
+- msgrcv()
+	- 커널 공간에 쌓은 메시지를 읽는다.
 
