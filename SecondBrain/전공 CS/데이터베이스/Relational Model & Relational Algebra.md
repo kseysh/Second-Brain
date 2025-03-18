@@ -19,3 +19,8 @@ ex) (Id), (학과번호, 학과별 수업 번호) 둘 다 나누게되면 식별
 candidate key중 선택된 key
 ### Foreign key
 일종의 제약조건이다.
+
+![[Pasted image 20250318133755.png|200]]
+time_slot_id는 현재 제약조건을 가지지는 않는다.
+## Relational Query Languages
+- Functional vs. imperative vs. declarative
