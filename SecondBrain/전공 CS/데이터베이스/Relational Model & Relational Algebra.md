@@ -1,8 +1,8 @@
-- attributes: A<sub>1</sub>, A<sub>2</sub>, A<sub>3</sub>, ... A<sub>n</sub> column에 해당하는 개념
+- attributes: A<sub>1</sub>, A<sub>2</sub>, A<sub>3</sub>, ... A<sub>n</sub> column에 해당하는 개념 -> 대문자로 쓴다
 - domains: D<sub>1</sub>, D<sub>2</sub>, D<sub>3</sub>, ... D<sub>n</sub> attributes가 들어갈 수 있는 모든 값의 집합 ex) Integer
 	- atomic: 단일한 값이어야 한다, 데이터를 사용하는 사람도 쪼개서 사용하면 안된다.
 - relation: r ⊆ D<sub>1</sub> X D<sub>2</sub> X D<sub>3</sub>, ... D<sub>n</sub> 
-	- 여러개의 tuple로 이루어져 있다.
+	- 여러개의 tuple로 이루어져 있다. ->  소문자로 쓴다
 - tuples: DB 테이블에서 row로 표현됨
 ## Keys
 K ⊆ R
@@ -35,7 +35,7 @@ time_slot_id는 현재 제약조건을 가지지는 않는다.
 	- 함수형 관계형 질의 언어에서 제공하는 연산자
 	- 단일 관계 또는 두 개의 관계에 적용
 	- 연산 결과는 항상 하나의 관계
-## Relational Algebra
+# Relational Algebra
 ### basic operations
 앞글자따서 만듦
 Select: 𝜎 (sigma)
@@ -53,4 +53,8 @@ selection of columns
 ![[Pasted image 20250318140036.png|200]]
 column을 구하는 것 (SQL 중 select에 가깝다)
 set을 구하므로 중복이 있다면, 중복이 없는 것과 같다고 간주한다.
-
+## Cartesian Product ×
+SQL 중 FROM 절에 가깝다
+![[Pasted image 20250318140842.png|200]]
+## Natural Join ⋈
+관계 R과 S의 natural join은 스키마 R  S
