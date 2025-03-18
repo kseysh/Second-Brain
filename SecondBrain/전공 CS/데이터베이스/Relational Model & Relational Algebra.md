@@ -36,6 +36,7 @@ time_slot_id는 현재 제약조건을 가지지는 않는다.
 	- 단일 관계 또는 두 개의 관계에 적용
 	- 연산 결과는 항상 하나의 관계
 # Relational Algebra
+조건에 따라 Relational Algebra로 표현할 수 있도록 해야함
 ### basic operations
 앞글자따서 만듦
 Select: 𝜎 (sigma)
@@ -65,4 +66,13 @@ Nautral Join은 Equi-Join(조건이 equal로만 이루어진 조인)이다
 - 만약 t<sub>r</sub>과 t<sub>s</sub>가 `R ∩ S`에 속하는 모든 속성에서 동일한 값을 가진다면 결과 집합에 튜플 t를 추가한다.
 	- t는 t<sub>r</sub>이 r에서 가진 값과 동일한 값을 가진다
 	- t는 t<sub>s</sub>가 s에서 가진 값과 동일한 값을 가진다.
+### Theta Join ⋈<sub>θ</sub>
+두 개의 릴레이션을 특정 조건(θ, 비교 연산 포함)을 사용하여 결합하는 연산이다. 
+일반적인 등가 조인(equi-join)과 달리, 등호(=)뿐만 아니라 <, >, <=, >=, != 등의 연산자를 사용할 수 있다.
+θ-조인은 R × S(카티션 곱) 후에 조건(θ)을 적용하여 필터링하는 방식
 
+Natural Join은 컬럼명이 같은 엔티티끼리만 조인하는 것이지만, 컬럼명이 다르다면 Theta Join을 한다.
+![[Pasted image 20250318142719.png|300]]
+
+Theta Join 자체에는 Projection이 없다
+단순히 필터링을 수행할 뿐 원하는 속성을 선택하는 역할은 하지 않는다.
