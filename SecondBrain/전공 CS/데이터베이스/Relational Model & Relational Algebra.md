@@ -57,4 +57,12 @@ set을 구하므로 중복이 있다면, 중복이 없는 것과 같다고 간�
 SQL 중 FROM 절에 가깝다
 ![[Pasted image 20250318140842.png|200]]
 ## Natural Join ⋈
-관계 R과 S의 natural join은 스키마 R  S
+![[Pasted image 20250318142457.png|200]]
+관계 R과 S의 natural join은 스키마 `R ∪ S`에 대한 관계이다.
+Nautral Join은 Equi-Join(조건이 equal로만 이루어진 조인)이다
+⋈ = ∏<sub>조건</sub>(𝜎<sub>조건</sub>(r X s))
+- 각각 r에서의 tuple t<sub>r</sub>과 s에서의 튜플 ts의 쌍을 고려한다
+- 만약 t<sub>r</sub>과 t<sub>s</sub>가 `R ∩ S`에 속하는 모든 속성에서 동일한 값을 가진다면 결과 집합에 튜플 t를 추가한다.
+	- t는 t<sub>r</sub>이 r에서 가진 값과 동일한 값을 가진다
+	- t는 t<sub>s</sub>가 s에서 가진 값과 동일한 값을 가진다.
+
