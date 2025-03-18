@@ -174,13 +174,26 @@ embedded branch가 없고, branch의 target이 아닌 순차적인 명령어
 명령어가 sequential하게 실행되는 것을 보장하는 곳에서 주로 최적화를 수행한다
 (다른 곳에서 jump해서 오거나, 나가면 최적화 범위가 너무 넓어지기 때문)
 ## More Conditional Operations
-eq, ne는 branch로 구성되고, lt, gt는 set으로 구성된다.
+eq, ne는 branch로 구성되고, lt, gt, le, ge는 set으로 구성된다.
 => set: 작으면 특정 레지스터 값을 1로 만들어라
 ### `slt rd, rs, rt`
-rs < rs라면, rd를 1로 만들고 아니면 0으로 만들어라
+- rs < rs라면, rd를 1로 만들고 아니면 0으로 만들어라
+- R-format
 ### `slti rt, rs, constant`
-rs < constant라면, rt를 1로 만들고 아니면 0으로 만들어라
-
+- rs < constant라면, rt를 1로 만들고 아니면 0으로 만들어라
+- I-format
+#### example
+if ($s1 < $s2)
+```
+slt $t0, $s1, $s2
+bne $t0, $zero, L
+```
+### Branch Instruction Design
+- 왜 blt, bge를 만들지 않았을까?
+- 하드웨어에서는 equal 비교보다 대소비교가 더 느리기 때문
+- 컴퓨터는 한 clock마다 한 instruction을 수행하는 것을 기본으로 한다.
+- 하지만 blt로 인해 느린 동작을 하면 clock의 단위를 늘릴 수 밖에 없고 이는 컴퓨터 성능을 낮출 수 있기 때문이다.
+- 따라서, set, branch의 두 가지 동작으로 분리하였다.
 ## Design Principle
 - 간단한 것을 위해선 규칙적인 것이 좋다.
 	- ex) I-Format, R-Format등이 정해져있음
