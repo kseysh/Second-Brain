@@ -31,6 +31,9 @@
 	- I/O status information
 - 시스템 전반으로 저장되는 정보
 	- Process table
+#### Linux내의 PCB
+보기만 하자 c에서는 PCB를 task라고 부른다.
+![[Pasted image 20250318163930.png|300]]
 # Process State
 ![[OS 프로세스 상태]]
 ## State Transition

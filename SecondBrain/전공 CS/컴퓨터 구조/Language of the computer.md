@@ -124,6 +124,10 @@ sll $t2, $s0, 4
 - $t2 = $s0 << 4
 srl $t2, $s0, 4
 - $t2 = $s0 >> 4
+## NOT Operations
+MIPS는 NOR을 이용해 NOT Operation을 구현한다.
+NOT 연산 = `nor $t0, $t1, $zero`
+![[Pasted image 20250318163326.png|300]]
 ## Design Principle
 - 간단한 것을 위해선 규칙적인 것이 좋다.
 	- ex) I-Format, R-Format등이 정해져있음
