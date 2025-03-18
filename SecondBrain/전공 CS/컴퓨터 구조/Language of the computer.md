@@ -174,6 +174,13 @@ embedded branch가 없고, branch의 target이 아닌 순차적인 명령어
 명령어가 sequential하게 실행되는 것을 보장하는 곳에서 주로 최적화를 수행한다
 (다른 곳에서 jump해서 오거나, 나가면 최적화 범위가 너무 넓어지기 때문)
 ## More Conditional Operations
+eq, ne는 branch로 구성되고, lt, gt는 set으로 구성된다.
+=> set: 작으면 특정 레지스터 값을 1로 만들어라
+### `slt rd, rs, rt`
+rs < rs라면, rd를 1로 만들고 아니면 0으로 만들어라
+### `slti rt, rs, constant`
+rs < constant라면, rt를 1로 만들고 아니면 0으로 만들어라
+
 ## Design Principle
 - 간단한 것을 위해선 규칙적인 것이 좋다.
 	- ex) I-Format, R-Format등이 정해져있음
