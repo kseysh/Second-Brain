@@ -32,7 +32,24 @@ f, …, j : $s0, …, $s4
 - add $t0, $s1, $s2
 - add $t1, $s3, $s4
 - sub $s0, $t0, $t1
-## Memory 
+## Memory Operands
+Memory는 byte 단위로 addressing된다.
+Word는 메모리내에 정렬되어 있다. 따라서 word의 주소는 항상 4(word단위인 4byte)의 배수이다
+MIPS는 Big Endian을 사용한다.
+### Little vs. Big endian
+![[Pasted image 20250318151919.png|400]]
+### `lw $t0, 8($s1)`
+Load word to `$t0`
+dest src 순서
+### `sw $t0, 8($s1)`
+Load word to `$t0`
+dest src 순서
+#### example
+g = h + A\[8]
+g : `$s1`
+h : `$s2`
+A : `$s3`
+- lw 
 ## Design Principle
 
 - 간단한 것을 위해선 규칙적인 것이 좋다.
