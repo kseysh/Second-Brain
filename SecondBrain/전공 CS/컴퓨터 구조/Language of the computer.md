@@ -107,8 +107,23 @@ $t1: 9
 $t2: 18
 ![[Pasted image 20250318162100.png|200]]
 ## Stored Program Computers
-
-
+다른 컴퓨터에서 컴파일된 프로그램이 호환되도록 하는 것은 ISA의 표준화덕분이다.
+## Shift Operations
+![[Pasted image 20250318162821.png|200]]
+- shamt: 어느 정도 shift를 진행할지
+- 사실 opcode와 레지스터 두개 상수 하나를 사용할 수 있으므로 I-format이 어울릴 것 같지만, R-format을 사용한다.
+	- R-format은 opcode하나만 사용해 사용할 수 있는 operation이 한정되어 있어 최대한 R-format을 사용하기 때문이다.
+- `sll` : Shift left logical
+	- 왼쪽으로 shift 후 0을 채운다.
+	- 2<sup>i</sup>를 곱하는 것
+- `srl` : Shift right logical
+	- 오른쪽으로 shift 후 0을 채운다.
+	- 2<sup>i</sup>로 나뉘는 것
+#### example
+sll $t2, $s0, 4 
+- $t2 = $s0 << 4
+srl $t2, $s0, 4
+- $t2 = $s0 >> 4
 ## Design Principle
 - 간단한 것을 위해선 규칙적인 것이 좋다.
 	- ex) I-Format, R-Format등이 정해져있음
