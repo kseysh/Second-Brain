@@ -81,5 +81,10 @@ process state를 하나로 두고, execution stream을 여러개 두는 것
 init process는 build from scratch 방식으로 만들고, 이후 프로세스는 모두 복제로 생성된다.
 이는 서로 다른 프로세스 간의 소통 창구를 만들기 위해 이렇게 설계되었다.
 
-`fork()`: 복제
-`exec()`: 복제 후 loading
+- `fork()`: 복제
+	- 부모는 자식의 pid를 리턴받는다
+	- 자식은 0을 리턴받는다.
+- `exec()`: 복제 후 loading
+#### [[fork & exec]] 예제
+![[Pasted image 20250318164821.png|300]]
+
