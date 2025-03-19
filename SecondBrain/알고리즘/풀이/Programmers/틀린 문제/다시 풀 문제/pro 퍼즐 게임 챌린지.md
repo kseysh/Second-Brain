@@ -1,5 +1,5 @@
 # 나의 풀이
-이분 탐색에서 
+이분 탐색에서 (mid + 1, max) (min, mid - 1)을 몰라서 틀림..
 ```cpp
 #include <string>
 #include <vector>
@@ -47,6 +47,47 @@ int solution(vector<int> diffs, vector<int> times, long long limit) {
     globalDiffs = diffs;
     globalLimit = limit;
     checkLevelRange(1, MAX_DIFF);
+    return answer;
+}
+```
+
+## 다른 사람의 풀이
+이분 탐색은 굳이 재귀가 아닌, while문으로 풀어도 되는 문제이다.
+max_element 함수도 알아가자.
+```cpp
+#include <string>
+#include <vector>
+#include <algorithm>
+#include <iostream>
+
+using namespace std;
+
+int solution(vector<int> diffs, vector<int> times, long long limit) {
+    
+    int minLevel = 1;
+    int maxLevel = *max_element(diffs.begin(), diffs.end());
+    
+    int answer = maxLevel;
+    while (minLevel <= maxLevel)
+    {
+        int curLevel = (minLevel + maxLevel) / 2;
+        
+        long long time = 0;
+        for (int i = 0; i < times.size(); i++)
+        {
+            int prev = i == 0 ? 1 : times[i-1];
+            time += max(diffs[i]-curLevel, 0) * (times[i] + prev) + times[i];
+        }
+        
+        if (time <= limit)
+        {
+            maxLevel = curLevel - 1;
+            answer = min(answer, curLevel);
+        }
+        else
+            minLevel = curLevel + 1;
+    }
+    
     return answer;
 }
 ```
