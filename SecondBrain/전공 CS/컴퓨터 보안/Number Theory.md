@@ -98,8 +98,8 @@ p가 소수고, a가 p로 나뉘어지지 않는 양수라면 아래 식을 만�
 a<sup>p−1</sup> ≡ 1 (mod p)
 a<sup>p</sup> ≡ a (mod p)
 ### Fermat test
-n이 소수인지 판별하려면, random한 n에 대해 a<sup>n-1</sup>mod n != 1인 값을 찾아야 한다. (a ∈ \[1, n-1])
-페르마의 소정리에 따라, p가 소수라면, 어떤 a를 선택하든 a<sup>p−1</sup>를 p로 나눈 나머지는 항상 1이 되어야 하기 때문이다.
+n이 소수인지 판별하려면, random한 a에 대해 a<sup>n-1</sup>mod n != 1인 값을 찾아야 한다. ( a ∈ \[1, n-1] )
+페르마의 소정리에 따라, n가 소수라면, 어떤 a를 선택하든 a<sup>n−1</sup>를 n으로 나눈 나머지는 항상 1이 되어야 하기 때문이다.
 
 Repeat
 	choose random a ∈ \[1, n-1]
@@ -108,7 +108,7 @@ Repeat
 
 ## Some Values of Euler's Totient Function
 ![[Pasted image 20250320104053.png|400]]
-n을 입력으로 주면, n보다 작은 것 중 n과 서로소인 것의 개수를 주는 함수
+Euler's Totient Function ( ϕ(n) ): n을 입력으로 주면, n보다 작은 것 중 n과 서로소인 것의 개수를 주는 함수 (대신, ϕ(1) = 1)
 n이 prime이면, prime-1개가 나온다.
 ## Euler's Theorem
 ![[Pasted image 20250320104347.png|100]]
@@ -116,11 +116,11 @@ n이 prime이면, prime-1개가 나온다.
 n이 소수일 때, ϕ(n) = n-1이므로 이가 성립한다.
 ## Primality Test
 - Trial division
-	- 에라토스테네스의 체같은 방식 : 1부터 루트 n까지 체로 거름
+	- 에라토스테네스의 체같은 방식 : 2부터 루트 n까지의 소수로 나누어 떨어지는지 확인한다
 	- 틀리지 않는 알고리즘이지만 느리고, 나머지는 답이 틀릴 수도 있는 알고리즘이다.
 - Fermat test
 - Miller-Rabin test
-	- Fermat test
+	- Fermat test를 기반으로 하지만, 추가적인 검사를 수행함
 	- NSR
 - Hybrid
 	- ex) trial division + Miller-Rabin/Fermat
