@@ -58,7 +58,7 @@ union
 null은 어떤 수학적 연산을 해도 null이라는 결과가 나온다.
 ### unknown
 null은 어떤 비교 연산을 해도 unknown이라는 결과가 나온다.
-unknown은 null과 비슷하게 is unknown이라는 연
+unknown은 null과 비슷하게 is unknown이라는 연산을 사용한다.
 OR: (unknown or true) = true,
 	(unknown or false) = unknown
 	(unknown or unknown) = unknown
@@ -66,3 +66,32 @@ AND: (true and unknown) = unknown,
 	(false and unknown) = false,
 	(unknown and unknown) = unknown
 NOT: (not unknown) = unknown
+## Aggregate Functions
+- `avg`: average value
+- `min`: minimum value
+- `max`: maximum value
+- `sum`: sum of values
+- `count`: number of values 
+	- select count(\*)
+### Group By
+각 부서의 평균 월급 찾기
+```sql
+select dept_name, avg (salary) as avg_salary
+from instructor
+group by dept_name;
+```
+Aggregate Function 외부의 select 절의 속성은 목록별로 그룹화해야 한다.
+```sql
+select dept_name, ID, avg (salary) # ID는 그룹화 되지 않은 속성이므로 에러가 발생한다.
+from instructor
+group by dept_name;
+```
+
+![[Pasted image 20250320162723.png|300]]
+### Having
+group by로 가져올 때의 조건을 설정하는 절
+```sql
+group by dept_name
+having avg (salary) > 42000;
+```
+Having 절의 술어는 그룹 형성 후에 적용되는 반면 where 절의 술어는 그룹을 형성하기 전에 적용된다.
