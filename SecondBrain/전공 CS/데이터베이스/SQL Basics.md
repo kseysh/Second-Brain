@@ -44,7 +44,6 @@ where (instructor.ID, dept_name) = (teaches.ID, ‘Biology’);
 ## Set Operations
 Set의 작업들은 모두 자동으로 중복을 제거한다.
 만약, 중복을 제거하고 싶다면, union all 같이 all을 붙여 사용한다.
-
 ex)
 (select course_id from section where sem = ‘Fall’ and year = 2009)
 union
@@ -55,3 +54,15 @@ union
 교집합
 ### except
 차집합
+## Null
+null은 어떤 수학적 연산을 해도 null이라는 결과가 나온다.
+### unknown
+null은 어떤 비교 연산을 해도 unknown이라는 결과가 나온다.
+unknown은 null과 비슷하게 is unknown이라는 연
+OR: (unknown or true) = true,
+	(unknown or false) = unknown
+	(unknown or unknown) = unknown
+AND: (true and unknown) = unknown,
+	(false and unknown) = false,
+	(unknown and unknown) = unknown
+NOT: (not unknown) = unknown
