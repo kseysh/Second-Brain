@@ -71,6 +71,11 @@ Natural Join은 이름이 같으면 그냥 연결함
 를 할 때, dept_name도 같이 연결되어 버릴 수 있다.
 => 따라서 side effect를 주의하고 세타 조인을 사용해볼 수도 있다.
 & 다시 한 번 보기
+
+Natural join 은 associative하고
+((instuctor ⋈ teaches) ⋈ Name) =(instuctor ⋈ (teaches ⋈ Name))
+Natural join 은 commutative하다.
+(instuctor ⋈ teaches) = (teaches ⋈ instructor)
 ### Theta Join ⋈<sub>θ</sub>
 두 개의 릴레이션을 특정 조건(θ, 비교 연산 포함)을 사용하여 결합하는 연산이다. 
 일반적인 등가 조인(equi-join)과 달리, 등호(=)뿐만 아니라 <, >, <=, >=, != 등의 연산자를 사용할 수 있다.
@@ -82,4 +87,11 @@ Natural Join은 컬럼명이 같은 엔티티끼리만 조인하는 것이지만
 Theta Join 자체에는 Projection이 없다
 단순히 필터링을 수행할 뿐 원하는 속성을 선택하는 역할은 하지 않는다.
 ## Union ∪
+![[Pasted image 20250320134414.png|200]]
+중복은 제거된다.
+## difference -
+![[Pasted image 20250320134444.png|200]]
+## Rename ρ
+instruction relation을 self-join
 
+정리하기
