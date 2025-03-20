@@ -117,9 +117,16 @@ n이 소수일 때, ϕ(n) = n-1이므로 이가 성립한다.
 ## Primality Test
 - Trial division
 	- 에라토스테네스의 체같은 방식 : 1부터 루트 n까지 체로 거름
+	- 틀리지 않는 알고리즘이지만 느리고, 나머지는 답이 틀릴 수도 있는 알고리즘이다.
 - Fermat test
 - Miller-Rabin test
 	- Fermat test
 	- NSR
 - Hybrid
 	- ex) trial division + Miller-Rabin/Fermat
+	- 작은 수만 trial division으로 소수 판별을 하고, 
+	- 일정 지점을 넘어가면 Miller-Rabin/Fermat을 이용해서 소수를 찾는다.
+## Deterministic Primality Algorithm
+소수 판별 알고리즘은 자리수에 따라 복잡도가 결정된다. 
+Trial division은 지수 알고리즘, AKS는 자리수의 6제곱인데, 너무 오래 걸려서 보통 Miller-Rabin 또는 Fermat, Hybrid를 사용한다 (자리수의 제곱정도로 작동함)
+## Powers of Integers, M
