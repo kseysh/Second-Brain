@@ -98,7 +98,7 @@ p가 소수고, a가 p로 나뉘어지지 않는 양수라면 아래 식을 만�
 a<sup>p−1</sup> ≡ 1 (mod p)
 a<sup>p</sup> ≡ a (mod p)
 ### Fermat test
-n이 소수인지 판별하려면, random한 z에 대해 □<sup>z-1</sup>mod n != 1인 값을 찾아야 한다. (다시 알아보기 n이 z여야 하지 않나?)
+n이 소수인지 판별하려면, random한 n에 대해 a<sup>n-1</sup>mod n != 1인 값을 찾아야 한다. (a ∈ \[1, n-1])
 페르마의 소정리에 따라, p가 소수라면, 어떤 a를 선택하든 a<sup>p−1</sup>를 p로 나눈 나머지는 항상 1이 되어야 하기 때문이다.
 
 Repeat
