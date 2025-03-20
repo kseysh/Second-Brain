@@ -152,7 +152,7 @@ count(\*)을 제외한 모든 aggregate operation은 null을 무시한다.
 collection이 비어있다면, count를 제외한 모든 aggregates는 null을 return한다.
 ### Nested Subqueries
 
-2009년 가을과 2010년 봄에 offer
+2009년 가을과 2010년 봄에 제공된 강의 찾기
 ```sql
 select distinct course_id
 from section
@@ -161,4 +161,55 @@ where semester = ’Fall’ and year= 2009 and
 		from section
 		where semester = ’Spring’ and year= 2010);
 ```
-not in을 사용할 수도 있다.
+
+2009년 가을에 제공되고, 2010년 봄에 제공되지 않은 강의 찾기
+```sql
+select distinct course_id
+from section
+where semester = ’Fall’ and year= 2009 and
+	course_id not in (select course_id
+		from section
+		where semester = ’Spring’ and year= 2010);
+```
+
+ID 10101을 가진 강사가 가르친 과정 섹션을 수강한 학생을 중복을 제외한 총 수 찾기
+```sql
+select count (distinct ID)
+from takes
+where (course_id, sec_id, semester, year) in
+	(select course_id, sec_id, semester, year
+	from teaches
+	where teaches.ID= 10101);
+```
+
+## Set 비교
+
+### some
+생물학 부서의 일부 (적어도 한 명) 강사의 급여보다 더 큰 급여를 받는 강사의 이름을 찾으십시오.
+```sql
+select distinct T.name
+from instructor as T, instructor as S
+where T.salary > S.salary and S.dept name = 'Biology';
+```
+
+```sql
+select name
+from instructor
+where salary > some (select salary
+					from instructor
+					where dept name = 'Biology');
+```
+some: 서브쿼리에서 반환된 값 중 하나 이상과 비교 조건을 만족하면 TRUE가 된다. ([[ANY]]와 같은 역할)
+![[Pasted image 20250320172741.png|200]]
+### all
+급여가 생물학과의 모든 강사의 급여보다 큰 모든 강사의 이름을 찾기
+```sql
+select name
+from instructor
+where salary > all (select salary
+	from instructor
+	where dept name = ’Biology’);
+```
+![[Pasted image 20250320172756.png|200]]
+### exists, not exists
+
