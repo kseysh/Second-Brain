@@ -100,3 +100,10 @@ a<sup>p</sup> ≡ a (mod p)
 ### Fermat test
 n이 소수인지 판별하려면, random한 z에 대해 □<sup>z-1</sup>mod n != 1인 값을 찾아야 한다. (다시 알아보기 n이 z여야 하지 않나?)
 페르마의 소정리에 따라, p가 소수라면, 어떤 a를 선택하든 a<sup>p−1</sup>를 p로 나눈 나머지는 항상 1이 되어야 하기 때문이다.
+
+Repeat
+	choose random a ∈ [1, ㅜ-1]
+	compute y=a<sup>n−1</sup> mod n
+	if y != 1 return "composite"
+
+Miller-Rabin (시험은 X)
