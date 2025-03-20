@@ -92,6 +92,6 @@ Theta Join 자체에는 Projection이 없다
 ## difference -
 ![[Pasted image 20250320134444.png|200]]
 ## Rename ρ
-instruction relation을 self-join
+
 
 정리하기
