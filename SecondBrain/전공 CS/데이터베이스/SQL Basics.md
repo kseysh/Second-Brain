@@ -15,11 +15,11 @@ not null
 테이블 자체 삭제
 ## alter table 
 ### alter table r add A D
-A: 관계 r에 추가될 속성의 이름 
+A: 관계 r에 추가될 속성의 이름
 D: A의 도메인 
 관계의 모든 튜플은 새 속성의 값으로 null이 할당
 ### alter table r drop A
-컬럼 삭제는 많은 DB에서 지원하지 않는다.
+컬럼 삭제
 ## select 절
 - 중복 제거 예제
 select distinct dept_name
@@ -31,6 +31,22 @@ from instructor
 모든 속성에서 같은 이름을 가지고 있는 tuple을 매치해준다.
 select name, course_id
 from instructor natural join teaches;
+## Rename Operations (=as)
+## String Operations
+%: 어느 substring이던 매치
+\_: 어느 character이던 매치
+ex) where name like '%dar%'
+100%를 매치하려면, like '100 \\%' escape '\\'
+## between
+ex) where salary between 90000 and 100000
+## Tuple comparison
+where (instructor.ID, dept_name) = (teaches.ID, ‘Biology’);
+## Set Operations
+(**select** _course_id_ **from** _section_ **where** _sem =_ ‘Fall’ **and** _year =_ 2009)
+**union**
+(**select** _course_id_ **from** _section_ **where** _sem =_ ‘Spring’ **and** _year =_ 2010)
+### union
 
+### intersect
 
-DB는 미리 공부하고 거기 가기 전까지 혼자 다른 공부하자... 
+### except
