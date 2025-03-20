@@ -11,3 +11,12 @@ foreign key (Am, ..., An ) references r
 not null
 #### example
 ![[Pasted image 20250320140540.png|300]]
+## drop table
+테이블 자체 삭제
+## alter table 
+### alter table r add A D
+
+### alter table r drop A
+컬럼 삭제는 많은 DB에서 지원하지 않는다.
+
+## select 절
