@@ -13,3 +13,6 @@ known plaintext: 내용을 조금 아는 것
 글자를 1 대 1로 대체하는 것 
 ex) m을 3글자 이동하여 p e를 3글자 이동하여 h
 ![[Pasted image 20250320113609.png|300]]
+// 여기까지
+### Monoalphabetic Cipher
+![[Pasted image 20250320114345.png|300]]
