@@ -15,10 +15,11 @@ not null
 테이블 자체 삭제
 ## alter table 
 ### alter table r add A D
-
+A: 관계 r에 추가될 속성의 이름 
+D: A의 도메인 
+관계의 모든 튜플은 새 속성의 값으로 null이 할당
 ### alter table r drop A
 컬럼 삭제는 많은 DB에서 지원하지 않는다.
-
 ## select 절
 - 중복 제거 예제
 select distinct dept_name

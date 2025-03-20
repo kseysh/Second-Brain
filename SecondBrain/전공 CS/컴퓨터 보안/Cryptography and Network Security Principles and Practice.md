@@ -37,17 +37,18 @@ Cryptology: 암호학 및 암호 분석 분야
 ### Brute-Force
 모든 가능한 ciphertext를 시도하는 것
 평균적으로 모든 가능한 key의 절반을 시도하면 성공한다.
-## 메시지 해독 공격 타입
-암호문 단독 공격 (Ciphertext Only)
-•	암호화 알고리
-## Types of Attacks on Encrypted Messages
-known plaintext: 내용을 조금 아는 것
-## Substitution Technique
-
+## 암호화 체계 보안
+- Unconditionally secure
+	- 상대가 시간이 많더라도 암호문 해독이 불가능함
+- Computationally secure
+	- 암호 해독 비용이 암호화된 정보의 가치를 초과
+	- 암호 해독 시간이 정보 유효 수명을 초과
+## Substitution Technique (대체 기법)
 ### Caesar Cipher
+대체 기법의 사용중 가장 먼저 사용되며 간단한 방법
 글자를 1 대 1로 대체하는 것 
 ex) m을 3글자 이동하여 p e를 3글자 이동하여 h
 ![[Pasted image 20250320113609.png|300]]
-// 여기까지
+general Caesar algorithm: `C = E(k , p) = (p + k) mod 26`
 ### Monoalphabetic Cipher
 ![[Pasted image 20250320114345.png|300]]
