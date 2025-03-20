@@ -42,11 +42,16 @@ ex) where salary between 90000 and 100000
 ## Tuple comparison
 where (instructor.ID, dept_name) = (teaches.ID, ‘Biology’);
 ## Set Operations
-(**select** _course_id_ **from** _section_ **where** _sem =_ ‘Fall’ **and** _year =_ 2009)
-**union**
-(**select** _course_id_ **from** _section_ **where** _sem =_ ‘Spring’ **and** _year =_ 2010)
+Set의 작업들은 모두 자동으로 중복을 제거한다.
+만약, 중복을 제거하고 싶다면, union all 같이 all을 붙여 사용한다.
+
+ex)
+(select course_id from section where sem = ‘Fall’ and year = 2009)
+union
+(select course_id from section where sem = ‘Spring’ and year = 2010)
 ### union
-
+합집합
 ### intersect
-
+교집합
 ### except
+차집합
