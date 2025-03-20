@@ -81,3 +81,5 @@ Natural Join은 컬럼명이 같은 엔티티끼리만 조인하는 것이지만
 
 Theta Join 자체에는 Projection이 없다
 단순히 필터링을 수행할 뿐 원하는 속성을 선택하는 역할은 하지 않는다.
+## Union ∪
+

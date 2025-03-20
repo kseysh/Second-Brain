@@ -135,20 +135,16 @@ a<sup>x</sup> mod p = y일 때, a, p, y를 주고 x를 찾아야함
 a,p,y에 대한 이산 대수가 x이다.
 # 모듈러 거듭제곱과 이산 로그에 대한 몇 가지 속성과 정의
 - `p = 19` 는 소수이다. 우리는 임의의 `a < p`에 대해   a<sup>p−1</sup> ≡ 1 (mod p)임을 안다.  
-  모든 수열은 1에서 끝나며, 여기서 `p - 1 = 18` 이다.  a<sup>m</sup> ≡ 1 (mod p)을 만족하는 최소한의 m은 항상 `p - 1 = 18`이 아니다.  우리는 이 m을 order 라고 부른다.  
-- m은 p - 1을 나눈다.  
-  즉, 각 행에서 반복되는 수열의 개수는 정수이다.  
-- 어떤 a 의 위수가  `p - 1`일 수도 있다.  
+  모든 수열은 1에서 끝나며, 여기서 `p - 1 = 18` 이다.  a<sup>m</sup> ≡ 1 (mod p)을 만족하는 최소한의 m은 항상 `p - 1 = 18`이 아니다.  우리는 이 m을 **order**라고 부른다.  
+- 어떤 a 의 order가  `p - 1`일 수도 있다.  
   이러한 a는 19를 법으로 하는 0이 아닌 정수들의 집합을 생성한다.  
   이러한 정수를 **원시 근(primitive root)** 또는 **생성자(generator)** 라고 한다.  
-- 새로운 문제를 정의할 수 있다:  
-  주어진 소수 p에 대해, 정수 y와 원시 근 a가 주어졌을 때,  
-  유일한 지수 x를 찾아야 한다.  
-  즉,  a<sup>x</sup> ≡ y (mod p) 를 만족하는  0 ≤ x  ≤ p - 1 인 x를 찾는 문제이다.  
+- a<sup>x</sup> ≡ y (mod p) 를 만족하는 x를 찾는 문제 (0 ≤ x  ≤ p - 1)
   이때, **유일한 지수 x를 y의 이산 로그(discrete logarithm)** 라고 한다.  
   이 문제를 **이산 로그 문제(discrete logarithm problem, DLP)** 라고 부른다.  
 
 - **표기법:**  x = log<sub>a,p</sub>y
 ## Tables of Discrete Logarithms, Modulo 19
 
-![[Pasted image 20250320110100.png|300]]
+![[Pasted image 20250320110100.png|400]]
+![[Pasted image 20250320133105.png|400]]
