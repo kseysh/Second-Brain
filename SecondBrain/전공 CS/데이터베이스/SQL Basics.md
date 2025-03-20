@@ -287,3 +287,104 @@ select budget
 from department, max_budget
 where department.budget = max_budget.value;
 ```
+
+모든 부서의 총 급여가 총 급여의 평균보다 큰 모든 부서를 찾기
+```sql
+with dept _total (dept_name, value) as
+	(select dept_name, sum(salary)
+	from instructor
+	group by dept_name),
+dept_total_avg(value) as
+	(select avg(value)
+	from dept_total)
+select dept_name
+from dept_total, dept_total_avg
+where dept_total.value >= dept_total_avg.value;
+```
+### scalar subquery
+```sql
+select dept_name,
+	(select count(*)
+	from instructor
+	where department.dept_name = instructor.dept_name)
+	as num_instructors
+from department;
+```
+## DDL - 삭제
+모든 교수 삭제
+```sql
+delete from instructor
+```
+
+Finance 부서의 모든 교수 삭제
+```sql
+delete from instructor
+where dept_name= 'Finance';
+```
+
+Watson 건물에 위치한 부서와 관련된 강사에 대한 강사 관계의 모든 튜플을 삭제
+```sql
+delete from instructor
+where dept_name in (select dept_name
+		from department
+		where building = 'Watson');
+```
+
+급여가 강사의 평균 급여보다 적은 모든 강사를 삭제
+```sql
+delete from instructor
+where salary< (select avg (salary) from instructor);
+```
+
+문제: 예금에서 튜플을 삭제하면 평균 급여가 변경됩니다 
+SQL에서 사용된 솔루션: 
+1. 먼저, 평균 급여를 계산하고 삭제할 모든 튜플을 찾습니다.
+2. 다음으로, 위에서 찾은 모든 튜플을 삭제하세요 (avg를 다시 계산하거나 튜플을 다시 테스트하지 않고)
+
+## DDL - Insertion
+select, from, where절은 insertion 이전에 계산된다.
+아니면 아래 절 같은 곳에서 에러남
+ex) `insert into table1 select * from table1`
+
+Add a new tuple to course
+```sql
+insert into course
+values ('CS-437', 'Database Systems', 'Comp. Sci.', 4);
+```
+or equivalently
+```sql
+insert into course (course_id, title, dept_name, credits)
+values ('CS-437', 'Database Systems', 'Comp. Sci.', 4);
+```
+Add a new tuple to student with tot_creds set to null
+```sql
+insert into student
+values ('3003', 'Green', 'Finance', null);
+```
+
+tot_creds를 0으로 설정한 학생 관계에 모든 강사 추가
+```sql
+insert into student
+select ID, name, dept_name, 0
+from instructor
+```
+
+## DDL - Update
+급여가 $100,000 이상인 강사의 급여를 3% 인상하고, 다른 모든 강사는 5% 인상을 받습니다.
+```sql
+update instructor
+set salary = salary * 1.03
+where salary > 100000;
+---
+update instructor
+set salary = salary * 1.05
+where salary <= 100000;
+```
+### case
+```sql
+update instructor
+set salary = case
+	when salary <= 100000 then salary * 1.05
+	else salary * 1.03
+	end
+```
