@@ -26,4 +26,10 @@ from instructor
 - 중복 삭제를 하지 않으려면,
 select all dept_name
 from instructor
-## where 절
+## natural Join 절
+모든 속성에서 같은 이름을 가지고 있는 tuple을 매치해준다.
+select name, course_id
+from instructor natural join teaches;
+
+
+DB는 미리 공부하고 거기 가기 전까지 혼자 다른 공부하자...
