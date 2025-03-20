@@ -96,7 +96,8 @@ union
 null은 어떤 수학적 연산을 해도 null이라는 결과가 나온다.
 ### unknown
 null은 어떤 비교 연산을 해도 unknown이라는 결과가 나온다.
-unknown은 null과 비슷하게 is unknown이라는 연산을 사용한다.
+unknown은 null과 비슷하게 `is unknown`이라는 연산을 사용한다.
+```sql
 OR: (unknown or true) = true,
 	(unknown or false) = unknown
 	(unknown or unknown) = unknown
@@ -104,6 +105,7 @@ AND: (true and unknown) = unknown,
 	(false and unknown) = false,
 	(unknown and unknown) = unknown
 NOT: (not unknown) = unknown
+```
 ## Aggregate Functions
 - `avg`: average value
 - `min`: minimum value
@@ -118,6 +120,13 @@ select dept_name, avg (salary) as avg_salary
 from instructor
 group by dept_name;
 ```
+2010년 봄 학기에 강의를 가르치는 강사의 총 수 찾기
+```sql
+select count (distinct ID)
+from teaches
+where semester = 'Spring' and year = 2010;
+```
+
 Aggregate Function 외부의 select 절의 속성은 목록별로 그룹화해야 한다.
 ```sql
 select dept_name, ID, avg (salary) # ID는 그룹화 되지 않은 속성이므로 에러가 발생한다.
@@ -128,7 +137,11 @@ group by dept_name;
 ![[Pasted image 20250320162723.png|300]]
 ### Having
 group by로 가져올 때의 조건을 설정하는 절
+
+부서의 평균 월급이 42000을 넘는 부서의 이름과 평균 월급 찾기
 ```sql
+select dept_name, avg (salary)
+from instructor
 group by dept_name
 having avg (salary) > 42000;
 ```
@@ -138,6 +151,8 @@ sum()시에 non-null amount가 없으면 null값을 return한다.
 count(\*)을 제외한 모든 aggregate operation은 null을 무시한다.
 collection이 비어있다면, count를 제외한 모든 aggregates는 null을 return한다.
 ### Nested Subqueries
+
+2009년 가을과 2010년 봄에 offer
 ```sql
 select distinct course_id
 from section
