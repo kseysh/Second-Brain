@@ -20,3 +20,10 @@ not null
 컬럼 삭제는 많은 DB에서 지원하지 않는다.
 
 ## select 절
+- 중복 제거 예제
+select distinct dept_name
+from instructor
+- 중복 삭제를 하지 않으려면,
+select all dept_name
+from instructor
+## where 절
