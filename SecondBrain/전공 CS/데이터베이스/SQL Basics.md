@@ -22,11 +22,24 @@ D: A의 도메인
 컬럼 삭제
 ## select 절
 - 중복 제거 예제
+```sql
 select distinct dept_name
+```
 from instructor
 - 중복 삭제를 하지 않으려면,
+```sql
 select all dept_name
 from instructor
+```
+## where절
+Comp. Sci dept이고, salary>8000인 교수 찾기
+```sql
+select name
+from instructor
+where dept_name ='Comp. Sci.' and salary > 80000
+```
+## Join절
+course ID, semester, year, title 찾기
 ## natural Join 절
 모든 속성에서 같은 이름을 가지고 있는 tuple을 매치해준다.
 select name, course_id
@@ -95,3 +108,17 @@ group by dept_name
 having avg (salary) > 42000;
 ```
 Having 절의 술어는 그룹 형성 후에 적용되는 반면 where 절의 술어는 그룹을 형성하기 전에 적용된다.
+
+sum()시에 non-null amount가 없으면 null값을 return한다.
+count(\*)을 제외한 모든 aggregate operation은 null을 무시한다.
+collection이 비어있다면, count를 제외한 모든 aggregates는 null을 return한다.
+### Nested Subqueries
+```sql
+select distinct course_id
+from section
+where semester = ’Fall’ and year= 2009 and
+	course_id in (select course_id
+		from section
+		where semester = ’Spring’ and year= 2010);
+```
+not in을 사용할 수도 있다.
