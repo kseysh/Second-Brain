@@ -388,3 +388,23 @@ set salary = case
 	else salary * 1.03
 	end
 ```
+
+### scalar subqueries
+모든 학생들을 위해 tot_creds 값을 다시 계산하고 업데이트합니다.
+```sql
+update student S
+set tot_cred = ( select sum(credits)
+	from takes natural join course
+	where S.ID= takes.ID and
+		takes.grade <> ’F’ and
+		takes.grade is not null);
+```
+
+어떤 과정도 수강하지 않은 학생들을 위해 tot_creds를 null로 설정
+sum(credits) 대신에 아래 구문을 사용한다
+```sql
+case
+	when sum(credits) is not null then sum(credits)
+	else 0
+end
+```
