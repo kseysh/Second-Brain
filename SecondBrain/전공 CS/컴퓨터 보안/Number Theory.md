@@ -102,8 +102,24 @@ n이 소수인지 판별하려면, random한 z에 대해 □<sup>z-1</sup>mod n 
 페르마의 소정리에 따라, p가 소수라면, 어떤 a를 선택하든 a<sup>p−1</sup>를 p로 나눈 나머지는 항상 1이 되어야 하기 때문이다.
 
 Repeat
-	choose random a ∈ [1, ㅜ-1]
+	choose random a ∈ \[1, n-1]
 	compute y=a<sup>n−1</sup> mod n
 	if y != 1 return "composite"
 
-Miller-Rabin (시험은 X)
+## Some Values of Euler's Totient Function
+![[Pasted image 20250320104053.png|400]]
+n을 입력으로 주면, n보다 작은 것 중 n과 서로소인 것의 개수를 주는 함수
+n이 prime이면, prime-1개가 나온다.
+## Euler's Theorem
+![[Pasted image 20250320104347.png|100]]
+이것만 기억하기
+n이 소수일 때, ϕ(n) = n-1이므로 이가 성립한다.
+## Primality Test
+- Trial division
+	- 에라토스테네스의 체같은 방식 : 1부터 루트 n까지 체로 거름
+- Fermat test
+- Miller-Rabin test
+	- Fermat test
+	- NSR
+- Hybrid
+	- ex) trial division + Miller-Rabin/Fermat
