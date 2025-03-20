@@ -150,7 +150,8 @@ Having 절의 술어는 그룹 형성 후에 적용되는 반면 where 절의 �
 sum()시에 non-null amount가 없으면 null값을 return한다.
 count(\*)을 제외한 모든 aggregate operation은 null을 무시한다.
 collection이 비어있다면, count를 제외한 모든 aggregates는 null을 return한다.
-### Nested Subqueries
+## Nested Subqueries
+from, where절에서 사용가능하다.
 
 2009년 가을과 2010년 봄에 제공된 강의 찾기
 ```sql
@@ -160,6 +161,16 @@ where semester = ’Fall’ and year= 2009 and
 	course_id in (select course_id
 		from section
 		where semester = ’Spring’ and year= 2010);
+```
+
+```sql
+select course_id
+from section as S
+where semester = ’Fall’ and year= 2009 and
+	exists (select *
+		from section as T
+		where semester = ’Spring’ and year= 2010
+			and S.course_id= T.course_id);
 ```
 
 2009년 가을에 제공되고, 2010년 봄에 제공되지 않은 강의 찾기
@@ -212,4 +223,52 @@ where salary > all (select salary
 ```
 ![[Pasted image 20250320172756.png|200]]
 ### exists, not exists
+생물학과에서 제공되는 모든 과목을 수강한 모든 학생들을 찾기
+```sql
+select distinct S.ID, S.name
+from student as S
+where not exists ( (select course_id
+		from course
+		where dept_name = 'Biology')
+	except
+		(select T.course_id
+		from takes as T
+		where S.ID = T.ID));
+```
 
+### unique
+subquery에 중복된 결과가 있는지 테스트
+
+2009년에 최대 한 번 제공되었던 모든 과정 찾기 (두 번이면 안 됨)
+```sql
+select T.course_id
+from course as T
+where unique (select R.course_id
+		from section as R
+		where T.course_id= R.course_id
+			and R.year = 2009);
+```
+
+평균 급여가 42,000달러 이상인 부서의 평균 강사 급여를 찾기
+```sql
+select dept_name, avg_salary
+from (select dept_name, avg (salary) as avg_salary
+	from instructor
+	group by dept_name)
+where avg_salary > 42000;
+```
+
+```sql
+select dept_name, avg_salary
+from (select dept_name, avg (salary)
+	from instructor
+	group by dept_name) as dept_avg (dept_name, avg_salary)
+where avg_salary > 42000;
+```
+
+```sql
+select name, salary, avg_salary
+from instructor I1, lateral (select avg(salary) as avg_salary
+	from instructor I2
+	where I2.dept_name= I1.dept_name);
+```
