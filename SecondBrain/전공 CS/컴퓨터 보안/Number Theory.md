@@ -120,14 +120,13 @@ n이 소수일 때, ϕ(n) = n-1이므로 이가 성립한다.
 	- 틀리지 않는 알고리즘이지만 느리고, 나머지는 답이 틀릴 수도 있는 알고리즘이다.
 - Fermat test
 - Miller-Rabin test
-	- Fermat test를 기반으로 하지만, 추가적인 검사를 수행함
-	- NSR
+	- Fermat test를 기반으로 하지만, 추가적인 검사를 수행하여 확률을 높임 (Fermat 테스트를 보완한 확률적 소수 판별법)
+	- Nontrivial Square Root(NSR)라는 테스트를 추가로 수행함
 - Hybrid
 	- ex) trial division + Miller-Rabin/Fermat
 	- 작은 수만 trial division으로 소수 판별을 하고, 
 	- 일정 지점을 넘어가면 Miller-Rabin/Fermat을 이용해서 소수를 찾는다.
 ## Deterministic Primality Algorithm
-소수 판별 알고리즘은 자리수에 따라 복잡도가 결정된다. 
 Trial division은 지수 알고리즘, AKS는 자리수의 6제곱인데, 너무 오래 걸려서 보통 Miller-Rabin 또는 Fermat, Hybrid를 사용한다 (자리수의 제곱정도로 작동함)
 ## Powers of Integers, Modulo 19
 ![[Pasted image 20250320110017.png|300]]
@@ -136,13 +135,9 @@ a<sup>x</sup> mod p = y일 때, a, p, y를 주고 x를 찾아야함
 a,p,y에 대한 이산 대수가 x이다.
 # 모듈러 거듭제곱과 이산 로그에 대한 몇 가지 속성과 정의
 
-- $ p = 19 $ 는 소수이다. 우리는 임의의 $ a < p $ 에 대해  
-  $$ a^{p-1} \equiv 1 \pmod{p} $$ 임을 안다.  
-  모든 수열은 1에서 끝나며, 여기서 $ p - 1 = 18 $ 이다.  
-
-- $$ a^m \equiv 1 \pmod{p} $$ 을 만족하는 최소한의 $ m $ 은 항상 $ p - 1 = 18 $ 이 아니다.  
-  우리는 이 $ m $ 을 **위수(order)** 라고 부른다.  
-- $ m $ 은 $ p - 1 $ 을 나눈다.  
+- `p = 19` 는 소수이다. 우리는 임의의 `a < p`에 대해   a<sup>p−1</sup> ≡ 1 (mod p)임을 안다.  
+  모든 수열은 1에서 끝나며, 여기서 `p - 1 = 18` 이다.  a<sup>m</sup> ≡ 1 (mod p)을 만족하는 최소한의 m은 항상 `p - 1 = 18`이 아니다.  우리는 이 m을 order 라고 부른다.  
+- m은 p - 1을 나눈다.  
   즉, 각 행에서 반복되는 수열의 개수는 정수이다.  
 - 어떤 $ a $ 의 위수가 $ p - 1 $ 일 수도 있다.  
   이러한 $ a $ 는 19를 법으로 하는 0이 아닌 정수들의 집합을 생성한다.  
