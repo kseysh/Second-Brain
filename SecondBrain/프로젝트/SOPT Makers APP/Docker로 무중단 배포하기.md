@@ -1,3 +1,8 @@
+제가 진행하고 있는 프로젝트인 SOPT Makers에서는 여러 팀이 SOPT라는 동아리의 즐거운 활동을 위해서 여러 서비스를 제공해주는 단체에요.
+SOPT Makers에는 공식 홈페이지 팀, Playground 팀, Crew 팀, Platform 팀, 앱 팀의 5가지 팀이 각자의 역할을 하며 개발을 해요.
+하지만 이런 구성이다 보니 여러 EC2를 사용하는 상황이었고, 
+
+
 1. docker hub에서 토큰 저장하기
 2. EC2에서 docker login & token 입력
 3. docker pull 받기

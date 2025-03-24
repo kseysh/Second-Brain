@@ -1,3 +1,5 @@
+SOPT Makers에서 
+
 
 - app-prod DB 생성
 - 특정 시간에 app-dev DB dump 파일 생성
