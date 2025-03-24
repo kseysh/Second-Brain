@@ -269,6 +269,7 @@ int fact (int n) { // $a0에 저장됨
 }
 ```
 
+n=2로 시작한다는 가정
 ![[Pasted image 20250324174324.png|300]]
 ![[Pasted image 20250324174336.png|300]]
 ![[Pasted image 20250324174348.png|300]]
@@ -277,11 +278,18 @@ jal을 하면서 $ra가 L1 + 8로 변한다
 ![[Pasted image 20250324174415.png|300]]
 ![[Pasted image 20250324174428.png|300]]
 ![[Pasted image 20250324174438.png|300]]
+return 1을 하고, 위에서 확보한 stack pointer를 반납한다.
 ![[Pasted image 20250324174453.png|300]]
+stack에 저장되어 있던 N-1을 $a0로 복구시킨다.
+stack에 저장되어 있던 주소를 $ra로 복구시킨다.
+sp를 올려준다.
 ![[Pasted image 20250324174508.png|300]]
 ![[Pasted image 20250324174523.png|300]]
 ![[Pasted image 20250324174536.png|300]]
-
+## Local Data on the Stack
+$fp(frame pointer): 현재 함수의 최초 stack top을 기록해두는 것
+return하기 전에는 유지되는 값
+sp는 계속 변해서 tracking하기가 조금 번거롭지만, 고정되어 있는 fp를 사용해서 컴파일러가 위치 계산이 좀 더 편하도록 한다.
 
 ## Design Principle
 - 간단한 것을 위해선 규칙적인 것이 좋다.
