@@ -188,12 +188,20 @@ if ($s1 < $s2)
 slt $t0, $s1, $s2
 bne $t0, $zero, L
 ```
+#### signed vs. Unsigned example
+뒤에 u가 들어가면 unsigned로 계산
+c++에서 unsigned 계산을 하면 뒤에 u를 붙여서 계산한다.
+`$s0 = 1111 1111 1111 1111`
+`$s1 = 0000 0000 0000 0001`
+`slt $t0, $s0, $s1` => `$t0 = 1`
+`sltu $t0, $s0, $s1` => `$t0 = 0`
 ### Branch Instruction Design
 - 왜 blt, bge를 만들지 않았을까?
 - 하드웨어에서는 equal 비교보다 대소비교가 더 느리기 때문
 - 컴퓨터는 한 clock마다 한 instruction을 수행하는 것을 기본으로 한다.
 - 하지만 blt로 인해 느린 동작을 하면 clock의 단위를 늘릴 수 밖에 없고 이는 컴퓨터 성능을 낮출 수 있기 때문이다.
 - 따라서, set, branch의 두 가지 동작으로 분리하였다.
+
 ## Design Principle
 - 간단한 것을 위해선 규칙적인 것이 좋다.
 	- ex) I-Format, R-Format등이 정해져있음
