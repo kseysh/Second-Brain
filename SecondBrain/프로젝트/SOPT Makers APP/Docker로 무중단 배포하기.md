@@ -23,7 +23,7 @@ SOPT Makers에는 공식 홈페이지 팀, Playground 팀, Crew 팀, Platform �
 이렇게 한다면 EC2_1과 EC2_2는 서로 다른 컴퓨터이기 때문에 다른 포트를 사용하고, 무중단 배포가 잘 돌아가게 됩니다.
 
 그렇다면, 서버 한 대로는 어떻게 무중단 배포를 진행할 수 있을까요?
-바로 이전 버전과 새로운 버전을 다른 컴퓨터에서 같은 포트를 사용하는 것이 아닌, 같은 컴퓨터에서 다른 포트를 사용하도록 하는 것입니다.
+바로 이전 버전과 새로운 버전을 다른 컴퓨터에서 같은 포트를 사용하는 것이 아닌, 같은 컴퓨터에서 다른 포트를 사용하도록 하는 것입니다. (8080, 8081)
 (ec2 - 로드밸런서)의 관계를 (ec2 내부에서 nginx - docker로 변경하는 사진)
 
 따라서 github action을 이용해 아래 과정을 진행했습니다.
@@ -33,34 +33,13 @@ SOPT Makers에는 공식 홈페이지 팀, Playground 팀, Crew 팀, Platform �
 
 deploy shell script에서는 아래 과정을 진행합니다.
 1. 실행하는 컨테이너의 포트를 확인한다.
+2. 사용가능한 포트를 확인한다.
+3. 사용 가능한 포트를 실행한다
+4. 새로운 버전을 실행한 컨테이너에 대해서 health check를 진행한다.
+5. nginx reload를 진행하여 구버전의 포트를 바라보던 nginx를 새로운 버전의 포트를 바라보도록 변경한다.
+6. 구버전의 컨테이너를 제거한다.
 
+이렇게 하면 배포 시의 다운 타임이 기존 8초에서 0.03초로 개선된다.
+물론 좋은 개선이지만, 당연히 다운 타임이 없을 것으로 예측되던 상황에서 0.03초라는 작은 다운타임이 발생했습니다.
+이 다운 타임은 왜 발생했을까요?
 
-2. docker hub에서 토큰 저장하기
-3. EC2에서 docker login & token 입력
-4. docker pull 받기
-5. docker container run --name {컨테이너 이름} -d -p 8086:8080 {이미지 이름}
-6. nginx 이미지를 받아서 upstream blue green을 만들어 준다.
-7. yml 파일 blue, green으로 나누고 port도 나누기
-
-
-AWS dev key 변경하기
-
-
----
-1. github trigger 발생
-	1. github action 내에서 jar 파일 생성
-	2. github action 내에서 docker build
-	3. ECR REPO에 push
-	4. ec2에 docker-compose.yml send
-	5. ec2에 scripts 폴더 send
-	6. ec2에서 ECR_REPO에서 docker pull 후 deploy.sh 실행
-2. deploy.sh 실행
-	1. 현재 실행 컨테이너 이름 가지고 오기
-	2. deploy_container
-		1. docker-compose pull
-			1. ECR_REPO에서 docker pull 받는 명령
-		2. docker-compose up
-			2. 
-	3. health_check
-	4. stop_container
-	5. reload_nginx
