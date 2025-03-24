@@ -71,4 +71,6 @@ multiprocessor(CPU 코어가 여러개) architecture의 장점을 가질 수 있
 ###### Processor
 CPU scheduling이 process 단위로 진행된다.
 ###### 특징
-여러가지 스레드 모델이 모두 유저레벨에서
+여러가지 스레드 기능이 모두 유저레벨에서 구현되기 때문에,
+- Thread switching이 kernel mode 권한을 필요로 하지 않는다.
+- 
