@@ -26,15 +26,21 @@ SOPT Makers에는 공식 홈페이지 팀, Playground 팀, Crew 팀, Platform �
 바로 이전 버전과 새로운 버전을 다른 컴퓨터에서 같은 포트를 사용하는 것이 아닌, 같은 컴퓨터에서 다른 포트를 사용하도록 하는 것입니다.
 (ec2 - 로드밸런서)의 관계를 (ec2 내부에서 nginx - docker로 변경하는 사진)
 
+따라서 github action을 이용해 아래 과정을 진행했습니다.
+1. docker image 빌드 & ECR에 push
+2. docker-compose.yml과 script 폴더 ec2에 복사
+3. ec2에서 script 폴더 내의 deploy script 실행
+
+deploy shell script에서는 아래 과정을 진행합니다.
+1. 실행하는 컨테이너의 포트를 확인한다.
 
 
-
-4. docker hub에서 토큰 저장하기
-5. EC2에서 docker login & token 입력
-6. docker pull 받기
-7. docker container run --name {컨테이너 이름} -d -p 8086:8080 {이미지 이름}
-8. nginx 이미지를 받아서 upstream blue green을 만들어 준다.
-9. yml 파일 blue, green으로 나누고 port도 나누기
+2. docker hub에서 토큰 저장하기
+3. EC2에서 docker login & token 입력
+4. docker pull 받기
+5. docker container run --name {컨테이너 이름} -d -p 8086:8080 {이미지 이름}
+6. nginx 이미지를 받아서 upstream blue green을 만들어 준다.
+7. yml 파일 blue, green으로 나누고 port도 나누기
 
 
 AWS dev key 변경하기
