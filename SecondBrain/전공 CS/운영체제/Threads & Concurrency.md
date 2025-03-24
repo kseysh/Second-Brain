@@ -61,5 +61,14 @@ multiprocessor(CPU 코어가 여러개) architecture의 장점을 가질 수 있
 - ex) Linux, Mac OS X
 # Multithreading Models
 ## Many-to-One
-여러개의 유저 스레드가 하나의 커널 스레드에 매핑되는 방식
-
+- 여러개의 유저 스레드가 하나의 커널 스레드에 매핑되는 방식
+- OS에서는 multi-thread를 제공하지 않는다.
+- 유저 레벨에서 multi thread를 구현해서 사용한다.
+- 하나의 thread가 Block되면, 모든 thread가 Block된다.
+- 현재 시스템에서는 잘 사용하지 않음
+###### Thread libray
+- Thread libray가 모두 User-level library로만 제공된다.
+###### Processor
+CPU scheduling이 process 단위로 진행된다.
+###### 특징
+여러가지 스레드 모델이 모두 유저레벨에서
