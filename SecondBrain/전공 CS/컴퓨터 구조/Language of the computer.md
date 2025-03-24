@@ -209,11 +209,22 @@ c++에서 unsigned 계산을 하면 뒤에 u를 붙여서 계산한다.
 5. 호출 함수를 위해 결과를 레지스터에 저장
 6. 호출한 위치로 복귀
 이처럼 함수 호출 전후에 데이터를 주고받아야 할 필요가 있기 때문에, 레지스터의 일부를 argument 전달과 return 값 전달로 나누어 두었다.
+
 함수 호출 전
 - `$a0 ~ $a3`에 필요한 파라미터 배치
 함수 return 전
 - return 값을 `$v0~$v1`에 배치
-
+## Register Usage
+- $a0 – $a3: arguments (reg’s 4 – 7)
+- $v0, $v1: result values (reg’s 2 and 3)
+- $t0 – $t9: temporaries (reg’s 8 – 15, 24, 25)
+	- Can be overwritten by callee
+- $s0 – $s7: saved (reg’s 16 – 23)
+	- Must be saved/restored by callee
+- $gp: global pointer for static data (reg 28)
+- $sp: stack pointer (reg 29)
+- $fp: frame pointer (reg 30)
+- $ra: return address (reg 31)
 ## Design Principle
 - 간단한 것을 위해선 규칙적인 것이 좋다.
 	- ex) I-Format, R-Format등이 정해져있음
