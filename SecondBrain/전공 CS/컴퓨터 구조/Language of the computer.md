@@ -286,11 +286,14 @@ sp를 올려준다.
 ![[Pasted image 20250324174508.png|300]]
 ![[Pasted image 20250324174523.png|300]]
 ![[Pasted image 20250324174536.png|300]]
-## Local Data on the Stack
+## frame pointer
+![[Pasted image 20250324175720.png|300]]
 $fp(frame pointer): 현재 함수의 최초 stack top을 기록해두는 것
 return하기 전에는 유지되는 값
 sp는 계속 변해서 tracking하기가 조금 번거롭지만, 고정되어 있는 fp를 사용해서 컴파일러가 위치 계산이 좀 더 편하도록 한다.
-
+## Memory Layout
+$gp: 전역변수를 관리하는 공간의 중간주소
+$gp + N, $gp - N의 형태로 전역변수를 저장해둔다.
 ## Design Principle
 - 간단한 것을 위해선 규칙적인 것이 좋다.
 	- ex) I-Format, R-Format등이 정해져있음
