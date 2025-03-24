@@ -234,11 +234,33 @@ c++에서 unsigned 계산을 하면 뒤에 u를 붙여서 계산한다.
 ### `jal ProcedureLabel` (J-Format)
 - Jump And Link
 - 주어진 Label로 Jump를 하는데, 이 instruction 이후에 실행되는 instruction의 주소를 `$ra`에 넣어둔다. (함수를 마치고 돌아와야 할 주소)
-- 이 함수도 PC에 ProcedureLabel에 적힌 주소를 복사한다라는 개념이
 ### `jr rs` (R-Format)
 - Jump Register
 - jr $ra처럼 쓰는데, ra에 적힌 주소로 PC를 옮긴다.
-	- pc = 다음번에 수행해야 하는 주소를 가짐
+	- PC = 다음번에 수행해야 하는 주소를 가짐
+#### example
+Leaf Procedure (다른 함수 호출을 하지 않는 함수)
+```c
+int leaf_example (int g, h, i, j) { // $a0, ... , $a3에 저장됨
+	int f; // $s0에 저장됨, callee가 사용하고 다시 원상복구 해두어야 한다.
+	f = (g + h) - (i + j);
+	return f; // $v0에 저장됨
+}
+```
+
+```c
+leaf_example:
+	addi $sp, $sp, -4
+	sw $s0, 0($sp) // $s0를 stack에 저장
+	add $t0, $a0, $a1
+	add $t1, $a2, $a3
+	sub $s0, $t0, $t1 // procedure bodsy
+	add $v0, $s0, $zero // Result
+	lw $s0, 0($sp) 
+	addi $sp, $sp, 4 // Restore $s0 
+	jr $ra // Return
+```
+
 
 
 ## Design Principle
