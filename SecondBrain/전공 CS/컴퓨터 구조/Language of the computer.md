@@ -215,16 +215,32 @@ c++에서 unsigned 계산을 하면 뒤에 u를 붙여서 계산한다.
 함수 return 전
 - return 값을 `$v0~$v1`에 배치
 ## Register Usage
-- $a0 – $a3: arguments (reg’s 4 – 7)
-- $v0, $v1: result values (reg’s 2 and 3)
-- $t0 – $t9: temporaries (reg’s 8 – 15, 24, 25)
-	- Can be overwritten by callee
-- $s0 – $s7: saved (reg’s 16 – 23)
-	- Must be saved/restored by callee
-- $gp: global pointer for static data (reg 28)
-- $sp: stack pointer (reg 29)
-- $fp: frame pointer (reg 30)
-- $ra: return address (reg 31)
+- $a0 – $a3: arguments
+- $v0, $v1: result values
+- $t0 – $t9: temporaries
+	- caller가 백업해둘 의무를 가짐
+	- caller-saved register
+- $s0 – $s7: saved
+	- callee가 사용하고 다시 원상복구할 책임을 가짐
+	- callee-saved register
+- $gp: global pointer for static data
+- $sp: stack pointer
+	- stack 공간을 어디까지 사용하는지에 대한 포인터
+	- stack 공간은 위에서 아래로 내려오므로, sp는 스택의 최하위 주소를 가짐
+- $fp: frame pointer
+- $ra: return address
+## Procedure Call Instructions
+컨트롤을 넘겨주는 행위 
+### `jal ProcedureLabel` (J-Format)
+- Jump And Link
+- 주어진 Label로 Jump를 하는데, 이 instruction 이후에 실행되는 instruction의 주소를 `$ra`에 넣어둔다. (함수를 마치고 돌아와야 할 주소)
+- 이 함수도 PC에 ProcedureLabel에 적힌 주소를 복사한다라는 개념이
+### `jr rs` (R-Format)
+- Jump Register
+- jr $ra처럼 쓰는데, ra에 적힌 주소로 PC를 옮긴다.
+	- pc = 다음번에 수행해야 하는 주소를 가짐
+
+
 ## Design Principle
 - 간단한 것을 위해선 규칙적인 것이 좋다.
 	- ex) I-Format, R-Format등이 정해져있음
