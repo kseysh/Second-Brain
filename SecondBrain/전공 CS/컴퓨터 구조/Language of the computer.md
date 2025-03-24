@@ -239,7 +239,7 @@ c++에서 unsigned 계산을 하면 뒤에 u를 붙여서 계산한다.
 - jr $ra처럼 쓰는데, ra에 적힌 주소로 PC를 옮긴다.
 	- PC = 다음번에 수행해야 하는 주소를 가짐
 #### example
-Leaf Procedure (다른 함수 호출을 하지 않는 함수)
+###### Leaf Procedure (다른 함수 호출을 하지 않는 함수)
 ```c
 int leaf_example (int g, h, i, j) { // $a0, ... , $a3에 저장됨
 	int f; // $s0에 저장됨, callee가 사용하고 다시 원상복구 해두어야 한다.
@@ -250,19 +250,43 @@ int leaf_example (int g, h, i, j) { // $a0, ... , $a3에 저장됨
 
 ```c
 leaf_example:
-	addi $sp, $sp, -4
+	addi $sp, $sp, -4 // 스택 포인터를 4 빼줌 ($s0가 4byte이므로)
 	sw $s0, 0($sp) // $s0를 stack에 저장
 	add $t0, $a0, $a1
 	add $t1, $a2, $a3
-	sub $s0, $t0, $t1 // procedure bodsy
+	sub $s0, $t0, $t1 // procedure body
 	add $v0, $s0, $zero // Result
 	lw $s0, 0($sp) 
 	addi $sp, $sp, 4 // Restore $s0 
 	jr $ra // Return
 ```
+###### Non-Leaf Procedure (다른 함수를 호출하는 함수)
+nested call에서는, caller는 return address, arg, temp를 stack에 저장해두고, 호출 이후에 복구한다.
+```c
+int fact (int n) { // $a0에 저장됨
+	if (n < 1) return 1;
+	else return n * fact(n - 1); // Result는 $v0에 저장됨
+}
+```
 
-
-
+```c
+fact:
+	addi $sp, $sp, -8 // adjust stack for 2 items
+	sw $ra, 4($sp) // save return address
+	sw $a0, 0($sp) // save argument
+	slti $t0, $a0, 1 // test for n < 1
+	beq $t0, $zero, L1
+	addi $v0, $zero, 1 // if so, result is 1
+	addi $sp, $sp, 8 // pop 2 items from stack
+	jr $ra // and return
+L1: addi $a0, $a0, -1 // else decrement n
+	jal fact // recursive call
+	lw $a0, 0($sp) // restore original n
+	lw $ra, 4($sp) // and return address
+	addi $sp, $sp, 8 // pop 2 items from stack
+	mul $v0, $a0, $v0 // multiply to get result
+	jr $ra // and return
+```
 ## Design Principle
 - 간단한 것을 위해선 규칙적인 것이 좋다.
 	- ex) I-Format, R-Format등이 정해져있음
