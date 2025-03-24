@@ -36,7 +36,13 @@ multiprocessor(CPU 코어가 여러개) architecture의 장점을 가질 수 있
 - Multicore or multiprocessor 시스템에서는 병렬처리가 가능(동시성과는 다름)
 
 ![[Pasted image 20250324204849.png|250]]
-Multithread는 이 두 가지 특성을 분리한 것
-자원 소유의 단위는 일반적으로 Process or Task라고 한다.
-dispatching 단위는 일반적으로 Thread라고 한다.
-stack에는 지역 변수가 저장되는데, 각 thread마다 실행 흐름이 다르므로 각 thread마다 실행하는 함수가 다르고 따라서 stack을 따로 가진다.
+- Multithread는 이 두 가지 특성을 분리한 것
+	- 자원 소유의 단위는 일반적으로 Process or Task라고 한다.
+	- dispatching 단위는 일반적으로 Thread라고 한다.
+- stack에는 지역 변수가 저장되는데, 각 thread마다 실행 흐름이 다르므로 각 thread마다 실행하는 함수가 다르고 따라서 stack을 따로 가진다.
+## Multithreading: Basics
+### Thread의 특성
+- 실행 상태를 가진다 (running, ready, stopped(blocked))
+- 실행 중이 아닐 때, thread context를 저장한다.
+- stack과 per-thread static memory를 가진다.
+- 전체 메모리 공간을 공유한다.
