@@ -1,3 +1,12 @@
+## Design Principle
+- 간단한 것을 위해선 규칙적인 것이 좋다.
+	- ex) I-Format, R-Format등이 정해져있음
+- 작은 것이 더 빠르다
+	- ex) memory도 빠르지만 빠른 계산을 위해 register를 사용한다.
+- 자주 생기는 일을 빠르게 하라
+	- ex) addi를 이용해 불필요하게 레지스터에 상수를 적재하지 않도록 한다.
+- 좋은 설계에는 적당한 절충이 필요하다
+	- ex) R-format이 규칙이지만, 규칙을 변형한 I-format도 쓰임
 ## MIPS Instruction Set
 ### ISA의 두 가지 종류
 #### CISC (Complex IS Computer)
@@ -296,13 +305,31 @@ $gp: 전역변수를 관리하는 공간의 중간주소
 $gp + N, $gp - N의 형태로 전역변수를 저장해둔다.
 ## Byte/Halfword Operations
 ### `lb rt, offset(rs), lh rt, offset(rs)`
-
-## Design Principle
-- 간단한 것을 위해선 규칙적인 것이 좋다.
-	- ex) I-Format, R-Format등이 정해져있음
-- 작은 것이 더 빠르다
-	- ex) memory도 빠르지만 빠른 계산을 위해 register를 사용한다.
-- 자주 생기는 일을 빠르게 하라
-	- ex) addi를 이용해 불필요하게 레지스터에 상수를 적재하지 않도록 한다.
-- 좋은 설계에는 적당한 절충이 필요하다
-	- ex) R-format이 규칙이지만, 규칙을 변형한 I-format도 쓰임
+rs + offset 주소에서 1 byte를 읽어서 rt에 저장
+1byte만을 읽어 word size인 4 byte에 저장해야 하므로 sign extend를 진행한다.
+### `lbu rt, offset(rs), lhu rt, offset(rs)`
+unsigned이므로, zero extend를 진행한다.
+### `sb rt, offset(rs), sh rt, offset(rs)`
+가장 오른쪽의 byte나 halfword를 저장한다.
+따라서 sbu shu 이런게 없다.
+### example
+```cpp
+void strcpy (char x[], char y[])
+{
+	int i;
+	i = 0;
+	while ((x[i]=y[i])!='\0'){
+		i += 1;
+	}
+}
+```
+x = $a0
+y = $a1
+i = $s0
+![[Pasted image 20250325142713.png|400]]
+굳이 lbu가 아니어도 되긴 함
+## 32-bit Constants
+대부분의 상수는 작아서 16bit로 충분하지만, 그보다 크다면 추가적인 방법이 필요하다.
+### `lui rt constant`
+- 16 bit 상수를 왼쪽으로 16 bit만
+![[Pasted image 20250325143017.png|400]]
