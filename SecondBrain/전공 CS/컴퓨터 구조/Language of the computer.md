@@ -331,5 +331,20 @@ i = $s0
 ## 32-bit Constants
 대부분의 상수는 작아서 16bit로 충분하지만, 그보다 크다면 추가적인 방법이 필요하다.
 ### `lui rt constant`
-- 16 bit 상수를 왼쪽으로 16 bit만
+- 16 bit 상수를 왼쪽으로 16 bit만큼 옮기고, 나머지를 0으로 채운다.
+- 이후 or 연산을 적용하면 32bit를 가지는 레지스터를 상수처럼 사용할 수 있다
 ![[Pasted image 20250325143017.png|400]]
+## Branch Addressing (beq, bne)
+![[Pasted image 20250325143558.png|300]]
+**PC-relative addressing**을 사용한다.
+- 현재 PC에서 얼만큼 떨어져 있는지를 사용한다 (대부분의 branch는 비슷한 code 공간에 있기 때문)
+- Target address = **현재 PC + offset x 4**
+- 따라서 address에는 18bit까지 표현할 수 있다.
+- instruction의 크기는 4byte이므로, 4의 배수가 아닌 값은 쓸모가 없다.
+	- 따라서 constant address는 뒤에 00이 생략되어 있다.
+- 실제 주소 크기는 word size인 32bit이다.
+## Jump Addressing (j, jal)
+Jump는 text segment에서 어디든 타겟할 수 있다.
+![[Pasted image 20250325143928.png|400]]
+**(Pseudo)Direct jump addressing**을 사용한다. (J-Format은 address 부분이 크기 때문)
+- 
