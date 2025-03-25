@@ -84,9 +84,18 @@ CPU scheduling이 process 단위로 진행된다.
 ## One-to-One
 유저가 스레드를 하나 만들면 커널이 스레드를 하나 만드는 것을 뜻한다.
 ###### 특징
-프로세스당 스레드의 수의 제약이 있다.
-user-level 스레드 라이브러리는 없지만, 커널 스레드 기능을 위한 api 제공
-
+- 프로세스당 스레드의 수의 제약이 있다.
+- user-level 스레드 라이브러리는 없지만, 커널 스레드 기능을 위한 api 제공
+	- 커널 수정 필요
+- 스레드 단위로 스케쥴링
+###### 장점
+- 병렬성 증가
+- Blocking이 스레드 단위로 수행
+- 커널 루틴이 멀티스레드를 지원함
+###### 단점
+동일한 프로세스 내에서 스레드 전환이 커널을 거치므로 성능 저하 발생(그렇게 느리지는 않아서 단점이라 하기 뭐함)
+## Many-to-Many
+여러 개의 user-level thread를 여러 개의 kernel thread에 매핑
 ## Thread Libraries
 ### Pthreads
 Linux의 표준 POSIX API
