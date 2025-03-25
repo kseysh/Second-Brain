@@ -347,4 +347,10 @@ i = $s0
 Jump는 text segment에서 어디든 타겟할 수 있다.
 ![[Pasted image 20250325143928.png|400]]
 **(Pseudo)Direct jump addressing**을 사용한다. (J-Format은 address 부분이 크기 때문)
-- 
+- Target address = **PC<sub>31...28</sub> + address x 4**
+- 여기에서도 Branch Addressing과 같은 이유로 address에 4를 나눠 저장해둔다.
+- 표현은 28bit까지 할 수 있는데 target 주소는 32bit이다.
+	- 따라서, 4bit는 현재 PC의 상위 4bit로 채운다.
+### example
+PC
+![[Pasted image 20250325144436.png|400]]
