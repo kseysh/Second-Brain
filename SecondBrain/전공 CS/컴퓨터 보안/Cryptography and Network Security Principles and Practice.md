@@ -52,3 +52,9 @@ ex) m을 3글자 이동하여 p e를 3글자 이동하여 h
 general Caesar algorithm: `C = E(k , p) = (p + k) mod 26`
 ### Monoalphabetic Cipher
 ![[Pasted image 20250320114345.png|300]]
+
+
+p95
+규칙
+1. x 삽입
+2. 
