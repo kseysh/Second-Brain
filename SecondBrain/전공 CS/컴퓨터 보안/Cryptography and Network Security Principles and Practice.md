@@ -51,8 +51,15 @@ ex) m을 3글자 이동하여 p e를 3글자 이동하여 h
 ![[Pasted image 20250320113609.png|300]]
 general Caesar algorithm: `C = E(k , p) = (p + k) mod 26`
 ### Monoalphabetic Cipher
+- 순열
+- Caesar Cipher와 다르게 무작위로 순서를 변경한다.
+- 이러한 방식은 monoalphabetic substitution이라고 불리며, 각 메시지에 대해 하나의 암호 알파벳이 사용된다.
 ![[Pasted image 20250320114345.png|300]]
-
+#### 단점
+알파벳의 빈도 수가 다르고 Digram, Trigram을 이용하여 유추할 수 있다.
+- Digram - ex) th
+- Trigram - ex) the
+![[Pasted image 20250325134020.png|300]]
 
 p95
 규칙
