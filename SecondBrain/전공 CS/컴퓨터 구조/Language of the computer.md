@@ -368,4 +368,18 @@ L2: ....
 ## Addressing Mode Summary
 ![[Pasted image 20250325150307.png|300]]
 ## Assembler Pseudo-instructions
-대부분의 assembler instructino은 
+대부분의 assembler instructino은 기계어와 1대1 대응이지만, Pseudo-instruction은 assembler가 변형해서 만들기도 한다.
+실제로 기계어에 없던 instruction을 허용하는 instruction
+`move $t0, $t1` 
+=> 
+`add $t0, $zero, $t1`
+
+`blt $t0, $t1, L`
+=>
+```
+slt $at, $t0, $t1
+bne $at, $zero, L
+```
+
+$at: assembler temporary
+- 다른 레지스터가 쓰지 않는 register 번역할 때 사용하는 레지스터 (**다시 보기**)
