@@ -83,3 +83,10 @@ Linux의 표준 POSIX API
 #### example
 1 thread
 ![[Pasted image 20250325164709.png|500]]
+10 threads
+![[Pasted image 20250325165242.png|500]]
+## Implicit Threading
+프로그래머보다 compiler와 run-time library가 thread의 생성 및 관리를 담당하는 것
+## OpenMP
+컴파일러가 알아서 확인하면 multithread를 생성 및 관리해줌
+![[Pasted image 20250325170039.png|300]]
