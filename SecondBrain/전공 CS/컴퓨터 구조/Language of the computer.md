@@ -343,7 +343,7 @@ i = $s0
 - instruction의 크기는 4byte이므로, 4의 배수가 아닌 값은 쓸모가 없다.
 	- 따라서 constant address는 뒤에 00이 생략되어 있다.
 - 실제 주소 크기는 word size인 32bit이다.
-## Jump Addressing (j, jal)
+## Jump Addressing (j, jal) *다시 보기*
 Jump는 text segment에서 어디든 타겟할 수 있다.
 ![[Pasted image 20250325143928.png|400]]
 **(Pseudo)Direct jump addressing**을 사용한다. (J-Format은 address 부분이 크기 때문)
@@ -352,5 +352,20 @@ Jump는 text segment에서 어디든 타겟할 수 있다.
 - 표현은 28bit까지 할 수 있는데 target 주소는 32bit이다.
 	- 따라서, 4bit는 현재 PC의 상위 4bit로 채운다.
 ### example
-PC
+PC는 항상 다음 instruction의 주소를 가리킴
+항상 주소는 4를 곱해서 이해해야 함
 ![[Pasted image 20250325144436.png|400]]
+### Branch가 16bit offset으로 표현하기 너무 크다면,
+assembler가 code를 변경한다.
+`beq $s0, $s1, L1`
+=>
+```
+bne $s0, $s1, L2
+j L1
+L2: ....
+```
+18bit로 표현 불가능하기 때문에 j로 표현한다.
+## Addressing Mode Summary
+![[Pasted image 20250325150307.png|300]]
+## Assembler Pseudo-instructions
+대부분의 assembler instructino은 
