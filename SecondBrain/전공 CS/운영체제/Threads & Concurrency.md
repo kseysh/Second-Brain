@@ -74,6 +74,11 @@ CPU scheduling이 process 단위로 진행된다.
 여러가지 스레드 기능이 모두 유저레벨에서 구현되기 때문에,
 - Thread switching이 kernel mode 권한을 필요로 하지 않는다.
 - 스케쥴링을 application에 맞춰서 할 수 있다.
+- process state와 Thread state가 independent하다.
+###### 장점
+- kenel-user mode switching이 없다
+- 스케쥴링을 application별로 specific하게 할 수 있다.
+
 
 ## Thread Libraries
 ### Pthreads
