@@ -295,6 +295,7 @@ sp는 계속 변해서 tracking하기가 조금 번거롭지만, 고정되어 �
 $gp: 전역변수를 관리하는 공간의 중간주소
 $gp + N, $gp - N의 형태로 전역변수를 저장해둔다.
 ## Byte/Halfword Operations
+### `lb rt, offset(rs), lh rt, offset(rs)`
 
 ## Design Principle
 - 간단한 것을 위해선 규칙적인 것이 좋다.
