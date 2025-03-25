@@ -61,3 +61,16 @@ p95
 3. 직사각형을 못 그리면 같은 열에서 다음 글자로 바꾼다.
 4. 직사각형을 못 그리면 같은 행에서 다음 글자로 바꾼다.
 
+p103
+c = (p+k)mod 2
+p = (c-k)mod 2
+0 = 0 xor 0
+1 = 0 xor 1
+1 = 1 xor 0
+0 = 1 xor 1
+vernam ciphoer는 plaintext와 xor을 이용해 encription하고, xor을 다시 돌려 decription을 한다./
+p103-104
+vernam과 다르게 key를 한 번 쓰고 버림
+unbreakable 방식이다.
+p104
+근본적인 문제: 
