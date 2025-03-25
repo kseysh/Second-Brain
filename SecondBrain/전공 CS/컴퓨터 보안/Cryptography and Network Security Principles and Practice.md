@@ -60,13 +60,23 @@ general Caesar algorithm: `C = E(k , p) = (p + k) mod 26`
 - Digram - ex) th
 - Trigram - ex) the
 ![[Pasted image 20250325134020.png|300]]
+### Monoalphabetic Cipher :Countermeasure (대응책)
+#### Playfair Cipher
+가장 잘 알려진 다중 문자 암호화 기법
+plaintext를 두 글자 쌍으로 만들고 이를 하나의 단위로 처리하여 변환한다.
+in -> GA, it -> KS 처럼 **같은 알파벳이지만, 다른 문자로 변경된다.**
+1. 같은 글자가 연달으면 특정 알파벳(x) 삽입
+2. 두 글자를 찾고 직사각형을 그려 같은 행에 있는 꼭짓점으로 바꾼다.
+3. 직사각형을 못 그리면 같은 열에서 다음 글자로 바꾼다
+4. 직사각형을 못 그리면 같은 행에서 다음 글자로 바꾼다
+##### example
+MONARCHY라는 keyword를 사용한다고 가정
+![[Pasted image 20250325134809.png|200]]
+balloon -> balxloon -> IBSUPMNA
+ba | lx | lo | on으로 나누고, 1을 적용 후 3,2,3,4의 규칙을 적용해 변경한다.
+##### 알파벳 별 상대 빈도
+![[Pasted image 20250325135043.png|300]]
 
-p95
-규칙
-1. x 삽입
-2. L, O를 찾고 직사각형을 그려 L과 같은 행에 있는 꼭짓점, O와 같은 행에 있는 꼭짓점으로 바꾼다.
-3. 직사각형을 못 그리면 같은 열에서 다음 글자로 바꾼다.
-4. 직사각형을 못 그리면 같은 행에서 다음 글자로 바꾼다.
 
 p103
 c = (p+k)mod 2
