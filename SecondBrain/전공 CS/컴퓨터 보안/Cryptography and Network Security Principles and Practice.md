@@ -76,6 +76,27 @@ balloon -> balxloon -> IBSUPMNA
 ba | lx | lo | on으로 나누고, 1을 적용 후 3,2,3,4의 규칙을 적용해 변경한다.
 ##### 알파벳 별 상대 빈도
 ![[Pasted image 20250325135043.png|300]]
+### Polyalphabetic Ciphers (다중 알파벳 치환 암호)
+단순한 monoalphabetic Cipher보다 발전된 방식으로, plaintext를 암호화하는 동안 여러 개의 다른 단일 알파벳 치환 규칙을 사용
+- 서로 관련된 여러 개의 monoalphabetic substitution rule이 사용됨
+- key를 통해 특정 변환에 사용할 치환 규칙이 결정됨
+#### vigenere Cipher
+가장 잘 알려지고 간단한 다중 알파벳 치환 암호
+##### example
+key : deceptive
+plaintext: we are discovered save yourself
+![[Pasted image 20250325135609.png|300]]
+같은 e라도 다르게 번역될 수 있음 (Polyalphabetic Cipher의 특징)
+##### 단점
+![[Pasted image 20250325135740.png|300]]
+key와 plaintext가 같다면, 유추하기가 쉬워질 수 있다.
+#### vigenere Autokey System
+
+아래처럼 plaintext를 다시 key로 사용할 수 있다.
+![[Pasted image 20250325135901.png|300]]
+##### 단점
+key와 plaintext는 문자의 동일한 빈도 분포를 공유하기 때문에 통계 기술을 적용할 수 있다.
+#### vernam Cipher
 
 
 p103
