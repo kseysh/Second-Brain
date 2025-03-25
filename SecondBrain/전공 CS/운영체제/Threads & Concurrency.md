@@ -90,3 +90,8 @@ Linux의 표준 POSIX API
 ## OpenMP
 컴파일러가 알아서 확인하면 multithread를 생성 및 관리해줌
 ![[Pasted image 20250325170039.png|300]]
+CPU core의 개수만큼 스레드를 생성함
+**기억할 것** 
+스레드의 개념 프로세스와의 차이점
+## Thread Scheduling
+스레드가 지원되면, 스레드가 스케쥴링되지, 프로세스가 아니다.
