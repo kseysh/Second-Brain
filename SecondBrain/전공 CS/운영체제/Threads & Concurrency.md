@@ -60,7 +60,9 @@ multiprocessor(CPU 코어가 여러개) architecture의 장점을 가질 수 있
 - CPU 스케쥴링 대상이 됨
 - ex) Linux, Mac OS X
 # Multithreading Models
+기억할 것: One-to-One을 사용한다
 ## Many-to-One
+ ![[Pasted image 20250325221601.png|150]]
 - 여러개의 유저 스레드가 하나의 커널 스레드에 매핑되는 방식
 - OS에서는 multi-thread를 제공하지 않는다.
 - 유저 레벨에서 multi thread를 구현해서 사용한다.
@@ -82,6 +84,7 @@ CPU scheduling이 process 단위로 진행된다.
 ###### 단점
 - 병렬성을 활용하지 못한다.
 ## One-to-One
+![[Pasted image 20250325221623.png|200]]
 유저가 스레드를 하나 만들면 커널이 스레드를 하나 만드는 것을 뜻한다.
 ###### 특징
 - 프로세스당 스레드의 수의 제약이 있다.
@@ -95,7 +98,20 @@ CPU scheduling이 process 단위로 진행된다.
 ###### 단점
 동일한 프로세스 내에서 스레드 전환이 커널을 거치므로 성능 저하 발생(그렇게 느리지는 않아서 단점이라 하기 뭐함)
 ## Many-to-Many
-여러 개의 user-level thread를 여러 개의 kernel thread에 매핑
+![[Pasted image 20250325221636.png|200]]
+- 여러 개의 user-level thread를 여러 개의 kernel thread에 매핑
+- user-level thread : 커널은 스레드의 존재를 거의 인식하지 못함
+	- user-level 스레드 생성/제거
+	- 스레드 실행 스케쥴링
+	- thread context 저장 및 복원
+	- 스레드 간 메시지 및 데이터 전달
+- kernel-level thread : user level thread에 가상 프로세서 역할 수행
+	- 커널 수준 스레드 생성/제거
+	- user level thread와 kernel level thread 간 매핑/언매핑
+	- 프로세스 및 스레드의 컨텍스트 정보 유지
+	- 스레드 간 전환
+	- 스레드 스케쥴링
+	- 스레드 단위의 프로세서 할당
 ## Thread Libraries
 ### Pthreads
 Linux의 표준 POSIX API
@@ -112,7 +128,7 @@ Linux의 표준 POSIX API
 컴파일러가 알아서 확인하면 multithread를 생성 및 관리해줌
 ![[Pasted image 20250325170039.png|300]]
 CPU core의 개수만큼 스레드를 생성함
-**기억할 것** 
+**기억할 것 (다시보기)** 
 스레드의 개념 프로세스와의 차이점
 ## Thread Scheduling
 스레드가 지원되면, 스레드가 스케쥴링되지, 프로세스가 아니다.
