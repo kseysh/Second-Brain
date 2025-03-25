@@ -76,4 +76,10 @@ CPU scheduling이 process 단위로 진행된다.
 - 스케쥴링을 application에 맞춰서 할 수 있다.
 
 ## Thread Libraries
-
+### Pthreads
+Linux의 표준 POSIX API
+![[Pasted image 20250325164205.png|400]]
+![[Pasted image 20250325164358.png|400]]
+#### example
+1 thread
+![[Pasted image 20250325164709.png|500]]
