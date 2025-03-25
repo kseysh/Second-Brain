@@ -43,7 +43,8 @@ Cryptology: 암호학 및 암호 분석 분야
 - Computationally secure
 	- 암호 해독 비용이 암호화된 정보의 가치를 초과
 	- 암호 해독 시간이 정보 유효 수명을 초과
-## Substitution Technique (대체 기법)
+# Substitution Technique (대체 기법)
+## Monoalphabetic Cipher
 ### Caesar Cipher
 대체 기법의 사용중 가장 먼저 사용되며 간단한 방법
 글자를 1 대 1로 대체하는 것 
@@ -91,26 +92,32 @@ plaintext: we are discovered save yourself
 ![[Pasted image 20250325135740.png|300]]
 key와 plaintext가 같다면, 유추하기가 쉬워질 수 있다.
 #### vigenere Autokey System
-
-아래처럼 plaintext를 다시 key로 사용할 수 있다.
+vigenere Cipher의 단점을 해결하기 위해 아래처럼 plaintext를 다시 key로 사용할 수 있다.
 ![[Pasted image 20250325135901.png|300]]
 ##### 단점
 key와 plaintext는 문자의 동일한 빈도 분포를 공유하기 때문에 통계 기술을 적용할 수 있다.
 #### vernam Cipher
-
-
-p103
+vernam cipher는 plaintext와 xor을 이용해 encription하고, xor을 다시 돌려 decription을 한다.
+![[Pasted image 20250325140127.png|300]]
 c = (p+k)mod 2
 p = (c-k)mod 2
 0 = 0 xor 0
 1 = 0 xor 1
 1 = 1 xor 0
 0 = 1 xor 1
-vernam ciphoer는 plaintext와 xor을 이용해 encription하고, xor을 다시 돌려 decription을 한다./
-p103-104
-vernam과 다르게 key를 한 번 쓰고 버림
-unbreakable 방식이다.
-p104
-근본적인 문제: 큰 key의 난수를 계속 만들어야 함, key를 상대방에게 안전하게 보내야 하는데 그럴거면 안전하게 평문을 보내는게 나음
-완전한 안전성을 제공하지만, 실용적이지는 않다.
+#### One-Time Pad
+- vernam은 key stream generator를 계속 사용하지만, One-Time Pad는 vernam과 다르게 key를 한 번 쓰고 버린다.
+- 메시지와 동일한 길이의 random key를 사용하여 key를 반복해서 사용할 필요가 없다.
+- 하나의 메시지를 암호화 및 복호화한 후, 키를 폐기한다.
+##### 장점
+따라서 unbreakable 방식으로 안전하다. (해독 불가)
+평문과 어떤한 통계적 관계도 가지지 않는다.
+암호문 자체에 평문에 대한 정보가 전혀 포함되지 않아 해독할 방법이 없다.
+##### 단점
+- 큰 key의 난수를 계속 만들어야 함
+- 보내는 모든 메시지에 대해 동일한 길이의 키가 송신자와 수신자 모두에게 필요함
+완전한 안전성을 제공하지만, 실용성이 제한된다.
+높은 보안이 필요하며, 낮은 데이터 전송량을 가진 통신에 사용됨
+이는 완벽한 보안성을 보장하는 유일한 암호 시스템이다.
+### Transposition Cipher
 
