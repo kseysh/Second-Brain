@@ -78,7 +78,14 @@ CPU scheduling이 process 단위로 진행된다.
 ###### 장점
 - kenel-user mode switching이 없다
 - 스케쥴링을 application별로 specific하게 할 수 있다.
-
+- OS에서 멀티스레드를 구현하지 않아도 구현할 수 있다.
+###### 단점
+- 병렬성을 활용하지 못한다.
+## One-to-One
+유저가 스레드를 하나 만들면 커널이 스레드를 하나 만드는 것을 뜻한다.
+###### 특징
+프로세스당 스레드의 수의 제약이 있다.
+user-level 스레드 라이브러리는 없지만, 커널 스레드 기능을 위한 api 제공
 
 ## Thread Libraries
 ### Pthreads
