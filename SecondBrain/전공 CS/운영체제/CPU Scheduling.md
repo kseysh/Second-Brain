@@ -33,4 +33,24 @@ OS가 제어권을 되찾는 경우
 # Scheduling Policies
 ## 스케쥴링 기준
 - CPU utilization
-- Throu
+	- CPU를 가능한 빠르게 유지한다.
+- Throughput
+	- 시간 당 수행되는 일의 개수
+- Turnaround time
+	- 일이 끝날 때까지 시간이 얼마나 걸리는가
+- Waiting time
+	- ready queue에 들어가고 나서 얼마나 기다리고 난 후 실행되는가
+- Response time
+	- 첫 번째 반응이 올 때까지의 시간
+## First-Come, First-Served (FCFS)
+먼저 온 것이 먼저 실행되는 것 (FIFO)
+끝나거나 I/O burst가 오기 전까지 실행한다.
+### 장점
+구현이 쉽다
+### 단점
+한 프로세스가 CPU를 독점할 수 있다.
+#### 해결
+time slice마다 context switching을 진행한다. (RR)
+### example
+![[Pasted image 20250327165432.png|300]]
+![[Pasted image 20250327165444.png|300]]
