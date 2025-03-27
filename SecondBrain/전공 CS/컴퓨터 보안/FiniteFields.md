@@ -12,3 +12,11 @@ G내에 역원 a<sup>-1</sup>이 존재하여 a•a<sup>-1</sup> = a<sup>-1</sup
 ### Commutativity (교환법칙) -> Abelian Group (아벨 군)
 a•b = b•a (이를 아벨 군이라고 한다.)
 ## Cyclic Group
+G의 모든 원소가 어떤 고정된 원소 a ∈ G 의 거듭제곱 형태 a<sup>k</sup>(=a•a•a•a•a...)로 표현될 수 있음을 의미
+이러한 원소 a를 G의 생성자라고 하며, G를 a에 의해 생성된 군이라고 한다.
+Cyclic Group은 항상 Abelian Group이며 유한할 수 있고 무한할 수도 있다.
+항등원은 a<sup>0</sup>=e로 정의된다.
+#### example
+![[Pasted image 20250327143017.png|300]]
+## Fields
+덧셈과 곱셈이라는 이항 연산을
