@@ -417,7 +417,29 @@ void sort (int v[], int n)
 ![[Pasted image 20250327152337.png|400]]
 ![[Pasted image 20250327152413.png|350]]
 ## Effect of Compiler Optimization / Language and Algorithm
-명령 수와 CPI는 단독으로 좋은 성능 지표가 아닙니다 • 
-컴파일러 최적화는 알고리즘에 민감합니다 • 
-Java/JIT 컴파일된 코드는 JVM 해석보다 훨씬 빠릅니다 • 
-어떤 경우에는 최적화된 C와 비슷합니다 • 멍청한 알고리즘을 고칠 수 있는 것은 없습니다!
+- Instruction count와 CPI는 단독으로 좋은 성능 지표가 아니다. 
+	- (Instruction count가 높은대신 CPI가 높을 수 있기 때문)
+- 컴파일러 최적화는 알고리즘에 민감하다
+- Java/JIT로 컴파일된 코드는 JVM intertpret보다 훨씬 빠르다
+	- 어떤 경우에는 최적화된 C와 비슷하다.
+## Arrays vs. Pointers
+- 배열 인덱싱
+	- 변수 크기로 index multiplication
+	- array base address에 더하기
+- 포인터
+	- 메모리 주소에 직접 대응
+	- 인덱싱 복잡성을 피할 수 있음
+
+"강도 감소"를 시프트로 곱하기 
+배열 버전은 시프트가 내부 루프에 있어야 합니다 • 
+	증가된 i에 대한 인덱스 계산의 일부 • 
+	c.f. 증가 포인터 • 
+컴파일러는 포인터의 수동 사용과 동일한 효과를 얻을 수 있습니다 • 
+	유도 변수 제거 • 
+	프로그램을 더 명확하고 안전하게 만드는 것이 좋습니다
+### example
+![[Pasted image 20250327153020.png|400]]
+arrays방식은 shift가 내부 loop에 있어야 한다.
+index로 부터 주소를 계산하는 과정이 계속 필요하다.
+## ARM VS. MIPS
+ARM은 MIPS보다 Registers의 수를 줄였다.
