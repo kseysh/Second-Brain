@@ -46,4 +46,4 @@ a • (b + c) = a • b + a • c
 ## Finite Fields of the Form GF(p)
 Finite Fields는 많은 암호 알고리즘에서 중요한 역할을 한다.
 Finite Fields의 크기는 항상 소수 p의 거듭제곱 형태를 가져야 한다.
-크기가 pn인 Finite Fields는 일반적으로 GF(pn)으로
+크기가 p<sup>n</sup>인 Finite Fields는 일반적으로 GF(p<sup>n</sup>)으로 표기된다.
