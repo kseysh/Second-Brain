@@ -134,3 +134,7 @@ plain text: attack postponed until two am
 round가 적용될 수 있다
 round: 똑같은 변형 규칙을 여러 번 적용하는 것
 ![[Pasted image 20250325141623.png|300]]
+
+From 7th ed
+Steganography: 평문 안에 비밀 메시지를 숨겨놓은 것
+
