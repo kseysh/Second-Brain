@@ -4,6 +4,10 @@
 - key stream이 무작위라면, unbreakable하다.
 - 전송할 데이터 트래픽이 크다면, 저장의 문제로 인해 해결하기 어렵다
 	- 따라서 key와 key를 seed로 하는 key generator를 이용하여 plaintext를 암호화하는 방식을 사용한다.
-	- 사용자는 generating key만 공유하면 되고, 각자 
-
+	- 사용자는 generating key만 공유하면 되고, 각자 key stream을 생성할 수 있다 (대칭 암호 방식)
 ex) Autokeyed Vigenère cipher, Vernam cipher
+## Block Cipher
+- playfair의 숫자 단위 크기를 늘리는 느낌이다.
+- 평문 블록을 전체 단위로 처리하여 동일한 길이의 암호문 블록을 생성한다.
+- 대칭 암호화 키를 공유한다.
+- 대부분의 네트워크 기반 대칭 암
