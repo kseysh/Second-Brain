@@ -74,4 +74,18 @@ time slice와 context switching은 1000배 차이이므로 context switching 비
 ### CPU burst time 예측
 예측 된 값 중 가장 짧은 프로세스를 선택하는 것.
 예측하는 값은 과거의 값을 사용한다.
+
+𝑡<sub>𝑛</sub>: n<sub>th</sub> CPU burst의 실제 값
+𝜏<sub>𝑛+1</sub>: 다음 CPU burt의 예측 값
+𝛼: 실제 값을 얼마나 높게 평가할 것인지
+𝜏<sub>𝑛+1</sub> = 𝛼𝑡<sub>𝑛</sub> + (1 − 𝛼)𝜏<sub>𝑛</sub>
+𝛼 = 0 이면, 최근 값을 count하지 않는다.
+𝛼 = 0 이면, 마지막 CPU burst만 count한다.
+![[Pasted image 20250327173201.png|150]]
+풀면 이렇게 되는데, 이렇게 점점 옛날 값은 weight이 작아지게 된다.
+
+### 
+하지만 잘 사용하지 않는 방법이다.
+history를 보는 것이 부정확한 경우가 있기 때문
+application마다 𝛼값이 다르기도 하기 때문에, 적용하기 어려움
 ## Round Robin (RR)
