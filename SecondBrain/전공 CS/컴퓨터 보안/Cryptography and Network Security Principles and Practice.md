@@ -134,7 +134,15 @@ plain text: attack postponed until two am
 round가 적용될 수 있다
 round: 똑같은 변형 규칙을 여러 번 적용하는 것
 ![[Pasted image 20250325141623.png|300]]
+## Rotor machines
+![[Pasted image 20250327133442.png|300]]
+## Steganography
+- 평문 안에 비밀 메시지를 숨겨놓은 것
+- 기밀 메시지의 존재 자체를 숨기는 기술이기도 하다.
+- 암호화 - 트래픽을 중요한 것이라고 생각될 수 있다. 송신자나 수신자가 숨길 것이 있는 사람임을 나타낼 수 있다.
+- 상대적으로 적은 정보 비트를 숨기기 위해 많은 오버헤드를 필요로 한다.
+- 한 번 발견되면, 가치가 없어진다.
+- ex) 보이지 않는 잉크, 핀 구멍 등등...
 
-From 7th ed
-Steganography: 평문 안에 비밀 메시지를 숨겨놓은 것
+
 
