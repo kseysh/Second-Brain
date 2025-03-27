@@ -54,3 +54,7 @@ time slice마다 context switching을 진행한다. (RR)
 ### example
 ![[Pasted image 20250327165432.png|300]]
 ![[Pasted image 20250327165444.png|300]]
+- convoy effect - 짧은 프로세스가 긴 프로세스 뒤에 와서 waiting time이 늘어나는 것
+## Shortest Job First (SJF)
+CPU burst가 짧은 것을 먼저 수행한다 (CPU burst 측정은 어떻게 하는가?)
+가장 바람직한 방식이다.
