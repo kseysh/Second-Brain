@@ -56,5 +56,20 @@ time slice마다 context switching을 진행한다. (RR)
 ![[Pasted image 20250327165444.png|300]]
 - convoy effect - 짧은 프로세스가 긴 프로세스 뒤에 와서 waiting time이 늘어나는 것
 ## Shortest Job First (SJF)
-CPU burst가 짧은 것을 먼저 수행한다 (CPU burst 측정은 어떻게 하는가?)
+CPU burst가 짧은 것을 먼저 수행한다
+- Non-preemptive
+	- CPU가 프로세스에 할당되면, CPU burst가 완료될 때까지 선점될 수 없다.
+- Preemptive
+	- 현재 실행 프로세스의 남은 시간보다 짧은 CPU burst length로 새 프로세스가 도착하면 선점합니다. 
+	- (이상적? why context switching 비용은?)
+	- context switching 비용을 골
+	- Shortest Remaining Time First (SRTF) ofo Shortest Time to Completion First(STCF)라고도 불린다.
+### 장점
 가장 바람직한 방식이다.
+### 단점
+CPU burst length를 측정하기 어려움
+따라서, 실제로 구현하지 못하는 방식임
+#### example
+![[Pasted image 20250327171354.png|300]]
+![[Pasted image 20250327171407.png|300]]
+## Round Robin (RR)
