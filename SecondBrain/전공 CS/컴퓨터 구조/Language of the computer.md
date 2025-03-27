@@ -383,3 +383,41 @@ bne $at, $zero, L
 
 $at: assembler temporary
 - 다른 레지스터가 쓰지 않는 register 번역할 때 사용하는 레지스터 (**다시 보기**)
+## Starting Java Applications
+![[Pasted image 20250327152038.png|300]]
+## C Sort Example
+### Swap 함수
+```c
+void swap(int v[], int k)
+{
+	int temp;
+	temp = v[k];
+	v[k] = v[k+1];
+	v[k+1] = temp;
+}
+```
+v: $a0
+k: $a1
+temp: $t0
+![[Pasted image 20250327152149.png|300]]
+### Sort Procedure
+```c
+void sort (int v[], int n)
+{
+	int i, j;
+	for (i = 0; i < n; i += 1) {
+		for (j = i– 1; j >= 0 && v[j] > v[j + 1]; j -= 1) {
+			swap(v,j);
+		}
+	}
+}
+```
+
+![[Pasted image 20250327152351.png|350]]
+![[Pasted image 20250327152337.png|400]]
+![[Pasted image 20250327152413.png|350]]
+## Effect of Compiler Optimization / Language and Algorithm
+명령 수와 CPI는 단독으로 좋은 성능 지표가 아닙니다 • 
+컴파일러 최적화는 알고리즘에 민감합니다 • 
+Java/JIT 컴파일된 코드는 JVM 해석보다 훨씬 빠릅니다 • 
+어떤 경우에는 최적화된 C와 비슷합니다 • 멍청한 알고리즘을 고칠 수 있는 것은 없습니다!
