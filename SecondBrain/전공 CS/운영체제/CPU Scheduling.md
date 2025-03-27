@@ -61,9 +61,7 @@ CPU burst가 짧은 것을 먼저 수행한다
 	- CPU가 프로세스에 할당되면, CPU burst가 완료될 때까지 선점될 수 없다.
 - Preemptive
 	- 현재 실행 프로세스의 남은 시간보다 짧은 CPU burst length로 새 프로세스가 도착하면 선점합니다. 
-	- (이상적? why context switching 비용은?)
-	- context switching 비용을 골
-	- Shortest Remaining Time First (SRTF) ofo Shortest Time to Completion First(STCF)라고도 불린다.
+	- Shortest Remaining Time First (SRTF) or Shortest Time to Completion First(STCF)라고도 불린다.
 ### 장점
 가장 바람직한 방식이다.
 ### 단점
@@ -72,4 +70,8 @@ CPU burst length를 측정하기 어려움
 #### example
 ![[Pasted image 20250327171354.png|300]]
 ![[Pasted image 20250327171407.png|300]]
+time slice와 context switching은 1000배 차이이므로 context switching 비용은 크게 고려하지 않아도 된다.
+### CPU burst time 예측
+예측 된 값 중 가장 짧은 프로세스를 선택하는 것.
+예측하는 값은 과거의 값을 사용한다.
 ## Round Robin (RR)
