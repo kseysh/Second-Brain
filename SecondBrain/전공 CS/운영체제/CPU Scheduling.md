@@ -83,9 +83,16 @@ time slice와 context switching은 1000배 차이이므로 context switching 비
 𝛼 = 0 이면, 마지막 CPU burst만 count한다.
 ![[Pasted image 20250327173201.png|150]]
 풀면 이렇게 되는데, 이렇게 점점 옛날 값은 weight이 작아지게 된다.
-
-### 
-하지만 잘 사용하지 않는 방법이다.
+### 실제 잘 사용하지는 않는다.
 history를 보는 것이 부정확한 경우가 있기 때문
 application마다 𝛼값이 다르기도 하기 때문에, 적용하기 어려움
 ## Round Robin (RR)
+time quantum/slice라고 불리는 시간을 프로세스가 할당받음
+시간이 끝나면, process는 preempted되고 ready queue에 마지막에 넣는다.
+- q가 크면
+	- 프로세스가 CPU를 독점한다
+- q가 작으면
+	- context switching이 많이 일어난다.
+![[Pasted image 20250327173943.png|300]]
+프로세스가 하나만 남아도 context switching을 진행하는지?
+남을 일이 별로 없나?
