@@ -443,3 +443,5 @@ arrays방식은 shift가 내부 loop에 있어야 한다.
 index로 부터 주소를 계산하는 과정이 계속 필요하다.
 ## ARM VS. MIPS
 ARM은 MIPS보다 Registers의 수를 줄였다.
+ARM은 MIPS보다 Data addressing mode의 수가 더 많다.
+ARM은 word size를 64bit로 늘렸다.
