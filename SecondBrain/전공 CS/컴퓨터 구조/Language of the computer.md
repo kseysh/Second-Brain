@@ -343,7 +343,7 @@ i = $s0
 - instruction의 크기는 4byte이므로, 4의 배수가 아닌 값은 쓸모가 없다.
 	- 따라서 constant address는 뒤에 00이 생략되어 있다.
 - 실제 주소 크기는 word size인 32bit이다.
-## Jump Addressing (j, jal) *다시 보기*
+## Jump Addressing (j, jal)
 Jump는 text segment에서 어디든 타겟할 수 있다.
 ![[Pasted image 20250325143928.png|400]]
 **(Pseudo)Direct jump addressing**을 사용한다. (J-Format은 address 부분이 크기 때문)
