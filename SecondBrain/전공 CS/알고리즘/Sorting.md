@@ -37,17 +37,30 @@ int shiftVacRec(Element[] E, int vacant, Key x){
 4. 따라서 평균 비교 횟수는 ![[Pasted image 20250327222501.png|100]]과 같다
 5. ![[Pasted image 20250327222539.png|100]]이고, 따라서 ![[Pasted image 20250327222558.png|100]]이다.
 6. 뒤의 i/i+1은 물어보자
-### 공간 복잡도 분석
-
 ### Worst-Case 분석
 1. Index 1부터 시작하여 현재까지 정렬된 부분에서 적절한 위치를 찾아 삽입한다.
 2. i 번째 원소를 올바른 위치에 삽입하기 위해 최대 i-1번의 비교 및 이동이 필요하므로 총 이동 횟수는 아래와 같다.
 ![[Pasted image 20250327214432.png|200]]
 
+## Quick Sort
 
-## 알고리즘
+Quick Sort는 분할정복 방식을 기반으로 한 randomized sorting algorithm이다.
 ### 의사코드
+![[Pasted image 20250328215351.png|200]]
+- Divide: pivot이라고 불리는 랜덤한 요소 x를 뽑고, L,E,G로 파티션을 만들고 나눈다.
+	- L: x보다 작은 요소
+	- E: x와 같은 요소
+	- G: x보다 큰 요소
+- Conquer: L과 G를 sort
+- Combine: L,E와 G를 합친다.
+각 삽입과 제거는 시퀀스의 시작 또는 끝에 있어서 O(1) 시간이 걸린다.
+따라서, Quick Sort의 분할 단계는 O(n) 시간이 걸린다.
+### Worst-Case 분석
+Worst-Case: pivot이 고유한 최소 또는 최대 요소일 때 발생
+L과 G 중 하나는 크기가 n − 1이고 다른 하나는 크기가 0이다.
+실행 시간은 n + (n − 1) + ... + 2 + 1의 합계에 비례. 
+따라서 Quick Sort의 최악의 실행 시간은 O(n<sup>2</sup>)
 ### 평균수행시간 분석
 ### 공간 복잡도 분석
 
-### 시간 복잡도 분석
+
