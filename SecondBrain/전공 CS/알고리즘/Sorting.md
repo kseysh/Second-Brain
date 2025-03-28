@@ -43,8 +43,8 @@ int shiftVacRec(Element[] E, int vacant, Key x){
 ![[Pasted image 20250327214432.png|200]]
 
 ## Quick Sort
-
 Quick Sort는 분할정복 방식을 기반으로 한 randomized sorting algorithm이다.
+분할 단계에서 배열을 두 개의 서브 배열로 나누고, 이들 각각에 대해 재귀적으로 정렬을 수행하는 방식
 ### 의사코드
 ![[Pasted image 20250328215351.png|200]]
 - Divide: pivot이라고 불리는 랜덤한 요소 x를 뽑고, L,E,G로 파티션을 만들고 나눈다.
@@ -63,4 +63,10 @@ L과 G 중 하나는 크기가 n − 1이고 다른 하나는 크기가 0이다.
 ### 평균수행시간 분석
 ### 공간 복잡도 분석
 
-
+## In-Place Quick-Sort
+배열의 원소들을 같은 배열 내에서 정렬하는 방식 
+추가적인 메모리 공간을 거의 사용하지 않고, 분할 단계에서 배열의 원소들만 교환하여 정렬 수행
+![[Pasted image 20250328220218.png|300]]
+#### example
+![[Pasted image 20250328220729.png|400]]
+j는 왼쪽에서 오른쪽으로 이동하며 pivot보다 코
