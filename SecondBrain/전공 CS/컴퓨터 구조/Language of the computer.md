@@ -382,7 +382,7 @@ bne $at, $zero, L
 ```
 
 $at: assembler temporary
-- 다른 레지스터가 쓰지 않는 register 번역할 때 사용하는 레지스터 (**다시 보기**)
+- 어셈블러가 어셈블리어를 기계어로 번역하면서 임시 레지스터가 필요할 때 사용되는 레지스터
 ## Starting Java Applications
 ![[Pasted image 20250327152038.png|300]]
 ## C Sort Example
