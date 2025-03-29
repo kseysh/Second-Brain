@@ -72,6 +72,27 @@ DB 병목은 발생하지 않음
 표본의 개수가 너무 적음, generation의 기수성이 너무 낮아 인덱스를 타지 않는다.
 옵티마이저가 seq scan이 더 낫다고 판단하고 seq scan을 해요
 
+```sql
+explain analyze  
+    select   
+	    su1_0.generation,  
+        su1_0.nickname,  
+        su1_0.profile_message,  
+        su1_0.total_points  
+    from  
+        app_prod.soptamp_user su1_0  
+    where  
+        su1_0.generation=35  
+    order by su1_0.total_points desc;
+```
+#### 커버링 인덱스 시도
+```sql
+CREATE INDEX idx_for_rank  
+ON app_prod.soptamp_user (generation, total_points DESC) INCLUDE (nickname, profile_message);
+```
+excution time이 줄어들었다! 0.140ms -> 0.110ms
+하지만, `set enable_seqscan = off;`를 적용해줘야 함
+
 기존 버전 : git checkout 3e27985
 sorted set 버전: git checkout8cfeac1
 index 버전:  git checkout e654c7e
