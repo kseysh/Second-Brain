@@ -66,6 +66,7 @@ DB 병목은 발생하지 않음
 ![[Pasted image 20250228230739.png|400]]
 ## redis sorted set 버전
 ![[Pasted image 20250228225325.png|400]]
+1. redis로 
 ## index 버전
 
 데이터 100만개 넣고 다시 시도해봅시다!!!
