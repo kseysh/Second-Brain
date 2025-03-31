@@ -47,7 +47,7 @@ https://gmlwjd9405.github.io/2018/05/10/algorithm-quick-sort.html
 Quick Sort는 분할정복 방식을 기반으로 한 randomized sorting algorithm이다.
 분할 단계에서 배열을 두 개의 서브 배열로 나누고, 이들 각각에 대해 재귀적으로 정렬을 수행하는 방식
 ### 의사코드
-![[Pasted image 20250328215351.png|200]]
+![[Pasted image 20250331153238.png|200]]
 - Divide: pivot이라고 불리는 랜덤한 요소 x를 뽑고, L,E,G로 파티션을 만들고 나눈다.
 	- L: x보다 작은 요소
 	- E: x와 같은 요소
