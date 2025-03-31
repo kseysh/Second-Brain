@@ -85,7 +85,7 @@ ba | lx | lo | on으로 나누고, 1을 적용 후 3,2,3,4의 규칙을 적용�
 가장 잘 알려지고 간단한 다중 알파벳 치환 암호
 #### example
 key : deceptive
-plaintext: we are discovered save yourself
+plaintext: we are   save yourself
 ![[Pasted image 20250325135609.png|300]]
 같은 e라도 다르게 번역될 수 있음 (Polyalphabetic Cipher의 특징)
 #### 단점
@@ -106,7 +106,7 @@ p = (c-k)mod 2
 1 = 1 xor 0
 0 = 1 xor 1
 ### One-Time Pad
-- vernam은 key stream generator를 계속 사용하지만, One-Time Pad는 vernam과 다르게 key를 한 번 쓰고 버린다.
+- vernam은 key stream generator를 계속 사용하지만, One-Time Pad는 vernam cipher의 일종으로, key를 한 번 쓰고 버린다.
 - 메시지와 동일한 길이의 random key를 사용하여 key를 반복해서 사용할 필요가 없다.
 - 하나의 메시지를 암호화 및 복호화한 후, 키를 폐기한다.
 #### 장점
