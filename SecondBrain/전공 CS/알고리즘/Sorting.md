@@ -48,12 +48,6 @@ Quick Sort는 분할정복 방식을 기반으로 한 randomized sorting algori
 분할 단계에서 배열을 두 개의 서브 배열로 나누고, 이들 각각에 대해 재귀적으로 정렬을 수행하는 방식
 ### 의사코드
 ![[Pasted image 20250331153238.png|200]]
-- Divide: pivot이라고 불리는 랜덤한 요소 x를 뽑고, L,E,G로 파티션을 만들고 나눈다.
-	- L: x보다 작은 요소
-	- E: x와 같은 요소
-	- G: x보다 큰 요소
-- Conquer: L과 G를 sort
-- Combine: L,E와 G를 합친다.
 각 삽입과 제거는 시퀀스의 시작 또는 끝에 있어서 O(1) 시간이 걸린다.
 따라서, Quick Sort의 분할 단계는 O(n) 시간이 걸린다.
 ### Worst-Case 분석
