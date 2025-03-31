@@ -47,6 +47,17 @@ https://gmlwjd9405.github.io/2018/05/10/algorithm-quick-sort.html
 Quick Sort는 분할정복 방식을 기반으로 한 randomized sorting algorithm이다.
 분할 단계에서 배열을 두 개의 서브 배열로 나누고, 이들 각각에 대해 재귀적으로 정렬을 수행하는 방식
 ### 의사코드
+
+```cpp
+quickSort(S, l, r)
+1  if ( l ≥ r )  // (①: 부분 리스트의 크기가 1 이하일 경우 종료)
+2      return
+3  i ← a random integer between l and r
+4  x ← S.elemAtRank(i)
+5  (h, k) ← partition(S, l, r, x)  // (②: 피벗을 기준으로 리스트 분할)
+6  quickSort(S, l, h - 1)  // (③: 왼쪽 부분 리스트 정렬)
+7  quickSort(S, k + 1, r)  // (④: 오른쪽 부분 리스트 정렬)
+```
 ![[Pasted image 20250331153238.png|200]]
 각 삽입과 제거는 시퀀스의 시작 또는 끝에 있어서 O(1) 시간이 걸린다.
 따라서, Quick Sort의 분할 단계는 O(n) 시간이 걸린다.
