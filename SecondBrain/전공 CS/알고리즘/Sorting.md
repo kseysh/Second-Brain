@@ -42,6 +42,8 @@ int shiftVacRec(Element[] E, int vacant, Key x){
 2. i 번째 원소를 올바른 위치에 삽입하기 위해 최대 i-1번의 비교 및 이동이 필요하므로 총 이동 횟수는 아래와 같다.
 ![[Pasted image 20250327214432.png|200]]
 
+## Divide and Conquer
+![[Pasted image 20250331172122.png|300]]
 ## Quick Sort
 https://gmlwjd9405.github.io/2018/05/10/algorithm-quick-sort.html
 Quick Sort는 분할정복 방식을 기반으로 한 randomized sorting algorithm이다.
