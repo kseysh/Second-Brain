@@ -131,5 +131,15 @@ Ready queue를 partitioning하여 큐를 분리한다.
 	- 기아 현상이 발생할 수 있음
 - Round Robin
 ### 문제
-처음에 어떤 큐에 넣느냐가 지속적인 스케쥴링에 영향을 줄 수 있기 때문에
+처음에 어떤 큐에 넣느냐가 지속적인 스케쥴링에 영향을 줄 수 있다 (계속 특정 우선 순위에 있는 큐에 있어야 하므로)
 ## Multilevel Feedback Queue
+피드백을 줘서 프로세스가 큐 간 이동할 수 있도록 한다.
+#### example
+![[Pasted image 20250401171011.png|200]]
+큐 간의 스케쥴링은 priority로 움직이고, 큐 내부에서는 RR을 사용한다. (우선 순위가 높은 큐가 cpu burst가 짧을 것이므로 짧은 time slice를 가짐)
+만약 IO없이 time slice를 모두 사용했다면, priority를 감소시킨다. 
+=> 이렇게 하면 자연스레 CPU burst가 짧은 프로세스는 우선순위가 높게, 긴 프로세스는 우선순위가 낮게 분포된다.
+
+P1: 1ms 돌고, 10ms IO를 기다리는 프로세스
+P2: 계속 도는 프로세스
+![[Pasted image 20250401171353.png|200]]
