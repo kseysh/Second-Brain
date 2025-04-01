@@ -70,4 +70,29 @@ x<sup>2</sup>-1 = (x+1)(x-1)이 되지만, x<sup>2</sup>+x+1은 분해가 되지
 Addition에서 mod 2를 해서 없어지는 모습을 볼 수 있다.
 ![[Pasted image 20250401142329.png|300]]
 GF(2)에서는, x<sup>2</sup>+1이 prime polynomial이 아니다.
-x<sup>2</sup>+1 = x<sup>2</sup>+2x+1 이고, 
+x<sup>2</sup>+1 = x<sup>2</sup>+2x+1 이고, (x+1)<sup>2</sup>이기 때문이다.
+## Polynomial GCD
+기존 GCD와 같이 a(x)와 b(x)를 동시에 나누는 다항식 중 차수가 가장 큰 것을 의미한다.
+#### example
+GCD(x<sup>2</sup>+x , x<sup>2</sup>+1) = x+1
+## Extended Euclid
+![[Pasted image 20250401142818.png|400]]
+## Polynomial Arithmetic Modulo (x<sup>3</sup> + x + 1)
+### Addition
+![[Pasted image 20250401142940.png|400]]
+### Multiplication
+![[Pasted image 20250401143029.png|400]]
+## Arithmetic in GF(2<sup>3</sup>)
+### Addition
+![[Pasted image 20250401143106.png|300]]
+### Multiplication
+![[Pasted image 20250401143139.png|300]]
+### Additive and multiplicative inverses
+![[Pasted image 20250401143156.png|100]]
+## Computational Considerations
+계수들이 0,1이기 때문에 이를 비트 문자열로 표현할 수 있다.
+- 덧셈: XOR 연산
+- 곱셈: shift와 XOR
+모듈로 나눗셈에 의한 나머지 계산은 최고차 항을 약수 다항식으로 나눈 나머지로 반복적으로 대체함으로서 수행된다. (이것도 shift와 xor로 처리됨)
+#### example
+![[Pasted image 20250401143248.png|300]]
