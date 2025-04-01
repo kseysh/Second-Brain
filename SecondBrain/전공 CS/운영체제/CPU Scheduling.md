@@ -121,3 +121,15 @@ P1:  P2는 CPU burst가 긴 Job이 interrupt로 인해 손해를 볼 수 있다.
 #### 해결책
 프로세스의 우선순위를 시간이 지남에 따라 증가시킨다.
 ## Multilevel Queue
+![[Pasted image 20250401170520.png|250]]
+Ready queue를 partitioning하여 큐를 분리한다.
+- foreground (interactive)
+- background (batch)
+각 큐마다 다른 스케쥴링 방법론을 적용한다.
+큐 사이에서도 스케쥴링이 필요하다.
+- Fixed priority scheduling
+	- 기아 현상이 발생할 수 있음
+- Round Robin
+### 문제
+처음에 어떤 큐에 넣느냐가 지속적인 스케쥴링에 영향을 줄 수 있기 때문에
+## Multilevel Feedback Queue
