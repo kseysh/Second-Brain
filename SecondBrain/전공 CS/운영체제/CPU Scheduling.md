@@ -94,4 +94,17 @@ time quantum/slice라고 불리는 시간을 프로세스가 할당받음
 - q가 작으면
 	- context switching이 많이 일어난다.
 ![[Pasted image 20250327173943.png|300]]
+준비 대기열에 n개의 프로세스가 있고 time quantum이 q인 경우, 
+• 각 프로세스는 한 번에 최대 q 시간 단위의로 CPU 시간의 1/n을 얻는다. 
+• (n-1)q 시간 단위 이상 기다리는 프로세스는 없다. 
+### 단점
+두 개 프로세스, cpu burst 100ms, time quantum 10ms라면
+=> A의 waiting time 90ms, B의 waiting time 100ms이므로, Average wait time = 95ms가 되어버린다.
+• 라운드 로빈은 fair하지만, 균일하게 비효율적이다
+#### example
+P1: 1ms 돌고, 10ms를 IO를 위해 기다린다
+P2: No waiting, run continuously
 
+time quantum이 100ms인 RR이라면,
+P1:  P1은 1ms 돌고 100ms를 기다린다. => IO 프로세스가 1/10의 시간으로 일한다
+P2: 
