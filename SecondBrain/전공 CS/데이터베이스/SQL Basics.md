@@ -265,16 +265,6 @@ from (select dept_name, avg (salary)
 	group by dept_name) as dept_avg (dept_name, avg_salary)
 where avg_salary > 42000;
 ```
-
-### lateral
-서브 쿼리 실행시 각 행별로 동적으로 평가되는 서브쿼리를 사용할 수 있도록 하는 키워드
-```sql
-select name, salary, avg_salary
-from instructor I1, lateral (select avg(salary) as avg_salary
-	from instructor I2
-	where I2.dept_name= I1.dept_name);
-```
-
 ### with
 with 절이 발생하는 쿼리에 대해서만 정의를 사용할 수 있는 temporary view를 정의하는 방법을 제공
 

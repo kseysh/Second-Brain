@@ -48,10 +48,26 @@ Finite Fields는 많은 암호 알고리즘에서 중요한 역할을 한다.
 Finite Fields의 크기는 항상 소수 p의 거듭제곱 형태를 가져야 한다.
 크기가 p<sup>n</sup>인 Finite Fields는 일반적으로 GF(p<sup>n</sup>)으로 표기된다.
 ## Arithmetic Modulo 8 and Modulo 7
-### Addition modulo 8
+### Addition modulo 8 vs 7
 ![[Pasted image 20250401141406.png|200]]
-0을 제외한 모든 원소가 곱셈의 역원을 가지기 때문에 모든 행에 0이 있다.
-### Multiplication modulo 8
+![[Pasted image 20250401141731.png|200]]
+### Multiplication modulo 8 vs 7
 ![[Pasted image 20250401141443.png|200]]
-### Additive and multiplicative inverses modulo 8
+곱셈의 역원이 항상 존재하지는 않는다.
+![[Pasted image 20250401141627.png|200]]
+0을 제외한 모든 원소가 곱셈의 역원을 가지기 때문에 모든 행에 1이 있다.
+### Additive and multiplicative inverses modulo 8 vs 7
 ![[Pasted image 20250401141533.png|200]]
+![[Pasted image 20250401141753.png|200]]
+0을 제외한 모든 원소가 곱셈의 역원을 가진다.
+## GF(p)의 성질
+GF(p)는 p개의 원소로 구성된다. (0~p-1)
+집합 내에서 덧셈, 곱셈, 나눗셈 연산을 수행할 수 있고, 0을 제외한 모든 원소는 곱셈에 대한 역원을 가짐
+## 다항식 나눗셈
+x<sup>2</sup>-1 = (x+1)(x-1)이 되지만, x<sup>2</sup>+x+1은 분해가 되지 않으므로 prime polynomial이라 한다.
+## GF(2)에서 Polynmial Arithmetic
+![[Pasted image 20250401142319.png|300]]
+Addition에서 mod 2를 해서 없어지는 모습을 볼 수 있다.
+![[Pasted image 20250401142329.png|300]]
+GF(2)에서는, x<sup>2</sup>+1이 prime polynomial이 아니다.
+x<sup>2</sup>+1 = x<sup>2</sup>+2x+1 이고, 
