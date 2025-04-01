@@ -14,7 +14,10 @@
 	- 작업의 우선 순위에 따라 decay factor와 연관되어 - 우선 순위가 낮을수록 decay rate가 높다 
 	- Nice value가 0이면, 가상 런타임 = 실제 런타임이다 (Nice value가 0인 weight이 1024라서)
 - 실행할 다음 작업을 결정하기 위해 스케줄러는 가상 런타임이 가장 낮은 태스크를 선택한다
+![[Pasted image 20250401174108.png|300]]
+Normal : Nice value
+Real-Time: 실시간성이 중요한 프로세스의 우선순위 설정시 사용, 따로 관리가 된다.
 #### example
 ![[Pasted image 20250401173421.png|400]]
-weight은 설정된 값
+weight은 시스템에서 제공하는 fixed value다
 W<sub>0</sub>/W<sub>p</sub> = 1024/weight
