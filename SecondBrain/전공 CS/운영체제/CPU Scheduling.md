@@ -94,5 +94,4 @@ time quantum/slice라고 불리는 시간을 프로세스가 할당받음
 - q가 작으면
 	- context switching이 많이 일어난다.
 ![[Pasted image 20250327173943.png|300]]
-프로세스가 하나만 남아도 context switching을 진행하는지?
-남을 일이 별로 없나?
+
