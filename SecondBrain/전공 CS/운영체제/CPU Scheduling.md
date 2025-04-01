@@ -105,6 +105,19 @@ time quantum/slice라고 불리는 시간을 프로세스가 할당받음
 P1: 1ms 돌고, 10ms를 IO를 위해 기다린다
 P2: No waiting, run continuously
 
-time quantum이 100ms인 RR이라면,
+time quantum이 100ms인 RR이라면 (너무 크다면)
 P1:  P1은 1ms 돌고 100ms를 기다린다. => IO 프로세스가 1/10의 시간으로 일한다
-P2: 
+
+time quantum이 1ms인 RR이라면 (너무 작다면)
+P1:  P2는 CPU burst가 긴 Job이 interrupt로 인해 손해를 볼 수 있다.
+## Priority Scheduling
+![[Pasted image 20250401165522.png|300]]
+낮은 Integer를 가진 Job이 우선 순위가 높다.
+- Preemptive
+- Non-preemptive
+의 방식이 있다.
+### 단점
+우선순위가 낮은 프로세스는 실행되지 않을 수 있다.
+#### 해결책
+프로세스의 우선순위를 시간이 지남에 따라 증가시킨다.
+## Multilevel Queue
