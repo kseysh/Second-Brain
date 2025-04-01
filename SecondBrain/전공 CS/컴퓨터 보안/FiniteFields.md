@@ -47,7 +47,11 @@ a • (b + c) = a • b + a • c
 Finite Fields는 많은 암호 알고리즘에서 중요한 역할을 한다.
 Finite Fields의 크기는 항상 소수 p의 거듭제곱 형태를 가져야 한다.
 크기가 p<sup>n</sup>인 Finite Fields는 일반적으로 GF(p<sup>n</sup>)으로 표기된다.
-
-
-144
-0을 제외한 모든 원소가 곱셈의 역원을 가지기 때문에 가능하다
+## Arithmetic Modulo 8 and Modulo 7
+### Addition modulo 8
+![[Pasted image 20250401141406.png|200]]
+0을 제외한 모든 원소가 곱셈의 역원을 가지기 때문에 모든 행에 0이 있다.
+### Multiplication modulo 8
+![[Pasted image 20250401141443.png|200]]
+### Additive and multiplicative inverses modulo 8
+![[Pasted image 20250401141533.png|200]]
