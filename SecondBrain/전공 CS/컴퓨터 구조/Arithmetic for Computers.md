@@ -23,5 +23,6 @@ pipeline화 할 수 있다.
 rs x rt를 해서, 상위 32bit는 HI, 하위 32bit는 LO에 저장함
 #### `mfhi rd / mflo rd`
 move $s0, HI와 같다.
-HI를 이용해
+HI를 이용해 32bit overflow를 확인할 수 있다
 #### `mul rd, rs, rt`
+least significant 32 bit를 rd로 옮긴다.
