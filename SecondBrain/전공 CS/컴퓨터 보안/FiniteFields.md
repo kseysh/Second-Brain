@@ -84,9 +84,12 @@ GCD(x<sup>2</sup>+x , x<sup>2</sup>+1) = x+1
 ### Multiplication
 ![[Pasted image 20250401143029.png|400]]
 ## Arithmetic in GF(2<sup>3</sup>)
+GF(2<sup>3</sup>)은 체이므로 항상 곱셈의 역원이 존재하고, 덧셈했을 때, 0이 되는 값이 존재한다.
 ### Addition
+덧셈 연산에 대해 Abelian Group을 형성
 ![[Pasted image 20250401143106.png|300]]
 ### Multiplication
+항상 곱셈의 역원 존재
 ![[Pasted image 20250401143139.png|300]]
 ### Additive and multiplicative inverses
 ![[Pasted image 20250401143156.png|100]]
@@ -97,3 +100,4 @@ GCD(x<sup>2</sup>+x , x<sup>2</sup>+1) = x+1
 모듈로 나눗셈에 의한 나머지 계산은 최고차 항을 약수 다항식으로 나눈 나머지로 반복적으로 대체함으로서 수행된다. (이것도 shift와 xor로 처리됨)
 #### example
 ![[Pasted image 20250401143248.png|300]]
+x<sup>n</sup> mod (x<sup>n</sup>+(something)) = something
