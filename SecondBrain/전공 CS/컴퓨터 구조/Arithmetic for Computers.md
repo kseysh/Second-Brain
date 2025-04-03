@@ -61,4 +61,22 @@ multiplier와 같은 hardware를 사용할 수 있다.
 multiplier처럼 병렬 계산은 사용하기 어렵다.
 - 이전 결과에 의해 영향을 받기 때문
 ## MIPS Division
-결과를 위HI/LO 
+결과를 위해 HI/LO register를 사용한다.
+- HI: 32-bit remainder
+- LO: 32-bit quotient
+### `div rs, rt / divu rs, rt`
+0 나눗셈을 체크하지 않음 (소프트웨어가 따로 처리해야 함)
+결과에 접근하기 위해 mfhi, mflo를 사용한다.
+## Floating Point
+- Single precision : 32-bit
+- Double precision : 64-bit
+![[Pasted image 20250403135708.png|300]]
+### Single-Precision Range
+![[Pasted image 20250403140039.png|200]]
+Exponent 00000000 과 11111111은 Reserved value (따라서 smallest/largest value 계산 시 조심)
+bias: 127
+### Double-Precision Range
+![[Pasted image 20250403140051.png|200]]
+Exponent 000...00 과 111...11은 Reserved value (따라서 smallest/largest value 계산 시 조심)
+bias: 1023
+### Floating Point Precision
