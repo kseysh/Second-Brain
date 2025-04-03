@@ -43,6 +43,7 @@ a • (b + c) = a • b + a • c
 하지만, 정수 집합은 Fields가 아니다. (모든 원소가 곱셈의 역원을 가지지 않기 때문 2의 역원은 정수가 아님)
 ## Types of Fields
 ![[Pasted image 20250327144107.png|300]]
+GF(15)는 있을 수 없음
 ## Finite Fields of the Form GF(p)
 Finite Fields는 많은 암호 알고리즘에서 중요한 역할을 한다.
 Finite Fields의 크기는 항상 소수 p의 거듭제곱 형태를 가져야 한다.
