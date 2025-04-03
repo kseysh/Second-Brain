@@ -22,7 +22,18 @@ pipeline화 할 수 있다.
 #### `mult rs, rt / multu rs, rt`
 rs x rt를 해서, 상위 32bit는 HI, 하위 32bit는 LO에 저장함
 #### `mfhi rd / mflo rd`
-move $s0, HI와 같다.
+move $s0, HI와 같다. (move from HI/LO)
 HI를 이용해 32bit overflow를 확인할 수 있다
 #### `mul rd, rs, rt`
 least significant 32 bit를 rd로 옮긴다.
+아래 두 개와 같은 역할을 함
+mult rs rt
+mflo $rd
+## Division
+- 0으로 나누는 경우를 먼저 확인
+- Long division
+	- If divisor ≤ dividend bits
+		- 몫에 1을 넣고, 뺄셈 수행
+	- else
+		- 몫에 0을 넣고, 다음 나눠지는 수의 비트를 내려옴
+- restoring
