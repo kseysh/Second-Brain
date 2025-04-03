@@ -180,5 +180,27 @@ CPU 스케줄링은 여러 개의 CPU가 있을 때 더 복잡해진다.
 - Per-core ready queue
 	- 각 프로세서가 자신만의 독립된 스레드 큐를 가질 수 있음
 	- 코어마다 load가 불균형할 가능성이 있음
+	- cache hit rate가 늘어남 (코어에 캐시가 저장되므로)
 ![[Pasted image 20250403164152.png|300]]
 ### Load Balancing
+SMP 환경에서는 운영체제가 모든 CPU에 고르게 작업을 배분해야 효율적임
+• `Push migration` : 주기적으로 태스크가 각 프로세서의 부하를 확인하고, 과부하된 CPU에서 다른 CPU로 태스크를 옮김
+• `Pull migration`: Idle 상태의 프로세서가 바쁜 프로세서로부터 대기 중인 태스크를 가져옴
+## Real-Time CPU Scheduling
+Deadline안에 task를 완수해야하는 시스템에 사용되는 스케줄링 방식
+• Soft real-time systems: 중요한 실시간 프로세스가 언제 스케줄될지에 대한 보장이 없음
+• Hard real-time systems: Task가 반드시 정해진 기한 내에 처리되어야 함
+
+- 성능에 영향을 미치는 두 가지 지연(latency)
+1. Interrupt latency: 인터럽트가 도착한 시점부터 ISR(인터럽트 서비스 루틴)이 시작될 때까지의 시간
+2. Dispatch latency: Context Switching에 걸리는 시간
+### Priority-based Scheduling
+실시간 스케줄링을 위해서는 선점형(preemptive), 우선순위 기반 스케줄링을 지원해야 함
+-	하지만 이는 소프트 실시간만 보장할 수 있음
+-	하드 실시간을 위해서는 deadline을 충족시킬 수 있는 기능이 추가로 필요함
+
+실시간 프로세스의 새로운 특성
+-	주기적인 태스크: 일정한 간격으로 CPU를 필요로 함
+-	매개변수: 처리 시간 t, 마감 기한 d, 주기 p
+-	조건: 0 ≤ t ≤ d ≤ p
+-	주기적인 태스크의 실행률(rate)은 1/p
