@@ -74,9 +74,24 @@ multiplier처럼 병렬 계산은 사용하기 어렵다.
 ### Single-Precision Range
 ![[Pasted image 20250403140039.png|200]]
 Exponent 00000000 과 11111111은 Reserved value (따라서 smallest/largest value 계산 시 조심)
+Exponent는 8자리
 bias: 127
 ### Double-Precision Range
 ![[Pasted image 20250403140051.png|200]]
 Exponent 000...00 과 111...11은 Reserved value (따라서 smallest/largest value 계산 시 조심)
+Exponent는 11자리
 bias: 1023
 ### Floating Point Precision
+- single: 약 2<sup>-23</sup>의 정밀도 
+	- 이는 10진수로 약 6자리 정도의 정밀도를 뜻함
+- Double: 약 2<sup>-52</sup>의 정밀도
+	- 이는 10진수로 약 16자리 정도의 정밀도를 뜻함
+#### example
+-0.75를 single과 double로 표현
+![[Pasted image 20250403140721.png|200]]
+
+1/10000001/010000...00을 숫자로
+![[Pasted image 20250403140806.png|200]]
+
+![[Pasted image 20250403140837.png|300]]
+single은 2<sup>-23</sup>의 정밀도를 가지는데, 여기서는 Fraction이 30bit이므로 7bit가 사라지게된다.
