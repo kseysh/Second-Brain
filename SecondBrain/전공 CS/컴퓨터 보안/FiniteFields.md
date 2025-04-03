@@ -100,4 +100,8 @@ GF(2<sup>3</sup>)은 체이므로 항상 곱셈의 역원이 존재하고, 덧�
 모듈로 나눗셈에 의한 나머지 계산은 최고차 항을 약수 다항식으로 나눈 나머지로 반복적으로 대체함으로서 수행된다. (이것도 shift와 xor로 처리됨)
 #### example
 ![[Pasted image 20250401143248.png|300]]
-x<sup>n</sup> mod (x<sup>n</sup>+`f(x)`) = `f(x)`
+x<sup>n</sup> mod (x<sup>n</sup>+`f(x)`) = `f(x)` 
+=> 이 규칙으로 인해 m(x)가 100011011이 아닌 00011011과 xor를 진행함
+
+![[Pasted image 20250403161306.png|400]]
+![[Pasted image 20250403161521.png|400]]
