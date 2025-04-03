@@ -195,12 +195,38 @@ Deadline안에 task를 완수해야하는 시스템에 사용되는 스케줄링
 1. Interrupt latency: 인터럽트가 도착한 시점부터 ISR(인터럽트 서비스 루틴)이 시작될 때까지의 시간
 2. Dispatch latency: Context Switching에 걸리는 시간
 ### Priority-based Scheduling
-실시간 스케줄링을 위해서는 선점형(preemptive), 우선순위 기반 스케줄링을 지원해야 함
--	하지만 이는 소프트 실시간만 보장할 수 있음
+![[Pasted image 20250403165433.png|300]]
+실시간 스케줄링을 위해서는 preemptive, priority-based scheduling을 지원해야 함
+-	하지만 이는 soft real-time만 보장할 수 있음
 -	하드 실시간을 위해서는 deadline을 충족시킬 수 있는 기능이 추가로 필요함
 
 실시간 프로세스의 새로운 특성
--	주기적인 태스크: 일정한 간격으로 CPU를 필요로 함
--	매개변수: 처리 시간 t, 마감 기한 d, 주기 p
--	조건: 0 ≤ t ≤ d ≤ p
--	주기적인 태스크의 실행률(rate)은 1/p
+- 일정한 시간 간격으로 task가 일어나 CPU를 필요로 한다고 가정
+- 매개변수: 처리 시간 t, 마감 기한 d, 주기 p
+- 조건: 0 ≤ t ≤ d ≤ p
+- 주기적인 태스크의 실행률(rate)은 1/p
+#### Rate Monotic Scheduling (다시 보기)
+•	우선순위는 주기의 역수에 따라 부여됨
+•	짧은 주기 → 높은 우선순위
+•	긴 주기 → 낮은 우선순위
+##### example
+•	P1: p = 50, t = 20, d = 다음 주기 시작 시점
+•	P2: p = 100, t = 35, d = 다음 주기 시작 시점
+![[Pasted image 20250403165734.png|400]]
+P1 CPU utilization = 20/50
+P2 CPU utilization = 35/100
+
+•	P1: p = 50, t = 25, d = 다음 주기 시작 시점
+•	P2: p = 80, t = 35, d = 다음 주기 시작 시점
+![[Pasted image 20250403165746.png|400]]
+P1 CPU utilization = 25/50
+P2 CPU utilization = 35/80
+
+#### Earliest Deadline First Scheduling (EDF, 가장 빠른 기한 우선 스케줄링)
+•	우선순위는 마감 기한에 따라 부여됨
+•	기한이 빠를수록 → 우선순위 높음
+•	기한이 느릴수록 → 우선순위 낮음
+##### example
+•	P1: p = 50, t = 25, d = 다음 주기 시작 시점
+•	P2: p = 80, t = 35, d = 다음 주기 시작 시점
+![[Pasted image 20250403165831.png|400]]
