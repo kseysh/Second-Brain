@@ -30,10 +30,35 @@ least significant 32 bit를 rd로 옮긴다.
 mult rs rt
 mflo $rd
 ## Division
+5 / 3일 때, 
+divisor: 3
+dividend: 5
 - 0으로 나누는 경우를 먼저 확인
 - Long division
 	- If divisor ≤ dividend bits
 		- 몫에 1을 넣고, 뺄셈 수행
 	- else
 		- 몫에 0을 넣고, 다음 나눠지는 수의 비트를 내려옴
-- restoring
+- restoring division
+	- 이걸 사용
+	- 일단 뺀 후, 나머지가 0보다 작아지면 나누는 수를 다시 더함
+- signed division
+	- 절댓값을 이용해 나눈 후 몫과 나머지의 부호를 필요에 따라 조정
+### Division Hardware
+![[Pasted image 20250403134535.png|300]]
+#### example
+7 / 2
+![[Pasted image 20250403134631.png|300]]
+Remainder가 양수라면 (= 나머지보다 제수가 작다면) 다시 더해주지 않고 몫에 1을 더한다.
+이 때, 몫은 왼쪽으로 shift, Divisor는 오른쪽으로 shift를 진행하므로 optimized할 수 있다.
+### Optimized Divider
+![[Pasted image 20250403134927.png|300]]
+One cycle per partial-remainder subtraction
+multiplier와 같은 hardware를 사용할 수 있다.
+#### example
+![[Pasted image 20250403135127.png|300]]
+### Faster Division
+multiplier처럼 병렬 계산은 사용하기 어렵다.
+- 이전 결과에 의해 영향을 받기 때문
+## MIPS Division
+결과를 위HI/LO 
