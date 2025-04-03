@@ -146,6 +146,50 @@ create table section (
 ```
 ## Referential Integrity
 참조 무결성은 한 relation에 나타난 특정 속성의 값이, 다른 relation의 대응 속성에도 반드시 존재해야 함을 보장함
-FK는 
+FK는 항상 존재해야 함
 #### example
 instructor relation에 Biology라는 학과명이 있다면, department relation에도 반드시 Biology라는 학과명이 존재해야 함
+### 참조 무결성에서의 Cascading Actions  
+```sql
+create table course (
+  course_id char(5) primary key,
+  title varchar(20),
+  dept_name varchar(20) references department
+);
+```
+
+```sql
+create table course (
+  ...
+  dept_name varchar(20),
+  foreign key (dept_name) references department
+    on delete cascade
+    on update cascade,
+  ...
+);
+```
+on delete cascade: 관련 데이터가 삭제될 때 자동으로 해당 참조도 삭제됨
+on update cascase: 참조 대상이 바뀌면 자동으로 같이 변경됨
+대안 동작으로는 set null, set default 등이 있음
+### 트랜잭션 중 무결성 제약 조건 위반
+```sql
+create table person (
+  ID char(10),
+  name char(40),
+  spouse char(10),
+  primary key (ID),
+  foreign key (spouse) references person
+);
+```
+
+이 상황에서 배우자인 John과 Mary를 동시에 추가하려면, 
+```sql
+insert into person values ('10101', 'John', '11111');
+insert into person values ('11111', 'Mary', '10101');
+```
+서로 존재하지 않는 사람을 참조하게 되어 제약 조건 위반이 발생할 수 있다.
+이 때, 제약 조건을 트랜잭션 내에서 지연시킬 수 있다.
+```sql
+constraint spouse_ref foreign key (spouse) references person
+set constraints spouse_ref deferred;
+```
