@@ -222,7 +222,8 @@ P2 CPU utilization = 35/100
 P1 CPU utilization = 25/50
 P2 CPU utilization = 35/80
 
-#### Earliest Deadline First Scheduling (EDF, 가장 빠른 기한 우선 스케줄링)
+#### Earliest Deadline First Scheduling (EDF)
+CPU_util의 합이 1보다 작으면 항상 만족한다.
 •	우선순위는 마감 기한에 따라 부여됨
 •	기한이 빠를수록 → 우선순위 높음
 •	기한이 느릴수록 → 우선순위 낮음
