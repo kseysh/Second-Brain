@@ -109,4 +109,43 @@ where dept_name = 'History';
 insert into history_instructors values ('25566', 'Brown', 'Biology', 100000);
 ```
 where절의 조건 (즉, dept_name = 'History)을 만족하지 않기 때문에 insert가 차단된다.
-with check option 절이 
+with check option 절이 뷰 정의 마지막에 붙어 있을 경우, 뷰 정의의 조건을 만족하지 않는 행의 삽입이나 갱신을 방지한다.
+# Transaction
+- 작업의 단위
+- [[ACID]] 만족
+- 암묵적으로 시작됨
+- commit, rollback 명령으로 종료됨
+# Integrity Constraints
+승인된 데이터베이스 변경이 데이터 일관성의 손실을 일으키지 않도록 보장하여, 데이터베이스가 우발적으로 손상되는 것 방지
+- not null
+- primary key
+- unique
+- check (P)
+## not null
+`name varchar(20) not null`
+## unique
+`unique (A,B,C...)`
+unique는 A,B,C가 candidate key를 형성한다고 명시함
+candidate key는 PK와 달리 null이 될 수 있다.
+## check (P)
+P는 각 튜플이 반드시 만족해야 하는 조건
+#### example
+semester가 반드시 Fall, Winter, Spring, Summer중 하나여야 할 때
+```sql
+create table section (
+  course_id varchar(8),
+  sec_id varchar(8),
+  semester varchar(6),
+  year numeric(4,0),
+  building varchar(15),
+  room_number varchar(7),
+  time_slot_id varchar(4),
+  primary key (course_id, sec_id, semester, year),
+  check (semester in ('Fall', 'Winter', 'Spring', 'Summer'))
+);
+```
+## Referential Integrity
+참조 무결성은 한 relation에 나타난 특정 속성의 값이, 다른 relation의 대응 속성에도 반드시 존재해야 함을 보장함
+FK는 
+#### example
+instructor relation에 Biology라는 학과명이 있다면, department relation에도 반드시 Biology라는 학과명이 존재해야 함
