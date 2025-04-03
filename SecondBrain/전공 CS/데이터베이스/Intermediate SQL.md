@@ -193,3 +193,12 @@ insert into person values ('11111', 'Mary', '10101');
 constraint spouse_ref foreign key (spouse) references person
 set constraints spouse_ref deferred;
 ```
+
+## Other Features
+- create index id_idx on student(id)
+- Large objects
+	- 문자 대용량 객체: clob(10KB)
+	- 이진 대용량 객체: blob(10MB)
+	- 영상 등 큰 객체: blob(2GB)
+- Vector Objects
+	- 3차원 벡터 데이터를 저장할 수 있음
