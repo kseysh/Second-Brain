@@ -355,7 +355,7 @@ Jump는 text segment에서 어디든 타겟할 수 있다.
 - 여기에서도 Branch Addressing과 같은 이유로 address에 4를 나눠 저장해둔다.
 - 표현은 28bit까지 할 수 있는데 target 주소는 32bit이다.
 	- 따라서, 4bit는 현재 PC의 상위 4bit로 채운다.
-### example
+### **example**
 PC는 항상 다음 instruction의 주소를 가리킴
 항상 주소는 4를 곱해서 이해해야 함
 ![[Pasted image 20250325144436.png|400]]
