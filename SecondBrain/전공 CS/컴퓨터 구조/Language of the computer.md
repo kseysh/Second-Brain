@@ -333,8 +333,10 @@ i = $s0
 ## 32-bit Constants
 대부분의 상수는 작아서 16bit로 충분하지만, 그보다 크다면 추가적인 방법이 필요하다.
 ### `lui rt constant`
+load upper immediate
 - 16 bit 상수를 왼쪽으로 16 bit만큼 옮기고, 나머지를 0으로 채운다.
 - 이후 or 연산을 적용하면 32bit를 가지는 레지스터를 상수처럼 사용할 수 있다
+or immediate
 ![[Pasted image 20250325143017.png|400]]
 ## Branch Addressing (beq, bne)
 ![[Pasted image 20250325143558.png|300]]
