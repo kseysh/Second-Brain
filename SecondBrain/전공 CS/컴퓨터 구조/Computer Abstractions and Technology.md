@@ -1,6 +1,7 @@
 ## Relative Performance
 Performance 정의
-X가 Y보다 n배 빠르다 \== ![[Pasted image 20250306125143.png|200]]
+X가 Y보다 n배 빠르다 \== CPU Time<sub>Y</sub> / CPU Time<sub>X</sub> = n
+=> CPU Time이 작아야 빠른거니까!
 ## 수행시간 측정
 - Elapsed Time(경과 시간)
 	- Total response time
