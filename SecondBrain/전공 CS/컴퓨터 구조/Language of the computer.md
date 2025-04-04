@@ -171,7 +171,7 @@ k: $s5
 save: $s6
 ```
 Loop: sll $t1, $s3, 2 (save의 시작 주소를 구하기 위해 4 x i를 shift 연산으로 구함)
-	  add $t1, $t1, $s6 (save의 시작 주소와 t1을 더함 = save\[i]의 주소)
+	  add $t1, $t1, $s6 (save의 시작 주소와 t1을 더함 = save[i]의 주소)
 	  lw $t0, 0($t1)
 	  bne $t0, $s5, Exit
 	  addi $s3, $s3, 1
