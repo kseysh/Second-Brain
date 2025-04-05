@@ -197,10 +197,19 @@ Shared memory를 활용하여 process A,B에게 shared memory 접근 권한을 �
 ###### Parallelism Type
 - Data parallelism - 데이터를 나누는 것 (하나의 일, 다른 데이터)
 - Task parallelism - 일을 나누는 것 (서로 다른 일)
-###### Q
-A
-###### Q
-A
+###### Parallelism vs Concurrency
+parallelism: 물리적으로 동일한 시간에 작동하는 것 (멀티 코어)
+Concurrency: 동일한 시간에 작동하는 것처럼 보이는 것
+###### process에서의 두 가지 특성
+- 자원 소유의 단위
+	- 프로세스 이미지를 저장하기 위한 가상 주소 공간 할당
+	- 파일, I/O 장치 등 일부 자원에 대한 제어 권한 보유
+	- 일반적으로 Process or Task라고 한다.
+- 실행 흐름의 단위
+	- 제어 스레드를 가짐
+	- 실행 상태 및 dispatch 우선 순위를 가짐
+	- 프로세스 실행은 다른 프로세스와 교차되어 수행될 수 있음
+	- thread라고 한다.
 ###### Q
 A
 ###### Q
