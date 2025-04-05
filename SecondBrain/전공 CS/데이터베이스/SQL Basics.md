@@ -65,7 +65,7 @@ where name like '%dar%'
 ```
 100%를 매치하려면, like '100 \\%' escape '\\'
 ## between
-ex) 연봉이 90000 ~ 100000인 교수 이름 찾기
+ex) salary가 90000 ~ 100000인 교수 이름 찾기
 ```sql
 select name
 from instructor

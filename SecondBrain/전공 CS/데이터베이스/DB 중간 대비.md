@@ -99,26 +99,62 @@ where name like '%dar%'
 ```sql
 select name
 from instructor
-where name like '\%100\%' escape '\'
+where name like '%100\%%' escape '\'
 ```
-###### Q
-A
-###### Q
-A
-###### Q
-A
-###### Q
-A
-###### Q
-A
-###### Q
-A
-###### Q
-A
-###### Q
-A
-###### Q
-A
+###### salary가 90000 ~ 100000인 교수 이름 찾기
+```sql
+select name
+from instructor
+where salary between 90000 and 100000
+```
+###### tuple comarison
+```sql
+select name, course_id
+from instructor, teaches
+where (instructor.ID, dept_name) = (teaches.ID,'Biology’);
+```
+###### set operation의 종류와 특징
+- union
+합집합
+- intersect
+교집합
+- except
+차집합
+
+set 작업은 모두 자동으로 중복을 제거한다
+###### Null과 unknown
+null은 어떤 수학적 연산을 해도 null이라는 결과가 나온다.
+null은 어떤 비교 연산을 해도 unknown이라는 결과가 나온다.
+unknown은 null과 비슷하게 `is unknown`이라는 연산을 사용한다.
+###### 각 부서의 평균 월급 찾기
+```sql
+select dept_name, avg (salary) as avg_salary
+from instructor
+group by dept_name;
+```
+###### 2010년 봄 학기에 강의를 가르치는 강사의 총 수 찾기
+```sql
+select count (distinct ID)
+from teaches
+where semester = 'Spring' and year = 2010;
+```
+###### Aggregate Function의 특징
+Aggregate Function 외부의 select 절의 속성은 목록별로 그룹화해야 한다.
+```sql
+select dept_name, ID, avg (salary) # ID는 그룹화 되지 않은 속성이므로 에러가 발생한다.
+from instructor
+group by dept_name;
+```
+###### 부서의 평균 월급이 42000을 넘는 부서의 이름과 평균 월급 찾기
+```sql
+select dept_name, avg (salary)
+from instructor
+group by dept_name
+having avg (salary) > 42000;
+```
+having -> group by로 가져올 때의 조건을 설정하는 절
+###### having vs where
+having = 
 ###### Q
 A
 ###### Q
