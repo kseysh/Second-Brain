@@ -47,9 +47,9 @@ multiprocessor(CPU 코어가 여러개) architecture의 장점을 가질 수 있
 - stack과 per-thread static memory를 가진다.
 - 전체 메모리 공간을 공유한다.
 ### Thread의 상태 전이
-- 실행, 준비, 차단 상태를 가진다.
+- Running, ready, blocked 상태를 가진다.
 - 같은 프로세스의 모든 스레드는 동일한 주소 공간을 공유하므로 suspend state가 없음
-- 단일 스레드를 suspend하면, 동일한 프로세스의 모든 스레드가 일시 정지됨
+	- 단일 스레드를 suspend하면, 동일한 프로세스의 모든 스레드가 일시 정지됨
 - 프로세스가 종료되면 해당 프로세스 내의 모든 스레드가 종료됨
 # Thread 구현
 ## User Thread
