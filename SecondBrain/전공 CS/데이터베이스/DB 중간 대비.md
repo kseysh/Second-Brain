@@ -42,16 +42,20 @@ candidate key 중 선택된 key
 Relation Algebra로, Functional 방식
 ###### select tuples with A=B and D > 5를 Relational Algebra로
 ![[Pasted image 20250405224447.png]]
+###### selecting instructor tuples with salary greater than 85000을 Relational Algebra로
+𝜎<sub>salary>=85000</sub>(instuctor)
 ###### Select A and C를 Relational Algebra로
 ![[Pasted image 20250405224626.png]]
+###### Selecting attributes ID and salary from the instructor relatijon Relational Algebra로
+∏<sub>ID,salary</sub>(instructor)
 ###### Natural Join을 다르게 표현하면
 ⋈ = ∏<sub>조건</sub>(𝜎<sub>조건</sub>(r X s))
-###### Q
-A
-###### Q
-A
-###### Q
-A
+###### Theta Join을 다르게 표현
+![[Pasted image 20250318142719.png|300]]
+###### Theta join 특징
+Theta join자체에는 Projection(select)를 진행하지 않음
+###### Union 특징
+중복 제거
 ###### Q
 A
 ###### Q
