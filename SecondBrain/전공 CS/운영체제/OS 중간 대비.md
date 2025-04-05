@@ -96,20 +96,38 @@ OS는 interrupt driven임
 ###### MS-Dos Architecture
 simple structure로 이루어져 있음
 모놀리식 구조여서 한 가지만 변경하더라도 전부를 컴파일해야하며, 하나가 오류가 나더라도 모두가 죽는다.
-###### Layered
-A
-###### Q
-A
-###### Q
-A
-###### Q
-A
-###### Q
-A
-###### Q
-A
-###### Q
-A
+###### Layered-Approach란?
+가장 안쪽은 하드웨어
+가장 바깥쪽은 유저 인터페이스이다.
+Layer간을 뛰어넘지 않고, 한 단계씩에만 영향을 끼칠 수 있도록 한다.
+###### Microkernel (Mach)의 정의
+중요하지 않은 컴포넌트는 커널에서 다 빼고 유저 레벨 프로그램에서 작성하도록 하는 방법
+message 전달을 통해 사용자 모듈간 통신을 한다.
+###### Microkernel (Mach)의 장점
+- Kernel size가 작아진다
+- 운영체제를 새로운 아키텍처로 이식하기 쉽다
+- 커널 모드에서 실행되는 코드가 줄어들어 안정적이다
+- 보안성이 향상된다.
+###### Microkernel (Mach)의 단점
+- user space와 kernel space간의 통신으로 인해 성능 오버헤드가 발생한다.
+###### Process란?
+실행 중인 프로그램을 뜻하며, 특정한 process state의 execution stream
+###### process state란?
+- 프로세스가 실행되는데 관여하는 모든 것들
+	- Memory context
+		- code, data, stack, heap
+	- Hardware context
+		- Program counter, CPU register, I/O register
+	- System context
+		- process table, open file table, page table
+###### execution stream이란?
+명령어가 실행되는 흐름
+###### Multiprogramming이란?
+- 메모리에서 여러 프로세스가 동작하는 것
+- 싱글코어여도 메모리에 여러개를 올려둘 수는 있음
+###### Multiprocessing이란?
+- 여러개의 프로세스들이 같은 시간에 함께 동작하는 것
+- 따라서 CPU가 여러개 있어야 함
 ###### Q
 A
 ###### Q
