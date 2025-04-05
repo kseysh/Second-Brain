@@ -232,6 +232,9 @@ kernel Thread: os에서 관리하는 thread 단위, CPU 스케쥴링의 대상�
 동일한 프로세스 내에서 스레드 전환이 커널을 거치므로 성능 저하 발생(그렇게 느리지는 않아서 단점이라 하기 뭐함)
 ###### Dispatcher의 역할
 CPU 스케쥴러가 선택한 프로세스에 CPU 제어권을 넘겨준다
+• Context Switching
+• user mode로 전환
+• 해당 프로그램을 다시 시작하기 위해 사용자 프로그램의 적절한 위치로 jump
 ###### OS가 제어권을 되찾는 경우
 - Trap and Faults (사용자 프로세스 내부에서 발생하는 이벤트)
 	- System call
@@ -240,24 +243,39 @@ CPU 스케쥴러가 선택한 프로세스에 CPU 제어권을 넘겨준다
 - Interrupts (사용자 프로세스 외부에서 발생하는 이벤트)
 	- 터미널에서 문자 입력
 	- 디스크 전송 완료
-###### Q
-A
-###### Q
-A
-###### Q
-A
-###### Q
-A
-###### Q
-A
-###### Q
-A
-###### Q
-A
-###### Q
-A
-###### Q
-A
+###### Context Switching시 저장하는 정보
+- Program Counter
+- Processor Status Word (PSW)
+- 레지스터
+- 일부 메모리를 디스크에 저장
+	- 메모리 공간이 없을 때, 일부를 디스크에 저장한다.
+###### FCFS 장단점
+장점: 구현이 쉽다
+단점: 한 프로세스가 CPU를 독점할 수 있다
+###### convoy effect란?
+짧은 프로세스가 긴 프로세스 뒤에 와서 waiting time이 늘어나는 것
+###### SJF 장단점
+CPU burst가 짧은 것을 먼저 수행한다.
+Shortest Remaining Time First (SRTF) or Shortest Time to Completion First(STCF)라고도 불린다.
+
+가장 바람직한 방식이지만, CPU burst length를 측정하기 어려움
+###### average waiting time check
+끝난 시간 - 시작 시간 - burst time
+###### RR 장단점, quantum이 너무 크거나 작다면
+- q가 크면
+	- 프로세스가 CPU를 독점한다
+- q가 작으면
+	- context switching이 많이 일어난다.
+공평하지만 균일하게 비효율적이다.
+###### RR에서 최대 waiting time은?
+준비 대기열에 n개의 프로세스가 있고 time quantum이 q인 경우, 
+• 각 프로세스는 한 번에 최대 q 시간 단위의로 CPU 시간의 1/n을 얻는다. 
+• (n-1)q 시간 단위 이상 기다리는 프로세스는 없다. 
+###### priority scheduling의 단점 해결책
+우선 순위가 낮은 프로세스는 실행되지 않을 수 있다.
+프로세스의 우선순위를 시간이 지남에 따라 증가시킨다.
+###### Multilevel queue
+
 ###### Q
 A
 ###### Q

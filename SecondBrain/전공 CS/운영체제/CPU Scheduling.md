@@ -14,15 +14,13 @@
 # Dispatcher
 Dispatcher module은 CPU 스케쥴러가 선택한 프로세스에 CPU 제어권을 넘겨준다
 • Context Switching
-• 사용자 모드로 전환 
-• 해당 프로그램을 다시 시작하기 위해 사용자 프로그램의 적절한 위치로 점프하는 것 
-• 디스패처는 어떻게 제어를 유지합니까? 
-	• CPU는 한 번에 한 가지만 할 수 있습니다 
-	• 사용자 프로세스가 실행된다는 것은 디스패처가 그렇지 않다는 것을 의미합니다.
-- Non-preemptive 방식
-	- 프로세스가 스스로 Dispatcher를 깨우는 방법
-- Preemptive 방식
-	- Dispatcher에게 time slice마다 깨워달라 하는 법
+• user mode로 전환
+• 해당 프로그램을 다시 시작하기 위해 사용자 프로그램의 적절한 위치로 jump
+- Dispatcher가 control을 유지하는 방식
+	- Non-preemptive 방식
+		- 프로세스가 스스로 Dispatcher를 깨우는 방법
+	- Preemptive 방식
+		- Dispatcher에게 time slice마다 깨워달라 하는 법
 OS가 제어권을 되찾는 경우
 - Trap and Faults (사용자 프로세스 내부에서 발생하는 이벤트)
 	- System call
