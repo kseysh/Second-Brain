@@ -23,10 +23,10 @@ candidate key중 선택된 key
 ![[Pasted image 20250318133755.png|200]]
 time_slot_id는 현재 제약조건을 가지지는 않는다.
 ## Relational Query Languages
-관계형 질의 언어는 함수형, 명령형, 선언형 방식으로 나눌 수 있다,
+관계형 질의 언어는 Functional(함수형), Imperative(명령형), declarative(선언형) 방식으로 나눌 수 있다,
 - 순수 관계형 질의 언어
 	- Relational Algebra (관계 대수)
-		- procedural 언어로 표현되었으나, 함수형임
+		- 함수형
 	- Tuple Relational Calculus (튜플 관계 해석학)
 		- 선언형 언어
 	- Domain Relational Calculus (도메인 관계 해석학)

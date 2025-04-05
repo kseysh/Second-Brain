@@ -33,18 +33,19 @@
 ###### candidate key
 super key 중 minimal한 key
 ex) (Id), (학과번호, 학과별 수업 번호) 둘 다 나누게되면 식별불가능해지므로 둘 다 minimal하다고 볼 수 있다.
-###### Q
-A
-###### Q
-A
-###### Q
-A
-###### Q
-A
-###### Q
-A
-###### Q
-A
+###### PK
+candidate key 중 선택된 key
+###### 제약 조건을 가질 때 / 가지지 않을 때 표기
+![[Pasted image 20250318133755.png|200]]
+화살표를 쓰냐(제약조건을 가짐) 안쓰냐(논리적으로만 연결됨)
+###### SQL은 무슨 방식인지?
+Relation Algebra로, Functional 방식
+###### select tuples with A=B and D > 5를 Relational Algebra로
+![[Pasted image 20250405224447.png]]
+###### Select A and C를 Relational Algebra로
+![[Pasted image 20250405224626.png]]
+###### Natural Join을 다르게 표현하면
+⋈ = ∏<sub>조건</sub>(𝜎<sub>조건</sub>(r X s))
 ###### Q
 A
 ###### Q
