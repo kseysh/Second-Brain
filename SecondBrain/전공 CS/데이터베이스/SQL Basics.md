@@ -32,14 +32,14 @@ select all dept_name
 from instructor
 ```
 ## where절
-Comp. Sci dept이고, salary>8000인 교수 찾기
+dept_name이 Comp. Sci dept이고, salary>8000인 instructor의 name 찾기
 ```sql
 select name
 from instructor
 where dept_name ='Comp. Sci.' and salary > 80000
 ```
 ## Join절
-Comp.Sci dept를 가지고 section.course_id와 course.course_id가 같은 course ID, semester, year, title 찾기
+dept_name이 Comp.Sci이고고 section.course_id와 course.course_id가 같은 course ID, semester, year, title 찾기
 ```sql
 select section.course_id, semester, year, title
 from section, course
@@ -57,7 +57,7 @@ from instructor natural join teaches;
 %: 어느 substring이던 매치
 \_: 어느 character이던 매치
 
-ex) 이름에 dar가 들어가는 교수의 이름 찾기
+ex) name에 dar가 들어가는 교수의 이름 찾기
 ```sql
 select name
 from instructor

@@ -99,3 +99,7 @@ ex) ρ(E) : 표현식 E에 이름 x를 붙여 반환한다.
 ID가 12121인 교수보다 더 많은 급여를 받는 교수들의 ID 찾기
 
 ![[Pasted image 20250405230525.png]]
+
+$$
+\pi_{i.ID} \left( \rho_i(\text{instructor}) \Join_{i.salary > j.salary \wedge j.ID = 12121} \rho_j(\text{instructor}) \right)
+$$

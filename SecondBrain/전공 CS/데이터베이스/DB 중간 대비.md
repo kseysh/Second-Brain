@@ -56,31 +56,51 @@ Relation Algebra로, Functional 방식
 Theta join자체에는 Projection(select)를 진행하지 않음
 ###### Union 특징
 중복 제거
-###### ID가 12121인 교수보다 더 많은 급여를 받는 교수들의 ID 찾기
+###### ID가 12121인 교수보다 더 많은 급여를 받는 교수들의 ID 찾기 X, Theta join 표현
 ![[Pasted image 20250405230525.png]]
 rho는 바깥으로 해도 됨
-###### Q
-A
-###### Q
-A
-###### Q
-A
-###### Q
-A
-###### Q
-A
-###### Q
-A
-###### Q
-A
-###### Q
-A
-###### Q
-A
-###### Q
-A
-###### Q
-A
+$$
+\pi_{i.ID} \left( \rho_i(\text{instructor}) \Join_{i.salary > j.salary \wedge j.ID = 12121} \rho_j(\text{instructor}) \right)
+$$
+###### create
+create table r (A1 D1, A2 D2, ..., An Dn,...,)
+###### insert
+`insert into instructor values (‘10211’, ’Smith’, ’Biology’, 66000);`
+###### pk 제약 생성
+primary key (A1, ..., An )
+insert에서 Domain쪽에 primary key라고 적기
+###### fk 제약 생성
+foreign key (Am, ..., An ) references r
+###### 컬럼 추가
+alter table r add A D
+###### 컬럼 삭제
+alter table r drop A
+###### select시 중복 삭제 안하려면
+select all
+###### dept_name이 Comp. Sci dept이고, salary>8000인 instructor의 name 찾기
+```sql
+select name
+from instructor
+where dept_name ='Comp. Sci.' and salary > 80000
+```
+###### dept_name이 Comp.Sci이고고 section.course_id와 course.course_id가 같은 course ID, semester, year, title 찾기 (x 이용)
+```sql
+select section.course_id, semester, year, title
+from section, course
+where section.course_id = course.course_id and dept_name = 'Comp. Sci.'
+```
+###### name에 dar가 들어가는 교수의 이름 찾기
+```sql
+select name
+from instructor
+where name like '%dar%'
+```
+###### name에 100%가 들어가는 교수의 이름 찾기
+```sql
+select name
+from instructor
+where name like '\%100\%' escape '\'
+```
 ###### Q
 A
 ###### Q
