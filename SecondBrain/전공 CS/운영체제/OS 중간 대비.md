@@ -89,10 +89,13 @@ OS는 interrupt driven임
 - Interrupt vector에서 어떤 코드를 실행해야 할지에 대한 ISR 주소를 얻어온다 
 - ISR로 이동한다.
 - ISR이 끝나면, 원래 하던 저장되어 있던 프로그램으로 돌아간다.
-###### Q
-A
-###### Q
-A
+###### Important principle in designing OS
+	역할과 구현의 분리
+- Policy(구현): 어떤 것을 할 것인가?
+- Mechanism(역할): 어떻게 동작할 것인가?
+###### MS-Dos Architecture
+simple structure로 이루어져 있음
+모놀리식 구조여서 한 가지만 변경하더라도 전부를 컴파일해야하며, 하나가 오류가 나더라도 모두가 죽는다.
 ###### Q
 A
 ###### Q
