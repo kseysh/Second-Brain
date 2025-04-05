@@ -151,12 +151,26 @@ I/O로 인해 waiting하는 프로세스를 모아둔 큐
 ###### Job queue란
 시스템에서 모든 프로세스가 저장되는 큐
 사용자가 프로그램 실행 시 Job queue에 들어가고, OS가 메모리 공간을 할당하면 Ready queue에 들어감
-###### Q
-A
-###### Q
-A
-###### Q
-A
+######  Short term scheduler란?
+다음에 실행해야 할 프로세스를 선택하고 CPU를 할당한다.
+밀리초 단위로 자주 호출되기 때문에 빠르게 동작해야 한다
+###### Long term scheduler란?
+- 어떤 프로세스를 Job queue에 넣을 것인지 선택하는 역할을 한다 (메모리에 너무 많은 process가 올라가면 안되므로)
+- 초 또는 분 단위로 호출되기 때문에 상대적으로 느려도 괜찮다.
+- multi programming 수준을 조절하는 역할을 한다.
+- 적절한 프로세스 균형을 유지하는 것을 목표로 한다.
+	- cpu bound 작업은 I/O bound 작업과 mix하는 것이 좋으니 그런 방식으로 조합한다.
+###### build from scratch 방식
+- loading 과정: code, data를 program file에서 읽어서 memory에 적재 (stack, heap은 돌아가면서 생기므로)
+- create empty stack (메모리에 자리만 잡아준다.)
+- PCB 만들기
+- 해당 PCB를 ready queue에 넣기
+
+###### 프로세스 복제
+- 현재 state 저장(PC, register)
+- memory context 복사
+- PCB 복사 (pid, parent, child만 변경)
+- 해당 PCB -> ready queue로 복사
 ###### Q
 A
 ###### Q

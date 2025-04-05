@@ -47,9 +47,11 @@ I/O로 인해 waiting하는 프로세스를 모아둔 큐
 시스템에서 모든 프로세스를 Job queue에 보관한다.
 
 Q. 모든 프로세스가 Job queue에도, Ready queue에도 보관되는 것인지?
+A. 기본: Job queue OS가 메모리 공간 할당: Ready queue
 ## [[scheduler]]
 
 ### Short-term scheduler (CPU scheduler)
+다음에 실행해야 할 프로세스를 선택하고 CPU를 할당한다.
 밀리초 단위로 자주 호출되기 때문에 빠르게 동작해야 한다
 ### Long-term scheduler (job scheduler)
 - 어떤 프로세스를 Job queue에 넣을 것인지 선택하는 역할을 한다 (메모리에 너무 많은 process가 올라가면 안되므로)
