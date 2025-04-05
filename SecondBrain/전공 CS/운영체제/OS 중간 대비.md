@@ -52,24 +52,43 @@ Command/Address bus
 - Bus slave
 	- 요청을 받아서 그에 맞는 행위를 한다
 	- ex) memory
+###### IO 컨트롤러의 주요 레지스터
+•	데이터 레지스터 (입력, 출력)
+•	제어 레지스터 (제어, 상태)
+###### IO 출력 작업 예시
+CPU에 의해 시작됨
+1.	상태 레지스터를 읽어 출력 레지스터가 사용 가능한지 확인
+2.	사용 가능하면 출력 레지스터로 데이터 이동, 제어 레지스터에 출력 명령 전달
+3.	사용 불가능하면 이 과정을 반복하거나 대기
 ###### Polling I/O vs. Interrupt-driven I/O
 - Polling I/O: CPU가 I/O 상태 레지스터를 계속 확인하여 작업이 완료되었는지 검사
 - Interrupt-driven I/O: I/O 컨트롤러가 작업 완료 시 인터럽트를 발생하여 CPU에 알림
 ###### Memory-mapped I/O vs. Port-mapped I/O
 - Memory-mapped I/O: 메모리와 I/O를 동일한 주소 공간에서 관리
 - Port-mapped I/O: I/O 장치를 위한 별도의 주소 공간을 사용
-###### Q
-A
-###### Q
-A
-###### Q
-A
-###### Q
-A
-###### Q
-A
-###### Q
-A
+###### DMA란?
+Direct Memory Access
+- 장치 컨트롤러가 CPU의 개입 없이 버퍼 스토리지와 메인 메모리 간에 데이터 블록을 직접 전송할 수 있도록 함
+- I/O 작업만 담당하는 CPU라고 생각하자
+- 큰 메모리 Access를 한 번에 하는 것이 어렵기 때문에 DMA를 활용해서 옮긴다.
+- Keyboard 입력 같은 경우는 데이터의 크기가 크지 않아 CPU에 그냥 인터럽트를 보낸다.
+- 한 블록당 한 번의 인터럽트만 발생 (바이트당 한 번의 인터럽트 발생과 비교하여 효율적)
+###### Interrupt란
+하드웨어 메커니즘으로, 인터럽트 벡터를 통해 Interrupt service routine(ISR)으로 제어를 전달
+OS는 interrupt driven임
+###### Inerrupt vector란
+모든 서비스 루틴의 주소를 포함하는 테이블
+###### Trap, Exception
+•	소프트웨어에 의해 생성된 인터럽트
+•	에러 또는 사용자 요청(예: 오류, 강제 종료 등)에 의해 발생
+###### PC란
+다음 실행해야 하는 명령어의 주소를 담는 것
+###### Interrupt가 들어올 때 CPU의 행동
+- 현재 수행중인 instruction을 마무리 시키고, 현재 프로그램을 중지한다
+- 다음에 수행해야할 PC와 현재 레지스터 값들을 저장해둔다
+- Interrupt vector에서 어떤 코드를 실행해야 할지에 대한 ISR 주소를 얻어온다 
+- ISR로 이동한다.
+- ISR이 끝나면, 원래 하던 저장되어 있던 프로그램으로 돌아간다.
 ###### Q
 A
 ###### Q
