@@ -165,16 +165,23 @@ I/O로 인해 waiting하는 프로세스를 모아둔 큐
 - create empty stack (메모리에 자리만 잡아준다.)
 - PCB 만들기
 - 해당 PCB를 ready queue에 넣기
-
 ###### 프로세스 복제
 - 현재 state 저장(PC, register)
 - memory context 복사
 - PCB 복사 (pid, parent, child만 변경)
 - 해당 PCB -> ready queue로 복사
-###### Q
-A
-###### Q
-A
+###### Message passing 방식과 단점
+커널이 메시지 큐를 이용해 아래 두 함수를 이용해 소통한다.
+- msgsnd()
+	- 커널 공간에 메시지를 쌓는다.
+- msgrcv()
+	- 커널 공간에 쌓은 메시지를 읽는다.
+- 실질적으로 메시지 복사가 필요하다.
+	- 따라서 대용량 전달이 비효율적이다 
+###### Shared memory 방식과 단점
+Shared memory를 활용하여 process A,B에게 shared memory 접근 권한을 부여한다.
+- shared memory의 데이터의 race condition에 대해서 사용자가 shared memory를 관리하여야 한다
+	- 동기화 문제를 해결해야 한다.
 ###### Q
 A
 ###### Q
