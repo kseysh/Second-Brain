@@ -96,7 +96,7 @@ OS는 interrupt driven임
 ###### MS-Dos Architecture
 simple structure로 이루어져 있음
 모놀리식 구조여서 한 가지만 변경하더라도 전부를 컴파일해야하며, 하나가 오류가 나더라도 모두가 죽는다.
-###### Q
+###### Layered
 A
 ###### Q
 A
