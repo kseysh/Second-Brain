@@ -62,6 +62,12 @@ rho는 바깥으로 해도 됨
 $$
 \pi_{i.ID} \left( \rho_i(\text{instructor}) \Join_{i.salary > j.salary \wedge j.ID = 12121} \rho_j(\text{instructor}) \right)
 $$
+###### numeric(p, d)
+Fixed point number, p: 전체 자리수, d: 소수점 오른쪽 자리수
+###### real, double precision
+부동 소수점 숫자 타입
+###### float(n)
+부동 소수점 타입, n은 정밀도 자리수로 n에 따라 real 또는 double precision으로 매핑
 ###### create
 create table r (A1 D1, A2 D2, ..., An Dn,...,)
 ###### insert
@@ -161,8 +167,25 @@ SUM() 함수는 집계 대상에 모든 값이 NULL일 경우, NULL을 반환
 COUNT(\*)를 제외한 대부분의 집계 함수는 NULL 값을 무시하며,
 집계 대상이 비어 있을 경우(조건에 해당하는 행이 없을 경우),
 COUNT는 0을 반환하고, 나머지 집계 함수들은 NULL을 반환한다.
-###### Q
-A
+###### 2009년 가을과 2010년 봄에 제공된 강의 찾기 nested subquery를 이용해서
+```sql
+select distinct course_id
+from section
+where semester = ’Fall’ and year= 2009 and
+	course_id in (select course_id
+		from section
+		where semester = ’Spring’ and year= 2010);
+```
+
+```sql
+select course_id
+from section as S
+where semester = ’Fall’ and year= 2009 and
+	exists (select *
+		from section as T
+		where semester = ’Spring’ and year= 2010
+			and S.course_id= T.course_id);
+```
 ###### Q
 A
 ###### Q
