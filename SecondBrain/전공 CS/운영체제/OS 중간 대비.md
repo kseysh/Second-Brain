@@ -275,11 +275,17 @@ Shortest Remaining Time First (SRTF) or Shortest Time to Completion First(STCF)�
 우선 순위가 낮은 프로세스는 실행되지 않을 수 있다.
 프로세스의 우선순위를 시간이 지남에 따라 증가시킨다.
 ###### Multilevel queue
+Ready queue를 partitioning하여 큐를 분리한다
+각 큐마다 다른 스케쥴링 방법론을 적용한다
+큐 사이에도 스케쥴링이 필요하다.
+###### Multilevel queue 단점
+처음에 어떤 큐에 넣느냐가 지속적인 스케쥴링에 영향을 줄 수 있다 (계속 특정 우선 순위에 있는 큐에 있어야 하므로)
+###### Multilevel Feedback Queue
+피드백을 줘서 프로세스가 큐 간 이동할 수 있도록 한다.
 
-###### Q
-A
-###### Q
-A
+큐 간의 스케쥴링은 priority로 움직이고, 큐 내부에서는 RR을 사용한다. (우선 순위가 높은 큐가 cpu burst가 짧을 것이므로 짧은 time slice를 가짐)
+만약 IO없이 time slice를 모두 사용했다면, priority를 감소시킨다. 
+=> 이렇게 하면 자연스레 CPU burst가 짧은 프로세스는 우선순위가 높게, 긴 프로세스는 우선순위가 낮게 분포된다.
 ###### Q
 A
 ###### Q
