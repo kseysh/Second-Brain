@@ -110,6 +110,8 @@ message 전달을 통해 사용자 모듈간 통신을 한다.
 - 보안성이 향상된다.
 ###### Microkernel (Mach)의 단점
 - user space와 kernel space간의 통신으로 인해 성능 오버헤드가 발생한다.
+###### Program란?
+디스크에 저장된 실행 가능한 파일
 ###### Process란?
 실행 중인 프로그램을 뜻하며, 특정한 process state의 execution stream
 ###### process state란?
@@ -129,15 +131,26 @@ message 전달을 통해 사용자 모듈간 통신을 한다.
 - 여러개의 프로세스들이 같은 시간에 함께 동작하는 것
 - 따라서 CPU가 여러개 있어야 함
 ###### PCB란?
+Process Control Block으로
 - 멀티 프로그래밍 사용시 OS가 프로세스들의 정보를 저장해두는 것
-###### Q
-A
-###### Q
-A
-###### Q
-A
-###### Q
-A
+###### PCB에 저장되는 값
+- 프로세스 상태
+- Program counter
+- Registers
+- Scheduling information
+- Memory management information
+- I/O status information
+###### Process state
+- new
+- running
+- waiting
+- ready
+- terminated
+###### Device queue란
+I/O로 인해 waiting하는 프로세스를 모아둔 큐
+###### Job queue란
+시스템에서 모든 프로세스가 저장되는 큐
+사용자가 프로그램 실행 시 Job queue에 들어가고, OS가 메모리 공간을 할당하면 Ready queue에 들어감
 ###### Q
 A
 ###### Q
