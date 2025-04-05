@@ -22,7 +22,32 @@ OS : 사람
 - SPOOL
 	- Job을 카드에서 디스크로 미리 읽어두고, 출력도 디스크에 대기시켜두었다가 나중에 프린터로 출력하는 방법
 	- 이로 인해 입출력 작업을 기다리지 않고 계산에 집중할 수 있어 Job-to-Job transition에서 발생하는 IO 성능 제약 해소
+	- 작업을 큐에 넣고 비동기 처리하기 위해 사용
 - Buffering
 	- 입출력 장치와 CPU 사이에 데이터를 임시 저장하여 입출력 속도의 차이를 완화하는 방법
 - Interrupt
-	- 입출력 작업이 완료되었을 때, CPU에 신호를 보내 CPU가 불필요하게 대기하지 않
+	- 입출력 작업이 완료되었을 때, CPU에 신호를 보내 CPU가 불필요하게 대기하지 않도록 하는 방법
+
+#### Multi-programmed Batch Monitor
+- 여러 사용자가 시스템을 공유
+- 메모리 보호 및 재배치 기능이 운영체제에 추가
+	- OS가 다른 Job의 메모리에 access하지 못하도록 막음 
+- 여러 작업으로 인해 시스템 활용율이 향상됨
+- Concurrent Programming이 필수로 등장함
+
+![[Pasted image 20250405151134.png|100]]  vs ![[Pasted image 20250405151157.png|200]]
+### 1960 - 1990
+- OS에 파일 시스템 추가
+- User는 System과 interacted함
+- Interactive time-sharing OS
+### 1990 ~ 
+- Internet acess가 built in
+- Multi tasking 중요
+- Multimedia support
+## 운영체제 진화
+• Operator
+• Batch monitor
+• Multi-programmed batch monitor
+• Interactive time sharing system
+• PC OS
+• OS with internet and multimedia
