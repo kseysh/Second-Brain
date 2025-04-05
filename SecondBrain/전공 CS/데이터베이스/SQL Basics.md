@@ -147,9 +147,10 @@ having avg (salary) > 42000;
 ```
 Having 절의 술어는 그룹 형성 후에 적용되는 반면 where 절의 술어는 그룹을 형성하기 전에 적용된다.
 
-sum()시에 non-null amount가 없으면 null값을 return한다.
-count(\*)을 제외한 모든 aggregate operation은 null을 무시한다.
-collection이 비어있다면, count를 제외한 모든 aggregates는 null을 return한다.
+SUM() 함수는 집계 대상에 모든 값이 NULL일 경우, NULL을 반환
+COUNT(\*)를 제외한 대부분의 집계 함수는 NULL 값을 무시하며,
+집계 대상이 비어 있을 경우(조건에 해당하는 행이 없을 경우),
+COUNT는 0을 반환하고, 나머지 집계 함수들은 NULL을 반환한다.
 ## Nested Subqueries
 from, where절에서 사용가능하다.
 

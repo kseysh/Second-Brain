@@ -154,9 +154,13 @@ having avg (salary) > 42000;
 ```
 having -> group by로 가져올 때의 조건을 설정하는 절
 ###### having vs where
-having = 
-###### Q
-A
+having = 그룹 형성 후 적용
+where = 그룹 형성 후 적용
+###### Aggregation Function과 Null
+SUM() 함수는 집계 대상에 모든 값이 NULL일 경우, NULL을 반환
+COUNT(\*)를 제외한 대부분의 집계 함수는 NULL 값을 무시하며,
+집계 대상이 비어 있을 경우(조건에 해당하는 행이 없을 경우),
+COUNT는 0을 반환하고, 나머지 집계 함수들은 NULL을 반환한다.
 ###### Q
 A
 ###### Q
