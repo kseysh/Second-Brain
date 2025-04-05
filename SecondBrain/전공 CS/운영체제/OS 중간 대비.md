@@ -38,14 +38,26 @@ Interactive time-sharing OS
 • Interactive time sharing system
 • PC OS
 • OS with internet and multimedia
-###### Q
-A
-###### Q
-A
-###### Q
-A
-###### Q
-A
+###### System bus란?
+computer system에서 주요한 컴포넌트들의 연결
+ex)
+Data bus
+Command/Address bus
+###### Bus component
+- Bus arbiter
+	- 버스를 관리한다.
+- Bus master
+	- 요청을 보낸다.
+	- ex) cpu
+- Bus slave
+	- 요청을 받아서 그에 맞는 행위를 한다
+	- ex) memory
+###### Polling I/O vs. Interrupt-driven I/O
+- Polling I/O: CPU가 I/O 상태 레지스터를 계속 확인하여 작업이 완료되었는지 검사
+- Interrupt-driven I/O: I/O 컨트롤러가 작업 완료 시 인터럽트를 발생하여 CPU에 알림
+###### Memory-mapped I/O vs. Port-mapped I/O
+- Memory-mapped I/O: 메모리와 I/O를 동일한 주소 공간에서 관리
+- Port-mapped I/O: I/O 장치를 위한 별도의 주소 공간을 사용
 ###### Q
 A
 ###### Q
