@@ -182,6 +182,89 @@ I/O로 인해 waiting하는 프로세스를 모아둔 큐
 Shared memory를 활용하여 process A,B에게 shared memory 접근 권한을 부여한다.
 - shared memory의 데이터의 race condition에 대해서 사용자가 shared memory를 관리하여야 한다
 	- 동기화 문제를 해결해야 한다.
+###### 멀티 스레드의 장점
+- Responsiveness
+	- 프로세스의 일부(스레드)가 Block되어도 계속 실행될 수 있다.
+- 자원 공유
+	- 스레드는 프로세스의 자원을 공유하며, shared memory나 메시지 전달 방식보다 더 쉽게 사용할 수 있다.
+	- IPC가 필요하지 않다.
+- 경제적
+	- 프로세스 생성/종료보다 시간이 적게 든다
+	- 같은 프로세스의 thread간 변경 비용이 적다.
+	- Stack 과 스레드 당 static memory의 적은 리소스를 사용한다.
+- 확장성
+	- multiprocessor(CPU 코어가 여러개) architecture의 장점을 가질 수 있다.
+###### Parallelism Type
+- Data parallelism - 데이터를 나누는 것 (하나의 일, 다른 데이터)
+- Task parallelism - 일을 나누는 것 (서로 다른 일)
+###### Q
+A
+###### Q
+A
+###### Q
+A
+###### Q
+A
+###### Q
+A
+###### Q
+A
+###### Q
+A
+###### Q
+A
+###### Q
+A
+###### Q
+A
+###### Q
+A
+###### Q
+A
+###### Q
+A
+###### Q
+A
+###### Q
+A
+###### Q
+A
+###### Q
+A
+###### Q
+A
+###### Q
+A
+###### Q
+A
+###### Q
+A
+###### Q
+A
+###### Q
+A
+###### Q
+A
+###### Q
+A
+###### Q
+A
+###### Q
+A
+###### Q
+A
+###### Q
+A
+###### Q
+A
+###### Q
+A
+###### Q
+A
+###### Q
+A
+###### Q
+A
 ###### Q
 A
 ###### Q
