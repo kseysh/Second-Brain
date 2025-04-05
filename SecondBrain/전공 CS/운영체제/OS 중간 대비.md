@@ -230,10 +230,16 @@ kernel Thread: os에서 관리하는 thread 단위, CPU 스케쥴링의 대상�
 - 커널 루틴이 멀티스레드를 지원함
 단점
 동일한 프로세스 내에서 스레드 전환이 커널을 거치므로 성능 저하 발생(그렇게 느리지는 않아서 단점이라 하기 뭐함)
-###### Many to Many
-
-###### Q
-A
+###### Dispatcher의 역할
+CPU 스케쥴러가 선택한 프로세스에 CPU 제어권을 넘겨준다
+###### OS가 제어권을 되찾는 경우
+- Trap and Faults (사용자 프로세스 내부에서 발생하는 이벤트)
+	- System call
+	- Floating point exception
+	- Page faults(메모리에 내가 원하는 데이터가 없어서 기다리는 것)
+- Interrupts (사용자 프로세스 외부에서 발생하는 이벤트)
+	- 터미널에서 문자 입력
+	- 디스크 전송 완료
 ###### Q
 A
 ###### Q

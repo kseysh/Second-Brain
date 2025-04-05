@@ -1,16 +1,24 @@
 # CPU [[Scheduler]]
 - CPU scheduling 결정을 해야하는 상황
-- 선점 스케쥴링
+- 비선점 스케쥴링
 	- running state -> waiting state
 	- running state -> terminate
-- 비선점 스케쥴링
+	- 돌고 있는게 waiting이거나 종료될때까지 기다려줌
+- 선점 스케쥴링
 	- running state -> ready state
 	- waiting state -> ready state
+	- 돌던걸 멈춰버렸으니 ready가 됨
 
 - policy(scheduling policy)와 mechanism(dispatcher)의 분리
 ![[Pasted image 20250325172314.png|300]]
 # Dispatcher
 Dispatcher module은 CPU 스케쥴러가 선택한 프로세스에 CPU 제어권을 넘겨준다
+• Context Switching
+• 사용자 모드로 전환 
+• 해당 프로그램을 다시 시작하기 위해 사용자 프로그램의 적절한 위치로 점프하는 것 
+• 디스패처는 어떻게 제어를 유지합니까? 
+	• CPU는 한 번에 한 가지만 할 수 있습니다 
+	• 사용자 프로세스가 실행된다는 것은 디스패처가 그렇지 않다는 것을 의미합니다.
 - Non-preemptive 방식
 	- 프로세스가 스스로 Dispatcher를 깨우는 방법
 - Preemptive 방식
