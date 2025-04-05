@@ -91,7 +91,11 @@ Theta Join 자체에는 Projection이 없다
 중복은 제거된다.
 ## difference -
 ![[Pasted image 20250320134444.png|200]]
+중복은 제거된다
 ## Rename ρ
+관계 대수 표현식의 결과에 이름을 붙일 수 있게 해주어 그 결과를 참조할 수 있게 한다.
+ex) ρ(E) : 표현식 E에 이름 x를 붙여 반환한다.
+#### example
+ID가 12121인 교수보다 더 많은 급여를 받는 교수들의 ID 찾기
 
-
-정리하기
+![[Pasted image 20250405230525.png]]
