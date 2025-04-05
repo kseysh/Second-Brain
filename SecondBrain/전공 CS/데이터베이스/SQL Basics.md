@@ -35,6 +35,11 @@ from instructor
 select all dept_name
 from instructor
 ```
+- select 절에는 산술연산이 들어갈 수 있다.
+```sql
+select ID, name, salary/12
+from instuctor
+```
 ## where절
 dept_name이 Comp. Sci dept이고, salary>8000인 instructor의 name 찾기
 ```sql
@@ -110,6 +115,7 @@ AND: (true and unknown) = unknown,
 	(unknown and unknown) = unknown
 NOT: (not unknown) = unknown
 ```
+unknown은 where절에서 false로 처리함
 ## Aggregate Functions
 - `avg`: average value
 - `min`: minimum value
