@@ -186,8 +186,15 @@ where semester = ’Fall’ and year= 2009 and
 		where semester = ’Spring’ and year= 2010
 			and S.course_id= T.course_id);
 ```
-###### Q
-A
+###### 2009년 가을에 제공되고, 2010년 봄에 제공되지 않은 강의 찾기
+```sql
+select distinct course_id
+from section
+where semester = ’Fall’ and year= 2009 and
+	course_id not in (select course_id
+		from section
+		where semester = ’Spring’ and year= 2010);
+```
 ###### Q
 A
 ###### Q
