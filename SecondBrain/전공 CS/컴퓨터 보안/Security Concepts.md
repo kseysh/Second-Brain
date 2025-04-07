@@ -11,6 +11,12 @@
 	•	개인 정보 및 독점 정보 보호 포함
 (C) 가용성(Availability):
 	•	정보에 대한 신속하고 신뢰할 수 있는 접근 및 사용을 보장하는 것
+## 필수 정보 및 네트워크 보안 목표 5가지
+- Confidentially
+- Integrity
+- Authenticity
+- Availablillity
+- Accountability(e.g., Nonrepudiation)
 ## 보안의 과제(Challenges of Security)
 •	보안은 단순하지 않음
 •	보안 기능을 공격할 수 있는 여러 가지 위협 요소를 고려해야 함

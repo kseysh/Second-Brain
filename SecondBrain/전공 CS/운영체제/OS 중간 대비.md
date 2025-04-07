@@ -293,6 +293,7 @@ Ready queue를 partitioning하여 큐를 분리한다
 	- default
 	- real-time
 - Quantum은 -20~19의 nice value로 계산된다.
+- 실행할 다음 작업을 결정하기 위해 스케줄러는 가상 런타임이 가장 낮은 태스크를 선택한다
 ###### CFS에서 task의 time slice
 `time slice = target latency x ( task의 weight / sum(weight) )`
 ###### CFS에서 vruntime
