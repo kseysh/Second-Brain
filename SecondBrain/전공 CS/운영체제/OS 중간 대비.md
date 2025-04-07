@@ -286,12 +286,17 @@ Ready queue를 partitioning하여 큐를 분리한다
 큐 간의 스케쥴링은 priority로 움직이고, 큐 내부에서는 RR을 사용한다. (우선 순위가 높은 큐가 cpu burst가 짧을 것이므로 짧은 time slice를 가짐)
 만약 IO없이 time slice를 모두 사용했다면, priority를 감소시킨다. 
 => 이렇게 하면 자연스레 CPU burst가 짧은 프로세스는 우선순위가 높게, 긴 프로세스는 우선순위가 낮게 분포된다.
-###### Q
-A
-###### Q
-A
-###### Q
-A
+###### CFS
+각각의 프로세스가 priority(nice value)를 가짐
+- 고정 시간 할당에 기반한 quantum보다는 CPU time의 비율에 기반함
+- 두 개의 스케쥴링 클래스가 포함된다.
+	- default
+	- real-time
+- Quantum은 -20~19의 nice value로 계산된다.
+###### CFS에서 task의 time slice
+`time slice = target latency x ( task의 weight / sum(weight) )`
+###### CFS에서 vruntime
+`vruntime += 실행시간 x ( 1024 / weight )`
 ###### Q
 A
 ###### Q
