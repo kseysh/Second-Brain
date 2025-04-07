@@ -244,7 +244,7 @@ where semester = ’Fall’ and year= 2009 and
 		where semester = ’Spring’ and year= 2010
 			and S.course_id= T.course_id);
 ```
-
+### not exists
 생물학과에서 제공되는 모든 과목을 수강한 모든 학생들을 찾기
 ```sql
 select distinct S.ID, S.name
@@ -257,7 +257,8 @@ where not exists ( (select course_id
 		from takes as T
 		where S.ID = T.ID));
 ```
-
+=> (모든 생물학과 과목) - (학생이 들은 과목) = 공집합이면 그 학생은 모든 생물학과 과목을 수강한 것
+= all 또는 = any 같은 다른 SQL 문법으로는 이 쿼리를 동일하게 표현할 수 없음
 ### unique
 subquery에 중복된 결과가 있는지 테스트
 
@@ -279,7 +280,7 @@ from (select dept_name, avg (salary) as avg_salary
 	group by dept_name)
 where avg_salary > 42000;
 ```
-
+강사를 부서 단위로 묶어 부서의 평균 연봉이 42000을 넘는 것만 select
 ```sql
 select dept_name, avg_salary
 from (select dept_name, avg (salary)
@@ -287,6 +288,8 @@ from (select dept_name, avg (salary)
 	group by dept_name) as dept_avg (dept_name, avg_salary)
 where avg_salary > 42000;
 ```
+as를 tuple 형태로 쓸 수 있나봄
+
 ### with
 with 절이 발생하는 쿼리에 대해서만 정의를 사용할 수 있는 temporary view를 정의하는 방법을 제공
 

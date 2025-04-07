@@ -208,10 +208,56 @@ where (course_id, sec_id, semester, year) in
 서브쿼리에서 반환된 값 중 하나 이상과 비교 조건을 만족하면 TRUE ([[ANY]]와 같은 역할)
 ###### all
 ![[Pasted image 20250320172756.png|200]]
-###### exists, not exists
-
+###### 2009년 가을 학기와 2010년 봄 학기 두 학기 모두에 개설된 모든 course_id 찾기(exists 사용)
+```sql
+select course_id
+from section as S
+where semester = ’Fall’ and year= 2009 and
+	exists (select *
+		from section as T
+		where semester = ’Spring’ and year= 2010
+			and S.course_id= T.course_id);
+```
+###### 생물학과에서 제공되는 모든 과목을 수강한 모든 학생들을 찾기 (not exists 사용)
+```sql
+select distinct S.ID, S.name
+from student as S
+where not exists ( (select course_id
+		from course
+		where dept_name = 'Biology')
+	except
+		(select T.course_id
+		from takes as T
+		where S.ID = T.ID));
+```
+(모든 생물학과 과목) - (학생이 들은 과목) = 공집합이면 그 학생은 모든 생물학과 과목을 수강한 것
 ###### unique
+subquery에 중복된 결과가 있는지 테스트
+###### 2009년에 최대 한 번 제공되었던 모든 과정 찾기 (두 번이면 안 됨)
+```sql
+select T.course_id
+from course as T
+where unique (select R.course_id
+		from section as R
+		where T.course_id= R.course_id
+			and R.year = 2009);
+```
+###### 평균 급여가 42,000달러 이상인 부서의 평균 강사 급여를 찾기
+```sql
+select dept_name, avg_salary
+from (select dept_name, avg (salary) as avg_salary
+	from instructor
+	group by dept_name)
+where avg_salary > 42000;
+```
 
+```sql
+select dept_name, avg_salary
+from (select dept_name, avg (salary)
+	from instructor
+	group by dept_name) as dept_avg (dept_name, avg_salary)
+where avg_salary > 42000;
+```
 ###### with
 
 
