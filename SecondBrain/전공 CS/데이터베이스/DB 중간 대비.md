@@ -401,10 +401,19 @@ set tot_cred = ( select case
 		takes.grade <> ’F’ and
 		takes.grade is not null);
 ```
-###### Q
-A
-###### Q
-A
+###### views
+모든 사용자가 전체 논리 모델을 보는 것이 바람직하지 않은 경우에 사용
+특정 사용자에게 특정 데이터를 숨기기 위한 메커니즘 제공
+개념적 모델에는 없지만 사용자에게 가상 릴레이션으로 보이는 릴레이션
+```sql
+create view v as <쿼리 표현식>
+```
+###### 급여 정보 없이 강사 정보를 보여주는 뷰
+```sql
+create view faculty as  
+select ID, name, dept_name  
+from instructor;
+```
 ###### Q
 A
 ###### Q
