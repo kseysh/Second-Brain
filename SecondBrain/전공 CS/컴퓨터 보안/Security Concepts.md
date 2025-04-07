@@ -139,6 +139,11 @@ Digital signature: 송신자는 개인키 수신자는 공개키 사용으로 �
 •	접근 제어 서비스 및 기타 보안 서비스의 적절한 관리와 제어에 의존함
 ## 네트워크 보안의 핵심 요소
 ![[Pasted image 20250311104212.png|400]]
+## Communications Security
+네트워크를 통한 통신의 보호를 다루며, 수동적 공격과 능동적 공격 모두에 대한 방어 조치를 포함
+통신 보안은 주로 **네트워크 프로토콜**을 사용하여 구현
+
+
 IPsec : IP secure
 TLS : Transport Layer Security (= Secure Socket Layer, SSL)
 SSH: Secure shell
