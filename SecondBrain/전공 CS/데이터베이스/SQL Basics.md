@@ -435,7 +435,7 @@ set tot_cred = ( select sum(credits)
 		takes.grade is not null);
 ```
 
-어떤 과정도 수강하지 않은 학생들을 위해 tot_creds를 null로 설정
+어떤 과정도 수강하지 않은 학생들은 tot_creds를 0으로 설정
 sum(credits) 대신에 아래 구문을 사용한다
 ```sql
 case
