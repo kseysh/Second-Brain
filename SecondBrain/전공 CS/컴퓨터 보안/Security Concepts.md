@@ -155,13 +155,20 @@ IEEE 802.11i: wifi 표준
 	- Host-based(HIDS) vs. NW-based(NIDS)
 - Intrusion prevention (침입 방어)
 ## Standards
-- National Institute of Standards and Tecnology
-	- FIPS
+- National Institute of Standards and Tecnology (NIST)
+	- 미국 국립표준기술연구소 아래 두 개는 국가적 범위이지만, 전 세계에 영향을 미침
+	- FIPSf
 	- SP
-- Internet Society
-	- IETF
-	- RFCs
+- Internet Society (ISOC)
+	- 조직 및 개인 회원으로 구성된 전문가 협회
+	- IETF - Internet Engineering Task Force
+	- RFCs - 인터넷 표준 및 관련 명세
 - ITU-T
-- ISO
-- IEEE
-- TTA
+	- UN 산하 국제 기구
+	- 전기통신 기술 표준 개발담당
+- ISO (International Organization for Standardization)
+	- 국제 표준화 기구
+- IEEE (Institute of Electrical and Electronics Engineers)
+	- 미국 전기전자 학회
+- TTA (Telecommunications Technology Association)
+	- 한국정보통신기술협회
