@@ -61,9 +61,9 @@ create view physics_fall_2009 as
 select course.course_id, sec_id, building, room_number  
 from course, section  
 where course.course_id = section.course_id  
-and course.dept_name = 'Physics'  
-and section.semester = 'Fall'  
-and section.year = 2009;
+	and course.dept_name = 'Physics'  
+	and section.semester = 'Fall'  
+	and section.year = 2009;
 
 create view physics_fall_2009_watson as  
 select course_id, room_number  
@@ -90,7 +90,7 @@ where instructor.dept_name = department.dept_name;
 ```sql
 insert into instructor_info values ('69987', 'White', 'Taylor');
 ```
-Taylor 건물에 여러 개의 학과가 있다며느 어떤 학과로 지정해야 할지 모르며,
+Taylor 건물에 여러 개의 학과가 있다면 어떤 학과로 지정해야 할지 모르며,
 Taylor 건물에 어떤 학과도 없다면 삽입이 불가능한 문제가 발생한다.
 ### 일반적으로 SQL 뷰가 updatable하다고 판단되는 경우
 - from 절에 하나의 relation만 포함되어 있을 때

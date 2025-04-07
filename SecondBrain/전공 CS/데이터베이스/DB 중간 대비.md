@@ -408,18 +408,40 @@ set tot_cred = ( select case
 ```sql
 create view v as <쿼리 표현식>
 ```
-###### 급여 정보 없이 강사 정보를 보여주는 뷰
+###### 급여 정보 없이 강사 정보를 보여주는 뷰, 뷰를 이용해 생물학과 소속 강사들의 이름 조회
 ```sql
 create view faculty as  
 select ID, name, dept_name  
 from instructor;
 ```
-###### Q
-A
-###### Q
-A
-###### Q
-A
+
+```sql
+select name  
+from faculty  
+where dept_name = 'Biology';
+```
+###### 학과별 총 급여를 보여주는 뷰
+```sql
+create view departments_total_salary(dept_name, total_salary) as  
+select dept_name, sum(salary)  
+from instructor  
+group by dept_name;
+```
+###### 2009년 가을학기의 물리학 강의 정보를 보여주는 뷰, 뷰를 이용해 Watson 건물에서 열리는 강의의 과목 ID와 강의실 번호 조회
+```sql
+create view physics_fall_2009 as  
+select course.course_id, sec_id, building, room_number  
+from course, section  
+where course.course_id = section.course_id  
+	and course.dept_name = 'Physics'  
+	and section.semester = 'Fall'  
+	and section.year = 2009;
+
+create view physics_fall_2009_watson as  
+select course_id, room_number  
+from physics_fall_2009  
+where building = 'Watson';
+```
 ###### Q
 A
 ###### Q
