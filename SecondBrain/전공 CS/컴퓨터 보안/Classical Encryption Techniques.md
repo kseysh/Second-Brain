@@ -90,7 +90,7 @@ plaintext: we are discovered save yourself
 같은 e라도 다르게 번역될 수 있음 (Polyalphabetic Cipher의 특징)
 #### 단점
 ![[Pasted image 20250325135740.png|300]]
-key와 plaintext가 같다면, 유추하기가 쉬워질 수 있다.
+key와 plaintext가 같은 부분이 있다면, 유추하기가 쉬워질 수 있다.
 ### vigenere Autokey System
 vigenere Cipher의 단점을 해결하기 위해 아래처럼 plaintext를 다시 key로 사용할 수 있다.
 ![[Pasted image 20250325135901.png|300]]
