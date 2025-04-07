@@ -315,13 +315,14 @@ with dept _total (dept_name, value) as
 	group by dept_name), /* 모든 부서의 총 급여 */
 dept_total_avg(value) as
 	(select avg(value)
-	from dept_total) /* 모든 부서의 총 급여 평균 */
+	from dept_total) /* 총 급여의 평균 */
 
 select dept_name
 from dept_total, dept_total_avg
 where dept_total.value >= dept_total_avg.value;
 ```
 ### scalar subquery
+모든 부서의 이름과 교수의 수 찾기
 ```sql
 select dept_name,
 	(select count(*)

@@ -300,16 +300,36 @@ select dept_name
 from dept_total, dept_total_avg
 where dept_total.value >= dept_total_avg.value;
 ```
-###### Q
-A
-###### Q
-A
-###### Q
-A
-###### Q
-A
-###### Q
-A
+###### 모든 부서의 이름과 교수의 수 찾기 (scalar subquery 사용)
+```sql
+select dept_name,
+	(select count(*)
+	from instructor
+	where department.dept_name = instructor.dept_name)
+	as num_instructors
+from department;
+```
+###### 모든 교수 삭제
+```sql
+delete from instructor
+```
+###### Finance 부서의 모든 교수 삭제
+```sql
+delete from instructor
+where dept_name= 'Finance';
+```
+###### Watson 건물에 위치한 부서와 관련된 강사에 대한 강사 관계의 모든 튜플을 삭제
+```sql
+delete from instructor
+where dept_name in (select dept_name
+		from department
+		where building = 'Watson');
+```
+###### 급여가 강사의 평균 급여보다 적은 모든 강사를 삭제
+```sql
+delete from instructor
+where salary< (select avg (salary) from instructor);
+```
 ###### Q
 A
 ###### Q
