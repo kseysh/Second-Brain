@@ -32,6 +32,7 @@
 사실 R 자체도 super key다
 ###### candidate key
 super key 중 minimal한 key
+null이 될 수 있다
 ex) (Id), (학과번호, 학과별 수업 번호) 둘 다 나누게되면 식별불가능해지므로 둘 다 minimal하다고 볼 수 있다.
 ###### PK
 candidate key 중 선택된 key
@@ -442,26 +443,90 @@ select course_id, room_number
 from physics_fall_2009  
 where building = 'Watson';
 ```
-###### Q
-A
-###### Q
-A
-###### Q
-A
-###### Q
-A
-###### Q
-A
-###### Q
-A
-###### Q
-A
-###### Q
-A
-###### Q
-A
-###### Q
-A
+##### 아래 코드의 문제
+```sql
+create view instructor_info as
+select ID, name, building
+from instructor, department
+where instructor.dept_name = department.dept_name;
+```
+위 뷰에 아래처럼 insert를 시도하면,
+```sql
+insert into instructor_info values ('69987', 'White', 'Taylor');
+```
+###### A
+Taylor 건물에 여러 개의 학과가 있다면 어떤 학과로 지정해야 할지 모르며,
+Taylor 건물에 어떤 학과도 없다면 삽입이 불가능한 문제가 발생한다.
+###### 일반적으로 SQL view가 updatable하다고 판단되는 경우
+- from 절에 하나의 relation만 포함되어 있을 때
+- select절에 relation의 속성 이름만 포함되어 있고, 표현식, 집계 함수, distinct등이 포함되어 있지 않을 때
+- select 절에 포함되지 않은 속성이 nullable할 때
+- group by나 having 절이 쿼리에 포함되어 있지 않을 때
+##### 아래 코드의 문제
+```sql
+create view history_instructors as
+select *
+from instructor
+where dept_name = 'History';
+```
+위 뷰에서 아래 sql을 실행하면,
+```sql
+insert into history_instructors values ('25566', 'Brown', 'Biology', 100000);
+```
+###### A
+where절의 조건 (즉, dept_name = 'History)을 만족하지 않기 때문에 insert가 차단된다.
+with check option 절이 뷰 절의 마지막에 붙어 있을 경우, 뷰 정의의 조건을 만족하지 않는 행의 삽입이나 갱신을 방지한다.
+###### check(P)
+각 튜플이 반드시 만족해야 하는 조건 P를 가짐
+###### semester가 반드시 Fall, Winter, Spring, Summer중 하나여야 할 때
+```sql
+create table section (
+  course_id varchar(8),
+  sec_id varchar(8),
+  semester varchar(6),
+  year numeric(4,0),
+  building varchar(15),
+  room_number varchar(7),
+  time_slot_id varchar(4),
+  primary key (course_id, sec_id, semester, year),
+  check (semester in ('Fall', 'Winter', 'Spring', 'Summer'))
+);
+```
+###### 관련 데이터 삭제 / 변경시 자동으로 해당 참조도 삭제 / 변경하려면,
+```sql
+create table course (
+  ...
+  dept_name varchar(20),
+  foreign key (dept_name) references department
+    on delete cascade
+    on update cascade,
+  ...
+);
+```
+##### 아래 문제 해결
+```sql
+create table person (
+  ID char(10),
+  name char(40),
+  spouse char(10),
+  primary key (ID),
+  foreign key (spouse) references person
+);
+```
+
+이 상황에서 배우자인 John과 Mary를 동시에 추가하려면, 
+```sql
+insert into person values ('10101', 'John', '11111');
+insert into person values ('11111', 'Mary', '10101');
+```
+서로 존재하지 않는 사람을 참조하게 되어 제약 조건 위반이 발생할 수 있다.
+###### A
+```sql
+constraint spouse_ref foreign key (spouse) references person
+set constraints spouse_ref deferred;
+```
+###### index 생성
+create index id_idx on student(id)
 ###### Q
 A
 ###### Q
