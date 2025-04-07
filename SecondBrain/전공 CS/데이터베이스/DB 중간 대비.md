@@ -206,6 +206,20 @@ where (course_id, sec_id, semester, year) in
 ```
 ###### some
 서브쿼리에서 반환된 값 중 하나 이상과 비교 조건을 만족하면 TRUE ([[ANY]]와 같은 역할)
+###### 생물학 부서의 일부 (적어도 한 명) 강사의 급여보다 더 큰 급여를 받는 강사의 이름을 찾기 (Set 비교 활용)
+```sql
+select distinct T.name
+from instructor as T, instructor as S
+where T.salary > S.salary and S.dept name = 'Biology';
+```
+
+```sql
+select name
+from instructor
+where salary > some (select salary
+					from instructor
+					where dept name = 'Biology');
+```
 ###### all
 ![[Pasted image 20250320172756.png|200]]
 ###### 2009년 가을 학기와 2010년 봄 학기 두 학기 모두에 개설된 모든 course_id 찾기(exists 사용)
@@ -242,7 +256,9 @@ where unique (select R.course_id
 		where T.course_id= R.course_id
 			and R.year = 2009);
 ```
-###### 평균 급여가 42,000달러 이상인 부서의 평균 강사 급여를 찾기
+###### Derived Relation이란?
+SQL 쿼리 안에서 FROM 절에 사용되는 서브쿼리로, 일시적인 이름(alias)을 붙여서 마치 테이블처럼 다룰 수 있는 것
+###### 평균 급여가 42,000달러 이상인 부서의 평균 강사 급여를 찾기 (Derived Relation 사용)
 ```sql
 select dept_name, avg_salary
 from (select dept_name, avg (salary) as avg_salary
@@ -259,26 +275,31 @@ from (select dept_name, avg (salary)
 where avg_salary > 42000;
 ```
 ###### with
-
-
-######
-
-###### 생물학 부서의 일부 (적어도 한 명) 강사의 급여보다 더 큰 급여를 받는 강사의 이름을 찾기 (Set 비교 활용)
+with 절이 발생하는 쿼리에 대해서만 정의를 사용할 수 있는 temporary view를 정의하는 방법을 제공
+###### 모든 부서 중 최대 예산을 갖는 부서의 최대 예산 값 찾기 (with 활용)
 ```sql
-select distinct T.name
-from instructor as T, instructor as S
-where T.salary > S.salary and S.dept name = 'Biology';
-```
+with max_budget (value) as
+	(select max(budget)
+	from department)
 
-```sql
-select name
-from instructor
-where salary > some (select salary
-					from instructor
-					where dept name = 'Biology');
+select budget
+from department, max_budget
+where department.budget = max_budget.value;
 ```
-###### Q
-A
+###### 모든 부서의 총 급여가 총 급여의 평균보다 큰 모든 부서를 찾기 (with 활용)
+```sql
+with dept _total (dept_name, value) as
+	(select dept_name, sum(salary)
+	from instructor
+	group by dept_name),
+dept_total_avg(value) as
+	(select avg(value)
+	from dept_total)
+
+select dept_name
+from dept_total, dept_total_avg
+where dept_total.value >= dept_total_avg.value;
+```
 ###### Q
 A
 ###### Q

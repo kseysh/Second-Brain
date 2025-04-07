@@ -272,6 +272,9 @@ where unique (select R.course_id
 			and R.year = 2009);
 ```
 
+### Derived Relation
+SQL 쿼리 안에서 FROM 절에 사용되는 서브쿼리로, 일시적인 이름(alias)을 붙여서 마치 테이블처럼 다룰 수 있는 것
+
 평균 급여가 42,000달러 이상인 부서의 평균 강사 급여를 찾기
 ```sql
 select dept_name, avg_salary
@@ -298,6 +301,7 @@ with 절이 발생하는 쿼리에 대해서만 정의를 사용할 수 있는 t
 with max_budget (value) as
 	(select max(budget)
 	from department)
+
 select budget
 from department, max_budget
 where department.budget = max_budget.value;
@@ -308,10 +312,11 @@ where department.budget = max_budget.value;
 with dept _total (dept_name, value) as
 	(select dept_name, sum(salary)
 	from instructor
-	group by dept_name),
+	group by dept_name), /* 모든 부서의 총 급여 */
 dept_total_avg(value) as
 	(select avg(value)
-	from dept_total)
+	from dept_total) /* 모든 부서의 총 급여 평균 */
+
 select dept_name
 from dept_total, dept_total_avg
 where dept_total.value >= dept_total_avg.value;
