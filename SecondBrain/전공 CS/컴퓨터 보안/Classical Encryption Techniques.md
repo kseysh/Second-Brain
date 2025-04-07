@@ -85,7 +85,7 @@ ba | lx | lo | on으로 나누고, 1을 적용 후 3,2,3,4의 규칙을 적용�
 가장 잘 알려지고 간단한 다중 알파벳 치환 암호
 #### example
 key : deceptive
-plaintext: we are   save yourself
+plaintext: we are discovered save yourself
 ![[Pasted image 20250325135609.png|300]]
 같은 e라도 다르게 번역될 수 있음 (Polyalphabetic Cipher의 특징)
 #### 단점
