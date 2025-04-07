@@ -233,7 +233,18 @@ where salary > all (select salary
 	where dept name = ’Biology’);
 ```
 ![[Pasted image 20250320172756.png|200]]
-### exists, not exists
+### exists 
+2009년 가을 학기와 2010년 봄 학기 두 학기 모두에 개설된 모든 course_id 찾기.
+```sql
+select course_id
+from section as S
+where semester = ’Fall’ and year= 2009 and
+	exists (select *
+		from section as T
+		where semester = ’Spring’ and year= 2010
+			and S.course_id= T.course_id);
+```
+
 생물학과에서 제공되는 모든 과목을 수강한 모든 학생들을 찾기
 ```sql
 select distinct S.ID, S.name

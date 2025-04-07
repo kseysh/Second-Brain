@@ -195,10 +195,42 @@ where semester = ’Fall’ and year= 2009 and
 		from section
 		where semester = ’Spring’ and year= 2010);
 ```
-###### Q
-A
-###### Q
-A
+###### ID 10101을 가진 강사가 가르친 과정 섹션을 수강한 학생을 중복을 제외한 총 수 찾기
+```sql
+select count (distinct ID)
+from takes
+where (course_id, sec_id, semester, year) in
+	(select course_id, sec_id, semester, year
+	from teaches
+	where teaches.ID= 10101);
+```
+###### some
+서브쿼리에서 반환된 값 중 하나 이상과 비교 조건을 만족하면 TRUE ([[ANY]]와 같은 역할)
+###### all
+![[Pasted image 20250320172756.png|200]]
+###### exists, not exists
+
+###### unique
+
+###### with
+
+
+######
+
+###### 생물학 부서의 일부 (적어도 한 명) 강사의 급여보다 더 큰 급여를 받는 강사의 이름을 찾기 (Set 비교 활용)
+```sql
+select distinct T.name
+from instructor as T, instructor as S
+where T.salary > S.salary and S.dept name = 'Biology';
+```
+
+```sql
+select name
+from instructor
+where salary > some (select salary
+					from instructor
+					where dept name = 'Biology');
+```
 ###### Q
 A
 ###### Q
