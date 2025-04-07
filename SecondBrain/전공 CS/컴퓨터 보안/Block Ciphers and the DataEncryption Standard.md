@@ -32,3 +32,6 @@ ex) Autokeyed Vigenère cipher, Vernam cipher
 암호문의 통계 정보를 얻더라도, 해당 정보를 바탕으로 키를 유추하기 어렵도록 설계한다.
 ![[Pasted image 20250327140948.png|200]]
 이렇게 16번 다시 돌리면 Decryption이 됨
+## Data Encription Standard (DES)
+AES 도입 전까지 가장 널리 사용된 암호화 방식
+Block 단위로 암호화
