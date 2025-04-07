@@ -143,7 +143,6 @@ Digital signature: 송신자는 개인키 수신자는 공개키 사용으로 �
 네트워크를 통한 통신의 보호를 다루며, 수동적 공격과 능동적 공격 모두에 대한 방어 조치를 포함
 통신 보안은 주로 **네트워크 프로토콜**을 사용하여 구현
 
-
 IPsec : IP secure
 TLS : Transport Layer Security (= Secure Socket Layer, SSL)
 SSH: Secure shell
@@ -151,6 +150,7 @@ S/MIME: 이메일에 추가 기능을 준 것: MIME, Secure MIME
 IEEE 802.11i: wifi 표준
 ## Device Security
 - Firewall (방화벽)
+	- 하드웨어 및/또는 소프트웨어 기능으로, 특정 보안 정책에 따라 네트워크와 네트워크에 연결된 장치 간의 접근을 제한
 - Intrusion detection (침입 감지)
 	- Host-based(HIDS) vs. NW-based(NIDS)
 - Intrusion prevention (침입 방어)
