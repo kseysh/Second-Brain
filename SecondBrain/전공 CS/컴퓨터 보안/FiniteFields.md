@@ -18,7 +18,6 @@ Cyclic Group은 항상 Abelian Group이며 유한할 수 있고 무한할 수도
 항등원은 a<sup>0</sup>=e로 정의된다.
 #### example
 ![[Pasted image 20250327143017.png|300]]
-
 # Fields
 덧셈과 곱셈이라는 이항 연산을 가지는 원소들의 집합
 a, b, c ∈ F 에 대해 아래 공리를 만족해야 한다.
