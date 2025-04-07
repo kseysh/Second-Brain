@@ -361,7 +361,20 @@ where salary< (select avg (salary) from instructor);
 SQL에서 사용된 솔루션: 
 1. 먼저, 평균 급여를 계산하고 삭제할 모든 튜플을 찾습니다.
 2. 다음으로, 위에서 찾은 모든 튜플을 삭제하세요 (avg를 다시 계산하거나 튜플을 다시 테스트하지 않고)
-
+```sql
+DELETE FROM instructor
+WHERE ID IN (
+    SELECT ID
+    FROM (
+        SELECT ID
+        FROM instructor
+        WHERE salary < (
+            SELECT AVG(salary)
+            FROM instructor
+        )
+    ) AS temp_ids
+);
+```
 ## DDL - Insertion
 select, from, where절은 insertion 이전에 계산된다.
 아니면 아래 절 같은 곳에서 에러남
@@ -383,11 +396,11 @@ insert into student
 values ('3003', 'Green', 'Finance', null);
 ```
 
-tot_creds를 0으로 설정한 학생 관계에 모든 강사 추가
+모든 instructor를 student 테이블로 옮기되, tot_creds(총 이수 학점)는 0으로 설정
 ```sql
 insert into student
-select ID, name, dept_name, 0
-from instructor
+	select ID, name, dept_name, 0
+	from instructor
 ```
 
 ## DDL - Update
@@ -404,10 +417,11 @@ where salary <= 100000;
 ### case
 ```sql
 update instructor
-set salary = case
-	when salary <= 100000 then salary * 1.05
-	else salary * 1.03
-	end
+set salary = 
+		case
+			when salary <= 100000 then salary * 1.05
+			else salary * 1.03
+		end
 ```
 
 ### scalar subqueries

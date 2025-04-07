@@ -325,21 +325,61 @@ where dept_name in (select dept_name
 		from department
 		where building = 'Watson');
 ```
+###### delete from instructor where salary< (select avg (salary) from instructor) 의 문제
+삭제하는 동안 평균 급여가 변경되므로 avg(salary)값이 다시 계산되었을 때 바뀌게 됨
+
+먼저 평균 급여를 계산하고, 그 값보다 적은 급여를 가진 튜플(행)을 미리 따로 저장하여 저장한 것만 삭제
 ###### 급여가 강사의 평균 급여보다 적은 모든 강사를 삭제
 ```sql
-delete from instructor
-where salary< (select avg (salary) from instructor);
+DELETE FROM instructor
+WHERE ID IN (
+    SELECT ID
+    FROM (
+        SELECT ID
+        FROM instructor
+        WHERE salary < (
+            SELECT AVG(salary)
+            FROM instructor
+        )
+    ) AS temp_ids
+);
 ```
-###### Q
-A
-###### Q
-A
-###### Q
-A
-###### Q
-A
-###### Q
-A
+###### insert 문
+```sql
+insert into course
+values ('CS-437', 'Database Systems', 'Comp. Sci.', 4);
+```
+
+```sql
+insert into course (course_id, title, dept_name, credits)
+values ('CS-437', 'Database Systems', 'Comp. Sci.', 4);
+```
+###### 모든 instructor를 student 테이블로 옮기되, tot_creds(총 이수 학점)는 0으로 설정
+```sql
+insert into student
+	select ID, name, dept_name, 0
+	from instructor
+```
+###### 위 코드의 순서
+select 문이 다 실행되고 나서야 insert문이 실행된다.
+###### 급여가 $100,000 이상인 강사의 급여를 3% 인상하고, 다른 모든 강사는 5% 인상을 받기 (case 사용)
+```sql
+update instructor
+set salary = salary * 1.03
+where salary > 100000;
+---
+update instructor
+set salary = salary * 1.05
+where salary <= 100000;
+```
+
+```sql
+update instructor
+set salary = case
+	when salary <= 100000 then salary * 1.05
+	else salary * 1.03
+	end
+```
 ###### Q
 A
 ###### Q
