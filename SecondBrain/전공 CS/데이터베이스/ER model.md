@@ -125,4 +125,10 @@ instructor 엔티티에 dept_name 속성이 있을 때, instructor와 department
 - discriminator (partial key): weak entity set 내에서 각 entity를 구별하는 속성 집합
 - weak entity의 pk는 strong entity pk + discriminator
 - discriminator는 점선으로 밑줄 표시
+#### example
+section의 pk: (course_id, sec_id, semester, year)
 ![[Pasted image 20250408152813.png|300]]
+주의: strong entity의 pk는 명시적으로 저장되지 않아도, 관계를 통해 암시적으로 연결됨
+만약, course_id를 명시적으로 저장한다며, section은 강한 entity가 될 수 있지만, 이 경우 course와 section 사이의 관계가 속성에 의해 중복 정의됨
+### ERD for a university Enterprise
+![[Pasted image 20250408153007.png|300]]

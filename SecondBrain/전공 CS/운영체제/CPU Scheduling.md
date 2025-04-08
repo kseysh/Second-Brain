@@ -150,7 +150,7 @@ P1: 1ms 돌고, 10ms IO를 기다리는 프로세스
 P2: 계속 도는 프로세스
 ![[Pasted image 20250401171353.png|200]]
 # Linux Scheduling
-### Completely Fair Scheduler (CFS) - 다시
+### Completely Fair Scheduler (CFS)
 - 각각의 프로세스가 priority(nice value)를 가짐
 - 고정 시간 할당에 기반한 quantum보다는 CPU time의 비율에 기반함
 - 두 개의 스케쥴링 클래스가 포함된다.
