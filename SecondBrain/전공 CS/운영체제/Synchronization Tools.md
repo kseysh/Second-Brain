@@ -68,3 +68,50 @@ i의 입장에서의 code
 - Hardware Instruction
 - Atomic Variables
 	- 언어 차원에서 Synchronization Hardware을 사용하여 Atomic을 지원함
+## Hardware Instruction: test_and_set (TAS)
+현대 컴퓨터는 특별한 원자적 하드웨어 명령어를 제공함
+- Atomic = non-interruptible
+- 메모리 값을 검사하고 설정하거나(test_and_set) 두 메모리 값의 내용을 교환(swap)하는 방식
+```c
+boolean test_and_set (boolean *target) {
+	boolean rv = *target;
+	*target = TRUE;
+	return rv;
+}
+```
+- 이 함수는 원자적으로 실행됨
+- 인자로 받은 값의 원래 값을 반환하고, 해당 값을 TRUE로 설정함
+
+공유변수인 lock은 false로 initialized 되어 있음
+```c
+do {
+while (test_and_set(&lock)); /* do nothing */
+		/* critical section */
+	lock = false;
+		/* remainder section */
+} while (true);
+```
+- lock = 1 잠김, lock = 0 열림
+- 호출과 동시에 lock이 1이됨
+- 하지만, 계속 한 프로세스만 들어갈 수 있어 Bounded Waiting을 보장하지 못함
+
+## Solution with Bounded Waiting
+```c
+do {
+	waiting[i] = true;
+	key = 1;
+	while (waiting[i] && key == 1) // 내가 기다리고 있는지, key가 있는지 확인
+		key = test_and_set(&lock)); // 내가 기다리고 있고, key가 있으면 들어와서 key를 1로 변경
+	waiting[i] = false;
+	
+		/* critical section */
+		
+	j = (i + 1) % n; // 내 옆에 있는 애한테 넘겨줄거임
+	while ((j != i) && !waiting[j]) // 내 옆에 있는 애가 안 기다리면
+		j = (j + 1) % n;// 내 옆에 있는 애의 옆에 애를 줌
+	if (j == i) lock = 0;
+	else waiting[j] = false;
+		/* remainder section */
+} while (true);
+```
+- 내가 기다리고 있는지
