@@ -83,10 +83,24 @@ many to many
 #### example
 proj_guide에서 instructor로 향하는 화살표는 학생마다 프로젝트에 대해 최대 한 명의 지도교수가 있음을 의미
 
-![[Pasted image 20250408144021.png|200]]  ![[Pasted image 20250408144035.png|200]]
+![[Pasted image 20250408144021.png|200]]  ![[Pasted image 20250408144508.png|200]]
 • 만약 화살표가 두 개 이상이면 의미를 정의하는 방식은 두 가지가 있음:
 예시: A, B, C 사이의 삼항 관계 R에서 B와 C로 향하는 화살표가 있을 경우
 1. 각 A는 B와 C에서 유일한 조합과 연결된다
 2. 각 (A, B) 쌍은 유일한 C와 연결되고, 각 (A, C) 쌍은 유일한 B와 연결된다
 => 다중 해석의 혼동을 방지하기 위해, 하나 이상의 화살표를 사용하는 것을 금지함
 ![[Pasted image 20250408144347.png|200]]
+## 엔티티 집합의 관계 참여
+### Total Participation
+이중 선으로 표시되며, 엔티티 집합의 모든 엔티티가 관계 집합에 최소한 하나는 참여해야 함
+#### example
+![[Pasted image 20250408150400.png|250]]
+section은 sec_course에 전체 참여함 → 모든 섹션은 반드시 하나의 강의(course)와 연결되어야 함
+### Partial Participation
+일부 엔티티는 어떤 관계에도 참여하지 않을 수 있음
+
+ex) instructor의 advisor 참여는 partial participation -> 어떤 교수는 학생과 연결되지 않을 수 있음
+## Redundant Attributes (중복 속성)
+instructor 엔티티에 dept_name 속성이 있을 때, instructor와 department를 연결하는 inst_dept 관계가 있다면, dept_name 속성은 중복됨
+이는 관계를 통해 이미 제공되는 정보를 속성으로 반복한 것이며 instructor에서 제거되어야 함
+테이블로 변환할 때는, 어떤 경우엔 이 속성이 다시 포함되기도 함
