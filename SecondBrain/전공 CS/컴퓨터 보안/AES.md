@@ -20,6 +20,26 @@ SPN 구조 (Subsititution-permutation network)
 	- Shift Rows
 	- Add Round key
 Decryption은 이에 역연산으로 동작함
+## AES-128: 상세 구조
+•	매 라운드에서 전체 데이터 블록을 하나의 매트릭스로 처리하며, 치환과 순열 연산을 수행함
+•	입력으로 제공된 키는 32비트 워드 44개로 확장됨 (`w[i]`)
+•	4가지 주요 단계
+1.	Substitute Bytes: S-Box를 사용하여 바이트 단위 치환 수행
+2.	ShiftRows: 간단한 바이트 위치 재배열 (순열)
+3.	MixColumns: GF(2⁸) 산술을 사용하는 열 기반 치환
+4.	AddRoundKey: 현재 블록과 확장된 키의 일부를 비트 단위 XOR 수행
+## Substitute byte transformation
+![[Pasted image 20250408222937.png|300]]
+## Add round key transformation
+![[Pasted image 20250408222951.png|300]]
 
-
+## S-Box
+- S-Box
+![[Pasted image 20250408230810.png|300]]
+- Inverse S-Box
+![[Pasted image 20250408230823.png|300]]
+### S-Box 설계 이유
+•	S-Box는 알려진 암호 해독 공격에 강하도록 설계됨
+•	입력 비트와 출력 비트 사이의 상관 관계를 낮추고, 출력이 입력의 선형 함수가 아니도록 설계됨
+•	비선형성(nonlinearity)은 곱셈 역원 연산을 통해 제공됨
 
