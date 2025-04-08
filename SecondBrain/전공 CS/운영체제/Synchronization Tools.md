@@ -29,14 +29,27 @@ ex) fork() system call에서 next_available_pid 가져오기
 - 커널 모드에서 빠져나가거나, 차단되거나, 자발적으로 CPU를 양보할 때까지 실행함
 	- 커널 모드에서는 본질적으로 race condition이 없음
 ## Peterson's Solution
+i의 입장에서의 code
+![[Pasted image 20250408171209.png|200]]
+자기가 준비되었으면, turn을 j에게 넘기고
+내가 턴을 넘겼는데, j가 대기하지 않거나 j가 turn을 나에게 넘기면 내 차례
+
 - 두 프로세스를 대상으로 함
 - load와 store가 atomic하다고 가정 (interrupt되지 않음)
 - 두 프로세스는 두 개의 변수를 공유함
 	- int turn
 		- 임계 구역에 들어갈 차례인 프로세스
-		- turn = 0: P0에게 우선순위가 있음
+		- turn = 0: P<sub>0</sub>에게 우선순위가 있음
 	- bool flag\[2]
 		- 해당 프로세스가 임계 구역에 들어갈 준비가 되었는지 나타냄
-		- flag\[i] = true: P<sub>i</sub>가 준비됨
-		- 
-- 
+		- flag\[i] = true: P<sub>i</sub>가 준비 완료됨
+- Critical section problem Solution으로 아래 세 조건을 만족함
+	- 상호 배제
+		- `P[i]`는 `flag[j] == false`거나, `turn == i` 일때만 임계 구역에 진입함
+	- Progress
+		- critical section 이후 `flag[i]`를 false로 하므로 progress 만족
+	- bounded waiting
+		- 한 바퀴 돌면 항상 순서는 반대로 넘어가게 되어있음
+단, 피터슨의 해법은 현대 컴퓨터 아키텍처에서는 항상 동작한다고 보장할 수 없음
+→ 프로세서나 컴파일러가 의존성이 없는 읽기/쓰기 연산의 순서를 바꿀 수 있음
+![[Pasted image 20250408171904.png|300]]
