@@ -95,3 +95,6 @@ bias: 1023
 
 ![[Pasted image 20250403140837.png|300]]
 single은 2<sup>-23</sup>의 정밀도를 가지는데, 여기서는 Fraction이 30bit이므로 7bit가 사라지게된다.
+## Denormal Numbers
+Exponent = 00...000
+Exponent = 11...111
