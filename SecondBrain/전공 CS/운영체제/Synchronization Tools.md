@@ -109,9 +109,9 @@ do {
 	j = (i + 1) % n; // 내 옆에 있는 애한테 넘겨줄거임
 	while ((j != i) && !waiting[j]) // 내 옆에 있는 애가 안 기다리면
 		j = (j + 1) % n;// 내 옆에 있는 애의 옆에 애를 줌
-	if (j == i) lock = 0;
-	else waiting[j] = false;
+	// 기다리는 애가 있거나, 한 바퀴 다 돌았다면 while 문을 벗어날 수 있음
+	if (j == i) lock = 0; // 락을 풀면 누구나 들어가도록 하는 것
+	else waiting[j] = false;// 기다리는 애가 있으면 j만 들어갈 수 있도록 바꿔준다.
 		/* remainder section */
 } while (true);
 ```
-- 내가 기다리고 있는지
