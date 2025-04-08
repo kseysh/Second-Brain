@@ -104,3 +104,9 @@ ex) instructor의 advisor 참여는 partial participation -> 어떤 교수는 �
 instructor 엔티티에 dept_name 속성이 있을 때, instructor와 department를 연결하는 inst_dept 관계가 있다면, dept_name 속성은 중복됨
 이는 관계를 통해 이미 제공되는 정보를 속성으로 반복한 것이며 instructor에서 제거되어야 함
 테이블로 변환할 때는, 어떤 경우엔 이 속성이 다시 포함되기도 함
+## Keys
+- super key
+	- 엔티티를 고유하게 식별할 수 있는 하나 이상의 속성 집합
+- Candidate key
+	- super key에서 더 이상 속성을 뺄 수 없는 unique한 key
+## 관계 집합의 key
