@@ -110,3 +110,19 @@ instructor 엔티티에 dept_name 속성이 있을 때, instructor와 department
 - Candidate key
 	- super key에서 더 이상 속성을 뺄 수 없는 unique한 key
 ## 관계 집합의 key
+- 관계 집합의 super key는 관련된 엔티티 집합의 PK 조합 (ex) advisor 관계에서는 (s_id, i_id)가 super key)
+- 이 말은, 동일한 엔티티 집합 쌍은 특정 관계 집합에서 최대 하나의 관계만 가질 수 있다는 뜻
+- 관계 집합의 PK는 관계의 cardinality에 따라 달라짐
+• 일대일: 두 엔터티 중 어느 한 쪽의 PK
+• 다대일: “다”에 해당하는 엔터티의 PK
+• 다대다: 두 엔터티의 PK를 모두 합친 것
+- candidate key가 여러 개일 경우, 관계의 의미를 고려해 PK를 선택해야 함
+## Weak Entity sets
+값 타입할 때 만들었던 pk 없는 엔티티 말하는듯
+- PK가 없는 엔티티 집합
+- identifying entity set에 의존하여 존재
+- strong entity set에서 weak entity set방향이여야 함
+- discriminator (partial key): weak entity set 내에서 각 entity를 구별하는 속성 집합
+- weak entity의 pk는 strong entity pk + discriminator
+- discriminator는 점선으로 밑줄 표시
+![[Pasted image 20250408152813.png|300]]
