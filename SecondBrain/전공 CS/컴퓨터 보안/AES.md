@@ -7,4 +7,19 @@
 SPN 구조 (Subsititution-permutation network)
 - 치환(Substitution): SubBytes, MixColumns, AddRoundKey
 - 순열(Permutation): ShiftRows
+## AES-128 Encryption / Decryption
+![[Pasted image 20250408222338.png|300]]
+- 0 라운드: Add Round Key w\[0] ~ w\[3] 사용
+- 1-9 라운드
+	- Substitute Bytes
+	- Shift Rows
+	- Mix Columns
+	- Add Round key
+- 10 라운드 
+	- Substitute Bytes
+	- Shift Rows
+	- Add Round key
+Decryption은 이에 역연산으로 동작함
+
+
 
