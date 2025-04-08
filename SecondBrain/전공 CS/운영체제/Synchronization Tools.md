@@ -53,3 +53,18 @@ i의 입장에서의 code
 단, 피터슨의 해법은 현대 컴퓨터 아키텍처에서는 항상 동작한다고 보장할 수 없음
 → 프로세서나 컴파일러가 의존성이 없는 읽기/쓰기 연산의 순서를 바꿀 수 있음
 ![[Pasted image 20250408171904.png|300]]
+위 순서처럼 뒤바뀔 시 critical section에 둘 다 들어갈 가능성이 생긴다.
+또한, turn 값도 atomic하지 않기 때문에, 두 프로세스가 다른 값으로 인식할 수도 있다.
+## Critical Section with Interrupt Disable/Enable
+간단한 해법:
+- 진입 구역에서 인터럽트 비활성화, 종료 구역에서 인터럽트 활성화
+- 이렇게 하면 context switching이 일어나지 못한다.
+	- 하지만 이 방식은 너무 강력하며, 사용에 제약이 많음
+![[Pasted image 20250408172234.png|200]]
+## Synchronization Hardware
+많은 현대 시스템은 임계 구역 코드를 구현하기 위한 하드웨어 지원을 제공함
+- Memory Barriers
+	- memory barrier 전과 후에 순서가 바뀌지 못하도록 하는 것
+- Hardware Instruction
+- Atomic Variables
+	- 언어 차원에서 Synchronization Hardware을 사용하여 Atomic을 지원함
