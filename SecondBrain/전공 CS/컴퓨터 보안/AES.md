@@ -54,4 +54,6 @@ Decryption은 이에 역연산으로 동작함
 
 역연산
 1. S-Box의 출력값을 다시 입력값으로 사용
-2. 
+2. Byte -> bit vector로 전환
+3. V = A<sup>-1</sup>(W ⊕ B)
+4. GF(2⁸)에서 역원 계산
