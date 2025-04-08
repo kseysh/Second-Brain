@@ -56,4 +56,34 @@ proj_guide라는 관계는 instructor, student, project 사이의 Ternary relati
 - Many to many
 ![[Pasted image 20250408142402.png|300]]
 ![[Pasted image 20250408142412.png|300]]
-## C
+## Cardinality Constraints
+카디널리티 제약은 선으로 표현:
+• →: 하나(one)
+• —: 여러 개(many)
+## Relationship
+one to one
+• 교수는 advisor 관계를 통해 최대 한 명의 학생과만 연결될 수 있음
+• 학생도 advisor 관계를 통해 최대 한 명의 교수와만 연결될 수 있음
+![[Pasted image 20250408142853.png|300]]
+one to many
+•	교수는 advisor를 통해 여러 명(0명 포함)의 학생과 연결될 수 있음
+•	학생은 advisor를 통해 최대 한 명의 교수와만 연결될 수 있음
+![[Pasted image 20250408142911.png|300]]
+many to one
+•	교수는 advisor를 통해 최대 한 명의 학생과만 연결될 수 있음
+•	학생은 advisor를 통해 여러 명(0명 포함)의 교수와 연결될 수 있음
+![[Pasted image 20250408142922.png|300]]
+many to many
+•	교수는 advisor를 통해 여러 명(0명 포함)의 학생과 연결될 수 있음
+•	학생도 advisor를 통해 여러 명(0명 포함)의 교수와 연결될 수 있음
+![[Pasted image 20250408142933.png|300]]
+## Cardinality Constraints on Ternary Relationship
+삼항 또는 그 이상 차수를 가진 관계에서는 하나의 방향 화살표만 허용하여 cardinality contraints를 표시함
+#### example
+proj_guide에서 instructor로 향하는 화살표는 학생마다 프로젝트에 대해 최대 한 명의 지도교수가 있음을 의미
+
+• 만약 화살표가 두 개 이상이면 의미를 정의하는 방식은 두 가지가 있음:
+예시: A, B, C 사이의 삼항 관계 R에서 B와 C로 향하는 화살표가 있을 경우
+1. 각 A는 B와 C에서 유일한 조합과 연결된다
+2. 각 (A, B) 쌍은 유일한 C와 연결되고, 각 (A, C) 쌍은 유일한 B와 연결된다
+=> 다중 해석의 혼동을 방지하기 위해, 하나 이상의 화살표를 사용하는 것을 금지함
