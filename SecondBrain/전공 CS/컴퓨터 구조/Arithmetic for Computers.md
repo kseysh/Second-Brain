@@ -97,5 +97,8 @@ bias: 1023
 single은 2<sup>-23</sup>의 정밀도를 가지는데, 여기서는 Fraction이 30bit이므로 7bit가 사라지게된다.
 ## Denormal Numbers
 ### Exponent = 00...000
-
+Fraction 앞에 원래는 1로 간주되지만, Exp가 00...000이면 0으로 간주됨
+![[Pasted image 20250408210443.png|200]]
 ### Exponent = 11...111
+
+![[Pasted image 20250408210456.png|200]]
