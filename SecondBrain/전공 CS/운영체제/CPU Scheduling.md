@@ -209,35 +209,42 @@ Deadline안에 task를 완수해야하는 시스템에 사용되는 스케줄링
 -	하지만 이는 soft real-time만 보장할 수 있음
 -	hard real-time을 위해서는 deadline을 충족시킬 수 있는 기능이 추가로 필요함
 
-실시간 프로세스의 새로운 특성
+periodic process의 특성
 ![[Pasted image 20250403165433.png|300]]
 - 일정한 시간 간격으로 task가 일어나 CPU를 필요로 한다고 가정
 	- 매개변수: 처리 시간 t, 마감 기한 d, 주기 p
 	- 조건: 0 ≤ t ≤ d ≤ p
+		- 처리는 마감시간 이전에 끝나야 하며, 마감 기한은 다음 주기보다 이르거나 같아야 함
 	- 주기적인 태스크의 실행률(rate)은 1/p
+		- 주기가 짧을수록 더 자주 실행됨
 ### Rate Monotic Scheduling
 •	우선순위는 주기의 역수에 따라 부여됨
 •	짧은 주기 → 높은 우선순위
 •	긴 주기 → 낮은 우선순위
-#### example
+#### example 1
 •	P1: p = 50, t = 20, d = 다음 주기 시작 시점
 •	P2: p = 100, t = 35, d = 다음 주기 시작 시점
 ![[Pasted image 20250403165734.png|400]]
+P1: 50초의 주기동안 20초는 일해야 함
+P2: 100초의 주기동안 35초는 일해야 함
+P1,P2가 둘 다 도착했지만 주기가 짧은 P1이 먼저 시작함
+P2가 실행중이었지만, 주기가 짧은 P1이 preemptive로 먼저 일함
+
 P1 CPU utilization = 20/50
 P2 CPU utilization = 35/100
-
+#### example 2
 •	P1: p = 50, t = 25, d = 다음 주기 시작 시점
 •	P2: p = 80, t = 35, d = 다음 주기 시작 시점
 ![[Pasted image 20250403165746.png|400]]
 P1 CPU utilization = 25/50
 P2 CPU utilization = 35/80
-
-#### Earliest Deadline First Scheduling (EDF)
+### Earliest Deadline First Scheduling (EDF)
 CPU_util의 합이 1보다 작으면 항상 만족한다.
 •	우선순위는 마감 기한에 따라 부여됨
 •	기한이 빠를수록 → 우선순위 높음
 •	기한이 느릴수록 → 우선순위 낮음
-##### example
+#### example
 •	P1: p = 50, t = 25, d = 다음 주기 시작 시점
 •	P2: p = 80, t = 35, d = 다음 주기 시작 시점
 ![[Pasted image 20250403165831.png|400]]
+P1이 처음 도착했지만, 마감기한이 P2가 더 짧기 때문에 P2가 계속 실행함
