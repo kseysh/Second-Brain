@@ -1,3 +1,4 @@
+[주소](https://stupendous-butterkase-226.notion.site/CSE3308-System-Analysis-Hands-on-class-week-5-6-1c734e4a084080b9ad61f5856a523d31)
 ![[Pasted image 20250402181353.png|300]]
 
 ## Goals
