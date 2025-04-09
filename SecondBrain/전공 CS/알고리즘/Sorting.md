@@ -51,28 +51,21 @@ Quick Sort는 분할정복 방식을 기반으로 한 randomized sorting algori
 분할 단계에서 배열을 두 개의 서브 배열로 나누고, 이들 각각에 대해 재귀적으로 정렬을 수행하는 방식
 ### 의사코드
 
-```cpp
-quickSort(S, l, r)
-1  if ( l ≥ r )  // (①: 부분 리스트의 크기가 1 이하일 경우 종료)
-2      return
-3  i ← a random integer between l and r
-4  x ← S.elemAtRank(i)
-5  (h, k) ← partition(S, l, r, x)  // (②: 피벗을 기준으로 리스트 분할)
-6  quickSort(S, l, h - 1)  // (③: 왼쪽 부분 리스트 정렬)
-7  quickSort(S, k + 1, r)  // (④: 오른쪽 부분 리스트 정렬)
-```
-
 ![[Pasted image 20250409153302.png|300]]
-각 삽입과 제거는 시퀀스의 시작 또는 끝에 있어서 O(1) 시간이 걸린다.
-따라서, Quick Sort의 분할 단계는 O(n) 시간이 걸린다.
+p: pivot 위치
+입력 시퀀스 S를 pivot x를 기준으로 세 부분으로 나눔
+L: x보다 작은 원소
+E: x와 같은 원소
+G: x보다 큰 원소
+#### partition의 시간복잡도
+원소를 하나씩 꺼내고 삽입하는 연산이 모두 리스트 앞이나 뒤에서 발생
+→ 즉, 각 연산은 O(1) 시간
+• 전체 원소 n개에 대해 각각 한 번씩만 다루므로: O(n)
 ### Worst-Case 분석
 Worst-Case: pivot이 고유한 최소 또는 최대 요소일 때 발생
 L과 G 중 하나는 크기가 n − 1이고 다른 하나는 크기가 0이다.
 실행 시간은 n + (n − 1) + ... + 2 + 1의 합계에 비례. 
 따라서 Quick Sort의 최악의 실행 시간은 O(n<sup>2</sup>)
-### 평균수행시간 분석
-O(nlogn)
-### 공간 복잡도 분석
 ### 예제
 ![[Pasted image 20250331152419.png|350]]
 #### 특징
