@@ -100,3 +100,7 @@ W(n) = n-1
 ![[Pasted image 20250409160049.png|100]]
 ### 예시
 ![[Pasted image 20250409160433.png|400]]
+## Heap and Heapsort
+### Heap Structure
+
+### Partial order tree property
