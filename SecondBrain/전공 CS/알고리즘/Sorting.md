@@ -102,5 +102,22 @@ W(n) = n-1
 ![[Pasted image 20250409160433.png|400]]
 ## Heap and Heapsort
 ### Heap Structure
-
+이진 트리 T가 힙 구조를 가지려면, 다음 조건을 모두 만족해야 한다
+- T는 깊이 h-1까지는 완전 이진 트리여야 한다
+- 모든 리프 노드는 깊이 h 또는 h-1에 있어야 한다
+- 깊이 h에 있는 모든 leaf node 경로는 깊이 h - 1에 있는 leaf node 경로보다 왼쪽에 있어야 한다.
 ### Partial order tree property
+트리의 어떤 노드든지 그 자식 노드들보다 값이 크거나 같아야 한다.
+#### example
+![[Pasted image 20250409162758.png|300]]
+위 둘 heap 아님, 아래 둘 heap
+## Heapsort Strategy
+정렬할 요소들이 힙(heap) 구조로 정렬되어 있다면,
+루트에서 요소를 하나씩 제거하고
+남은 요소들을 다시 정렬하여 부분 순서 트리 특성을 유지시키는 과정을 반복함으로써,
+역순으로 정렬된 시퀀스를 만들 수 있습니다.
+### 의사 코드
+![[Pasted image 20250409163104.png|300]]
+![[Pasted image 20250409163116.png|300]]
+![[Pasted image 20250409163129.png|300]]
+
