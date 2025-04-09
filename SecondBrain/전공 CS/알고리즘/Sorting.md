@@ -20,7 +20,7 @@ int shiftVacRec(Element[] E, int vacant, Key x){
 	else if (E[vacant-1].key ≤ x)
 		xLoc = vacant;
 	else
-		E[vacant] = E[vacant-1];
+		E[vacant] = E[vacant-1]; // 한 칸 뒤로 보내서 vacant를 만들어 줌
 		xLoc = shiftVacRec(E, vacant-1, x);
 	return xLoc;
 }
@@ -29,6 +29,10 @@ int shiftVacRec(Element[] E, int vacant, Key x){
 키를 비교하여 정렬하고 각 비교 후 최대 하나의 반전을 제거하는 모든 알고리즘은 최악의 경우 최소 n(n-1)/2 비교를 수행해야 하며 평균(n 요소에 대해) 최소 n(n-1)/4 비교를 수행해야 합니다.
 
 삽입 정렬은 인접한 요소만 교환하여 locally하게 작동하는 알고리즘에 최적이다.
+### Worst-Case 분석
+1. Index 1부터 시작하여 현재까지 정렬된 부분에서 적절한 위치를 찾아 삽입한다.
+2. i 번째 원소를 올바른 위치에 삽입하기 위해 1 ~ i-1번의 비교 및 이동이 필요하므로 총 이동 횟수는 아래와 같다.
+![[Pasted image 20250327214432.png|200]]
 ### 평균수행시간 분석
 ![[Pasted image 20250327214449.png|200]]
 1. 정렬된 길이 i인 부분에서 원소가 삽입될 위치는 균등한 확률로 결정됨
@@ -37,10 +41,7 @@ int shiftVacRec(Element[] E, int vacant, Key x){
 4. 따라서 평균 비교 횟수는 ![[Pasted image 20250327222501.png|100]]과 같다
 5. ![[Pasted image 20250327222539.png|100]]이고, 따라서 ![[Pasted image 20250327222558.png|100]]이다.
 6. 뒤의 i/i+1은 물어보자
-### Worst-Case 분석
-1. Index 1부터 시작하여 현재까지 정렬된 부분에서 적절한 위치를 찾아 삽입한다.
-2. i 번째 원소를 올바른 위치에 삽입하기 위해 최대 i-1번의 비교 및 이동이 필요하므로 총 이동 횟수는 아래와 같다.
-![[Pasted image 20250327214432.png|200]]
+
 
 ## Divide and Conquer
 ![[Pasted image 20250331172122.png|300]]
