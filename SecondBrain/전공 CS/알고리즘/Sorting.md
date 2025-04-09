@@ -61,7 +61,8 @@ quickSort(S, l, r)
 6  quickSort(S, l, h - 1)  // (③: 왼쪽 부분 리스트 정렬)
 7  quickSort(S, k + 1, r)  // (④: 오른쪽 부분 리스트 정렬)
 ```
-![[Pasted image 20250331153238.png|200]]
+
+![[Pasted image 20250409153302.png|300]]
 각 삽입과 제거는 시퀀스의 시작 또는 끝에 있어서 O(1) 시간이 걸린다.
 따라서, Quick Sort의 분할 단계는 O(n) 시간이 걸린다.
 ### Worst-Case 분석
