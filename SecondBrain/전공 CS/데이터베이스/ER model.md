@@ -155,14 +155,38 @@ ex) `section(course_id, sec_id, sem, year)`
 EM은 엔티티 E의 primary key와 다중값 속성 M에 해당하는 속성으로 구성된다.
 #### example
 instructor의 다중값 속성 phone_number는 다음과 같은 스키마로 표현됨:
-instructor_phone(ID, phone_number)
+instructor_phone(<u>ID</u>, <u>phone_number</u>)
 → instructor가 전화번호 2개(456-7890, 123-4567)를 가질 경우:
 (22222, 456-7890)
 (22222, 123-4567)
 
 특수한 경우: time_slot 엔티티는 primary key 외의 유일한 속성이 multivalued 속성일 때
 → 최적화: time_slot 엔티티에 해당하는 relation을 따로 만들지 않고, 다중값 속성에 해당하는 relation만 생성
-→ 예: time_slot(<u>time_slot_id</u>, <u>day</u>, <u>start_time</u>, end_time)
+→ 예: time_slot(<u>time_slot_id</u>, <u>day</u>, <u>start_time</u>, end_time) => start가 같은데 end가 같을 수는 없으니까 start만 해도 됨
 ⚠️ 이 경우 section의 time_slot 속성은 외래 키(foreign key)로 사용할 수 없음
 ![[Pasted image 20250410135931.png|300]]
 time_slot: 화 1:30 ~ 3:00 이런거
+## 관계 집합 표현 (Representing Relationship Sets)
+many-to-many 관계는 두 엔티티의 primary key와 관계의 설명 속성들을 포함한 스키마로 표현됨
+예: advisor(s_id, i_id)
+![[Pasted image 20250410141613.png|300]]
+## 스키마의 중복 (Redundancy of Schemas)
+•	many-to-one 또는 one-to-many 관계에서 many 쪽이 total participation(?)일 경우, 관계를 별도 스키마로 만들지 않고 “many” 쪽 엔티티 스키마에 “one” 쪽의 primary key를 속성으로 추가함
+#### example
+`inst_dept` 관계 대신, instructor 스키마에 dept_name 속성 추가
+	•	one-to-one 관계에서는 어느 한쪽을 “many”로 간주해 속성을 추가할 수 있다.
+다만 “many” 쪽의 참여가 partial이라면 null 값 발생 가능성 존재
+	•	약한 엔티티와 identifying 강한 엔티티 간의 관계는 이미 weak entity의 스키마에 필요한 모든 속성이 들어있으므로 중복됨
+예: section 스키마는 sec_course 스키마를 대체할 수 있음
+![[Pasted image 20250410141642.png|400]]
+
+## 설계 이슈 (Design Issues)
+•	엔티티 vs. 속성
+![[Pasted image 20250410142256.png|300]]
+예: 전화번호를 별도 엔티티로 만들면 여러 번호 및 추가 정보 표현 가능
+	•	엔티티 vs. 관계 집합
+일반적으로, **행위(action)**를 설명할 때 관계 집합으로 표현하는 것이 좋음
+	•	Binary 관계 vs. n-ary 관계
+n > 2인 경우에도 binary 관계로 나눌 수 있으나, n-ary 관계는 여러 엔티티가 하나의 관계에 참여한다는 의미를 더 명확히 표현함
+	•	관계 속성의 위치
+예: advisor 관계의 date 속성을 관계에 둘지, student 엔티티에 둘지 고려
