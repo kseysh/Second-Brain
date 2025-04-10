@@ -148,11 +148,16 @@ small ALU를 이용해 누가 얼마나 더 큰지 비교한다
 ![[Pasted image 20250410195126.png|400]]
 작은 값을 큰 값에 맞춰서 Fraction을 shift한다.
 Control이 왼쪽, 오른쪽 중 무엇을 shift할지 결정한다
+왼쪽 MUX와 오른쪽 MUX는 서로 다른 값을 가진다
+그러면 왼쪽은 작은 exp를 가진 Fraction이 내려오고, 오른쪽은 큰 exp를 가진 Fraction이 내려온다.
 
 ![[Pasted image 20250410195136.png|400]]
 
-![[Pasted image 20250410195144.png|400]]
 
+![[Pasted image 20250410195144.png|400]]
+Big ALU를 이용해 두 값을 더하고, 정규식과 맞는지 확인하고 shift 해야하면 shift하고 exponent를 증가/감소 시킨다.
 ![[Pasted image 20250410195153.png|400]]
+반올림 하는 하드웨어가 들어가서 Fraction을 보고 자릿수를 넘으면 반올림을 한다.
+유효숫자 바깥으로 나간 data를 반올림한다
 
 ![[Pasted image 20250410195203.png|400]]
