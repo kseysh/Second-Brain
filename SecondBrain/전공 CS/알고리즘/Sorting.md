@@ -140,3 +140,17 @@ H의 가장 마지막(오른쪽 아래)의 요소를 변수 K에 복사
 
 fixHeap은 최대 2h번의 키 비교가 필요함
 전체 HeapSort의 시간 복잡도는 2log(n)이므로, 힙 정렬은 O(n log n) 시간 복잡도를 가짐
+## Construct Heap
+Input H: 힙 구조이지만, partial order tree property을 반드시 만족하지는 않는 상태 (즉, 최소 힙, 최대 힙의 성질을 보장하지 않는 구조)
+Output H: 동일한 노드들로 구성된 H를 partial order tree property 속성을 만족하도록 재배열한 힙으로 변환
+![[Pasted image 20250410150557.png|300]]
+## Array를 이용한 Heap 구현
+1부터 n까지의 array
+left child: 2i
+rigth child: 2i + 1
+parent: ![[Pasted image 20250410150720.png|50]]
+## Worst Case 분석
+fixHeap 함수가 힙에서 수행하는 비교 연산 수는 최대 2 * log(k)
+k는 현재 힙의 노드 개수이며, 로그는 힙에 높이에 비례하는 성질 반영
+최악의 경우, 루트에서 leaf까지 내려가며 자식과 비교 및 교환을 하기 때문
+
