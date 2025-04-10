@@ -181,12 +181,37 @@ many-to-many 관계는 두 엔티티의 primary key와 관계의 설명 속성�
 ![[Pasted image 20250410141642.png|400]]
 
 ## 설계 이슈 (Design Issues)
-•	엔티티 vs. 속성
+### 엔티티 vs. 속성
 ![[Pasted image 20250410142256.png|300]]
 예: 전화번호를 별도 엔티티로 만들면 여러 번호 및 추가 정보 표현 가능
-	•	엔티티 vs. 관계 집합
-일반적으로, **행위(action)**를 설명할 때 관계 집합으로 표현하는 것이 좋음
-	•	Binary 관계 vs. n-ary 관계
+### 엔티티 vs. 관계 집합
+![[Pasted image 20250410142400.png|300]]
+일반적으로, 행위(action)를 설명할 때 관계 집합으로 표현하는 것이 좋음
+### Binary 관계 vs. n-ary 관계
 n > 2인 경우에도 binary 관계로 나눌 수 있으나, n-ary 관계는 여러 엔티티가 하나의 관계에 참여한다는 의미를 더 명확히 표현함
-	•	관계 속성의 위치
+### 관계 속성의 위치
 예: advisor 관계의 date 속성을 관계에 둘지, student 엔티티에 둘지 고려
+## Binary vs. Non-Binary Relationships
+- 어떤 관계는 non-binary처럼 보이지만 binary로 표현하는 것이 더 적절한 경우도 있음
+#### example
+parents (child, father, mother) → father, mother 두 binary 관계로 분리
+→ partial 정보(예: 엄마만 알고 있음) 표현 가능
+	•	하지만 일부 관계는 자연스럽게 non-binary로 표현되는 것이 나음
+예: proj_guide (프로젝트 가이드 관계)
+## Non-Binary 관계의 Binary 형태로의 변환
+•	일반적으로 non-binary 관계 R(A, B, C)를 binary로 바꾸려면 인공 엔티티 집합 E를 만들고 다음과 같은 관계를 구성:
+1.	R<sub>A</sub>(E, A)
+2.	R<sub>B</sub>(E, B)
+3.	R<sub>C</sub>(E, C)
+•	E에는 identifying 속성을 생성하고, R의 속성들을 포함시킴
+•	R의 각 튜플 (ai, bi, ci)에 대해:
+1.	새 엔티티 e<sub>i</sub> 생성
+2.	(e<sub>i</sub>, a<sub>i</sub>)를 R<sub>A</sub>에 추가
+3.	(e<sub>i</sub>, b<sub>i</sub>)를 R<sub>B</sub>에 추가
+4.	(e<sub>i</sub>, c<sub>i</sub>)를 R<sub>C</sub>에 추가
+![[Pasted image 20250410142540.png|300]]
+## Non-Binary 관계 변환 시 주의점
+•	모든 제약조건을 완벽히 변환하는 것은 불가능할 수 있음
+→ 변환된 스키마에서 표현 불가능한 인스턴스가 생길 수 있음
+예: (A, B)에서 C로의 many-to-one 관계가 있을 경우
+	•	이때 identifying 속성 없이 E를 weak entity set으로 만들고 세 관계를 통해 식별하게 하면 해결 가능
