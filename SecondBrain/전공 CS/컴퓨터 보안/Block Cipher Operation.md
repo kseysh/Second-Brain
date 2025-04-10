@@ -1,4 +1,3 @@
-
 ## Electronic Codebook Mode (ECB)
 ![[Pasted image 20250410213232.png|400]]
 
@@ -19,3 +18,23 @@ Nonrepudiation X : key를 알고 있으니까 key를 알고있는 사람이 위�
 ![[Pasted image 20250410214311.png|400]]
 Decrytion할 때, Encrypt 함수를 그대로 사용해도 된다.
 CBC와 비슷하지만 Stream mode이다.
+## Output Feedback (OFB)
+![[Pasted image 20250410220914.png|400]]
+전처리를 하지 않음
+병렬성을 이용할 수 없음
+Cipher text가 feedback으로 전달되지 않아 Plain text가 cipher text가 될 때 한 block에만 영향을 주기 때문에, error 감지가 어려움
+## Counter Mode (CTR)
+전처리 가능
+병렬 처리 가능
+Random Access 가능
+![[Pasted image 20250410220939.png|400]]
+
+## Feedback 특성
+![[Pasted image 20250410221022.png|500]]
+
+![[Pasted image 20250410221035.png|500]]
+
+## 암호 모듈 검증 제도
+국정원에 암호 모듈 검증 제도라는 것이 있다.
+공공기관에서 암호 쓸려면 인증받은 것만 써야함
+ARIA, SEED, LEA, AES 사용 가능
