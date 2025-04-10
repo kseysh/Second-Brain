@@ -185,3 +185,4 @@ wait, signal도 critical section을 막기 위해 사용되지만, wait, signal�
 	•	wait(mutex) 후 또 wait(mutex)
 	•	wait(mutex) 또는 signal(mutex) (혹은 둘 다) 생략
 •	이러한 잘못된 사용으로 인해 교착 상태(deadlock) 및 기아 상태(starvation)가 발생할 수 있음
+
