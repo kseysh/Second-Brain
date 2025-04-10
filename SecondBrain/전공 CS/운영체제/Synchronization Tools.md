@@ -134,17 +134,22 @@ do {
 
 - Binary Semaphore: S = 1
 	- 순서 동기화 및 임계 구역 문제 해결용
+	- S = 1이 초기값이면 뮤텍스 락과 동일하게 동작함
 ![[Pasted image 20250410164235.png|300]]
+=> 순서 동기화의 예제로 S1 = 0이어야 순서 동기화가 가능함
+
 - Counting Semaphore: S > 1
+	- 정수 값이 양수 또는 음수가 될 수 있음
 ![[Pasted image 20250410164157.png|300]]
 ### Implementation
 •	동일한 세마포어에 대해 두 프로세스가 동시에 wait()나 signal()을 실행하지 못하도록 보장해야 함
 	•	따라서 wait()와 signal() 코드는 임계 구역 내에 있어야 함
-	•	이 구현은 바쁜 대기(busy waiting)를 동반함
-		•	그러나 구현 코드가 짧기 때문에 바쁜 대기는 적음
-		•	임계 구역이 거의 사용되지 않는다면 바쁜 대기는 거의 없음
+	•	이 구현은 busy waiting을 동반함
+		•	그러나 구현 코드가 짧기 때문에 busy waiting는 적음
+		•	임계 구역이 거의 사용되지 않는다면 busy waiting는 거의 없음
 •	하지만 응용 프로그램이 임계 구역 내에서 많은 시간을 소비한다면, 이 방법은 좋은 해결책이 아님
 ![[Pasted image 20250410164421.png|400]]
+S를 확인하는 과정과 확인하고 S를 줄이는 과정 사이에 acq()와 rel()이 필요함
 ### Implementation with no busy waiting
 •	각 세마포어에는 연관된 waiting queue가 있음
 •	대기 큐의 각 항목은 두 개의 데이터 항목을 가짐
@@ -169,3 +174,8 @@ typedef struct {
 	•	하드웨어의 원자적 연산 지원 사용
 	•	예: test_and_set 명령 같은 읽기-수정-쓰기 메모리 연산
 ## 세마포어의 문제점들
+•	세마포어 연산의 잘못된 사용
+•	signal(mutex) 후 wait(mutex)
+•	wait(mutex) 후 또 wait(mutex)
+•	wait(mutex) 또는 signal(mutex) (혹은 둘 다) 생략
+•	이러한 잘못된 사용으로 인해 교착 상태(deadlock) 및 기아 상태(starvation)가 발생할 수 있음
