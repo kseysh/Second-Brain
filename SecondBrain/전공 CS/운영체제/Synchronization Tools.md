@@ -168,16 +168,20 @@ typedef struct {
 S: 현재 기다리고 있는 프로세스가 몇개 있는지 ex) s = -2면 2개의 프로세스가 대기 중
 
 ![[Pasted image 20250410164744.png|400]]
+disable -> enable 사이의 활동이 짧기 때문에 interrupt로 해결함
+single process는 busy waiting보다 이 방식이 나음
+wait, signal도 critical section을 막기 위해 사용되지만, wait, signal을 구현할 때도 os 코드 상의 critical section을 막는 것이 사용됨 (하지만 이는 빠르게 풀릴 수 있는 critical section임)
 ## Multiprocessor 환경에서의 해결책
 다중 프로세서 환경에서의 해결책
-	•	상호 배제(Mutual Exclusion)가 더 어려워짐
-•	가능한 해결책들:
-	•	다른 모든 프로세서를 끄기
-	•	하드웨어의 원자적 연산 지원 사용
-	•	예: test_and_set 명령 같은 읽기-수정-쓰기 메모리 연산
+	•	Mutual Exclusion이 더 어려워짐
+-	가능한 해결책들:
+	- 다른 모든 프로세서를 끄기
+	- 하드웨어의 원자적 연산 지원 사용
+		- 예: test_and_set 명령 같은 읽기-수정-쓰기 메모리 연산
+		
 ## 세마포어의 문제점들
 •	세마포어 연산의 잘못된 사용
-•	signal(mutex) 후 wait(mutex)
-•	wait(mutex) 후 또 wait(mutex)
-•	wait(mutex) 또는 signal(mutex) (혹은 둘 다) 생략
+	•	signal(mutex) 후 wait(mutex)
+	•	wait(mutex) 후 또 wait(mutex)
+	•	wait(mutex) 또는 signal(mutex) (혹은 둘 다) 생략
 •	이러한 잘못된 사용으로 인해 교착 상태(deadlock) 및 기아 상태(starvation)가 발생할 수 있음
