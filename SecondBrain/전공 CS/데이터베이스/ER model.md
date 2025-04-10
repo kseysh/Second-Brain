@@ -133,8 +133,8 @@ section의 pk: (course_id, sec_id, semester, year)
 주의: strong entity의 pk는 명시적으로 저장되지 않아도, 관계를 통해 암시적으로 연결됨
 만약, course_id를 명시적으로 저장한다면, section은 강한 entity가 될 수 있지만, 이 경우 course와 section 사이의 관계가 속성에 의해 중복 정의됨
 ### ERD for a university Enterprise
-![[Pasted image 20250408153007.png|400]]
-## 관계 스키마로의 변환
+![[Pasted image 20250408153007.png|500]]
+## Relation Schema로의 변환
 •	엔티티 집합과 관계 집합은 데이터베이스의 내용을 표현하는 relation schemas로 변환될 수 있다.
 •	E-R 다이어그램을 따르는 데이터베이스는 여러 스키마로 표현할 수 있다.
 •	각각의 엔티티 및 관계 집합마다 고유한 스키마가 존재하며, 그 이름은 해당 엔티티 또는 관계 집합의 이름을 따른다.
@@ -146,11 +146,11 @@ ex) `student(ID, name, tot_cred)`
 •	약한 엔티티 집합은 identifying 강한 엔티티 집합의 primary key를 포함하는 컬럼을 추가하여 테이블로 변환된다.
 ex) `section(course_id, sec_id, sem, year)`
 ![[Pasted image 20250410135525.png|300]]
-## 복합 속성
+## Composite Attributes 복합 속성
 •	복합 속성은 각 구성 요소로 분리하여 속성으로 표현된다.
 예: name이 first_name과 last_name으로 구성된 경우 → name_first_name, name_last_name
 •	단, 애매하지 않은 경우 prefix는 생략 가능하다.
-## 다중값 속성
+##  Multivalued Attributes (다중값 속성)
 다중값 속성 M은 별도의 스키마 EM으로 표현된다.
 EM은 엔티티 E의 primary key와 다중값 속성 M에 해당하는 속성으로 구성된다.
 #### example
@@ -165,4 +165,4 @@ instructor_phone(ID, phone_number)
 → 예: time_slot(<u>time_slot_id</u>, <u>day</u>, <u>start_time</u>, end_time)
 ⚠️ 이 경우 section의 time_slot 속성은 외래 키(foreign key)로 사용할 수 없음
 ![[Pasted image 20250410135931.png|300]]
-time_slot: 
+time_slot: 화 1:30 ~ 3:00 이런거
