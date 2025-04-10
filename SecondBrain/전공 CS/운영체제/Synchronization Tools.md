@@ -118,7 +118,7 @@ do {
 
 ## [[Mutex]] Lock
 임계 구역을 보호하기 위해서는 먼저 `acquire()`로 락을 획득하고, 작업 후 `release()`로 락을 해제해야 한다
-	•	락이 사용 가능한지 여부를 나타내는 Boolean 변수 사용
+	•	락이 사용 가능한지 여부를 나타내는 Boolean 변수 사용 (이도 atomic하게 이루어져야 함)
 	•	`acquire()`와 `release()` 호출은 원자적(atomic)으로 이루어져야 한다
 	•	보통 하드웨어의 원자적 명령을 이용해 구현된다
 ![[Pasted image 20250410163638.png|400]]
@@ -126,3 +126,46 @@ do {
 	•	따라서 이러한 락을 스핀락(spinlock) 이라고 부른다
 ## Semaphore
 세마포어는 프로세스들이 활동을 동기화할 수 있도록 뮤텍스 락보다 더 정교한 방법을 제공하는 동기화 도구
+•	세마포어 S는 정수 값을 가짐
+•	오직 두 가지의 atomic 연산을 통해서만 접근할 수 있음
+•	wait()와 signal() 함수 사용 (원래는 P()와 V()라고 불렸음)
+•	wait()와 signal() 연산의 정의는 다음과 같음
+![[Pasted image 20250410163943.png|300]]
+
+- Binary Semaphore: S = 1
+	- 순서 동기화 및 임계 구역 문제 해결용
+![[Pasted image 20250410164235.png|300]]
+- Counting Semaphore: S > 1
+![[Pasted image 20250410164157.png|300]]
+### Implementation
+•	동일한 세마포어에 대해 두 프로세스가 동시에 wait()나 signal()을 실행하지 못하도록 보장해야 함
+	•	따라서 wait()와 signal() 코드는 임계 구역 내에 있어야 함
+	•	이 구현은 바쁜 대기(busy waiting)를 동반함
+		•	그러나 구현 코드가 짧기 때문에 바쁜 대기는 적음
+		•	임계 구역이 거의 사용되지 않는다면 바쁜 대기는 거의 없음
+•	하지만 응용 프로그램이 임계 구역 내에서 많은 시간을 소비한다면, 이 방법은 좋은 해결책이 아님
+![[Pasted image 20250410164421.png|400]]
+### Implementation with no busy waiting
+•	각 세마포어에는 연관된 waiting queue가 있음
+•	대기 큐의 각 항목은 두 개의 데이터 항목을 가짐
+•	값 (value, 정수)
+•	리스트 내 다음 항목을 가리키는 포인터 (pointer to next record)
+```c
+typedef struct {
+    int value;
+    struct process *list;
+} semaphore;
+```
+- Two operations
+	- block: 해당 연산을 호출한 프로세스를 적절한 대기 큐에 넣음
+	- wakeup: 대기 큐에 있는 프로세스 중 하나를 제거하여 준비 큐(ready queue)로 이동시킴
+![[Pasted image 20250410164722.png|400]]
+![[Pasted image 20250410164744.png|400]]
+## Multiprocessor 환경에서의 해결책
+다중 프로세서 환경에서의 해결책
+	•	상호 배제(Mutual Exclusion)가 더 어려워짐
+•	가능한 해결책들:
+	•	다른 모든 프로세서를 끄기
+	•	하드웨어의 원자적 연산 지원 사용
+	•	예: test_and_set 명령 같은 읽기-수정-쓰기 메모리 연산
+## 세마포어의 문제점들
