@@ -120,15 +120,18 @@ instructor 엔티티에 dept_name 속성이 있을 때, instructor와 department
 ## Weak Entity sets
 값 타입할 때 만들었던 pk 없는 엔티티 말하는듯
 - PK가 없는 엔티티 집합
-- identifying entity set에 의존하여 존재
-- strong entity set에서 weak entity set방향이여야 함
-- discriminator (partial key): weak entity set 내에서 각 entity를 구별하는 속성 집합
-- weak entity의 pk는 strong entity pk + discriminator
-- discriminator는 점선으로 밑줄 표시
+- 약한 엔티티 집합은 identifying (owner) entity set의 존재에 의존한다.
+- identifying entity set과는 전체(total)이고, identifying entity에서 약한 entity로의 일대다(one-to-many) 관계를 가져야 한다.
+- 이러한 identifying 관계는 이중 다이아몬드(double diamond)로 표시된다.
+- 약한 엔티티 집합의 discriminator (또는 partial key)는 약한 엔티티 집합 내의 개별 엔티티들을 구분하는 속성들의 집합이다.
+- 약한 엔티티 집합의 primary key는 의존하고 있는 강한 엔티티 집합의 primary key와 약한 엔티티 집합의 discriminator로 구성된다.
+- 약한 엔티티 집합의 discriminator는 점선 밑줄(dashed underline)로 표시한다.
+- 약한 엔티티와 연결된 identifying 관계는 이중 다이아몬드로 표현한다
 #### example
 section의 pk: (course_id, sec_id, semester, year)
 ![[Pasted image 20250408152813.png|300]]
 주의: strong entity의 pk는 명시적으로 저장되지 않아도, 관계를 통해 암시적으로 연결됨
-만약, course_id를 명시적으로 저장한다며, section은 강한 entity가 될 수 있지만, 이 경우 course와 section 사이의 관계가 속성에 의해 중복 정의됨
+만약, course_id를 명시적으로 저장한다면, section은 강한 entity가 될 수 있지만, 이 경우 course와 section 사이의 관계가 속성에 의해 중복 정의됨
 ### ERD for a university Enterprise
 ![[Pasted image 20250408153007.png|300]]
+## 관계 스키마로의 변환
