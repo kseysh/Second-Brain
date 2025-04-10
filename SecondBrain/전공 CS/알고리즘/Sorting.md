@@ -190,8 +190,27 @@ Accelerated Heapsort가 최악의 경우 수행하는 키 비교 횟수: ![[Past
 비교를 하지 않고 정렬하는 방법
 기수 = 자릿수
 ![[Pasted image 20250410222955.png|500]]
-First Pass: 1의 자리
-Second Pass: 2의 자리
-Third Pass: 3의 자리
-Fourth Pass: 4의 자리
-Fifth Pass: 5의 자리
+Unsorted file -> First Pass: 48081은 bucket 1에 97342는 bucket 2에 ...
+First Pass -> Second Pass: 48081은 bucket 8에 48001은 bucket 0에 ...
+
+![[Pasted image 20250410230745.png|500]]
+remL(remain List): Linked List 구조로 각 노드가 다음 숫자를 가리킴
+
+### 수도 코드
+![[Pasted image 20250410230942.png|400]]
+![[Pasted image 20250410230955.png|400]]
+![[Pasted image 20250410231005.png|400]]
+## 시간 복잡도 분석
+- distribute 단계: Θ(n) 시간 소요
+	- 각 숫자를 해당 자리수에 따라 버킷에 분배하는 작업
+	- 전체 n개의 원소를 한 번씩 확인하며 분배하므로 Θ(n) 시간 복잡도를 가짐
+- Combine 단계도 Θ(n) 시간 소요
+	- 버킷에 분배된 숫자들을 다시 하나로 합치는 과정도 모든 원소를 한 번씩 지나야 하므로 Θ(n)입니다.
+- 자리 수 개수가 일정하면,
+	- ex) 모든 숫자가 5자리면 총 Pass 횟수는 5회로 고정
+	- 이 때 전체 수행 시간은 각 Pass마다  Θ(n)이므로, 총 시간은 Θ(n) × 고정된 Pass 수 = Θ(n)
+즉, Radix sort는 자릿수 고정시 선형 시간 정렬이 될 수 있음
+
+## 공간 복잡도 분석
+버킷 분배와 재조합을 위해 Linked List와 같은 보조 구조가 필요함
+이 때 필요한 추가 공간도 원소 개수 n에 비례함
