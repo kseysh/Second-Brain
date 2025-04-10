@@ -141,3 +141,18 @@ NaN
 • 파이프라인 처리가 가능함
 
 ![[Pasted image 20250408213909.png|400]]
+
+![[Pasted image 20250410195114.png|400]]
+small ALU를 이용해 누가 얼마나 더 큰지 비교한다
+
+![[Pasted image 20250410195126.png|400]]
+작은 값을 큰 값에 맞춰서 Fraction을 shift한다.
+Control이 왼쪽, 오른쪽 중 무엇을 shift할지 결정한다
+
+![[Pasted image 20250410195136.png|400]]
+
+![[Pasted image 20250410195144.png|400]]
+
+![[Pasted image 20250410195153.png|400]]
+
+![[Pasted image 20250410195203.png|400]]
