@@ -165,6 +165,8 @@ typedef struct {
 	- block: 해당 연산을 호출한 프로세스를 적절한 대기 큐에 넣음
 	- wakeup: 대기 큐에 있는 프로세스 중 하나를 제거하여 준비 큐(ready queue)로 이동시킴
 ![[Pasted image 20250410164722.png|400]]
+S: 현재 기다리고 있는 프로세스가 몇개 있는지 ex) s = -2면 2개의 프로세스가 대기 중
+
 ![[Pasted image 20250410164744.png|400]]
 ## Multiprocessor 환경에서의 해결책
 다중 프로세서 환경에서의 해결책
