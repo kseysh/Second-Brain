@@ -171,8 +171,21 @@ n개의 원소를 힙 정렬에서 delete할 때, 총 비교 연산 수
 
 ![[Pasted image 20250410152443.png|300]]
 K: 삽입 대상이 되는 값
-
+루트를 시작으로 아래로 이동하면서 vacant가 아래로 내려감
+vacStop 위치에 도달하면 적절한 위치에 삽입됨
 ### 수도 코드
 ![[Pasted image 20250410151648.png|300]]
 ![[Pasted image 20250410151854.png|300]]
 ![[Pasted image 20250410151907.png|300]]
+### fixHeapFast 시간 복잡도 분석
+vacant가 bubbleUpHeap 또는 Promote의 작용으로 인해 한 레벨씩 이동할 때마다 한 번의 비교가 발생하고, 이 비교의 총 횟수는 힙의 높이인 h이다.
+bubbleUpHeap이 호출되지 않고, fixHeapFast가 기저 조건에 도달한다고 가정해 봅시다. 
+이 경우, 방향을 반대로 바꿔야 하는지를 확인하기 위해 log(h) 번의 체크가 필요합니다.
+따라서 최악의 경우, fixHeapFast는 h + log(h) 번의 비교를 수행한다.
+### Accelerated Heapsort 시간 복잡도 분석
+k개의 노드를 가진 힙에서 fixHeapFast가 수행하는 비교 횟수는 최대 log(k) 
+모든 삭제 연산을 포함한 총 비교 횟수: ![[Pasted image 20250410153623.png|100]]
+Accelerated Heapsort가 최악의 경우 수행하는 키 비교 횟수: ![[Pasted image 20250410153754.png|100]]
+## Radix Sort
+비교를 하지 않고 정렬하는 방법
+기수 = 자릿수
