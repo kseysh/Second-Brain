@@ -115,3 +115,14 @@ do {
 		/* remainder section */
 } while (true);
 ```
+
+## [[Mutex]] Lock
+임계 구역을 보호하기 위해서는 먼저 `acquire()`로 락을 획득하고, 작업 후 `release()`로 락을 해제해야 한다
+	•	락이 사용 가능한지 여부를 나타내는 Boolean 변수 사용
+	•	`acquire()`와 `release()` 호출은 원자적(atomic)으로 이루어져야 한다
+	•	보통 하드웨어의 원자적 명령을 이용해 구현된다
+![[Pasted image 20250410163638.png|400]]
+이 방법은 바쁜 대기(busy waiting)를 필요로 한다
+	•	따라서 이러한 락을 스핀락(spinlock) 이라고 부른다
+## Semaphore
+세마포어는 프로세스들이 활동을 동기화할 수 있도록 뮤텍스 락보다 더 정교한 방법을 제공하는 동기화 도구

@@ -91,5 +91,10 @@ dot: 빈 tree
 3.2. parent(z)의 형제가 빨간색이면
 	•	색깔 재조정: z ← recolor(z)
 	•	부모와 삼촌이 모두 빨간 경우, 조상 쪽으로 문제를 전파하며 색상만 바꿈
-
-⸻
+#### example
+4 7 12 15 3 5 14 18 16 17 순서로 삽입
+![[Pasted image 20250410162946.png|300]]
+![[Pasted image 20250410162955.png|300]]
+![[Pasted image 20250410163011.png|300]]
+![[Pasted image 20250410163029.png|300]]
+![[Pasted image 20250410163042.png|300]]
