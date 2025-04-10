@@ -4,6 +4,7 @@
 - relation: r ⊆ D<sub>1</sub> X D<sub>2</sub> X D<sub>3</sub>, ... D<sub>n</sub> 
 	- 여러개의 tuple로 이루어져 있다. ->  소문자로 쓴다
 - tuples: DB 테이블에서 row로 표현됨
+![[Pasted image 20250410143905.png]]
 ## Keys
 K ⊆ R
 R = (A<sub>1</sub>, A<sub>2</sub>, A<sub>3</sub>, ... A<sub>n</sub>)

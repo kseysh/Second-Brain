@@ -99,7 +99,7 @@ section은 sec_course에 전체 참여함 → 모든 섹션은 반드시 하나�
 ### Partial Participation
 일부 엔티티는 어떤 관계에도 참여하지 않을 수 있음
 
-ex) instructor의 advisor 참여는 partial participation -> 어떤 교수는 학생과 연결되지 않을 수 있음
+ex) instructor의 advisor 참여는 partial participation -> 어떤 교수는 학생과 연결되지 않을 수 있음 (null이 가능한 것)
 ## Redundant Attributes (중복 속성)
 instructor 엔티티에 dept_name 속성이 있을 때, instructor와 department를 연결하는 inst_dept 관계가 있다면, dept_name 속성은 중복됨
 이는 관계를 통해 이미 제공되는 정보를 속성으로 반복한 것이며 instructor에서 제거되어야 함
@@ -134,6 +134,9 @@ section의 pk: (course_id, sec_id, semester, year)
 만약, course_id를 명시적으로 저장한다면, section은 강한 entity가 될 수 있지만, 이 경우 course와 section 사이의 관계가 속성에 의해 중복 정의됨
 ### ERD for a university Enterprise
 ![[Pasted image 20250408153007.png|500]]
+이거 보면서 스키마 구현해보기 + 이유와 함께
+
+![[Pasted image 20250410143917.png|500]]
 ## Relation Schema로의 변환
 •	엔티티 집합과 관계 집합은 데이터베이스의 내용을 표현하는 relation schemas로 변환될 수 있다.
 •	E-R 다이어그램을 따르는 데이터베이스는 여러 스키마로 표현할 수 있다.
@@ -173,9 +176,9 @@ many-to-many 관계는 두 엔티티의 primary key와 관계의 설명 속성�
 ## 스키마의 중복 (Redundancy of Schemas)
 •	many-to-one 또는 one-to-many 관계에서 many 쪽이 total participation(?)일 경우, 관계를 별도 스키마로 만들지 않고 “many” 쪽 엔티티 스키마에 “one” 쪽의 primary key를 속성으로 추가함
 #### example
-`inst_dept` 관계 대신, instructor 스키마에 dept_name 속성 추가
+`inst_dept` 관계 대신, instructor 스키마에 dept_name 속성 추가 (dept_name이 fk의 역할을 함)
 	•	one-to-one 관계에서는 어느 한쪽을 “many”로 간주해 속성을 추가할 수 있다.
-다만 “many” 쪽의 참여가 partial이라면 null 값 발생 가능성 존재
+다만 “many” 쪽이 Partial Participation 이라면 null 값 발생 가능성 존재
 	•	약한 엔티티와 identifying 강한 엔티티 간의 관계는 이미 weak entity의 스키마에 필요한 모든 속성이 들어있으므로 중복됨
 예: section 스키마는 sec_course 스키마를 대체할 수 있음
 ![[Pasted image 20250410141642.png|400]]
