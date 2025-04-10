@@ -189,3 +189,9 @@ Accelerated Heapsort가 최악의 경우 수행하는 키 비교 횟수: ![[Past
 ## Radix Sort
 비교를 하지 않고 정렬하는 방법
 기수 = 자릿수
+![[Pasted image 20250410222955.png|500]]
+First Pass: 1의 자리
+Second Pass: 2의 자리
+Third Pass: 3의 자리
+Fourth Pass: 4의 자리
+Fifth Pass: 5의 자리
