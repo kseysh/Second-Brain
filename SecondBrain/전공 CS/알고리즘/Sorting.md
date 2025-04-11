@@ -177,6 +177,7 @@ vacStop 위치에 도달하면 적절한 위치에 삽입됨
 힙에 새로운 요소 K를 삽입할 때, vacant 위치부터 시작하여 부모 노드와 비교하면서 위로 올라가는 방식으로 힙의 속성을 유지
 ![[Pasted image 20250410151854.png|300]] 이거 자주 나옴 (어떻게 하는지)
 빈 자리에 새로운 요소 K를 삽입하면서 힙을 빠르게 재구성
+fixHeapFast를 재 호출할 때, 탐색 범위가 바뀌면서 subheap의 높이로 재설정됨
 ![[Pasted image 20250410151907.png|300]]
 힙 아래쪽에서 값을 위로 “승격”시켜서 vacant 자리를 채우기 위한 가장 적절한 노드를 찾아줌
 ### fixHeapFast 시간 복잡도 분석
@@ -184,6 +185,7 @@ vacant가 bubbleUpHeap 또는 Promote의 작용으로 인해 한 레벨씩 이�
 bubbleUpHeap이 호출되지 않고, fixHeapFast가 기저 조건에 도달한다고 가정해 봅시다. 
 이 경우, 방향을 반대로 바꿔야 하는지를 확인하기 위해 log(h) 번의 체크가 필요합니다.
 따라서 최악의 경우, fixHeapFast는 h + log(h) 번의 비교를 수행한다.
+h확인, h/2 확인, h/4 확인이므로 
 ### Accelerated Heapsort 시간 복잡도 분석 (시)
 k개의 노드를 가진 힙에서 fixHeapFast가 수행하는 비교 횟수는 최대 log(k) 
 모든 삭제 연산을 포함한 총 비교 횟수: ![[Pasted image 20250410153623.png|100]]
