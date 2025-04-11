@@ -12,10 +12,10 @@
 		1. 어떤 유효한 연산 순서에 대해서도 accounting cost의 총합은 음수가 아니어야 함
 		2. 각 연산의 amortized cost을 분석할 수 있도록 해야 함
 ## Array Doubling 사용하는 스택 구현
-아래 (시)
 •	필요에 따라 배열을 확장하기 위해 내부적으로 Array Doubling을 사용함
 	•	배열 확장이 일어나지 않을 때, push나 pop의 실제 비용은 1
 	•	배열 확장이 필요한 경우, push의 실제 비용은 1 + t * n
+		n: 현재 배열에 있는 원소 개수, t: 복사할 때 한 요소당 드는 비용
 •	회계 비용 할당 방식:
 	•	배열 확장이 없을 때 push의 Accounting cost는 2t로 설정
 	•	배열 확장이 있을 때 push의 Accounting cost는 –t * n + 2t로 설정
