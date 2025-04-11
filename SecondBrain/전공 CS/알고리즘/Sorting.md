@@ -188,9 +188,10 @@ fixHeapFast를 재 호출할 때, 탐색 범위가 바뀌면서 subheap의 높�
 vacant가 bubbleUpHeap 또는 Promote의 작용으로 인해 한 레벨씩 이동할 때마다 한 번의 비교가 발생하고, 이 비교의 총 횟수는 힙의 높이인 h이다.
 bubbleUpHeap이 호출되지 않고, fixHeapFast가 기저 조건에 도달한다고 가정해 봅시다. 
 이 경우, 방향을 반대로 바꿔야 하는지를 확인하기 위해 log(h) 번의 체크가 필요합니다. (h에서 확인, h/2에서 확인, h/4에서 확인하므로)
-따라서 최악의 경우, fixHeapFast는 h + log(h) 번의 비교를 수행한다
+따라서 최악의 경우, fixHeapFast 1회 수행 시 h + log(h) 번의 비교를 수행한다
 h = log(k)
-시그마 1부터 n-1까지 h + log(h) = ![[Pasted image 20250410153754.png|100]]
+우리는 heapSort에서 deleteMax()를 n번 호출하며 heapSort를 진행했고, deleteMax()내에 fixHeap이 포함되었으니 fixHeapFast를 n번 호출한 것이고 따라서 ![[Pasted image 20250410153754.png|100]]와 같다.
+
 ### Accelerated Heapsort 시간 복잡도 분석 (시)
 k개의 노드를 가진 힙에서 fixHeapFast가 수행하는 비교 횟수는 최대 log(k) 
 모든 삭제 연산을 포함한 총 비교 횟수: ![[Pasted image 20250410153623.png|100]]
