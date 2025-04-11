@@ -24,11 +24,9 @@ int shiftVacRec(Element[] E, int vacant, Key x){
 		xLoc = shiftVacRec(E, vacant-1, x);
 	return xLoc;
 }
-// 기능:  > 정렬된 영역에 삽입할 위치를 찾고, 뒤로 민다. (시)
+// 기능: 정렬된 영역에 삽입할 위치를 찾고, 뒤로 민다. (시)
 ```
 ### 특징
-키를 비교하여 정렬하고 각 비교 후 최대 하나의 반전을 제거하는 모든 알고리즘은 최악의 경우 최소 n(n-1)/2 비교를 수행해야 하며 평균(n 요소에 대해) 최소 n(n-1)/4 비교를 수행해야 합니다.
-
 삽입 정렬은 인접한 요소만 교환하여 locally하게 작동하는 알고리즘에 최적이다.
 ### Worst-Case 분석
 1. Index 1부터 시작하여 현재까지 정렬된 부분에서 적절한 위치를 찾아 삽입한다.
@@ -42,7 +40,6 @@ int shiftVacRec(Element[] E, int vacant, Key x){
 4. 따라서 평균 비교 횟수는 ![[Pasted image 20250327222501.png|100]]과 같다
 5. ![[Pasted image 20250327222539.png|100]]이고, 따라서 ![[Pasted image 20250327222558.png|100]]이다.
 6. 뒤의 i/i+1은 물어보자
-
 
 ## Divide and Conquer
 ![[Pasted image 20250331172122.png|300]]
