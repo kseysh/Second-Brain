@@ -152,6 +152,8 @@ left child: 2i
 rigth child: 2i + 1
 parent: ![[Pasted image 20250410150720.png|50]]
 ## Worst Case 분석
+heapsort 시간
+![[Pasted image 20250412015722.png|200]]
 fixHeap 함수가 힙에서 수행하는 비교 연산 수는 최대 2 * log(k)
 k는 현재 힙의 노드 개수이며, 로그는 힙에 높이에 비례하는 성질 반영
 최악의 경우, 루트에서 leaf까지 내려가며 자식과 비교 및 교환을 하기 때문
