@@ -24,6 +24,7 @@ int shiftVacRec(Element[] E, int vacant, Key x){
 		xLoc = shiftVacRec(E, vacant-1, x);
 	return xLoc;
 }
+// 기능:  x를 삽입할 위치를 재귀적으로 찾아주는 함수 (시)
 ```
 ### 특징
 키를 비교하여 정렬하고 각 비교 후 최대 하나의 반전을 제거하는 모든 알고리즘은 최악의 경우 최소 n(n-1)/2 비교를 수행해야 하며 평균(n 요소에 대해) 최소 n(n-1)/4 비교를 수행해야 합니다.
