@@ -1,3 +1,4 @@
+![[Pasted image 20250411210051.png]]
 ## Insertion Sort
 ![[Pasted image 20250327214346.png|400]]
 ### 의사 코드
@@ -39,7 +40,7 @@ int shiftVacRec(Element[] E, int vacant, Key x){
 3. 위치 j에 삽입되면 비교 횟수는 j번 발생한다. 
 4. 따라서 평균 비교 횟수는 ![[Pasted image 20250327222501.png|100]]과 같다
 5. ![[Pasted image 20250327222539.png|100]]이고, 따라서 ![[Pasted image 20250327222558.png|100]]이다.
-6. 뒤의 i/i+1은 물어보자
+6. 뒤의 i/i+1은 물어보자 => 정리본 보자..
 
 ## Divide and Conquer
 ![[Pasted image 20250331172122.png|300]]
