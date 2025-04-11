@@ -7,11 +7,12 @@
 ## Amortized Analysis (분할 상환 분석)
 - 최악의 경우에 대해 **확률적 가정을 하지 않고** 평균 비용을 논하는 방법
 - Accounting method (회계 방식)
-	- amortized cost = actual cost + accounting cost
+	- **amortized cost = actual cost + accounting cost** (시)
 	- 다음 두 가지 조건을 만족해야 함:
 		1. 어떤 유효한 연산 순서에 대해서도 accounting cost의 총합은 음수가 아니어야 함
 		2. 각 연산의 amortized cost을 분석할 수 있도록 해야 함
 ## Array Doubling 사용하는 스택 구현
+아래 (시)
 •	필요에 따라 배열을 확장하기 위해 내부적으로 Array Doubling을 사용함
 	•	배열 확장이 일어나지 않을 때, push나 pop의 실제 비용은 1
 	•	배열 확장이 필요한 경우, push의 실제 비용은 1 + t * n
