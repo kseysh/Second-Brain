@@ -14,8 +14,6 @@
 	- 한 프로세스가 임계 구역에 있을 때, 다른 어떤 프로세스도 그 구역에 들어가면 안 됨
 - 임계 구역 문제란 이러한 상황을 해결하기 위한 프로토콜을 설계하는 것
 - 각 프로세스는 임계 구역에 들어가기 전에 진입 구역(entry section)에서 허락을 요청하고, 임계 구역을 마치면 종료 구역(exit section)을 거쳐 나머지 구역(remainder section)을 실행
-
-
 ## Critical Section Problem Solution
 ![[임계 영역]] 
 ## OS에서의 Critical section 처리
