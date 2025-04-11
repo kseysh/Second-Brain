@@ -145,6 +145,9 @@ fixHeap은 최대 2h번의 키 비교가 필요함
 Input H: 힙 구조이지만, partial order tree property을 반드시 만족하지는 않는 상태 (즉, 최소 힙, 최대 힙의 성질을 보장하지 않는 구조)
 Output H: 동일한 노드들로 구성된 H를 partial order tree property 속성을 만족하도록 재배열한 힙으로 변환
 ![[Pasted image 20250410150557.png|300]]
+
+![[Pasted image 20250411143218.png|200]]
+위 구조를 이용하여 leaf를 포함한 subtree까지 내려가고, 가장 작은 subtree부터 하나씩 heap 조건을 만족시키면 됨
 ## Array를 이용한 Heap 구현
 1부터 n까지의 array
 left child: 2i
