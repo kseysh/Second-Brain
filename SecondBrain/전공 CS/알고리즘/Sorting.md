@@ -200,8 +200,19 @@ remL(remain List): Linked List 구조로 각 노드가 다음 숫자를 가리�
 
 ### 수도 코드
 ![[Pasted image 20250410230942.png|400]]
+L: 정렬할 리스트
+radix: 숫자의 진법
+numFields: 자릿수
+각 반복마다 distribute로 데이터를 분산하고, combine으로 합침
 ![[Pasted image 20250410230955.png|400]]
+리스트 L의 원소들을 주어진 field 기준으로 buckets에 분배
+maskShift(field, radix, K.key)를 통해 현재 필드의 값을 추출합니다.
+•	이 값은 0 ~ radix-1 범위이며, 해당 버킷 번호가 됩니다.
+•	각 원소는 `buckets[b]`에 연결 리스트 형식으로 저장됩니다.
 ![[Pasted image 20250410231005.png|400]]
+분산된 buckets의 원소들을 다시 하나의 리스트로 병합합니다.
+radix-1부터 0까지 역순으로 버킷을 순회하며 리스트를 병합합니다.
+버킷에 있는 모든 원소들을 cons를 통해 하나의 리스트로 만듭니다.
 ## 시간 복잡도 분석
 - distribute 단계: Θ(n) 시간 소요
 	- 각 숫자를 해당 자리수에 따라 버킷에 분배하는 작업
