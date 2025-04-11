@@ -189,7 +189,7 @@ vacant가 bubbleUpHeap 또는 Promote의 작용으로 인해 한 레벨씩 이�
 bubbleUpHeap이 호출되지 않고, fixHeapFast가 기저 조건에 도달한다고 가정해 봅시다. 
 이 경우, 방향을 반대로 바꿔야 하는지를 확인하기 위해 log(h) 번의 체크가 필요합니다.
 따라서 최악의 경우, fixHeapFast는 h + log(h) 번의 비교를 수행한다.
-### Accelerated Heapsort 시간 복잡도 분석
+### Accelerated Heapsort 시간 복잡도 분석 (시)
 k개의 노드를 가진 힙에서 fixHeapFast가 수행하는 비교 횟수는 최대 log(k) 
 모든 삭제 연산을 포함한 총 비교 횟수: ![[Pasted image 20250410153623.png|100]]
 Accelerated Heapsort가 최악의 경우 수행하는 키 비교 횟수: ![[Pasted image 20250410153754.png|100]]
