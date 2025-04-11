@@ -24,7 +24,7 @@ int shiftVacRec(Element[] E, int vacant, Key x){
 		xLoc = shiftVacRec(E, vacant-1, x);
 	return xLoc;
 }
-// 기능:  x를 삽입할 위치를 재귀적으로 찾아주는 함수 (시)
+// 기능:  > 정렬된 영역에 삽입할 위치를 찾고, 뒤로 민다. (시)
 ```
 ### 특징
 키를 비교하여 정렬하고 각 비교 후 최대 하나의 반전을 제거하는 모든 알고리즘은 최악의 경우 최소 n(n-1)/2 비교를 수행해야 하며 평균(n 요소에 대해) 최소 n(n-1)/4 비교를 수행해야 합니다.
@@ -179,7 +179,7 @@ K: 삽입 대상이 되는 값
 vacStop 위치에 도달하면 적절한 위치에 삽입됨
 ### 수도 코드
 ![[Pasted image 20250410151648.png|300]]
-![[Pasted image 20250410151854.png|300]]
+![[Pasted image 20250410151854.png|300]] 이거 자주 나옴 (어떻게 하는지)
 ![[Pasted image 20250410151907.png|300]]
 ### fixHeapFast 시간 복잡도 분석
 vacant가 bubbleUpHeap 또는 Promote의 작용으로 인해 한 레벨씩 이동할 때마다 한 번의 비교가 발생하고, 이 비교의 총 횟수는 힙의 높이인 h이다.
