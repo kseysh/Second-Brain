@@ -166,7 +166,7 @@ SUM() 함수는 집계 대상에 모든 값이 NULL일 경우, NULL을 반환
 COUNT(\*)를 제외한 대부분의 집계 함수는 NULL 값을 무시하며,
 집계 대상이 비어 있을 경우(조건에 해당하는 행이 없을 경우),
 COUNT는 0을 반환하고, 나머지 집계 함수들은 NULL을 반환한다.
-###### 2009년 가을과 2010년 봄에 제공된 강의 찾기 in, nested subquery, exists를 이용해서
+###### 2009년 가을과 2010년 봄에 제공된 강의의 course_id 찾기 in, nested subquery를 이용해서
 ```sql
 select distinct course_id
 from section
@@ -175,7 +175,7 @@ where semester = ’Fall’ and year= 2009 and
 		from section
 		where semester = ’Spring’ and year= 2010);
 ```
-
+###### 2009년 가을과 2010년 봄에 제공된 강의의 course_id 찾기 nested subquery, exists를 이용해서
 ```sql
 select course_id
 from section as S
