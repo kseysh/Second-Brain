@@ -109,7 +109,7 @@ where dept_name = 'History';
 insert into history_instructors values ('25566', 'Brown', 'Biology', 100000);
 ```
 where절의 조건 (즉, dept_name = 'History)을 만족하지 않기 때문에 insert가 차단된다.
-with check option 절이 뷰 정의 마지막에 붙어 있을 경우, 뷰 정의의 조건을 만족하지 않는 행의 삽입이나 갱신을 방지한다.
+with check option 절이 뷰 절의 마지막에 붙어 있을 경우, 뷰 정의의 조건을 만족하지 않는 행의 삽입이나 갱신을 방지한다.
 # Transaction
 - 작업의 단위
 - [[ACID]] 만족
