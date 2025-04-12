@@ -379,7 +379,7 @@ set salary = case
 	else salary * 1.03
 	end
 ```
-###### 모든 학생들을 위해 tot_creds 값을 다시 계산하고 업데이트
+###### 각 학생의 tot_cred를, F학점이 아니고 NULL이 아닌 성적을 받은 과목들의 총 학점 합으로 업데이트
 ```sql
 update student S
 set tot_cred = ( select sum(credits)
@@ -388,6 +388,8 @@ set tot_cred = ( select sum(credits)
 		takes.grade <> ’F’ and
 		takes.grade is not null);
 ```
+표준 SQL에서는 <>가 공식적인 같지 않음 연산자임
+
 ###### 어떤 과정도 수강하지 않은 학생들은 tot_creds를 0으로 설정
 ```sql
 update student S
