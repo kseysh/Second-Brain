@@ -390,7 +390,7 @@ set tot_cred = ( select sum(credits)
 ```
 표준 SQL에서는 <>가 공식적인 같지 않음 연산자임
 
-###### 어떤 과정도 수강하지 않은 학생들은 tot_creds를 0으로 설정
+###### 위 문제에서 sum(credit)이 null인 학생들은 tot_creds를 0으로 설정
 ```sql
 update student S
 set tot_cred = ( select case
