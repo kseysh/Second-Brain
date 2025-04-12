@@ -246,7 +246,7 @@ where not exists ( (select course_id
 (모든 생물학과 과목) - (학생이 들은 과목) = 공집합이면 그 학생은 모든 생물학과 과목을 수강한 것
 ###### unique
 subquery에 중복된 결과가 있는지 테스트
-###### 2009년에 최대 한 번 제공되었던 모든 과정 찾기 (두 번이면 안 됨)
+###### 2009년에 최대 한 번 제공되었던 모든 Course의 course_id 찾기 (두 번이면 안 됨)
 ```sql
 select T.course_id
 from course as T
