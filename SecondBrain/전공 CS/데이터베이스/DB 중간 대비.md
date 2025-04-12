@@ -288,9 +288,9 @@ select budget
 from department, max_budget
 where department.budget = max_budget.value;
 ```
-###### 모든 부서의 총 급여가 총 급여의 평균보다 큰 모든 부서를 찾기 (with 활용)
+###### 모든 부서의 총 급여가 총 급여의 평균보다 큰 모든 부서를 찾기 (with dept_total, dept_total_avg 활용)
 ```sql
-with dept _total (dept_name, value) as
+with dept_total (dept_name, value) as
 	(select dept_name, sum(salary)
 	from instructor
 	group by dept_name),
