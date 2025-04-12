@@ -71,7 +71,6 @@ Natural Join은 이름이 같으면 그냥 연결함
 그래서 ∏<sub>name, title</sub>(instuctor ⋈ teaches ⋈ Name)
 를 할 때, dept_name도 같이 연결되어 버릴 수 있다.
 => 따라서 side effect를 주의하고 세타 조인을 사용해볼 수도 있다.
-& 다시 한 번 보기
 
 Natural join 은 associative하고
 ((instuctor ⋈ teaches) ⋈ Name) =(instuctor ⋈ (teaches ⋈ Name))
