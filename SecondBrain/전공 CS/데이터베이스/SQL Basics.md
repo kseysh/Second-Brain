@@ -364,15 +364,12 @@ SQL에서 사용된 솔루션:
 ```sql
 DELETE FROM instructor
 WHERE ID IN (
-    SELECT ID
-    FROM (
         SELECT ID
         FROM instructor
         WHERE salary < (
             SELECT AVG(salary)
             FROM instructor
         )
-    ) AS temp_ids
 );
 ```
 ## DDL - Insertion
