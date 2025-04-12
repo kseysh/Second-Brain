@@ -320,7 +320,7 @@ delete from instructor
 delete from instructor
 where dept_name= 'Finance';
 ```
-###### Watson 건물에 위치한 부서와 관련된 강사에 대한 강사 관계의 모든 튜플을 삭제
+###### - Watson 건물에 있는 학과(department)에 소속된 교수들(instructor)을 삭제
 ```sql
 delete from instructor
 where dept_name in (select dept_name
@@ -335,15 +335,12 @@ where dept_name in (select dept_name
 ```sql
 DELETE FROM instructor
 WHERE ID IN (
-    SELECT ID
-    FROM (
         SELECT ID
         FROM instructor
         WHERE salary < (
             SELECT AVG(salary)
             FROM instructor
-        )
-    ) AS temp_ids
+		)
 );
 ```
 ###### insert 문
@@ -351,7 +348,7 @@ WHERE ID IN (
 insert into course
 values ('CS-437', 'Database Systems', 'Comp. Sci.', 4);
 ```
-
+value x values O
 ```sql
 insert into course (course_id, title, dept_name, credits)
 values ('CS-437', 'Database Systems', 'Comp. Sci.', 4);
