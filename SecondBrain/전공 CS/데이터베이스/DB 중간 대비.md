@@ -231,7 +231,7 @@ where semester = ’Fall’ and year= 2009 and
 		where semester = ’Spring’ and year= 2010
 			and S.course_id= T.course_id);
 ```
-###### 생물학과에서 제공되는 모든 과목을 수강한 모든 학생들을 찾기 (not exists 사용)
+###### 생물학과에서 제공되는 모든 과목을 수강한 모든 학생의 ID와 이름을 중복을 제거하고 찾기 (not exists 사용)
 ```sql
 select distinct S.ID, S.name
 from student as S
