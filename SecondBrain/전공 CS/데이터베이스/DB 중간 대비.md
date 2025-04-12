@@ -421,14 +421,14 @@ select name
 from faculty  
 where dept_name = 'Biology';
 ```
-###### 학과별 총 급여를 보여주는 뷰
+###### 학과별 총 급여를 보여주는 뷰 departments_total_salary(dept_name, total_salary)
 ```sql
 create view departments_total_salary(dept_name, total_salary) as  
 select dept_name, sum(salary)  
 from instructor  
 group by dept_name;
 ```
-###### 2009년 가을학기의 물리학 강의 정보를 보여주는 뷰, 뷰를 이용해 Watson 건물에서 열리는 강의의 과목 ID와 강의실 번호 조회
+###### 2009년 가을 학기에 열렸던 물리학과(Physics)의 모든 강의에 대해 course_id, sec_id, building, room_number를 모아 physics_fall_2009라는 뷰(view)를 생성, 
 ```sql
 create view physics_fall_2009 as  
 select course.course_id, sec_id, building, room_number  
@@ -437,7 +437,9 @@ where course.course_id = section.course_id
 	and course.dept_name = 'Physics'  
 	and section.semester = 'Fall'  
 	and section.year = 2009;
-
+```
+###### physics_fall_2009 뷰에서 건물이 ‘Watson’인 강의만 골라 강의 ID와 강의실 정보를 담은 physics_fall_2009_watson 뷰를 생성
+```sql
 create view physics_fall_2009_watson as  
 select course_id, room_number  
 from physics_fall_2009  
@@ -520,9 +522,12 @@ insert into person values ('10101', 'John', '11111');
 insert into person values ('11111', 'Mary', '10101');
 ```
 서로 존재하지 않는 사람을 참조하게 되어 제약 조건 위반이 발생할 수 있다.
-###### A
+###### spouse 컬럼이 person 테이블을 참조하는 외래 키 제약 조건 정의
 ```sql
 constraint spouse_ref foreign key (spouse) references person
+```
+###### - pouse_ref 제약 조건을 지연 모드(deferred)**로 설정
+```sql
 set constraints spouse_ref deferred;
 ```
 ###### index 생성
