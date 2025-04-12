@@ -275,11 +275,14 @@ where avg_salary > 42000;
 ```
 ###### with
 with 절이 발생하는 쿼리에 대해서만 정의를 사용할 수 있는 temporary view를 정의하는 방법을 제공
-###### 모든 부서 중 최대 예산을 갖는 부서의 최대 예산 값 찾기 (with 활용)
+with name () as select...
+###### 모든 부서 중 최대 예산을 갖는 부서의 최대 예산 값 찾기 (with max_budget 활용)
 ```sql
 with max_budget (value) as
-	(select max(budget)
-	from department)
+	(
+	select max(budget)
+	from department
+	)
 
 select budget
 from department, max_budget
