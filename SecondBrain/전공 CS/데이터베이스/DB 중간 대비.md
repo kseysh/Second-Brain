@@ -198,20 +198,20 @@ where semester = ’Fall’ and year= 2009 and
 ```sql
 select count (distinct ID)
 from takes
-where (course_id, sec_id, semester, year) in
+where (course_id, sec_id, semester, year) in // 4개가 다 pk라 4개 다 써줘야 함
 	(select course_id, sec_id, semester, year
 	from teaches
 	where teaches.ID= 10101);
 ```
 ###### some
 서브쿼리에서 반환된 값 중 하나 이상과 비교 조건을 만족하면 TRUE ([[ANY]]와 같은 역할)
-###### 생물학 부서의 일부 (적어도 한 명) 강사의 급여보다 더 큰 급여를 받는 강사의 이름을 찾기 (Set 비교 활용)
+###### 생물학 부서의 일부 (적어도 한 명) 강사의 급여보다 더 큰 급여를 받는 강사의 이름을 찾기
 ```sql
 select distinct T.name
 from instructor as T, instructor as S
 where T.salary > S.salary and S.dept name = 'Biology';
 ```
-
+###### 생물학 부서의 일부 (적어도 한 명) 강사의 급여보다 더 큰 급여를 받는 강사의 이름을 찾기 (Set 비교 활용)
 ```sql
 select name
 from instructor
