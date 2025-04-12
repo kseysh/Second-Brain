@@ -54,7 +54,7 @@ Relation Algebra로, Functional 방식
 ###### Theta join 특징
 Theta join자체에는 Projection(select)를 진행하지 않음
 ###### Union 특징
-중복 제거
+중복 제거[[]]
 ###### ID가 12121인 교수보다 더 많은 급여를 받는 교수들의 ID 찾기 X, Theta join 표현
 ![[Pasted image 20250405230525.png]]
 rho는 바깥으로 해도 됨
