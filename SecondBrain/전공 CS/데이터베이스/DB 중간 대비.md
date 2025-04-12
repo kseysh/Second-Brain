@@ -47,10 +47,8 @@ Relation Algebra로, Functional 방식
 𝜎<sub>salary>=85000</sub>(instuctor)
 ###### Select A and C를 Relational Algebra로
 ![[Pasted image 20250405224626.png]]
-###### Selecting attributes ID and salary from the instructor relatijon Relational Algebra로
-∏<sub>ID,salary</sub>(instructor)
-###### Natural Join을 다르게 표현하면
-⋈ = ∏<sub>조건</sub>(𝜎<sub>조건</sub>(r X s))
+###### Selecting attributes ID and salary from the instructor relation Relational Algebra로
+∏<sub>ID,salary</sub>(instructor)[[]]
 ###### Theta Join을 다르게 표현
 ![[Pasted image 20250318142719.png|300]]
 ###### Theta join 특징
