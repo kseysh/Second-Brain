@@ -283,6 +283,23 @@ int fact (int n) { // $a0에 저장됨
 }
 ```
 
+```
+fact:   slti $t0 $a0 1
+		beq $t0 $zero else
+		addi $v0 $zero 1
+		jr $ra
+else:   addi $sp $sp -8
+		sw $ra 4($sp)
+		sw $a0 0($sp)
+		add $a0 $a0 -1
+		jal fact
+		lw $a0 0($sp)
+		lw $ra 4($sp)
+		addi $sp $sp 8
+		mul $v0 $v0 $a0
+		jr $ra
+```
+
 n=2로 시작한다는 가정
 ra와 a0는 stack에 저장됨
 ![[Pasted image 20250324174324.png|300]]
