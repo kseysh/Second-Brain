@@ -281,6 +281,7 @@ int fact (int n) { // $a0에 저장됨
 ```
 
 n=2로 시작한다는 가정
+ra와 a0는 stack에 저장됨
 ![[Pasted image 20250324174324.png|300]]
 ![[Pasted image 20250324174336.png|300]]
 ![[Pasted image 20250324174348.png|300]]
