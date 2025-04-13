@@ -428,6 +428,7 @@ v: $a0
 k: $a1
 temp: $t0
 ![[Pasted image 20250327152149.png|300]]
+따로 k+1을 관리할 필요가 없다.
 ### Sort Procedure
 ```c
 void sort (int v[], int n)
