@@ -352,8 +352,10 @@ y = $a1
 i = $s0
 ![[Pasted image 20250325142713.png|400]]
 굳이 lbu가 아니어도 되긴 함
+![[Pasted image 20250413230830.png|200]]
+load한 value와 주소 값 구분 잘 하기
 ## 32-bit Constants
-대부분의 상수는 작아서 16bit로 충분하지만, 그보다 크다면 추가적인 방법이 필요하다.
+대부분의 상수는 작아서 16bit로 충분하지  만, 그보다 크다면 추가적인 방법이 필요하다.
 ### `lui rt constant`
 load upper immediate
 - 16 bit 상수를 왼쪽으로 16 bit만큼 옮기고, 나머지를 0으로 채운다.
