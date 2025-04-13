@@ -301,3 +301,11 @@ $f18 / $f19 : y\[i]\[k]
 •	여러 개의 부동소수점 피연산자 처리 가능
 	• 8 × 64-bit double precision
 	• 16 × 32-bit double precision
+## Right Shift and Division
+i비트만큼 왼쪽 시프트하면 정수를 2<sup>i</sup>만큼 곱하는 것과 같다.
+오른쪽 시프트는 2<sup>i</sup>로 나누는 것이지만, 부호 없는 정수에만 해당된다.
+## Associativity
+•	병렬 프로그램은 연산을 예상치 못한 순서로 섞어서 실행할 수 있음
+•	결합법칙(associativity)을 당연히 여기는 가정이 실패할 수 있음
+•	병렬성의 정도가 달라질 때 프로그램을 검증할 필요가 있음
+![[Pasted image 20250413170814.png|300]]
