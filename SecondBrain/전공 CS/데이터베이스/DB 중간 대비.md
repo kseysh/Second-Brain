@@ -544,8 +544,8 @@ one to many
 one to one
 many to one
 many to many
-###### Q
-A
+###### Total Participation이란?
+이중 선으로 표시되며 엔티티 집합의 모든 엔티티가 관계 집합에 최소한 하나는 참여해야 한다.
 ###### Q
 A
 ###### Q

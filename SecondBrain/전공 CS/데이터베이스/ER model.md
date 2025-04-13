@@ -95,7 +95,9 @@ proj_guide에서 instructor로 향하는 화살표는 학생마다 프로젝트�
 이중 선으로 표시되며, 엔티티 집합의 모든 엔티티가 관계 집합에 최소한 하나는 참여해야 함
 #### example
 ![[Pasted image 20250408150400.png|250]]
-section은 sec_course에 전체 참여함 → 모든 섹션은 반드시 하나의 강의(course)와 연결되어야 함
+section은 sec_course에 전체 참여함 → entity set의 모든 엔터티 인스턴스들이 반드시 관계에 참여해야하는 경우
+- 어떤 section도 혼자 존재할 수 없다
+- sec_course라는 관계를 통해 반드시 어떤 강의와 연결되어 있어야 한다.
 ### Partial Participation
 일부 엔티티는 어떤 관계에도 참여하지 않을 수 있음
 
