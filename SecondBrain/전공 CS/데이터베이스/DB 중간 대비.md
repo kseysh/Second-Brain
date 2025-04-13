@@ -80,8 +80,6 @@ foreign key (Am, ..., An ) references r
 alter table r add A D
 ###### 컬럼 삭제
 alter table r drop A
-###### select시 중복 삭제 안하려면
-select all
 ###### dept_name이 Comp. Sci dept이고, salary>8000인 instructor의 name 찾기
 ```sql
 select name
