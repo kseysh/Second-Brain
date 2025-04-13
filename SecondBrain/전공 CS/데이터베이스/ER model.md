@@ -11,7 +11,7 @@ attrubutes를 가진다.
 - Derived attributes
 	- ex) 생년월일로부터 계산된 나이
 ## Composite Attributes
-![[Pasted image 20250408141008.png|300]]
+![[Pasted image 20250408141008.png|500]]
 ## Relationship Sets
 2개 이상의 엔티티 집합에서 가져온 n개의 엔티티간 조합
 #### example

@@ -532,8 +532,8 @@ set constraints spouse_ref deferred;
 ```
 ###### index 생성
 create index id_idx on student(id)
-###### Q
-A
+###### composite Attributes란?
+![[Pasted image 20250408141008.png|500]]
 ###### Q
 A
 ###### Q
