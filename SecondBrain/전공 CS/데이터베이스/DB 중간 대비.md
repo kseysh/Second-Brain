@@ -526,7 +526,7 @@ insert into person values ('11111', 'Mary', '10101');
 ```sql
 constraint spouse_ref foreign key (spouse) references person
 ```
-###### - pouse_ref 제약 조건을 지연 모드(deferred)**로 설정
+###### spouse_ref 제약 조건을 지연 모드(deferred)로 설정
 ```sql
 set constraints spouse_ref deferred;
 ```
