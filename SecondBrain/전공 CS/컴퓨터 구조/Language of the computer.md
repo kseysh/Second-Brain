@@ -227,7 +227,9 @@ Procedure = 함수
 - return 값을 `$v0~$v1`에 배치
 ## Register Usage
 - $a0 – $a3: arguments
+	- caller-saved
 - $v0, $v1: result values
+	- caller-saved
 - $t0 – $t9: temporaries
 	- caller가 백업해둘 의무를 가짐
 	- caller-saved register
@@ -239,7 +241,8 @@ Procedure = 함수
 	- stack 공간을 어디까지 사용하는지에 대한 포인터
 	- stack 공간은 위에서 아래로 내려오므로, sp는 스택의 최하위 주소를 가짐
 - $fp: frame pointer
-- $ra: return address
+- $ra: return address 
+	- caller-saved
 ## Procedure Call Instructions
 컨트롤을 넘겨주는 행위 
 ### `jal ProcedureLabel` (J-Format)
