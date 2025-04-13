@@ -534,10 +534,16 @@ set constraints spouse_ref deferred;
 create index id_idx on student(id)
 ###### composite Attributes란?
 ![[Pasted image 20250408141008.png|500]]
-###### Q
-A
-###### Q
-A
+##### 무슨 관계인지
+![[Pasted image 20250408142911.png|300]]
+![[Pasted image 20250408142853.png|300]]
+![[Pasted image 20250408142922.png|300]]
+![[Pasted image 20250408142933.png|300]]
+###### A
+one to many
+one to one
+many to one
+many to many
 ###### Q
 A
 ###### Q
