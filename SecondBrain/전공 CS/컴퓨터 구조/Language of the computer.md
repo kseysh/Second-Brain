@@ -285,12 +285,12 @@ int fact (int n) { // $a0에 저장됨
 
 ```
 fact:   slti $t0 $a0 1
-		beq $t0 $zero else
+		beq $t0 $zero else // callee saved지만, 다시 사용할 일 없으므로 save하지 않아도 됨
 		addi $v0 $zero 1
 		jr $ra
 else:   addi $sp $sp -8
-		sw $ra 4($sp)
-		sw $a0 0($sp)
+		sw $ra 4($sp) // 나는 call하기 직전 save 해놓는게 좋은 듯
+		sw $a0 0($sp) // n은 fact(n-1)과 곱할 때 사용해야 하니까 save 해둠
 		add $a0 $a0 -1
 		jal fact
 		lw $a0 0($sp)
@@ -299,6 +299,7 @@ else:   addi $sp $sp -8
 		mul $v0 $v0 $a0
 		jr $ra
 ```
+saved value가 있었으면, 호출 받았을 때 계속 saved value를 저장해두고 리턴시 복구했어야 했을 것임
 
 n=2로 시작한다는 가정
 ra와 a0는 stack에 저장됨
