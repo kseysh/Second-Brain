@@ -3,6 +3,8 @@ unsigned: overflow check를 안 함
 signed: overflow가 일어나면 부호가 바뀜
 ## Multiplication
 ![[Pasted image 20250402172302.png|300]]
+![[Pasted image 20250414130133.png|300]]
+이런 느낌임
 ![[Pasted image 20250402172323.png|400]]
 #### example
 ![[Pasted image 20250402172351.png|400]]
