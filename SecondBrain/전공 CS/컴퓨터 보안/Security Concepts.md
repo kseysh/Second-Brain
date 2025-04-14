@@ -152,7 +152,7 @@ IEEE 802.11i: wifi 표준
 - Firewall (방화벽)
 	- 하드웨어 및/또는 소프트웨어 기능으로, 특정 보안 정책에 따라 네트워크와 네트워크에 연결된 장치 간의 접근을 제한
 - Intrusion detection (침입 감지)
-	- Host-based(HIDS) vs. NW-based(NIDS)
+	- Host-based(**HIDS**) vs. NW-based(**NIDS**)
 - Intrusion prevention (침입 방어)
 ## Standards
 - National Institute of Standards and Tecnology (NIST)
