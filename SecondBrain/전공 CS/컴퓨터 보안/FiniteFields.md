@@ -77,6 +77,7 @@ x<sup>2</sup>+1 = x<sup>2</sup>+2x+1 이고, (x+1)<sup>2</sup>이기 때문이�
 기존 GCD와 같이 a(x)와 b(x)를 동시에 나누는 다항식 중 차수가 가장 큰 것을 의미한다.
 #### example
 GCD(x<sup>2</sup>+x , x<sup>2</sup>+1) = x+1
+ㄴ 계산했을 때 마지막 0이아닌 나머지가 GCD
 ## Extended Euclid
 ![[Pasted image 20250401142818.png|400]]
 ## Polynomial Arithmetic Modulo (x<sup>3</sup> + x + 1)
