@@ -449,8 +449,11 @@ void sort (int v[], int n)
 ![[Pasted image 20250327152351.png|350]]
 ![[Pasted image 20250327152337.png|400]]
 ![[Pasted image 20250327152413.png|350]]
+![[Pasted image 20250414113811.png]]
+나름 잘 한듯..?
+
 ## Effect of Compiler Optimization / Language and Algorithm
-- Instruction count와 CPI는 단독으로 좋은 성능 지표가 아니다. 
+- Instruction count와 CPI는 단독으로 좋은 성능 지표가 아니다.
 	- (Instruction count가 높은대신 CPI가 높을 수 있기 때문)
 - 컴파일러 최적화는 알고리즘에 민감하다
 - Java/JIT로 컴파일된 코드는 JVM intertpret보다 훨씬 빠르다
@@ -472,6 +475,7 @@ void sort (int v[], int n)
 	프로그램을 더 명확하고 안전하게 만드는 것이 좋습니다
 ### example
 ![[Pasted image 20250327153020.png|400]]
+
 arrays방식은 shift가 내부 loop에 있어야 한다.
 index로 부터 주소를 계산하는 과정이 계속 필요하다.
 ## ARM VS. MIPS
