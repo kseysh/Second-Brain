@@ -157,7 +157,7 @@ IEEE 802.11i: wifi 표준
 ## Standards
 - National Institute of Standards and Tecnology (NIST)
 	- 미국 국립표준기술연구소 아래 두 개는 국가적 범위이지만, 전 세계에 영향을 미침
-	- FIPSf
+	- FIPS
 	- SP
 - Internet Society (ISOC)
 	- 조직 및 개인 회원으로 구성된 전문가 협회
