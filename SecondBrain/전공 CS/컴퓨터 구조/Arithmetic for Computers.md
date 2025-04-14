@@ -53,6 +53,7 @@ dividend: 5
 ![[Pasted image 20250403134535.png|300]]
 #### example
 7 / 2
+ 7 = 2 ( 2 + 1 ) ... 1 이므로 7을 2 x 16과 빼보고... 2x8과 빼봐서 결국 양수가 나오는  7 - 2 x 2가 나오면 Quotient를 1로 하고 7-4를 해서 remainder를 3으로 만들고 3 - 2 x 1 해서 양수가 나오므로 Quotient를 또 1로 함
 ![[Pasted image 20250403134631.png|300]]
 Remainder가 양수라면 (= 나머지보다 제수가 작다면) 다시 더해주지 않고 몫에 1을 더한다.
 이 때, 몫은 왼쪽으로 shift, Divisor는 오른쪽으로 shift를 진행하므로 optimized할 수 있다.
