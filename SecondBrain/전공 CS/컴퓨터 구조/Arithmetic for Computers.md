@@ -2,6 +2,7 @@
 unsigned: overflow check를 안 함
 signed: overflow가 일어나면 부호가 바뀜
 ## Multiplication
+ALU - 덧셈, 뺄셈
 ![[Pasted image 20250402172302.png|300]]
 ![[Pasted image 20250414130133.png|300]]
 이런 느낌임
@@ -12,6 +13,8 @@ signed: overflow가 일어나면 부호가 바뀜
 add와 shift가 병렬적으로 실행된다.
 partial-product addition 당 한 사이클
 ![[Pasted image 20250402172421.png|400]]
+product의 앞부분과 Multiplicand만 더하면 되어서 32-bit ALU만 필요하다.
+![[Pasted image 20250414130555.png|400]]
 ### Faster Multiplier
 여러개의 adder를 사용한다.
 pipeline화 할 수 있다.
