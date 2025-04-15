@@ -38,3 +38,10 @@ Random Access 가능
 국정원에 암호 모듈 검증 제도라는 것이 있다.
 공공기관에서 암호 쓸려면 인증받은 것만 써야함
 ARIA, SEED, LEA, AES 사용 가능
+
+- ARIA
+	- AES와 유사
+- SEED
+	- DES와 유사
+- LEA
+	- S-box 없음
