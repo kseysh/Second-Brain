@@ -203,20 +203,3 @@ parents (child, father, mother) → father, mother 두 binary 관계로 분리
 → partial 정보(예: 엄마만 알고 있음) 표현 가능
 	•	하지만 일부 관계는 자연스럽게 non-binary로 표현되는 것이 나음
 예: proj_guide (프로젝트 가이드 관계)
-## Non-Binary 관계의 Binary 형태로의 변환
-•	일반적으로 non-binary 관계 R(A, B, C)를 binary로 바꾸려면 인공 엔티티 집합 E를 만들고 다음과 같은 관계를 구성:
-1.	R<sub>A</sub>(E, A)
-2.	R<sub>B</sub>(E, B)
-3.	R<sub>C</sub>(E, C)
-•	E에는 identifying 속성을 생성하고, R의 속성들을 포함시킴
-•	R의 각 튜플 (ai, bi, ci)에 대해:
-1.	새 엔티티 e<sub>i</sub> 생성
-2.	(e<sub>i</sub>, a<sub>i</sub>)를 R<sub>A</sub>에 추가
-3.	(e<sub>i</sub>, b<sub>i</sub>)를 R<sub>B</sub>에 추가
-4.	(e<sub>i</sub>, c<sub>i</sub>)를 R<sub>C</sub>에 추가
-![[Pasted image 20250410142540.png|300]]
-## Non-Binary 관계 변환 시 주의점
-•	모든 제약조건을 완벽히 변환하는 것은 불가능할 수 있음
-→ 변환된 스키마에서 표현 불가능한 인스턴스가 생길 수 있음
-예: (A, B)에서 C로의 many-to-one 관계가 있을 경우
-	•	이때 identifying 속성 없이 E를 weak entity set으로 만들고 세 관계를 통해 식별하게 하면 해결 가능
