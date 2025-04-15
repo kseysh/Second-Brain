@@ -124,14 +124,18 @@ Linux의 표준 POSIX API
 ![[Pasted image 20250325165242.png|500]]
 ## Implicit Threading
 프로그래머보다 compiler와 run-time library가 thread의 생성 및 관리를 담당하는 것
+ - 주요 방식
+	 - Thread Pools (스레드 풀)
+    - OpenMP
+    - Grand Central Dispatch
 ## OpenMP
 컴파일러가 알아서 확인하면 multithread를 생성 및 관리해줌
 ![[Pasted image 20250325170039.png|300]]
-CPU core의 개수만큼 스레드를 생성함
+CPU core의 개수만큼 스레드를 생성해 병렬처리를 지원해준다.
 ## **기억할 것**
 스레드의 개념 프로세스와의 차이점
 (프로세스 안에 스레드가 여러개 있는 것이고, 스레드는 프로세스에서 excution stream을 여러개 분리한 것이다.)
 스레드를 지원하는 OS에서는 스케쥴링 엔티티가 프로세스가 아니라 스레드 단위가 된다.
 ## Thread Scheduling
-스레드가 지원되면, 스레드가 스케쥴링되지, 프로세스가 아니다.
+운영체제가 스레드를 지원할경우 프로세스가 아니라 스레드 단위로 스케쥴링이 일어난다.
 아래는 설명 x
