@@ -1,5 +1,5 @@
 # Process Concepts
-- 프로세스 = 실행 중인 프로그램
+- 프로세스 = 실행 중인 프로그램, 프로그램은 디스크에 저장된 파일
 - 프로세스 = 특정한 process state의 execution stream이다.
 - process state (context)
 	- 프로세스가 실행되는데 관여하는 모든 것들
