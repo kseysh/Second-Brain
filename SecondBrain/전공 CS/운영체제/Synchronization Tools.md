@@ -28,9 +28,12 @@ ex) fork() system call에서 next_available_pid 가져오기
 	- 커널 모드에서는 본질적으로 race condition이 없음
 ## Peterson's Solution
 i의 입장에서의 code
-![[Pasted image 20250408171209.png|200]]
+![[Pasted image 20250408171209.png|300]]
 자기가 준비되었으면, turn을 j에게 넘기고
 내가 턴을 넘겼는데, j가 대기하지 않거나 j가 turn을 나에게 넘기면 내 차례
+아래 두 조건 중 하나를 만족하면 while이 풀림
+`flag[j]==false`: j는 critical section에 들어가고 싶지 않음
+`turn != j`: j가 turn을 나한테 넘김 
 
 - 두 프로세스를 대상으로 함
 - load와 store가 atomic하다고 가정 (interrupt되지 않음)
