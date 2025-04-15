@@ -13,7 +13,7 @@ OS : 사람
 - 실행 결과 프린터로 출력
 - 출력 전달
 -> 여러 작업을 배치 모니터를 이용
-*여러 작업을 자기 테이프에 기록, 출력도 자기 테이프에 기록했다가 출력함*
+job to job transition을 빠르게 하기 위해 *여러 작업을 자기 테이프에 기록, 출력도 자기 테이프에 기록했다가 출력함*
 #### Batch monitor
 ![[Pasted image 20250405150502.png|300]]
 입출력 기계 (1401): 작업 배치를 테이프에 읽어들임 & 테이프에서 출력 결과 인쇄
@@ -30,20 +30,26 @@ OS : 사람
 
 #### Multi-programmed Batch Monitor
 - 여러 사용자가 시스템을 공유
-- 메모리 보호 및 재배치 기능이 운영체제에 추가
+- **메모리 보호** 및 **재배치** 기능이 운영체제에 추가
 	- OS가 다른 Job의 메모리에 access하지 못하도록 막음 
 - 여러 작업으로 인해 시스템 활용율이 향상됨
-- Concurrent Programming이 필수로 등장함
+- **Concurrent Programming**이 필수로 등장함
 
 ![[Pasted image 20250405151134.png|100]]  vs ![[Pasted image 20250405151157.png|200]]
 ### 1960 - 1990
 - OS에 파일 시스템 추가
 - User는 System과 interacted함
 - Interactive time-sharing OS
+- Response time, protection 중요해짐
 ### 1990 ~ 
 - Internet acess가 built in
 - Multi tasking 중요
 - Multimedia support
+
+## 현재 OS의 특징
+Large
+Complex
+Poorly understood
 ## 운영체제 진화
 • Operator
 • Batch monitor
