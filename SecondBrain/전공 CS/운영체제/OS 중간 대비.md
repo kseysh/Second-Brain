@@ -292,29 +292,100 @@ Ready queue를 partitioning하여 큐를 분리한다
 `time slice = target latency x ( task의 weight / sum(weight) )`
 ###### CFS에서 vruntime
 `vruntime += 실행시간 x ( 1024 / weight )`
-###### Q
-A
-###### Q
-A
-###### Q
-A
-###### Q
-A
-###### Q
-A
-###### Q
-A
-###### Q
-A
-###### Q
-A
-###### Q
-A
-###### Q
-A
-###### Q
-A
-###### Q
+###### critical section problem의 해결책이 되기 위한 조건
+1. mutual exclusion (상호 배제)
+    1. 한 번에 하나의 스레드만 임계 영역에서 실행할 수 있다.
+2. progress (진행)
+    2. 만약 임계 영역이 비어있고, 여러 스레드가 임계 영역에 들어가길 원한다면 그 중 하나는 임계 영역에 들어가서 실행할 수 있어야 한다.
+3. bounded waiting (한정된 대기)
+    1. 임계 영역을 무한정 기다리면 안된다.
+###### OS에서의 Critical section 처리 방식 비교 preemptive vs non-preemptive
+- Preemptive
+	- 커널 모드에서 실행 중인 프로세스도 선점될 수 있음
+	- 실제 사용하는 방식
+- Non-preemptive
+	- 커널 모드에서 빠져나가거나, 차단되거나, 자발적으로 CPU를 양보할 때까지 실행함
+		- 커널 모드에서는 본질적으로 race condition이 없음
+###### Peterson's solution code
+![[Pasted image 20250408171209.png|300]]
+자기가 준비되었으면, turn을 j에게 넘기고
+내가 턴을 넘겼는데, j가 대기하지 않거나 j가 turn을 나에게 넘기면 내 차례
+아래 두 조건 중 하나를 만족하면 while이 풀림
+`flag[j]==false`: j는 critical section에 들어가고 싶지 않음
+`turn != j`: j가 turn을 나한테 넘김
+###### turn을 넘겨야 하는 이유
+turn을 자신으로 하고 실행하면, 서로 자신 먼저 들어가려고 하므로 누가 먼저 들어가야 할지 결정할 기준이 없음 따라서 turn을 동비해서 누가 먼저 들어갈지 순서를 정하는 장치로 사용
+###### peterson's solution이 세 조건을 만족하는 이유
+- 상호 배제
+	- `P[i]`는 `flag[j] == false`거나, `turn == i` 일때만 임계 구역에 진입함
+- Progress
+	- critical section 이후 `flag[i]`를 false로 하므로 progress 만족
+- bounded waiting
+	- 한 바퀴 돌면 항상 순서는 반대로 넘어가게 되어있음
+###### peterson's solution이 현대 컴퓨터에서 조건을 만족하지 않는 이유
+피터슨의 해법은 현대 컴퓨터 아키텍처에서는 항상 동작한다고 보장할 수 없음
+→ 프로세서나 컴파일러가 의존성이 없는 읽기/쓰기 연산의 순서를 바꿀 수 있음
+![[Pasted image 20250408171904.png|300]]
+위 순서처럼 뒤바뀔 시 critical section에 둘 다 들어갈 가능성이 생긴다.
+또한, turn 값도 atomic하지 않기 때문에, 두 프로세스가 다른 값으로 인식할 수도 있다.
+###### TAS 코드
+```c
+boolean test_and_set (boolean *target) {
+	boolean rv = *target;
+	*target = TRUE;
+	return rv;
+}
+```
+###### TAS가 bounded waiting을 보장하지 못하는 이유
+공유변수인 lock은 false로 initialized 되어 있음
+```c
+do {
+while (test_and_set(&lock)); /* do nothing */
+		/* critical section */
+	lock = false;
+		/* remainder section */
+} while (true);
+```
+- lock = 1 잠김, lock = 0 열림
+- 호출과 동시에 lock이 1이됨
+- *하지만, 계속 한 프로세스만 들어갈 수 있어 Bounded Waiting을 보장하지 못함*
+###### bounded waiting solution
+```c
+do {
+	waiting[i] = true;
+	key = 1;
+	while (waiting[i] && key == 1)
+		key = test_and_set(&lock)); // 내가 기다리고 있고, key가 있으면 들어와서 key를 1로 변경
+	waiting[i] = false;
+	
+		/* critical section */
+		
+	j = (i + 1) % n; // 내 옆에 있는 애한테 넘겨줄거임
+	while ((j != i) && !waiting[j]) // 내 옆에 있는 애가 안 기다리면
+		j = (j + 1) % n;// 내 옆에 있는 애의 옆에 애를 줌
+	// 기다리는 애가 있거나, 한 바퀴 다 돌았다면 while 문을 벗어날 수 있음
+	if (j == i) lock = 0; // 락을 풀면 누구나 들어가도록 하는 것
+	else waiting[j] = false;// 기다리는 애가 있으면 j만 들어갈 수 있도록 바꿔준다.
+		/* remainder section */
+} while (true);
+```
+처음 key를 얻는 과정: TAS를 이용해 한 명만 lock을 얻음
+대기 줄이 있을 때 임계 구간을 진입하는 과정: `waiting[j]==false`로 만들어서 critical section에 들어오게 한다.
+###### Mutex Lock이란?
+임계 구역을 보호하기 위해서는 먼저 `acquire()`로 락을 획득하고, 작업 후 `release()`로 락을 해제해야 한다
+	•	락이 사용 가능한지 여부를 나타내는 Boolean 변수 사용 (이도 atomic하게 이루어져야 함)
+	•	`acquire()`와 `release()` 호출은 원자적(atomic)으로 이루어져야 한다
+	•	보통 하드웨어의 원자적 명령을 이용해 구현된다
+![[Pasted image 20250410163638.png|400]]
+이 방법은 바쁜 대기(busy waiting)를 필요로 한다
+	•	따라서 이러한 락을 스핀락(spinlock) 이라고 부른다
+###### wait, signal 정의
+![[Pasted image 20250410163943.png|300]]
+wait p signal v
+###### semaphore = 0이면?
+순서 동기화 가능
+![[Pasted image 20250410164235.png|300]]
+###### S=1이면
 A
 ###### Q
 A
