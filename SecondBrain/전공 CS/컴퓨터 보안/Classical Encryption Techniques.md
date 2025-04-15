@@ -13,8 +13,8 @@
 		- Vernam
 		- One-time pad
 - Transposition techniques
-- Rotor machines
-- Steganography
+	- Rotor machines
+	- Steganography
 ## 용어 정의
 Plaintext(평문) : original message
 Ciphertext : 암호화된 message
@@ -81,7 +81,7 @@ ba | lx | lo | on으로 나누고, 1을 적용 후 3,2,3,4의 규칙을 적용�
 ## Polyalphabetic substitution cipher
 단순한 monoalphabetic Cipher보다 발전된 방식으로, plaintext를 암호화하는 동안 여러 개의 다른 단일 알파벳 치환 규칙을 사용
 - 서로 관련된 여러 개의 monoalphabetic substitution rule이 사용됨
-- key를 통해 특정 변환에 사용할 치환 규칙이 결정됨
+- key를 통해 특정 변환에 사용할 규칙이 결정됨
 ### vigenere Cipher
 가장 잘 알려지고 간단한 다중 알파벳 치환 암호
 #### example
