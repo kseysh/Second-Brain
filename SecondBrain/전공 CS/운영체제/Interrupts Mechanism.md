@@ -1,8 +1,7 @@
 ## Common Functions of Interrupts
 인터럽트(Interrupt)
-	•	하드웨어 메커니즘으로, 인터럽트 벡터를 통해 Interrupt service routine(ISR)으로 제어를 전달
+	•	*하드웨어 메커니즘*으로, 인터럽트 벡터를 통해 Interrupt service routine(ISR)으로 제어를 전달
 	•	Interrupt Vector: 모든 서비스 루틴의 주소를 포함하는 테이블
-•	인터럽트 아키텍처는 인터럽트가 발생한 명령어의 주소를 저장해야 함
 •	트랩(Trap) 또는 예외(Exception):
 	•	소프트웨어에 의해 생성된 인터럽트
 	•	에러 또는 사용자 요청(예: 오류, 강제 종료 등)에 의해 발생
