@@ -104,7 +104,7 @@ while (test_and_set(&lock)); /* do nothing */
 do {
 	waiting[i] = true;
 	key = 1;
-	while (waiting[i] && key == 1) // 내가 기다리고 있는지, key가 있는지 확인
+	while (waiting[i] && key == 1)
 		key = test_and_set(&lock)); // 내가 기다리고 있고, key가 있으면 들어와서 key를 1로 변경
 	waiting[i] = false;
 	
@@ -120,6 +120,7 @@ do {
 } while (true);
 ```
 처음 key를 얻는 과정: TAS를 이용해 한 명만 lock을 얻음
+대기 줄이 있을 때 임계 구간을 진입하는 과정: `waiting[j]==false`로 만들어서 critical section에 들어오게 한다.
 
 ## [[Mutex]] Lock
 임계 구역을 보호하기 위해서는 먼저 `acquire()`로 락을 획득하고, 작업 후 `release()`로 락을 해제해야 한다
