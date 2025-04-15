@@ -70,6 +70,7 @@ in -> GA, it -> KS 처럼 **같은 알파벳이지만, 다른 문자로 변경�
 2. 두 글자를 찾고 직사각형을 그려 같은 행에 있는 꼭짓점으로 바꾼다.
 3. 직사각형을 못 그리면 같은 열에서 다음 글자로 바꾼다
 4. 직사각형을 못 그리면 같은 행에서 다음 글자로 바꾼다
+playfair != polyalphbetic cipher
 ##### example
 MONARCHY라는 keyword를 사용한다고 가정
 ![[Pasted image 20250325134809.png|200]]
@@ -77,7 +78,7 @@ balloon -> balxloon -> IBSUPMNA
 ba | lx | lo | on으로 나누고, 1을 적용 후 3,2,3,4의 규칙을 적용해 변경한다.
 ##### 알파벳 별 상대 빈도
 ![[Pasted image 20250325135043.png|300]]
-## Polyalphabetic Ciphers (다중 알파벳 치환 암호)
+## Polyalphabetic substitution cipher
 단순한 monoalphabetic Cipher보다 발전된 방식으로, plaintext를 암호화하는 동안 여러 개의 다른 단일 알파벳 치환 규칙을 사용
 - 서로 관련된 여러 개의 monoalphabetic substitution rule이 사용됨
 - key를 통해 특정 변환에 사용할 치환 규칙이 결정됨
