@@ -33,7 +33,8 @@ i의 입장에서의 code
 내가 턴을 넘겼는데, j가 대기하지 않거나 j가 turn을 나에게 넘기면 내 차례
 아래 두 조건 중 하나를 만족하면 while이 풀림
 `flag[j]==false`: j는 critical section에 들어가고 싶지 않음
-`turn != j`: j가 turn을 나한테 넘김 
+`turn != j`: j가 turn을 나한테 넘김
+turn을 넘겨야 하는 이유: turn을 자신으로 하고 실행하면, 서로 자신 먼저 들어가려고 하므로 누가 먼저 들어가야 할지 결정할 기준이 없음 따라서 turn을 동비해서 누가 먼저 들어갈지 순서를 정하는 장치로 사용
 
 - 두 프로세스를 대상으로 함
 - load와 store가 atomic하다고 가정 (interrupt되지 않음)
@@ -82,6 +83,8 @@ boolean test_and_set (boolean *target) {
 ```
 - 이 함수는 원자적으로 실행됨
 - 인자로 받은 값의 원래 값을 반환하고, 해당 값을 TRUE로 설정함
+param: false => false를 반환, lock을 True로 변경 (lock을 잠갔지만, false를 반환할 수 있음)
+param: true => true를 반환, lock을 True로 변경 (안 열림)
 
 공유변수인 lock은 false로 initialized 되어 있음
 ```c
@@ -94,7 +97,7 @@ while (test_and_set(&lock)); /* do nothing */
 ```
 - lock = 1 잠김, lock = 0 열림
 - 호출과 동시에 lock이 1이됨
-- 하지만, 계속 한 프로세스만 들어갈 수 있어 Bounded Waiting을 보장하지 못함
+- *하지만, 계속 한 프로세스만 들어갈 수 있어 Bounded Waiting을 보장하지 못함*
 
 ## Solution with Bounded Waiting
 ```c
