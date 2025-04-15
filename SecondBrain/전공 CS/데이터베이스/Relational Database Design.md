@@ -24,8 +24,10 @@ employee1(ID, name)과 employee2(name, street, city, salary)로 분해한다고 
 이렇게 분해하면 정보를 잃게 된다. 즉, 원래의 employee 관계를 복원할 수 없다.
 따라서 이는 lossy decomposition (정보 손실이 있는 분해)이다.
 ![[Pasted image 20250415135902.png|300]]
+이것의 문제: 오른쪽에 key가 없음
 ## Lossless join decomposition
 ![[Pasted image 20250415135951.png|300]]
+equi-join을 했을 때, 원래 정보를 이것과 같이 그대로 가져올 수 있어야 lossless join decomposition이다.
 
 ## 제1정규형 (First Normal Form)
 - 도메인이 atomic하다는 것은, 해당 도메인의 요소가 더 이상 나눌 수 없는 단위라는 의미이다.
