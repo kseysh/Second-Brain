@@ -119,6 +119,7 @@ do {
 		/* remainder section */
 } while (true);
 ```
+처음 key를 얻는 과정: TAS를 이용해 한 명만 lock을 얻음
 
 ## [[Mutex]] Lock
 임계 구역을 보호하기 위해서는 먼저 `acquire()`로 락을 획득하고, 작업 후 `release()`로 락을 해제해야 한다
