@@ -91,7 +91,7 @@ message 전달을 통해 사용자 모듈간 통신을 한다.
 디스크에 저장된 실행 가능한 파일
 ###### Process란?
 실행 중인 프로그램을 뜻하며, 특정한 process state의 execution stream
-###### process state란?
+###### process state(context)란?
 - 프로세스가 실행되는데 관여하는 모든 것들
 	- Memory context
 		- code, data, stack, heap
@@ -99,8 +99,6 @@ message 전달을 통해 사용자 모듈간 통신을 한다.
 		- Program counter, CPU register, I/O register
 	- System context
 		- process table, open file table, page table
-###### execution stream이란?
-명령어가 실행되는 흐름
 ###### Multiprogramming이란?
 - 메모리에서 여러 프로세스가 동작하는 것
 - 싱글코어여도 메모리에 여러개를 올려둘 수는 있음
@@ -134,10 +132,10 @@ I/O로 인해 waiting하는 프로세스를 모아둔 큐
 다음에 실행해야 할 프로세스를 선택하고 CPU를 할당한다.
 밀리초 단위로 자주 호출되기 때문에 빠르게 동작해야 한다
 ###### Long term scheduler란?
-- 어떤 프로세스를 Job queue에 넣을 것인지 선택하는 역할을 한다 (메모리에 너무 많은 process가 올라가면 안되므로)
+- *어떤 프로세스를 Job queue에 넣을 것인지 선택*하는 역할을 한다 (메모리에 너무 많은 process가 올라가면 안되므로)
 - 초 또는 분 단위로 호출되기 때문에 상대적으로 느려도 괜찮다.
 - multi programming 수준을 조절하는 역할을 한다.
-- 적절한 프로세스 균형을 유지하는 것을 목표로 한다.
+- *적절한 프로세스 균형을 유지하는 것을 목표*로 한다.
 	- cpu bound 작업은 I/O bound 작업과 mix하는 것이 좋으니 그런 방식으로 조합한다.
 ###### build from scratch 방식
 - loading 과정: code, data를 program file에서 읽어서 memory에 적재 (stack, heap은 실행하면서 생기므로)
@@ -146,7 +144,7 @@ I/O로 인해 waiting하는 프로세스를 모아둔 큐
 - 해당 PCB를 ready queue에 넣기
 ###### 프로세스 복제
 - 현재 state 저장(PC, register)
-- memory context 복사
+- *memory context 복사*
 - PCB 복사 (pid, parent, child만 변경)
 - 해당 PCB -> ready queue로 복사
 ###### Message passing 방식과 단점
