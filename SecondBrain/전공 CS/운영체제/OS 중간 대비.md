@@ -104,9 +104,11 @@ message 전달을 통해 사용자 모듈간 통신을 한다.
 ###### Multiprogramming이란?
 - 메모리에서 여러 프로세스가 동작하는 것
 - 싱글코어여도 메모리에 여러개를 올려둘 수는 있음
+- 즉, concurrency와 관련된 개념
 ###### Multiprocessing이란?
 - 여러개의 프로세스들이 같은 시간에 함께 동작하는 것
 - 따라서 CPU가 여러개 있어야 함
+- 즉, parallelism과 관련된 개념
 ###### PCB란?
 Process Control Block으로
 - 멀티 프로그래밍 사용시 OS가 프로세스들의 정보를 저장해두는 것
