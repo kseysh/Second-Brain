@@ -21,7 +21,7 @@ dept_name → building, budget
 ## 정보 손실 분해 (Lossy Decomposition)
 employee(ID, name, street, city, salary)를
 employee1(ID, name)과 employee2(name, street, city, salary)로 분해한다고 가정해보자.
-이렇게 분해하면 정보를 잃게 된다. 즉, 원래의 employee 관계를 복원할 수 없다.
+이렇게 분해하면 Join시에 정보를 잃게 된다. 즉, 원래의 employee 관계를 복원할 수 없다.
 따라서 이는 lossy decomposition (정보 손실이 있는 분해)이다.
 ![[Pasted image 20250415135902.png|300]]
 이것의 문제: 오른쪽에 key가 없음

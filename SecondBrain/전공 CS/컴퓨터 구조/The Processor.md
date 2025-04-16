@@ -41,6 +41,7 @@ Multi-bit data는 multi-wire buses로 해석됨
 •	저장된 값을 나중에 사용할 필요가 있을 때 사용됨
 `clock rising edge && (write control == 1)`일 때만, D->Q로 update됨
 ## Clocking Methodology
+![[Pasted image 20250416222116.png|400]]
 •	조합 논리(Combinational logic)는 클럭 사이클 동안 데이터를 변환함
 •	클럭 엣지(edge) 사이에서 동작함
 •	상태 요소(State element)로부터 입력을 받고, 상태 요소로 출력을 보냄
@@ -52,46 +53,46 @@ Multi-bit data는 multi-wire buses로 해석됨
 		•	레지스터, ALU, 멀티플렉서(mux), 메모리 등 포함
 •	MIPS 데이터 경로를 점진적으로 구축할 예정
 	•	전체 설계를 점차 구체화해 나감
-
-⸻
-
-R-형식(R-Format) 명령어
-	•	두 개의 레지스터 피연산자를 읽음
-	•	3단계: 산술/논리 연산 수행
-	•	4단계: 연산 결과를 레지스터에 기록
-
-⸻
-
-Load/Store 명령어
-	•	레지스터 피연산자를 읽음
-	•	3단계: 16비트 오프셋을 이용하여 주소 계산
+## Instruction Fetch
+![[Pasted image 20250416222140.png|400]]
+## R-형식(R-Format) 명령어
+•	두 개의 레지스터 피연산자를 읽음
+•	3단계: 산술/논리 연산 수행
+•	4단계: 연산 결과를 레지스터에 기록
+![[Pasted image 20250416222158.png|400]]
+## Register file (Read part)
+![[Pasted image 20250416222231.png|400]]
+## Register file (Write part)
+![[Pasted image 20250416222317.png|400]]
+## Load/Store 명령어
+![[Pasted image 20250416222345.png|300]]
+•	레지스터 피연산자를 읽음
+•	3단계: 16비트 오프셋을 이용하여 주소 계산
 	•	ALU 사용, 오프셋은 sign-extend 필요
-	•	4단계:
+•	4단계:
 	•	Load: 메모리에서 읽은 값을 레지스터에 저장
 	•	Store: 레지스터 값을 메모리에 저장
-
-⸻
-
-분기 명령어(Branch Instructions)
-	•	레지스터 피연산자를 읽음
-	•	3단계: 피연산자 비교
+## Load Instruction (lw) Datapath
+![[Pasted image 20250416222411.png|400]]
+## Load Instruction (sw) Datapath
+![[Pasted image 20250416222430.png|400]]
+## 분기 명령어(Branch Instructions)
+•	레지스터 피연산자를 읽음
+•	3단계: 피연산자 비교
 	•	ALU를 사용하여 빼기 연산 수행, Zero 출력 확인
-	•	4단계: 분기 대상 주소 계산
+•	4단계: 분기 대상 주소 계산
 	•	변위를 sign-extend
 	•	왼쪽으로 2비트 시프트 (워드 단위 변위)
 	•	PC + 4에 더함
-	•	이 계산은 이미 명령어 인출 단계에서 수행됨
-
-⸻
-
-요소 결합(Composing the Elements)
-	•	초기 버전 데이터 경로는 한 클럭 사이클에 한 명령어 수행
+		•	이 계산은 이미 명령어 인출 단계에서 수행됨
+## Branch Instructions
+![[Pasted image 20250416222459.png|400]]
+## 요소 결합(Composing the Elements)
+•	초기 버전 데이터 경로는 한 클럭 사이클에 한 명령어 수행
 	•	각 데이터 경로 요소는 한 번에 한 가지 기능만 수행 가능
 	•	따라서 명령어 메모리와 데이터 메모리를 분리해야 함
-	•	**멀티플렉서(MUX)**를 사용하여 명령어 종류에 따라 다른 데이터 소스를 선택할 수 있도록 구성
-
-⸻
-
-
-
-
+•	**멀티플렉서(MUX)** 를 사용하여 명령어 종류에 따라 다른 데이터 소스를 선택할 수 있도록 구성
+## R-Type/Load/Store Datapath
+![[Pasted image 20250416222533.png|400]]
+## Full Datapath
+![[Pasted image 20250416222607.png|400]]
