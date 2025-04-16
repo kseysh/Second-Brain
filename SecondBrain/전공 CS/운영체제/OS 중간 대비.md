@@ -14,29 +14,18 @@
 입출력 작업이 완료되었을 때, CPU에 신호를 보내 CPU가 불필요하게 대기하지 않도록 하는 방법
 ###### Multi-programmed Batch Monitor란
 - 여러 사용자가 시스템을 공유
-- 메모리 보호 및 재배치 기능이 운영체제에 추가
-	- OS가 다른 Job의 메모리에 access하지 못하도록 막음 
-- 여러 작업으로 인해 시스템 활용율이 향상됨
+- memory protection 및 reloacation 기능이 운영체제에 추가
 - Concurrent Programming이 필수로 등장함
 ###### 60-90년대 OS 발전
 파일 시스템 추가
 Interactive time-sharing OS
+Response time, protection 중요해짐
 ###### 90~ OS 발전
 - Internet acess가 built in
 - Multi tasking 중요
 - Multimedia support
-###### 운영체제 진화
-• Operator
-• Batch monitor
-• Multi-programmed batch monitor
-• Interactive time sharing system
-• PC OS
-• OS with internet and multimedia
 ###### System bus란?
 computer system에서 주요한 컴포넌트들의 연결
-ex)
-Data bus
-Command/Address bus
 ###### Bus component
 - Bus arbiter
 	- 버스를 관리한다.
