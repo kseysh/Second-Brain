@@ -26,5 +26,19 @@ Low voltage = 0, High voltage = 1
 bit당 one wire
 Multi-bit data는 multi-wire buses로 해석됨
 ## Combinational element
+![[Pasted image 20250416213146.png|300]]
+## State(sequential) elements
+- Input이 바뀌어도 output이 바로 바뀌지 않음
+- 정보 저장
+### 레지스터 (Register):
+![[Pasted image 20250416213232.png|300]]
+- 회로 내에서 데이터를 저장
+	- 클럭 신호를 사용하여 저장된 값을 언제 업데이트할지 결정함
+	- 에지 트리거 방식: 클럭(Clk)이 0에서 1로 변할 때 값을 업데이트함
+### 쓰기 제어가 있는 레지스터
+![[Pasted image 20250416213553.png|300]]
+•	클럭 에지에서 쓰기 제어 입력이 1일 때만 값이 업데이트됨
+•	저장된 값을 나중에 사용할 필요가 있을 때 사용됨
+`clock rising edge && (write control == 1)`일 때만, D->Q로 update됨
 
-##
+
