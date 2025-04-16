@@ -255,8 +255,6 @@ CPU burst가 짧은 것을 먼저 수행한다.
 Shortest Remaining Time First (SRTF) or Shortest Time to Completion First(STCF)라고도 불린다.
 
 가장 바람직한 방식이지만, CPU burst length를 측정하기 어려움
-###### average waiting time check
-끝난 시간 - 시작 시간 - burst time
 ###### RR 장단점, quantum이 너무 크거나 작다면
 - q가 크면
 	- 프로세스가 CPU를 독점한다
