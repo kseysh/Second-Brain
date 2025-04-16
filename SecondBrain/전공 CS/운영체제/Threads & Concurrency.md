@@ -54,11 +54,11 @@ multiprocessor(CPU 코어가 여러개) architecture의 장점을 가질 수 있
 # Thread 구현
 ## User Thread
 - user api를 통해 만들어지는 thread
-- ex) java threads
+- ex) java threads, Pthreads, Window threads
 ## Kernel Thread
 - OS에서 관리하는 thread 단위
 - CPU 스케쥴링 대상이 됨
-- ex) Linux, Mac OS X
+- ex) Linux, Mac OS X, windows, solaris, Tru64 unix
 # Multithreading Models
 기억할 것: One-to-One을 사용한다
 ## Many-to-One
