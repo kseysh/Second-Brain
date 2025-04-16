@@ -189,6 +189,8 @@ Concurrency: 동일한 시간에 작동하는 것처럼 보이는 것
 	- 실행 상태 및 dispatch 우선 순위를 가짐
 	- 프로세스 실행은 다른 프로세스와 교차되어 수행될 수 있음
 	- thread라고 한다.
+###### thread당 stack이 부여되는 이유
+stack에는 지역 변수가 저장되는데, 각 thread마다 실행 흐름이 다르므로 각 thread마다 실행하는 함수가 다르고 따라서 stack을 따로 가진다.
 ###### User thread, kernel Thread란?
 user thread: user api를 통해 만들어지는 thread
 kernel Thread: os에서 관리하는 thread 단위, CPU 스케쥴링의 대상이 된다.
@@ -209,6 +211,23 @@ kernel Thread: os에서 관리하는 thread 단위, CPU 스케쥴링의 대상�
 - 커널 루틴이 멀티스레드를 지원함
 단점
 동일한 프로세스 내에서 스레드 전환이 커널을 거치므로 성능 저하 발생(그렇게 느리지는 않아서 단점이라 하기 뭐함)
+###### Pthreads create, exit, join, yield역할
+create: 새로운 스레드 생성
+exit: thread 종료
+join: 스레드 종료를 기다림: running -> waiting
+yield: 다른 스레드가 run할 수 있도록 running -> ready상태로 전환
+###### Implicit Threading이란?
+프로그래머보다 compiler와 run-time library가 thread의 생성 및 관리를 담당하는 것
+ - 주요 방식
+	 - Thread Pools (스레드 풀)
+    - OpenMP
+    - Grand Central Dispatch
+###### OpenMP란?
+컴파일러가 알아서 확인하면 multithread를 생성 및 관리해줌
+CPU core의 개수만큼 스레드를 생성해 병렬처리를 지원해준다
+`#pragma omp parallel`
+###### 스레드의 개념과 프로세스와의 차이점
+프로세스 안에 스레드가 여러개 있는 것이고, 스레드는 프로세스에서 excution stream을 여러개 분리한 것
 ###### Dispatcher의 역할
 CPU 스케쥴러가 선택한 프로세스에 CPU 제어권을 넘겨준다
 • Context Switching
