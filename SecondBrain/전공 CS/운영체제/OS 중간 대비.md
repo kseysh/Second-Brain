@@ -385,17 +385,21 @@ wait p signal v
 ###### semaphore = 0이면?
 순서 동기화 가능
 ![[Pasted image 20250410164235.png|300]]
-###### S=1이면
-A
-###### Q
-A
-###### Q
-A
-###### Q
-A
-###### Q
-A
-###### Q
-A
+###### S=1이면?
+뮤텍스 락과 동일하게 동작
+###### semaphore with busy waiting code
+![[Pasted image 20250410164421.png|400]]
+###### 위 코드에서 rel, acq이 while문 안에 있어야 하는 이유
+S를 확인하는 과정과 확인하고 S를 줄이는 과정 사이에 acq()와 rel()이 필요함
+이유: 저거 안 풀어주면 signal 실행이 안되어서 while문 안에 계속 있어야 함
+###### semaphore with no busy waiting code
+![[Pasted image 20250410164744.png|400]]
+###### 위 코드에서 interrupt방식을 사용한 이유
+임계구역에서의 코드가 빠르게 풀릴 수 있는 연산이기 때문
+disable -> enable 사이의 활동이 짧기 때문에 interrupt로 해결함
+###### block, wakeup operation
+- Two operations
+	- block: 해당 연산을 호출한 프로세스를 적절한 대기 큐에 넣음
+	- wakeup: 대기 큐에 있는 프로세스 중 하나를 제거하여 준비 큐(ready queue)로 이동시킴
 ###### Q
 A

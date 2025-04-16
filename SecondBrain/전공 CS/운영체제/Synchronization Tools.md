@@ -153,7 +153,7 @@ do {
 •	동일한 세마포어에 대해 두 프로세스가 동시에 wait()나 signal()을 실행하지 못하도록 보장해야 함
 	•	따라서 wait()와 signal() 코드는 임계 구역 내에 있어야 함
 	•	이 구현은 busy waiting을 동반함
-		•	그러나 구현 코드가 짧기 때문에 busy waiting는 적음
+		•	그러나 구현 코드는 짧음
 		•	임계 구역이 거의 사용되지 않는다면 busy waiting는 거의 없음
 •	하지만 응용 프로그램이 임계 구역 내에서 많은 시간을 소비한다면, 이 방법은 좋은 해결책이 아님
 ![[Pasted image 20250410164421.png|400]]
@@ -178,7 +178,7 @@ S: 현재 기다리고 있는 프로세스가 몇개 있는지 ex) s = -2면 2�
 
 ![[Pasted image 20250410164744.png|400]]
 disable -> enable 사이의 활동이 짧기 때문에 interrupt로 해결함
-single process는 busy waiting보다 이 방식이 나음
+*single process는 busy waiting보다 이 방식이 나음*
 wait, signal도 critical section을 막기 위해 사용되지만, wait, signal을 구현할 때도 os 코드 상의 critical section을 막는 것이 사용됨 (하지만 이는 빠르게 풀릴 수 있는 critical section임)
 ## Multiprocessor 환경에서의 해결책
 다중 프로세서 환경에서의 해결책
