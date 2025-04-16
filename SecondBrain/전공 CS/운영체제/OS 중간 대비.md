@@ -51,14 +51,11 @@ CPU에 의해 시작됨
 - Port-mapped I/O: I/O 장치를 위한 별도의 주소 공간을 사용
 ###### DMA란?
 Direct Memory Access
-- 장치 컨트롤러가 CPU의 개입 없이 버퍼 스토리지와 메인 메모리 간에 데이터 블록을 직접 전송할 수 있도록 함
+- **장치 컨트롤러가 CPU의 개입 없이 버퍼 스토리지와 메인 메모리 간에 데이터 블록을 직접 전송할 수 있도록 하는 장치**
 - I/O 작업만 담당하는 CPU라고 생각하자
 - 큰 메모리 Access를 한 번에 하는 것이 어렵기 때문에 DMA를 활용해서 옮긴다.
 - Keyboard 입력 같은 경우는 데이터의 크기가 크지 않아 CPU에 그냥 인터럽트를 보낸다.
 - 한 블록당 한 번의 인터럽트만 발생 (바이트당 한 번의 인터럽트 발생과 비교하여 효율적)
-###### Interrupt란
-하드웨어 메커니즘으로, 인터럽트 벡터를 통해 Interrupt service routine(ISR)으로 제어를 전달
-OS는 interrupt driven임
 ###### Inerrupt vector란
 모든 서비스 루틴의 주소를 포함하는 테이블
 ###### Trap, Exception
@@ -77,7 +74,6 @@ OS는 interrupt driven임
 - Policy(구현): 어떤 것을 할 것인가?
 - Mechanism(역할): 어떻게 동작할 것인가?
 ###### MS-Dos Architecture
-simple structure로 이루어져 있음
 모놀리식 구조여서 한 가지만 변경하더라도 전부를 컴파일해야하며, 하나가 오류가 나더라도 모두가 죽는다.
 ###### Layered-Approach란?
 가장 안쪽은 하드웨어
