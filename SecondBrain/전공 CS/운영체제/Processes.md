@@ -134,7 +134,7 @@ ex) 공유 메모리 • 메시지 전달
 #### Shared memory
 Shared memory를 활용하여 process A,B에게 shared memory 접근 권한을 부여한다.
 - 사진에서의 shared memory는 shared memory에 직접 접근할 수 있는 주소를 부여한 것. 
-	- 실제 shared memory 저장공간은 kernel 내부에 있다. 
+	- 실제 shared memory 저장공간은 kernel 내부에 있다.
 - shared memory의 데이터의 race condition에 대해서 사용자가 shared memory를 관리하여야 한다
 	- 동기화 문제를 해결해야 한다.
 ## [[생산자와 소비자 문제]]
