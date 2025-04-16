@@ -196,13 +196,13 @@ user thread: user api를 통해 만들어지는 thread
 kernel Thread: os에서 관리하는 thread 단위, CPU 스케쥴링의 대상이 된다.
 ###### Many to one  방식
 여러 개의 유저 스레드가 하나의 커널 스레드에 매핑되는 방식
-하나의 스레드가 Block되면, 모든 thread가 block된다.
 장점
 - kenel-user mode switching이 없다
 - 스케쥴링을 application별로 specific하게 할 수 있다.
 - OS에서 멀티스레드를 구현하지 않아도 구현할 수 있다.
 단점
 - 병렬성을 활용하지 못한다.
+- 하나의 스레드가 Block되면, 모든 thread가 block된다.
 ######  One to One 방식
 유저가 스레드를 하나 만들면 커널이 스레드를 하나 만드는 것
 장점
@@ -210,7 +210,7 @@ kernel Thread: os에서 관리하는 thread 단위, CPU 스케쥴링의 대상�
 - Blocking이 스레드 단위로 수행
 - 커널 루틴이 멀티스레드를 지원함
 단점
-동일한 프로세스 내에서 스레드 전환이 커널을 거치므로 성능 저하 발생(그렇게 느리지는 않아서 단점이라 하기 뭐함)
+- 동일한 프로세스 내에서 스레드 전환이 커널을 거치므로 성능 저하 발생(그렇게 느리지는 않아서 단점이라 하기 뭐함)
 ###### Pthreads create, exit, join, yield역할
 create: 새로운 스레드 생성
 exit: thread 종료
