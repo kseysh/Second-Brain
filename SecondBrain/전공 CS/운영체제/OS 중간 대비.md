@@ -140,7 +140,7 @@ I/O로 인해 waiting하는 프로세스를 모아둔 큐
 - 적절한 프로세스 균형을 유지하는 것을 목표로 한다.
 	- cpu bound 작업은 I/O bound 작업과 mix하는 것이 좋으니 그런 방식으로 조합한다.
 ###### build from scratch 방식
-- loading 과정: code, data를 program file에서 읽어서 memory에 적재 (stack, heap은 돌아가면서 생기므로)
+- loading 과정: code, data를 program file에서 읽어서 memory에 적재 (stack, heap은 실행하면서 생기므로)
 - create empty stack (메모리에 자리만 잡아준다.)
 - PCB 만들기
 - 해당 PCB를 ready queue에 넣기
