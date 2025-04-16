@@ -59,5 +59,23 @@ equi-join을 했을 때, 원래 정보를 이것과 같이 그대로 가져올 �
 - a → b 는 릴레이션 r(R)에 대해 다음 조건을 만족할 때 성립한다:
 - 임의의 두 튜플 t<sub>1</sub>, t<sub>2</sub>가 속성 a에서 같은 값을 가지면, 속성 b에서도 같은 값을 가진다.
 - 즉, ![[Pasted image 20250416231015.png|150]]
-- 
+#### example
+릴레이션 r(A, B)
+```sql
+A  B
+1  4
+1  5
+3  7
+```
+이 인스턴스에서 A → B는 성립하지 않지만, B → A는 성립한다.
 
+•	K는 릴레이션 스키마 R에 대해 슈퍼키이다 ⇔ K → R
+•	K는 R의 후보 키이다 ⇔	K → R 이고, a ⊂  K에 대해 a → R가 성립하지 않음
+•	함수적 종속성은 슈퍼키만으로는 표현할 수 없는 제약 조건들을 표현할 수 있게 해준다.
+#### example
+big_instructor(ID, name, salary, dept_name, building, budget)
+다음과 같은 함수적 종속성은 성립할 것으로 기대한다:
+	•	dept_name → building
+	•	ID → building
+그러나 아래와 같은 종속성은 기대하지 않는다:
+	•	dept_name → salary
