@@ -164,4 +164,29 @@ dept_name이 candidate key에 속해있다면 3NF만족 (이때는 Dependency Pr
 •	함수적 종속성 집합 F가 주어졌을 때, F로부터 논리적으로 유도 가능한 모든 함수적 종속성이 존재한다.
 #### example
 A → B, B → C가 주어지면, A → C를 유도할 수 있다.
-•	이렇게 유도된 모든 함수적 종속성의 집합을 F의 폐쇄, 즉 F<sup>+</sup>라고 한다.
+•	이렇게 유도된 모든 함수적 종속성의 집합을 F의 폐쇄, 즉 F<sup>+</sup>라고 한다
+## 함수적 종속성의 폐쇄 (Closure of Functional Dependencies)
+•	우리는 Armstrong의 공리를 반복적으로 적용하여 F의 폐쇄 F⁺를 구할 수 있다:
+
+Armstrong의 공리:
+•	만약 β ⊆ α 이면, α → β (반사성 reflexivity)
+•	만약 α → β 이고 γ가 존재하면, γα → γβ (확장성 augmentation)
+•	만약 α → β이고, β → γ이면, α → γ (추이성 transitivity)
+•	이 규칙들은 다음과 같은 성질을 가진다:
+•	sound (실제로 성립하는 함수적 종속성만 생성함)
+•	complete (성립하는 모든 함수적 종속성을 생성할 수 있음)
+#### example
+•	R = (A, B, C, G, H, I)
+•	F = {
+	A → B
+	A → C
+	CG → H
+	CG → I
+	B → H}
+•	F⁺에 속하는 몇 가지 종속성:
+•	A → H
+	•	A → B 그리고 B → H 의 추이성(transitivity)을 통해 유도됨
+•	AG → I
+	•	A → C를 G로 확장하여 AG → CG를 얻고, CG → I의 추이성을 통해 유도됨
+•	CG → HI
+	•	CG → I를 확장하여 CGI → I를 얻고, CG → H도 확장하여 CGI → H를 얻은 후, 추이성을 통해 CGI → HI 유도됨

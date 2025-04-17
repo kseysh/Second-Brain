@@ -553,10 +553,13 @@ many to many
 각 구성요소로 분리하여 속성으로 표현
 ###### Multivalued Attributes는 어떻게 표현
 pk + unique value를 포함해서 pk로 생성
-###### Q
-A
-###### Q
-A
+###### Loosy Decomposition이란
+relation 분해시 Join을 해도 원래의 relation을 복원하지 못하는 상황
+###### 1NF란?
+R의 모든 속성(attribute)의 도메인이 atomic하다
+- Atomic하지 않은 도메인의 예시:
+	- 이름 집합(Set of names), 복합 속성(Composite attributes)
+	- CS101과 같이 분해 가능한 학번(ID) 형식
 ###### Q
 A
 ###### Q
