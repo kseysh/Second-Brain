@@ -128,6 +128,7 @@ register write
 2. lw (memory read 값(read data)을 레지스터에 반영해야 하므로)
 
 ### control signal
+lw, sw, add, sub, and, or, slt, beq, j 다 한 번 해보기
 `add $s1, $s2, $s3`
 RegWrite: 1
 ALUsrc: 0 (ALU로 들어가는 두 번째 input이 어떨 때는 sign extension 값이 쓰여야 하고 어떨 때는 register 읽은 값이 쓰여야 하므로)
@@ -138,4 +139,5 @@ MemtoReg: 0 (register에 write을 하는 명령어)
 ## Full Datapath
 ![[Pasted image 20250416222607.png|400]]
 PCSrc: branch거나, 조건이 참일 때만 1
-각각 컴포넌트가 어떤 역할을 하는지...알아야하는얘기 다시 보기
+각각 컴포넌트가 어떤 역할을 하는지
+연결이 되어있을 때 어떤 instruction에서 어떤 연결이 활성화되어 있는지 구분할 수 있어야 함
