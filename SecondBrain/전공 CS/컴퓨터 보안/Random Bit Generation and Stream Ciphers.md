@@ -141,6 +141,8 @@ X<sub>1</sub>, X<sub>2</sub>, ... X<sub>n</sub>을 공격자가 알면 연립방
 	•	DRNG 전체가 프로세서와 동일한 멀티코어 칩 안에 포함되어 있음
 ## Intel DRNG Logical Structure
 ![[Pasted image 20250418001927.png|400]]
+CBC MAC을 이용해 conditioning 진행, CTR을 이용해 PRNG 진행
 
+Intel CPU instuctions RDSEED, RDRAND
 
 
