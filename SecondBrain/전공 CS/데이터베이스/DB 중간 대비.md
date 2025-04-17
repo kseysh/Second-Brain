@@ -560,8 +560,8 @@ R의 모든 속성(attribute)의 도메인이 atomic하다
 - Atomic하지 않은 도메인의 예시:
 	- 이름 집합(Set of names), 복합 속성(Composite attributes)
 	- CS101과 같이 분해 가능한 학번(ID) 형식
-###### Q
-A
+###### Functional Dependencies란?
+
 ###### Q
 A
 ###### Q
