@@ -141,13 +141,27 @@ F⁺에 속하는 모든 함수적 종속성 α → β에 대해 다음 조건 �
 ### BCNF vs. 3NF
 ![[Pasted image 20250417140802.png|300]]
 advisor(<u>s_ID</u>, i_ID, <u>dept_name</u>)
-다음과 같은 추가 제약 조건이 있다고 가정하자:
-f<sub>1</sub>: s_ID, dept_name-> i_ID
-f<sub>2</sub>: i_ID -> dept_name
-i_ID → dept_name
-분해가 필요한가? 그리고 그 결과는 무엇인가?
-BCNF: dept_name에서 i_ID는 super key가 아니어서 BCNF 위배 (<u>i_ID</u>, dept_name) (<u>s_ID</u>, <u>i_ID</u>) 로 나눠야함
+다음과 같은 추가 제약 조건이 있다고 가정하자: `i_ID → dept_name`
+f<sub>1</sub>: s_ID, dept_name → i_ID
+f<sub>2</sub>: i_ID → dept_name
+
+#### 분해가 필요한가?
+- BCNF
+dept_name에서 i_ID는 super key가 아니어서 BCNF 위배 (<u>i_ID</u>, dept_name) (<u>s_ID</u>, <u>i_ID</u>) 로 나눠야함
 => 이는 Dependency가 Preservation되지 않음 (독립적으로 f<sub>1</sub>을 만족시킬 수 없음, join을 해야 f<sub>1</sub>이 만족하는지 확인할 수 있음)
-3NF: dept_name이 candidate key에 속해있다면 3NF만족
+- 3NF
+dept_name이 candidate key에 속해있다면 3NF만족 (이때는 Dependency Preservation을 만족함)
 
-
+중복을 허용하지 않고 Dependency Preservation을 할 것인지, 약간의 중복을 허용하여 Dependency Preservation을 위배할 것인지
+## 정규화의 목적
+•	관계 스키마 R와 함수적 종속성 집합 F가 주어졌을 때:
+•	관계 스키마 R이 “좋은 형태(good form)”인지 판단한다.
+•	만약 R이 좋은 형태가 아니라면, 다음 조건을 만족하도록 R을 \{R<sub>1</sub>, R<sub>2</sub>, …, R<sub>n</sub>\}으로 분해한다:
+	•	각 관계 스키마가 좋은 형태를 만족해야 한다.
+	•	분해는 Lossless-Join Decomposition 이어야 한다. (BCNF도 Lossless-Join Decomposition을 지킴)
+	•	가능하다면, 종속성 보존(Dependency Preserving) 되는 분해가 바람직하다.
+## 함수적 종속성의 폐쇄(Closure of Functional Dependencies)
+•	함수적 종속성 집합 F가 주어졌을 때, F로부터 논리적으로 유도 가능한 모든 함수적 종속성이 존재한다.
+#### example
+A \rightarrow B, B \rightarrow C가 주어지면, A \rightarrow C를 유도할 수 있다.
+•	이렇게 유도된 모든 함수적 종속성의 집합을 F의 폐쇄, 즉 F^+라고 한다.
