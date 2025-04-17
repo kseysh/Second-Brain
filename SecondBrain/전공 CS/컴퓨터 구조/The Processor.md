@@ -1,3 +1,5 @@
+각각 컴포넌트가 어떤 역할을 하는지
+연결이 되어있을 때 어떤 instruction에서 어떤 연결이 활성화되어 있는지 구분할 수 있어야 함
 ## Introduction
 • CPU 성능 요인
 	•	Instruction Count (명령어 수)
@@ -139,5 +141,4 @@ MemtoReg: 0 (register에 write을 하는 명령어)
 ## Full Datapath
 ![[Pasted image 20250416222607.png|400]]
 PCSrc: branch거나, 조건이 참일 때만 1
-각각 컴포넌트가 어떤 역할을 하는지
-연결이 되어있을 때 어떤 instruction에서 어떤 연결이 활성화되어 있는지 구분할 수 있어야 함
+
