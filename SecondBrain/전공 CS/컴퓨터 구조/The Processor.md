@@ -98,10 +98,13 @@ Instruction fetching 단계는 빠진 상황
 ## Store Instruction (sw) Datapath
 ![[Pasted image 20250416222430.png|400]]
 `sw $s1, 16($s2)`
-$s1 읽기
-$s2 읽기
-$s2+16해서 주소계산
-메모리에 $s2값 쓰기
+1. `register 1 ($s2)` , `register 2 ($s1)` 읽음  
+	1. ($s2 값을 읽어 $s1의 메모리 어딘가에 저장해야 하므로)
+	2. Read data 1에서는 $s2의 값, Read data 2에는 $s1의 값이 나옴 
+2. $s2+16해서 주소계산
+3. 메모리에 $s2값 쓰기
+	1. Data memory에서 MemWrite 신호 1
+	2. Address 부분에 Wr
 ## 분기 명령어(Branch Instructions)
 •	레지스터 피연산자를 읽음
 •	3단계: 피연산자 비교
