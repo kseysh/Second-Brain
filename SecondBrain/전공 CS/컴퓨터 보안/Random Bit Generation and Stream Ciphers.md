@@ -67,3 +67,18 @@ PRF = pseudorandom function (의사 난수 생성 함수)
 		– 대칭 블록 암호
 		– 비대칭 암호
 		– 해시 함수 및 메시지 인증 코드 (MAC)
+## Linear Congruential Generator
+•	Lehmer가 처음 제안한 알고리즘으로, 네 개의 수로 매개변수화됨:
+	•	m : 모듈러스 (modulus), m > 0
+	•	a : 곱셈 계수 (multiplier), 0 < a < m
+	•	c : 증가값 (increment), 0 ≤ c < m
+	•	X<sub>0</sub> : 시작 값 또는 시드 (seed), 0 ≤ X<sub>0</sub> < m
+•	난수의 수열 \{X<sub>n</sub>\}은 다음과 같은 반복 방정식으로 생성됨:
+	X<sub>n+1</sub> = (aX<sub>n</sub> + c) mod m
+•	m, a, c, X<sub>0</sub>가 정수라면, 이 기법은 0 ≤ X<sub>n</sub> < m 범위의 정수로 이루어진 수열을 생성함
+•	좋은 난수 생성기를 만들기 위해 a, c, m 값의 선택이 매우 중요함
+X<sub>1</sub>, X<sub>2</sub>, ... X<sub>n</sub>을 공격자가 알면 연립방정식을 풀어서 a,c,m을 알아낼 수 있으므로 안전하지 않은 방식이다.
+## PRNG using Block Cipher Mode
+
+
+
