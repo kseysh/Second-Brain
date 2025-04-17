@@ -99,5 +99,12 @@ $s2+16해서 주소계산
 •	**멀티플렉서(MUX)** 를 사용하여 명령어 종류에 따라 다른 데이터 소스를 선택할 수 있도록 구성
 ## R-Type/Load/Store Datapath
 ![[Pasted image 20250416222533.png|400]]
+### control signal
+RegWrite: 1
+ALUsrc: 0
+ALUop: add
+MemWr: 0
+MemRd: 0
+MemtoReg: 0
 ## Full Datapath
 ![[Pasted image 20250416222607.png|400]]
