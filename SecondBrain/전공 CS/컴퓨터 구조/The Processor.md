@@ -21,21 +21,24 @@
 ## CPU Overview
 ![[Pasted image 20250416212845.png|400]]
 Mux: wire는 함께 join될 수 없어 multiplexer를 사용한다.
+PC: 다음번에 수행되어야 할 Instruction의 주소를 출력
 ## Logic Design Basics
 Low voltage = 0, High voltage = 1
 bit당 one wire
 Multi-bit data는 multi-wire buses로 해석됨
 ## Combinational element
 ![[Pasted image 20250416213146.png|300]]
+ALU의 F에는 무슨 연산인지가 들어간다.
 ## State(sequential) elements
 - Input이 바뀌어도 output이 바로 바뀌지 않음
 - 정보 저장
-### 레지스터 (Register):
+### Register
 ![[Pasted image 20250416213232.png|300]]
 - 회로 내에서 데이터를 저장
 	- 클럭 신호를 사용하여 저장된 값을 언제 업데이트할지 결정함
 	- 에지 트리거 방식: 클럭(Clk)이 0에서 1로 변할 때 값을 업데이트함
-### 쓰기 제어가 있는 레지스터
+값을 hold하고 있는 주체
+### Register with write control
 ![[Pasted image 20250416213553.png|300]]
 •	클럭 에지에서 쓰기 제어 입력이 1일 때만 값이 업데이트됨
 •	저장된 값을 나중에 사용할 필요가 있을 때 사용됨
