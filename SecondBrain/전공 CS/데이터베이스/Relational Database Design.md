@@ -163,5 +163,5 @@ dept_name이 candidate key에 속해있다면 3NF만족 (이때는 Dependency Pr
 ## 함수적 종속성의 폐쇄(Closure of Functional Dependencies)
 •	함수적 종속성 집합 F가 주어졌을 때, F로부터 논리적으로 유도 가능한 모든 함수적 종속성이 존재한다.
 #### example
-A \rightarrow B, B \rightarrow C가 주어지면, A \rightarrow C를 유도할 수 있다.
-•	이렇게 유도된 모든 함수적 종속성의 집합을 F의 폐쇄, 즉 F^+라고 한다.
+A → B, B → C가 주어지면, A → C를 유도할 수 있다.
+•	이렇게 유도된 모든 함수적 종속성의 집합을 F의 폐쇄, 즉 F<sup>+</sup>라고 한다.
