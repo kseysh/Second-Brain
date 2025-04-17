@@ -1,9 +1,9 @@
 ## Introduction
 • CPU 성능 요인
 	•	Instruction Count (명령어 수)
-	•	ISA와 컴파일러에 의해 결정됨
+		•	ISA와 컴파일러에 의해 결정됨
 	•	CPI, 클럭 주기 (Cycle Time)
-	•	CPU 하드웨어에 의해 결정됨
+		•	CPU 하드웨어에 의해 결정됨
 ## Instruction Execution
 • 모든 명령어의 공통 초기 단계
 1st step (Instruction Fetch)
