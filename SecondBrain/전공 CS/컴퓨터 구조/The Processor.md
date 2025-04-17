@@ -64,6 +64,10 @@ Instruction memory는 PC값을 읽고, 그에 해당하는 Instruction을 반환
 •	3단계: 산술/논리 연산 수행
 •	4단계: 연산 결과를 레지스터에 기록
 ![[Pasted image 20250416222158.png|400]]
+R 포맷이던, I 포맷이던 일단 두 개의 레지스터(rs, rt)를 읽는다. (쓸 지 안 쓸지는 모르지만 일단 읽는다 => Register Prefetch)
+아래 두 개는 레지스터 값을 변경할 때 (Write 할 때) 사용한다.
+ALU: 덧셈, 뺄셈, and, or를 한다.
+read는 
 ## Load/Store 명령어
 ![[Pasted image 20250416222345.png|300]]
 •	레지스터 피연산자를 읽음
