@@ -1,6 +1,9 @@
 각각 컴포넌트가 어떤 역할을 하는지
 연결이 되어있을 때 어떤 instruction에서 어떤 연결이 활성화되어 있는지 구분할 수 있어야 함
 ## Introduction
+• Memory reference: lw, sw
+• Arithmetic/logical: add, sub, and, or, slt
+• Control transfer: beq, j
 • CPU 성능 요인
 	•	Instruction Count (명령어 수)
 		•	ISA와 컴파일러에 의해 결정됨
