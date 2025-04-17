@@ -108,3 +108,5 @@ MemRd: 0
 MemtoReg: 0
 ## Full Datapath
 ![[Pasted image 20250416222607.png|400]]
+PCSrc: branch거나, 조건이 참일 때만 1
+각각 컴포넌트가 어떤 역할을 하는지...알아야하는얘기 다시 보기
