@@ -101,7 +101,7 @@ big_instructor(ID, name, salary, dept_name, building, budget)
 •	F⁺는 F의 상위 집합(superset) 이다.
 #### example
 A → B이고 B → C라면, 우리는 A → C를 추론할 수 있다.
-## 보이스-코드 정규형 (BCNF, Boyce-Codd Normal Form)
+## 보이스-코드 정규형 ([[BCNF 정규형]], Boyce-Codd Normal Form)
 릴레이션 스키마 R이 함수적 종속성 집합 F에 대해 BCNF에 속한다는 것은,
 F⁺에 속하는 모든 함수적 종속성 α → β에 대해 다음 조건 중 하나 이상을 만족하는 경우를 말한다:
 •	α ⊆ R, β ⊆ R이고,
@@ -112,3 +112,33 @@ F⁺에 속하는 모든 함수적 종속성 α → β에 대해 다음 조건 �
 big_instructor (ID, name, salary, dept_name, building, budget)
 이 스키마는 dept_name → building, budget이라는 함수적 종속성이 존재하지만,
 dept_name이 슈퍼키가 아니기 때문에 BCNF를 만족하지 않는다.
+## Decomposing a Schema into BCNF
+
+•	어떤 스키마 R이 있고, α → β라는 비자명(non-trivial) 한 함수적 종속성이 BCNF를 위반한다고 가정하자.
+•	이 경우, 스키마 R을 다음과 같이 분해한다:
+•	(α ∪ β)
+•	(R − (β − α))
+#### example
+•	α = dept_name
+•	β = building, budget
+•	따라서 big_instructor는 다음 두 릴레이션으로 대체된다:
+•	(α ∪ β) = (dept_name, building, budget)
+•	(R − (β − α)) = (ID, name, salary, dept_name)
+## BCNF와 종속성 보존 (Dependency Preservation)
+•	함수적 종속성을 포함한 제약 조건들은, 하나의 릴레이션에만 관련될 때를 제외하면 실제로 검사하는 데 비용이 많이 들 수 있다.
+•	만약 어떤 분해에서 각 릴레이션에 대해 개별적으로 종속성을 검사하는 것만으로도 전체 종속성들이 유지됨을 보장할 수 있다면, 그 분해는 종속성 보존(dependency preserving) 이라고 한다.
+•	그러나 *BCNF와 종속성 보존을 동시에 만족시키는 것이 항상 가능한 것은 아니므로*, 우리는 더 약한 정규형인 제3정규형(3NF) 을 고려한다.
+## [[제 3 정규형]] (Third Normal Form, 3NF)
+릴레이션 스키마 R이 제3정규형에 속하려면,
+F⁺에 속하는 모든 함수적 종속성 α → β에 대해 다음 조건 중 하나 이상을 만족해야 한다:
+	1.	α → β가 자명하다 (즉, β ⊆ α)
+	2.	α가 R의 슈퍼키이다
+	3.	β − α에 속한 각 속성 A는 R의 어떤 후보 키에 포함되어야 한다
+(주의: 각각의 속성은 서로 다른 후보 키에 속해도 무방하다)
+
+•	릴레이션이 BCNF에 속하면, 위의 첫 두 조건 중 하나는 반드시 만족하므로 3NF에도 속하게 된다.
+•	세 번째 조건은 종속성 보존을 보장하기 위해 BCNF를 최소한으로 완화한 것이다
+### BCNF vs. 3NF
+![[Pasted image 20250417140802.png|300]]
+
+
