@@ -81,10 +81,20 @@ MemWrite/MemRead는 둘 중 하나만 1이어야 함
 Sign extend: `lw $s0, 4($s2)` 같은 명령어를 사용할 때, $s2는 32-bit, 4는 16bit이므로 계산을 위해 sign extend를 진행해야 함
 ## Load Instruction (lw) Datapath
 ![[Pasted image 20250416222411.png|400]]
+Instruction fetching 단계는 빠진 상황
 `lw $s1, 16($s2)`
-주소 계산 $s2 + 16
-메모리에서 data 읽기
-읽은 data를 $s1에 저장 (쓰기)
+1. `register 1 ($s2)` , `register 2 ($s1)` 읽음 
+	1. $s2는 읽어야 하는 것, $s1은 써야 하는 것 하지만, 둘 다 일단 읽긴 함
+2. 주소 계산 $s2+16
+	1. 16은 sign extension을 시킴
+	2. 읽은 값인 $s2와 sign extension을 한 16을 더함
+	3. ALU operation에는 add라는 명령어가 들어감
+3. 메모리에서 data 읽기
+	1. Data memory에서 MemRead 신호 1
+	2. $s2+16값을 읽고, Read data로 값 출력
+4. 읽은 data를 $s1에 저장
+	1. write register ($s1)
+	2. RegWrite 신호 1
 ## Store Instruction (sw) Datapath
 ![[Pasted image 20250416222430.png|400]]
 `sw $s1, 16($s2)`
