@@ -58,6 +58,7 @@ ALU의 F에는 무슨 연산인지가 들어간다.
 ## Instruction Fetch
 ![[Pasted image 20250416222140.png|400]]
 PC: state element
+Instruction memory는 PC값을 읽고, 그에 해당하는 Instruction을 반환함
 ## R-형식(R-Format) 명령어
 •	두 개의 레지스터 피연산자를 읽음
 •	3단계: 산술/논리 연산 수행
