@@ -69,7 +69,7 @@ Instruction memory는 PC값을 읽고, 그에 해당하는 Instruction을 반환
 R 포맷이던, I 포맷이던 일단 두 개의 레지스터(rs, rt)를 읽는다. (쓸 지 안 쓸지는 모르지만 일단 읽는다 => Register Prefetch)
 아래 두 개는 레지스터 값을 변경할 때 (Write 할 때) 사용한다.
 ALU: 덧셈, 뺄셈, and, or를 한다.
-read는 제어 신호가 없어도 항상 읽히지만, write는 필요할 때만 write control이 1이 된다. (RegWrite
+read는 제어 신호가 없어도 항상 읽히지만, write는 필요할 때만 write control이 1이 된다. (RegWrite)
 주소 두 개 받아서 항상 읽어오고, 쓸 때는 레지스터 번호와 데이터와 control signal을 받아 control signal이 1일 때만 해당 번호에 있는 레지스터 값을 데이터로 바뀐다.
 ## Load/Store 명령어
 ![[Pasted image 20250416222345.png|300]]
