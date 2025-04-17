@@ -44,6 +44,7 @@ int shiftVacRec(Element[] E, int vacant, Key x){
 
 ## Divide and Conquer
 ![[Pasted image 20250331172122.png|300]]
+어떻게 설계되었는지 알아야 함
 ## Quick Sort
 https://gmlwjd9405.github.io/2018/05/10/algorithm-quick-sort.html
 Quick Sort는 분할정복 방식을 기반으로 한 randomized sorting algorithm이다.
