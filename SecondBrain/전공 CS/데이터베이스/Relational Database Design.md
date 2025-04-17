@@ -140,11 +140,14 @@ F⁺에 속하는 모든 함수적 종속성 α → β에 대해 다음 조건 �
 •	세 번째 조건은 종속성 보존을 보장하기 위해 BCNF를 최소한으로 완화한 것이다
 ### BCNF vs. 3NF
 ![[Pasted image 20250417140802.png|300]]
-advisor(s_ID, i_ID, dept_name)
+advisor(<u>s_ID</u>, i_ID, <u>dept_name</u>)
 다음과 같은 추가 제약 조건이 있다고 가정하자:
+f<sub>1</sub>: s_ID, dept_name-> i_ID
+f<sub>2</sub>: i_ID -> dept_name
 i_ID → dept_name
 분해가 필요한가? 그리고 그 결과는 무엇인가?
-BCNF: dept_name에서 i_ID는 super key가 아니어서 BCNF 위배
+BCNF: dept_name에서 i_ID는 super key가 아니어서 BCNF 위배 (<u>i_ID</u>, dept_name) (<u>s_ID</u>, <u>i_ID</u>) 로 나눠야함
+=> 이는 Dependency가 Preservation되지 않음 (독립적으로 f<sub>1</sub>을 만족시킬 수 없음, join을 해야 f<sub>1</sub>이 만족하는지 확인할 수 있음)
 3NF: dept_name이 candidate key에 속해있다면 3NF만족
 
 
