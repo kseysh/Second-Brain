@@ -108,13 +108,12 @@ A → B이고 B → C라면, 우리는 A → C를 추론할 수 있다.
 •	α ⊆ R, β ⊆ R이고,
 1.	α → β가 자명하다 (즉, β ⊆ α)
 2.	α가 R에 대한 슈퍼키이다
-즉, 결정은 Key만 할 수 있다
+즉, *결정은 Key만 할 수 있다*
 #### BCNF에 속하지 않는 예시 스키마:
 big_instructor (ID, name, salary, dept_name, building, budget)
 이 스키마는 dept_name → building, budget이라는 함수적 종속성이 존재하지만,
 dept_name이 슈퍼키가 아니기 때문에 BCNF를 만족하지 않는다.
 ## Decomposing a Schema into BCNF
-
 •	어떤 스키마 R이 있고, α → β라는 비자명(non-trivial) 한 함수적 종속성이 BCNF를 위반한다고 가정하자.
 •	이 경우, 스키마 R을 다음과 같이 분해한다:
 •	(α ∪ β)

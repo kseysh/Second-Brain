@@ -561,15 +561,22 @@ R의 모든 속성(attribute)의 도메인이 atomic하다
 	- 이름 집합(Set of names), 복합 속성(Composite attributes)
 	- CS101과 같이 분해 가능한 학번(ID) 형식
 ###### Functional Dependencies란?
-
-###### Q
-A
-###### Q
-A
-###### Q
-A
-###### Q
-A
+어떤 속성 집합이 다른 속성 집합의 값을 고유하게 결정짓는 관계
+###### BCNF 정규형이란?
+BCNF(Boyce-Codd Normal Form)는 모든 결정자가 후보키인 정규형
+###### •	어떤 스키마 R이 있고, α → β라는 비자명(non-trivial) 한 함수적 종속성이 BCNF를 위반한다고 가정할 때, 스키마 R 분해
+•	(α ∪ β)
+•	(R − (β − α))
+#### example
+•	α = dept_name
+•	β = building, budget
+•	따라서 big_instructor는 다음 두 릴레이션으로 대체된다:
+•	(α ∪ β) = (dept_name, building, budget)
+•	(R − (β − α)) = (ID, name, salary, dept_name)
+###### Dependency Preservation
+어떤 분해에서 각 릴레이션에 대해 개별적으로 종속성을 검사하는 것만으로도 전체 종속성들이 유지됨을 보장하는 것
+###### 3NF란?
+ 모든 함수적 종속성에서 결정자가 후보키이거나, 종속 속성이 기본 속성(즉, 후보키에 속하지 않는 속성)이 아닌 정규형
 ###### Q
 A
 ###### Q
