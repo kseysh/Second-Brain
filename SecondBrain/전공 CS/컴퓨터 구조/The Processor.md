@@ -123,13 +123,18 @@ Instruction fetching 단계는 빠진 상황
 •	**멀티플렉서(MUX)** 를 사용하여 명령어 종류에 따라 다른 데이터 소스를 선택할 수 있도록 구성
 ## R-Type/Load/Store Datapath
 ![[Pasted image 20250416222533.png|400]]
+register write
+1. R-format (ALU 결과 값을 레지스터에 반영해야 하므로)
+2. lw (memory read 값(read data)을 레지스터에 반영해야 하므로)
+
 ### control signal
+`add $s1, $s2, $s3`
 RegWrite: 1
-ALUsrc: 0
+ALUsrc: 0 (ALU로 들어가는 두 번째 input이 어떨 때는 sign extension 값이 쓰여야 하고 어떨 때는 register 읽은 값이 쓰여야 하므로)
 ALUop: add
 MemWr: 0
 MemRd: 0
-MemtoReg: 0
+MemtoReg: 0 (register에 write을 하는 명령어)
 ## Full Datapath
 ![[Pasted image 20250416222607.png|400]]
 PCSrc: branch거나, 조건이 참일 때만 1
