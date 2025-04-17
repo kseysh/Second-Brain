@@ -60,10 +60,6 @@ Multi-bit data는 multi-wire buses로 해석됨
 •	3단계: 산술/논리 연산 수행
 •	4단계: 연산 결과를 레지스터에 기록
 ![[Pasted image 20250416222158.png|400]]
-## Register file (Read part)
-![[Pasted image 20250416222231.png|400]]
-## Register file (Write part)
-![[Pasted image 20250416222317.png|400]]
 ## Load/Store 명령어
 ![[Pasted image 20250416222345.png|300]]
 •	레지스터 피연산자를 읽음
