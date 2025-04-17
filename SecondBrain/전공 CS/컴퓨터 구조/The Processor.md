@@ -67,15 +67,18 @@ Instruction memory는 PC값을 읽고, 그에 해당하는 Instruction을 반환
 R 포맷이던, I 포맷이던 일단 두 개의 레지스터(rs, rt)를 읽는다. (쓸 지 안 쓸지는 모르지만 일단 읽는다 => Register Prefetch)
 아래 두 개는 레지스터 값을 변경할 때 (Write 할 때) 사용한다.
 ALU: 덧셈, 뺄셈, and, or를 한다.
-read는 
+read는 제어 신호가 없어도 항상 읽히지만, write는 필요할 때만 write control이 1이 된다. (RegWrite
+주소 두 개 받아서 항상 읽어오고, 쓸 때는 레지스터 번호와 데이터와 control signal을 받아 control signal이 1일 때만 해당 번호에 있는 레지스터 값을 데이터로 바뀐다.
 ## Load/Store 명령어
 ![[Pasted image 20250416222345.png|300]]
 •	레지스터 피연산자를 읽음
 •	3단계: 16비트 오프셋을 이용하여 주소 계산
 	•	ALU 사용, 오프셋은 sign-extend 필요
 •	4단계:
-	•	Load: 메모리에서 읽은 값을 레지스터에 저장
-	•	Store: 레지스터 값을 메모리에 저장
+	•	Load: 메모리에서 읽은 값을 레지스터에 저장 (Read)
+	•	Store: 레지스터 값을 메모리에 저장 (Write)
+MemWrite/MemRead는 둘 중 하나만 1이어야 함
+Sign extend: `lw $s0, 4($s2)` 같은 명령어를 사용할 때, $s2는 32-bit, 4는 16bit이므로 계산을 위해 sign extend를 진행해야 함
 ## Load Instruction (lw) Datapath
 ![[Pasted image 20250416222411.png|400]]
 `lw $s1, 16($s2)`
