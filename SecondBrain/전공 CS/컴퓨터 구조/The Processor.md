@@ -74,8 +74,13 @@ Multi-bit data는 multi-wire buses로 해석됨
 주소 계산 $s2 + 16
 메모리에서 data 읽기
 읽은 data를 $s1에 저장 (쓰기)
-## Load Instruction (sw) Datapath
+## Store Instruction (sw) Datapath
 ![[Pasted image 20250416222430.png|400]]
+`sw $s1, 16($s2)`
+$s1 읽기
+$s2 읽기
+$s2+16해서 주소계산
+메모리에 $s2값 쓰기
 ## 분기 명령어(Branch Instructions)
 •	레지스터 피연산자를 읽음
 •	3단계: 피연산자 비교
