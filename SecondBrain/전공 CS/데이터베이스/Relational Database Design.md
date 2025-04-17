@@ -90,15 +90,25 @@ big_instructor(ID, name, salary, dept_name, building, budget)
 예를 들어, instructor 릴레이션의 특정 인스턴스가 **우연히** name → ID를 만족할 수 있습니다.
 ## Functional Dependencies
 •	어떤 함수적 종속성이 모든 릴레이션 인스턴스에서 만족된다면, 그 종속성은 자명(trivial) 하다고 한다.
-•	예시:
+•	일반적으로, α → β가 자명하려면 β ⊆ α여야 한다.
+#### example
 •	ID, name → ID
 •	name → name
-	•	일반적으로, α → β가 자명하려면 β ⊆ α여야 한다.
 ## 함수적 종속성의 폐포 (Closure of Functional Dependencies)
-	•	함수적 종속성 집합 F가 주어졌을 때,
-F로부터 논리적으로 도출될 수 있는 다른 함수적 종속성들이 존재할 수 있다.
-	•	예를 들어:
+•	함수적 종속성 집합 F가 주어졌을 때, F로부터 논리적으로 도출될 수 있는 다른 함수적 종속성들이 존재할 수 있다.
+•	F로부터 논리적으로 도출 가능한 모든 함수적 종속성들의 집합을 F의 closure 라고 한다.
+•	우리는 F의 Closure를 F⁺로 표기한다.
+•	F⁺는 F의 상위 집합(superset) 이다.
+#### example
 A → B이고 B → C라면, 우리는 A → C를 추론할 수 있다.
-	•	F로부터 논리적으로 도출 가능한 모든 함수적 종속성들의 집합을 F의 폐포(closure) 라고 한다.
-	•	우리는 F의 폐포를 F⁺로 표기한다.
-	•	F⁺는 F의 상위 집합(superset) 이다.
+## 보이스-코드 정규형 (BCNF, Boyce-Codd Normal Form)
+릴레이션 스키마 R이 함수적 종속성 집합 F에 대해 BCNF에 속한다는 것은,
+F⁺에 속하는 모든 함수적 종속성 α → β에 대해 다음 조건 중 하나 이상을 만족하는 경우를 말한다:
+•	α ⊆ R, β ⊆ R이고,
+1.	α → β가 자명하다 (즉, β ⊆ α)
+2.	α가 R에 대한 슈퍼키이다
+즉, 결정은 Key만 할 수 있다
+#### BCNF에 속하지 않는 예시 스키마:
+big_instructor (ID, name, salary, dept_name, building, budget)
+이 스키마는 dept_name → building, budget이라는 함수적 종속성이 존재하지만,
+dept_name이 슈퍼키가 아니기 때문에 BCNF를 만족하지 않는다.
