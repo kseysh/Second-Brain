@@ -564,6 +564,11 @@ R의 모든 속성(attribute)의 도메인이 atomic하다
 어떤 속성 집합이 다른 속성 집합의 값을 고유하게 결정짓는 관계
 ###### BCNF 정규형이란?
 BCNF(Boyce-Codd Normal Form)는 모든 결정자가 후보키인 정규형
+###### BCNF 정규형 조건
+릴레이션 스키마 R이 함수적 종속성 집합 F에 대해 BCNF에 속한다는 것은, F⁺에 속하는 모든 함수적 종속성 α → β에 대해 다음 조건 중 하나 이상을 만족하는 경우를 말한다:
+•	α ⊆ R, β ⊆ R이고,
+1.	α → β가 자명하다 (즉, β ⊆ α)
+2.	α가 R에 대한 슈퍼키이다
 ###### •	어떤 스키마 R이 있고, α → β라는 비자명(non-trivial) 한 함수적 종속성이 BCNF를 위반한다고 가정할 때, 스키마 R 분해
 •	(α ∪ β)
 •	(R − (β − α))
@@ -577,13 +582,22 @@ BCNF(Boyce-Codd Normal Form)는 모든 결정자가 후보키인 정규형
 어떤 분해에서 각 릴레이션에 대해 개별적으로 종속성을 검사하는 것만으로도 전체 종속성들이 유지됨을 보장하는 것
 ###### 3NF란?
  모든 함수적 종속성에서 결정자가 후보키이거나, 종속 속성이 기본 속성(즉, 후보키에 속하지 않는 속성)이 아닌 정규형
-###### Q
-A
-###### Q
-A
-###### Q
-A
-###### Q
-A
+###### 3NF 조건
+릴레이션 스키마 R이 제3정규형에 속하려면,
+F⁺에 속하는 모든 함수적 종속성 α → β에 대해 다음 조건 중 하나 이상을 만족해야 한다:
+	1.	α → β가 자명하다 (즉, β ⊆ α)
+	2.	α가 R의 super key이다
+	3.	β − α에 속한 각 속성 A는 R의 어떤candidate key에 포함되어야 한다 (BCNF와 달리 추가된 조건)
+##### BCNF, 3NF에서 분해가 필요한가?
+![[Pasted image 20250417140802.png|300]]
+advisor(<u>s_ID</u>, i_ID, <u>dept_name</u>)
+다음과 같은 추가 제약 조건이 있다고 가정하자: `i_ID → dept_name`
+f<sub>1</sub>: s_ID, dept_name → i_ID
+f<sub>2</sub>: i_ID → dept_name
+###### BCNF
+dept_name을 결정하는 i_ID는 super key가 아니어서 BCNF 위배 (<u>i_ID</u>, dept_name) (<u>s_ID</u>, <u>i_ID</u>) 로 나눠야함
+=> 이는 Dependency가 Preservation되지 않음 (독립적으로 f<sub>1</sub>을 만족시킬 수 없음, join을 해야 f<sub>1</sub>이 만족하는지 확인할 수 있음)
+###### 3NF
+dept_name이 candidate key에 속해있다면 3NF만족 (이때는 Dependency Preservation을 만족함)
 ###### Q
 A

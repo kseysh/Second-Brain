@@ -133,7 +133,7 @@ dept_name이 슈퍼키가 아니기 때문에 BCNF를 만족하지 않는다.
 F⁺에 속하는 모든 함수적 종속성 α → β에 대해 다음 조건 중 하나 이상을 만족해야 한다:
 	1.	α → β가 자명하다 (즉, β ⊆ α)
 	2.	α가 R의 super key이다
-	3.	β − α에 속한 각 속성 A는 R의 어떤 candidate key에 포함되어야 한다
+	3.	β − α에 속한 각 속성 A는 R의 어떤candidate key에 포함되어야 한다
 (주의: 각각의 속성은 서로 다른 candidate key에 속해도 무방하다)
 
 •	릴레이션이 BCNF에 속하면, 위의 첫 두 조건 중 하나는 반드시 만족하므로 3NF에도 속하게 된다.
@@ -147,7 +147,7 @@ f<sub>2</sub>: i_ID → dept_name
 
 #### 분해가 필요한가?
 - BCNF
-dept_name에서 i_ID는 super key가 아니어서 BCNF 위배 (<u>i_ID</u>, dept_name) (<u>s_ID</u>, <u>i_ID</u>) 로 나눠야함
+dept_name을 결정하는 i_ID는 super key가 아니어서 BCNF 위배 (<u>i_ID</u>, dept_name) (<u>s_ID</u>, <u>i_ID</u>) 로 나눠야함
 => 이는 Dependency가 Preservation되지 않음 (독립적으로 f<sub>1</sub>을 만족시킬 수 없음, join을 해야 f<sub>1</sub>이 만족하는지 확인할 수 있음)
 - 3NF
 dept_name이 candidate key에 속해있다면 3NF만족 (이때는 Dependency Preservation을 만족함)
