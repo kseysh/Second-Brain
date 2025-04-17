@@ -70,6 +70,10 @@ Multi-bit data는 multi-wire buses로 해석됨
 	•	Store: 레지스터 값을 메모리에 저장
 ## Load Instruction (lw) Datapath
 ![[Pasted image 20250416222411.png|400]]
+`lw $s1, 16($s2)`
+주소 계산 $s2 + 16
+메모리에서 data 읽기
+읽은 data를 $s1에 저장 (쓰기)
 ## Load Instruction (sw) Datapath
 ![[Pasted image 20250416222430.png|400]]
 ## 분기 명령어(Branch Instructions)
