@@ -104,20 +104,20 @@ Instruction fetching 단계는 빠진 상황
 2. $s2+16해서 주소계산
 3. 메모리에 $s2값 쓰기
 	1. Data memory에서 MemWrite 신호 1
-	2. Address 부분에 Wr
+	2. Address 부분에 Write data의 값을 저장
 ## 분기 명령어(Branch Instructions)
+![[Pasted image 20250416222459.png|400]]
+`beq $s1, $s2, label`
 •	레지스터 피연산자를 읽음
 •	3단계: 피연산자 비교
-	•	ALU를 사용하여 빼기 연산 수행, Zero 출력 확인
+	• ALU를 사용하여 빼기 연산 수행, Zero 출력 확인
 •	4단계: 분기 대상 주소 계산
 	•	변위를 sign-extend
-	•	왼쪽으로 2비트 시프트 (워드 단위 변위)
+	•	왼쪽으로 2비트 시프트 (branch address = offset x 4이므로)
 	•	PC + 4에 더함
-		•	이 계산은 이미 명령어 인출 단계에서 수행됨
-## Branch Instructions
-![[Pasted image 20250416222459.png|400]]
+		•	이 계산은 이미 Instruction Fetch 단계에서 수행됨
 ## 요소 결합(Composing the Elements)
-•	초기 버전 데이터 경로는 한 클럭 사이클에 한 명령어 수행
+•	초기 버전 데이터 경로는 *한 클럭 사이클에 한 명령어 수행*
 	•	각 데이터 경로 요소는 한 번에 한 가지 기능만 수행 가능
 	•	따라서 명령어 메모리와 데이터 메모리를 분리해야 함
 •	**멀티플렉서(MUX)** 를 사용하여 명령어 종류에 따라 다른 데이터 소스를 선택할 수 있도록 구성
