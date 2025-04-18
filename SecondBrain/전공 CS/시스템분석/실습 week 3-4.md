@@ -54,6 +54,7 @@
 - 본격적인 컴포넌트 구성 표현법에서
 ![[Pasted image 20250402180911.png|300]]
 동그라미는 provide, 감싸는 것은 Required를 뜻함
+UserInfoDB에서도 DB에 정보 요청과 정보 provide가 있는 관계일텐데, 왜 이용자 정보 조회 시스템과 UserInfoDB와의 관계에서는 lolipop notation을 사용하지 않는 것인지 궁금
 
 - UML 계층적 표현 단위에서
 ![[Pasted image 20250402180947.png|400]]
