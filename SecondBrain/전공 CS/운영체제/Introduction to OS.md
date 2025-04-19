@@ -21,7 +21,7 @@ job to job transition을 빠르게 하기 위해 *여러 작업을 자기 테이
 
 - SPOOL
 	- Job을 카드에서 디스크로 미리 읽어두고, 출력도 디스크에 대기시켜두었다가 나중에 프린터로 출력하는 방법
-	- 이로 인해 입출력 작업을 기다리지 않고 계산에 집중할 수 있어 Job-to-Job transition에서 발생하는 IO 성능 제약 해소
+	- 이로 인해 입출력 작업을 기다리지 않아도 되어 IO 성능 제약 해소
 	- 작업을 큐에 넣고 비동기 처리하기 위해 사용
 - Buffering
 	- 입출력 장치와 CPU 사이에 데이터를 임시 저장하여 입출력 속도의 차이를 완화하는 방법
@@ -41,6 +41,7 @@ job to job transition을 빠르게 하기 위해 *여러 작업을 자기 테이
 - User는 System과 interacted함
 - Interactive time-sharing OS
 - Response time, protection 중요해짐
+- PC OS
 ### 1990 ~ 
 - Internet acess가 built in
 - Multi tasking 중요
