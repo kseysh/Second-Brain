@@ -132,7 +132,7 @@ I/O로 인해 waiting하는 프로세스를 모아둔 큐
 다음에 실행해야 할 프로세스를 선택하고 CPU를 할당한다.
 밀리초 단위로 자주 호출되기 때문에 빠르게 동작해야 한다
 ###### Long term scheduler란?
-- *어떤 프로세스를 Job queue에 넣을 것인지 선택*하는 역할을 한다 (메모리에 너무 많은 process가 올라가면 안되므로)
+- *어떤 프로세스를 Ready queue에 넣을 것인지 선택*하는 역할을 한다 (메모리에 너무 많은 process가 올라가면 안되므로)
 - 초 또는 분 단위로 호출되기 때문에 상대적으로 느려도 괜찮다.
 - multi programming 수준을 조절하는 역할을 한다.
 - *적절한 프로세스 균형을 유지하는 것을 목표*로 한다.
@@ -160,7 +160,7 @@ Shared memory를 활용하여 process A,B에게 shared memory 접근 권한을 �
 - shared memory의 데이터의 race condition에 대해서 사용자가 shared memory를 관리하여야 한다
 	- 동기화 문제를 해결해야 한다.
 ###### 멀티 스레드의 장점
-- Responsiveness
+- 응답성
 	- 프로세스의 일부(스레드)가 Block되어도 계속 실행될 수 있다.
 - 자원 공유
 	- 스레드는 프로세스의 자원을 공유하며, shared memory나 메시지 전달 방식보다 더 쉽게 사용할 수 있다.
@@ -225,7 +225,7 @@ yield: 다른 스레드가 run할 수 있도록 running -> ready상태로 전환
 CPU core의 개수만큼 스레드를 생성해 병렬처리를 지원해준다
 `#pragma omp parallel`
 ###### 스레드의 개념과 프로세스와의 차이점
-프로세스 안에 스레드가 여러개 있는 것이고, 스레드는 프로세스에서 excution stream을 여러개 분리한 것
+프로세스 안에 스레드가 여러개 있는 것이고, 스레드는 프로세스에서 execution stream을 여러개 분리한 것
 ###### Dispatcher의 역할
 CPU 스케쥴러가 선택한 프로세스에 CPU 제어권을 넘겨준다
 • Context Switching
