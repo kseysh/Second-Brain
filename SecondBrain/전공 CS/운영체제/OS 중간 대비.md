@@ -44,8 +44,8 @@ CPU에 의해 시작됨
 2.	사용 가능하면 출력 레지스터로 데이터 이동, 제어 레지스터에 출력 명령 전달
 3.	사용 불가능하면 이 과정을 반복하거나 대기
 ###### Polling I/O vs. Interrupt-driven I/O
-- Polling I/O: CPU가 I/O 상태 레지스터를 계속 확인하여 작업이 완료되었는지 검사
-- Interrupt-driven I/O: I/O 컨트롤러가 작업 완료 시 인터럽트를 발생하여 CPU에 알림
+- Polling I/O: *CPU가 I/O 상태 레지스터를 계속 확인*하여 작업이 완료되었는지 검사
+- Interrupt-driven I/O: *I/O 컨트롤러가 작업 완료 시 인터럽트를 발생*하여 CPU에 알림
 ###### Memory-mapped I/O vs. Port-mapped I/O
 - Memory-mapped I/O: 메모리와 I/O를 동일한 주소 공간에서 관리
 - Port-mapped I/O: I/O 장치를 위한 별도의 주소 공간을 사용
