@@ -38,16 +38,6 @@ turn을 넘겨야 하는 이유: turn을 자신으로 하고 실행하면, 서�
 
 - 두 프로세스를 대상으로 함
 - load와 store가 atomic하다고 가정 (interrupt되지 않음)
-```
-    Time → →
-P0: flag[0]=true → turn=1 → [읽기: flag[1] 도중 P1 간섭] → while 판단 오류 → 임계구역 진입 ❌
-
-P1: flag[1]=true → turn=0  
-    ⇒ while (flag[0] && turn == 0) 조건 → true → 원래는 진입 금지 상태
-
-    그런데 만약 flag[0]을 읽는 도중에 P0이 flag[0] = false를 실행하고,
-    P1이 flag[0] == false로 잘못 읽게 되면 → while 조건 false → 임계구역 진입 ❌ (오류 발생)
-```
 - 두 프로세스는 두 개의 변수를 공유함
 	- int turn
 		- 임계 구역에 들어갈 차례인 프로세스
