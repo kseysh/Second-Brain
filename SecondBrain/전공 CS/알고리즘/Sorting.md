@@ -180,6 +180,7 @@ vacStop 위치에 도달하면 적절한 위치에 삽입됨
 ![[Pasted image 20250410151854.png|300]] 이거 자주 나옴 (어떻게 하는지)
 빈 자리에 새로운 요소 K를 삽입하면서 힙을 빠르게 재구성
 fixHeapFast를 재 호출할 때, 탐색 범위가 바뀌면서 subheap의 높이로 재설정됨
+*promote가 반환하는 vacStop값 = hStop 높이에 있는 노드의 index값*
 ![[Pasted image 20250410151907.png|300]]
 fixHeapFast가 일반 fixHeap보다 두 배 빠른 이유: fixHeap은 자신과 자식 둘을 두 번 비교하는데, fixHeapFast은 자식끼리만 비교함 
 힙 아래쪽에서 값을 위로 “승격”시켜서 vacant 자리를 채우기 위한 가장 적절한 노드를 찾아줌
