@@ -147,7 +147,7 @@ I/O로 인해 waiting하는 프로세스를 모아둔 큐
 - PCB 복사 (pid, parent, child만 변경)
 - 해당 PCB -> ready queue로 복사
 ###### Message passing 방식과 단점
-커널이 메시지 큐를 이용해 아래 두 함수를 이용해 소통한다.
+커널이 *메시지 큐를 이용*해 아래 두 함수를 이용해 소통한다.
 - msgsnd()
 	- 커널 공간에 메시지를 쌓는다.
 - msgrcv()
