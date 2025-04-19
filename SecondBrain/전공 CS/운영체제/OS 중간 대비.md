@@ -290,6 +290,7 @@ Ready queue를 partitioning하여 큐를 분리한다
 - 실행할 다음 작업을 결정하기 위해 스케줄러는 가상 런타임이 가장 낮은 태스크를 선택한다
 ###### CFS에서 task의 time slice
 `time slice = target latency x ( task의 weight / sum(weight) )`
+![[Pasted image 20250419210241.png|150]]
 ###### CFS에서 vruntime
 `vruntime += 실행시간 x ( 1024 / weight )` = 실행시간 x decay factor
 ###### 다중 프로세서 내에서 동일한 코어를 사용하는 경우 각 스케쥴링 방식
@@ -333,7 +334,7 @@ SMP 환경에서는 운영체제가 모든 CPU에 고르게 작업을 배분해�
 `flag[j]==false`: j는 critical section에 들어가고 싶지 않음
 `turn != j`: j가 turn을 나한테 넘김
 ###### turn을 넘겨야 하는 이유
-turn을 자신으로 하고 실행하면, 서로 자신 먼저 들어가려고 하므로 누가 먼저 들어가야 할지 결정할 기준이 없음 따라서 turn을 동비해서 누가 먼저 들어갈지 순서를 정하는 장치로 사용
+turn을 자신으로 하고 실행하면, 서로 자신 먼저 들어가려고 하므로 누가 먼저 들어가야 할지 결정할 기준이 없음 따라서 turn을 도입해서 누가 먼저 들어갈지 순서를 정하는 장치로 사용
 ###### peterson's solution이 세 조건을 만족하는 이유
 - 상호 배제
 	- `P[i]`는 `flag[j] == false`거나, `turn == i` 일때만 임계 구역에 진입함
