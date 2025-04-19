@@ -173,7 +173,7 @@ Target latency 10ms 돈 이후의 vruntime을 보여주는 것
 `task의 time slice = target latency x ( task의 weight / sum(weight) )`
 vruntime = W<sub>0</sub>/W<sub>p</sub> x Time slice
 nice value, weight은 시스템에서 제공하는 fixed value다
-W<sub>0</sub>/W<sub>p</sub> = 1024/weight
+W<sub>0</sub>/W<sub>p</sub> = 1024/weight = decay factor
 Nice value가 0이면, 가상 런타임 = 실제 런타임이다 (Nice value가 0인 weight이 1024라서)
 # Advanced Topic of Scheduling
 ## Multiple-Processor Scheduling

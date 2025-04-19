@@ -291,7 +291,7 @@ Ready queue를 partitioning하여 큐를 분리한다
 ###### CFS에서 task의 time slice
 `time slice = target latency x ( task의 weight / sum(weight) )`
 ###### CFS에서 vruntime
-`vruntime += 실행시간 x ( 1024 / weight )`
+`vruntime += 실행시간 x ( 1024 / weight )` = 실행시간 x decay factor
 ###### 다중 프로세서 내에서 동일한 코어를 사용하는 경우 각 스케쥴링 방식
 - `Asymmetric multiprocessing`: 하나의 프로세서만 시스템 데이터 구조에 접근하여 데이터 공유에 대한 필요를 줄임
 - `Symmetric multiprocessing, SMP`: 각 프로세서가 자체적으로 스케줄링을 수행하며, 모든 프로세스는 공통의 준비 큐에 있거나 각자 고유한 준비 큐를 가질 수 있음
