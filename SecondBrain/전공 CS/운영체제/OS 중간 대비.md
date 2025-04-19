@@ -292,6 +292,25 @@ Ready queue를 partitioning하여 큐를 분리한다
 `time slice = target latency x ( task의 weight / sum(weight) )`
 ###### CFS에서 vruntime
 `vruntime += 실행시간 x ( 1024 / weight )`
+###### 다중 프로세서 내에서 동일한 코어를 사용하는 경우 각 스케쥴링 방식
+- `Asymmetric multiprocessing`: 하나의 프로세서만 시스템 데이터 구조에 접근하여 데이터 공유에 대한 필요를 줄임
+- `Symmetric multiprocessing, SMP`: 각 프로세서가 자체적으로 스케줄링을 수행하며, 모든 프로세스는 공통의 준비 큐에 있거나 각자 고유한 준비 큐를 가질 수 있음
+	- 현재 가장 일반적인 방식
+###### SMP에서 ready queue 관리 방식
+- Common ready queue
+	- 모든 스레드가 하나의 common ready queue에 존재할 수 있음
+	- 코어 수가 많으면 동기화 문제가 발생할 수 있음
+- Per-core ready queue
+	- 각 프로세서가 자신만의 독립된 스레드 큐를 가질 수 있음
+	- 코어마다 load가 불균형할 가능성이 있음
+	- cache hit rate가 늘어남 (코어에 캐시가 저장되므로)
+###### Load Balancing 방식
+SMP 환경에서는 운영체제가 모든 CPU에 고르게 작업을 배분해야 효율적임
+• `Push migration` : 주기적으로 태스크가 각 프로세서의 부하를 확인하고, 과부하된 CPU에서 다른 CPU로 태스크를 옮김
+• `Pull migration`: Idle 상태의 프로세서가 바쁜 프로세서로부터 대기 중인 태스크를 가져옴
+###### Real-Time CPU Scheduling에서 성능에 영향을 미치는 두 가지 지연(latency)
+1. Interrupt latency: 인터럽트가 도착한 시점부터 ISR(인터럽트 서비스 루틴)이 시작될 때까지의 시간
+2. Dispatch latency: Context Switching에 걸리는 시간
 ###### critical section problem의 해결책이 되기 위한 조건
 1. mutual exclusion (상호 배제)
     1. 한 번에 하나의 스레드만 임계 영역에서 실행할 수 있다.
