@@ -59,8 +59,6 @@ Direct Memory Access
 ###### Trap, Exception
 •	소프트웨어에 의해 생성된 인터럽트
 •	에러 또는 사용자 요청(예: 오류, 강제 종료 등)에 의해 발생
-###### PC란
-다음 실행해야 하는 명령어의 주소를 담는 것
 ###### Interrupt가 들어올 때 CPU의 행동
 - 현재 수행중인 instruction을 마무리 시키고, 현재 프로그램을 중지한다
 - 다음에 수행해야할 PC와 현재 레지스터 값들을 저장해둔다
@@ -123,6 +121,7 @@ Process Control Block으로
 - waiting
 - ready
 - terminated
+- blocking 없음
 ###### Device queue란
 I/O로 인해 waiting하는 프로세스를 모아둔 큐
 ###### Job queue란
