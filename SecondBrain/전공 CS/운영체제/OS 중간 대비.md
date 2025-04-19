@@ -392,10 +392,8 @@ do {
 처음 key를 얻는 과정: TAS를 이용해 한 명만 lock을 얻음
 대기 줄이 있을 때 임계 구간을 진입하는 과정: `waiting[j]==false`로 만들어서 critical section에 들어오게 한다.
 ###### Mutex Lock이란?
-임계 구역을 보호하기 위해서는 먼저 `acquire()`로 락을 획득하고, 작업 후 `release()`로 락을 해제해야 한다
-	•	락이 사용 가능한지 여부를 나타내는 Boolean 변수 사용 (이도 atomic하게 이루어져야 함)
-	•	`acquire()`와 `release()` 호출은 원자적(atomic)으로 이루어져야 한다
-	•	보통 하드웨어의 원자적 명령을 이용해 구현된다
+임계 구역을 보호하기 위한 장치로, `acquire()`로 락을 획득하고, 작업 후 `release()`로 락을 해제하여 상호 배제를 만족한다.
+
 ![[Pasted image 20250410163638.png|400]]
 이 방법은 바쁜 대기(busy waiting)를 필요로 한다
 	•	따라서 이러한 락을 스핀락(spinlock) 이라고 부른다
