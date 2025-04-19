@@ -137,8 +137,6 @@ H의 가장 마지막(오른쪽 아래)의 요소를 변수 K에 복사
 		→ fixHeap(선택된 서브힙, K) 재귀 호출
 
 fixHeap은 최대 2h번의 키 비교가 필요함
-
-![[Pasted image 20250411212339.png|100]]
 ## Construct Heap
 Input H: 힙 구조이지만, partial order tree property을 반드시 만족하지는 않는 상태 (즉, 최소 힙, 최대 힙의 성질을 보장하지 않는 구조)
 Output H: 동일한 노드들로 구성된 H를 partial order tree property 속성을 만족하도록 재배열한 힙으로 변환
