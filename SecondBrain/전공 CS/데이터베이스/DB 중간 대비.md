@@ -532,18 +532,8 @@ set constraints spouse_ref deferred;
 create index id_idx on student(id)
 ###### composite Attributes란?
 ![[Pasted image 20250408141008.png|500]]
-##### 무슨 관계인지
-![[Pasted image 20250408142911.png|300]]
-![[Pasted image 20250408142853.png|300]]
-![[Pasted image 20250408142922.png|300]]
-![[Pasted image 20250408142933.png|300]]
-###### A
-one to many
-one to one
-many to one
-many to many
 ###### Total Participation이란?
-이중 선으로 표시되며 엔티티 집합의 모든 엔티티가 관계 집합에 최소한 하나는 참여해야 한다.
+이중 선으로 표시되며 *엔티티 집합의 모든 엔티티가 관계 집합에 최소한 하나는 참여해야 한다*.
 ###### weak entity 어떻게 생겼는지, 어떻게 변환하는지
 이중 다이아몬드에서 화살표를 보내는 쪽
 강한 엔티티 집합의 PK를 포함하는 컬럼과 자신의 discriminate 컬럼으로 pk로 사용
@@ -557,14 +547,11 @@ pk + unique value를 포함해서 pk로 생성
 relation 분해시 Join을 해도 원래의 relation을 복원하지 못하는 상황
 ###### atomic이란? atomic 하지 않은 도메인
 해당 도메인의 요소가 더 이상 나눌 수 없는 단위라는 의미
-- Atomic하지 않은 도메인의 예시:
-	- 이름 집합(Set of names), 복합 속성(Composite attributes)
-	- CS101과 같이 분해 가능한 학번(ID) 형식
 ###### 1NF란?
 R의 모든 속성(attribute)의 도메인이 atomic하다
-- Atomic하지 않은 도메인의 예시:
-	- 이름 집합(Set of names), 복합 속성(Composite attributes)
-	- CS101과 같이 분해 가능한 학번(ID) 형식
+###### Atomic하지 않은 도메인의 예시:
+- 이름 집합(Set of names), 복합 속성(Composite attributes)
+- CS101과 같이 분해 가능한 학번(ID) 형식
 ###### Functional Dependencies란?
 어떤 속성 집합이 다른 속성 집합의 값을 고유하게 결정짓는 관계
 ###### BCNF 정규형이란?
@@ -574,10 +561,10 @@ BCNF(Boyce-Codd Normal Form)는 모든 결정자가 후보키인 정규형
 •	α ⊆ R, β ⊆ R이고,
 1.	α → β가 자명하다 (즉, β ⊆ α)
 2.	α가 R에 대한 슈퍼키이다
-###### •	어떤 스키마 R이 있고, α → β라는 비자명(non-trivial) 한 함수적 종속성이 BCNF를 위반한다고 가정할 때, 스키마 R 분해
+###### 어떤 스키마 R이 있고, α → β라는 비자명(non-trivial) 한 함수적 종속성이 BCNF를 위반한다고 가정할 때, 스키마 R 분해
 •	(α ∪ β)
 •	(R − (β − α))
-#### example
+- example
 •	α = dept_name
 •	β = building, budget
 •	따라서 big_instructor는 다음 두 릴레이션으로 대체된다:
