@@ -120,7 +120,6 @@ instructor 엔티티에 dept_name 속성이 있을 때, instructor와 department
 • 다대다: 두 엔터티의 PK를 모두 합친 것
 - candidate key가 여러 개일 경우, 관계의 의미를 고려해 PK를 선택해야 함
 ## Weak Entity sets
-값 타입할 때 만들었던 pk 없는 엔티티 말하는듯
 - PK가 없는 엔티티 집합
 - 약한 엔티티 집합은 identifying (owner) entity set의 존재에 의존한다.
 - identifying entity set과는 전체(total)이고, identifying entity에서 약한 entity로의 일대다(one-to-many) 관계를 가져야 한다.
