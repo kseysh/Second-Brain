@@ -1,4 +1,4 @@
-![[Pasted image 20250411210051.png]]
+ ![[Pasted image 20250411210051.png]]
 ## Insertion Sort
 ![[Pasted image 20250327214346.png|400]]
 ### 의사 코드
