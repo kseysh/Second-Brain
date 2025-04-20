@@ -48,25 +48,20 @@ Relation Algebra로, Functional 방식
 ###### Select A and C를 Relational Algebra로
 ![[Pasted image 20250405224626.png]]
 ###### Selecting attributes ID and salary from the instructor relation Relational Algebra로
-∏<sub>ID,salary</sub>(instructor)[[]]
+∏<sub>ID,salary</sub>(instructor)
 ###### Theta Join을 다르게 표현
 ![[Pasted image 20250318142719.png|300]]
 ###### Theta join 특징
 Theta join자체에는 Projection(select)를 진행하지 않음
 ###### Union 특징
-중복 제거[[]]
+중복 제거
 ###### ID가 12121인 교수보다 더 많은 급여를 받는 교수들의 ID 찾기 X, Theta join 표현
 ![[Pasted image 20250405230525.png]]
 rho는 바깥으로 해도 됨
 $$
 \pi_{i.ID} \left( \rho_i(\text{instructor}) \Join_{i.salary > j.salary \wedge j.ID = 12121} \rho_j(\text{instructor}) \right)
 $$
-###### numeric(p, d)
-Fixed point number, p: 전체 자리수, d: 소수점 오른쪽 자리수
-###### real, double precision
-부동 소수점 숫자 타입
-###### float(n)
-부동 소수점 타입, n은 정밀도 자리수로 n에 따라 real 또는 double precision으로 매핑
+
 ###### create
 create table r (A1 D1, A2 D2, ..., An Dn,...,)
 ###### insert
