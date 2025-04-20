@@ -536,17 +536,15 @@ create index id_idx on student(id)
 이중 선으로 표시되며 *엔티티 집합의 모든 엔티티가 관계 집합에 최소한 하나는 참여해야 한다*.
 ###### weak entity 어떻게 생겼는지, 어떻게 변환하는지
 이중 다이아몬드에서 화살표를 보내는 쪽
-강한 엔티티 집합의 PK를 포함하는 컬럼과 자신의 discriminate 컬럼으로 pk로 사용
+*강한 엔티티 집합의 PK를 포함하는 컬럼과 자신의 discriminate 컬럼으로 pk로 사용*
 ###### fk는 누가 가지고 있는가?
-화살표를 보내는 쪽, 즉 one 부분
+화살표를 보내는 쪽, 즉 many 부분
 ###### composite attributes는 어떻게 표현
 각 구성요소로 분리하여 속성으로 표현
 ###### Multivalued Attributes는 어떻게 표현
 pk + unique value를 포함해서 pk로 생성
 ###### Loosy Decomposition이란
 relation 분해시 Join을 해도 원래의 relation을 복원하지 못하는 상황
-###### atomic이란? atomic 하지 않은 도메인
-해당 도메인의 요소가 더 이상 나눌 수 없는 단위라는 의미
 ###### 1NF란?
 R의 모든 속성(attribute)의 도메인이 atomic하다
 ###### Atomic하지 않은 도메인의 예시:
