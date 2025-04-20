@@ -175,7 +175,7 @@ many-to-many 관계는 두 엔티티의 primary key와 관계의 설명 속성�
 예: advisor(s_id, i_id)
 ![[Pasted image 20250410141613.png|300]]
 ## 스키마의 중복 (Redundancy of Schemas)
-•	many-to-one 또는 one-to-many 관계에서 many 쪽이 total participation(?)일 경우, 관계를 별도 스키마로 만들지 않고 “many” 쪽 엔티티 스키마에 “one” 쪽의 primary key를 속성으로 추가함
+•	many-to-one 또는 one-to-many 관계에서 many 쪽이 total participation일 경우, 관계를 별도 스키마로 만들지 않고 “many” 쪽 엔티티 스키마에 “one” 쪽의 primary key를 속성으로 추가함
 #### example
 `inst_dept` 관계 대신, instructor 스키마에 dept_name 속성 추가 (dept_name이 fk의 역할을 함)
 	•	one-to-one 관계에서는 어느 한쪽을 “many”로 간주해 속성을 추가할 수 있다.

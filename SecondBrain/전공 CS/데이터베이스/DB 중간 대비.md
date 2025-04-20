@@ -555,6 +555,11 @@ many to many
 pk + unique value를 포함해서 pk로 생성
 ###### Loosy Decomposition이란
 relation 분해시 Join을 해도 원래의 relation을 복원하지 못하는 상황
+###### atomic이란? atomic 하지 않은 도메인
+해당 도메인의 요소가 더 이상 나눌 수 없는 단위라는 의미
+- Atomic하지 않은 도메인의 예시:
+	- 이름 집합(Set of names), 복합 속성(Composite attributes)
+	- CS101과 같이 분해 가능한 학번(ID) 형식
 ###### 1NF란?
 R의 모든 속성(attribute)의 도메인이 atomic하다
 - Atomic하지 않은 도메인의 예시:
