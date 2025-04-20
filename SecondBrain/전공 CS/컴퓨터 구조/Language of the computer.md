@@ -442,10 +442,6 @@ void sort (int v[], int n)
 }
 ```
 
-```
-
-```
-
 ![[Pasted image 20250327152351.png|350]]
 ![[Pasted image 20250327152337.png|400]]
 ![[Pasted image 20250327152413.png|350]]
