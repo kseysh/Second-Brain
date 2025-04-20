@@ -235,7 +235,7 @@ Procedure = 함수
 	- caller-saved register
 - $s0 – $s7: saved
 	- callee가 사용하고 다시 원상복구할 책임을 가짐
-	- callee-saved register
+	- *callee*-saved register
 - $gp: global pointer for static data
 - $sp: stack pointer
 	- stack 공간을 어디까지 사용하는지에 대한 포인터
