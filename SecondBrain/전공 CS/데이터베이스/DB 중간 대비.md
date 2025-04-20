@@ -599,5 +599,3 @@ dept_name을 결정하는 i_ID는 super key가 아니어서 BCNF 위배 (<u>i_ID
 => 이는 Dependency가 Preservation되지 않음 (독립적으로 f<sub>1</sub>을 만족시킬 수 없음, join을 해야 f<sub>1</sub>이 만족하는지 확인할 수 있음)
 ###### 3NF
 dept_name이 candidate key에 속해있다면 3NF만족 (이때는 Dependency Preservation을 만족함)
-###### Q
-A
