@@ -51,7 +51,7 @@ MIPS는 Big Endian을 사용한다.
 Load word to `$t0`
 dest src 순서
 ### `sw $t0, 8($s1)`
-Load word to `$t0`
+Store word to `$t0`
 dest src 순서
 #### example 1
 g = h + A\[8]
