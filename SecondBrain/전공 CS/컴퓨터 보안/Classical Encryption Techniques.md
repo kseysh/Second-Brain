@@ -63,7 +63,7 @@ general Caesar algorithm: `C = E(k , p) = (p + k) mod 26`
 ## Monoalphabetic Cipher :Countermeasure (대응책)
 ## Multiple-letter ciphers
 #### Playfair Cipher
-가장 잘 알려진 다중 문자 암호화 기법
+가장 잘 알려진 *다중 문자 암호화* 기법
 plaintext를 두 글자 쌍으로 만들고 이를 하나의 단위로 처리하여 변환한다.
 in -> GA, it -> KS 처럼 **같은 알파벳이지만, 다른 문자로 변경된다.**
 1. 같은 글자가 연달으면 특정 알파벳(x) 삽입
@@ -79,7 +79,7 @@ ba | lx | lo | on으로 나누고, 1을 적용 후 3,2,3,4의 규칙을 적용�
 ##### 알파벳 별 상대 빈도
 ![[Pasted image 20250325135043.png|300]]
 ## Polyalphabetic substitution cipher
-단순한 monoalphabetic Cipher보다 발전된 방식으로, plaintext를 암호화하는 동안 여러 개의 다른 단일 알파벳 치환 규칙을 사용
+단순한 monoalphabetic Cipher보다 발전된 방식으로, plaintext를 암호화하는 동안 *여러 개의 다른 단일 알파벳 치환 규칙*을 사용
 - 서로 관련된 여러 개의 monoalphabetic substitution rule이 사용됨
 - key를 통해 특정 변환에 사용할 규칙이 결정됨
 ### vigenere Cipher
