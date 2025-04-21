@@ -66,7 +66,7 @@ A. 기본: Job queue OS가 메모리 공간 할당: Ready queue
 ## Threads
 프로세스당 여러 개의 PC를 고려할 수 있음
 process state를 하나로 두고, execution stream을 여러개 두는 것
-# Process Creation and Termiation
+# Process Creation and Termination
 ## Process Creation
 프로세스 생성 두 가지 방법
 ### build from scratch
