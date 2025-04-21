@@ -345,7 +345,7 @@ turn을 자신으로 하고 실행하면, 서로 자신 먼저 들어가려고 �
 - 상호 배제
 	- `P[i]`는 `flag[j] == false`거나, `turn == i` 일때만 임계 구역에 진입함
 - Progress
-	- critical section 이후 `flag[i]`를 false로 하므로 progress 만족
+	- *critical section 이후 `flag[i]`를 false로 하므로 progress 만족*
 - bounded waiting
 	- 한 바퀴 돌면 항상 순서는 반대로 넘어가게 되어있음
 ###### peterson's solution이 현대 컴퓨터에서 조건을 만족하지 않는 이유
