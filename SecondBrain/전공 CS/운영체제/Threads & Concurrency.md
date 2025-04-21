@@ -29,7 +29,7 @@ multiprocessor(CPU 코어가 여러개) architecture의 장점을 가질 수 있
 	- resource ownership의 단위
 		- 프로세스 이미지를 저장하기 위한 가상 주소 공간 할당
 		- 파일, I/O 장치 등 일부 자원에 대한 제어 권한 보유
-	- execution 의 단위
+	- execution stream의 단위
 		- 제어 스레드를 가짐
 		- 실행 상태 및 dispatch 우선 순위를 가짐
 		- 프로세스 실행은 다른 프로세스와 교차되어 수행될 수 있음
