@@ -39,8 +39,8 @@ job to job transition을 빠르게 하기 위해 *여러 작업을 자기 테이
 ### 1960 - 1990
 - OS에 파일 시스템 추가
 - User는 System과 interacted함
-- Interactive time-sharing OS
-- Response time, protection 중요해짐
+- *Interactive time-sharing OS*
+- *Response time*, *protection* 중요해짐
 - PC OS
 ### 1990 ~ 
 - Internet acess가 built in
