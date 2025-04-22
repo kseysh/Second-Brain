@@ -299,7 +299,7 @@ Ready queue를 partitioning하여 큐를 분리한다
 ###### CFS에서 vruntime
 `vruntime += 실행시간 x ( 1024 / weight )` = 실행시간 x decay factor
 ###### 다중 프로세서 내에서 동일한 코어를 사용하는 경우 각 스케쥴링 방식
-- `Asymmetric multiprocessing`: 하나의 프로세서만 시스템 데이터 구조에 접근하여 데이터 공유에 대한 필요를 줄임
+- `Asymmetric multiprocessing`: 여러 CPU 중 **하나의 CPU가 시스템을 통제**하고, 나머지 CPU들은 **지정된 작업만 수행**하는 구조
 - `Symmetric multiprocessing, SMP`: 각 프로세서가 자체적으로 스케줄링을 수행하며, 모든 프로세스는 공통의 준비 큐에 있거나 각자 고유한 준비 큐를 가질 수 있음
 	- 현재 가장 일반적인 방식
 ###### SMP에서 ready queue 관리 방식
