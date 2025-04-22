@@ -382,8 +382,7 @@ do {
 	key = 1;
 	while (waiting[i] && key == 1)
 		key = test_and_set(&lock)); // 내가 기다리고 있고, key가 있으면 들어와서 key를 1로 변경
-	waiting[i] = false;
-	
+	waiting[i] = false; // 이거 꼭 써주기	
 		/* critical section */
 		
 	j = (i + 1) % n; // 내 옆에 있는 애한테 넘겨줄거임
