@@ -174,7 +174,7 @@ typedef struct {
 	- block: 해당 연산을 호출한 프로세스를 적절한 대기 큐에 넣음
 	- wakeup: 대기 큐에 있는 프로세스 중 하나를 제거하여 준비 큐(ready queue)로 이동시킴
 ![[Pasted image 20250410164722.png|400]]
-S: 현재 기다리고 있는 프로세스가 몇개 있는지 ex) s = -2면 2개의 프로세스가 대기 중
+S: 현재 기다리고 있는 프로세스가 몇 개 있는지 ex) s = -2면 2개의 프로세스가 대기 중
 
 ![[Pasted image 20250410164744.png|400]]
 disable -> enable 사이의 활동이 짧기 때문에 interrupt로 해결함
