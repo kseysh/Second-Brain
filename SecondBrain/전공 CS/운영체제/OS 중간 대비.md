@@ -31,7 +31,7 @@ Response time, protection 중요해짐
 - Multi tasking 중요
 - Multimedia support
 ###### System bus란?
-computer system에서 주요한 컴포넌트들의 연결
+computer  system에서 주요한 컴포넌트들의 연결
 ###### Bus component
 - Bus arbiter
 	- 버스를 관리한다.
