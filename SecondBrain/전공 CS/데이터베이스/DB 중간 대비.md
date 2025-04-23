@@ -315,7 +315,7 @@ delete from instructor
 delete from instructor
 where dept_name= 'Finance';
 ```
-###### - Watson 건물에 있는 학과(department)에 소속된 교수들(instructor)을 삭제
+###### Watson 건물에 있는 학과(department)에 소속된 교수들(instructor)을 삭제
 ```sql
 delete from instructor
 where dept_name in (select dept_name
