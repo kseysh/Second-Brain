@@ -285,7 +285,7 @@ int fact (int n) { // $a0에 저장됨
 
 ```
 fact:   slti $t0 $a0 1
-		beq $t0 $zero else // callee saved지만, 다시 사용할 일 없으므로 save하지 않아도 됨
+		beq $t0 $zero else // caller saved지만, 다시 사용할 일 없으므로 save하지 않아도 됨
 		addi $v0 $zero 1
 		jr $ra
 else:   addi $sp $sp -8
@@ -380,7 +380,7 @@ Jump는 text segment에서 어디든 타겟할 수 있다.
 - 표현은 28bit까지 할 수 있는데 target 주소는 32bit이다.
 	- 따라서, 4bit는 현재 PC의 상위 4bit로 채운다.
 ### **example**
-PC는 항상 다음 instruction의 주소를 가리킴
+**PC는 항상 다음 instruction의 주소를 가리킴**
 항상 주소는 4를 곱해서 이해해야 함
 ![[Pasted image 20250325144436.png|400]]
 ### Branch가 16bit offset으로 표현하기 너무 크다면,
