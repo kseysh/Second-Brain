@@ -82,12 +82,6 @@ select section.course_id, semester, year, title
 from section, course
 where section.course_id = course.course_id and dept_name = 'Comp. Sci.'
 ```
-###### name에 dar가 들어가는 교수의 이름 찾기
-```sql
-select name
-from instructor
-where name like '%dar%'
-```
 ###### name에 100%가 들어가는 교수의 이름 찾기
 ```sql
 select name
