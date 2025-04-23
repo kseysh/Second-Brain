@@ -122,7 +122,8 @@ instructor 엔티티에 dept_name 속성이 있을 때, instructor와 department
 ## Weak Entity sets
 - PK가 없는 엔티티 집합
 - 약한 엔티티 집합은 identifying (owner) entity set의 존재에 의존한다.
-- identifying entity set과는 전체(total)이고, identifying entity에서 약한 entity로의 일대다(one-to-many) 관계를 가져야 한다.
+- identifying entity set과는 total participantion을 가짐 
+- identifying entity에서 약한 entity로의 일대다(one-to-many) 관계를 가져야 한다.
 - 이러한 identifying 관계는 이중 다이아몬드(double diamond)로 표시된다.
 - 약한 엔티티 집합의 discriminator (또는 partial key)는 약한 엔티티 집합 내의 개별 엔티티들을 구분하는 속성들의 집합이다.
 - 약한 엔티티 집합의 primary key는 의존하고 있는 강한 엔티티 집합의 primary key와 약한 엔티티 집합의 discriminator로 구성된다.
@@ -148,7 +149,7 @@ section의 pk: (course_id, sec_id, semester, year)
 ex) `student(ID, name, tot_cred)`
 
 •	약한 엔티티 집합은 identifying 강한 엔티티 집합의 primary key를 포함하는 컬럼을 추가하여 테이블로 변환된다.
-ex) `section(course_id, sec_id, sem, year)`
+ex) section(<u>course_id</u>, <u>sec_id</u>, <u>sem</u>, <u>year</u>)
 ![[Pasted image 20250410135525.png|300]]
 ## Composite Attributes 복합 속성
 •	복합 속성은 각 구성 요소로 분리하여 속성으로 표현된다.
