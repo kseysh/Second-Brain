@@ -393,6 +393,7 @@ set tot_cred = ( select case
 ```sql
 create view v as <쿼리 표현식>
 ```
+
 ###### 급여 정보 없이 강사 정보를 보여주는 뷰, 뷰를 이용해 생물학과 소속 강사들의 이름 조회
 ```sql
 create view faculty as  
