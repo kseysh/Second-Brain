@@ -48,7 +48,7 @@ from instructor
 where dept_name ='Comp. Sci.' and salary > 80000
 ```
 ## Join절
-dept_name이 Comp.Sci이고고 section.course_id와 course.course_id가 같은 course ID, semester, year, title 찾기
+dept_name이 Comp.Sci이고 section.course_id와 course.course_id가 같은 course ID, semester, year, title 찾기
 ```sql
 select section.course_id, semester, year, title
 from section, course
