@@ -515,7 +515,7 @@ constraint spouse_ref foreign key (spouse) references person
 set constraints spouse_ref deferred;
 ```
 ###### index 생성
-create index id_idx on student(id)
+`create index id_idx on student(id)`
 ###### composite Attributes란?
 ![[Pasted image 20250408141008.png|500]]
 ###### Total Participation이란?
@@ -524,11 +524,11 @@ create index id_idx on student(id)
 이중 다이아몬드에서 화살표를 보내는 쪽
 *강한 엔티티 집합의 PK를 포함하는 컬럼과 자신의 discriminate 컬럼으로 pk로 사용*
 ###### many-to-one 또는 one-to-many 관계에서 many 쪽이 total participation일 경우 
-관계를 별도 스키마로 만들지 않고 “many” 쪽 엔티티 스키마에 “one” 쪽의 primary key를 속성으로 추가함
+관계를 별도 스키마로 만들지 않고 “one” 쪽 엔티티 스키마에 “many” 쪽의 primary key를 속성으로 추가함
 ###### many-to-one 또는 one-to-many 관계에서 many 쪽이 partial participation일 경우 
-“many” 쪽 엔티티 스키마에 “one” 쪽의 primary key를 속성으로 추가하던지, 안 하던지 고려해보아야 함
+“one” 쪽 엔티티 스키마에 “many” 쪽의 primary key를 속성으로 추가하던지, 안 하던지 고려해보아야 함
 ###### fk는 누가 가지고 있는가?
-화살표를 보내는 쪽, 즉 many 부분
+화살표를 보내는 쪽, 즉 one 부분
 ###### composite attributes는 어떻게 표현
 각 구성요소로 분리하여 속성으로 표현
 ###### Multivalued Attributes는 어떻게 표현
