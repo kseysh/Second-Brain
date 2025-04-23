@@ -534,6 +534,10 @@ create index id_idx on student(id)
 ###### weak entity 어떻게 생겼는지, 어떻게 변환하는지
 이중 다이아몬드에서 화살표를 보내는 쪽
 *강한 엔티티 집합의 PK를 포함하는 컬럼과 자신의 discriminate 컬럼으로 pk로 사용*
+###### many-to-one 또는 one-to-many 관계에서 many 쪽이 total participation일 경우 
+관계를 별도 스키마로 만들지 않고 “many” 쪽 엔티티 스키마에 “one” 쪽의 primary key를 속성으로 추가함
+###### many-to-one 또는 one-to-many 관계에서 many 쪽이 partial participation일 경우 
+“many” 쪽 엔티티 스키마에 “one” 쪽의 primary key를 속성으로 추가하던지, 안 하던지 고려해보아야 함
 ###### fk는 누가 가지고 있는가?
 화살표를 보내는 쪽, 즉 many 부분
 ###### composite attributes는 어떻게 표현
