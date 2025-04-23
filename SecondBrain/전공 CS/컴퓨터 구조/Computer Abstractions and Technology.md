@@ -62,7 +62,7 @@ CPI를 계산할 수 있도록 알아두자
 ![[Pasted image 20250311122716.png|300]]
 - 수행시간에 영향을 미치는 것
 	- algorithm: insturction count와 CPI에 영향을 줄 수 있다. (영향이 크게 작용할 수 있다.)
-	- Programming language: insturction count와 CPI에 영향을 줄 수 있다.
+	- Programming language: instruction count와 CPI에 영향을 줄 수 있다.
 	- Compiler: insturction count와 CPI에 영향을 줄 수 있다.
 	- ISA: insturction count와 CPI, T<sub>c</sub>(clock cycle time)에 영향을 줄 수 있다.
 ## Power (전력)
