@@ -176,11 +176,11 @@ where semester = ’Fall’ and year= 2009 and
 		from section
 		where semester = ’Spring’ and year= 2010);
 ```
-###### ID 10101을 가진 강사가 가르친 과정 섹션을 수강한 학생을 중복을 제외한 총 수 찾기
+###### ID 10101을 가진 강사가 가르친 과정 섹션을 수강한 학생을 중복을 제외한 총 수 찾기 (nested subquery 이용)
 ```sql
 select count (distinct ID)
 from takes
-where (course_id, sec_id, semester, year) in // 4개가 다 pk라 4개 다 써줘야 함
+where (course_id, sec_id, semester, year) in // 4개가 다 pk라 4개 다 써줘야 함 (중요)
 	(select course_id, sec_id, semester, year
 	from teaches
 	where teaches.ID= 10101);
