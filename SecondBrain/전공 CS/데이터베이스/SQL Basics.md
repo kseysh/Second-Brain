@@ -322,6 +322,7 @@ from dept_total, dept_total_avg
 where dept_total.value >= dept_total_avg.value;
 ```
 ### scalar subquery
+- Scalar Subquery란?→ 하나의 행에서 하나의 열(즉, 단일 값)만 반환하는 서브쿼리
 모든 부서의 이름과 교수의 수 찾기
 ```sql
 select dept_name,

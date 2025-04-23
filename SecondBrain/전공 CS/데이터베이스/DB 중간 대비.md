@@ -269,6 +269,8 @@ where avg_salary > 42000;
 ###### with
 with 절이 발생하는 쿼리에 대해서만 정의를 사용할 수 있는 temporary view를 정의하는 방법을 제공
 with name () as select...
+###### Scalar Subquery란?
+→ 하나의 행에서 하나의 열(즉, 단일 값)만 반환하는 서브쿼리
 ###### 모든 부서 중 최대 예산을 갖는 부서의 최대 예산 값 찾기 (with max_budget 활용)
 ```sql
 with max_budget (value) as
