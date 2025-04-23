@@ -1,4 +1,4 @@
-ㅋ## Array Doubling
+## Array Doubling
 한 요소를 복사하는데 드는 비용: t
 - (n+1)번째 요소 삽입이 배열 확장을 유발할 경우
 	- 이 배열 확장 작업의 비용은 t * n
