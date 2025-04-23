@@ -430,12 +430,13 @@ temp: $t0
 ![[Pasted image 20250327152149.png|300]]
 따로 k+1을 관리할 필요가 없다.
 ### Sort Procedure
+v in $a0, n in $a1, i in $s0, j in $s1
 ```c
 void sort (int v[], int n)
 {
 	int i, j;
 	for (i = 0; i < n; i += 1) {
-		for (j = i– 1; j >= 0 && v[j] > v[j + 1]; j -= 1) {
+		for (j = i – 1; j >= 0 && v[j] > v[j + 1]; j -= 1) {
 			swap(v,j);
 		}
 	}
