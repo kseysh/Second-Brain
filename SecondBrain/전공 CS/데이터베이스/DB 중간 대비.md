@@ -76,12 +76,6 @@ foreign key (Am, ..., An ) references r
 alter table r add A D
 ###### 컬럼 삭제
 alter table r drop A
-###### dept_name이 Comp. Sci dept이고, salary>8000인 instructor의 name 찾기
-```sql
-select name
-from instructor
-where dept_name ='Comp. Sci.' and salary > 80000
-```
 ###### dept_name이 Comp.Sci이고고 section.course_id와 course.course_id가 같은 course ID, semester, year, title 찾기 (x 이용)
 ```sql
 select section.course_id, semester, year, title
