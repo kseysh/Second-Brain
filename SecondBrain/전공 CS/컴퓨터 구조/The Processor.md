@@ -148,4 +148,8 @@ PCSrc: branch거나, 조건이 참일 때만 1
 ## ALU Control
 Load/Store: F = add
 Branch: F = subtract
-R-type: F depends onf 
+R-type: F depends on funct field
+
+opcode에서 파생된 2비트 ALUOp을 가정합니다 
+조합 논리는 ALU control를 파생합니다
+![[Pasted image 20250429231457.png|400]]
