@@ -190,3 +190,153 @@ Armstrong의 공리:
 	•	A → C를 G로 확장하여 AG → CG를 얻고, CG → I의 추이성을 통해 유도됨
 •	CG → HI
 	•	CG → I를 확장하여 CGI → I를 얻고, CG → H도 확장하여 CGI → H를 얻은 후, 추이성을 통해 CGI → HI 유도됨
+
+## F⁺ 계산 절차
+•	주어진 함수 종속성 집합 F의 클로저 F⁺를 계산하는 방법:
+F⁺ = F
+```c
+repeat
+	for each functional dependency f in F⁺
+		apply reflexivity and augmentation rules on f
+		add the resulting functional dependencies to F⁺
+	for each pair of functional dependencies f₁and f₂ in F⁺
+		if f₁and f₂ can be combined using transitivity
+			then add the resulting functional dependency to F⁺
+until F⁺ does not change any further
+```
+
+## Closure of Functional Dependencies
+•	속성 집합 α가 주어졌을 때, F에 대한 α의 클로저(α⁺)는
+α에 의해 함수적으로 결정(functionally determined)되는 모든 속성들의 집합이다.
+	•	α⁺를 계산하는 알고리즘:
+	•	result := α
+	•	result에 변화가 있는 동안 반복
+	•	F에 있는 각 종속성 β → γ에 대해
+	•	만약 β ⊆ result이면, result에 γ를 추가
+
+⸻
+
+속성 집합 클로저 예제
+	•	R = (A, B, C, G, H, I)
+	•	(AG)⁺ 계산:
+	1.	result = AG
+	2.	result = ABCG
+	3.	result = ABCGH
+	4.	result = ABCGHI
+	•	F = {A → B, A → C, CG → H, CG → I, B → H}
+	•	(A → B와 A → C 이용)
+	•	(CG → H이고, CG ⊆ AGBC)
+	•	(CG → I이고, CG ⊆ AGBCH)
+
+AG는 후보 키(candidate key)인가?
+	•	AG가 슈퍼 키(superkey)인가?
+	•	AG → R 인가? 즉, (AG)⁺ ⊇ R 인가?
+	•	AG의 부분집합이 슈퍼 키인가?
+	•	A → R 인가? (A)⁺ ⊇ R 인가?
+	•	G → R 인가? (G)⁺ ⊇ R 인가?
+
+⸻
+
+속성 클로저의 활용
+
+속성 클로저 알고리즘의 주요 활용:
+	•	슈퍼키(superkey) 테스트:
+	•	α⁺를 계산해서, α⁺가 R의 모든 속성을 포함하는지 확인
+	•	함수 종속성 테스트:
+	•	α → β가 F⁺에 포함되는지 확인하려면, α⁺를 계산하고 β ⊆ α⁺인지 확인
+	•	이 방법은 간단하고 효율적
+	•	F의 클로저 계산:
+	•	R의 모든 부분집합 γ에 대해 γ⁺를 계산하고, γ⁺의 모든 부분집합 S에 대해
+γ → S 형태의 함수 종속성을 출력
+
+⸻
+
+무손실 조인 분해 (Lossless-join Decomposition)
+	•	R = (R₁, R₂)인 경우, 가능한 모든 관계 r에 대해
+	•	r = πR₁(r) ⨝ πR₂(r)가 되어야 한다.
+	•	R을 R₁과 R₂로 분해했을 때 다음 중 하나라도 F⁺에 포함되면 무손실 조인 분해이다:
+	•	R₁ ∩ R₂ → R₁
+	•	R₁ ∩ R₂ → R₂
+	•	즉, R₁ ∩ R₂가 R₁ 또는 R₂의 슈퍼키이면 무손실 조인 분해가 된다.
+
+⸻
+
+예제
+	•	R = (A, B, C)
+	•	F = {A → B, B → C}
+
+1. 분해 방법:
+	•	R₁ = (A, B), R₂ = (B, C)
+	•	무손실 조인
+	•	R₁ ∩ R₂ = {B}, B → BC
+
+2. 또 다른 분해 방법:
+	•	R₁ = (A, B), R₂ = (A, C)
+	•	무손실 조인이지만
+	•	Dependency preserving이 아님 (B → C를 R₁, R₂만으로 검사할 수 없음)
+
+⸻
+
+종속성 보존 (Dependency Preservation)
+	•	Fi: Ri에만 포함된 속성으로 이루어진 F⁺의 부분집합
+	•	분해가 종속성 보존이면:
+	•	(F₁ ∪ F₂ ∪ … ∪ Fn)⁺ = F⁺
+	•	그렇지 않으면, 종속성 위반 검사를 위해 조인을 해야 해서 비용이 크다.
+
+⸻
+
+예제
+	•	R = (A, B, C)
+	•	F = {A → B, B → C}
+	•	Key = {A}
+	•	R은 BCNF가 아님
+	•	R₁ = (A, B), R₂ = (B, C)로 분해
+	•	R₁, R₂는 BCNF 만족
+	•	무손실 조인
+	•	종속성 보존
+
+⸻
+
+BCNF와 종속성 보존
+	•	항상 3NF로 무손실 조인, 종속성 보존이 가능하다.
+	•	항상 BCNF로 무손실 조인은 가능하지만, 종속성 보존은 항상 가능하지는 않다.
+
+예시:
+	•	R = (J, K, L)
+	•	F = {JK → L, L → K}
+	•	후보 키 = JK, JL
+	•	R은 BCNF가 아님
+	•	어떤 분해를 해도 JK → L 종속성을 보존할 수 없음
+	•	JK → L 검사를 위해 조인이 필요하다.
+
+⸻
+
+BCNF와 3NF 비교
+	•	3NF 분해:
+	•	무손실 조인 가능
+	•	종속성 보존 가능
+	•	BCNF 분해:
+	•	무손실 조인 가능
+	•	종속성 보존은 불확실
+
+⸻
+
+설계 목표 (Design Goals)
+
+관계형 데이터베이스 설계의 목표:
+	•	BCNF 만족
+	•	무손실 조인
+	•	종속성 보존
+
+이를 모두 달성할 수 없다면:
+	•	종속성 보존 포기
+	•	3NF 사용에 따른 중복 허용
+
+주의:
+	•	SQL은 슈퍼키 외에는 직접적으로 함수 종속성(FD)을 지정하는 방법을 제공하지 않는다.
+	•	Assertion을 통해 FD를 명시할 수는 있지만, 비용이 많이 들고 (게다가 대부분의 데이터베이스 시스템은 지원하지 않음)
+	•	설령 종속성 보존 분해를 했더라도, SQL만으로 키가 아닌 속성 집합에 대한 종속성 검증은 쉽지 않다.
+
+⸻
+
+추가로, 필요한 부분이 있으면 이어서 정리해줄까?
