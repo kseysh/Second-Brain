@@ -145,3 +145,7 @@ MemtoReg: 0 (register에 write을 하는 명령어)
 ![[Pasted image 20250416222607.png|400]]
 PCSrc: branch거나, 조건이 참일 때만 1
 
+## ALU Control
+Load/Store: F = add
+Branch: F = subtract
+R-type: F depends onf 
