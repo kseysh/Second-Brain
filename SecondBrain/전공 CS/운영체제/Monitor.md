@@ -45,21 +45,26 @@ busy => 자원이 사용되고 있는지
 		•	Concurrent Pascal 언어에서 구현된 모니터는 타협안 사용:
 			•	P가 signal을 호출하면 즉시 모니터를 나가고, Q는 재개됨
 
+## Monitor Implementation (signal and wait 방식)
 각 모니터 내 변수들
 ```c
 semaphore monitor_lock; // 초기값 1
 semaphore sig_lock;     // 초기값 0
 int sig_lock_count = 0;
 ```
-•	각 프로시저 F는 다음과 같이 대체됨:
+monitor 바깥에 queue가 2개 있음
+- entry queue
+- signaler queue
+이 두 큐를 관리하기 위해 semaphore를 이용 (monitor_lock, sig_lock)
 
+•	각 프로시저 F는 다음과 같이 대체됨:
 ```c
 wait(monitor_lock);
 // F 본문 ...
 if (sig_lock_count > 0)
-    signal(sig_lock);
+    signal(sig_lock); // signaler queue에 signal을 날림
 else
-    signal(monitor_lock);
+    signal(monitor_lock); // entry queue에 signal을 날림
 ```
 
 모니터 구현 시 조건 변수에 필요한 변수들
