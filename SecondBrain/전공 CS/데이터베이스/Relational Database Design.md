@@ -160,6 +160,11 @@ dept_name이 candidate key에 속해있다면 3NF만족 (이때는 Dependency Pr
 	•	각 관계 스키마가 좋은 형태를 만족해야 한다.
 	•	분해는 Lossless-Join Decomposition 이어야 한다. (BCNF도 Lossless-Join Decomposition을 지킴)
 	•	가능하다면, 종속성 보존(Dependency Preserving) 되는 분해가 바람직하다.
+
+중간
+
+---
+
 ## 함수적 종속성의 폐쇄(Closure of Functional Dependencies)
 •	함수적 종속성 집합 F가 주어졌을 때, F로부터 논리적으로 유도 가능한 모든 함수적 종속성이 존재한다.
 #### example
@@ -205,49 +210,54 @@ repeat
 until F⁺ does not change any further
 ```
 
-## Closure of Functional Dependencies
-•	속성 집합 α가 주어졌을 때, F에 대한 α의 클로저(α⁺)는
-α에 의해 함수적으로 결정(functionally determined)되는 모든 속성들의 집합이다.
-	•	α⁺를 계산하는 알고리즘:
-	•	result := α
-	•	result에 변화가 있는 동안 반복
-	•	F에 있는 각 종속성 β → γ에 대해
-	•	만약 β ⊆ result이면, result에 γ를 추가
+## 함수 종속성 클로저 (Closure of Functional Dependencies)
+•	추가 규칙:
+•	α → β이고 α → γ이면, α → βγ이다 (union)
+•	α → βγ이면, α → β이고 α → γ이다 (decomposition)
+•	α → β이고 γβ → δ이면, αγ → δ이다 (pseudotransitivity)
 
-⸻
+위 규칙들은 Armstrong의 공리(Armstrong’s axioms)로부터 유도할 수 있다.
+## 속성 집합 클로저 (Closure of Attribute Sets)
+•	속성 집합 α가 주어졌을 때, F에 대해 α의 클로저(closure)를 α⁺로 정의한다.
+α⁺는 α에 의해 F 하에서 함수적으로 결정되는 속성들의 집합이다.
+•	α⁺를 계산하는 알고리즘:
 
-속성 집합 클로저 예제
-	•	R = (A, B, C, G, H, I)
-	•	(AG)⁺ 계산:
-	1.	result = AG
-	2.	result = ABCG
-	3.	result = ABCGH
-	4.	result = ABCGHI
-	•	F = {A → B, A → C, CG → H, CG → I, B → H}
-	•	(A → B와 A → C 이용)
-	•	(CG → H이고, CG ⊆ AGBC)
-	•	(CG → I이고, CG ⊆ AGBCH)
-
-AG는 후보 키(candidate key)인가?
-	•	AG가 슈퍼 키(superkey)인가?
-	•	AG → R 인가? 즉, (AG)⁺ ⊇ R 인가?
-	•	AG의 부분집합이 슈퍼 키인가?
-	•	A → R 인가? (A)⁺ ⊇ R 인가?
-	•	G → R 인가? (G)⁺ ⊇ R 인가?
-
-⸻
-
-속성 클로저의 활용
-
-속성 클로저 알고리즘의 주요 활용:
-	•	슈퍼키(superkey) 테스트:
+```c
+result := α;
+while (result에 변화가 있을 동안) do
+    F의 각 β → γ에 대해
+        if β ⊆ result이면
+            result := result ∪ γ
+end
+```
+## 속성 집합 클로저 예제 (Example of Attribute Set Closure)
+•	R = (A, B, C, G, H, I)
+•	F = {
+A → B
+A → C
+CG → H
+CG → I
+B → H
+}
+•	(AG)⁺ 계산 과정:
+1.	result = AG
+2.	result = ABCG (A → C와 A → B를 적용)
+3.	result = ABCGH (CG → H, 그리고 CG ⊆ AGBC)
+4.	result = ABCGHI (CG → I, 그리고 CG ⊆ AGBCH)
+•	AG가 후보 키(candidate key)인가?
+1.	AG가 슈퍼 키(super key)인가?
+	1.	AG → R인가? == (AG)⁺ ⊇ R 인가?
+2.	AG의 부분집합이 슈퍼 키인가?
+	1.	A → R인가? == (A)⁺ ⊇ R 인가?
+	2.	G → R인가? == (G)⁺ ⊇ R 인가?
+## 속성 클로저의 활용
+•	슈퍼키(superkey) 테스트:
 	•	α⁺를 계산해서, α⁺가 R의 모든 속성을 포함하는지 확인
-	•	함수 종속성 테스트:
+•	함수 종속성 테스트:
 	•	α → β가 F⁺에 포함되는지 확인하려면, α⁺를 계산하고 β ⊆ α⁺인지 확인
 	•	이 방법은 간단하고 효율적
-	•	F의 클로저 계산:
-	•	R의 모든 부분집합 γ에 대해 γ⁺를 계산하고, γ⁺의 모든 부분집합 S에 대해
-γ → S 형태의 함수 종속성을 출력
+•	F의 클로저 계산:
+	•	R의 모든 부분집합 γ에 대해 γ⁺를 계산하고, γ⁺의 모든 부분집합 S에 대해 γ → S 형태의 함수 종속성을 출력
 
 ⸻
 
