@@ -35,7 +35,6 @@ acquire(time) => time만큼 자원을 할당받아 사용
 release() => 자원 해제
 busy => 자원이 사용되고 있는지
 여기서 x.wait(time)에서의 time => 우선 순위를 나타내기 위해 사용 (낮은 time 먼저 깨우기로 약속함)
-
 ### Condition variable choices
 •	프로세스 P가 x.signal()을 호출하고, 프로세스 Q가 x.wait()으로 중단되어 있는 경우 다음에 어떤 일이 일어나야 하는가?
 	•	Q와 P는 동시에 실행될 수 없음. Q가 재개된다면 P는 대기해야 함
@@ -47,21 +46,24 @@ busy => 자원이 사용되고 있는지
 			•	P가 signal을 호출하면 즉시 모니터를 나가고, Q는 재개됨
 
 각 모니터 내 변수들
-
+```c
 semaphore monitor_lock; // 초기값 1
 semaphore sig_lock;     // 초기값 0
 int sig_lock_count = 0;
+```
+•	각 프로시저 F는 다음과 같이 대체됨:
 
-	•	각 프로시저 F는 다음과 같이 대체됨:
-
+```c
 wait(monitor_lock);
 // F 본문 ...
 if (sig_lock_count > 0)
     signal(sig_lock);
 else
     signal(monitor_lock);
+```
 
 모니터 구현 시 조건 변수에 필요한 변수들
-
+```c
 int x_count;        // 초기값 0
 semaphore x_sem;    // 초기값 0
+```
