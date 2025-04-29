@@ -29,18 +29,22 @@
 
 •	조건 변수를 갖는 모니터
 ![[Pasted image 20250429170028.png|300]]
-
+일반적으로, x.wait(time)에서의 time => timeout 값으로, 기다리는 maximum 시간을 정해줌
 ![[Pasted image 20250429170044.png|200]]
+acquire(time) => time만큼 자원을 할당받아 사용
+release() => 자원 해제
+busy => 자원이 사용되고 있는지
+여기서 x.wait(time)에서의 time => 우선 순위를 나타내기 위해 사용 (낮은 time 먼저 깨우기로 약속함)
 
-조건 변수 동작 방식 선택
-	•	프로세스 P가 x.signal()을 호출하고, 프로세스 Q가 x.wait()으로 중단되어 있는 경우 다음에 어떤 일이 일어나야 하는가?
+### Condition variable choices
+•	프로세스 P가 x.signal()을 호출하고, 프로세스 Q가 x.wait()으로 중단되어 있는 경우 다음에 어떤 일이 일어나야 하는가?
 	•	Q와 P는 동시에 실행될 수 없음. Q가 재개된다면 P는 대기해야 함
-	•	가능한 선택지:
+•	가능한 선택지:
 	•	Signal and wait : P는 Q가 모니터를 나가거나 다른 조건을 기다릴 때까지 대기
 	•	Signal and continue : Q는 P가 모니터를 나가거나 다른 조건을 기다릴 때까지 대기
 	•	두 방식 모두 장단점이 있으며 언어 구현자가 선택할 수 있음
-	•	Concurrent Pascal 언어에서 구현된 모니터는 타협안 사용:
-	•	P가 signal을 호출하면 즉시 모니터를 나가고, Q는 재개됨
+		•	Concurrent Pascal 언어에서 구현된 모니터는 타협안 사용:
+			•	P가 signal을 호출하면 즉시 모니터를 나가고, Q는 재개됨
 
 각 모니터 내 변수들
 
