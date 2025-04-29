@@ -72,3 +72,5 @@ else
 int x_count;        // 초기값 0
 semaphore x_sem;    // 초기값 0
 ```
+
+![[Pasted image 20250429174036.png]]
