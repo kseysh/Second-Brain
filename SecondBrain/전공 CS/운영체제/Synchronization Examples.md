@@ -107,8 +107,6 @@ semaphore rw_mutex = 1;
 semaphore mutex = 1;
 int read_count = 0;
 semaphore queue = 1;  (Writer가 수행 중일 때 새 Reader를 차단)
-#### Excercise -  
-Writer 코드에 wait(queue)와 signal(queue)를 적절히 삽입
 ###### Writer
 ```cpp
 do {
@@ -132,7 +130,8 @@ do{
 		wait(rw_mutex);
 		
 	signal(mutex);
-	
+	signal(queue);
+
 	/ * reading is performed */
 	
 	wait(mutex);
@@ -142,8 +141,11 @@ do{
 		signal(rw_mutex);
 		
 	signal(mutex);
+	
 } while (true);
 ```
+signal(queue)의 위치에 대해서 잘 고민해보자
+
 ## 식사하는 철학자 문제
 •	철학자들은 생각과 식사를 번갈아 함
 •	이웃 철학자와 상호작용하지 않으며, 식사를 위해 가끔씩 젓가락 두 개를 하나씩 집어 들려고 시도
