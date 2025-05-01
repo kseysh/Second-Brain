@@ -78,45 +78,69 @@ do {
   signal(rw_mutex);
 } while (true);
 ```
-
 ### Reader 프로세스 구조
 ```cpp
 do {
   wait(mutex);
   read_count++;
   if (read_count == 1)
-    wait(rw_mutex);
-  signal(mutex);
+    wait(rw_mutex); // 최초로 진입하는 reader만 이 과정 수행
+  signal(mutex); // 들어왔으니 read_count에 대한 접근 권한을 해제해줌
 
   /* 읽기 작업 수행 */
 
   wait(mutex);
   read_count--;
   if (read_count == 0)
-    signal(rw_mutex);
+    signal(rw_mutex); // 남은 Reader가 아무도 없으면 Writer가 들어올 수 있도록 signal(rw_mutex)를 날려줌
   signal(mutex);
 } while (true);
 ```
-
-
-
-⸻
-
-읽기-쓰기 문제의 변형
-	•	첫 번째 변형 (Reader 우선): Writer가 접근 권한을 얻지 않은 이상 Reader는 기다리지 않음
-	•	두 번째 변형 (Writer 우선): Writer가 대기 중이면 가능한 빨리 쓰기 수행
-	•	두 방식 모두 기아(starvation) 문제가 발생할 수 있으며, 이를 해결하기 위한 다양한 방식 존재
-	•	일부 시스템에서는 커널이 reader-writer lock을 제공해 문제를 해결함
-
-Writer 우선 구현 예
+## Readers-Writers Problem Variations
+•	First variation (Reader 우선): Writer가 접근 권한을 얻지 않은 이상 Reader는 기다리지 않음
+•	Second variation (Writer 우선): Writer가 대기 중이면 가능한 빨리 쓰기 수행
+•	두 방식 모두 기아(starvation) 문제가 발생할 수 있으며, 이를 해결하기 위한 다양한 방식 존재
+•	일부 시스템에서는 커널이 reader-writer lock을 제공해 문제를 해결함
+## Readers-Writers Problem - Writer preference
 
 semaphore rw_mutex = 1;
 semaphore mutex = 1;
 int read_count = 0;
-semaphore queue = 1; // Writer가 수행 중일 때 새 Reader를 차단
-
-	•	[연습] Writer 코드에 wait(queue)와 signal(queue)를 적절히 삽입
-
+semaphore queue = 1;  (Writer가 수행 중일 때 새 Reader를 차단)
+#### Excercise -  Writer 코드에 wait(queue)와 signal(queue)를 적절히 삽입
+###### Reader
+```cpp
+do {
+	wait (queue);
+	wait (rw_mutex);
+	
+	/* writing is performed */
+	
+	signal(rw_mutex);
+	signal(queue);
+} while (true);
+```
+###### Writer
+```cpp
+do{
+	wait(mutex);
+	
+	read_count++;
+	if (read_count == 1)
+		wait(rw_mutex);
+		
+	signal(mutex);
+	
+	/ * reading is performed */
+	
+	wait(mutex);
+		
+read_count--;
+if (read_count == 0)
+signal(rw_mutex);
+signal(mutex);
+} while (true);
+```
 ⸻
 
 식사하는 철학자 문제 (1)
