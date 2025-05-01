@@ -50,7 +50,7 @@ field - physical적인 측면에서의 attribute
 	- B: 하나의 블록에 담을 수 있는 레코드 수
 ## Fixed-Length Records
 ![[Pasted image 20250501140222.png|300]]
-Linear I/O : O(N/B) -> N개의 데이터를 B 
+Linear I/O : O(N/B) -> N개의 데이터를 B 블록 단위로 가져올 때의 시간 복잡도
 
 단순한 접근 방식:
 	•	i번째 레코드를 바이트 n * (i - 1)부터 저장 (n은 각 레코드 크기)
@@ -59,9 +59,11 @@ Linear I/O : O(N/B) -> N개의 데이터를 B
 레코드 i의 삭제:
 - (단순 방식)
 	- 레코드 i+1부터 n까지 i부터 n-1까지 이동
+	- O(N/B) I/O 발생
 - (개선 방식)
 	- 레코드 n을 i에 이동
 	- 이동하지 않고 삭제된 레코드들을 자유 리스트로 연결
+	- O(1) I/O 발생
 ![[Pasted image 20250501140359.png|200]]
 ![[Pasted image 20250501140532.png|400]]
 Einstein을 삭제한 경우
