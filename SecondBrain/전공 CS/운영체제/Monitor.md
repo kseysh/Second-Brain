@@ -29,6 +29,7 @@
 
 •	조건 변수를 갖는 모니터
 ![[Pasted image 20250429170028.png|300]]
+그림에서 보이는 entry queue는 monitor lock queue이고, sig_lock queue가 하나 더 있다. (sig_lock queue에는 돌다가 나간 애들이 있음)
 일반적으로, x.wait(time)에서의 time => timeout 값으로, 기다리는 maximum 시간을 정해줌
 
 #### Monitor - Code Example
@@ -93,5 +94,20 @@ if (x_count > 0) { // x에 기다리는 애가 있는지 확인
 	signal(x_sem); // 일어나
 	wait(sig_lock); // 난 잘게
 	sig_lock_count--; // 나 일어남
+}
+```
+
+## Signal and Continue
+```cpp
+/* x.wait */
+add current_thread to x.queue; // x_counter++
+signal(monitor_lock);
+block current_thread; // wait(x_sem)
+
+acquire monitor_lock // wait(monitor_lock)
+
+/* x.signal */
+if(!x.queue.empty()){ // x.count > 0
+	move one thread from x.queue to ready queue; // signal(x_sem)
 }
 ```
