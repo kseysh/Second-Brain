@@ -107,8 +107,9 @@ semaphore rw_mutex = 1;
 semaphore mutex = 1;
 int read_count = 0;
 semaphore queue = 1;  (Writer가 수행 중일 때 새 Reader를 차단)
-#### Excercise -  Writer 코드에 wait(queue)와 signal(queue)를 적절히 삽입
-###### Reader
+#### Excercise -  
+Writer 코드에 wait(queue)와 signal(queue)를 적절히 삽입
+###### Writer
 ```cpp
 do {
 	wait (queue);
@@ -120,9 +121,10 @@ do {
 	signal(queue);
 } while (true);
 ```
-###### Writer
+###### Reader
 ```cpp
 do{
+	wait(queue);
 	wait(mutex);
 	
 	read_count++;
@@ -135,19 +137,18 @@ do{
 	
 	wait(mutex);
 		
-read_count--;
-if (read_count == 0)
-signal(rw_mutex);
-signal(mutex);
+	read_count--;
+	if (read_count == 0)
+		signal(rw_mutex);
+		
+	signal(mutex);
 } while (true);
 ```
-⸻
-
-식사하는 철학자 문제 (1)
-	•	철학자들은 생각과 식사를 번갈아 함
-	•	이웃 철학자와 상호작용하지 않으며, 식사를 위해 가끔씩 젓가락 두 개를 하나씩 집어 들려고 시도
-	•	식사를 위해 두 젓가락이 모두 필요하며, 식사 후에는 두 젓가락 모두 내려놓음
-	•	5명의 철학자 예시
+## 식사하는 철학자 문제
+•	철학자들은 생각과 식사를 번갈아 함
+•	이웃 철학자와 상호작용하지 않으며, 식사를 위해 가끔씩 젓가락 두 개를 하나씩 집어 들려고 시도
+•	식사를 위해 두 젓가락이 모두 필요하며, 식사 후에는 두 젓가락 모두 내려놓음
+•	5명의 철학자 예시
 
 공유 데이터
 	•	밥그릇 (데이터 집합)
