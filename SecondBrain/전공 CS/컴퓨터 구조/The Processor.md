@@ -151,5 +151,21 @@ Branch: F = subtract
 R-type: F depends on funct field
 
 opcode에서 파생된 2비트 ALUOp을 가정합니다 
-조합 논리는 ALU control를 파생합니다
+Combinational logic derives ALU control
 ![[Pasted image 20250429231457.png|400]]
+## The Main Control Unit
+Control signals derived from instruction
+![[Pasted image 20250501150833.png|400]]
+## Datapath with Control
+![[Pasted image 20250501150938.png|500]]
+## R-Type Instruction
+![[Pasted image 20250501151055.png|500]]
+## Load Instruction
+![[Pasted image 20250501151112.png|500]]
+## Branch on Equal Instruction
+![[Pasted image 20250501151134.png|500]]
+## Datapath with Jumps Added
+target PC = • Top 4 bits of old PC +26-bit jump address
+
+• 00
+![[Pasted image 20250501151205.png|500]]
