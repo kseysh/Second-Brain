@@ -1,39 +1,54 @@
-동기화의 고전적인 문제들
-	•	새로운 동기화 기법을 테스트하는 데 사용되는 고전적인 문제들
+## 동기화의 고전적인 문제들
+•	새로운 동기화 기법을 테스트하는 데 사용되는 고전적인 문제들
 	•	유한 버퍼 문제 (Bounded-Buffer Problem)
 	•	읽기-쓰기 문제 (Readers and Writers Problem)
 	•	식사하는 철학자 문제 (Dining-Philosophers Problem)
-
-⸻
-
-유한 버퍼 문제 (1)
-	•	6장에서 다룬 소비자-생산자 문제로 돌아가기
-	•	n개의 버퍼가 있으며, 각 버퍼는 하나의 항목만 저장 가능
+## Bounded-Buffer Problem
+```cpp
+/* Producer */
+while (true) {
+	/* produce an item in next produced */
+	while (counter == BUFFER_SIZE) ;
+	/* do nothing */
+	buffer[in] = next_produced;
+	in = (in + 1) % BUFFER_SIZE;
+	counter++;
+}
+/* Consumer */
+while (true) {
+	while (counter == 0);
+	/* do nothing */
+	next_consumed = buffer[out];
+	out = (out + 1) % BUFFER_SIZE;
+	counter--;
+	/* consume the item in next consumed */
+}
+```
+•	n개의 버퍼가 있으며, 각 버퍼는 하나의 항목만 저장 가능
 	•	버퍼 크기 = n
-	•	세마포어 mutex는 1로 초기화됨
-	•	세마포어 full은 0으로 초기화됨
-	•	세마포어 empty는 n으로 초기화됨
-
-생산자 프로세스 구조
-
+•	세마포어 mutex는 1로 초기화됨 (mutex -> buffer 접근에 대한 mutual exclusion 보장하는 semaphore)
+•	세마포어 full은 0으로 초기화됨  (full -> n개 중에 몇 개가 사용되고 있는지)
+•	세마포어 empty는 n으로 초기화됨 (empty -> n개 중에 비어있는 buffer의 수)
+### 생산자 프로세스 구조
+```cpp
 do {
   …
   /* next_produced에 항목을 생성 */
   …
-  wait(empty);
-  wait(mutex);
+  wait(empty); // 접근 가능한 빈 semaphore가 있는지 check
+  wait(mutex); // buffer는 공유객체이므로 잠그고 들어감
   …
   /* next_produced를 버퍼에 추가 */
   …
-  signal(mutex);
-  signal(full);
+  signal(mutex); // 
+  signal(full); // 
 } while (true);
-
-소비자 프로세스 구조
-
+```
+### 소비자 프로세스 구조
+```cpp
 do {
-  wait(full);
-  wait(mutex);
+  wait(full); // 채워진 data가 있는지 
+  wait(mutex); // 
   …
   /* 버퍼에서 항목을 제거하여 next_consumed에 저장 */
   …
@@ -43,6 +58,7 @@ do {
   /* next_consumed에 있는 항목을 소비 */
   …
 } while (true);
+```
 
 
 
