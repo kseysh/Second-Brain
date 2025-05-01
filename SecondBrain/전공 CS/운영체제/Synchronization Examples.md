@@ -47,45 +47,40 @@ do {
 ### 소비자 프로세스 구조
 ```cpp
 do {
-  wait(full); // 채워진 data가 있는지 
-  wait(mutex); // 
+  wait(full); // buffer에 유효한 data가 채워졌는지 check
+  wait(mutex); // buffer는 공유객체이므로 잠그고 들어감
   …
   /* 버퍼에서 항목을 제거하여 next_consumed에 저장 */
   …
-  signal(mutex);
-  signal(empty);
+  signal(mutex); // 
+  signal(empty); // 
   …
   /* next_consumed에 있는 항목을 소비 */
   …
 } while (true);
 ```
-
-
-
-⸻
-
-읽기-쓰기 문제 (1)
-	•	하나의 데이터 집합을 여러 동시 실행 프로세스가 공유함
+## Readers-Writers Problem
+•	하나의 데이터 집합을 여러 동시 실행 프로세스가 공유함
 	•	Reader(읽기 전용): 데이터를 읽기만 하고 갱신하지 않음
 	•	Writer(쓰기 가능): 데이터를 읽고 쓸 수 있음
-	•	문제: 여러 Reader가 동시에 읽을 수 있도록 허용하되, Writer는 단독으로 접근해야 함
-	•	Reader와 Writer 우선순위에 따라 여러 변형 존재
-	•	공유 데이터
-	•	데이터 집합
-	•	세마포어 rw_mutex = 1
-	•	세마포어 mutex = 1
+•	문제: 여러 Reader가 동시에 읽을 수 있도록 허용하되, Writer는 단독으로 접근해야 함 (Write 중 다른 Reader가 읽어도 안 됨)
+•	Reader와 Writer 우선순위에 따라 여러 변형 존재
+•	공유 데이터
+	•	Data Set (Reader/Writer가 읽고 쓰려고 하는 데이터)
+	•	세마포어 rw_mutex = 1 (하나의 writer만 접근하도록 하는 mutex)
+	•	세마포어 mutex = 1 (read_count 접근 통제용 mutex)
 	•	정수 read_count = 0
-
-Writer 프로세스 구조
-
+### Writer 프로세스 구조
+```cpp
 do {
   wait(rw_mutex);
   /* 쓰기 작업 수행 */
   signal(rw_mutex);
 } while (true);
+```
 
-Reader 프로세스 구조
-
+### Reader 프로세스 구조
+```cpp
 do {
   wait(mutex);
   read_count++;
@@ -101,6 +96,7 @@ do {
     signal(rw_mutex);
   signal(mutex);
 } while (true);
+```
 
 
 
