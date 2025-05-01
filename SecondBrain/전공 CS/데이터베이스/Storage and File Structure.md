@@ -23,6 +23,8 @@
 		•	메인 메모리보다 훨씬 느림
 		•	데이터를 접근하려면 디스크에서 메인 메모리로 이동 후 사용, 저장 시 다시 디스크로 기록해야 함
 ## 파일 조직
+record - physical적인 측면에서의 tuple
+field - physical적인 측면에서의 attribute
 - 데이터베이스는 파일들의 모음으로 저장됨.
 	- 각 파일은 record들의 순차열이며,
 		- 하나의 record는 필드들의 순차열이다.
@@ -33,23 +35,27 @@
 	•	레코드 크기는 고정
 	•	파일 하나에는 한 가지 타입의 레코드만 존재
 	•	다른 릴레이션은 서로 다른 파일에 저장
+- Two types of records
+	- Fixed-length records
+	- Variable-length records
+## Externa-Mem
 ## Fixed-Length Records
-record - physical적인 측면에서의 tuple
-field - physical적인 측면에서의 attribute
+![[Pasted image 20250501140222.png|300]]
 
 단순한 접근 방식:
 	•	i번째 레코드를 바이트 n * (i - 1)부터 저장 (n은 각 레코드 크기)
 	•	접근은 단순하지만 레코드가 블록 경계를 넘을 수 있음
 	•	일반적 가정: 레코드는 블록 경계를 넘지 않도록 함
-
 레코드 i의 삭제:
-대안
-	•	(단순 방식) 레코드 i+1부터 n까지 i부터 n-1까지 이동
-	•	(개선 방식)
-	•	레코드 n을 i에 이동
-	•	이동하지 않고 삭제된 레코드들을 자유 리스트로 연결
+- (단순 방식)
+	- 레코드 i+1부터 n까지 i부터 n-1까지 이동
+- (개선 방식)
+	- 레코드 n을 i에 이동
+	- 이동하지 않고 삭제된 레코드들을 자유 리스트로 연결
+![[Pasted image 20250501140359.png|200]]
+![[Pasted image 20250501140532.png|400]]
+Einstein을 삭제한 경우
 
-⸻
 
 자유 리스트 유지
 	•	파일 헤더에 첫 번째 삭제된 레코드의 주소 저장
