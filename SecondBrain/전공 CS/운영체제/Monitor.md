@@ -51,7 +51,7 @@ busy => 자원이 사용되고 있는지
 ```c
 semaphore monitor_lock; // 초기값 1
 semaphore sig_lock;     // 초기값 0
-int sig_lock_count = 0;
+int sig_lock_count = 0; // sig_lock 날리고 대기하는 프로세스 수
 ```
 monitor 바깥에 queue가 2개 있음
 - entry queue
@@ -61,7 +61,9 @@ monitor 바깥에 queue가 2개 있음
 •	각 프로시저 F는 다음과 같이 대체됨:
 ```c
 wait(monitor_lock);
-// F 본문 ...
+
+// body F ...
+
 if (sig_lock_count > 0)
     signal(sig_lock); // signaler queue에 signal을 날림
 else
@@ -70,8 +72,26 @@ else
 
 모니터 구현 시 조건 변수에 필요한 변수들
 ```c
-int x_count;        // 초기값 0
-semaphore x_sem;    // 초기값 0
+int x_count;        // 초기값 0 , x에서 기다리는 프로세스 수
+semaphore x_sem;    // 초기값 0 , x에 대한 semaphore
 ```
 
-![[Pasted image 20250429174036.png]]
+```cpp
+/* x.wait */
+x_count++; // 잔다고 표시
+if (sig_lock_count > 0)
+	signal(sig_lock); // 누군가를 깨움
+else
+	signal(monitor_lock); // 누군가를 깨움
+wait(x_sem); // 쿨쿨
+x_count--; // 일어나서 다 기다렸으니 나갈거라서 x_count를 감소
+// 잔다고 표시하고, 누군갈 깨우고, 잠들기
+
+/* x.signal */
+if (x_count > 0) { // x에 기다리는 애가 있는지 확인
+	sig_lock_count++; // sig_lock queue에서 잠들거야
+	signal(x_sem); // 일어나
+	wait(sig_lock); // 난 잘게
+	sig_lock_count--; // 나 일어남
+}
+```
