@@ -62,3 +62,9 @@ opad: 0x5C repeated
 MAC 생성과정에 의해 생성된 TAG를 Plain text로 보고, 원래의 plain text와 같이 모아서 encryption하는 것으로 볼 수 있음
 ## SP 800-90Ar1
 ![[Pasted image 20250501204645.png|500]]
+## Summary
+MAC이 무엇인지
+Hash를 기반으로 MAC을 어떻게 만드는 지
+CBC-MAC이 문제가 있으니 어떻게 개선하는지
+인증과 암호화를 동시에 하는 두 가지 방법
+Hash 또는 HMAC으로 난수 생성을 어떻게 하는지
