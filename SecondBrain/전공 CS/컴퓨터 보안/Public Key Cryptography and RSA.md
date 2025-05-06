@@ -93,6 +93,15 @@ ECB mode처럼 plain text를 작은 숫자로 쪼개고, 첫 번째 block의 e�
 하지만, 이는 너무 연산이 시간이 오래걸리게 되어 이렇게 잘 사용하지는 않는다. 
 ##### Hibrid encryption
 Key encapsulation + Data encryption
+encapsulated된 key인 C는 Alice만 복원할 수 있게 된다.
+공개키 암호로 key를 encapsulation한 것과 Cipher text를 보내주고, 그 세션 key를 복원한 Alice가 실제 bulk 데이터에 대한 decryption을 할 수 있다.
+## RSA encryption vs. digital signature
+![[Pasted image 20250506185921.png|400]]
+### RSA digital signature
+![[Pasted image 20250506190031.png|400]]
+메시지 M과 전자서명 S를 같이 보냄
+
+
 
 
 모듈러 산술에서의 지수 계산
