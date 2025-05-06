@@ -43,7 +43,8 @@ opad: 0x5C repeated
 	•	암호화 후 인증: GCM (Galois CTR 모드)
 	•	독립적으로 암호화 및 인증: 안전하지 않음
 •	각 방식은 복호화와 검증이 모두 명확함
-## 카운터 + CBC-MAC 인증된 암호화(CCM)
+## Counter + CBC-MAC 인증된 암호화(CCM)
+=> Encrypt는 counter mode로 하고, 암호화는 CBC-MAC을 사용하겠다는 의미
 •	NIST는 IEEE 802.11 WiFi 무선 근거리 통신망의 보안 요구사항을 지원하기 위해 CCM을 표준화함.
 •	인증된 암호화를 위한 ~~Encrypt-and-MAC~~ 방식의 변형
 	•	Encrypt-and-MAC 대신 사용된 방식: 인증(MAC) 후 암호화 (Authenticate then Encrypt)
@@ -56,5 +57,7 @@ opad: 0x5C repeated
 •	단일 키 K가 암호화 및 MAC 알고리즘 모두에 사용됨
 ## Counter with CBC-MAC (CCM)
 ![[Pasted image 20250501204625.png|400]]
+위 부분: 인증하기 위한 tag를 생성하는 부분
+아래 부분: Encryption하는 부분
 ## SP 800-90Ar1
 ![[Pasted image 20250501204645.png|500]]
