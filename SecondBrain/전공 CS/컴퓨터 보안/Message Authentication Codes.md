@@ -59,5 +59,6 @@ opad: 0x5C repeated
 ![[Pasted image 20250501204625.png|400]]
 위 부분: 인증하기 위한 tag를 생성하는 부분
 아래 부분: Encryption하는 부분
+MAC 생성과정에 의해 생성된 TAG를 Plain text로 보고, 원래의 plain text와 같이 모아서 encryption하는 것으로 볼 수 있음
 ## SP 800-90Ar1
 ![[Pasted image 20250501204645.png|500]]
