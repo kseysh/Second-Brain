@@ -7,7 +7,7 @@
 	•	이 값이 인증자의 역할을 함
 ## Basic Uses of Message Authentication code (M A C)
 ![[Pasted image 20250501203514.png|400]]
-## 해시 함수 기반 MAC: HMAC
+## Hash function based MAC: HMAC
 •	Motivations:
 	•	MD5, SHA 같은 암호화 해시 함수는 DES와 같은 대칭 블록 암호보다 소프트웨어에서 일반적으로 더 빠르게 실행됨
 	•	암호화 해시 함수용 라이브러리 코드가 널리 사용 가능함
@@ -25,7 +25,7 @@ opad: 0x5C repeated
 - SP 800-224의 최종 버전이 발표되는 시점에 FIPS 198-1이 공식적으로 철회될 예정
 ## Data Authentication Algorithm
 ![[Pasted image 20250501204139.png|300]]
-## 암호 기반 MAC: CMAC
+## Cipher-based MAC: CMAC
 •	DAA에 대한 공격: (DAA = CBC MAC + DES)
 	•	MAC(K, X) = T이면, MAC(X || (X ⊕ T)) = T도 성립함
 	![[Pasted image 20250501204253.png|100]]
