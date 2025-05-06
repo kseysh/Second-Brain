@@ -100,17 +100,14 @@ encapsulated된 key인 C는 Alice만 복원할 수 있게 된다.
 ### RSA digital signature
 ![[Pasted image 20250506190031.png|400]]
 메시지 M과 전자서명 S를 같이 보냄
-
-
-
-
-모듈러 산술에서의 지수 계산
-	•	RSA에서 암호화, 복호화, 서명 생성 및 검증은 모두 정수를 지수 제곱한 후 mod n을 취함
-	•	모듈러 연산의 성질 사용 가능:
-(a mod n) × (b mod n)] mod n = (a × b) mod n
-	•	지수가 매우 크기 때문에 지수 연산의 효율성 중요
-
-⸻
+Alice의 공개키 e,n을 가지고 M,S를 서명확인 할 수 있어 부인 방지가 가능하다
+추가적으로 M과 M'이 같다는 것을 알면 무결성도 확인 가능하다.
+## 모듈러 산술에서의 지수 계산
+•	RSA에서 암호화, 복호화, 서명 생성 및 검증은 모두 정수를 지수 제곱한 후 mod n을 취함
+•	모듈러 연산의 성질 사용 가능: (a mod n) × (b mod n)] mod n = (a × b) mod n
+•	지수가 매우 크기 때문에 지수 연산의 효율성 중요
+### Algorithm for Computing a<sup>b</sup> mod n
+![[Pasted image 20250506190719.png|400]]
 
 공개키로의 효율적 연산
 	•	RSA에서 공개키 사용 시 속도를 높이기 위해 e 값은 보통 특정 값으로 설정
