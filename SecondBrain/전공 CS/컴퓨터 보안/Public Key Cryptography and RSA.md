@@ -64,7 +64,7 @@ MAC과 달리 부인 방지 기능이 추가된다 (서명 생성은 보내는 �
 •	일반적인 n의 크기는 1024비트(10진수로 약 309자리)
 ![[Pasted image 20250506180244.png|500]]
 기억할 것:
-	1.	오일러 피 함수 𝜙(𝑛)
+	1.	Euler totient function 𝜙(𝑛)
 	•	𝑛 이하의 양의 정수 중 𝑛과 서로소인 수의 개수
 	2.	오일러 정리
 	•	a와 n이 서로소일 때:
@@ -72,11 +72,13 @@ MAC과 달리 부인 방지 기능이 추가된다 (서명 생성은 보내는 �
 정당성 증명:
 단순화를 위해, gcd(𝑀, 𝑛) = 1 인 경우만 고려한다.
 𝑒𝑑 = 𝑘𝜙(𝑛) + 1 이 되는 어떤 𝑘가 존재한다고 하자.
-𝐶<sup>𝑑</sup> mod 𝑛 = (𝑀<sup>𝑒</sup> mod 𝑛)<sup>𝑑</sup> mod 𝑛
-      = 𝑀<sup>𝑒𝑑</sup> mod 𝑛
+𝐶<sup>𝑑</sup> mod 𝑛 = (𝑀<sup>𝑒</sup> mod 𝑛)<sup>𝑑</sup> mod 𝑛 => C = 𝑀<sup>𝑒</sup> mod 𝑛 이므로
+      = 𝑀<sup>𝑒𝑑</sup> mod 𝑛 => mod 연산의 성질로 이렇게 표현 가능
       = 𝑀<sup>𝑘𝜙(𝑛)</sup>× 𝑀 mod 𝑛
-      = (𝑀<sup>𝜙(𝑛)</sup>)<sup>𝑘</sup> × 𝑀 mod 𝑛 = 𝑀
-
+      = (𝑀<sup>𝜙(𝑛)</sup>)<sup>𝑘</sup> × 𝑀 mod 𝑛 = 𝑀 => Euler totient function에 의해 𝑀<sup>𝜙(𝑛)</sup> = 1
+=> M을 e 제곱해서 cipher text를 만들고, 이를 d 제곱을 다시하게 되면 원래 M이 돌아온다.
+#### RSA Algorithm Example
+![[Pasted image 20250506182828.png|400]]
 
 
 모듈러 산술에서의 지수 계산
