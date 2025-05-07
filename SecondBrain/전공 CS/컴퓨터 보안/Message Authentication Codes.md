@@ -5,7 +5,7 @@
 •	기능: 메시지 인증 코드(MAC)
 	•	메시지와 비밀 키를 입력으로 받아 고정 길이의 값을 출력하는 함수
 	•	이 값이 인증자의 역할을 함
-## Basic Uses of Message Authentication code (M A C)
+## Basic Uses of Message Authentication code (MAC)
 ![[Pasted image 20250501203514.png|400]]
 ## Hash function based MAC: HMAC
 •	Motivations:
