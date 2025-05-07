@@ -89,6 +89,17 @@ Step 9: 최종 HMAC 계산
 MAC 생성과정에 의해 생성된 TAG를 Plain text로 보고, 원래의 plain text와 같이 모아서 encryption하는 것으로 볼 수 있음
 ## SP 800-90Ar1
 ![[Pasted image 20250501204645.png|500]]
+### Hash_DRBG
+V는 엔트로피 입력을 기반으로 생성된 시드 값
+C = Hash(0x00 || V)
+- - 순수 해시 함수를 반복적으로 사용
+### HMAC_DRBG
+- 초기 Key: 0x00..00
+- 초기 V: 0x01..01
+Pseudo Random
+- HMAC을 반복 호출하며 V 값을 입력으로 사용
+- 출력된 블록들을 이어붙여 충분한 길이의 난수 비트를 생성
+- 각 반복마다 V는 업데이트되며, 이는 추후 상태에도 영향을 줌
 ## Summary
 MAC이 무엇인지
 Hash를 기반으로 MAC을 어떻게 만드는 지
