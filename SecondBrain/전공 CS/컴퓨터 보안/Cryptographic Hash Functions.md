@@ -51,7 +51,7 @@ Hashing은 암호화와 다르게 input의 length가 달라도 output의 length�
 	•	입력을 n비트 블록의 시퀀스로 처리
 	•	각 블록을 반복적으로 처리하여 n비트 해시 값을 생성
 1.	각 비트에 대해 블록들의 비트 XOR
-	•	Ci = bi1 xor bi2 xor … xor bim
+	•	C<sub>i</sub> = b<sub>i1</sub> xor b<sub>i2</sub> xor … xor b<sub>im</sub>
 	•	각 비트 위치에 대해 단순 패리티 값을 생성 (세로 중복 검사)
 	•	무작위 데이터에 대한 무결성 검사로는 비교적 효과적임
 2.	각 블록 처리 후 해시 값을 1비트 원형 이동
