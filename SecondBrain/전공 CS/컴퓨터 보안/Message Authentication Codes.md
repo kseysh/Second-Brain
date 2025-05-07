@@ -19,6 +19,33 @@ L: Hash function output size
 ipad: 0x36 repeated
 opad: 0x5C repeated
 ![[Pasted image 20250501203648.png|500]]
+Steps 1~3: K₀ 만들기
+	1.	K의 길이가 B와 같으면 → K₀ = K
+	2.	K가 B보다 길면 → K₀ = H(K)로 압축하고 0으로 패딩하여 B바이트로 맞춤
+	3.	K가 B보다 짧으면 → 0을 덧붙여 B바이트로 만듦
+
+Step 4: 내부 키 생성
+	•	K₀ ⊕ ipad
+K₀와 ipad를 XOR하여 내부 키를 생성
+
+Step 5: 내부 키에 메시지 추가
+	•	(K₀ ⊕ ipad) || text
+내부 키 뒤에 메시지를 붙임
+
+Step 6: 내부 해시 계산
+	•	H((K₀ ⊕ ipad) || text)
+결과를 해시 함
+
+Step 7: 외부 키 생성
+	•	K₀ ⊕ opad
+K₀와 opad를 XOR하여 외부 키 생성
+
+Step 8: 외부 키에 내부 해시 추가
+	•	(K₀ ⊕ opad) || H(...)
+외부 키 뒤에 내부 해시를 붙임
+
+Step 9: 최종 HMAC 계산
+	•	H((K₀ ⊕ opad) || H((K₀ ⊕ ipad) || text))
 ## NIST의 FIPS 198-1 -> SP 800-224
 - NIST SP 800-224가 FIPS 198-1의 HMAC 사양을 그대로 포함하고 있다
 - SP 800-224가 또 다른 문서인 SP 800-107r1의 일부 요구사항도 통합하고 있다
