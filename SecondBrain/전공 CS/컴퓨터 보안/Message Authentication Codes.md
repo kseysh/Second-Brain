@@ -92,7 +92,9 @@ MAC 생성과정에 의해 생성된 TAG를 Plain text로 보고, 원래의 plai
 ### Hash_DRBG
 V는 엔트로피 입력을 기반으로 생성된 시드 값
 C = Hash(0x00 || V)
-- - 순수 해시 함수를 반복적으로 사용
+- 순수 해시 함수를 반복적으로 사용
+Counter 값을 점점 증가시키면서 Hash Function에 V + counter를 넣고 해시 반복
+결과를 이어붙여 충분한 길이의 pseudo random bit를 생성
 ### HMAC_DRBG
 - 초기 Key: 0x00..00
 - 초기 V: 0x01..01
@@ -100,6 +102,7 @@ Pseudo Random
 - HMAC을 반복 호출하며 V 값을 입력으로 사용
 - 출력된 블록들을 이어붙여 충분한 길이의 난수 비트를 생성
 - 각 반복마다 V는 업데이트되며, 이는 추후 상태에도 영향을 줌
+=> HMAC을 반복하여 원하는 길이만큼 의사난수 생성
 ## Summary
 MAC이 무엇인지
 Hash를 기반으로 MAC을 어떻게 만드는 지
