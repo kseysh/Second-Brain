@@ -61,7 +61,7 @@ Step 9: 최종 HMAC 계산
 •	또 다른 개선:
 	•	입력에 메시지 길이를 인코딩하여 포함
 		이렇게 하면 block을 추가할 수 없음
-## Cipher-based MessageAuthentication Code (C M A C)
+## Cipher-based MessageAuthentication Code (CMAC)
 ![[Pasted image 20250501204346.png|300]]
 ## 인증된 암호화 (AE: Authenticated Encryption)
 •	통신의 기밀성과 무결성을 동시에 보호하는 암호 시스템을 지칭하는 용어
@@ -70,7 +70,7 @@ Step 9: 최종 HMAC 계산
 	•	암호화 후 인증: GCM (Galois CTR 모드)
 	•	독립적으로 암호화 및 인증: 안전하지 않음
 •	각 방식은 복호화와 검증이 모두 명확함
-## Counter + CBC-MAC 인증된 암호화(CCM)
+## Counter + CBC-MAC (CCM)
 => Encrypt는 counter mode로 하고, 암호화는 CBC-MAC을 사용하겠다는 의미
 •	NIST는 IEEE 802.11 WiFi 무선 근거리 통신망의 보안 요구사항을 지원하기 위해 CCM을 표준화함.
 •	인증된 암호화를 위한 ~~Encrypt-and-MAC~~ 방식의 변형
@@ -78,7 +78,7 @@ Step 9: 최종 HMAC 계산
 	•	NIST SP 800-38C, IETF RFC 3610에 정의됨
 •	주요 알고리즘 구성 요소:
 	•	AES 암호화 알고리즘
-	•	CTR(카운터) 모드의 운영 방식
+	•	C T R mode of operation
 	•	~~CMAC~~ 인증 알고리즘 
 		→ 실제로는 CBC-MAC (암호화된 평문 포함, 메시지 길이 값 포함) 사용
 •	단일 키 K가 암호화 및 MAC 알고리즘 모두에 사용됨
