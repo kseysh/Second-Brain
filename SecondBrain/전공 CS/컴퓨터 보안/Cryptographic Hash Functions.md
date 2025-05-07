@@ -87,7 +87,7 @@ Collision resistant는 기억할 필요까지는 없다.
 	•	특정 알고리즘의 약점을 이용한 공격
 	•	전체 탐색 외의 방식으로 알고리즘의 속성을 이용해 공격
 ## Collision Resistant Attacks
-•	일종의 무차별 대입 공격
+•	일종의 brute force attack
 •	공격자는 동일한 해시 값을 생성하는 두 메시지를 찾고자 함
 	•	birthday paradox을 활용하여 공격
 #### birthday paradox를 이용한 Collision Resistant Attack
