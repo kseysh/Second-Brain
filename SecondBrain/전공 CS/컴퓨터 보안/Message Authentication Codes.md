@@ -78,7 +78,7 @@ Step 9: 최종 HMAC 계산
 	•	NIST SP 800-38C, IETF RFC 3610에 정의됨
 •	주요 알고리즘 구성 요소:
 	•	AES 암호화 알고리즘
-	•	C T R mode of operation
+	•	CTR mode of operation
 	•	~~CMAC~~ 인증 알고리즘 
 		→ 실제로는 CBC-MAC (암호화된 평문 포함, 메시지 길이 값 포함) 사용
 •	단일 키 K가 암호화 및 MAC 알고리즘 모두에 사용됨
