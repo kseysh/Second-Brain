@@ -264,4 +264,4 @@ DiningPhilosophers.putdown(i);
 	•	atomic_t 타입과 원자 연산
 		`atomic_t counter;` `int value;`
 	![[Pasted image 20250508171624.png|300]]
-•	스핀락(Spinlock)
+•	스핀락(Spinlock) => api 형태로 제공
