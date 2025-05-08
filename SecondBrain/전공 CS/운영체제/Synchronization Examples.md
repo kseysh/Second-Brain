@@ -123,7 +123,7 @@ do {
 ```cpp
 do{
 	wait(queue);
-	// 2. signal(queue)
+	// 2. signal(queue) 이건 유효함
 	wait(mutex);
 	// 1. 여기 wait(queue)
 	
