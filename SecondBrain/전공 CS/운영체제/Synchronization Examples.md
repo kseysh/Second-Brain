@@ -123,13 +123,16 @@ do {
 ```cpp
 do{
 	wait(queue);
+	// 2. signal(queue)
 	wait(mutex);
+	// 1. 여기 wait(queue)
 	
 	read_count++;
 	if (read_count == 1)
 		wait(rw_mutex);
 		
 	signal(mutex);
+	// 1. 여기 signal(queue)하면 데드락 발생
 	signal(queue);
 
 	/ * reading is performed */
@@ -144,7 +147,7 @@ do{
 	
 } while (true);
 ```
-signal(queue)의 위치에 대해서 잘 고민해보자
+wait(queue), signal(queue)의 위치에 대해서 잘 고민해보자
 
 ## 식사하는 철학자 문제
 •	철학자들은 생각과 식사를 번갈아 함
