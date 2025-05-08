@@ -150,6 +150,7 @@ do{
 wait(queue), signal(queue)의 위치에 대해서 잘 고민해보자
 
 ## 식사하는 철학자 문제
+![[Pasted image 20250508172347.png|100]]
 •	철학자들은 생각과 식사를 번갈아 함
 •	이웃 철학자와 상호작용하지 않으며, 식사를 위해 가끔씩 젓가락 두 개를 하나씩 집어 들려고 시도
 •	식사를 위해 두 젓가락이 모두 필요하며, 식사 후에는 두 젓가락 모두 내려놓음
@@ -248,30 +249,19 @@ DiningPhilosophers.putdown(i);
 ## 동기화 예시 - Windows
 •	단일 프로세서 시스템: 인터럽트 마스크로 전역 자원 보호
 •	다중 프로세서 시스템: 스핀락(spinlock) 사용
-	•	스핀락 중인 스레드는 선점되지 않음
-•	사용자 공간에 디스패처 객체 제공
-	•	뮤텍스, 세마포어, 이벤트, 타이머 역할 가능
+	•	스핀락 중인 스레드(spinlock을 통과해서 critical section에 있는 스레드)는 선점되지 않음
+•	사용자 공간에 디스패처 객체 제공 - 뮤텍스, 세마포어, 이벤트, 타이머 역할 가능
 	•	이벤트(Event): 조건 변수와 유사하게 작동
 	•	타이머: 시간이 만료되면 하나 이상의 스레드에 알림 전달
 	•	디스패처 객체는 신호 상태 (사용 가능) 또는 비신호 상태 (스레드 대기)
+## 동기화 예시 - Linux
+•	커널 2.6 이전: 짧은 임계 구역 구현을 위해 인터럽트 비활성화
+•	커널 2.6 이후: 완전 선점 가능
 
-⸻
-
-동기화 예시 - Linux
-	•	커널 2.6 이전: 짧은 임계 구역 구현을 위해 인터럽트 비활성화
-	•	커널 2.6 이후: 완전 선점 가능
-	•	Linux는 다음을 제공:
+•	Linux는 다음을 제공:
 	•	세마포어
 	•	원자적 정수 연산
 	•	atomic_t 타입과 원자 연산
-
-atomic_t counter; 
-int value;
-
-atomic_set(&counter, 5);        // counter = 5
-atomic_add(10, &counter);       // counter += 10
-atomic_sub(4, &counter);        // counter -= 4
-atomic_inc(&counter);           // counter += 1
-value = atomic_read(&counter);  // value = 12
-
-	•	스핀락(Spinlock)
+		`atomic_t counter;` `int value;`
+	![[Pasted image 20250508171624.png|300]]
+•	스핀락(Spinlock)
