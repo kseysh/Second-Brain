@@ -356,15 +356,9 @@ or에서도 Reg에서 값을 가져오는 것은 CC4이고 sub에서 결과물�
 •	EX(실행) 단계에서의 ALU 피연산자 레지스터 번호는 다음과 같이 주어진다:
 	ID/EX.RegisterRs, ID/EX.RegisterRt
 •	데이터 해저드(data hazard) 는 다음과 같은 경우에 발생한다:
-	1a. EX/MEM.RegisterRd = ID/EX.RegisterRs
-	1b. EX/MEM.RegisterRd = ID/EX.RegisterRt
-		→ EX 단계 바로 다음인 MEM 단계에서 쓰려는 레지스터가, 현재 EX 단계에서 ALU 입력으로 사용되는 소스 레지스터와 같을 때
-	2a. MEM/WB.RegisterRd = ID/EX.RegisterRs
-	2b. MEM/WB.RegisterRd = ID/EX.RegisterRt
-		→ MEM 다음인 WB 단계에서 쓰려는 레지스터가, 현재 EX 단계에서 사용하는 소스 레지스터와 같을 때
-
-⸻
+	![[Pasted image 20250508161007.png|400]]
+	→ EX 단계 바로 다음인 MEM 단계에서 쓰려는 레지스터가, 현재 EX 단계에서 ALU 입력으로 사용되는 소스 레지스터와 같을 때
+	![[Pasted image 20250508161027.png|400]]
+	→ MEM 다음인 WB 단계에서 쓰려는 레지스터가, 현재 EX 단계에서 사용하는 소스 레지스터와 같을 때
 ![[Pasted image 20250508160827.png|300]]
-즉, 후속 명령어가 이전 명령어의 결과를 필요로 하지만 그 결과가 아직 레지스터에 쓰이지 않은 상태일 때, 데이터 해저드가 발생한다는 설명입니다.
-
-파이프라인에서 데이터 해저드를 탐지할 때 어떤 레지스터 번호들을 비교해야 하는지 보여주는 구조이기도 합니다.
+후속 명령어가 이전 명령어의 결과를 필요로 하지만 그 결과가 아직 레지스터에 쓰이지 않은 상태일 때, 데이터 해저드가 발생한다
