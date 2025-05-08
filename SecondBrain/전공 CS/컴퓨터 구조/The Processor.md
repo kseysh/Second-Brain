@@ -295,4 +295,28 @@ target PC = Top 4 bits of old PC +26-bit jump address + 00
 	•	제어 해저드
 •	명령어 집합 구조가 파이프라인 구현의 복잡성에 영향을 줌
 ## Pipeline Registers
-stage들 사이에 레지스터()가 필요하다
+stage들 사이에 레지스터(rising edge가 발생할 때만 동작하는 register)가 필요하다
+- 이전 사이클 안에서 생성된 정보를 가지고 있기 위해서
+![[Pasted image 20250508154122.png|400]]
+## Pipeline Operation
+•	파이프라인된 데이터 경로를 통한 명령어의 사이클별 흐름
+	•	“단일 클럭 사이클” 파이프라인 다이어그램
+		•	한 사이클 내의 파이프라인 사용 현황을 보여줌
+		•	사용된 자원을 강조
+	•	참고: “다중 클럭 사이클” 다이어그램
+		•	시간에 따른 동작 그래프
+## IF for Load/Store
+![[Pasted image 20250508154416.png|500]]
+## ID for Load/Store
+![[Pasted image 20250508154445.png|500]]
+## EX for Load
+![[Pasted image 20250508154508.png|500]]
+## MEM for Load
+![[Pasted image 20250508154533.png|500]]
+## WB for Load
+![[Pasted image 20250508154613.png|500]]
+## EX for Store
+![[Pasted image 20250508154645.png|500]]
+## MEM for Store
+![[Pasted image 20250508154706.png|500]]
+## WB for Store
