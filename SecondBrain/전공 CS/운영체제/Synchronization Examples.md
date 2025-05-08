@@ -128,6 +128,7 @@ do{
 	// 1. 여기 wait(queue)
 	
 	read_count++;
+	// 여기서 writer가 들어오고, 다른 Reader가 계속 이 시점에서 들어온다면 read_count가 계속 증가함 그러면 rw_mutex를 잠그지 않고, 그러면 read 도중에 writer가 들어오는 문제가 발생할 수 있음
 	if (read_count == 1)
 		wait(rw_mutex);
 		
@@ -153,15 +154,14 @@ wait(queue), signal(queue)의 위치에 대해서 잘 고민해보자
 •	철학자들은 생각과 식사를 번갈아 함
 •	이웃 철학자와 상호작용하지 않으며, 식사를 위해 가끔씩 젓가락 두 개를 하나씩 집어 들려고 시도
 •	식사를 위해 두 젓가락이 모두 필요하며, 식사 후에는 두 젓가락 모두 내려놓음
-•	5명의 철학자 예시
-
-공유 데이터
-	•	밥그릇 (데이터 집합)
-	•	세마포어 chopstick[5] = 1
+-	5명의 철학자 예시
+	- 공유 데이터
+	-	밥그릇 (데이터 집합)
+	-	세마포어 `chopstick[5] = 1`
 
 해법 1: 세마포어 사용
-
-semaphore chopstick[5];
+	`semaphore chopstick[5];`
+```cpp
 do {
   wait(chopstick[i]);
   wait(chopstick[(i+1) % 5]);
@@ -170,22 +170,39 @@ do {
   signal(chopstick[(i+1) % 5]);
   // 생각
 } while (true);
+```
+•	문제: 데드락 발생 가능
 
-	•	문제: 데드락 발생 가능
-
-데드락을 피하는 방법
-	1.	동시에 식탁에 앉을 수 있는 철학자를 최대 4명으로 제한
-	2.	두 젓가락이 모두 있을 때만 집을 수 있게 함 (임계 구역 사용)
-	3.	비대칭 해법 사용:
+## 데드락을 피하는 방법
+1.	동시에 식탁에 앉을 수 있는 철학자를 최대 4명으로 제한
+2.	두 젓가락이 모두 있을 때만 집을 수 있게 함 (임계 구역 사용)
+3.	비대칭 해법 사용:
 	•	홀수 번호 철학자는 왼쪽 먼저, 그다음 오른쪽
 	•	짝수 번호 철학자는 오른쪽 먼저, 그다음 왼쪽
+### asymmetric solution
+```
+do{
+if (i%2==1){
+	wait (chopstick[i]);
+	wait (chopstick[i+1]%5);
+}else{
+	wait (chopstick[i+1]%5);
+	wait (chopstick[i]);
+}
+// eat
 
-⸻
+signal (chopstick[i]);
+signal (chopstick[i+1]%5);
 
-식사하는 철학자 문제 (6): 모니터 해법
-	•	enum {THINKING, HUNGRY, EATING} state[5];
-	•	철학자 i는 두 이웃이 식사 중이 아닐 때만 state[i] = EATING 가능
-	•	condition self[5]; 사용
+// think
+
+}while(true)
+
+```
+## Solution 2: Monitor solution
+•	`enum {THINKING, HUNGRY, EATING} state[5];`
+	•	철학자 i는 두 이웃이 식사 중이 아닐 때만 `state[i] = EATING` 가능
+•	`condition self[5];`
 	•	철학자 i는 젓가락을 얻지 못하면 대기
 
 해법 구조
