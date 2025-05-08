@@ -128,7 +128,6 @@ do{
 	// 1. 여기 wait(queue)
 	
 	read_count++;
-	// 여기서 writer가 들어오고, 다른 Reader가 계속 이 시점에서 들어온다면 read_count가 계속 증가함 그러면 rw_mutex를 잠그지 않고, 그러면 read 도중에 writer가 들어오는 문제가 발생할 수 있음
 	if (read_count == 1)
 		wait(rw_mutex);
 		
@@ -180,7 +179,7 @@ do {
 	•	홀수 번호 철학자는 왼쪽 먼저, 그다음 오른쪽
 	•	짝수 번호 철학자는 오른쪽 먼저, 그다음 왼쪽
 ### asymmetric solution
-```
+```cpp
 do{
 if (i%2==1){
 	wait (chopstick[i]);
@@ -205,21 +204,52 @@ signal (chopstick[i+1]%5);
 •	`condition self[5];`
 	•	철학자 i는 젓가락을 얻지 못하면 대기
 
-해법 구조
+```cpp
+monitor DiningPhilosophers {
+	enum {THINKING, HUNGRY, EATING} state[5];
+	condition self[5];
+	
+	initialization_code() {
+		for (int i=0; i<5; i++)
+			state[i] = THINKING;
+	}
 
+	void test(int i) {
+		if ((state[(i+4)%5] != EATING &&
+		(state[i] == HUNGRY) &&
+		(state[(i+1)%5] != EATING)) {
+			state[i] = EATING;
+			self[i].signal();
+		}
+	}
+
+	void pickup(int i) {
+		state[i] = HUNGRY;
+		test(i);
+		if (state[i] != EATING) self[i].wait; // state[i] == HUNGRY 라면,
+	}
+	
+	void putdown(int i) {
+		state[i] = THINKING;
+		test((i+4)%5);
+		test((i+1)%5);
+	}
+}
+```
+
+해법 구조
+각 철학자는 다음 순서로 pickup()과 putdown() 연산을 호출한다
+```cpp
 DiningPhilosophers.pickup(i);
 /* 식사 */
 DiningPhilosophers.putdown(i);
-
-	•	데드락 없음, 그러나 기아 발생 가능
-
-⸻
-
-동기화 예시 - Windows
-	•	단일 프로세서 시스템: 인터럽트 마스크로 전역 자원 보호
-	•	다중 프로세서 시스템: 스핀락(spinlock) 사용
+```
+•	데드락 없음, 그러나 기아 발생 가능 (오른쪽 왼쪽 사람만 계속 먹을 수도 있기 때문)
+## 동기화 예시 - Windows
+•	단일 프로세서 시스템: 인터럽트 마스크로 전역 자원 보호
+•	다중 프로세서 시스템: 스핀락(spinlock) 사용
 	•	스핀락 중인 스레드는 선점되지 않음
-	•	사용자 공간에 디스패처 객체 제공
+•	사용자 공간에 디스패처 객체 제공
 	•	뮤텍스, 세마포어, 이벤트, 타이머 역할 가능
 	•	이벤트(Event): 조건 변수와 유사하게 작동
 	•	타이머: 시간이 만료되면 하나 이상의 스레드에 알림 전달
