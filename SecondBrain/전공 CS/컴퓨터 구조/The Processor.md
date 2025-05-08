@@ -294,3 +294,5 @@ target PC = Top 4 bits of old PC +26-bit jump address + 00
 	•	데이터 해저드
 	•	제어 해저드
 •	명령어 집합 구조가 파이프라인 구현의 복잡성에 영향을 줌
+## Pipeline Registers
+stage들 사이에 레지스터()가 필요하다
