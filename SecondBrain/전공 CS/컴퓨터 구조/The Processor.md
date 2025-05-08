@@ -342,4 +342,29 @@ add $14,$2,$2
 sw $15,100($2)
 ## Dependencies & Forwarding
 ![[Pasted image 20250508155912.png|500]]
-이전 instruction & reg 번호와 conflict가 일어나는지 보고 forwarding 값을 쓸지 말지 
+위 예제에서 `add $14,$2,$2` 와 `sw $15,100($2)`는 data hazard가 발생하지 않는다.
+`and $12,$2,$5` 와 `or $13,$6,$2`는 data hazard가 발생하는데, 결과물 값을 확인해보면 sub의 결과물을 reg에 저장하는 것은 CC5지만, 결과물 자체는 CC 3이 끝나고 생긴다. 
+and 에서 data hazard가 발생하는 reg가 필요한 시점은 CC4이므로 forwarding을 이용해 data hazard를 해결한다.
+
+or에서도 Reg에서 값을 가져오는 것은 CC4이고 sub에서 결과물을 레지스터에 저장하는 것은 CC5지만, forwarding을 통해 Reg에 저장하는 결과물이 나오는 시점인 CC3, or에서 실제 결과물이 필요한 시점인 CC5로 forwarding을 진행해 data hazard를 해결한다.
+
+이전 instruction & reg 번호와 conflict가 일어나는지 보고 forwarding 값을 쓸지 말지 봐야한다.
+다음 / 다다음 instruction까지만 신경쓰면 된다.
+## Detecting the Need to Forward
+•	파이프라인을 따라 레지스터 번호(register number) 를 전달한다.
+	•	예시: ID/EX.RegisterRs는 ID/EX 파이프라인 레지스터에 저장된 RS 소스 레지스터의 번호를 의미한다.
+•	EX(실행) 단계에서의 ALU 피연산자 레지스터 번호는 다음과 같이 주어진다:
+	ID/EX.RegisterRs, ID/EX.RegisterRt
+•	데이터 해저드(data hazard) 는 다음과 같은 경우에 발생한다:
+	1a. EX/MEM.RegisterRd = ID/EX.RegisterRs
+	1b. EX/MEM.RegisterRd = ID/EX.RegisterRt
+		→ EX 단계 바로 다음인 MEM 단계에서 쓰려는 레지스터가, 현재 EX 단계에서 ALU 입력으로 사용되는 소스 레지스터와 같을 때
+	2a. MEM/WB.RegisterRd = ID/EX.RegisterRs
+	2b. MEM/WB.RegisterRd = ID/EX.RegisterRt
+		→ MEM 다음인 WB 단계에서 쓰려는 레지스터가, 현재 EX 단계에서 사용하는 소스 레지스터와 같을 때
+
+⸻
+![[Pasted image 20250508160827.png|300]]
+즉, 후속 명령어가 이전 명령어의 결과를 필요로 하지만 그 결과가 아직 레지스터에 쓰이지 않은 상태일 때, 데이터 해저드가 발생한다는 설명입니다.
+
+파이프라인에서 데이터 해저드를 탐지할 때 어떤 레지스터 번호들을 비교해야 하는지 보여주는 구조이기도 합니다.
