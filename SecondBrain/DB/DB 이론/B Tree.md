@@ -65,3 +65,5 @@ leaf 노드에 70넣기 -> 70 승격 50, 90 분리
 #### self-balancing tree인 AVL Tree와, RB Tree도 시간 복잡도가 같은데, B Tree를 사용하는 이유는?
 DB는 secondary stoarage에 저장되고, DB에서 데이터를 조회할 때 secondary stoarage에 최대한 적게 접근하는 것이 성능 면에서 좋기 때문.
 또한 DB는 block 단위로 읽고 쓰기 때문에 연관된 데이터를 모아서 저장하면 더 효율적으로 읽고 쓸 수 있다.
+
+AVL, RB Tree와 다르게 B Tree는 한 노드당 가져
