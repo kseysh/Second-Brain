@@ -58,3 +58,8 @@ leaf 노드에 70넣기 -> 70 승격 50, 90 분리
 #### example 3
 ![[Pasted image 20250509230147.png|200]]
 ![[Pasted image 20250509230459.png|200]]
+
+## DB Index
+### B tree 시간 복잡도
+![[Pasted image 20250511164307.png|200]]
+#### self-balancing tree인 AVL Tree와, RB Tree도 시간 복잡도가 같은데, B Tree를 사용하는 이유는?
