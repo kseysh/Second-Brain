@@ -66,4 +66,5 @@ leaf 노드에 70넣기 -> 70 승격 50, 90 분리
 DB는 secondary stoarage에 저장되고, DB에서 데이터를 조회할 때 secondary stoarage에 최대한 적게 접근하는 것이 성능 면에서 좋기 때문.
 또한 DB는 block 단위로 읽고 쓰기 때문에 연관된 데이터를 모아서 저장하면 더 효율적으로 읽고 쓸 수 있다.
 
-AVL, RB Tree와 다르게 B Tree는 한 노드당 가져
+AVL, RB Tree와 다르게 B Tree는 한 노드당 가지고 있는 key의 수가 여러개이기 때문에 storage 접근 횟수가 줄어들 수 있어 B Tree를 사용한다.
+![[Pasted image 20250511171956.png|300]]
