@@ -26,3 +26,5 @@ class Solution {
 ## 배운점
 String to Int는 항상 숫자의 범위가 비교 가능한지 확인해요.
 만약, Long의 범위(약 10<sup>19</sup>)보다 큰 값이라면, str1.compareTo(str2) <= 0을 활용해요.
+
+c++에서도 같은 길이 문자열 비교는 가능하다.
