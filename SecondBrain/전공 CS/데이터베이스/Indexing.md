@@ -41,7 +41,7 @@ where ID = 15151;
 •	Primary index (기본 인덱스): 파일이 정렬된 순서대로 저장되어 있으며, 이 순서를 결정하는 검색 키를 가진 인덱스 (*clustering index*라고도 함)
 	•	보통 기본 키가 검색 키지만, 반드시 그렇지는 않음
 •	*Secondary index* (보조 인덱스): 파일의 순서와는 다른 순서로 검색 키를 정렬한 인덱스 (non-clustering index라고도 함)
-•	*Index-sequential file*: 기본 인덱스를 가진 정렬된 파일
+•	*Index-sequential file*: 기본 인덱스를 가진 정렬된 파일 (?)
 ## Dense Index Files
 ![[Pasted image 20250513142647.png|300]]
 •	Dense Index Files: 파일 내 모든 검색 키 값에 대해 index record가 존재
@@ -50,20 +50,22 @@ where ID = 15151;
 ![[Pasted image 20250513142754.png|300]]
 - dense index on dept_name with instructor file sorted on dept_name
 ## Sparse Index Files
-	•	희소 인덱스: 일부 검색 키 값에 대해서만 인덱스 레코드를 포함
-	•	파일이 검색 키에 따라 정렬되어 있을 때 사용 가능
+• **Sparse Index**: 일부 검색 키 값에 대해서만 인덱스 레코드를 포함함
+	– 검색 키를 기준으로 레코드가 순차적으로 정렬되어 있을 때 사용 가능
+• 검색 키 값이 K인 레코드를 찾기 위해서는:
+	– K보다 작은 검색 키 값 중 가장 큰 값을 가진 인덱스 레코드를 찾음
+	– 해당 인덱스 레코드가 가리키는 레코드부터 파일을 순차적으로 검색함
+![[Pasted image 20250513143209.png|300]]
 
-레코드 찾기:
-	1.	검색 키 값 K보다 작거나 같은 가장 큰 인덱스 레코드를 찾음
-	2.	해당 위치부터 파일을 순차적으로 검색
+• Dense Index와 비교할 때:
+– 공간을 덜 차지하고, 삽입 및 삭제 시 유지 관리 비용이 더 적다.
+– 일반적으로 레코드 검색 속도는 조밀 인덱스보다 느리다.
 
-조밀 인덱스와 비교
-	•	공간 절약, 삽입/삭제 오버헤드 적음
-	•	검색 속도는 느림
-
-절충안: 파일의 각 블록마다 최소 검색 키 값을 인덱스에 저장
-
-⸻
+• 좋은 절충안: 파일의 각 블록마다 하나의 인덱스 항목을 가지는 희소 인덱스.
+이 인덱스 항목은 해당 블록에서 가장 작은 검색 키 값에 대응한다. why? 
+dense Index: O(N/B) blocks
+sparse Index: O(N/B<sup>2</sup>) blocks
+![[Pasted image 20250513143231.png|200]]
 
 다단계 인덱스 (Multilevel Index)
 
