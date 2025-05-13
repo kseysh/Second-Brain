@@ -27,8 +27,10 @@
 •	그 효과는 이산 로그 계산의 어려움에 의존함
 ## 도표 10.1 디피–헬만 키 교환
 ![[Pasted image 20250513163221.png|300]]
-XA: Alice만 앎
-XB: 
+X<sub>A</sub>: Alice만 앎
+X<sub>B</sub>: Bob만 앎
+나머지 값들은 모두 아는 값들임
+Y<sub>A</sub> = a<sup>X<sub>A</sub></sup> mod q
 도표 10.3 엘가말 암호 시스템
 	•	1984년 T. Elgamal이 발표
 	•	이산 로그 문제에 기반한 공개키 방식
