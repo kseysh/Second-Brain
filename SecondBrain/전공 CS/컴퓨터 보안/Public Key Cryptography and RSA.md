@@ -184,12 +184,15 @@ C = (EM)<sup>e</sup> mod n
 		- s<sub>p</sub> = m<sup>d<sub>q</sub></sup> mod p, s<sub>q</sub> = m<sup>d<sub>q</sub></sup> mod q
 	- 전체 서명은 CRT를 이용해 결합한다
 		- s = as<sub>p</sub> + bs<sub>q</sub> mod n
-- 어떤 N 계산시 N = mod p, mod q로 쪼갤 수 있다.
-	- 공격자가 한쪽만 오류를 발생시키면 p, q 중 하나를 알아낼 수 있다. (N은 알려)
-
-
-
-
+		- ![[Pasted image 20250513160833.png|200]]
+### Chinese Remainder Theorem을 이용한 Fault Based Attack
+공격자가 sp 계산 중 Fault를 유도한다고 가정하면, 잘못된 서명 s가 ![[Pasted image 20250513161114.png|200]] 조건을 만족하게 된다.
+공개 key (n, e) 중 e를 사용하여 ![[Pasted image 20250513161145.png|200]]라는 것을 확인할 수 있고 이를 통해 gcd(s<sup>e</sup> - m,n) = q를 계산할 수 있다.
+### 요약
+- RSA 계산에서 N = pq에 대해, 계산을 더 빠르게 하기 위해 mod p, mod q로 나누어 처리할 수 있다. (CRT 사용)
+- 공격자가 한쪽 모듈러 연산 (예: mod p)만 오류를 일으키면, 서명 값이 잘못되면서, 이 정보를 이용해 p 또는 q 중 하나를 추출할 수 있다.
+    - 구체적으로는, gcd(s<sup>e</sup> - m,n) = q을 계산하여 q 또는 p를 구할 수 있다.
+    - 정상적인 원래의 결과는 gcd(s<sup>e</sup> - m,n) = N이다.
 ## 공개키 암호에 대한 오해
 •	공개키 암호는 대칭키 암호보다 항상 더 안전하다
 •	공개키 암호와 대칭키 암호는 키 길이가 같으면 보안 수준도 같다
