@@ -62,9 +62,9 @@ where ID = 15151;
 – 일반적으로 레코드 검색 속도는 조밀 인덱스보다 느리다.
 
 • 좋은 절충안: 파일의 각 블록마다 하나의 인덱스 항목을 가지는 희소 인덱스.
-이 인덱스 항목은 해당 블록에서 가장 작은 검색 키 값에 대응한다. why? 
-dense Index: O(N/B) blocks
-sparse Index: O(N/B<sup>2</sup>) blocks
+이 인덱스 항목은 해당 블록에서 가장 작은 검색 키 값에 대응한다. why?  => 어차피 DB는 block단위로 data를 가져오기 때문
+dense Index: N 개 항목, 블록당 B개 :O(N/B) blocks
+sparse Index: N/B 개 항목, 블록당 B개: O(N/B<sup>2</sup>)
 ![[Pasted image 20250513143231.png|200]]
 
 다단계 인덱스 (Multilevel Index)
