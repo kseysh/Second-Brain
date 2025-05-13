@@ -163,7 +163,7 @@ New request from P0 (0,2,0) -> Make unsafe state
 	If unsafe -> Pᵢ must wait, and the old resource-allocation state is restored
 ```
 
-### 현실적이지 못한 이유
+### Banker's Algorithm이 현실적이지 못한 이유
 - Max를 알기 어렵다
 - 자원 할당 wait이 길어질 수 있음
 - 너무 보수적 -> resource utilization이 낮은 방법
@@ -172,3 +172,5 @@ New request from P0 (0,2,0) -> Make unsafe state
 - Is the system a  safe state?
 
 - Can we immediately approve the request (0, 4, 2, 0) for P1?
+
+## Deadlock Detection
