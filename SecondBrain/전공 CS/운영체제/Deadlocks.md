@@ -143,18 +143,32 @@ Safe sequence: < P1, P3, P4, P2, P0> exists
 ![[Pasted image 20250513172125.png|400]]
 New request from P0 (0,2,0)
 
-- Snapshot at time T2
+- Snapshot at time T1
+![[Pasted image 20250513172347.png|400]]
+New request from P0 (0,2,0) -> Make unsafe state
 
-New request from P0 (0,2,0)
+#### Pseudo code
+• Resource-Request Algorithm for Process Pᵢ
+• Requesti = request for process Pᵢ
+```
+1. If Requestᵢ <= Needi, go to step 2
+	Otherwise, raise error condition (exceed maximum claim)
+2. If Requestᵢ <= Available, go to step 3
+	Otherwise, Pᵢ must wait for the resource
+3. Pretend to allocate requested resources to Pᵢ by modifying the state as follows
+		Available = Available - Requestᵢ
+		Allocationᵢ = Allocationᵢ + Requestᵢ
+		Needᵢ = Needᵢ- Requestᵢ
+	If safe -> the resources are allocated to Pᵢ
+	If unsafe -> Pᵢ must wait, and the old resource-allocation state is restored
+```
 
-- Snapshot at time T3
+### 현실적이지 못한 이유
+- Max를 알기 어렵다
+- 자원 할당 wait이 길어질 수 있음
+- 너무 보수적 -> resource utilization이 낮은 방법
+### Example
+![[Pasted image 20250513172841.png|300]]
+- Is the system a  safe state?
 
-New request from P0 (0,2,0)
-
-- Snapshot at time T4
-
-New request from P0 (0,2,0)
-
-- Snapshot at time T5
-
-New request from P0 (0,2,0)
+- Can we immediately approve the request (0, 4, 2, 0) for P1?
