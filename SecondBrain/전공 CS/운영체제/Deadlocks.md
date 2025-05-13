@@ -103,3 +103,58 @@ A,B가 각각 20,30억을 빌려가면 50억이 남는데, 이 때 C에게 돈�
 
 - Snapshot at time T0
 ![[Pasted image 20250513171139.png|400]]
+Safe sequence: < P1, 
+
+- Snapshot at time T1
+![[Pasted image 20250513171332.png|400]]
+Safe sequence: < P1, P3
+
+- Snapshot at time T2
+![[Pasted image 20250513171506.png|400]]
+Safe sequence: < P1, P3, P4
+
+- Snapshot at time T3
+![[Pasted image 20250513171536.png|400]]
+Safe sequence: < P1, P3, P4, P2
+
+- Snapshot at time T4
+![[Pasted image 20250513171606.png|400]]
+Safe sequence: < P1, P3, P4, P2, P0> exists
+
+## Safety Algorithm pseudo code
+```
+1. Initialize Work[1:m] and Finish[1:n]
+	Work = Available // 
+	Finish[i] = false for i = 1, 2, …, n
+2. Find an i such that both
+	(a) Finish[i] = false
+	(b) Needᵢ <= Work
+	If no such i exists, go to step 4
+3. Work = Work + Allocationᵢ
+	Finish[i] = true
+	Go to step 2
+4. If Finish[i] = true for all i, then the system is in a safe state
+```
+#### Resource Request Algorithm
+5 Processes: P0, P1, P2, P3, P4
+3 resources: A(10 instance), B(5 instances), and C (7 instances)
+
+- Snapshot at time T1
+![[Pasted image 20250513172125.png|400]]
+New request from P0 (0,2,0)
+
+- Snapshot at time T2
+
+New request from P0 (0,2,0)
+
+- Snapshot at time T3
+
+New request from P0 (0,2,0)
+
+- Snapshot at time T4
+
+New request from P0 (0,2,0)
+
+- Snapshot at time T5
+
+New request from P0 (0,2,0)
