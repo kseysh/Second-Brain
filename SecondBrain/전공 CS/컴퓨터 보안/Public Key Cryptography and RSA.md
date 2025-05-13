@@ -174,7 +174,21 @@ C = (EM)<sup>e</sup> mod n
 	•	잘못된 서명 결과를 분석해 개인키 유추
 •	알고리즘은 단일 비트 오류를 유도하고 결과를 관찰함
 
-⸻
+![[Pasted image 20250513160207.png|300]]
+### Chinese Remainder Theorem
+- chinese Remainder Theorem을 이용해 연산의 복잡도를 4배까지 줄일 수 있다.
+
+- 과정
+	- 비밀 키를 d<sub>p</sub> = d mod (p-1), d<sub>q</sub> = m<sup>d<sub>q</sub></sup> mod q로 나눈다.
+	- 각각의 서명을 아래와 같이 계산할 수 있다
+		- s<sub>p</sub> = m<sup>d<sub>q</sub></sup> mod p, s<sub>q</sub> = m<sup>d<sub>q</sub></sup> mod q
+	- 전체 서명은 CRT를 이용해 결합한다
+		- s = as<sub>p</sub> + bs<sub>q</sub> mod n
+- 어떤 N 계산시 N = mod p, mod q로 쪼갤 수 있다.
+	- 공격자가 한쪽만 오류를 발생시키면 p, q 중 하나를 알아낼 수 있다. (N은 알려)
+
+
+
 
 ## 공개키 암호에 대한 오해
 •	공개키 암호는 대칭키 암호보다 항상 더 안전하다
