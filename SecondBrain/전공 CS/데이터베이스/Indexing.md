@@ -77,13 +77,14 @@ sparse Index: N/B 개 항목, 블록당 B개: O(N/B<sup>2</sup>)
 - 삽입/삭제 시 모든 수준의 인덱스를 갱신해야 함
 
 ![[Pasted image 20250515140224.png|300]]
-#### example
-N<sub>data</sub> = 20,000,000
+#### sparse index를 이용한 cost 계산 example
+N<sub>data</sub> = 20,000,000 (20 M)
 B<sub>data</sub> = 20
-1M개의 block 존재
+N<sub>index</sub> = 1M 개의 block 존재
 B<sub>index</sub> = 100 이라 가정 (Block size는 동일하지만 index는 key와 pointer만 들어가면 되므로)
-
-인덱스 갱신: 삭제
+index block = N<sub>index</sub>/B<sub>index</sub> = 10000
+이분 탐색을 이용한 cost: O(log n) = 100
+## 인덱스 갱신: 삭제
 	•	삭제된 레코드가 해당 검색 키 값을 가진 유일한 레코드였다면, 인덱스에서도 해당 검색 키 삭제
 
 단일 수준 인덱스 삭제:
