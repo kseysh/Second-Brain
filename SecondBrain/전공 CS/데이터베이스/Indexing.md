@@ -66,10 +66,20 @@ where ID = 15151;
 dense Index: N 개 항목, 블록당 B개 :O(N/B) blocks
 sparse Index: N/B 개 항목, 블록당 B개: O(N/B<sup>2</sup>)
 ![[Pasted image 20250513143231.png|200]]
-## 다단계 인덱스 (Multilevel Index)
+#### sparse index를 이용한 cost 계산 example
+N<sub>data</sub> = 20,000,000 (20 M)
+B<sub>data</sub> = 20
+N<sub>index</sub> = 1M 개의 block 존재
+B<sub>index</sub> = 100 이라 가정 (Block size는 동일하지만 index는 key와 pointer만 들어가면 되므로)
+index block = N<sub>index</sub>/B<sub>index</sub> = 10000
+이분 탐색을 이용한 cost: O(log n) = 13.xxx = 14번 I/O
+N이 data를 저장한 block의 개수일 때, 
+N/2<sup>i</sup> = B
+O(log<sub>2</sub>N/B)
+## Multilevel Index
 - 기본 인덱스가 메모리에 맞지 않으면 접근 비용이 증가
 - 해결책:
-	•	디스크상의 기본 인덱스를 정렬된 파일로 보고, 그 위에 희소 인덱스를 구축
+	•	디스크상의 Primary index를 정렬된 파일로 보고, 그 위에 sparse index를 구축
 	•	외부 인덱스: 기본 인덱스에 대한 희소 인덱스
 	•	내부 인덱스: 기본 인덱스 파일
 
@@ -77,16 +87,7 @@ sparse Index: N/B 개 항목, 블록당 B개: O(N/B<sup>2</sup>)
 - 삽입/삭제 시 모든 수준의 인덱스를 갱신해야 함
 
 ![[Pasted image 20250515140224.png|300]]
-#### sparse index를 이용한 cost 계산 example
-N<sub>data</sub> = 20,000,000 (20 M)
-B<sub>data</sub> = 20
-N<sub>index</sub> = 1M 개의 block 존재
-B<sub>index</sub> = 100 이라 가정 (Block size는 동일하지만 index는 key와 pointer만 들어가면 되므로)
-index block = N<sub>index</sub>/B<sub>index</sub> = 10000
-이분 탐색을 이용한 cost: O(log n) = 100
-N이 block의 개수일 때, 
-N/2<sup>i</sup> = B
-O(log<sub>2</sub>N/B)
+
 ## 인덱스 갱신: 삭제
 	•	삭제된 레코드가 해당 검색 키 값을 가진 유일한 레코드였다면, 인덱스에서도 해당 검색 키 삭제
 
