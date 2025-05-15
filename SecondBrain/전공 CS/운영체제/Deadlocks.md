@@ -179,20 +179,20 @@ New request from P0 (0,2,0) -> Make unsafe state
 	•	프로세스가 이상한 상태에 있을 경우는 어떻게 할 것인가?
 		•	특히 차량과 같은 미션 크리티컬 시스템에서는 더욱 그러함
 
-•	각 자원 타입이 단일 인스턴스인 경우
+•	각 자원 타입이 단일 인스턴스인 경우 
+	•	그래프를 그려보면 된다.
 	•	사이클의 존재는 교착 상태의 필요충분 조건임
 •	자원 타입에 여러 인스턴스가 있는 경우
 	•	Banker's Algorithm과 유사한 교착 상태 탐지 알고리즘을 사용
-
-
 ### Deadlock Detection - Single Instance
 •	각 자원 타입이 단일 인스턴스인 경우
 	•	Wait-for 그래프를 유지
 	•	주기적으로 그래프 내의 사이클을 탐색하는 알고리즘을 호출
 		•	사이클이 존재하면 교착 상태가 존재
 	•	그래프 내 사이클을 탐지하는 알고리즘의 시간 복잡도: O(n²), n = 정점 수
+![[Pasted image 20250513174344.png|300]]
 ### Deadlock Detection - Multiple Instance
-•	자원 타입에 여러 인스턴스가 있는 경우의 교착 상태 탐지 알고리즘
+•	자원 타입에 여러 인스턴스가 있는 경우의 교착 상태 탐지 알고리즘 (example 풀 줄 알면 될 듯)
 1.	`Work[1:m]`과 `Finish[1:n]` 초기화
 	Work = Available
 	Allocationᵢ ≠ 0이면 `Finish[i] = false`, 그렇지 않으면 true
@@ -204,13 +204,16 @@ New request from P0 (0,2,0) -> Make unsafe state
 	`Finish[i]` = true
 	2단계로 이동
 4.	`Finish[i] == false`인 i가 존재하면 시스템은 교착 상태이며 Pᵢ는 교착됨
+
+Banker's Algorithm과 다른 점은 MAX값을 모른다는 것이 가장 큰 차이점
 #### Multiple Instance Example
 5 Processes: P0, P1, P2, P3, P4
 3 resources: A(7 instance), B(2 instance), C(6 instance)
 ![[Pasted image 20250515163317.png|300]]
+=> Request를 Need라 생각하고 풀면 된다.
 • 시퀀스 <P0, P2, P3, P1, P4>는 모든 i에 대해 `Finish[i] = true`가 되는 결과를 낳습니다
-• 만약 P2가 C 타입 자원을 추가로 요청하면 어떻게 될까요
-• P1, P2, P3, P4가 관련된 교착 상태가 발생합니다
+• 만약 P2가 Request 0 0 1 을 추가로 요청하면?
+	=> P1, P2, P3, P4가 관련된 교착 상태가 발생
 ## 교착 상태 복구
 •	프로세스 종료
 	•	모든 교착 상태의 프로세스를 종료
