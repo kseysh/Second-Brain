@@ -231,4 +231,6 @@ Banker's Algorithm과 다른 점은 MAX값을 모른다는 것이 가장 큰 차
 		•	롤백 – 안전 상태로 되돌아가 그 상태부터 재시작
 		•	기아 – 동일한 프로세스가 항상 희생자가 되는 상황을 방지해야 하며, 롤백 횟수를 비용에 포함
 
-OS 커널 내부 -> prevention을 적용함
+OS 커널 내부 -> prevention을 적용함 (circular wait이 생길 것 같으면 막아버림)
+user program -> 유저가 알아서 함 (방지 x, 복구 x)
+자원 할당 system call들은 내부적으로 deadlock prevention 기능을 가짐
