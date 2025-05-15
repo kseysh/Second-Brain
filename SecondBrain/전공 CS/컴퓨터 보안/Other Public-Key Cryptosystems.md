@@ -31,10 +31,22 @@ X<sub>A</sub>: Alice만 앎
 X<sub>B</sub>: Bob만 앎
 나머지 값들은 모두 아는 값들임
 Y<sub>A</sub> = a<sup>X<sub>A</sub></sup> mod q
-도표 10.3 엘가말 암호 시스템
-	•	1984년 T. Elgamal이 발표
-	•	이산 로그 문제에 기반한 공개키 방식
-	•	디피-헬만과 밀접한 관련 있음
+## RSA vs. DH: Forward Secrecy
+Forward Secrecy: 앞쪽은 안전하다!
+RSA의 경우, 영구적인 개인 키를 사용하기 때문에, cipher text 값을 logging해서 가지고 있다면, 2에서 뚫려도 1도 뚫릴 수 있다.
+따라서 이를 사용하는 이전 모든 세션이 뚫릴 수 있다.
+하지만, DH의 경우, Forward Secrecy를 만족한다. (X<sub>A1</sub>, X<sub>B1</sub>을 한 세션만 쓰고 사용 후 버리기 때문)
+![[Pasted image 20250515154150.png|400]]
+## Man-in-the Middle Attack
+![[Pasted image 20250515154243.png|200]]
+원래라면, Alice와 Bob은 서로 같은 Key를 가져야 하는데, Darth가 중간에 각각 Y<sub>A</sub>와 Y<sub>B</sub>를 가로채 K1과 K2를 만들어 Alice, Bob과 통신하게 된다. Alice는 Bob도 K2를 알 것이라 생각하고, Bob은 Alice도 K1을 알 것이라 생각하기 때문에 서로 안전하게 통신하고 있다고 착각할 수 있다.
+=> 이 문제는 공개키 인증서가 이를 해결해줄 수 있다.
+## The ElGamal Cryptosystem
+•	1984년 T. Elgamal이 발표
+•	이산 로그 문제에 기반한 공개키 방식
+•	디피-헬만과 밀접한 관련 있음
+![[Pasted image 20250515154630.png|300]]
+
 
 타원 곡선 연산
 	•	암호화 및 디지털 서명을 위해 공개키 암호를 사용하는 대부분의 제품 및 표준은 RSA를 사용
