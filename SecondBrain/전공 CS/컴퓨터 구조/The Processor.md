@@ -367,14 +367,16 @@ or에서도 Reg에서 값을 가져오는 것은 CC4이고 sub에서 결과물�
 	•	EX/MEM.RegWrite, MEM/WB.RegWrite
 •	그리고 해당 명령어의 목적지 레지스터가 $zero가 아닐 경우에만 해당됩니다
 	•	EX/MEM.RegisterRd ≠ 0, MEM/WB.RegisterRd ≠ 0
-
 ![[Pasted image 20250515171540.png|200]]
-
 
 따라서, 아래 조건을 확인해야 함
 1. 이전 instruction이 R-format인가?
 2. 이전 instruction이 RegWrite를 하는가?
 3. 이전 instruction의 destination(rd)가 0인가?
+## Forwarding Paths
+![[Pasted image 20250515173009.png|500]]
+
+
 ## Double Data Hazard
 •	다음 명령어 순서를 고려해 봅시다:
 
