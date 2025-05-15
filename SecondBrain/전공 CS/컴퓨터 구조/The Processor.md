@@ -363,11 +363,18 @@ or에서도 Reg에서 값을 가져오는 것은 CC4이고 sub에서 결과물�
 ![[Pasted image 20250508160827.png|300]]
 후속 명령어가 이전 명령어의 결과를 필요로 하지만 그 결과가 아직 레지스터에 쓰이지 않은 상태일 때, 데이터 해저드가 발생한다
 
-•	하지만 오직 전달(forwarding) 명령어가 레지스터에 값을 쓸 경우에만 해당됩니다!
+•	하지만 오직 forwarding 명령어가 레지스터에 값을 쓸 경우에만 해당됩니다!
 	•	EX/MEM.RegWrite, MEM/WB.RegWrite
 •	그리고 해당 명령어의 목적지 레지스터가 $zero가 아닐 경우에만 해당됩니다
 	•	EX/MEM.RegisterRd ≠ 0, MEM/WB.RegisterRd ≠ 0
 
+![[Pasted image 20250515171540.png|200]]
+
+
+따라서, 아래 조건을 확인해야 함
+1. 이전 instruction이 R-format인가?
+2. 이전 instruction이 RegWrite를 하는가?
+3. 이전 instruction의 destination(rd)가 0인가?
 ## Double Data Hazard
 •	다음 명령어 순서를 고려해 봅시다:
 
