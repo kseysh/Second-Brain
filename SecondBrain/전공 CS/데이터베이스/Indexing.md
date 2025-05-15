@@ -84,6 +84,9 @@ N<sub>index</sub> = 1M 개의 block 존재
 B<sub>index</sub> = 100 이라 가정 (Block size는 동일하지만 index는 key와 pointer만 들어가면 되므로)
 index block = N<sub>index</sub>/B<sub>index</sub> = 10000
 이분 탐색을 이용한 cost: O(log n) = 100
+N이 block의 개수일 때, 
+N/2<sup>i</sup> = B
+O(log<sub>2</sub>N/B)
 ## 인덱스 갱신: 삭제
 	•	삭제된 레코드가 해당 검색 키 값을 가진 유일한 레코드였다면, 인덱스에서도 해당 검색 키 삭제
 
