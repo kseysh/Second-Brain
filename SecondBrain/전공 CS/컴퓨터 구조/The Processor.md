@@ -375,35 +375,38 @@ or에서도 Reg에서 값을 가져오는 것은 CC4이고 sub에서 결과물�
 3. 이전 instruction의 destination(rd)가 0인가?
 ## Forwarding Paths
 ![[Pasted image 20250515173009.png|500]]
+and $12, *$2*, $5
+sub *$2*, $1, $3
+$2가 겹치는 상황에서의 forwarding
+## Forwarding Conditions
+굳이 물어보지는 않음.. 읽어만보자
 
-
+| Mux 제어        | 소스     | 설명                                             |
+| ------------- | ------ | ---------------------------------------------- |
+| ForwardA = 00 | ID/EX  | 첫 번째 ALU 피연산자는 레지스터 파일에서 가져옵니다.                |
+| ForwardA = 10 | EX/MEM | 첫 번째 ALU 피연산자는 이전 ALU 결과에서 포워딩됩니다.             |
+| ForwardA = 01 | MEM/WB | 첫 번째 ALU 피연산자는 데이터 메모리나 더 이전의 ALU 결과에서 포워딩됩니다. |
+| ForwardB = 00 | ID/EX  | 두 번째 ALU 피연산자는 레지스터 파일에서 가져옵니다.                |
+| ForwardB = 10 | EX/MEM | 두 번째 ALU 피연산자는 이전 ALU 결과에서 포워딩됩니다.             |
+| ForwardB = 01 | MEM/WB | 두 번째 ALU 피연산자는 데이터 메모리나 더 이전의 ALU 결과에서 포워딩됩니다. |
 ## Double Data Hazard
 •	다음 명령어 순서를 고려해 봅시다:
+1. add *$1*,$1,$2 
+2. add *$1*,*$1*,$3  
+3. add $1,*$1*,$4  
+2,3 => EX/MEM 단계의 값을 forwarding
+1, (2,3) => MEM/WB 단계의 값을 forwarding
+	1. register 번호 체크
+	2. EX/MEM forwarding이 없을 경우에만
+=> 둘 다 필요하면, 가장 최근 값만 forwarding 해준다.
 
-add $1,$1,$2  
-add $1,$1,$3  
-add $1,$1,$4  
-
-
-	•	두 종류의 데이터 해저드가 발생합니다
+•	두 종류의 데이터 해저드가 발생합니다
 	•	가장 최근 값을 사용해야 합니다
-	•	MEM 해저드 조건을 수정해야 합니다
+•	MEM 해저드 조건을 수정해야 합니다
 	•	EX 해저드 조건이 참이 아닐 경우에만 forwarding 하도록 해야 합니다
-
-수정된 Forwarding 조건
-	•	MEM 해저드
-
-if (MEM/WB.RegWrite and (MEM/WB.RegisterRd ≠ 0)  
-    and not (EX/MEM.RegWrite and (EX/MEM.RegisterRd ≠ 0)  
-             and (EX/MEM.RegisterRd = ID/EX.RegisterRs))  
-    and (MEM/WB.RegisterRd = ID/EX.RegisterRs))  
-    ForwardA = 01
-
-if (MEM/WB.RegWrite and (MEM/WB.RegisterRd ≠ 0)  
-    and not (EX/MEM.RegWrite and (EX/MEM.RegisterRd ≠ 0)  
-             and (EX/MEM.RegisterRd = ID/EX.RegisterRt))  
-    and (MEM/WB.RegisterRd = ID/EX.RegisterRt))  
-    ForwardB = 01
+## 수정된 Forwarding 조건
+![[Pasted image 20250515173721.png|500]]
+## Datapath with Forwarding
 
 
 
