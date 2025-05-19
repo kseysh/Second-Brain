@@ -80,7 +80,7 @@ MAC과 달리 부인 방지 기능이 추가된다 (서명 생성은 보내는 �
       = (𝑀<sup>𝜙(𝑛)</sup>)<sup>𝑘</sup> × 𝑀 mod 𝑛 = 𝑀 => Euler totient function에 의해 𝑀<sup>𝜙(𝑛)</sup> = 1
 => M을 e 제곱해서 cipher text를 만들고, 이를 d 제곱을 다시하게 되면 원래 M이 돌아온다.
 #### RSA Algorithm Example
-![[Pasted image 20250506182828.png|400]]
+![[Pasted image 20250506182828.png|500]]
 p = 17
 q = 11
 𝜙(𝑛)  160
