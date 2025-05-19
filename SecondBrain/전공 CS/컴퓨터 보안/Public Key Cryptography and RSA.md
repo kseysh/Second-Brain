@@ -99,6 +99,29 @@ encapsulated된 key인 C는 Alice만 복원할 수 있게 된다.
 공개키 암호로 key를 encapsulation한 것과 Cipher text를 보내주고, 그 세션 key를 복원한 Alice가 실제 bulk 데이터에 대한 decryption을 할 수 있다.
 ## RSA encryption vs. digital signature
 ![[Pasted image 20250506185921.png|400]]
+```python
+def keygen(keylen):
+    bound = 1 << keylen//2 
+    p = 2 * random.randint(bound//4, bound//2) - 1
+    while miller_rabin(p, 50) == Composite:
+        p = 2 * random.randint(bound//4, bound//2) - 1
+    q = 2 * random.randint(bound//4, bound//2) - 1 
+    while miller_rabin(q, 50) == Composite:
+        q = 2 * random.randint(bound//4, bound//2) - 1
+    # Now p and q are odd primes.
+    # Compute n.
+    n = p * q
+    # find e appropriately.
+    a = (p - 1) * (q - 1)
+    e = random.randint(3, a)
+    while gcd(e, a) != 1:
+        e = random.randint(3, a)
+    # find d appropriately.
+    d = pow(e, -1, a)
+    # Hint: You may compute x^-1 mod m by pow(x, -1, m)
+    return (e, d, n)
+```
+
 ### RSA digital signature
 ![[Pasted image 20250506190031.png|400]]
 메시지 M과 전자서명 S를 같이 보냄
@@ -128,7 +151,7 @@ def exp(a, b, n):
             f = (f * a) % n
     return f
 ```
-위 슬라이드에서 c는 어차피 보여주기 ㅇ
+위 슬라이드에서 c는 어차피 보여주기 용으로 현재 a의 몇 제곱을 계산하고 있는지를 보여준다. 따라서 c는 구현하지 않았다.
 ## 공개키로의 효율적 연산
 •	RSA에서 공개키 사용 시 속도를 높이기 위해 e 값은 보통 특정 값으로 설정
 •	가장 일반적인 값: 65537 (2¹⁶ + 1)
