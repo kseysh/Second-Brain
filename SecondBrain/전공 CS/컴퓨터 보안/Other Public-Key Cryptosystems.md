@@ -69,6 +69,7 @@ C<sub>1</sub><sup>X<sub>A</sub></sup> mod q
 ![[Pasted image 20250515155233.png|200]]
 security Strengh: 공격 시 O(2<sup>x</sup>) 연산이 필요하다는 의미
 결론: 타원 곡선은 더 짧은 key를 써도 안전하게 가능하다
+ECC는 Security Strength가 O(root(f))이다.
 # Groups
 이항 연산 (•)을 갖는 원소들의 집합
 Group은 아래 5가지를 만족해야 함 ( a ∈ G )
