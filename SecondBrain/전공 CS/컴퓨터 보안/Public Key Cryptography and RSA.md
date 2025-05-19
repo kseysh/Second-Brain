@@ -137,8 +137,12 @@ e = 7
 d = 23
 
 만약 mod 187에서 plain text가 189라면, decryption이후 값은 2가 되어버려 다른 값이 나올 수 있다
+#### M이 n보다 클 때, 해결 방법 두 가지
+ECB mode처럼 plain text를 작은 숫자로 쪼개고, 첫 번째 block의 e제곱, 두 번째 block의 e제곱을 하고, 복호화 시에도 첫 번째 cipher text의 d제곱, 두 번째의 d제곱을 하면서 나중에 이를 다 합치는 방법을 사용한다.
+=> = 너무 연산이 시간이 오래걸리게 되어 이렇게 잘 사용하지는 않는다.
 ### RSA Processing of Multiple Blocks
 ![[Pasted image 20250519213550.png|200]]
+
 
 RSA로 긴 메시지를 처리할 때, 메시지를 블록으로 나눠 각각 암호화 한다.
 키 생성 후 평문 P를 블록 단위로 나눠 각 블록 P<sub>i</sub>를 C<sub>i</sub> = P<sub>i</sub><sup>e</sup>mod n으로 암호화한다
