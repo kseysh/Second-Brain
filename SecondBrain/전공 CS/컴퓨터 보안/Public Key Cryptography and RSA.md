@@ -92,7 +92,7 @@ Y: Cipher text
 •	평문과 암호문은 0부터 n-1까지의 정수
 •	일반적인 n의 크기는 1024비트(10진수로 약 309자리)
 ![[Pasted image 20250506180244.png|500]]
-기억할 것:
+Recall:
 	1.	Euler totient function 𝜙(𝑛)
 	•	𝑛 이하의 양의 정수 중 𝑛과 서로소인 수의 개수
 	2.	오일러 정리
@@ -106,26 +106,6 @@ Y: Cipher text
       = 𝑀<sup>𝑘𝜙(𝑛)</sup>× 𝑀 mod 𝑛
       = (𝑀<sup>𝜙(𝑛)</sup>)<sup>𝑘</sup> × 𝑀 mod 𝑛 = 𝑀 => Euler totient function에 의해 𝑀<sup>𝜙(𝑛)</sup> = 1
 => M을 e 제곱해서 cipher text를 만들고, 이를 d 제곱을 다시하게 되면 원래 M이 돌아온다.
-#### RSA Algorithm Example
-![[Pasted image 20250506182828.png|500]]
-p = 17
-q = 11
-𝜙(𝑛)  160
-e = 7
-d = 23
-
-![[Pasted image 20250506184338.png|500]]
-만약 mod 187에서 plain text가 189라면, decryption이후 값은 2가 되어버려 다른 값이 나올 수 있다
-#### 해결 방법 두 가지
-ECB mode처럼 plain text를 작은 숫자로 쪼개고, 첫 번째 block의 e제곱, 두 번째 block의 e제곱을 하고, 복호화 시에도 첫 번째 cipher text의 d제곱, 두 번째의 d제곱을 하면서 나중에 이를 다 합치는 방법을 사용한다.
-
-하지만, 이는 너무 연산이 시간이 오래걸리게 되어 이렇게 잘 사용하지는 않는다. 
-##### Hibrid encryption
-Key encapsulation + Data encryption
-encapsulated된 key인 C는 Alice만 복원할 수 있게 된다.
-공개키 암호로 key를 encapsulation한 것과 Cipher text를 보내주고, 그 세션 key를 복원한 Alice가 실제 bulk 데이터에 대한 decryption을 할 수 있다.
-## RSA encryption vs. digital signature
-![[Pasted image 20250506185921.png|400]]
 ```python
 def keygen(keylen):
     bound = 1 << keylen//2 
@@ -148,6 +128,26 @@ def keygen(keylen):
     # Hint: You may compute x^-1 mod m by pow(x, -1, m)
     return (e, d, n)
 ```
+#### RSA Algorithm Example
+![[Pasted image 20250506182828.png|500]]
+p = 17
+q = 11
+𝜙(𝑛)  160
+e = 7
+d = 23
+
+![[Pasted image 20250506184338.png|500]]
+만약 mod 187에서 plain text가 189라면, decryption이후 값은 2가 되어버려 다른 값이 나올 수 있다
+#### 해결 방법 두 가지
+ECB mode처럼 plain text를 작은 숫자로 쪼개고, 첫 번째 block의 e제곱, 두 번째 block의 e제곱을 하고, 복호화 시에도 첫 번째 cipher text의 d제곱, 두 번째의 d제곱을 하면서 나중에 이를 다 합치는 방법을 사용한다.
+
+하지만, 이는 너무 연산이 시간이 오래걸리게 되어 이렇게 잘 사용하지는 않는다. 
+##### Hibrid encryption
+Key encapsulation + Data encryption
+encapsulated된 key인 C는 Alice만 복원할 수 있게 된다.
+공개키 암호로 key를 encapsulation한 것과 Cipher text를 보내주고, 그 세션 key를 복원한 Alice가 실제 bulk 데이터에 대한 decryption을 할 수 있다.
+## RSA encryption vs. digital signature
+![[Pasted image 20250506185921.png|400]]
 
 ### RSA digital signature
 ![[Pasted image 20250506190031.png|400]]
