@@ -11,8 +11,9 @@
 	•	타원 곡선 암호의 보안성 => 같은 key 길이로 높은 안정성을 부여한다.
 ## 복습: 공개키 암호 시스템의 응용
 •	공개키 암호 시스템은 세 가지 범주로 분류될 수 있다:
-	•	암호화/복호화
-		▪ 송신자는 수신자의 공개키로 메시지를 암호화한다
+
+•	암호화/복호화
+	▪ 송신자는 수신자의 공개키로 메시지를 암호화한다
 •	디지털 서명
 	▪ 송신자는 자신의 개인키로 메시지에 “서명”한다
 •	키 교환
@@ -20,22 +21,25 @@
 ## Mod 19에서 Discrete logarithm
 ![[Pasted image 20250513163056.png|300]]
 ## 디피-헬만 키 교환
-•	최초로 발표된 공개키 알고리즘
+•	*최초로 발표된 공개키 알고리즘*
 •	여러 상용 제품들이 이 키 교환 기법을 사용
 •	두 사용자가 보안을 유지한 채 키를 교환할 수 있도록 해주며, 이 키는 이후 대칭 암호 방식으로 메시지를 암호화하는 데 사용됨
 •	알고리즘 자체는 비밀 값의 교환에만 제한됨
 •	그 효과는 이산 로그 계산의 어려움에 의존함
 ## 도표 10.1 디피–헬만 키 교환
-![[Pasted image 20250513163221.png|300]]
+![[Pasted image 20250513163221.png|500]]
 X<sub>A</sub>: Alice만 앎
 X<sub>B</sub>: Bob만 앎
 나머지 값들은 모두 아는 값들임
-Y<sub>A</sub> = a<sup>X<sub>A</sub></sup> mod q
+
+송신자는 X<sub>A</sub>를 가지고, Y<sub>A</sub> = a<sup>X<sub>A</sub></sup> mod q를 수신자에게 보냄
+수신자도 X<sub>B</sub>를 가지고, Y<sub>B</sub> = a<sup>X<sub>B</sub></sup> mod q를 송신자에게 보냄
+K = (Y<sub>B</sub>)<sup>X<sub>A</sub></sup> mod q = (Y<sub>A</sub>)<sup>X<sub>B</sub></sup> mod q임
 ## RSA vs. DH: Forward Secrecy
 Forward Secrecy: 앞쪽은 안전하다!
 RSA의 경우, 영구적인 개인 키를 사용하기 때문에, cipher text 값을 logging해서 가지고 있다면, 2에서 뚫려도 1도 뚫릴 수 있다.
 따라서 이를 사용하는 이전 모든 세션이 뚫릴 수 있다.
-하지만, DH의 경우, Forward Secrecy를 만족한다. (X<sub>A1</sub>, X<sub>B1</sub>을 한 세션만 쓰고 사용 후 버리기 때문)
+하지만, *DH의 경우, Forward Secrecy를 만족한다*. (X<sub>A1</sub>, X<sub>B1</sub>을 한 세션만 쓰고 사용 후 버리기 때문)
 ![[Pasted image 20250515154150.png|400]]
 ## Man-in-the Middle Attack
 ![[Pasted image 20250515154243.png|200]]
