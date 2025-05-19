@@ -22,7 +22,7 @@
 - 인증
 - 인증 + 기밀성
 ## Public Key Cryptosystem: Confidentiality
-![[Pasted image 20250506171757.png|400]]
+![[Pasted image 20250506171757.png|500]]
 PU: public key로 모든 사람에게 나누어주는 키
 PR: private key
 X: plain text
@@ -39,27 +39,38 @@ Y: Cipher text
 | 동작<br>조건 | 1. 암호화와 복호화에 같은 알고리즘과 키 사용<br>2. 송신자와 수신자가 알고리즘과 키를 공유해야 함                                           | 1. 암호화와 복호화에 각각 연관된 다른 알고리즘 사용 <br>(쌍으로 된 키 중 하나씩 사용)<br>2. 송신자와 수신자는 서로 다른 키 한 쌍을 보유해야 함                               |
 | 보안<br>조건 | 1. 키는 비밀로 유지되어야 함<br>2. 키가 비밀이면 메시지를 해독하는 것이 불가능하거나 비현실적이어야 함<br>3. 알고리즘과 암호문 샘플을 알아도 키를 추론할 수 없어야 함 | 1. 두 키 중 하나는 비밀로 유지되어야 함<br>2. 비밀 키가 유지되면 메시지를 해독하는 것이 불가능하거나 비현실적이어야 함<br>3. 알고리즘, 키 하나, 암호문 샘플을 알아도 다른 키를 유추할 수 없어야 함 |
 ## Public Key Cryptosystem: Authentication
-![[Pasted image 20250506173844.png|300]]
-목적: 메시지가 송신자 A에 의해 생성되었음을 증명하기 위해, 송신자의 개인키로 서명
+![[Pasted image 20250506173844.png|500]]
+목적: 메시지가 송신자 A에 의해 생성되었음을 증명하기 위해, 송신자의 개인키로 서명 (부인 방지 기능)
 
-송신자 A는 메시지 X를 자신의 개인키 PR<sub>a</sub>로 암호화 Y = E(PR<sub>a</sub>, X)
-수신자 B는 송신자의 공개키 PUa로 복호화 X = D(PU<sub>a</sub>, Y)
-복호화가 성공하면, 메시지가 송신자 A로부터 온 것임을 인증할 수 있음
-
-보내는 사람은 자신의 private key를 가지고 서명
-받는 사람은 보낸 사람의 public key를 가지고 서명 확인
-서명은 자신만 할 수 있고, 서명 확인은 모두가 할 수 있음
-MAC과 달리 부인 방지 기능이 추가된다 (서명 생성은 보내는 사람만 가능하므로)
+- 송신자 A는 메시지 X를 자신의 개인키 PR<sub>a</sub>로 암호화 Y = E(PR<sub>a</sub>, X)
+	- 보내는 사람은 자신의 private key를 가지고 서명
+- 수신자 B는 송신자의 공개키 PUa로 복호화 X = D(PU<sub>a</sub>, Y)
+	- 받는 사람은 보낸 사람의 public key를 가지고 서명 확인
+- 복호화가 성공하면, 메시지가 송신자 A로부터 온 것임을 인증할 수 있음
+- 서명은 자신만 할 수 있고, 서명 확인은 모두가 할 수 있음
+- MAC과 달리 부인 방지 기능이 추가된다 (서명 생성은 보내는 사람만 가능하므로)
 그림 외우기
 ## Cryptosystem: Authentication and Confidentiality
-![[Pasted image 20250506174659.png|300]]
-1. 송신자의 private key로 암호화
-2. 수신자의 public key로 암호화
-3. 수신자의 private key로 복호화
-4. 송신자의 public key로 복호화
+![[Pasted image 20250506174659.png|500]]
+1. 송신자 A는 메시지 X를 자신의 PRa로 암호화 Y = E(PR<sub>a</sub>, X)
+	- 서명 생성
+2. Y를 다시 수신자 B의 PU<sub>b</sub>로 암호화 Z = E(PU<sub>b</sub>, Y)
+	- 기밀성
+3. 수신자 B는 자신의 PR<sub>b</sub>로 복호화 Y = D(PR<sub>b</sub>, Z)
+	- 기밀성 복호화
+4. 수신자 B는 A의 PUa로 복호화 X = D(PU<sub>a</sub>, Y)
+	- 서명 검증
 송신자 수신자의 private, public key가 어떤 목적을 가지고 사용되는지 잘 알아야 한다.
+
 => 굉장히 중요한 개념
 그림 외우기
+
+### 정리
+| **목적**                               | **암호화 키**                       | **복호화 키**                       | **보장되는 보안 기능** |
+| ------------------------------------ | ------------------------------- | ------------------------------- | -------------- |
+| 9.2 Confidentiality                  | PU<sub>b</sub>                  | PR<sub>b</sub>                  | 기밀성            |
+| 9.3 Authentication                   | PR<sub>a</sub>                  | PU<sub>a</sub>                  | 인증             |
+| 9.4 Authentication + Confidentiality | PR<sub>a</sub> → PU<sub>b</sub> | PR<sub>b</sub> → PU<sub>a</sub> | 기밀성 + 인증       |
 ## 공개키 암호 시스템의 응용 분야
 •	세 가지 범주로 분류됨:
 •	암호화/복호화: 송신자가 수신자의 공개키로 메시지를 암호화
