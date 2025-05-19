@@ -144,8 +144,7 @@ d = 23
 RSA로 긴 메시지를 처리할 때, ECB 모드처럼 메시지를 블록으로 나눠 각각 암호화 한다.
 키 생성 후 평문 P를 블록 단위로 나눠 각 블록 P<sub>i</sub>를 C<sub>i</sub> = P<sub>i</sub><sup>e</sup>mod n으로 암호화한다
  수신자는 개인키로 P<sub>i</sub> = C<sub>i</sub><sup>d</sup>mod n으로 복호화
- ECB mode처럼 plain text를 작은 숫자로 쪼개고, 첫 번째 block의 e제곱, 두 번째 block의 e제곱을 하고, 복호화 시에도 첫 번째 cipher text의 d제곱, 두 번째의 d제곱을 하면서 나중에 이를 다 합치는 방법을 사용한다.
-=> = 너무 연산이 시간이 오래걸리게 되어 이렇게 잘 사용하지는 않는다.
+=> 너무 연산이 시간이 오래걸리게 되어 이렇게 잘 사용하지는 않는다.
 ### Hybrid encryption - key encapsulation + Data encryption
 ![[Pasted image 20250519213522.png|300]]
 RSA 단독 사용은 느리기 때문에, 실무에서는 대칭키(AES)와 공개키(RSA)를 결합하는 하이브리드 암호화를 사용한다
@@ -160,14 +159,8 @@ RSA 단독 사용은 느리기 때문에, 실무에서는 대칭키(AES)와 공�
 2. 데이터 복호화
 	- 동일한 CTR 모드 사용
 	- P1, P2, PN 복원
-
-##### Hibrid encryption
-Key encapsulation + Data encryption
-encapsulated된 key인 C는 Alice만 복원할 수 있게 된다.
-공개키 암호로 key를 encapsulation한 것과 Cipher text를 보내주고, 그 세션 key를 복원한 Alice가 실제 bulk 데이터에 대한 decryption을 할 수 있다.
 ## RSA encryption vs. digital signature
 ![[Pasted image 20250506185921.png|400]]
-
 ### RSA digital signature
 ![[Pasted image 20250506190031.png|400]]
 메시지 M과 전자서명 S를 같이 보냄
