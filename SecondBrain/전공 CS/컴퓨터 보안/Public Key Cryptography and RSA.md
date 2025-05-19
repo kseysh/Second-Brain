@@ -69,7 +69,7 @@ Y: Cipher text
 | **목적**                               | **암호화 키**                       | **복호화 키**                       | **보장되는 보안 기능** |
 | ------------------------------------ | ------------------------------- | ------------------------------- | -------------- |
 | 9.2 Confidentiality                  | PU<sub>b</sub>                  | PR<sub>b</sub>                  | 기밀성            |
-| 9.3 Authentication                   | PR<sub>a</sub>                  | PU<sub>a</sub>                  | 인증             |
+| 9.3 Authentication                   | PR<sub>a</sub>                  | PU<sub>a</sub>                  | 인증 (부인 방지)     |
 | 9.4 Authentication + Confidentiality | PR<sub>a</sub> → PU<sub>b</sub> | PR<sub>b</sub> → PU<sub>a</sub> | 기밀성 + 인증       |
 ## 공개키 암호 시스템의 응용 분야
 •	세 가지 범주로 분류됨:

@@ -49,9 +49,23 @@ RSA의 경우, 영구적인 개인 키를 사용하기 때문에, cipher text �
 •	1984년 T. Elgamal이 발표
 •	이산 로그 문제에 기반한 공개키 방식
 •	디피-헬만과 밀접한 관련 있음
+- k가 random integer이기 때문에, 똑같은 M을 암호화해도 다를 수 있다.
 ![[Pasted image 20250515154630.png|300]]
-K: session key
-k가 random integer이기 때문에, 똑같은 M을 암호화해도 다를 수 있다.
+###### ElGamal Cryptosystem의 전역 공개 요소
+q : 큰 소수
+a: q의 primitive root
+###### ElGamal Cryptosystem의 key generation
+Y<sub>A</sub> = α<sup>X<sub>A</sub></sup> mod q
+PU: {q, α, Y<sub>A</sub>}
+PR: X<sub>A</sub>
+###### ElGamal Cryptosystem의 Encryption 과정
+세션 키 K 계산: K = (Y<sub>A</sub>)<sup>k</sup> mod q
+C1 (세션 키 계산 용) 계산 : α<sup>k</sup> mod q
+C2 (메시지 계산 용) 계산: KM mod q
+###### ElGamal Cryptosystem의 Decryption 과정
+K Decryption: K = C<sub>1</sub><sup>X<sub>A</sub></sup> mod q
+M Decryption: M = C<sub>2</sub>K<sup>-1</sup> mod q
+###### C1 Decryption 증명
 C<sub>1</sub><sup>X<sub>A</sub></sup> mod q
 = (α<sup>k</sup>)<sup>X<sub>A</sub></sup> mod q
 = (α<sup>X<sub>A</sub></sup>)<sup>k</sup> mod q
@@ -109,6 +123,20 @@ ECDLP: 곡선 E, P, Q를 죽 Q = kp를 만족하는 k를 찾는 것
 discrete log: α, q, y가 주어졌을 때, x를 찾는 것 (같은 구조라고 한다)
 ## ECC Diffie-Hellman Key Exchange
 ![[Pasted image 20250515155900.png|300]]
+###### ECC DH Key Exchange 전역 공개 요소
+E<sub>q</sub>(a,b) : 타원 곡선
+G: 타원 곡선 위의 점
+###### ECC DH Key Exchange key generation
+User A
+PU: P<sub>A</sub> = n<sub>A</sub> x G
+PR: n<sub>A</sub> = n보다 작은 임의의 정수
+
+User B
+PU: P<sub>B</sub> = n<sub>B</sub> x G
+PR: n<sub>B</sub> = n보다 작은 임의의 정수
+###### ECC DH Key Exchange 과정
+K = n<sub>A</sub> x P<sub>B</sub>
+K = n<sub>B</sub> x P<sub>A</sub>
 ![[Pasted image 20250515155918.png|200]]
 ## 타원 곡선 암호의 보안성
 •	ECDLP의 어려움에 의존
