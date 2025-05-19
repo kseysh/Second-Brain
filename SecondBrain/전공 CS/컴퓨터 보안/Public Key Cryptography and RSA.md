@@ -137,20 +137,29 @@ e = 7
 d = 23
 
 만약 mod 187에서 plain text가 189라면, decryption이후 값은 2가 되어버려 다른 값이 나올 수 있다
-#### M이 n보다 클 때, 해결 방법 두 가지
-ECB mode처럼 plain text를 작은 숫자로 쪼개고, 첫 번째 block의 e제곱, 두 번째 block의 e제곱을 하고, 복호화 시에도 첫 번째 cipher text의 d제곱, 두 번째의 d제곱을 하면서 나중에 이를 다 합치는 방법을 사용한다.
-=> = 너무 연산이 시간이 오래걸리게 되어 이렇게 잘 사용하지는 않는다.
+## M이 n보다 클 때, 해결 방법 두 가지
+
 ### RSA Processing of Multiple Blocks
 ![[Pasted image 20250519213550.png|200]]
-
-
-RSA로 긴 메시지를 처리할 때, 메시지를 블록으로 나눠 각각 암호화 한다.
+RSA로 긴 메시지를 처리할 때, ECB 모드처럼 메시지를 블록으로 나눠 각각 암호화 한다.
 키 생성 후 평문 P를 블록 단위로 나눠 각 블록 P<sub>i</sub>를 C<sub>i</sub> = P<sub>i</sub><sup>e</sup>mod n으로 암호화한다
  수신자는 개인키로 P<sub>i</sub> = C<sub>i</sub><sup>d</sup>mod n으로 복호화
-## Hybrid encryption - key encapsulation + Data encryption
+ ECB mode처럼 plain text를 작은 숫자로 쪼개고, 첫 번째 block의 e제곱, 두 번째 block의 e제곱을 하고, 복호화 시에도 첫 번째 cipher text의 d제곱, 두 번째의 d제곱을 하면서 나중에 이를 다 합치는 방법을 사용한다.
+=> = 너무 연산이 시간이 오래걸리게 되어 이렇게 잘 사용하지는 않는다.
+### Hybrid encryption - key encapsulation + Data encryption
 ![[Pasted image 20250519213522.png|300]]
-R
-
+RSA 단독 사용은 느리기 때문에, 실무에서는 대칭키(AES)와 공개키(RSA)를 결합하는 하이브리드 암호화를 사용한다
+###### 송신자 Bob
+1. 송신자 Bob이 세션 키 K 생성
+2. RSA로 K 암호화 C = K<sup>e</sup> mod n
+3. CTR 모드로 데이터 암호화
+	- 평문 P1, P2...를 AES-CTR 같은 대칭 키 알고리즘으로 암호화
+4. 암호문 C, C1, C2....을 Alice에게 전송
+###### 수신자 Alice
+1. 세션 키 복호화 K = C<sup>d</sup>mod n
+2. 데이터 복호화
+	- 동일한 CTR 모드 사용
+	- P1, P2, PN 복원
 
 ##### Hibrid encryption
 Key encapsulation + Data encryption
