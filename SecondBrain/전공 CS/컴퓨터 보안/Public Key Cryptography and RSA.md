@@ -3,10 +3,10 @@
 ## 동기: 공개키 암호 시스템 (Public-Key Cryptosystems)
 •	공개키 암호 방식의 개념은 대칭키 암호화(symmetric encryption)와 관련된 두 가지 가장 어려운 문제를 해결하려는 시도에서 발전함:
 •	키 분배
-	•	키 분배 센터(KDC)를 신뢰하지 않고도 일반적인 상황에서 안전한 통신을 하는 방법
+	•	key distribution center(KDC)를 신뢰하지 않고도 일반적인 상황에서 안전한 통신을 하는 방법
 •	디지털 서명
 	•	메시지가 주장된 발신자로부터 온 것임을 확인하는 방법
-•	스탠퍼드 대학교의 Diffie와 Hellman은 1976년에 이 두 문제를 해결하고 기존의 암호 방식들과는 전혀 다른 방식을 제시하여 큰 진전을 이룸
+•	Diffie와 Hellman은 이 두 문제를 해결하고 기존의 암호 방식들과는 전혀 다른 방식을 제시하여 큰 진전을 이룸
 
 ## 공개키 암호 시스템의 구성 요소
 •	공개키 암호화는 다음의 여섯 가지 요소로 구성됨:
@@ -17,11 +17,12 @@
 •	암호문 (Ciphertext): 출력으로 생성된 난독화된 메시지
 •	복호화 알고리즘: 암호문과 개인키를 입력받아 원래의 평문을 생성
 ## Public Key Cryptosystem: Confidentiality
-![[Pasted image 20250506171757.png|300]]
+![[Pasted image 20250506171757.png|400]]
 PU: public key로 모든 사람에게 나누어주는 키
 PR: private key
-
-
+X: plain text
+Y: Cipher text
+암호를 해독하고자 한다면, b의 private key와 cipher text가 있어야 해독할 수 있다.
 ## 전통적 암호화 vs 공개키 암호화
 
 |          | 전통적 암호화                                                                                              | 공개키 암호화                                                                                                                 |
