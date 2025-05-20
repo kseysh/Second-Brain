@@ -21,23 +21,23 @@
 ![[Pasted image 20250520164706.png|300]]
 ## Address Binding
 • 프로그램의 생애 주기 단계마다 주소는 다른 방식으로 표현됨
-	• 소스 코드의 주소는 일반적으로 기호적임
-	• 컴파일된 코드의 주소는 재배치 가능한 주소에 바인딩됨
+	• source code address는 일반적으로 symbolic임
+	• Compiled code addresses는 relocatable address에 바인딩됨
 		• 예: “이 모듈의 시작점에서 14바이트 떨어진 위치”
-	• 링커나 로더는 재배치 가능한 주소를 절대 주소로 바인딩함
+	• linker나 loader는 relocatable address를 절대 주소로 바인딩함
 		• 예: 74014
 	• 각 바인딩은 하나의 주소 공간을 다른 주소 공간에 매핑함
 ![[Pasted image 20250520164737.png|150]]
-	
-	
-	•	Logical vs. Physical Address Space
-• 논리 주소 - CPU가 생성한 주소, 가상 주소라고도 함
-• 물리 주소 - 메모리 장치가 보는 주소
+## Logical vs. Physical Address Space
+• *Logical address* - CPU가 생성한 주소, *가상 주소*라고도 함 (Program에 명시된 주소)
+• *Physical address* - 메모리 장치가 보는 주소
 • 논리 주소 공간은 프로그램이 생성할 수 있는 모든 논리 주소들의 집합
 • 물리 주소 공간은 프로그램이 생성할 수 있는 모든 물리 주소들의 집합
-	•	Memory-Management Unit (MMU)
-• 실행 시간에 논리 주소를 물리 주소로 매핑하는 하드웨어 장치
-• 다양한 방법이 있으며, 본 장에서 다룸
-• 먼저, 리로케이션 레지스터를 사용하는 단순한 방식 고려
-• 물리 주소 = 논리 주소 + 리로케이션 레지스터의 값
+## Memory-Management Unit (MMU)
+• 실행 시간에 logical address를 physical address로 매핑하는 하드웨어 장치
+• 다양한 방법이 있음
+• 먼저, relocation register를 사용하는 단순한 방식 고려
+• physical address = logical address + relocation address의 값
 • MS-DOS는 Intel 80x86에서 4개의 리로케이션 레지스터를 사용함
+![[Pasted image 20250520165929.png|300]]
+MMU는 HW임. (logical address에 relocation register에 있는 값을 더해 physical address로 변환하는 일을 한다.)
