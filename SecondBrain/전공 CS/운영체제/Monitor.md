@@ -44,11 +44,11 @@ busy => 자원이 사용되고 있는지
 •	프로세스 P가 x.signal()을 호출하고, 프로세스 Q가 x.wait()으로 중단되어 있는 경우 다음에 어떤 일이 일어나야 하는가?
 	•	Q와 P는 동시에 실행될 수 없음. Q가 재개된다면 P는 대기해야 함
 •	가능한 선택지:
-	•	Signal and wait : P는 Q가 모니터를 나가거나 다른 조건을 기다릴 때까지 대기
-	•	Signal and continue : Q는 P가 모니터를 나가거나 다른 조건을 기다릴 때까지 대기 (보통 실제로 이걸 활용)
+	•	Signal and wait : P는 sig_lock_queue에서 대기, Q는 실행
+	•	Signal and continue : P가 계속 실행, Q는 sig_lock_queue에서 대기 (보통 실제로 이걸 활용)
 	•	두 방식 모두 장단점이 있으며 언어 구현자가 선택할 수 있음
 		•	Concurrent Pascal 언어에서 구현된 모니터는 타협안 사용:
-			•	P가 signal을 호출하면 즉시 모니터를 나가고, Q는 재개됨
+			•	P는 exit(), Q는 실행
 ## Monitor Implementation (signal and wait 방식)
 각 모니터 내 변수들
 ```c
