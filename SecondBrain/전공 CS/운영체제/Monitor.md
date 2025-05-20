@@ -81,21 +81,20 @@ semaphore x_sem;    // 초기값 0 , x에 대한 semaphore
 
 ```cpp
 /* x.wait */
-x_count++; // 잔다고 표시
-if (sig_lock_count > 0)
-	signal(sig_lock); // 누군가를 깨움
+x_count++; // 현재 스레드가 x를 기다리므로 대기자 수 증가
+if (sig_lock_count > 0) // 이미 누군가 x.signal()을 호출한 상태라면,
+	signal(sig_lock); // signal을 기다리던 스레드 하나를 깨움
 else
-	signal(monitor_lock); // 누군가를 깨움
-wait(x_sem); // 쿨쿨
+	signal(monitor_lock); // 그렇지 않으면 monitor_lock을 넘겨줌
+wait(x_sem); // x.signal()이 호출될 때까지 대기
 x_count--; // 일어나서 다 기다렸으니 나갈거라서 x_count를 감소
-// 잔다고 표시하고, 누군갈 깨우고, 잠들기
 
 /* x.signal */
-if (x_count > 0) { // x에 기다리는 애가 있는지 확인
-	sig_lock_count++; // sig_lock queue에서 잠들거야
-	signal(x_sem); // 일어나
-	wait(sig_lock); // 난 잘게
-	sig_lock_count--; // 나 일어남
+if (x_count > 0) { // 조건 변수 x를 기다리는 스레드가 있다면
+	sig_lock_count++; // signal을 기다리는 스레드 수 증가
+	signal(x_sem); // 기다리던 스레드 하나를 깨움
+	wait(sig_lock); // signal한 스레드는 sig_lock에서 잠시 대기 (깨운 스레드가 모니터를 먼저 갖고 실행을 계속하게 하기 위함)
+	sig_lock_count--; // signal 대기 스레드 수 감소
 }
 ```
 
