@@ -29,9 +29,11 @@
 
 •	조건 변수를 갖는 모니터
 ![[Pasted image 20250429170028.png|300]]
-그림에서 보이는 entry queue는 monitor lock queue이고, sig_lock queue가 하나 더 있다. (sig_lock queue에는 돌다가 나간 애들이 있음)
 일반적으로, x.wait(time)에서의 time => timeout 값으로, 기다리는 maximum 시간을 정해줌
-
+- Entry Queue: 모니터 내부로 들어가려는 스레드들이 대기하는 곳 (monitor lock 자체를 기다리는 큐)
+- Condition variable Waiting Queue: wait()을 호출한 스레드가 특정 조건이 만족될 때까지 대기하는 큐
+	- wait()을 하면 모니터 락을 반환하고 조건 변수 대기 큐에 들어간다.
+- signal lock queue: signal 호출 시 모니터 락은 현재 실행 중인 스레드가 가지고 있으므로 깨운 스레드는 즉시 실행할 수 없고 락을 다시 획득할 때까지 sig_lock_queue에서 대기한다.
 #### Monitor - Code Example
 ![[Pasted image 20250429170044.png|200]]
 acquire(time) => time만큼 자원을 할당받아 사용
