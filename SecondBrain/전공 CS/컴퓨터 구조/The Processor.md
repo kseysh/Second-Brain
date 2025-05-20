@@ -407,37 +407,43 @@ $2가 겹치는 상황에서의 forwarding
 ## 수정된 Forwarding 조건
 ![[Pasted image 20250515173721.png|500]]
 ## Datapath with Forwarding
+회로는 중요하지 않음, 흐름만 보면 된다.
+![[Pasted image 20250520154245.png|500]]
+## Load-Use Data Hazard
+![[Pasted image 20250520154357.png|500]]
 
-
-
-Load-Use 해저드 감지
-	•	사용하는 명령어가 ID 단계에서 디코드될 때 확인
-	•	ID 단계에서 ALU 피연산자 레지스터 번호는 다음과 같습니다:
-	•	IF/ID.RegisterRs, IF/ID.RegisterRt
-	•	Load-use 해저드는 다음 조건에서 발생합니다:
-
-ID/EX.MemRead and  
-((ID/EX.RegisterRt = IF/ID.RegisterRs) or  
- (ID/EX.RegisterRt = IF/ID.RegisterRt))
-
-
-	•	감지되면 stall을 발생시키고 bubble을 삽입합니다
-
-파이프라인을 멈추는 방법
-	•	ID/EX 레지스터의 제어 값을 0으로 설정
+## Load-Use Data Hazard
+•	사용하는 명령어가 ID 단계에서 디코드될 때 확인
+•	ID 단계에서 ALU 피연산자 레지스터 번호는 다음과 같습니다:
+	•	`IF/ID.RegisterRs, IF/ID.RegisterRt`
+•	Load-use 해저드는 다음 조건에서 발생합니다:
+	`ID/EX.MemRead and  `
+		`((ID/EX.RegisterRt = IF/ID.RegisterRs) or  `
+		 `(ID/EX.RegisterRt = IF/ID.RegisterRt))`
+•	감지되면 stall을 발생시키고 bubble을 삽입합니다
+## 파이프라인을 멈추는 방법
+•	ID/EX 레지스터의 제어 값을 0으로 설정
 	•	EX, MEM, WB 단계는 nop(무연산)을 수행
-	•	PC와 IF/ID 레지스터의 업데이트를 방지
+•	PC와 IF/ID 레지스터의 업데이트를 방지
 	•	사용하는 명령어는 다시 디코드되고
 	•	다음 명령어는 다시 fetch됩니다
 	•	1 사이클의 stall로 MEM이 lw 명령어의 데이터를 읽을 수 있도록 함
-	•	이후 EX 단계로 forwarding이 가능함
-
-Stall과 성능
-	•	Stall은 성능을 떨어뜨립니다
+		•	이후 EX 단계로 forwarding이 가능함
+![[Pasted image 20250520154500.png|400]]	
+## Load-Use Data Hazard
+![[Pasted image 20250520154600.png|500]]
+![[Pasted image 20250520154728.png|500]]
+## Datapath with Hazard Detection
+![[Pasted image 20250520154837.png|500]]
+## Stalls and Performance
+•	Stall은 성능을 떨어뜨립니다
 	•	하지만 정확한 결과를 위해 필요합니다
-	•	컴파일러는 해저드와 stall을 피하도록 코드를 재배치할 수 있습니다
+•	컴파일러는 해저드와 stall을 피하도록 코드를 재배치할 수 있습니다
 	•	이를 위해 파이프라인 구조에 대한 지식이 필요합니다
-
+## Branch Hazards
+만약 branch 결과가 MEM에서 결정된다면,
+![[Pasted image 20250520154955.png|500]]
+branch not taken 예측 후 
 분기 지연 줄이기
 	•	분기 결과를 ID 단계에서 판단하도록 하드웨어 이동
 	•	타겟 주소 덧셈기
