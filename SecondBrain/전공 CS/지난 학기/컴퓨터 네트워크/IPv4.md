@@ -1,3 +1,4 @@
+Internet Protocol Version 4
 ## IP Diagram
 ![[Pasted image 20241125162536.png|400]]
 ### Service type
