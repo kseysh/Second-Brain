@@ -599,22 +599,39 @@ Loop: lw $t0, 0($s1)      # $t0 = 배열 요소
 while(p!=0){
 	*p += a;
 	p--;
-	// $s1 = p, 
+	// $s1 = p
 	// $s2 = a
 }
 ```
 ![[Pasted image 20250520122226.png|400]]
-•	IPC = 5/4 = 1.25 (참고: 최대 IPC = 2)
+addu -> lw에서 불러온 s1이 addu때 사용되므로 lw와 떨어져야 함
+addi와 bne도 한 사이클 떨어져 있어야 함
+addi는 1-1로 가도 되고, 2-1에 있어도 됨
+addu가 되어야 sw가 되기 때문에 sw의 자리가 저렇게 됨
 
-루프 언롤링
-	•	루프 본문을 복제하여 더 많은 병렬성 노출
+•	IPC = 5/4 = 1.25 (참고: 최대 IPC = 2)
+## Loop Unrolling
+•	루프 본문을 복제하여 더 많은 병렬성 노출
 	•	루프 제어 오버헤드 감소
-	•	복제마다 다른 레지스터 사용
+•	복제마다 다른 레지스터 사용
 	•	이를 “레지스터 이름 바꾸기(register renaming)”라고 함
 	•	루프에 의해 전달되는 “anti-dependency” 회피
-	•	같은 레지스터를 store하고 다시 load하는 경우
-	•	“이름 의존성(name dependence)”이라고도 함
-	•	같은 레지스터 이름을 재사용
+		•	같은 레지스터를 store하고 다시 load하는 경우
+		•	“이름 의존성(name dependence)”이라고도 함
+			•	같은 레지스터 이름을 재사용
+#### example
+```
+while(p!=0){
+	*p += a;
+	*(p-1) += a;
+	*(p-2) += a;
+	*(p-3) += a;
+	p = p-4
+	// $s1 = p
+	// $s2 = a
+}
+```
+branch에서 하는 일이 많을 수록 branch를 위한 instruction의 비중이 줄어들어 내부적으로 parallelism을 사용할 확률이 올라간다
 
 동적 다중 발행
 	•	“슈퍼스칼라(Superscalar)” 프로세서
