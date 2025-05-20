@@ -58,3 +58,13 @@
 		● 예를 들어, HTTP에서 header의 끝을 개행문자 /r/n (CR LF)로 구분하므로, header 시작 후 개행 문자 없이 의미없는 문자열을 보내면 서버는 계속 연결을 유지
 	■ 대응
 		● 세션 임계치 설정, 세션 타임아웃 시간 제한
+### Smurf attack
+▣ Direct broadcast
+	■ 기본적인 broadcast는 destination IP address 255.255.255.255로 패킷을 전송하며, 이는 라우터 경계 내에서만 동작함
+	■ direct broadcast: 라우터를 넘어가서 broadcast를 해야 하는 경우 IP address 의 일부분만 broadcast 주소로 채움
+		● 예: 165.246.13.255 → 165.246.13 으로 시작하는 subnetwork를 대상으로 broadcast
+▣ Smurf attack
+	■ Direct broadcast를 악용하여, source IP address를 특정 주소(피해자의 IP address)로 조작한 ICMP request 를 broadcast
+	■ 피해자는 수많은 ICMP reply를 받아 과부하 상태가 됨
+▣ 대응
+	■ 각 host와 router들로 하여금 broadcast address 일 경우 무시하도록 설정
