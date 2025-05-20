@@ -611,8 +611,9 @@ addu가 되어야 sw가 되기 때문에 sw의 자리가 저렇게 됨
 
 •	IPC = 5/4 = 1.25 (참고: 최대 IPC = 2)
 ## Loop Unrolling
-•	루프 본문을 복제하여 더 많은 병렬성 노출
-	•	루프 제어 오버헤드 감소
+Loop Unrolling의 두 가지 효과
+	•	루프 본문을 복제하여 더 많은 병렬성 노출 (loop 내부의 크기를 늘려 병렬성을 크게 한다.)
+	•	루프 제어 오버헤드 감소 (beq instruction 비중을 줄인다)
 •	복제마다 다른 레지스터 사용
 	•	이를 “레지스터 이름 바꾸기(register renaming)”라고 함
 	•	루프에 의해 전달되는 “anti-dependency” 회피 (같은 레지스터를 사용하지 않으므로)
@@ -637,33 +638,40 @@ IPC = 14/8 = 1.75
 - 하지만, register 활용률이 증가해버리고, code size가 커진다.
 - loop size에 따른 조건을 더 철저하게 확인해야 한다.
 ## Dynamic Multiple Issue
-•	“슈퍼스칼라(Superscalar)” 프로세서
+여기부터는 개념적으로 받아들이자
+•	"Superscalar" 프로세서 (CPU HW)
 •	CPU가 매 사이클마다 0, 1, 2, … 개의 명령어를 발행할지 결정
-	•	구조적 및 데이터 해저드 회피
+	•	structural and data hazards 회피
 •	컴파일러의 스케줄링 필요 없음
 	•	하지만 여전히 도움이 될 수 있음
 	•	코드 의미는 CPU가 보장
 ## Dynamic Pipeline Scheduling
-	•	CPU가 명령어를 out-of-order로 실행해 stall을 피할 수 있도록 허용
+•	CPU가 명령어를 out-of-order로 실행해 stall을 피할 수 있도록 허용
 	•	결과는 반드시 순서대로 레지스터에 기록
-	•	예시:
-
+•	예시:
+```
 lw $t0, 20($s2)  
 addu $t1, $t0, $t2  
 sub $s4, $s4, $t3  
 slti $t5, $s4, 20  
-
-	•	addu가 lw를 기다리는 동안 sub를 먼저 시작 가능
-
-레지스터 이름 바꾸기
-	•	예약 스테이션(reservation station)과 reorder buffer는 레지스터 이름 바꾸기를 효과적으로 수행
-	•	명령어가 예약 스테이션에 발행될 때:
+```
+•	addu가 lw를 기다리는 동안 sub를 먼저 시작 가능
+앞에서 한 것을 하드웨어가 판단하는 것
+이런 것을 하기 위해서 CPU는 Instruction을 미리 여러개 읽어놓아야 한다.
+## Dynamically Scheduled CPU
+![[Pasted image 20250520124953.png|500]]
+Reservation Station이 추가되고, 얘가 re-order instructions
+주변 reservation station을 보면서 순서가 재배치 된다.
+실행은 먼저하지만, 결과 적용은 순서대로 된다
+## Register Renaming
+•	예약 스테이션(reservation station)과 reorder buffer는 레지스터 이름 바꾸기를 효과적으로 수행
+•	명령어가 예약 스테이션에 발행될 때:
 	•	피연산자가 레지스터 파일이나 reorder buffer에 존재하면
-	•	예약 스테이션으로 복사
-	•	더 이상 레지스터에 필요 없으므로 덮어쓰기 가능
+		•	예약 스테이션으로 복사
+		•	더 이상 레지스터에 필요 없으므로 덮어쓰기 가능
 	•	피연산자가 아직 준비되지 않았으면
-	•	연산 유닛이 나중에 예약 스테이션에 제공
-	•	레지스터 업데이트가 필요하지 않을 수도 있음
+		•	연산 유닛이 나중에 예약 스테이션에 제공
+		•	레지스터 업데이트가 필요하지 않을 수도 있음
 
 추측 실행 (Speculation)
 	•	분기를 예측하고 명령어 발행 계속
