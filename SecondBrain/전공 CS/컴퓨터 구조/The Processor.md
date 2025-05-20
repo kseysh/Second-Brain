@@ -569,34 +569,42 @@ Stall과 성능
 if,
 `add $s0, $s1, $s2`
 `sw $t0, 100($t1)`
-
+register로 들어가는 input port가 두개로 늘어난 것을 볼 수 있음 (두 배의 읽기를 수행해야 하기 때문)
+쓰기도 두 배로 수행해야하기 때문에 output port가 두 개로 늘어남
+ALU도 하나 더 늘어남 (하나는 ALU, 하나는 lw/sw용)
+R-format은 MEM skip, sw는 Data memory를 지나감
+data memory는 그대로
 ## Hazards in the Dual-Issue MIPS
 •	더 많은 명령어가 병렬로 실행됨
 •	EX 데이터 해저드
 	•	단일 발행에서는 forwarding으로 stall을 피함
 	•	이제는 동일 packet 안에서 ALU 결과를 load/store에서 사용할 수 없음
-
-add $t0, $s0, $s1  
-load $s2, 0($t0)  
-
+		`add $t0, $s0, $s1  `
+		`load $s2, 0($t0)`
 	•	두 개의 packet으로 분리해야 하며, 사실상 stall 발생
-
-	•	Load-use 해저드
-	•	여전히 1사이클 사용 지연
+•	Load-use 해저드
+	•	여전히 1사이클 사용 지연 (nop으로 채워보낸다면)
 	•	하지만 이제 두 개의 명령어가 관련됨
-	•	더 공격적인 스케줄링이 요구됨
+•	더 공격적인 스케줄링이 요구됨
+#### 스케줄링 예시
+•	다음 루프를 dual-issue MIPS에 맞게 스케줄링
 
-스케줄링 예시
-	•	다음 루프를 듀얼 발행 MIPS에 맞게 스케줄링
-
+```
 Loop: lw $t0, 0($s1)      # $t0 = 배열 요소  
       addu $t0, $t0, $s2  # 스칼라 값 더하기  
       sw $t0, 0($s1)      # 결과 저장  
       addi $s1, $s1, -4   # 포인터 감소  
       bne $s1, $zero, Loop # 분기 조건 검사  
 
-
-	•	IPC = 5/4 = 1.25 (참고: 최대 IPC = 2)
+while(p!=0){
+	*p += a;
+	p--;
+	// $s1 = p, 
+	// $s2 = a
+}
+```
+![[Pasted image 20250520122226.png|400]]
+•	IPC = 5/4 = 1.25 (참고: 최대 IPC = 2)
 
 루프 언롤링
 	•	루프 본문을 복제하여 더 많은 병렬성 노출
