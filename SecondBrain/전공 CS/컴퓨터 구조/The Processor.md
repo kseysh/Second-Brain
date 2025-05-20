@@ -615,7 +615,7 @@ addu가 되어야 sw가 되기 때문에 sw의 자리가 저렇게 됨
 	•	루프 제어 오버헤드 감소
 •	복제마다 다른 레지스터 사용
 	•	이를 “레지스터 이름 바꾸기(register renaming)”라고 함
-	•	루프에 의해 전달되는 “anti-dependency” 회피
+	•	루프에 의해 전달되는 “anti-dependency” 회피 (같은 레지스터를 사용하지 않으므로)
 		•	같은 레지스터를 store하고 다시 load하는 경우
 		•	“이름 의존성(name dependence)”이라고도 함
 			•	같은 레지스터 이름을 재사용
@@ -632,16 +632,18 @@ while(p!=0){
 }
 ```
 branch에서 하는 일이 많을 수록 branch를 위한 instruction의 비중이 줄어들어 내부적으로 parallelism을 사용할 확률이 올라간다
-
-동적 다중 발행
-	•	“슈퍼스칼라(Superscalar)” 프로세서
-	•	CPU가 매 사이클마다 0, 1, 2, … 개의 명령어를 발행할지 결정
+![[Pasted image 20250520123711.png|400]]
+IPC = 14/8 = 1.75
+- 하지만, register 활용률이 증가해버리고, code size가 커진다.
+- loop size에 따른 조건을 더 철저하게 확인해야 한다.
+## Dynamic Multiple Issue
+•	“슈퍼스칼라(Superscalar)” 프로세서
+•	CPU가 매 사이클마다 0, 1, 2, … 개의 명령어를 발행할지 결정
 	•	구조적 및 데이터 해저드 회피
-	•	컴파일러의 스케줄링 필요 없음
+•	컴파일러의 스케줄링 필요 없음
 	•	하지만 여전히 도움이 될 수 있음
 	•	코드 의미는 CPU가 보장
-
-동적 파이프라인 스케줄링
+## Dynamic Pipeline Scheduling
 	•	CPU가 명령어를 out-of-order로 실행해 stall을 피할 수 있도록 허용
 	•	결과는 반드시 순서대로 레지스터에 기록
 	•	예시:
