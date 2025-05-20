@@ -541,33 +541,38 @@ Stall과 성능
 	•	예외를 지연시키는 ISA 지원 추가 가능
 	•	동적 추측 실행
 	•	명령어가 완료될 때까지 예외를 버퍼링 가능 (완료되지 않을 수도 있음)
-정적 다중 발행
-	•	컴파일러는 명령어들을 “issue packet”으로 묶음
+## Static Multiple Issue
+•	컴파일러는 명령어들을 “issue packet”으로 묶음
 	•	하나의 사이클에서 발행할 수 있는 명령어 그룹
 	•	파이프라인 자원 요구에 따라 결정됨
-	•	issue packet은 매우 긴 명령어로 생각할 수 있음
+•	issue packet은 매우 긴 명령어로 생각할 수 있음
 	•	여러 동시 연산을 지정
 	•	→ 매우 긴 명령어 워드(VLIW: Very Long Instruction Word)
 
-정적 다중 발행 스케줄링
-	•	컴파일러는 일부 또는 모든 해저드를 제거해야 함
+## Scheduling Static Multiple Issue
+•	컴파일러는 일부 또는 모든 해저드를 제거해야 함
 	•	명령어를 issue packet으로 재배열
 	•	하나의 packet 안에는 의존성이 없어야 함
 	•	packet 간에는 의존성이 있을 수 있음
-	•	ISA마다 다르며, 컴파일러가 이를 알아야 함
-	•	필요 시 nop으로 채움
+		•	ISA마다 다르며, 컴파일러가 이를 알아야 함
+	•	필요 시 nop(no operation)으로 채움
 
-정적 듀얼 발행이 적용된 MIPS
-	•	두 개의 명령어로 구성된 issue packet
-	•	하나는 ALU/분기 명령어
+## MIPS with Static Dual Issue
+•	두 개의 명령어로 구성된 issue packet
+	•	하나는 ALU/branch 명령어
 	•	하나는 load/store 명령어
-	•	64비트 정렬
-	•	ALU/분기 명령어 먼저, 그다음 load/store
-	•	사용되지 않는 명령어는 nop으로 채움
+	•	64비트 정렬 -> PC가 8씩 증가함
+		•	ALU/branch 명령어 먼저, 그다음 load/store
+		•	사용되지 않는 명령어는 nop으로 채움
+![[Pasted image 20250520121054.png|400]]
+![[Pasted image 20250520121416.png|500]]
+if,
+`add $s0, $s1, $s2`
+`sw $t0, 100($t1)`
 
-듀얼 발행 MIPS의 해저드
-	•	더 많은 명령어가 병렬로 실행됨
-	•	EX 데이터 해저드
+## Hazards in the Dual-Issue MIPS
+•	더 많은 명령어가 병렬로 실행됨
+•	EX 데이터 해저드
 	•	단일 발행에서는 forwarding으로 stall을 피함
 	•	이제는 동일 packet 안에서 ALU 결과를 load/store에서 사용할 수 없음
 
