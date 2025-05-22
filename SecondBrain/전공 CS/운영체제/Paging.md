@@ -52,17 +52,20 @@ d = 12 bit
 • 페이지 테이블은 메인 메모리에 유지
 • *Page-table base register (PTBR)* 는 페이지 테이블 위치를 가리킴
 • *Page-table length register (PTLR)* 는 페이지 테이블의 크기를 나타냄
+
 • 이 방식에서는 데이터/명령어 접근마다 두 번의 메모리 접근이 필요함
+(logical 주소를 physical 주소로 변환하기 위해서는 page table을 먼저 읽어와서 page table을 이용해서 physical address를 찾아야 한다.)
 • 한 번은 페이지 테이블, 한 번은 실제 데이터/명령어
 • 이 문제는 *Translation Look-Aside Buffer(TLB)* 라는 고속 하드웨어 캐시를 사용하여 해결
-	•	TLB 관련 사항
-• 일부 TLB는 주소 공간 식별자(ASID)를 각 항목에 저장
-• 프로세스를 고유하게 식별하여 주소 공간 보호 제공
-• 그렇지 않으면 컨텍스트 스위치마다 TLB를 비워야 함
+• 일부 TLB는 address-space identifiers(ASID)를 각 항목에 저장 (어떤 process 정보인지)
+	• 프로세스를 고유하게 식별하여 주소 공간 보호 제공
+	• 그렇지 않으면 컨텍스트 스위치마다 TLB를 비워야 함
 • TLB는 일반적으로 작음 (64 ~ 1,024 항목)
-• TLB 미스 발생 시, 해당 항목을 TLB에 적재해 이후 접근을 빠르게 함
-• 교체 정책도 고려해야 함
-	•	유효 접근 시간(EAT)
+• TLB 미스 발생 시, 해당 항목을 TLB에 적재해 이후 접근을 빠르게 함 (ㅔㅁㅎㄷ)
+	• 교체 정책도 고려해야 함
+## Paging Hardware with TLB
+![[Pasted image 20250522174208.png|400]]
+## 유효 접근 시간(EAT)
 • EAT = 𝑡𝑇 + 𝛼 × 𝑡𝑀 + (1 − 𝛼) × (𝑡𝑇 + 2𝑡𝑀) = 𝑡𝑇 + (2 − 𝛼)𝑡𝑀
 • 𝑡𝑇: TLB 접근 시간
 • 𝑡𝑀: 메모리 접근 시간
