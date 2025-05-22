@@ -152,16 +152,16 @@ New request from P0 (0,2,0) -> Make unsafe state
 • Resource-Request Algorithm for Process Pᵢ
 • Requesti = request for process Pᵢ
 ```
-1. If Requestᵢ <= Needi, go to step 2
-	Otherwise, raise error condition (exceed maximum claim)
-2. If Requestᵢ <= Available, go to step 3
-	Otherwise, Pᵢ must wait for the resource
-3. Pretend to allocate requested resources to Pᵢ by modifying the state as follows
-		Available = Available - Requestᵢ
-		Allocationᵢ = Allocationᵢ + Requestᵢ
-		Needᵢ = Needᵢ- Requestᵢ
-	If safe -> the resources are allocated to Pᵢ
-	If unsafe -> Pᵢ must wait, and the old resource-allocation state is restored
+1.	요청 Requestᵢ가 Needᵢ보다 작거나 같으면 2단계로 이동
+	그렇지 않으면 오류 발생 (최대 요구량 초과)
+2.	요청 Requestᵢ가 Available보다 작거나 같으면 3단계로 이동
+	그렇지 않으면 Pᵢ는 자원이 할당될 때까지 기다려야 함
+3.	아래와 같이 상태를 수정하여 Pᵢ에게 자원이 할당된 것처럼 가정
+	   Available = Available - Requestᵢ
+	   Allocationᵢ = Allocationᵢ + Requestᵢ
+	   Needᵢ = Needᵢ - Requestᵢ
+ 만약 안전하면 → 자원을 실제로 Pᵢ에게 할당
+ 만약 불안전하면 → Pᵢ는 대기해야 하며, 이전 자원 할당 상태로 되돌림
 ```
 
 ### Banker's Algorithm이 현실적이지 못한 이유
