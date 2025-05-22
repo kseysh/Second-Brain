@@ -147,7 +147,12 @@ do{
 } while (true);
 ```
 wait(queue), signal(queue)의 위치에 대해서 잘 고민해보자
-1번에서 deadlock이 발생하는 이유: Reader가 mutex를  잡고, 
+
+1번에서 deadlock이 발생하는 상황: 1번 Reader가 reading 중이고, 2번 Reader가 wait(mutex) 통과 Writer는 wait(rw_mutex) 대기 중이라면, 
+1번 Reader는 rw_mutex를 가지고 mutex를 기다리고
+2번 Reader는 mutex를 가지고 queue를 기다리고
+Writer는 queue를 가지고 rw_mutex를 가지는 데드락 상황이 발생함
+
 ## 식사하는 철학자 문제
 ![[Pasted image 20250508172347.png|100]]
 •	철학자들은 생각과 식사를 번갈아 함
