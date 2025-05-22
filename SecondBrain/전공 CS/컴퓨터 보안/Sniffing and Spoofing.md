@@ -1,7 +1,3 @@
-1. readme.txt
-2. 3
-3. b2b.tech.support@intel.com
-4. 
 ## Packet Sniffing
 ![[Pasted image 20250522103635.png|400]]
 - Passive attack 의 일종 (Traffic analysis)
@@ -106,3 +102,7 @@ FTP를 사용하지 말아야 하는 이유? 평문 파일 전송 프로 토콜�
 ![[Pasted image 20250522135418.png|300]]
 ![[Pasted image 20250522135428.png|300]]
 ### DNS spoofing
+정상적인 DNS Query/Reply 과정
+![[Pasted image 20250522135529.png|300]]
+DNS spoofing 과정
+![[Pasted image 20250522135600.png|300]]
