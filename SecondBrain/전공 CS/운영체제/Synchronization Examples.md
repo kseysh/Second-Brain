@@ -107,6 +107,7 @@ semaphore rw_mutex = 1;
 semaphore mutex = 1;
 int read_count = 0;
 semaphore queue = 1;  (Writer가 수행 중일 때 새 Reader를 차단)
+=> queue는 Reader가 Writer보다 먼저 들어가는 것을 방지하기 위한 진입용 차단 도구이므로 진입만 보호하면 된다.
 ###### Writer
 ```cpp
 do {
