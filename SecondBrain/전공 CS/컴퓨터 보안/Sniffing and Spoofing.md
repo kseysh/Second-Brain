@@ -71,3 +71,38 @@
 TCP/IP 프로토콜을 가지고 서버와 클라이언트 사이의 파일 전송 을 하기 위한 프로토콜
 FTP를 사용하지 말아야 하는 이유? 평문 파일 전송 프로 토콜이기 때문
 ## ARP
+- ARP를 활용하여 목적지의 MAC 주소 찾는 방법 
+	- Broadcast Request ( MAC Broadcast는 목적지 주소가 FF-FF-FF-FF-FF-FF) 
+	- Unicast Reply ( MAC unicast )
+![[Pasted image 20250522134659.png|300]]
+### ARP cache
+- Address Resolution을 매번 하기에 비효율적임 
+	- 보통 기기들(media)이 네트워크에 한번 연결되면, 연결이 오랫동안 지속되는 경우가 많음 
+	- => 연결 정보를 cache하는 전략 
+- ARP cache table  
+	- MAC 주소와 IP 주소를 매핑하고 있는 테이블
+	- ![[Pasted image 20250522134812.png|300]]
+1. static ARP cache entry 
+	- 수동으로추가 가능. (컴퓨터재시작시삭제) 
+2. dynamic ARP cache entry 
+	- ARP reply packet을받으면 OS에 의해 자동으로저장 
+	- cache entry 유지 시간: OS마다다름. 분 단위~시간단위.
+### ARP Spoofing
+![[Pasted image 20250522135131.png|300]]
+근거리 통신망(LAN) 하에서 ARP 메시지를 이용하여 상대방의 데이터 패킷을 중간에서 가로채는 Man-in-the-middle Attack 기법
+이 공격은 데이터 링크(Layer 2) 상의 프로토콜인 ARP 프로토콜을 이용 하기 때문에 근거리 상의 통신에서만 사용할 수 있는 공격
+![[Pasted image 20250522135159.png|400]]
+![[Pasted image 20250522135208.png|400]]
+![[Pasted image 20250522135221.png|400]]
+### Detect ARP spoofing
+▣ARP 탐지 솔루션 또는 네트워크 방화벽
+	■ arpwatch
+	■ xarp
+▣Promiscuous 모드로 동작하는 Host 탐지. (ARP Spoofing 공격 시도 가능성이 높기 때문) 
+▣ARP Cache 테이블을 정적으로 유지 (ARP Cache는 2분~20분 마다 폐기됨 (Dynamic))
+## DNS
+호스트의 도메인 이름을 호스트의 네트워크 주소로 바꾸 거나 그 반대의 변환을 수행할 수 있도록 하기 위한 시스템
+### DNS 질의 순서
+![[Pasted image 20250522135418.png|300]]
+![[Pasted image 20250522135428.png|300]]
+### DNS spoofing
