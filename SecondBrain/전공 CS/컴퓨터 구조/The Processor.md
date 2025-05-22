@@ -741,6 +741,19 @@ lw $t0, 10($t2)
 mis prediction rate -> 그로 인해 버려지는 일의 양
 ## ARM Cortex-A53 Performance
 ![[Pasted image 20250522121530.png|300]]
+## Core i7 Pipeline
+눈여겨볼 필요는 없음.. 이런게 있다.
+![[Pasted image 20250522121720.png|300]]
+CISC지만, macro op -> micro op로 나눠서 pipeline 설계에 적합한 형태로 바꿔 clock cycle time을 줄인다.
+## Core i7 Performance
+![[Pasted image 20250522122155.png|400]]
+한 사이클에 4개씩 보낼 수 있으니, Ideal CPI는 0.25
+얘네는 시험에 안나옴..
+## Matrix Multiply
+![[Pasted image 20250522122401.png|400]]
+j와 k를 풀어서 썼는데, 이렇게 하면 루프 한 번에 16번의 연산을 실행함
+## Performance Impact
+![[Pasted image 20250522122515.png|300]]
 ## 오해들 (Fallacies)
 	•	파이프라이닝은 쉽다(!)
 	•	기본 개념은 쉬움
