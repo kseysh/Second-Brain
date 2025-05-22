@@ -225,14 +225,14 @@ monitor DiningPhilosophers {
 		(state[i] == HUNGRY) && // 내가 배고플 때
 		(state[(i+1)%5] != EATING)) { // 오른쪽 이웃이 식사 중이 아니고
 			state[i] = EATING; // 위 조건을 충족해야 먹을 수 있음
-			self[i].signal(); // 내가 
+			self[i].signal(); // 철학자 i에게 식사해도 된다고 알림
 		}
 	}
 
 	void pickup(int i) {
 		state[i] = HUNGRY;
 		test(i);
-		if (state[i] != EATING) self[i].wait; // state[i] == HUNGRY 라면 (EATING 상태에 가지 못했다면 wait)
+		if (state[i] != EATING) self[i].wait; // state[i] == HUNGRY 라면 (철학자 i가 식사할 수 없으면 대기)
 	}
 	
 	void putdown(int i) {
