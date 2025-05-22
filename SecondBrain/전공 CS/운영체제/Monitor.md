@@ -113,5 +113,6 @@ if(!x.queue.empty()){ // x.count > 0
 }
 ```
 
-signal-and-continue 방법에 해당함
-x.wait()을 하면, x_count가 증가하고 x.signal()을 하면, 
+signal-and-wait 방법에 해당함
+프로세스 Q가 x.wait()을 호출하고, 프로세스 P가 x.signal()을 통해 Q를 깨워주는 과정을 보면, signal(x_sem)을 이용해 wait(x_sem)을 통해 잠자고 있던 Q를 깨우고 P는 곧바로 wait(sig_lock)을 이용해 잠자는 것을 볼 수 있다.
+이처럼 signal을 보내고 지속하는 것이 아닌 곧바로 wait을 실행하기 때문에 signal-and-wait
