@@ -125,7 +125,7 @@ Safe sequence: < P1, P3, P4, P2, P0> exists
 ## Safety Algorithm pseudo code
 ```
 1. Initialize Work[1:m] and Finish[1:n]
-	Work = Available // 
+	Work = Available // 우리는 Available을 실제로 변경하는 것이 아닌, safe state를 만들 수 있을 지에 대해서 시뮬레이션해보는 것 이므로 Work라는 것을 새로 만든 것이다.
 	Finish[i] = false for i = 1, 2, …, n
 2. Find an i such that both
 	(a) Finish[i] = false
@@ -146,7 +146,7 @@ New request from P0 (0,2,0)
 
 - Snapshot at time T1
 ![[Pasted image 20250513172347.png|400]]
-New request from P0 (0,2,0) -> Make unsafe state
+한 번 더 New request from P0 (0,2,0) -> Make unsafe state
 
 #### Pseudo code
 • Resource-Request Algorithm for Process Pᵢ
