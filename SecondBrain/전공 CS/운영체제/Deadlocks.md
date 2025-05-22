@@ -74,7 +74,7 @@ A,B가 각각 20,30억을 빌려가면 50억이 남는데, 이 때 C에게 돈�
 •	P = {P1, P2, …, Pn} : 시스템 내 모든 프로세스 집합 (n개의 process)
 •	R = {R1, R2, …, Rm} : 시스템 내 모든 자원 유형 집합 (m가지의 resource)
 •	*safe state*: 프로세스에 최대 자원을 할당해도 교착 상태가 발생하지 않는 순서가 존재하는 상태
-	•	안전 상태에서는 반드시 *safe sequence* <P1, P2, …, Pn> 가 존재
+	•	safe state에서는 반드시 *safe sequence* <P1, P2, …, Pn> 가 존재
 		•	safe sequence: 모든 프로세스가 자원을 요청하고 실행을 마칠 수 있는 순서
 		•	Pi가 요청할 수 있는 자원은 현재 사용 가능한 자원 + Pi보다 앞선 모든 프로세스가 반환할 자원으로 충족 가능해야 함
 			•	P<sub>i</sub>의 자원 요구가 즉시 충족되지 않으면, P<sub>i</sub>는 앞선 P<sub>j</sub>들이 종료될 때까지 기다림
@@ -82,7 +82,7 @@ A,B가 각각 20,30억을 빌려가면 50억이 남는데, 이 때 C에게 돈�
 			•	P<sub>i</sub>가 종료되면 다음 P<sub>i+1</sub>이 자원을 얻어 실행함
 •	unsafe state: 교착 상태로 이어질 수 있음
 ### 특징
-•	시스템이 비안전 상태에 진입하지 않도록 보장해야 함
+•	시스템이 unsafe state에 진입하지 않도록 보장해야 함
 •	각 프로세스는 사전에 최대 자원 요구량을 선언해야 함
 •	자원을 요청할 때 기다릴 수 있음
 •	자원을 모두 할당받은 후에는 한정된 시간 내에 반환해야 함
@@ -99,6 +99,8 @@ A,B가 각각 20,30억을 빌려가면 50억이 남는데, 이 때 C에게 돈�
 #### Safety Algorithm Example
 5 Processes: P0, P1, P2, P3, P4
 3 resources: A(10 instance), B(5 instances), and C (7 instances)
+1. Available이 Need보다 큰 지 확인
+2. 크면 Available에 Allocation 더함
 
 - Snapshot at time T0
 ![[Pasted image 20250513171139.png|400]]
