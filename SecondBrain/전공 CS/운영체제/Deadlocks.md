@@ -139,15 +139,15 @@ Safe sequence: < P1, P3, P4, P2, P0> exists
 #### Resource Request Algorithm
 5 Processes: P0, P1, P2, P3, P4
 3 resources: A(10 instance), B(5 instances), and C (7 instances)
-
+크게 다를 거 없고, request가 새로 왔다고 가정 Allocation에 request를 할당하고 Need = Max - Allocation이니 그에 맞게 수정해준다.
 - Snapshot at time T1
 ![[Pasted image 20250513172125.png|400]]
 New request from P0 (0,2,0)
 
 - Snapshot at time T1
 ![[Pasted image 20250513172347.png|400]]
-한 번 더 New request from P0 (0,2,0) -> Make unsafe state
-
+한 번 더 New request from P0 (0,2,0)
+safe sequence < P1, P3, P0 ... >
 #### Pseudo code
 • Resource-Request Algorithm for Process Pᵢ
 • Requesti = request for process Pᵢ
