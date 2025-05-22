@@ -221,9 +221,9 @@ monitor DiningPhilosophers {
 	}
 
 	void test(int i) {
-		if ((state[(i+4)%5] != EATING &&
-		(state[i] == HUNGRY) &&
-		(state[(i+1)%5] != EATING)) {
+		if ((state[(i+4)%5] != EATING && // 왼쪽 이웃이 식사 중이 아니고
+		(state[i] == HUNGRY) && // 내가 배고플 때
+		(state[(i+1)%5] != EATING)) { // 오른쪽 이웃이 식사 중이 아니고
 			state[i] = EATING;
 			self[i].signal();
 		}
