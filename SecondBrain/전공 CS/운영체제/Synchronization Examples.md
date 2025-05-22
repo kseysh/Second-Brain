@@ -125,14 +125,13 @@ do{
 	wait(queue);
 	// 2. signal(queue) 이건 유효함
 	wait(mutex);
-	// 1. 여기 wait(queue)
+	// 1. 여기 wait(queue)하면 데드락 발생
 	
 	read_count++;
 	if (read_count == 1)
 		wait(rw_mutex);
 		
 	signal(mutex);
-	// 1. 여기 signal(queue)하면 데드락 발생
 	signal(queue);
 
 	/ * reading is performed */
@@ -148,7 +147,7 @@ do{
 } while (true);
 ```
 wait(queue), signal(queue)의 위치에 대해서 잘 고민해보자
-
+1번에서 deadlock이 발생하는 이유: Reader가 mutex를  잡고, 
 ## 식사하는 철학자 문제
 ![[Pasted image 20250508172347.png|100]]
 •	철학자들은 생각과 식사를 번갈아 함
