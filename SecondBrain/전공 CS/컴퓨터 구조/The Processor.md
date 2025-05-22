@@ -727,12 +727,20 @@ lw $t0, 10($t2)
 ## 전력 효율성
 •	동적 스케줄링과 추측 실행의 복잡도는 전력을 요구
 •	더 단순한 여러 코어가 더 나은 선택일 수 있음
-![[Pasted image 20250520130811.png]]
+![[Pasted image 20250520130811.png|400]]
 추세만 보자
 처음: pipeline도 적고, speculation도 안한다
 점차 pipeline stage를 올리고 speculation도 한다
 어느순간 pipeline을 14로 고정하고 issue width도 4로 고정한다, 대신, cpu core가 늘어남
-
+## cortex A53 and Intel i7
+![[Pasted image 20250522120732.png|400]]
+## ARM Cortex-A53 Pipeline
+![[Pasted image 20250522121109.png|400]]
+## ARM Coretex-A53 Branch Prediction
+![[Pasted image 20250522121318.png|500]]
+mis prediction rate -> 그로 인해 버려지는 일의 양
+## ARM Cortex-A53 Performance
+![[Pasted image 20250522121530.png|300]]
 ## 오해들 (Fallacies)
 	•	파이프라이닝은 쉽다(!)
 	•	기본 개념은 쉬움
