@@ -29,10 +29,16 @@ segmentation: segment마다 base와 limit
 ## Segmentation Architecture (1)
 • 논리 주소는 두 개의 튜플로 구성됨
 	• <segment-number, offset>
-	segment-numb
+	![[Pasted image 20250522165318.png|200]]
 • 세그먼트 테이블은 이차원 물리 주소를 매핑함
 	• base - 세그먼트가 메모리 내에 위치하는 시작 물리 주소
 	• limit - 세그먼트의 길이
 • 세그먼트 테이블 베이스 레지스터(STBR)는 세그먼트 테이블의 메모리 위치를 가리킴
 • 세그먼트 테이블 길이 레지스터(STLR)는 프로그램이 사용하는 세그먼트의 수를 나타냄
 	• 세그먼트 번호 s는 s < STLR일 때 유효함
+테이블도 메모리 내에 있어야 한다. 
+contiguous: base, limit register 관리
+segmentation STBR, STLR register 관리
+
+![[Pasted image 20250522165648.png|400]]
+![[Pasted image 20250522170139.png|400]]
