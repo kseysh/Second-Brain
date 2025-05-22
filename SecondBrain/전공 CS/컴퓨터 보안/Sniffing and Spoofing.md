@@ -47,6 +47,7 @@
 - 특정 패킷만 캡쳐 안함 
 	- not arp
 < 필터 사용법 > &&와 and 모두 사용 가능, \==와 eq 모두 사용 가능, || 와 or 모두 사용 가능
+![[Pasted image 20250522115717.png|300]]
 ### Display Filter
 - 캡쳐를 한 뒤 원하는 패킷만 화면에 출력한다. 
 - Capture filter 와 문법이 다르다. 
@@ -64,3 +65,4 @@
 	- tcp.srcport == 443 
 - 도착지 포트로 검색 
 	- tcp.dstport == 443
+![[Pasted image 20250522115706.png|300]]
