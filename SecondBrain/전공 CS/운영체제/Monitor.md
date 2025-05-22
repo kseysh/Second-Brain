@@ -112,3 +112,6 @@ if(!x.queue.empty()){ // x.count > 0
 	move one thread from x.queue to ready queue; // signal(x_sem)
 }
 ```
+
+signal-and-continue 방법에 해당함
+x.wait()을 하면, x_count가 증가하고 x.signal()을 하면, 
