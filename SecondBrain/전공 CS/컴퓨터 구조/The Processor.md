@@ -34,8 +34,11 @@ X
 0
 ## Branch on Equal Instruction
 ![[Pasted image 20250501151134.png|500]]
+RegDst와 MemtoReg는 RegWrite이 0이므로 상관없음
 ## Datapath with Jumps Added
 target PC = Top 4 bits of old PC +26-bit jump address + 00
+PC+4의 위 4개 bit
+가져온 값을 위로 두 칸 올려서 00을 맨 뒤로 만듬 (4를 더해줘야 하므로)
 ![[Pasted image 20250501151205.png|500]]
 ## Performance Issues
 •	가장 긴 지연 시간이 클럭 주기를 결정함
