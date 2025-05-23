@@ -11,6 +11,10 @@ ALU control을 결정하기 위해 Truth table을 이용한다.
 ## The Main Control Unit
 Control signals derived from instruction
 ![[Pasted image 20250501150833.png|500]]
+R rd rs rt
+lw rt N(rs)
+sw rt N(rs)
+beq rs rt N
 ## Datapath with Control
 ![[Pasted image 20250501150938.png|500]]
 
