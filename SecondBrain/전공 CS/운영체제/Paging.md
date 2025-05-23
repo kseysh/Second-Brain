@@ -38,17 +38,18 @@ ex)
 ![[Pasted image 20250522171843.png|200]]
 #### Paging Hardware
 ![[Pasted image 20250522171911.png|300]]
-1. CPU가 page number를 이용하여 page table에서 frame을 가져온다
-2. frame과 page offset (d)
+1. CPU가 page number(p)를 이용하여 page table에서 frame을 가져온다
+2. frame과 page offset(d)를 이용하여 physical address를 계산한다.
 #### Example of Paging
 ![[Pasted image 20250522171923.png|300]]
 ## 내부 단편화 계산
-• 페이지 크기 = 2048바이트
-• 프로세스 크기 = 72,766바이트
-• 35페이지 + 1,086바이트 필요
+• page size = 2048바이트
+• process size = 72,766바이트
+• 35 pages + 1,086 bytes
 • 내부 단편화 = 2048 - 1086 = 962바이트
-• 최악의 경우 단편화 = 페이지 크기 - 1바이트
-• 평균적으로 단편화 = 페이지 크기의 ½
+• 최악의 경우 단편화 = page size - 1byte
+• 평균적으로 단편화 = ½ page size
+
 • 작은 페이지 크기가 바람직한가?
 	• 하지만 작은 페이지 크기는 페이지 테이블 항목 수를 증가시킴
 		• 예: 32비트 주소 공간에 4KB 페이지 사용 시 페이지 테이블 크기 = 2<sup>(32−12)</sup> entries \* 20bit = 2.5MB
