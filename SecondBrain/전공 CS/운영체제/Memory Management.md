@@ -14,7 +14,7 @@
 • 캐시는 메인 메모리와 CPU 레지스터 사이에 위치
 • 올바른 동작을 보장하기 위해 메모리 보호가 필요함
 ## Base and Limit Registers
-• *base*(해당 프로세스의 memory 시작 주소)와 *limit*(해당 프로세스가 할당받은 memory 크기) 레지스터 한 쌍은 논리 주소 공간을 정의k함
+• *base*(해당 프로세스의 memory 시작 주소)와 *limit*(해당 프로세스가 할당받은 memory 크기) 레지스터 한 쌍은 논리 주소 공간을 정의함
 • CPU는 사용자 모드에서 발생하는 모든 메모리 접근이 해당 사용자에 대해 베이스와 리미트 사이에 있는지 확인해야 함
 ![[Pasted image 20250520164647.png|150]]
 ## Hardware Address Protection
