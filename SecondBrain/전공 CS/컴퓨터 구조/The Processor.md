@@ -13,6 +13,7 @@ Control signals derived from instruction
 ![[Pasted image 20250501150833.png|500]]
 ## Datapath with Control
 ![[Pasted image 20250501150938.png|500]]
+
 ## R-Type Instruction
 ![[Pasted image 20250501151055.png|500]]
 ## Load Instruction
