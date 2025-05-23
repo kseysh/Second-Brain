@@ -10,7 +10,7 @@ Combinational logic derives ALU control
 ALU control을 결정하기 위해 Truth table을 이용한다.
 ## The Main Control Unit
 Control signals derived from instruction
-![[Pasted image 20250501150833.png|400]]
+![[Pasted image 20250501150833.png|500]]
 ## Datapath with Control
 ![[Pasted image 20250501150938.png|500]]
 ## R-Type Instruction
