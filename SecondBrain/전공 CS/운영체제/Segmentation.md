@@ -52,3 +52,11 @@ segmentation STBR, STLR register 관리
 5. base + offset을 계산해 physical address 구함
 
 ![[Pasted image 20250522170139.png|400]]
+## Segmentation에서 contiguous Allocation의 내부 단편화 해결 방법
+- contiguous Allocation 단점
+	- 내부 단편화, 외부 단편화
+	- 내부 단편화가 일어나는 이유: 고정 크기 블록을 사용해 프로세스가 블록 전체를 다 쓰지 않고 일부만 사용하기 때문
+- Segmentation에서 contiguous Allocation의 내부 단편화 해결 방법
+	- segment는 가변 크기이므로 내부 단편화 해결
+	- 각 segment는 프로그램에 논리적 구조에 맞춰 정확히 필요한 크기만큼만 메모리를 할당받음
+- 하지만 여러 크기의 segment가 메모리에 들어갔다 나가면 중간중간 작은 holes가 생기게 되어 외부 단편화는 아직 남아있음
