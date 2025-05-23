@@ -35,8 +35,8 @@ segmentation: segment마다 base와 limit
 	• limit - 세그먼트의 길이
 • 세그먼트 테이블 베이스 레지스터(STBR)는 세그먼트 테이블의 메모리 위치를 가리킴
 • 세그먼트 테이블 길이 레지스터(STLR)는 프로그램이 사용하는 세그먼트의 수를 나타냄
-	• 세그먼트 번호 s는 s < STLR일 때 유효함
-테이블도 메모리 내에 있어야 한다. 
+	• segment number는 STLR보다 작을 때 유효함
+테이블도 메모리 내에 있어야 한다.
 contiguous: base, limit register 관리
 segmentation STBR, STLR register 관리
 
