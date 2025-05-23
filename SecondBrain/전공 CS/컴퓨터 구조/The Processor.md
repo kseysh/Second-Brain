@@ -111,18 +111,17 @@ PC+4의 위 4개 bit
 `add $s0, $t0, $t1`에서의 EX에서 연산 결과가 만들어지는데, 이로 인해 Forwarding 방식을 사용할 수 있다.
 `add $s0, $t0, $t1`에서의 MEM은 사용하지는 않지만, 모든 stage를 균등하게 하기 위해 포함된다 (이렇게 하지 않으면 structure hazard가 발생할 수 있기 때문)
 ## Forwarding (Bypassing)
-![[Pasted image 20250501152932.png|300]]
+![[Pasted image 20250501152932.png|400]]
 •	결과가 계산되자마자 사용
 	•	레지스터에 저장되기를 기다리지 않음
 	•	데이터 경로에 추가 연결이 필요함
 ## Load-Use data hazard
-![[Pasted image 20250501153007.png|300]]
-•	포워딩만으로 Stall을 항상 피할 수는 없음
+![[Pasted image 20250501153007.png|400]]
+•	*포워딩만으로 Stall을 항상 피할 수는 없음*
 	•	필요한 시점에 값이 계산되지 않았다면
 	•	시간을 거슬러 포워딩할 수는 없음!
 ## Stall을 피하기 위한 코드 스케줄링
 •	Load 명령의 결과를 바로 다음 명령에서 사용하지 않도록 코드 재배치
-•	예: `A = B + E; C = B + F;` 와 같은 C 코드
 ![[Pasted image 20250501153038.png|300]]
 ## Control Hazards
 •	분기 명령어는 제어 흐름을 결정함
