@@ -26,19 +26,29 @@ segmentation: segment마다 base와 limit
 ![[Pasted image 20250522164213.png|300]]
 이 방식은 데이터가 꼭 연속적으로 저장되지 않아도 된다.
 
-## Segmentation Architecture (1)
+## Segmentation Architecture
 • 논리 주소는 두 개의 튜플로 구성됨
 	• <segment-number, offset>
+	• segment-number: 몇 번째 segment인지 식별
+	• offset: 해당 세그먼트 내의 상대적인 위치
 	![[Pasted image 20250522165318.png|200]]
 • 세그먼트 테이블은 이차원 물리 주소를 매핑함
-	• base - 세그먼트가 메모리 내에 위치하는 시작 물리 주소
-	• limit - 세그먼트의 길이
-• 세그먼트 테이블 베이스 레지스터(STBR)는 세그먼트 테이블의 메모리 위치를 가리킴
-• 세그먼트 테이블 길이 레지스터(STLR)는 프로그램이 사용하는 세그먼트의 수를 나타냄
+	• base - 해당 세그먼트가 메모리 내에 위치하는 시작 물리 주소
+	• limit - 해당 세그먼트의 길이(허용되는 offset의 최대 값)
+• 세그먼트 테이블 베이스 레지스터(STBR): 세그먼트 테이블의 물리 메모리 내 위치(시작 주소)를 가리킴
+• 세그먼트 테이블 길이 레지스터(STLR): 세그먼트 테이블에 포함된 세그먼트 개수 (즉, segment number의 유효 범위)
 	• segment number는 STLR보다 작을 때 유효함
 테이블도 메모리 내에 있어야 한다.
 contiguous: base, limit register 관리
 segmentation STBR, STLR register 관리
 
 ![[Pasted image 20250522165648.png|400]]
+1. STBR에서 segment table의 physical memory 내 위치를 찾는다
+2. segment number (s)가 STLR보다 작은지 검사
+	- 그렇지 않으면 trap 발생
+3. segment number를 이용해 segment table에서 base와 limit 값을 가져옴
+4. offset (d)이 limit보다 작은지 검사
+	- 그렇지 않으면 trap 발생
+5. base + offset을 계산해 physical address 구함
+
 ![[Pasted image 20250522170139.png|400]]
