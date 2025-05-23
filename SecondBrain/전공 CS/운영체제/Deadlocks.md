@@ -188,7 +188,7 @@ safe sequence < P1, P3, P0 ... >
 	•	Banker's Algorithm과 유사한 교착 상태 탐지 알고리즘을 사용
 ### Deadlock Detection - Single Instance
 •	각 자원 타입이 단일 인스턴스인 경우
-	•	Wait-for 그래프를 유지
+	•	*Wait-for* 그래프를 유지
 	•	주기적으로 그래프 내의 사이클을 탐색하는 알고리즘을 호출
 		•	사이클이 존재하면 교착 상태가 존재
 	•	그래프 내 사이클을 탐지하는 알고리즘의 시간 복잡도: O(n²), n = 정점 수
