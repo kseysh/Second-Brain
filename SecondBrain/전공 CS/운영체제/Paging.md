@@ -25,12 +25,21 @@ m이 32, n이 12인 것을 가정
 전체 메모리 4GB는 32bit 주소 표현
 page size 4KB (=frame)
 frame 갯수 = 4GB/4KB = 2<sup>20</sup>개
-p = 20 bit
+p = 20 bit (2<sup>m</sup>/2<sup>n</sup>개여야 하므로)
 d = 12 bit
+**Q. page 수와 frame 수는 같은가?**
+위 예시에서 page number는 2<sup>20</sup>까지, frame 개수는 2<sup>20</sup>까지라고 했기 때문
+ex) 
+•	페이지 크기: 100칸
+•	논리 주소: 3번 페이지의 50번째
+•	페이지 테이블: 페이지 3 → 프레임 7
+•	물리 주소 = 700 + 50 = 750번지
 
 ![[Pasted image 20250522171843.png|200]]
 #### Paging Hardware
 ![[Pasted image 20250522171911.png|300]]
+1. CPU가 page number를 이용하여 page table에서 frame을 가져온다
+2. frame과 page offset (d)
 #### Example of Paging
 ![[Pasted image 20250522171923.png|300]]
 ## 내부 단편화 계산
