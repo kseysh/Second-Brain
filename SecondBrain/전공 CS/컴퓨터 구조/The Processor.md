@@ -277,11 +277,8 @@ $2가 겹치는 상황에서의 forwarding
 	1. register 번호 체크
 	2. EX/MEM forwarding이 없을 경우에만
 => 둘 다 필요하면, 가장 최근 값만 forwarding 해준다.
-
-•	두 종류의 데이터 해저드가 발생합니다
-	•	가장 최근 값을 사용해야 합니다
-•	MEM 해저드 조건을 수정해야 합니다
-	•	EX 해저드 조건이 참이 아닐 경우에만 forwarding 하도록 해야 합니다
+![[IMG_89CC32C8B90E-1.jpeg|200]]
+2번째 명령어가 없다면, MEM/WB단계에서 forwarding하는 파란색 단계가 있었겠지만, 예제와 같이 Double Data Hazard가 발생하면 가장 최근 값만 forwarding 한다.
 ## 수정된 Forwarding 조건
 ![[Pasted image 20250515173721.png|500]]
 ## Datapath with Forwarding
