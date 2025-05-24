@@ -188,7 +188,10 @@ stage들 사이에 레지스터(rising edge가 발생할 때만 동작하는 reg
 ## MEM for Load
 ![[IMG_6B55A7C0898C-1.jpeg|500]]
 ## WB for Load
-![[IMG_62942C41B2DC-1.jpeg]]
+![[IMG_62942C41B2DC-1.jpeg|500]]
+Load 명령어를 사용할 때, WB단계에서 Register 메모리에 Write register에 있는 값을 저장하게 되는데, 위 그림처럼 수행하면 ID 단계에서 읽었던 잘못된 write register 값을 가져오는 문제가 발생할 수 있다. 따라서 write register는 아래와 같이 저장되어야 한다.
+### Corrected Data path for Load
+![[IMG_12CF0663B16C-1.jpeg|500]]
 ## EX for Store
 ![[Pasted image 20250508154645.png|500]]
 ## MEM for Store
