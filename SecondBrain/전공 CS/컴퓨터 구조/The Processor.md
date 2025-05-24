@@ -186,9 +186,9 @@ stage들 사이에 레지스터(rising edge가 발생할 때만 동작하는 reg
 ## EX for Load
 ![[Pasted image 20250508154508.png|500]]
 ## MEM for Load
-![[Pasted image 20250508154533.png|500]]
+![[IMG_6B55A7C0898C-1.jpeg|500]]
 ## WB for Load
-![[Pasted image 20250508154613.png|500]]
+![[IMG_62942C41B2DC-1.jpeg]]
 ## EX for Store
 ![[Pasted image 20250508154645.png|500]]
 ## MEM for Store
