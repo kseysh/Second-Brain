@@ -286,7 +286,6 @@ $2가 겹치는 상황에서의 forwarding
 ![[Pasted image 20250520154245.png|500]]
 ## Load-Use Data Hazard
 ![[Pasted image 20250520154357.png|500]]
-
 ## Load-Use Data Hazard
 •	사용하는 명령어가 ID 단계에서 디코드될 때 확인
 •	ID 단계에서 ALU 피연산자 레지스터 번호는 다음과 같습니다:
@@ -296,6 +295,9 @@ $2가 겹치는 상황에서의 forwarding
 		`((ID/EX.RegisterRt = IF/ID.RegisterRs) or  `
 		 `(ID/EX.RegisterRt = IF/ID.RegisterRt))`
 •	감지되면 stall을 발생시키고 bubble을 삽입합니다
+
+ID stage에서 Load-Use Data Hazard 판단
+ID stage의 rs, rt가 EX stage의 dst(rt)와 같고 EX stage에 있는 instruction이 lw
 ## 파이프라인을 멈추는 방법
 •	ID/EX 레지스터의 제어 값을 0으로 설정
 	•	EX, MEM, WB 단계는 nop(무연산)을 수행
