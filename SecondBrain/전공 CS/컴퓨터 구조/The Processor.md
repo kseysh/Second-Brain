@@ -134,6 +134,8 @@ PC+4의 위 4개 bit
 ## Stall on Branch
 •	분기 결과가 결정될 때까지 다음 명령어 fetch를 대기
 ![[Pasted image 20250501153148.png|400]]
+MIPs는 성능 최적화를 위해 비교연산을 ID 단계에서 전용 비교기를 통해 수행함 
+![[IMG_B71D7C5BC464-1.jpeg|150]]
 ## Branch Prediction
 •	파이프라인이 길어질수록 분기 결과를 초기에 알기 어려움
 	•	스톨 패널티가 치명적이 됨
