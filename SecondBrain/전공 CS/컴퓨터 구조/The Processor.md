@@ -202,6 +202,7 @@ stage들 사이에 레지스터(rising edge가 발생할 때만 동작하는 reg
 ![[Pasted image 20250508155239.png|500]]
 lw가 $13, 24($10) 이면, Reg에서 $10에서 읽기/쓰기가 동시에 일어난다.
 하지만 이 것도 hazard가 발생하지 않고 문제가 발생하지 않는다 => 쓴 값이 바로 읽힌다.
+Reg의 읽기/쓰기는 한 번에 가능하다
 ## Pipelined Control
 RegWrite같은 경우 ID stage에 있지만 WB stage에서 사용된다. 따라서 Control Signal도 넘겨줘야 한다
 Control Signal 생성 시점: instruction decode 단계
@@ -212,11 +213,11 @@ ex)
 lw rt 숫자(rs) => rt에 씀
 add rd, rs, rt => rd에다가 씀
 ## Data Hazards in ALU Instructions
-sub $2, $1,$3
-and $12,$2,$5
-or $13,$6,$2
-add $14,$2,$2
-sw $15,100($2)
+sub *$2*, $1,$3
+and $12,*$2*,$5
+or $13,$6,*$2*
+add $14,*$2*,*$2*
+sw $15,100(*$2*)
 ## Dependencies & Forwarding
 ![[Pasted image 20250508155912.png|500]]
 위 예제에서 `add $14,$2,$2` 와 `sw $15,100($2)`는 data hazard가 발생하지 않는다.
