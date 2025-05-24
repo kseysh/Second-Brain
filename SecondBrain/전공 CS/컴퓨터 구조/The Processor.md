@@ -253,8 +253,8 @@ or에서도 Reg에서 값을 가져오는 것은 CC4이고 sub에서 결과물�
 3. 이전 instruction의 destination(rd)가 0인가?
 ## Forwarding Paths
 ![[Pasted image 20250515173009.png|500]]
-and $12, *$2*, $5
 sub *$2*, $1, $3
+and $12, *$2*, $5
 $2가 겹치는 상황에서의 forwarding
 ## Forwarding Conditions
 굳이 물어보지는 않음.. 읽어만보자
