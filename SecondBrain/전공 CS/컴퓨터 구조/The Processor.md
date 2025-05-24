@@ -248,7 +248,7 @@ or에서도 Reg에서 값을 가져오는 것은 CC4이고 sub에서 결과물�
 ![[Pasted image 20250515171540.png|200]]
 
 따라서, 아래 조건을 확인해야 함
-1. 이전 instruction이 R-format인가?
+1. 이전 instruction이 R-format인가? (forwarding 명령어가 register에 값을 쓸 경우에만 해당되므로)
 2. 이전 instruction이 RegWrite를 하는가?
 3. 이전 instruction의 destination(rd)가 0인가?
 ## Forwarding Paths
