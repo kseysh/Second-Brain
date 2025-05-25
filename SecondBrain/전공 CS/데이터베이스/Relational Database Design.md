@@ -96,7 +96,7 @@ end
 	•	R의 모든 부분집합 γ에 대해 γ⁺를 계산하고, γ⁺의 모든 부분집합 S에 대해 γ → S 형태의 함수 종속성을 출력
 ## Lossless-join Decomposition
 •	R = (R₁, R₂)인 경우, 가능한 모든 관계 r에 대해
-	•	r = πR₁(r) ⨝ πR₂(r)가 되어야 한다.
+	•	![[IMG_5818D9CDA980-1.jpeg|100]]가 되어야 한다.
 •	R을 R₁과 R₂로 분해했을 때 다음 중 하나라도 F⁺에 포함되면 Lossless-join Decomposition이다:
 	•	R₁ ∩ R₂ → R₁
 	•	R₁ ∩ R₂ → R₂
@@ -108,7 +108,6 @@ end
 	•	R₁ = (A, B), R₂ = (B, C)
 	•	Lossless Join
 	•	R₁ ∩ R₂ = {B}, B → BC
-
 2. 또 다른 분해 방법:
 	•	R₁ = (A, B), R₂ = (A, C)
 	•	Lossless Join이지만
