@@ -63,7 +63,7 @@ while (result에 변화가 있을 동안) do
             result := result ∪ γ
 end
 ```
-## 속성 집합 클로저 예제 (Example of Attribute Set Closure)
+## Example of Attribute Set Closure
 •	R = (A, B, C, G, H, I)
 •	F = {
 	A → B
@@ -89,6 +89,8 @@ end
 	•	α⁺를 계산해서, α⁺가 R의 모든 속성을 포함하는지 확인
 •	함수 종속성 테스트:
 	•	α → β가 F⁺에 포함되는지 확인하려면, α⁺를 계산하고 β ⊆ α⁺인지 확인
+	• α⁺: F로 부터 α로 추론 가능한 모든 속성들의 집합
+	• α → β가 F⁺에 포함되기 위해서는 β의 모든 속성이 α로부터 유도 가능해야 함
 	•	이 방법은 간단하고 효율적
 •	F의 클로저 계산:
 	•	R의 모든 부분집합 γ에 대해 γ⁺를 계산하고, γ⁺의 모든 부분집합 S에 대해 γ → S 형태의 함수 종속성을 출력
@@ -109,7 +111,7 @@ end
 
 2. 또 다른 분해 방법:
 	•	R₁ = (A, B), R₂ = (A, C)
-	•	무손실 조인이지만
+	•	Lossless Join이지만
 	•	Dependency preserving이 아님 (B → C를 R₁, R₂만으로 검사할 수 없음)
 ## Dependency Preservation
 •	Fi: Ri에만 포함된 속성으로 이루어진 F⁺의 부분집합
@@ -142,7 +144,7 @@ end
 	•	Dependency Preservation 가능
 •	BCNF 분해:
 	•	Lossless-join 가능
-	•	종속성 보존은 불확실
+	•	Dependency Preservation은 불확실
 ## 설계 목표 (Design Goals)
 관계형 데이터베이스 설계의 목표:
 	•	BCNF 만족
