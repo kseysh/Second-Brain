@@ -388,6 +388,8 @@ if, 0x1000400 beq가 taken이었다면, 400은 taken이었다고 적어놓는다
 	•	명령어 fetch 시 PC로 인덱싱
 		•	hit이고 분기 예측이 taken이면 즉시 타겟 fetch 가능
 ![[Pasted image 20250520160120.png|500]]
+- **Prediction table**: “이 분기 명령어가 taken일 확률이 높음”을 저장
+- **Target buffer**: “이 분기 명령어가 taken이라면 어디로 갈 것인가”를 저장
 ## 명령어 수준 병렬성 (ILP)
 •	파이프라이닝: 여러 명령어를 병렬로 실행
 •	ILP를 증가시키기 위한 방법: -> system 처리량 ↑
