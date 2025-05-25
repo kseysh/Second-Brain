@@ -313,6 +313,8 @@ ID stage의 rs, rt가 EX stage의 dst(rt)와 같고 EX stage에 있는 instructi
 원래라면 or가 fetching되고 있었을텐데, stall로 인해 or가 fetching 되었다가 버려지게 된다.
 ## Datapath with Hazard Detection
 ![[Pasted image 20250520154837.png|500]]
+load-use hazard를 주로 탐지하는데, PCWrite와 IF/ID Write를 0으로 만들어 PC와 IF/ID 레지스터 를 stall한다
+또한, Control 신호를 0으로 만들고 , bubble 삽입
 ## Stalls and Performance
 •	Stall은 성능을 떨어뜨립니다
 	•	하지만 정확한 결과를 위해 필요합니다
