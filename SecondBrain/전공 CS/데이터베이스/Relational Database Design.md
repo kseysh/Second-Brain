@@ -113,8 +113,8 @@ end
 	•	Lossless Join이지만
 	•	Dependency preserving이 아님 (B → C를 R₁, R₂만으로 검사할 수 없음)
 ## Dependency Preservation
-•	Fi: Ri에만 포함된 속성으로 이루어진 F⁺의 부분집합
-	•	분해가 종속성 보존이면:
+•	F<sub>i</sub>: R<sub>i</sub>에만 포함된 속성으로 이루어진 F⁺의 부분집합
+	•	decomposition이 dependency preserving이면
 	•	(F₁ ∪ F₂ ∪ … ∪ Fn)⁺ = F⁺
 	•	그렇지 않으면, 종속성 위반 검사를 위해 조인을 해야 해서 비용이 크다.
 #### 예제
