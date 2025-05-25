@@ -553,7 +553,7 @@ slti $t5, $s4, 20
 ![[Pasted image 20250520124953.png|500]]
 Reservation Station이 추가되고, 얘가 re-order instructions
 주변 reservation station을 보면서 순서가 재배치 된다.
-실행은 먼저하지만, 결과 적용은 순서대로 된다 이를 위해 결과가 Commit Unit에 저장해놨다가 순서대로 commit을 진행한다.
+실행은 먼저하지만, 결과 적용은 순서대로 된다 이를 위해 결과가 Commit Unit에 저장해놨다가 in-order commit을 진행한다.
 ## Register Renaming
 •	예약 스테이션(reservation station)과 reorder buffer는 register renaming를 효과적으로 수행
 •	명령어가 예약 스테이션에 발행될 때:
