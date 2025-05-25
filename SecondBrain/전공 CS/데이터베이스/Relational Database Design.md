@@ -85,33 +85,33 @@ end
 	2.	G → R인가? == (G)⁺ ⊇ R 인가? (아님)
 => 따라서 후보키가 맞음
 ## 속성 클로저의 활용
-•	슈퍼키(superkey) 테스트:
+•	superkey 테스트:
 	•	α⁺를 계산해서, α⁺가 R의 모든 속성을 포함하는지 확인
 •	함수 종속성 테스트:
 	•	α → β가 F⁺에 포함되는지 확인하려면, α⁺를 계산하고 β ⊆ α⁺인지 확인
 	•	이 방법은 간단하고 효율적
 •	F의 클로저 계산:
 	•	R의 모든 부분집합 γ에 대해 γ⁺를 계산하고, γ⁺의 모든 부분집합 S에 대해 γ → S 형태의 함수 종속성을 출력
-## 무손실 조인 분해 (Lossless-join Decomposition)
+## Lossless-join Decomposition
 •	R = (R₁, R₂)인 경우, 가능한 모든 관계 r에 대해
 	•	r = πR₁(r) ⨝ πR₂(r)가 되어야 한다.
-•	R을 R₁과 R₂로 분해했을 때 다음 중 하나라도 F⁺에 포함되면 무손실 조인 분해이다:
+•	R을 R₁과 R₂로 분해했을 때 다음 중 하나라도 F⁺에 포함되면 Lossless-join Decomposition이다:
 	•	R₁ ∩ R₂ → R₁
 	•	R₁ ∩ R₂ → R₂
-•	즉, R₁ ∩ R₂가 R₁ 또는 R₂의 슈퍼키이면 무손실 조인 분해가 된다.
+•	즉, R₁ ∩ R₂가 R₁ 또는 R₂의 슈퍼키이면 Lossless-join Decomposition가 된다.
 #### 예제
 •	R = (A, B, C)
 •	F = {A → B, B → C}
 1. 분해 방법:
 	•	R₁ = (A, B), R₂ = (B, C)
-	•	무손실 조인
+	•	Lossless Join
 	•	R₁ ∩ R₂ = {B}, B → BC
 
 2. 또 다른 분해 방법:
 	•	R₁ = (A, B), R₂ = (A, C)
 	•	무손실 조인이지만
 	•	Dependency preserving이 아님 (B → C를 R₁, R₂만으로 검사할 수 없음)
-## 종속성 보존 (Dependency Preservation)
+## Dependency Preservation
 •	Fi: Ri에만 포함된 속성으로 이루어진 F⁺의 부분집합
 	•	분해가 종속성 보존이면:
 	•	(F₁ ∪ F₂ ∪ … ∪ Fn)⁺ = F⁺
@@ -123,11 +123,11 @@ end
 •	R은 BCNF가 아님
 •	R₁ = (A, B), R₂ = (B, C)로 분해
 	•	R₁, R₂는 BCNF 만족
-	•	무손실 조인
-	•	종속성 보존
+	•	Lossless-join
+	•	Dependency Preservation
 ## BCNF와 종속성 보존
-•	항상 3NF로 무손실 조인, 종속성 보존이 가능하다.
-•	항상 BCNF로 무손실 조인은 가능하지만, 종속성 보존은 항상 가능하지는 않다.
+•	항상 3NF로 Lossless-join, 종속성 보존이 가능하다.
+•	항상 BCNF로 Lossless-join은 가능하지만, Dependency Preservation은 항상 가능하지는 않다.
 
 예시:
 	•	R = (J, K, L)
@@ -138,19 +138,19 @@ end
 	•	JK → L 검사를 위해 조인이 필요하다.
 ## BCNF와 3NF 비교
 •	3NF 분해:
-	•	무손실 조인 가능
-	•	종속성 보존 가능
+	•	Lossless-join 가능
+	•	Dependency Preservation 가능
 •	BCNF 분해:
-	•	무손실 조인 가능
+	•	Lossless-join 가능
 	•	종속성 보존은 불확실
 ## 설계 목표 (Design Goals)
 관계형 데이터베이스 설계의 목표:
 	•	BCNF 만족
-	•	무손실 조인
-	•	종속성 보존
+	•	Lossless-join
+	•	Dependency Preservation
 
 이를 모두 달성할 수 없다면:
-	•	종속성 보존 포기
+	•	Dependency Preservation 포기
 	•	3NF 사용에 따른 중복 허용
 
 주의:
