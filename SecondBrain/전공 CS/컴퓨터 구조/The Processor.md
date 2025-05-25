@@ -609,27 +609,14 @@ lw $t0, 10($t2)
 ## cortex A53 and Intel i7
 ![[Pasted image 20250522120732.png|400]]
 i7는 CISC이고, Clock rate가 ARM보다 큰 이유는 Pipeline stage를 잘게 나눠 stage당 해야하는 일이 적어져 clock cycle에서 이득을 보았기 때문
-## ARM Cortex-A53 Pipeline
-![[Pasted image 20250522121109.png|400]]
 ## ARM Coretex-A53 Branch Prediction
 ![[Pasted image 20250522121318.png|500]]
-mis prediction rate -> 그로 인해 버려지는 일의 양
+mis prediction rate(왼쪽) -> 그로 인해 버려지는 일의 양(오른쪽)
+mispresiction rate와 버려지는 일의양은 비례한다.
+같은 branch prediction을 사용하더라도 정확도가 달라질 수 있다.
 ## ARM Cortex-A53 Performance
 ![[Pasted image 20250522121530.png|300]]
-## Core i7 Pipeline
-눈여겨볼 필요는 없음.. 이런게 있다.
-![[Pasted image 20250522121720.png|300]]
-CISC지만, macro op -> micro op로 나눠서 pipeline 설계에 적합한 형태로 바꿔 clock cycle time을 줄인다.
-## Core i7 Performance
-![[Pasted image 20250522122155.png|400]]
-한 사이클에 4개씩 보낼 수 있으니, Ideal CPI는 0.25
-얘네는 시험에 안나옴..
-## Matrix Multiply
-![[Pasted image 20250522122401.png|400]]
-j와 k를 풀어서 썼는데, 이렇게 하면 루프 한 번에 16번의 연산을 실행함
-## Performance Impact
-![[Pasted image 20250522122515.png|300]]
-GFLOPS: Giga Floating Point Operations Per Second (성능이라 생각하자)
+Ideal CPI -> 0.5 (pipeline을 두 개하기 때문)
 ## 오해들 (Fallacies)
 •	파이프라이닝은 쉽다(!)
 	•	기본 개념은 쉬움
