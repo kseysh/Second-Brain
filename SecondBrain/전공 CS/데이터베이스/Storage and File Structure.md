@@ -99,7 +99,7 @@ null bitmap은 fixed length와 variable length사이에 넣어둔다.
 	•	각 레코드의 위치와 크기
 •	레코드들은 페이지 내에서 이동 가능하며, 빈 공간 없이 연속되도록 유지 (한 레코드가 삭제되면 빈공간을 채우기 위해 block 안의 레코드를 모두 민다)
 •	헤더의 항목은 반드시 갱신해야 함
-•	포인터는 레코드 자체가 아니라 entry for the record in header를 가리켜야 함 (실제 레코드는 위치가 변경되므로 생각해보면 당연함)
+•	항상 포인터는 Slotted Page Header에 있는 레코드에 대한 entry를 가리켜야 한다 (레코드가 재정렬되면 다른 곳에서 저장해두던 포인터의 값이 유효하지 않을 수 있으므로)
 
 Block의 구성: 
 Header: 메타데이터 저장
@@ -107,6 +107,7 @@ Entry Table: 각 레코드의 위치와 크기 저장
 Records: 실제 레코드 저장
 #### example in postgres
 ![[Pasted image 20250508141643.png|400]]
+블록 내 free space의 end 위치를 가리키는 모습
 ## 파일 내 레코드 구성 방법
 레코드 집합을 파일에 어떻게 배치할 것인가?
 •	힙(Heap): 레코드를 공간이 있는 아무 곳에나 배치
