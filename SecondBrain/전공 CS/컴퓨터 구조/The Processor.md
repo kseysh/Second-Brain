@@ -347,7 +347,7 @@ branch not taken 예측 후 틀리면 branch 하는 과정
 •	비교에 사용되는 레지스터가 앞의 두 번째 또는 세 번째 ALU 명령어의 목적지일 경우
 ![[Pasted image 20250520155528.png|400]]
 •	forwarding으로 해결 가능
-•	비교 레지스터가 앞의 ALU 명령어 또는 두 번째 앞의 load 명령어의 목적지일 경우
+•	beq에 사용되는 비교 레지스터가 앞의 ALU 명령어 또는 두 번째 앞의 load 명령어의 목적지일 경우
 	•	1 사이클 stall 필요
 ![[Pasted image 20250520155639.png|500]]
 beq에서는 표시된 1, 4가 필요한데. forwarding으로 땡기기는 무리이다.
