@@ -310,6 +310,7 @@ ID stage의 rs, rt가 EX stage의 dst(rt)와 같고 EX stage에 있는 instructi
 ## Load-Use Data Hazard
 ![[Pasted image 20250520154600.png|500]]
 ![[Pasted image 20250520154728.png|500]]
+원래라면 or가 fetching되고 있었을텐데, stall로 인해 or가 fetching 되었다가 버려지게 된다.
 ## Datapath with Hazard Detection
 ![[Pasted image 20250520154837.png|500]]
 ## Stalls and Performance
