@@ -462,7 +462,7 @@ if,
 `add $s0, $s1, $s2`
 `sw $t0, 100($t1)`
 register로 들어가는 input port가 두개로 늘어난 것을 볼 수 있음 (두 배의 읽기를 수행해야 하기 때문)
-쓰기도 두 배로 수행해야하기 때문에 output port가 두 개로 늘어남
+쓰기도 두 배로 수행해야하기 때문에 output port가 두 개로 늘어남 (input port 아래에)
 ALU도 하나 더 늘어남 (하나는 ALU, 하나는 lw/sw용)
 R-format은 MEM skip, sw는 Data memory를 지나감
 data memory는 그대로
