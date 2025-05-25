@@ -66,17 +66,18 @@ end
 ## 속성 집합 클로저 예제 (Example of Attribute Set Closure)
 •	R = (A, B, C, G, H, I)
 •	F = {
-A → B
-A → C
-CG → H
-CG → I
-B → H
-}
-•	(AG)⁺ 계산 과정:
+	A → B
+	A → C
+	CG → H
+	CG → I
+	B → H
+	}
+#### (AG)⁺ 계산 과정:
 1.	result = AG
 2.	result = ABCG (A → C와 A → B를 적용)
 3.	result = ABCGH (CG → H, 그리고 CG ⊆ AGBC)
 4.	result = ABCGHI (CG → I, 그리고 CG ⊆ AGBCH)
+
 •	AG가 후보 키(candidate key)인가?
 1.	AG가 슈퍼 키(super key)인가?
 	1.	AG → R인가? == (AG)⁺ ⊇ R 인가?
