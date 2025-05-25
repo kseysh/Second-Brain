@@ -557,11 +557,9 @@ Reservation Station이 추가되고, 얘가 re-order instructions
 ## Register Renaming
 •	예약 스테이션(reservation station)과 reorder buffer는 register renaming를 효과적으로 수행
 •	명령어가 예약 스테이션에 발행될 때:
-	•	피연산자가 레지스터 파일이나 reorder buffer에 존재하면 (= 피연산자가 이미 사용 가능한 경우)
-		•	reservation station으로 복사
+	•	피연산자가 레지스터 파일이나 reorder buffer에 존재하면 (= 피연산자가 이미 사용 가능한 경우) reservation station으로 복사
 		•	값이 복사되었기 때문에 그 레지스터 값은 더 이상 필요 없으므로 덮어쓰기 가능
-	•	피연산자가 아직 준비되지 않았으면
-		•	function unit이 나중에 reservation station에 제공
+	•	피연산자가 아직 준비되지 않았으면 function unit이 나중에 reservation station에 제공
 		•	연산 결과가 바로 예약 스테이션 또는 리오더 버퍼에 전달되므로, 레지스터에 값을 따로 저장하지 않아도 될 수도 있음.
 reservation staion과 reorder buffer는 명령어의 피연산자와 결과값을 별도로 보관할 수 있게 하여 물리적인 레지스터를 renaming한 것처럼 사용하여 이름 충돌 없이 명령어를 병렬로 실행할 수 있도록 한다.
 ## Speculation (추측 실행)
@@ -574,7 +572,7 @@ reservation staion과 reorder buffer는 명령어의 피연산자와 결과값�
 		•	완료되지 않은 store보다 먼저 load 수행
 		•	store된 값을 load 유닛에 우회 전달
 	•	추측이 해결될 때까지 load는 커밋하지 않음
-
+=> load 관련된 speculation을 강하게 한다
 ```
 sw $s0, 10($s1)
 lw $t0, 10($t2)
