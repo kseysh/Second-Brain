@@ -468,7 +468,7 @@ R-format은 MEM skip, sw는 Data memory를 지나감
 data memory는 그대로
 ## Hazards in the Dual-Issue MIPS
 •	더 많은 명령어가 병렬로 실행됨
-•	EX 데이터 해저드
+•	EX data 해저드
 	•	단일 발행에서는 forwarding으로 stall을 피함
 	•	이제는 동일 packet 안에서 ALU 결과를 load/store에서 사용할 수 없음
 		`add $t0, $s0, $s1  `
