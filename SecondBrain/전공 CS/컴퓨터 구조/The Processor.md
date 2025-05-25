@@ -603,11 +603,12 @@ lw $t0, 10($t2)
 •	더 단순한 여러 코어가 더 나은 선택일 수 있음
 ![[Pasted image 20250520130811.png|400]]
 추세만 보자
-처음: pipeline도 적고, speculation도 안한다
-점차 pipeline stage를 올리고 speculation도 한다
+처음: pipeline도 적고, Issue width도 1개이고, speculation도 안한다
+점차 multiple Issue를 늘리고 pipeline stage를 올리고 speculation도 한다
 어느순간 pipeline을 14로 고정하고 issue width도 4로 고정한다, 대신, cpu core가 늘어남
 ## cortex A53 and Intel i7
 ![[Pasted image 20250522120732.png|400]]
+i7는 CISC이고, Clock rate가 ARM보다 큰 이유는 Pipeline stage를 잘게 나눠 stage당 해야하는 일이 적어져 clock cycle에서 이득을 보았기 때문
 ## ARM Cortex-A53 Pipeline
 ![[Pasted image 20250522121109.png|400]]
 ## ARM Coretex-A53 Branch Prediction
