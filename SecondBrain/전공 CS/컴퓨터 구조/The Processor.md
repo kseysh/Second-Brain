@@ -449,7 +449,6 @@ lw $t1, 100($s1)
 	•	packet 간에는 의존성이 있을 수 있음
 		•	ISA마다 다르며, 컴파일러가 이를 알아야 함
 	•	필요 시 nop(no operation)으로 채움
-
 ## MIPS with Static Dual Issue
 •	두 개의 명령어로 구성된 issue packet
 	•	하나는 ALU/branch 명령어
