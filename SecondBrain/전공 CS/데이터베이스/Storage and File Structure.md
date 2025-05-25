@@ -40,7 +40,7 @@ field - physical적인 측면에서의 attribute
 	- Variable-length records
 ## External-Memory Model
 - EM(External-Memory) 모델은 RAM(주기억 장치) 모델과 다르다.
-	- RAM 모델에서의 시간 복잡도
+	- RAM 모델에서의 시간 복잡도 (기존 알고리즘 분석 방식)
 		- 기본 연산의 수 (예: 메모리 접근 횟수)
 	- EM 모델에서의 I/O 복잡도
 		- 외부 메모리로부터의 읽기/쓰기 횟수
@@ -48,6 +48,7 @@ field - physical적인 측면에서의 attribute
 	- N: 데이터 파일에 있는 레코드 수
 	- M: 주기억장치에 담을 수 있는 레코드 수
 	- B: 하나의 블록에 담을 수 있는 레코드 수
+=> EM 모델은 RAM 모델과 달리 시간 복잡도를 디스크 접근 횟수를 기준으로 판단해야 한다 (디스크 접근 속도는 메모리에 )
 ## Fixed-Length Records
 ![[Pasted image 20250501140222.png|300]]
 Linear I/O : O(N/B) -> N개의 데이터를 B 블록 단위로 가져올 때의 시간 복잡도
