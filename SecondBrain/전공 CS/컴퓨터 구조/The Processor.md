@@ -398,7 +398,8 @@ if, 0x1000400 beq가 taken이었다면, 400은 taken이었다고 적어놓는다
 	•	Multiple Issue (여러 instruction을 동시에 발행)
 		•	파이프라인 단계를 복제해 여러 개의 파이프라인 구성
 		•	클록 사이클마다 여러 명령어를 시작
-		•	CPI < 1 이므로 IPC 사용 (CPI<sup>-1</sup> = IPC)
+		•	CPI < 1 이므로 Iinstructions Per Cycle(IPC) 사용 (CPI<sup>-1</sup> = IPC)
+			CPI = Instruction Count x Clock Cycle
 		•	예시: 4GHz, 4-way issue
 			•	16 BIPS, 최대 CPI = 0.25, 최대 IPC = 4
 		•	하지만 실제론 의존성으로 인해 감소
