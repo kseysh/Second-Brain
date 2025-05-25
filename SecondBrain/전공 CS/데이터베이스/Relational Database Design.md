@@ -77,13 +77,13 @@ end
 2.	result = ABCG (A → C와 A → B를 적용)
 3.	result = ABCGH (CG → H, 그리고 CG ⊆ AGBC)
 4.	result = ABCGHI (CG → I, 그리고 CG ⊆ AGBCH)
-
-•	AG가 후보 키(candidate key)인가?
+#### AG가 후보 키(candidate key)인가?
 1.	AG가 슈퍼 키(super key)인가?
-	1.	AG → R인가? == (AG)⁺ ⊇ R 인가?
+	1.	AG → R인가? == (AG)⁺ ⊇ R 인가? (맞음)
 2.	AG의 부분집합이 슈퍼 키인가?
-	1.	A → R인가? == (A)⁺ ⊇ R 인가?
-	2.	G → R인가? == (G)⁺ ⊇ R 인가?
+	1.	A → R인가? == (A)⁺ ⊇ R 인가? (아님)
+	2.	G → R인가? == (G)⁺ ⊇ R 인가? (아님)
+=> 따라서 후보키가 맞음
 ## 속성 클로저의 활용
 •	슈퍼키(superkey) 테스트:
 	•	α⁺를 계산해서, α⁺가 R의 모든 속성을 포함하는지 확인
