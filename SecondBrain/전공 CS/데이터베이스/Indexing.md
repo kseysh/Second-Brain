@@ -320,6 +320,14 @@ splits => h번 = O(log<sub>B</sub>N)
 	• M에서 P₁, K₁, …, K<sub>⌈n/2⌉-1</sub>, P<sub>⌈n/2⌉</sub>를 다시 노드 N에 복사한다
 	• M에서 P<sub>⌈n/2⌉+1</sub>, K<sub>⌈n/2⌉+1</sub>, …, Kₙ, Pₙ₊₁를 새로 할당한 노드 N′에 복사한다
 	• (K<sub>⌈n/2⌉</sub>, N′)을 부모 노드 N에 삽입한다
+
+#### Example 2
+leaf node에서는 value를 기준으로 나누었지만, non-leaf node에서는 ptr을 기준으로 나눈다.
+![[Pasted image 20250526193100.png|400]]
+
+![[Pasted image 20250526195040.png|400]]
+왼쪽에 ptr 3개, 오른쪽에 2개를 놓고 붕 뜬 value인 100은 위로 올린다.
+
 #### Example of B+ Tree Deletion
 ![[Pasted image 20250526163138.png|500]]
 •	“Srinivasan” 삭제 전후: 
@@ -339,12 +347,6 @@ splits => h번 = O(log<sub>B</sub>N)
 •	부모 노드도 부족해 형제와 병합됨
 •	부모 노드의 키가 아래로 내려옴
 •	루트 노드에 자식이 하나만 남으면, 루트는 삭제되고 해당 자식이 새 루트가 됨
-#### Example 2
-leaf node에서는 value를 기준으로 나누었지만, non-leaf node에서는 ptr을 기준으로 나눈다.
-![[Pasted image 20250526193100.png|400]]
-
-![[Pasted image 20250526195040.png|400]]
-왼쪽에 ptr 3개, 오른쪽에 2개를 놓고 붕 뜬 value인 100은 위로 올린다.
 ## B+ 트리의 갱신: 삭제
 
 - 삭제할 레코드를 찾아 메인 파일과 버킷(존재할 경우)에서 제거한다.
