@@ -78,7 +78,7 @@ Dense index— Index record appears for every search-key value in the file.
 => 어차피 DB는 block단위로 data를 가져오기 때문
 dense Index: N 개 항목, 블록당 B개 :O(N/B) blocks
 sparse Index: N/B 개 항목, 블록당 B개: O(N/B<sup>2</sup>)
-Q. 잘 이해가 안감
+우리는 index도 block 단위로 가져올거임 index는 N/B개가 있고, N/B개를 블록단위로 가져오면 B개씩 가져올 수 있음 따라서 index를 블록 단위 접근하면 N/B<sup>2</sup>인 것
 ![[Pasted image 20250513143231.png|200]]
 #### sparse index를 이용한 cost 계산 example
 N<sub>data</sub> = 20,000,000 (20 M)
@@ -88,8 +88,34 @@ B<sub>index</sub> = 100 이라 가정 (Block size는 동일하지만 index는 ke
 index block = N<sub>index</sub>/B<sub>index</sub> = 10000
 이분 탐색을 이용한 cost: O(log n) = 13.xxx = 14번 I/O
 N이 data를 저장한 block의 개수일 때, 
-N/2<sup>i</sup> = B
-O(log<sub>2</sub>N/B)
+N<sub>index</sub>/2<sup>i</sup> = B<sub>index</sub>
+O(log<sub>2</sub>(N<sub>index</sub>/B<sub>index</sub>))
+
+#### 문제: Sparse Index를 사용한 탐색 비용 계산
+한 데이터베이스에서 아래와 같은 정보가 주어졌다고 하자:
+	•	전체 레코드 수: Ndata = 40,000,000 (40M)
+	•	데이터 블록당 레코드 수: Bdata = 40
+	•	Sparse Index는 각 데이터 블록의 첫 레코드만을 인덱싱
+	•	인덱스 항목은 (key, pointer) 형식이고, 한 블록에 인덱스 항목 Bindex = 80개 저장 가능
+	•	전체 인덱스 항목 수는 데이터 블록 수와 같음
+	•	따라서 인덱스 블록 수 = Nblock / Bindex
+	•	디스크 I/O는 모두 Block 단위로 계산
+
+❓질문:
+위 설정에서 Sparse Index를 이용하여 특정 레코드를 검색할 때,
+필요한 최악의 경우 디스크 I/O 횟수는 총 몇 번인가?
+
+✅ 풀이
+1.	데이터 블록 수 (Nblock) 계산
+	N_block = 40,000,000 / 40 = 1,000,000
+2.	인덱스 항목 수 = 1,000,000 (각 데이터 블록당 1개)
+	인덱스 블록 수: index_blocks = 1,000,000 / 80 = 12,500
+3.	Sparse Index 이진 탐색 시 I/O 횟수
+	인덱스 블록에서 이진 탐색할 경우, I/O는 블록 단위로 발생하므로: index_IO = log2(12,500) ≈ 13.6 → 14 I/Os
+4.	찾은 인덱스 항목이 가리키는 데이터 블록 접근 1번: data_IO = 1
+5.	총 디스크 I/O = index_IO + data_IO = 14 + 1 = 15
+✅ 정답:
+최악의 경우 디스크 I/O 횟수: 15번
 ## Multilevel Index
 - 기본 인덱스가 메모리에 맞지 않으면 접근 비용이 증가
 - 해결책:
