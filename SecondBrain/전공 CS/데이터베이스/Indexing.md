@@ -285,6 +285,23 @@ Adams 삽입 전후 B+ Tree
 
 ![[Pasted image 20250526162729.png|500]]
 Lamport 삽입 전후 B+ Tree
+
+![[Pasted image 20250526192116.png|300]]
+이 상황에서 11을 넣는다면?
+
+leaf node와 non-leaf node의 범위는?
+- leaf node : 
+	- vals ∈ \[2, 3]
+	- ptrs  ∈ \[3, 4]
+- non-leaf node
+	- ptrs  ∈ \[2, 4]
+
+![[Pasted image 20250526192326.png|300]]
+1. 일단 삽입하려는 곳이 full이므로 분할함
+![[Pasted image 20250526192409.png|300]]
+2. 분할되었기 때문에 삽입이 parent node로 전파됨
+#### pseudo code
+![[Pasted image 20250526192511.png|400]]
 ### non-leaf node 분할
 • 이미 가득 찬 내부 노드 N에 (k, p)를 삽입할 때
 	• N을 n+1개의 포인터와 n개의 키를 저장할 수 있는 메모리 영역 M으로 복사한다
