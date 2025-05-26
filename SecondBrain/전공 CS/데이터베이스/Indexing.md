@@ -127,9 +127,9 @@ O(log<sub>2</sub>(N<sub>index</sub>/B<sub>index</sub>))
 - 삽입/삭제 시 모든 수준의 인덱스를 갱신해야 함
 
 ![[Pasted image 20250515140224.png|300]]
-h = O(log<sub>B</sub>N)
+h = O(log<sub>B</sub>N) (B 꼭 써줘야 함 B가 상ㅅ)
 N = B<sup>h</sup>
-multilevel index의 문제: 인덱스에 레코드가 하나씩만 들어가게 되면 인덱스의 장점을 활용하지 못한다.
+multilevel index의 문제: 인덱스에 레코드가 하나씩만 들어가게 되면 인덱스의 장점을 활용하지 못한다. (update하다보면 그럴 수도 있음)
 ## 인덱스 갱신: 삭제
 ![[Pasted image 20250520134904.png|300]]
 •	삭제된 레코드가 해당 검색 키 값을 가진 유일한 레코드였다면, 인덱스에서도 해당 검색 키 삭제
