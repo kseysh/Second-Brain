@@ -153,7 +153,7 @@ Single-level index entry deletion
 이런 경우, 각 검색 키 값마다 하나의 인덱스 레코드를 갖는 secondary index를 사용할 수 있다.
 ![[Pasted image 20250526145117.png|300]]
 인덱스 레코드는 해당 검색 키 값을 가진 모든 실제 레코드에 대한 포인터들을 담고 있는 버킷(bucket)을 가리킨다.
-	•	보조 인덱스는 dense 인덱스여야 한다.
+•	보조 인덱스는 dense 인덱스여야 한다.
 
 ⸻
 
