@@ -57,10 +57,11 @@ where ID = 15151;
 ![[Pasted image 20250513142647.png|300]]
 •	Dense Index Files: 파일 내 모든 검색 키 값에 대해 index record가 존재
 	•	예: instructor 테이블의 ID 속성에 대한 인덱스
+Dense index— Index record appears for every search-key value in the file.
 
 ![[Pasted image 20250513142754.png|300]]
 - dense index on dept_name with instructor file sorted on dept_name
-- 이것도 dense index임!
+- *이것도 dense index임*!
 ## Sparse Index Files
 • **Sparse Index**: 일부 검색 키 값에 대해서만 인덱스 레코드를 포함함
 	– 검색 키를 기준으로 레코드가 순차적으로 정렬되어 있을 때 사용 가능
@@ -71,9 +72,9 @@ where ID = 15151;
 
 • Dense Index와 비교할 때:
 – 공간을 덜 차지하고, 삽입 및 삭제 시 유지 관리 비용이 더 적다.
-– 일반적으로 레코드 검색 속도는 조밀 인덱스보다 느리다.
+– 일반적으로 레코드 검색 속도는 Dense Index보다 느리다.
 
-• 좋은 절충안: 파일의 각 블록마다 하나의 인덱스 항목을 가지는 희소 인덱스.
+• 좋은 절충안: 파일의 각 블록마다 하나의 인덱스 항목을 가지는 Sparse Index.
 이 인덱스 항목은 해당 블록에서 가장 작은 검색 키 값에 대응한다. why?  => 어차피 DB는 block단위로 data를 가져오기 때문
 dense Index: N 개 항목, 블록당 B개 :O(N/B) blocks
 sparse Index: N/B 개 항목, 블록당 B개: O(N/B<sup>2</sup>)
