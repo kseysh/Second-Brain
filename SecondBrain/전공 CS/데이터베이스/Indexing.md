@@ -244,8 +244,10 @@ B+ 트리는 다음 조건을 만족하는 루트 트리입니다:
 5.	그렇지 않으면, 검색 키 값 V를 가진 레코드는 존재하지 않는다.
 ![[Pasted image 20250526160920.png|500]]
 => O(log<sub>B</sub>N) I/O's
-
-rna
+### Range Search
+range_search: O(log<sub>B</sub>N + T/B)
+여기서 T는 range의 길이를 뜻함
+![[Pasted image 20250526190954.png|500]]
 ## 효율성 비교
 •	K개의 검색 키가 있을 때, 트리 높이는 최대 ⌈log<sub>⌈n/2⌉</sub>(K)⌉
 •	일반적으로 노드 하나는 디스크 블록 크기와 같고, 보통 4KB
