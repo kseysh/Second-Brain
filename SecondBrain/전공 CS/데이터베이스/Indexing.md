@@ -302,6 +302,8 @@ leaf node와 non-leaf node의 범위는?
 2. 분할되었기 때문에 삽입이 parent node로 전파됨
 #### pseudo code
 ![[Pasted image 20250526192511.png|400]]
+find_leaf 시간복잡도: O(log<sub>B</sub>N)
+split 시간 복잡도: O(1) => 해봤자 노드 하나를 가져와서 나누는 것 뿐이므로 
 ### non-leaf node 분할
 • 이미 가득 찬 내부 노드 N에 (k, p)를 삽입할 때
 	• N을 n+1개의 포인터와 n개의 키를 저장할 수 있는 메모리 영역 M으로 복사한다
@@ -328,6 +330,12 @@ leaf node와 non-leaf node의 범위는?
 •	부모 노드도 부족해 형제와 병합됨
 •	부모 노드의 키가 아래로 내려옴
 •	루트 노드에 자식이 하나만 남으면, 루트는 삭제되고 해당 자식이 새 루트가 됨
+#### Example 2
+leaf node에서는 value를 기준으로 나누었지만, non-leaf node에서는 ptr을 기준으로 나눈다.
+![[Pasted image 20250526193100.png|400]]
+
+![[Pasted image 20250526195040.png|400]]
+왼쪽에 ptr 3개, 오른쪽에 2개를 놓고 붕 뜬 value인 100은 위로 올린다.
 ## B+ 트리의 갱신: 삭제
 
 - 삭제할 레코드를 찾아 메인 파일과 버킷(존재할 경우)에서 제거한다.
