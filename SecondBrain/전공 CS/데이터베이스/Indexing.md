@@ -304,6 +304,8 @@ leaf node와 non-leaf node의 범위는?
 ![[Pasted image 20250526192511.png|400]]
 find_leaf 시간복잡도: O(log<sub>B</sub>N)
 split 시간 복잡도: O(1) => 해봤자 노드 하나를 가져와서 나누는 것 뿐이므로 
+splits => h번 = O(log<sub>B</sub>N)
+따라서 삽입 시간 복잡도: O(log<sub>B</sub>N)
 ### non-leaf node 분할
 • 이미 가득 찬 내부 노드 N에 (k, p)를 삽입할 때
 	• N을 n+1개의 포인터와 n개의 키를 저장할 수 있는 메모리 영역 M으로 복사한다
