@@ -61,6 +61,7 @@ What do ERDs Tell us?
 ![[Pasted image 20250521183122.png|300]]
 ### Binary Relationships
 ![[Pasted image 20250521183148.png|300]]
+동그라미: 선택적 관계
 ### 카디널리티(Cardinality)
 •	한 엔터티의 인스턴스가 다른 엔터티의 인스턴스와 얼마나 자주 연관될 수 있는지를 나타냄
 •	1:1 관계: 하나의 인스턴스는 다른 하나의 인스턴스와만 연관
