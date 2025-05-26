@@ -38,10 +38,21 @@ where ID = 15151;
 ## Ordered Indices (정렬 인덱스)
 
 *ordered index*는 검색 키 값을 기준으로 정렬된 순서로 index 항목을 저장합니다. 예: 도서관 저자 색인
-•	Primary index (기본 인덱스): 파일이 정렬된 순서대로 저장되어 있으며, 이 순서를 결정하는 검색 키를 가진 인덱스 (*clustering index*라고도 함)
+•	Primary index (기본 인덱스): 파일 자체가 정렬된 순서대로 저장되어 있으며, 이 순서를 결정하는 검색 키를 가진 인덱스 (*clustering index*라고도 함)
 	•	보통 기본 키가 검색 키지만, 반드시 그렇지는 않음
 •	*Secondary index* (보조 인덱스): 파일의 순서와는 다른 순서로 검색 키를 정렬한 인덱스 (non-clustering index라고도 함)
-•	*Index-sequential file*: primary index를 가진 정렬된 파일 (?)
+•	*Index-sequential file*: 파일 자체는 특정 키 값 기준으로 정렬되어 있고, 그 키에 대한 인덱스가 존재하는 파일
+예시: 	전화번호부: 이름순으로 정렬되어 있고, 이름 첫 글자별로 인덱스를 가진다면,
+•	A~C → 첫 페이지
+•	D~F → 중간 페이지
+•	이런 식으로 인덱스가 있으면 특정 이름을 빠르게 찾아갈 수 있음
+=> Index-sequential file이면, clustering index임
+
+- In an *ordered index*, index entries are stored sorted on the search key value, e.g., author catalog in library.
+- *Primary index*: in a sequentially ordered file, the index whose search key specifies the sequential order of the file. Also called *clustering index*
+	- The search key of a primary index is usually but not necessarily the primary key.
+- *Secondary index*: an index whose search key specifies an order different from the sequential order of the file. Also called *non-clustering index*.
+- *Index-sequential file*: ordered sequential file with a *primary index*.
 ## Dense Index Files
 ![[Pasted image 20250513142647.png|300]]
 •	Dense Index Files: 파일 내 모든 검색 키 값에 대해 index record가 존재
@@ -49,6 +60,7 @@ where ID = 15151;
 
 ![[Pasted image 20250513142754.png|300]]
 - dense index on dept_name with instructor file sorted on dept_name
+- 이것도 dense index임!
 ## Sparse Index Files
 • **Sparse Index**: 일부 검색 키 값에 대해서만 인덱스 레코드를 포함함
 	– 검색 키를 기준으로 레코드가 순차적으로 정렬되어 있을 때 사용 가능
