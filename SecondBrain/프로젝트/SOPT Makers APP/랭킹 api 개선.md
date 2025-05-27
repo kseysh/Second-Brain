@@ -75,6 +75,7 @@ DB 병목은 발생하지 않음
 데이터 100만개 넣고 다시 시도해봅시다!!!
 표본의 개수가 너무 적음, generation의 기수성이 너무 낮아 인덱스를 타지 않는다.
 옵티마이저가 seq scan이 더 낫다고 판단하고 seq scan을 해요
+=> clustering index와 secondary index의 차이 때문
 
 ```sql
 explain analyze  
