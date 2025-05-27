@@ -135,3 +135,6 @@ invalid 영역은 실제 physical address에 존재하지 않음
 ![[Pasted image 20250527171741.png|200]]
 • 논리 주소 공간을 여러 페이지 테이블로 분할
 • 간단한 방식은 2단계 페이지 테이블(two-level page table) 사용
+outer page table: inner page table들이 어떤 frame에 저장되었는지
+### Two level page table
+![[Pasted image 20250527172934.png|300]]
