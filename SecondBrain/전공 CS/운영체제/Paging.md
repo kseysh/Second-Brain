@@ -75,19 +75,24 @@ ex)
 	• 교체 정책도 고려해야 함
 ## Paging Hardware with TLB
 ![[Pasted image 20250522174208.png|400]]
+page table도 physical memory 어딘가에 있다
 1. CPU가 page number(p)를 이용하여 TLB에서 frame 주소를 가져온다.
 	1. TLB miss면, page table에서 frame 주소를 가져오고 주소를 TLB에 반영한다.
 2. frame과 page offset(d)를 이용하여 physical address를 계산한다.
+
 ## 유효 접근 시간(EAT)
-• EAT = 𝑡𝑇 + 𝛼 × 𝑡𝑀 + (1 − 𝛼) × (𝑡𝑇 + 2𝑡𝑀) = 𝑡𝑇 + (2 − 𝛼)𝑡𝑀
-• 𝑡𝑇: TLB 접근 시간
-• 𝑡𝑀: 메모리 접근 시간
-• 𝛼: TLB 적중률
-• 예시:
+여기서는 캐시를 고려하지 않음
+• ![[Pasted image 20250527170253.png|200]]
+• 𝑡<sub>𝑇</sub>: TLB 접근 시간
+• 𝑡<sub>𝑀</sub>: 메모리 접근 시간
+• 𝛼: TLB 적중률 (0 ≤ 𝛼 ≤ 1)
+TLB 적중시 TLB 접근, 메모리 접근
+TLB MISS시 
+#### Example
 • 𝛼 = 80%, 𝑡𝑇 = 5ns, 𝑡𝑀 = 100ns → EAT = 125ns
 • 𝛼 = 99%, 𝑡𝑇 = 5ns, 𝑡𝑀 = 100ns → EAT = 106ns
 • 𝛼 = 100%, 𝑡𝑇 = 5ns, 𝑡𝑀 = 100ns → EAT = 105ns
-	•	페이지 테이블 항목의 추가 비트 (1)
+## 페이지 테이블 항목의 추가 비트 (1)
 • 각 프레임에 보호 비트를 부여하여 메모리 보호 구현
 • 읽기 전용 또는 읽기/쓰기 접근 여부 표시
 • 실행 전용 등의 추가 비트를 지정할 수도 있음
