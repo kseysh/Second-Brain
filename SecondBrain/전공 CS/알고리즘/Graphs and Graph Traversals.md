@@ -32,17 +32,29 @@ G = (V, E), n = |V|, m = |E|, V = {v₁, v₂, …, vₙ}
 ![[Pasted image 20250501154034.png|400]]
 ![[Pasted image 20250501154055.png|400]]
 ## 추가 정의 (More Definitions)
-•	부분 그래프 (Subgraph)
-•	완전 그래프 (Complete graph)
-•	인접 관계 (Adjacency relation)
-•	경로, 단순 경로, 도달 가능성 (Path, simple path, reachable)
-•	연결됨, 강하게 연결됨 (Connected, Strongly Connected)
-•	사이클, 단순 사이클 (Cycle, simple cycle)
-•	비순환 (Acyclic)
-•	무방향 포리스트 (Undirected forest)
-•	프리 트리, 무방향 트리 (Free tree, undirected tree)
-•	루트 트리 (Rooted tree)
-•	연결 성분 (Connected component)
+- 부분 그래프 (Subgraph)
+	- 어떤 그래프 G의 정점들과 간선의 일부만을 포함하여 만든 그래프
+- 완전 그래프 (Complete graph)
+	- 모든 정점 쌍 사이에 간선이 존재하는 그래프
+- 인접 관계 (Adjacency relation)
+	- 두 정점이 간선으로 직접 연결되어 있는 관계
+- 경로 (Path)
+	- 한 정점에서 다른 정점까지 정점과 간선의 연결
+- 단순 경로 (simple path)
+	- 정점이 중복 없이 등장하는 경로
+- 도달 가능성 (reachable)
+	- 정점 u에서 v까지 경로가 존재하면 u는 v로 부터 도달 가능
+- 연결됨 (Connected)
+	- 무방향 그래프에서 모든 정점 쌍 사이에 경로 존재
+- 강하게 연결됨 (Strongly Connected)
+	- u, v에서 u->v, v->u가 모두 존재
+- 사이클 (Cycle)
+- 단순 사이클 (simple cycle)
+- 비순환 (Acyclic)
+- 무방향 포리스트 (Undirected forest)
+- 프리 트리, 무방향 트리 (Free tree, undirected tree)
+- 루트 트리 (Rooted tree)
+- 연결 성분 (Connected component)
 ## 그래프 순회 (Traversing Graphs)
 그래프 문제 해결을 위한 대부분의 알고리즘은 각 정점과 간선을 검사하거나 처리함.
 너비 우선 탐색(BFS)과 깊이 우선 탐색(DFS)은 모든 정점과 간선을 한 번씩 “방문”하는 효율적인 순회 전략임
