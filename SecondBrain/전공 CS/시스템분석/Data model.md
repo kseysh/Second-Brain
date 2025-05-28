@@ -1,6 +1,9 @@
 use case 4번 기말
 actor, preconditoin normal course에 관련 data, input data, source, postcondition
 use case
+
+context diagram
+
 ## 핵심 정의
 ### 데이터 모델
 •	비즈니스 시스템이 사용하는 데이터와 생성되는 데이터를 형식적으로 표현하는 방법
