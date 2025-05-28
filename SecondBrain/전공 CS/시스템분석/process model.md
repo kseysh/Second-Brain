@@ -165,7 +165,10 @@ DFD는 어떻게 개발되는가
 ![[Pasted image 20250512155423.png|400]]
 움직이는건 데이터여야 함 (control도 data긴 함)
 화살표가 있다는 것은 무언가를 전달했다는 뜻이므로 전달한 data를 꼭 명시해야함 (화살표 안에 data를 명시해야한다는 뜻)
-
+내 과제에서 data 바꿔야함
+use case 마지막거 보면서 수정
+information for steps: 각 process마다 필요한 data임
+information for steps가 input이 되거나 output이 되는 것
 •	예: 레벨 1 – 프로세스 4: 부품 수령 기록
 ![[Pasted image 20250512155457.png|400]]
 
