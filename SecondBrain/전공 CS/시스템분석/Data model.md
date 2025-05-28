@@ -2,7 +2,8 @@ use case 4번 기말
 actor, preconditoin normal course에 관련 data, input data, source, postcondition
 use case
 
-context diagram
+ERD
+
 
 ## 핵심 정의
 ### 데이터 모델
