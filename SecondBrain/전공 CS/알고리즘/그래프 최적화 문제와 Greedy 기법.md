@@ -95,13 +95,21 @@ R은 남은 edges, F는 결과인 forest edges
 ## Dijkstra's Shortest-Path Algorithm
 Weight는 음수가 아님
 ![[Pasted image 20250512153135.png|400]]
-![[Pasted image 20250512153145.png|400]]
+1. 모든 정점을 unseen으로 초기화
+2. 시작 정점 s를 tree로 지정하고, d(s, s) = 0
+3. s와 인접한 정점들을 fringe로 재분류
+4. while (fringe 정점이 존재하는 동안)
+	1. tree 정점 t와 fringe 정점 v 간의 edge 중 (d(s, t) + W(tv)값이 최소인 (t, v)선택)
+	2. v를 tree로 재분류, edge (t, v)를 트리에 추가
+	3. v와 인접한 unseen 정점들을 fringe로 재분류
 
+![[Pasted image 20250512153145.png|400]]
+A에서 목적지 어딘가로 가는 shortest path를 찾고자 하는 문제임
 ## 정당성 (Correctness)
 ### 정리
 - G=(V,E,W)가 가중치가 모두 0 이상인 그래프라고 하자.
 - V’는 V의 부분 집합이며, s는 V’에 포함된 정점이다.
-- 모든 y ∈ V’에 대해, d(s,y)는 s에서 y까지의 최단 거리라고 하자.
+- 모든 y ∈ V’에 대해, d(s,y)는 s에서 y까지의 최단A 거리라고 하자.
 
 - 만약 yz라는 간선을 선택할 때 y ∈ V’, z ∈ V-V’인 모든 간선 중에서 d(s,y) + W(yz)를 최소화하는 간선을 선택하면, 
 	- s에서 y까지의 최단 경로 뒤에 yz 간선을 연결한 경로는 s에서 z까지의 최단 경로가 된다.
