@@ -109,3 +109,7 @@ G = (V, E), n = |V|, m = |E|, V = {v₁, v₂, …, vₙ}
 	스택에서 정점을 하나씩 꺼내며 탐색 시작
 •	각 Strongly Connected Components는 탐색의 시작 정점(리더)으로 식별됨
 ![[Pasted image 20250501154729.png|400]]
+![[Pasted image 20250528135546.png|200]]
+A에서 출발 (B, C, F 방문)
+B (D 방문)
+C (Finish, stack push)
