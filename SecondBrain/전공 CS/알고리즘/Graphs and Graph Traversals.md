@@ -45,16 +45,24 @@ G = (V, E), n = |V|, m = |E|, V = {v₁, v₂, …, vₙ}
 - 도달 가능성 (reachable)
 	- 정점 u에서 v까지 경로가 존재하면 u는 v로 부터 도달 가능
 - 연결됨 (Connected)
-	- 무방향 그래프에서 모든 정점 쌍 사이에 경로 존재
+	- 무방향 그래프에서 정점 쌍 사이에 경로 존재
 - 강하게 연결됨 (Strongly Connected)
-	- u, v에서 u->v, v->u가 모두 존재
+	- directed graph에서 u, v에서 u->v, v->u가 모두 존재
 - 사이클 (Cycle)
+	- 시작 정점과 끝 정점이 같은 경우
 - 단순 사이클 (simple cycle)
+	- 중복된 정점 없이(시작/끝 제외) 순환 
 - 비순환 (Acyclic)
-- 무방향 포리스트 (Undirected forest)
+	- 사이클이 없는 그래프
+- Undirected forest
+	- 사이클이 없는 무방향 그래프
 - 프리 트리, 무방향 트리 (Free tree, undirected tree)
+	- connected, acyclic, undirected edge, 
+	- 연결되어 있고 사이클이 없는 무방향 그래프
 - 루트 트리 (Rooted tree)
+	- root가 있는 free tree
 - 연결 성분 (Connected component)
+	- 무방향 그래프에서 서로 도달 가능한 정점들만으로 구성된 최대 부분 그래프
 ## 그래프 순회 (Traversing Graphs)
 그래프 문제 해결을 위한 대부분의 알고리즘은 각 정점과 간선을 검사하거나 처리함.
 너비 우선 탐색(BFS)과 깊이 우선 탐색(DFS)은 모든 정점과 간선을 한 번씩 “방문”하는 효율적인 순회 전략임
