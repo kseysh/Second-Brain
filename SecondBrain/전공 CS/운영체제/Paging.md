@@ -157,5 +157,5 @@ outer page table: inner page table들이 어떤 frame에 저장되었는지
 • 페이징 유닛은 선형 주소를 입력으로 받음
 • 메인 메모리의 물리 주소를 생성함
 • 페이징 유닛은 MMU(메모리 관리 유닛)와 동일한 역할을 함
-• 페이지 크기는 4KB(2<sup>12</sup>) 또는 4MB(large page) 가능
+• 페이지 크기는 4KB(2<sup>12</sup>) 또는 4MB(2<sup>22</sup> large page - p2와 d를 offset으로 사용) 가능
 page directory: page table을 가리킴
