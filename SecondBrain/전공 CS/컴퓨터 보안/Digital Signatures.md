@@ -92,18 +92,26 @@ Bob (수신자)
 	– 개인키: 𝑎 (이걸 알아야 challenge에 답할 수 있음)
 	– 공개키: 𝑣 = 𝛼<sup>(−𝑎) mod 𝑞</sup> mod 𝑝
 ![[Pasted image 20250529150839.png|400]]
+	•	프로토콜 절차
+1.	Alice는 무작위 값 𝑘 ∈ {0, …, 𝑞−1} 선택, 𝛾 = 𝑎ᵏ mod 𝑝 → commitment (1024비트)
+2.	Bob은 challenge 𝑟 ∈ {1, …, 2ᵗ} 선택 → challenge (40비트)
+3.	Alice는 응답 𝑦 = 𝑘 + 𝑎𝑟 mod 𝑞 계산 → response (160비트)
+	•	Bob의 검증:
+	•	𝛾 ≡ 𝑎ʸ × 𝑣ʳ mod 𝑝 인지 확인
 ## Schnorr 서명 (1989)
-• Schnorr 인증은 상호작용 기반  zero knowledge 증명 프로토콜
+• Schnorr 인증은 상호작용 기반 zero knowledge 증명 프로토콜
 • Fiat-Shamir 휴리스틱:
 	– 상호작용 기반 지식 증명을 입력으로 받아
 	– 디지털 서명을 생성하는 방식
 • 무작위 챌린지 𝑟을 H(M||𝛾)로 대체함
 
 ![[Pasted image 20250529151027.png|400]]
+challenge r을 임의로 선택하는 대신, 𝑟 = H(M||𝛾)로 변경하고, 서명 (𝛾, 𝑦)를 검증함
+
 증명: 메시지 M에 대한 (𝛾, 𝑦)
 검증자:
 1.	𝑟 = H(M||𝛾) 계산
-2.	𝛾 ≡ 𝛼^𝑦 * 𝑣^𝑟 mod 𝑝 검증 (𝑣 = 𝛼^(−𝑎) mod 𝑝)
+2.	𝛾 ≡ 𝛼<sup>𝑦</sup> * 𝑣<sup>𝑟</sup> mod 𝑝 검증 (𝑣 = 𝛼<sup>−𝑎</sup> mod 𝑝)
 
 Schnorr 서명 변형
 서명: (𝑟, 𝑦)
@@ -117,31 +125,28 @@ Schnorr 서명 변형
 • 최신 버전: FIPS 186-5 (2023년 2월 발행)
 • DSA는 산업계에서의 사용 부족과 도메인 파라미터가 적절히 생성되지 않을 경우 취약해질 수 있다는 분석에 따라 더 이상 승인된 알고리즘이 아님
 • 단, 과거에 생성된 서명 검증에는 계속 사용 가능
-
-⸻
-
-그림 13.4: DSA / Schnorr 서명 요약
-키 쌍: (𝑎, 𝑣 = 𝛼^(−𝑎) mod 𝑝)
+## Digital Signature Algorithm (DSA)
+![[Pasted image 20250529151931.png|500]]
+## 그림 13.4: DSA / Schnorr 서명
+![[Pasted image 20250529151859.png|400]]
+키 쌍: (𝑎, 𝑣 = 𝛼<sup>−𝑎</sup> mod 𝑝)
 메시지 M에 대한 서명 과정:
-	1.	𝛾 = 𝛼^𝑘 mod 𝑝 (랜덤 𝑘)
+	1.	𝛾 = 𝛼<sup>𝑘</sup> mod 𝑝 (랜덤 𝑘)
 	2.	𝑟 = H(M||𝛾)
 	3.	𝑦 = 𝑘 + 𝑎𝑟 mod 𝑞
-	4.	서명: (𝑟, 𝑦)
+	4. 서명: (𝑟, 𝑦)
 
 검증:
 	1.	𝛾′ = 𝛼^𝑦 * 𝑣^𝑟 mod 𝑝
 	2.	𝑟 = H(M||𝛾′)인지 확인
 
 ※ 𝑞는 𝑝−1의 약수인 부분군의 차수
-
-⸻
-
-RSA-PSS
-• RSA 확률 서명 스킴
+![[Pasted image 20250529152045.png|500]]
+## RSA-PSS
+• RSA 확률적 서명 스킴 (salt가 랜덤한 값이라서 같은 문서 -> 다른 서명이 나옴)
 • 2009년 FIPS 186 버전에 포함
 • RSA Labs가 가장 안전하다고 권장하는 RSA 서명 방식
 • 이전의 RSA 기반 스킴들은 RSA 기반 원시 연산의 보안성과 동등함을 수학적으로 증명하지 못함
 • PSS 접근 방식은 Bellare와 Rogaway가 처음 제안
 • 무작위화(randomization)를 도입하여 RSA 알고리즘 자체의 보안성과 직접적으로 연결 가능
-
-⸻
+![[Pasted image 20250529152128.png|400]]
