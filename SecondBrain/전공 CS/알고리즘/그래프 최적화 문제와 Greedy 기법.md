@@ -46,6 +46,11 @@
 ![[Pasted image 20250512152304.png|400]]
 ### 시간 복잡도 분석
 ![[Pasted image 20250530173638.png|500]]
+프림 알고리즘은 우선 순위 큐에서 가장 작은 정점을 찾고, 삭제하는 과정을 n번 반복한다.
+또한 새로운 후보 정점들을 n번 삽입하는데
+
+프림 알고리즘의 시간 복잡도 T(n, m) = O(n x (T(getMin) + T(deleteMin) + T(insert)) + m x T(decreaseKey))이므로
+
 unsorted array 사용 시: 
 최솟 값 가져오는 연산: O(n) (최악의 경우, 모든 )
 
