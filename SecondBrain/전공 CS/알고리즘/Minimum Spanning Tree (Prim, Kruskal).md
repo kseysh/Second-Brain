@@ -29,8 +29,6 @@
 
 unsorted array 사용 시: 
 최솟 값 가져오는 연산: O(n) (최악의 경우, 모든 )
-
-
 ### Kruskal’s Algorithm: Outline
 ![[Pasted image 20250512152334.png|400]]
 R은 남은 edges, F는 결과인 forest edges
