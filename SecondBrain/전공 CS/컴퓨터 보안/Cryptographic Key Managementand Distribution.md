@@ -43,6 +43,15 @@
 ![[Pasted image 20250529152920.png|400]]
 ## MitM Attack 대응책
 ![[Pasted image 20250529152949.png|400]]
+1. CA-> Alice 인증서 발급
+	1. S<sub>PR<sub>CA</sub></sub>(A, PU<sub>A</sub>)
+	2. CA의 공개키 PU<sub>CA</sub>로 검증 가능
+2. Alice -> Bob 서명 및 키 전달 (Y<sub>A</sub>, C, Z 전달)
+	1. Alice는 Y<sub>A</sub>=a<sup>X<sub>A</sub></sup> mod q를 생성
+	2. Alice는 이 키에 대해 자신의 개인키로 서명함 Z = S<sub>PR<sub>A</sub></sub>(A,Y<sub>A</sub>)
+3. Bob: 인증서 및 서명 검증
+	1. PU<sub>CA</sub>로 인증서 C를 검증해 PU<sub>A</sub>획득
+	2. PU<sub>A</sub>로 서명 Z 검증
 ## 그림 15.12: X.509 계층 구조 – 가상의 예시
 ![[Pasted image 20250529153011.png|500]]
 •	표기법: X<\<C>>는 X가 C에 의해 서명된 인증서를 의미
