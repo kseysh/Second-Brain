@@ -23,3 +23,27 @@ bitcoin address: 송신자와 수신자는 실명 대신, 일종의 가명(bitco
 - 개인키 저장을 위해 비트코인 지갑(wallet) 사용 
 - 지갑은 또한 블록에 기록된 트랜잭션들을 추적하여 본인의 잔고를 확인하는 기능도 제공 가능
 ![[Pasted image 20250531142614.png|400]]
+## Bitcoin block
+트랜잭션 여러 개를 모아 순서에 따라 기록한 것
+![[Pasted image 20250531143709.png|400]]
+![[Pasted image 20250531143813.png|400]]
+# Blcok chain
+- Block들 간의 의존 관계 성립 
+- 이전 블록 해시 값을 다음 블록에 포함 
+- 특정 블록을 조작할 경우, 그 해시값에 의해 영향을 받는 다음 블 록도 조작하여야 함 
+- 해시함수의 특성(one-way property, collision resistance): 해당 해시값이 변하지 않도록 하면서 조작 대상 블록의 다른 값 (예: nonce)을 같이 변경시키거나, 다른 트랜잭션들을 포함하면서 같은 해시값을 가지도록 하는 것은 거의 불가능함 
+- 변경의 영향은 체인처럼 연결된 다음 블록들로 계속 전파되므로 맨 뒤 블록까지 모두 수정해야 함 
+- 트랜잭션이 포함된 투명한 상자(블록)들의 탑(블록체인)의 복제 본이 수많은 참여자(노드)들 에게 저장되어 있으므로 조작이 더 어려움
+### Bitcoin network 
+- Transaction을 수행하는 peer-topeer (P2P) 네트워크 ▣네트워크로 연결된 각 개체를 노드 (node)라 부름 
+### 비트코인 노드(node) 
+- Full client: 블록체인 전체를 보유 
+- Lightweight client 
+	- full client의 도움을 받음 
+- Bitcoin Core 
+	- node + wallet (Open source SW)
+![[Pasted image 20250531144138.png|500]]
+
+
+
+
