@@ -95,7 +95,7 @@ Collision resistant는 기억할 필요까지는 없다.
 •	서명된 Sign(H(x’))을 Sign(H(y’))로 교체 가능
 서로 다른 두 입력에 대해 해시 값이 같은 충돌을 찾기 위해서는 2<sup>m/2</sup>의 계산량이 필요
 #### A Letter in 2<sup>38</sup> Variations
-![[Pasted image 20250501161031.png|200]]
+![[Pasted image 20250501161031.png|400]]
 ## General Structure of Secure Hash Code
 ![[Pasted image 20250501161100.png|300]]
 ## 보안 해시 알고리즘 (SHA)
