@@ -65,11 +65,6 @@ C2 (메시지 계산 용) 계산: KM mod q
 ###### ElGamal Cryptosystem의 Decryption 과정
 K Decryption: K = C<sub>1</sub><sup>X<sub>A</sub></sup> mod q
 M Decryption: M = C<sub>2</sub>K<sup>-1</sup> mod q
-###### C1 Decryption 증명
-C<sub>1</sub><sup>X<sub>A</sub></sup> mod q
-= (α<sup>k</sup>)<sup>X<sub>A</sub></sup> mod q
-= (α<sup>X<sub>A</sub></sup>)<sup>k</sup> mod q
-= (Y<sub>A</sub>)<sup>k</sup> mod q = K
 
 ## Elliptic Curve Arithmetic (타원 곡선 연산)
 •	암호화 및 디지털 서명을 위해 공개키 암호를 사용하는 대부분의 제품 및 표준은 RSA를 사용
