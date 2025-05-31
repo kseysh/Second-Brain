@@ -7,7 +7,10 @@
 	•	이 값이 인증자의 역할을 함
 ## Basic Uses of Message Authentication code (MAC)
 ![[Pasted image 20250501203514.png|400]]
-2번째 방법: K1으로 
+2번째 방법: 
+K1으로 메시지 M에 대해 MAC을 생성 K2로 M과 MAC을 Encrypt -> 인증, 기밀성 충족
+3번째 방법:
+K2로 M Encrpt, K1으로 암호문 E(K2, M)에 대해 MAC 생성
 ## Hash function based MAC: HMAC
 •	Motivations:
 	•	MD5, SHA 같은 암호화 해시 함수는 DES와 같은 대칭 블록 암호보다 소프트웨어에서 일반적으로 더 빠르게 실행됨
