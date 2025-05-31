@@ -89,10 +89,55 @@ bitcoin address: 송신자와 수신자는 실명 대신, 일종의 가명(bitco
 - 매 21만 개 블록마다 보상이 반감됨 (1블록/10분 = 144블록/일 = 52,560 블록/년 → 대략 21만 블록/4년)
 -  반감이 33회 반복되면 채굴 보상은 ![[Pasted image 20250601005219.png|100]]이 되어, 비트코인 최소 통화단위인 1 satoshi(=0.00000001 BTC)보다 작아지게 됨
 - 따라서, 2008년(genesis block) 이후 4×33=132년이 경과한 2140년이 되면 더 이상 통화량 증가 없게 됨
-■ 총 통화량은 50 × 1 + 1
-+ 1
-2
-22 + 1
-23 + ⋯ + 1
-233 × 210,000 (약 2100만 BTC)
-에서 정체됨
+- 총 통화량은 ![[Pasted image 20250601005311.png|200]]에서 정체됨
+## Bitcoin: Issues
+- Scalability issue
+	- Maximum block size: 1MiB(=2^20 B), transaction 의 크기는 평균 수백 B 또는 수 KB
+- 따라서 block 당 transaction 은 수백~수천개
+- Block이 10분에 하나 정도 생성되므로, transaction throughput은 초당 10개 이하
+	- ➔ off-chain transactions
+- Mining pool 집중 문제
+- Full node vs. thin client
+	- ➔ Merkle tree (다음페이지)
+## Blockchain : Reclaiming Space using Merkle Tree
+![[Pasted image 20250601005409.png|300]]
+## Other blockchains
+- Review: 비트코인의 동작 원리
+	- 중앙의 관리자나 중재 서버 없이 peer-to-peer (P2P) 방식으로 거래하는, 탈중앙화된 가상자산(암호화폐)
+	- 참가자(peer) 간의 거래(송금 내역)를 기록한 블록체인의 공개된 사본을 복제하여 다수의 참여자가 저장
+	-  다수 참여자가 동일한 거래 기록을 관리함으로써 무결성 확보(임의 조작 방지)
+- 블록체인 개념의 확장
+	- 블록체인에 기록되는 내용이 화폐의 전송에 국한될 필요 없음
+	- 컴퓨터 상에서 수행되는 프로그램을 “컴퓨터 메모리의 상태를 변화시키는 작업의 연속”으로 보면, 블록체인 네트워크를 하나의 방대한 가상화된 컴퓨터로 보고 공동의 프로그램을 수행시키는 것이 가능함
+	- 즉 노드들은 블록체인의 상태(가상화된 컴퓨터의 메모리 상태)를 함께 변경시키는 작업을 계속함
+	- 일종의 거대한 클라우드
+### Ethereum
+- 블록체인 네트워크를 이용하여 하나의 거대한 가상 컴퓨터를 운영하는 구조
+- 가상자산인 동시에 거대한 가상 컴퓨터
+	- EVM (Ethereum Virtual Machine)
+	- Original implementation: in C++/Python/Golang
+	- Geth: Go Ethereum
+- 스마트 컨트랙트(smart contract): 이더리움 블록체인 상에서 실행되는 프로그램
+- Solidity language
+- 비트코인과는 다르게, Turing-complete 한 기능 제공(예: 반복문을 이용한 특정 작업 반복 가능)
+- 비트코인의 트랜잭션 수수료와 같이, 프로그램의 실행에 대한 비용(gas) 지불해야 함
+- Consensus (합의) mechanism: PoW에서 2022년 Proof-of-stake (PoS)로 전환 (less energy consumption, higher security) – “The Merge”
+
+### 하이퍼레저(Hyperledger)
+- 공개형 블록체인은 참여 노드가 많아질 수록 구조가 복잡하고 특히 PoW 방식의 경우 자원 낭비가 심하며, 거래 내역 및 데이터가 모두 공개되는 기밀성 문제가 있음
+- 허가받은 소수만 블록체인에 참여하는 허가형 블록체인(permissioned blockchain) 등장. 단, 참여자들 간에 대립되는 이해관계가 있고(신뢰할 수 없는 복수의 기관이 참여) 중앙화가 적절하지 않은 경우 적합함(완전한 탈중앙화는 아님)
+- Hyperledger Fabric
+	- Hyperledger 오픈 소스 프로젝트(Sawtooth, Besu, etc.)에 포함된 대표적인 플랫폼
+	- 대표적인 허가형 블록체인의 하나로, Linux 재단에서 시작하고 IBM 등의 기업에서 주도
+### NFT
+- NFT (Non Fungible Token: 대체 불가 토큰)
+	- Blockchain에 기록된 metadata + ownership
+	- Data의 직접 기록 대신 외부에 저장된 디지털 매체에 대한 reference를 저장하는 것이 일반적
+	- Uniquely identifiable (“fungible”한 보통의 cryptocurrency와 다름)
+- NFT 구성
+	- On-chain smart contract: blockchain에 token을 minting, 전송, 소각하는 방법을 알려주는 명령의 집합
+		- Ethereum 상에 구현하는 경우가 전형적
+		- 최초의 NFT project라 볼 수 있는 Etheria는 2015년 Ethereum blockchain launch 직후 launch.
+		- ERC (Ethereum Request for Comments) 721 standard (2018) “Non-Fungible Token Standard” 
+		- ERC 1155 (2018): multi-token standard (handles multiple token types (fungible and non-fungible) in a single transaction)
+- Off-chain: metadata + contents
