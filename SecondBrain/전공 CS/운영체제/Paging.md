@@ -137,6 +137,7 @@ invalid 영역은 실제 physical address에 존재하지 않음
 outer page table: inner page table들이 어떤 frame에 저장되었는지
 ### Two level page table
 ![[Pasted image 20250527174038.png|400]]
+4KB짜리 페이지를 최대 2²⁰개 매핑할 수 있는 페이지 테이블 구조
 # Case Studies
 ## The Intel IA-32 Architecture
 • 업계를 주도하는 칩
