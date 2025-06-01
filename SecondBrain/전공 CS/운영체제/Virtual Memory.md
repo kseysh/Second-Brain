@@ -65,6 +65,7 @@ paging과 virtual memory가 다른 점인, 일부 데이터만 올리기 위한,
 •	MMU가 주소 변환 시 해당 비트가 i이면 → 페이지 폴트 발생
 ## Page Table Example
 ![[Pasted image 20250529170535.png|300]]
+logical memory에는 다 메모리에 적재된 것으로 보이지만, 실제로 physical memory에는 필요한 메모리인 A,C,F만 적재되어 있어 page table에 0,2,5만 매핑되고 v로 표시되어 있다.
 ## Page Fault
 •	페이지 참조가 발생하면, 해당 페이지에 대한 첫 참조 시 운영체제로 trap 발생 (page fault)
 1.	운영체제가 다른 테이블을 확인함
