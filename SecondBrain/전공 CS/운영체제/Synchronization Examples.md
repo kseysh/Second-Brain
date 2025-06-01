@@ -102,7 +102,6 @@ do {
 •	두 방식 모두 기아(starvation) 문제가 발생할 수 있으며, 이를 해결하기 위한 다양한 방식 존재
 •	일부 시스템에서는 커널이 reader-writer lock을 제공해 문제를 해결함
 ## Readers-Writers Problem - Writer preference
-
 semaphore rw_mutex = 1;
 semaphore mutex = 1;
 int read_count = 0;
