@@ -27,7 +27,6 @@ page size 4KB (=frame)
 frame 갯수 = 4GB/4KB = 2<sup>20</sup>개
 p = 20 bit (2<sup>m</sup>/2<sup>n</sup>개여야 하므로)
 d = 12 bit
-**Q. page 수와 frame 수는 같은가?**
 위 예시에서 page number는 2<sup>20</sup>까지, frame 개수는 2<sup>20</sup>까지라고 했기 때문
 ex) 
 •	페이지 크기: 100칸
