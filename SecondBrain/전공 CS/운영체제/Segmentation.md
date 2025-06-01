@@ -25,7 +25,6 @@ segmentation: segment마다 base와 limit
 ## Logical View of Segmentation
 ![[Pasted image 20250522164213.png|300]]
 이 방식은 데이터가 꼭 연속적으로 저장되지 않아도 된다.
-
 ## Segmentation Architecture
 • 논리 주소는 두 개의 튜플로 구성됨
 	• <segment-number, offset>
