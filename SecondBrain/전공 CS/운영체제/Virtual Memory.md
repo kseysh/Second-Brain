@@ -187,3 +187,4 @@ page fault 직후
 ![[Pasted image 20250602121921.png|300]]
 • Copy-on-Write 예시: 프로세스 1이 페이지 C를 수정한 후
 ![[Pasted image 20250602121935.png|300]]
+## Page Replacement
