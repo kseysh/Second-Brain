@@ -1,3 +1,12 @@
+## MMU 종류
+- Contiguous Allocation
+	- MMU: base register + limit register
+- segmentation
+	- MMU: segment table에서 base와 limit
+- paging
+	- MMU: page table에서 frame number + offset
+- virtual memory
+	- MMU: page table에서 frame number + offset
 ## 가상 메모리의 동기
 •	코드와 데이터를 실행하려면 메모리에 있어야 하지만, 전체 프로그램이 항상 사용되는 것은 아니다
 	•	오류 처리 코드, 특이한 루틴, 큰 데이터 구조 등은 드물게 사용됨
