@@ -82,10 +82,10 @@ logical memory에는 다 메모리에 적재된 것으로 보이지만, 실제�
 •	*pure demand paging*: 처음에는 아무 페이지도 메모리에 없이 프로세스 시작
 	•	OS는 프로세스의 첫 명령어 위치로  instruction pointer를 설정 → 메모리에 없음 → 페이지 폴트
 	•	다른 모든 페이지들도 처음 접근 시 페이지 폴트
-•	실제로는 하나의 명령어가 여러 페이지를 접근할 수도 있음 → 다중 페이지 폴트
+•	실제로는 하나의 명령어가 여러 페이지를 접근할 수도 있음 → multiple page faults
 	•	예시: 메모리에서 두 수를 더하고 결과를 저장하는 명령어의 fetch/decode 과정
 	•	지역성(locality of reference) 때문에 이러한 비용이 완화됨
-•	요청 페이징을 위한 하드웨어 지원 필요
+•	Demand Paging을 위한 하드웨어 지원 필요
 	•	유효/무효 비트를 갖는 페이지 테이블 (MMU)
 	•	secondary memory (swap device) - backing store
 	•	Instruction restart
