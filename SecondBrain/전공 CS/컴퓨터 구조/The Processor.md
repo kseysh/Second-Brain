@@ -547,7 +547,7 @@ sub $s4, $s4, $t3
 slti $t5, $s4, 20  
 ```
 •	addu가 lw를 기다리는 동안 sub를 먼저 시작 가능
-앞에서 한 것을 하드웨어가 판단하는 것  
+앞에서 한 것을 하드웨어가 판단하는 것                            
 이런 것을 하기 위해서 CPU는 Instruction을 미리 여러개 읽어놓아야 한다.
 ## Dynamically Scheduled CPU
 ![[Pasted image 20250520124953.png|500]]
