@@ -22,7 +22,7 @@ beq rs rt N
 ![[Pasted image 20250501151055.png|500]]
 ## Load Instruction
 ![[Pasted image 20250501151112.png|500]]
-rt에 써야 하므로 RegDst는 rt를 읽은 0에다가 write해야하므로 RegDst가 0이다.
+rt에 써야 하므로 RegDst는 *rt를 읽은 0에다가 write해야하므로 RegDst가 0이다.*
 ## Store Instruction
 위에서 부터
 X
