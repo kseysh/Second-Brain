@@ -523,7 +523,7 @@ while(p!=0){
 	// $s2 = a
 }
 ```
-branch에서 하는 일이 많을 수록 branch를 위한 instruction의 비중이 줄어들어 내부적으로 parallelism을 사용할 확률이 올라간다
+ 
 ![[Pasted image 20250520123711.png|400]]
 IPC = 14/8 = 1.75
 - 하지만, register 활용률이 증가해버리고, code size가 커진다.
@@ -547,7 +547,7 @@ sub $s4, $s4, $t3
 slti $t5, $s4, 20  
 ```
 •	addu가 lw를 기다리는 동안 sub를 먼저 시작 가능
-앞에서 한 것을 하드웨어가 판단하는 것
+앞에서 한 것을 하드웨어가 판단하는 것  
 이런 것을 하기 위해서 CPU는 Instruction을 미리 여러개 읽어놓아야 한다.
 ## Dynamically Scheduled CPU
 ![[Pasted image 20250520124953.png|500]]
