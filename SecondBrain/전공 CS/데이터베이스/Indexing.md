@@ -168,8 +168,8 @@ Single-level index entry deletion
 •	기본 인덱스를 이용한 순차 스캔은 효율적, 그러나 보조 인덱스를 이용한 순차 스캔은 비효율적
 	•	각 레코드 접근 시 디스크에서 블록을 새로 불러올 수 있음
 	•	디스크 접근 시간: 약 5~10밀리초, 메모리 접근 시간: 약 100나노초
-보조 인덱스를 이용한 순차 스캔: O(N/Blog<sub>B</sub>N/B)
-그냥 순차 스캔: O(N/B)이므로
+보조 인덱스를 이용한 순차 스캔: O(N<sub>data</sub>/B<sub>data</sub>log<sub>B<sub>data</sub></sub>N<sub>data</sub>/B<sub>data</sub>)
+그냥 순차 스캔: O(N<sub>data</sub>/B<sub>data</sub>)이므로
 ## B+ 트리 인덱스 파일
 B+ 트리는 *indexed-sequential files의 대안*입니다.
 인덱스 순차 파일의 단점:
