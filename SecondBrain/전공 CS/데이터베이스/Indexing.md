@@ -53,6 +53,8 @@ where ID = 15151;
 	- The search key of a primary index is usually but not necessarily the primary key.
 - *Secondary index*: an index whose search key specifies an order different from the sequential order of the file. Also called *non-clustering index*.
 - *Index-sequential file*: ordered sequential file with a *primary index*.
+#### Q. Primary Index와 secondary Index는 항상 Dense Index인가?
+Index-seqential file은 보통 sparse이고 dense여도 될 것은 같긴하다..
 ## Dense Index Files
 ![[Pasted image 20250513142647.png|300]]
 •	Dense Index Files: 파일 내 모든 검색 키 값에 대해 index record가 존재
@@ -62,12 +64,12 @@ Dense index— Index record appears for every search-key value in the file.
 
 ![[Pasted image 20250513142754.png|300]]
 - dense index on dept_name with instructor file sorted on dept_name
-- *이것도 dense index임*!
+- ***이것도 dense index임***!
 ## Sparse Index Files
 • **Sparse Index**: 일부 검색 키 값에 대해서만 인덱스 레코드를 포함함
 	– 검색 키를 기준으로 레코드가 순차적으로 정렬되어 있을 때 사용 가능
 • 검색 키 값이 K인 레코드를 찾기 위해서는:
-	– K보다 작은 검색 키 값 중 가장 큰 값을 가진 인덱스 레코드를 찾음
+	– K보다 작거나 같은 검색 키 값 중 가장 큰 값을 가진 인덱스 레코드를 찾음
 	– 해당 인덱스 레코드가 가리키는 레코드부터 파일을 순차적으로 검색함
 ![[Pasted image 20250513143209.png|300]]
 
