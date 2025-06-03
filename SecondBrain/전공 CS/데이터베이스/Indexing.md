@@ -86,21 +86,24 @@ sparse Index: N/B 개 항목, 블록당 B개: O(N/B<sup>2</sup>)
 #### sparse index를 이용한 cost 계산 example
 N<sub>data</sub> = 20,000,000 (20 M)
 B<sub>data</sub> = 20
-N<sub>index</sub> = 1,000,000 (1M) 개의 block 존재
 B<sub>index</sub> = 100 이라 가정 (Block size는 동일하지만 index는 key와 pointer만 들어가면 되므로)
+
+N<sub>index</sub> = 1,000,000 (1M) 개의 block 존재 (data block마다 하나씩 있으므로)
 index block = N<sub>index</sub>/B<sub>index</sub> = 10000
 이분 탐색을 이용한 cost: O(log n) = 13.xxx = 14번 I/O
 N이 data를 저장한 block의 개수일 때, 
 N<sub>index</sub>/2<sup>i</sup> = B<sub>index</sub>
 O(log<sub>2</sub>(N<sub>index</sub>/B<sub>index</sub>))
+
+dense라면,O(log<sub>2</sub>(N<sub>data</sub>/B<sub>index</sub>))
 #### 문제: Sparse Index를 사용한 탐색 비용 계산
 한 데이터베이스에서 아래와 같은 정보가 주어졌다고 하자:
-	•	전체 레코드 수: Ndata = 40,000,000 (40M)
-	•	데이터 블록당 레코드 수: Bdata = 40
+	•	전체 레코드 수: N<sub>data</sub> = 40,000,000 (40M)
+	•	데이터 블록당 레코드 수: B<sub>data</sub> = 40
 	•	Sparse Index는 각 데이터 블록의 첫 레코드만을 인덱싱
-	•	인덱스 항목은 (key, pointer) 형식이고, 한 블록에 인덱스 항목 Bindex = 80개 저장 가능
+	•	인덱스 항목은 (key, pointer) 형식이고, 한 블록에 인덱스 항목 B<sub>index</sub> = 80개 저장 가능
 	•	전체 인덱스 항목 수는 데이터 블록 수와 같음
-	•	따라서 인덱스 블록 수 = Nblock / Bindex
+	•	따라서 인덱스 블록 수 = N<sub>block</sub> / B<sub>index</sub>
 	•	디스크 I/O는 모두 Block 단위로 계산
 
 ❓질문:
