@@ -89,7 +89,7 @@ Einstein(record 3)을 삭제후 record 11을 삽입한 경우
 	•	null 값은 null-value 비트맵으로 표현
 ![[Pasted image 20250501144031.png|300]]
 dept_name인 Comp. Sci를 알고 싶다면, dept_name은 세 번째 필드이므로 8로 가서 좌표값을 확인하고, 36부터 10만큼 읽는다. (가변 길이만 이렇게 하고, fixed length는 그냥 저장함)
-null bitmap은 fixed length와 variable length사이에 넣어둔다. 
+null bitmap은 fixed length와 variable length사이에 넣어둔다.  (0000은 4개가 null이 아니라는 뜻)
 ## 가변 길이 레코드 - Slotted Page Structure
 ![[Pasted image 20250508133432.png|400]]
 •	Slotted Page Header에는 다음 정보가 포함됨:
