@@ -258,7 +258,6 @@ B+ 트리는 다음 조건을 만족하는 루트 트리입니다:
 3.	K<sub>i</sub> = V를 만족하는 가장 작은 i를 찾는다.
 4.	그런 값 i가 있다면, 포인터 Pi를 따라가 원하는 레코드를 찾는다.
 5.	그렇지 않으면, 검색 키 값 V를 가진 레코드는 존재하지 않는다.
-
 ## 효율성 비교
 •	K개의 검색 키가 있을 때, 트리 높이는 최대 ⌈log<sub>⌈B/2⌉</sub>(K)⌉
 •	일반적으로 노드 하나는 디스크 블록 크기와 같고, 보통 4KB
@@ -278,6 +277,8 @@ range_search: O(log<sub>B</sub>N + T/B)
 ![[Pasted image 20250527133631.png|500]]
 만약, secondary index라면, O(log<sub>B</sub>N + T) I/O's
 T scan시에 모두 다른 block에 존재할 수 있기 때문
+#### Q. 시간 복잡도를 구할 때, clustering index가 아니라는 가정으로 시간 복잡도를 계산하는 것이 맞나? + Range search 시간 복잡도가 O(log<sub>B<sub>index</sub></sub>N<sub>data</sub> + T/B<sub>index</sub>)가 맞나?
+
 ## B+ 트리의 갱신: 삽입
 1.	검색 키 값이 들어갈 리프 노드를 찾습니다.
 2.	해당 키 값이 이미 리프 노드에 있다면:
