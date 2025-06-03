@@ -58,6 +58,7 @@ where ID = 15151;
 •	Dense Index Files: 파일 내 모든 검색 키 값에 대해 index record가 존재
 	•	예: instructor 테이블의 ID 속성에 대한 인덱스
 Dense index— Index record appears for every search-key value in the file.
+=> 보통 secondary index에서만 dense index를 사용
 
 ![[Pasted image 20250513142754.png|300]]
 - dense index on dept_name with instructor file sorted on dept_name
