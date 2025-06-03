@@ -8,7 +8,6 @@
 	•	버퍼 관리자(Buffer Manager)
 ## Storage Hierarchy
 ![[Pasted image 20250501133759.png|400]]
-
 ## Physical Storage Media
 •	캐시(Cache): 가장 빠르고 가장 비용이 높은 저장 형태; 휘발성; 하드웨어에 의해 관리됨
 	접근 시간: 수 나노초 (10⁻⁹초)
