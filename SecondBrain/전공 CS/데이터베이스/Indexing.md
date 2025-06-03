@@ -169,6 +169,7 @@ Single-level index entry deletion
 	•	각 레코드 접근 시 디스크에서 블록을 새로 불러올 수 있음
 	•	디스크 접근 시간: 약 5~10밀리초, 메모리 접근 시간: 약 100나노초
 보조 인덱스를 이용한 순차 스캔: O(N<sub>data</sub>/B<sub>data</sub>log<sub>B<sub>data</sub></sub>N<sub>data</sub>/B<sub>data</sub>)
+#### Q 보조 인덱스를 이용한 순차 스캔이 왜 O(N/B log<sub>B</sub> N/B) 인가?
 그냥 순차 스캔: O(N<sub>data</sub>/B<sub>data</sub>)이므로
 ## B+ 트리 인덱스 파일
 B+ 트리는 *indexed-sequential files의 대안*입니다.
@@ -190,13 +191,14 @@ leaf node가 dense index인 예제
 모든 관계형 데이터베이스 시스템은 B+ 트리를 지원합니다.
 지원 DBMS 예:
 	•	IBM DB2, Informix, MS SQL, Oracle, Sybase, SQLite, MySQL, PostgreSQL, Tibero 등
-	다른 인덱스 유형도 지원하지만, **가장 널리 사용되는 인덱스는 B+ 트리와 그 변형(B-트리, B*-트리 등)** 입니다.
+	다른 인덱스 유형도 지원하지만, 가장 널리 사용되는 인덱스는 B+ 트리와 그 변형(B-트리, B*-트리 등) 입니다.
 거의 모든 파일 시스템도 B+ 트리를 사용합니다.
 	예: NTFS, EXT4, ReiserFS, NSS, XFS, JFS, ReFS, BFS 등
 ### DB에서 B+ Tree를 B Tree 대신 사용하는 이유
 모든 레코드가 리프 노드에만 저장되어 리프 노드에 데이터가 정렬된 상태로 모여 있어 범위 검색이나 순차 접근에 최적화됨.
 ## B+ Tree 노드 개수
 - root node: `[2, B]`
+	- root가 leaf: `[0, B-1]`
 - leaf node: 
 	- search keys ∈ `[⌈(B–1)/2⌉, B-1]`
 	- ptrs ∈ `[⌈(B–1)/2⌉ + 1, B]`
