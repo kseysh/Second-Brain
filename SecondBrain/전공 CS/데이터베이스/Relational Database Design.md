@@ -27,7 +27,7 @@ Armstrong의 공리:
 •	AG → I
 	•	A → C를 G로 확장하여 AG → CG를 얻고(확장성), CG → I의 추이성을 통해 유도됨
 •	CG → HI
-	•	CG → I를 확장하여 CGI → I를 얻고(확장성), CG → H도 확장하여 CGI → H를 얻은 후(확장성), 추이성을 통해 CGI → HI 유도됨
+	•	CG → I를 확장하여 CGI → I를 얻고(확장성), CG → H도 확장하여 CGI → HI를 얻은 후(확장성), 추이성을 통해 CGI → HI 유도됨
 
 ## F⁺ 계산 절차
 •	주어진 함수 종속성 집합 F의 클로저 F⁺를 계산하는 방법:
@@ -35,10 +35,12 @@ F⁺ = F
 ```c
 repeat
 	for each functional dependency f in F⁺
-		apply reflexivity and augmentation rules on f
+		apply reflexivity and augmentation rules on f 
+		// reflexivity, augmentation f에 적용하여 F⁺에 추가
 		add the resulting functional dependencies to F⁺
-	for each pair of functional dependencies f₁and f₂ in F⁺
-		if f₁and f₂ can be combined using transitivity
+	for each pair of functional dependencies f₁ and f₂ in F⁺
+		if f₁and f₂ can be combined using transitivity 
+		// f₁, f₂가 transitivity을 이용해 결합될 수 있다면 F⁺에 추가
 			then add the resulting functional dependency to F⁺
 until F⁺ does not change any further
 ```
@@ -47,7 +49,7 @@ until F⁺ does not change any further
 •	추가 규칙:
 •	α → β이고 α → γ이면, α → βγ이다 (union)
 •	α → βγ이면, α → β이고 α → γ이다 (decomposition)
-•	α → β이고 γβ → δ이면, αγ → δ이다 (pseudotransitivity)
+•	α → β이고 γβ → δ이면, αγ → δ이다 (pseudotransitivity) (확장성 + 추이성)
 
 위 규칙들은 Armstrong의 공리(Armstrong’s axioms)로부터 유도할 수 있다.
 ## 속성 집합 클로저 (Closure of Attribute Sets)
