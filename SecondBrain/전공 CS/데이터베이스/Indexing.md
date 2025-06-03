@@ -128,7 +128,7 @@ dense라면,O(log<sub>2</sub>(N<sub>data</sub>/B<sub>index</sub>))
 	outer index – a sparse index of primary index
 	inner index – the primary index file
 
-- 외부 인덱스도 메모리에 안 들어갈 경우, 더 상위 단계 인덱스를 생성 가능
+- outer index도 메모리에 안 들어갈 경우, 더 상위 단계 인덱스를 생성 가능
 - 삽입/삭제 시 모든 수준의 인덱스를 갱신해야 함
 
 ![[Pasted image 20250515140224.png|300]]
@@ -161,7 +161,7 @@ Single-level index entry deletion
 인덱스 레코드는 해당 검색 키 값을 가진 모든 실제 레코드에 대한 포인터들을 담고 있는 버킷(bucket)을 가리킨다.
 •	보조 인덱스는 dense 인덱스여야 한다.
 	sparse이면 1대1 대응이 되지 않기 때문
-## 기본 인덱스와 보조 인덱스
+## Primary and Secondary Indices
 •	인덱스는 레코드 검색 시 큰 이점을 제공
 •	단점: 인덱스를 업데이트해야 하므로 DB 수정 시 오버헤드 발생
 	•	파일이 수정될 때, 해당 파일의 모든 인덱스도 수정 필요
