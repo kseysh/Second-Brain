@@ -351,8 +351,8 @@ leaf node에서는 value를 기준으로 나누었지만, non-leaf node에서는
 ![[Pasted image 20250526163155.png|500]]
 삭제로 인해 리프 노드가 부족해 병합 발생 (non-leaf에서 Srinivasan->Mozart로 변경되는 과정 확인)
 1. leaf node에서 Srinivasan 삭제
-2. Wu만 남아서 최소 개수 충족하지 못함 => 옆에 자리가 있으니 병합
-3. non-leaf node에서도 Srinivasan이 삭제되어 최소 개수 충족하지 못함 => 옆에서 비
+2. Wu만 남아서 최소 개수 충족하지 못함 => 재분배 또는 병합 => 옆에 자리가 있으니 병합
+3. non-leaf node에서도 Srinivasan이 삭제되어 최소 개수 충족하지 못함 => 넘어감...
 ###### other example
 ![[Pasted image 20250526163245.png|500]]
 •	“Singh”와 “Wu” 삭제: 
