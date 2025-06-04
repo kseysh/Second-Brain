@@ -228,6 +228,7 @@ logical memory에는 다 메모리에 적재된 것으로 보이지만, 실제�
 ## FIFO 알고리즘 
 •	Reference string: 7, 0, 1, 2, 0, 3, 0, 4, 2, 3, 0, 3, 0, 3, 2, 1, 2, 0, 1, 7, 0, 1
 •	프레임 수: 3개 (프로세스당 최대 3개의 페이지 메모리에 존재 가능)
+page hit: 5 page fault 15, page fault rate: 75% 
 ![[Pasted image 20250602154110.png|300]]
 •	페이지의 나이를 어떻게 추적할까?
 	•	FIFO 큐 사용 
@@ -239,14 +240,16 @@ logical memory에는 다 메모리에 적재된 것으로 보이지만, 실제�
 •	가장 오랫동안 사용되지 않을 페이지 교체
 •	알고리즘의 성능 측정용 기준
 •	Reference string: 7, 0, 1, 2, 0, 3, 0, 4, 2, 3, 0, 3, 0, 3, 2, 1, 2, 0, 1, 7, 0, 1
-page hit 11, page fault 9
+page hit 11, page fault 9, page fault rate: 45%
 ![[Pasted image 20250602154205.png|400]]
 ## LRU (가장 오래전에 사용된 페이지 교체)
 •	과거 기록을 기반으로 함
 •	가장 오래전에 사용된 페이지를 교체
 •	Reference string: 7, 0, 1, 2, 0, 3, 0, 4, 2, 3, 0, 3, 0, 3, 2, 1, 2, 0, 1, 7, 0, 1
+page hit 8, page fault 12,  page fault rate: 60%
 ![[Pasted image 20250602154228.png|400]]
 •	일반적으로 좋은 알고리즘이며 자주 사용됨
+
 스택 알고리즘 (Stack Algorithm)
 	•	프레임 수 n일 때 메모리에 존재하는 페이지 집합은, n+1 프레임에서의 집합의 부분집합
 •	LRU와 OPT는 Belady의 역설이 없는 스택 알고리즘 사례
