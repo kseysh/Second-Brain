@@ -251,16 +251,16 @@ page hit 8, page fault 12,  page fault rate: 60%
 •	일반적으로 좋은 알고리즘이며 자주 사용됨
 
 스택 알고리즘 (Stack Algorithm)
-frame 개수가 n개일 때, 메모리에 존재하는 page set은 n+1  frame의 부분집합ㅇ
-	•	프레임 수 n일 때 메모리에 존재하는 페이지 집합은, n+1 프레임에서의 집합의 부분집합
-•	LRU와 OPT는 Belady의 역설이 없는 스택 알고리즘 사례
+LRU는 stack 알고리즘이므로 frame 개수가 n개일 때, 메모리에 존재하는 page set은 n+1 frame의 부분집합이다
+따라서 LRU와 OPT는 Belady의 역설이 없는 스택 알고리즘 사례이다.
+	
 •	하지만 구현은 어려움
 
 #### 구현 방법
 1.	카운터 방식
 	•	모든 page entry는 counter를 가짐
-	•	참조 시 시스템 시계(clock)를 기록
-	•	교체 시 가장 작은 값 선택
+	•	page가 참조될 때, counter에 시간을 기록한다.
+	•	교체 시 counter에 기록된 값이 가장 작은 값 선택
 		•	테이블 전체 탐색 필요 (교체 시 모든 entry clock check)
 		접근은 특정 entry clock update (페이지가 언제 접근되었는지 적어두는 과정은 O(1) 필요)
 2.	스택 방식
