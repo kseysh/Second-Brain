@@ -129,7 +129,9 @@ N개를 보내는 것이 아닌 logN개만 보내면 된다.
 - 비트코인과는 다르게, Turing-complete 한 기능 제공(예: 반복문을 이용한 특정 작업 반복 가능)
 - 비트코인의 트랜잭션 수수료와 같이, 프로그램의 실행에 대한 비용(gas) 지불해야 함
 - Consensus (합의) mechanism: PoW에서 2022년 Proof-of-stake (PoS)로 전환 (less energy consumption, higher security) – “The Merge”
-
+이더리움에서는 Pow가 아닌 자원소비 하지 않는 방식인 Proof-of-stake (PoS)를 사용한다.
+이더리움은 잔고 표시를 한다.
+final state를 다 저장하기에는 너무 커서 그건 따로 물리적 저장소에 저장한다.
 ### 하이퍼레저(Hyperledger)
 - 공개형 블록체인은 참여 노드가 많아질 수록 구조가 복잡하고 특히 PoW 방식의 경우 자원 낭비가 심하며, 거래 내역 및 데이터가 모두 공개되는 기밀성 문제가 있음
 - 허가받은 소수만 블록체인에 참여하는 허가형 블록체인(permissioned blockchain) 등장. 단, 참여자들 간에 대립되는 이해관계가 있고(신뢰할 수 없는 복수의 기관이 참여) 중앙화가 적절하지 않은 경우 적합함(완전한 탈중앙화는 아님)
