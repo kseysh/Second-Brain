@@ -100,7 +100,7 @@ CA로부터 인증서를 받아 검증하는 것이 아닌, 이미 모든 사람
 	- Maximum block size: 1MiB(=2^20 B), transaction 의 크기는 평균 수백 B 또는 수 KB
 - 따라서 block 당 transaction 은 수백~수천개
 - Block이 10분에 하나 정도 생성되므로, transaction throughput은 초당 10개 이하
-	- ➔ off-chain transactions
+	- ➔ off-chain transactions (시작과 끝만 기록하는 느낌)
 - Mining pool 집중 문제
 - Full node vs. thin client
 	- ➔ Merkle tree (다음페이지)
