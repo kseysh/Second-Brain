@@ -41,7 +41,7 @@ where ID = 15151;
 •	Primary index (기본 인덱스): 파일 자체가 정렬된 순서대로 저장되어 있으며, 이 순서를 결정하는 검색 키를 가진 인덱스 (*clustering index*라고도 함)
 	•	보통 기본 키가 검색 키지만, 반드시 그렇지는 않음
 •	*Secondary index* (보조 인덱스): 파일의 순서와는 다른 순서로 검색 키를 정렬한 인덱스 (non-clustering index라고도 함)
-•	*Index-sequential file*: 파일 자체는 특정 키 값 기준으로 정렬되어 있고, 그 키에 대한 인덱스가 존재하는 파일
+•	*Index-sequential file*: ordered sequential file with a primary index.
 예시: 	전화번호부: 이름순으로 정렬되어 있고, 이름 첫 글자별로 인덱스를 가진다면,
 •	A~C → 첫 페이지
 •	D~F → 중간 페이지
