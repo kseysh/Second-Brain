@@ -65,8 +65,8 @@ CA로부터 인증서를 받아 검증하는 것이 아닌, 이미 모든 사람
 먼저 만들어지는 블록이 승자가 됨
 ![[Pasted image 20250601004820.png|400]]
 ## Mining
-작업 증명 (proof of work: PoW)
-- SHA-256 수행
+작업 증명 (**proof of work**: PoW)
+- **SHA-256** 수행
 - 트랜잭션들과 이전 블록 hash 값은 정해져 있음
 - 이들과 nonce를 입력으로 했을 때의 해시 결과가 미리 정해진 특정 목표 범위 (=current target) 이내가 되게 하는 nonce 결정
 ![[Pasted image 20250601004904.png|300]]
@@ -130,14 +130,17 @@ N개를 보내는 것이 아닌 logN개만 보내면 된다.
 - 비트코인의 트랜잭션 수수료와 같이, 프로그램의 실행에 대한 비용(gas) 지불해야 함
 - Consensus (합의) mechanism: PoW에서 2022년 Proof-of-stake (PoS)로 전환 (less energy consumption, higher security) – “The Merge”
 이더리움에서는 Pow가 아닌 자원소비 하지 않는 방식인 Proof-of-stake (PoS)를 사용한다.
+- 자기가 돈 더내서 수익성을 올리는...? 방식
 이더리움은 잔고 표시를 한다.
 final state를 다 저장하기에는 너무 커서 그건 따로 물리적 저장소에 저장한다.
+Address에서 ECDSA public key에 Keccak을 사용해서 사용함
+
 ### 하이퍼레저(Hyperledger)
 - 공개형 블록체인은 참여 노드가 많아질 수록 구조가 복잡하고 특히 PoW 방식의 경우 자원 낭비가 심하며, 거래 내역 및 데이터가 모두 공개되는 기밀성 문제가 있음
 - 허가받은 소수만 블록체인에 참여하는 허가형 블록체인(permissioned blockchain) 등장. 단, 참여자들 간에 대립되는 이해관계가 있고(신뢰할 수 없는 복수의 기관이 참여) 중앙화가 적절하지 않은 경우 적합함(완전한 탈중앙화는 아님)
-- Hyperledger Fabric
+- **Hyperledger Fabric**
 	- Hyperledger 오픈 소스 프로젝트(Sawtooth, Besu, etc.)에 포함된 대표적인 플랫폼
-	- 대표적인 허가형 블록체인의 하나로, Linux 재단에서 시작하고 IBM 등의 기업에서 주도
+	- 대표적인 **허가형 블록체인**의 하나로, Linux 재단에서 시작하고 IBM 등의 기업에서 주도
 ### NFT
 - NFT (Non Fungible Token: 대체 불가 토큰)
 	- Blockchain에 기록된 metadata + ownership
