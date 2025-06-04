@@ -50,6 +50,8 @@ Step 8: 외부 키에 내부 해시 추가
 
 Step 9: 최종 HMAC 계산
 	•	H((K₀ ⊕ opad) || H((K₀ ⊕ ipad) || text))
+
+**Hash를 두 번 함**
 ## NIST의 FIPS 198-1 -> SP 800-224
 - NIST SP 800-224가 FIPS 198-1의 HMAC 사양을 그대로 포함하고 있다
 - SP 800-224가 또 다른 문서인 SP 800-107r1의 일부 요구사항도 통합하고 있다
@@ -67,6 +69,7 @@ Step 9: 최종 HMAC 계산
 		이렇게 하면 block을 추가할 수 없음
 ## Cipher-based MessageAuthentication Code (CMAC)
 ![[Pasted image 20250501204346.png|300]]
+CMAC: CBC 기반의 MAC에서 DAA 공격을 막기 위해 마지막 블록에 파생키를 XOR 연산한 것
 ## 인증된 암호화 (AE: Authenticated Encryption)
 •	통신의 기밀성과 무결성을 동시에 보호하는 암호 시스템을 지칭하는 용어
 •	접근 방식:
