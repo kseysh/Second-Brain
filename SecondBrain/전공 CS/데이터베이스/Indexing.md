@@ -198,7 +198,8 @@ leaf node가 dense index인 예제
 모든 레코드가 리프 노드에만 저장되어 리프 노드에 데이터가 정렬된 상태로 모여 있어 범위 검색이나 순차 접근에 최적화됨.
 ## B+ Tree 노드 개수
 - root node: `[2, B]`
-	- root가 leaf: `[0, B-1]`
+	- root가 leaf: 
+		- ptrs ∈ `[1, B]`
 - leaf node: 
 	- search keys ∈ `[⌈(B–1)/2⌉, B-1]`
 	- ptrs ∈ `[⌈(B–1)/2⌉ + 1, B]`
