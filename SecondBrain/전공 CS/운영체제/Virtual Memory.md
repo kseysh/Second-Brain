@@ -270,11 +270,13 @@ page hit 8, page fault 12,  page fault rate: 60%
 	교체 -> linked list tail 선택 (O(1))
 	접근 -> update가 비싸다 (O(1))
 #### stack implementation example
-![[Pasted image 20250602154355.png|200]]
+![[Pasted image 20250604213051.png|300]]
 ## LRU 근사 알고리즘 (LRU Approximations)
+간단한 clock 알고리즘이라고 생각하자
 •	기본 방식: 하드웨어 지원(reference bit) 사용
 	•	초기에는 참조 비트(reference bit) = 0
-	•	페이지에 접근하면 참조 비트 = 1
+	•	페이지에 접근하면 참조 비트 = 1 (최근에 접근되었다는 뜻)
+	•	주기적으로 모든 reference bit을 0으로 한다
 	•	참조 비트가 0인 페이지가 존재한다면, 그것 중 아무거나 교체함
 		•	그러나 접근된 순서를 알 수는 없음
 
