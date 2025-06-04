@@ -260,7 +260,8 @@ page hit 8, page fault 12,  page fault rate: 60%
 	•	각 페이지 항목에 카운터 부착
 	•	참조 시 시스템 시계(clock)를 기록
 	•	교체 시 가장 작은 값 선택
-		•	테이블 전체 탐색 필요
+		•	테이블 전체 탐색 필요 (교체 시 모든 entry clock check)
+		접근은 특정 entry clock update (O(1))
 2.	스택 방식
 	•	페이지 번호를 이중 연결 리스트 형태로 스택에 유지
 	•	참조된 페이지는 스택 맨 위로 이동
