@@ -101,11 +101,13 @@ CA로부터 인증서를 받아 검증하는 것이 아닌, 이미 모든 사람
 - 따라서 block 당 transaction 은 수백~수천개
 - Block이 10분에 하나 정도 생성되므로, transaction throughput은 초당 10개 이하
 	- ➔ off-chain transactions (시작과 끝만 기록하는 느낌)
-- Mining pool 집중 문제
+- Mining pool 집중 문제 (먼저 mining을 했음에도 불구하고 과반수가 이게 먼저야 라고 양으로 누르는 것)
 - Full node vs. thin client
 	- ➔ Merkle tree (다음페이지)
 ## Blockchain : Reclaiming Space using Merkle Tree
 ![[Pasted image 20250601005409.png|300]]
+TX3을 보낼 때, Hash2와 Hash01을 같이 보내면 Root Hash를 검증할 수 있어 Tx3를 신뢰할 수 있다.
+N개를 보내는 것이 아닌 logN개만 보내면 된다.
 ## Other blockchains
 - Review: 비트코인의 동작 원리
 	- 중앙의 관리자나 중재 서버 없이 peer-to-peer (P2P) 방식으로 거래하는, 탈중앙화된 가상자산(암호화폐)
