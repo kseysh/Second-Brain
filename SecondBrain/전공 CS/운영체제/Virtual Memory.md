@@ -257,16 +257,18 @@ page hit 8, page fault 12,  page fault rate: 60%
 
 #### 구현 방법
 1.	카운터 방식
-	•	각 페이지 항목에 카운터 부착
+	•	모든 page entry는 counter를 가짐
 	•	참조 시 시스템 시계(clock)를 기록
 	•	교체 시 가장 작은 값 선택
 		•	테이블 전체 탐색 필요 (교체 시 모든 entry clock check)
-		접근은 특정 entry clock update (O(1))
+		접근은 특정 entry clock update (페이지가 언제 접근되었는지 적어두는 과정은 O(1) 필요)
 2.	스택 방식
 	•	페이지 번호를 이중 연결 리스트 형태로 스택에 유지
 	•	참조된 페이지는 스택 맨 위로 이동
 	•	최대 6개의 포인터 변경 필요
 	•	업데이트 비용이 큼, 그러나 교체 시 탐색 필요 없음
+	교체 -> linked list tail 선택 (O(1))
+	접근 -> update가 비싸다 (O(1))
 #### stack implementation example
 ![[Pasted image 20250602154355.png|200]]
 ## LRU 근사 알고리즘 (LRU Approximations)
