@@ -273,7 +273,6 @@ LRU는 stack 알고리즘이므로 frame 개수가 n개일 때, 메모리에 존
 linked list 방법임
 ![[Pasted image 20250604213051.png|300]]
 ## LRU 근사 알고리즘 (LRU Approximations)
-간단한 clock 알고리즘이라고 생각하자
 •	기본 방식: 하드웨어 지원(reference bit) 사용
 	•	초기에는 참조 비트(reference bit) = 0
 	•	페이지에 접근하면 참조 비트 = 1 (최근에 접근되었다는 뜻)
@@ -286,15 +285,16 @@ linked list 방법임
 • Enhanced Clock Algorithm
 • Counting-Based Algorithm
 ## LRU 근사 기법: 추가 참조 비트 (Additional-Reference Bits)
-•	각 페이지는 참조 비트(reference bit)와 8비트 레지스터를 가짐
+•	각 페이지는 참조 비트(reference bit)와 8비트 레지스터를 가짐 (1byte를 더 두자)
 	•	이 8비트 레지스터는 “참조 바이트(reference byte)”라고 불림
-•	일정한 간격마다, (R-bit, R-byte)를 오른쪽으로 시프트
+•	일정한 간격마다, (R-bit, R-byte)를 오른쪽으로 시프트 
+•	접근시 가장 왼쪽 값을 1로 쓴다. (따라서 왼쪽이 가장 최근 history가 됨)
 •	레지스터 값이 가장 작은 페이지가 LRU 페이지로 간주됨
 장점:
-	•	모든 메모리 접근에 대해 오버헤드를 발생시키지 않음
+	•	모든 메모리 접근에 대해 오버헤드를 발생시키지 않음 (접근은 O(1))
 	•	인터벌(주기) 속도를 구성할 수 있음
 단점:
-	•	모든 페이지 프레임을 스캔해야 하므로 여전히 비효율적일 수 있음
+	•	모든 페이지 프레임을 스캔해야 하므로 여전히 비효율적일 수 있음 (교체가 O(n))
 	•	예: 4GB 메모리, 4KB 페이지 → 100만 개의 페이지 프레임
 ## LRU 근사 기법: 세컨드 찬스 알고리즘 (Second-Chance Algorithm)
 •	클럭 알고리즘(clock algorithm)이라고도 불림
