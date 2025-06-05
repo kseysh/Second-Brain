@@ -59,3 +59,6 @@ v7도 이미 연결되어 있으므로 pass
 •	음수 간선이 없으면 Dijkstra 알고리즘을 n번 호출 가능 → 시간 복잡도 O(nm log n)
 •	Floyd-Warshall 알고리즘처럼 동적 프로그래밍을 사용하면 → O(n³) 시간 복잡도 달성 가능
 ![[Pasted image 20250521170012.png|300]]
+
+**앞에거랑 어떤 차이가 있는지**
+**Complexity 알아두기**

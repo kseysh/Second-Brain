@@ -46,3 +46,4 @@ A<sub>i</sub>…A<sub>k</sub>와 A<sub>k+1</sub>…A<sub>j</sub> 각각도 최�
 `m[1][4]`를 계산하기 위해서 n-1개의 case가 있었음 
 하나의 cell을 계산하기위해 O(log n) time이 걸렸고, 계산해야 하는 cell은 O(n<sup>2</sup>)이므로 총 O(n<sup>3</sup>) time에 수행된다.
 ![[Pasted image 20250521173008.png|300]]
+**이건 했던대로 공부,, 중요한 파트**
