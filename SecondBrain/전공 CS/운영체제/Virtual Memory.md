@@ -266,11 +266,11 @@ LRU는 stack 알고리즘이므로 frame 개수가 n개일 때, 메모리에 존
 2.	스택 방식
 	•	페이지 번호를 이중 연결 리스트 형태로 스택에 유지
 	•	참조된 페이지는 스택 맨 위로 이동
-	•	최대 6개의 포인터 변경 필요
 	•	업데이트 비용이 큼, 그러나 교체 시 탐색 필요 없음
 	교체 -> linked list tail 선택 (O(1))
-	접근 -> update가 비싸다 (O(1))
+	접근 -> update가 비싸다 (최대 6개의 포인터 변경)
 #### stack implementation example
+linked list 방법임
 ![[Pasted image 20250604213051.png|300]]
 ## LRU 근사 알고리즘 (LRU Approximations)
 간단한 clock 알고리즘이라고 생각하자
