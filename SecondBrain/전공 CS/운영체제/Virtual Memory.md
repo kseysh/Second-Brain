@@ -410,7 +410,7 @@ Demand Paging이 작동하는 이유?
 •	커널 메모리를 할당하는 대표적인 방법들:
 	•	버디 시스템 할당자(Buddy system allocator)
 	•	슬랩 할당자(Slab allocator)
-## 버디 시스템 할당자 (Buddy System Allocator) (1)
+## Buddy System Allocator
 •	물리적으로 연속된 페이지들로 구성된 고정 크기 세그먼트에서 메모리 할당
 •	2의 거듭제곱 크기(power-of-2) 할당자를 사용해 메모리 할당
 	•	요청은 2의 거듭제곱 단위로 처리됨
@@ -420,7 +420,7 @@ Demand Paging이 작동하는 이유?
 •	장점: 사용되지 않는 청크를 빠르게 병합(coalesce)하여 큰 청크로 만들 수 있음
 •	단점: 단편화(fragmentation) 발생 가능성 (내부 단편화)
 ![[Pasted image 20250602155251.png|300]]
-## 슬랩 할당자 (Slab Allocator) (1)
+## Slab Allocator
 •	슬랩(slab)은 하나 이상의 물리적으로 연속된 페이지로 구성됨
 •	캐시(cache)는 하나 이상의 슬랩으로 구성됨
 •	커널의 각 고유 데이터 구조체마다 하나의 캐시 존재
@@ -433,4 +433,4 @@ Demand Paging이 작동하는 이유?
 	•	장점:
 	•	단편화 없음
 	•	빠른 메모리 요청 처리 가능
-![[Pasted image 20250602155344.png|300]]
+![[Pasted image 20250602155344.png|400]]
