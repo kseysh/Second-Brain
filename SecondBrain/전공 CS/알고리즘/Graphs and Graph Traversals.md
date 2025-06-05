@@ -24,6 +24,8 @@
 	•	W는 E에서 실수 집합 R로 가는 함수
 	•	간선 e에 대해, W(e)는 e의 가중치(weight)라고 함
 ![[Pasted image 20250501154003.png|300]]
+
+**그래프 정의** 중요
 ## 그래프 표현 방법 (Graph Representations)
 G = (V, E), n = |V|, m = |E|, V = {v₁, v₂, …, vₙ}
 •	인접 행렬 표현(Adjacency matrix representation): n × n 행렬
@@ -31,6 +33,7 @@ G = (V, E), n = |V|, m = |E|, V = {v₁, v₂, …, vₙ}
 #### example
 ![[Pasted image 20250501154034.png|400]]
 ![[Pasted image 20250501154055.png|400]]
+**그래프 표현 나옴**
 ## 추가 정의 (More Definitions)
 - 부분 그래프 (Subgraph)
 	- 어떤 그래프 G의 정점들과 간선의 일부만을 포함하여 만든 그래프
@@ -63,6 +66,7 @@ G = (V, E), n = |V|, m = |E|, V = {v₁, v₂, …, vₙ}
 	- root가 있는 free tree
 - 연결 성분 (Connected component)
 	- 무방향 그래프에서 서로 도달 가능한 정점들만으로 구성된 최대 부분 그래프
+**용어 암기 X**
 ## 그래프 순회 (Traversing Graphs)
 그래프 문제 해결을 위한 대부분의 알고리즘은 각 정점과 간선을 검사하거나 처리함.
 너비 우선 탐색(BFS)과 깊이 우선 탐색(DFS)은 모든 정점과 간선을 한 번씩 “방문”하는 효율적인 순회 전략임
@@ -97,3 +101,6 @@ G = (V, E), n = |V|, m = |E|, V = {v₁, v₂, …, vₙ}
 •	정점 E에서 시작, d = 0
 	•	G 방문 → d = 1
 ![[Pasted image 20250501154545.png|400]]
+**DFS, BFS 구현**
+DFS, BFS 알고리즘 채우거나 강경합성분 성분 나올 수 있음
+[[Strongly Connected Components]] 정의

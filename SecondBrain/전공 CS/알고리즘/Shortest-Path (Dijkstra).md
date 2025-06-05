@@ -14,6 +14,7 @@
 ## Dijkstra's Shortest-Path Algorithm
 Weight는 음수가 아님
 ![[Pasted image 20250512153135.png|400]]
+**빵꾸 메우기**
 1. 모든 정점을 unseen으로 초기화
 2. 시작 정점 s를 tree로 지정하고, d(s, s) = 0
 3. s와 인접한 정점들을 fringe로 재분류
@@ -25,6 +26,7 @@ Weight는 음수가 아님
 ![[Pasted image 20250512153145.png|400]]
 A에서 목적지 어딘가로 가는 shortest path를 찾고자 하는 문제임
 ## 정당성 (Correctness)
+**나올 가능...성만 있음**
 ### 정리
 - G=(V,E,W)가 가중치가 모두 0 이상인 그래프라고 하자.
 - V’는 V의 부분 집합이며, s는 V’에 포함된 정점이다.
