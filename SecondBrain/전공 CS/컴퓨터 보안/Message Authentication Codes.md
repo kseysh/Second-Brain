@@ -51,6 +51,7 @@ Step 8: 외부 키에 내부 해시 추가
 
 Step 9: 최종 HMAC 계산
 	•	H((K₀ ⊕ opad) || H((K₀ ⊕ ipad) || text))
+K0: Block size와 길이가 같은 key 길면 Hash로 압축, 작으면 0추가
 K0랑 ipad xor, K0랑 opad xor text를 concat and hash
 
 **Hash를 두 번 함**
@@ -65,13 +66,10 @@ K0랑 ipad xor, K0랑 opad xor text를 concat and hash
 	•	MAC(K, X) = T이면, MAC(X || (X ⊕ T)) = T도 성립함
 	![[Pasted image 20250501204253.png|100]]
 •	개선: CMAC
-	•	마지막 블록에 대해 파생 키(K1 또는 K2)를 한 번 더 XOR 연산
-•	또 다른 개선:
-	•	입력에 메시지 길이를 인코딩하여 포함
-		이렇게 하면 block을 추가할 수 없음
+	•	마지막 블록에 대해 파생 키(K1 또는 K2)를 한 번 더 XOR 연산하거나 입력에 메시지 길이를 인코딩하여 포함한다
 ## Cipher-based MessageAuthentication Code (CMAC)
 ![[Pasted image 20250501204346.png|300]]
-CMAC: CBC 기반의 MAC에서 DAA 공격을 막기 위해 마지막 블록에 파생키를 XOR 연산한 것
+CMAC: CBC 기반의 MAC에서 DAA 공격을 막기 위해 마지막 블록에 대해 파생 키(K1 또는 K2)를 한 번 더 XOR 연산하거나 입력에 메시지 길이를 인코딩하여 포함한 것
 ## 인증된 암호화 (AE: Authenticated Encryption)
 •	통신의 기밀성과 무결성을 동시에 보호하는 암호 시스템을 지칭하는 용어
 •	접근 방식:
@@ -82,15 +80,15 @@ CMAC: CBC 기반의 MAC에서 DAA 공격을 막기 위해 마지막 블록에 �
 ## Counter + CBC-MAC (CCM)
 => Encrypt는 counter mode로 하고, Authentication는 CBC-MAC을 사용하겠다는 의미
 •	NIST는 IEEE 802.11 WiFi의 보안 요구사항을 지원하기 위해 CCM을 표준화함.
-•	인증된 암호화를 위한 ~~Encrypt-and-MAC~~ 방식의 변형
-	•	Encrypt-and-MAC 대신 사용된 방식: 인증(MAC) 후 암호화 (Authenticate then Encrypt)
+Authenticate then Encrypt 방식
 	•	NIST SP 800-38C, IETF RFC 3610에 정의됨
 •	주요 알고리즘 구성 요소:
 	•	AES 암호화 알고리즘
 	•	CTR mode of operation
-	•	~~CMAC~~ 인증 알고리즘 
-		→ 실제로는 CBC-MAC (암호화된 평문 포함, 메시지 길이 값 포함) 사용
+		→ CBC-MAC (암호화된 평문 포함, 메시지 길이 값 포함) 사용
 •	단일 키 K가 암호화 및 MAC 알고리즘 모두에 사용됨
+
+HMAC은 IP, CCM은 wifi
 ## Counter with CBC-MAC (CCM)
 ![[Pasted image 20250501204625.png|400]]
 위 부분: 인증하기 위한 tag를 생성하는 부분
