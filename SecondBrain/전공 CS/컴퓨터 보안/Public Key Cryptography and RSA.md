@@ -200,10 +200,10 @@ def exp(a, b, n):
 	•	Mathematical attacks: 두 소수의 곱을 인수분해
 	•	Chosen ciphertext attacks (CCA): RSA의 동형성 속성 악용
 	•	Implementation attacks: 
-	•	side-channel
-		예: 시간 분석, 전력 분석
-	•	Hardware fault-based attack
-		•	복호화 또는 서명 중인 프로세서에 인위적 오류 유도
+		•	side-channel
+			예: 시간 분석, 전력 분석
+		•	Hardware fault-based attack
+			•	복호화 또는 서명 중인 프로세서에 인위적 오류 유도
 ## Factoring Problem
 ![[Pasted image 20250508153122.png|300]]
 •	RSA 공격을 위한 수학적 접근 3가지:
