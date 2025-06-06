@@ -58,6 +58,8 @@ a: q의 primitive root
 Y<sub>A</sub> = α<sup>X<sub>A</sub></sup> mod q
 PU: {q, α, Y<sub>A</sub>}
 PR: X<sub>A</sub>
+
+key generation까지는 똑같은데, 암호화, 복호화가 다름
 ###### ElGamal Cryptosystem의 Encryption 과정
 세션 키 K 계산: K = (Y<sub>A</sub>)<sup>k</sup> mod q
 C1 (세션 키 계산 용) 계산 : α<sup>k</sup> mod q
