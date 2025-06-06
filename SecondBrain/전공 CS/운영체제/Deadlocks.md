@@ -147,7 +147,6 @@ New request from P0 (0,2,0)
 
 - Snapshot at time T1
 ![[Pasted image 20250513172347.png|400]]
-한 번 더 New request from P0 (0,2,0)
 safe sequence < P1, P3, P0 ... >
 #### Pseudo code
 • Resource-Request Algorithm for Process Pᵢ
