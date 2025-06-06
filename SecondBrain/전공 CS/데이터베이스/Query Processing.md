@@ -89,8 +89,6 @@ A6 (secondary index, comparison)
 • M > N이라면 메모리에 적합하므로, 퀵소트 같은 기술 사용 가능
 • 그렇지 않은 경우, 외부 병합 정렬(external merge sort)이 적합
 ## 외부 병합 정렬(External Merge Sort)
-→ 런 수 = O(N/M)
-M/B는 블록 단위로 본 메모리 크기라 하자.
 1.	정렬 런(run) 생성. i = 0부터 시작 Cost: O(N/B)
 	반복:
 		(a) M/B 블록을 읽어 메모리에 적재
