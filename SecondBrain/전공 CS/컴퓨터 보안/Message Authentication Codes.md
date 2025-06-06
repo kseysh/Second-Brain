@@ -11,11 +11,12 @@
 K1으로 메시지 M에 대해 MAC을 생성 K2로 M과 MAC을 Encrypt -> 인증, 기밀성 충족
 3번째 방법:
 K2로 M Encrpt, K1으로 암호문 E(K2, M)에 대해 MAC 생성
+그냥 메시지에다가 MAC 생성할 수도 있고 암호문에다가 MAC 생성할 수도 있음
 ## Hash function based MAC: HMAC
 •	Motivations:
 	•	MD5, SHA 같은 암호화 해시 함수는 DES와 같은 대칭 블록 암호보다 소프트웨어에서 일반적으로 더 빠르게 실행됨
 	•	암호화 해시 함수용 라이브러리 코드가 널리 사용 가능함
-•	HMAC은 IP 보안을 위한 필수 구현 MAC으로 채택됨
+•	HMAC은 **IP 보안을 위한 필수 구현 MAC**으로 채택됨
 •	NIST 표준(FIPS 198-1)으로도 제정됨
 ## MAC Based on Hash Functions: HMAC
 B: block size
@@ -50,6 +51,7 @@ Step 8: 외부 키에 내부 해시 추가
 
 Step 9: 최종 HMAC 계산
 	•	H((K₀ ⊕ opad) || H((K₀ ⊕ ipad) || text))
+K0랑 ipad xor, K0랑 opad xor text를 concat and hash
 
 **Hash를 두 번 함**
 ## NIST의 FIPS 198-1 -> SP 800-224
