@@ -46,6 +46,7 @@ RSA의 경우, 영구적인 개인 키를 사용하기 때문에, cipher text �
 원래라면, Alice와 Bob은 서로 같은 Key를 가져야 하는데, Darth가 중간에 각각 Y<sub>A</sub>와 Y<sub>B</sub>를 가로채 K1과 K2를 만들어 Alice, Bob과 통신하게 된다. Alice는 Bob도 K2를 알 것이라 생각하고, Bob은 Alice도 K1을 알 것이라 생각하기 때문에 서로 안전하게 통신하고 있다고 착각할 수 있다.
 => 이 문제는 공개키 인증서가 이를 해결해줄 수 있다.
 ## The ElGamal Cryptosystem
+**ElGamal -> 암호화 방식이며 전자 서명 가능**
 •	1984년 T. Elgamal이 발표
 •	이산 로그 문제에 기반한 공개키 방식
 •	디피-헬만과 밀접한 관련 있음
