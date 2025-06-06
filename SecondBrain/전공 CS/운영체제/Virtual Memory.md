@@ -141,7 +141,7 @@ logical memory에는 다 메모리에 적재된 것으로 보이지만, 실제�
 	•	p = 1: 모든 접근이 페이지 폴트 발생
 •	유효 접근 시간 (Effective Access Time, EAT)
 	•	EAT = (1 - p) * memory access time + p * (page fault overhead + swap page out + swap page in)
-수식을 막 외울 필요는 X
+**page fault가 일어난 경우 메모리 접근을 하지 않음!! (page table만 접근함)**
 #### 예시
 •	메모리 접근 시간 = 100ns
 •	평균 페이지 폴트 처리 시간 = 8ms (페이지 폴트 오버헤드 + 스왑 시간)
@@ -155,7 +155,7 @@ logical memory에는 다 메모리에 적재된 것으로 보이지만, 실제�
 	→ 약 80만 번의 메모리 접근당 1번만 페이지 폴트가 발생해야 함
 그냥 page fault는 이정도로 영향이 크다 정도로 생각하면 된다.
 # Page selection
-수요 페이징의 핵심 이슈
+Demand paging의 핵심 이슈
 • 페이지 선택
 	• 언제 어떤 페이지를 메모리에 가져올 것인가?
 • 페이지 교체
