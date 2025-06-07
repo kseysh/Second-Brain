@@ -115,6 +115,7 @@ CNF-SAT: SAT 문제를 표준화된 형태로 바꾼 것
 ![[Pasted image 20250521181114.png|150]]
 - VERTEX-COVER는 NP에 속함: 크기 K의 W를 비결정론적으로 선택 후 모든 간선이 W에 의해 커버되는지 확인
 - VERTEX-COVER는 3SAT로부터의 환원으로 NP-완전
+- 
 ## TSP가 NP에 속하는가
 TSP 결정 문제가 NP에 속함을 보이기 위해서는 주어진 해가 검증 가능함을 보여야 한다. 이때 해(certificate)로는 비용이 K 이하인 한 순회 경로를 제시할 수 있다.
 	•	이 경로는 각 정점을 정확히 한 번씩 포함하며, 시작점으로 되돌아오는 사이클이다.
@@ -142,11 +143,9 @@ Q가 NP-Hard임을 보이기 위해, 유향 Hamiltonian-Cycle 결정 문제(P)�
 •	유향 간선 (v → w)이 존재하면, 무향 간선 (v<sub>out</sub> - w<sub>in</sub>)을 G′에 추가한다.
 
 타당성 증명:
-- G에 유향 Hamiltonian Cycle이 있다면, G′에도 대응되는 무향 순회가 존재한다
-	- 
-	•	(⇒ 방향) G에 유향 Hamiltonian-Cycle이 존재하면, G′에는 그에 대응하는 무향 순회 C′가 존재함을 보일 수 있다. 이 C′는 각 정점의 vin, v, vout을 순서대로 방문하며, 유향 간선을 무향 간선 (vout - win)으로 표현한다.
-	•	(⇐ 방향) G′에 Hamiltonian-Cycle C′가 존재한다면, 그 구조를 따라 원래 유향 그래프 G에서의 유효한 Hamiltonian-Cycle을 재구성할 수 있다. G′에서 vout 다음에 win이 등장하면 이는 G에서 (v → w) 간선이 있었음을 의미하므로 경로가 존재한다.
+- G에 유향 Hamiltonian Cycle C가 있다면, G′에도 대응되는 무향 순회 C'가 존재한다
+	- C'은 각 정점의 v<sub>in</sub>, v, v<sub>out</sub>을 순서대로 방문하며, 유향 간선을 무향 간선 (v<sub>out</sub> - w<sub>in</sub>)으로 표현한다.
+- G′에 무향 Hamiltonian Cycle이 있다면, 그것은 G의 유향 Hamiltonian Cycle에 정확히 대응된다
+	- G′에서 v<sub>out</sub> 다음에 w<sub>in</sub>이 등장하면 이는 G에서 (v → w) 간선이 있었음을 의미하므로 경로가 존재한다.
 
-이 변환은 다항 시간에 수행 가능하므로 
-
-따라서 G에 유향 Hamiltonian-Cycle이 존재하는지 여부는 G′에 무향 Hamiltonian-Cycle이 존재하는지 여부와 동치이다. 이로써 P ≤p Q가 성립한다.
+이 변환은 다항 시간에 수행 가능하므로 유향 HC ≤p 무향 HC이고, 따라서 무향 HC 문제는 NP-Hard이다
