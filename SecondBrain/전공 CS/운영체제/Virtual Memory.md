@@ -235,7 +235,7 @@ page hit: 5 page fault 15, page fault rate: 75%
 #### Belady의 역설 (Belady’s Anomaly)
 •	프레임 수를 늘리면 오히려 페이지 폴트가 증가할 수 있음
 •	예: 1, 2, 3, 4, 1, 2, 5, 1, 2, 3, 4, 5
-![[Pasted image 20250602154141.png|300]]
+![[Pasted image 20250607145901.png|300]]
 ## OPT (Optimal) 알고리즘
 •	가장 오랫동안 사용되지 않을 페이지 교체
 •	알고리즘의 성능 측정용 기준
