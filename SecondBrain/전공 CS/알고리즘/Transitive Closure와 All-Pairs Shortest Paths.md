@@ -55,6 +55,8 @@ v6는 이미 연결되어 있으므로 pass
 v7도 이미 연결되어 있으므로 pass
 ## 모든 정점 쌍 간 최단 거리 (All-Pairs Shortest Paths)
 ![[Pasted image 20250521165848.png|300]]
+=> Floyd-Warshall 알고리즘 계열이지만, 모든 정점 간 최단 거리를 구하는 알고리즘
+
 가중 방향 그래프 G에서 모든 정점 쌍 사이의 거리를 구한다.
 •	음수 간선이 없으면 Dijkstra 알고리즘을 n번 호출 가능 → 시간 복잡도 O(nm log n)
 •	Floyd-Warshall 알고리즘처럼 동적 프로그래밍을 사용하면 → O(n³) 시간 복잡도 달성 가능
