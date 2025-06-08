@@ -101,7 +101,7 @@ end
 •	R을 R₁과 R₂로 분해했을 때 다음 중 하나라도 F⁺에 포함되면 Lossless-join Decomposition이다:
 	•	R₁ ∩ R₂ → R₁
 	•	R₁ ∩ R₂ → R₂
-•	즉, R₁ ∩ R₂가 R₁ 또는 R₂의 슈퍼키이면 Lossless-join Decomposition가 된다.
+•	즉, **R₁ ∩ R₂가 R₁ 또는 R₂의 슈퍼키이면 Lossless-join Decomposition**가 된다.
 #### 예제
 •	R = (A, B, C)
 •	F = {A → B, B → C}
