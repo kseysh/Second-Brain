@@ -20,7 +20,7 @@
 **알고리즘 얘기 안함**
 우리의 prim 알고리즘에서는 정점과 가중치의 쌍을 우선순위 큐에 저장한다. ()
 tree: 현재까지 구성된 최소 신장 트리에 포함된 정점.
-unseen: - 아직 최소 신장 트리(MST) 구축에 고려되지 않은 정점
+unseen: 아직 최소 신장 트리(MST) 구축에 고려되지 않은 정점
 fringe: 이미 tree에 포함된 정점들과 인접해 있고, 아직 tree에는 포함되지 않은 정점.
 ### 시간 복잡도 분석
 ![[Pasted image 20250530173638.png|500]]
@@ -32,9 +32,6 @@ fringe: 이미 tree에 포함된 정점들과 인접해 있고, 아직 tree에�
 이 때 가장 작은 정점을 찾는 연산이 (  )이고, 삭제하는 연산이 (  )이고, 삽입 연산이 (  )이고, key 값을 감소시키는 연산이 (  )이므로 총 연산은 (  )이다.
 
 프림 알고리즘의 시간 복잡도 T(n, m) = O(n x (T(getMin) + T(deleteMin) + T(insert)) + m x T(decreaseKey))이므로
-
-unsorted array 사용 시: 
-최솟 값 가져오는 연산: O(n) (최악의 경우, 모든 )
 ### Kruskal’s Algorithm: Outline
 ![[Pasted image 20250512152334.png|400]]
 R은 남은 edges, F는 결과인 forest edges
