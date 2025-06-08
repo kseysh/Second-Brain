@@ -169,8 +169,6 @@ Single-level index entry deletion
 	•	각 레코드 접근 시 디스크에서 블록을 새로 불러올 수 있음
 	•	디스크 접근 시간: 약 5~10밀리초, 메모리 접근 시간: 약 100나노초
 보조 인덱스를 이용한 순차 스캔: O(N<sub>data</sub>/B<sub>data</sub>log<sub>B<sub>data</sub></sub>N<sub>data</sub>/B<sub>data</sub>)
-#### Q 보조 인덱스를 이용한 순차 스캔이 왜 O(N/B log<sub>B</sub> N/B) 인가?
-그냥 순차 스캔: O(N<sub>data</sub>/B<sub>data</sub>)이므로
 ## B+ 트리 인덱스 파일
 B+ 트리는 *indexed-sequential files의 대안*입니다.
 인덱스 순차 파일의 단점:
@@ -200,7 +198,7 @@ leaf node가 dense index인 예제
 - root node: `[2, B]`
 	- root가 leaf: 
 		- ptrs ∈ `[1, B]`
-- leaf node: 
+- leaf node: (포인터가 귀찮게 생김)
 	- search keys ∈ `[⌈(B–1)/2⌉, B-1]`
 	- ptrs ∈ `[⌈(B–1)/2⌉ + 1, B]`
 - non-leaf node: 
@@ -278,8 +276,6 @@ range_search: O(log<sub>B</sub>N + T/B)
 ![[Pasted image 20250527133631.png|500]]
 만약, secondary index라면, O(log<sub>B</sub>N + T) I/O's
 T scan시에 모두 다른 block에 존재할 수 있기 때문
-#### Q. 시간 복잡도를 구할 때, clustering index가 아니라는 가정으로 시간 복잡도를 계산하는 것이 맞나? + Range search 시간 복잡도가 O(log<sub>B<sub>index</sub></sub>N<sub>data</sub> + T/B<sub>index</sub>)가 맞나?
-
 ## B+ 트리의 갱신: 삽입
 1.	검색 키 값이 들어갈 리프 노드를 찾습니다.
 2.	해당 키 값이 이미 리프 노드에 있다면:
