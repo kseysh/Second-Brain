@@ -92,7 +92,7 @@ dept_name인 Comp. Sci를 알고 싶다면, dept_name은 세 번째 필드이므
 null bitmap은 fixed length와 variable length사이에 넣어둔다.  (0000은 4개가 null이 아니라는 뜻)
 ## 가변 길이 레코드 - Slotted Page Structure
 ![[Pasted image 20250508133432.png|400]]
-•	Slotted Page Header에는 다음 정보가 포함됨:
+•	**Slotted Page Header**에는 다음 정보가 포함됨:
 	•	레코드 항목 수
 	•	블록 내 자유 공간 끝 위치
 	•	각 레코드의 위치와 크기
