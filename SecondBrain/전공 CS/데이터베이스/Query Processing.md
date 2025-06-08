@@ -48,7 +48,7 @@ A3 (primary B+ tree index, equality on non-key)
 	•	T = 검색 키 값을 가진 레코드 수 (연속된 공간에 위치해 있으므로 Block 단위로 가져오면 T/B)
 	•	I/O 비용 = O(log<sub>B</sub> N + T/B)
 ## 보조 인덱스를 사용하는 선택
-A4 (secondary index, equality on nonkey)
+A4 (secondary index, equality on non-key)
 	•	검색 키가 후보 키일 경우: <u>단일 레코드</u> 검색
 		• I/O 비용 = O(logB N)
 	•	검색 키가 후보 키가 아닐 경우: <u>다수 레코드</u> 검색
