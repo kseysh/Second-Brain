@@ -3,7 +3,7 @@
 #### example
 A → B, B → C가 주어지면, A → C를 유도할 수 있다.
 •	이렇게 유도된 모든 함수적 종속성의 집합을 F의 폐쇄, 즉 F<sup>+</sup>라고 한다
-## 함수적 종속성의 폐쇄 (Closure of Functional Dependencies)
+## Closure of Functional Dependencies
 •	우리는 Armstrong의 공리를 반복적으로 적용하여 F의 폐쇄 F⁺를 구할 수 있다:
 
 Armstrong의 공리:
@@ -45,7 +45,7 @@ repeat
 until F⁺ does not change any further
 ```
 
-## 함수 종속성 클로저 (Closure of Functional Dependencies)
+## Closure of Functional Dependencies
 •	추가 규칙:
 •	α → β이고 α → γ이면, α → βγ이다 (union)
 •	α → βγ이면, α → β이고 α → γ이다 (decomposition)
