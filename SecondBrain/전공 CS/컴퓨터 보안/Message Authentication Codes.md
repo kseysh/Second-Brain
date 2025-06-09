@@ -58,7 +58,7 @@ K0랑 ipad xor, K0랑 opad xor text를 concat and hash
 ## NIST의 FIPS 198-1 -> SP 800-224
 - NIST SP 800-224가 FIPS 198-1의 HMAC 사양을 그대로 포함하고 있다
 - SP 800-224가 또 다른 문서인 SP 800-107r1의 일부 요구사항도 통합하고 있다
-- SP 800-224의 최종 버전이 발표되는 시점에 FIPS 198-1이 공식적으로 철회될 예정
+- **SP 800-224의 최종 버전이 발표되는 시점에 FIPS 198-1이 공식적으로 철회**될 예정
 ## Data Authentication Algorithm
 ![[Pasted image 20250501204139.png|300]]
 ## Cipher-based MAC: CMAC
