@@ -87,7 +87,7 @@ page table도 physical memory 어딘가에 있다
 • 𝛼: TLB 적중률 (0 ≤ 𝛼 ≤ 1)
 TLB 적중시 TLB 접근, 메모리 접근(page table)
 TLB MISS시 TLB 접근, 메모리 접근(page table)하고 추가적으로 메모리 접근
-**TLB hit라도, page table을 접근해야 한다는 사실 꼭 기억!**
+**TLB hit라도, frame의 데이터를 얻기 위해 메모리를 접근해야 한다는 사실 꼭 기억!**
 #### Example
 • 𝛼 = 80%, 𝑡𝑇 = 5ns, 𝑡𝑀 = 100ns → EAT = 125ns
 • 𝛼 = 99%, 𝑡𝑇 = 5ns, 𝑡𝑀 = 100ns → EAT = 106ns
