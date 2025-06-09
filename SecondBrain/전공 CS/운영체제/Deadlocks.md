@@ -212,7 +212,7 @@ Banker's Algorithm과 다른 점은 MAX값을 모른다는 것이 가장 큰 차
 5 Processes: P0, P1, P2, P3, P4
 3 resources: A(7 instance), B(2 instance), C(6 instance)
 ![[Pasted image 20250515163317.png|300]]
-=> Request를 Need라 생각하고 풀면 된다.
+=> **Request를 Need라 생각하고 풀면 된다.**
 • 시퀀스 <P0, P2, P3, P1, P4>는 모든 i에 대해 `Finish[i] = true`가 되는 결과를 낳습니다
 • 만약 P2가 Request 0 0 1 을 추가로 요청하면?
 	=> P1, P2, P3, P4가 관련된 교착 상태가 발생
