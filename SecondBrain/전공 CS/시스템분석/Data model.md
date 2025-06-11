@@ -1,4 +1,4 @@
-use case 4번 기말
+se case 4번 기말
 actor, preconditoin normal course에 관련 data, input data, source, postcondition
 use case
 
