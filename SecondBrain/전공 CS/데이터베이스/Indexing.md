@@ -363,7 +363,6 @@ leaf node에서는 value를 기준으로 나누었지만, non-leaf node에서는
 •	부모 노드도 부족해 형제와 병합됨
 •	부모 노드의 키가 아래로 내려옴
 •	루트 노드에 자식이 하나만 남으면, 루트는 삭제되고 해당 자식이 새 루트가 됨
-#### Q. non-leaf node는 B가 2라면, key가 0개여도 되는가?
 ## B+ 트리의 갱신: 삭제
 Otherwise, if the node has too few entries due to the removal, but the entries in the node and a sibling do not fit into a single node, then **redistribute pointers**
 
