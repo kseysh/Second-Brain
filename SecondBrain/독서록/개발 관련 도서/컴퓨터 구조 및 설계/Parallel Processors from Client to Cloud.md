@@ -1,5 +1,3 @@
-cache, memory hire
-책 문제 보기
 ## Hardware Multithreading
 • 여러 실행 스레드를 병렬로 수행
 	• 레지스터, 프로그램 카운터(PC) 등 복제
