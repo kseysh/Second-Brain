@@ -365,8 +365,6 @@ leaf node에서는 value를 기준으로 나누었지만, non-leaf node에서는
 •	루트 노드에 자식이 하나만 남으면, 루트는 삭제되고 해당 자식이 새 루트가 됨
 ## B+ 트리의 갱신: 삭제
 Otherwise, if the node has too few entries due to the removal, but the entries in the node and a sibling do not fit into a single node, then **redistribute pointers**
-
-**머지를 하고, Re-Distribution을 한다 정도만 알자**
 - 삭제할 레코드를 찾아 메인 파일과 버킷(존재할 경우)에서 제거한다.
 - 버킷이 없거나 버킷이 비게 된 경우, 리프 노드에서 (검색 키 값, 포인터)를 제거한다.
 - 삭제로 인해 노드에 항목이 너무 적어졌고, 해당 노드와 형제 노드의 항목을 하나의 노드에 넣을 수 있다면, *형제 노드를 병합한다*:
