@@ -1,7 +1,3 @@
-## Domain Types
-numeric(p, d) : Fixed point number, p: 전체 자리수, d: 소수점 오른쪽 자리수
-real(4byte) double precision(8byte): 부동 소수점 숫자 타입
-float(n) : 부동 소수점 타입, n은 정밀도 자리수로 n에 따라 real 또는 double precision으로 매핑
 ## Create Table
 create table r (A1 D1, A2 D2, ..., An Dn,...,)
 r: relation 이름
@@ -144,7 +140,6 @@ from instructor
 group by dept_name;
 ```
 
-![[Pasted image 20250320162723.png|300]]
 ### Having
 group by로 가져올 때의 조건을 설정하는 절
 
