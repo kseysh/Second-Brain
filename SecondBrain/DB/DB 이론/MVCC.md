@@ -5,7 +5,7 @@ Isolation level별로 특정 문제들을 제어할 수 있다.
 ## MVCC 특징
 - MVCC는 commit된 데이터만 읽는다 
 	- 데이터를 읽을 때 특정 시점 기준으로 가장 최근에 commit된 데이터를 읽는다.
-- recovablity를 위해 commit 후에 write lock을 unlock한다.
+- recoverability를 위해 commit 후에 write lock을 unlock한다.
 - read와 write가 서로를 block하지 않는다.
 - 데이터 변화 이력을 관리한다.
 ## MVCC가 필요한 이유

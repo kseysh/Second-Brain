@@ -5,7 +5,7 @@ read하는 시간을 기준으로 그 전에 commit된 데이터를 읽는다.
 ## repeatable read
 tx 시작 시간 기준으로 그 전에 commit된 데이터를 읽는다.
 같은 데이터를 여러 번 조회하더라도 동일한 결과를 보장받기 때문에 repeatable read이다.
-## seriazable
+## serializable
 -  mysql
 	- MVCC로 동작하기 보다는 lock으로 동작한다
 - postgresql
