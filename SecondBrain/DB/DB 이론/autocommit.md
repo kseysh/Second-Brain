@@ -6,7 +6,6 @@
 - START TRANSACTION 실행과 동시에 autocommit은 off 된다.
 - COMMIT / ROLLBACK과 함께 transaction이 종료되면 원래 autocommit 상태로 돌아간다.
 
-
 ## @Transactional의 의미
 
 ![[Pasted image 20250203183210.png|400]]
