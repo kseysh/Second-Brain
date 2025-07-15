@@ -24,7 +24,7 @@ memberService, orderService, memberRepository를 모두 호출하게 되면 new 
 `AppConfig` 스프링 빈을 조회해서 클래스 정보를 출력하면  `bean = class hello.core.AppConfig$$EnhancerBySpringCGLIB$$bd479d70` 로 나온다.
 순수한 클래스라면 다음과 같이 출력되어야 한다. `class hello.core.AppConfig`
 
-이것은 내가 만든 클래스가 아니라 스프링이 **CGLIB라는 바이트코드 조작 라이브러리를 사용**해서 **AppConfig 클래스를 상속받은 임의의 다 른 클래스를 만들고, 그 다른 클래스를 스프링 빈으로 등록한 것**
+이것은 내가 만든 클래스가 아니라 스프링이 **CGLIB라는 바이트코드 조작 라이브러리를 사용**해서 **AppConfig 클래스를 상속받은 임의의 다른 클래스를 만들고, 그 다른 클래스를 스프링 빈으로 등록한 것**
 
 이 임의의 `AppConfig@CGLIB`이라는 클래스가 바이트 코드를 조작해서 싱글톤이 보장되도록 해준다.
 
