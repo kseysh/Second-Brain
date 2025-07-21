@@ -1,6 +1,8 @@
 ###### Mutex vs. Semaphore
-Mutex: 
-Semaphore: 
+Mutex: 임계 구역을 보호하기 위해 하나의 스레드만 임계 구역에 진입할 수 있도록 하는 장치
+Semaphore: 임계 구역을 보호하기 위해 하나 이상의 스레드가 임계 구역에 진입할 수 있도록 하는 장치
+
+busy waiting을 사용하는 방식, waiting queue를 사용하는 방식 두 가지 방식이 존재함
 ###### spinlock
 락을 가질 수 있을 때까지 계속 반복해서 시도하는 것으로, 멀티 코어이고, 임계 영역에서의 작업이 컨텍스트 스위칭보다 빨리 끝난다면 Mutex보다 이점을 가진다.
 
@@ -24,15 +26,19 @@ Semaphore:
 ###### DMA란?
 I/O 작업만 담당하는 CPU로 Device Controller가 CPU의 개입 없이 버퍼 스토리지와 메인 메모리 간에 데이터 블록을 직접 전송할 수 있도록 하는 장치
 ###### Interrupt mechanism
-
-###### Q
-A
-###### Q
-A
-###### Q
-A
-###### Q
-A
+- 수행 중인 Instruction 마무리
+- 다음에 수행할 PC와 레지스터 값 저장
+- Interrupt vector에서 어떤 코드를 실행해야 할지에 대한 ISR 주소를 얻어온다 
+- ISR를 실행한다
+- 새로운 interrupt의 수신을 비활성화한다.
+- ISR이 끝나면, 저장된 주소를 통해 인터럽트되었던 프로그램으로 복귀한다.
+###### PCB란?
+Process Control Block으로, 멀티 프로그래밍 사용시 OS가 프로세스들의 정보를 저장해두는 것
+###### parallelism vs. Concurrency
+parallelism: 물리적으로 동일한 시간에 작동하는 것
+Concurrency: 동일한 시간에 작동하는 것처럼 보이는 것
+###### test_and_set이란?
+말 그대로 메모리 값을 검사하고 설정하는 특별한 원자적 하드웨어 명령어
 ###### Q
 A
 ###### Q
