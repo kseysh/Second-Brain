@@ -57,7 +57,7 @@ Mac 주소(Physical adresses) 관리
 10이 87에게 frame을 보내고, 87이 10에게 다시 frame을 보낼 때는 10이 87에게 보냈던 것 처럼 28,53에게도 보내지 않는다.
 필터링 기능을 이용해서 switch가 어디서 온 frame인지 저장해두고 이를 다시 보낼 때 이 저장된 정보를 이용해 frame을 보낸다.
 
-# Network Layer(logical addresses)의 Exemple
+# Network Layer(logical addresses)의 Example
 ![[Pasted image 20240909153120.png]]
 physical address인 MAC주소는 hop to hop (각 hop은 라우터 또는 스위치)으로 이동할 때마다 출발지와 목적지의 MAC 주소가 변경된다.
 하지만, logical adderess인 IP주소는 변경되지 않는다.
