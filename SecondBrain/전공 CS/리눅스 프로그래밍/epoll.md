@@ -22,6 +22,32 @@
 ## poll의 방식
 select와 거의 유사하다
 ## epoll의 방식
+###### 유저 프로세스 준비
+```cpp
+epfd = epoll_create();
+epoll_ctl(epfd, EPOLL_CTL_ADD, sockfd, EPOLLIN);
+```
+- 서버는 클라이언트 소켓을 epoll에 등록
+	- 소켓에 이벤트가 생기면 알려달라고 커널에 요청
+	- 커널 내부 RB Tree에 FD 등록
+###### 2. 유저 프로세스 대기
+```cpp
+epoll_wait(epfd, events, MAX_EVENTS, timeout);
+```
+- 프로세스는 epoll_wait() 호출하여 이벤트가 발생할 때까지 sleep
+- 커널은 이 프로세스를 waitlist에 올림
+###### 네트워크 I/O 발생
+- 클라이언트가 데이터를 보냄
+- 커널의 인터럽트 핸들러 동작
+- 해당 소켓 버퍼에 데이터 도착 -> 소켓 상태 변화
+###### 3. epoll 이벤트 등록
+- 커널이 해당 소켓에 걸려있던 poll callback 호출
+- 소켓이 EPOLLIN을 기다리는 것을 확인 후, 해당 epoll instance를 ready queue에 넣음
+###### 4. 유저 프로세스 wake up
+- ready queue에서 해당 프로세스 wake up
+- epoll_wait() return
+
+
 - 커널 스페이스에 epoll red black Tree와 waitlist 큐를 저장한다 (user -> kernel 데이터 복사를 하지 않는다)
 - 유저 프로세스에서 소켓 FD를 epoll을 호출해 RB 트리에 저장한다
 - 유저 프로세스는 waitlist 큐에 listen을 시작해서 새 데이터가 들어오는 것을 주시한다 (커널이 waitlist를 관리하여 커널에서 폴링이 필요하지 않다)
