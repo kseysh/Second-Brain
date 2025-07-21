@@ -79,8 +79,7 @@ class가 없기 때문에, slash를 하고 prefix 길이를 같이 써줘야 한
 클래스리스 주소 지정에서는 항상 slash notation이 들어가야 한다.
 # Special Addresses
 ## all-zero address
-보통 컴퓨터는 고정 IP가 아닌 유동 IP를 사용하는데, 이 때
-IP를 할당해주는 것이 DHCP 서버이다.
+보통 컴퓨터는 고정 IP가 아닌 유동 IP를 사용하는데, 이 때 IP를 할당해주는 것이 DHCP 서버이다.
  DHCP에게 내가 어떤 주소를 쓰면 되는지 물어볼 때 할당해주는 것이 DHCP 서버이다. (공유기가 이 역할을 한다.)
  자신의 IP주소도 모르고 DHCP주소도 모르기 때문에, 묻는 IP를 0.0.0.0으로, Destination IP를 255.255.255.255로 보내서 IP를 할당 받는다.
 ![[Pasted image 20241121171148.png|300]]
