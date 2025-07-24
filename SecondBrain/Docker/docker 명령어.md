@@ -9,5 +9,12 @@
 
 `docker ps`
 컨테이너 정보 확인
+-a : 종료된 컨테이너 노출
 
 `docker exec -it <container name> bash`
+
+`docker stop <container name>`
+
+`docker start <container name>`
+
+`docker rm -f <container name>`
