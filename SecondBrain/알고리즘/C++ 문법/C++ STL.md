@@ -83,6 +83,10 @@ map<string,int> map;
 map.insert(pair<string, int>("식빵",5));
 ```
 
+```cpp
+if(map.find(str) != map.end()) str이 있는지 찾을 때 사용하는 방법
+```
+
 # 시퀀스 사용 컨테이너 Case
 - 일반적인 상황의 경우 `vector` 가 만능!
 - 끝이 아닌 중간에 원소 추가/제거가 많고, 원소 순차 접근만 한다면 `list`
@@ -97,8 +101,6 @@ map.insert(pair<string, int>("식빵",5));
 - 정렬
     - `sort(container.begin(),container.end())` : 범위를 정렬, 세 번재 인수로 정렬 기준이 되는 사용자 정의 비교 함수 (lambda) 포인터 넘길 수도 있음
     - `sort(container.begin(),container.end(), compare)` : 범위를 정렬, 세 번재 인수로 정렬 기준이 되는 사용자 정의 비교 함수 (lambda) 포인터 넘길 수도 있음
-    - `stable_sort` : stable 정렬 (sort 는 unstable)
-    - `partial_sort` : 배열 일부분만 정렬
 - `reverse` : 인수로 넘긴 범위의 순서를 거꾸로 뒤집음.
     
 - 수학 관련 :

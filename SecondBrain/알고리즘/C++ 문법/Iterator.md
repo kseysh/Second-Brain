@@ -1,6 +1,3 @@
-Iterator란?
-=> 배열의 요소를 가리키는 포인터
-
 ```cpp
 vector<int>::iterator iter;
 v.begin(); // 배열의 첫 번째 주소 반환
