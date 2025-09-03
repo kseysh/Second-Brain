@@ -4,7 +4,42 @@
 - Closure table
 
 > 계층적인 데이터 구조를 관계형 데이터베이스에 저장할 때는, 서버가 데이터베이스의 무결성을 책임져야 한다.
+## Adjacency list
+관계형 데이터베이스에 계층적인 데이터 구조를 저장할 때, 테이블의 컬럼 하나를 부모 레코드의 기본키로 가지도록 하는 전략
+- 단순한 전략이라 적용이 쉽지만, 성능면에서 비효율적이다.
+## Nested Set
+계층적인 데이터 구조를 집합 구조로 생각하고 관계형 데이터베이스 구조를 설계하는 전략
+![[Pasted image 20250903160650.png|300]]
+위 그림과 맞는 예제 데이터
+```sql
+-- 부모
+INSERT INTO family (id, role, lft, rgt) VALUES (NULL, '부모', 1, 18);
+
+-- 부모 > 딸
+INSERT INTO family (id, role, lft, rgt) VALUES (NULL, '딸', 2, 11);
+
+-- 부모 > 아들
+INSERT INTO family (id, role, lft, rgt) VALUES (NULL, '아들', 12, 17);
+
+-- 부모 > 딸 > 자녀
+INSERT INTO family (id, role, lft, rgt) VALUES (NULL, '아들', 3, 4);
+INSERT INTO family (id, role, lft, rgt) VALUES (NULL, '아들', 5, 6);
+INSERT INTO family (id, role, lft, rgt) VALUES (NULL, '아들', 7, 8);
+INSERT INTO family (id, role, lft, rgt) VALUES (NULL, '딸', 9, 10);
+
+-- 부모 > 아들 > 자녀
+INSERT INTO family (id, role, lft, rgt) VALUES (NULL, 'daughter', 13, 14);
+INSERT INTO family (id, role, lft, rgt) VALUES (NULL, 'son', 15, 16);
+```
+
+특정 계층 내에 있는 데이터를 검색하고 싶다면, left field와 right field를 활용해 아래와 같은 SQL 구문을 사용한다.
+```sql
+SELECT * FROM family WHERE lft BETWEEN 2 AND 11;
+```
+=> 데이터 추가/삭제가 어려워 무결성을 유지하기 어려운 전략이다.
+## Closure table
+다대다 관계를 일대다 다대일의 관계로 풀듯이, 계층간의 관계를 다른 테이블에서 관리하는 전략을 의미한다.
 
 ## Path Enumeration
-일반적으로 아래와 같은 형태로 계층적 데이터를 저장한다.
+일반적으로 아래와 같은 문자열의 형태로 계층적 데이터를 저장한다.
 `1/2/6/7/8`
