@@ -44,3 +44,45 @@ string solution(int n, int t, int m, int p) {
 진법 변환하는 방법
 algorithm 헤더의 reverse 함수
 string은 `vector<char>`와 비슷하게 사용할 수 있다.
+
+## 다시 푼 풀이
+```cpp
+#include <string>
+#include <vector>
+#include <algorithm>
+
+using namespace std;
+
+string s = "0";
+
+string convertNum(int n, int count){
+    string rcs =  "";
+    char c;
+    while(count != 0){
+        int remain = count % n;
+        count /= n;
+        c = (remain >= 10) ? remain - 10 + 'A' : remain + '0';
+        rcs += c;
+    }
+    reverse(rcs.begin(), rcs.end());
+    return rcs;
+}
+
+string solution(int n, int t, int m, int p) {
+    
+    int count = 1;
+    while(s.size() <= 110'000){
+        s += convertNum(n, count++);
+    }
+        
+    string answer = "";
+    for(int i = 0; i < t; i++){
+        answer += s[i * m + p - 1];
+    }
+    
+    return answer;
+}
+```
+4개월만에 다시 푼 풀이 
+- 진법 변환시 char를 사용하는 방식 좋은 것 같음
+- m * t 번만 진행해도 된다는 사실 좋은 것 같음
