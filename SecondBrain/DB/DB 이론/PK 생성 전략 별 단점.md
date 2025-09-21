@@ -9,3 +9,5 @@ ex) UUID
 ## 유니크 정렬 숫자
 ex) Snowflake
 키 생성을 위한 시간적인 한계가 있을 수 있다. (64년인가 그정도)
+
+DB에서 Snowflake같은 긴 key를 사용한다면, secondary index가 더 많은 공간을 사용하기 때문에 공간을 더 많이 차지할 수 있다.
