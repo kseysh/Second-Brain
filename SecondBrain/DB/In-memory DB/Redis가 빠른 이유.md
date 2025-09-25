@@ -23,5 +23,12 @@ Skip List를 이용해 B Tree보다 동시성 문제를 더 잘 해결할 수 �
 레디스는 요청이 들어올 때마다 커넥션과 스레드를 생성하는 것이 아니라 epoll IO multiplexing을 이용해 처리한다.
 [[epoll]]
 
+1. 여러 명의 유저가 클라이언트 소켓을 통해 Redis 서버에 연결
+	1. Redis는 이 fd들을 epoll에 등록
+2. 유저들이 요청을 보내면 RB Tree에서 fd들을 찾아 Ready List에 보낸다.
+3. Redis 이벤트 루프에서 epoll_wait 호출 -> fd들 반환
+4. Redis는 반환된 fd 각각에 대해 등록된 handler 실행
+5. 응답은 다시 epoll에 EPOLLOUT 이벤트로 등록되어, 소켓이 쓰기 가능할 때 응답 전송 (TCP의 send buffer가 가득찰 수 있으므로)
+
 ## 3. 인 메모리 데이터베이스
 데이터 스토리지가 가지는 계층 구조 덕분에 더 빠른 읽기 / 쓰기 성능을 가진다.
