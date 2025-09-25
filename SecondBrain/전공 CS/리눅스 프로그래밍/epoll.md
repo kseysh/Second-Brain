@@ -24,15 +24,16 @@ select와 거의 유사하다 (하지만 무제한 개수의 FD를 검사할 수
 ## epoll의 방식
 ###### 유저 프로세스 준비
 ```cpp
-epfd = epoll_create();
-epoll_ctl(epfd, EPOLL_CTL_ADD, sockfd, EPOLLIN);
+epfd = epoll_create(); // epoll 인스턴스 생성
+epoll_ctl(epfd, EPOLL_CTL_ADD, sockfd, EPOLLIN); // 소켓을 epoll 인스턴스의 RB Tree에 넣는다.
 ```
 - 서버는 클라이언트 소켓을 epoll에 등록
 	- 소켓에 이벤트가 생기면 알려달라고 커널에 요청
 	- 커널 내부 RB Tree에 FD 등록
+=> RB Tree에 존재하는 
 ###### 2. 유저 프로세스 대기
 ```cpp
-epoll_wait(epfd, events, MAX_EVENTS, timeout);
+epoll_wait(epfd, events, MAX_EVENTS, timeout); // ready list에 이벤트가 발생한 fd가 있으면 즉시 반환
 ```
 - 프로세스는 epoll_wait() 호출하여 이벤트가 발생할 때까지 sleep
 - 커널은 이 프로세스를 waitlist에 올림
