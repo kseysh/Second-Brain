@@ -20,7 +20,7 @@
 ### select의 방식이 polling 방식이라 불리는 이유
 모든 FD에 대해 읽기 가능인지 확인하기 때문에 polling 방식이라 불림 (cpu의 busy waiting의 polling과는 의미가 좀 다름)
 ## poll의 방식
-select와 거의 유사하다
+select와 거의 유사하다 (하지만 무제한 개수의 FD를 검사할 수 있음)
 ## epoll의 방식
 ###### 유저 프로세스 준비
 ```cpp
