@@ -56,6 +56,9 @@ epoll_wait(epfd, events, MAX_EVENTS, timeout); // ready list에 이벤트가 발
 
 RB Tree => FD를 O(logN)의 속도로 찾기 위함
 waitlist => sleep했다가, network IO가 오면 RB에서 찾고, waitlist에서 FD를 깨움
+
+![[IMG_46CE213E26CE-1.jpeg]]
+
 ## epoll에서 fd를 trigger하는 2가지 방식
 ### level-triggered
 특정 상태가 유지되는 동안 감지
