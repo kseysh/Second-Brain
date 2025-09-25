@@ -47,8 +47,7 @@ epoll_wait(epfd, events, MAX_EVENTS, timeout);
 - ready queue에서 해당 프로세스 wake up
 - epoll_wait() return
 
-
-- 커널 스페이스에 epoll red black Tree와 waitlist 큐를 저장한다 (user -> kernel 데이터 복사를 하지 않는다)
+- 커널 스페이스에 epoll red black Tree와 waitlist 큐를 저장한다. (user -> kernel 데이터 복사를 하지 않는다)
 - 유저 프로세스에서 소켓 FD를 epoll을 호출해 RB 트리에 저장한다
 - 유저 프로세스는 waitlist 큐에 listen을 시작해서 새 데이터가 들어오는 것을 주시한다 (커널이 waitlist를 관리하여 커널에서 폴링이 필요하지 않다)
 - 네트워크 드라이버로부터 새 데이터가 들어오면 OS는 소켓 포트에 기반하여 FD를 찾고 FD를 waitlist 큐에 삽입한다
