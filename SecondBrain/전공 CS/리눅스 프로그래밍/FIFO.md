@@ -29,4 +29,4 @@ int mkfifo(const char *pathname, mode_t mode);
 ![[Pasted image 20241126171415.png|500]]
 여기서 O_RDWR로 open한 이유는 O_RDONLY로 열게 되면 write용 fd가 없을 때 read를 하면 0이 반환되면서 무한 루프가 발생하게 된다. 하지만, O_RDWR로 open했다면, read가 block되면서 기다리게 된다.
 
-![[IO Multiplexing]]
+![[전공 CS/리눅스 프로그래밍/IO Multiplexing]]
