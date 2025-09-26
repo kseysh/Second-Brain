@@ -29,6 +29,7 @@ Skip List를 이용해 B Tree보다 동시성 문제를 더 잘 해결할 수 �
 3. Redis 이벤트 루프에서 epoll_wait 호출 -> fd들 반환
 4. Redis는 반환된 fd 각각에 대해 등록된 handler 실행
 5. 응답은 다시 epoll에 EPOLLOUT 이벤트로 등록되어, 소켓이 쓰기 가능할 때 응답 전송 (TCP의 send buffer가 가득찰 수 있으므로)
+6. 응답이 마무리 되면 다시 epoll_wait 호출
 
 ## 3. 인 메모리 데이터베이스
 데이터 스토리지가 가지는 계층 구조 덕분에 더 빠른 읽기 / 쓰기 성능을 가진다.
