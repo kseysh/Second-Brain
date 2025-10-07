@@ -8,3 +8,8 @@ Stream: .parallelStream()으로 간단히 병렬 처리 가능
 대규모 데이터: for < Stream
 
 Stream은 내부 객체 생성과 람다 호출 오버헤드로 인해 소규모 데이터에서 불리하지만, parallelStream으로 인해 멀티코어를 활용할 수 있어 대규모 데이터에서 유리함
+
+## 정리
+for문이 예전부터의 최적화로 인해 stream보다 빠르다. 
+하지만, 계산 비용이 순회 비용보다 높으면, for문과 stream의 시간이 비슷하다.
+
