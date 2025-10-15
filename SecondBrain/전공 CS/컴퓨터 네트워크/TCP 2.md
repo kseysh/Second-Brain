@@ -1,3 +1,4 @@
+RTT => 패킷을 보낸 시점부터 응답 받기까지의 시간
 # TCP Timers
 ![[Pasted image 20241030150552.png|500]]
 ### Persistence Timer
