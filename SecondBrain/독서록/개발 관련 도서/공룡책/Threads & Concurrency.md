@@ -33,7 +33,7 @@ multiprocessor(CPU 코어가 여러개) architecture의 장점을 가질 수 있
 		- 제어 스레드를 가짐
 		- 실행 상태 및 dispatch 우선 순위를 가짐
 			- 프로세스 실행은 다른 프로세스와 교차되어 수행될 수 있음
-- Multicore or multiprocessor 시스템에서는 병렬처리가 가능(동시성과는 다름)
+- Multicore or multiprocessor 시스템에서는 병렬처리가 가능(동시성과는 다름)
 
 ![[Pasted image 20250324204849.png|250]]
 - Multithread는 이 두 가지 특성을 분리한 것
