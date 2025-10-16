@@ -4,7 +4,7 @@
 - User interface
 - Program execution
 - I/O operations
-- File-system mainpulation
+- File-system manipulation
 - Communications
 - Error detection
 ## 리소스 공유를 통한 효율적인 동작 보장
