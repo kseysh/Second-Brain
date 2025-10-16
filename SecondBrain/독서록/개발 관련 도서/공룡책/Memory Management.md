@@ -34,7 +34,7 @@
 • 논리 주소 공간은 프로그램이 생성할 수 있는 모든 논리 주소들의 집합
 • 물리 주소 공간은 프로그램이 생성할 수 있는 모든 물리 주소들의 집합
 ## Memory-Management Unit (MMU)
-• 실행 시간에 logical address를 physical address로 매핑하는 하드웨어 장치
+• 실행 시간에 logical address를 physical address로 매핑하는 하드웨어 장치
 • 다양한 방법이 있음
 • 먼저, relocation register를 사용하는 단순한 방식 고려
 • physical address = logical address + relocation address의 값
