@@ -36,6 +36,7 @@ read_lock(y) ->  write_lock(x) -> unlock(y)의 순서로 락 획득 후 락 반�
 #### strict 2PL
 ![[Pasted image 20250212170306.png|100]]
 strict schedule을 보장하는 2PL
+- 어떤 데이터에 대해 write하는 트랜잭션이 있다면 그 트랜잭션이 commit/rollback될 때까지 다른 트랜잭션은 그 데이터에 대해 read/write 모두 안하는 스케줄
 recoverablility 보장
 write-lock을 commit/rollback될 때 반환 (write lock인 y와 z를 commit 후 unlock함)
 #### strong strict 2PL
