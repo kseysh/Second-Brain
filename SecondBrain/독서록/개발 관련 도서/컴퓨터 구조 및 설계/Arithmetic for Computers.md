@@ -269,7 +269,6 @@ i, j, k $s0, $s1, $s2
 li (load immediate)
 $f4 / $f5 : x\[i]\[j]
 $f16 / $f17 : z\[k]\[j]
-![[Pasted image 20250410210319.png|300]]
 $f18 / $f19 : y\[i]\[k]
 
 ## 정확한 산술 연산
