@@ -11,6 +11,3 @@ class Car {
     void drive() { engine.start(); }
 }
 ```
-
-온ㄹ라인 45분
-다음주 수요일 15시
