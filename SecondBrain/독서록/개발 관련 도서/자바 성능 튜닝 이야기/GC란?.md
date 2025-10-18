@@ -44,7 +44,7 @@ CPU가 대기 상태로 남아 있는 것을 최소화하는 것이 목적이며
 
 ### Parallel Compacting Collector
 => 여러 CPU를 사용하는 서버에 적합
-### Concurrent Mark-Seep Collector (CMS)
+### Concurrent Mark-Sweep Collector (CMS)
 힙 메모리 영역의 크기가 클 때 적합
 2개 이상의 프로세서를 사용하는 서버에 적당 => 웹 서버
 ### Garbage First Collector (G1)
