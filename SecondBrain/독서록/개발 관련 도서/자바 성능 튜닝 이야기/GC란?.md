@@ -41,10 +41,11 @@ Collect 수행시 application 정지
 ### Parallel Collector
 Young 영역에서의 Collect를 parallel로 처리
 CPU가 대기 상태로 남아 있는 것을 최소화하는 것이 목적이며 여러 CPU를 사용하는 서버에 적합
-
 ### Parallel Compacting Collector
 => 여러 CPU를 사용하는 서버에 적합
 ### Concurrent Mark-Sweep Collector (CMS)
 힙 메모리 영역의 크기가 클 때 적합
 2개 이상의 프로세서를 사용하는 서버에 적당 => 웹 서버
 ### Garbage First Collector (G1)
+JavaHotSpotJVM이 사용하는 GC
+
