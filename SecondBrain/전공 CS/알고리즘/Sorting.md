@@ -4,8 +4,7 @@
 ### 의사 코드
 ```c
 void insertionSort(Element[] E, int n){
-	int xindex;
-	for (xindex = 1; xindex < n; xindex++)
+	for (int xindex = 1; xindex < n; xindex++)
 		Element current = E[xindex];
 		key x = current.key;
 		int xLoc = shiftVacRec(E, xindex, x);
