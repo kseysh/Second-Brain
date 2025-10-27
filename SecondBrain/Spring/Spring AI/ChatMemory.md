@@ -26,3 +26,17 @@ ChatMemoryRepository 인터페이스를 통해 저장소에 대화 기억을 저
 - InMemoryChatMemoryRepository: 컴퓨터 하드웨어 메모리에 저장합니다.
 - JdbcChatMemoryRepository: 관계형 데이터베이스를 저장합니다.
 - CassandraChatMemoryRepository: ApacheCassandra를 이용해서 시계열로 저장합니다.
+
+
+
+```sql
+CREATE TABLE IF NOT EXISTS SPRING_AI_CHAT_MEMORY (
+    conversation_id VARCHAR(36) NOT NULL,
+    content TEXT NOT NULL,
+    type VARCHAR(10) NOT NULL CHECK (type IN ('USER', 'ASSISTANT', 'SYSTEM', 'TOOL')),
+    "timestamp" TIMESTAMP NOT NULL
+    );
+
+CREATE INDEX IF NOT EXISTS SPRING_AI_CHAT_MEMORY_CONVERSATION_ID_TIMESTAMP_IDX
+ON SPRING_AI_CHAT_MEMORY(conversation_id, "timestamp");
+```
