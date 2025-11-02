@@ -36,3 +36,14 @@ entry.getKey();
 entry.getValue();
 
 ```
+
+hash를 정의하기 위해 아래 두 코드를 override 해주어야 한다.
+```java
+public int hashCode(){
+	return Objects.hash(y, x);
+}
+
+public boolean equals(Key key){
+	return this.hashCode() == key.hashCode();
+}
+```
