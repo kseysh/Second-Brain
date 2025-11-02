@@ -28,6 +28,11 @@ for (Integer key : hashMap.keySet()){
 } 
 
 for (Entry<Integer, String> temp : hashMap.entrySet()){ 
-	System.out.println(temp.getKey() + " " + temp.getValue()); 
+		System.out.println(temp.getKey() + " " + temp.getValue()); 
 }
+
+Map.Entry<Key, Integer> entry = it.next();
+entry.getKey();
+entry.getValue();
+
 ```
