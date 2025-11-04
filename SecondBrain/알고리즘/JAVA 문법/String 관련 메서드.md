@@ -17,7 +17,7 @@ str.indexOf("a"); // 0 -> 인덱스 반환
 str.lastIndexOf("p") // 2 -> 마지막으로 문자가 속한 인덱스 반환 
 
 //문자 자르기 
-str.substring(1, 3); // "pp" -> 인덱스 1 이상 3 미만 위치의 문자열 반환 
+str.substring(1, 3); // "pp" -> 인덱스 1 이상 3 미만 위치의 문자열 반환 (c++과 다른 것 유의)
 str.substring(3); // "app" -> 인덱스 3 미만 위치의 문자열 반환 
 
 
