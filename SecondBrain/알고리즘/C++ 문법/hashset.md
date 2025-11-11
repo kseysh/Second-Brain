@@ -12,3 +12,12 @@ namespace std {
 }
 ```
 소수를 곱해서 결합하여 해시 충돌을 줄인 모습이다.
+
+```cpp
+
+
+namespace std {
+	template <>
+	struct hash<pa>
+}
+```
