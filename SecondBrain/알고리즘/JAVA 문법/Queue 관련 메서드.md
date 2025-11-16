@@ -8,7 +8,7 @@ queue.offer(2); // 문제 상황에서 false 리턴
 
 //큐에서 요소 제거(dequeue) 
 queue.remove(); // 문제 상황에서 예외 발생 
-queue.pool(); // 문제 상황에서 null 리턴 
+queue.poll(); // 문제 상황에서 null 리턴 
 
 //큐 비우기 
 queue.clear(); 

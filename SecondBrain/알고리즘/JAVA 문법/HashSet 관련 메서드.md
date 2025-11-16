@@ -12,7 +12,8 @@ hashSet.add(1);
 //요소 삭제 
 hashSet.remove(1); // 값이 1인 요소 삭제 
 
-//차집합 hashSet.removeAll(hashSet2); //hashSet의 데이터 중 hashSet2과 중복된 데이터를 모두 삭제 
+//차집합 
+hashSet.removeAll(hashSet2); //hashSet의 데이터 중 hashSet2과 중복된 데이터를 모두 삭제 
 
 //교집합 
 hashSet.retainAll(hashSet2); //hashSet의 데이터 중 hashSet2과 중복된 데이터만 남기고 나머지 모두 삭제 
@@ -30,7 +31,7 @@ hashSet.contains(1);
 //Iterator 사용 
 Iterator tempIterator = hashSet.iterator(); 
 while (tempIterator.hasNext()){ 
-	System.out.pringln(tempIterator.next()); 
+	System.out.println(tempIterator.next()); 
 } 
 
 //for-each문 사용 
