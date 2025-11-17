@@ -114,7 +114,7 @@ FIN-ACK을 같이 보내면 서버가 남은 데이터를 전송하지 못하므
 받은 것 / 보내는 것의 순서대로 되어 있다
 중요한 그림이니 이해하기
 ### client
-SYN과 SYN+ACK 사이의 상태를 이름을 지은 것 = SIN-SENT
+SYN과 SYN+ACK 사이의 상태를 이름을 지은 것 = SYN-SENT
 SYN/ACK이 되면 ACK을 보내고 ESTABLISHED 상태(데이터를 주고 받을 수 있는 상태)가 된다
 
 FIN을 보낸 상태 FIN-WAIT-1
