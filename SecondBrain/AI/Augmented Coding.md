@@ -10,4 +10,5 @@ Red -> Green -> Refactor를 활용한다
 1. 구현하고자 하는 기능의 PRD(Product Requirements Document)를 생성해달라고 요청한다
 2. claude.md를 활용한다. ([Github](https://github.com/KentBeck/BPlusTree3/blob/ca80e4d85a99cd0af2effe717f709d43e80403bc/rust/docs/CLAUDE.md))
 3. claude.md를 활용해 Claude custom commands를 만든다.
-4. 
+4. PRD를 통해 plan.md를 만든다.
+5. plan.md에 따라 tdd를 진행한다/.
