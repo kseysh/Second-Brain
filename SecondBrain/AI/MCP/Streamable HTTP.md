@@ -33,7 +33,7 @@ data: [DONE]
 
 ## HTTP + SSE 방식과 다른점
 Streamable HTTP가 연결이 끊겼을 때를 고려하여 messageId를 추가하여, 이어받기를 고려할 수 있다.
-
+또한, 일반 HTTP처럼 짧은 연결로 구성가능하며, 필요 시 동적으로 SSE로 업그레이드할 수 있다.
 # Stateless Streamable-HTTP
 요청 간 세션 상태를 유지하지 않아 MSA 환경에 적합
 SSE나 Streamable-HTTP는 서버 배포나 연결 끊김시 세션이 유실되어 사용에 불편할 수 있음
