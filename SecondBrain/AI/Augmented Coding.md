@@ -7,6 +7,7 @@ Red -> Green -> Refactor를 활용한다
 - (Refactor) 코드를 정리한다.
 이 과정을 통해 AI가 작성해야 하는 코드를 제대로 정의하고, 코드의 양을 최소한으로 억제한다.
 
-1. 구현하고자 하는 기능의 PRD를 생성해달라고 요청한다
-2. claude.md를 활용한다.
-3. 
+1. 구현하고자 하는 기능의 PRD(Product Requirements Document)를 생성해달라고 요청한다
+2. claude.md를 활용한다. ([Github](https://github.com/KentBeck/BPlusTree3/blob/ca80e4d85a99cd0af2effe717f709d43e80403bc/rust/docs/CLAUDE.md))
+3. claude.md를 활용해 Claude custom commands를 만든다.
+4. 
