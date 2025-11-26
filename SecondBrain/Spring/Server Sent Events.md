@@ -28,4 +28,3 @@ Content-Type: text/event-stream;charset=UTF-8
 Transfer-Encoding: chunked
 ```
 클라이언트에서 subscribe을 하고나면 서버는 해당 클라이언트에게 비동기적으로 UTF-8로 인코딩된 텍스트 데이터를 전송할 수 있다.
-# 주의할 점
