@@ -2,3 +2,7 @@
 ```java
 Mono<Integer> just = Mono.just(1);
 ```
+
+### fromRunnable
+
+### fromCallable
