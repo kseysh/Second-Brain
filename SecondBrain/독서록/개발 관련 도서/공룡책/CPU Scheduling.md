@@ -1,4 +1,4 @@
-# CPU [[scheduler]]
+# CPU [[전공 CS/운영체제/scheduler]]
 - CPU scheduling 결정을 해야하는 상황
 - 비선점 스케쥴링
 	- running state -> waiting state
