@@ -35,5 +35,9 @@ Application Layer에서 SSE를 보내면, TCP는 sequence num을 이용해 순�
 TCP가 응답을 받아서 순서대로 도착한 패킷이라면 Application Layer로 바로 chunk를 올려보내고, 순서가 뒤바뀌었다면 Transport Layer에서 순서가 맞을 때까지 기다립니다. 만약 3-Duplicated-ACK이 발생하면 서버에서 재전송합니다.
 따라서 응답 순서는 TCP의 신뢰성 덕분에 가능한 것입니다.
 
+기존 방식과 SSE 방식은 TCP에서는 동일하게 동작함
+그 대신 application/json 방식은 Application Layer에서 닫는 괄호가 나올 때까지 데이터를 메모리에 모아두었다가 사용자에게 보여주는 버퍼링을 진행함
+이와 달리 SSE의 text/event-stream 방식은 TCP에서 순서만 맞다면 Application Layer로 데이터를 올려 사용자에게 바로바로 보여줌
+
 원래는 TCP에서 데이터를 모두 받았을 때, Application Layer로 보냄
-SSE의 text/event-stream 방식은 순서만 맞다면 A
+SSE의 text/event-stream 방식은 순서만 맞다면 Application Layer로 바로바로 보냄
