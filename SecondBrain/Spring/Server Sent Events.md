@@ -30,3 +30,10 @@ Transfer-Encoding: chunked
 클라이언트에서 subscribe을 하고나면 서버는 해당 클라이언트에게 비동기적으로 UTF-8로 인코딩된 텍스트 데이터를 전송할 수 있다.
 
 ## 응답 순서 보장
+TCP가 응답 순서를 보장하기 때문에 SSE가 응답 순서를 보장할 수 있습니다.
+Application Layer에서 SSE를 보내면, TCP는 sequence num을 이용해 순서를 보장하여 application layer에 전달합니다.
+TCP가 응답을 받아서 순서대로 도착한 패킷이라면 Application Layer로 바로 chunk를 올려보내고, 순서가 뒤바뀌었다면 Transport Layer에서 순서가 맞을 때까지 기다립니다. 만약 3-Duplicated-ACK이 발생하면 서버에서 재전송합니다.
+따라서 응답 순서는 TCP의 신뢰성 덕분에 가능한 것입니다.
+
+원래는 TCP에서 데이터를 모두 받았을 때, Application Layer로 보냄
+SSE의 text/event-stream 방식은 순서만 맞다면 A
