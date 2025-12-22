@@ -1,6 +1,19 @@
 파이썬에서의 의존성 주입
 ## Depends
 객체 주입 및 데이터 검증, 인증 체크, DB 세션 생성 등을 함수형으로 연결하는데 최적화
+매번 객체를 생성하지만, Request 단위로 이를 캐싱한다. (DI된 객체의 생명 주기가 Request 범위라고 생각하면 편할 듯)
+FastAPI가 의존성 그래프를 그려주어 하위 부품이 바뀌어도 API 코드를 수정하지 않아도 되게 한다.
+## 싱글톤
+```python
+# 글로벌하게 하나만 생성
+_service_instance = Service()
+
+def get_service():
+    return _service_instance # 매번 새로 만들지 않고 미리 만든 걸 전달
+
+@app.get("/")
+def read_root(service: Service = Depends(get_service)):
+```
 ## Spring의 싱글톤 생성자 주입과 다른 점
 ### Spring
 Java는 런타임에 동적으로 함수를 갈아끼우기 어렵기 때문에 미리 인터페이스를 기반으로 프록시 객체를 만들어 놓는 싱글톤 방식이 유리
