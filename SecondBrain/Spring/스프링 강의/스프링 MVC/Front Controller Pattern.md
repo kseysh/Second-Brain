@@ -9,3 +9,5 @@
 스프링 웹 MVC의 DispatcherServlet이 FrontController 패턴으로 구현되어 있음
 디스패처 서블릿을 통해 요청을 처리할 컨트롤러를 찾아서 위임하고, 그 결과를 받아온다.
 
+## DispatcherServlet이 FrontController 패턴을 채택한 이유
+- 공통 처리의 중앙화 (보안, 로깅, 예외처리)
