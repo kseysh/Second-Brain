@@ -18,3 +18,16 @@
 - ISP에서 운영하는 DNS 서버
 - 네트워크 라우터나 공유기에서 DHCP를 통해 IP를 할당하면서 함께 제공하는 DNS 리졸버 주소
 - 공용 DNS 리졸버
+## 자원 레코드 
+DNS 서버는 호스트 이름에 다양한 정보를 매핑한다.
+DNS 프로토콜의 클라이언트와 서버 간의 질의의 응답에 대한 데이터 형식
+```
+<Name> <TTL> <Class> <Type> <Value>
+```
+`<Name>`과 `<Value>`의 의미는 `<Type>`에 따라 다르다.
+ex)
+A: Name은 호스트 이름, Value는 IPv4 주소
+AAAA: Name은 호스트 이름, Value는 IPv6 주소
+NS: Name은 도메인, Value는 해당 도메인의 호스트에 대한 IP 주소를 가진 DNS 서버의 호스트 이름
+CNAME: Canonical Name의 약자. Name은 별칭 호스트 이름, Value는 원본 호스트 이름
+MX: Name은 도메인, Value는 Name을 별칭으로 갖는 메일서버의 원본 호스트 이름
