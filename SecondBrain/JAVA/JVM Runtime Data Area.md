@@ -8,14 +8,17 @@
 ## 공유 영역
 ### 힙 영역
 런타임시 동적으로 할당하여 사용하는 메모리 영역
-### 메서드 영역 (Metaspace Area (Java 8 ~))
+### 메서드 영역 (Metaspace Area (Java 8 ~) / Class Area, Static Area)
 JVM이 시작될 때 생성되는 공간으로 바이트 코드를 처음 메모리 공간에 올릴 때 초기화 되는 대상을 저장하기 위한 메모리 공간
 - Constant Pool
 	- 전역 변수들 저장
+	- 각 클래스/인터페이스 마다 별도의 constant pool 테이블이 존재하는데, 클래스 생성할때 참조해야할 정보들을 상수로 가지고 있는 영역
 - Field information
 	- 클래스의 필드 정보 보관
 - Method Information
 	- 클래스의 메소드들에 대한 정보 보관
+- Type Information
+	- Class인지 Interface인지 여부 저장, Type의 속성, Super Class의 이름
 - Method Code
 	- 메소드의 바이트 코드가 저장되는 공간
 - Exception Table
