@@ -16,10 +16,19 @@ Region > AZ > Subnet
 ## EC2
 AWS에서 제공하는 Virtual Machine
 ## VPC
+NAT 게이트웨이를 통해 내부 IP를 만들어 사용한다.
+
 EC2를 실행하기 위해 정의하는 가상의 사설네트워크 망 (외부인이 접근할 수 없는 망)
 여러 리전에 생성될 수 없지만, 여러 AZ에 생성될 수는 있다.
 ## Subnet
-VPC의 IP를 그룹으로 분할하는 역할을 하는 추상적인 개념
-public / private로 만든다. why????
+VPC의 IP를 더 작은 그룹으로 분할하는 역할을 하는 추상적인 개념
+public / private로 만든다.
+
+### public
+인터넷 연결 가능
+### private
+인터넷 연결 불가능
+Internet GateWay 경로가 없으며, 필요시 NAT Gateway를 통해 우회 접속해야 함
+안전하게 DB같은 경우 private subnet을 이용
 ## Route Table
 
