@@ -1,5 +1,9 @@
 모든 aws 서비스는 api 호출
-## Region
+
+![[Pasted image 20260120111046.png|300]]
+Region > CPC > Subnet
+Region > AZ > Subnet
+## Region 
 - AWS 서비스를 제공하는 도시의 이름과 코드
 - 하나의 리전은 최소 2개 이상의 AZ를 제공 (가용성을 위함)
 ## Availablility Zone
@@ -13,6 +17,7 @@
 AWS에서 제공하는 Virtual Machine
 ## VPC
 EC2를 실행하기 위해 정의하는 가상의 사설네트워크 망 (외부인이 접근할 수 없는 망)
+여러 리전에 생성될 수 없지만, 여러 AZ에 생성될 수는 있다.
 ## Subnet
 VPC의 IP를 그룹으로 분할하는 역할을 하는 추상적인 개념
 ## Route Table
