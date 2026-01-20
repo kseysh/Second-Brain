@@ -3,7 +3,8 @@
 ![[Pasted image 20260120111046.png|300]]
 Region > CPC > Subnet
 Region > AZ > Subnet
-=> S3, RDBㅇ
+=> S3, RDS의 경우 IGW를 거쳐야함 (S3는 AWS 네트워크 비용 발생)
+- 따라서 VPC Endpoint를 뚫어놓으면, 같은 리전의 경우 네트워크 통신 비용을 받지 않음
 ## Region 
 - AWS 서비스를 제공하는 도시의 이름과 코드
 - 하나의 리전은 최소 2개 이상의 AZ를 제공 (가용성을 위함)
