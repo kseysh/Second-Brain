@@ -7,12 +7,4 @@
 
 ## Policy
 권한을 부여하는 문서 (Json으로 되어 있음)
-
-
-## 우리가 가지고 있는 권한
-- EC2FullAccess
-- RDSFullAccess
-- S3FullAccess
-- VPCFullAccess
-- CloudWatch
-- ComputingAdditinalPolicy
+허용 또는 거부를 설정할 수 있음
