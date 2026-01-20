@@ -3,6 +3,7 @@
 ![[Pasted image 20260120111046.png|300]]
 Region > CPC > Subnet
 Region > AZ > Subnet
+=> S3, RDBㅇ
 ## Region 
 - AWS 서비스를 제공하는 도시의 이름과 코드
 - 하나의 리전은 최소 2개 이상의 AZ를 제공 (가용성을 위함)
@@ -23,6 +24,8 @@ EC2를 실행하기 위해 정의하는 가상의 사설네트워크 망 (외부
 ## Subnet
 VPC의 IP를 더 작은 그룹으로 분할하는 역할을 하는 추상적인 개념
 public / private로 만든다.
+## Internet GateWay (IGW)
+VPC로 들어올 수 있도록 하는 NAT
 
 ### public
 인터넷 연결 가능
@@ -30,5 +33,6 @@ public / private로 만든다.
 인터넷 연결 불가능
 Internet GateWay 경로가 없으며, 필요시 NAT Gateway를 통해 우회 접속해야 함
 안전하게 DB같은 경우 private subnet을 이용
+public보다 private 서브넷을 많이 활용하는 것이 권장됨.
 ## Route Table
 
