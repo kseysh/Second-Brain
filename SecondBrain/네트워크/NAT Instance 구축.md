@@ -25,8 +25,17 @@ ip route get 8.8.8.8
 ```
 ### IP 마스커레이딩 설정
 private Subnet에서 온 패킷이 이 인스턴스의 공인 IP를 달고 나가도록 설정 (NAT)
+설정 영구 저장
 ```
 # ens5 부분을 위에서 확인한 본인의 인터페이스 이름으로 변경해야함
 iptables -t nat -A POSTROUTING -o ens5 -j MASQUERADE
+
+apt-get update
+apt-get install iptables-persistent -y
+
+netfilter-persistent save
 ```
 ### 라우팅 테이블 수정
+private subnet의 트래픽이 nat instance를 향하도록 aws vpc 라우팅 수정
+대상: 0.0.0.0/0
+타겟: NAT Instance
