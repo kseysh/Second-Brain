@@ -17,4 +17,4 @@
 설정한 retry 횟수를 초과하여 메시지를 받았는데 삭제되지 않고 남아있다면 처리 실패 큐로 보낸다.
 
 ### SQS의 통신 방식
-SQS는 pull 방식으로, Spring Boot에서 SQS를 사용하고자 하면 Long Polling을 이용해 SQS의 데이
+SQS는 pull 방식으로, Spring Boot에서 SQS를 사용하고자 하면 Long Polling을 이용해 SQS의 데이터를 감지하고 가져온다.
