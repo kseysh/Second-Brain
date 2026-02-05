@@ -1,0 +1,1 @@
+MSA 시 비동기 처리를 할 때, Queue를 사용하고, 동기 처리를 할 때, Load Balancer를 사용한다.
