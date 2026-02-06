@@ -12,6 +12,6 @@ FROM amazoncorretto:17 -> FROM amazoncorretto:17-alpine
 
 ### 멀티스테이지 빌드
 Intellij를 하나의 컨테이너라고 보면, Java를 실행하는데 필요한 파일은 .jar 파일 하나뿐이지만, 불필요하게 .java 및 .class 파일이 포함되어 있다고 생각할 수 있다.
-따라서 우리는 Intellij에서 빌드한 결과물인 .jar 파일 하나만을 Docker Container로 옮기는 방식을 멀티 스테이지 빌드라고 한다.
+따라서 우리는 빌드한 결과물인 .jar 파일 하나만을 Docker Container로 옮기는 방식을 멀티 스테이지 빌드라고 한다.
 
 멀티 스테이지 빌드는 빌드 
