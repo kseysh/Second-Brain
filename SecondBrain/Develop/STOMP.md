@@ -44,8 +44,10 @@ STOMP 프로토콜을 사용하여 메시지 브로커 기능을 활용하기 �
 ## STOMP Interceptor
 - `HandshakeInterceptor`: 웹소켓 연결이 맺어지기 전, HTTP 레벨에서 가로채는 역할
 	- `ws://` 역할이 들어왔을 때, TCP 연결을 맺기 직전에 실행. 아직 STOMP 프로토콜이 시작되지 않은 순수 HTTP 상태
+	- 예외 발생시 그냥 Socket Close를 진행하여 프론트엔드에게 에러 내용을 알릴 수 없다.
 - `ChannelInterceptor`: 웹소켓 연결 후, STOMP 메시지 레벨에서의 인터셉터
 	- 클라이언트가 주고받는 실제 STOMP 프레임 (CONNECT, SEND, SUBSCRIBE)을 가로챈다.
+	- 예외 발생시 서버가 ERROR 프레임을 내려줄 수 있다.
 ## in 배민..
 커맨드가 많을수록 코드상에서의 분기가 늘어나고 다양한 요청들을 처리해야 하기 때문에 복잡성이 늘어난다.
 REST API로 가능한 것들이 소켓 커맨드로 들어오는 일을 막는다.
