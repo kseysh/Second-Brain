@@ -18,3 +18,11 @@ STOMP 프로토콜을 사용하여 메시지 브로커 기능을 활용하기 �
 따라서 핸드셰이크는 들어올 수 있게 열어두고, 연결된 직후에 첫 번째 STOMP 프레임 헤더에 토큰을 실어서 인증한다.
 
 ## 유저가 첨삭 링크로 들어올 때, 서버에서 처리해야할 플로우
+1. HTTP 요청: 링크 유효성 확인 (`/api/v1/share-link/{shareLinkId}/permission`)
+2. STOMP 연결: 인증 및 리뷰어 정원 초과 확인
+	1. ChannelInterceptor(preSend method) 사용자 인증 구분
+	2. Frame 헤더에서 Authorization과 shareId 추출
+	3. Jwt에서 userId를 뽑아 Role 부여 (writer, reviewer)
+3. 구독: 해당 방 listening
+4. 입장 알림: 현재 접속자 상태 알림 및 데이터 동기화
+5. Reviewer 퇴장 처리: SessionDisconnectEvent 리스너를 구현하여, Redis에서 자리를 비워주기
