@@ -2,6 +2,20 @@ Simple Text Oriented Message Protocol로, 기존 Websocket 통신 방식을 좀 
 
 pub, sub의 개념으로 동작한다.
 
+클라이언트와 서버가 전송할 메시지 유형, 형식, 내용을 정의한다.
+
+Frame 기반의 프로토콜이며, 아래와 같은 형식을 가진다
+
+```
+COMMAND
+header1:value1
+header2:value2
+
+Body...^@
+```
+
+클라이언트는 Message를 전송하기 위해 SEND, SUBSCRIBE, COMMAND를 사용할 수 있다.
+
 ![[Pasted image 20260210212909.png]]
 
 
@@ -26,3 +40,9 @@ STOMP 프로토콜을 사용하여 메시지 브로커 기능을 활용하기 �
 3. 구독: 해당 방 listening
 4. 입장 알림: 현재 접속자 상태 알림 및 데이터 동기화
 5. Reviewer 퇴장 처리: SessionDisconnectEvent 리스너를 구현하여, Redis에서 자리를 비워주기
+
+## STOMP Interceptor
+- `HandshakeInterceptor`: 웹소켓 연결이 맺어지기 전, HTTP 레벨에서 가로채는 역할
+	- `ws://` 역할이 들어왔을 때, TCP 연결을 맺기 직전에 실행. 아직 STOMP 프로토콜이 시작되지 않은 순수 HTTP 상태
+- `ChannelInterceptor`: 웹소켓 연결 후, STOMP 메시지 레벨에서의 인터셉터
+	- 클라이언트가 주고받는 실제 STOMP 프레임 (CONNECT, SEND, SUBSCRIBE)을 가로챈다.
