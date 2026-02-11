@@ -14,7 +14,7 @@ header2:value2
 Body...^@
 ```
 
-클라이언트는 Message를 전송하기 위해 SEND, SUBSCRIBE, COMMAND를 사용할 수 있다.
+클라이언트는 Message를 전송하기 위해 SEND, SUBSCRIBE, UNSUBSCRIBE, COMMAND를 사용할 수 있다.
 
 ![[Pasted image 20260210212909.png]]
 
@@ -50,3 +50,7 @@ STOMP 프로토콜을 사용하여 메시지 브로커 기능을 활용하기 �
 커맨드가 많을수록 코드상에서의 분기가 늘어나고 다양한 요청들을 처리해야 하기 때문에 복잡성이 늘어난다.
 REST API로 가능한 것들이 소켓 커맨드로 들어오는 일을 막는다.
 메시지를 보내고 받는 본질만 남겨둔다.
+
+## STOMP Controller 코드
+@MessageMapping: 이 주소로 발행된 메시지를
+@SendTo: 이 주소를 구독한 사용자에게 전달
