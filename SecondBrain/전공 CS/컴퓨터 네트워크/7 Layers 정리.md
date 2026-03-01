@@ -39,9 +39,9 @@ Mac 주소(Physical adresses) 관리
 - Transport Layer - port
 	- `segment` (TCP에서의 패킷)
 	- `userdatagram` (udp에서의 패킷)
-	- `packet` (전체적인 transport layer에서의 패킷)
+	- `packet` (전체적인 transport layer에서의 패킷 - 엄밀히 말하면 아님)
 - Network Layer - ip
-	- `Datagram`
+	- `Datagram or packet`
 -  Data Link Layer - mac
 	- `frame`
 - Physical Layer
