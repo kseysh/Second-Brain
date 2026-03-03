@@ -11,3 +11,5 @@ Spring은 기본적으로 **Simple In-Memory Broker**를 제공한다.
 
 이러한 한계를 극복하기 위해 Spring은 **External Broker(외부 브로커)** 연동을 지원합니다.
 - **STOMP Broker Relay:** RabbitMQ, ActiveMQ와 같은 전문적인 메시지 브로커를 외부에 두고 연결합니다. 브로커 채널로 들어온 메시지를 외부 브로커로 넘기고(Relay), 외부 브로커가 클라이언트들에게 메시지를 분배하는 역할을 맡게 됩니다.
+
+## STOMP와 Message Broker의 차이
