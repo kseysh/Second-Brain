@@ -15,7 +15,6 @@ hello queue a
 SUBSCRIBE
 id:0
 destination:/queue/foo
-ack:client
 
 ^@
 ```
