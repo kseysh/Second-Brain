@@ -80,7 +80,7 @@ map.insert(pair<string, int>("식빵",5));
 ```
 
 ```cpp
-if(map.find(str) != map.end()) str이 있는지 찾을 때 사용하는 방법
+if(map.find(str) != map.end()) // str이 있는지 찾을 때 사용하는 방법
 ```
 
 # 시퀀스 사용 컨테이너 Case

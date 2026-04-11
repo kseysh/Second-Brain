@@ -2,7 +2,7 @@
 
 ## 선언
 ```cpp
-multiset<int> sets;
+multiset<int> sets; // 일반 set과 달리 중복 허용
 ```
 
 ## 삽입
