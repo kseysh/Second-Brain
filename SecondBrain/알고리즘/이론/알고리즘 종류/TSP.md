@@ -1,4 +1,5 @@
-외판원 순회 문제
+외판원 순회 문제 (모든 도시를 정확히 한 번씩만 방문하고 처음으로 되돌아오는 거대한 하나의 사이클을 찾는 알고리즘)
+만약, 외판원이 돌아오지 않는다면 해밀턴 경로라고 하지만, 그래도 문제 푸는 방식은 거의 같다.
 ### 시간 복잡도
 O(2<sup>N</sup> * N<sup>2</sup>) (N의 범위가 16 이하로 주어지면 의심하자)
 
@@ -38,6 +39,7 @@ public class Main {
         // dp[현재도시][방문상태]
         dp = new int[N][(1 << N)];
         for (int i = 0; i < N; i++) {
+	        // 아직 방문하지 않은 상태를 -1로 초기화
             Arrays.fill(dp[i], -1);
         }
 
@@ -51,9 +53,11 @@ public class Main {
             // 출발지(0번)로 돌아갈 수 있는지 확인
             if (W[now][0] == 0) return INF;
             return W[now][0];
+            // 해밀턴 문제라면 return 0;하고 끝남
         }
 
         // 이미 계산한 적이 있다면 반환
+        // 이게 없으면 그냥 완전 탐색이 되어버림
         if (dp[now][visited] != -1) {
             return dp[now][visited];
         }
@@ -68,6 +72,7 @@ public class Main {
             }
 
             // 최소 비용 갱신
+            // 현재까지의 최소 비용과 다음 도시로 이동했을 때의 결과 중 작은 값을 선택
             dp[now][visited] = Math.min(dp[now][visited], tsp(next, visited | (1 << next)) + W[now][next]);
         }
 
