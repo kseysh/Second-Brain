@@ -80,3 +80,50 @@ public class Main {
     }
 }
 ```
+
+```java
+static final int EMPTY = 0;
+    static final int INF = 16_000_000;
+    static int n;
+    static int[][] w;
+    static int[][] dp;
+
+    public static void main(String[] args) throws IOException {
+        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+
+        n = Integer.parseInt(br.readLine());
+        w = new int[n][n];
+        dp = new int[n][1 << n];
+
+        StringTokenizer st;
+        for(int i = 0; i < n; i++){
+            st = new StringTokenizer(br.readLine());
+            for(int j = 0; j < n; j++){
+                w[i][j] = Integer.parseInt(st.nextToken());
+            }
+            Arrays.fill(dp[i], EMPTY);
+        }
+
+        System.out.println(tsp(0, 1));
+    }
+
+    static int tsp(int now, int visited){
+        if(visited == (1 << n) - 1){
+            if(w[now][0] == EMPTY) return INF;
+            return w[now][0];
+        }
+
+        if (dp[now][visited] != EMPTY) {
+            return dp[now][visited];
+        }
+        dp[now][visited] = INF;
+
+        for(int i = 0; i < n; i++){
+            if(w[now][i] == EMPTY) continue; // 갈 수 없는 곳은 제외
+            if((visited & (1 << i)) != 0) continue; // 이미 방문한 곳은 제외
+            dp[now][visited] = Math.min(dp[now][visited], tsp(i, visited | (1 << i)) + w[now][i]);
+        }
+
+        return dp[now][visited];
+    }
+```
