@@ -127,3 +127,5 @@ static final int EMPTY = 0;
         return dp[now][visited];
     }
 ```
+
+[[boj 24042]]
