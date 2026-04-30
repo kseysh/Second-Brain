@@ -43,3 +43,18 @@ temp라는 임시 테이블을 사용해서 **장시간 걸리는 쿼리의 결
 > 하지만 with절을 너무 많이 사용하여 같은 시간에 여러 개의 with절을 동시에 돌리면 임시테이블이 견딜 수 있는 정도를 넘어가 다같이 느려진다는 단점이 있다.
 ### 단점
 가상의 테이블을 생성하는 쿼리로, 메모리를 차지한다는 단점이 있다.
+
+## WITH RECURSIVE (재귀 쿼리)
+자기 자신을 참조하여 루프를 도는 방식
+
+```sql
+WITH RECURSIVE Calendar AS (
+    SELECT '2022-01-01' AS DT -- Start Date
+    UNION ALL
+    SELECT DATE_ADD(DT, INTERVAL 1 DAY) 
+    FROM Calendar 
+    WHERE DT < '2022-01-31' -- End Condition
+)
+SELECT * FROM Calendar;
+```
+특정 달의 1일 부터 말일까지의 날짜를 생성해야 할 때 유용
