@@ -58,3 +58,19 @@ WITH RECURSIVE Calendar AS (
 SELECT * FROM Calendar;
 ```
 특정 달의 1일 부터 말일까지의 날짜를 생성해야 할 때 유용
+
+## 주의할 점
+여러 개를 정의할 때는 쉼표로 연결한다.
+```sql
+WITH ROOT_IDS AS (
+    SELECT ID FROM ECOLI_DATA WHERE PARENT_ID IS NULL
+), -- 쉼표로 연결
+SECOND_IDS AS (
+    SELECT ID FROM ECOLI_DATA 
+    WHERE PARENT_ID IN (SELECT ID FROM ROOT_IDS)
+) -- 여기서 WITH를 또 쓰지 않음
+SELECT ID
+FROM ECOLI_DATA
+WHERE PARENT_ID IN (SELECT ID FROM SECOND_IDS)
+ORDER BY ID;
+```
