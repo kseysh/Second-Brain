@@ -17,8 +17,13 @@ GROUP BY와 달리 행의 수를 줄이지 않으면서 집계 데이터를 각 
 동일한 값이면 중복 순위를 부여하고, 다음 순위는 중복 순위와 상관없이 순차적으로 반환한다
 1,2,2,3 등으로 순위를 매긴다.
 
-## NTITLE(NUM)
+## NTILE(N)
 
-```
-NTILE
+전체 데이터를 정렬 후 균등한 n개의 그룹으로 나누어 등급을 부여하는 방식
+## 예제
+```SQL
+SELECT CASE NTILE(2) OVER (ORDER BY SIZE DESC)
+	WHEN 1 THEN '~'
+	WHEN 2 THEN '~'
+END AS NAME
 ```
