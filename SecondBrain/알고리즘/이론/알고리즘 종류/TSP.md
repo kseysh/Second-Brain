@@ -15,6 +15,7 @@ DP + 비트마스킹
 ### DP
 `dp[now][visited]` 
 => 현재 now 도시에 있고, 지금까지 방문한 도시 집합이 visited일 때, 나머지 도시들을 모두 방문하고 다시 출발점으로 돌아가는 데 드는 최소 비용
+=> `dp[now][visited]`가 뜻하는 건 "그 상태부터 끝까지 남은 구간의 비용
 
 ```java
 import java.util.*;
